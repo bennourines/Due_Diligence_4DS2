@@ -8,7 +8,12 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # ------------------- Configuration and Setup -------------------
 logging.basicConfig(level=logging.INFO, 
-                    format="%(asctime)s - %(levelname)s - %(message)s")
+                    format="%(asctime)s - %(levelname)s - %(message)s",
+                    handlers=[
+        logging.StreamHandler(),  # This handles terminal logging
+        logging.FileHandler('scraper.log')  # This adds file logging
+        ]
+    )
 
 # Configure Chrome to download files to the current directory
 options = webdriver.ChromeOptions()
@@ -74,7 +79,7 @@ def process_current_page(page_num):
                 continue
 
             # Wait briefly for the download to initiate or for a redirection to occur
-            time.sleep(3)
+            time.sleep(1)
             new_url = driver.current_url
 
             # If the click caused a redirection, navigate back and skip the row
@@ -86,7 +91,7 @@ def process_current_page(page_num):
             else:
                 logging.info(f"Page {page_num}, Row {i+1}: Download initiated (no redirection).")
                 # Wait longer if needed for the download process
-                time.sleep(6)
+                time.sleep(2)
 
         except Exception as e:
             logging.warning(f"Page {page_num}, Row {i+1}: Exception encountered: {e}. Skipping to next row.")
@@ -98,7 +103,7 @@ try:
     process_current_page(page_num=1)
 
     # Loop through subsequent pages (adjust the range as needed)
-    max_page = 50  # For example, process pages 2 through 50
+    max_page = 504  # For example, process pages 2 through 504
     for page in range(2, max_page + 1):
         try:
             # Adjust the XPath below to match your pagination structure.
