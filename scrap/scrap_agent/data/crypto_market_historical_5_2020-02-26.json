@@ -1,0 +1,535 @@
+{
+    "stocks": [
+        {
+            "name": "CAC 40 ",
+            "price": 8090.99,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -0.78
+        },
+        {
+            "name": "France 40 Futures",
+            "price": 8084.0,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -0.62
+        },
+        {
+            "name": "US 500 ",
+            "price": 6013.3,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.0
+        },
+        {
+            "name": "S&P 500 VIX Futures",
+            "price": 17.85,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -2.46
+        },
+        {
+            "name": "DAX ",
+            "price": 22421.36,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.6
+        },
+        {
+            "name": "S&P 500 ",
+            "price": 6012.68,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -0.01
+        },
+        {
+            "name": "Dow Jones ",
+            "price": 43595.82,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.39
+        },
+        {
+            "name": "ACB",
+            "price": 8.11,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -2.76
+        },
+        {
+            "name": "META",
+            "price": 669.97,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -1.99
+        },
+        {
+            "name": "AMZN",
+            "price": 214.16,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -1.12
+        },
+        {
+            "name": "AAPL",
+            "price": 247.94,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.97
+        },
+        {
+            "name": "TSLA",
+            "price": 334.74,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -0.91
+        },
+        {
+            "name": "SOGN",
+            "price": 37.85,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.05
+        },
+        {
+            "name": "TTEF",
+            "price": 58.06,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -0.1
+        },
+        {
+            "name": "EUR/USD ",
+            "price": 1.0475,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.16
+        },
+        {
+            "name": "EUR/CHF ",
+            "price": 0.9391,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.03
+        },
+        {
+            "name": "GBP/USD ",
+            "price": 1.2633,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.02
+        },
+        {
+            "name": "EUR/GBP ",
+            "price": 0.8292,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.17
+        },
+        {
+            "name": "EUR/TRY ",
+            "price": 38.1915,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.38
+        },
+        {
+            "name": "USD/CAD ",
+            "price": 1.4225,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.04
+        },
+        {
+            "name": "USD/JPY ",
+            "price": 149.75,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.31
+        },
+        {
+            "name": "Pétrole brut WTI Futures",
+            "price": 70.72,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.45
+        },
+        {
+            "name": "Pétrole Brent Futures",
+            "price": 74.32,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.36
+        },
+        {
+            "name": "Or Futures",
+            "price": 2964.41,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 0.38
+        },
+        {
+            "name": "Gasoil Londres Futures",
+            "price": 712.25,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -0.66
+        },
+        {
+            "name": "Nickel Futures",
+            "price": 15413.38,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -0.52
+        },
+        {
+            "name": "Argent Futures",
+            "price": 32.708,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -0.92
+        },
+        {
+            "name": "Gaz naturel Futures",
+            "price": 3.992,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": -3.32
+        },
+        {
+            "name": "TotalEnergies SE",
+            "price": 58.06,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "2,90M",
+            "circulating_supply": "NA",
+            "change": -0.1
+        },
+        {
+            "name": "Sanofi",
+            "price": 103.38,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "1,66M",
+            "circulating_supply": "NA",
+            "change": -0.71
+        },
+        {
+            "name": "Schneider Electric",
+            "price": 239.6,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "1,51M",
+            "circulating_supply": "NA",
+            "change": -6.92
+        },
+        {
+            "name": "Airbus Group",
+            "price": 164.34,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "1,17M",
+            "circulating_supply": "NA",
+            "change": 2.71
+        },
+        {
+            "name": "Safran",
+            "price": 242.9,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "799,36K",
+            "circulating_supply": "NA",
+            "change": -0.53
+        },
+        {
+            "name": "LVMH",
+            "price": 692.1,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "364,36K",
+            "circulating_supply": "NA",
+            "change": -1.47
+        },
+        {
+            "name": "Hermès International",
+            "price": 2694.0,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "58,28K",
+            "circulating_supply": "NA",
+            "change": -2.0
+        },
+        {
+            "name": "ADC SIIC",
+            "price": 0.0735,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "2,00",
+            "circulating_supply": "NA",
+            "change": 35.4
+        },
+        {
+            "name": "Speed Rabbit Pizza",
+            "price": 26.0,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "71,00",
+            "circulating_supply": "NA",
+            "change": 28.71
+        },
+        {
+            "name": "Invibes Advertising",
+            "price": 1.72,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "138,69K",
+            "circulating_supply": "NA",
+            "change": 21.13
+        },
+        {
+            "name": "Troc de l Ile",
+            "price": 3.14,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "21,00",
+            "circulating_supply": "NA",
+            "change": 20.77
+        },
+        {
+            "name": "Nicolas Miguet et Associes",
+            "price": 0.24,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "10,10K",
+            "circulating_supply": "NA",
+            "change": 20.0
+        },
+        {
+            "name": "Hopening",
+            "price": 8.3,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "1,00",
+            "circulating_supply": "NA",
+            "change": 18.57
+        },
+        {
+            "name": "Entreparticuliers",
+            "price": 0.62,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "14,22K",
+            "circulating_supply": "NA",
+            "change": 16.85
+        },
+        {
+            "name": "Azorean Aquatic Tech",
+            "price": 0.15,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "8,31K",
+            "circulating_supply": "NA",
+            "change": -37.5
+        },
+        {
+            "name": "Groupe Tera",
+            "price": 3.04,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "50,00",
+            "circulating_supply": "NA",
+            "change": -17.84
+        },
+        {
+            "name": "Courbet",
+            "price": 1.1,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "14,70K",
+            "circulating_supply": "NA",
+            "change": -15.38
+        },
+        {
+            "name": "Eduformaction",
+            "price": 0.332,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "103,00",
+            "circulating_supply": "NA",
+            "change": -13.99
+        },
+        {
+            "name": "Onlineformapro",
+            "price": 0.91,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "14,41K",
+            "circulating_supply": "NA",
+            "change": -13.33
+        },
+        {
+            "name": "Metavisio",
+            "price": 0.07,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "652,11K",
+            "circulating_supply": "NA",
+            "change": -12.66
+        },
+        {
+            "name": "Bd Multimedia",
+            "price": 1.0,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "3,86K",
+            "circulating_supply": "NA",
+            "change": -11.56
+        },
+        {
+            "name": "Atos",
+            "price": 0.0032,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "1,44B",
+            "circulating_supply": "NA",
+            "change": 0.0
+        },
+        {
+            "name": "Valneva",
+            "price": 3.854,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "2,51M",
+            "circulating_supply": "NA",
+            "change": 4.05
+        },
+        {
+            "name": "Air Liquide",
+            "price": 174.78,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "568,19K",
+            "circulating_supply": "NA",
+            "change": -2.03
+        },
+        {
+            "name": "Aaaaaaaa Aaaaaaaaa",
+            "price": 163.1,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 26.58
+        },
+        {
+            "name": "A Aa Aaaaaa",
+            "price": 90.82,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 25.89
+        },
+        {
+            "name": "Aaaaaaaaa",
+            "price": 58.06,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 25.72
+        },
+        {
+            "name": "Aaaa Aaa Aa A",
+            "price": 34.03,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 23.0
+        },
+        {
+            "name": "Aaaaaaaaaaaaaa Aa",
+            "price": 99.2,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 21.19
+        },
+        {
+            "name": "Aaa Aaaa",
+            "price": 91.9,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 20.88
+        },
+        {
+            "name": "Aaaaaaa Aa",
+            "price": 12.88,
+            "currencies": [],
+            "market_cap": "NA",
+            "volume": "NA",
+            "circulating_supply": "NA",
+            "change": 20.35
+        }
+    ]
+}
