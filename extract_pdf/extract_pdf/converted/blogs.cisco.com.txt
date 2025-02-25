@@ -1,0 +1,230 @@
+Cryptocurrency and Blockchain security due diligence: A guide to hedge risk - Cisco Blogs
+Skip to content
+Cisco Blogs
+/
+Security
+/
+Cryptocurrency and Blockchain security due diligence: A guide to hedge risk
+April 1, 2024
+Leave a Comment
+Security
+Cryptocurrency and Blockchain security due diligence: A guide to hedge risk
+16 min read
+Dr. Giannis Tziakouris
+Blockchain technology has experienced remarkable adoption in recent years, driven by its use across a broad spectrum of institutions, governments, retail investors, and users. However, this surge in blockchain use and cryptocurrency investment has raised concerns among governments and regulatory bodies. The decentralized nature and cross-border capabilities of blockchains, along with a rise in scams, hacking incidents, and other illicit activities have underscored the need for scrutiny. This concern is heightened by the absence of comprehensive regulatory measures.
+This blog provides guidance for both individuals and organizations on the essentials of risk due diligence when considering the adoption or investment in blockchains, cryptocurrencies, and tokens. It is important to note this guidance is
+not intended as financial advice
+. Instead, its main goal is to help users identify and steer clear of scams and investments that may entail substantial risks. Nevertheless, for financial advice that is customized to individual situations, readers are encouraged to seek the counsel of a qualified professional.
+The heightened risk associated with blockchain and cryptocurrencies for adopters and investors can be attributed to a general lack of understanding and transparency in relation to their cybersecurity aspects and dependability. Adding to this risk is the rise of unique attack types specific to the blockchain environment, which differ from traditional security issues. Blockchain security, by its very nature, often diverges from standard cybersecurity practices originating from its decentralized, immutable, and cryptographic nature.
+This divergence has led to the emergence of new threats that are not commonly known among many users. Examples include
+51% attacks
+,
+smart contract vulnerabilities
+,
+Finney attacks
+, and
+Vector76 attacks
+, which are not typically covered by conventional cybersecurity measures. Most attacks on blockchains revolve around smart contract and consensus mechanism exploitation which are not present in contemporary IT or OT centralized digital environments.
+To better emphasize the need for in-depth understanding of the security and reliability features of blockchains and cryptocurrencies, we’ll examine two real-world blockchain attacks. These attacks led to considerable financial repercussions, serving as cautionary tales about the potential risks involved. These incidents include the Poly Network
+Cross Chain Contract Exploitation
+and Ethereum Classic
+51% attack
+.
+Case 1: Poly Network Cross Chain Contract Exploitation
+The Poly Network hack occurred on the August 10, 2021, with $600 million stolen in more than 12 different cryptocurrencies. The hackers exploited a bug to mismanage access rights between two smart contracts handling token transfers between different bridged (linked) blockchains and divert the funds to three malicious wallet addresses.
+The attacker exploited the functionality “EthCrossChainData,” which records a list of public keys that authenticate the data coming from the blockchain, allowing the attacker to modify the list to match its own private keys and redirect funds to the selected malicious wallets. This kind of hacking incident might have been prevented with the implementation of thorough vulnerability assessments of the source code. A notable issue is the insufficient information provided to investors and adopters regarding the inherent risks associated with cross-chain transactions. These risks stem from the complex coding necessary to execute such operations, often not fully understood by those involved.
+Case 2: Ethereum Classic 51% Attack
+The Ethereum Classic blockchain suffered four “51% attacks,” in which a single entity gained control over most of the network’s computing power by introducing many network clients/nodes with high computational capacity overshadowing the computational power of legitimate nodes. This opened the door for adversaries to manipulate network transactions and steal Ethereum Classic coins. Investors and adopters are often unaware of the risks entailed in proof-of-work consensus mechanisms that facilitate low hashrates.
+The hashrate originates from the processing power of validator nodes that lend their computational power to validate and secure blockchain transactions. In the case of a low hashrate, attackers can exploit the network by overpowering it. This can have a significant impact for investors, as they can lose a significant amount of their money. Such incidences could be mitigated by monitoring the hashrate of the blockchain network to enforce proactive measures once the hashrate falls under a threshold, all while monitoring on-chain activity for double spend attempts.
+Blockchain Assessment Methodology
+Adopters, investors, and large organizations are primarily concerned with selecting digital assets that are reliable and secure to safeguard against the loss of value, whether through fraud or other unforeseen complications. Therefore, we’ll focus on presenting an empirical methodology to mitigate associated risks. It aims to guide the selection of reliable, and secure blockchains, cryptocurrencies and tokens, providing a framework for safer investment and adoption decisions.
+The proposed methodology centers around nine fundamental pillars: Blockchain Type, Consensus mechanism, Team, Whitepaper, Source code, Historical hacks and vulnerabilities, Wallet distribution, Governmental and Legal Scrutiny and Liquidity. Although the attributes currently used to assess blockchains and cryptocurrencies are deemed adequate, it is important to recognize that these criteria are likely to evolve alongside the progression of blockchain technology and cryptocurrencies. Future changes and enhancements in these technologies can be inferred from new features that developers introduce to blockchain systems and cryptocurrencies that are often described in their whitepapers or on GitHub pages.
+Blockchain Type
+Blockchain type refers to the access rights and degree of control that users have over a specific blockchain. There are four main types of blockchains:
+Public
+: Anyone can read and write (transact) on a public blockchain such as
+Bitcoin
+. This is the most accepted type of blockchain in terms of security and reliability as all stakeholders have visibility on all transactions and on-blockchain data. In most cases, public blockchains have also a high degree of decentralization, which minimizes attacks related to high-influence nodes in the network.
+Private
+: Only the owning organization(s) can read and write on the blockchain and, usually, only a handful of nodes can write on the ledger (e.g.,
+Hyperledger
+). Although such networks are usually faster than public blockchains, they are not transparent, and stakeholders can manipulate blocks at will to the extent that they can even impact the immutability of blockchain by altering previous transactions or delete blocks.
+Consortium
+: Like private blockchains, consortium blockchains (e.g.,
+Ripple
+) also offer little to no transparency and are often highly centralized. The only difference is that consortium blockchains compromised of multiple organizations instead of a single entity.
+Hybrid
+: Hybrid blockchains inherit architectural designs from public and private blockchains (e.g.,
+Komodo
+). The degree to what characteristics a hybrid blockchain inherits depends on a specific solution and its purpose. Usually, a large part of the activities and transactions take place on the background as part of a private ledger (blockchain), where the results of those activities are broadcasted on a public blockchain. While hybrid blockchains improve performance, they compromise the trustless and fully transparent nature of user-blockchain interactions. In these systems, users are required to place complete trust in the organization(s) overseeing the private components of the transactions.
+In evaluating blockchain risk levels, public blockchains typically present the lowest risk. Their open-source nature fosters transparency in their operations, making their processes and transactions more visible and accountable. Hybrid blockchains carry a moderately higher risk due to their semi-transparent nature, where not all elements are publicly accessible or controlled by users.
+Private and consortium blockchains represent the highest risk category. These blockchains require users to place complete trust in the controlling entities, as they lack the transparency and decentralization of public blockchains. This heightened risk is due to the potential for misuse or mismanagement by the controlling parties.
+To accurately determine the type of blockchain and mitigate risks, particularly when it comes to token (creation of crypto tokens can be created with minimal effort making them ideal for scams), it is advisable to adopt three methodologies:
+Analysis of the project’s website and associated whitepaper describing the crypto project to verify its value and reliability, an example would be the
+Ethereum whitepaper
+.
+Visit the GitHub page containing the source code of the cryptocurrency or token of interest to validate its opensource and transparent nature, such as
+Ethereum’s GitHub
+Use blockchain explorers to make sure that transactions in the blockchain of interest are visible and transparent to users. Websites like
+Blockchain.com
+can be used to explore transactions.
+Typically, all the mentioned sources should be accessible for public blockchain initiatives. If any of these sources is unavailable, the associated risks notably escalate.
+Consensus mechanism
+A consensus mechanism is a fault-tolerant algorithm used in blockchains to achieve agreements on a single state of the network among distributed processes or multi-agent systems, such as cryptocurrencies. Consensus mechanisms in cryptocurrencies are used by validating nodes (e.g., miners) to validate and accept transactions originating from decentralized computing agents. Four types of consensus mechanisms exist:
+Proof-Based (Pox):
+There are two main types of proof-based algorithms,
+proof-of-work (PoW)
+and
+proof-of-stake (PoS)
+.
+Proof-of-Work
+: A decentralized consensus mechanism that requires miners to use their computational power to validate transactions and mine new tokens in a blockchain network. This is achieved by solving an arbitrary mathematical puzzle that prevents fraud on the network. Proof-of-work is extensively used in cryptocurrency and is generally a secure method for validating blockchain transactions
+.
+However, the security and reliability of such networks are heavily reliant on the computational power (hash-rate) and decentralization degree of mining nodes. If the aggregated computation power of miners is low or highly centralized, it is possible that attackers overpower the security of the network and damage the integrity and reliability of a blockchain by manipulating transactions which can incur significant disruptions including loss of money.
+Proof
+-of-Stake: Like proof-of-work, mining nodes in proof-of-stake blockchains validate block transactions in a decentralized manner. However, instead of verifying transactions in proportion to the processing power a miner holds in this case is relative to the percentage of the total coins that a miner holds. Although, this improves energy consumption and lowers mining costs, it poses significant security risks in the case where a small number of mining nodes own the largest percentage of coins in a network or where the largest holders collude to manipulate the blockchain for profit, such as price manipulation or apply policies in a blockchain that will ultimately benefit the major stakeholders.
+DAG:
+Directed Acyclic Graphs (DAG) is an alternative to traditional consensus blockchain mechanisms that aims to improve speed, scalability and reduce costs. The main difference from other blockchains is on the data structure. Instead of storing data/transactions on a blockchain and passing this information to all the nodes in the network, DAG networks can perform point-to-point transactions without broadcasting it to the network for verification due to their tree-like structure and high-connectivity between nodes. Although DAGs are more effective than legacy blockchains, they are also vulnerable to several attacks that can damage the integrity of a network due to the low volume of authentications and transactions on the network, including manipulating nodes in the network, leaving them susceptible to various traditional networking, and blockchain-specific attacks.
+PBFT (Practical Byzantine Fault Tolerance):
+The main objective of PBFT algorithms is to decide whether to accept a piece of information that is submitted to a blockchain or not. Each node in the network maintains an internal state. When a node receives a transaction, they use the message in conjunction with their internal state to perform a computation. This computation will result into the decision about the message. The decision is then shared with other nodes in the network. The final decision is determined based on the total decisions from all nodes. Compared to proof-of-work, a high hash rate is not required for verification as PBFT relies on the number of nodes confirming a transaction. Once sufficient responses are reached, the transaction is verified as a valid transaction. Like proof-of-work, PBFT can be a secure medium for verification only when sufficient nodes exist in the network that are operated by different parties.
+The selection of a consensus mechanism Is a complex task, as each has its advantages and disadvantages in terms of security and reliability. In principle, proof-of-work is secure when a blockchain network is populated with many miners maintaining a high hash rate for verifications, making it restrictive for adversaries to use their own hash rate against the legitimate users and take over blockchain transactions.
+Websites such as
+Blockchain.com
+can provide information on the hash rate of various blockchains. In terms of proof-of-stake blockchains, they can only maintain their secure operations when there is a healthy distribution of the cryptocurrencies or tokens to various wallets and users (the method to audit crypto distributions is visited later in the paper). DAG mechanisms are very susceptible to man-in-the-middle attacks aiming to manipulate the integrity and availability of transactions. PBFT mechanisms are generally safe, but susceptible to attacks when small number of nodes operate in a blockchain network, allowing potential adversaries to implement attacks that can influence most of the network stakeholders, such as
+Sybil attacks
+, and make decisions for the entire network.
+Team
+This factor evaluates the openness of the team behind a blockchain, cryptocurrency or token. While blockchain and cryptocurrencies fundamentally support decentralized and semi-anonymous transactions, the anonymity of the development team can markedly raise the risk of monetary loss due to a lack of accountability. This anonymity heightens the danger of fraudulent activities such as rug-pulls or price manipulation.
+Reputable digital currency projects typically disclose their team’s identities and credentials, providing assurance to users and investors about the legitimacy of their project. It should be straightforward to research a crypto project’s team. Increased difficulty in finding information about the team substantially raises the risk associated with investing in or adopting the project. Basic research on a crypto team can be conducted using the following resources:
+Social Networks (LinkedIn, X, Instagram, Facebook, Reddit, etc.).
+YouTube
+Cryptocurrency-related forums and communities such as Bitcointalk and CryptoCompare.
+Podcasts and interviews with the operators.
+It is also important to consider how long the team has been operational. A shorter operational history suggests a higher risk. For instance, if all social media and YouTube content related to the team were created within the past five days, and there is little evidence of significant project development, this could indicate a potential rug-pull scenario.
+Whitepaper
+Whitepapers and roadmaps are crucial, serving as the bedrock for comprehending, assessing, and partaking in various crypto projects. A whitepaper serves as the foundational document, offering an in-depth exposition of the project’s technical underpinnings, its mission, the problem it intends to address. It covers the cryptocurrency’s technical aspects, consensus mechanism, security features and tokenomics, thus equipping potential investors and developers with a deeper understanding of the project. These documents are instrumental in fostering transparency, which in turn cultivates trust and credibility — essentials in a sector brimming with innovation and investment prospects. For investors, whitepapers and roadmaps are critical tools for evaluating risks and making decisions.
+As regulatory scrutiny escalates in the crypto world, whitepapers can signify a project’s dedication to regulatory compliance, an increasingly vital factor for long-term viability. A well-crafted whitepaper and roadmap thus empower investors and users to make informed choices, distinguish genuine projects from fraudulent ones, and engage with the crypto community more responsibly and knowledgeably.
+Whitepapers should be easily available in a project’s website, such as the whitepaper for
+Avalanche
+. A whitepaper that is not easily comprehensible or appears hastily assembled, a scenario now more plausible with generative AI, might indicate a dubious project.
+Source Code (GitHub)
+Checking a cryptocurrency project’s GitHub repository is vital for several reasons. It offers insight into the project’s development activity and the competence of its development team. By examining the frequency and quality of code commits, pull requests and issue discussions on GitHub, potential investors and users can gauge the project’s commitment to ongoing development and the team’s ability to deliver on their promises. A regularly updated and active GitHub repository is a positive sign, indicating that the project is actively maintained and progressing towards its goals.
+GitHub also provides a level of transparency and accountability that is essential in the cryptocurrency space. The open nature of GitHub allows anyone to scrutinize the codebase, which can reveal any vulnerabilities or security issues. It also enables the community to participate in code reviews, offer reports and bug fixes, and suggest improvements. This collaborative approach enhances the project’s security and reliability. Conversely, projects with closed or inactive repositories raise red flags, as they may be less transparent, or worse, potentially abandoned, or fraudulent. Obtaining access to GitHub repositories should be a simple as a google search. The highest the number of users interreacting with the code and the longer the time of existence for a project the highest the confidence should be.
+Historical hacks and vulnerabilities
+This attribute considers if a blockchain, cryptocurrency or token was compromised or is vulnerable to attacks. It is normal to find that a crypto project has been compromised at a point of time, however, the exploitation methodology used for these attacks and vulnerable code should be revised to ensure that the source code is patched and secured. In the case that a project is not concerned with vulnerability management and best security practices, it renders the project elevated risk due to a high likelihood of a future compromise.
+To determine if a project has a history of vulnerabilities and threats, a straightforward approach is to consult news outlets that specialize in reporting on these issues within the cryptocurrency sector. A prime resource for this information is
+Rekt
+, covering all reported exploitation across different blockchains and platforms. Additional sources that can also prove useful include
+Cointelegraph
+,
+CryptoSlate
+and
+Substack
+.
+Wallet Distribution
+The wallet holder distribution describes the number of coins or tokens held by each wallet for a specific project. This metric only applies for cryptocurrencies or tokens that are leveraging public or hybrid blockchains where the transactions are publicly accessible. If a wallet holds a large distribution of a cryptocurrency or token, there is a significant risk for network manipulation.
+Such information can be found in the respective blockchains of interest (e.g.,
+Etherscan
+for Ethereum) or in cryptocurrency and token price tracking tools such as
+CoinMarketCap
+. It’s important to remember that, in some cases, adversaries may split their holdings of tokens across multiple wallets to give the appearance of lower token accumulation in a network. It should be noted that addresses holding significant amounts of cryptocurrencies are often associated with exchanges or smart contracts. This is a typical scenario, and these addresses usually shouldn’t be factored into analytical assessments, unless there is reason to believe that an exchange or smart contract address is operating with malicious intent. Such nuances are crucial in accurately interpreting the distribution and concentration of tokens within a network.
+Governmental and Legal Scrutiny
+The exponential adoption of blockchain has seen severe scrutiny by governments and regulators around the globe. Such case is the lawsuit from the U.S. Securities and Exchange Commission
+against Ripple
+, accusing the defendant of conducting an $1.3 billion unregistered securities offering.
+Legal and governmental scrutiny can significantly increase the risks of investing and adoption due to potential loss of value. Such losses can be partial or complete in the case where a government orders a company to cease operations (in the case of a centralized crypto project). To minimize such risks, adopters and investors alike must warrant that their crypto project of interest is not a target of governmental and legal scrutiny. When vetting a cryptocurrency project, it’s crucial to consider the influence of certain governmental entities and organizations that play a significant role in shaping global legal frameworks and policies for cryptocurrencies. These key entities typically set the standards and regulations that impact the crypto industry, and consulting their guidelines and policies is an essential step in the evaluation process. These prominent bodies include:
+International Monetary Fund
+European Central Bank
+FATF
+Bank for International Settlements
+US Securities and Exchange Commission
+Another useful source to help the reader better understand the current efforts on cryptocurrency regulation in different jurisdictions is the
+cod3x,
+crypto council for innovation
+and
+Atlantic Council
+.
+Liquidity
+Liquidity plays a critical role in assessing the reliability of cryptocurrency and token projects. Low liquidity can significantly impede an investor’s ability to trade, particularly when trying to exit their position (sell). Additionally, it leaves the crypto project susceptible to price manipulation, as even a small amount of capital can drastically affect the price. This environment is ripe for schemes like pump-and-dump or rug-pulls. High liquidity, conversely, makes price manipulation more challenging, requiring substantial capital to impact the market meaningfully.
+However, it’s worth noting that low liquidity doesn’t always signify a lack of potential. While it often points to a newly conceived project lacking substantial backing, some major crypto projects began with limited liquidity and organically grew over time. Therefore, liquidity should be considered alongside other project features for a more comprehensive evaluation.
+To assess the liquidity of a crypto project,
+CoinMarketCap
+is a useful tool. Key metrics to focus on include the fully diluted market cap, which reflects the total value of the cryptocurrency if all coins were in circulation, and the circulating supply, indicating the currently available coins in the market. Extremely low values in either metric could pose significant risks. Additionally, if the circulating supply is a small fraction of the fully diluted market cap, it may indicate potential risk, as large releases of coins into circulation could lead to substantial price fluctuations and manipulation. Such details are often outlined in a project’s whitepaper and website and should be carefully reviewed.
+Auditing Use Cases
+To better demonstrate the use of the proposed auditing methodology and the need for due diligence in evaluating crypto projects, we will apply this framework to three hypothetical examples of cryptocurrencies and tokens. These cases will focus on public blockchains, as private or hybrid blockchains often function as “black boxes.” In such blockchains, there is limited transparency regarding their internal workings, thus requiring a higher degree of trust.
+Token “X”
+Coin “Y”
+Coin “Z”
+Blockchain Type
+Public
+Public
+Public
+Consensus Mechanism
+Proof-of-Work (high hash rate)
+Proof-of-Stake (low distribution)
+Proof-of-Work (low hash rate)
+Team
+Unknown
+Known
+Known
+Whitepaper
+Yes – Low quality, rushed, limited value
+Yes – good quality
+Yes – good quality
+Source Code
+(Git hub)
+Yes – Project created 10 days ago with only two accounts linked to the project
+Yes – more than 1,000 active users and developers
+Yes – more than 500 users and developers
+Historical hacks & Bugs
+No
+Yes – but vulnerabilities fixed
+Yes – 51% attacks
+Wallet Distribution
+80% belongs to 2 private wallet addresses
+40% belongs to a private wallet address
+Healthy distribution, first 40 addresses hold 11% of crypto
+Governmental and Legal Scrutiny
+N/A
+N/A
+N/A
+Liquidity
+$90,000
+$ 6,000,000
+$ 100,000,000
+Risks
+The team is unknown.
+Whitepaper shows no innovation and no substance.
+Limited financial backing.
+GitHub page exists for just two weeks with little following.
+Majority of the tokens are distributed in just two addresses, owned by the creators.
+A
+high-risk investment that can be susceptible to price manipulation or a rug-pull.
+Low liquidity combined with a consensus mechanism tied to stake ownership can allow threat actors to gain control over the network with a relatively small investment.
+The project appears reliable and promising, yet its low liquidity poses a risk to the security of its consensus mechanism.
+The network remains vulnerable to attacks due to its history of 51% hacks and ongoing low hash rate, with previous issues of adversaries overpowering the network not yet resolved.
+The project looks reliable; however, 51% attacks are still possible that can lead to loss of cryptocurrency.
+Conclusion
+The rapid expansion of blockchain technology has garnered attention and concern from governments due to its decentralized nature and regulatory challenges. There is still a need for companies to be aware of the risks posed by these technologies, including the threat of scams and unique blockchain vulnerabilities. We hope this post serves as a guide for safe adoption and investment, stressing the importance of professional advice for financial decisions. The aim is to educate a wide audience on navigating the complex landscape of blockchain technology safely and responsibly. Always seek expert guidance, stay updated with the latest developments, and prioritize security in your blockchain endeavors.
+We’d love to hear what you think. Ask a Question, Comment Below, and Stay Connected with Cisco Security on social!
+Cisco Security Social Channels
+Instagram
+Facebook
+Twitter
+LinkedIn
+Share
+Share:
+Authors
+Dr. Giannis Tziakouris
+Senior Incident Response Architect
+Cisco Talos
+Tags:
+cryptocurrency risks
+investment due diligence
+Cisco Cybersecurity Viewpoints
+Where security insights and innovation meet. Read the e-book, see the video, dive into the infographic and more...
+Get expert perspectives now
+Why Cisco Security?
+Explore our Products & Services
+Learn More
+CONNECT WITH US
