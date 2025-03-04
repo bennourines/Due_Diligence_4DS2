@@ -1,0 +1,337 @@
+ 
+ lseg.com/en/ftse -russell  November  2023  Ground Rules  
+Guide to the Vetting of 
+Digital Assets and Digital 
+Asset Exchanges  
+In association with Digital Asset Research  
+v1.7 
+ 
+ 
+ Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   2 of 13 Contents  
+ 
+Section 1 Introduction  ................................ ................................ ................................ ................................ .........................  3 
+Section 2 Management responsibilities  ................................ ................................ ................................ ..............................  4 
+Section 3 Exchange vetting and eligibility  ................................ ................................ ................................ ...........................  5 
+Section 4 Digital asset vetting and eligibility  ................................ ................................ ................................ .......................  8 
+Further information  ................................ ................................ ................................ ................................ ............................  12 
+ 
+ Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   3 of 13 Section 1  
+Introduction  
+ 
+1. Introduction  
+1.1 This document sets out the criteria for the vetting of digital assets and digital asset Exchanges used in the 
+calculation of the FTSE DAR Digital Asset Prices and the FTSE DAR Reference Prices. Copies of the Guide 
+to the Calculation of the FTSE DAR Digital  Asset Prices and the FTSE DAR Reference Prices are available 
+from www.lseg.com/en/ftse -russell/ . 
+1.1.1  A digital asset is a cryptographically secured digital Instrument for w hich issuance, transfer and ownership is 
+recorded on a data structure commonly referred to as a blockchain.  
+1.2 FTSE Russell  
+FTSE Russell is a trading name of FTSE International Limited, Frank Russell Company, FTSE Global Debt 
+Capital Markets Limited (and its  subsidiaries FTSE Global Debt Capital Markets Inc. and FTSE Fixed 
+Income Europe Limited), FTSE Fixed Income LLC, FTSE (Beijing) Consulting Limited, Refinitiv Benchmark 
+Services (UK) Limited, Refinitiv Limited and Beyond Ratings.  
+ Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   4 of 13 Section 2  
+Management responsibilities  
+ 
+2. Management responsibilities  
+2.1 FTSE International Limited (FTSE)1 
+2.1.1  FTSE is responsible for the calculation, production and operation of the FTSE DAR Reference Prices and is 
+the administrator of the FTSE DAR Reference Prices – Benchmark assets. The calculation of the FTSE 
+DAR Reference Prices is set out in the Guide to the  Calculation of the FTSE DAR Digital Asset Prices and 
+FTSE DAR Reference Prices available at www.lseg.com/en/ftse -russell/ . 
+2.1.2  The inputs to the calculation of the FTSE DAR  Digital Asset Prices and FTSE DAR Reference Prices are 
+drawn from eligible digital asset exchanges based on the criteria set out in this document.  
+2.2 Digital Asset Research  
+2.2.1  Digital Asset Research (DAR) is the calculation agent for the FTSE DAR Digital Asset  Prices. DAR 
+assesses the quality of market pricing data, qualifies pricing sources and supplies FTSE with price feeds.  
+2.2.2  DAR is an independent, privately -owned research firm and data provider which partners with FTSE Russell 
+in research into, and providing data on, digital assets.  
+2.2.3  DAR is responsible for the ongoing vetting of digital assets and of the Broker -Dealer/exchanges of digital 
+assets. DAR collects and validates the data it obtains as principal to ensure both digital assets and Broker -
+Dealer/exchange s of digital assets pass a strict set of rules.  
+2.3 Amendments to this document  
+2.3.1  This document shall be subject to regular review by FTSE to ensure that it continues to best reflect the aims 
+of the FTSE DAR Digital Asset Prices and the FTSE DAR Reference Prices .  
+ 
+ 
+1 The term administrator is used in this document in the same sense as it is defined in Regulation (EU) 2016/1011 of the European Parliament and of the Council of 8  June 2016 on 
+indices used as benchmarks in financial instruments and financial contracts or to measure the performance of investment funds  (the European Benchmark Regulation).  Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   5 of 13 Section 3  
+Exchange vetting and eligibility  
+ 
+3. Exchange eligibility criteria and digital asset pricing sources  
+3.1 Exchange eligibility criteria  
+3.1.1  In the absence of specific regulations or laws to specifically identify digital assets, FTSE will employ the 
+following rules to reflect what FTSE considers to be common practice in this emerging area of investment. 
+For the purposes of this document digital asset exchanges and Broker -Dealers are referred to as 
+‘Exchanges ’ (or ‘Exchange ’), even though many are not regul ated.  
+3.1.2  Exchanges are eligible as a digital asset pricing source for the FTSE DAR Reference Price files if they 
+qualify as either Watchlist or Participating via the Exchange Vetting Methodology defined below.  
+3.1.3  Watchlist Exchanges have met all the following cr iteria:  
+A. Regulatory, Governance and Institutional and Technical assessments  
+i. An Exchange ’s domicile does not restrict capital trading to foreign or international investors;  
+ii. An Exchange must be managed by companies with easily available and verified biographical 
+information on its executive leadership team;  
+iii. An Exchange must maintain a minimum average daily reported volume of $5,000,000USD each day 
+over the six -month period leading up to each quarterly review (see 3.2.1 );  
+iv. An Exchange must be a centrali sed spot exchange which is a centrali sed organi sation that facilitates 
+spot delivery transactions of underlying digital assets;  
+v. An Exchange ’s trading data is avai lable and allows for continuous delivery of trade prices and trading 
+volume data, including data fields which detail the asset pair, price, volume and accurate timestamp 
+for each trade. (FTSE relies upon DAR to source this data).  
+B. Comprehensive data science assessment  
+To ensure an Exchange is accurately reporting trading activity by real users and not reporting or 
+engaging in, or allowing users to engage in, non -economic trading. During each of the previous two 
+quarters, an Exchange  must pass tests that look at each of the following:  
+i. Trading needs to follow natural buy and sell patterns;  
+ii. Trading occurs at natural and expected lot levels.  
+iii. Exchanges must further pass 2 out of the 3 tests during each of the previous two quarters that lo ok at 
+the following:  
+1. Price data follows natural patterns that track with the market;  
+2. Trading volume data follows natural patterns that track with the market;  
+3. Order book data shows active and competitive behavior.  Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   6 of 13 3.1.4  Participating Exchanges have met all the  Watchlist criteria, as well as the following additional criteria:  
+A. Regulatory assessment  
+i. An Exchange operates within the laws of its domiciled country and does not knowingly violate any 
+local or international regulations applicable to it based on its loca tion, or the location of its permitted 
+users;  
+ii. An Exchange differentiates users based on geolocation which restricts uses in specific jurisdictions;  
+iii. An Exchange has obtained the relevant licensing and registrations for the jurisdiction(s) in which the 
+Exch ange maintains an office, is headquartered, or is otherwise registered to do business;  
+iv. An Exchange has complied with regulatory authorities for requests for information.  
+B. Governance and institutional assessment  
+i. Know Your Customer (KYC) and Anti -Money Laund ering (AML) controls which require, at a minimum, 
+that a user verify their name, email address, phone number, government issued identification and 
+bank account prior to using the platform;  
+ii. DAR and FTSE may request information around unusual or suspicious m arket activity and an 
+Exchange has agreed to provide;  
+iii. An Exchange may not be on any third -party sanctions lists;  
+iv. An Exchange must have a publicly listed fee schedule which is uniformly practiced and demonstrates 
+that the Exchange operates as a centrali sed, for-profit business;  
+v. An Exchange has no founded accusations of fraud or criminal charges against the Exchange or 
+leadership team;  
+vi. An Exchange provides open support communication channels to its users.  
+C. Technical assessment  
+i. No meaningful security lapse or breach in the last 12 months which resulted in the loss of client or 
+Exchange funds exceeding 1% of its total holdings;  
+ii. Have no known deficiencies in operational security;  
+iii. Have no significant downtime, defined as more than 24 cumulative hours in any one qu arter.  
+3.2 Digital Asset pricing sources  
+3.2.1  Loss of eligibility at quarterly review  
+DAR will evaluate the list of eligible Exchanges on a quarterly basis at each March, June, September and 
+December month end. In circumstances where an eligible Exchange fails the relevant inclusion criteria 
+during a quarterly review, the Exchange will be demoted to the Watchlist or the Enhanced Eligibility list (if a 
+Participating Exchange), demoted to the Penalty List (if a Watchlist Exchange) or disqualified according to 
+the crit eria failed. Eligibility of an Exchange will be assessed at the next quarterly review, unless on the 
+Enhanced Eligibility List. If an Exchange is on the Enhanced Eligibility list it will be assessed monthly.  
+In addition to the Exchange Vetting criteria out lined in Rules 3.1.3  and 3.1.4 , in the event that the executed 
+trade dat a from a Participating Exchange is no longer available for use in data or index products, the 
+Exchange may be demoted to the Watchlist with the provision of an appropriate notification.  
+3.2.2  Immediate loss of eligibility  
+In circumstances where pricing fidelity is in doubt (e.g. Rule 3.1.3 B), there is a significant security breach, 
+or some other deleterious event that questions the vali dity of an Exchange, then the Exchange may lose 
+eligibility.  
+The offending Exchange will be removed as a digital asset pricing source used in the calculation of the 
+FTSE DAR Digital Asset Prices and the FTSE DAR Reference Prices with immediate effect.  Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   7 of 13 3.2.3  Enhanced exchange eligibility process  
+An Exchange that has passed vetting and is an eligible Exchange may be assigned an Enhanced Eligibility 
+status if subsequent diligence reveals conflicting or new information that is material to the vetting process.  
+Excha nges assigned an Enhanced Eligibility status are vetted on a monthly basis and are subject to 
+evaluation by DAR and FTSE to determine whether they will remain on the eligible Exchanges list.  
+3.2.4  Penalty List  
+An exchange that fails certain vetting criteria, inc luding preliminary data science tests, is placed on the 
+Penalty List.  
+An exchange can be removed from the Penalty List and added to the eligible Exchanges list after the 
+following criteria are met:  
+i. One year must pass from the date on which an Exchange was  placed on the Penalty List;  
+ii. An Exchange must pass the Exchange Vetting Methodology criteria that is current at that time;  
+iii. An Exchange must provide satisfactory answers to the Due Diligence Questionnaire that is current at that 
+time;  
+iv. An Exchange must be approved by the DAR Review Committee.  
+At the discretion of the Review Committee, an exchange removed from the Penalty List may be placed on 
+Enhanced Eligibility status (see Rule 3.2.3 ). 
+3.2.5  Mergers and acquisitions of exchanges  
+Merger and acquisitions (M&A) activity may result in changes to the eligibility status of Exchanges. Any 
+changes to the eligibility of Exchanges resulting from M&A activity will be applied to the  FTSE DAR Digital 
+Asset Price after the action is determined to be final, typically in conjunction with the quarterly Exchange 
+vetting process and with the provision of an appropriate notification.  
+ Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   8 of 13 Section 4  
+Digital asset vetting and eligibility  
+ 
+4. Digital asset eligibility  
+4.1 FTSE DAR Digital Asset Prices  
+4.1.1  In order for a FTSE DAR Digital Asset Price to be calculated, a digital asset must meet the following 
+eligibility requirements:  
+i. Price determined by market (trading) activity and the assets are traded on Watch list and or Participating 
+Exchanges;  
+ii. A digital asset must trade on a minimum of three Exchanges which can be Watchlist Exchanges, 
+Participating Exchanges, or a combination of Watchlist and Participating Exchanges. If a FTSE DAR 
+Reference Price is already c alculated, the asset must trade on a minimum of two Exchanges which can 
+be Watchlist Exchanges or Participating Exchanges or a combination of Watchlist and Participating 
+Exchanges in order to continue to be included in the FTSE DAR Reference Price File. De tails of 
+Exchange vetting are provided in Section 3;  
+iii. A digital asset utili sing standardi sed cryptographic tools to guarantee legitimacy and security, for which 
+the issuance, transfer and ownership is recorded on a blockchain data structure;  
+iv. Digital assets  must be convertible to one of the following fiat or crypto currencies: USD, JPY, EUR, GBP, 
+BTC, ETH , USDT  or USDC . 
+4.1.2  Non-Benchmark Assets may be priced as Tier 1 or Tier 2.  
+A. Tier 2 assets are priced from a minimum of 3 Participating or Watchlist Exchanges, with a minimum of 1 
+Watchlist Exchange included as a pricing source.  
+B. In order for an asset to be a Tier 1, the asset must have been priced as Tier 2 for the immediate prior 
+quarter. Tier 1 assets are priced only from Participating Exchanges. To be priced as Tier 1, an asset 
+must meet the following Preliminary Trading Assessment:  
+i. Trade on a minimum of three Participating Exchanges for initial inclusion and a minimum of two 
+Participating Exchanges for previously classified assets;  
+ii. Over the previous two quarters the asset must pass any one of the following criteria:  
+1. The proportion of trades for a digital asset on Participating Exchanges must be greater than 10% 
+of the numbers of trades made on both Participating and Watchlist Exchanges for the said digita l 
+asset; or  
+2. The proportion of the traded volume for a digital asset on a Participating Exchange must be 
+greater than 10% of all traded volume on both Participating and Watchlist Exchanges for the said 
+digital asset; or  
+3. An average price correlation between all Exchanges of 0.5 or greater.  Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   9 of 13 4.1.3  Benchmark Assets have met all the criteria in Section 4.1.1  and 4.1.2 , as well as the following additional 
+criteria:  
+A. Must be priced as a Tier 1 asset.  
+B. Custody assessment  
+i. Robust custody, such that assets can be custodied either by: an approved institutional qu ality digital 
+asset custodian; an institutional quality Hardware Security Modules (HSMs); and/or software wallets 
+which allow for air -gapped cold storage, offline wallet generation, and offline transaction signing.  
+C. Codebase qualitative assessment  
+Each digi tal asset ’s Target Repository is determined and that codebase must pass the requirements:  
+i. Open Source Requirement: source code must be made publicly available;  
+ii. Compatible Open Source License: must use a standardi sed open source license;  
+iii. Distributed Version -Control System: must be able to track, authenticate and validate all codebase 
+changes;  
+iv. Full Attribution and Plagiarism Identification: must properly attribute software to its creators;  
+v. Secure Software Release: lead maintainers of its Target Repository mus t sign its releases;  
+vi. Base Layer Stability: underlying data structure must be blockchain;  
+vii. Client Accessibility: must be able to install on two of the following GNU/Linus, MacOS or Windows;  
+viii. Formali sed Vulnerability Reporting Workflows: users must be able to address bugs on a platform 
+such as GitHub.  
+D. Codebase quantitative assessment  
+Designed to identify digital asset project developer activity and effectiveness in the Target Repository.  
+i. Over the previous two quarters, a digital asset must pass any four of t he following criteria:  
+1. Commit -to-Contributor Threshold Requirement which is a minimum of 5 Contributors implement a 
+minimum of 5 total Commits; or  
+2. Open -to-Close -Issue Ratio Requirement which is a ratio lower than 0.5; or  
+3. Minimum Proposed Pull Request Requi rement which is a minimum of 5 Pull Requests proposed to 
+its Target Repository; or  
+4. Minimum Merged Pull Request Requirement which is a minimum of 2 Pull Requests merged to its 
+Target Repository.  
+E. Network security assessment  
+Designed to measure the security o f the underlying network that supports the digital asset.  
+i. Byzantine Fault -Tolerant Consensus, Proof -of-Work or Proof -of-Stake or Hybrid and sustain 
+consensus when 33% of participants are Byzantine actors;  
+ii. Open and Permissionless Access, no NDAs, access fee s or any form of legal agreement to join 
+network;  
+iii. Diverse validation quorum, must have 5 publicly identifiable validators.  
+F. Protocol security assessment  
+Designed to measure the security of the cryptographic tools used by a digital asset.  
+i. Compatible with Hie rarchical Deterministic Wallets, must use a protocol that is standardi sed and 
+replicates the functions described in BIP32 or BIP44;  Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   10 of 13 ii. Compatible with Mnemonic Passphrase Backups, must be based in BIP39;  
+iii. Standardi sed Signature Algorithm, signature algorithm m ust be approved by the National Institute of 
+Standards and Technology (NIST).  
+G. Liquidity assessment  
+Designed to measure the relationship between the price a digital asset can be sold for and its speed 
+of sale.  
+i. Free float (also referred to as circulating supply, represents the number of tokens issued through a 
+digital asset protocol that are currently available for trading as determined by DAR) must be 10% or 
+more of the total supply;  
+ii. Market capitali sation must be above USD 50,000,000 (calculat ed by outstanding assets by its price 
+as of cut -off date).  
+H. Regulatory assessment  
+i. Digital assets must not be subject to extraordinary surveillance or legal action by any regulatory body. 
+A digital asset which is a member of the eligible universe and becomes  subject to surveillance or legal 
+action by any regulatory body may have its eligibility revoked at the next rebalance.  
+4.2 FTSE DAR Reference Prices – Non-Benchmark Assets  
+4.2.1  If the calculation of a FTSE DAR Reference Price for a digital asset passes all of the criteria outlined 
+in 4.1.1 , the digital asset is deemed a Non -Benchmark Asset. The FTSE DAR Reference Prices – Non-
+Benchmark Assets are calculated for information, research and analysis purposes only. The FTSE DAR 
+Reference Prices – Non-Benchmark Assets are not, and are not intended to be, used by supervised entities 
+in the European Union or United Kingdom (as “use” is set out in article 3(1)(7) of the EU Benchmark 
+Regulation and the Council of 8 June 2016 on indices used as benchmarks in financial instruments and 
+financial contracts or to measure the performance of investment funds in the European Union) (the “EU 
+BMR ”) and accordingly, the EU BMR and the UK Benchmark  Regulation (The Benchmarks (Amendment 
+and Transitional Provision) (EU Exit) Regulations 2019 (which amends the European benchmark regulation 
+in the United Kingdom) does not apply to the FTSE DAR Reference Prices – Non-Benchmark Assets. 
+Consequently, super vised entities (as “supervised entities ” is set out in article 3(1)(17) of the EU BMR) 
+within the European Union and the United Kingdom are not permitted to use the FTSE DAR Reference 
+Prices – Non-Benchmark Assets as benchmarks as set out in article 3(1)(7 ) of the EU BMR.  
+4.3 FTSE DAR Reference Price – Benchmark Assets  
+4.3.1  If the calculation of a FTSE DAR Reference Prices for a digital asset sources prices entirely from 
+Participating Exchanges and passes all of the criteria outlined in Rules 4.1.1  and 4.1.2 , the digital asset is 
+deemed a Benchmark Asset. The FTSE DAR Reference Prices – Benchmark Assets can be used in the 
+European Union (as “use” is set out in article 3(1)(7) of the EU Benchmark Regulation and the Council of 8 
+June 2016 on indices used as benchmarks in financial instruments and financial contracts or to measure the 
+performance of investment funds in the European Union) (the “EU BMR ”). 
+4.4 Promotion or loss of eligibility  
+4.4.1  Normal loss of eligibility or promotion  
+A. A FTSE DAR Reference Price will cease to be calculated during the quarterly rebalance process if the 
+digital asset is found to be in violation, without rectification, of any of the listed eligibility requirements in 
+Rule 4.1.  
+B. A FTSE DAR Reference Price will promoted to a new market status, or a new asset can be added to the 
+FTSE DAR Reference Price, if the digital asset is meets the neces sary criteria for promotion during the 
+quarterly rebalance process.  Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   11 of 13 4.4.2  Immediate loss of eligibility or promotion  
+A. Under extraordinary circumstances, including security breaches (e.g. Rule 4.1.3  D and E), regulatory 
+action (e.g. Rule 3.1.4  C and 4.1.3  H), or identified fraud (e.g. Rule 3.1.4  d), which severely impairs the 
+value of an eligible digital asset, an asset may lose eligibility.  
+B. An asset that meets all requisite criteria may have its market status promoted intra -quarter if new 
+information regarding eligibility is made available.  
+C. A minimum two days ’ notice will be provided before the termination of the calculation or promotion in 
+market status of the FTSE DAR Reference Price.  
+4.5 Quarterly review of Digital Asset eligibility  
+4.5.1  The eligibility of the digit al assets is reviewed on a quarterly basis by DAR at each February, May, August 
+and November month end using data at the close of business seven business days prior to the last business 
+day of the review month (following the US market holiday calendar). An y changes to the eligibility of digital 
+assets will be effective after the close of business on the third Friday of March, June, September and 
+December.  
+ Guide to the Vetting of Digital Assets and Digital Asset Exchanges , v1.7, November 2023  
+FTSE Russell   12 of 13 Further information  
+ 
+Further information on the FTSE DAR Digital Asset Prices and the FTSE DAR Reference Prices is available from 
+FTSE Russell.  
+A Glossary of Terms used in FTSE Russell’s Digital Asset documents can be found using the following link:  
+Glossary_ -_Digital_Assets.pdf (ftserussell.com)  
+For contact details please visit the FTSE Russell website or contact FTSE Russell client services at 
+info@ftserussell.com .  
+Website: www.lseg.com/en/ftse -russell/  
+  
+Disclaimer  
+© 202 4 London Stock Exchange Group plc and its applicable group undertakings (“LSEG”). LSEG includes (1) FTSE International Limited (“FTSE”), (2) Frank Russell Company 
+(“Russell”), (3) FTSE Global Debt Capital Markets Inc. and FTSE Global Debt C apital Markets Limited (together, “FTSE Canada”), (4) FTSE Fixed Income Europe Limited (“FTSE FI 
+Europe”), (5) FTSE Fixed Income LLC (“FTSE FI”), (6) FTSE (Beijing) Consulting Limited (“WOFE”), (7) Refinitiv Benchmark Serv ices (UK) Limited (“RBSL”), (8) Re finitiv Limited (“RL”) 
+and (9) Beyond Ratings S.A.S. (“BR”). All rights reserved.  
+The FTSE DAR Digital Asset Prices and the FTSE DAR Reference Prices are calculated by or on behalf of FTSE International Limited or its affiliate, agent or partner. FTSE Inte rnational 
+Limited is authorised and regulated by the Financial Conduct Authority as a benchmark administrator. Refinitiv Benchmark Services (UK) Limited is authorised and regulated by the 
+Financial Conduct Authority as a benchmark administrator.  
+FTSE Russe ll® is a trading name of FTSE, Russell, FTSE Canada, FTSE FI, FTSE FI Europe, WOFE, RBSL, RL and BR.  “FTSE®”, “Russell®”, “FTSE Russell®”, “FTSE4Good®”, “ICB®”, 
+“WMR ™”, “FR ™”, “Beyond Ratings®” and all other trademarks and service marks used herein (wheth er registered or unregistered) are trade marks and/or service marks owned or 
+licensed by the applicable member of LSEG or their respective licensors and are owned, or used under licence, by FTSE, Russel l, FTSE Canada, FTSE FI, FTSE FI Europe, WOFE, 
+RBSL, R L or BR.  
+All information is provided for information purposes only. All information and data contained in this publication is obtained by LSEG, from sources believed by it to be accurate and 
+reliable. Because of the possibility of human and mechanical inaccuracy as well as other factors, however, such information a nd data is provided "as is" without warranty of any kind. No 
+member of LSEG nor their respective directors, officers, employees, partners or licensors make any claim, prediction, warrant y or representation whatsoever, expressly or impliedly, 
+either as to the accur acy, timeliness, completeness, merchantability of any information or LSEG Products, or of results to be obtained from the use  of LSEG products, including but not 
+limited to indices, rates, data and analytics, or the fitness or suitability of the LSEG produ cts for any particular purpose to which they might be put. The user of the information assumes 
+the entire risk of any use it may make or permit to be made of the information.  
+No responsibility or liability can be accepted by any member of LSEG nor their re spective directors, officers, employees, partners or licensors for (a) any loss or damage in whole or in 
+part caused by, resulting from, or relating to any inaccuracy (negligent or otherwise) or other circumstance involved in proc uring, collecting, compili ng, interpreting, analysing, editing, 
+transcribing, transmitting, communicating or delivering any such information or data or from use of this document  or links t o this document or (b) any direct, indirect, special, consequential 
+or incidental damages wha tsoever, even if any member of LSEG is advised in advance of the possibility of such damages, resulting from the use of, or i nability to use, such information.  
+No member of LSEG nor their respective directors, officers, employees, partners or licensors pr ovide investment advice and nothing in this document should be taken as constituting 
+financial or investment advice. No member of LSEG nor their respective directors, officers, employees, partners, or licensors  make any representation regarding the advisab ility of 
+investing in any asset or whether such investment creates any legal or compliance risks for the investor. A decision to inves t in any such asset should not be made in reliance on any 
+information herein. Indices and rates cannot be invested in dire ctly. Inclusion of an asset in an index or rate is not a recommendation to buy, sell or hold that asset nor confirmation that  
+any particular investor may lawfully buy, sell or hold the asset or an index or rate containing the asset. The general information  contained in this publication should not be acted upon 
+without obtaining specific legal, tax, and investment advice from a licensed professional.   
+ 
+ 
+ 
+13 of 13  
