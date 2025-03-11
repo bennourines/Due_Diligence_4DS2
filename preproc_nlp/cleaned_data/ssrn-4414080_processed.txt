@@ -1,0 +1,2072 @@
+--- Page 1 ---
+
+Spectral Risk for Digital Assets
+Meng-Jou Lua,∗, Mat´uˇs Horv´athb, Xingjia Wangc, Wolfgang Karl H¨ardlec,d,e,f,g
+aDepartment of Finance, Asia University, Taichung, TW
+bDepartment of Finance, Masaryk University, Brno, CZ
+cBRC Blockchain Research Center, Humboldt Universit¨at zu Berlin, Berlin, DE
+dDept Mathematics and Physics, Charles University, Prague, CZ
+eDept Information Management and Finance, National Yang Ming Chiao Tung U, Hsinchu, TW
+fSim Kee Boon Institute, Singapore Management University, Singapore, SG
+gACI Asia Competitiveness Institute, National University Singapore, Singapore, SG
+Abstract
+Digital assets (DAs) are a unique asset class that presents investors with opportunities and risks
+that are contingent upon their particular characteristics such as volatility, type, and profile, among
+other factors. Among DAs, cryptocurrencies (CCs) have emerged as the most liquid asset class,
+holding this distinction for almost a decade. However, while CCs offer a high level of liquid-
+ity, investors must be aware of the potential risks and rewards associated with investing in this
+asset class, and should conduct a thorough evaluation before making any investment decisions.
+Our study examines the risk profile of CCs through portfolio analysis, utilizing Spectral Risk
+Measures (SRMs) as the commonly applied method. In this study, we investigate the application
+of SRMs in assessing the risk structure of CC portfolios, and their alignment with investors’
+risk preferences. We employ SRMs to evaluate the CC index CRIX and portfolios constructed
+from the most liquid 10 CCs from the Blockchain Research Center (BRC), optimizing different
+SRMs.Our empirical findings suggest that various optimal portfolio allocations can be formu-
+lated to meet the unique risk appetites of individual investors. All Quantlets (macros, code
+snippets) are available via quantlet.com and instructive educational element are available on
+quantinar.com.
+Keywords: Spectral Risk Measure, Value-at-Risk, Expected Shortfall, Digital Assets, CRIX,
+Portfolio
+JEL classification: G11, G32
+⋆Acknowledgements: Research supported through DFG IRTG 1792; the Czech Science Foundation’s
+grant no. 19-28231X / CAS XDA 23020303; the Yushan Fellowship, TW and the Masaryk University
+internal grant No. MUNI/A/1173/2022 Alternative approaches to portfolio theory. Computational resources
+were provided by the e-INFRA CZ project (ID:90140), supported by the Ministry of Education, Youth and
+Sports of the Czech Republic.
+∗Corresponding author
+Email address: mangrou@gmail.com (Meng-Jou Lu)
+Preprint submitted to Review of Quantitative Finance and Accounting
+April 28, 2023
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 2 ---
+
+1. Introduction
+Cryptocurrencies (CCs) have gained prominence among Digital Assets (DAs) as
+the most liquid asset class, maintaining this position for nearly ten years (Trimborn and
+H¨ardle, 2018). Additionally, CCs have become an increasingly appealing asset class
+for institutional asset managers and private investors alike in recent years. As more
+investors add CCs to their portfolios, it has become crucial to understand the potential
+downside risks associated with this asset class. To address this need, this study employs
+portfolio selection techniques that minimize quantile-based risk measures, in response
+to the rapid growth and evolution of the CC market.
+The focus of this study is a broad class of quantile-based risk measures that can be
+expressed as a weighted average of quantiles from the return probability distribution.
+These measures, known as spectral risk measures (SRMs), are capable of capturing
+both value-at-risk (VaR) and expected shortfall (ES) as special cases. This approach
+is based on previous work by Acerbi (2002, 2004), and allows for a comprehensive
+evaluation of the risk structure of investments. A special case for a probability level of
+α is VaR1−α the quantile of the P&L (Profit&Loss) that employs a degenerate weighting
+function: the Dirac delta. By contrast, ES 1−α is another SRM that uses a simple step
+weighting function equal to 1/α for all tail quantiles and 0 for all others. VaR has been
+extensively studied in financial literature and is widely used as a risk management
+tool in the industry (Weiß, 2013; M¨ogel and Auer, 2018; Simlai, 2021). Despite its
+popularity, VaR has been found to have several limitations, with the most significant
+being that, as per the terminology introduced by Artzner (1997), it is not a coherent
+measure of risk due to its general lack of subadditivity (M¨ogel and Auer, 2018). It
+is worth noting that only a particular subset of risk measures satisfy the axiomatic
+conditions necessary for a proper risk measure.
+The advantage of SRM is that conveniently fits investors’ preferences. Examples
+are exponential and power utilities, as introduced by Dowd and Blake (2006) that link
+SRMs with investors preferences. However, these models have been found to possess
+certain properties that can pose challenges when applied to practical risk management.
+Despite these limitations, it has been demonstrated that the exponential utility func-
+2
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 3 ---
+
+tion may be a viable option under certain circumstances, as originally proposed by
+B¨uhlmann (1980). However, the choice of utility function and the determination of
+corresponding risk aversion profiles depend on the specific asset at hand.
+In this study we concentrate on portfolio allocation of CCs, whereby the weights
+are determined through the minimization of SRM. Through the exploration of various
+parameters, this research investigates the characteristics of the portfolios that result
+from different parameter values. Additionally, the study provides an overview of SRMs
+and examines their relationship to investors’ preferences. To ensure the accuracy and
+reliability of our results, we adopt a rolling window methodology with rebalancing
+intervals of 30 days on a monthly basis, which is aligned with the rebalancing frequency
+of the CRIX index. Additionally, we conduct the same analysis using longer intervals
+of 90 days on a quarterly basis, as well as shorter intervals of 14 days on a bi-weekly
+basis, to further strengthen the robustness of our findings. To evaluate the performance
+of each portfolio, we utilize a range of out-of-sample performance metrics, including
+Turnover (TO), Target Turnover (TTO), Cumulative Wealth (CW), Standard Deviation
+(SD), Sharpe Ratio (SR), and Calmar Ratio (CR). We compare the outcomes of the
+portfolios based on these measures.
+This research paper offers three main contributions to the existing financial litera-
+ture on risk management. Initially, we propose an approach to determine the optimal
+weights for a portfolio of CCs by minimizing quantile-based risk measures. To the
+best of our knowledge, these have not been previously addressed in the published lit-
+erature. We emphasize the importance of aligning the chosen risk measure with the
+risk preference of the investor, and suggest that SRMs are particularly suited for this
+purpose. SRMs incorporate the investor’s level of risk aversion and enable practition-
+ers to construct portfolio allocations that cater to the varying degrees of risk aversion
+among investors. Our empirical findings show that portfolios of risk-averse investors
+have lower associated risk compared to less risk-averse investors, with risk lovers ex-
+periencing considerably higher rewards associated with Fung (2013). As such, various
+optimal portfolio allocations can be determined to suit the distinctive risk appetites of
+individual investors.
+Secondly, CCs have established themselves as the most liquid asset class among
+3
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 4 ---
+
+DAs, maintaining this position for almost a decade. Despite the high liquidity that CCs
+provide, investors should exercise caution and carefully consider the potential risks and
+rewards before making any investment decisions. Conducting a comprehensive evalu-
+ation is essential in this regard. Thirdly, we examine the variations in the weightings
+of each CC concerning the degree of risk aversion of each portfolio. Our analysis indi-
+cates that as investors become more risk-averse, the weight of Bitcoin dominates over
+the other CCs. This can be attributed to the fact that the standard deviation of Bitcoin’s
+value is comparatively lower than that of other CCs, as illustrated in Table 2. However,
+the power utility function with a risk aversion parameter 0 < γ < 1 behaves differ-
+ently from other risk measures, leading to questions about its practical usefulness. Our
+study’s results offer valuable insights into the characteristics of these risk measures.
+The empirical evidence of this study can be summarized as follows. For one thing,
+when attempting to estimate the total value of portfolios, as we observe, during the
+pandemic the returns of portfolio experiencing higher volatility reach more extreme
+values. Additionally, after analyzing the performance of Minimum Exponential SRM
+portfolios across a range of parameters (from 1 to 25), it is found that the portfolios with
+a parameter value of k = 1 (representing the least risk-averse portfolio) demonstrated
+higher volatility in terms of their cumulative wealth. Conversely, the portfolio with a
+parameter value of k = 25 (representing the most risk-averse portfolio) exhibits the best
+performance. What is more, power SRM is estimated by considering two situations,
+0 < γ < 1 and γ > 1. Based on our analysis, it can be inferred that as the SRM values
+estimating from these two situations decreases, the corresponding Turnover (TO) also
+decreases. This implies that a strategy with lower turnover is less susceptible to the
+impact of transaction costs and is more likely to achieve better performance. One final
+remark, we proceed to compare the portfolios using the selected SRMs in Section 5.1,
+both with each other and with the benchmarks. These benchmarks include the popu-
+lar Cryptocurrency Index (CRIX), the Minimum Variance (MinVar) portfolio, and the
+Equally Weighted strategy, also known as the Naive portfolio. Our analysis reveals that
+the portfolio that minimizes the Power SRM with a parameter of γ = 0.1 outperforms
+the other portfolios significantly.
+The paper is structured as follows. Section 2 we have the literature review. In
+4
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 5 ---
+
+section 3, we discuss the methodology and the construction of the optimization port-
+folio model. Section 4, we present our dataset of DA. Section 5 contains the details of
+empirical analysis. Section 6 concludes.
+2. Literature Review
+The theory of spectral risk measures, introduced by Acerbi (2002), has emerged as
+a captivating and highly promising development in the field of financial risk. These
+measures are closely linked to the coherent risk measures proposed by Artzner (1997);
+Artzner et al. (1999). Prior research has primarily concentrated on estimating the VaR
+risk measure at high confidence levels. Nonetheless, VaR has faced significant criticism
+as a risk measure due to its failure to satisfy coherence properties, particularly its lack
+of subadditivity (Artzner et al., 1999; Acerbi, 2004). Subadditivity is based on the
+intuitive idea that individual risks tend to diversify, or at the very least, not increase
+when we combine risky positions. When VaR fails to satisfy subadditivity, it can result
+in unexpected and unfavorable consequences. ES has emerged as the most prevalent
+alternative (Acerbi and Tasche, 2002; Rockafellar and Uryasev, 2002) to VaR. ES has
+been extended to the class of SRMs, see e.g.
+SFM course.
+A notable advantage of SRMs is their ability to connect the risk measure to the risk-
+aversion of the user. Essentially, the SRM represents a weighted average of the loss dis-
+tribution’s quantiles, with the weights determined by the user’s level of risk-aversion.
+Consequently, SRMs allow us to link the risk measure to the user’s risk preference, im-
+plying that a more risk-averse user should face a higher level of risk, all other factors
+being equal, as determined by the SRM value. SRMs have found widespread use in
+various domains, such as determining capital requirements or achieving optimal trade-
+offs between risk and expected returns. Overbeck (2004) suggests that they could be
+useful for capital allocation, while Cotter and Dowd (2006) propose that SRMs could
+assist futures clearinghouses in setting margin requirements that align with their cor-
+porate risk preference. In addition to its application to Artzner et al. (1999) original
+framework of bank regulation, SRMs have been applied in portfolio selection (Adam
+et al., 2008; Brandtner, 2013) and optimal insurance contracts (Cai et al., 2008), among
+5
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 6 ---
+
+others. While this expanded perspective has broadened the scope of SRM application,
+it has also raised new questions. Adam et al. (2008) explore risk measurement and
+portfolio optimization under risk constraints using various risk measures, applied to a
+hedge fund asset management framework, and shows the robustness of optimal portfo-
+lios to the choice of risk measure.
+The focus of this study is on exploring alternative SRMs that are based on differ-
+ent underlying utility functions. Specifically, the study investigates exponential SRMs
+that rely on an exponential utility function, which are equivalent to those previously
+studied by Acerbi, and power SRMs that rely on a power utility function. Even though
+they reveal that SRM has some properties which cause problems when applying to
+practical risk management, they show that exponential utility function might be plau-
+sible in some circumstances under weak conditions B¨uhlmann (1980). If the relative
+risk aversion coefficients (RRA) are less than 1, Dowd and Blake (2006) address that
+the weighting of lower risk-averse is higher than the higher risk-averse as the loss of
+portfolio increases. On the other hand, the power SRM proposed by Dowd and Blake
+(2006) when the relative risk aversion coefficients (RRA) are larger than 1, has also
+proper features to give a higher weight as loss increase. It is important to note that
+the choice of utility function and the determination of the risk aversion parameter will
+depend on the specific financial problem being addressed.
+In this study, SRMs are utilized for the purpose of CCs portfolio asset allocation.
+The optimal weights of CCs are determined by minimizing the SRMs. Specifically,
+this paper provides estimations of VaR, ES, exponential SRM, and power SRM, for
+each of the CCs’ positions. The different estimates are compared with one another, and
+alternative methods of estimating precision are examined and compared.
+3. Methodology
+3.1. Spectral Risk Measures
+The Spectral Risk Measure (SRM) is a quantile-based risk measure, like the VaR
+but with the difference that it involves a weighting function. This weighting function
+ω(p) can be individually characterized by investors more general depending on the
+6
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 7 ---
+
+investor’s risk aversion. More precisely the SRM is given by
+Mω(X) = −
+Z 1
+0
+ω(p)F−1(p)dp
+(1)
+hence a weighted average of the quantile function. If ω(p) is the Dirac delta function
+which gives the outcome at say p = 0.95 an infinite weight and gives every other
+outcome a weight of zero then the SRM boils down to the VaR at the level of 95 %
+since it simply equals F−1(0.95), where F is a cdf of P&L.
+The characteristics of ω(p) determine the usability and the properties of SRM in
+practice. A desired property of any risk measure is coherence, simply the property that
+combining portfolios into a larger portfolio should result in smaller risk. According
+to Acerbi (2003) an SRM is coherent if it satisfies the properties of non-negativity, in-
+creasingness and normalisation. The last condition ensures that the weighting function
+rises with p, that is, higher losses are assigned with weights that should be no less than
+the weights assigned to lower losses.
+P1. Non-negativity:
+ω(p) ≥0
+(2a)
+P2. Increasingness:
+ω′(p) ≥0
+(2b)
+P3. Normalisation:
+Z 1
+0
+ω(p)dp = 1
+(2c)
+The first property requires that the weights are non-negative, and the second property
+is intended to reflect user risk aversion. The third one requires that the probability-
+weighted weights should sum to 1.
+Note that VaRα and ES α are included in spectral risk measures as special cases.
+The weighting function of VaRα is a Dirac delta function which gives the outcome
+an infinite weight and the others a zero weight. On the other hand, the ES α gives
+all tail quantiles exceeding VaRα the same weight. Both of them are not a suitable
+weight function for capturing investors’ risk attitudes. By setting a ’well-behaved’ risk-
+aversion function which indicates the weights will rise more rapidly when the degree
+of risk aversion is higher (Dowd et al., 2008), we investigate the behaviors of the users
+7
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 8 ---
+
+in terms of different weight functions.
+3.1.1. Value-at-Risk
+Mathematically, the weight function for in terms of SRM can be expressed as fol-
+lows:
+ωVaRα(p) = lim
+δ−→0 δ−1 1(α + δ > p > α).
+(3)
+3.1.2. Expected Shortfall
+The weighting function for ES gives the same weight of (1−α)−1 to all tail quantiles
+and gives zero to non-tail quantiles. Accordingly, the weight function for ES α in terms
+of SRM can be written as (see Figure 1):
+ωES α(p) = (1 −α)−1 1(p > α).
+(4)
+Figure 1: Expected Shortfall Risk Spectrum for different α
+Notes: ES Risk Spectrum for α = 10%, α = 5% and α = 1%.
+3.1.3. Exponential Risk Measure
+The exponential SRM is specified by only one risk parameter k. To obtain the risk
+spectrum, we set ω(p) = λe−kp and λ =
+k
+1−e−k . Then, the risk spectrum is (see Figure 2)
+ω(p) = ke−kp
+1 −e−k ,
+(5)
+8
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 9 ---
+
+where k ∈(0, ∞), p ∈[0, 1]. This function depends on only one k. By substituting
+weight function into (1), the exponential SRM is
+Mω(Rp) = −
+Z 1
+0
+ke−kp
+1 −e−k F−1(p)dp.
+(6)
+Figure 2: Exponential SRM Risk Spectrum for different k
+Notes: Exponential SRM Risk Spectrum for k = 1, k = 5, k = 10, k = 15, k = 20 and k = 25.
+3.1.4. Power Risk Measure
+The power weighting function only has one parameter γ, which leads to
+ω(p) = λ(1 −p)γ−1
+1 −γ
+(7)
+as γ > 1. Then, by setting λ = γ(1 −γ), the risk spectrum is (see Figure 3)
+ω(p) = γ(1 −p)γ−1.
+(8)
+Plugging the weighting function to (1), the power SRM is obtained
+Mω(X) = −
+Z 1
+0
+γ(1 −p)γ−1F−1(p)dp.
+(9)
+9
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 10 ---
+
+Figure 3: Power SRM Risk Spectrum for different γ
+(a) For 0 < γ < 1
+(b) For γ > 1
+Notes: Power SRM Risk Spectrum for (a) 0 < γ < 1 are γ = 0.1, γ = 0.3, γ = 0.5, γ = 0.7 and γ = 0.9.
+Power SRM Risk Spectrum for (b) γ > 1 are γ = 1.5, γ = 3, γ = 5, γ = 10 and γ = 15.
+For the case of 0 < γ < 1, we have
+ω(p) = λpγ−1
+1 −γ
+(10)
+with λ = γ(1 −γ). The risk spectrum is written as
+ω(p) = γpγ−1.
+(11)
+The power SRM for γ > 1 then becomes
+Mω(X) = −
+Z 1
+0
+γpγ−1F−1(p)dp.
+(12)
+3.2. Coherent Risk Measures
+SRMs have originally been designed to fulfill a set of six axioms. It is noteworthy
+to state that the axioms of translation-invariance and positive homogeneity together in-
+duce the following linearity property. A risk measure satisfies the following properties
+(H1)-(H4) (Artzner et al., 1999; Bellini and Bignozzi, 2015) is coherent.
+(H1) Positive homogeneity: A risk measure is positive homogeneous, if the risk of
+a portfolio is scalable by the size (defined by λ) of the portfolio.
+ρ(λX) = λρ(X), λ > 0
+(13)
+10
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 11 ---
+
+(H2) Translation-invariance: A risk measure is translation invariant, if the risk of the
+portfolio is reduced by exactly the same amount λ when adding this risk-free asset into
+the portfolio.
+ρ(X + λ) = ρ(X) −λ
+(14)
+(H3) Monotonicity: A risk measure is monotonic, if a portfolio almost surely generates
+a higher return than another portfolio, the portfolio with higher return should have less
+riskiness embedded in it.
+X ≥Y, ρ(X) ≤ρ(Y)
+(15)
+(H4) Sub-additivity: A risk measure is sub-additive, if the risk of one large portfolio
+comprised of multiple securities is no larger than the sum of the risks of the single
+positions.
+ρ(X + Y) ≤ρ(X) + ρ(Y)
+(16)
+In addition to these four properties mentioned above Alexandre et al. (2008) also
+list two other properties which are desired for risk measures in practice. (H5) Law-
+invariance: A risk measure is law invariant, if the two risk positions X and Y have the
+same return loss distributions, they will also have the same risk measure value.
+FX = FY, ρ(X) = ρ(Y)
+(17)
+(H6) Comonotonic additivity: A risk measure is comonotonic additive, if the loss dis-
+tributions of two risk positions are comonotonic, combining these two risk positions
+will not result in any diversification effects as their losses are influenced by some com-
+mon risk factor(s).
+ρ(X + Y) = ρ(X) + ρ(Y)
+(18)
+Table 1 gives us a summary of these three risk measures in terms of six axioms.
+In addition, it is worth noting that Value-at-Risk (VaR) does not fulfill the property
+of subadditivity, which means that diversification may not effectively decrease the risk
+as measured by VaR. This is not an ideal situation. The following example demon-
+strates how VaR violates subadditivity. Let X and Y be i.i.d and X, Y ∈{0, 100}, then
+11
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 12 ---
+
+Table 1: Comparison of different risk measures in terms of 6 axioms
+H1
+H2
+H3
+H4
+H5
+H6
+VaR
+✓
+✓
+✓
+✓
+ES
+✓
+✓
+✓
+✓
+✓
+✓
+SRM
+✓
+✓
+✓
+✓
+✓
+✓
+the discrete random variable X or Y has the following probability distribution:
+P(X = 0) = P(Y = 0) = p; P(X = 100) = P(Y = 100) = 1 −p.
+(19)
+For p = 0.96, α = 0.95, it holds that VaRα(X) = VaRα(Y) = 0. As the cdf of discrete
+random variable X (in an analogous manner for random variable Y) is given by:
+FX =
+
+0, X = 0;
+p, X = 100;
+1, X = 100.
+(20)
+So when α = 0.95, the VaR0.95(X) or VaR0.95(Y) which is F−1(0.95) is still equal to
+zero, but jump to 100 when p = 0.96 as VaR0.96(X) = VaR0.96(Y) = 100. Meanwhile,
+assume we have 3 states of X + Y:
+State 1:
+P(X + Y = 0) = p2
+(21a)
+State 2:
+P(X + Y = 100) = 2p(1 −p)
+(21b)
+State 3:
+P(X + Y = 200) = (1 −p)2.
+(21c)
+The cdf of is:
+FX+Y =
+
+0, X + Y = 0;
+p2, X + Y = 100;
+p2 + 2p(1 −p), X + Y = 200;
+1, X + Y = 200.
+(22)
+The cdf of X + Y jumps from 0 to 100 at p = 0.9216, followed by jump to 200 at
+12
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 13 ---
+
+p = 0.9984. Both p = 0.96 and α = 0.95 are smaller than 0.9984, so the VaR0.95(X +
+Y) = 100. In this case, we have the following result,
+VaRα(X + Y) = 100 > VaRα(X) + VaRα(Y) = 0 + 0 = 0.
+(23)
+VaRα therefore fails to satisfy the sub-additivity property, and it can lead to unex-
+pected and unfavourable consequences. Since coherent risk measures are discussed
+intensively in finance and risk management, the recent questions have arisen are more
+coherent asset allocation (Kroll et al., 2021).
+3.3. Portfolio Selection Model
+This study examines the allocation of cryptocurrencies by minimising the risk mea-
+sures, i.e. VaR, ES , exponential SRM and power SRM. The return Rp on a portfolio is
+given by
+Rp =
+n
+X
+i=1
+wi ∗ri,
+(24)
+where ri and wi are the return and weight of constituent CC i, respectively. The problem
+consists in determining the weights, wi, by minimising a quantile risk measure for a
+given confidence level 1−p, where p is the cumulative probability. The quantile-based
+risk measures here serve as risk minimisation objectives which we consider different
+quantile-based risk measures, Mω(Rp),
+min
+Mω(Rp),
+(25)
+s.t.
+n
+X
+i=1
+wi = 1,
+(26)
+n
+X
+i=1
+wi ∗ri = Rp ≥Rexp,
+(27)
+0 ≤wi ≤1, i = 1, · · · , n.
+(28)
+where Rexp indicates the required premium. In our case, the required premium is set to
+the return of CRIX.
+13
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 14 ---
+
+3.4. Performance Measures
+The results of the portfolios are compared using the out-of-sample performance
+measures for each portfolio (Phengpis and Swanson, 2011), which we have chosen as
+well as Petukhina et al. (2023):
+Turnover (TO) is calculated to evaluate the potential trading costs associated with
+portfolio rebalancing. This measure is defined following DeMiguel et al. (2009) and
+DeMiguel and Nogales (2009), as the average sum of the absolute value of the rebal-
+ancing trades across the N assets of the investment universe and over L rebalancing
+months.
+TO = L−1
+L
+X
+l=1
+N
+X
+j=1
+| ˆwj,l+1 −ˆwj,l+|
+(29)
+where ˆw j,l+1 is the weight assigned to the asset j for the rebalancing period l + 1 and
+ˆwj,l+ denotes the weight just before rebalancing at l + 1.
+To explain further, TO considers the weights assigned to each asset during rebal-
+ancing periods and just before rebalancing at time l. This accounts for price changes
+during the period, as trades need to be executed to rebalance the portfolio towards the
+target. High turnover results in significant transaction costs. Therefore, a strategy with
+a lower Turnover (TO) is less affected by non-zero transaction costs and performs bet-
+ter. While market makers do not consider reduced turnover a critical parameter in their
+decision-making process, we believe that buy-side investors could benefit from a lower
+turnover.
+In addition, we also calculate a Target Turnover (TTO), following the approach of
+Petukhina et al. (2021).
+TTO = L−1
+L
+X
+l=1
+N
+X
+j=1
+| ˆwj,l+1 −ˆwj,l|
+(30)
+where ˆwj,l is the weight assigned to the asset j for the rebalancing period l. This
+measure is constructed to focus on modifications of the target portfolio weights due
+to active management decisions, and is cleaned from the influence of assets’ price
+dynamics. Unlike the previous definition of turnover, this target turnover measure is
+designed to have a value of zero for the equally weighted (EW) portfolio.
+14
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 15 ---
+
+The Cumulative Wealth (CW) achieved by each benchmark strategy with an initial
+investment CW0 = 1 is calculated as follows Petukhina et al. (2021):
+CWl+1 = CWl + ˆwT
+l rl+1.
+(31)
+Standard deviation (SD), we calculate the standard deviation of the out-of-sample
+daily returns series.
+Sharpe Ratio (SR) is a measure of risk-adjusted returns. This version of the ratio
+takes account of the difference in returns and the associated risk measured by Standard
+deviation S D, and therefore it can be very useful for performance evaluation Leng and
+Noronha (2019). The Sharpe ratio is given as
+S R = Rp
+S D
+(32)
+where Rp is an average out-of-sample return of the portfolio and S D is standard devia-
+tion.
+The Calmar Ratio (CR) is a metric for risk-adjusted return that is popular among
+practitioners because of its unique focus on maximum drawdown instead of volatility,
+as in the Sharpe Ratio Petukhina et al. (2021). CR is calculated as follows:
+CR = 365 × Rp
+MDp
+(33)
+where Rp is the average out-of sample daily return multiplied by 365 to annualized,
+as cryptocurrencies are traded every day and MDp is maximum drawdown.
+4. Data
+Data on digital assets are abundant, but here we concentrate on crypto currencies,
+since they are the most popular DA as of today. More DA data can be found on the
+BRC Blockchain-Research-center.com where one can download e.g. NFTs for digital
+art pieces or high frequency order books and options for the most dominant CCs. The
+CRIX, the most well known CC Index can be also found on SP Global. CRIX is
+15
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 16 ---
+
+calculated via a Laspeyre mechanism but with varying number of constituents and a
+slick model choice procedure based on a modified AIC technique, called the CTDC.
+Our dataset consists of the daily values of the CRIX index since its beginning, i.e.,
+from March 16, 2018 to March 19, 2023. This data will be used for the initial analysis
+of spectral risk measures, and we will use the average daily prices of the ten most liquid
+cryptocurrencies available on the BRC in the subsequent construction of the portfolios.
+Specifically, we used the following cryptocurrencies: Bitcoin (BTC), Litecoin (LTC),
+Ripple (XRP), Dogecoin (DOGE), Dash (DASH), Ethereum (ETH), Ethereum Classic
+(ETC), Zcash (ZEC), Bitcoin Cash (BCH), Bitcoin SV (BSV). The dataset for these
+cryptocurrencies is from 10 November 2018, which is the data availability date for all
+selected cryptocurrencies on BRC until 19 March 2023.
+Out of the cryptocurrencies selected by us, four of them (BTC, ETH, XRP, DOGE)
+are also part of the CRIX index, which currently (March 2023) consists of a total of six
+cryptocurrencies, including Cardano and Binance Coin in addition to the previously
+mentioned ones.
+Table 2: Descriptive statistics of chosen crypto currencies and CRIX
+Mean
+S.D.
+Min.
+Median
+Max.
+ρ(1)
+ρ(7)
+BTC
+0.0016
+0.0372
+-0.3717
+0.0009
+0.1875
+-0.0476
+-0.0273
+LTC
+0.0015
+0.0512
+-0.3618
+0.0004
+0.3083
+-0.0413
+-0.0276
+XRP
+0.0014
+0.0565
+-0.4233
+-0.0005
+0.5601
+-0.0204
+0.0200
+DOGE
+0.0051
+0.1130
+-0.4026
+-0.0011
+3.5557
+0.0507
+0.0441
+DASH
+0.0009
+0.0576
+-0.3722
+0.0007
+0.5704
+-0.0349
+-0.0226
+ETH
+0.0025
+0.0482
+-0.4235
+0.0011
+0.2595
+-0.0631
+-0.0247
+ETC
+0.0022
+0.0604
+-0.3973
+0.0004
+0.4226
+0.0235
+-0.0224
+ZEC
+0.0009
+0.0570
+-0.4169
+-0.0001
+0.2876
+-0.0663
+-0.0329
+BCH
+0.0008
+0.0582
+-0.4296
+-0.0004
+0.5232
+-0.0274
+-0.0442
+BSV
+0.0023
+0.0790
+-0.4640
+-0.0011
+1.4250
+-0.0540
+-0.0584
+CRIX
+0.0016
+0.0446
+-0.2386
+0.0013
+0.2085
+-0.0039
+-0.0207
+Notes: S.D. stands for standard deviation, ρ(1) represents the first-order (day) autocorrelation coefficient and
+ρ(7) denotes the seven-order (week) autocorrelation.
+Table 2 presents descriptive statistics of the daily return series for our specific as-
+sets. The majority of cryptocurrencies exhibit an average daily return of around 0.1%,
+with DOGE having the highest average daily return at approximately 0.5%. DOGE
+16
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 17 ---
+
+also has the highest volatility, as measured by SD, followed by BSV, while BTC with
+the CRIX index exhibits the lowest volatility.
+Upon examining Figure 4, it is evident that most of CCs have been a sudden and
+significant surge in the data for the begging of the year 2021. It’s understandable that
+during that period, in order to minimize the impact of the COVID-19 pandemic on the
+economy, the government and central bank injected a massive amount of liquidity into
+the economy. However, between 2021 and the middle of 2022, the CC market experi-
+enced increased volatility and instability, likely attributed to factors such as inflation,
+wars, and global economic recessions.
+Figure 4: Price of CCs and value of CRIX from November 09, 2018 to March 19, 2023
+Notes:
+5. Empirical results
+To begin this section, we look at how different SRMs react to movements in the
+CCs market, which is represented by the CRIX index. Then, in the rest of this section,
+we examine portfolios that minimise the different SRMs.
+Figure 5 shows the daily evolution of the different SRMs and the maximum draw-
+down using an estimation window of 365 days. The last sub-graph shows the evolution
+17
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 18 ---
+
+of the value of the CRIX index and therefore we can see the response of the different
+SRMs to a change in the value of CRIX. From the figure of VaR evolution, we can see
+that this measure increases as α decreases, while it reacts more sharply to changes in
+the evolution of the CRIX index. Observing the sub-figure showing the evolution of
+ES over time for different parameters alpha, it can be concluded that this evolution is
+similar to the one in the sub-figure with VaR.
+The next sub-figure in Figure 5 shows the evolution of the Exponential SRM, from
+which we can observe that as the parameter k increases, the value of this SRM increases
+and also responds more steeply to changes in the value of the CRIX index. This ob-
+servation is consistent with Figure 2, where we see that as the parameter k increases,
+lower values (higher risk) are given a higher weight.
+In Figure 5, we present two sub-figures that depict the power SRM for different
+values of the parameter γ. The fourth sub-figure shows the evolution of the SRM
+for γ ∈(0, 1). It can be observed that as the value of γ increases, the value of the
+SRM decreases. Furthermore, the peaks and troughs in the SRM trajectory become
+smaller in magnitude as γ increases. These findings are consistent with Figure 3. The
+second sub-figure depicting the Power SRM corresponds to values of γ > 1. Here,
+we can observe opposite results compared to the previous case. As the parameter γ
+increases, the value of the Power SRM also increases. Moreover, we can observe more
+pronounced reactions to changes in the values of the CRIX index.
+18
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 19 ---
+
+Figure 5: VaR, ES, Exponential SRM and Power SRM for different parameters, Maximum Drawdown and
+value of CRIX from November 09, 2018 to March 19, 2023
+Notes: The first and sub-figure shows VaR and second ES of the CRIX for parameters α = (10%, 5%, 1%).
+The third sub-figure shows Exponential SRM for k = (1, 5, 10, 15, 20, 25). The fourth sub-figure shows
+Power SRM for γ = (0.1, 0.3, 0.5, 0.7, 0.9) and fifth for γ = (1.5, 3, 5, 10, 15). The sixth present maximum
+drawdown and the last CRIX value.
+19
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 20 ---
+
+5.1. The spectral risk minimising portfolio models
+In this section, we find portfolios that have a minimum SRM based on the model
+presented in section 3.3. In the portfolio construction, we use a rolling window ap-
+proach with monthly (30-day) rebalancing as the CRIX index is rebalanced, which we
+also extend to quarterly (90-day) and bi-weekly (14-day) rebalancing for robustness of
+the results. Due to the high volatility of our chosen asset, cryptocurrencies, we opted
+for only a one-year (365-day) estimation window when we calculate the weights.
+To compare our results, we chose two classical approaches of the benchmark port-
+folio theory and the best known crypto index CRIX. The first benchmark approach is
+the naive allocation strategy or equally weighted portfolio approach, which, according
+to DeMiguel et al. (2009), is difficult to outperform in practical applications. This ap-
+proach is typically used as a benchmark for comparative analyses.The second principle
+we chose as a benchmark is the Markowitz (1952) Mean-Variance or more practically
+used Minimum-Variance (MinVar) portfolio. This model is a basic model of portfolio
+theory and is also often used as a benchmark in various studies.
+The results of portfolios minimizing different spectral risk measures for different
+parameters will now be considered. Specifically, we used the Value at Risk, Expected
+Shortfall, Exponential, and Power SRM.
+5.1.1. Minimum Value at Risk and Expected Shortfall portfolios for different α
+We start the analysis with the spectral risk measures Value at Risk and Expected
+Shortfall, which were defined in Sections 3.1.1 and 3.1.2. The results of portfolios
+minimizing these SRMs using a rolling window of 1 month (30days) can be seen in
+Figure 6 and Table 3. As a robustness check we produce also the rolling window
+14days and 90days, these results you can find in Appendix A.1 and Appendix A.2. In
+Figure 6 we can see the evolution of the cumulative wealth of Minimum ES and VaR
+portfolios for different parameter, specifically we used values of 1%, 5% and 10%.
+When we look at the evolution of the cumulative wealth of the portfolios in Figure
+6 we can see that all the portfolios except the Minimum VaR on the 1% aspect have a
+similar evolution. A given portfolio reaches more extreme values and is more volatile.
+We can also observe that all the VaR minimizing portfolios achieve better cumulative
+20
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 21 ---
+
+Figure 6: Minimum VaR and ES portfolios for different α
+(a) Minimum VaR portfolios
+(b) Minimum ES portfolios
+Notes: Minimum VaR and ES portfolio for α = 10%, α = 5% and α = 1% using 10 most liquid CC from
+BRC with monthly (30 days) rebalancing.
+wealth values than the ES minimizing portfolios. Very similar results can also be found
+when rebalancing, every 14 days in Figure A.1 and 90 days in Figure A.2. with one
+exception, which is that the portfolio Minimizing VaR at α = 1% does not dominate
+so strongly at the 14 days rolling window and if we look at the results at the 90 days
+rolling window this portfolio is even the worst, which implies that this portfolio is very
+volatile and unstable in results.
+Table 3: Performance of Minimum VaR and ES portfolios
+TO
+TTO
+CW
+SD
+SR
+CR
+VaR α = 10%
+24.5504
+24.7571
+5.7313
+0.0481
+0.0542
+1.2291
+VaR α = 5%
+23.2028
+22.2104
+5.3099
+0.0433
+0.0537
+1.1090
+VaR α = 1%
+16.0428
+15.0262
+10.4464
+0.0605
+0.0561
+1.4791
+ES α = 10%
+4.5276
+3.6731
+3.9980
+0.0405
+0.0485
+0.9308
+ES α = 5%
+4.9173
+4.2890
+4.6298
+0.0438
+0.0498
+1.0345
+ES α = 1%
+6.6132
+5.9901
+3.8210
+0.0456
+0.0457
+0.9665
+Notes: Out-of-sample performance measures of minimum Var and ES portfolios using 10 most liquid CC
+from BRC with monthly (30 days) rebalancing: Turnover (TO), Target Turnover (TTO), Cumulative Wealth
+(CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+We can compare the performance of the individual portfolios in Table 3, which
+shows Turnover (TO), Target Turnover (TTO), Cumulative Wealth (CW), Standard
+Deviation (SD), Sharpe Ratio and Calmar Ratio (CR). VaR minimizing portfolios have
+reached several times higher TO and TTO values, indicating that there are significant
+21
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 22 ---
+
+changes in positions when rebalancing, from this point of view, ES minimizing port-
+folios are more attractive. Similarly, portfolios minimizing ES perform a bit better
+in terms of risk measured by SD. In terms of SR and CR, VaR-minimising portfolios
+again perform better, with the best VaR portfolio on the level α = 1% reaching 0.056
+in SR and 1.479 in CR. Based on the results, we select the VaR-minimizing portfolio
+with the α = 5% and the ES portfolio at the 5% level for the final comparison in Sec-
+tion 5.1.5. The α = 1% VaR portfolio was not selected because, while it significantly
+outperformed the other portfolios based on the 30 day rolling window results, we can
+see that these results are not robust after reviewing the results in Appendix A.1 and
+Appendix A.2. Portfolio minimizing VaR at 5% achieved the second best SR. The ES
+portfolio with α = 5% achieved the second lowest TO and TTO, and also achieved the
+highest CW, SR and CR from the minimum ES portfolios.
+5.1.2. Minimum Exponential Spectral Risk Measure portfolios for different k
+Another spectral risk measure for which we constructed portfolios is exponential.
+The exponential spectral risk measure was defined in Section 3.1.3. The outcomes of
+portfolios that minimize exponential SRM by using a rolling window of 1 month (30
+days) could be found in Figure 7 and Table 4. Figure 7 displays the performance of
+Minimum Exponential SRM portfolios for different parameters , namely 1, 5, 10, 15, 20
+and 25, by showing the cumulative wealth evolution. As a robustness check, we also
+generate results using rolling windows of 14 days and 90 days, which are presented in
+Appendix A.3 and Appendix A.4, respectively.
+In Figure 7, we can observe that all portfolios perform very similarly, except for
+the portfolio with parameter k = 1, which performs above and is also more volatile.
+Interestingly, in terms of cumulative wealth, the portfolios with parameter k = 1, which
+by definition is the least risk averse, and portfolio k = 25, which in contrast is the most
+risk averse, perform the best. Very similar results can be found when rebalancing, every
+14 days in Figure A.3 and 90 days in Figure A.4 with one exception, namely that the
+Minimizing Exponential SRM portfolio with k = 1 does not dominate as strongly in
+the 14-day rolling window and if we look at the results in the 90-day rolling window,
+this portfolio is not in the top two, indicating that it is more volatile and less stable
+22
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 23 ---
+
+Figure 7: Minimum Exponential Spectral Risk Measure portfolios for different k
+Notes: Minimum Exponential SRMs portfolio for k = 1, k = 5, k = 10, k = 15, k = 20 and k = 25 using 10
+most liquid CC from BRC with monthly (30 days) rebalancing.
+Table 4: Performance of Minimum Exponential SRM portfolios
+TO
+TTO
+CW
+SD
+SR
+CR
+EXP k = 1
+18.6888
+19.3862
+5.7374
+0.0526
+0.0513
+1.1784
+EXP k = 5
+12.9574
+12.1562
+3.6903
+0.0389
+0.0476
+0.8425
+EXP k = 10
+5.8037
+5.1116
+3.7737
+0.0398
+0.0476
+0.9011
+EXP k = 15
+5.1046
+4.3240
+3.9872
+0.0408
+0.0482
+0.9331
+EXP k = 20
+4.5224
+3.7088
+4.1032
+0.0423
+0.0482
+0.9644
+EXP k = 25
+4.6920
+3.8173
+4.4551
+0.0435
+0.0492
+1.0133
+Notes: Out-of-sample performance measures of Minimum Exponential SRM portfolios using 10 most liquid
+CC from BRC with monthly (30 days) rebalancing: Turnover (TO), Target Turnover (TTO), Cumulative
+Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+In Table 4, we can assess the effectiveness of each portfolio by examining vari-
+ous metrics such as Turnover (TO), Target Turnover (TTO), Cumulative Wealth (CW),
+Standard Deviation (SD), Sharpe Ratio (SR) and Calmar Ratio (CR). According to Ta-
+ble 4, there is an inverse relationship between k and TO or TTO, where a increase in
+parameter k leads to a decrease in TO or TTO. Additionally, an increase in k typically
+results in an increase in CW, with the exception of the case where k = 1. When mea-
+23
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 24 ---
+
+suring risk using SD, the results for most parameters of k are similar, except for the
+portfolio where k = 1. Interestingly, the portfolio with an exponential SRM and a pa-
+rameter of k = 1 showed the best SR and CR, while higher values of k generally led to
+an increase in the ratio, except the case k = 1.
+Based on results in Figure 7 and Table 4, we select the portfolio minimising Ex-
+ponential SRM portfolio for parameter k = 25 for final comparison in Section 5.1.5.
+Our decision to select this particular portfolio was based on several factors. Firstly,
+the cumulative wealth of this portfolio was found to be the second highest, after the
+portfolio with parameter k = 1 which is less stable as we show in Appendix A.3 and
+Appendix A.4. Additionally, the Exponential SRM portfolio with parameter k = 25
+demonstrated less risk based on SD, and exhibited a more favorable TO and TTO.
+5.1.3. Minimum Power Spectral Risk Measure portfolios for different 0 < γ < 1
+In Section 3.1.4, we introduced the power spectral risk measure. In this section, we
+present the results of constructing portfolios that minimize this risk measure. Specifi-
+cally, we consider the power spectral risk measure and use a rolling window approach
+of 30 days (1 month) and the minimum power spectral risk portfolios are computed
+from the previous 365 days (1 year) of data. We report the results in Table 5 and dis-
+play the cumulative wealth evolution in Figure 8 for various values of the parameter
+0 < γ < 1 (0.1, 0.3, 0.5, 0.7, 0.9). As a robustness check, we have also computed results
+using rolling windows of 14 days and 90 days, which can be found in Appendix A.5
+and Appendix A.6, respectively.
+In Figure 8 we can observe that again several portfolios evolve similarly except for
+one, which in this case is the portfolio with parameter γ = 0.1. Further, we can observe
+from the figure that as the parameter γ increases, our cumulative wealth decreases. Very
+similar results also found when rebalancing, every 14 days in Figure A.5 and 90 days
+in Figure A.6 with one exception, namely that the Minimizing Power SRM portfolio
+with γ = 0.1 does not dominate so strongly in the 14-day rolling window respectively.
+it is beaten by the portfolio with γ = 0.3.
+Table 5 provides an evaluation of the effectiveness of each portfolio based on mul-
+tiple metrics, including Turnover (TO), Target Turnover (TTO), Cumulative Wealth
+24
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 25 ---
+
+Figure 8: Minimum Power Spectral Risk Measure portfolios for different 0 < γ < 1
+Notes: Minimum Power SRMs portfolio for γ = 0.1, γ = 0.3, γ = 0.5, γ = 0.7 and γ = 0.9 using 10 most
+liquid CC from BRC with monthly (30 days) rebalancing.
+Table 5: Performance of Minimum Power SRM portfolios with γ < 1
+TO
+TTO
+CW
+SD
+SR
+CR
+PWR γ = 0.1
+8.3784
+7.0337
+30.7839
+0.1175
+0.0515
+2.8202
+PWR γ = 0.3
+15.3953
+14.2989
+10.2969
+0.0644
+0.0540
+1.6223
+PWR γ = 0.5
+17.9112
+17.4035
+10.0713
+0.0503
+0.0611
+1.4917
+PWR γ = 0.7
+17.7675
+18.8776
+5.9595
+0.0492
+0.0538
+1.1722
+PWR γ = 0.9
+23.3522
+25.9639
+2.1081
+0.0666
+0.0389
+1.0107
+Notes: Out-of-sample performance measures of Minimum Power SRM portfolios with γ < 1 using 10
+most liquid CC from BRC with monthly (30 days) rebalancing: Turnover (TO), Target Turnover (TTO),
+Cumulative Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+(CW), Standard deviation (SD), Sharpe Ratio (SR) and Calmar Ratio (CR). The data
+presented in Table 5 indicates that as the parameter γ increases, there is a correspond-
+ing increase in TO and TTO. We can also see from Table 5 and Figure 8 that as our
+parameter γ increases, our cumulative wealth (CW) decreases. In terms of risk mea-
+sured by SD, we can see that the risk decreases from γ = 0.1 to γ = 0.7 and then the
+value of risk increase again. The last two indicators are the SR and CR, in which case
+we notice again that as parameter γ increases, its value decreases.
+25
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 26 ---
+
+Based on the results in Table 5 and Figure 8, we select the portfolio minimizing the
+power SRM with parameter γ = 0.1 for the final comparison in Section 5.1.5, since this
+portfolio has the lowest TO and TTO and also the highest CW. In terms of risk, this
+portfolio has a increased risk compared to the portfolio with parameter γ = 0.7 but as
+we can see in the SR and CR, this risk is significantly compensated by the return and
+also by the lowest TO or TTO.
+5.1.4. Minimum Power Spectral Risk Measure portfolios for different γ > 1
+In this section we continue with the Power Spectral Risk Measure for values γ > 1,
+results for values γ < 1 can be found in Section 5.1.3. Our analysis focuses on the
+power spectral risk measure, where we adopt a rolling window method spanning 30
+days (1 month). To determine the minimum power spectral risk portfolios, we compute
+data from the preceding 365 days (1 year). Our findings are presented in Table 6, and
+we illustrate the cumulative wealth evolution for different parameter γ > 1 values
+(1.5, 3, 5, 10, 15) in Figure 9. As a robustness check, we also generate results using
+rolling windows of 14 days and 90 days, which are presented in Appendix A.7 and
+Appendix A.8, respectively.
+In Figure 9 we can see that all portfolios that minimise the Power SRM with pa-
+rameter γ > 1 evolve almost exactly the same. When we look in more detail, we can
+see that the cumulative wealth increases with parameter γ, which is opposite to the case
+of portfolios minimising Power SRM with parameter γ < 1. However, we can find one
+exception and that is the portfolio with parameter γ = 1.5, which is last at the begin-
+ning (year 2020) but in 2021 it starts to outperform the other portfolios and finally ends
+up third in terms of cumulative wealth.
+Different results can be found when rebalancing, every 14 days in Figure A.7 and
+90 days in Figure A.8. When rebalancing every 14 days, the portfolio with γ = 1.5
+dominates, but when rolling the 90 days window, on the contrary, this portfolio is the
+worst and the portfolio with γ = 3 dominates. The portfolios for the rest of the γ
+parameters i.e. 5, 10 and 15 are quite stable.
+Table 6 provides a comprehensive evaluation of the effectiveness of each portfolio
+based on multiple metrics, including Turnover (TO), Target Turnover (TTO), Cumula-
+26
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 27 ---
+
+Figure 9: Minimum Power Spectral Risk Measure portfolios for different γ > 1
+Notes: Minimum Power SRMs portfolio for γ = 1.5, γ = 3, γ = 5, γ = 10 and γ = 15 using 10 most liquid
+CC from BRC with monthly (30 days) rebalancing.
+Table 6: Performance of Minimum Power SRM portfolios with γ > 1
+TO
+TTO
+CW
+SD
+SR
+CR
+PWR γ = 1.5
+19.7550
+20.2728
+3.4556
+0.0479
+0.0433
+0.9556
+PWR γ = 3
+16.7563
+17.3794
+2.8262
+0.0395
+0.0419
+0.7837
+PWR γ = 5
+6.5494
+6.4898
+3.2880
+0.0390
+0.0450
+0.8330
+PWR γ = 10
+6.9074
+6.3847
+3.5373
+0.0398
+0.0462
+0.8672
+PWR γ = 15
+6.9621
+6.2826
+3.6433
+0.0418
+0.0462
+0.9141
+Notes: Out-of-sample performance measures of Minimum Power SRM portfolios with γ > 1 using 10
+most liquid CC from BRC with monthly (30 days) rebalancing: Turnover (TO), Target Turnover (TTO),
+Cumulative Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+tive Wealth (CW),Standard Deviation (SD), Sharpe Ratio (SR) and Calmar ratio (CR).
+The data presented in Table 6 demonstrates that as the parameter γ increases, there is
+a corresponding decrease in TO and TTO. Moreover, our analysis reveals that the CW
+generally increases as the γ parameter increases, with the exception of γ = 1.5. Re-
+garding the risk measurement, we observe that the SD is at a similar level except in the
+case for γ = 1.5. Finally, we analyze the SR and CR, where we observe that its value
+generally decreases as the γ parameter increases, except for the case of γ = 1.5.
+27
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 28 ---
+
+Based on the results in Table 6, and in Appendix A.7 or Appendix A.8 we select
+the portfolio that minimizes the Power Spectral Risk Measure with parameter for the
+final comparison in section 4.5. This portfolio achieved the best results in TTO, CW,
+SR, and fell behind the portfolio with parameter by only 0.003 in the SD.
+5.1.5. Comparison of Best Minimum SRM portfolios against benchmark portfolios
+In the previous sections, we compared portfolios minimising four SRM (VaR, ES,
+Exponential, Power) using different parameters to find out the properties of the portfo-
+lios when varying the parameters. We now compare the portfolios using the different
+SRMs we selected in Sections 5.1.1 to 5.1.4 with each other and also with the bench-
+marks, which are the well-known cryptocurrency index CRIX, the Minimum Variance
+(MinVar) portfolio, and the Equally Weighted strategy, which is also often referred to
+as the Naive portfolio. The results using a 30-day rolling window are in Figure 10 and
+Table 7.
+Figure 10: Final comparison of portfolios minimising SRM with benchmarks
+Notes: Naive portfolio, Minimum Variance, Minimum VaR with α = 5%, Minimum ES with α = 5%,
+Minimum Exponential SRM with k = 25, Minimum Power SRM with γ = 0.1, Minimum Power SRM with
+γ = 1.5 and CRIX using 10 most liquid CC from BRC with monthly (30 days) rebalancing.
+In Figure 10, where the evolution of CW is shown, we can observe that all portfo-
+28
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 29 ---
+
+lios perform very similarly, except for the portfolio minimizing the Power SRM with
+parameter γ = 0.1, which outperforms significantly. The second best performing port-
+folio is the VaR minimising portfolio at 5% and the worst performing is the CRIX
+index, which is the only one that has different assets in its composition.
+Table 7: Final comparison of portfolios minimising SRM with benchmarks
+TO
+TTO
+CW
+SD
+SR
+CR
+Naive
+4.9512
+0.0000
+4.8195
+0.0487
+0.0516
+1.0972
+MinVar
+6.3532
+5.1078
+5.1094
+0.0397
+0.0541
+1.0355
+CRIX
+-
+-
+3.2666
+0.0427
+0.0541
+1.0904
+VaR α = 5%
+23.2028
+22.2104
+5.3099
+0.0433
+0.0537
+1.1090
+ES α = 5%
+4.9173
+4.2890
+4.6298
+0.0438
+0.0498
+1.0345
+EXP k = 25
+4.6920
+3.8173
+4.4551
+0.0435
+0.0492
+1.0133
+PWR γ = 0.1
+8.3784
+7.0337
+30.7839
+0.1175
+0.0515
+2.8202
+PWR γ = 15
+6.9621
+6.2826
+3.6433
+0.0418
+0.0462
+0.9141
+Notes: Out-of-sample performance measures of chosen portfolios to final comparison with benchmark port-
+folios Minimum Variance (MinVar), Naive using 10 most liquid CC from BRC with monthly (30 days)
+rebalancing and index CRIX: Turnover (TO), Target Turnover (TTO), Cumulative Wealth (CW), standard
+deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+Table 7 provides an evaluation of the effectiveness of each portfolio and index
+CRIX based on multiple metrics, including Turnover (TO), Target Turnover (TTO),
+Cumulative Wealth (CW), Standard deviation (SD), Sharpe Ratio (SR) and Calmar Ra-
+tio (CR). In Table 7, we can see that in terms of TO (we don’t calculate it for CRIX),
+it is most convenient to invest in a portfolio that minimizes the Exponential SRM with
+k = 25. In this criteria, the minimum VaR portfolio with α = 5% performed the worst
+and is immediately followed by the Minimum Power SRM portfolio with γ = 0.1,
+however, these portfolios achieved the best performance in terms of CW.
+In terms of risk as measured by SD, almost all portfolios are the similar level ex-
+cept for the Minimum Power SRM with γ = 0.1, which has this value multiple times
+higher than the other portfolios, and the MinVar portfolio performed the best as ex-
+pected. When examining the risk-return ratios, specifically the SR and CR, it can be
+observed that the Minimum Power SRM portfolio with a parameter value of γ = 0.1
+outperforms other portfolios significantly in CR, followed by the Minimum VaR port-
+folio at a significance level of α = 5% and the Naive portfolio. In terms of SR, the best
+29
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 30 ---
+
+ratio had CRIX and Minimum Variance.
+In summary, the results from Figure 10 and Table 7 indicate that the portfolio mini-
+mizing the Power SRM with parameter γ = 0.1 performs significantly better than other
+portfolios in terms of CW and risk-return ratios. However, this portfolio exhibits sig-
+nificantly higher volatility compared to other portfolios, as well as higher TO, which
+could potentially lower the overall performance of this portfolio.
+5.1.6. Comparison of the weight allocations of CCs by minimizing different SRMs
+Additionally, this study examines the optimal weight variation of CCs by minimiz-
+ing different SRMs. Specifically, we report portfolio weights of minimized Variance,
+Value at Risk (VaR) with a confidence level of α = 5%, Exponential SRMs with k = 5
+and k = 25, and Power SRMs with γ = 0.1, γ = 0.5, γ = 10, and γ = 15. The op-
+timal weight distributions for these risk measures are presented in Figures B.1-B.8 in
+Appendix B. From a first look at Figures B.1-B.8, which show the weights of different
+portfolios, we can see that the portfolios invest in smaller number of assets, with one
+exception, the VaR minimizing portfolio. Figure B.2 shows that the allocation of CCs
+differs from period to period when optimizing for minimum VaR at α = 5%. Interest-
+ingly, this suggests that a particular portfolio may perform more extreme and exhibit
+greater volatility of the weight changes. Investors can thus invest in a portfolio of dif-
+ferent CCs but we can see from Table 7 that this comes at the cost of higher transactions
+costs, measured by TO and TTO.
+The portfolio shown in Figure B.4 is designed for investors who are more risk-
+averse, as measured by Exponential SRM with k = 25, compared to those in Figure
+B.3. The weight of Bitcoin in the portfolio increases after 2021 because more risk-
+averse investors seek assets with lower risk. Although the data after 2021 indicates that
+many CCs have become more volatile, which we can observe in the Figure 4. Table 2
+reveals that Bitcoin has a lower standard deviation than other CC assets, making it a
+comparatively stable asset in the market. Furthermore, as investors become more risk-
+averse, the weight of Bitcoin in their portfolios increases, as demonstrated in Figures
+B.7 and B.8.
+In Figure B.5 and B.6, we can observe that the power utility function with behaves
+30
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 31 ---
+
+differently from other risk measures, leading to distinct outcomes. According to the
+power weighting function, higher risk aversion results in more weight being placed on
+lower losses and less weight on higher losses (Dowd et al., 2008). This contradicts
+our intuition and leads to questions about the practical usefulness of some SRMs, par-
+ticularly those based on power utility functions with 0 < γ < 1, as argued by Dowd
+and Blake (2006).The key takeaway from our study is that those utilizing spectral risk
+measures should exercise caution and choose utility functions that match the specific
+characteristics of the problem they are addressing. In particular, when using power
+SRMs, users must be especially careful. Nevertheless, our findings provide valuable
+insights into the properties of these risk measures.
+6. Conclusion
+To sum up, cryptocurrencies have become a highly attractive investment opportu-
+nity, but also come with inherent risks that need to be evaluated before making any
+investment decisions. This study focuses on cryptocurrency portfolio selection tech-
+niques that minimize quantile risk measures, specifically SRMs, which are capable of
+capturing both VaR and ES as special cases. We provide an introduction to SRMs,
+explores their links to investors’ preferences, and compute SRMs for cryptocurrency
+portfolios. Overall, investors need to conduct thorough evaluations of the risks and
+rewards associated with investing in cryptocurrencies before making any investment
+decisions. Our study also presents a parsimonious and intuitive measure for practition-
+ers, the resulting weights of each CCs can be a representation of the risk profile for
+different level of risk-averse investors.
+The results of the portfolios are compared using out-of-sample performance mea-
+sures such as turnover, target turnover, cumulative wealth, standard deviation, Sharpe
+ratio and Calmar Ratio. Data on digital assets, particularly cryptocurrencies, are abun-
+dant, and the dataset used in this study includes the CRIX index and the ten most
+liquid cryptocurrencies available on the BRC. The use of rolling window approach
+with monthly, quarterly, and bi-weekly rebalancing is done for the construction of the
+portfolio. The study also highlights the high volatility of cryptocurrencies, which ne-
+31
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 32 ---
+
+cessitates the need for effective risk measures to better manage digital asset allocation.
+There are four primary areas in which the analysis can be expanded. The first area
+concerns optimizing the portfolio for each SRM in order to consider other values of
+their parameters. This extension can provide greater insights into the performance of
+investment strategies in relation to different parameters. The second area involves ex-
+panding the performance measures used to evaluate investment strategies. This ap-
+proach could lead to a more comprehensive assessment of the effectiveness of the
+investment strategies. The third area entails including additional portfolio-allocation
+strategies in the comparison. This extension can provide a more detailed understand-
+ing of the strengths and weaknesses of various portfolio-allocation strategies. The last
+area could be to constrain the maximum weight of an asset in the portfolio to avoid
+allocating weights to only one asset as we have shown in Section 5.1.6.
+References
+Acerbi, C., 2002. Spectral measures of risk: A coherent representation of subjective
+risk aversion. Journal of Banking & Finance 26, 1505–1518. URL: https://doi.
+org/10.1016/S0378-4266(02)00281-9.
+Acerbi, C., 2003. Risk aversion and coherent risk measures: a spectral representa-
+tion theorem. Risk aversion and coherent risk measures: a spectral representation
+theorem , 1000–1019.
+Acerbi, C., 2004. Coherent representations of subjective risk-aversion. Risk measures
+for the 21st century , 147–207.
+Acerbi, C., Tasche, D., 2002.
+On the coherence of expected shortfall.
+Journal of
+Banking & Finance 26, 1487–1503.
+Adam, A., Houkari, M., Laurent, J.P., 2008.
+Spectral risk measures and portfolio
+selection. Journal of Banking & Finance 32, 1870–1882. URL: https://doi.
+org/10.1016/j.jbankfin.2007.12.032.
+32
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 33 ---
+
+Alexandre, H., Bessa, R.J., Ferreira, M.P., Ara´ujo, M., 2008. A new coherent risk mea-
+sure: The worst conditional expectation. Insurance: Mathematics and Economics
+43, 287–294.
+Artzner, P., 1997. Thinking coherently. Risk 10, 68–71.
+Artzner, P., Delbaen, F., Eber, J.M., Heath, D., 1999. Coherent measures of risk. Math-
+ematical finance 9, 203–228.
+URL: https://doi.org/10.1111/1467-9965.
+00068.
+Bellini, F., Bignozzi, V., 2015. On elicitable risk measures. Quantitative Finance 15,
+725–733. URL: https://doi.org/10.1080/14697688.2014.946955.
+Brandtner, M., 2013. Conditional value-at-risk, spectral risk measures and (non-) di-
+versification in portfolio selection problems–a comparison with mean–variance anal-
+ysis. Journal of Banking & Finance 37, 5526–5537. URL: https://doi.org/10.
+1016/j.jbankfin.2013.02.009.
+B¨uhlmann, H., 1980. An economic premium principle. ASTIN Bulletin: The Journal
+of the IAA 11, 52–60. URL: https://doi.org/10.1017/S0515036100006619.
+Cai, J., Tan, K.S., Weng, C., Zhang, Y., 2008. Optimal reinsurance under var and
+cte risk measures. Insurance: mathematics and Economics 43, 185–196. URL:
+https://doi.org/10.1016/j.insmatheco.2008.05.011.
+Cotter, J., Dowd, K., 2006. Extreme spectral risk measures: an application to futures
+clearinghouse margin requirements. Journal of Banking & Finance 30, 3469–3485.
+URL: https://doi.org/10.1016/j.jbankfin.2006.01.008.
+DeMiguel, V., Garlappi, L., Uppal, R., Nogales, F.J., 2009.
+Optimal versus naive
+diversification: How inefficient is the portfolio strategy?
+Review of Finance 13,
+1–53.
+DeMiguel, V., Nogales, F.J., 2009. Portfolio selection with robust estimation. Euro-
+pean Journal of Operational Research 194, 304–313. URL: https://doi.org/
+10.1287/opre.1080.0566.
+33
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 34 ---
+
+Dowd, K., Blake, D., 2006. After var: the theory, estimation, and insurance applica-
+tions of quantile-based risk measures. Journal of Risk and Insurance 73, 193–229.
+URL: https://doi.org/10.1111/j.1539-6975.2006.00171.x.
+Dowd, K., Cotter, J., Sorwar, G., 2008.
+Spectral risk measures: properties and
+limitations.
+Journal of Financial Services Research 34, 61–75.
+URL: https:
+//doi.org/10.1007/s10693-008-0035-6.
+Fung, M.K., 2013. A trade-off between non-fundamental risk and incentives. Review
+of Quantitative Finance and Accounting 41, 29–51.
+Kroll, Y., Marchioni, A., Ben-Horin, M., 2021. Coherent portfolio performance ra-
+tios. Quantitative Finance 21, 1589–1603. URL: https://doi.org/10.1080/
+14697688.2020.1869293.
+Leng, F., Noronha, G., 2019. Relative value in corporate bond sectors. Review of
+Quantitative Finance and Accounting 52, 717–735.
+Markowitz, H., 1952. Portfolio selection. The Journal of Finance 7, 77–91.
+M¨ogel, B., Auer, B.R., 2018. How accurate are modern value-at-risk estimators derived
+from extreme value theory?
+Review of Quantitative Finance and Accounting 50,
+979–1030.
+Overbeck, L., 2004. Spectral capital allocation. Capital .
+Petukhina, A., Klochkov, Y., H¨ardle, W.K., Zhivotovskiy, N., 2023.
+Robustify-
+ing markowitz. Journal of Econometrics URL: https://doi.org/10.1016/j.
+jeconom.2022.12.006.
+Petukhina, A., Trimborn, S., H¨ardle, W.K., Elendner, H., 2021. Investing with cryp-
+tocurrencies - evaluating their potential for portfolio allocation strategies. Journal
+of Risk and Financial Management 14, 1–27. URL: https://doi.org/10.1080/
+14697688.2021.1880023.
+34
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 35 ---
+
+Phengpis, C., Swanson, P.E., 2011. Optimization, cointegration and diversification
+gains from international portfolios: an out-of-sample analysis. Review of Quantita-
+tive Finance and Accounting 36, 269–286.
+Rockafellar, R.T., Uryasev, S., 2002. Conditional value-at-risk for general loss distri-
+butions. Journal of banking & finance 26, 1443–1471. URL: https://doi.org/
+10.1016/S0378-4266(02)00271-6.
+Simlai, P., 2021. Accrual mispricing, value-at-risk, and expected stock returns. Review
+of Quantitative Finance and Accounting 57, 1487–1517.
+Trimborn, S., H¨ardle, W.K., 2018. Crix an index for cryptocurrencies. Journal of
+Empirical Finance 49, 107–122. URL: https://doi.org/10.1016/j.jempfin.
+2018.08.004.
+Weiß, G.N., 2013. Copula-garch versus dynamic conditional correlation: an empiri-
+cal study on var and es forecasting accuracy. Review of Quantitative Finance and
+Accounting 41, 179–202.
+35
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 36 ---
+
+Appendix A. Robustness check
+Appendix A.1. Minimum VaR and ES for 14 days rebalancing window
+Figure A.1: Minimum VaR and ES portfolios for different α
+(a) Minimum VaR portfolios
+(b) Minimum ES portfolios
+Notes: Minimum VaR and ES portfolio for α = 10%, α = 5% and α = 1% using 10 most liquid CC from
+BRC with monthly bi-weekly (14-day).
+Table A.1: Performance of Minimum VaR and ES portfolios
+TO
+TTO
+CW
+SD
+SR
+CR
+VaR α = 10%
+102.1451
+100.0324
+5.8964
+0.0570
+0.0498
+1.2716
+VaR α = 5%
+90.2496
+86.4243
+4.7856
+0.0461
+0.0501
+1.0592
+VaR α = 1%
+43.3868
+38.6929
+8.6057
+0.0515
+0.0574
+1.3170
+ES α = 10%
+12.3886
+9.9061
+3.9881
+0.0417
+0.0473
+0.9356
+ES α = 5%
+14.0029
+10.2190
+4.0784
+0.0438
+0.0468
+0.9730
+ES α = 1%
+15.6496
+12.8441
+3.6362
+0.0452
+0.0445
+0.9338
+Notes: Out-of-sample performance measures of minimum Var and ES portfolios using 10 most liquid CC
+from BRC with bi-weekly (14 days) rebalancing: Turnover (TO), Target Turnover (TTO), Cumulative Wealth
+(CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+36
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 37 ---
+
+Appendix A.2. Minimum VaR and ES for 90 days rebalancing window
+Figure A.2: Minimum VaR and ES portfolios for different α
+(a) Minimum VaR portfolios
+(b) Minimum ES portfolios
+Notes: Minimum VaR and ES portfolio for α = 10%, α = 5% and α = 1% using 10 most liquid CC from
+BRC with monthly quarterly (90-day) rebalancing.
+Table A.2: Performance of Minimum VaR and ES portfolios
+TO
+TTO
+CW
+SD
+SR
+CR
+VaR α = 10%
+2.8002
+2.7902
+9.6455
+0.0522
+0.0619
+1.4170
+VaR α = 5%
+3.0127
+2.9974
+6.6365
+0.0484
+0.0562
+1.2778
+VaR α = 1%
+3.1306
+3.0248
+4.3879
+0.0549
+0.0466
+1.1024
+ES α = 10%
+1.2770
+0.8279
+5.6023
+0.0454
+0.0534
+1.1537
+ES α = 5%
+1.3745
+0.9044
+6.6262
+0.0478
+0.0551
+1.2548
+ES α = 1%
+1.9656
+1.3980
+11.2038
+0.0612
+0.0572
+1.6467
+Notes: Out-of-sample performance measures of minimum Var and ES portfolios using 10 most liquid CC
+from BRC with quarterly (90-day) rebalancing: Turnover (TO), Target Turnover (TTO), Cumulative Wealth
+(CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+37
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 38 ---
+
+Appendix A.3. Minimum Exponential SRM portfolios for 14 days rebalancing window
+Figure A.3: Minimum Exponential Spectral Risk Measure portfolios for different k
+Notes: Minimum Exponential SRMs portfolio for k = 1, k = 5, k = 10, k = 15, k = 20 and k = 25 using 10
+most liquid CC from BRC with bi-weekly (14-day) rebalancing.
+Table A.3: Performance of Minimum Exponential SRM portfolios
+TO
+TTO
+CW
+SD
+SR
+CR
+EXP k = 1
+88.2501
+89.7872
+4.8520
+0.0464
+0.0508
+1.0555
+EXP k = 5
+40.8039
+39.1985
+3.3323
+0.0387
+0.0450
+0.8230
+EXP k = 10
+19.8798
+18.8635
+3.0159
+0.0396
+0.0425
+0.7913
+EXP k = 15
+17.9017
+15.7459
+3.4801
+0.0406
+0.0451
+0.8748
+EXP k = 20
+16.9683
+14.5126
+3.8770
+0.0421
+0.0467
+0.9286
+EXP k = 25
+14.7762
+10.8768
+5.3044
+0.0428
+0.0524
+1.0628
+Notes: Out-of-sample performance measures of Minimum Exponential SRM portfolios using 10 most liquid
+CC from BRC with bi-weekly (14 days) rebalancing: Turnover (TO), Target Turnover (TTO), Cumulative
+Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+38
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 39 ---
+
+Appendix A.4. Minimum Exponential SRM portfolios for 90 days rebalancing window
+Figure A.4: Minimum Exponential Spectral Risk Measure portfolios for different k
+Notes: Minimum Exponential SRMs portfolio for k = 1, k = 5, k = 10, k = 15, k = 20 and k = 25 using 10
+most liquid CC from BRC with quarterly (90-day) rebalancing.
+Table A.4: Performance of Minimum Exponential SRM portfolios
+TO
+TTO
+CW
+SD
+SR
+CR
+EXP k = 1
+3.0889
+3.0706
+5.2265
+0.0469
+0.0536
+1.1242
+EXP k = 5
+1.8134
+1.4309
+6.6294
+0.0537
+0.0523
+1.3320
+EXP k = 10
+1.7636
+1.3829
+4.8185
+0.0448
+0.0509
+1.0919
+EXP k = 15
+1.2735
+0.8804
+5.0074
+0.0468
+0.0505
+1.1246
+EXP k = 20
+1.3603
+0.9170
+5.5646
+0.0480
+0.0519
+1.1832
+EXP k = 25
+1.4629
+0.9754
+5.9624
+0.0487
+0.0527
+1.2235
+Notes: Out-of-sample performance measures of Minimum Exponential SRM portfolios using 10 most liquid
+CC from BRC with quarterly (90 days) rebalancing: Turnover (TO), Target Turnover (TTO), Cumulative
+Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+39
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 40 ---
+
+Appendix A.5. Minimum Power Spectral Risk Measure portfolios for different γ < 1
+for 14 days rebalancing window
+Figure A.5: Minimum Power Spectral Risk Measure portfolios for different γ < 1 with 14 days rebalancing
+window
+Notes: Minimum Power SRMs portfolio for γ = 0.1, γ = 0.3, γ = 0.5, γ = 0.7 and γ = 0.9 using 10 most
+liquid CC from BRC with bi-weekly (14-day) rebalancing.
+Table A.5: Performance of Minimum Power SRM portfolios with γ < 1
+TO
+TTO
+CW
+SD
+SR
+CR
+PWR γ = 0.1
+38.1945
+36.2857
+15.4365
+0.1133
+0.0460
+2.4622
+PWR γ = 0.3
+52.6548
+48.6516
+16.3405
+0.0633
+0.0601
+1.7644
+PWR γ = 0.5
+86.9030
+85.7957
+8.0386
+0.0482
+0.0578
+1.2703
+PWR γ = 0.7
+76.0743
+77.8070
+5.2217
+0.0475
+0.0508
+1.0606
+PWR γ = 0.9
+114.5320
+119.2257
+4.9121
+0.0646
+0.0506
+1.2751
+Notes: Out-of-sample performance measures of Minimum Power SRM portfolios with γ < 1 using 10
+most liquid CC from BRC with bi-weekly (14 days) rebalancing: Turnover (TO), Target Turnover (TTO),
+Cumulative Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+40
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 41 ---
+
+Appendix A.6. Minimum Power Spectral Risk Measure portfolios for different γ < 1
+for 90 days rebalancing window
+Figure A.6: Minimum Power Spectral Risk Measure portfolios for different γ < 1 with 90 days rebalancing
+window
+Notes: Minimum Power SRMs portfolio for γ = 0.1, γ = 0.3, γ = 0.5, γ = 0.7 and γ = 0.9 using 10 most
+liquid CC from BRC with quarterly (90-day) rebalancing.
+Table A.6: Performance of Minimum Power SRM portfolios with γ < 1
+TO
+TTO
+CW
+SD
+SR
+CR
+PWR γ = 0.1
+1.4537
+1.2911
+35.5660
+0.1040
+0.0573
+2.7290
+PWR γ = 0.3
+2.4935
+2.2058
+13.9268
+0.0713
+0.0567
+1.8942
+PWR γ = 0.5
+2.9904
+2.7954
+8.6511
+0.0542
+0.0572
+1.4389
+PWR γ = 0.7
+2.0871
+2.0058
+18.1807
+0.0629
+0.0648
+1.8630
+PWR γ = 0.9
+3.4522
+3.5947
+5.8980
+0.0693
+0.0535
+1.4853
+Notes: Out-of-sample performance measures of Minimum Power SRM portfolios with γ < 1 using 10
+most liquid CC from BRC with quarterly (90 days) rebalancing: Turnover (TO), Target Turnover (TTO),
+Cumulative Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+41
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 42 ---
+
+Appendix A.7. Minimum Power Spectral Risk Measure portfolios for different γ > 1
+for 14 days rebalancing window
+Figure A.7: Minimum Power Spectral Risk Measure portfolios for different γ > 1 with 14 days rebalancing
+window
+Notes: Minimum Power SRMs portfolio for γ = 1.5, γ = 3, γ = 5, γ = 10 and γ = 15 using 10 most liquid
+CC from BRC with bi-weekly (14-day) rebalancing.
+Table A.7: Performance of Minimum Power SRM portfolios with γ > 1
+TO
+TTO
+CW
+SD
+SR
+CR
+PWR γ = 1.5
+80.3406
+80.3938
+4.8295
+0.0455
+0.0501
+1.0488
+PWR γ = 3
+77.3312
+75.8724
+4.0309
+0.0395
+0.0490
+0.9324
+PWR γ = 5
+30.3027
+29.1677
+2.9243
+0.0392
+0.0421
+0.7904
+PWR γ = 10
+32.2383
+30.3357
+3.8313
+0.0402
+0.0473
+0.9041
+PWR γ = 15
+17.8039
+16.0298
+3.4081
+0.0409
+0.0445
+0.8582
+Notes: Out-of-sample performance measures of Minimum Power SRM portfolios with γ > 1 using 10
+most liquid CC from BRC with bi-weekly (14 days) rebalancing: Turnover (TO), Target Turnover (TTO),
+Cumulative Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+42
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 43 ---
+
+Appendix A.8. Minimum Power Spectral Risk Measure portfolios for different γ > 1
+for 90 days rebalancing window
+Figure A.8: Minimum Power Spectral Risk Measure portfolios for different γ > 1 with 90 days rebalancing
+window
+Notes: Minimum Power SRMs portfolio for γ = 1.5, γ = 3, γ = 5, γ = 10 and γ = 15 using 10 most liquid
+CC from BRC with quarterly (90-day) rebalancing.
+Table A.8: Performance of Minimum Power SRM portfolios with γ > 1
+TO
+TTO
+CW
+SD
+SR
+CR
+PWR γ = 1.5
+2.2253
+2.3435
+2.3941
+0.0404
+0.0392
+0.7466
+PWR γ = 3
+2.2353
+2.1377
+11.8211
+0.0539
+0.0617
+1.5817
+PWR γ = 5
+1.3634
+1.0706
+4.0228
+0.0413
+0.0491
+0.9618
+PWR γ = 10
+1.1751
+0.8448
+4.4712
+0.0447
+0.0494
+1.0511
+PWR γ = 15
+1.3072
+0.8984
+5.1907
+0.0469
+0.0511
+1.1404
+Notes: Out-of-sample performance measures of Minimum Power SRM portfolios with γ > 1 using 10
+most liquid CC from BRC with quarterly (90 days) rebalancing: Turnover (TO), Target Turnover (TTO),
+Cumulative Wealth (CW), standard deviation (SD), Sharpe ratio (SR), Calmar ratio (CR).
+43
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 44 ---
+
+Appendix B. Weights allocation
+Figure B.1: The weights of CCs in portfolio minimizing variance using a 30-day rolling window
+Notes: CC used in portfolio: BTC (white), LTC, XRP, DOGE, DASH, ETH, ETC, ZEC, BCH and BSV.
+Figure B.2: The weights of CCs in portfolio minimizing VaR using a 30-day rolling window
+Notes: CC used in portfolio: BTC (white), LTC, XRP, DOGE, DASH, ETH, ETC, ZEC, BCH and BSV.
+44
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 45 ---
+
+Figure B.3: The weights of CCs in portfolio minimizing Exponential SRM with k = 5 using a 30-day rolling
+window
+Notes: CC used in portfolio: BTC (white), LTC, XRP, DOGE, DASH, ETH, ETC, ZEC, BCH and BSV.
+Figure B.4: The weights of CCs in portfolio minimizing Exponential SRM with k = 25 using a 30-day
+rolling window
+Notes: CC used in portfolio: BTC (white), LTC, XRP, DOGE, DASH, ETH, ETC, ZEC, BCH and BSV.
+45
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 46 ---
+
+Figure B.5: The weights of CCs in portfolio minimizing Power SRM with γ = 0.1 using a 30-day rolling
+window
+Notes: CC used in portfolio: BTC (white), LTC, XRP, DOGE, DASH, ETH, ETC, ZEC, BCH and BSV.
+Figure B.6: The weights of CCs in portfolio minimizing Power SRM with γ = 0.5 using a 30-day rolling
+window
+Notes: CC used in portfolio: BTC (white), LTC, XRP, DOGE, DASH, ETH, ETC, ZEC, BCH and BSV.
+46
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------
+--- Page 47 ---
+
+Figure B.7: The weights of CCs in portfolio minimizing Power SRM with γ = 10 using a 30-day rolling
+window
+Notes: CC used in portfolio: BTC (white), LTC, XRP, DOGE, DASH, ETH, ETC, ZEC, BCH and BSV.
+Figure B.8: The weights of CCs in portfolio minimizing Power SRM with γ = 15 using a 30-day rolling
+window
+Notes: CC used in portfolio: BTC (white), LTC, XRP, DOGE, DASH, ETH, ETC, ZEC, BCH and BSV.
+47
+Electronic copy available at: https://ssrn.com/abstract=4414080
+
+
+--------------------------------------------------------------------------------

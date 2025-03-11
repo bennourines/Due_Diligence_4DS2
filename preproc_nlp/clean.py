@@ -1,6 +1,6 @@
 # process_files.py
 from gettext import find
-import nlp_clean
+import script
 import nltk
 import os
 
@@ -19,7 +19,7 @@ nltk.download('stopwords')
 
 # Define directories for source and destination files
 source_directory = r"C:\Users\ferie\Documents\ferielWork\4ds2PIDS\Due_Diligence_4DS2\preproc_nlp\cleaned_data"
-destination_directory = r"C:\Users\ferie\Documents\ferielWork\4ds2PIDS\Due_Diligence_4DS2\preproc_nlp\nlp_cleaned_data"
+destination_directory = r"C:\Users\ferie\Documents\ferielWork\4ds2PIDS\Due_Diligence_4DS2\preproc_nlp\nlp_cleaned_data\bygrok"
 
 # Ensure the destination directory exists
 os.makedirs(destination_directory, exist_ok=True)
@@ -29,4 +29,4 @@ for filename in os.listdir(source_directory):
     if filename.endswith(".txt"):
         source_file_path = os.path.join(source_directory, filename)
         destination_file_path = os.path.join(destination_directory, f"{os.path.splitext(filename)[0]}_processed.txt")
-        nlp_clean.process_text(source_file_path, destination_file_path)
+        script.process_text(source_file_path, destination_file_path)

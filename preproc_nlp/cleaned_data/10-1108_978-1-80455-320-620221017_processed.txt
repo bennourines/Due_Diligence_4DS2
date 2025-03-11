@@ -1,0 +1,758 @@
+--- Page 1 ---
+
+Chapter 17
+Tokenized and Non-tokenized Assets: 
+Legal Considerations
+Brett Cotler
+Abstract
+This chapter discusses legal considerations relating to digital assets. The legal 
+aspects of tokenized and non-tokenized assets are evolving. Although some 
+states have enacted specific laws or regulations for digital assets, Congress 
+and federal agencies have been slower to craft specific rules and regulations 
+for such assets. As a result, regulators, such as the Securities and Exchange 
+Commission, Commodity Futures Trading Commission, and Internal Rev­
+enue Service, and market participants must apply existing guidance to digital 
+assets. This chapter examines applying specific aspects of federal securities 
+and tax law to digital assets. It also discusses general business law considera­
+tions for blockchain and cyber enterprises. The discussion of state law ap­
+plications centers on the New York Virtual Currency License and Wyoming 
+and Delaware crypto initiatives. This chapter does not provide a compre­
+hensive review of all legal issues related to cryptocurrency. Each legal issue 
+about cryptocurrency is complex and requires separate analyses.
+Keywords: Digital assets; tokenized assets; non-tokenized assets; 
+federal securities law; tax law; blockchain
+Introduction
+Before discussing the law, understanding the “who, what, when, where, and why” 
+of a digital asset is paramount. Investors should know what they are entitled 
+to receive. Issuers need to understand their obligations to regulators and inves­
+tors. Understanding the facts involves several lines of inquiry: (1) the parties (the 
+“who” and “where”); (2) tokenomics (the “why”); (3) marketing and offering 
+(the “how,” “when,” and “where”); (4) business structuring considerations (the 
+“what”), and (5) whether the parties kept their promises.
+The Emerald Handbook on Cryptoassets: Investment Opportunities and Challenges, 249–263
+Copyright © 2023 by Emerald Publishing Limited
+All rights of reproduction in any form reserved
+doi:10.1108/978-1-80455-320-620221017
+
+
+--------------------------------------------------------------------------------
+--- Page 2 ---
+
+250     Brett Cotler
+The first section describes the various parties of a business transaction involv­
+ing digital assets, followed by fundamental business questions about digital assets. 
+The following sections discuss securities law considerations, specifically offering 
+and marketing digital assets, business structuring and tax considerations, and New 
+York and Wyoming digital asset regulations. The final section provides a summary 
+and conclusions.
+Who are the Players?
+The first step in understanding digital assets, specifically tokenized and non-
+tokenized assets, is knowing the main parties. This task involves asking the fol­
+lowing questions.
+⦁
+⦁Who or what is creating and issuing the digital asset?
+⦁
+⦁Does the issuer have a legal personality or is the token issuer a decentralized 
+non-entity?
+⦁
+⦁In what jurisdictions are the token issuer and its sponsor incorporated or 
+resident?
+⦁
+⦁Does a centralized or decentralized protocol govern the digital asset?
+⦁
+⦁Who are the potential regulators?
+⦁
+⦁Who receives the tokens? That is, who are the investors?
+The Issuer
+Entrepreneurs may create a project involving some element of crypto. Who are 
+the entrepreneurs and innovators? Who is the business team? People often invest 
+in a project based on the reputations of those behind it. High-quality people and 
+business partners provide comfort to investors, regulators, and customers. Teams 
+with business experience may be better suited to run a business than a group of 
+wunderkinds who can solve technical problems but not adequately manage peo­
+ple or finances. A 20-year-old virtuoso with a vision and the ability to execute that 
+vision may be better suited when paired with a 50-year-old chief executive officer 
+with decades of experience.
+Another issue involves the legal entity formed for this new business. Deciding 
+on the type of entity requires tax planning and choosing where to incorporate it. 
+States typically allow someone to establish a limited liability company (LLC) for 
+less than $200. LLCs are attractive because they provide tax flexibility, economic 
+flexibility, and the legal liability protection of a corporation but with fewer corpo­
+rate formalities. Although many choose LLCs, some should weigh other business 
+forms’ benefits and considerations, such as limited partnerships and corporations.
+Tax structuring is also incredibly important at this stage. Taxes affect the type 
+of entity, as corporations have double taxation. A domestic corporation pays a 
+corporate-level tax on its taxable income. Its shareholders pay tax on dividends 
+paid by the corporation. Besides federal taxation, corporations also pay income 
+and franchise taxes to states and certain cities where the corporation is incorpo­
+rated and does business. Finally, taxes affect the decision to incorporate offshore 
+or stay in the United States.
+
+
+--------------------------------------------------------------------------------
+--- Page 3 ---
+
+Tokenized and Non-tokenized Assets     251
+Deciding where to form entities is another critical decision. State laws differ. 
+Some states are more business- or crypto-friendly than others. Suppose someone 
+creates an entity outside the state where that person lives or maintains an office. 
+In that case, the person should hire a company to function as a registered agent in 
+the state of incorporation. This additional expense can be at least several hundred 
+dollars. When forming new companies, many lawyers reflexively incorporate in 
+Delaware.
+However, a prudent approach is to look first to the state where the compa­
+ny’s principals are located to avoid registered agent expenses or incorporate in 
+Wyoming, a crypto-friendly state. Delaware and Nevada are popular states for 
+incorporation because they do not impose a state-level tax on out-of-state activi­
+ties, offer a well-developed body of corporate law, and may offer some degree 
+of anonymity to shareholders. However, other states may provide a legal advan­
+tage unavailable elsewhere. For instance, Wyoming has engaged in several crypto-
+friendly laws. South Dakota is a popular jurisdiction to form trust companies for 
+financial institutions’ crypto custody. Regardless of where incorporation occurs, 
+a company should generally qualify to do business in each state where it conducts 
+business activities.
+Investors
+This section discusses two investor categories: early investors and token investors. 
+A detailed discussion of venture capital (VC) investments into start-ups is beyond 
+this section’s scope. VC deals involve a high level of negotiation. Often the non-
+economic terms are as crucial to a start-up’s success as is capital infusion. Non-
+monetary benefits include bringing in board members, creating synergies with 
+other companies in which a VC firm invests, and providing mentorship, oversight, 
+and management.
+Early Investors.  Start-ups need money to incorporate, pay outside advisors 
+(e.g., legal, tax, accounting, and audit fees), acquire resources, and pay for out­
+sourced items (e.g., developers and marketers). These costs can quickly get into 
+hundreds of thousands of dollars and are necessary to get to an actual early 
+round of funding from seed investors.
+When the founders exhaust their capital, they look to friends and family. 
+Investors at this stage invest in stock and usually other securities, such as war­
+rants, preferred stock, or forward contracts. When an entity issues a digital asset, 
+these early investors typically get a significant amount upon issuance. However, 
+these are generally small investments, in the thousands or tens of thousands of 
+dollars. But if a start-up attracts considerable attention, these early investments 
+could be worth millions or billions.
+These offerings should be exempt from registration under the Securities Act of 
+1933 under Rule 504 or Rule 506 of Regulation D. Under either type of exempt 
+offering, 35 or fewer non-accredited investors can raise capital. Unlike Rule 504 
+offerings, offerings under Rule 506 allow for general solicitation and no limit to 
+the funds obtained from accredited investors. However, Rule 506 offerings require 
+additional disclosure. Therefore, raising funds from friends and family under Rule 
+504 may be more accessible, despite certain limitations.
+
+
+--------------------------------------------------------------------------------
+--- Page 4 ---
+
+252     Brett Cotler
+A start-up may need to raise additional capital at a certain point. After the 
+friends and family round, a company may attempt to raise a series A round of 
+funding, a private offering to accredited investors, including angel investors and 
+VC firms. These investors may also seek to be high in the capital stack, with com­
+mon and preferred stock, and have access to the digital assets once the funding 
+round launches. This round of funding is typically a private offering, exempt from 
+registration under Rule 506 of Regulation D.
+Token Investors.  Determining who the token investors are can be a function 
+of the digital asset and its tokenomics, which is the study of the economics of 
+crypto tokens or cryptocurrencies. One potential investor category in a digital 
+asset is a future customer, who may view the investment as buying a future prod­
+uct or service at a discount. Another investor category is a true investor, who sees 
+value in a digital asset or promise in the start-up. A third investor category is a 
+speculator. A speculator may invest in a token when it trades at pennies, hoping it 
+catches on in the pages of Reddit or another online community and takes off “to 
+the moon” in the parlance of such fora.
+How or where a token trades may affect who invests. If an investor needs to con­
+vert dollars to ether (ETH) to Binance coin (BNB) and then BNB into an obscure 
+digital asset, the investor may only be a crypto enthusiast and not an average inves­
+tor. A final investor category is the average retail investor, who wants economic 
+exposure without maintaining wallets and private keys. This investor may invest in 
+an exchange-traded fund or a private fund that trades crypto. A retail investor may 
+also own bitcoin through a traditional brokerage or Coinbase account.
+Regulators
+Regulators depend on where the company is formed and does business, the token 
+issuer’s business type, whether the digital asset is a security, and how the digital 
+asset is issued. For instance, crypto companies in New York may need to apply 
+for a BitLicense. New York’s BitLicense applies to different crypto organiza­
+tions, including those transmitting crypto, buying and selling cryptocurrency as 
+a customer business, providing exchange services to customers, and issuing cryp­
+tocurrency. Crypto exchanges must also register and make filings with the Secu­
+rities and Exchange Commission (SEC) and the Financial Industry Regulatory 
+Authority (FINRA). Money transmitters must deal with each state having money 
+transmission rules where they have customers. Selling tokens in a private offering 
+(e.g., Reg D to accredited investors) or public offering (e.g., Reg A) requires the 
+issuer to make certain filings to the SEC or state securities regulators (e.g., SEC 
+Form D).
+An essential item to consider is federal preemption. A start-up often must deal 
+with a federal regulator, such as the SEC, instead of state regulators. However, 
+suppose a start-up does not involve a federal regulator. In that case, that entity 
+may have to deal with up to 50 state regulators and attorney generals. Although 
+a start-up may not want to contend with the SEC, doing so may be strategic 
+because it does not have to make individual filings in multiple states and comply 
+with up to 50 state laws.
+
+
+--------------------------------------------------------------------------------
+--- Page 5 ---
+
+Tokenized and Non-tokenized Assets     253
+Service Providers
+Crypto start-ups rely on outside advisers and service providers. For example, 
+law firms incorporate businesses, draft operating agreements, employment agree­
+ments, investor documents, represent clients before regulators, prepare applica­
+tions for business licenses and regulatory approvals, and structure businesses for 
+tax efficiency. Accounting firms prepare tax returns, maintain financial books, 
+prepare financial statements, and can help a start-up manage its business. Third-
+party services providers may include:
+⦁
+⦁external consultants to lobby the government;
+⦁
+⦁outside developers for coding;
+⦁
+⦁financial institutions to serve as custodians of digital assets or assist with 
+“know your customer” (KYC) and anti-money laundering (AML) compliance;
+⦁
+⦁cybersecurity specialists;
+⦁
+⦁marketing; and
+⦁
+⦁investment bankers and other placement agents to help sell the digital asset.
+A start-up must pay these service providers and establish a relationship gov­
+erned under an appropriate contract. Here are a few guidelines between these two 
+parties. First, a start-up company should usually own any work product devel­
+oped by outside contractors. Third-party developers should not retain ownership 
+of any code they wrote for hire.
+Second, a start-up may be held liable for the actions of its service providers. If 
+a social media influencer says, “Your investment will increase 10-fold,” the SEC 
+will have accessible evidence in its action against the start-up.
+Finally, if a start-up pays a service provider in tokens, both the employer and 
+service face tax, regulatory, and business issues. A discussion of these tax issues 
+follows. From a business perspective, some service providers, such as law and 
+accounting firms, want to receive fiat currency or highly liquid crypto for their 
+services. Furthermore, in certain circumstances, insiders may be restricted in how 
+they trade their employer’s securities.
+Tokenomics
+As previously noted, tokenomics refers to the economics of a digital asset. At 
+its most basic level, tokenomics means the business deal between the issuer and 
+token holders. From a business perspective, the token offering must be worth­
+while for investors. From a legal perspective, a clear understanding of the busi­
+ness terms of a digital asset sale may reduce legal costs. Therefore, tokenomics is 
+important for crypto businesses when selling digital assets.
+Without understanding tokenomics, lawyers may inadequately describe the 
+digital asset in an offering prospectus, and ambiguities in offering documents 
+may lead to investor confusion. Investors that feel wronged may sue the issuer 
+or report the issuer to a regulator. Viewing a situation from an investor’s view­
+point could help prevent future litigation. Crypto businesses and their lawyers 
+that think about tokenomics should consider the following:
+
+
+--------------------------------------------------------------------------------
+--- Page 6 ---
+
+254     Brett Cotler
+⦁
+⦁What are the digital asset issuer’s obligations and entitlements to the purchaser?
+⦁
+⦁Does a built-in economic benefit exist to owning the digital asset (i.e., the holder 
+can redeem it for something of value), or is the potential return based only on 
+the premise that the digital asset will appreciate given its speculative nature?
+⦁
+⦁Is the deal fair and balanced for all parties?
+⦁
+⦁Does the digital asset utility value? Can it redeem or use the tokens for goods 
+or services with intrinsic value? How are the digital assets used or redeemed?
+If an issuer can answer these questions, it may reduce the likelihood of a dis­
+pute with investors. It may also reduce the time lawyers need to understand the 
+digital asset, adequately describe it in offering materials, and lead to correspond­
+ing savings in legal costs. As discussed in the next section, clearly defined toke­
+nomics can also assist marketing efforts.
+Marketing and Securities Law Considerations
+A digital asset’s marketing could have significant legal ramifications. Although 
+a digital asset may not be a security, it could be a security offering. The SEC is 
+active in policing these matters.
+Since 2013, the SEC has brought over 75 cases against defendants relating to 
+digital assets and initial coin offerings (ICOs), with only 11 cases brought before 
+2018 (Securities and Exchange Commission, 2021). In addition, at least 20 trad­
+ing suspension cases involve digital assets.
+The first case SEC v. Shavers et al. (2013), brought in 2013, alleged a Ponzi 
+scheme involving bitcoin instead of dollars. Specifically, a federal judge ruled 
+that the operator of Bitcoin Savings and Trust had operated a Ponzi scheme that 
+defrauded investors. The judge awarded $40.7 million in damages following SEC 
+charges of investment fraud. The crime alleged in the Shavers case was not a 
+“crypto-crime.” Instead, crypto was the medium used to commit the crime.
+Since this first case, the SEC has brought enforcement actions that involved:
+⦁
+⦁the unregistered offering of securities, including ICOs, security token offerings 
+(STOs), and the like, and including crypto lending and decentralized finance 
+(DeFi) investment programs;
+⦁
+⦁operating online venues for trading securities using digital assets without regis­
+tering the websites as broker-dealers or stock exchanges and other unregistered 
+broker-dealers;
+⦁
+⦁defrauding investors in ICOs and the like;
+⦁
+⦁obtaining cease and desist orders where a company was selling digital tokens in 
+an unregistered offering to investors and other violations of various US federal 
+securities laws;
+⦁
+⦁additional digital asset denominated Ponzi schemes and other general fraud 
+denominated in cryptocurrency, and disgorgement actions for selling restricted 
+stock in a blockchain technology company at market price and not the fixed 
+price under a registration statement;
+⦁
+⦁false marketing of a crypto-focused investment fund;
+
+
+--------------------------------------------------------------------------------
+--- Page 7 ---
+
+Tokenized and Non-tokenized Assets     255
+⦁
+⦁misleading promotion of an ICO without proper disclosure;
+⦁
+⦁obtaining a cease-and-desist where a CEO misrepresented the use of proceeds 
+of securities offer to invest in blockchain companies and digital assets; and
+⦁
+⦁market manipulation, including charging an iced tea company with stock 
+manipulation by falsely stating it was pivoting into crypto.
+Besides actions against issuers, promotors, and other bad actors, the SEC also 
+released valuable guidance to the industry in the form of an investigative report – 
+the DAO report (Securities and Exchange Commission, 2017) – and public 
+speeches at industry events – notably a speech by SEC Director William Hinman 
+(2018). Although this guidance is non-binding, issuers should understand how the 
+SEC views cryptocurrency and how issuers and legal counsel can analyze whether 
+a digital asset is a security and whether the offering is a securities offering.
+Whether a digital asset is a security for federal securities law purposes depends 
+partly on whether it is an investment contract. Under the Howey Test (SEC v. 
+Howey, 1946), a transaction is an investment contract if:
+⦁
+⦁there is an investment of money;
+⦁
+⦁there is an expectation of profits from the investment;
+⦁
+⦁the investment of money is in a common enterprise; and
+⦁
+⦁any profit comes from the efforts of a promoter or third party.
+The latter two elements generated considerable discussion among securities law­
+yers in the cryptocurrency context. Assume that bitcoin’s price is market-driven 
+and bitcoin transactions are verified through mining. However, does that satisfy the 
+element requiring profits coming from the efforts of others? Most attorneys say no.
+In the DAO report, the SEC analyzed whether tokens issued by a decentral­
+ized, autonomous organization might have been securities. For reference, a cor­
+poration or other business entity traditionally issues stock and other securities. 
+The DAO is a “virtual” organization embodied in computer code and executed 
+on a blockchain. The DAO sold tokens, intending to use the token sale proceeds 
+to fund various projects and profit from them, thereby giving value to the DAO 
+tokens. In applying the Howey Test, the SEC concluded that investors gave money 
+to a common enterprise (i.e., the DAO) with a reasonable expectation of profit 
+derived predominantly from the managerial efforts of others.
+The DAO’s facts are less important than the analysis applying the Howey Test 
+to cryptocurrency. This analysis put the industry on notice of the SEC’s litigating 
+position. The conversation developed and distinguished between investment or 
+security tokens, which authorities generally regarded as securities for federal secu­
+rities law purposes, and utility tokens. Unlike security tokens, usually intended 
+to offer only investment value, utility tokens offer holders non-investment value. 
+Utility tokens might be redeemed for goods or services or used on a platform 
+for the services provided. Could that non-investment-related value be enough to 
+cause a digital asset not to be classified as a security?
+SEC Director Hinman offered his view on this subject in a public speech. 
+Hinman’s view was that investors purchased digital assets with an expectation 
+
+
+--------------------------------------------------------------------------------
+--- Page 8 ---
+
+256     Brett Cotler
+of profit derived from the efforts of others, regardless of any utility value of the 
+digital asset. In Hinman’s opinion, ether was not a security, but it might have 
+been a security at its issuance. Hinman pointed to “sufficient decentralization” 
+to indicate that something could be a security and lose its character as such as it 
+develops. A digital asset only used on the platform where created could be viewed 
+differently, even if its initial offering was a security offering.
+Finally, Hinman identified several non-exhaustive factors to consider when 
+determining whether a digital asset is a security. What are the roles of the spon­
+sors and promotors? Did the sponsors retain a financial interest in the digital 
+asset and remain incentivized to increase the digital asset’s value? What are inves­
+tors seeking when acquiring the digital asset? For example, are they seeking a 
+return on their investment? Who controls the issuing entity? Does applying the 
+Securities Act make sense?
+Many in the industry latched onto Hinman’s remarks. However, they were just 
+one senior SEC official’s view, not its official stance. If nothing else, Hinman’s 
+speech provided valuable insights to help determine whether a digital asset offer­
+ing might be a security offering.
+Digital Asset Offerings Under Regulation A of the 
+Securities Act
+On July 10, 2019, the SEC granted qualification to Blockstack Token LLC’s sale 
+of $28 million worth of digital tokens to the public under the SEC’s Regulation A 
+registration exemption (Blockstack Token LLC, 2019). This offering was the first-
+ever SEC-compliant public sale of securities tokens in the United States.
+Congress amended Regulation A under the Securities Act of 1933 as part of 
+the Jumpstart Our Business Startups Act of 2012. Many now call it “Regulation 
+A+.” Regulation A allows companies to raise up to $50 million in 12 months 
+without the burden of the full range of disclosure obligations that come with a 
+traditional initial public offering.
+Until this approval, companies wanting to sell tokens that are securities could 
+not do so, except in private sales under Regulation D of the Securities Act or 
+a different exemption from the registration requirement of the Securities Act. 
+Although this approach permits token sellers to raise funds, many token plat­
+forms are designed with tokenomics requiring freely tradeable tokens. Tokens 
+sold according to Regulation D are not freely tradeable for the first year. By offer­
+ing and selling tokens under Regulation A+, Blockstack can sell freely tradeable 
+tokens to the public.
+The day the SEC qualified Blockstack’s Regulation A offer, it also qualified 
+another Regulation A offering, YouNow, Inc.’s offering of up to 178 million 
+Props Tokens. These tokens can reward users for in-app activities, administra­
+tion, blockchain development, and subsequent sale to the public (YouNow, Inc., 
+2019). However, Regulation A offerings are limited to no more than $50 million 
+annually (so-called “Tier 2” offerings). Any registrant wanting to register a larger 
+amount of securities for sale must do so through a full-blown registration process. 
+No one has successfully registered a token offering under that process.
+
+
+--------------------------------------------------------------------------------
+--- Page 9 ---
+
+Tokenized and Non-tokenized Assets     257
+Structuring Crypto Businesses: Tax, Legal, and Regulatory 
+Considerations
+At this point, entrepreneurs can communicate to their lawyers about what the 
+business does or will do, where it operates, its owners and investors, customers to 
+be served, and other pertinent information. This information is key to determin­
+ing: (1) an efficient tax structure; (2) what licenses or registrations or exemptions 
+from registrations need to be filed; (3) what key documents are needed; and (4) 
+what else lawyers and other advisers need to do to help establish the business.
+Tax Structuring
+All crypto businesses are just businesses, and general tax planning considerations 
+apply to crypto and traditional companies almost equally. This section discusses 
+cryptocurrency taxation, specific token offerings, and tax considerations for 
+structuring crypto start-ups.
+Crypto Taxation.  Image the following situation. A lawyer was on a conference 
+call with a client who planned to launch a cryptocurrency-focused hedge fund. As 
+the lawyer explained specific rules around in-kind contributions of bitcoin and 
+ether, the client interjects, “But where in the tax code are cryptocurrencies men­
+tioned? There are no rules right now!” The client learned that US federal income 
+tax authorities and general tax principles apply to transactions in cryptocurrency.
+The seminal piece of guidance is Internal Revenue Service (IRS) Notice 2014-
+21. The IRS released this notice before the Ethereum network’s launch, but after 
+the launch of Litecoin, Dogecoin, Ripple, and about a dozen others. In this 
+notice, the IRS stated that cryptocurrencies readily convertible into fiat currency 
+should be treated as property and not as currency. This ruling means that:
+⦁
+⦁special rules that apply to foreign currency transactions do not apply to crypto;
+⦁
+⦁if crypto is held as a capital asset, gains upon a sale would be capital gains;
+⦁
+⦁mining crypto by an individual was self-employment income;
+⦁
+⦁businesses that accept crypto as payment for goods or services must include 
+crypto’s fair market value in income as they received cash, and such amount 
+was the business’s tax basis in the crypto;
+⦁
+⦁employees and other service providers compensated in crypto must take the 
+crypto into account for purposes of computing their income taxes and payroll 
+or self-employment taxes; and
+⦁
+⦁general tax principles should be applied to crypto transactions without further 
+guidance.
+Although helpful, many unanswered questions remain. One issue involves 
+valuation. Cryptos trade at different prices on different exchanges. Due to high 
+volatility, an hour’s difference could mean significant tax savings or tax costs.
+Second, tax uncertainties exist when trading cryptos for other cryptos. For 
+instance, a lack of clarity exists about whether crypto-for-crypto trades are eli­
+gible for tax deferral under section 1031 of the Internal Revenue Code of 1986, 
+
+
+--------------------------------------------------------------------------------
+--- Page 10 ---
+
+258     Brett Cotler
+as amended. This section allowed for tax-deferred sales of real estate and prop­
+erty used in a trade or business. In 2017, section 1031 applied only to real estate. 
+The IRS also came out in FAQs on its website that this section did not apply 
+to crypto-for-crypto trades for tax years before 2018. This pronouncement was 
+noteworthy at the time because few people reported their crypto gains. If the IRS 
+had audited this issue, crypto traders might have had a large tax bill. Addition­
+ally, tracking is a complicated issue because investors may buy cryptos at different 
+times and price points, trade cryptos for other cryptos, and trade one crypto at 
+different prices on various exchanges. Additionally, some cryptos do not have a 
+readily determinable US dollar equivalent. Some taxpayers may be unaware of 
+these tax issues and trade crypto without keeping these records.
+Third, the crypto space was rapidly evolving, and the IRS was largely silent on 
+new developments. Hedge funds began trading crypto, which meant more inves­
+tors and questions, including:
+⦁
+⦁Would a non-US domiciled hedge fund’s crypto trading activities constitute a 
+US trade or business for US federal income tax purposes?
+⦁
+⦁Could hedge funds or individual traders make a mark-to-market election on 
+crypto?
+⦁
+⦁Firms tried to launch exchange-traded crypto funds to expand access to retail 
+investors. Could these funds be structured as grantor trusts, publicly traded 
+partnerships, or mutual funds?
+⦁
+⦁Investors could buy and trade bitcoin futures. Did wash sales and straddle rules 
+apply to bitcoin specifically and crypto generally?
+⦁
+⦁New blockchain start-ups attempted to raise capital with token issuances in 
+ICOs or STOs. What are the consequences to the issuing company?
+Besides these questions, vast uncertainty prevailed as to how the tax authori­
+ties would treat smart contacts, airdrops, hard forks, DeFi, the tokenization of 
+assets, and centralized bank decentralized currencies for tax purposes. Tax attor­
+neys and certified public accountants had to determine reasonable tax positions 
+without additional guidance when dealing with these and other issues.
+Further guidance occurred in 2019 in Revenue Ruling 2019-24. In this ruling, 
+the IRS provided advice on the federal income tax treatment of cryptocurrency 
+received in an airdrop or a hard fork. A person receives tokens in an airdrop, usu­
+ally because of existing ownership of another token. A hard fork occurs when a 
+cryptocurrency on a blockchain undergoes a protocol change resulting in a per­
+manent diversion from the legacy blockchain. The legacy cryptocurrency’s owners 
+receive units of the progeny cryptocurrency. The IRS stated that cryptocurrency 
+received in an airdrop or a hard fork was a taxable event. Also, the value of the 
+crypto received was ordinary income. A taxable event occurs when a taxpayer can 
+sell the crypto received. Suppose a taxpayer’s wallet does not support the crypto 
+received in the airdrop or hard fork. In that case, the taxable event might occur 
+days or weeks later, when the crypto might have significantly appreciated.
+Given the scarcity of official IRS guidance, tax advisers must apply general 
+tax principles to crypto. The tax positions related to acquiring, holding, or selling 
+
+
+--------------------------------------------------------------------------------
+--- Page 11 ---
+
+Tokenized and Non-tokenized Assets     259
+cryptocurrency depend on the transaction’s specific facts. Some cryptocurrencies 
+look and act more like gift cards that some can use to purchase services or goods 
+from the crypto’s issuer. Others look and act more like a transactional medium 
+of exchange (currency). Still, other cryptos resemble financial products. How an 
+issuer and taxpayer use crypto helps determine the tax consequences related to its 
+ownership and sale.
+⦁
+⦁If a person buys cryptocurrency as an investment, the IRS taxes the gains from 
+its sale as capital gains.
+⦁
+⦁If a person is a crypto dealer or otherwise uses it in a trade or business, gains 
+from the sale of cryptocurrency are ordinary income.
+⦁
+⦁If someone uses crypto to pay for goods or services, the IRS taxes the person 
+on the difference between that person’s basis in the crypto and the value of the 
+goods or services received.
+Token Offerings
+From a US federal income tax perspective, the economic rights and obligations of 
+issuers and holders of digital assets are paramount in determining the proper tax 
+treatment. According to Code sections 721(a) and 1032, a company’s issuance of 
+debt or equity does not generally recognize taxable income to the company. How­
+ever, the sale of other property by a company does result in taxable income. Before 
+2018, the US federal corporate income tax rate was 35 percent. Authorities lowered 
+the corporate tax rate beginning in 2018 to 21 percent. Consequently, an improp­
+erly structured ICO might have only been 65–79 percent effective after taxes.
+Assuming the tokens were not characterized as debt or equity for US federal 
+income tax purposes, the recognition of taxable income might not occur on day 
+one. In early ICOs, issuers sold tokens before their creation and issuance under a 
+“simple agreement for future tokens” (“SAFT”). For US federal income tax pur­
+poses, US issuers of tokens under a SAFT usually would not recognize income until 
+token delivery. In addition, if the tokens were like gift cards, in the sense that the 
+tokens entitled the holder to some future benefit from the issuer, the holder could 
+elect to recognize income for US tax purposes during the subsequent tax year.
+As mentioned previously, the issuance of debt and equity does not result in 
+taxable income to the issuer. However, Delaware allows issuing equity on a block­
+chain. Tokenized equity issued by a Delaware corporation should typically be 
+regarded as equity in a corporation for tax purposes. The analysis is unclear when 
+a digital asset is not issued as tokenized equity or a tokenized debt instrument but 
+may be treated as such.
+Whether an instrument is a debt or equity for US federal income tax purposes 
+depends on the facts and circumstances. A token can potentially be character­
+ized as equity for US federal income tax purposes under certain circumstances: 
+it is perpetual, has voting rights, has economic exposure to the issuer’s growth 
+or negative growth, and offers a right to distribute ongoing profits. The issuer 
+typically makes this determination, which is binding on the investors, whether by 
+statute or by contract.
+
+
+--------------------------------------------------------------------------------
+--- Page 12 ---
+
+260     Brett Cotler
+Alternatively, characterizing a token as indebtedness for US federal income 
+tax purposes may be possible if it has a limited term, offers little upside (i.e., 
+interest payments that are not contingent on profits) and downside protection 
+(i.e., principal protection), provides for a lump-sum or series of distributions and 
+contains other signs of debt. The unconditional obligation to pay interest and 
+repay the principal by a fixed maturity date is a hallmark of debt instruments. The 
+right of token holders to enforce payment of principal and interest in the event of 
+default indicates that the token is more likely to be characterized as debt for tax 
+purposes. Understanding all economic terms regarding a digital asset is vital in 
+determining how to describe a digital asset for tax purposes.
+Crypto Business Structuring Considerations
+New businesses must consider legal and tax factors from day one. The failure to 
+consider liability protection, governance and capitalization flexibility, and taxes 
+could be costly later in a business’s life. Poor corporate structuring could result in 
+costly litigation between founders or key employees, and inadequate tax planning 
+could mean forgone tax savings.
+Choice of Entity Considerations
+A crypto start-up can be established as an LLC. LLCs offer incredibly flexible 
+governance (member-management or an appointed manager). For example, they 
+can allocate income and expenses similar to partnerships but limit their members’ 
+liability similar to a corporation. LLCs are also flexible from a tax perspective. 
+Multi-member LLCs are partnerships for income tax purposes. However, they 
+can elect to be a C or an S corporation for federal income tax purposes. By con­
+trast, domestic corporations have corporate formalities, can only be taxed as a C 
+or an S corporation, and offer less flexibility to get the right economics to their 
+shareholders. For this reason, an LLC is a popular choice for a start-up business.
+A US-based business can be taxed as a pass-through entity, such as a partner­
+ship or an S or C corporation, for tax purposes. Although a discussion of partner­
+ship-S and corporation-C corporations is beyond this section’s scope, this section 
+discusses one ownership benefit of qualified small business corporations (QSBCs).
+Qualified Small Business Stock Considerations
+If a company qualifies as a QSBC, each shareholder can exclude gain on the sale 
+by meeting a five-year holding period. The amount of gain excluded from income 
+is the greater of $10 million or 10 times the shareholder’s tax basis in the QSBS 
+stock. The requirements for this tax benefit generally are:
+⦁
+⦁The company was formed in the United States and classified as a C corporation 
+for tax purposes.
+⦁
+⦁The taxpayer disposing of the QSBC stock must have acquired the stock at its 
+original issuance for money, property other than stock in the issuer, or services 
+provided to the company.
+
+
+--------------------------------------------------------------------------------
+--- Page 13 ---
+
+Tokenized and Non-tokenized Assets     261
+⦁
+⦁The gross value of the company’s assets is less than $50 million before and 
+immediately after the stock issuance.
+⦁
+⦁At least 80 percent of the company’s assets are used in the active conduct of 
+one or more qualified trades or businesses, including research and development 
+activities.
+⦁
+⦁Certain tax filings occur.
+Structuring a business as a QSBC offers benefits to founders and investors. VC 
+and private equity investors have realized most of the tax savings attributable to 
+QSBS stock investment.
+Equity-based or Token-based Compensation Considerations
+Many start-up businesses want to attract and reward key employees by issuing 
+tokens or equity. Issuing property for services is generally taxable. The issuing 
+company must value the equity or tokens on their issuance date and determine 
+and remit applicable withholding taxes, such as payroll taxes for employees. The 
+service provider must take such value into account as income.
+Suppose the issuance of tokens or equity is subject to a vesting schedule (i.e., if 
+the vesting conditions are not satisfied, the tokens are forfeited). In that case, the 
+taxable event occurs at the earliest of the following dates: (1) the date the service 
+provider freely transfers the property to a third party, (2) the date the property 
+is no longer subject to a substantial risk of forfeiture, or (3) the issue date if an 
+election under Code section 83(b) occurs within 30 days of the property’s issu­
+ance. The 83(b) election is usually advisable when the value at issuance is low but 
+expected to appreciate by the time of vesting.
+Regulatory Licenses and Registrations
+Federal and state licensing and registration obligations may apply depending on 
+what the business is doing and where the activities occur.
+⦁
+⦁Crypto exchanges may be required to register with the SEC as a broker-dealer 
+or exchange. The business may also need to register with FINRA.
+⦁
+⦁A crypto-business that helps customers send money to people in other countries 
+may be required to register as a money transmitter in the states where it operates.
+NY BitLicense
+New York enacted a requirement for certain crypto-businesses based or doing 
+business in New York to apply for a virtual currency license, colloquially known 
+as the BitLicense. The BitLicense applies to five types of incorporated companies 
+or doing business in New York or with New York customers:
+⦁
+⦁receiving virtual currency for transmission or transmitting virtual currency;
+⦁
+⦁storing, holding, or maintaining custody or control of virtual currency on 
+behalf of others;
+
+
+--------------------------------------------------------------------------------
+--- Page 14 ---
+
+262     Brett Cotler
+⦁
+⦁buying and selling virtual currency as a customer business; performing 
+exchange services as a customer business; or
+⦁
+⦁controlling, administering, or issuing a virtual currency.
+These conditions apply to many New York businesses where digital assets are 
+integral to their business plan. Besides requiring filing an application, the New 
+York Department of Financial Services imposes specific capitalization require­
+ments and annual reporting obligations on licensees.
+Wyoming
+Wyoming has passed 24 crypto-friendly laws, making it a crypto-friendly state. 
+One law allows a crypto business to apply for a watered-down bank charter, 
+allowing it to become a special-purpose depository institution (SPDI) to offer 
+banking services for crypto. Other states require a crypto business to undergo 
+an expensive and time-consuming traditional bank charter process. Banks are 
+subject to a strict regulatory and compliance regime relative to other financial 
+institutions. Complying with all such regulatory requirements for banks in most 
+cases does not make sense for crypto. The Wyoming SPDI is an example of state 
+drafting laws specific to crypto.
+Promises Kept: Ongoing Obligations
+A company may have an annual reporting obligation to investors and regulators. 
+These reports aim to provide transparency to investors and other interested par­
+ties. For instance, as part of the BitLicense requirements, licensees must report to 
+the NY Department of Financial Services annually. Companies whose securities 
+are registered under the Securities Act must report annually to the SEC. In addi­
+tion, key investors typically ask to see audited financial statements each year. 
+These reporting obligations require companies to collaborate with accountants, 
+auditors, and attorneys.
+Summary and Conclusions
+US federal and state laws generally apply to cryptocurrency, even though they are 
+not specific to cryptocurrency. This situation may create uncertainty and doubt 
+about how a transaction fits within a particular legal or regulatory framework. 
+However, it does not mean that cryptocurrency transactions are somehow outside 
+the reach of existing US federal and state laws.
+Notwithstanding the applicability of current law and regulation to cryptocur­
+rency transactions, federal regulatory agencies, such as the SEC, CFTC, and the 
+IRS, have already begun issuing guidance and writing rules specifically aimed at 
+the cryptocurrency space. In addition, some states, such as Wyoming, Delaware, 
+and New York, have enacted crypto-specific laws and regulatory regimes gov­
+erning how a cryptocurrency business can operate. However, the legal aspects 
+involving digital assets are still in their infancy. Federal and state legislative and 
+
+
+--------------------------------------------------------------------------------
+--- Page 15 ---
+
+Tokenized and Non-tokenized Assets     263
+regulatory bodies will continue to monitor the cryptocurrency space and ideally 
+write thoughtful rules to help the industry grow and build public confidence.
+Discussion Questions
+1.	
+Discuss how general securities laws might apply to a blockchain-based pro­
+ject or start-up company.
+2.	
+Discuss the treatment of digital assets for federal legal purposes.
+3.	
+Explain the factors founders and investors should consider when raising 
+capital.
+4.	
+Explain whether profits on crypto investments are subject to taxation.
+5.	
+Describe the tax implications of paying for goods and services, including 
+employees, in crypto.
+References
+Blockstack Token LLC. (2019). Prospectus. Retrieved from https://www.sec.gov/Archives/
+edgar/data/1725129/000162827919000230/younow1a.htm
+Hinman, W. (2018, June 14). Digital asset transactions: When Howey met Gary (plastic). 
+Securities and Exchange Commission. Retrieved from https://www.sec.gov/news/
+speech/speech-hinman-061418
+SEC v. Howey. (1946). 328 U.S. 293, 294. Retrieved from https://supreme.justia.com/cases/
+federal/us/328/293/
+SEC v. Shavers et al. (2013). U.S. Dist. LEXIS 130781 (E.D. Tex., Sept. 18, 2014). 
+Retrieved from chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.
+html?pdfurl=https%3A%2F%2Fwww.thompsonhine.com%2Fuploads%2F1137%2
+Fdoc%2FECLR_Volume_14_Issue_5_pg_22.pdf&clen=68362&chunk=true
+Securities and Exchange Commission. (2017, July 25). SEC Release No. 81207, Report of 
+investigation pursuant to Section 21(a) of the Securities Exchange Act of 1934: The 
+DAO. Retrieved from https://www.sec.gov/litigation/investreport/34-81207.pdf
+Securities and Exchange Commission. (2021). Cyber enforcement actions. Retrieved from 
+https://www.sec.gov/spotlight/cybersecurity-enforcement-actions
+YouNow, Inc. (2019). Prospectus. Retrieved from https://www.sec.gov/Archives/edgar/
+data/1725129/000162827919000230/younow1a.htm
+
+
+--------------------------------------------------------------------------------

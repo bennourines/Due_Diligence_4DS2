@@ -1,0 +1,954 @@
+--- Page 1 ---
+
+Research Article
+Cryptocurrency Financial Risk Analysis Based on Deep
+Machine Learning
+Si Chen
+Zhongnan University of Economics and Law, Hubei, Wuhan 430073, China
+Correspondence should be addressed to Si Chen; sichen_1988@126.com
+Received 27 October 2021; Accepted 23 December 2021; Published 27 January 2022
+Academic Editor: Catherine Glover+handlingeditor
+Copyright © 2022 Si Chen. +is is an open access article distributed under the Creative Commons Attribution License, which
+permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+Digital currency is considered a form of currency which is used in the digital world such as digital forms or electronic devices.
+Several terms are synonyms for digital currency like digital money, electronic money, and cyber cash. Accurate prediction of the
+digital currency is an urgent necessity due to its impacts on the economic community. +e electronic economy is very dangerous
+and must be approached with great caution, so as to avoid or minimize the risks that occur in such cases. Deep neural network
+(DNN) algorithm was improved to predict the Bitcoin price and then achieve the main goal of reducing ﬁnancial risks to proceed
+with electronic business, and good estimation was achieved by using informative data such as transactions and currency return.
++e proposed method extracted features of related Bitcoin and used the informative ones. Transaction plan considered building
+nodes in terms of network. Development of deep learning algorithms opens the horizons for the development of electronic
+businesses that use digital currency. +e proposed method achieved worthy results in terms of accuracy (53.4%) and correct
+prediction (MSE 1.02) and oﬀers the prospect of other research in this area.
+1. Introduction
+Day by day, digital currency signiﬁcance increases rapidly
+due to its importance in the ﬁeld of electronic trading which
+is essential in new ﬁnancial system [1]. Despite the fact that
+the digital currency concepts are not new, the use of this kind
+of currency has grown up remarkably [2]. Money is not set in
+banks or safe boxes, but it is available in processors and
+storage of the cyber world, and it is traded in the form of
+information. +e main purpose of such technology is to
+increase the payment eﬃciency [3]. Till now, the standards
+for digital currency mechanism are not clear, and therefore
+its boundaries are not set yet, so the customers communicate
+together with the absence of regulators. However, the public
+acceptance of digital bank transactions allow alternative
+types of money to be developed; these new types are not
+related to traditional bank accounts and are fully based on
+digital environment; therefore, it is called digital currency
+[4, 5].
+Prespeciﬁed range of supply should be guaranteed for
+virtual currency, and Bitcoin is an obvious example for this
+limitation (21 million of Bitcoins is the whole amount
+issued) [6]. Virtual currency and cryptocurrency are sorts of
+the digital currency. Bitcoin is now leading the new form of
+currency (virtual currency), and it forms about 93% of the
+market of cryptocurrency [7]. +ere was an extreme ﬂuc-
+tuation of Bitcoin exchange rate; on January 1st, 2013, the
+rate was 13.30$ for each one Bitcoin, but this rate was in-
+creased dramatically to be $1.147.25 in December 4th, 2013;
+however, on March 1st, 2015, the price went down to be
+$258.97. +e strong ﬂuctuation in Bitcoin exchange rate
+made big opportunity and high risk at the same time to the
+investors [8]. In addition to the huge ﬂuctuation, there are
+other issues in the risk ﬁeld. +eft risk exists; in 2014 this
+type of risk was highlighted by Mt. Gox Bitcoin exchange.
+Bitcoin dealers, especially buyers, also face risks of fraud
+from some fraudulent sellers, which was conﬁrmed by the
+US Securities and Exchange Commission.
++e pricing of digital currency is based on traditional
+pricing perspective [9]. However, the main risk in dealing
+with digital currency is the systematic and ﬂuctuation risk in
+pricing process; thus, this study will attempt to analyze these
+Hindawi
+Complexity
+Volume 2022, Article ID 2611063, 8 pages
+https://doi.org/10.1155/2022/2611063
+
+
+--------------------------------------------------------------------------------
+--- Page 2 ---
+
+two types of risks, while theft and fraud risks will be set aside.
+From the perspective of nonprofessional investors, the ex-
+treme ﬂuctuation in digital currency price will lead to a risky
+investment [10], but those who are professional in the in-
+vestment ﬁeld would not put all their eggs in one basket.
++erefore, they will try to make diverse purse as much as
+possible to avoid or at least to minimize risk; they prefer to
+deal with assets not aﬀected by the market ﬂuctuation to
+avoid the asset risk called systematic risk assets [11]; oth-
+erwise, they should be called nonsystematic risk assets which
+are related to the whole marketing process. Bitcoin is
+considered as a nonsystematic risk asset, and the sophisti-
+cated investors prefer to deal with this type of business [12].
++e popular digital currency is Bitcoin, and it is con-
+sidered a target for theft or sometimes illegal activities. +is
+problem cannot be solved only when the transaction address
+is ﬁxed [13]. More challenges regarding Bitcoins [14] came
+from rampant hacking attacks and thefts, so security control
+of digital wallet is necessary. Making Bitcoin stand against
+any hacks, thefts, and frauds needs big secure system and
+process with cryptocurrency in addition to assets sharing
+some characteristics according to transition [15].
+Is Bitcoin a currency or not? +is is a big question for
+which people are looking for an answer. Chen and Pandey
+2014 [16] make study on Bitcoin to determine whether there
+is a match between roles of currency and Bitcoin and
+whether it is possible to invest in it as safely as assets; the
+correlation between Bitcoin and the major currencies of the
+world was also examined. +e results of their study show that
+the major currencies of the world were correlated signiﬁ-
+cantly, but the correlation between these currencies and
+Bitcoin was insigniﬁcant. In addition, they found that there
+is insigniﬁcant correlation between the beneﬁt of investment
+in gold and the beneﬁt of investment in Bitcoin [17]. Because
+the behavior of Bitcoin is diﬀerent from the behavior of both
+of the major currencies of the world and the gold, re-
+searchers claim that Bitcoin can be less used as useful
+currency [18].
+Bitcoin sustainability will encounter signiﬁcant risk.
+Bitcoin users are now enjoying the low transaction fees, and
+transaction companies and individuals apply very small rates
+on each transaction to encourage people to buy Bitcoin and
+increase the price as a result of demand increasing. However,
+the same companies plan to increase their future proﬁts by
+increasing the transaction amounts due to increasing the
+value of each Bitcoin in addition to increasing the exchange
+rate [19]. Since all Bitcoins have been already created, and
+there are no longer any more Bitcoins, the marginal beneﬁts
+that will result from owning currency will disappear. On the
+other hand, the cost of marginal transactions will increase, so
+the beneﬁt of Bitcoin business will decrease compared with
+the ﬁat currency.
+Recent development in deep learning may support ef-
+forts for solving these challenges [20], as it is known that
+deep learning and neural network can solve issues in divers
+ﬁelds such as pattern recognition, education, healthcare, and
+industry. Deep learning approach shows high performance
+compared to machine learning approaches; therefore, it
+proved useful in many research ﬁelds, and it can handle data
+that tend to be messy, even if data includes many variables
+and includes labeling errors. As is known clearly, neural
+network aims to mimic the human brain, and deep learning
+is an advanced form of neural network which mimics the
+human brain more eﬃciently [21]. Explicitly programing
+everything is not needed to achieve better results.
+2. Literature Review
+Many researches consider digital currency in terms of
+prediction and risk management. In this section, we present
+the most important studies that left impression in this topic.
+LSTM system of deep learning was used to learn the chaotic
+behavior of three cryptocurrencies evidently, achieving
+better prediction in digital currency market [22]. Prediction
+of digital currency price by using decomposition method
+and optimization algorithm combined with deep learning
+was done by [23]. A diﬀerent model was suggested by [24] to
+predict Bitcoin based on huge dataset to improve the per-
+formance, and stochastic gradient descent was applied for
+deep learning techniques to learn the parameters used.
+Bitcoin price prediction using scikit-learn library as dataset
+for training method was presented by [25] via new strategy
+based on genetic algorithm with three chosen parameters
+that directly aﬀect the digital market. Large vector of features
+was provided by to design neural network system for
+learning the machine in minimum time period due to system
+using to predict the price online system in real time issue.
+However, due to many features, they achieved better results
+in online prediction [26]. All existing methods seek accurate
+prediction to avoid the risk of ﬁnancial issue.
+2.1. Concept of Digital Currency. Digital currency, also
+named as cryptocurrency or crypto asset, aims to reverse
+some or all of the traditional uses of money—payment
+manners, value store, and unit account [5]. +e terminology
+used to describe it is often misleading and confusing,
+changing a high range of ﬁnancial statements with verifying
+technical, practical, and legal characteristics, ranging from
+decentralized digital tokens like Bitcoin at one end of the
+domain to oﬃcial and sovereign digital currencies supported
+by central banks in other end. Bitcoin and many of their
+similar things, sometimes known as crypto assets, are viewed
+like a volatile speculative assets. Some people accept it as a
+method of payment [27]. +is is partly due their security that
+depends on cryptographic combination and no central
+“blockchain” technology that keeps the holder identity out of
+danger; governments consider deeply the use of illegal ac-
+tivities like money laundering, tax evasion, and terrorist
+ﬁnancing.
++e term of digital currency has been given more at-
+tention by both by the companies testing the use of the
+digital money and the governments that insist on applying
+rules and regulations to stablecoins.
+2.2. (e Reason of Central Bank Owning Digital Currency.
++e main reason may be that the system can pay eﬃciently
+but that is not always the case. An example is that
+2
+Complexity
+ 8503, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2022/2611063 by Tunisia Hinari NPL, Wiley Online Library on [04/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--------------------------------------------------------------------------------
+--- Page 3 ---
+
+commercial operations and currency trading have a second
+aspect [4]. Many products depend exclusively on the Chi-
+nese currency in order to revive the national economy, but in
+fact it is the promotion of the Chinese currency over the US
+dollar.
+One of the reasons is the emergence of hidden com-
+panies that are a repository for commercial funds that are
+held on social media platforms due to transactions between
+millions of users such as Facebook, as well as some of the
+bonds traded for major companies that develop the idea of
+electronic currency to evade tax and exploit the reputation of
+some international brands in order to collect overlapping
+funds [28].
+2.3. Feature Extraction. Trading and dealing with digital
+currency are fraught with a lot of dangers, so it is nec-
+essary to know the components and data of the digital
+currency and how to deal with it so that we can make
+simulations to avoid the risk arising from dealing with it.
+Items of digital currency can be classiﬁed into three main
+categories: Bitcoin feeding, transaction, and return [29].
+With Bitcoin being the basis of the currency and due to
+the technological development, it attracted attention and
+became popular in investing. Some traders and investors
+consider it free money that is easy to obtain, while others
+consider it as gold prospecting. Mining of Bitcoin refers
+to the digital process of adding transaction records to
+blockchain, a publicly distributed ledger which is holding
+the history of each transaction of Bitcoin [30].
+Transaction refers to sending Bitcoin through any path
+and anywhere, and these transactions clump together in new
+term called blockchain which is serial of transaction blocks,
+recording the history of transactions.
+Returns of Bitcoin are the interest on cryptocurrency
+when Bitcoin increases during investing after a period of
+time; mining of Bitcoin for some time can be returned to end
+user with transaction history record to value this Bitcoin.
+For this purpose, we can extract the features from digital
+currency to develop supervised machine learning technique
+through its network for prediction and reduce the risk as-
+sociation with it. Features improved the time frame within
+hour, day, week, and month prior prediction. +e main goal
+of using deep learning to forecast digital currency is to
+predict Bitcoin price of USD at least one hour in advance
+[31]. All the information will be gathered in advance and
+used for processing and computing, considering the
+transaction path and nodes for Bitcoin in addition to the
+features extracted such as the following:
+(i) Current Bitcoin price
+(ii) Flow of the path per hour
+(iii) Number of transactions per hour
+(iv) Mean value of the transaction
+(v) In\out degree of averaging node
+(vi) Transaction median value
+(vii) Median degree of the node
+(viii) Number of mined Bitcoins.
+(ix) Source and destination address.
+(x) Number of transactions per node.
+Some of these features are directly related to the price of
+Bitcoin and others are indirectly related [32]. For each node,
+we can collect some extra features such as the following:
+(i) Bitcoin passing through the node
+(ii) Weight of ﬂow Bitcoin
+(iii) Transaction number
+(iv) Nearest centrality to the node
++e purpose of getting these features is not only to
+classify or cluster certain Bitcoin and its ﬂow, but also to get
+general idea regarding how the important players in the
+market of Bitcoin aﬀect the valuation and how they control
+the market.
+One of the best information items gained from features is
+the activity of diﬀerent addressing and balancing of the net,
+as shown in Figure 1.
+2.4. Selection of Features. An important part of feature ex-
+traction is to ﬁrst choose which one should be used during
+classiﬁcation or regression. Reducing features in calculation
+process that take the mutual data among the features and
+output results will be the pure features that illuminated or
+pruned insigniﬁcant features. Mutual information is pro-
+duced by the following equation:
+I(A; B)  􏽘
+b∈B
+􏽘
+a∈A
+p(a · b) × log
+p(a · b)
+p(a)p(b)
+􏼠
+􏼡,
+(1)
+where A is extracted feature, B output data, and I mutual
+function.
++rough this equation, we can put the rule of given
+information, that is, which feature is informative and which
+is uninformative and can be normally discarded. For such
+research informative features can be changed within the time
+but still ﬁltered according to their importance; however,
+some features are still informative in a speciﬁc process, such
+as the following:
+(i) Mined Bitcoin for the last hour
+(ii) Transaction number through new addresses for the
+last hour
+(iii) Mean of the node degree for the last hour
+(iv) +e net ﬂow for the last hour
+Informative features help to predict the right current
+price then can avoid the risk of digital currency issue.
+Another important process for the features is Union
+Find which is the algorithm of determining the contiguous
+subnets through the network. It is preprocessing technique
+to ﬁnd the relation of multiple accounts belonging to a single
+owner. +is algorithm carries out many iterations to ﬁnd out
+the union and ﬁnding function.
+First, union function merges two disjoint subnets to
+produce their union.
+Complexity
+3
+ 8503, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2022/2611063 by Tunisia Hinari NPL, Wiley Online Library on [04/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--------------------------------------------------------------------------------
+--- Page 4 ---
+
+Second, ﬁnd the function by checking other parts and
+ﬁnd out whether the subnet belongs to the same merged
+subnet.
+2.5. Deep Learning. Current studies focus on automation
+and prediction of Bitcoin behavior to avoid digital cur-
+rency risk in the market. Making the machine touchable
+is not easy and requires powerful processors and high-
+performance computers. +e development in data science
+and modern technology, such as big data and high-
+performance computers, provided an opportunity for
+machine learning to understand data and its behavior
+through complex systems. Machine learning gives the
+machine ability to learn diﬀerent algorithms without
+strict orders from certain programs or limited instruc-
+tions [33].
+Deep learning can be deﬁned as technique of machine
+learning used to learn useful features directly from given
+Bitcoin transaction, paths, and subnet domain. Many layers
+are exploited by deep learning for nonlinear data processing
+of unsupervised or supervise feature extraction for classi-
+ﬁcation and pattern recognition [34]. Deep learning moti-
+vation is greatly reduced by Artiﬁcial Intelligence (AI) area,
+which simulates the human brain ability to analyze data,
+make decision, and learn. Deep learning goal is to emulate
+the approach of hierarchical learning of extracting features
+by human brain directly from unsupervised data.
++e core of deep learning is the hierarchical computation
+of features and representation of information, such as de-
+ﬁning features starting form low level to high level. With
+cryptocurrency,
+the
+standard
+techniques
+of
+machine
+learning do not work well when running directly due to
+ignoring nature of blockchain. In deep learning, features are
+extracted automatically from Bitcoin transaction. One of the
+characteristics of these feature methods is considered to be
+learning in the system [35].
++e character of Bitcoin transactions as a function is a
+key issue for the processing or success of the digital currency.
+Features extracted in Bitcoin have some limitations [36]. For
+this reason, we can use deep learning with its feature ex-
+traction to solve risk issues in digital currency.
++e main diﬀerence between machine learning and deep
+learning is feature selection method, as shown in Figure 2.
+Features in deep learning will be generated automatically
+to simulate the appropriate results [37]. Diﬀerent hidden
+layers participate in decision making by using the feedback
+from one next layer to previous one, or resulting layer will be
+fed into ﬁrst layer [38]. DL enables computers to perform
+complex calculations by relying on simpler calculations to
+optimize computer eﬃciency. It is diﬃcult for a computer to
+understand complex data such as transaction number and
+weights or subnet region of a complex nature, so we use deep
+learning algorithms instead of usual learning methods [39].
+Deep learning considers the nonlinear relation between
+blockchain and transaction determining the weight of Bit-
+coin reconstructed that depends on linear model since the
+variation of digital currency gets large. +is is actually be-
+cause linear model is similar to nonlinear behavior of the
+relationship between Bitcoin transactions and the data of the
+previous hour [37]. For this reason, DNN is used to solve the
+nonlinear model of improving quality of Bitcoin prediction.
++e second factor that deep learning takes into consideration
+is the speed. Real time is necessary in dealing with online
+currency during data acquisition and analysis prediction.
+2.6. Blockchain of Finance. +e blockchain starts when
+dealing with some anonymous fake online transactions.
++is dealing over the Internet is described as peer to peer
+payment through blockchain infrastructure. Payments are
+deﬁned as Bitcoin, the ﬁrst cryptocurrency and the largest
+currency, giving them hundreds of other currencies, that is
+digital cash. Technology of blockchain is established on the
+principles of gathering all the transactions data to be block
+of public ledger. +ey part and connect to previous block
+via a Merkle root, in form of ﬁxed chain as shown in
+Figure 3.
+Cryptocurrencies spread their transactions that take
+agreement from neighboring nodes to integrate together to
+achieve chain.
++is is known as the veriﬁcation process of competitive
+entry. +erefore, the ﬁnance of blockchain is deﬁned as
+decentralized process and the management as capability of
+self-management. Process of cryptography supports this
+technology and is known as proof-of-work. It is the algo-
+rithm fee reward that each node earns as part of contributing
+node power mathematically expressed as
+P(B −1)  R2
+H
+H −1
+H
+􏼒
+􏼓
+R−1
+.
+(2)
+P(B −1) is the probability of parting node of block 1, R is
+hash rate to certain node, and H is hash rate of the network
+rate (competitors).
++e equation above illustrates that larger hashing power
+to user and probability of the node can reach the correct
+transaction; when it is conﬁrmed, the reward will go into
+eﬀect and it is found that the number of blocks per minute is
+actually a binary distribution. Proof of stake is known as the
+alternative cryptographic method for distribution achieve-
+ments. It is an algorithm mainly based on process of leader
+selection and expressed by
+Netted Bitcoin by Account
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+–150000
+–100000
+–50000
+0
+50000
+100000
+150000
+200000
+250000
+Figure 1: Overview of Bitcoin behavior.
+4
+Complexity
+ 8503, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2022/2611063 by Tunisia Hinari NPL, Wiley Online Library on [04/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--------------------------------------------------------------------------------
+--- Page 5 ---
+
+pi 
+Si
+􏽐n
+k1 Sk
+,
+(3)
+where pi is the probability of the node leadership i and si is
+stakehold via stakeholder Ui while sk is stakehold via another
+stakeholder.
+2.7. Proposed Method. In this study, we focus on the digital
+currency eﬀectiveness and prediction. +en, we apply deep
+learning algorithm to increase the accuracy of prediction and
+reduce the statistical risk in cryptocurrency. Figure 4 shows
+the general framework of the proposed method starting by
+collecting two categories of data ﬁrstly. +e data provided in
+the last history are used in the training system.
+Training mode is supposed to be labeled with known
+results in advance, and neural network has to put the result
+which is known in advance in order to build the system on
+this basis, in addition to the information gathered from
+previous months about transactions of digital currency.
+Features will be extracted in this stage to be processed
+according the weight supported.
+Predictive model called linear regression is used to
+formulate a line located at the best ﬁt separating between
+dependent variable scalar and multiple variables. Mean
+square error is considered between actual and predicted
+output and minimized by the linear ﬁt. Some calculation is
+needed such as parameterization (or factorized form),
+hypothesis, linear regression goal, and cost function, as
+follows:
+hθ(x)  θ0 + θ1x,
+J θ0 · θ1
+ 􏼁 1
+2m 􏽘
+m
+i1
+hθ x(i)
+􏼐
+􏼑−y(i)
+􏼐
+􏼑
+2,
+min
+θ0.θ1
+J θ0 · θ1
+ 􏼁,
+(4)
+where the hypothesis h is provided with parameters θ0.θ1 to
+satisfy the cost function J to ﬁnd its minimum.
+Neural network considers the family of machine
+learning technique, derived from the biological nervous
+system via modeling interconnected neurons’ system that
+depends on iterative learning. Neural network system starts
+with feeding by connecting multidimensional input to the
+hidden layer neurons before predicting the right result. +e
+entered
+data
+or
+features
+go
+through
+several
+shifts
+depending on the weight of the features and the neural
+network construction strategy. Each hidden layer produces
+data for any other layer, or its results go to the inputs of
+previous layers as feedback.
+Normally, nonlinear functions such as h function are
+used after each output layer, N × N dimensions’ matrix
+suggested for adjustment N is considered account numbers,
+nodes can be represented as rows and columns in a matrix
+matrix, connected nodes in a pattern use non-zero values to
+represent the relationship between nodes and their trans-
+actions. +e process of neural network is shown in Figure 5.
+Depicting all the information collected from blockchain
+to form vector and matrix makes prediction easy, and neural
+network can determine root mean square error (RMSE) as in
+the following equation:
+R2  1 −
+􏽐N
+i1 yi
+pre −yi
+exp
+􏼐
+􏼑
+2
+􏽐N
+i1 yi
+pre −y
+􏼐
+􏼑
+2
+,
+RMSE 
+
+1
+N 􏽘
+N
+i1
+yi
+pre −yi
+exp
+􏼐
+􏼑
+2
+􏽶
+􏽴
+.
+(5)
+ypre and yexp are experimental and predicted variables. y
+is the average of dependent experimental variable, and N is
+the total iteration number of running the system; maximum
+R2 with minimum RMSE makes the best performance of
+DNN.
++is study used movements of Bitcoins in Europe,
+Canada, and USA trading company as data processing
+and datasets. Because these data have been marked and
+Artiﬁcial Neural Network
+Inputs
+Hidden
+Outputs (s)
+Use Features
+Analysis Features
+Figure 2: Diﬀerence of normal neural network and deep learning
+in feature analysis techniques.
+Origin
+Block (0)
+To Block 4
+Block 1 (header)
+part of
+previous
+block header
+Merkle root
+Merkle root
+Merkle root
+Block 1
+transaction
+Block 2
+transaction
+Block 3
+transaction
+part of
+previous
+block header
+part of
+previous
+block header
+Block 2 (header)
+Block 3 (header)
+Figure 3: Blockchain structure.
+Complexity
+5
+ 8503, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2022/2611063 by Tunisia Hinari NPL, Wiley Online Library on [04/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--------------------------------------------------------------------------------
+--- Page 6 ---
+
+informationized, in addition to checking the accuracy of
+the proposed method, we can also understand the
+movements of large companies in the market.
+3. Experimental Results
++e many leveraged iterations for neural network model are
+used to predict price of digital currency (Bitcoin) on hour in
+the future to reduce statistical risk by using improved feature
+set. For the baseline prediction setting, set the normal
+prediction and increment the process per hour to achieve
+normal mean squared error. +en, neural network is applied
+with normal features extracted to run the system. In the last
+running, DNN was applied with preprocessing of feature
+reduction on many iterations. +is is actually running under
+training mode with fetching data from previous predicted
+data as shown in Table 1.
+Prediction error is a controlling factor in determining
+statistical risk and plays an important role in the beneﬁt
+reward of digital currency. DNN experiments the results
+many times during iterations and feeds back the predicted
+result to the neural system again when it is not proper or
+suitable prediction.
+To evaluate the system, we considered year 2018 for
+training to ﬁnd the accuracy. Accuracy reﬂects the good
+prediction of the system by comparing the actual results with
+the expected results and the degree of convergence between
+them. Figure 6 shows the accuracy over accumulative square
+error.
+According to Figure 6, we can notice the extent of the
+convergence between the accuracy of the prediction pro-
+posed by the DNN and the actual results. +is result can
+reﬂect the worthiness of the model and how it can avoid the
+risk of the greed of investors and speculators in the stock
+market for digital currency.
+Proposed informative features such as net ﬂow
+through the account (per hour) and transactions’ number
+are provided by new address for given hour. Figure 7
+shows the correlation of features; many of the transac-
+tions are close to zero, as well as the ﬂow of nodes in the
+system. +is information allows moving Bitcoin. We can
+also notice that when the feature is large and positive, the
+price will decrease, while when feature is large and
+negative, the price will increase.
+Given
+Information
+Classification & pre-
+processing
+Feature Extraction
+Weight
+Calculation
+Insignificant Feature
+Reduction
+Find transaction from
+given node
+End Node?
+Generate the
+Blockchain
+Yes
+Apply DNN
+Prediction
+No
+Update node
+no.
+Figure 4: General ﬂowchart for proposed method.
+Sampling
+Random Walk
+Build Prediction
+Model
+Node To Vector
+Add
+Prediction Phase
+Add 5
+N-Dimension Vector
+Add 4
+Transaction Pattern
+Add 1
+Add 2
+Add 3
+Add 4
+Add 2
+Add 1
+Add 6
+Transaction Graph
+Add 3
+Node
+Node
+Node
+Node
+0.256
+0.64
+0.458
+0.29
+0.234
+0.854
+0.469
+0.45
+0.621
+0.234
+0.912
+0.426
+0.954
+0.642
+0.364
+0.341
+Add 2
+Add 5
+Add 6
+Add 3
+Add 2
+Add 3
+Add 6
+Add 5
+Figure 5: Depicting nodes and their transactions within proposed
+DNN.
+6
+Complexity
+ 8503, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2022/2611063 by Tunisia Hinari NPL, Wiley Online Library on [04/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- Tables Found ---
+Node	Node	Node	Node
+0.256	0.64	0.458	0.29
+0.234	0.854	0.469	0.45
+0.621	0.234	0.912	0.426
+0.954	0.642	0.364	0.341
+
+--------------------------------------------------------------------------------
+--- Page 7 ---
+
+4. Conclusion
++e digital currency term is commonly used in the
+present day, but there are many risks involved in digital
+currency, so it is imperative to ﬁnd a way to avoid or
+reduce the risks faced by those who deal with Bitcoin.
+Deep learning is widely used to solve complex cases that
+require an advanced prediction of ﬁnancial transactions.
+One of the deep learning algorithms used in this study,
+deep neural network, has been improved to adapt to this
+problem statement to be suited to the appropriate way to
+resolve such cases. Features extracted in advance were
+used to build neural network from the transactions and
+nodes (Bitcoin) with currency return. Prediction process
+was used to reduce uninformative features to gain per
+hour data that satisfy requirement of the algorithm. Deep
+neural network achieved worthy results in terms of
+accuracy and MSE when trained on given previous data of
+year 2018. Prediction of beneﬁt of Bitcoin in advance
+helps to avoid statistical risk in digital currency.
+Data Availability
+All data used to support the ﬁndings of this study are in-
+cluded within the article.
+Conflicts of Interest
++e author conﬁrms that there are no conﬂicts of interest
+regarding the publication of this study.
+References
+[1] Social Science Electronic Publishing, Working Paper, no. 19-
+26, 2019.
+[2] N. A. Kyriazis, “Herding behaviour in digital currency
+markets: an integrated survey and empirical estimation,”
+Heliyon, vol. 6, no. 8, Article ID e04752, 2020.
+[3] K. Huynh, J. Molnar, O. Shcherbakov, and Q. Yu, Demand for
+Payment Services and Consumer Welfare: (e Introduction of
+a Central Bank Digital Currency. No. 2020-7, Bank of Canada,
+Ottawa, Canada, 2020.
+[4] R. Auer and R. B¨ohme, “+e technology of retail central bank
+digital currency,” Bank for International Settlements (BIS),
+Quarterly Review, 2020.
+[5] C. Barontini and H. Henry, Proceeding with Caution-A Survey
+on Central Bank Digital Currency, p. 79, Financial Market
+Research, 2019.
+[6] L. Schilling and H. Uhlig, “Some simple bitcoin economics,”
+Journal of Monetary Economics, vol. 106, pp. 16–26, 2019.
+[7] K. Guesmi, S. Saadi, I. Abid, and Z. Ftiti, “Portfolio diver-
+siﬁcation with virtual currency: evidence from bitcoin,” In-
+ternational Review of Financial Analysis, vol. 63, pp. 431–437,
+2019.
+[8] A. S. Hayes, “Bitcoin price and its marginal cost of production:
+support for a fundamental value,” Applied Economics Letters,
+vol. 26, no. 7, pp. 554–560, 2019.
+Table 1: Model’s result.
+Model running
+No. of iterations
+MSE
+N-prediction
+1
+2.7
+Neural network
+3 (hidden layers)
+1.6
+DNN
+12
+1.02
+Cumulative Squared Error
+Feb 2018 Mar 2018 Apr 2018 May 2018 Jun 2018
+Jul 2018
+Auq 2018 Sep 2018
+Oct 2018
+0
+500
+1000
+1500
+2500
+2000
+3000
+Predicted
+Actual
+Figure 6: Accuracy of training system.
+Net Flow through Account A per hour
+Number of Transactions Made by New Accounts
+–80000
+–500
+0
+500
+1000
+1500
+2000
+–60000 –40000 –20000
+0
+20000
+40000
+60000
+80000
+Price Decreased
+Price Increased
+Figure 7: Correlation of features and transactions.
+Complexity
+7
+ 8503, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2022/2611063 by Tunisia Hinari NPL, Wiley Online Library on [04/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--------------------------------------------------------------------------------
+--- Page 8 ---
+
+[9] B. Bruno, B. Christophe, B. Matthieu, C. Catherine, and
+M. J. Alber, Equilibrium Bitcoin Pricing, Toulouse School of
+Economics (TSE), no. 18-973, Toulouse, France, 2020.
+[10] M. Al Mamun, G. S. Uddin, M. T. Suleman, and S. H. Kang,
+“Geopolitical risk, uncertainty and Bitcoin investment,”
+Physica A: Statistical Mechanics and Its Applications, vol. 540,
+Article ID 123107, 2020.
+[11] N. P. Canh, U. Wongchoti, S. D. +anh, and N. T. +ong,
+“Systematic risk in cryptocurrency market: evidence from
+DCC-MGARCH model,” Finance Research Letters, vol. 29,
+pp. 90–100, 2019.
+[12] N. Bundi and M. Wildi, “Bitcoin and market-(in)eﬃciency: a
+systematic time series approach,” Digital Finance, vol. 1,
+no. 1-4, pp. 47–65, 2019.
+[13] Y. Wu, A. Luo, and D. Xu, “Identifying suspicious addresses
+in Bitcoin thefts,” Digital Investigation, vol. 31, Article ID
+200895, 2019.
+[14] D. Yermack, “+e potential of digital currency and block-
+chains,” NBER Reporter, vol. 1, pp. 14–17, 2018.
+[15] J. J. Castonguay and S. Stein Smith, “Digital assets and
+blockchain: h, fraudulent, or just misunderstood?∗,” Ac-
+counting Perspectives, vol. 19, pp. 363–387, 2020.
+[16] A. Srivatsan, S. V. Jenkins, M. Jeon et al., “Gold nanocage-
+photosensitizer conjugates for dual-modal image-guided
+enhanced photodynamic therapy,” (eranostics, vol. 4,
+pp. 163–174, 2014.
+[17] S. J. H. Hussain, E. Bouri, D. Roubaud, L. Kristoufek, and
+B. Lucey, “Is Bitcoin a better safe-haven investment than gold
+and commodities?” International Review of Financial Anal-
+ysis, vol. 63, pp. 322–330, 2019.
+[18] I. Henriques and P. Sadorsky, “Can bitcoin replace gold in an
+investment portfolio?” Journal of Risk and Financial Man-
+agement, vol. 11, p. 48, 2018.
+[19] Z. Nan and T. Kaizoji, “Market eﬃciency of the bitcoin ex-
+change rate: weak and semi-strong form tests with the spot,
+futures and forward foreign exchange rates,” International
+Review of Financial Analysis, vol. 64, pp. 273–281, 2019.
+[20] Y. Yu, M. Li, L. Liu, Y. Li, and J. Wang, “Clinical big data and
+deep learning: applications, challenges, and future outlooks,”
+Big Data Mining and Analytics, vol. 2, pp. 288–305, 2019.
+[21] A. J. Khalil, A. M. Barhoom, B. S. Abu-Nasser, M. Musleh, and
+S. Abu-Naser, “Energy eﬃciency prediction using artiﬁcial
+neural network,” International Journal of Academic Peda-
+gogical Research (IJAPR), vol. 3, pp. 1–7, 2019.
+[22] S. Lahmiri and S. Bekiros, “Cryptocurrency forecasting with
+deep learning chaotic neural networks,” Chaos, Solitons &
+Fractals, vol. 118, pp. 35–40, 2019.
+[23] A. Altan, S. Karasu, and S. Bekiros, “Digital currency fore-
+casting with chaotic meta-heuristic bio-inspired signal pro-
+cessing techniques,” Chaos, Solitons & Fractals, vol. 126,
+pp. 325–336, 2019.
+[24] P. Lamothe-Fern´andez et al., “Deep learning methods for
+modeling bitcoin price,” Mathematics, vol. 8, p. 1245, 2020.
+[25] M. Rizwan, S. Narejo, and M. Javed, “Bitcoin price prediction
+using deep learning algorithm,” in Proceedings of the 201913th
+International Conference on Mathematics, Actuarial Science,
+Computer Science and Statistics (MACS), December 2019.
+[26] T. Awoke, M. Rout, L. Mohanty, and S. C. Satapathy, “Bitcoin
+price prediction and analysis using deep learning models,”
+Communication Software and Networks, Springer, Singapore,
+pp. 631–640, 2021.
+[27] Mr T. Khiaonarong and D. Humphrey, “Cash use across
+countries and the demand for central bank digital currency,”
+International Monetary Fund, vol. 19, 2019.
+[28] Y. Wu, H. Fan, X. Wang, and G. Zou, “A regulated digital
+currency,” Science China Information Sciences, vol. 62, Article
+ID 32109, 2019.
+[29] J. Kiﬀ, J. Alwazir, S. Davidovic et al., A Survey Of Research On
+Retail Central Bank Digital Currency, 2020.
+[30] D. Easley, M. O’Hara, and S. Basu, “From mining to markets:
+the evolution of bitcoin transaction fees,” Journal of Financial
+Economics, vol. 134, pp. 91–109, 2019.
+[31] M. Alijani, B. Banimahd, and M. Madanchi, “Study and re-
+search on the six-year process of bitcoin price and return,”
+Advances in Mathematical Finance and Applications, vol. 4,
+pp. 45–54, 2019.
+[32] I. Georgiou, A. Georgiadi, and S. Sapuric, “Positive and
+negative searches related to the bitcoin ecosystem: relation-
+ship with bitcoin price,” in Proceedings of the European,
+Mediterranean, and Middle Eastern Conference on Informa-
+tion Systems, November 2020.
+[33] D. Prado and M. Lopez, Advances in Financial Machine
+Learning, John Wiley & Sons, Hoboken, NJ, USA, 2018.
+[34] G. Sulong and A. Mohammedali, “Human activities recog-
+nition via features extraction from skeleton,” Journal of
+(eoretical and Applied Information Technology, vol. 68, p. 3,
+2014.
+[35] J. Zheng, J. Li, Y. Li, and L. Peng, “A benchmark dataset and
+deep learning-based image reconstruction for electrical ca-
+pacitance tomography,” Sensors, vol. 18, no. 11, Article ID
+3701, 2018.
+[36] G. Sulong and A. Mohammedali, “Recognition of human
+activities from still image using novel classiﬁer,” Journal of
+(eoretical and Applied Information Technology, vol. 71, p. 1,
+2015.
+[37] H. Zhu, J. Sun, L. Xu, W. Tian, and S. Sun, “Permittivity
+reconstruction in electrical capacitance tomography based on
+visual representation of deep neural network,” IEEE Sensors
+Journal, vol. 20, pp. 4803–4815, 2020.
+[38] B. T. Atiyha, S. Aljabbar, A. Ali, and A. Jaber, “An improved
+cost estimation for unit commitment using back propagation
+algorithm,” Malaysian Journal of Fundamental and Applied
+Sciences, vol. 15, pp. 243–248, 2019.
+[39] D. Xie, L. Zhang, and L. Bai, “Deep learning in visual com-
+puting and signal processing,” Applied Computational Intel-
+ligence and Soft Computing, vol. 2017, Article ID 1320780,
+13 pages, 2017.
+8
+Complexity
+ 8503, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2022/2611063 by Tunisia Hinari NPL, Wiley Online Library on [04/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--------------------------------------------------------------------------------

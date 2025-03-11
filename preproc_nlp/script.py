@@ -1,6 +1,6 @@
-#git
+# gr
 """
-Advanced Text Cleaning Utility for Web-Extracted Content
+ Text Cleaning Utility for Web-Extracted Content
 
 This utility prepares text files for NLP applications by:
 1. Converting text to lowercase.
@@ -105,6 +105,15 @@ def expand_contractions(content):
     tokens = content.split()
     expanded = [contraction_map[token.lower()] if token.lower() in contraction_map else token for token in tokens]
     return ' '.join(expanded)
+
+def remove_identifiers(text):
+    # Remove ISSN
+    text = re.sub(r'\bissn\s*\d{4,8}\b', '', text, flags=re.IGNORECASE)
+    # Remove DOI
+    text = re.sub(r'\bdoi\s*\S+', '', text, flags=re.IGNORECASE)
+    # Remove URLs
+    text = re.sub(r'\b(?:https?://)?(?:www\.)?\S+\.\S+', '', text, flags=re.IGNORECASE)
+    return text
 
 def strip_urls_and_tags(data):
     """
@@ -212,6 +221,7 @@ def process_text(source_file, destination_file):
     raw_content = strip_urls_and_tags(raw_content)
     raw_content = erase_email_addresses(raw_content)
     raw_content = eliminate_social_tags(raw_content)
+    raw_content = remove_identifiers(raw_content)
     
     # Step 3: Clear page indicators and navigation/header/footer text
     raw_content = clear_page_indicators(raw_content)
@@ -242,7 +252,7 @@ def process_text(source_file, destination_file):
         f.write(raw_content)
     print(f"Processed text written to {destination_file}")
 
-# --- Command Line Interface ---
+# 
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
