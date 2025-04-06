@@ -1,0 +1,167 @@
+{
+    "stocks": [
+        {
+            "name": "BitcoinBTC",
+            "price": 93925.15,
+            "currencies": [
+                {
+                    "last_hour": 0.34,
+                    "last_day": 1.91,
+                    "last_week": 2.24
+                }
+            ],
+            "market_cap": 1862404646003.0,
+            "volume": 37214831313.0,
+            "circulating_supply": 19820000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "EthereumETH",
+            "price": 2635.67,
+            "currencies": [
+                {
+                    "last_hour": 0.7,
+                    "last_day": 5.94,
+                    "last_week": 3.88
+                }
+            ],
+            "market_cap": 317787437228.0,
+            "volume": 25174914852.0,
+            "circulating_supply": 120570000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "TetherUSDT",
+            "price": 0.9997,
+            "currencies": [
+                {
+                    "last_hour": 0.01,
+                    "last_day": 0.06,
+                    "last_week": 0.02
+                }
+            ],
+            "market_cap": 142377196755.0,
+            "volume": 85693514570.0,
+            "circulating_supply": 142410000000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "XRPXRP",
+            "price": 2.4,
+            "currencies": [
+                {
+                    "last_hour": 0.62,
+                    "last_day": 5.86,
+                    "last_week": 9.79
+                }
+            ],
+            "market_cap": 139453316403.0,
+            "volume": 5278283211.0,
+            "circulating_supply": 57880000000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "BNBBNB",
+            "price": 630.18,
+            "currencies": [
+                {
+                    "last_hour": 0.16,
+                    "last_day": 3.66,
+                    "last_week": 5.76
+                }
+            ],
+            "market_cap": 89786941473.0,
+            "volume": 1761724155.0,
+            "circulating_supply": 142470000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "SolanaSOL",
+            "price": 150.5,
+            "currencies": [
+                {
+                    "last_hour": 0.9,
+                    "last_day": 10.09,
+                    "last_week": 16.11
+                }
+            ],
+            "market_cap": 74544977746.0,
+            "volume": 5607042200.0,
+            "circulating_supply": 495290000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "USDCUSDC",
+            "price": 0.9998,
+            "currencies": [
+                {
+                    "last_hour": 0.0,
+                    "last_day": 0.01,
+                    "last_week": 0.01
+                }
+            ],
+            "market_cap": 56666733954.0,
+            "volume": 8890227370.0,
+            "circulating_supply": 56670000000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "DogecoinDOGE",
+            "price": 0.2211,
+            "currencies": [
+                {
+                    "last_hour": 1.2,
+                    "last_day": 8.46,
+                    "last_week": 14.26
+                }
+            ],
+            "market_cap": 32769261904.0,
+            "volume": 1733622544.0,
+            "circulating_supply": 148180000000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "CardanoADA",
+            "price": 0.7137,
+            "currencies": [
+                {
+                    "last_hour": 0.97,
+                    "last_day": 6.88,
+                    "last_week": 11.39
+                }
+            ],
+            "market_cap": 25130584297.0,
+            "volume": 722856217.0,
+            "circulating_supply": 35200000000.0,
+            "change": null,
+            "extra_details": null
+        },
+        {
+            "name": "TRONTRX",
+            "price": 0.2458,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 0.31,
+                    "last_week": 2.43
+                }
+            ],
+            "market_cap": 21160430527.0,
+            "volume": 697709076.0,
+            "circulating_supply": 86080000000.0,
+            "change": null,
+            "extra_details": null
+        }
+    ],
+    "sources": [
+        "https://coinmarketcap.com/"
+    ]
+}
