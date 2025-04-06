@@ -1,0 +1,1292 @@
+White Paper
+ v 1 5 1
+ 03
+ Contents
+ 1 Introduction What is One Game 
+ 2 One Game Framework 05
+ A User Avatars
+ B Land System
+ C Game Assets
+ D Gaming Scripts
+ E Developer Tools
+ 3 One Game Product Roadmap 08
+ A Avatar Wallet
+ B Open Platform
+ C Master Game
+ 11 4 One Game Architecture
+ A Smart Contracts
+ B Hosted Services by Miners
+ C Version Management based on Consensus and Security Mechanisms
+ D Game Engine
+ E Early Stage Technology Stack
+ 5 Self Evolution of One Game 16
+ A Implementation of Genetic Algorithms
+ B Integration of Artificial Intelligence Algorithms
+ 6 Decentralized Consensus Protocols in One Game 18
+ 7 Tokenized In Game Economy and Ecosystem 20
+ A Introducing One Game Token (OGT)
+ B OGT Usage
+ C OGT Incentive Program
+ D OGT Pricing Mechanism
+ 8 OGT Allocation 22
+ 30
+ 9 Project Roadmap 23
+ 10 Team 25
+ 12 Foundation Governance 29
+ 13 Risk Disclosure
+ 14 Disclaimer 32
+ A Introducing the Popularity Rank
+ B Introducing the Competitiveness Rank
+ C Version Upgrade Based on Proof of Popularity and Proof of Competitiveness
+ D Ranking Based Management of Negative Content
+ 11 Partners and Investors 28
+ Since Atari first pioneered the video gaming
+ with the introduction of Pong in 1972 
+ technology and human computer interaction
+ concepts and design continue to advance in the
+ ensuing decades 
+ Video gaming has grown from a homebrew
+ community into a worldwide cultural
+ phenomenon allowing the development of
+ incredibly passionate and engaged gaming
+ communities For example Tencent Games’
+ multiplayer online battle arena competition 
+ Kings of Glory demonstrates the ascendance of
+ the medium the mobile platform hosts over 80
+ million daily active players (DAU) and 200
+ million monthly active players (MAU) as a result
+ of unique design and seamless social network
+ integration 
+ Video gaming popularity has also translated into
+ a formidable gaming industry no less
+ mainstream than professional sports According
+ to the Global Games Market Report by Newzoo 
+ 2 2 billion gamers across the globe are
+ expected to generate $108 9 billion in game
+ revenues in 2017 The industry trend is expected
+ to continue and to accelerate 
+ Meanwhile recent advances in 3D modeling
+ and virtual reality technologies have inspired
+ developers to blur the boundary between the
+ real and the virtual world For instance the
+ 01
+ Pushing the
+ Boundary
+ between the Real
+ and Virtual World
+ Grand Theft Auto (GTA) series by Rockstar
+ Games allows players to take on the role of a
+ criminal in a big city with scenes so lifelike that
+ every game in the series has been both lauded
+ and criticized for its graphic and uncanny
+ portrayal of reality 
+ Despite these technical innovations modern
+ large scale multiplayer games suffer from a
+ number of significant limitations Most games
+ today are calcified by developers and designers
+ with predetermined game play and finite
+ variability Flexibility and evolution within games
+ are limited No matter how good a game initially
+ is the lack of evolution of the game eventually
+ causes players to lose interest 
+ Additionally due to the current centralization of
+ game creation the rules and rankings in the
+ existing games are not transparent or fair and
+ often incite complaints among players against a
+ centralized corporate game maker 
+ In essence the participating game players lack
+ ultimate control to make requested changes 
+ while the corporate game designers and
+ developers hold the ultimate arbiting power
+ within the game The game players are
+ relegated to a subservient position while game
+ developers and designers act as de facto
+ masters 
+ The advent of blockchain technology now
+ allows us to overcome these limitations and
+ empower the game participants One Game can
+ create a decentralized virtual world in which the
+ game participant is the ultimate owner creator 
+ and arbiter 
+ 02
+ One Game introduces a decentralized and selfevolving world of infinite variability governed by
+ creators gamers and players based on a set of
+ consensus protocols that reward and incentivize
+ the contributing actors As a radical paradigm
+ shift the participants in One Game control their
+ own reality in an infinite self evolving game 
+ 03
+ What is One Game 
+ Chapter 1
+ One Game is a decentralized virtual world built
+ on top of blockchain technology the first of its
+ kind One Game has no predefined gameplays 
+ game design or objectives and is an open
+ gaming and creation platform owned by
+ creators and players allowing creators of
+ varying skills to create their own reality in this
+ world One Game offers considerable design
+ flexibility ease of use and tremendous creative
+ freedom along with community based
+ decentralized governance 
+ Unlike traditional and centralized gaming
+ companies One Game is a decentralized world
+ controlled by and evolving through its
+ community The fruits of its community’s labor
+ in this virtual world accrues to the One Game
+ community not a centralized company 
+ To this end One Game introduces two sets of
+ consensus algorithms integrated into the One
+ Game source code Proof of Popularity and
+ Proof of Competitiveness in order to create a
+ decentralized measurement for developers and
+ players and to give the participants voting
+ power based on individualized scores that
+ reflect their contribution to the One Game
+ ecosystem 
+ By contributing to the development and
+ evolution of One Game developers and gamers
+ are rewarded with in game utility tokens OGT 
+ which allows them to further participate and to
+ trade in the economy of One Game 
+ 04
+ Finally One Game evolves over time through
+ system upgrades and is governed by
+ decentralized consensus This will be explored
+ further herein 
+ At this time One Game will provide a framework
+ of fundamental components that enable the
+ creation of the virtual world based on a
+ framework roadmap One Game will also
+ release three products (Avatar Wallet Open
+ Platform and Master Game) as planned in the
+ product roadmap to serve as example
+ applications and to inspire the community into
+ building even better applications 
+ Players can connect to the One Game world
+ through a PC client VR headset or mobile
+ device supported by a base layer infrastructure
+ and engines driven by a cryptocurrency
+ ecosystem 
+ With the participation and creation of
+ individuals One Game will become the Oasis as
+ described in Ready Player One The boundary
+ between the real and virtual world will
+ disappear as the virtual world can evolve and
+ potentially surpass the real world by
+ incorporating intelligent design and artificial
+ intelligence 
+ 05
+ The One Game framework is defined as a set of
+ primitive components of the proposed virtual
+ world The goal is to create a platform for
+ developers to build virtual content and for
+ players to play games The platform consists of
+ the following components 
+ A Avatar Wallet
+ The One Game Avatar is the One Game identity
+ assigned to each user While the avatar may
+ appear to be initially primitive it can evolve over
+ time and is in fact highly customizable 
+ The One Game Avatar has certain features that
+ can be modified by the players including
+ physical appearance such as facial features
+ and skins behaviors and intelligence In the
+ section 5 A the role of genes on avatars will be
+ further described in detail 
+ One Game
+ Components
+ Chapter 2
+ The One Game system not only allows game
+ players to access the system through
+ authentication of username and password but
+ also assigns them with avatars as their graphical
+ representation in the virtual world of One Game 
+ Just as Parzival appears to be an improved
+ version of Wade Owen Watts One Game Avatar
+ will be an improved version of the game player
+ in the One Game virtual world 
+ C Game Assets
+ In One Game’s innovative in game economy 
+ players own and can use their Game Assets not
+ only in their own land parcel but also can use
+ the Game Assets in other games These Game
+ Assets are usable across the entire One Game
+ world 
+ Games Assets define the visible entities in the
+ world of One Game such as human characters 
+ animals vehicles and buildings 
+ Players may find free or purchasable assets
+ from the One Game Asset Store to use in game
+ play Players retain ownership of these assets
+ and have the freedom to transfer Game Assets 
+ Developers can create new assets for
+ themselves or for the community and sell or
+ share these assets in the One Game Asset Store 
+ Transactions will be conducted using OGT
+ tokens the in game utility token of the One
+ Game world 
+ At this time it is of interest to note that there is a
+ special type of the game assets is the NonPlayer Characters (NPCs) Unlike the avatar
+ characters directly controlled by the players 
+ NPCs come alive with the help of AI algorithms
+ and gamer training and can join different
+ games NPCs will be further described in the 5 B
+ section 
+ B Land System
+ The land system in One Game is based on land
+ parcels on which users design game scenes
+ and game rules 
+ The One Game system allows the generation of
+ unlimited amounts of virtual parcels of land 
+ with sizes ranging from 2 000 pixel x 2 000 pixel
+ to 2 000 000 pixel x 2 000 000 pixel A
+ developer needs to pay a small fee in OGT in
+ order to generate new parcels of land on which
+ he can create games and scenes Once a player
+ acquires a land parcel he or she is to own and
+ transfer it 
+ A map editor will be launched to allow
+ developers to create new land and edit
+ landscape textures and features Initially 
+ individual parcel of land is disjointed by default 
+ However developers can collaborate and
+ connect their respective parcels of land to
+ create cities on which they build large scale
+ games 
+ 06
+ 07
+ Land Editor alters the land’s topographical
+ appearance such as elevation and landscaping 
+ − Assets Editor enables developers to import
+ 3D models from 3rd party modeling software
+ (for example Maya or 3DSMax) and convert the
+ models into supported formats and add
+ skeletons as needed 
+ − Avatar Editor creates and modifies avatars
+ features behaviors and genetics makeup 
+ − Scripts Editor edits scripts in order to control
+ properties and events related to land assets or
+ tasks 
+ The goal is to enable novice developers with
+ limited or no experience to make simple games
+ using easy to understand editor user interface 
+ as well as to provide advanced functionalities
+ and options with a full set of scripts and
+ libraries to allow professional developers to
+ create remarkable and professional games 
+ D Gaming Scripts
+ Gaming Scripts are used to help developers
+ define customized gaming rules on their land
+ parcel and to generate new rules 
+ Developers can use scripts to override the
+ default physical appearance design new
+ gaming narratives make NPCs come alive
+ through AI algorithms or define the starting and
+ ending conditions of their games on their land
+ parcel 
+ The script libraries will consist of a library of Lua
+ scripts and in the future extend to Javascript 
+ Developers can use these scripts as they are or
+ modify these scripts to meet their needs as they
+ wish 
+ E Developer Tools
+ Game or content creation in One Game will be
+ facilitated through the following Developer
+ Tools 
+ A daily lottery will be held inside the wallet and
+ based on some rules players are given
+ opportunities to win varying categories of virtual
+ items some of which can be apply onto their
+ avatar or used on their land parcel 
+ The Avatar Wallet further rewards player for
+ holding OGT in their wallet much like Gas from
+ NEO Players are rewarded by holding OGT in
+ their Avatar Wallet by receiving virtual goods 
+ Moreover by integrating with social networks 
+ players can socialize and engage with their
+ friends through their avatars share their selfies 
+ and gift virtual items 
+ The primary motivation for creating the Avatar
+ Wallet product is to attract users to the One
+ Game platform however a non goal or a byproduct of this app will be enabling regular
+ people to understand blockchain and
+ cryptocurrency through gamified user interface 
+ creation of avatar and sending virtual gifts 
+ One Game
+ Product Timeline
+ Chapter 3
+ Based on the components introduced in the
+ previous section the virtual world of One Game
+ will be delivered to players step by step 
+ according to the following product pipeline 
+ A Avatar Wallet
+ This product is designed as an HTML5 based
+ app targeting mobile devices It extends the
+ Avatar Editor mentioned in the previous section 
+ and will serve as the entry point of One Game’s
+ virtual world 
+ Like regular wallet apps it allows users to
+ deposit and withdraw cryptocurrencies
+ including Ethereum and One Game Token (or
+ OGT ) What’s unique in this app is that users
+ can view and customize their One Game
+ Avatars which is their representation in One
+ Game 
+ 08
+ C The Master Game
+ The Master Game is a sandbox game available
+ on the Open Platform and focuses on creating
+ the origin world of One Game The Master Game
+ introduces a set of rules of interaction among
+ gamers 
+ The goal of The Master Game is to showcase
+ the features and functionalities of the platform 
+ This game will be used as a way to teach
+ gamers and developers of the extent of
+ possibilities that exist This game will allow
+ others to fork its code much like forking from a
+ code repository into their own versions and to
+ make game design changes as they like 
+ The game will make the best use of the One
+ Game framework and encourage more and
+ more players to become developers and for
+ developers to see what is possible in terms of
+ game design and become capable developers 
+ 09
+ B The Open Platform
+ After building the initial user base with the
+ Avatar Wallet the One Game foundation will
+ launch Open Platform in order to provide an
+ SDK and Developer Tools to game developers
+ from around the world and to allow them to
+ build games using the avatars and game assets
+ available on the Open Platform 
+ Developers can publish their games to the
+ platform and receive rewards from the
+ Incentive Program (see 7 C) players can play
+ various games recommended by the platform 
+ using the avatars created in the Avatar Wallet 
+ and receive rewards too Virtual items that
+ players won in the lottery or different games
+ will be available universally among games in
+ the platform 
+ From the technical point of view the Open
+ Platform is a wrapper of all One Game
+ framework components but it also provides
+ some additional features 
+ A lobby for players to browse and search for
+ parcels with games created by developers 
+ − An embedded messenger that allows players
+ to communicate with other players 
+ − A leaderboard for players or developers to
+ track their ranking in different games (see 5 A
+ and 5 B) 
+ 10
+ − Cities as a whole are ranked and members
+ can receive platform rewards in OGT according
+ to their respective contribution to the city
+ − Trading virtual resources in different cities the
+ player can profit from active trading of scarce
+ virtual goods
+ − Launching a competition or even warfare 
+ where one city can plunder virtual items and ingame currency from other cities
+ More details of the Master Game will be
+ announced in the future 
+ In the Master Game players can create a city on
+ a land parcel or join land parcels with those
+ being created by other players and explore the
+ games in the city 
+ Some early functionalities to be developed in
+ the Master Game include 
+ Building and developing the city
+ − Hosting mini competitions inside the city to
+ attract more players to connect their land
+ parcels to the city
+ − Receive rewards from selling tickets and
+ transacting virtual items 
+ 11
+ The One Game architecture is outlined below 
+ The client side consists of multiple interfaces
+ that connect to the virtual world for game
+ players and Developer Tools for game
+ developers Initially the One Game team plans
+ to focus on mobile devices by launching the
+ Avatar Wallet and the Open Platform and then
+ extend to support other clients 
+ The server side is built on Deepbrain Chain
+ (DBC) which is a low cost flexible and
+ decentralized AI computing platform The
+ motivation for choosing this platform is that One
+ Game requires significant computing resources
+ and includes the implementation of AI
+ algorithms while Deepbrain Chain provides the
+ viable decentralized solution for these use
+ cases The server side consists of two
+ components smart contracts on Deepbrain
+ Chain and mining services deployed on
+ Deepbrain Chain’s computing platform 
+ One Game Architecture
+ Chapter 4
+ − Land System keeps the full records of land
+ creation land ownership and pricing history 
+ Land ownership is acquired through purchasing
+ using OGT 
+ − Asset System traces the status of all the
+ game assets such as the status of avatars 
+ B Hosted Service by Miners
+ In the simulated mining process miners deploy
+ services to Deepbrain Chain’s computing
+ platform 
+ Main Server includes fundamental
+ components of the system including game
+ lobby asset store and scenes 
+ AI Algorithms include algorithms for
+ pathfinding genetic recombination and
+ mutation and the behavior and decision making
+ of the NPCs 
+ Numeric Computing manages game physics
+ and collision detection 
+ Scripting Engine compiles and executes
+ scripts created by developers 
+ 12
+ Any user can become a miner by downloading
+ One Game’s source code from an open sourced
+ repository and uploading the compiled binary
+ to Deepbrain Chain’s computing platform to
+ execute In this way through Deepbrain Chain
+ hosting network miners provide computing and
+ storage solutions to One Game and are
+ rewarded One Game Tokens through simulated
+ mining process 
+ Game results and user ranking are implemented
+ on the server side The gaming clients only
+ conduct rendering and computations that do
+ not affect the game results or user rankings 
+ A Smart Contracts
+ One Game’s core system is built on top of
+ Deepbrain Chain as smart contracts 
+ The core system contains the following key
+ components 
+ − Miner’s Registration Center where miners
+ register themselves and service client side
+ requests that are routed to the mining services 
+ − Incentive Program manages how One Game
+ token rewards are generated in the system and
+ how the rewards are distributed to miners 
+ developers and players based on consensus
+ rankings 
+ The computing platform of Deepbrain Chain
+ also guarantees that once a version is deployed 
+ it will be kept in a sandbox safely and will not be
+ modified by any external programs or actors 
+ D Game Engine
+ Ideally One Game aims to create an
+ implementation entirely based on open sourced
+ solutions however most commercial game
+ engines are close sourced at this time 
+ For now for our prototypes Unity3D and Egret
+ are chosen as the game engines Later One
+ Game will open source the source code and the
+ communication protocols Ultimately if there
+ are better game engines One Game will
+ consider migrating to a different solution
+ E Early Stage Technology Stack
+ The Avatar Wallet and other early stage
+ products of One Game are created with semicentralized architecture 
+ The reason for using such a solution initially is
+ that the team plans to rapidly re iterate on the
+ product based on feedback from the users and
+ community After the product is stabilized the
+ products will be migrated to decentralized
+ architecture described in Section 4 A 4 C 
+ 13
+ When the client sends requests to the server it
+ looks up for the corresponding service’s IP
+ address from Miner’s Registration Center and
+ sets up a peer to peer connection with the
+ service 
+ When the requests from the client side exceeds
+ the capacity of the existing miners the Incentive
+ Program (see 7 C) will raise the mining rewards
+ to attract more miners On the contrary when
+ there are less requests from the client side the
+ Incentive Program will lower the mining
+ rewards which will result in a decrease of
+ number of miners 
+ C Version Management based on Consensus
+ and Security Mechanism
+ In One Game’s mining process anyone can
+ become a miner without any permission which
+ means miners have the freedom to host
+ different versions of the service and they can
+ provide forked ones improved by open source
+ contributions 
+ However to mitigate possible security concerns
+ and to protect the system from potential
+ security hazards on one hand the system
+ records and registers all the binaries’
+ fingerprints in the Miner’s Registration Center 
+ on the other hand a voting process is designed 
+ such that game developers and game players
+ can form a committee and decide which open
+ source version is the elected version The
+ theory of the voting process is explained in
+ detail in Section 6 
+ Content Delivery Layer
+ User generated assets are stored in blob
+ storage such as AWS S3 
+ A Content Delivery Network (CDN) is used in
+ order to speed up requests and reduce latency
+ of static assets from global user base 
+ Data Store Layer
+ Postgres database are available on cloud
+ servers 
+ Redis is used any high frequency server side
+ in memory data using different kinds of data
+ structures 
+ Real Time Layer
+ Socket io is used to handle real time client toserver communication through websockets 
+ WebRTC is used to setup peer to peer
+ connections between users 
+ 14
+ Currently the following technology stacks are
+ designed for the Avatar Wallet 
+ Rendering Layer
+ LayaBox renders 2D and 3D
+ scenes Computing Layer
+ Nginx serves as the load balancer to distribute
+ traffic 
+ Node js server instances sit behind a reverse
+ proxy 
+ Blockchain Layer
+ Web3 js API connects to Ethereum blockchain
+ through Infura 
+ Key transactions and checkpoints are
+ recorded in Ethereum Blockchain using smart
+ contracts 
+ Only encrypted communication over HTTPS is
+ enabled to ensure the security of user
+ information 
+ Monitoring services are enabled to enable
+ high availability 
+ Over the course the goal is to migrate the
+ above design to a fully decentralized
+ architecture and to make use of any superior
+ new technologies of the rapid developing
+ blockchain world 
+ 15
+ Privacy and security of user data are critical to
+ the success of a cryptocurrency wallet The
+ Avatar Wallet adopts the following security
+ strategy 
+ The private key of any user generated wallets
+ are double encrypted using a password
+ managed by the server admin and a password
+ managed by the users To decrypt the private
+ key both passwords are required 
+ The databases are periodically snapshot 
+ Any user uploaded confidential information 
+ such as Know Your Client data are encrypted 
+ and will be destroyed permanently from the
+ current database and from the backups based
+ on regulations of various jurisdictions 
+ Two factor authentication is available and
+ recommended to all users They can use
+ temporary access code sent to their mobile
+ devices to strengthen the security of their
+ personal accounts 
+ Any large amount of digital assets is
+ transferred to cold storage which is
+ disconnected from the Internet to prevent any
+ unauthorized access 
+ All database operations will be conducted
+ through ORM (Object Relational Mapping) to
+ prevent SQL injection attacks 
+ 16
+ Self Evolution of
+ One Game
+ Chapter 5
+ To build a complex virtual world solely relying
+ on inputs from human beings (whether it is the
+ One Game team or the third party developers)
+ is not sufficient One Game needs to self evolve
+ with the help of Genetic Algorithms and other
+ Artificial Intelligence algorithm 
+ A Implementation of Genetic Algorithms
+ One Game developers will provide various
+ types of game assets and scripts to the platform
+ over time while game players will provide an
+ ongoing stream of data through game play 
+ As One Game assets and scripts are highly
+ modularized the combination of different
+ modules will generate infinite gaming
+ possibilities and variations 
+ One Game’s Developer Tools allow developers
+ to map asset modules with genes every gene
+ carries a phenotypic trait 
+ By paying a fee in OGT game players can apply
+ genetic mutations or combinations onto assets
+ owned by them Game players may continue to
+ iterate on the genetic combination process until
+ they satisfied with the generated final result 
+ After multiple rounds of developers’ and
+ players’ inputs and feedback the platform will
+ evolve with surprising results via this
+ evolutionary process One Game grants players
+ and developers godlike abilities of
+ personalization and creation 
+ By integrating reinforcement learning and other
+ mathematical models our goal is to let NPCs
+ take input from the players and optimize their
+ decisions based on what they have learned 
+ One Game’s integration with genetic algorithms
+ and other Artificial Intelligence algorithms
+ combines knowledge in biology mathematics 
+ and computer science 
+ This white paper has set out the basic concept 
+ framework architecture protocols and features
+ of One Game and OGT One Game’s dedicated
+ tokens but blockchain technology is evolving at
+ a bewildering pace We expect One Game to
+ also evolve rapidly and will upgrade our
+ platform from all the stakeholders of the One
+ Game world 
+ 17
+ B Integration of Other Artificial Intelligence
+ Algorithms
+ Deep learning algorithms can be utilized in the
+ process of world creation It will save human
+ players from the tedious routine work such as
+ adding clothes to avatars altering landscapes 
+ placing roads and streets in a city especially the
+ work that required pixel level dedication 
+ By training AI to learn how human players or
+ developers set up land parcel deep learning
+ models can be trained to take over these tasks 
+ thereby greatly simplify the base level of work
+ required for developers to set up the land
+ parcels By lower the initial cost of creation 
+ more creators both less experienced and
+ advanced can participate in world creation and
+ enjoy the process of creation Moreover virtual
+ content can be created in a faster pace 
+ Reinforcement learning is another algorithm
+ that can be used to improve the gaming
+ experience in One Game 
+ For example NPCs in One Game serve unique
+ functionalities by providing assistance to the
+ gamers and the community at large NPCs in
+ most games are managed by a pre defined
+ decision tree giving players the feeling that the
+ NPCs are ƗintelligentƘ This is the current socalled ƗGame AIƘ 
+ 18
+ Decentralized governance relies on consensus 
+ One Game uses Popularity Rank (R ) and
+ Competitiveness Rank (R ) as the consensus
+ mechanisms R and R measure the activeness
+ of developers and players and the platform will
+ periodically recompute R and R for each
+ developer and player 
+ These two consensus mechanisms enable
+ decentralized governance by eliminating a
+ central arbiter and empowering the creators
+ and game players to control the evolution of the
+ platform based on voting 
+ A Popularity Rank defines the popularity of the
+ land created by developers 
+ 
+ Here R (l i + 1) and R (l i) respectively represent
+ a land l’s Popularity Rank in the current period
+ (period i + 1) and the previous period (period i) k
+ is a number between 0 and 1 and represents
+ the weight of the current period P is the set of
+ all the players that visited land l in the current
+ period and p represents a single player t(p l)
+ represents the time that a single player p spent
+ in land l and T(p) is the time that player p spent
+ in all the land in the current period 
+ A developer d’s Popularity Rank R (d i) equals to
+ the sum of all of d s land s Popularity Rank
+ R (l i) where l represents a single land and
+ L(d) is the set of all the land created by d 
+ B Competitiveness Rank defines players’
+ performance in different games created by
+ developers 
+ Here R (p i + 1) and R (p i) represent a single
+ player p’s Competitiveness Rank in the current
+ period and the previous period k is a number
+ between 0 and 1 and represents the weight of
+ the current period L is the set of land that
+ player p visited in the current period and l
+ represents a single piece of land s(l p)
+ represents a single player p’s performance
+ score in land l and S(l) presents the sum of all
+ the scores from different players in land l 
+ Please note that the Popularity Rank R (l i) of
+ the previous period is used as a weight in the
+ formula In other words players need to gain
+ scores in more popular games in order to better
+ increase their Competitiveness Rank 
+ Decentralized
+ Consensus Protocols
+ in One Game
+ Chapter 6
+ p
+ c
+ p c
+ c
+ p c
+ p p
+ p
+ p
+ c
+ p
+ 19
+ C Version Upgrade Based on Proof of
+ Popularity and Proof of Competitiveness
+ The platform will choose
+ N developers with the
+ highest Popularity Rank and
+ N players with the
+ highest Competitiveness Rank as the judges to
+ form a committee 
+ When the One Game development team
+ updates the platform it will be presented
+ through smart contract to the committee who
+ will make the new version official upon 2/3 of
+ the judges approval 
+ Theoretically third party developers can also
+ develop new versions and submit these 
+ Eventually it is the committee that ultimately
+ decides when and how the platform upgrades 
+ D Ranking Based Management of Negative
+ Content
+ The issue of filtering for violent or inappropriate
+ content is based on community curation The
+ ranking system will be further adapted to
+ reduce the ranks of negative content based on
+ community feedback and obscure such content
+ from users 
+ One Game works with accredited attorneys on
+ legal matters such as copyrights and age
+ restrictions One Game will provide parent
+ control feature to create a safe virtual
+ environment for children and provides guidance
+ on age restriction rating rules based on existing
+ industry standards of rating organizations such
+ as Pan European Game Information (PEGI) and
+ Entertainment Software Rating Board (ESRB) 
+ One Game believes that the decentralized selfgovernance will provide a framework for
+ ensuring a safe VR experience for minors c p
+ 20
+ Participants in One Game can fully participate in
+ economic transactions among users To this
+ end One Game introduces One Game Token
+ (OGT) which allows instant global transactions
+ among participants 
+ OGT is a fungible component of One Game In
+ the virtual world of One Game the economy is
+ based on the fungible token of fixed supply 
+ which also carries utility value in the One Game
+ world 
+ A Introducing One Game Token (OGT)
+ One Game Token (OGT) is an ERC20 compatible
+ token initially issued on top of the Ethereum
+ blockchain and then swapped to Deepbrain
+ Chain token There is a finite supply of OGT and
+ the amount in circulation is pre defined 
+ B OGT Usage
+ OGT is the in game utility token OGT can be
+ used to purchase land parcels virtual goods
+ and services in the One Game world By
+ purchasing OGT new gamers and developers
+ will be able to participate in the One Game
+ world and engage in its economy immediately 
+ The following summarizes some use cases of
+ OGT 
+ − Creating and maintaining land
+ − Paid options in games developed by
+ developers
+ − Buying and selling assets in Asset Store
+ − Rewards for developer and players
+ − Fees for using computing and storage
+ resources
+ OGT is a digital asset that is transferable ingame as the native currency and game fuel and
+ is also transferable outside of One Game
+ platform As the One Game platform matures 
+ the value of OGT in theory moves in tandem
+ with the value of the platform However we will
+ not be facilitating any secondary trading of OGT
+ as our intention is for players and developers to
+ use OGT in the One Game world and contribute
+ to the growth of the One Game world 
+ C Incentive Program
+ There is an incentive pool reserved for the
+ miners the developers and the players Every
+ year 10% of the tokens in the incentive pool will
+ be distributed as rewards At the same time the
+ proceeds received from land creation and
+ genetic mutation will be returned back to the
+ incentive pool 
+ Tokenized In Game
+ Economy and
+ Ecosystem
+ Chapter 7
+ Although the OGT price fluctuates based on
+ market supply and demand developers may
+ issue virtual goods with a fixed conversion rate
+ to fiat currencies as described below 
+ A protocol will allow developers to refer to one
+ or multiple oracles that connect to the APIs of
+ cryptocurrency exchanges to access the
+ contemporaneous OGT price and then variably
+ price their virtual goods based on an end value
+ conversion to a fixed fiat currency value 
+ Developers can price goods variably in OGT
+ conversion rates while maintaining a stabilized
+ value bounded to fiat currencies For example if
+ the current price of one OGT is $0 01 and a
+ game developer issued his own virtual X set at a
+ price of $0 10 then in One Game players need
+ to pay 10 OGT to purchase one X When the
+ token OGT price increases to $0 02 the pricing
+ of the virtual goods automatically adjusts and
+ thereby allows players to purchase one X with 5
+ OGT through use of the oracle 
+ Currency fluctuation is a risk for developers
+ because they earn OGT from the games and
+ the token price may fluctuate due to market
+ changes Developers may if they wish hedge
+ this fluctuation risk through use of derivatives 
+ but this is a private and personal decision on the
+ part of the developers As explained in Section
+ 7 B (OGT Usage) OGT are intended to be the
+ native currency for the One Game world and is
+ not legal tender or is not intended to be a
+ financial instrument If players or developers
+ wish to sell their OGT or buy additional OGT
+ they cannot obtain from mining or as rewards 
+ they may do so but such buying and selling are
+ to be carried out as separate arrangements
+ among themselves or other holders of OGT 
+ 21
+ If the size of the pool in the ith year is S(i) and
+ the proceeds received by the pool is R(i) then
+ the pool size of the i + 1 th year will be 
+ Assuming that R and R are the lower bound
+ and upper bound of the proceeds received in
+ each year such that 
+ 
+ The pool size of the i + 1 th year have the
+ following lower and upper bounds 
+ When i approaches infinity 
+ 
+ and
+ 
+ It means the pool size will eventually reach a
+ dynamic equilibrium 
+ As described in section 4 B the simulated
+ mining process guarantees that there are
+ always necessary but not excessive computing
+ and storage resource provided in the system
+ such that miners receive enough incentives to
+ participate The remaining rewards will be then
+ distributed to developers and players with an
+ amount proportional to their Popularity Rank
+ and Competitiveness Rank 
+ D OGT Pricing Mechanism
+ The conversion rates among OGT fiat or other
+ cryptocurrency are decided purely by supply
+ and demand OGT s price will increase when
+ more developers and players join the platform
+ due to scarcity of OGT In total there will only
+ ever be 10 billion OGT tokens issued 
+ L H
+ OGT Allocation
+ Chapter 8
+ 22
+ In total there will be 10 billion OGT issued The
+ tokens are allocated in the following way 
+ − 40% of the OGT will be sold to gamers 
+ developers and partners in the public and
+ private sale and marketing initiatives 
+ − 16% of the OGT will be reserved for the team
+ and advisors vested linearly in 24 months 
+ − 14% of the OGT will be reserved for the One
+ Game Foundation with a lockup period of 24
+ months 
+ − 30% of the OGT will be reserved and need to
+ be mined Half of the block rewards will go to
+ players 
+ Project Roadmap
+ Chapter 9
+ 23
+ One Game’s project roadmap includes the framework roadmap and product roadmap
+ (discussed in Section 2 and 3) 
+ Key Opinion Leaders One Game marketing
+ has reached out to Key Opinion Leaders with
+ large crypto focused audiences on Youtube 
+ blogs podcasts and other media to engage in
+ interviews and project reviews 
+ Offline Promotions One Game has attend
+ crypto related events such as Consensus 2018 
+ Games For Change etc to promote our project
+ to both crypto community and gaming
+ community One Game has also work with our
+ strategic investors and partners to promote our
+ project along with their promotions 
+ Advertising One Game will be working in
+ advertising partners to inform user of our
+ project and to generate inbound interest from
+ users to participate in the One Game platform 
+ Various media channels One Game maintains
+ its media communication channels including
+ Telegram Twitter Medium Bitcointalk etc to
+ grow our online presence 
+ Partnerships and Business Development
+ One Game intends to reach 200 000 users by
+ the end of 2018 and 2 million users by the end
+ of 2019 One Game will work with independent
+ game studios and major game developers to
+ bring more content to the platform in order to
+ attract more users To this end One Game will
+ continue to build on partnerships and actively
+ engage in business development opportunities 
+ One Game has currently partnered with
+ DeepBrain Chain Loopring Litecoin Cash and
+ Eatt io as well as engage in many more
+ unofficial co promotions 
+ 24
+ In the roadmap it is stated that fully
+ decentralized platform will be activated in Q4
+ 2019 Prior to this time a semi decentralized
+ platform will be functioning Once the main net
+ launches One Game will migrate to a fully
+ decentralized platform 
+ Marketing
+ One Game project’s success is dependent on
+ the successful acceptance by end users One
+ Game aims to engage its community to
+ promote the project and the token with the
+ following 
+ Bounty Program One Game launched the
+ Bounty Campaign on Bitcointalk org where
+ participants can earn bounty in OGT by
+ participate in the social media campaigns 
+ content campaign and translation campaign 
+ Bitcointalk org is one of the centers of
+ cryptocurrency discussion on the internet One
+ Game launched the campaign on Bitcointalk to
+ target the crypto community to better
+ understand our project and to create a
+ community of engaged fans organically 
+ Airdrop One Game has launched airdrops to
+ attract more users join our Telegram Official
+ Chat at https //t me/onegame_en Users can
+ receive OGT by inviting others to join the
+ Telegram chat and watch our promotion
+ content on various media such as Youtube We
+ organized in chat games to ensure the quality
+ of the active users These efforts netted us over
+ 8 000 members on Telegram currently 
+ Referral Program One Game will be
+ introducing features in the Avatar Wallet that
+ facilitates social referral among our users to
+ invite members of their network 
+ 25
+ Team
+ Our executive team comprises entrepreneurs
+ and engineers from elite companies in Silicon
+ Valley Wall Street and top universities 
+ Chief Executive Officer | Pu Shi
+ Serial entrepreneur and early adopter of
+ cryptocurrency Investor and adviser in multiple
+ blockchain projects Independent game
+ developer with more than 10 years’ experience 
+ Co founded Carloha a leading used car ecommerce company based in New York Has
+ held Tech Lead and Senior Software Engineer
+ positions for multiple years in technology
+ companies including Google and Microsoft 
+ M S of Computer Science from Emory
+ University 
+ Chief Blockchain Engineer | Jason Zou
+ Tech Lead and Manager on Google Maps 7+
+ years of experience working on Google Maps
+ using industry leading AI technologies Holds
+ Ph D of Applied Mathematics from Stony Brook
+ University and Bachelor of Pure Mathematics
+ from Wuhan University Former ACM ICPC
+ programming contest medalist 
+ Chief Producer | Kurt Young
+ Co Founder and Creative Director of Mokuni
+ Games Former Creative Director of The9
+ Limited (NASDAQ NCTY) M S of Computer Arts
+ from School of Visual Arts 
+ Chief Technical Artist | Fox Chen
+ Co Founder and Lead Programmer of Mokuni
+ Games Had more than 10 years’ experience
+ game development M S of Computer Science
+ from New York University 
+ Chief Marketing Officer | Jane Wang
+ Active in consumer technology startups 
+ including Compass and Etsy and hedge funds
+ including Bridgewater Associates and GAMCO
+ Investors Jane Wang specializes in marketing
+ for technology companies She has a dual
+ Bachelor’s Degrees in Applied Mathematics and
+ Economics from Northwestern University Her
+ writings have been published on Huffington
+ Post and Forbes 
+ Chapter 10
+ Chief Strategy Officer | Mingjie Jeff Zhou
+ Investment banker with 10+ years of experience
+ in M&A and IPO Specialty areas include fintech
+ and clean tech Obtained Bachelor’s degree in
+ Mathematics and Economics from Macalester
+ College USA and MBA degree in Finance from
+ Simon Business School University of Rochester 
+ Development Artist | Xinlin Yang
+ Xinlin has extensive work experience working in
+ Unity Maya Photoshop Zbrush and Substance
+ Painter Strong arts and design professional with
+ a bachelor degree focused on Game and
+ Computer Art from School of Visual Arts in New
+ York 
+ 26
+ Chief Financial Officer | Samantha Kong
+ Financial professional with 10+ years of
+ experience in M&A and security trading 
+ Previously worked at top tier investment bank
+ and fortune 500 companies include Société
+ Générale Noble Group and CEFC Combined
+ M&A deal size over $20 billion B S in Business
+ Administration from Zhejiang University M S in
+ Finance from Simon Business School University
+ of Rochester 
+ Lead Programmer | Jay Soung
+ Co founder of initialPrefabs a game developer
+ specializing in performance scalability and
+ editor tools for game designers With 7+ years of
+ experience dealing with the inner workings of
+ Unity he has published assets on the Unity
+ Asset Store 
+ Software Engineer | Feiou Su
+ Software Engineer Game Designer and
+ Interaction Designer Experienced in game
+ development UI/UX for games innovative
+ gameplay making and industrial design 
+ crossingover many different fields exploring to
+ create fun interactions Graduated from Parsons
+ School of Design MFA Design & Technology 
+ 27
+ Unseen Magic
+ Unseen Magic based in New York is an
+ important partner of One Game The team of
+ Unseen Magic is an important part of the One
+ Game 
+ In the past five years with a team of more than
+ ten members Unseen Magic developed and
+ published multiple successful products 
+ including Kitty in the Box VR which was
+ featured in the app stores of Hyperreal Vive
+ Focus Apple Google Microsoft and Amazon
+ multiple times The games received more than
+ 10 million downloads with an average review
+ score of 4 5+ Additionally Unseen Magic has
+ received awards from New York Comic Con and
+ PAX multiple times The company recently
+ provided a Virtual Reality experience for Tesla’s
+ flagship store in China 
+ Investors and
+ Partners
+ 28
+ One Game benefits from investors including venture capital firms such as YouBi Capital and Collinstar 
+ and project partners including DeepBrain Chain Loopring Litecoin Cash and many others 
+ One Game s current investors and partners are shown below 
+ Chapter 11
+ Foundation
+ Governance
+ 29
+ One Game is governed by One Game
+ Foundation Ltd a company limited by
+ guarantee in Singapore The main task of the
+ foundation which is a non profit organization is
+ to run the One Game platform openly fairly 
+ transparently and to support the development
+ team 
+ The foundation supports or participates in the
+ public or private interests without any
+ commercial interests Any surplus received by
+ the foundation will be retained as funds for
+ other activities without allocating profits among
+ its members 
+ Chapter 12
+ 30
+ The following paragraphs only summarize the
+ risks associated with One Game and OGT If you
+ wish to purchase OGT please refer to the
+ Terms of Sale for OGT before purchasing any
+ OGT to understand the risks of purchasing and
+ owning OGT 
+ 1 Risk of lack of supervision Digital asset
+ trading including OGT is highly uncertain due
+ to the lack of strong supervision in the field of
+ digital asset trading Meanwhile any electronic
+ token has the risk of volatility in price and
+ manipulation of its price 
+ 2 Risk of supervision Regulation of blockchain
+ technology has not been consistently enacted
+ and applied globally particularly in respect of
+ digital tokens and cryptocurrencies It is difficult
+ to predict how or whether regulatory agencies
+ may apply existing or future regulation with
+ respect to OGT and this may affect its price and
+ marketability should you want to sell your OGT 
+ 3 Team risk At present there are many teams
+ and projects in the blockchain technology field 
+ and the competition is very fierce There is a
+ strong market competition and project
+ operation pressure Whether or not One Game
+ project can break through many excellent
+ projects and become widely recognized is not
+ only linked to its own team capacity and vision
+ planning but also linked to external factors
+ such as competitors and even oligarchs in the
+ market There is a possibility of vicious
+ competition 
+ 4 Risk within team One Game brings together a
+ team of both vigor and strength attracting
+ senior practitioners in the field of blockchain 
+ experts in the field of artificial intelligence and
+ experienced technical development personnel 
+ etc The team of One Game boasts stability and
+ cohesion of the team which are crucial to the
+ overall development of the project In the future
+ development nonetheless note that it is not
+ possible to exclude the possibility that the team
+ will be negatively affected by the departure of
+ the core personnel and conflicts within the
+ team 
+ 5 Project overall planning and development
+ risk The One Game initiative team will spare no
+ effort to achieve the development goals
+ outlined in this white paper and extend the
+ growth space of the project Because the white
+ paper may be adjusted as the details of the
+ project become updated there could be
+ information asymmetry if not every OGT holder
+ and future players and developers do not
+ become aware of the updates at the same time 
+ which might negatively affect the subsequent
+ development of the project 
+ Risk Disclosure
+ Chapter 13
+ 31
+ 6 Project technology risk First of all the project
+ is based on cryptographic algorithm and the
+ rapid development of cryptography is bound to
+ bring with it potential risks Secondly while
+ blockchains distributed ledger systems 
+ decentralization consensus based nodes which
+ are supposed to be tamper resistant and other
+ technologies support the core business
+ development One Game team cannot fully
+ guarantee the success all of these technologies 
+ Thirdly during the process of project updating
+ and adjustment there may be loopholes which
+ can be remedied by releasing patches but the
+ extent of the impact caused by the vulnerability
+ cannot be fully ascertained ahead of time 
+ 7 Risk of Hacking and Security
+ Weaknesses Hackers or other malicious groups
+ or organizations may attempt to interfere with
+ the Platforms and OGT in a variety of ways 
+ including but not limited to malware attacks 
+ denial of service attacks consensus based
+ attacks Sybil attacks smurfing and spoofing 
+ One Game may face some unexpected risks 
+ Participants should fully understand the team’s
+ background know the overall framework and
+ ideas of the project make reasonable
+ adjustments to their vision and participate in the
+ collection of tokens rationally before
+ participating 
+ 32
+ 1 The contents of this white paper are for
+ information only If you wish to purchase OGT 
+ you need to read and expressly agree to the
+ Terms of Sale of OGT Taking a copy of the
+ white paper reading it or sharing it or any act
+ you do in relation to this white paperdoes not
+ constitute your agreement to the terms of sale
+ or use of OGT 
+ 2 One Game team will continue to make
+ reasonable attempts to ensure that the
+ information in this white paper is true and
+ accurate In the development process the
+ platform may be updated including but not
+ limited to platform mechanisms tokens their
+ mechanisms and token distribution Part of the
+ content of the document may be adjusted in the
+ new white paper as the project progresses The
+ team will update the content by issuing
+ announcements or new white papers on the
+ website Participants must access the latest
+ version of the white paper before purchasing
+ any OGT and adjust their decisions according to
+ the updated content The One Game team does
+ not bear any liability to purchasers of OGT for
+ any of their losses arising from their reliance on
+ this white paper 
+ 3 The team will spare no effort to achieve the
+ goals mentioned in the document However 
+ force majeure events beyond its control may
+ mean that the team might not be able to
+ completely accomplish the commitment 
+ 4 As an official token of One Game OGT is an
+ important tool for platform effectiveness not an
+ investment product Owning OGT does not
+ represent the ownership control and decisionmaking power of the One Game platform
+ granted to its owner OGT as an encrypted
+ token used in the One Game platform does not
+ belong to the following categories (a) any kind
+ of currency (b) securities (c) shares of legal
+ entities (d) stocks bonds notes warrants 
+ certificates or other instruments granting any
+ rights 
+ 5 OGT s value and very existence depends on
+ the prevailing applicable laws It may not have
+ any value in which case the team will not make
+ additional commitment to increase its value 
+ The team is not responsible for the
+ consequences caused by the increase or
+ decrease in the value of OGT 
+ 6 To the maximum extent permitted by
+ applicable law the team disclaims all
+ responsibility for damages and risks arising from
+ the purchase of any OGT 
+ 7 A purchaser of OGT must comply with any
+ requirement to provide the necessary
+ information required under applicable law or for
+ the purpose of best practices such as providing
+ personal information and source of funds so
+ that Know Your Customer checks can be
+ carried out on such purchaser 
+ Disclaimer
+ Chapter 14
+ 33
+ 8 Before the purchase of any OGT purchasers
+ must read acknowledge and agree to accept
+ the risks of such purchase 
+ 9 Residents of jurisdictions that have banned
+ Token Sale are not allowed to purchase OGT 
+ ADDRESS
+ 68 Circular Road #02 01
+ Singapore 049422
+ CONTACTS
+ contact@one game
+ One Game
+ 34
+ Twitter @onegamerocks
+ https //t me/onegame_en 

@@ -1,0 +1,794 @@
+1
+ The Gamer Identity Standard
+ Whitepaper v1 2
+ Nov 2018
+ Copyright ○c PlayerOne All right reserved
+ 2
+ ABSTRACT
+ eSports is the new buzzword in the gaming industry that boasts a USD 137 9 billion market 
+ According to Newzoo competitive play accounts for 60% of the total market share driving
+ the eSports market to a 37 8% year on year growth of USD 900 million 
+ With the rise of competitive games and eSports the need for verified gamer identity also
+ grows in demand Gamer Identity that encompasses the gamer’s play history stats and
+ reputation is now imperative when it comes to recruitment team management amateur to
+ pro discovery tournament entry and more 
+ However game companies holds all record of gamer activity Without the game company all
+ data pertaining to the gamer cannot exist independently To add tournament stats that
+ significantly contribute a team’s and/or pro gamer’s resume is stored by fragmented
+ governing bodies As a result all parties within the gaming industry spend tremendous
+ resources in terms of both time and cost to bridge the gap between gamers gamers and
+ eSports teams gamers and tournament organizers and ultimately between gamers and
+ game companies 
+ So why doesn’t a service of the likes of LinkedIn exist for gamers 
+ PlayerOne proposes to build a gamer identity standard powered by blockchain technology 
+ In effect gamers will be able to consolidate all their gaming aliases on the blockchain under
+ PlayerOne ID Without precedence we are shifting the ownership and use of gameplay stats
+ to the gamer 
+ To date the gaming industry has been unable to create a common gameplay database due
+ to conflict of interest by competing parties We recognize that blockchain technology
+ presents a unique means to entrust game data to be stored and to be reliably utilized by all
+ pockets of the gaming industry 
+ At PlayerOne we envision our protocol to lay the groundwork for a reliable gamer database 
+ a New Trust Layer whereby gamers and related industry participants can reduce costs while
+ instilling value in gamers’ experience 
+ 3
+ TABLE OF CONTENTS
+ BACKGROUND 5
+ PROBLEM 6
+ Gamer to Gamer 6
+ Player Discovery 6
+ Staggering Social Costs 6
+ Game Developer 7
+ SOLUTION 8
+ Gamer ID Permanence 8
+ PlayerOne A gamer identity standard powered by blockchain 8
+ Blockchain a trustless network 10
+ Reliable Data 10
+ Neutrality 10
+ Trust to Data Contributors 10
+ PLAYERONE 11
+ Vision 11
+ Mission 11
+ USE CASE 12
+ Game Marketing 12
+ Gamer Search 12
+ Reputation 13
+ Team Management 13
+ Community based eSports League 15
+ Tutoring 15
+ TECHNICAL DETAIL 16
+ PlayerOne Identity Protocol 16
+ Tiers of Verification 17
+ Game Data Oracle 17
+ Multiple ID Resolution 18
+ Blockchain Platform 18
+ PLATFORM STRUCTURE 19
+ 1 Service Layer 19
+ 2 API Layer 19
+ 3 Application Layer 19
+ TOKEN MODEL 20
+ PLO 21
+ GP 21
+ Level System 21
+ Service & Market Place 21
+ TOKEN ECONOMY 21
+ 4
+ Encouraging Participation 21
+ Expansion of Token Use 22
+ Encouraging Token “HODL” 22
+ Expansion of Token Demand 22
+ TOKEN SALE 23
+ Summary 24
+ Token Distribution 24
+ Use of Funds 24
+ TECHNICAL ROADMAP 25
+ INVESTORS 26
+ ADVISORS 27
+ TEAM 28
+ LEGAL CONSIDERATIONS 29
+ REFERENCES 30
+ 5
+ BACKGROUND
+ A gamer’s pseudonym was originally intended to serve as a frame of reference for individual
+ achievement i e leaderboard As games transitioned from individual to group play on PC 
+ mobile and console alike interactions added humanistic depth to the pseudonym creating a
+ virtual identity Today 7 out of 10 gamers 1 4 billion and counting play MOBA (Multiplayer
+ Online Battle Arena) or Battle Royale games including but not limited to League of Legend 
+ Counter Strike Global Offensive (CS GO) Overwatch PlayerUnknown’s Battleground
+ (PUBG) and DOTA2 
+ The rise of online multiplayer games have also given rise to eSports in the mainstream The
+ eSports market has grown 33% year over year and is projected to reach 1 billion players &
+ viewers by 2023 To put it simply one third of gamers worldwide follow eSports 
+ Counter to the rapid growth of popularity in eSports persists fundamental problems the
+ industry struggles to address The absence of reliable storage and use of gamer data
+ continue to give rise to controversies surrounding social and economic costs at the expense
+ of both gamers and game companies 
+ 6
+ PROBLEM
+ Gamer to Gamer
+ All games that require multiplayer strategy and tactics start with team/clan formation at the
+ most basic level involving two parties a team seeker (player) and the member seeker (team
+ captain) 
+ Before joining a team players look into a team of interest and investigate style of gameplay 
+ stats existing members and reputation of the team captain Likewise it is imperative for
+ team captains to have a general understanding of the interested player’s stats 
+ achievements activity and reputation Unfortunately both parties rely on haphazardly
+ gathered information due to the lack of a standardized data representing either party 
+ Player Discovery
+ Upon speaking with an eSports pro team it was evident that consistent training of both pro
+ and amateur players is essential 
+ In traditionally recognized sports each player’s overall play history and statistics from
+ amateur to league are managed through official governing bodies organizations and
+ leagues Despite the staggering year on year growth of eSports the gaming industry lacks
+ an organized body that keeps record of gamers’ stats from amateur to pro In addition to
+ gaming companies owning the relevant statistical data crucial data contributing to gamer
+ aptitude such as tournament entry and results are kept by fragmented governing bodies 
+ During our talk with the pro team management we’ve also gathered that the the only
+ effective yet susceptible means of player discovery and recruitment relies on gamer
+ networks Due to the lack of organized and reliable gamer data not only is discovery and
+ recruitment reliant on blind good faith and word of mouth but is also ultimately costly and
+ time consuming when considering all the resources that goes into forming a strong team 
+ Staggering Social Costs
+ Death threats sexual harassment and trolling are common occurrences in gaming
+ communities According to Venturebeat (2014) 47% have been cyberbullied and 63% of
+ female gamers have been sexually harassed 74% of Ditch the Label’s 2017 survey said
+ they would like the issue of cyberbullying to be taken more seriously and addressed 
+ Cyberbullying comes at a cost for both gamers and game companies While a regrettable
+ number of gamers are pushed to abandon games they’ve paid to play upon being prey to
+ cyberbullying and in extension due to the lack of active monitoring and regulations
+ surrounding cyberbullying game companies struggle to satisfy the needs of the said gamers
+ due to the cost of losing gamers by ban 
+ 7
+ The same immoral and unethical behavior that impede goodgame extends to cheating The
+ penalty for using hacks and cheats in Counter Strike 2002 for instance was a mere 24 hour
+ ban from the game Proving to be futile Valve Corporation the creators of Counter Strike 
+ enforced lifetime bans for the same offense by 2005 This effort was also ineffective as new
+ accounts were created by the same offenders As a result in May 2016 Valve had gamers
+ register their phone number as a form of authentication and any account associated with the
+ registered number that had an infraction would be banned 
+ While these actions by Valve along with others in the industry are intended to be
+ preventative it served ineffective merely chasing the tail of an established culture of gamer
+ negligence The fragmented gamer data stored by competing entities that keep data siloed
+ only exacerbates the culture of abuse and negligence 
+ Game Developer
+ As the competition between game companies grow marketing costs grows in tandem with
+ profit loss As of now marketing costs are predominantly spent on user acquisition and
+ retention 
+ In the current advertising market structure gaming companies hire advertising agencies to
+ improve brand visibility and access to ad inventory While game companies rely heavily on
+ advertising intermediaries for ad release ad agencies struggle to address issues related to
+ ad fraud According to Business Insider a near USD 16 4 billion of ad budgets was spent on
+ counterfeit traffic and bots on the global digital advertising market in 2017 alone This figure
+ more than doubled from USD 7 2 billion the previous year According to the World
+ Federation of Advertisers the cost of fraudulent advertising worldwide is expected to
+ increase to USD 50 billion over the next decade 
+ In order to achieve cost effective user acquisition marketing efforts need to shift to the end
+ user the gamer To date it is evident that gamers are an effective means of marketing by
+ gamers’ word of mouth be it social media and/or streaming channels 
+ In line with the aforementioned trend a number of gamer to gamer recommendation
+ platforms have surfaced in the past years However even with gamer initiated platforms the
+ fundamental threat of ad fraud persists Mainly amid gamer initiated recommendation
+ platforms exists a network of abusers Differentiating true participants to cherrypickers is
+ prevalent In other words it is impossible to differentiate true gamers’ respond to marketing
+ efforts from abusers who participate as cherry pickers for the sole purpose of reaping the
+ rewards alone 
+ Now imagine an automated gamer profile service that live updates all gameplay stats In the
+ profile section appears a ‘special invitation’ page where an inbox receives numerous
+ invitations from game companies based on my gamer profile vis a vis my gameplay Under
+ my sole discretion I choose from which game company I’d like to receive promotional invites
+ and choose to participate Imagine upon my choice to participate I receive relevant rewards
+ accordingly The more loyalty I display the more rewards can be claimed Imagine these
+ rewards as token that are spendable in game to improve my gameplay experience Now
+ extend your imagination where I chose to add my record of participation to my gamer profile 
+ 8
+ feed where a reference program is automatically initiated where a community of gamers
+ linked to my profile feed can also join and receive rewards as I too continue to increase my
+ pool of rewards 
+ As described in the above game companies must embody a fresh perspective to achieve a
+ revolutionary cost efficient solution for user acquisition That is by truly bridging the gap
+ between game company to gamer reach 
+ SOLUTION
+ Gamer ID Permanence
+ Most gamers identify with a unique ID throughout a number of games in part because we
+ thrive to be recognized and identified for unique skill and gameplay Simply put gamer ID
+ represents a virtual self inside the game Gamer ID is also a representation of multifarious
+ aspects of gameplay including but no limited to the game’s genre avatars and characters 
+ favorite skins clans ranks team and friends To that note it is self explanatory as to why
+ gamers may feel discontentment when identities are taken or copied 
+ But what happens to my gamer id when a game ceases to exist 
+ At the moment game ids are stored and owned by game companies resulting in game
+ identities existing at the full discretion of the game company not the gamer 
+ Gaming stats are not only a set of data but also a valuable asset that represents gaming
+ experience and aptitude Whether the game survives or not gamer IDs should be able to
+ survive with the gamer and be recognized for the unique gameplay associated with it 
+ PlayerOne present a solution for gamer id permanence that exists at the sole discretion of
+ the gamer 
+ PlayerOne A gamer identity standard powered by blockchain
+ To address the problems laid out in the aforementioned section gamers need a reliable 
+ trustless identity standard A decentralized gamer LinkedIn powered by blockchain will allow
+ gamers to consolidate multiple gamer ids under a unique PlayerOne ID to connect and
+ manage skills stats and reputation based on gameplay 
+ 9
+ Image 1 PlayerOne Concept
+ 10
+ The core value of PlayerOne lies in connectivity Trust is imperative to build effective
+ connectivity amongst all parties within the gaming industry PlayerOne will implement
+ blockchain technology to provide the gaming industry with a trustless system of trust 
+ Blockchain a trustless network
+ Blockchain technology ensures a network of trust without a central authority governing each
+ transaction and access to data The following three points below demonstrate how
+ blockchain allows for trustless trust to be achieved through PlayerOne 
+ Reliable Data
+ Once activities linked to the gamer ID is verified by the Oracle and recorded on the
+ blockchain the said data is immutable and irreversible To add given that the data is
+ recorded on multiple nodes all verified data stored on the blockchain is safeguarded from
+ any single point of failure 
+ Neutrality
+ For reliable storage and use of data the data must maintain industry neutral and distributed
+ amongst data contributors (not a single entity a monopoly) Blockchain technology makes it
+ possible for a decentralized data protocol to store and share data without relying on a
+ singular central authority 
+ Trust to Data Contributors
+ In order to store data on the blockchain data contributors must be a verified private key
+ holder In extension third party access to data is at the sole discretion of the private key
+ holder the data contributor In the case that use of data generates monetary profits 
+ proceeds will automatically be rewarded to the data contributor as defined by the smart
+ contract that executes each transaction under full transparency 
+ 11
+ PLAYERONE
+ Vision
+ We envision PlayerOne to lead in creating the global standard for gamer identities how they
+ are searched and verified To that end PlayerOne will provide a lucrative universal gaming
+ currency 
+ Mission
+ PlayerOne will build a trustless gamer database to support a reliable gaming environment for
+ all parties involved in the gaming industry In effect we plan to build a standardized
+ infrastructure where games and related services can operate and flourish cost efficiently 
+ and where gamers can experience enhanced entertainment and monetize gameplay 
+ Image 2 PlayerOne Identity Protocol
+ 12
+ USE CASE
+ PlayerOne ID protocol can be used to improve existing game services and platforms or be
+ used to develop new services In this section use cases for PlayerOne ID Protocol will be
+ explained in detail Use cases below can be implemented by PlayerOne team by various
+ partners in the game industry 
+ Image 3 Protocol Use Case
+ Game Marketing
+ Once PlayerOne establishes a stable number of daily active users (DAU) PlayerOne will
+ open a platform that supports marketing for businesses Given that PID profiles provide
+ accurate targets for advertisers we expect to deliver an effective advertising model Also 
+ game companies will be able to reduce their advertising costs reserved as commissions to
+ ad intermediaries (about 20~30%) by directly inviting PlayerOne users through the system If
+ game companies apply PID as their login method they can run accurate analytics to
+ measure response to marketing efforts by cross checking with PID LTV (Life Time Value) 
+ PlayerOne game marketing system can also contribute to improve game company’s sales
+ directly For example PlayerOne can provide a payment function for game companies that
+ implements PID login system It will allow PlayerOne users to purchase game or game items
+ with PlayerOne tokens and eventually expand PlayerOne’s ecosystem 
+ Gamer Search
+ The demand for finding gamers from channels beyond those provided by game companies
+ is increasing There are three main reasons that contribute to the rise in demand 
+ 13
+ 1 Dissatisfied with random in game matches
+ 2 Aversion towards cyberbullying by unknown matches
+ 3 Difficulty in coordinating play time
+ Gamers looking for friends outside the game tend to turn to game communities However 
+ most game communities operate through forums and/or postings making it difficult for
+ gamers to communicate live with each other To add in order to familiarize with a matched
+ gamer’s skill users must go through inconvenient steps and search for gamer IDs on
+ alternative platforms to view in game achievement history 
+ As PlayerOne ID Protocol’s first use case PlayerOne is preparing a ‘Gamer search’ service 
+ Since PlayerOne ID (hereinafter PID) is already connected with gamer ID and in game stats 
+ it will be possible to search and find gamers with enhanced convenience Even if you do not
+ know the opponent’s in game ID you can easily find and communicate with gamers who are
+ also looking for a friend The concept of PlayerOne’s gamer search method is explained
+ below 
+ ● One Process search filters (levels achievement) mutual verification real time
+ matching
+ Reputation
+ Reputation data based on P2P is an important data PlayerOne must develop Reputation
+ data will play an important role in solving problems in the game industry such as verbal
+ abuse trolling use of cheats and etc which both gamers and game companies struggle to
+ address to this day In addition data pertaining to reputation can be a significant point of
+ reference for recruitment 
+ Players connected by gamer search service can write recommendations to each other after
+ a match similar to leaving endorsement reviews on Linkedin We have chosen this format
+ because we believe the result of a positive campaign (more rewards to users with positive
+ reviews) will be more effective 
+ Gamers writing recommendation can rate their game skills and gameplay 
+ Recommendations will appear on both PID profiles Simply put since everyone can search
+ and check matched profiles by achievement reputation number of recommended reviews 
+ number of friends and more Gamers who have a history of receiving recommendations are
+ authorized to write recommendations and they will be rewarded once the recommendation is
+ submitted Gamers with more quality recommendations will be displayed at the top of the
+ gamer search result 
+ Team Management
+ As more gamers play competitive games which require forming teams millions of teams are
+ created in conjunction with a million that disappear on the daily basis It is within bounds to
+ say that the victory of team based games depend on team management Interviews with 
+ 14
+ gamers and team managers who are looking for new teams or members both express the
+ need for a comprehensive history of gamer records 
+ Information needed by each group is as follows 
+ A Team seeker
+ ○ Team achievement gameplay style and preferences
+ ○ Team manager information
+ ○ Team member information
+ B Member seeker
+ ○ Gamer skill and aptitude
+ ○ Record from previous team (activities contribution transfer history etc)
+ PlayerOne aims to provide an integrated team management system for team manager as
+ shown below 
+ ● Recruiting gamer search system team page transfer fee
+ ● Team seeker evaluation game record achievement reputation data
+ ● Communication sharing information scheduling match times
+ ● Evaluation and dismissal activity record data for team members dismiss teammates
+ with poor contribution 
+ ● Tournament tournament participation prize distribution
+ Image 4 Team Management System
+ The team management system we propose will be synchronized with the gamer search
+ system When a team manager uploads the conditions of recruitment on the system this
+ information will be added to the gamer search database This will spontaneously solve the
+ current system of recruiting a new member To add teams recruiting a new member can
+ invite verified players by checking their own gamer database 
+ In future development phases a function of proposing fees for scouting and transfers will be
+ added Team managers will be able to use PlayerOne token as a means of payment to scout 
+ 15
+ outstanding gamers while gamers will be incentivized to groom their PID profile and
+ monetize on gameplay 
+ To support the recruitment function a team page will be added to the platform Team pages
+ will display information depicting team preferences team managers and members 
+ achievements and tournament histories 
+ Team activity records generated by PlayerOne’s team management system will also
+ strengthen individual gamer’s profile by providing information that is not provided by game
+ companies For example team preference and longevity of membership and team transfer
+ records can be used as an important indicator to evaluate the gamer 
+ Community based eSports League
+ As more teams use PlayerOne’s team management system we plan to organize an
+ community based eSports league 
+ Once the tournament system is synced with the team management system tournament
+ history player verification tournament result and prize payment functions will be available in
+ a single integrated service In effect improving the accuracy of search and result verification 
+ in game data video playbacks and community votes 
+ Moreover PlayerOne plans to open tournaments guided by rules proposed by community
+ members and add to traditional eSports tournaments On PlayerOne regular tournaments
+ will be scheduled where prizes can be paid in PlayerOne tokens and sponsorships 
+ Tutoring
+ Gamers spend tremendous time and effort to level up Recently gamers have been turning
+ to Youtube and Twitch to learn tips from veteran streamers and professional gamers 
+ On that note we recognize a potential for growth with game tutoring service to take a
+ foothold in the ever growing games market Gamers can directly learn tips and strategies by
+ forming a team with tutors to play games or by watching videos playbacks with a coach Our
+ outlook on gaming tutoring services that include but are not limited to live voice chats and
+ game recording platforms is tangential to professional gamers’ efforts to manage their fans
+ and donations through in addition to streaming platforms 
+ Game tutoring falls in a service sector that can grow organically with PlayerOne The core
+ function of gamer search system can also be used for tutor search where PlayerOne tokens
+ can be used as payment 
+ PlayerOne profiles can further represent a resume for game tutors Gamers can search
+ tutor’s PID for their information such as game history and reputation to decide whether the
+ tutor is qualified or not before paying for tutorial services Gamers can earn tokens by
+ reviewing qualified tutors’ coaching abilities after each session 
+ 16
+ Image 5 Protocol & Business Layer
+ TECHNICAL DETAIL
+ PlayerOne Identity Protocol
+ As gamers register on PlayerOne gamers can own a unique identity called ‘PlayerOne ID’
+ (hereinafter PID) PID creates a blockchain account linked to the PID account The reason
+ why PID account is created separately from blockchain account is to make it simple for
+ everyone to search and view 
+ In game ID registered by gamer is verified by PlayerOne’s game ID validation process 
+ When in game ID is verified this ID is connected to the PID and data is recorded on the
+ blockchain whenever gamer activity is generated 
+ Irrespective of whether PlayerOne or any game company terminates its service gamers’
+ record is preserved on the blockchain permanently Given that the gamer owns their 
+ 17
+ blockchain account (public key and private key) gamers will be able to access and utilize
+ their game record permanently 
+ 
+ Gamers can use PID for various purposes including connecting with other gamers P2P
+ commercial transaction participating in tournaments identification method for transferring to
+ other game teams etc When the PlayerOne API is released all parties engaged in the game
+ industry such as game companies game communities item markets eSports associations 
+ professional gamer teams can use PID to process verification and login In addition all
+ parties can view gamer’s record by searching PID and send friend requests team transfer
+ requests and participate in beta test Rights to receive or accept such requests are at the
+ gamers sole discretion 
+ Tiers of Verification
+ PlayerOne supports a three tier system of verification Based on the level of service range
+ they wish to use users have the option to choose among these tiers of verification 
+ First tier verification allows quick access to the service by requesting minimum verification
+ from the users An outside messenger called OAuth (Open Authentication) which
+ implements phone number authentication is used in this verification tier As a result 
+ PlayerOne can only accept registration from users who are verified by their phone number
+ authentication without collecting their phone numbers When users pass this messenger
+ OAuth authentication they can register their IDs in various games they play 
+ Second tier verification requires users to verify their in game aliases with PlayerOne In
+ order to verify their in game aliases users will take a screenshot of their in game page
+ depicting their in game ID and achievements by using the PlayerOne application Captured
+ image will be automatically sent to the PlayerOne server compared with the game ID and ingame stats registered in the first tier verification step Second tier verification is completed
+ when in game aliases registered in PlayerOne and the actual in game ID match with each
+ other Users who completed second tier verification will be marked with ‘Verified ID’ on their
+ gamer profile Also Their PID and blockchain ID will activate a private token wallet to receive
+ rewards 
+ Third tier verification is applicable for PID to real world ID matching For example identity
+ authentication for gamers participating in tournament or when ID theft related disputes occur 
+ it is imperative to go through KYC authentication (identification issued by government 
+ mobile phone verification) When game ID theft is reported reporter’s KYC is processed first
+ and then the KYC of reported user’s authentication is processed 
+ ● Tier One Registration Register in game ID access to basic service
+ ● Tier Two Verify game ID create blockchain account token wallet activated
+ ● Tier Three Participate in game tournament
+ Game Data Oracle
+ The nature of blockchain technology allows for immutability permanence and transparency 
+ also known as ‘Network of Trust’ However blockchain smart contracts cannot judge 
+ 18
+ whether data being recorded on the blockchain is true or false If unverified false information
+ is recorded on blockchain the advantages of blockchain implementation can backfire At
+ PlayerOne we recognize the importance of adding an Oracle to bridge the real world with a
+ reliable yet trustless blockchain layer 
+ Gamer identity represents a multitude of gamer activities Gamers are engaged in different
+ channels such as game streaming platform game marketplace and game communities 
+ PlayerOne will provide a comprehensive gamer identification by utilizing raw data from
+ verified external platforms providing OAuth and API (Application Programming Interface) and
+ creating additional data generated internally 
+ ● External platform OAuth and API Game ID achievement data social
+ channel(YouTube Twitch) social indexes (number of subscribers viewers)
+ ● Internal data Number of friends reputation team team transfer history tournament
+ participation records
+ Multiple ID Resolution
+ In order to prevent multiple PID creation PlayerOne will utilize messenger OAuth such as
+ Kakaotalk Wechat Line which has mobile phone number verification system for registration 
+ If any user tries to create a second PID game IDs that are connected with previous PID
+ cannot be connected with the newly created PID In other words newly created PID must be
+ connected with a new in game ID Therefore game records associated with game IDs that
+ were connected to an existing PID will be lost It is possible to change game IDs that are
+ connected under PID but history of changing the game ID will be also displayed under PID 
+ This will prevent malicious attempts at changing game IDs 
+ Blockchain Platform
+ In order to prevent malicious attacks and reward block creators most blockchains charge
+ fees for every transaction recorded on the blockchain However blockchain services that
+ serve the public like PlayerOne must be able to process thousands of blocks per second on
+ blockchain In this case charging a transaction fee for each record comes at a major
+ obstacle to scale up
+ Instead of taking risks of developing a new blockchain and delay service release PlayerOne
+ will develop our services on the EOS blockchain Upon due diligence its become evident
+ that the EOS blockchain best suites our service in terms of having no transaction fees and
+ allowing for low latency Changes in selection of blockchain platform may occur in the future
+ depending on the conditions and progression of our platform development If necessary 
+ PlayerOne may develop its own blockchain 
+ EOS is a smart contract platform for public services On the EOS blockchain service
+ providers cover all the transaction fees by staking EOS so that users are not charged
+ transaction fees In addition to transaction fees TPS (Transaction Per Second) can pose a
+ major problem for blockchain services EOS Blockchain uses ‘Delegated Proof of Stake
+ Consensus’ introduced in Bitshares and Steem In October 2018 EOS blockchain 
+ 19
+ announced that it requires 0 5 second to create a new block and can processes over 3 000
+ transactions per second 
+ PLATFORM STRUCTURE
+ 1 Service Layer
+ a Run core logic of platform
+ b Develop smart contract implement blockchain and connect on API layer
+ c User data verification
+ d IPFS (InterPlanetary File System) Implementation
+ e Run smart contract record data on blockchain reward users
+ 2 API Layer
+ a Back end development
+ b API on application layer
+ c Develop user request processing
+ d Develop abuser identification filter
+ 3 Application Layer
+ a Develop compatible services for various platforms (mobile app web)
+ b Process user requests (ex registration verification request search etc)
+ c Data collection User activity
+ d PlayerOne Open API OAuth 
+ 20
+ Image 6 Platform Structure
+ TOKEN MODEL
+ PlayerOne Token (henceforth ‘PLO’) is an EOS based utility token that can be used as a
+ means of payment within the PlayerOne and its affiliate partner services PLO is transferable
+ between individual users and exchangeable at exchanges 
+ In order to promote a healthy circulation of utility tokens we recognise that one tokens
+ must be organically earnable on the service layer and two tokens must have value as a
+ means of purchase Given that PLO will be earned predominantly by gamers it is imperative
+ to create an environment where PLO is spendable on gamer related services and goods 
+ To expand our ecosystem PlayerOne will build an economy based on PlayerOne Token 
+ Components mentioned below will operate in conjunction with another and contribute to the
+ statement above 
+ ● PlayerOne Token PLO
+ ● Gamer Power Index GP
+ ● Level System
+ ● Service & Marketplace
+ 21
+ PLO
+ PLO is an tradeable utility token to which participants are rewarded on PlayerOne PLO can
+ be exchanged between individuals and at exchanges 
+ GP
+ GP is the numeric representation of participants’ activity within the ecosystem The amount
+ of tokens rewarded depends on GP count 
+ Level System
+ Levels are an extrapolation of the users’ GP and represents status In addition to token
+ rewards users gain privileges and benefits according to their level 
+ Service & Market Place
+ PlayerOne will provide a marketplace where PLO can be used for payment 
+ TOKEN ECONOMY
+ Encouraging Participation
+ In order to accelerate and growth in terms of both number of users and active participation in
+ the ecosystem PlayerOne users can earn PLO as rewards through taking various actions as
+ listed below Activities that grant rewards will expand and change as the PlayerOne services
+ develop 
+ ● Profile Building Linking in game aliases Linking social media and streaming
+ channels (e g Youtube Twitch) Purchase history reputation add friends and team
+ activity 
+ ● Tournament participation PlayerOne sponsored
+ ● Recommendation Review played games recommend and invite friends
+ ● Response to Marketing Join early bird offers beta tests and respond to various
+ marketing efforts
+ ● Event Participation
+ The amount of PLO rewarded is determined by the user’s GP GP is a numerical algorithm
+ that represents the users’ contribution to the ecosystem Higher the GP trhe more the PLO
+ rewards GP is not a fixed number but a metric that is continuously subject to change
+ according to the gamers’ degree of activity In other words when a gamer’s activity is
+ stagnant GP will reduce and reflect in amount of tokens rewarded 
+ Apart from monetary rewards gamers’ influence and access within the community is critical 
+ Playerone will implement a level system divided into five tiers to reflect GP (Diamond 
+ 22
+ Platinum Gold Silver Bronze) Higher within the level system users will be given benefits
+ including discounts event invitations closed beta tests and will be granted privileges as an
+ administrator within PlayerOne communities The purpose of the level system is to maintain
+ consistent gamer activity 
+ Expansion of Token Use
+ PlayerOne will provide services within the platform to promote a healthy circulation of PLO to
+ increase and maintain PLO value We recognize that utility tokens are subject to substantial
+ loss of value without a diverse extension of use cases which leads to user earnings being
+ cashed out at exchange As a measure to prevent this PlayerOne will curate an array of use
+ cases of PLO as listed below The list may expand and change with the development of
+ PlayerOne services and functions 
+ ● Personal (Profile) PR Boost ID visibility and search results promote team and post
+ team recruitment openings
+ ● Service Fee Premium team management tools (e g recruitment calendar page
+ design)
+ ● Trading Transfer fee coaching fee donations
+ ● Marketplace Gift cards (Steam Google Play App Store etc ) Gaming show and
+ tournament tickets Merchandise Blockchain games discount and promo codes (ingame currency internet cafe webtoons VOD etc )
+ Encouraging Token “HODL”
+ In conjunction with expanding token use it is also important to keep PLO within the
+ ecosystem To do so the amount of PLO held by an account will affect GP In other words if
+ the users PLO amount in their account goes down so will their GP GP count will as
+ mentioned above then affect the users amount of token rewarded and level which further
+ affects users’ benefits and privileges However we will implement a system where PLO
+ payments within the PlayerOne ecosystem will be protected from GP loss given that PLO
+ use within the ecosystem will return to the PLO reward pool 
+ Expansion of Token Demand
+ With the growth of PlayerOne user the demand for gamer acquisition access to data and
+ thereby purchase of PLO will increase PLO purchase will mainly take place on the business
+ to business level The preliminary set of use cases are as listed below 
+ ● Advertisement
+ ● Game Data API Access/Subscription Fee
+ ● PlayerOne ID API Access/Subscription Fee
+ ● Tournament Sponsorship
+ When it comes to cryptocurrencies we understand that companies are faced with issues
+ reconciling payments legally To address this industry wide issue PlayerOne will provide a
+ fiat to crypto payment solution Once payments are made in fiat currency PlayerOne will
+ transfer the equivalent amount of PLO to the purchasing account which can then be utilized 
+ 23
+ for ecosystem expansion purposes To deal with PLO value fluctuation on a business
+ standpoint PlayerOne will provide a mechanism to stabilize the purchased value of PLO for
+ business use To better understand please advise the case scenario depicted below 
+ Let’s assume that the customer acquisition cost (CAC) is set at USD 1 and 1 PLO is
+ equivalent to USD 1 Now assuming that the business purchases 1000 PLO for USD 1000
+ assuming CAC to be set at USD 1 PlayerOne will fix CAC to value of PLO upon purchase 
+ In other words even if the value of 1 PLO fluctuates to USD 0 5 the business is guaranteed
+ 1000 users not 500 However let’s assume the value of 1 PLO increases to USD 2 In this
+ case PlayerOne will provide the business to adjust CAC to the value of PLO upon purchase 
+ and will be able to increase Return on Investment (ROI) to 2000 By doing so PlayerOne
+ plans to minimize the risk of potential fluctuations of PLO value and maximize the benefits
+ of the business’ ROI 
+ PLO transaction made in the marketplace is critical to maintain PLO circulation within the
+ platform Game companies will be able to sell games and items on the PlayerOne
+ marketplace When a user makes a purchase in the marketplace PLO will be transferred
+ from the gamer’s account to the game companies’ account This way game companies can
+ earn PLO spend on PlayerOne services and fees and receive a 30% discount on a monthly
+ basis 
+ Image 7 PlayerOne Economy
+ TOKEN SALE
+ The issuance of PlayerOne Tokens will enable the development of the Platform and the
+ PlayerOne ecosystem The Token Sale will end once the set maximum goal is reached If 
+ 24
+ the Token Sale fails to achieve the minimum the sale will be canceled and all contributions
+ will be refunded All announcements pertaining to the token sale will be published on our
+ website (http //playerone id) 
+ Summary
+ ● Token Symbol PLO
+ ● Total Amount 10 000 000 000 PLO
+ ● Amount for Sale 3 000 000 000 PLO
+ ● Minimum Goal 550 000 000 PLO
+ ● Participating Currency TBD
+ Image 8 Token Distribution & Use of Funds
+ Token Distribution
+ ● Token Sale (30%)
+ ● Rewarding Pool (20%)
+ ● System Upgrade & Marketing (20%) 2 years lock up
+ ● Ecosystem Building (15%) 4 months lock up
+ ● Team (10%) 1 year lock up
+ ● Partnership (5%) 1 year lock up
+ Use of Funds
+ ● Development (35%) Protocol and Platform development
+ ● Blockchain Infrastructure (30%) Cost of stake (EOS) to use blockchain infrastructure 
+ ● Marketing (20%) User Acquisition and branding
+ ● Operations (10%) Validation security legal and audit fees
+ ● Contingency (5%)
+ 25
+ TECHNICAL ROADMAP
+ Q3 2018
+ Protocol Initiative
+ ● API Authentication Admin
+ ● ID Verification Player Data Integration
+ ● Blockchain Smart Contract
+ Q4 2018
+ Service Initiative
+ ● Player Search & Player Page
+ ● P2P Reputation & Reward system
+ ● PLO Wallet
+ Q1 2019
+ Service Advanced 1 0
+ ● Team Management System 1 0
+ ● Marketplace (Game Gift Card Blockchain games e Coupon)
+ Q2 2019
+ Protocol Expansion 1 0
+ ● PlayerOne OAuth for Publisher
+ ● PlayerOne Data API
+ ● Payment Gateway API
+ Q3 2019
+ Service Advanced 2 0
+ ● Team Management System 2 0
+ ● Player Recruiting System
+ Q4 2019
+ Service Expansion 1 0
+ ● Game Tutoring System 1 0
+ Q1 2020
+ Service Expansion 2 0
+ ● Community based eSports League
+ ● Tournament System Customized Leaderboard
+ Q2 2020
+ Business 1 0
+ ● Game Marketing System
+ ● eSports Marketplace (Ticketing Goods)
+ Q3 2020
+ Business 2 0
+ ● Game Distribution Platform
+ 26
+ INVESTORS
+ Ji young Park
+ Partner at BONANGELS 
+ Founder of COM2US
+ Daniel Shin
+ Chairperson at TMON
+ founder of TMON
+ co founder of TERRA
+ Jun year Kang
+ Co founder and partner of Bass
+ investment
+ Former CSO of KAKAO
+ Kwang suk Lee
+ Chairperson at INCRUIT
+ Founder of INCRUIT
+ Brian Oh
+ Co Founder and CEO of
+ TimeStamp
+ Former CFO of PearlAbyss
+ Chul ho Shin
+ CEO at Nexplat
+ Game Startup Investor
+ 27
+ ADVISORS
+ Maarten Noyons
+ Founder of IMGA (International
+ Mobile Game Association)
+ Shuhei Ueda
+ CEO at JOGA
+ (Japan Online Game Association)
+ Joony Koo
+ Game Expert 
+ Partner at Block Crafters Capital
+ Myeong kyun CHoi
+ Co founder of PIXELPIMS
+ (VR Game Company)
+ Sungwone Choi
+ CEO at Supertree Games
+ (Blockchain Game Marketplace)
+ Sangil Shim
+ CEO at Adiscope a subsidiary of
+ NEOWIZ
+ Jaewoo Cho
+ Blockchain Expert 
+ Witness of Steemit (@clayop)
+ Eunsung Baik
+ Partner at Ehoo Law Firm
+ 28
+ TEAM
+ Charlie Kim
+ Project Lead Seoul
+ EOS Dev Meetup
+ Organizer
+ Jason Choi
+ Strategy and Investment
+ Eric Song
+ Smart Contract and
+ Platform Development
+ Chris Kim
+ Development Lead
+ Indra Yoon
+ Back end Development
+ Justin Kim
+ Front end Development
+ Zack Cho
+ Product Management
+ Joy Kang
+ User Interface Design
+ NJ Kim
+ Marketing and
+ Partnership
+ Jessica Lynn Kim
+ Business Development
+ Aileen Park
+ Community Manager
+ Daniel Choi
+ Accounting Manager
+ 29
+ LEGAL CONSIDERATIONS
+ PLEASE READ THIS SECTION CAREFULLY IF YOU ARE IN DOUBT AS TO THE
+ ACTION YOU SHOULD TAKE PLEASE CONSULT YOUR FINANCIAL LEGAL TAX 
+ TECHNICAL OR OTHER PROFESSIONAL ADVISORS 
+ This White Paper states the current views and plans of PlayerOne for the protocol and its
+ related contents PlayerOne reserves the right to revise alter add or delete any matter
+ described in this White Paper based on its reasonable discretion and business judgment 
+ from time to time as appropriate without prior notice to third parties 
+ The information contained in this White Paper is of a descriptive nature for information only
+ and is not binding Such information has been compiled from sources believed to be reliable 
+ Some of this information may be forward looking in nature and based on certain
+ assumptions Nothing contained in this White Paper is a representation warranty or
+ undertaking of the accuracy or fulfillment of any particular matter at any given point in the
+ future and PlayerOne specifically disclaims any representation or warranty that it will
+ execute any action or guarantee specific results regarding any matters described herein 
+ i) Details including but not limited to the sale of PlayerOne tokens and related
+ cryptocurrency 
+ ii) Details pertaining to but not limited to the PlayerOne platform project and PlayerOne
+ member of team’s business or pursuit of investments 
+ iii) Details pertaining to PlayerOne team or PlayerOne affiliated businesses equity and
+ stocks 
+ All statements other than statements of historical facts included in this White Paper 
+ including without limitation statements regarding business strategy and plans estimates of
+ returns or performance and objectives for future operations are forward looking statements 
+ In addition forward looking statements can generally be identified by the use of forward
+ looking terminology such as may will should expect anticipate estimate intend 
+ or believe their respective negatives and other comparable terminology 
+ None of the information set out in this White Paper has been reviewed or approved by any
+ regulatory authority and the information in this White Paper is subject to material updating 
+ revision correction completion and amendment from time to time This White Paper may
+ not be transmitted to any country where distribution or dissemination of such information
+ may be prohibited 
+ 30
+ REFERENCES
+ https //newzoo com/insights/articles/global games market reaches 137 9 billion in 2018 
+ mobile games take half/ Global Games Market Report
+ https //newzoo com/insights/articles/newzoo global esports economy will reach 905 6 
+ million 2018 brand investment grows 48/ 2018 Global eSports Market Report
+ http //strivesponsorship com/wp content/uploads/2018/06/Goldman Sachs EsportsReport pdf eSports From Wild West to Mainstream
+ https //www bbc com/news/technology 40092541
+ One in two young online gamers bullied report finds
+ https //www businessinsider com/ad fraud estimates doubled 2017 3
+ Ad fraud estimates doubled
+ https //www mcvuk com/development/mcv investigates the growing issue ofdiscoverability on digital storefronts
+ MCV investigates the growing issue of discoverability on digital storefronts
+ https //github com/EOSIO/Documentation/blob/master/TechnicalWhitePaper md
+ EOS IO Technical White Paper
+ 31
+ Website https //playerone id
+ Telegram https //t me/playerone_id
+ Facebook https //www facebook com/playerone id
+ Twitter https //twitter com/playerone_id
+ Medium https //medium com/@playerone_id
+ GitHub https //github com/playerone id
+ Organizing SEOUL EOS DEV MEETUP
+ https //www meetup com/ko KR/EOS Developer meetup in Seoul Korea/ 

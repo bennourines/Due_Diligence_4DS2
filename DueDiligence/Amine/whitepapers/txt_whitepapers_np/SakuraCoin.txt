@@ -1,0 +1,450 @@
+第 1 页 共 40 页
+ Page 2 of 40
+ Abstract According to the Accenture report there are 10 billion to 15 billion transactions are paid cross border each year through financial institutions with total transaction size between 25 trillion and 30 trillion[1] And emerging markets of India Southeast Asia the Middle East and Africa have become a must for the “cross border payment” market In addition to the demographic dividend these countries present rapid and powerful economic growth receiving a number of foreign services What’s more the emerging market is significantly potential in network e commerce business and blockchain However the current cross border payment is mainly based on the system of SWIFT (Society for Worldwide Interbank Financial Telecom) But the transaction rules among different banks and different countries are various and complicated therefore it takes a few days to complete a cross border payment and the friction cost is high Breaking the slow centralized and proprietary system creating open and global payment agreements by distributed ledgers and enabling organizations to trade are the goal of many blockchain developers According to McKinsey’s estimation the blockchain technology is able to reduce the cost of cross border transactions from USD 26 to USD 15 among which about 75% are paid for network maintenance of transit financial institutions and 25% are paid for the costs on compliance error investigation and foreign exchange with impressive results Goldman Sachs also pointed out in a report that the blockchain technology will save the capital market an annual cost of USD 6 billion Therefore cross border settlement is considered to be one of the most valuable application scenarios for blockchain technology SFT (Sakura Future Token) is a new technology trend based on core theory of NoFake blockchain technology and it is a peer to peer Internet digital currency that provides payment of instant and near zero cost to any individual/ enterprise Cross border payment is an important part in the global payment system and a lot of personal remittances business cooperation and the like are completed through it So it can be seen that reducing cross border payment costs is the priority among priorities After the SFT currency is issued it can be used for SFT platform and ecological functions as well as activities on the SFT platform SFT actively guides the development of the blockchain technology and applications enabling the blockchain technology to exert more energy and efficiency in the cross border payment field and bring a new round of visible technological innovation 
+ Page 3 of 40
+ Contents
+ Abstract 2
+ Chapter 1 Background of Project 5
+ 1 1 Market Demand and Prospect 5
+ 1 2 Industrial Pain Points and Solutions 7
+ 1 3 Conflicts between Blockchain and Cross border Payment Market 8
+ 1 4 SFT s Huge Opportunities 9
+ Chapter 2 Introduction of SFT Project 9
+ 2 1 What is SFT 9
+ 2 2 Basic Structure and Logic of SFT 10
+ 2 3 Features of SFT 11
+ Chapter 3 Design of SFT Payment Ecological Module 12
+ 3 1 SFT Payment System 12
+ 3 2 Information Track 13
+ 3 3 Honest Mechanism 14
+ 3 4 Ecological Open System 14
+ Chapter 4 Application Scenario and Future Value 15
+ 4 1 Application Scenario 15
+ 4 2 Future Value 15
+ Chapter 5 SFT Blockchain Technology Scheme 16
+ 5 1 Application of NoFake Blockchain Technology 16
+ 5 2 Overview of SFT Basic Structure 17
+ 5 3 Safety of Smart Contract 23
+ 5 4 Safety of Mobile Wallet 25
+ 5 5 Comparison with Blockchain Technology of Global Mainstream Region 26
+ Chapter 6 Usage and Value of SFT token 26
+ 6 1 Usage of SFT token 26
+ 6 2 Value of SFT token 27
+ 6 3 Advantages and Features of SFT token 27
+ Chapter 7 SFT Profit Module 28
+ 7 1 Income of Services 28
+ 7 2 Currency Transfer Fee 28
+ Chapter 8 SFT Operation and Management System 29
+ 8 1 SFT Foundations 29
+ Page 4 of 40
+ 8 2 Board of Directors and Board of Supervisors 29
+ 8 3 Introduction of Team 30
+ Chapter 9 Issuance Plan 32
+ 9 1 SFT Development Path Map 32
+ 9 2 Parameters of Pass Card 32
+ 9 3 Details of Pass Card Sales and Distribution 33
+ Chapter 10 Appendix 36
+ 10 1 Risk Analysis 36
+ 10 2 Statement of Important Matters 37
+ References 40
+ Page 5 of 40
+ Chapter 1 Background of Project
+ 1 1 Market Demand and Prospect
+ 1 1 1 Size of Global Payment Industrial Market
+ It is expected in the “2017 World Payment Report” (WPR 2017) that global digital payment transactions will grow by an average of 10 9% per year since now to 2020 with 726 billion transactions in 2020[2 The Report estimates that the volume of transactions in emerging economics will increase by 19 6% which is three times that of mature economies[3] For example the volume of transactions in Asia especially China and India the leading emerging markets is expected to increase by 30 9% It is estimated that from 2015 to 2020 CAGR of the volume of transactions of non cash wholesale business all over the world of large enterprises medium sized enterprises and public institutions has reached 6 5% with the volume of transactions exceeding 122 billion Capgemini a consulting service company and BNP Paribas jointly released a report that global digital payment will be up to USD 726 billion by 2020[5] 
+ Figure 1 1 Global payment size
+ Page 6 of 40
+ From 2014 to 2015 global non cash business volume has increased by 11 2% to 433 1 billion transactions the largest increase in a decade The developing markets boosted this increase with a growth rate of 21 6% In 2015 the non cash transactions increased by 21 6% in developing countries while the developed countries only grew by 6 8%[7] With the rapid growth of cross border payment transactions the demand for cross border payment services in emerging countries such as Southeast Asia the Middle East and Africa is on the obvious rise 
+ 1 1 2 The Trend of Cross border Payment Industry
+ In the past seven years the number of overseas visitors has increased And in 2016 this figure reached 1 235 billion an increase of 3 9%[8] This means that as the number increases the demand for global cross border payments will continue to rise 
+ With the development of global economic integration more and more people are going abroad to work forming a huge demand for cross border exchange As a result there are more foreign workers in the developed countries year by year For example in Japan the number of foreign workers had reached 788 000 in 2014 What’s more this figure had increased to 908 000 by 2015 It is reported that more than 50% of foreign workers send money home twice a quarter or more 
+ It is indicated by the study of KPMG in 2016 only 27% of 655 million households in Southeast Asia have accounts of financial institutions Robert B Zoellick (r ) the 11th president of the World Bank Group said “The economy of world’s poor people will increase by providing financial services to 2 5 billion people without accounts of financial institutions ”
+ Technological advancement will drive cross border payments to move faster and more efficiently and future cross border payments will be easier faster and less expensive In order to realize this purpose the core is the unification of technological upgrades and payment standards The payment system is based on the account system of financial institutions and closely related to the local laws and regulations financial supervision system and credit system The expansion of cross border payment business will be affected by market differences But the blockchain and other new technologies are expected to change traditional payment methods which have been actively explored by traditional institutions and startups at present 
+ Page 7 of 40
+ 1 2 Industrial Pain Points and Solutions
+ 1 2 1 Industrial Pain Points
+ Compared with the past information flow the current prosperous global payment ecology has made great progress However in the traditional centralized payment ecological operation system there are still dilemmas people are facing as follows 
+  Residents in developing countries need to pay high cost to swap foreign exchange and make remittances to the foreign countries According to statistics of “2016 Remittance Service Survey” from Japan Fund Payment and Settlement Association 84 5% of customers are not satisfied with the high commission for overseas remittances[12] 
+  When cross border payment is made people usually convert the local income into US dollars and then convert the US dollars into their home currency It takes 5 to 7 days to wait the conversion which may also produce a 5% 19% exchange balance during this period 
+  Some regions of Asia and countries such as the Middle East and Africa have weak infrastructures especially their payment and settlement system and relevant laws and regulations For example they have no check settlement which results to slow payment of checks their ATM system is backward there is no integrity institution etc 
+ 1 2 2 Solutions of Blockchain
+ Traditional cross border requires a large number of manual to carry out account checking operations but the financial institutions can only process transactions in batches within a limited hours per day However if the blockchain is available for cross border payment theoretically 7×24 uninterrupted services can be provided and it reduces the manual processing in the process and shortens the clearing and settlement time in addition it can reduce the cost of payment processing receiving financial operation and account checking and enhance the liquidity and financial profitability 
+ As one of the fastest growing financial technologies in the financial industry the data blockchain is a support for virtual currency and is regarded as one of the most transformative innovations to date Essentially the data blockchain is a digital ledger that records data and merges them into “blocks” which are then securely encrypted and chronologically bound into a “chain” The ledgers are distributed across the various components of the network and all components must agree to certify the transaction Therefore the data blockchain is a form of distributed ledger which can eliminate the need for agency at runtime compared with traditional ledgers that are maintained by centralized organizations 
+ Page 8 of 40
+ Four major advantages of solutions of data blockchain payment transactions 
+ High security Funds transfer data is recorded in a digitized ledger and cannot be modified or tampered once encrypted In this regard it keeps transaction information private and secure and reduces the risk of fraud 
+ Shortening the turnover cycle After removing the payment agency and manual processing in the traditional payment transaction the transfer transaction based on the data blockchain technology can be directly carried out in the remittance financial institutions and the receiving financial institution which effectively reduces the processing time For example SFT based on NoFake’s blockchain technology is able to complete the remittance among international financial institutions in a few seconds 
+ Improving transaction transparency With the removal of the transaction platforms of traditional mode the transaction flow between the payer and the receiver is more transparent and clear which make the tracking of the transaction more convenient 
+ Reducing costs The digital ledger of blockchain technology is characterized as distribution which eliminates the need for centralized organizations (the transaction agency in the traditional mode) and manual treatment and in turn reduces costs 
+ 1 3 Conflicts between Blockchain and Cross border Payment Market
+ When a technology is able to permeate to various industries and generate huge value in these industries we usually say that the technology will tremendously change human kinds In the past year blockchain an epoch making technology has attracted people’s attention and it is considered to be a technology that is most likely to bring about subversive changes 
+ The core of the blockchain technology is a decentralized distributed Internet database technology solution In terms of its using process blockchain establishes a public ledger within a certain scope of the Internet which allows all participants to record and check the ledger so as to ensure the authentication and unrepeatability of the records of the processing information From a technical point of view in order to ensure the smooth implementation of blockchain technology the four technologies of P2P cryptography smart contract and consensus algorithms are indispensable The most important application of blockchain technology is the possibility of solving problems involving credit data security and reduction of costs 
+ The blockchain + payment industry with the trustworthiness security and irresistible modification of the blockchain enables financial institutions individuals and enterprises around the world to achieve low cost secure and real time payment of funds In addition through blockchain technology more payment data is liberated and thus the payment data massively grows which gives the global payment market huge opportunities and then vigorously promotes another revolutionary drastic change in the global payment market 
+ Page 9 of 40
+ 1 4 SFT s Huge Opportunities
+ A large number of existing customers SFT provides currency exchange service to 300 000 people every year and the number of these users is expected to further increase What’s more we also have the big data of 50 000 customers’ currency exchange and remittance (50 000 customers remit more than 3 000 000 Japanese Yen per year) 
+ World class advanced technologies SFT adopts NoFake’s high speed bottom level blockchain technology and mobile client which have been developed and are wildly used 
+ Financial institutions registered in Japan SFT will be the largest foreign exchange institution in Japan 
+ Strong support from the developing countries At present SFT team is negotiating strategic cooperation with more than 100 national ambassadors or consular seniors 
+ Chapter 2 Introduction of SFT Project
+ 2 1 What is SFT 
+ 2 1 1 Introduction of SFT
+ SFT (Sakura Future Token SFT for short) is a blockchain project combined with the global payment (especially cross border payment field) market Its birth means another revolutionary change in the blockchain and global payment market 
+ SFT a third party decentralized payment platform based on NoFake’s blockchain technology and facing the world aims to set up a cross border payment business ecosystem through blockchain technology In the future SFT will combine the global payment market and serve various financial payment parties (individuals/ enterprises) cross border e commerce and other fields bringing new changes for the global payment market and reshaping the future trend of global cross border payment 
+ Page 10 of 40
+ 2 1 2 SFT Brand Introduction
+ The SFT logo is in the form of a circle which refers to the “coin” and fits the property of the payment industry the cherry blossom petals and the pink color make the logo simple and flat which is conductive to spread on various carrier and Apps 
+ 2 1 3 Aims of SFT
+  To turn Japan into a cashless society 
+  To connect developed countries and developing countries through SFT blockchain payment platform and SFT token 
+  To reduce the gap between the rich and the poor in the world 
+  To improve the financial situation of SMEs 
+ 2 2 Basic Structure and Logic of SFT
+ Taking advantage of the features of untamability openness and transparency and traceability of blockchain technology SFT creates a world class cross border payment platform which is able to ensure that the payer carrying out payment relationship can achieve effective transaction behavior Moreover SFT can also provide credit function of transaction information including credit of information consistency auditing of consensus nodes etc The basic structure of SFT is shown in Figure 2 1 
+ Page 11 of 40
+ Figure 2 1 Logical schematic diagram of SFT basic structure
+ 2 3 Features of SFT
+ SFT has the following unique features 
+  The bottom level technology of blockchain adopting NoFake blockchain bottom level technology and having the features such as decentralization openness and transparency safety and reliability open consensus and so on 
+  Eco center currency As a third party payment platform SFT links the transaction exchange and remittance and circulation channels of legal tender and other digital currencies/ digital assets It is a lubricant that runs through the whole ecology and is with immeasurable value 
+  Strong exchange function SFT token can quickly connect to more than a dozen mainstream currencies (including Japanese Yen RMB HK Dollar Thai Baht Ringgit (Malaysia) Vietnamese Dong etc ) and has seamlessly linked with the currencies of Middle Eastern countries and African countries In conclusion it has come to the forefront of cross border payments 
+ Page 12 of 40
+ Chapter 3 Design of SFT Payment Ecological Module
+ 3 1 SFT Payment System
+ SFT payment system includes accounts cash wallets digital wallets analysis system etc 
+  Accounts include basic functions such as user registration authentication personal information password verification code login and so on verification of session and backend authority etc In addition these accounts are also connected with encrypted digital currency (the entry of encrypted digital currency is SFT encrypted digital wallet) and traditional finance What’s more these accounts are of multi table state consistency based on MySQL affair management to show the balances of assets account order entrustment/ cancellation/ transaction top up/ withdrawal and coin top up/ coin withdrawal These accounts also can conduct read write separation and cache control of the relevant table library plan of the assets balance information that is with more reading but less writing considering cold hot branch warehouse for the accumulated continuous order record that has increased 
+  Cash wallet docking financial institutions and payment transfer providing corresponding payment flow record management and offering relevant service supports of user cash top up and cash withdrawal of other business terminals 
+  Encrypted digital wallet providing wallet API management and encapsulation of various digital currencies and assets and offering relevant service supports of coin top up and coin withdrawal of other business terminals 
+  Analysis system The analysis consists of the upper layer (risk control + management market information analysis and marketing analysis) and bottom layer (big data + machine learning platform) 
+ Page 13 of 40
+ Figure 3 1 SFT payment and settlement system
+ 3 2 Information Track
+ The distributed function of blockchain protects the integrity of the data by building a distributed database system and a consensus agreement between the parties of the payment The blockchain timestamp function forms unforgeable data by generating information blocks of a certain period of time and the data links connected between the blocks Each payment participant should be time stamped when he is distributing blocks so that he can prove the authenticity and ownership of the payment which is favorable for protecting the privacy of the payment transactions 
+ Through the use of distributed ledgers SFT can provide deposit evidence of payment transaction data support the evidence of payment transaction behavior and record the behavior tracks of a lot of payment transaction information That is the data request data matching data retrieval data use etc of each payment transaction are recorded in the ledger forming a record of the whole process of the data to ensure the security reliability and confidentiality of payment transaction data For example the design of SFT abnormal payment transaction behavior monitoring and analysis system and the use of compliance method to monitor the transactions on distributed ledgers are helpful for tracking various payment behavior trajectories and carrying out anti money laundering and anti fraud 
+ Page 14 of 40
+ 3 3 Honest Mechanism
+ The blockchain technology can help solve more synergistic problems with payment transactions SFT provides a platform based trust service that replaces the middle person trust that was previously costly The SFT honest mechanism constructs a distributed payment integrity mechanism that cooperates with the problems of all parties in the transaction under an integrated agreement system integrates distributed multidimensional entity authentication systems and various blockchain system and information system includes identity authentication and information exchange agreement provides open basic module of distributed application scenarios achieves distributed peer to peer honest system and builds a distributed honest basic system of cross chain cross system cross industry cross application and cross terminal 
+ On the basis of distribution and data SFT honest mechanism proposes further development of ecology and application extending the application of trust to more dimensions from entity authentication to data exchange and from the distributed transactions to distributed reputation The SFT honest mechanism combines the distributed ledger system of the bottom level blockchain and cooperates with various services partners to provide diversified trust services in different countries regions and fields forming a part of a new generation of global trust network infrastructure 
+ 3 4 Ecological Open System
+ The future will be a huge multi chain coexistence value network era In this value network the wider the distribution of valid network the greater the value stack that can be generated Therefore SFT is required to create itself to a free and open ecosystem for all users enterprises and merchants who can freely pay for their transactions through the platform 
+ SFT ecological open system takes users as the core and create an ecological open system with multiple portals multiple platforms multiple channels multiple industries multiple fields and diversified driving consumption Relying on a strong ecosystem SFT is expected to open up users needs entries online and offline channels and merchants making it a truly complete and open global cross border payment ecosystem 
+  Multiple portals rich payment and consumption scenarios drive the payment 
+  Multiple channels integrating online and offline channels 
+  Multiple industries various merchants and products including diversified products and markets 
+ Page 15 of 40
+ Chapter 4 Application Scenario and Future Value
+ 4 1 Application Scenario
+ At present the peer to peer value transmission of blockchain subverts people’s imagination of the Internet and the application of blockchain has extended to all areas of society Currently the most mature areas of SFT are cross border payment (individuals/ enterprises) financial areas (trading finance digital currency financial derivatives credit and loans risk control etc ) and payment of cross border e commerce platform 
+ With the operation and development of SFT its applications at other industries such as Internet of Things medical beauty pension eco tourism sharing economy and the like also develop In the future the application of SFT blockchain will penetrate into all aspects of society and there are also a wide range of application scenarios in economic financial and social systems 
+ 4 2 Future Value
+ According to World Bank statistics the scale of global cross border payment has grown at an average rate of 5% annually It reached USD 601 billion in 2016 However current cross border remittance is extremely high with the commission rate of per remitter being 7 68% on average The main cost comes from the remittance fee of financial institutions and telegraph fee of SWIFT (Society for Worldwide Interbank Financial Telecom) 
+ In addition according to a report released by Santander Spain’s largest bank if blockchain technology is used internally by financial institutions around the world around 2020 it will save costs about USD 20 billion a year Such data is sufficient to show that “blockchain” combines with the tremendous breakthroughs brought about by the traditional financial sector 
+ SFT which combines payment finance with blockchain technology shows its most obvious advantage of the payment and settlement field in the cross border payment field To be specific it can not only reduce the cost among financial institutions and improve the treatment speed and efficiency of payment business but also open up room for development of “small cross border payment” that did not meet the actual condition What’s more the use of digital wallet can change the payment of SFT and cost of cross border remittance into zero So far digital wallet offers new settlement system for small payment as well as financial institutions Furthermore some emerging organizations that are based on distributed ledgers also depend on the public blockchain operational system Although system operating causes costs there is no
+ Page 16 of 40
+ additional cost of cross border remittance or small payment by means of the powerful computing capacity of blockchain Not only that SFT based on NoFake blockchain technology SFT is preponderant in the speed into one’s account of payment Accurately speaking it takes only a few seconds to complete an international financial institution’s remittance And the operation can be done on the mobile app 
+ In the future SFT will cover dozens of countries including countries in Southeast Asia the Middle East Africa Japan Singapore etc containing more than one billion users tens of millions of merchants (or enterprises) with large application value 
+ Chapter 5 SFT Blockchain Technology Scheme
+ 5 1 Application of NoFake Blockchain Technology
+ Adopting NoFake blockchain technology SFT sets up blockchain infrastructure and opens up API interfaces so as to connect and share with other enterprises and institutions commonly promote the development of global cross border payment market and create the win win ecology of SFT cross border payment blockchain 
+ Figure 5 1 NoFake blockchain technology solutions
+ Page 17 of 40
+ 5 2 Overview of SFT Basic Structure
+ The basic structure of blockchian can be simply divided into core service smart contract and blockchain infrastructure 
+ Figure 5 2 NoFake blockchain technology solutions
+  Core service refers to products that ordinary people can use directly including mobile APP Web smart devices etc 
+  Smart contract refers to “programmable contract” or “comtract intelligence” where “smart” is the intelligence of execution that is to say when a certain condition is met the contract is automatically executed such as automatic transaction automatic payment etc 
+  Blockchain infrastructures mainly include distributed algorithms cryptographic signatures data storage technology etc a total of four aspects 
+ In the logic of SFT system architecture due to the combination of blockchain and features of payment industry the overall logic of its design also combines the relevant characteristics of the blockchain industry SFT’s infrastructures chiefly include storage layer transmission layer consensus layer virtual machine and interface The specific contents are shown as following Figure 5 3 
+ Figure 5 3 SFT’s infrastructures map
+ Page 18 of 40
+ Page 19 of 40
+ 5 2 1 Interface
+ In order to facilitate the connection of business SFT system provides independent API application development interface which externally shows the business function provided by SFT system in the form of RESTful API In this regard the enterprise customers can quickly access SFT system and integrate with other systems in the companies At present SFT API interface is available for docking mobile APPs DAPP Web and other extended APPs 
+ 5 2 2 Virtual Machine
+ The virtual machine supports programmable technologies such as smart contract At present SFT system adopts mainstream virtual machine mechanism in the support of the chain business Currently it supports the EVM virtual machine compatible with Ethereum The EVM virtual machine can directly deploy and run solidity smart contract The Solidity based on Ethereum is a good language choice for blockchain applications It is a fully deterministic programming language rather than some other factors and supportable for programmable technologies such as smart contract specifically including Java C++ Python and Go In addition we will actively develop other virtual machines that are closer to financial grade applications to facilitate rapid development/ customization of business logic on the chain 
+ 5 2 3 Consensus Layer
+ The consensus layer mainly refers to consensus calculation At present most of the current blockchain applications choose the consensus algorithm based on PBFT algorithm And SFT blockchain project mainly takes advantage of NoFake NoFake chain PBFT (Practical Byzantine Fault Tolerance) algorithm and NFFT (NoFake Fault Tolerance) algorithm 
+ NoFake chain NFFT (NoFake Fault Tolerance) consensus algorithm is improved by the Paxos algorithm and pays more attention to the intelligibility and grounding of the protocol The specificity is that there is at most one legal leader at any time with the number of fault tolerant nodes is N/2 1 NoFake chain NFFT consensus algorithm is a simplified implementation of the Paxos algorithm so its complance supervision performance resource consumption and fault tolerance are similar to Paxos NoFake chain NFFT consensus algorithm can be applied to the coalition chain so it is more effective than Paxos and PBFT algorithms However the industry will be able to apply the NoFake NFFT consensus algorithm to the blockchain mainly to elect a consensus node and keep billing by nodes But the biggest disadvantage of the scheme is that it cannot prevent Byzantine nodes A Byzantine leader node with a strong network configuration will bring a devastating blow to the consensus of the NFFT algorithm Since the nodes in the coalition are all subject to strict approval and the provider is an economically ecological entity and a stakeholder there will no cheat node Even with the cheat node the entire blockchain system is able to respond rapidly to take punishment measures 
+ Page 20 of 40
+ The PBFT algorithm (Practical Byzantine Fault Tolerance) widely used in the industry means Byzantine Fault Tolerance which is more advanced For example some reliable nodes are called verifiers who have the opportunity to become leaders In the process of generating blockchain a new verifer will default to be the leader of the round who is responsible for packaging new block and broadcasts the block that he thinks is reasonable to all the verifers The new block will be recognized after two rounds of votes being confirmed by more than 2/3 of all verifiers This consensus method greatly increases the speed of choosing blocks What’s more these blocks can be continuously produced as long as less than 1/3 of the verifiers are guaranteed to be not Byzantine nodes 
+ It is undeniable that the Byzantine node fault tolerant nodes used by PBFT is able to ensure the network security of less than 1/3 of Byzantine nodes However in practical applications especially when it comes to economic interests even if the verifier is a reliable node that has been selected we cannot rely solely on one third of the security without a penalty mechanism In order to prevent from faults we must guarantee that these verifiers will be persuaded quickly after being rewarded and be punished quickly after being fined and the award and punishment must be directly related to economic interests Therefore we have modified the original consensus mechanism so that the power of the verifiers’ vote corresponds to the digital asset equity of the chain that is mortgaged 
+ As a result more than two thirds of the voters were required to confirm that the mechanism for generating blocks was modified to more than two thirds of the total equity In addition in the PBFT consensus algorithm the ordinary node only synchronizes the new block sent from the leader node and does not participate in the consensus And the security of consensus algorithm only depends on the number of verification nodes As a result the growth of the number of ordinary nodes cannot improve the security of Byzantine fault tolerance New consensus mechanism increases the participation of non verification nodes A verification node corresponds to a verifier’s account and a non verifier can entrust its interests to verifier so that it can authorize the verifier to vote in order to earn its own interests Because of the relationship of interests the non verifier will carefully choose the proxy verifier so that everyone is involved in the consensus and there is no defect that all nodes participate in the consensus and the efficiency is reduced 
+ Page 21 of 40
+ Figure 5 4 SFT adopts NoFake PBFT consensus mechanism
+ 5 2 4 Transmission Layer
+ A P2P network refers to a peer to peer network that performs task assignment and workload among networking nodes The nodes have the same status the same function and no differentiation between priority and others Because there is no central node each node is both a requester and responder for the service There are a lot of resources stored so the failure of some nodes does not affect the opeation of the whole network 
+ The P2P network is a natural distributed and decentralized network for information storage and query and standard solution of blockchain network layer The data synchronization status updating and massage broadcasting of the blockchain network are all carried out through the P2P network Mojorityof blockchain P2P is favorable for minor improvement of the existing P2P network so as to accommodate the characteristics of the blockchain itself 
+ SFT’s P2P blockchain network consists of two parts network discovery module and data transmission module 
+ 1 Network Discovery Module
+ The network discovery module mainly include following four methods ping/pong/findNode/sendNeighbours 
+  ping/pong are used for node discovery 
+  findNode is used for querying nearby nodes 
+  sendNeighbours is used to return nearby nodes and the details of network discovery refer to the Kademlia protocol 
+ Page 22 of 40
+ The overall structure is a binary tree with each node a leaf node of the binary tree The leaf node is a 256 bit binary value calculated by a 512 bit public key The distance between two leaf nodes is obtained by XORing of the leaf nodes Each node has a routing table of 32 buckets And table has stored from near to far the nodes that have been discovered and each bucket stores up to 16 nodes 
+ Figure 5 5 Network discovery module
+ When node A joins the network it obtains the initial routing table firstly through external mechanism A sends a ping message to the node B closest to itself in the routing table and there is a node B it will return pong message to A A sends a request of find Node for B to query the nearby nodes and B returns 16 nodes that are nearest to B from its own routing table Among the returned nodes if there is C is closer to A than B then A will sent ping request for C And above steps will be repeated until a node closer to A is found (see Figure 5 5) In a network with 2^n nodes then it takes up to n times to find the list of nodes closest to A 
+ 2 Data Transmission Module
+ The data transmission module is responsible for data exchange with the discovered nodes The A node sends a hi message to the B node defining the rules for data interaction between each other Later they exchange the encrypted data through send and receive After the data is obtained it is decrypted and then stored in the local database 
+ When a node needs to broadcast a message it takes out nearby nodes and sends a message to nearby nodes who will find that this is a broadcasting message and sends it to other nearby nodes until it is transmitted throughout the network 
+ Page 23 of 40
+ 5 2 5 Storage Layer
+ The blockchain is a decentralized database as well as distributed storage database and chained storage database The original blockchain is a decentralized database which contains a list that called block that are continuously growing and aligned Each block includes a timestample so that it can link with the previous block The design of blockchain makes the data untamperable that is once the data is recorded it will be irreversible in the block 
+ SFT adopts IPFS (a peer to peer distributed hypermedia distribution protocol that connects all computing devices with the same document management mode) and perfectly cooperates with blockchain The users can use IPFS to process large amounts of data and store the corresponding cryptographic hash in the blockchain and time stamp it In this regard it is unnecessary to put the data itself on the chain which can not only save the network broadband of the blockchain but also effectively protect it Regarding the security of files on the one hand the files can be encrypted and then stored them in IPFS and on the other hand we can take advantage of IPFS to achieve distributed file sharing 
+ 5 3 Safety of Smart Contract
+ A smart contract is essentially a piece of code that runs in a blockchain network and cannot be modified after it is released If a serious vulnerability is discovered after the release only we can do is to redeploy a new contract which obviously is costly Moreover once a smart contract has hoophole it is also vulnerable to be attacked by hackers causing irreparable damage Therefore before the release of smart contract it is not only necessary to audit the code through a third party but also the team should test the code to improve the security of the smart contract during the development process 
+ The SFT team should test the contents of the smart contract as shown in Figure 5 1 
+ Page 24 of 40
+ Figure 5 1 The testing contents of the smart contract carried out by SFT team Testing Item Testing Contents Descriptions
+ Smart Contract
+ Reentrant attack detection
+ Checking the call value() function for being used safely
+ Numerical overflow detection
+ Checking the add and sub functions for being used safely
+ Replay attack detection
+ Checking if the operation can be replayed
+ Rearrange attack detection
+ Checking the list and mapping operations to see if there is information insertion problem
+ Access control defect detection
+ Checking the access control of various operations
+ Use of the unverified returned value
+ Checking the transfer method of currency to see if the returned value is verified
+ Error using random number detection
+ Checking if there is a unified content filter
+ Transaction order dependency detection
+ Detecting transaction order dependency
+ Timestamp dependency detection
+ Checking if there is a security risk in the use of timestamp
+ Short address attack detection
+ Checking if there is short address attack
+ Denial of service attack detection
+ Checking if there is resource abuse problems when using resources
+ Page 25 of 40
+ 5 4 Safety of Mobile Wallet
+ In 2014 Mt Gox the world’s largest bitcoin exchange was hacked and more than 850 000 bitcoins were stolen which directly led to the bankruptcy of the company At that time these bitcoins value more than USD 450 million On April 23 2018 BEC (US chain) broke the ERC20 protocol security vulnerability The attacker used the integer overflow BUG to generate tokens indefinitely which directly caused the BEC currency value to dive to almost zero 
+ In summary as a bottom level platform for value circulation security is the top priority of the blockchain and also one of the cornerstones that the blockchain can be widely accepted by society To this end SFT will set up security testing group to sort out the common security question list of wallet system in the industry and conduct security audits of the released mobile wallet etc so as to enhance the reliability of the wallet system and reduce the risk of mobile wallet risks 
+ The testing contents of the security testing group are as follows 
+ Figure 5 2 The testing contents of the SFT security testing group No Testing Main Class Testing Subclass
+ 1
+ Security risk detection of wallet APP
+ Security detection of operating environment
+ Security detection of protocal interaction
+ Security detection of data storage
+ Security detection of functional design
+ 2
+ Security risk detection of wallet APP service
+ Security detection of domain DNS
+ Security detection of host instance
+ Security detection of server APP
+ 3
+ Security risk detection of cold wallet
+ Detection of device system security mechanism
+ Detection of device access control
+ Detection of business function realization mechanism
+ Page 26 of 40
+ 5 5 Comparison with Blockchain Technology of Global Mainstream Region
+ Using Singapore’s famous blockchain technology company NoFake’s high speed bottom level blockchain NoFake chain SFT has measured 3400tps reports which can support 200 million business scene transactions per day 
+ Figure 5 4 Comparison analysis of NoFake and global mainstream blockchain technology
+ Chapter 6 Usage and Value of SFT token
+ 6 1 Usage of SFT token
+ The native digital currency of SFT is able to measure and reflect the digital economic behavior on the SFT chain and is the medium of value circulation As a circulation medium SFT has the following uses 
+  The user can use SFT tokens to purchase the products and services on the SFT platform and pay for the consumption at the merchants/ enterprises that have established strategic cooperation with SFT 
+  SFT tokens can be used for overseas remittances cross border e commerce payment large value trades etc 
+  As a kind of digital asset the SFT tokens can be used for investment on the SFT platform and exchange with the digital currencies on the other exchange
+ Page 27 of 40
+ platforms as well as exchange between legal currency 
+ 6 2 Value of SFT token
+ The total amount of SFT tokens issued is 50 billion pieces Once issued it will never be issued again However the more ecological applications are built on the SFT platform the more resources are called Therefore we need more and more SFT tokens for use The wider the distribution of currency the higher the cost of the SFT tokens that is circulating in the market 
+ On the other hand during the operation of the SFT project the SFT foundation plans to use a certain percentage of its quarterly earnings for the repurchase of SFT token The repurchased coins will be collectively destroyed until the total amount (including the SFT tokens that are not sold and circulating in the market) of SFT tokens reach a certain amount Then the foundation will not repurchase and destroy the SFT tokens 
+ On the whole in the case that the market demand for SFT tokens continues to increase and the total amount of currencies continues to decrease until a certain value is reached the SFT token will be increasingly scarce which determines its relatively high market value 
+ 6 3 Advantages and Features of SFT token
+ The release and use of SFT have the following benefits 
+  SFT is easy to use and the user interface is friendly 
+  As for the users that have no account of financial institutions or credit card it is practical 
+  For tourists it is accessible on a global scale 
+  By using SFT ecological system the users can enjoy lower fees and interest rates 
+  It will improve the value of SFT token by using it in a wide range 
+  It will make the SMEs financial payment more useful 
+  It enables the people in developing countries to use more economical and reliable financial system in their mobile phones 
+  It makes Japan a cashless country 
+ SFT token have the following characteristics 
+  Security
+  Tradeability
+  Real business value
+  Wide distribution
+  Fixed supply (the cross border payment market valuing RMB 50 billion)
+ Page 28 of 40
+ Chapter 7 SFT Profit Module
+ 7 1 Income of Services
+ SFT is a cross border payment platform based on blockchain technology And its service incomes mainly include platform franchise fee customized service fee and advertising revenue 
+  Platform franchise fee the merchants (or companies) in various industries must pay a certain franchise fee to the platform if they want to join SFT The franchise fee is paid in SFT token 
+  Customized service fee SFT provides various data services for the merchants (or companies) in different industries based on the payment data and settlement data collected by the platform For example the data analysis provides a lot of standardized data query interfaces and batch exported customized services to meet a variety of data needs In order to get these data demands the merchants (or companies) of various industries must pay certain data service fee for SFT 
+  Advertising revenue refers to the precision advertising marketing revenue based on user portraits 
+ 7 2 Currency Transfer Fee
+ Traditional payment relies on traditional financial institution and payment network so it is required to pay cross border fees collected by these financial institutions and other payment networks Therefore there are relatively high payment costs However with simplified process convenient operation real time and cross regional payment and other features the operational costs trading costs and the like of digital currency are relatively low As a result the overall cost of digital payment will be significantly reduced 
+ In addition to service fees SFT does not charge any fees of general payment transaction services SFT only charges certain currency transfer fees (for example 3%) when both parties use other digital currencies or legal currency for transaction 
+ Page 29 of 40
+ Chapter 8 SFT Operation and Management System
+ 8 1 SFT Foundations
+ SFT is a distributed commerce which is established in the world of blockchain and creates the future cross border payment network by means of blockchain technology For this purpose SFT sets up a global foundation which is committed to the development construction and advocacy and promotion of transparent governance and facilitating the security and harmonious development of SFT platform The foundation helps to manage the general matters and privilege matters of SFT by formulating sound governance structure the design of the foundation’s governance structure aims to the sustainability effective management and security of funds raising of the SFT project The governance structure of SFT foundation consists of four parts 
+ Figure 8 1 Governance structure of SFT foundation
+ Considering SFT’s international orientation the foundation is established in Singapore facing the world and committed to the development construction and transparent governance and promotion of SFT public chain which promote the security and harmonious development of the ecological community opening sources 
+ 8 2 Board of Directors and Board of Supervisors
+ The SFT global foundation will implement voluntary regulation and mutual trust between the two parties through the development of an excellent governance structure in the form of associations The foundation helps to manage SFT’s general matters and privilege matters The design of board of directors and board of supervisors aims to effectively regulate the sustainability of and security of funds raising of SFT 
+ In terms of legal protection the law firm cooperating with SFT will provide advice and guidance on legal compliance during the course of construction and development
+ Page 30 of 40
+ of ecosystem 
+ 8 3 Introduction of Team
+ The team that supports the SFT project includes experienced managers organizers developers and digital asset experts They found the pain points of the payment industry so they propose SFT (Sakura Future Token) a global cross border payment solution that contains innovative and revolutionary blockchain technology 
+ CEO Yasuo Irita
+ He graduated from the Faculty of law at Nihon University in 1994 After retiring from Mitsubishi Tokyo UFJ Bank he established RSK Corporation of foreign currency exchange business He has a lot of experience in working with private bonds structured finance dip finance M & A operations MBO and LBO operations and has a deep insight into the financial industry
+ Page 31 of 40
+ Technical director Leon Huang
+ Former senior technical expert of Alibaba financial former JP Morgan Technology Vice President cryptography specialist many algorithmic models and the world s leading chain chain performance optimization solutions Monetary policy designer for virtual currency Support a large number of companies for system design and ICO and the total amount of loans reaches up to $300 million 
+ COO Michael Liu
+ Graduated from Kansai Gakuin University Experience in web marketing especially product development and construction of SEO and CPC advertising consulting had more than 7000 clients hi is a early investor and entrepreneur of the cryptogram currency and knows the development progress of the block chain industry 
+ Page 32 of 40
+ Chapter 9 Issuance Plan
+ 9 1 SFT Development Path Map
+ Figure 9 1 SFT development path planning map
+ 9 2 Parameters of Pass Card
+ Pass symbol SFT
+ Blockchain ERC 20
+ Scheduled issuing quantity of pass card 50 billion
+ Unit price BTC/ETH
+ Issuance unit 1 SFT
+ Issued price 1 JPY=1 SFT
+ Minimum issuance unit 10 18 SFT
+ Page 33 of 40
+ 9 3 Details of Pass Card Sales and Distribution
+ 9 3 1 Subdivision of Pass Certification
+ Among the 50 billion SFT tokens issued 60% are presold and distributed by ICO and 40% are rewarded for the development team and the founder team The specific information is shown as following Figure 9 1 
+ Figure 9 1 Subdivision scheme of pass certification Ratio Number/ coins Statement
+ 60%
+ 30 billion
+ Presold and distributed as ICO
+ 40%
+ 20 billion
+ As awards for the development team and founder team
+ (among which 10 billion should carry out 36 month locking period after being listed on Shanghai Stock Exchange)
+ 9 3 2 Presell and Awards
+ As for preselling 60% of SFT token (30 billion pieces) will be presold by ICO and the preselling objects will be executed 12 month locking plan 
+ As for the preselling participants they are allowed to use SFT wallet to conduct internal transaction of safe deposit box before being listed on the stock exchange 
+ Page 34 of 40
+ 9 3 3 Locking Plans
+ 1 Locking Plans of Preselling Participants
+ After being listed on the stock exchange the locking plans of preselling participants is shown as Figure 9 3 
+ In addition the aim of the plan is for exchange rather than comparative prohibition 
+ Figure 9 2 Locking plans of preselling participants Time Statement
+ Within 3 months since being listed on the stock exchange
+ 75% of locked SFT are sold on the stock exchange
+ Within 6 months being listed on the stock exchange
+ 50% of locked SFT are sold on the stock exchange
+ Within 9 months being listed on the stock exchange
+ 25% of locked SFT are sold on the stock exchange
+ After 12 months being listed on the stock exchange
+ All SFT are unlocked
+ Figure 9 3 Unlocking plans of preselling participants Time Unlocking Rate Holding Rate of Lock Destination
+ 3 months before being listed on the stock exchange
+ 0%
+ 100%
+ The date listed on the stock exchange
+ 25%
+ 75%
+ 3 months after being listed on the stock exchange
+ 25%
+ 50%
+ 6 months after being listed on the stock exchange
+ 25%
+ 25%
+ 12 months after being listed on the stock exchange
+ 25%
+ 0%
+ Page 35 of 40
+ 2 DEV/ SNL Locking Plan
+ As for the developer (DEV) and the founder of SAKURA NETWORK PTE LTD (SNL) they implement the locking timetable of holding pass card The specific contents are shown as Figure 9 4 
+ Figure 9 4 DEV/SNL locking plans Time Unlocking Rate Holding Rate of Lock Destination
+ Before being listed on the stock exchange
+ 0%
+ 100%
+ The date listed on the stock exchange
+ 25%
+ 75%
+ 12 months after being listed on the stock exchange
+ 25%
+ 50%
+ 24 months after being listed on the stock exchange
+ 25%
+ 25%
+ 36 months after being listed on the stock exchange
+ 25%
+ 0%
+ Note 
+  DEV：Developers
+  PVS：Private Placement
+  SNL：SAKURA NETWORK PTE LTD
+ Page 36 of 40
+ Chapter 10 Appendix
+ 10 1 Risk Analysis
+ The SFT team will use the privately raised digital assets in accordance with the disclosures in the white paper and make regular disclosures However no matter how careful the risks are inevitable The risks that are currently predicted include possible policy risk transaction risk pooling risk information security risk etc 
+ 10 1 1 Policy Risk
+ At present some countries in the world are still holding unclear attitudes towards blockchain projects and digital currency regulatory policies so it may lead to participants suffering from lossesbecause of policy changes to a certain extent In addition the blockchain technology has become the major target of supervision in all main countries in the world so the SFT platform and SFT currency may be affected or even hindered to directly terminated their development if the supervisors intervene or exert influence on them 
+ 10 1 2 Transaction Risk
+ As a kind of digital currency asset SFT currencies are of extreme high uncertainty What’ s more due to the lack of strong supervision in the field of digital asset transaction in the world digital currency has risks such as violent rise and fall all day trading dealer trading etc If the individual participants who have no long term investment experience may suffer from losses of personal assets 
+ 10 1 3 Pooling Risk
+ The SFT project team will spare no effort to achieve all of the development goals set out in the white paper At present the team has a complete technical and commercial experience However because of the unforeseen factors and uncertainties of technical development and other matters the existing business models and pooling thoughts are unlikely to be in good agreement with the market demand which makes the profit difficult to achieve or meet the investors’ expectations 
+ Page 37 of 40
+ 10 1 4 Security Risk
+ Digital cryptocurrencies are characterized by anonymity untraceability etc which are easily exploited by criminals or attacked by hackers And these currencies may be involved in criminal acts such as illegal asset transfers Investors are required to fully understand the team background the overall framework and ideas of the project reasonably estimate their visions and rationally participate in the private placement of SFT currency 
+ 10 2 Statement of Important Matters
+ When an investor applies for a SFT currency appointment right to carry out entrustment he or she should read and agree to the following important matters and then fill in the necessary terms before applying 
+ 10 2 1 Privacy Policy
+ The application and the personal information of the participants will be shared with the company designated by the project and may be used for the project according to the situation Please be noted on the term 
+ We are committed to protecting personal information in accordance with relevant personal privacy laws such as the “Personal Information Protection Act” as well as national guidelines and other regulations 
+ We will obtain personal information in accordance with the law and appropriate methods and carefully use the information for the necessary execution of the business activities We will not provide the information to third parties in violation of laws or without the permission in person 
+ In order to properly protect personal data and keep the data up to date and to prevent illegal access information disclosure loss destruction etc we will take necessary and appropriate improvement measures 
+ We will respond promptly to feedback from the user about the disclosure modification addition deletion cessation of use of personal data stopping to provide the information to third parties and data use and processing 
+ In the case of adopting a proper management system to protect personal information if the use of information is delegated to the outside a confidentiality agreement will be signed and the appropriate management measures of the other parties will be supervised 
+ In order to ensure the implementation of the policy we will establish a personal information protection procedure which will be effectively communicated to the
+ Page 38 of 40
+ relevant people of the business and implemented 
+ 10 2 2 Deposit Considerations
+  After the expiration date the sending address may be changed Therefore please use the latest information when you are applying and confirm it at this receiving window 
+  Sometime there may generate forwarding fee which is born by the sender In addition in the case of 0 00000001 BTC/ETH the processing will be discarded please confirm 
+  For security reasons deposits will be verified Upon completion an acceptance notification will be sent Please wait patiently before confirming the notification 
+  We will not handle the currencies pass certifications address errors and other transmission errors that are mistakenly deposited in the company 
+ 10 2 3 Important Matters of Application
+ This application is entrusted by the sales department of SFT currency and all of the remuneration and the like will be kept by us as sales 
+ After the application is completed it will enter confirmation link After all the procedures are completed we will issue SFT currency and the address shall be registered through the wallet received by mail 
+ 10 2 4 Disclaimer
+ All losses arising from us the business organizations and business of SFT currency as well as related personnel and white papers (whether accepting or relying on the contents) shall not be born by us within the maximum limits stipulated by applicable laws rules and regulations 
+ Our business operation strives to be perfect However if there is no guarantee made for the whole contents of the business by the buyer of SFT currency it is deemed to have been agreed and understood Therefore we are not responsible for the disability to use SFT currency or all losses arising therefrom 
+ The cryptocurrency related management organizations of various countries have carefully discussed their various rules and regulations And the measures and operations of these regulations and rules may exert influence on the business or may limit or hinder the development of the business in the future We will consider that the receivers of SFT currency have understood and agreed that the pass certification may be forced to change its rules in the future 
+ Page 39 of 40
+ In addition the statement and related materials in the white paper or carried out by related personnel organizations and responsible persons are regarded as behaviors of recommending investment to the user and persuading the user to apply And the method and related contents whether or not related cannot be used as the materials relating to speculation and the information cannot be used as the reference for standards of investment judgment 
+ What’s more obtaining SFT currency does not imply ownership of the regulatory power of the organization and the power and is not affected thereby 
+ 10 2 5 Disavowal of Statement and Guarantee
+ All the contents described by SFT currency in this white paper and by related personnel are unrelated to the actual conditions of the authenticity correctness and perfection of the information the targeted person and unstated unguaranteed and related explanations and possibilities We have all denied it 
+ 10 2 6 Declaration and Warranty of the Applicant
+ Applicants for SFT currency should make a guarantee to the relevant organization regarding the following contents before they can acquire and hold SFT currency 
+ Applicants own the right of purchasing SFT currency in accordance with the laws and regulations in the jurisdiction in which they reside 
+ The holding of SFT currency refers to the agency actions and agency holding carried out by the persons other than other persons and the holding is on the premise of the person’s wishes understanding of the content consent to risks and non speculative purposes to apply for participation 
+ The statement white paper etc shall be subject to examination approval and the like by the regulatory agency 
+ Page 40 of 40
+ References
+ [1] 搜狐网，科技频道，《区块链又搞事情了！招商银行使用区块链技术完成跨境人民币汇款》，2017 12 25
+ https //www sohu com/a/212611393_100089505
+ [2] [3][4][5] 移动支付网，《凯捷发布2017全球支付报告 新支付生态面临的挑战》，2017 10 30
+ http //www mpaypass com cn/news/201710/31091656 html
+ [6][7] 亿欧·智库，《“2017全球支付报告”：全球数字支付交易量继续保持增长》，2017 11 09
+ https //www iyiou com/intelligence/insight59461
+ [8] 199IT，《UNWTO：2016年全球国际旅客量达12 3亿人次 创历史新高》，2017 01 30
+ http //www 199it com/archives/561281 html
+ [9] 网易新闻，《2014年在日本外国劳动者人数创新高》，2015 01 30
+ http //news 163 com/15/0130/20/AH80QVVF00014AEE html
+ [10][12] 日本基金结算行业协会总会《2016年汇款服务调查》
+ https //www s kessai jp/about/data/soukinservicechousa(201606) pdf
+ [11] 搜狐网，《东南亚如何成为区块链技术中心》，2018 7 9
+ http //www sohu com/a/240135835_100099046
+ [13] 搜狐网，财经频道，《“区块链+跨境支付”的风继续吹，SWIFT有必要颤抖吗？》，2016 11 11
+ http //www sohu com/a/118772475_498997 

@@ -1,0 +1,874 @@
+
+ 02 Honest Paper
+ Important Notice
+ Please read this section very carefully If you are in doubt as to any action you should take please
+ 􀁆􀁒􀁑􀁖􀁘􀁏􀁗􀀃􀁚􀁗􀁋􀀃􀁜􀁒􀁘􀁕􀀃􀁏􀁈􀁊􀁄􀁏􀀏􀀃􀍤􀁑􀁄􀁑􀁆􀁄􀁏􀀏􀀃􀁗􀁄􀁛􀀃􀁒􀁕􀀃􀁒􀁗􀁋􀁈􀁕􀀃􀁖􀁘􀁗􀁄􀁅􀁏􀁈􀀃􀁓􀁕􀁒􀁉􀁈􀁖􀁖􀁒􀁑􀁄􀁏􀀃􀁄􀁇􀁙􀁖􀁈􀁕􀁖􀀑
+ This document is a technical whitepaper setting out the current and future development of the
+ HONEST MINING platform and the HONEST TOKEN (HNST) This whitepaper is for information
+ purposes only and is not a statement of future intent 
+ This whitepaper makes no warranties or representations as to the successful development or
+ implementation of the technology or the accuracy completeness or suitability of the information
+ set out in this whitepaper All warranties implied by law or otherwise is hereby disclaimed 
+ No person is entitled to rely on the contents of this whitepaper and all liabilities for any loss damage
+ of whatsoever kind which may arise from any person acting on any information and opinion
+ contained in this whitepaper or any information which is made available in connection with any
+ further enquiries relating to this whitepaper is hereby disclaimed There is no obligation to amend 
+ modify or update this whitepaper or to notify any person if any matter stated in this whitepaper
+ changes or subsequently becomes inaccurate 
+ The HNST tokens will give token holders access rights to use the HONEST MINING platform and can
+ only be used to pay for HONEST MINING platform fees HNST tokens will not have any other rights or
+ functions attached to it (such as any ownership or voting interest in HONEST MINING) and is not
+ 􀀋􀁑􀁒􀁕􀀃􀁖􀀃􀁗􀀃􀁑􀁗􀁈􀁑􀁇􀁈􀁇􀀃􀁗􀁒􀀃􀁅􀁈􀀌􀀃􀁄􀀃􀁐􀁈􀁇􀁘􀁐􀀃􀁒􀁉􀀃􀁈􀁛􀁆􀁋􀁄􀁑􀁊􀁈􀀃􀁄􀁆􀁆􀁈􀁓􀁗􀁈􀁇􀀃􀁅􀁜􀀃􀁗􀁋􀁈􀀃􀁓􀁘􀁅􀁏􀁆􀀏􀀃􀁒􀁕􀀃􀁄􀀃􀁖􀁈􀁆􀁗􀁒􀁑􀀃􀁒􀁉􀀃􀁗􀁋􀁈􀀃􀁓􀁘􀁅􀁏􀁆􀀏􀀃
+ as payment for goods or services or for the discharge of a debt 
+ The HONEST MINING platform and HNST tokens are not and are not intended to represent or
+ constitute any security collective investment scheme (or units therein) business trust (or units
+ 􀁗􀁋􀁈􀁕􀁈􀁑􀀌􀀏􀀃 􀁆􀁒􀁐􀁐􀁒􀁇􀁗􀁜􀀏􀀃 􀁇􀁈􀁕􀁙􀁄􀁗􀁙􀁈􀁖􀀃 􀁆􀁒􀁑􀁗􀁕􀁄􀁆􀁗􀀃 􀁒􀁕􀀃 􀁖􀁓􀁒􀁗􀀃 􀁉􀁒􀁕􀁈􀁊􀁑􀀃 􀁈􀁛􀁆􀁋􀁄􀁑􀁊􀁈􀀃􀁆􀁒􀁑􀁗􀁕􀁄􀁆􀁗􀀃􀁑􀀃 􀁄􀁑􀁜􀀃 􀁍􀁘􀁕􀁖􀁇􀁆􀁗􀁒􀁑􀀃
+ 􀁄􀁑􀁇􀀃􀁑􀀃􀁄􀁑􀁜􀀃􀁐􀁄􀁑􀁑􀁈􀁕􀀑􀀃􀀷􀁋􀁖􀀃􀁚􀁋􀁗􀁈􀁓􀁄􀁓􀁈􀁕􀀃􀁖􀀃􀁑􀁒􀁗􀀃􀁑􀁗􀁈􀁑􀁇􀁈􀁇􀀃􀁄􀁑􀁇􀀃􀁇􀁒􀁈􀁖􀀃􀁑􀁒􀁗􀀃􀁆􀁒􀁑􀁖􀁗􀁗􀁘􀁗􀁈􀀃􀁄􀀃􀁓􀁕􀁒􀁖􀁓􀁈􀁆􀁗􀁘􀁖􀀏􀀃􀁓􀁕􀁒􀍤􀁏􀁈􀀃
+ statement or offering document and is not an offer to sell nor the solicitation of an offer to buy
+ an investment a security collective investment scheme (or units therein) business trust (or units
+ 􀁗􀁋􀁈􀁕􀁈􀁑􀀌􀀏􀀃􀁆􀁒􀁐􀁐􀁒􀁇􀁗􀁜􀀏􀀃􀁇􀁈􀁕􀁙􀁄􀁗􀁙􀁈􀁖􀀃􀁆􀁒􀁑􀁗􀁕􀁄􀁆􀁗􀀃􀁒􀁕􀀃􀁖􀁓􀁒􀁗􀀃􀁉􀁒􀁕􀁈􀁊􀁑􀀃􀁈􀁛􀁆􀁋􀁄􀁑􀁊􀁈􀀃􀁆􀁒􀁑􀁗􀁕􀁄􀁆􀁗􀀑
+ 
+ 04 Honest Paper
+ Version History
+ Revision # Date of Change Revision Summary
+ 1 0 October 9 2018 Version 1 0 published
+ 1 0 1 October 10 2018
+ Clarify bonus amount for Pre ITS
+ 􀀐􀀃􀀷􀁜􀁓􀁒􀁖􀀃􀁄􀁑􀁇􀀃􀁇􀁈􀁖􀁊􀁑􀀃􀍤􀁛
+ 1 0 2 October 16 2018 􀀸􀁓􀁇􀁄􀁗􀁈􀀃􀁑􀁙􀁈􀁖􀁗􀁒􀁕􀀃􀁓􀁕􀁒􀍤􀁏􀁈
+ 1 0 3 October 22 2018
+ 􀀐􀀃􀀸􀁓􀁇􀁄􀁗􀁈􀀃􀁑􀁙􀁈􀁖􀁗􀁒􀁕􀀃􀁓􀁕􀁒􀍤􀁏􀁈
+ 􀀐􀀃􀀧􀁈􀁖􀁊􀁑􀀃􀍤􀁛
+ 1 0 4 December 12 2018 Update important notice & risk
+ 05 Honest Paper
+ 􀀨􀁛􀁈􀁆􀁘􀁗􀁙􀁈􀀃􀀶􀁘􀁐􀁐􀁄􀁕􀁜
+ The world associates blockchain technology and cryptocurrencies with decentralization 
+ Cryptocurrencies are decentralized because the technology on which it is based—the
+ blockchain—is powered by blockchain validators which validate transactions on the distributed
+ ledgers around the world and keep it secure Over the years these blockchain validators have
+ come to be known as “blockchain miners” and “crypto miners” 
+ While it is true that miners are making the blockchain network decentralized there are still big barriers
+ 􀁗􀁒􀀃􀁈􀁑􀁗􀁕􀁜􀀃􀁗􀁋􀁄􀁗􀀃􀁓􀁕􀁈􀁙􀁈􀁑􀁗􀁖􀀃􀁈􀁙􀁈􀁕􀁜􀁒􀁑􀁈􀀃􀁉􀁕􀁒􀁐􀀃􀁍􀁒􀁑􀁑􀁊􀀝􀀃􀁏􀁐􀁗􀁈􀁇􀀃􀁎􀁑􀁒􀁚􀁏􀁈􀁇􀁊􀁈􀀏􀀃􀁏􀁐􀁗􀁈􀁇􀀃􀁗􀁈􀁆􀁋􀁑􀁆􀁄􀁏􀀃􀁖􀁎􀁏􀁏􀁖􀀏􀀃􀁏􀁐􀁗􀁈􀁇􀀃􀍤􀁑􀁄􀁑􀁆􀁄􀁏􀀃
+ resources and limited infrastructure 
+ All these limitations create opacity in mining A technology that should be transparent is used by a
+ 􀁉􀁈􀁚􀀃􀁓􀁄􀁕􀁗􀁈􀁖􀀃􀁚􀁗􀁋􀀃􀁗􀁋􀁈􀀃􀁑􀁈􀁆􀁈􀁖􀁖􀁄􀁕􀁜􀀃􀁕􀁈􀁖􀁒􀁘􀁕􀁆􀁈􀁖􀀃􀁗􀁒􀀃􀁈􀁗􀁋􀁈􀁕􀀃􀁐􀁄􀁛􀁐􀁝􀁈􀀃􀁓􀁕􀁒􀍤􀁗􀀃􀁅􀁜􀀃􀁐􀁒􀁑􀁒􀁓􀁒􀁏􀁝􀁑􀁊􀀃􀁗􀁋􀁈􀀃􀁐􀁄􀁕􀁎􀁈􀁗􀀃􀁒􀁕􀀃􀁗􀁒􀀃
+ create a scam business using the hard to understand “crypto mining” buzzword 
+ We are HONEST MINING􀀃􀀐􀀃􀁄􀀃􀁆􀁒􀁐􀁓􀁄􀁑􀁜􀀃􀁚􀁗􀁋􀀃􀁄􀀃􀁖􀁐􀁓􀁏􀁈􀀃􀁐􀁖􀁖􀁒􀁑􀀝􀀃􀁅􀁘􀁏􀁇􀁑􀁊􀀃􀁗􀁕􀁘􀁖􀁗􀁚􀁒􀁕􀁗􀁋􀁜􀀃􀁄􀁑􀁇􀀃􀁈􀁄􀁖􀁜􀀃
+ crypto mining that is accessible to everyone HONEST MINING will achieve this by looking at both
+ the short and long term impact of mining 
+ Soon after the HONEST TOKEN􀀃􀁖􀀃􀁇􀁖􀁗􀁕􀁅􀁘􀁗􀁈􀁇􀀏􀀃􀁚􀁈􀀃􀁚􀁏􀁏􀀃􀁅􀁈􀀃􀁏􀁄􀁘􀁑􀁆􀁋􀁑􀁊􀀃􀁗􀁋􀁈􀀃􀁑􀁈􀁛􀁗􀀃􀁊􀁈􀁑􀁈􀁕􀁄􀁗􀁒􀁑􀀃HONEST MINING
+ platform for cloud mining Proof of Stake based cryptocurrency (PoS) The platform is a highly
+ automated and secured staking pool with very low minimum commitment Miners can get their
+ rewards based on the masternode reward distribution without losing any of their collateral 
+ HONEST TOKEN (HNST) will be used for the platform economics 
+ While we are making sure that the platform is stable HONEST MINING will seek to grow the
+ 􀁐􀁑􀁑􀁊􀀃􀁆􀁒􀁐􀁐􀁘􀁑􀁗􀁜􀀃􀁈􀁙􀁈􀁑􀀃􀁉􀁘􀁕􀁗􀁋􀁈􀁕􀀃􀁚􀁗􀁋􀀃􀀳􀁕􀁒􀁍􀁈􀁆􀁗􀀃􀀤􀀯􀀨􀀻􀀤􀀱􀀧􀀵􀀬􀀤􀀃􀀐􀀃􀁄􀀃􀁐􀁑􀁑􀁊􀀃􀁎􀁑􀁒􀁚􀁏􀁈􀁇􀁊􀁈􀀃􀁅􀁄􀁑􀁎􀀃􀁓􀁒􀁚􀁈􀁕􀁈􀁇􀀃
+ 􀁅􀁜􀀃􀁗􀁋􀁈􀀃􀁆􀁒􀁐􀁐􀁘􀁑􀁗􀁜􀀑􀀃􀀤􀁖􀀃􀁄􀀃􀁏􀁒􀁑􀁊􀀐􀁗􀁈􀁕􀁐􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀀏􀀃HONEST MINING understands that this is not a simple
+ 􀁐􀁖􀁖􀁒􀁑􀀑􀀃􀀷􀁋􀁈􀁕􀁈􀀃􀁄􀁕􀁈􀀃􀁋􀁘􀁑􀁇􀁕􀁈􀁇􀁖􀀃􀁒􀁉􀀃􀁄􀁆􀁗􀁙􀁈􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀁖􀀏􀀃􀁈􀁄􀁆􀁋􀀃􀁘􀁗􀁏􀁝􀁑􀁊􀀃􀁗􀁖􀀃􀁒􀁚􀁑􀀃􀁘􀁑􀁔􀁘􀁈􀀃􀁄􀁓􀁓􀁕􀁒􀁄􀁆􀁋􀀞􀀃
+ 􀁗􀁋􀁄􀁗􀀃􀁅􀁈􀁑􀁊􀀃􀁖􀁄􀁇􀀏􀀃􀁚􀁈􀀃􀁄􀁕􀁈􀀃􀁆􀁒􀁑􀍤􀁇􀁈􀁑􀁗􀀃􀁗􀁋􀁄􀁗􀀃􀁒􀁘􀁕􀀃􀁆􀁘􀁕􀁕􀁈􀁑􀁗􀀃􀁓􀁕􀁒􀁓􀁒􀁖􀁄􀁏􀀃􀁖􀀃􀁄􀀃􀁖􀁗􀁈􀁓􀀃􀁆􀁏􀁒􀁖􀁈􀁕􀀃􀁗􀁒􀀃􀁕􀁈􀁄􀁆􀁋􀁑􀁊􀀃􀁒􀁘􀁕􀀃􀁊􀁒􀁄􀁏􀀑
+ 06 Honest Paper
+ BUSINESS BRIEF
+ Back in 2008 the Bitcoin whitepaper was published Bitcoin promises mankind a future where everyone
+ can rely upon a trust worthy system based on the blockchain Months later the Bitcoin network went
+ live and the world learned about its ingenuity Innovations then sprouted and now there are hundreds
+ of crypto coins as well as tokens inspired by Bitcoin that are built for different purposes 
+ All these coins are based upon blockchain technology with ‘their own unique flavors’ Transaction
+ Validation is fundamental to any blockchain technology On a trust less blockchain validators are
+ essential thus they mostly get rewarded with the internal currency The world calls these people
+ “miners” and the industry is called “cryptocurrency mining” 
+ According to a research published by Coherent Market Insight the cryptocurrency mining industry
+ 􀁖􀀃􀁖􀁗􀁏􀁏􀀃􀁄􀁗􀀃􀁄􀀃􀁙􀁈􀁕􀁜􀀃􀁜􀁒􀁘􀁑􀁊􀀃􀁖􀁗􀁄􀁊􀁈􀀏􀀃􀁙􀁄􀁏􀁘􀁈􀁇􀀃􀁄􀁗􀀃􀁒􀁑􀁏􀁜􀀃􀀸􀀶􀀇􀀃􀀙􀀘􀀓􀀃􀁐􀁏􀁏􀁒􀁑􀀃􀁑􀀃􀀕􀀓􀀔􀀙􀀞􀀃􀁋􀁒􀁚􀁈􀁙􀁈􀁕􀀏􀀃􀁗􀀃􀁖􀀃􀁈􀁛􀁓􀁈􀁆􀁗􀁈􀁇􀀃􀁗􀁒􀀃􀁊􀁕􀁒􀁚􀀃
+ 63 folds and reach at least US $38 38 billion by 2025 This is on point with the growth of the market
+ 􀁆􀁄􀁓􀁗􀁄􀁏􀁝􀁄􀁗􀁒􀁑􀀃􀀃􀁒􀁉􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁆􀁘􀁕􀁕􀁈􀁑􀁆􀁈􀁖􀀏􀀃􀁚􀁋􀁆􀁋􀀃􀁋􀁄􀁖􀀃􀁅􀁈􀁈􀁑􀀃􀁈􀁛􀁓􀁈􀁕􀁈􀁑􀁆􀁑􀁊􀀃􀁄􀀃􀀘􀀓􀁛􀀃􀁊􀁕􀁒􀁚􀁗􀁋􀀏􀀃􀁉􀁕􀁒􀁐􀀃􀀸􀀶􀀇􀀃􀀚􀀃􀀥􀁏􀁏􀁒􀁑􀀃􀁑􀀃
+ January 2016 to US$ 350 Billion in May 2018 The main contributing factors are the increasing public
+ awareness of cryptocurrency and the increasing adoption of cryptocurrency 
+ Cryptocurrency Mining Industry
+ In the cryptocurrency world Bitcoin is likely the most well known and holds the biggest market
+ 􀁆􀁄􀁓􀁗􀁄􀁏􀁝􀁄􀁗􀁒􀁑􀀑􀀃􀀷􀁋􀁈􀀃􀁄􀁕􀁕􀁙􀁄􀁏􀀃􀁒􀁉􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀏􀀃􀁄􀁕􀁊􀁘􀁄􀁅􀁏􀁜􀀃􀁒􀁓􀁈􀁑􀁈􀁇􀀃􀁗􀁋􀁈􀀃􀁇􀁒􀁒􀁕􀀃􀁗􀁒􀀃􀁄􀁑􀀃􀁑􀍤􀁑􀁗􀁈􀀃􀁑􀁘􀁐􀁅􀁈􀁕􀀃􀁒􀁉􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃
+ 􀁄􀁓􀁓􀁏􀁆􀁄􀁗􀁒􀁑􀁖􀀏􀀃 􀁆􀁄􀁘􀁖􀁑􀁊􀀃 􀀥􀁗􀁆􀁒􀁑􀀃 􀁐􀁄􀁕􀁎􀁈􀁗􀀃 􀁇􀁒􀁐􀁑􀁄􀁑􀁆􀁈􀀃 􀁗􀁒􀀃 􀁇􀁕􀁒􀁓􀀃 􀁒􀁙􀁈􀁕􀀃 􀁗􀁋􀁈􀀃 􀁜􀁈􀁄􀁕􀀑􀀃 􀀺􀁋􀁏􀁈􀀃 􀁆􀁒􀁐􀁓􀁈􀁗􀁗􀁒􀁑􀀃 􀁄􀁗􀀃 􀍤􀁕􀁖􀁗􀀃
+ seemed like bad news for Bitcoin the growth of total `market capitalization made this concern less
+ relevant Non Bitcoin cryptocurrencies are referred to as altcoin (alternate coin) 
+ 1 “Bitcoin A Peer to Peer Electronic Cash System Bitcoin org ” https //bitcoin org/bitcoin pdf
+ 2 “Cryptocurrency Mining Market by Mining Enterprises Revenue ” 12 Dec 2017 https //www coherentmarketinsights com/market in
+ sight/cryptocurrency mining market 1099 
+ 3 “Global Charts | CoinMarketCap ” https //coinmarketcap com/charts/ 
+ $1 000B
+ $400B
+ $200B
+ $100B
+ $40B
+ $20B
+ $10B
+ $4B
+ 1B
+ 1M
+ Market Cap
+ From Jan 1 2016 to Jul 1 2018
+ 24h Vol
+ Market Cap 24h Vol
+ Apr ‘16 Jul ‘16 Oct‘16 Jan ‘17 Apr ‘17 Jul ‘17 Oct ‘17 Jan‘18 Apr‘18 Jul‘18
+ Figure 1 Cryptocurrency Market Capitalization Growth 2016 2018 (CoinMarketCap com)
+ Chapter 01
+ Business Brief
+ 􀀓􀀚 Honest Paper
+ Blockchain technology is still relatively young and is continuing to evolve As part of the fundamental
+ 􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃 􀁗􀁈􀁆􀁋􀁑􀁒􀁏􀁒􀁊􀁜􀀏􀀃 􀁗􀁋􀁈􀀃 􀁐􀁑􀁑􀁊􀀃 􀁄􀁆􀁗􀁙􀁗􀁈􀁖􀀃 􀁚􀁈􀁕􀁈􀀃 􀁖􀁘􀁅􀁍􀁈􀁆􀁗􀀃 􀁗􀁒􀀃 􀁑􀁘􀁐􀁈􀁕􀁒􀁘􀁖􀀃 􀁆􀁋􀁄􀁑􀁊􀁈􀁖􀀃 􀁒􀁙􀁈􀁕􀀃 􀁗􀁋􀁈􀀃 􀁜􀁈􀁄􀁕􀁖􀀑􀀃
+ 􀀺􀁋􀁈􀁑􀀃􀀥􀁗􀁆􀁒􀁑􀀃􀁚􀁄􀁖􀀃􀍤􀁕􀁖􀁗􀀃􀁏􀁄􀁘􀁑􀁆􀁋􀁈􀁇􀀏􀀃􀁐􀁑􀁑􀁊􀀃􀁘􀁖􀁑􀁊􀀃􀀦􀀳􀀸􀀃􀀳􀁕􀁒􀁆􀁈􀁖􀁖􀁒􀁕􀁖􀀃􀁒􀁕􀀃􀀪􀀳􀀸􀀒􀀹􀀪􀀤􀀃􀀦􀁄􀁕􀁇􀁖􀀃􀁚􀁄􀁖􀀃􀁖􀁗􀁏􀁏􀀃􀁓􀁒􀁖􀁖􀁅􀁏􀁈􀀑􀀃
+ 􀀯􀁄􀁗􀁈􀁕􀀏􀀃􀁗􀁋􀁈􀀃􀁇􀁈􀁙􀁈􀁏􀁒􀁓􀁐􀁈􀁑􀁗􀀃􀁒􀁉􀀃􀁖􀁓􀁈􀁆􀍤􀁆􀀃􀁐􀁑􀁑􀁊􀀐􀁋􀁄􀁕􀁇􀁚􀁄􀁕􀁈􀀃􀁉􀁒􀁕􀀃􀀥􀁗􀁆􀁒􀁑􀀃􀁚􀁗􀁋􀀃􀁗􀁋􀁈􀀃􀁘􀁖􀁈􀀃􀁒􀁉􀀃􀁗􀁈􀁆􀁋􀁑􀁒􀁏􀁒􀁊􀁜􀀃􀁖􀁘􀁆􀁋􀀃
+ 􀁄􀁖􀀃􀀩􀁈􀁏􀁇􀀐􀀳􀁕􀁒􀁊􀁕􀁄􀁐􀁐􀁄􀁅􀁏􀁈􀀃􀀪􀁄􀁗􀁈􀀃􀀤􀁕􀁕􀁄􀁜􀀃􀀋􀀩􀀳􀀪􀀤􀀌􀀃􀁒􀁕􀀃􀀤􀁓􀁓􀁏􀁆􀁄􀁗􀁒􀁑􀀃􀀶􀁓􀁈􀁆􀍤􀁆􀀃􀀬􀁑􀁗􀁈􀁊􀁕􀁄􀁗􀁈􀁇􀀃􀀦􀁕􀁆􀁘􀁗􀁖􀀃􀀋􀀤􀀶􀀬􀀦􀁖􀀌􀀏􀀃􀁐􀁄􀁇􀁈􀀃
+ CPU & GPU Btcoin mining obsolete In 2018 one can only viably mine Bitcoin using ASICs 
+ 􀀷􀁋􀁈􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃􀁚􀁄􀁖􀀃􀁕􀁈􀁏􀁈􀁄􀁖􀁈􀁇􀀃􀁑􀀃􀀕􀀓􀀔􀀘􀀏􀀃􀁚􀁋􀁆􀁋􀀃􀁊􀁙􀁈􀁖􀀃􀁗􀀃􀁗􀁋􀁈􀀃􀁅􀁈􀁑􀁈􀍤􀁗􀀃􀁒􀁉􀀃􀁏􀁈􀁄􀁕􀁑􀁑􀁊􀀃􀁉􀁕􀁒􀁐􀀃􀁗􀁋􀁈􀀃􀀥􀁗􀁆􀁒􀁑􀀃
+ 􀁈􀁛􀁓􀁈􀁕􀁈􀁑􀁆􀁈􀀑􀀃􀀬􀁑􀁖􀁗􀁈􀁄􀁇􀀃􀁒􀁉􀀃􀀶􀀫􀀤􀀐􀀕􀀘􀀙􀀏􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀃􀁘􀁗􀁏􀁝􀁈􀁇􀀃􀁄􀀃􀁑􀁈􀁚􀀃􀁆􀁒􀁑􀁖􀁈􀁑􀁖􀁘􀁖􀀃􀁄􀁏􀁊􀁒􀁕􀁗􀁋􀁐􀀃􀁑􀁄􀁐􀁈􀁇􀀃􀀨􀁗􀁋􀁄􀁖􀁋􀀃􀁚􀁗􀁋􀀃
+ an Anti ASICs feature It is this feature that ensures mining is still reachable for people with common
+ 􀁋􀁄􀁕􀁇􀁚􀁄􀁕􀁈􀀃􀁖􀁘􀁆􀁋􀀃􀁄􀁖􀀃􀀪􀀳􀀸􀀒􀀹􀀪􀀤􀀃􀁆􀁄􀁕􀁇􀁖􀀑
+ 60%
+ 40%
+ 20%
+ 0%
+ Apr ‘16 Jul ‘16 Oct‘16 Jan ‘17 Apr ‘17 Jul ‘17 Oct ‘17 Jan‘18 Apr‘18 Jul‘18
+ Percentage of Total Market Cap
+ Bitcoin Ethereum Bitcoin Cash Litecoin Ripple Dash NEM Monero IOTA NEO Others
+ From Jan 1 2016 to Jul 1 2018
+ Figure 2 Bitcoin dominance shrink over the year (CoinMarketCap com)
+ 2009 Mid 2010
+ Bitcoin was born 
+ CPU Mining 1 10 MHash / s
+ Mid 2011 Early 2013
+ FGPA
+ Mid 2010 Mid 2011
+ 􀀤􀁖􀀃􀁇􀁉􀍤􀁆􀁘􀁏􀁗􀁜􀀃􀁑􀁆􀁕􀁈􀁄􀁖􀁈􀀏􀀃􀀥􀁗􀁆􀁒􀁑
+ 􀁐􀁑􀁈􀁕􀁖􀀃􀁐􀁒􀁙􀁈􀀃􀁗􀁒􀀃􀀪􀀳􀀸􀀃􀁗􀁋􀁄􀁗􀀃􀁐􀁑􀁈􀀃􀁄􀁗
+ 10 40 MHash / s
+ Early 2013 now
+ 􀀤􀁖􀁆􀁖􀀃􀁈􀁕􀁄􀀃􀁖􀁗􀁄􀁕􀁗􀁈􀁇􀀑􀀃􀀥􀁗􀁆􀁒􀁑􀀃􀁐􀁑􀁑􀁊
+ 􀁄􀁗􀀃􀀷􀁈􀁕􀁄􀀫􀁄􀁖􀁋􀀃􀀒􀀃􀁖
+ Figure 3 History of Bitcoin mining hardwares
+ Chapter 01
+ Business Brief
+ 08 Honest Paper
+ Despite these efforts the ability to mine viably is still only accessible to people who hold the newer
+ 􀀪􀀳􀀸􀀒􀀹􀀪􀀤􀀃􀁆􀁄􀁕􀁇􀁖􀀃􀁚􀁗􀁋􀀃􀁊􀁕􀁈􀁄􀁗􀁈􀁕􀀃􀁋􀁄􀁖􀁋􀁑􀁊􀀃􀁓􀁒􀁚􀁈􀁕􀀑􀀃􀀷􀁋􀁘􀁖􀀏􀀃􀁄􀀃􀁑􀁈􀁚􀀃􀁄􀁏􀁗􀁈􀁕􀁑􀁄􀁗􀁙􀁈􀀃􀁚􀁄􀁖􀀃􀁓􀁕􀁒􀁓􀁒􀁖􀁈􀁇􀀃􀀐􀀃􀀳􀁕􀁒􀁒􀁉􀀃􀁒􀁉􀀃􀀺􀁒􀁕􀁎􀀃
+ (PoW) can be replaced with Proof of Stake (PoS) to achieve network consensus required for validation 
+ 􀀬􀁑􀀃􀀕􀀓􀀓􀀜􀀏􀀃􀁗􀁋􀁈􀀃􀀥􀁗􀁆􀁒􀁑􀀃􀁑􀁈􀁗􀁚􀁒􀁕􀁎􀀃􀁚􀁈􀁑􀁗􀀃􀁒􀁑􀁏􀁑􀁈􀀑􀀃􀀺􀁗􀁋􀀃􀁗􀁋􀁄􀁗􀀏􀀃􀀥􀁗􀁆􀁒􀁑􀀃􀁅􀁈􀁆􀁄􀁐􀁈􀀃􀁗􀁋􀁈􀀃􀍤􀁕􀁖􀁗􀀃􀀳􀁒􀀺􀀃􀀋􀀳􀁕􀁒􀁒􀁉􀀃􀁒􀁉􀀃􀀺􀁒􀁕􀁎􀀌􀀃
+ cryptocurrency on the Nakamoto Consensus PoW requires each validator to perform some work that
+ 􀁙􀁄􀁏􀁇􀁄􀁗􀁈􀁖􀀃􀁗􀁕􀁘􀁖􀁗􀁚􀁒􀁕􀁗􀁋􀁑􀁈􀁖􀁖􀀑􀀃􀀷􀁋􀁖􀀃􀁚􀁒􀁕􀁎􀀃􀁆􀁒􀁑􀁖􀁖􀁗􀁖􀀃􀁑􀀃􀁖􀁒􀁏􀁙􀁑􀁊􀀃􀁆􀁒􀁐􀁓􀁏􀁈􀁛􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁊􀁕􀁄􀁓􀁋􀁆􀀃􀁓􀁕􀁒􀁅􀁏􀁈􀁐􀁖􀀃􀁘􀁖􀁑􀁊􀀃􀁗􀁋􀁈􀁕􀀃􀁒􀁚􀁑􀀃
+ 􀁆􀁒􀁐􀁓􀁘􀁗􀁄􀁗􀁒􀁑􀁄􀁏􀀃􀁕􀁈􀁖􀁒􀁘􀁕􀁆􀁈􀁖􀀃􀁄􀁑􀁇􀀃􀁗􀁋􀁒􀁖􀁈􀀃􀁚􀁋􀁒􀀃􀍤􀁑􀁇􀀃􀁗􀁋􀁈􀀃􀁖􀁒􀁏􀁘􀁗􀁒􀁑􀀃􀁆􀁄􀁑􀀃􀁆􀁒􀁑􀍤􀁕􀁐􀀃􀁗􀁋􀁈􀀃􀁗􀁕􀁄􀁑􀁖􀁄􀁆􀁗􀁒􀁑􀁖􀀃􀁄􀁑􀁇􀀃􀁚􀁕􀁗􀁈􀀃􀁗􀁋􀁈􀀃􀁅􀁏􀁒􀁆􀁎􀀃
+ 􀁒􀁑􀁗􀁒􀀃􀁗􀁋􀁈􀀃􀁆􀁋􀁄􀁑􀀑􀀃􀀰􀁑􀁈􀁕􀁖􀀃􀁄􀁕􀁈􀀃􀁆􀁒􀁐􀁓􀁈􀁗􀁑􀁊􀀃􀁚􀁗􀁋􀀃􀁈􀁄􀁆􀁋􀀃􀁒􀁗􀁋􀁈􀁕􀀃􀁗􀁒􀀃􀁆􀁕􀁈􀁄􀁗􀁈􀀃􀁗􀁋􀁈􀀃􀁑􀁈􀁛􀁗􀀃􀁅􀁏􀁒􀁆􀁎􀀃􀁒􀁉􀀃􀁗􀁕􀁄􀁑􀁖􀁄􀁆􀁗􀁒􀁑􀁖􀀃􀁒􀁑􀀃􀁗􀁋􀁈􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀑􀀃
+ In turn the winning miner receives cryptocurrency coins as a reward for the amount of time and energy
+ spent for generating the solution 
+ This reward system incentivizes miners to generate the right solution and ensures that the network
+ remains secure while newly minted cryptocurrency is added to the overall circulating supply of coins on
+ the network In the event that a fugitive party wants to attack the network they have to take control of more
+ than 50% of the network’s mining hashrate or computing power 
+ Comparison between Proof of Work (PoW) and Proof of Stake (PoS)
+ Proof of Work
+ Chapter 01
+ Business Brief
+ 09 Honest Paper
+ Mining Economics
+ In order to mine on a PoW network miners will need to acquire capable hardware & infrastructure 
+ They also need to run the latest software version in order to support the network 
+ 􀀤􀁖􀀃􀁗􀁋􀁈􀀃􀁑􀁈􀁗􀁚􀁒􀁕􀁎􀀃􀁊􀁕􀁒􀁚􀁖􀀏􀀃􀁇􀁉􀍤􀁆􀁘􀁏􀁗􀁜􀀃􀁊􀁕􀁒􀁚􀁖􀀃􀁄􀁏􀁒􀁑􀁊􀀃􀁚􀁗􀁋􀀃􀁗􀀃􀁄􀁑􀁇􀀃􀁗􀁋􀁈􀀃􀁑􀁘􀁐􀁅􀁈􀁕􀀃􀁒􀁉􀀃􀁆􀁒􀁑􀁖􀀃􀁕􀁈􀁚􀁄􀁕􀁇􀁈􀁇􀀃􀁖􀀃􀁕􀁈􀁇􀁘􀁆􀁈􀁇􀀃􀁗􀁒􀀃
+ curb supply With decreasing supply the cryptocurrency itself will worth more due to increasing demand 
+ Market Capitalization
+ In the second quarter (Q2) of 2018 most mineable cryptocurrencies are still running under PoW 
+ 􀀷􀁋􀁈􀀃􀁘􀁑􀁇􀁖􀁓􀁘􀁗􀁈􀁇􀀃􀁏􀁈􀁄􀁇􀁈􀁕􀁖􀀏􀀃􀀥􀁗􀁆􀁒􀁑􀀃􀀉􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀃􀁄􀁕􀁈􀀃􀁖􀁗􀁏􀁏􀀃􀀔􀀓􀀓􀀈􀀃􀀳􀁒􀀺􀀑􀀃􀀬􀁑􀀃􀀕􀀓􀀔􀀚􀀏􀀃􀁗􀁋􀁈􀀃􀁗􀁚􀁒􀀃􀁆􀁒􀁑􀁖􀀃􀁆􀁒􀁏􀁏􀁈􀁆􀁗􀁙􀁈􀁏􀁜􀀃
+ 􀁐􀁄􀁎􀁈􀀃􀁘􀁓􀀃􀁅􀁈􀁗􀁚􀁈􀁈􀁑􀀃􀀙􀀓􀀈􀀃􀁗􀁒􀀃􀀚􀀓􀀈􀀃􀁒􀁉􀀃􀁄􀁏􀁏􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁆􀁘􀁕􀁕􀁈􀁑􀁆􀁈􀁖􀌵􀀃􀁐􀁄􀁕􀁎􀁈􀁗􀀃􀁆􀁄􀁓􀁗􀁄􀁏􀁝􀁄􀁗􀁒􀁑􀀑
+ Drawbacks
+ 􀀳􀁒􀀺􀀃􀁖􀀃􀁈􀁑􀁈􀁕􀁊􀁜􀀐􀁋􀁘􀁑􀁊􀁕􀁜􀀃􀁅􀁜􀀃􀁇􀁈􀁖􀁊􀁑􀀏􀀃􀁚􀁗􀁋􀀃􀁆􀁒􀁖􀁗􀀏􀀃􀁐􀁄􀁑􀁗􀁈􀁑􀁄􀁑􀁆􀁈􀀏􀀃􀁄􀁑􀁇􀀃􀁈􀁉􀍤􀁆􀁈􀁑􀁆􀁜􀀃􀁅􀁈􀁑􀁊􀀃􀁗􀁋􀁈􀀃􀁐􀁄􀁍􀁒􀁕􀀃􀁇􀁕􀁄􀁚􀁅􀁄􀁆􀁎􀁖􀀑􀀃
+ Another problem is due to the fact that increasingly highly specialized hardware required to viably
+ mine PoW cryptocurrencies lead to centralization With the advent of ASICs it becomes apparent that
+ only those with tremendous capital can take part in this mining industry Despite this in Q2 of 2018 
+ 􀁗􀁋􀁈􀀃􀁗􀁒􀁓􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁆􀁘􀁕􀁕􀁈􀁑􀁆􀁈􀁖􀀃􀁄􀁕􀁈􀀃􀁖􀁗􀁏􀁏􀀃􀁏􀁈􀁄􀁑􀁑􀁊􀀃􀁋􀁈􀁄􀁙􀁏􀁜􀀃􀁒􀁑􀀃􀀳􀁒􀀺􀀑􀀃􀀩􀁒􀁕􀀃􀁈􀁛􀁄􀁐􀁓􀁏􀁈􀀏􀀃􀀥􀁗􀁆􀁒􀁑􀀃􀁖􀀃􀁘􀁖􀁑􀁊􀀃􀀳􀁒􀀺􀀃􀁄􀁏􀁊􀁒􀁕􀁗􀁋􀁐􀀃
+ SHA256 Ethereum is using Ethash and Litecoin is using Scrypt 
+ Chapter 01
+ Business Brief
+ 10 Honest Paper
+ On Proof of Stake a validator may validate block transactions if they hold a stake on the blockchain network 
+ PoS decentralizes the consensus power by ensuring rewards are distributed based on the number of coins
+ staked by the miner 
+ As such the selection is strongly influenced by those that have the most coins – the more stake they have
+ in the network the more they have to lose in the event of a mishap The other determining factor is the
+ length of time for which the coins have been owned as it indicates whether the coins are in a long term position –
+ which is considered a more trustworthy position in comparison to coins that have been acquired recently 
+ In other words those who own more coins and have been holding the coins longer are deemed to be more
+ trustworthy and are considered less likely to attack the network 
+ Mining Economics
+ As PoS miners need to stake their cryptocurrency in order to mine they need to believe in the cryptocurrency
+ 􀁗􀁖􀁈􀁏􀁉􀀃􀁑􀀃􀁒􀁕􀁇􀁈􀁕􀀃􀁗􀁒􀀃􀁊􀁈􀁗􀀃􀁗􀁋􀁈􀀃􀁕􀁈􀁚􀁄􀁕􀁇􀀑􀀃􀀶􀁐􀁏􀁄􀁕􀀃􀁗􀁒􀀃􀀳􀁒􀀺􀀏􀀃􀁗􀁋􀁈􀀃􀁐􀁑􀁈􀁕􀀃􀁑􀁈􀁈􀁇􀁖􀀃􀁗􀁒􀀃􀁘􀁑􀁇􀁈􀁕􀁖􀁗􀁄􀁑􀁇􀀃􀁋􀁒􀁚􀀃􀁗􀁒􀀃􀁕􀁘􀁑􀀃􀁄􀁑􀁇􀀃􀁆􀁒􀁑􀍤􀁊􀁘􀁕􀁈􀀃
+ the latest version of the relevant software in order to support the network 
+ Market Capitalization
+ PoS is still in its infancy Amongst the PoS cryptocurrencies DASH is leading based on market capitalization 
+ As of Q2 of 2018 PoS cryptocurrencies constitute less than 5% of the total market capitalization 
+ 􀀷􀁋􀁖􀀃􀁚􀁏􀁏􀀃􀁖􀁘􀁕􀁈􀁏􀁜􀀃􀁆􀁋􀁄􀁑􀁊􀁈􀀃􀁄􀁖􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀃􀁖􀀃􀍤􀁑􀁄􀁏􀁝􀁑􀁊􀀃􀁗􀁖􀀃􀁓􀁏􀁄􀁑􀀃􀁗􀁒􀀃􀁏􀁄􀁘􀁑􀁆􀁋􀀃􀀦􀀤􀀶􀀳􀀨􀀵􀀏􀀃􀁈􀁑􀁄􀁅􀁏􀁑􀁊􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀃􀁗􀁒􀀃􀁅􀁈􀀃􀁄􀀃
+ PoS based cryptocurrency When this happens the market capitalization of PoS coins should
+ 􀁑􀁆􀁕􀁈􀁄􀁖􀁈􀀃􀁇􀁕􀁄􀁐􀁄􀁗􀁆􀁄􀁏􀁏􀁜􀀃􀁄􀁑􀁇􀀃􀁐􀁒􀁕􀁈􀀃􀁆􀁒􀁑􀁖􀀃􀁖􀁋􀁒􀁘􀁏􀁇􀀃􀁅􀁈􀀃􀁉􀁒􀁏􀁏􀁒􀁚􀁑􀁊􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀃􀁄􀁑􀁇􀀃􀁐􀁄􀁎􀁑􀁊􀀃􀁗􀁋􀁈􀀃􀁍􀁘􀁐􀁓􀀃􀁗􀁒􀁚􀁄􀁕􀁇􀁖􀀃􀀳􀁒􀀶􀀑
+ Drawbacks
+ Although PoS has many advantages over PoW the “nothing at stake” condition allows miners to vote
+ 􀁒􀁑􀀃􀁐􀁘􀁏􀁗􀁓􀁏􀁈􀀃􀁆􀁋􀁄􀁑􀁖􀀑􀀃􀀷􀁋􀁖􀀃􀁖􀀃􀁈􀁖􀁓􀁈􀁆􀁄􀁏􀁏􀁜􀀃􀁇􀁄􀁑􀁊􀁈􀁕􀁒􀁘􀁖􀀃􀁇􀁘􀁕􀁑􀁊􀀃􀁆􀁋􀁄􀁑􀀐􀁖􀁓􀁏􀁗􀀒􀁉􀁒􀁕􀁎􀀃􀁆􀁒􀁑􀁇􀁗􀁒􀁑􀀑
+ Proof of Stake
+ Chapter 01
+ Business Brief
+ 11 Honest Paper
+ As the market moves toward PoS there is no market leader for either PoS Mining Pool (commonly referred
+ as “Shared Masternode” by the community) and Cloud Mining platform 
+ While it is true that miners are making the blockchain network decentralized there are still big barriers to entry
+ 􀁗􀁋􀁄􀁗􀀃􀁓􀁕􀁈􀁙􀁈􀁑􀁗􀁖􀀃􀁈􀁙􀁈􀁕􀁜􀁒􀁑􀁈􀀃􀁉􀁕􀁒􀁐􀀃􀁍􀁒􀁑􀁑􀁊􀀝􀀃􀁏􀁐􀁗􀁈􀁇􀀃􀁎􀁑􀁒􀁚􀁏􀁈􀁇􀁊􀁈􀀏􀀃􀁏􀁐􀁗􀁈􀁇􀀃􀁗􀁈􀁆􀁋􀁑􀁆􀁄􀁏􀀃􀁖􀁎􀁏􀁏􀁖􀀏􀀃􀁏􀁐􀁗􀁈􀁇􀀃􀍤􀁑􀁄􀁑􀁆􀁄􀁏􀀃􀁕􀁈􀁖􀁒􀁘􀁕􀁆􀁈􀁖􀀏􀀃
+ and limited infrastructure being the main reasons As of July 2018 there are more than 360 blockchains
+ running various masternodes with different variation of staking and rewarding rules 
+ Blockchain Mining Industry Players
+ Problem Statement
+ Proof of Work (PoW) Proof of Stake (PoS)
+ Blockchain
+ Core Team
+ 􀀨􀁄􀁆􀁋􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃􀁋􀁄􀁖􀀃􀁗􀁖􀀃􀁒􀁚􀁑􀀃􀁆􀁒􀁕􀁈􀀃􀁗􀁈􀁄􀁐􀀑􀀃􀀧􀁈􀁓􀁈􀁑􀁇􀁑􀁊􀀃􀁒􀁑􀀃􀁗􀁋􀁈􀀃􀁖􀁝􀁈􀀃􀁒􀁉􀀃􀁗􀁋􀁈􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀀏􀀃􀁄􀀃
+ core team can be well structured but there are many cases whereby the team
+ is formed ad hoc with only a small number of individuals involved This is true for
+ both PoW and PoS 
+ Chipmakers
+ As PoW needs great hashing power 
+ 􀁆􀁋􀁓􀁐􀁄􀁎􀁈􀁕􀁖􀀃􀁄􀁕􀁈􀀃􀁍􀁒􀁑􀁑􀁊􀀃􀁗􀁋􀁈􀀃􀁄􀁕􀁐􀁖􀀃􀁕􀁄􀁆􀁈􀀃
+ 􀁒􀁉􀀃􀁐􀁄􀁎􀁑􀁊􀀃􀁗􀁋􀁈􀀃􀁉􀁄􀁖􀁗􀁈􀁖􀁗􀀃􀁄􀁑􀁇􀀃􀁐􀁒􀁖􀁗􀀃􀁈􀁉􀍤 
+ cient hardware in the market NVIDIA
+ and AMD are the leading players for
+ 􀀪􀀳􀀸􀀒􀀹􀀪􀀤􀀃 􀁚􀁋􀁏􀁈􀀃 􀀥􀁗􀁐􀁄􀁑􀀃 􀁄􀁑􀁇􀀃 􀀥􀁗􀁉􀁘􀁕􀁜􀀃
+ are leading the way on ASICs mining
+ hardware production 
+ PoS does not rely on hashing power 
+ therefore specialized high end
+ hardware is no longer needed What
+ is needed for PoS to work are secure
+ 􀁖􀁈􀁕􀁙􀁈􀁕􀁖􀀃 􀁚􀁗􀁋􀀃 􀁖􀁘􀁉􀍤􀁆􀁈􀁑􀁗􀀃 􀁓􀁕􀁒􀁆􀁈􀁖􀁖􀁑􀁊􀀃
+ power memory bandwidth and a stable
+ and fast internet connection to run
+ the Masternode reliably 
+ Mining Pool
+ Antpool holds the biggest Bitcoin min 
+ 􀁑􀁊􀀃􀁓􀁒􀁒􀁏􀀃􀀋􀀔􀀚􀀈􀀌􀀏􀀃􀁚􀁋􀁏􀁈􀀃􀀶􀁘􀁓􀁕􀁑􀁒􀁙􀁄􀀃􀁖􀀃􀁗􀁋􀁈􀀃
+ leading mining pool for altcoins 
+ Commonly referred to as “Shared
+ Masternodes” by the community they
+ are done manually by a trusted member
+ of the community who runs the
+ masternode for the group 
+ Cloud Mining
+ Company
+ Genesis Mining NiceHash There is not yet a global player company
+ that provides “Shared Masternodes” at
+ the level of PoW cloud mining 
+ Chapter 01
+ Business Brief
+ 12 Honest Paper
+ Masternodes typically have the following characteristics
+ 1 Collateral
+ 􀀃􀀃􀀃􀀃􀀃􀀤􀀃􀍤􀁛􀁈􀁇􀀃􀁑􀁘􀁐􀁅􀁈􀁕􀀃􀁒􀁉􀀃􀁆􀁒􀁑􀁖􀀃􀁗􀁋􀁄􀁗􀀃􀁑􀁈􀁈􀁇􀀃􀁗􀁒􀀃􀁅􀁈􀀃􀁖􀁗􀁄􀁎􀁈􀁇􀀑􀀃􀀷􀁋􀁈􀀃􀁑􀁘􀁐􀁅􀁈􀁕􀀃􀁖􀀃􀁘􀁖􀁘􀁄􀁏􀁏􀁜􀀃􀁖􀁈􀁗􀀃􀁗􀁒􀀃􀁄􀀃􀁕􀁈􀁄􀁖􀁒􀁑􀁄􀁅􀁏􀁜􀀃􀀃
+ high value to limit the number of masternodes on the network 
+ 2 Maturity Time
+ The time needed from when the masternode is setup to the time when the masternode is
+ eligible to validate transactions on the network and received rewards 
+ 3 Queue
+ The position of the masternodes on the rewarding mechanism Upon receiving
+ the reward the masternode goes to the end of the line and wait until it’s eligible for
+ 􀀃􀀃􀀃􀀃􀀃􀁗􀁋􀁈􀀃􀁑􀁈􀁛􀁗􀀃􀁕􀁈􀁚􀁄􀁕􀁇􀀑
+ 4 Rewards
+ The “mining” reward is given only to eligible participating nodes 
+ Only mature masternodes that has reached its turn in the queue can receive the reward 
+ To run a masternode users need not only own enough coins to cover the collateral 
+ 􀀃􀀃􀀃􀀃􀀃􀁅􀁘􀁗􀀃􀁄􀁏􀁖􀁒􀀃􀁕􀁈􀁔􀁘􀁕􀁈􀀃􀁑􀁗􀁈􀁕􀁐􀁈􀁇􀁄􀁗􀁈􀀃􀁗􀁒􀀃􀁈􀁛􀁓􀁈􀁕􀁗􀀃􀁘􀁑􀁇􀁈􀁕􀁖􀁗􀁄􀁑􀁇􀁑􀁊􀀃􀁒􀁉􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀏􀀃􀁆􀁒􀁐􀁓􀁘􀁗􀁈􀁕􀀃􀀉􀀃􀀃
+ 􀀃􀀃􀀃􀀃􀀃􀁑􀁈􀁗􀁚􀁒􀁕􀁎􀀃􀁖􀁈􀁆􀁘􀁕􀁗􀁜􀀃􀁗􀁒􀀃􀁕􀁘􀁑􀀃􀀉􀀃􀁆􀁒􀁑􀍤􀁊􀁘􀁕􀁈􀀃􀁗􀁋􀁈􀀃􀁚􀁄􀁏􀁏􀁈􀁗􀀑
+ 􀀨􀁄􀁆􀁋􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀀃􀁋􀁄􀁖􀀃􀁗􀁖􀀃􀁒􀁚􀁑􀀃􀁚􀁄􀁜􀀃􀁒􀁉􀀃􀁖􀁋􀁄􀁕􀁑􀁊􀀃􀁑􀁉􀁒􀁕􀁐􀁄􀁗􀁒􀁑􀀑􀀃􀀬􀁗􀀃􀁘􀁖􀁘􀁄􀁏􀁏􀁜􀀃􀁖􀁗􀁄􀁕􀁗􀁖􀀃􀁚􀁗􀁋􀀃􀁄􀀃􀀪􀁗􀁋􀁘􀁅􀀃􀁕􀁈􀁓􀁒􀁖􀁗􀁒􀁕􀁜􀀃
+ 􀁄􀁑􀁇􀀃􀁄􀀃􀀶􀁏􀁄􀁆􀁎􀀃􀀒􀀃􀀧􀁖􀁆􀁒􀁕􀁇􀀃􀁊􀁕􀁒􀁘􀁓􀀃􀁄􀁖􀀃􀁗􀁋􀁈􀀃􀁒􀁉􀍤􀁆􀁄􀁏􀀃􀁆􀁒􀁐􀁐􀁘􀁑􀁗􀁜􀀑􀀃􀀲􀁑􀁆􀁈􀀃􀁗􀁋􀁈􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀀃􀁖􀀃􀁖􀁈􀁗􀀏􀀃􀁗􀁋􀁈􀀃􀁆􀁒􀁐􀁐􀁘􀁑􀁗􀁜􀀃􀁖􀁗􀁄􀁕􀁗􀁖􀀃􀁗􀁒􀀃
+ discuss it at various forum such as BitcoinTalk and Reddit Gitter and Telegram are also becoming popular
+ 􀁄􀁖􀀃􀁗􀁋􀁈􀀃􀁆􀁒􀁐􀁐􀁘􀁑􀁗􀁜􀀃􀁊􀁕􀁒􀁚􀁖􀀑􀀃􀀤􀀃􀁐􀁒􀁕􀁈􀀃􀁐􀁄􀁗􀁘􀁕􀁈􀁇􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀀃􀁚􀁏􀁏􀀃􀁋􀁄􀁙􀁈􀀃􀁄􀁑􀀃􀁒􀁉􀍤􀁆􀁄􀁏􀀃􀁚􀁈􀁅􀁖􀁗􀁈􀀃􀁗􀁒􀀃􀁎􀁈􀁈􀁓􀀃􀁗􀁋􀁈􀀃􀁐􀁒􀁖􀁗􀀃􀁕􀁈􀁆􀁈􀁑􀁗􀀃
+ information 
+ 􀀺􀁋􀁏􀁈􀀃􀁗􀁋􀁈􀁖􀁈􀀃􀁐􀁒􀁙􀁈􀁐􀁈􀁑􀁗􀁖􀀃􀁑􀀃􀁗􀁋􀁈􀀃􀁆􀁒􀁐􀁐􀁘􀁑􀁗􀁜􀀃􀁄􀁕􀁈􀀃􀁘􀁖􀁈􀁉􀁘􀁏􀀃􀁉􀁒􀁕􀀃􀁗􀁋􀁈􀀃􀁓􀁘􀁕􀁓􀁒􀁖􀁈􀀃􀁒􀁉􀀃􀁗􀁋􀁈􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀀏􀀃􀁗􀁋􀁈􀁜􀀃􀁄􀁕􀁈􀀃􀁘􀁑􀁓􀁕􀁈􀁇􀁆􀁗􀁄􀁅􀁏􀁈􀀏􀀃
+ and they vary in accordance to how good the Dev and Marketing Team manage their communication with
+ the world 
+ 􀀬􀁑􀀃􀁊􀁈􀁑􀁈􀁕􀁄􀁏􀀏􀀃􀁗􀁋􀁈􀁖􀁈􀀃􀁄􀁕􀁈􀀃􀁗􀁋􀁈􀀃􀁗􀁈􀁆􀁋􀁑􀁆􀁄􀁏􀁗􀁈􀁖􀀃􀁗􀁋􀁄􀁗􀀃􀁄􀀃􀁘􀁖􀁈􀁕􀀃􀁚􀁏􀁏􀀃􀁑􀁈􀁈􀁇􀀃􀁗􀁒􀀃􀍤􀁊􀁘􀁕􀁈􀀃􀁒􀁘􀁗􀀝
+ • 􀀵􀁘􀁑􀀃􀁄􀁑􀁇􀀃􀁆􀁒􀁑􀍤􀁊􀁘􀁕􀁈􀀃􀁄􀀃􀁚􀁄􀁏􀁏􀁈􀁗􀀃􀁗􀁋􀁄􀁗􀀃􀁋􀁒􀁏􀁇􀁖􀀃􀁗􀁋􀁈􀀃􀁆􀁒􀁏􀁏􀁄􀁗􀁈􀁕􀁄􀁏􀀃􀁉􀁒􀁕􀀃􀁄􀀃􀁕􀁈􀁄􀁖􀁒􀁑􀁄􀁅􀁏􀁜􀀃􀁏􀁒􀁑􀁊􀀃􀁗􀁐􀁈􀀑
+ • 􀀵􀁘􀁑􀀃􀁄􀁑􀁇􀀃􀁆􀁒􀁑􀍤􀁊􀁘􀁕􀁈􀀃􀁄􀀃􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃􀁒􀁑􀀃􀁄􀀃􀁖􀁈􀁆􀁘􀁕􀁈􀀃􀀬􀁑􀁗􀁈􀁕􀁑􀁈􀁗􀀐􀁆􀁒􀁑􀁑􀁈􀁆􀁗􀁈􀁇􀀃􀁆􀁒􀁐􀁓􀁘􀁗􀁈􀁕􀀃􀁗􀁋􀁄􀁗􀀃􀁕􀁘􀁑􀁖􀀃􀀕􀀗􀀒􀀚􀀃􀁚􀁗􀁋􀀃􀁄􀀃􀁖􀁗􀁄􀁗􀁆􀀃􀀃
+ Internet Protocol (IP) address 
+ • Sanitize both the wallet and the masternode computer environment 
+ Knowledge
+ Technical Skill
+ Chapter 01
+ Business Brief
+ 13 Honest Paper
+ 􀀵􀁘􀁑􀁑􀁑􀁊􀀃 􀁄􀀃 􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃 􀁕􀁈􀁔􀁘􀁕􀁈􀁖􀀃 􀁖􀁊􀁑􀍤􀁆􀁄􀁑􀁗􀀃 􀁆􀁒􀁏􀁏􀁄􀁗􀁈􀁕􀁄􀁏􀀑􀀃 􀀥􀁄􀁖􀁈􀁇􀀃 􀁒􀁑􀀃 􀁗􀁋􀁈􀀃 􀁇􀁄􀁗􀁄􀀃 􀁉􀁕􀁒􀁐􀀃 􀀭􀁘􀁏􀁜􀀃 􀀔􀁖􀁗􀀃 􀀕􀀓􀀔􀀛􀀏􀀃 􀁄􀀃 􀀧􀁄􀁖􀁋􀀃
+ 􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃􀁕􀁈􀁔􀁘􀁕􀁈􀁖􀀃􀀔􀀏􀀓􀀓􀀓􀀃􀀧􀀤􀀶􀀫􀀃􀁗􀁒􀀃􀁅􀁈􀀃􀁖􀁗􀁄􀁎􀁈􀁇􀀃􀁄􀁖􀀃􀁆􀁒􀁏􀁏􀁄􀁗􀁈􀁕􀁄􀁏􀀃􀀐􀀃􀁚􀁋􀁆􀁋􀀃􀁗􀁕􀁄􀁑􀁖􀁏􀁄􀁗􀁈􀁖􀀃􀁗􀁒􀀃􀁄􀁓􀁓􀁕􀁒􀁛􀁐􀁄􀁗􀁈􀁏􀁜􀀃􀀇􀀕􀀘􀀓􀀏􀀓􀀓􀀓􀀃
+ based on the value then 
+ 􀀵􀁘􀁑􀁑􀁑􀁊􀀃􀁄􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃􀁙􀁄􀁏􀁇􀁄􀁗􀁒􀁕􀀃􀁑􀁒􀁇􀁈􀀃􀁕􀁈􀁔􀁘􀁕􀁈􀁖􀀃􀁗􀁋􀁈􀀃􀁐􀁄􀁆􀁋􀁑􀁈􀀃􀁗􀁒􀀃􀁕􀁘􀁑􀀃􀀕􀀗􀀒􀀚􀀃􀁏􀁎􀁈􀀃􀁄􀀃􀁖􀁈􀁕􀁙􀁈􀁕􀀑􀀃􀀷􀁋􀁈􀁕􀁈􀀃􀁖􀀃􀁄􀀃􀁕􀁈􀁄􀁖􀁒􀁑􀀃
+ why people run servers on a data center it is because they need stable electricity stable networks and
+ clean secured areas 
+ 􀀵􀁘􀁑􀁑􀁑􀁊􀀃􀁄􀀃􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃􀁉􀁕􀁒􀁐􀀃􀁄􀀃􀁏􀁄􀁓􀁗􀁒􀁓􀀒􀁇􀁈􀁖􀁎􀁗􀁒􀁓􀀃􀁐􀁄􀁆􀁋􀁑􀁈􀀃􀁉􀁕􀁒􀁐􀀃􀁒􀁑􀁈􀌵􀁖􀀃􀁒􀁚􀁑􀀃􀁋􀁒􀁘􀁖􀁈􀀃􀁖􀀃􀁑􀁒􀁗􀀃􀁗􀁈􀁆􀁋􀁑􀁆􀁄􀁏􀁏􀁜􀀃􀁉􀁈􀁄􀁖􀁅􀁏􀁈􀀃
+ for most people Most masternode enthusiasts run masternodes on a Virtual Private Server (VPS)
+ because it provides cheap static IP addresses A professional would run masternodes on a world class
+ data center provider such as Amazon AWS Microsoft Azure or Google Cloud Platform that guarantees not
+ only static IP addresses but also high availability and enterprise level SLA That is important because down
+ time reduces masternode’s eligibility to the rewards 
+ A more serious user who would like to run or be part of multiple masternodes will face
+ the scalability challenge Managing one wallet is very different from managing multiple
+ wallets each with its own development schedule and technical approach Keeping
+ 􀀃 􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀀃􀁗􀁋􀁈􀀃􀁚􀁄􀁏􀁏􀁈􀁗􀀃􀁙􀁈􀁕􀁖􀁒􀁑􀀃􀁘􀁓􀁇􀁄􀁗􀁈􀁇􀀃􀁖􀀃􀁙􀁈􀁕􀁜􀀃􀁐􀁓􀁒􀁕􀁗􀁄􀁑􀁗􀀃􀁅􀁈􀁆􀁄􀁘􀁖􀁈􀀃􀁉􀀃􀁗􀁋􀁈􀁕􀁈􀀃􀁖􀀃􀁄􀀃􀁐􀁄􀁍􀁒􀁕􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃
+ protocol upgrade a masternode that still runs on the old version will be left behind and will not receive the reward 
+ Financial
+ Infrastructure
+ Scalability
+ Coin Ticker Symbol Coin Price Market Cap
+ # Required for
+ Collateral
+ Masternode
+ Worth
+ Dash DASH 􀀇􀀃 􀀕􀀘􀀔􀀑􀀚􀀔 􀀇􀀃 􀀕􀀏􀀓􀀘􀀘􀀏􀀙􀀜􀀙􀀏􀀜􀀚􀀛 1 000 􀀇􀀃 􀀕􀀘􀀔􀀏􀀚􀀔􀀓
+ 􀀳􀀬􀀹􀀻 􀀳􀀬􀀹􀀻 $ 2 18 $ 123 660 020 10 000 􀀇􀀃 􀀕􀀔􀀏􀀛􀀖􀀚
+ SysCoin SYS $ 0 19 $ 102 923 892 100 000 $ 19 196
+ ZCoin 􀀻􀀽􀀦 􀀇􀀃 􀀔􀀚􀀑􀀔􀀚 􀀇􀀃 􀀛􀀚􀀏􀀘􀀖􀀛􀀏􀀗􀀛􀀘 1 000 􀀇􀀃 􀀔􀀚􀀏􀀔􀀚􀀛
+ SmartCash SMART $ 0 08 􀀇􀀃 􀀛􀀙􀀏􀀚􀀛􀀓􀀏􀀖􀀔􀀛 10 000 $ 824
+ Chapter 01
+ Business Brief
+ 14 Honest Paper
+ Honest Mining Platform
+ HONEST MINING􀌵􀁖􀀃􀁒􀁅􀁍􀁈􀁆􀁗􀁙􀁈􀀃􀁖􀀃􀁗􀁒􀀃􀁆􀁕􀁈􀁄􀁗􀁈􀀃􀁄􀁑􀀃􀁒􀁑􀁏􀁑􀁈􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃􀁗􀁒􀀃􀁐􀁄􀁎􀁈􀀃􀁗􀀃􀁈􀁄􀁖􀁜􀀃􀁉􀁒􀁕􀀃􀁄􀁑􀁜􀁒􀁑􀁈􀀃􀁗􀁒􀀃􀁍􀁒􀁑􀀃􀁄􀀃􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃
+ and address the problems set out in the problem statement above 
+ Objectives
+ Features of Honest Mining Platform
+ All a user needs to know is how to transfer coins of their desired cryptocurrency to HONEST MINING’s
+ designated secure wallet and HONEST MINING will on the user’s behalf stake these coins on the
+ cryptocurrency’s network 
+ 1 Ease of joining masternode
+ A new masternode
+ starts when the required
+ quota is reached
+ Crypto Wallet
+ Fiat Exchange
+ Partner
+ Deposit crypto to
+ HonestMining secured
+ crypto wallet
+ Join the masternode
+ queue
+ You are now part of the
+ blockchain validators 
+ Rewards are distributed
+ periodically
+ 1 2
+ 3 4
+ Chapter 02
+ Honest Mining Platform
+ 2 Instant Masternode
+ HonestMining platform
+ allows Masternode
+ holder to request for exit
+ on any given time 
+ This exits opens up new
+ opportunity for other
+ users to enter the
+ masternode stack 
+ Old holder exiting
+ Masternode
+ The Masternode
+ stays matured and
+ running without any
+ effect to other
+ Masternode holder 
+ New holder
+ joining Masternode
+ All masternodes have a maturity time a waiting time from when the masternode is generated to the time
+ they start generating rewards Instant Masternode on the other hand is an innovation by HONEST MINING
+ 􀁗􀁋􀁄􀁗􀀃􀁏􀁈􀁗􀁖􀀃􀁜􀁒􀁘􀀃􀁖􀁗􀁄􀁕􀁗􀀃􀁈􀁄􀁕􀁑􀁑􀁊􀀃􀁐􀁐􀁈􀁇􀁄􀁗􀁈􀁏􀁜􀀑􀀃􀀬􀁗􀀃􀁈􀁏􀁐􀁑􀁄􀁗􀁈􀁖􀀃􀁗􀁋􀁈􀀃􀁑􀁈􀁈􀁇􀀃􀁒􀁉􀀃􀁚􀁄􀁗􀁑􀁊􀀃􀁉􀁒􀁕􀀃􀁗􀁋􀁈􀀃􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃􀁗􀁒􀀃􀁅􀁈􀀃􀍤􀁏􀁏􀁈􀁇􀀃􀁄􀁑􀁇􀀃
+ properly set prior to reward earning 
+ 15 Honest Paper
+ 3 Quick and Transparent Reward Mechanism
+ Rewards are distributed proactively as soon as the masternodes receive rewards Our user can choose
+ whether to withdraw the coins or continue to stake the coins automatically 
+ Chapter 02
+ Honest Mining Platform
+ Secured Masternode
+ Blockchain Validation
+ 􀀳􀁕􀁒􀁆􀁈􀁖􀁖􀀒􀀃􀀰􀁑􀁑􀁊
+ Periodically Earnt
+ Masternode Rewards
+ Instantly proportionately distribute Masternode
+ Reward to Honest Mining Secured Wallet
+ Cash out the Masternode Reward by withdrawing
+ 􀁗􀁒􀀃􀁈􀁛􀁗􀁈􀁕􀁑􀁄􀁏􀀃􀀦􀁕􀁜􀁓􀁗􀁒􀀃􀀺􀁄􀁏􀁏􀁈􀁗
+ Convert to other crypto or sell by transfering to
+ 􀁆􀁕􀁜􀁓􀁗􀁒􀀃􀁈􀁛􀁆􀁋􀁄􀁑􀁊􀁈􀀃􀁓􀁄􀁕􀁗􀁑􀁈􀁕
+ Or continue staking in the Masternode for more rewards
+ HONEST MINING􀀃􀁚􀁏􀁏􀀃􀁖􀁘􀁓􀁓􀁒􀁕􀁗􀀃􀁗􀁋􀁈􀀃􀁉􀁒􀁏􀁏􀁒􀁚􀁑􀁊􀀃􀁆􀁒􀁑􀁖􀀃􀁒􀁑􀀃􀁇􀁄􀁜􀀃􀁒􀁑􀁈􀀝
+ More coins will be added over time based on the market demand strong team credibility mature blockchain
+ technology and user base For smaller cap coins HONEST MINING will do community voting to determine
+ the public interest 
+ HONEST MINING aims to add ETH to the platform as soon as Ethereum Casper is ready & open for PoS 
+ Supported Coins
+ Device Coverage
+ Dash (DASH) ZCoin(XZC) SmartCash
+ (SMART)
+ HONEST MINING is going to be mainly an optimized web platform that’s reachable
+ 􀁉􀁕􀁒􀁐􀀃 􀁚􀁈􀁅􀀃 􀁅􀁕􀁒􀁚􀁖􀁈􀁕􀀃 􀁒􀁑􀀃 􀁐􀁒􀁅􀁏􀁈􀀃 􀁇􀁈􀁙􀁆􀁈􀁖􀀃 􀀋􀁓􀁋􀁒􀁑􀁈􀀒􀁗􀁄􀁅􀁏􀁈􀁗􀀌􀀏􀀃 􀁒􀁕􀀃 􀁇􀁈􀁖􀁎􀁗􀁒􀁓􀀒􀁏􀁄􀁓􀁗􀁒􀁓􀀃 􀁇􀁈􀁙􀁆􀁈􀁖􀀑􀀃
+ REST API will be available for sophisticated miners Android & iOS Client are going to
+ be developed when the platform matures and requires such needs 
+ 16 Honest Paper
+ Globalization
+ System Architecture
+ HONEST MINING is going to be mainly an optimized web platform that’s reachable
+ 􀁉􀁕􀁒􀁐􀀃 􀁚􀁈􀁅􀀃 􀁅􀁕􀁒􀁚􀁖􀁈􀁕􀀃 􀁒􀁑􀀃 􀁐􀁒􀁅􀁏􀁈􀀃 􀁇􀁈􀁙􀁆􀁈􀁖􀀃 􀀋􀁓􀁋􀁒􀁑􀁈􀀒􀁗􀁄􀁅􀁏􀁈􀁗􀀌􀀏􀀃 􀁒􀁕􀀃 􀁇􀁈􀁖􀁎􀁗􀁒􀁓􀀒􀁏􀁄􀁓􀁗􀁒􀁓􀀃 􀁇􀁈􀁙􀁆􀁈􀁖􀀑􀀃
+ REST API will be available for sophisticated miners Android & iOS Client are going to
+ be developed when the platform matures and requires such needs 
+ HONEST MINING is designed to be highly scalable from day one HONEST MINING will be able to provide
+ top quality services by utilizing world class cloud computing services in Amazon Web Services
+ Chapter 02
+ Honest Mining Platform
+ System Architecture Diagram Highly Scalable System with Multiple Availability Zone
+ 􀀔􀀚 Honest Paper
+ Architecture wise the system will be load balanced and decentralized on multiple nodes and regions 
+ The Load Balancer will minimize unscheduled downtime e g machine failure network issues or
+ even data center failure 
+ 􀀶􀁈􀁆􀁘􀁕􀁗􀁜􀀃 􀁖􀀃 􀁒􀁉􀀃 􀁗􀁋􀁈􀀃 􀁘􀁗􀁐􀁒􀁖􀁗􀀃 􀁐􀁓􀁒􀁕􀁗􀁄􀁑􀁆􀁈􀀞􀀃 􀁑􀀃 􀁒􀁕􀁇􀁈􀁕􀀃 􀁗􀁒􀀃 􀁐􀁑􀁐􀁝􀁈􀀃 􀁄􀁗􀁗􀁄􀁆􀁎􀀃 􀁖􀁘􀁕􀁉􀁄􀁆􀁈􀀏􀀃 􀁒􀁑􀁏􀁜􀀃 􀁒􀁘􀁕􀀃 􀁏􀁒􀁄􀁇􀀃 􀁅􀁄􀁏􀁄􀁑􀁆􀁈􀁕􀀃
+ 􀀋􀀫􀀷􀀷􀀳􀀶􀀃􀁓􀁒􀁕􀁗􀀌􀀃􀁚􀁏􀁏􀀃􀁅􀁈􀀃􀁈􀁛􀁓􀁒􀁖􀁈􀁇􀀃􀁗􀁒􀀃􀁗􀁋􀁈􀀃􀁑􀁗􀁈􀁕􀁑􀁈􀁗􀀑􀀃􀀰􀁘􀁏􀁗􀁓􀁏􀁈􀀃􀁖􀁈􀁆􀁘􀁕􀁗􀁜􀀃􀁏􀁄􀁜􀁈􀁕􀁖􀀃􀁚􀁏􀁏􀀃􀁅􀁈􀀃􀁐􀁓􀁏􀁈􀁐􀁈􀁑􀁗􀁈􀁇􀀃􀁗􀁒􀀃􀁐􀁑􀁐􀁝􀁈􀀃
+ security risks Securities best practices and standards (e g OWASP) will be followed to avoid
+ 􀁙􀁘􀁏􀁑􀁈􀁕􀁄􀁅􀁏􀁗􀁈􀁖􀀑􀀃􀀳􀁈􀁕􀁒􀁇􀁆􀀃􀁖􀁈􀁆􀁘􀁕􀁗􀁜􀀃􀁄􀁘􀁇􀁗􀀃􀁚􀁏􀁏􀀃􀁅􀁈􀀃􀁆􀁒􀁑􀁇􀁘􀁆􀁗􀁈􀁇􀀑􀀃􀀶􀁈􀁆􀁘􀁕􀁗􀁜􀀃􀀪􀁕􀁒􀁘􀁓􀀃􀁚􀁏􀁏􀀃􀁅􀁈􀀃􀁆􀁒􀁑􀍤􀁊􀁘􀁕􀁈􀁇􀀃􀁑􀀃􀁄􀀃􀁚􀁄􀁜􀀃
+ that only whitelisted services may run & communicate with each other internally 
+ Offline wallet (cold wallet) storage will be diligently utilized as an important security measure 
+ 􀀬􀁐􀁓􀁒􀁕􀁗􀁄􀁑􀁗􀀃􀁄􀁑􀁇􀀃􀁖􀁈􀁑􀁖􀁗􀁙􀁈􀀃􀁑􀁉􀁒􀁕􀁐􀁄􀁗􀁒􀁑􀀃􀁚􀁏􀁏􀀃􀁅􀁈􀀃􀀤􀀨􀀶􀀐􀀕􀀘􀀙􀀃􀁈􀁑􀁆􀁕􀁜􀁓􀁗􀁈􀁇􀀃􀁄􀁑􀁇􀀃􀁓􀁘􀁗􀀃􀁒􀁑􀀃􀁄􀀃􀁖􀁈􀁓􀁄􀁕􀁄􀁗􀁈􀀃􀍤􀁕􀁈􀁚􀁄􀁏􀁏􀁈􀁇􀀃
+ network Paper and digital backups with redundancy will be distributed geographically in safe locations
+ around the world 
+ Most frontend and backend services will be running on their own using asynchronous messaging for
+ 􀁑􀁗􀁈􀁕􀀐􀁖􀁈􀁕􀁙􀁆􀁈􀀃􀁆􀁒􀁐􀁐􀁘􀁑􀁆􀁄􀁗􀁒􀁑􀀑􀀃􀀷􀁋􀁖􀀃􀁄􀁓􀁓􀁕􀁒􀁄􀁆􀁋􀀃􀁄􀁏􀁏􀁒􀁚􀁖􀀃􀁈􀁄􀁆􀁋􀀃􀁖􀁈􀁕􀁙􀁆􀁈􀀃􀁗􀁒􀀃􀁕􀁘􀁑􀀃􀁑􀁇􀁈􀁓􀁈􀁑􀁇􀁈􀁑􀁗􀁏􀁜􀀃􀁄􀁑􀁇􀀃􀁈􀁉􀍤􀁆􀁈􀁑􀁗􀁏􀁜􀀑􀀃
+ As the system grows services and machine automation are crucial to speed up processes and features 
+ Different coins run on different blockchain software While they are functionally similar they may have
+ 􀁇􀁉􀁉􀁈􀁕􀁈􀁑􀁗􀀃􀁕􀁈􀁔􀁘􀁕􀁈􀁐􀁈􀁑􀁗􀁖􀀃􀁄􀁑􀁇􀀃􀁗􀁕􀁈􀁄􀁗􀁐􀁈􀁑􀁗􀁖􀀑􀀃􀀬􀁑􀀃􀁒􀁕􀁇􀁈􀁕􀀃􀁗􀁒􀀃􀁕􀁘􀁑􀀏􀀃􀁄􀀃􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃􀁕􀁈􀁔􀁘􀁕􀁈􀁖􀀃􀁄􀀃􀍤􀁛􀁈􀁇􀀃􀁄􀁐􀁒􀁘􀁑􀁗􀀃􀁒􀁉􀀃􀁆􀁒􀁑􀁖􀀃
+ to be reserved a collateral Different coins require different amounts of collateral Whenever the collateral
+ amount is reached the backend system will start the automated masternode building process and
+ activate the masternode immediately 
+ Chapter 02
+ Honest Mining Platform
+ 18 Honest Paper
+ HONEST MINING platform is built using modern microservice architecture It enables continuous delivery
+ 􀁄􀁑􀁇􀀃􀁇􀁈􀁓􀁏􀁒􀁜􀁐􀁈􀁑􀁗􀀃􀁒􀁉􀀃􀁏􀁄􀁕􀁊􀁈􀀃􀁆􀁒􀁐􀁓􀁏􀁈􀁛􀀃􀁄􀁓􀁓􀁏􀁆􀁄􀁗􀁒􀁑􀀃􀁚􀁋􀁏􀁈􀀃􀁄􀁏􀁖􀁒􀀃􀁐􀁓􀁕􀁒􀁙􀁑􀁊􀀃􀁉􀁄􀁘􀁏􀁗􀁜􀀃􀁖􀁒􀁏􀁄􀁗􀁒􀁑􀀑􀀃􀀷􀁋􀁖􀀃􀁄􀁓􀁓􀁕􀁒􀁄􀁆􀁋􀀃􀁄􀁏􀁏􀁒􀁚􀁖􀀃
+ each team to be loosely coupled and focuses on improving its own parts without worrying that the change
+ may break the others 
+ HONEST MINING is consistently developing and most of the key functionalities have already been developed 
+ The following section shows the UI preview of what users will see when the platform is launched to the public 
+ 􀀷􀁋􀁈􀀃􀁐􀁆􀁕􀁒􀁖􀁈􀁕􀁙􀁆􀁈􀀃􀁄􀁓􀁓􀁕􀁒􀁄􀁆􀁋􀀃􀁄􀁏􀁏􀁒􀁚􀁖􀀃􀁗􀁋􀁈􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃􀁗􀁒􀀃􀁓􀁈􀁕􀁉􀁒􀁕􀁐􀀃􀁋􀁒􀁕􀁝􀁒􀁑􀁗􀁄􀁏􀀐􀁖􀁆􀁄􀁏􀁑􀁊􀀑􀀃􀀷􀁋􀁖􀀃􀁖􀀃􀁅􀁈􀁑􀁈􀍤􀁆􀁄􀁏􀀃􀁇􀁘􀁈􀀃􀁗􀁒􀀃􀁗􀁋􀁈􀀃
+ fact that during peak time the system can automatically scale up by adding more servers into the load
+ 􀁅􀁄􀁏􀁄􀁑􀁆􀁈􀁕􀀑􀀃􀀷􀁋􀁈􀀃􀁒􀁗􀁋􀁈􀁕􀀃􀁄􀁏􀁗􀁈􀁕􀁑􀁄􀁗􀁙􀁈􀀃􀁖􀀃􀁙􀁈􀁕􀁗􀁆􀁄􀁏􀀃􀁖􀁆􀁄􀁏􀁑􀁊􀀏􀀃􀁚􀁋􀁆􀁋􀀃􀁖􀀃􀁏􀁈􀁖􀁖􀀃􀁆􀁒􀁖􀁗􀀐􀁈􀁉􀍤􀁆􀁈􀁑􀁗􀀃􀁄􀁑􀁇􀀃􀁖􀁆􀁄􀁏􀁄􀁅􀁏􀁗􀁜􀀐􀁚􀁖􀁈􀀃􀁖􀀃􀁏􀁐􀁗􀁈􀁇􀀃
+ 􀁅􀁜􀀃􀁗􀁋􀁈􀀃􀁖􀁓􀁈􀁆􀍤􀁆􀁄􀁗􀁒􀁑􀀃􀁏􀁐􀁗􀀑
+ 􀀷􀁋􀁈􀀃􀀤􀀳􀀬􀀃􀀪􀁄􀁗􀁈􀁚􀁄􀁜􀀃􀁗􀁋􀁄􀁗􀀃􀁍􀁒􀁑􀁖􀀃􀁄􀁏􀁏􀀃􀁗􀁋􀁈􀀃􀁅􀁄􀁆􀁎􀁈􀁑􀁇􀀃􀁖􀁈􀁕􀁙􀁆􀁈􀁖􀀃􀁖􀁈􀁕􀁙􀁈􀁖􀀃􀁄􀁖􀀃􀁄􀁑􀀃􀁑􀁗􀁈􀁕􀁉􀁄􀁆􀁈􀀃􀁉􀁒􀁕􀀃􀁅􀁒􀁗􀁋􀀃􀁒􀁉􀍤􀁆􀁄􀁏􀀃􀁐􀁈􀁄􀁑􀁖􀀃
+ 􀀋􀁚􀁈􀁅􀀐􀁄􀁓􀁓􀁖􀀃􀀉􀀃􀁐􀁒􀁅􀁏􀁈􀀃􀁄􀁓􀁓􀁖􀀌􀀃􀁄􀁑􀁇􀀃􀁘􀁑􀁒􀁉􀍤􀁆􀁄􀁏􀀃􀁐􀁈􀁄􀁑􀁖􀀃􀀋􀀤􀀳􀀬􀀐􀁄􀁓􀁓􀀌􀀑􀀃􀀷􀁋􀁖􀀃􀁄􀁏􀁏􀁒􀁚􀁖􀀃􀁉􀁘􀁗􀁘􀁕􀁈􀀃􀁓􀁄􀁕􀁗􀁑􀁈􀁕􀁖􀁋􀁓􀀃􀁄􀁑􀁇􀀃􀁊􀁕􀁒􀁚􀁗􀁋􀀃
+ 􀁗􀁋􀁕􀁒􀁘􀁊􀁋􀀃􀁑􀁗􀁈􀁊􀁕􀁄􀁗􀁒􀁑􀀃􀁚􀁗􀁋􀀃􀁗􀁋􀁕􀁇􀀐􀁓􀁄􀁕􀁗􀁜􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀁖􀀏􀀃􀁈􀀑􀁊􀀑􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁆􀁘􀁕􀁕􀁈􀁑􀁆􀁜􀀃􀁈􀁛􀁆􀁋􀁄􀁑􀁊􀁈􀁖􀀑
+ Application Architecture
+ UI Preview Alpha
+ Application Architecture Diagram Loosely Coupled
+ Chapter 02
+ Honest Mining Platform
+ 19 Chapter 02 Honest Paper
+ Honest Mining Platform
+ 20 Chapter 02 Honest Paper
+ Honest Mining Platform
+ HONEST MINING 􀁕􀁈􀁙􀁈􀁑􀁘􀁈􀀃􀁑􀁆􀁏􀁘􀁇􀁈􀁖􀀃􀁅􀁘􀁗􀀃􀁖􀀃􀁑􀁒􀁗􀀃􀁏􀁐􀁗􀁈􀁇􀀃􀁗􀁒􀀝
+ HONEST MINING􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃􀁖􀀃􀁍􀁘􀁖􀁗􀀃􀁗􀁋􀁈􀀃􀁅􀁈􀁊􀁑􀁑􀁑􀁊􀀑􀀃􀀷􀁒􀀃􀁐􀁄􀁎􀁈􀀃􀁒􀁘􀁕􀀃􀁙􀁖􀁒􀁑􀀃􀁄􀀃􀁕􀁈􀁄􀁏􀁗􀁜􀀏􀀃􀁚􀁈􀀃􀁋􀁄􀁙􀁈􀀃􀁗􀁒􀀃􀁖􀁗􀁕􀁙􀁈􀀃
+ forward to be truly decentralized 
+ Revenue Model
+ Beyond the Platform
+ Fees Structure Description
+ Masternode
+ Maintenance Fee
+ 􀀺􀁈􀀃􀁚􀁏􀁏􀀃􀁆􀁋􀁄􀁕􀁊􀁈􀀃􀁄􀀃􀁐􀁄􀁑􀁗􀁈􀁑􀁄􀁑􀁆􀁈􀀃􀁉􀁈􀁈􀀃􀁑􀀃􀁗􀁋􀁈􀀃􀁉􀁒􀁕􀁐􀀃􀁒􀁉􀀃􀁙􀁈􀁕􀁜􀀃􀁏􀁒􀁚􀀃􀍤􀁛􀁈􀁇􀀃
+ cost as a pre agreed percentage of each reward distribution
+ INSTANT Masternode
+ Starting Fee
+ 􀀺􀁈􀀃􀁚􀁏􀁏􀀃􀁑􀁒􀁗􀀃􀁆􀁋􀁄􀁕􀁊􀁈􀀃􀁘􀁖􀁈􀁕􀁖􀀃􀁉􀁒􀁕􀀃􀁈􀁛􀁗􀁑􀁊􀀃􀁉􀁕􀁒􀁐􀀃􀁄􀀃􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀑
+ 􀀰􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃􀀨􀁛􀁗􀀃􀀩􀁈􀁈 􀀤􀁖􀀃􀁄􀀃􀁓􀁕􀁈􀁐􀁘􀁐􀀃􀁖􀁈􀁕􀁙􀁆􀁈􀀏􀀃􀁚􀁈􀀃􀁚􀁏􀁏􀀃􀁆􀁋􀁄􀁕􀁊􀁈􀀃􀁘􀁖􀁈􀁕􀁖􀀃􀁚􀁋􀁒􀀃􀁕􀁈􀁔􀁘􀁈􀁖􀁗􀀃􀁑􀁖􀁗􀁄􀁑􀁗􀀃􀁈􀁛􀁗􀀑
+ Masternode INSTANT
+ 􀀨􀁛􀁗􀀃􀀩􀁈􀁈
+ We may list interesting new coins There may be fees associated
+ with those listings 
+ Listing Fee
+ We may list interesting new coins There may be fees associated
+ with those listings 
+ Withdrawal Fee We may apply a fee to cover blockchain withdrawal operations 
+ B2B & Partnership Fee
+ We may have corporate clients who need additional services
+ relating to crypto mining 
+ 􀀤􀁏􀁈􀁛􀁄􀁑􀁇􀁕􀁄􀀃􀀳􀁕􀁒􀁍􀁈􀁆􀁗
+ 􀀤􀁏􀁈􀁛􀁄􀁑􀁇􀁕􀁄􀀃􀁉􀁒􀁆􀁘􀁖􀁈􀁖􀀃􀁒􀁑􀀃􀁆􀁒􀁐􀁓􀁏􀁑􀁊􀀃􀁄􀁏􀁏􀀃􀁗􀁋􀁈􀀃􀁑􀁉􀁒􀁕􀁐􀁄􀁗􀁒􀁑􀀃􀁗􀁋􀁄􀁗􀀃􀁖􀀃􀁕􀁈􀁏􀁄􀁗􀁈􀁇􀀃􀁗􀁒􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁆􀁘􀁕􀁕􀁈􀁑􀁆􀁜􀀃
+ mining on an easy to use and open to all platform This includes reporting & monitoring
+ tools that can make miners’ lives easier 
+ 􀀥􀁄􀁅􀁜􀁏􀁒􀁑􀀃􀀳􀁕􀁒􀁍􀁈􀁆􀁗
+ To put simply Babylon is a fully decentralized wallet built for miners Babylon will start
+ as a Mobile Wallet with rich features for miners such as HD wallet dynamic transfer
+ fee and address management Future development of Delegated PoS coins will allow
+ Babylon users to perform delegated staking 
+ 21 Honest Paper
+ HNST TOKENS will leverage the Ethereum blockchain the leading industry standard for smart
+ contract based tokens HNST will be generated using ERC 20 ensuring that HNST TOKENS will
+ 􀁅􀁈􀀃􀁄􀁅􀁏􀁈􀀃􀁗􀁒􀀃􀁘􀁗􀁏􀁝􀁈􀀃􀁗􀁋􀁈􀀃􀁈􀁛􀁖􀁗􀁑􀁊􀀃􀁑􀁉􀁕􀁄􀁖􀁗􀁕􀁘􀁆􀁗􀁘􀁕􀁈􀀝􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀃􀀹􀁕􀁗􀁘􀁄􀁏􀀃􀀰􀁄􀁆􀁋􀁑􀁈􀀃􀀋􀀨􀀹􀀰􀀌􀀑􀀃􀀨􀀹􀀰􀀃􀁄􀁏􀁏􀁒􀁚􀁖􀀃􀁋􀁒􀁑􀁈􀁖􀁗􀀃
+ and auditable token issuance ensuring that all HNST holders know the end to end token supply 
+ distribution and transactions 
+ HNST􀀃􀁆􀁄􀁑􀀃􀁅􀁈􀀃􀁘􀁖􀁈􀁇􀀃􀁉􀁒􀁕􀀃􀁄􀁏􀁏􀀃􀁗􀁋􀁈􀀃􀁉􀁈􀁈􀁖􀀃􀁒􀁑􀀃􀁒􀁘􀁕􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃􀁚􀁋􀁆􀁋􀀃􀁑􀁆􀁏􀁘􀁇􀁈􀁖􀀃􀁅􀁘􀁗􀀃􀁄􀁕􀁈􀀃􀁑􀁒􀁗􀀃􀁏􀁐􀁗􀁈􀁇􀀃􀁗􀁒􀀝
+ HNST is the preferred payment method since it will always provide discounts 
+ Technology
+ Value
+ HNST Honest Token
+ HONEST TOKEN (HNST) is the utility token that powers the HONEST MINING 􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀏􀀃􀁗􀁋􀁈􀀃􀁑􀁈􀁛􀁗􀀃􀁊􀁈􀁑􀁈􀁕􀁄􀁗􀁒􀁑􀀃
+ cloud mining platform for POS based cryptocurrencies 
+ Users of the HONEST MINING platform will be able to pay for their use of the HONEST MINING
+ platform using either HNST TOKENS or the staking rewards received The HNST tokens will give token
+ holders access rights to use the HONEST MINING platform and can only be used to pay for
+ HONEST MINING platform fees 
+ HNST TOKENS will not have any other rights or functions attached to it (such as any ownership or
+ voting interest in HONEST MINING􀀌􀀃􀁄􀁑􀁇􀀃􀁖􀀃􀁑􀁒􀁗􀀃􀀋􀁑􀁒􀁕􀀃􀁖􀀃􀁗􀀃􀁑􀁗􀁈􀁑􀁇􀁈􀁇􀀃􀁗􀁒􀀃􀁅􀁈􀀌􀀃􀁄􀀃􀁐􀁈􀁇􀁘􀁐􀀃􀁒􀁉􀀃􀁈􀁛􀁆􀁋􀁄􀁑􀁊􀁈􀀃􀁄􀁆􀁆􀁈􀁓􀁗 
+ ed by the public or a section of the public as payment for goods or services or for the discharge of a debt 
+ Year 1 Year 2 Year 3 After Year 3
+ HNST Discount 40% 20% 10% 5%
+ Masternode
+ Maintainance Fee
+ Instant
+ Masternode Fee
+ Token Listing Fee Any Other Fee
+ Chapter 03
+ HNST Honest Token
+ 
+ 23 Honest Paper
+ Team & Stakeholders Vesting Schedule
+ Post 1 year Post 2 year Post 3 year Post 4 year
+ Vesting Amount 30% 30% 20% 20%
+ Private Sales Pre ITS ITS
+ Timeline Target October 2018 Q4 2018
+ Bonus undisclosed* 15%
+ (25% with TEN)
+ No bonus
+ (10% with TEN)
+ Distribution
+ Scheduled vesting
+ with monthly distribution
+ 􀀬􀁑􀀃􀁐􀁄􀁛􀁐􀁘􀁐􀀃􀀕􀀓􀀃􀁅􀁘􀁖􀁑􀁈􀁖􀁖􀀃􀁇􀁄􀁜􀀃􀁄􀁉􀁗􀁈􀁕􀀃􀀬􀀷􀀶􀀃􀁉􀁒􀁕 
+ mally concludes 
+ Cap 80 000 000 HNST 􀀚􀀓􀀏􀀓􀀓􀀓􀀏􀀓􀀓􀀓􀀃􀀫􀀱􀀶􀀷
+ Minimum Purchase 100 ETH 2 ETH No Minimum
+ Cryptocurrency ETH BTC TEN ETH BTC TEN** ETH BTC TEN**
+ 􀀤􀁉􀍤􀁏􀁄􀁗􀁈􀀃􀀥􀁒􀁑􀁘􀁖 5% 5%
+ Special Incentives
+ Apart from bonuses for private and pre ITS contributors there are several incentive programs
+ that we have prepared 
+ * only disclosed to suitable & interested party
+ ** extra 10% bonus for payment using TEN (limited cap)
+ Top 20 Contributors 􀁚􀁏􀁏􀀃􀁕􀁈􀁆􀁈􀁙􀁈􀀃􀁖􀁓􀁈􀁆􀁄􀁏􀀃􀁓􀁈􀁕􀁖􀁒􀁑􀁄􀁏􀁝􀁈􀁇􀀃􀁊􀁉􀁗􀀐􀁅􀁒􀁛􀁈􀁖􀀃􀁉􀁕􀁒􀁐􀀃􀁗􀁋􀁈􀀃􀁗􀁈􀁄􀁐􀀃􀁄􀁖􀀃􀁄􀀃􀁖􀁊􀁑􀀃􀁒􀁉􀀃􀁄􀁓􀁓􀁕􀁈􀁆􀁄􀁗􀁒􀁑􀀑
+ DETAILS PRIVATE PRE ITS ITS
+ Special Lifetime “Founding Members” Status
+ After the full platform launch this will guarantee
+ early access to new features and other special perks
+ that only “Founding Members” can get 
+ Early Release Access
+ 􀀥􀁈􀀃􀁒􀁘􀁕􀀃􀁈􀁄􀁕􀁏􀁜􀀃􀁘􀁖􀁈􀁕􀀝􀀃􀁕􀁈􀁖􀁈􀁕􀁙􀁈􀀃􀁜􀁒􀁘􀁕􀀃􀁘􀁖􀁈􀁕􀁑􀁄􀁐􀁈􀀃􀀉􀀃􀁅􀁈􀀃􀁗􀁋􀁈􀀃
+ 􀍤􀁕􀁖􀁗􀀃􀁗􀁒􀀃􀁘􀁖􀁈􀀃􀁒􀁘􀁕􀀃Alpha Beta instant masternodes Alpha Beta
+ Focus Group
+ Special focus group for our elite users 
+ Chapter 03
+ HNST Honest Token
+ 24 Honest Paper
+ Raised Funds Usage
+ We are raising funds to speed up the development of HONEST MINING Platform Just like every
+ other business future development and business growth direction may change the budget plan 
+ This budgeting plan will be implemented after the token sales have been completed and shall be
+ a starting point for the company Raised funds will be used for the following budget plan in the
+ 􀀔􀁖􀁗􀀃􀁔􀁘􀁄􀁕􀁗􀁈􀁕􀀝
+ 40%
+ Create various Instant
+ Masternodes so that our future
+ clients will be able to join
+ Masternode from day one
+ 25%
+ HONEST MINING product
+ development cost which cover not
+ only the alpha & beta releases but
+ 􀁄􀁏􀁖􀁒􀀃􀍤􀁑􀁄􀁏􀀃􀁇􀁈􀁓􀁏􀁒􀁜􀁐􀁈􀁑􀁗􀀃􀁄􀁑􀁇􀀃􀁄􀁏􀁏􀀃􀁗􀁋􀁈􀀃
+ future feature upgrades Hiring &
+ retaining world class blockchain
+ team that agrees to our values are
+ very important 
+ 15%
+ HONEST MINING branding and
+ marketing efforts This includes
+ educating the market about the role
+ of mining on the blockchain
+ network co promoting legitimate
+ blockchain projects and other
+ advertising activities that will help
+ HONEST MINING platform grows 
+ 5%
+ HONEST MINING business & legal
+ operations This includes but not limited to
+ 􀁏􀁈􀁊􀁄􀁏􀀏􀀃􀁄􀁆􀁆􀁒􀁘􀁑􀁗􀁑􀁊􀀃􀁄􀁑􀁇􀀃􀁒􀁉􀍤􀁆􀁈􀁖􀀃􀁉􀁈􀁈􀀑
+ 15%
+ Kept in HONEST MINING
+ reserve for handling unforeseen
+ circumstances that might arise
+ when the company scale
+ Chapter 03
+ HNST Honest Token
+ 25 Honest Paper
+ 􀁋􀁒􀁑􀌽􀁈􀁖􀁗􀀃􀀋􀌴􀂦􀁑􀊄􀁖􀁗􀀒􀀌􀀃􀁄􀁇􀁍􀁈􀁆􀁗􀁙􀁈􀀃􀁐􀁒􀁕􀁄􀁏􀁏􀁜􀀃􀁆􀁒􀁕􀁕􀁈􀁆􀁗􀀃􀁒􀁕􀀃􀁙􀁕􀁗􀁘􀁒􀁘􀁖􀀑
+ 􀌸􀀬􀀃􀁇􀁇􀀃􀁗􀁋􀁈􀀃􀁒􀁑􀁏􀁜􀀃􀁕􀁊􀁋􀁗􀀃􀁄􀁑􀁇􀀃􀁋􀁒􀁑􀁈􀁖􀁗􀀃􀁗􀁋􀁑􀁊􀌹􀀃􀁖􀁜􀁑􀁒􀁑􀁜􀁐􀁖􀀃􀀃 􀀝􀀃 􀁘􀁓􀁕􀁊􀁋􀁗􀀏􀀃 􀁋􀁒􀁑􀁒􀁕􀁄􀁅􀁏􀁈􀀏􀀃 􀁐􀁒􀁕􀁄􀁏􀀏􀀃 􀁈􀁗􀁋􀁆􀁄􀁏􀀏􀀃 􀁓􀁕􀁑􀁆􀁓􀁏􀁈􀁇􀀏􀀃
+ 􀁕􀁊􀁋􀁗􀁈􀁒􀁘􀁖􀀏􀀃􀁕􀁊􀁋􀁗􀀐􀁐􀁑􀁇􀁈􀁇􀀏􀀃􀁕􀁈􀁖􀁓􀁈􀁆􀁗􀁄􀁅􀁏􀁈􀀞􀀃􀁄􀁑􀁗􀁒􀁑􀁜􀁐􀁖􀀃􀀃 􀀝􀀃􀁘􀁑􀁖􀁆􀁕􀁘􀁓􀁘􀁏􀁒􀁘􀁖􀀏􀀃􀁇􀁖􀁋􀁒􀁑􀁈􀁖􀁗
+ Enforcing morality is not easy We believe that honesty is gained through transparency The blockchain is
+ transparent thus we will try to provide the public with a clear view of what is happening through
+ 􀁄􀁑􀁑􀁒􀁘􀁑􀁆􀁈􀁐􀁈􀁑􀁗􀁖􀀃􀁄􀁑􀁇􀀃􀁕􀁈􀁓􀁒􀁕􀁗􀁖􀀑􀀃􀀨􀁛􀁗􀁈􀁕􀁑􀁄􀁏􀀃􀁓􀁄􀁕􀁗􀁈􀁖􀀃􀁚􀁏􀁏􀀃􀁅􀁈􀀃􀁚􀁈􀁏􀁆􀁒􀁐􀁈􀁇􀀃􀁗􀁒􀀃􀁄􀁘􀁇􀁗􀀃􀁗􀁋􀁈􀀃􀁐􀁄􀁖􀁗􀁈􀁕􀁑􀁒􀁇􀁈􀀃􀁒􀁓􀁈􀁕􀁄􀁗􀁒􀁑􀀃
+ themselves since the information will be available for the public 
+ 􀀺􀁈􀀃􀁄􀁏􀁖􀁒􀀃􀁉􀁒􀁆􀁘􀁖􀀃􀁒􀁑􀀃􀁖􀁈􀁆􀁘􀁕􀁗􀁜􀀏􀀃􀁚􀁈􀀃􀁚􀁏􀁏􀀃􀁈􀁑􀁖􀁘􀁕􀁈􀀃􀁗􀁋􀁈􀀃􀁓􀁕􀁒􀁗􀁈􀁆􀁗􀁒􀁑􀀃􀁒􀁉􀀃􀁑􀁉􀁒􀁕􀁐􀁄􀁗􀁒􀁑􀀃􀁗􀁋􀁄􀁗􀀃􀁐􀁄􀁜􀀃􀁍􀁈􀁒􀁓􀁄􀁕􀁇􀁝􀁈􀀃􀁗􀁋􀁈􀀃
+ safety of our user and platform 
+ Honest
+ Project Roadmap
+ THE COMPANY
+ Chapter 04
+ THE COMPANY
+ 26 Honest Paper
+ Team Leadership
+ Lawrence
+ Samantha
+ CEO & Co Founder
+ Mr Lawrence is an engineer at heart who loves technology & venture
+ building Prior to HONEST MINING he has been crypto mining since
+ 􀀕􀀓􀀔􀀔􀀑􀀃􀀫􀁈􀀃􀁄􀁏􀁖􀁒􀀃􀁉􀁒􀁕􀁐􀁄􀁏􀁏􀁜􀀃􀁄􀁇􀁙􀁖􀁈􀁖􀀃􀁇􀁉􀁉􀁈􀁕􀁈􀁑􀁗􀀃􀀥􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀁖􀀝􀀃􀀷􀁒􀁎􀁈􀁑􀁒 
+ 􀁐􀁜􀀏􀀃􀀹􀁈􀁛􀁄􀁑􀁘􀁐􀀏􀀃􀁄􀁑􀁇􀀃􀀳􀁏􀁄􀁜􀀃􀀪􀁄􀁐􀁈􀀑
+ 􀀯􀁄􀁚􀁕􀁈􀁑􀁆􀁈􀌵􀁖􀀃􀁈􀁛􀁓􀁈􀁕􀁗􀁖􀁈􀀃􀁑􀀃􀁆􀁒􀁐􀁓􀁘􀁗􀁈􀁕􀀃􀁖􀁆􀁈􀁑􀁆􀁈􀀃􀁋􀁄􀁖􀀃􀁏􀁈􀁇􀀃􀁋􀁐􀀃􀁗􀁒􀀃􀁚􀁒􀁕􀁎􀀃􀁒􀁑􀀃􀁐􀁘􀁏 
+ tiple companies such as Nationwide Financial (210 billion managed
+ asset) and Bittorrent Inc (decentralized peer to peer network later
+ acquired by TRON) 
+ Lawrence also co founded and invested in startups such as
+ • eEvent online ticketing system
+ • guestHub loyalty analytics platform
+ • Loket com event management platform
+ • 􀀰􀁈􀁐􀁅􀁈􀁕􀀑􀀬􀀧􀀃􀀐􀀃􀁏􀁒􀁜􀁄􀁏􀁗􀁜􀀃􀁆􀁒􀁑􀁖􀁘􀁏􀁗􀁑􀁊􀀃􀀉􀀃􀁗􀁈􀁆􀁋􀁑􀁒􀁏􀁒􀁊􀁜􀀃􀍤􀁕􀁐
+ • 􀀬􀁑􀁇􀁒􀁖􀁜􀁖􀁗􀁈􀁐􀀃􀀐􀀃􀁖􀁒􀁉􀁗􀁚􀁄􀁕􀁈􀀃􀍤􀁕􀁐
+ • BitHarga crypto price monitoring Telegram bot
+ Lawrence graduated from The Ohio State University and holds a Computer
+ Science & Engineering degree He has over 12 years of profes 
+ 􀁖􀁒􀁑􀁄􀁏􀀃􀁖􀁒􀁉􀁗􀁚􀁄􀁕􀁈􀀃􀁇􀁈􀁙􀁈􀁏􀁒􀁓􀁐􀁈􀁑􀁗􀀃􀁈􀁛􀁓􀁈􀁕􀁈􀁑􀁆􀁈􀀏􀀃􀁄􀁖􀀃􀁚􀁈􀁏􀁏􀀃􀁄􀁖􀀃􀁋􀁒􀁏􀁇􀁑􀁊􀀃􀁈􀁛􀁈􀁆􀁘􀁗􀁙􀁈􀁖􀀃
+ & board member on several companies 
+ linkedin com/in/lawrencesamantha
+ Edy Senjaya
+ CTO & Co Founder
+ Mr Edy is an accomplished full stack software engineer and solution
+ architect Prior to HONEST MINING he has been running an ASICS &
+ 􀀪􀀳􀀸􀀃􀁐􀁑􀁑􀁊􀀃􀁉􀁄􀁕􀁐􀀃􀁚􀁋􀁏􀁈􀀃􀁄􀁆􀁗􀁙􀁈􀁏􀁜􀀃􀁗􀁕􀁄􀁇􀁑􀁊􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁆􀁘􀁕􀁕􀁈􀁑􀁆􀁜􀀑􀀃􀀨􀁇􀁜􀀃􀁋􀁄􀁖􀀃􀁈􀁛􀁓􀁈 
+ rience with ERP cloud computing and high availability system which
+ are immensely useful for architecting the platform 
+ Edy graduated from Universitas Bina Nusantara with a Computer Sci 
+ 􀁈􀁑􀁆􀁈􀀃􀁇􀁈􀁊􀁕􀁈􀁈􀀑􀀃􀀫􀁈􀀃􀁋􀁄􀁖􀀃􀁒􀁙􀁈􀁕􀀃􀀔􀀙􀀃􀁜􀁈􀁄􀁕􀁖􀀃􀁒􀁉􀀃􀁈􀁛􀁓􀁈􀁕􀁈􀁑􀁆􀁈􀀃􀁑􀀃􀁓􀁕􀁒􀁙􀁇􀁑􀁊􀀃􀁖􀁒􀁏􀁘􀁗􀁒􀁑􀁖􀀃
+ for businesses and corporations from around the world 
+ linkedin com/in/edysenjaya
+ Chapter 04
+ THE COMPANY
+ 􀀕􀀚 Honest Paper
+ Dionisius
+ Evan Alam
+ Head of
+ Product &
+ Partnership
+ Mr Dion is a serial entrepreneur and tech enthusiast Prior to HONEST MINING 
+ he has been investing in ICO and evangelizing cryptocurrency world to
+ people around him 
+ Dion graduated from The Ohio State University and holds a double de 
+ 􀁊􀁕􀁈􀁈􀀃􀁑􀀃􀀤􀁆􀁗􀁘􀁄􀁕􀁄􀁏􀀃􀀶􀁆􀁈􀁑􀁆􀁈􀀃􀀉􀀃􀀨􀁆􀁒􀁑􀁒􀁐􀁆􀁖􀀑􀀃􀀫􀁈􀀃􀁋􀁄􀁖􀀃􀁐􀁘􀁏􀁗􀁉􀁄􀁆􀁈􀁗􀁈􀁇􀀃􀁈􀁛􀁓􀁈􀁕􀁈􀁑􀁆 
+ 􀁈􀁖􀀃􀁚􀁒􀁕􀁎􀁑􀁊􀀃􀁒􀁑􀀃􀁐􀁘􀁏􀁗􀁑􀁄􀁗􀁒􀁑􀁄􀁏􀀃􀍤􀁑􀁄􀁑􀁆􀁈􀀃􀁆􀁒􀁐􀁓􀁄􀁑􀁈􀁖􀀏􀀃􀁆􀁒􀀐􀁉􀁒􀁘􀁑􀁇􀁈􀁇􀀃􀁖􀁈􀁙􀁈􀁕􀁄􀁏􀀃
+ creative agencies and advised different digital product startups on the
+ region since 2012 
+ Dion is also involved in building a co operative economy in the region
+ 􀁅􀁜􀀃􀁅􀁘􀁏􀁇􀁑􀁊􀀃􀁗􀁋􀁈􀀃􀍤􀁕􀁖􀁗􀀃􀀦􀁒􀁒􀁓􀀃􀀧􀁊􀁗􀁄􀁏􀀑􀀃􀀫􀁈􀀃􀁅􀁈􀁏􀁈􀁙􀁈􀁖􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁆􀁘􀁕􀁕􀁈􀁑􀁆􀁜􀀃􀁄􀁑􀁇􀀃􀁐 
+ 􀁆􀁕􀁒􀍤􀁑􀁄􀁑􀁆􀁑􀁊􀀃􀁚􀁏􀁏􀀃􀁖􀁒􀁏􀁙􀁈􀀃􀁊􀁏􀁒􀁅􀁄􀁏􀀃􀁓􀁒􀁙􀁈􀁕􀁗􀁜􀀑
+ linkedin com/in/dionisius evan alam
+ Chapter 04
+ THE COMPANY
+ 28 Honest Paper
+ Seed Investor
+ Edy Sulistyo
+ CEO of LOKÉT
+ (Go Jek Group)
+ Mr Sulistyo the current CEO of LOKET is a serial tech entrepreneur
+ 􀁚􀁋􀁒􀀃􀁋􀁄􀁖􀀃􀁉􀁒􀁘􀁑􀁇􀁈􀁇􀀃􀁄􀁑􀁇􀀃􀁈􀁛􀁗􀁈􀁇􀀃􀁖􀁈􀁙􀁈􀁕􀁄􀁏􀀃􀁖􀁗􀁄􀁕􀁗􀁘􀁓􀁖􀀃􀁖􀁘􀁆􀁋􀀃􀁄􀁖􀀃􀀯􀀲􀀮􀂋􀀷􀀃􀀋􀁄􀁆􀁔􀁘􀁕􀁈􀁇􀀃
+ 􀁅􀁜􀀃􀀪􀀲􀀐􀀭􀀨􀀮􀀏􀀃􀀕􀀓􀀔􀀚􀀌􀀏􀀃􀁈􀀨􀁙􀁈􀁑􀁗􀀃􀀋􀁄􀁆􀁔􀁘􀁕􀁈􀁇􀀃􀁅􀁜􀀃􀀨􀁑􀁙􀁖􀁒􀁑􀀳􀁒􀁑􀁗􀀏􀀃􀀕􀀓􀀔􀀖􀀌􀀏􀀃􀀲􀀺􀀑􀁆􀁒􀁐􀀃
+ (acquired by Telepathy 2009) and Kamus net (acquired by Stand4 
+ 2008) He is currently heading the entertainment verticals within
+ GO JEK group and is an advisor for several prominent ICOs in the region 
+ 􀀨􀁇􀁜􀀃􀁖􀀃􀁄􀁑􀀃􀁄􀁙􀁄􀁗􀁒􀁑􀀃􀁊􀁈􀁈􀁎􀀃􀁄􀁑􀁇􀀃􀁄􀀃􀁏􀁒􀁜􀁄􀁏􀁗􀁜􀀃􀁈􀁛􀁓􀁈􀁕􀁗􀀑􀀃􀀫􀁈􀀃􀁋􀁄􀁖􀀃􀁄􀀃􀁗􀁒􀁓􀀐􀁗􀁈􀁕􀀃􀁖􀁗􀁄􀁗􀁘􀁖􀀃􀁑􀀃
+ 􀁐􀁄􀁑􀁜􀀃􀁐􀁄􀁍􀁒􀁕􀀃􀁉􀁕􀁈􀁔􀁘􀁈􀁑􀁗􀀃􀁉􀁏􀁜􀁈􀁕􀀃􀁓􀁕􀁒􀁊􀁕􀁄􀁐􀁖􀀃􀀋􀀪􀀤􀀏􀀃􀀤􀀤􀀏􀀃􀀸􀀤􀀏􀀃􀁈􀁗􀁆􀀌􀀃􀁄􀁑􀁇􀀃􀁋􀁒􀁗􀁈􀁏􀀃􀁏􀁒􀁜􀁄􀁏􀁗􀁜􀀃
+ programs (SPG Hilton Hyatt Marriott etc) Collectively in the past 5+
+ 􀁜􀁈􀁄􀁕􀁖􀀏􀀃􀁋􀁈􀀃􀁋􀁄􀁖􀀃􀁕􀁈􀁇􀁈􀁈􀁐􀁈􀁇􀀃􀁐􀁒􀁕􀁈􀀃􀁗􀁋􀁄􀁑􀀃􀀚􀀃􀁐􀁏􀁏􀁒􀁑􀀃􀁐􀁏􀁈􀁖􀀃􀁉􀁒􀁕􀀃􀁓􀁕􀁈􀁐􀁘􀁐􀀃􀁄􀁕􀁏􀁑􀁈􀀃
+ 􀁆􀁄􀁅􀁑􀀃􀁄􀁑􀁇􀀃􀁏􀁘􀁛􀁘􀁕􀁜􀀃􀁋􀁒􀁗􀁈􀁏􀁖􀀑
+ In the past he founded and architected a number of companies and
+ web products including Katolik com FilesUpload DNOrganizer iConvert 
+ Parking Hub CircleMail and OpenStub 
+ linkedin com/in/edysulistyo
+ Oscar
+ Darmawan
+ 􀀦􀀨􀀲􀀃􀁒􀁉􀀃􀀬􀁑􀁇􀁒􀁇􀁄􀁛􀀃􀀉􀀃
+ CMO of Tokenomy
+ 􀀲􀁖􀁆􀁄􀁕􀀃􀀧􀁄􀁕􀁐􀁄􀁚􀁄􀁑􀀃􀁖􀀃􀁗􀁋􀁈􀀃􀀦􀀨􀀲􀀃􀁒􀁉􀀃􀀬􀀱􀀧􀀲􀀧􀀤􀀻􀀃􀀉􀀃􀀦􀀰􀀲􀀃􀁒􀁉􀀃􀀷􀀲􀀮􀀨􀀱􀀲􀀰􀀼􀀑􀀃
+ 􀀫􀁈􀀃􀁆􀁒􀀐􀁉􀁒􀁘􀁑􀁇􀁈􀁇􀀃􀀬􀀱􀀧􀀲􀀧􀀤􀀻􀀃􀁑􀀃􀀕􀀓􀀔􀀖􀀏􀀃􀁗􀁋􀁈􀀃􀁅􀁊􀁊􀁈􀁖􀁗􀀃􀁅􀁗􀁆􀁒􀁑􀀃􀁄􀁑􀁇􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃
+ startup in South East Asia which facilitates cryptocurrency trading for
+ 􀁐􀁒􀁕􀁈􀀃􀁗􀁋􀁄􀁑􀀃􀀔􀀃􀁐􀁏􀁏􀁒􀁑􀀃􀁕􀁈􀁊􀁖􀁗􀁈􀁕􀁈􀁇􀀃􀁘􀁖􀁈􀁕􀁖􀀑􀀃􀀯􀁄􀁗􀁈􀁕􀀏􀀃􀁑􀀃􀀕􀀓􀀔􀀚􀀏􀀃􀁋􀁈􀀃􀁖􀁘􀁆􀁆􀁈􀁖􀁖􀁉􀁘􀁏􀁏􀁜􀀃
+ launched TOKENOMY through 25 million USD ITS round 
+ In the past 4 years Oscar has been focusing on building the blockchain
+ ecosystem in the region He is a founding member former
+ 􀀦􀁋􀁄􀁕􀁐􀁄􀁑􀀃􀁄􀁑􀁇􀀃􀁆􀁘􀁕􀁕􀁈􀁑􀁗􀀃􀀫􀁈􀁄􀁇􀀃􀁒􀁉􀀃􀀨􀁛􀁆􀁋􀁄􀁑􀁊􀁈􀀃􀁄􀁗􀀃􀀬􀁑􀁇􀁒􀁑􀁈􀁖􀁄􀁑􀀃􀀥􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃
+ Association 
+ linkedin com/in/oscardarmawan
+ William Sutanto
+ 􀀦􀀷􀀲􀀃􀁒􀁉􀀃􀀬􀁑􀁇􀁒􀁇􀁄􀁛􀀃􀀉􀀃
+ Tokenomy
+ 􀀺􀁏􀁏􀁄􀁐􀀃􀀶􀁘􀁗􀁄􀁑􀁗􀁒􀀃􀁖􀀃􀁗􀁋􀁈􀀃􀀦􀀷􀀲􀀃􀁒􀁉􀀃􀀬􀀱􀀧􀀲􀀧􀀤􀀻􀀃􀀉􀀃􀀷􀀲􀀮􀀨􀀱􀀲􀀰􀀼􀀑􀀃􀀤􀁏􀁒􀁑􀁊􀀃􀁚􀁗􀁋􀀃
+ 􀀲􀁖􀁆􀁄􀁕􀀃􀀧􀁄􀁕􀁐􀁄􀁚􀁄􀁑􀀏􀀃􀁋􀁈􀀃􀁆􀁒􀀐􀁉􀁒􀁘􀁑􀁇􀁈􀁇􀀃􀀬􀀱􀀧􀀲􀀧􀀤􀀻􀀃􀀋􀀕􀀓􀀔􀀖􀀌􀀃􀁄􀁑􀁇􀀃􀀷􀀲􀀮􀀨􀀱􀀲􀀰􀀼􀀃
+ 􀀋􀀕􀀓􀀔􀀚􀀌􀀑􀀃􀀫􀁈􀀃􀁖􀀃􀁄􀀃􀁓􀁕􀁒􀁉􀁈􀁖􀁖􀁒􀁑􀁄􀁏􀀃􀁈􀁑􀁊􀁑􀁈􀁈􀁕􀀃􀁚􀁋􀁒􀀃􀁖􀀃􀁕􀁈􀁖􀁓􀁒􀁑􀁖􀁅􀁏􀁈􀀃􀁉􀁒􀁕􀀃􀁄􀁏􀁏􀀃􀁒􀁉􀀃􀁗􀁋􀁈􀀃
+ 􀁗􀁈􀁆􀁋􀁑􀁒􀁏􀁒􀁊􀁜􀀃􀁅􀁈􀁋􀁑􀁇􀀃􀀬􀀱􀀧􀀲􀀧􀀤􀀻􀀃􀀉􀀃􀀷􀀲􀀮􀀨􀀱􀀲􀀰􀀼􀀑
+ 􀀺􀁏􀁏􀁄􀁐􀀃􀁋􀁄􀁖􀀃􀁄􀀃􀁖􀁗􀁕􀁒􀁑􀁊􀀃􀀬􀁑􀁗􀁈􀁕􀁑􀁈􀁗􀀃􀀷􀁈􀁆􀁋􀁑􀁒􀁏􀁒􀁊􀁜􀀃􀁄􀁑􀁇􀀃􀀳􀁕􀁒􀁍􀁈􀁆􀁗􀀃􀀧􀁈􀁙􀁈􀁏􀁒􀁓􀁐􀁈􀁑􀁗􀀃
+ 􀁅􀁄􀁆􀁎􀁊􀁕􀁒􀁘􀁑􀁇􀀃􀁇􀁘􀁈􀀃􀁗􀁒􀀃􀁋􀁖􀀃􀀔􀀓􀀎􀀃􀁜􀁈􀁄􀁕􀁖􀀃􀁈􀁛􀁓􀁈􀁕􀁈􀁑􀁆􀁈􀀃􀁚􀁒􀁕􀁎􀁑􀁊􀀃􀁑􀀃􀁗􀁋􀁈􀀃􀍤􀁈􀁏􀁇􀀑
+ linkedin com/in/williamsutanto
+ Chapter 04
+ THE COMPANY
+ 29 Honest Paper
+ Advisor
+ Vidy Onadi
+ Head of Business
+ Development
+ EMURGO
+ INDONESIA
+ Mr Vidy is the Head of Business Development at EMURGO He
+ 􀁆􀁄􀁕􀁕􀁈􀁖􀀃􀁄􀀃􀁐􀁖􀁖􀁒􀁑􀀃􀁗􀁒􀀃􀁓􀁒􀁚􀁈􀁕􀀃􀁗􀁋􀁈􀀃􀍤􀁑􀁄􀁑􀁆􀁄􀁏􀀃􀁖􀁗􀁄􀁆􀁎􀀃􀁉􀁒􀁕􀀃􀁗􀁋􀁈􀀃􀁇􀁈􀁙􀁈􀁏􀁒􀁓􀁑􀁊􀀃􀁚􀁒􀁕􀁏􀁇􀀃
+ through Cardano’s decentralized blockchain system 
+ Apart from being a blockchain enthusiast he is also recognized as a
+ 􀁖􀁈􀁏􀁉􀀐􀁇􀁕􀁙􀁈􀁑􀀃􀁓􀁕􀁒􀁉􀁈􀁖􀁖􀁒􀁑􀁄􀁏􀀃􀁚􀁗􀁋􀀃􀁐􀁒􀁕􀁈􀀃􀁗􀁋􀁄􀁑􀀃􀀔􀀘􀀃􀁜􀁈􀁄􀁕􀁖􀀃􀁒􀁉􀀃􀁇􀁙􀁈􀁕􀁖􀍤􀁈􀁇􀀃􀁈􀁛􀁓􀁈􀁕􀁈􀁑􀁆􀁈􀀃
+ 􀁑􀀃􀀨􀀵􀀳􀀃􀁖􀁜􀁖􀁗􀁈􀁐􀁖􀀃􀀋􀀶􀀤􀀳􀀃􀀉􀀃􀀰􀁆􀁕􀁒􀁖􀁒􀁉􀁗􀀃􀀧􀁜􀁑􀁄􀁐􀁆􀁖􀀌􀀏􀀃􀁆􀁒􀁕􀁓􀁒􀁕􀁄􀁗􀁈􀀃􀍤􀁑􀁄􀁑􀁆􀁈􀀃􀀉􀀃
+ investments and digital businesses 
+ https //www linkedin com/in/vidy onadi 03aa8919
+ Jeth Soetoyo
+ CEO of Pintu
+ 􀀰􀁕􀀑􀀃􀀶􀁒􀁈􀁗􀁒􀁜􀁒􀀃􀁖􀀃􀁗􀁋􀁈􀀃􀀦􀀨􀀲􀀃􀁒􀁉􀀃􀀳􀁑􀁗􀁘􀀏􀀃􀁄􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁆􀁘􀁕􀁕􀁈􀁑􀁆􀁜􀀃􀁈􀁛􀁆􀁋􀁄􀁑􀁊􀁈􀀃􀁄􀁑􀁇􀀃
+ brokerage service Prior to that he worked at ConsenSys a
+ Brooklyn based Blockchain venture lab and solutions company He led
+ product on a cross chain atomic swap solution called Liquality which
+ allowed participants to trustfully swap digital assets without intermediation 
+ Mr Soetoyo also conducted a research along with the MIT Digital
+ Currency Initiative on crypto assets valuations Previously he pursued
+ a career at Roland Berger Strategy Consultants and also spent time at
+ Valar a company that’s focusing itself on energy 
+ linkedin com/in/jeth soetoyo
+ Grady Laksmono
+ Co Founder of
+ Moka
+ Mr Grady is an accomplished software engineer and venture builder 
+ He founded Moka in 2014 a mobile point of sale system that allows
+ anyone to accept many kinds of payments Prior to Moka he worked
+ 􀁄􀁗􀀃􀁐􀁘􀁏􀁗􀁓􀁏􀁈􀀃􀁆􀁒􀁕􀁓􀁒􀁕􀁄􀁗􀁒􀁑􀁖􀀃􀁑􀀃􀀶􀁏􀁆􀁒􀁑􀀃􀀹􀁄􀁏􀁏􀁈􀁜􀀝􀀃􀀼􀁄􀁋􀁒􀁒􀀄􀀏􀀃􀀽􀁜􀁑􀁊􀁄􀀏􀀃􀀲􀁓􀁈􀁑􀀻􀀏􀀃􀀤􀁏􀁅􀁘􀁐􀁄􀁗􀁆􀀃
+ 􀀋􀁑􀁒􀁚􀀃􀀦􀁋􀁄􀁑􀀑􀁆􀁒􀁐􀀃􀀐􀀃􀁄􀀃􀁆􀁒􀁐􀁓􀁄􀁑􀁜􀀃􀁒􀁚􀁑􀁈􀁇􀀃􀁅􀁜􀀃􀀯􀁊􀁋􀁗􀁜􀁈􀁄􀁕􀀒􀀶􀁗􀁈􀁏􀁏􀁄􀁕􀀌􀀑􀀃
+ During his spare time Grady contributes code to Bitcoin Core and py evm 
+ an Ethereum Virtual Machine implementation 
+ linkedin com/in/glaksmono
+ Chapter 04
+ THE COMPANY
+ 30 Honest Paper
+ Calvin Kizana
+ Co Founder and
+ 􀀦􀀨􀀲􀀃􀀳􀁆􀀰􀁛􀀒
+ PlayDay 
+ Calvin is a serial tech entrepreneur with Forbes and Ernst and Young
+ (EY) awards on his belt and is currently CEO and co founder of
+ 􀀳􀁆􀀰􀁛􀀃􀁄􀁑􀁇􀀃􀀳􀁏􀁄􀁜􀀧􀁄􀁜􀀏􀀃􀁄􀀃􀁏􀁙􀁈􀀃􀁖􀁗􀁕􀁈􀁄􀁐􀁑􀁊􀀃􀁄􀁑􀁇􀀃􀁑􀁗􀁈􀁕􀁄􀁆􀁗􀁙􀁈􀀃􀁆􀁒􀁑􀁗􀁈􀁑􀁗􀀃􀁇􀁖􀁗􀁕􀁅􀁘􀁗􀁒􀁑􀀃
+ platform for massive online community with over 35 million users
+ worldwide 
+ Calvin has been involved in multiple successful ICOs in the region 
+ 􀀫􀁈􀀃􀁄􀁆􀁗􀁙􀁈􀁏􀁜􀀃􀁑􀁙􀁒􀁏􀁙􀁈􀁇􀀃􀁄􀁑􀁇􀀃􀁖􀁗􀀃􀁄􀁖􀀃􀁄􀁇􀁙􀁖􀁒􀁕􀀃􀁑􀀃􀀬􀀦􀀲􀀃􀁄􀁑􀁇􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃􀁓􀁕􀁒􀁍􀁈􀁆􀁗􀁖􀀃
+ across startups and corporates He is also the co founder and advisor
+ in CoinDaily a blockchain community with over 20 000+ active members 
+ linkedin com/in/calvinkizana
+ Chapter 04
+ THE COMPANY
+ 31 Honest Paper
+ The HONEST MINING􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃􀁄􀁑􀁇􀀃􀁗􀁋􀁈􀀃􀀷􀁒􀁎􀁈􀁑􀁖􀀏􀀃􀁗􀁒􀁊􀁈􀁗􀁋􀁈􀁕􀀃􀁚􀁗􀁋􀀃􀁄􀁏􀁏􀀃􀁒􀁉􀀃􀁗􀁋􀁈􀀃􀁉􀁈􀁄􀁗􀁘􀁕􀁈􀁖􀀏􀀃􀁖􀁓􀁈􀁆􀍤􀁆􀁄􀁗􀁒􀁑􀁖􀀏􀀃
+ use cases and other matters set forth in this whitepaper are new and untested technology and
+ may not be capable of completion implementation or adoption according to the development
+ roadmap laid out in this whitepaper 
+ While HONEST MINING will make reasonable efforts to complete the platform there may be
+ circumstances beyond HONEST MINING’s control which could result in delays a more limited
+ release or in the worst case a functioning platform may not be created at all Even if the platform
+ is completed implemented and adopted it might not function as intended and any
+ 􀁗􀁒􀁎􀁈􀁑􀁖􀀃􀁄􀁖􀁖􀁒􀁆􀁄􀁗􀁈􀁇􀀃􀁚􀁗􀁋􀀃􀁗􀁋􀁈􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃􀁐􀁄􀁜􀀃􀁑􀁒􀁗􀀃􀁋􀁄􀁙􀁈􀀃􀁉􀁘􀁑􀁆􀁗􀁒􀁑􀁄􀁏􀁗􀁜􀀃􀁗􀁋􀁄􀁗􀀃􀁖􀀃􀁇􀁈􀁖􀁕􀁄􀁅􀁏􀁈􀀏􀀃􀍤􀁗􀀃􀁉􀁒􀁕􀀃􀁓􀁘􀁕􀁓􀁒􀁖􀁈􀀃
+ or valuable 
+ 􀀷􀁈􀁆􀁋􀁑􀁒􀁏􀁒􀁊􀁜􀀃􀁖􀀃􀁆􀁋􀁄􀁑􀁊􀁑􀁊􀀃􀁕􀁄􀁓􀁇􀁏􀁜􀀃􀁄􀁑􀁇􀀃􀁗􀁋􀁈􀀃􀁓􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃􀁄􀁑􀁇􀀒􀁒􀁕􀀃􀁗􀁋􀁈􀀃􀀷􀁒􀁎􀁈􀁑􀁖􀀃􀁄􀁖􀁖􀁒􀁆􀁄􀁗􀁈􀁇􀀃􀁗􀁋􀁈􀁕􀁈􀁚􀁗􀁋􀀃􀁐􀁄􀁜􀀃
+ become outdated Although Proof of Stake is gaining popularity and acceptance things may
+ change and a new consensus mechanism may supersede Proof of Stake or a consensus
+ mechanism may no longer be needed 
+ The HNST TOKENS are based on the Ethereum protocol Any malfunction forking breakdown
+ or abandonment of the Ethereum protocol or network may have a material adverse effect on the
+ HNST TOKENS or the HONEST MINING platform 
+ The successful operation of the HONEST MINING platform is contingent upon the successful operation
+ of the various cryptocurrency networks of the Tokens staked or rewarded Any malfunction 
+ forking breakdown or abandonment of the applicable cryptocurrency protocol or network
+ 􀀋􀁖􀁘􀁆􀁋􀀃 􀁄􀁖􀀏􀀃 􀁗􀁋􀁈􀀃 􀀳􀁕􀁒􀁒􀁉􀀐􀁒􀁉􀀐􀀶􀁗􀁄􀁎􀁈􀀃 􀁓􀁕􀁒􀁗􀁒􀁆􀁒􀁏􀀃 􀁑􀁒􀁗􀀃 􀁚􀁒􀁕􀁎􀁑􀁊􀀃 􀁄􀁖􀀃 􀁈􀁛􀁓􀁈􀁆􀁗􀁈􀁇􀀌􀀃 􀁐􀁄􀁜􀀃 􀁋􀁄􀁙􀁈􀀃 􀁄􀀃 􀁐􀁄􀁗􀁈􀁕􀁄􀁏􀀃 􀁄􀁇􀁙􀁈􀁕􀁖􀁈􀀃
+ effect on the HONEST MINING platform and may result in the loss of the Tokens staked or rewarded 
+ New Technology
+ Protocol
+ KEY RISK
+ There are risks associated with the HONEST MINING platform the HNST TOKENS and the staked
+ or rewarded coins (such tokens and coins together the “Tokens”) Some (but not all) of them are
+ 􀁖􀁘􀁐􀁐􀁄􀁕􀁝􀁈􀁇􀀃􀁅􀁈􀁏􀁒􀁚􀀝
+ Chapter 05
+ Key Risk
+ 32 Honest Paper
+ Decentralised cryptographic networks are at risk of mining attacks such as “51% attacks” double
+ 􀁖􀁓􀁈􀁑􀁇􀁑􀁊􀀃􀁄􀁗􀁗􀁄􀁆􀁎􀁖􀀏􀀃􀁖􀁈􀁏􀍤􀁖􀁋􀀃􀁐􀁑􀁑􀁊􀀃􀁅􀁈􀁋􀁄􀁙􀁒􀁘􀁕􀀏􀀃􀁕􀁄􀁆􀁈􀀃􀁆􀁒􀁑􀁇􀁗􀁒􀁑􀀃􀁄􀁗􀁗􀁄􀁆􀁎􀁖􀀃􀁄􀁑􀁇􀀃􀁒􀁗􀁋􀁈􀁕􀀃􀁄􀁗􀁗􀁈􀁐􀁓􀁗􀁖􀀃􀁅􀁜􀀃􀁐􀁑􀁈􀁕􀁖􀀃
+ or other participants in the network to manipulate or game the protocol or network 
+ 􀀤􀁑􀁜􀀃􀁖􀁘􀁆􀁆􀁈􀁖􀁖􀁉􀁘􀁏􀀃􀁄􀁗􀁗􀁄􀁆􀁎􀀃􀁓􀁕􀁈􀁖􀁈􀁑􀁗􀁖􀀃􀁄􀀃􀁕􀁖􀁎􀀃􀁗􀁒􀀃􀁗􀁋􀁈􀀃􀁈􀁛􀁓􀁈􀁆􀁗􀁈􀁇􀀃􀁓􀁕􀁒􀁓􀁈􀁕􀀃􀁒􀁓􀁈􀁕􀁄􀁗􀁒􀁑􀀏􀀃􀁈􀁛􀁈􀁆􀁘􀁗􀁒􀁑􀀃􀁄􀁑􀁇􀀃􀁖􀁈􀁔􀁘􀁈􀁑􀁆􀁑􀁊􀀃􀁒􀁉􀀃
+ token transactions and contract computations of the Tokens and the HONEST MINING platform 
+ In the event of such malicious actions a loss of the Tokens is possible 
+ 􀀷􀁋􀁈􀀃􀁖􀁒􀁘􀁕􀁆􀁈􀀃􀁆􀁒􀁇􀁈􀀃􀁆􀁘􀁕􀁕􀁈􀁑􀁗􀁏􀁜􀀃􀀋􀁒􀁕􀀃􀁈􀁛􀁓􀁈􀁆􀁗􀁈􀁇􀀃􀁗􀁒􀀃􀁅􀁈􀀌􀀃􀁑􀀃􀁘􀁖􀁈􀀃􀁉􀁒􀁕􀀃􀁑􀁗􀁈􀁕􀀃􀁄􀁏􀁄􀀃􀁗􀁋􀁈􀀃􀀨􀁗􀁋􀁈􀁕􀁈􀁘􀁐􀀃􀁄􀁑􀁇􀀃􀁗􀁋􀁈􀀃􀀷􀁒􀁎􀁈􀁑􀁖􀌵􀀃
+ network and protocol as well as the HONEST MINING platform is wholly or partly based on open
+ source code 
+ 􀀶􀁘􀁆􀁋􀀃􀁒􀁓􀁈􀁑􀀃􀁖􀁒􀁘􀁕􀁆􀁈􀀃􀁆􀁒􀁇􀁈􀀃􀁐􀁄􀁜􀀃􀁅􀁈􀀃􀁄􀁗􀀃􀁊􀁕􀁈􀁄􀁗􀁈􀁕􀀃􀁕􀁖􀁎􀀃􀁒􀁉􀀃􀁈􀁛􀁓􀁏􀁒􀁗􀀃􀁅􀁜􀀃􀁅􀁄􀁇􀀃􀁄􀁆􀁗􀁒􀁕􀁖􀀃􀁈􀁛􀁄􀁐􀁑􀁑􀁊􀀃􀁄􀁑􀁇􀀃􀁖􀁈􀁈􀁎􀁑􀁊􀀃􀁗􀁒􀀃
+ 􀍤􀁑􀁇􀀃􀁈􀁛􀁓􀁏􀁒􀁗􀁖􀀃􀁚􀁗􀁋􀁑􀀃􀁗􀁋􀁄􀁗􀀃􀁆􀁒􀁇􀁈􀀑􀀃􀀃􀀶􀁘􀁆􀁋􀀃􀁒􀁓􀁈􀁑􀀃􀁖􀁒􀁘􀁕􀁆􀁈􀀃􀁆􀁒􀁇􀁈􀀃􀁐􀁄􀁜􀀃􀁄􀁏􀁖􀁒􀀃􀁅􀁈􀀃􀁘􀁓􀁇􀁄􀁗􀁈􀁇􀀃􀁉􀁕􀁒􀁐􀀃􀁗􀁐􀁈􀀃􀁗􀁒􀀃􀁗􀁐􀁈􀀏􀀃
+ 􀁚􀁋􀁆􀁋􀀃􀁐􀁄􀁜􀀃􀁕􀁈􀁖􀁘􀁏􀁗􀀃􀁑􀀃􀁑􀁈􀁚􀀃􀁄􀁑􀁇􀀃􀁘􀁑􀁈􀁛􀁓􀁈􀁆􀁗􀁈􀁇􀀃􀁈􀁛􀁓􀁏􀁒􀁗􀁖􀀑
+ A third party or member of HONEST MINING’s team may also intentionally or unintentionally introduce
+ weaknesses into the code base or core infrastructure of the HONEST MINING platform 
+ which could negatively affect the HONEST MINING platform and the Tokens (including but not
+ limited to the use thereof) or result in the loss of the Tokens or the loss of the ability to access or
+ control the Tokens 
+ In the event of such a software bug or weakness there may be no remedy and users of the
+ HONEST MINING platform as well as the holders of the HNST TOKENS are not guaranteed any
+ remedy refund or compensation 
+ Mining Attacks
+ Software Bugs
+ Chapter 05
+ Key Risk
+ 33 Honest Paper
+ HNST TOKENS acquired may be held in digital wallets or vaults which requires a private key (or
+ a combination of private keys) to access and use Accordingly loss of the requisite private key(s)
+ associated with such digital wallets or vaults storing such tokens will result in the loss of
+ 􀁖􀁘􀁆􀁋􀀃􀁗􀁒􀁎􀁈􀁑􀁖􀀏􀀃􀁄􀁆􀁆􀁈􀁖􀁖􀀃􀁗􀁒􀀃􀁗􀁒􀁎􀁈􀁑􀀃􀁅􀁄􀁏􀁄􀁑􀁆􀁈􀀃􀁄􀁑􀁇􀀒􀁒􀁕􀀃􀁄􀁑􀁜􀀃􀁑􀁗􀁄􀁏􀀃􀁅􀁄􀁏􀁄􀁑􀁆􀁈􀁖􀀃􀁑􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀁖􀀃􀁆􀁕􀁈􀁄􀁗􀁈􀁇􀀃􀁅􀁜􀀃􀁗􀁋􀁕􀁇􀀃
+ parties If the private keys are stolen misused or lost the wallets or vaults associated therewith 
+ and any tokens stored therein may be lost 
+ Any third party that gains access to such private key(s) (including by gaining access to login
+ credentials of a third party hosted wallet or vault service) may be able to misappropriate the
+ tokens stored therein or transfer the tokens stored therein to themselves or to another person 
+ The tokens may not be recoverable and HONEST MINING will not be responsible for any such
+ losses 
+ 􀀷􀁋􀁈􀁕􀁈􀀃 􀁄􀁕􀁈􀀃 􀁄􀁏􀁖􀁒􀀃 􀁕􀁖􀁎􀁖􀀃 􀁒􀁉􀀃 􀁐􀁄􀁏􀁚􀁄􀁕􀁈􀀃 􀁄􀁗􀁗􀁄􀁆􀁎􀁖􀀏􀀃 􀁇􀁈􀁑􀁄􀁏􀀃 􀁒􀁉􀀃 􀁖􀁈􀁕􀁙􀁆􀁈􀀃 􀁄􀁗􀁗􀁄􀁆􀁎􀁖􀀏􀀃 􀁖􀁓􀁒􀁒􀍤􀁑􀁊􀀃 􀁄􀁗􀁗􀁄􀁆􀁎􀁖􀀃 􀁄􀁑􀁇􀀃 􀁒􀁗􀁋􀁈􀁕􀀃
+ 􀁈􀁛􀁓􀁏􀁒􀁗􀁖􀀃􀁅􀁈􀁑􀁊􀀃􀁘􀁖􀁈􀁇􀀃􀁄􀁊􀁄􀁑􀁖􀁗􀀃􀁏􀁈􀁊􀁗􀁐􀁄􀁗􀁈􀀃􀁘􀁖􀁈􀁕􀁖􀀃􀁒􀁉􀀃􀁅􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁑􀀃􀁖􀁒􀁉􀁗􀁚􀁄􀁕􀁈􀀃􀁄􀁑􀁇􀀃􀁆􀁕􀁜􀁓􀁗􀁒􀁊􀁕􀁄􀁓􀁋􀁆􀀃􀁗􀁒􀁎􀁈􀁑􀁖􀀑
+ 􀀷􀁋􀁈􀀃􀀷􀁒􀁎􀁈􀁑􀁖􀀃􀁐􀁄􀁜􀀃􀁅􀁈􀀃􀁖􀁘􀁅􀁍􀁈􀁆􀁗􀀃􀁗􀁒􀀃􀁈􀁛􀁓􀁕􀁒􀁓􀁕􀁄􀁗􀁒􀁑􀀃􀁄􀁑􀁇􀀒􀁒􀁕􀀃􀁗􀁋􀁈􀁉􀁗􀀑􀀃􀀃􀀫􀁄􀁆􀁎􀁈􀁕􀁖􀀃􀁒􀁕􀀃􀁒􀁗􀁋􀁈􀁕􀀃􀁅􀁄􀁇􀀃􀁄􀁆􀁗􀁒􀁕􀁖􀀃􀁐􀁄􀁜􀀃􀁄􀁗 
+ tempt to interfere with the HONEST MINING platform or the Tokens in a variety of ways (including 
+ but not limited to malware attacks denial of service attacks consensus based attacks Sybil
+ 􀁄􀁗􀁗􀁄􀁆􀁎􀁖􀀏􀀃􀁖􀁐􀁘􀁕􀍤􀁑􀁊􀀃􀁄􀁑􀁇􀀃􀁖􀁓􀁒􀁒􀍤􀁑􀁊􀀌􀀑
+ 􀀶􀁘􀁆􀁋􀀃􀁄􀁗􀁗􀁄􀁆􀁎􀁖􀀃􀁒􀁕􀀃􀁈􀁛􀁓􀁏􀁒􀁗􀁖􀀃􀁐􀁄􀁜􀀃􀁕􀁈􀁖􀁘􀁏􀁗􀀃􀁑􀀃􀁓􀁕􀁙􀁄􀁗􀁈􀀃􀁎􀁈􀁜􀁖􀀃􀁅􀁈􀁑􀁊􀀃􀁖􀁗􀁒􀁏􀁈􀁑􀀃􀁒􀁕􀀃􀁗􀁋􀁈􀀃􀁏􀁒􀁖􀁖􀀃􀁒􀁉􀀃􀁗􀁋􀁈􀀃􀀷􀁒􀁎􀁈􀁑􀁖􀀑
+ Although HONEST MINING aims to be decentralized there are parts of the HONEST MINING
+ platform that are yet to be decentralized or which are inherently unable to be decentralized For
+ 􀁈􀁛􀁄􀁐􀁓􀁏􀁈􀀏􀀃HONEST MINING’s wallet system is centralized due to the nature of how masternodes
+ work 
+ Although the team is committed to follow industry best practices such as the OWASP Application
+ 􀀶􀁈􀁆􀁘􀁕􀁗􀁜􀀃􀀹􀁈􀁕􀍤􀁆􀁄􀁗􀁒􀁑􀀃􀀶􀁗􀁄􀁑􀁇􀁄􀁕􀁇􀀃􀀋􀀤􀀶􀀹􀀶􀀌􀀃􀀃􀁄􀁑􀁇􀀃􀀦􀀦􀀶􀀦􀀃􀀋􀀦􀁕􀁜􀁓􀁗􀁒􀀦􀁘􀁕􀁕􀁈􀁑􀁆􀁜􀀶􀁈􀁆􀁘􀁕􀁗􀁜􀀃􀀶􀁗􀁄􀁑􀁇􀁄􀁕􀁇􀀌􀀃􀀏􀀃􀁖􀁈􀁆􀁘􀁕􀁗􀁜􀀃
+ 􀁅􀁕􀁈􀁄􀁆􀁋􀁈􀁖􀀃􀁄􀁕􀁈􀀃􀁓􀁕􀁈􀁙􀁄􀁏􀁈􀁑􀁗􀀃􀁄􀁑􀁇􀀃􀁚􀁈􀀃􀁆􀁄􀁑􀁑􀁒􀁗􀀃􀁊􀁘􀁄􀁕􀁄􀁑􀁗􀁈􀁈􀀃􀁗􀁋􀁄􀁗􀀃􀁚􀁈􀀃􀁚􀁏􀁏􀀃􀁑􀁒􀁗􀀃􀁅􀁈􀀃􀁗􀁋􀁈􀀃􀁖􀁘􀁅􀁍􀁈􀁆􀁗􀀃􀁒􀁉􀀃􀁄􀁑􀁜􀀃􀁄􀁗􀁗􀁄􀁆􀁎􀀃􀁒􀁕􀀃
+ 􀁖􀁈􀁆􀁘􀁕􀁗􀁜􀀃􀁅􀁕􀁈􀁄􀁆􀁋􀀑􀀃􀀶􀁈􀁆􀁘􀁕􀁗􀁜􀀃􀁅􀁕􀁈􀁄􀁆􀁋􀁈􀁖􀀃􀁆􀁄􀁑􀀃􀁄􀁑􀁇􀀃􀁚􀁏􀁏􀀃􀁋􀁄􀁓􀁓􀁈􀁑􀀃􀁇􀁘􀁈􀀃􀁗􀁒􀀃􀁅􀁒􀁗􀁋􀀃􀁈􀁛􀁗􀁈􀁕􀁑􀁄􀁏􀀃􀁄􀁑􀁇􀀃􀁑􀁗􀁈􀁕􀁑􀁄􀁏􀀃􀁉􀁄􀁆􀁗􀁒􀁕􀁖􀀑
+ Theft Misuse or Loss of Private Keys
+ Decentralization
+ Chapter 05
+ Key Risk
+ 

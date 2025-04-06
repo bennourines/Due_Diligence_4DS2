@@ -1,0 +1,687 @@
+Hyperconnect the World
+ Version Draft
+ English)
+ Last Updated Aug
+ 15 2017
+ ICON
+ F oundation
+ Contents
+ Contents
+ Abstract
+ Abstract 11 44
+ 1 
+ 1 IntroductionIntroduction 55
+ 1 1 
+ 1 1 VisionVision 55
+ 1 2 
+ 1 2 BackgroundBackground 55
+ 2 
+ 2 ICONICON 77
+ 2 1 
+ 2 1 Hyperconnect the WorldHyperconnect the World 77
+ 2 2 
+ 2 2 Hyperconnect KoreaHyperconnect Korea 77
+ 2 3 
+ 2 3 How to DesignHow to Design 88
+ 2 4 
+ 2 4 Components of the ICON NetworkComponents of the ICON Network 88
+ 2 5 
+ 2 5 How to ConnectHow to Connect 99
+ 2 6 
+ 2 6 How to OperateHow to Operate 1010
+ 2 7 
+ 2 7 What to ExpectWhat to Expect 1010
+ 2 8 
+ 2 8 Implementation of loopchainImplementation of loopchain 1111
+ 3 
+ 3 ICON ArchitectureICON Architecture 1515
+ 3 1 
+ 3 1 IntroductionIntroduction 1515
+ 3 2 
+ 3 2 Conceptual ModelConceptual Model 1515
+ 3 3 
+ 3 3 NexusNexus 1515
+ 3 4 
+ 3 4 PortalPortal 1616
+ 3 5 
+ 3 5 BTP (Blockchain Transmission Protocol)BTP (Blockchain Transmission Protocol) 1616
+ 3 6 
+ 3 6 DEX (Decentralized Exchange)DEX (Decentralized Exchange) 1818
+ 3 7 
+ 3 7 Nexus Public ChannelNexus Public Channel 1919
+ 3 8 
+ 3 8 GovernanceGovernance 2020
+ 4 
+ 4 Inside ICONInside ICON 2222
+ 4 1 
+ 4 1 loopchainloopchain 2222
+ 4 2 
+ 4 2 FeaturesFeatures 2222
+ 4 3 
+ 4 3 ConsensusConsensus 2323
+ 4 4 
+ 4 4 SCORE (Smart Contract on Reliable Environment)SCORE (Smart Contract on Reliable Environment) 2424
+ 4 5 
+ 4 5 BSI (Blockchain Signature Infrastructure)BSI (Blockchain Signature Infrastructure) 2525
+ 5 
+ 5 RoadmapRoadmap 2626
+ 5 1 
+ 5 1 Business RoadmapBusiness Roadmap 2626
+ 5 2 
+ 5 2 Technical RoadmapTechnical Roadmap 2626
+ 6 
+ 6 ICX tokenICX token 2727
+ 6 1 
+ 6 1 Term SummaryTerm Summary 2727
+ 6 2 
+ 6 2 AllocationAllocation 2828
+ 6 3 
+ 6 3 Use of ProceedsUse of Proceeds 2828
+ 7 
+ 7 Issuance and IncentivesIssuance and Incentives 3030
+ 7 1 
+ 7 1 Issuance PolicyIssuance Policy 3030
+ 7 2 
+ 7 2 Transaction FeeTransaction Fee 3030
+ 7 3 
+ 7 3 Public TreasuryPublic Treasury 3030
+ 7 4 
+ 7 4 IncentivesIncentives 3030
+ 7 5 
+ 7 5 Freezing FeeFreezing Fee 3030
+ Appendix
+ Appendix 3232
+ A 1 Definitions
+ A 1 Definitions 3232
+ A 2 SCORE
+ A 2 SCORE 3333
+ A 3 Integration of loopchain and Legacy Systems
+ A 3 Integration of loopchain and Legacy Systems 3434
+ A 4 loopchain Multi
+ A 4 loopchain Multi channelchannel 3535
+ A 5 AI
+ A 5 AI driven Policydriven Policy 3535
+ References
+ References 3838
+ A rhizome has no beginning or end it is always in the middle between A rhizome has no beginning or end it is always in the middle between things interbeing things interbeing intermezzo The tree is filiation but the rhizome is alliance uniquely alliance The tree imposes intermezzo The tree is filiation but the rhizome is alliance uniquely alliance The tree imposes the verb to be but the fabric of the rhizome is the conjunction and and and This the verb to be but the fabric of the rhizome is the conjunction and and and This conjunction carries enough force to shakeconjunction carries enough force to shake and uproot the verb to be Where are you going and uproot the verb to be Where are you going Where are you coming from What are you heading for These are totally useless questions Where are you coming from What are you heading for These are totally useless questions 『『Mille PlateauxMille Plateaux』』 Gilles Deleuze & Felix Guattari Gilles Deleuze & Felix Guattari
+ Abstract
+ Abstract
+ The advent of the blockchain technology has
+ The advent of the blockchain technology has introduced the world of decentralization and is challenging introduced the world of decentralization and is challenging our preconceived perspectives of the current social political and economic systems most notably the our preconceived perspectives of the current social political and economic systems most notably the central banking system The rapid advancement of this technology has begun to blendcentral banking system The rapid advancement of this technology has begun to blend world world borders borders and statute providing glimpses of an improved alternative future Yet the technology is stiand statute providing glimpses of an improved alternative future Yet the technology is still at its ll at its infancy and is confronted withinfancy and is confronted with limitationslimitations in terms of performance ease of use and service quality in terms of performance ease of use and service quality 
+ Generally the majority of blockchain pro
+ Generally the majority of blockchain projects place emphasis on jects place emphasis on their their decentralization methodology decentralization methodology and lack evidence of adoption in the real world due to their technological and business and lack evidence of adoption in the real world due to their technological and business limitationslimitations The The ICON Project ICON Project (“ICON” “ICON Network” “we” “our” “us”) (“ICON” “ICON Network” “we” “our” “us”) aims to overcome such challenges anaims to overcome such challenges and help d help advance our society towards true hyperconnectivity advance our society towards true hyperconnectivity 
+ This paper outlines
+ This paper outlines our vision and philosophy of our vision and philosophy of the the ICON ICON Project Project and detailand detailss on theon the supporting supporting proprietary technologies that proprietary technologies that have been have been in in developdevelopmentment over the past over the past fewfew years Moreyears More importantly weimportantly we discuss actualdiscuss actual implementationimplementation with dozens of reputable institutions that are already in the ICON with dozens of reputable institutions that are already in the ICON NNetwork This demonstrates our progress beyond the initial concept stage and validates our team’s etwork This demonstrates our progress beyond the initial concept stage and validates our team’s strong strong execution abiexecution ability a major factor that lity a major factor that differentiatesdifferentiates ICON from the majority of blockchain projects ICON from the majority of blockchain projects today today 
+ ICON is inspired by Gilles Deleuze and Felix Guattari’s
+ ICON is inspired by Gilles Deleuze and Felix Guattari’s rhizome rhizome –– ““thethe world with no center point world with no center point and and thethe world where any point is a mere connection to other points ” ICON is a connector of disparate world where any point is a mere connection to other points ” ICON is a connector of disparate cryptocurrencies cryptocurrencies withwith different blockchain governances and furthermore a connector of the crypto different blockchain governances and furthermore a connector of the crypto world to our real world ICON embraces the new anworld to our real world ICON embraces the new and the unfamild the unfamiliar iar the principle of radical inclusion the principle of radical inclusion –– accept newaccept new ideas and decisions made by the ideas and decisions made by the new republic established by evernew republic established by ever changing changing cryptocrypto toto real real worldworld connectionsconnections 
+ 1 Introduction
+ Copyright 2017 ICON Foundation 5
+ 1 IntroductionIntroduction
+ 1 1 VisVisionion
+ The vision of
+ The vision of the the ICON ICON Project Project is to introduce the new era of decentralization by redefining the meaning is to introduce the new era of decentralization by redefining the meaning of communities and creating a new world by connecting such communities Communities today are of communities and creating a new world by connecting such communities Communities today are commonly defined by its social and political functions and limited to the economic boundcommonly defined by its social and political functions and limited to the economic boundaries set forth aries set forth by world nations Through ICON communities can go beyond and be free from traditional economic by world nations Through ICON communities can go beyond and be free from traditional economic system and promote frictionless value exchanges with other communities eventually resulting in system and promote frictionless value exchanges with other communities eventually resulting in maximum total utility of society ICON is not limaximum total utility of society ICON is not limited to the real world but it directly connects and mited to the real world but it directly connects and communicates with the crypto world creating the most robust network that can scale without limits communicates with the crypto world creating the most robust network that can scale without limits 
+ The ICON P
+ The ICON Project aims to build a decentralized network that allows independent blockchains with roject aims to build a decentralized network that allows independent blockchains with differdifferent governances to transact with one another without intermediaries Anyone can create a new ent governances to transact with one another without intermediaries Anyone can create a new blockchain project and join the network A new blockchain project is free to connect with existing projects blockchain project and join the network A new blockchain project is free to connect with existing projects and create new unique worlds or blockchain multiverse and create new unique worlds or blockchain multiverse ICON itself can be viewed as both a living ICON itself can be viewed as both a living organism and an ecosystem organism and an ecosystem 
+ ICON is a vision with a proven track record and has progressed beyond the initial concept stage ICON
+ ICON is a vision with a proven track record and has progressed beyond the initial concept stage ICON already boasts communities comprised of reputable institutions already boasts communities comprised of reputable institutions –– banks securities insurance hospitals banks securities insurance hospitals universities and more A future with faster monuniversities and more A future with faster money remittance and frictionless value exchange of ey remittance and frictionless value exchange of securities medical records academic data insurance fees is within our reach securities medical records academic data insurance fees is within our reach 
+ With ICON we now enter into a world of true hyperconnectivity 
+ With ICON we now enter into a world of true hyperconnectivity 
+ 1 2 BackgroundBackground
+ Overview
+ Overview
+ The advent of the blockchain technology h
+ The advent of the blockchain technology has introduced the world of decentralization and is challenging as introduced the world of decentralization and is challenging our preconceived perspectives of the current social political and economic systems most notably the our preconceived perspectives of the current social political and economic systems most notably the central banking system The rapid advancement of this technology has begun to blend the wcentral banking system The rapid advancement of this technology has begun to blend the world borders orld borders and statute and statute providing glimpses of an improved alternative future Yet the technology is still at its providing glimpses of an improved alternative future Yet the technology is still at its infancy and is plagued with shortcomings in terms of performance ease of use and service quality infancy and is plagued with shortcomings in terms of performance ease of use and service quality 
+ Generally the majority of blockchain
+ Generally the majority of blockchain projects place emphasis on projects place emphasis on their their decentralization methodology decentralization methodology and lack evidence of adoption in the real world and lack evidence of adoption in the real world 
+ There are fascinating projects such as Steem that operates a crypto world a virtual service on top of
+ There are fascinating projects such as Steem that operates a crypto world a virtual service on top of its own blockchain However other projectits own blockchain However other projects that attempt to connect to the reals that attempt to connect to the real world are feeling world are feeling performance limitations and hence realizing the need for more research and development To performance limitations and hence realizing the need for more research and development To overcome such limitation of covercome such limitation of connecting the real world to onnecting the real world to crypto world ICON was started crypto world ICON was started 
+ Ethereum
+ Ethereum1
+ Launched
+ Launched in 2015 Ethereum was the first project to introduce the concept of ‘Smart Contract’ in the in 2015 Ethereum was the first project to introduce the concept of ‘Smart Contract’ in the blockchain world opening the unforeseen possibilities of Decentralized applications(blockchain world opening the unforeseen possibilities of Decentralized applications(DAPPDAPPs) Ethereum s) Ethereum is widely considered the greatest milestone in blockchain techis widely considered the greatest milestone in blockchain technology since the first introduction of nology since the first introduction of Bitcoin by Satoshi Nakamoto therefore is referred to as Blockchain 2 0 It paved blockchain application Bitcoin by Satoshi Nakamoto therefore is referred to as Blockchain 2 0 It paved blockchain application beyond simple cryptocurrency transaction to a wider use of the technology including in the financial beyond simple cryptocurrency transaction to a wider use of the technology including in the financial services iservices industry ndustry 
+ 1 Introduction
+ Copyright 2017 ICON Foundation 6
+ Various
+ Various DAPPDAPPs have been developed most notably a USD$170 million decentralized and autonomous s have been developed most notably a USD$170 million decentralized and autonomous venture capital fund called the DAO project Unfortunately DAO was hacked in June 2016 and venture capital fund called the DAO project Unfortunately DAO was hacked in June 2016 and Ethereum went through hardEthereum went through hard fork to restore the stolen fundsfork to restore the stolen funds Many issues particularly on Proof Many issues particularly on Proof ofof Stake consensus are still under discussion among the Ethereum developers which includes the Stake consensus are still under discussion among the Ethereum developers which includes the founder Vitalik Buterin and miners founder Vitalik Buterin and miners 
+ Despite the facts above Ethereum is gaining popularity as a ICO platform due to the
+ Despite the facts above Ethereum is gaining popularity as a ICO platform due to the simplicity of ERC20 simplicity of ERC20 Token generation But ironically the popularity of certain ICOs such as Status im has resulted in Token generation But ironically the popularity of certain ICOs such as Status im has resulted in overload of the entire Ethereum network overload of the entire Ethereum network 
+ Bancor
+ Bancor2
+ Bancor provides Decentralized Exchange (DEX) that allows real
+ Bancor provides Decentralized Exchange (DEX) that allows real time cryptocurrency transtime cryptocurrency transactions actions based on fair price deriving algorithm that uses Ethereum reserves With the concept of exchanging based on fair price deriving algorithm that uses Ethereum reserves With the concept of exchanging Ether and Bancor Token(BNT) via DEX Bancor raised over USD$150 million in ICO Ether and Bancor Token(BNT) via DEX Bancor raised over USD$150 million in ICO 
+ Bancor has succeeded in supporting different business models such as
+ Bancor has succeeded in supporting different business models such as ETFs by exchanging ETFs by exchanging cryptocurrencies based on reserves However we believe it faces significant challenges due to the high cryptocurrencies based on reserves However we believe it faces significant challenges due to the high transaction fees and performance limits when running on Ethereum transaction fees and performance limits when running on Ethereum TTransaction fees and speed limits ransaction fees and speed limits when running on Ethereum when running on Ethereum 
+ EOS
+ EOS3
+ EOS is a blockchain platform that primarily focuses on scalability issues of Ethereum It is a Proof
+ EOS is a blockchain platform that primarily focuses on scalability issues of Ethereum It is a Proof ofof Stake consensus algorithm that generates blocks in every 3 seconds and removes the transaction fees Stake consensus algorithm that generates blocks in every 3 seconds and removes the transaction fees to invigorate to invigorate DAPPDAPPs s 
+ EOS even at its current devel
+ EOS even at its current developmental stage is anticipated by many for its potential to replace opmental stage is anticipated by many for its potential to replace Ethereum But so far there appears to be no substantial difference from Ethereum other than the Ethereum But so far there appears to be no substantial difference from Ethereum other than the consensus algorithm Furthermore its smart contract platform is based on virtual machines consensus algorithm Furthermore its smart contract platform is based on virtual machines like like Ethereum therefore we need to see if EOS is capable of handling massive realEthereum therefore we need to see if EOS is capable of handling massive real time transactions time transactions 
+ 2 ICON
+ Copyright 2017 ICON Foundation 7
+ 2 ICONICON
+ 2 1 Hyperconnect the Hyperconnect the WWorldorld
+ The ICON Project began with the goal to enrich our everyday lives through “connection” The history of
+ The ICON Project began with the goal to enrich our everyday lives through “connection” The history of mankind’s mankind’s technological innovation is related to our histtechnological innovation is related to our history of connection The creationory of connection The creation of postof postal serviceal service made it possible to conmade it possible to connect each other s thoughts without having to physically meet nect each other s thoughts without having to physically meet TTelephones made elephones made it possible to connect each other in real time regardless of the distance and wireless communication it possible to connect each other in real time regardless of the distance and wireless communication added freedom of mobilityadded freedom of mobility And with the advent of the Internet real And with the advent of the Internet real time connection to everything not time connection to everything not just people has become possible anywhere in the world Despite these breakthrough innovations just people has become possible anywhere in the world Despite these breakthrough innovations today’s level of connection is still not perfect today’s level of connection is still not perfect WithWith the ICON Project we are nthe ICON Project we are now moving closer to a ow moving closer to a more seamless connection more seamless connection 
+ We live in a world where it is possible to buy a cup of latte at Starbucks
+ We live in a world where it is possible to buy a cup of latte at Starbucks with one swipe of a credit cardwith one swipe of a credit card But in fact But in fact there isthere is a more complex process a more complex process behind the scenesbehind the scenes The inf The information acquired from POS ormation acquired from POS teterminalrminal includingincluding card number expiration date billing address and CVC are stored and transmitted to card number expiration date billing address and CVC are stored and transmitted to the databases of the databases of sevenseven ((77)) intermediaries such as a frontintermediaries such as a front end processor (FEP) company various fees end processor (FEP) company various fees are incurred at are incurred at eacheach stage of the process stage of the process The credit The credit card network iscard network is a centralized system a centralized system thatthat depends depends on security andon security and reliability reliability ofof trusted third partiestrusted third parties 
+ ICON is
+ ICON is aa decentralized decentralized networknetwork rather than the existing centralized rather than the existing centralized networknetwork Transactions on Transactions on the the ICON ICON Network Network are are verifiedverified byby aa ledger ledger shared within thshared within the e community network itself not community network itself not controlled controlled by a by a centralized authority This minimizes the involvement of unnecessary centralized authority This minimizes the involvement of unnecessary intermediariesintermediaries which which significantly significantly reducereducess the the fees fees In addition dIn addition decentralizationecentralization ensureensuress autonomy and independence of the community autonomy and independence of the community In order to be connected In order to be connected toto a centralized system it is inevitable to passively accept the policies and a centralized system it is inevitable to passively accept the policies and system determined by the centralized organization For instance to use VISA system determined by the centralized organization For instance to use VISA oror MasterCard for MasterCard for payment it payment it is necessary to use their designated system and follow their policies However is necessary to use their designated system and follow their policies However the the ICON ICON Network Network allows each community to autonomously determine the appropriate systems and policiesallows each community to autonomously determine the appropriate systems and policies while reliably connectwhile reliably connect to other communities when needed to other communities when needed 
+ ICON
+ ICON aims to eraaims to eradicatedicate the various boundaries that have been existed in the centralized system the various boundaries that have been existed in the centralized system Imagine Imagine stock investorstock investorss in Korea in Korea tradingtrading Apple stocks in real time with US stock investors Apple stocks in real time with US stock investors or or medicalmedical researchers at researchers at Korean university hospitalKorean university hospitalss obtaining permission to work wobtaining permission to work withith diabetes patients’ data diabetes patients’ data from Sydney and London “from Sydney and London “Tokenization” of Tokenization” of assets and rightsassets and rights are being acceleratedare being accelerated and and as a result as a result the dynamics of cthe dynamics of crossross border connections border connections is beingis being redefinedredefined Existing currencies tangible assets such Existing currencies tangible assets such as real estate and automoas real estate and automobiles intangible assets such as patents copyrights and trademarks biles intangible assets such as patents copyrights and trademarks our our legal legal rights such as voting rights and citizenship and even DNA data or blood test results rights such as voting rights and citizenship and even DNA data or blood test results can benefit from can benefit from tokeniztokenizationation4 This This forces us to rethink forces us to rethink everythingeverything even even obscureobscuress the spacethe space time boundarytime boundary and makes and makes disdistinguishingtinguishing tangibletangibles froms from intangibleintangibles meaninglesss meaningless It It is is possible to trade 0 2 apartments with 0 8 possible to trade 0 2 apartments with 0 8 cars and insurance fee cars and insurance fee cancan be be directly directly paid by uploading 5 posts on an SNS paid by uploading 5 posts on an SNS 
+ 2 2 Hyperconnect KoreaHyperconnect Korea
+ The Republic of Kore
+ The Republic of Korea a presents an ideal environment for blockchain presents an ideal environment for blockchain technology and cryptocurrency technology and cryptocurrency disruption disruption Korea Korea is is the top ranked ICT (ithe top ranked ICT (information and communications technologies) countrynformation and communications technologies) country in the in the worldworld5 andand thethe 1111thth largest economylargest economy6 Due to such reasons Korea has been Due to such reasons Korea has been aa key test market for global key test market for global tech companietech companies such as Facebooks such as Facebook7 In addition Korea is now quickly becoming a leader in digital In addition Korea is now quickly becoming a leader in digital currenciescurrencies8 and and aas of s of July 17 2017 tJuly 17 2017 the countrhe countryy’’ss top three (3) crypto exchanges all ranktop three (3) crypto exchanges all rank in the top ten in the top ten inin global daily global daily tradingtrading volumevolume9 
+ ICON has established
+ ICON has established itself as theitself as the dominant market leader in Koreadominant market leader in Korea via theloop a via theloop a KoreaKorea based based forfor profit blockchain technology company behind ICONprofit blockchain technology company behind ICON ((2 8 Implementation of loopchain2 8 Implementation of loopchain)) And this is only And this is only the beginning as we have the beginning as we have various various strategic plans strategic plans set set in motionin motion toto hyperconnect Korea hyperconnect Korea Asia Asia and thenand then
+ 2 ICON
+ Copyright 2017 ICON Foundation 8
+ eventually
+ eventually the world T the world The ICON team believes that thhe ICON team believes that thee fundraiser can greatly accelerate the fundraiser can greatly accelerate the growth of growth of the ICON the ICON NNetwork in Korea and etwork in Korea and further support further support our our ambition for globalambition for global expansionexpansion 
+ 2 3 How to How to DDesignesign
+ The
+ The ICON ICON PProject is not simply a connection of blockchain nodes but a deep study or an investigation roject is not simply a connection of blockchain nodes but a deep study or an investigation of communityof community toto community connectivity ICON started with the mission to create a protocol or community connectivity ICON started with the mission to create a protocol or cryptocurrency to be actively utilized in cryptocurrency to be actively utilized in the real world within and between actual communities There the real world within and between actual communities There were three (3) considerations when designing of the ICON Network were three (3) considerations when designing of the ICON Network 
+ 1)
+ 1) Components of Components of the the ICON NetworkICON Network
+ 2)
+ 2) How to connectHow to connect
+ 3)
+ 3) How to operateHow to operate
+ We first define the elements that constitute the ICON Net
+ We first define the elements that constitute the ICON Network then investigate the way each element work then investigate the way each element is connected We also look at how the ICON Network operates with a focus on the effective governanceis connected We also look at how the ICON Network operates with a focus on the effective governance
+ 2 4 Components of Components of the the ICON NetworkICON Network
+ Components of
+ Components of the the ICON Network ICON Network ①① Community Community ②② CC Node (Community Node) Node (Community Node) ③③ CC RepRep(Community Representative) (Community Representative) ④④ ICON Republic ICON Republic ⑤⑤ Citizen NodeCitizen Node
+ Community
+ Community
+ Community is a
+ Community is a network comprised of different nnetwork comprised of different nodes with odes with the the same governance system Financial same governance system Financial institutions governments schools institutions governments schools ee ccommerce platform ommerce platform hhealthcare Bitcoinealthcare Bitcoin and Ethereum can all be and Ethereum can all be considered considered a Community Each community has differa Community Each community has different compositions and scales of nent compositions and scales of nodes according odes according to their characteristics and circumstances to their characteristics and circumstances 
+ C
+ C NodeNode
+ C
+ C Node (Community Node) is the building block of a Community Node (Community Node) is the building block of a Community thatthat affects the consaffects the consensus or decisionensus or decision making process of Community governance Cmaking process of Community governance C Nodes are available to both individuals and organizations Nodes are available to both individuals and organizations (banks brokers insurers schools governments etc ) and Node policies are determined by (banks brokers insurers schools governments etc ) and Node policies are determined by the the members of members of each Community each Community 
+ C
+ C RepRep
+ C
+ C Rep (CoRep (Community Representative) is the represmmunity Representative) is the representative unit of Community that functions as entative unit of Community that functions as the the component of governance of ICON Republic It has the right to vote on verification and governance of component of governance of ICON Republic It has the right to vote on verification and governance of transactions in ICON Republic Ctransactions in ICON Republic C Rep is selected according to the decRep is selected according to the decision of each community and Cision of each community and C Rep can Rep can be be changechangedd from one from one nodenode to to ananother In other words Cother In other words C Rep Rep duties areduties are transferabletransferable depending depending on the situation and purpose of each governance Furthermore Con the situation and purpose of each governance Furthermore C Rep will receive incentives for its Rep will receive incentives for its maintenance and activatimaintenance and activation of ICON Republic on of ICON Republic 
+ ICON Republic
+ ICON Republic
+ ICON Republic is the
+ ICON Republic is the connectorconnector of different of different communities It is comprised of representatives called Ccommunities It is comprised of representatives called C 
+ 2 ICON
+ Copyright 2017 ICON Foundation 9
+ Rep and other Citizen
+ Rep and other Citizen NNodes ICON Republic s governance is determined by Codes ICON Republic s governance is determined by C Rep votesRep votes and hence and hence decentralizedecentralized d ICON Republic functions as a ICON Republic functions as a communication communication channel channel between communitiesbetween communities andand does does not affect the governance of not affect the governance of thethe communities communities 
+ Citizen Node
+ Citizen Node
+ Citizen Node is a component of ICON Republic Anyone can participate as Citizen Node by
+ Citizen Node is a component of ICON Republic Anyone can participate as Citizen Node by DAPPDAPPs s created on created on loopchainloopchain However Citizen Node does not have voting rights for the governance of ICON However Citizen Node does not have voting rights for the governance of ICON Republic and has only the right to create a transaction Citizen Node can also be CRepublic and has only the right to create a transaction Citizen Node can also be C Rep with the right Rep with the right to vote if certain conditions are met to vote if certain conditions are met 
+ 2 5 How to How to CConnectonnect
+ The types of connect
+ The types of connections in ions in the the ICON Network are ICON Network are ①① Connection between nConnection between nodes within a odes within a ssingle ingle Community Community ②② Connection between nConnection between nodes within ICON Republic odes within ICON Republic ③③ CConnection between onnection between Community and ICON Republic Community and ICON Republic ④④ CConnection between different Communitiesonnection between different Communities
+ Connection between n
+ Connection between nodes withodes within a in a ssingle Communityingle Community
+ Communities
+ Communities have the freedomhave the freedom choose or choose or customize customize aa blockchain blockchain thatthat fitfit their their needneed Therefore each Therefore each Community such as finance government school eCommunity such as finance government school e commerce healthcare Bitcoin and Ethereumcommerce healthcare Bitcoin and Ethereum can can be organized into different blockchains and can utilize different consensus algorithms be organized into different blockchains and can utilize different consensus algorithms 
+ Connection between n
+ Connection between nodes within ICON Republicodes within ICON Republic
+ ICON Republic is
+ ICON Republic is supportedsupported byby loopchainloopchain ICON Republic is designed to connect various communities ICON Republic is designed to connect various communities both in both in the real the real world and cworld and crypto world so that it adopts the consensus algorithm that allows realrypto world so that it adopts the consensus algorithm that allows real time time transaction processing ICON Republic has governance which is different from that of each community transaction processing ICON Republic has governance which is different from that of each community and operates on and operates on LFT (LFT (LoopLoop Fault Tolerance) consensus algorithmFault Tolerance) consensus algorithm 
+ Connection between Community and ICON Republic
+ Connection between Community and ICON Republic
+ Community and ICON Republic are connected in real
+ Community and ICON Republic are connected in real time via DEX (Dectime via DEX (Decentralized Exchange) DEX entralized Exchange) DEX sets currency rsets currency reserveeservess to provide exchange ratio in Community and ICON Republic in order to facilitate to provide exchange ratio in Community and ICON Republic in order to facilitate exchange values in real time based on that ratio When it comes to the connection of Community that exchange values in real time based on that ratio When it comes to the connection of Community that cannot reach a consensus in real time (e g Bitcoin Ethereum and Ethereumcannot reach a consensus in real time (e g Bitcoin Ethereum and Ethereum based Cryptocurrency) based Cryptocurrency) the agreement within ICON Republic the agreement within ICON Republic isis suspended until consensus is completed suspended until consensus is completed 
+ Connection between different Communities
+ Connection between different Communities
+ Connection between different Communities is available in ICON Republic ICON Republic is connected
+ Connection between different Communities is available in ICON Republic ICON Republic is connected to each communto each community in reality in real time through DEX (Decentralized Exchange) while Ctime through DEX (Decentralized Exchange) while C Node is also connected Node is also connected in realin real time to other Ctime to other C Nodes in different Communities via CNodes in different Communities via C Rep and ICON Republic on the basis of Rep and ICON Republic on the basis of ICX ICX 
+ 2 ICON
+ Copyright 2017 ICON Foundation 10
+ 2 6 How to How to OOperateperate
+ Community
+ Community
+ Each community operates independently
+ Each community operates independently based on its own governance according to the characteristics based on its own governance according to the characteristics of its own blockchain Separate from ICON Republic Communities can reach its own consensus to of its own blockchain Separate from ICON Republic Communities can reach its own consensus to decide the consensus algorithm consensusdecide the consensus algorithm consensus participating Node operation of a cryptocurrency in a participating Node operation of a cryptocurrency in a ComCommunity munity 
+ ICON Republic
+ ICON Republic
+ Governance of ICON Republic is determined by the consensus process of C
+ Governance of ICON Republic is determined by the consensus process of C Reps with the scope of Reps with the scope of governance limited to ICON Republic ICON Republic does not affect the governance of other governance limited to ICON Republic ICON Republic does not affect the governance of other communities but involves in the issuance and rcommunities but involves in the issuance and rewards policies of ICON Exchange Token ( ICX )ewards policies of ICON Exchange Token ( ICX )
+ 2 7 What to What to EExpectxpect
+ A wide variety of commun
+ A wide variety of communities ities are are beginning to be beginning to be formed around the world forformed around the world for various various business business purposes and relationships in purposes and relationships in the fieldthe field ofof finance public service logistics healthcare finance public service logistics healthcare IoT energy IoT energy manufacture emanufacture e ccommerceommerce and much more and much more With the development and spread of With the development and spread of blockchain technology blockchain technology the number of these communities isthe number of these communities is expected to accelerate In such an environment mexpected to accelerate In such an environment manyany tasks tasks areare handled through Smart Contracts and the role handled through Smart Contracts and the role of centralized agencies and intermediaries of centralized agencies and intermediaries is expected is expected to either to either shrink or disappear shrink or disappear 
+ 2 ICON
+ Copyright 2017 ICON Foundation 11
+ Smart Contracts not only revolutionizes the way members work within communities but also affects the
+ Smart Contracts not only revolutionizes the way members work within communities but also affects the way communities work with other communities way communities work with other communities In geneIn general most coral most communities mmunities begin with the goal of begin with the goal of improving the worimproving the work efficiency among the membersk efficiency among the members but in many cases but in many cases they evolve naturally in the they evolve naturally in the direction of increasing direction of increasing interactions with the members of other communitiesinteractions with the members of other communities In this case In this case instead ofinstead of handling external affairs through a separate centrahandling external affairs through a separate centralized institution lized institution Smart ContractSmart Contracts can reliably liaise s can reliably liaise the relationshipsthe relationships 
+ Many pundits call blockchain technology a megatrend
+ Many pundits call blockchain technology a megatrend and and ICON ICON has already positioned itself as thehas already positioned itself as the leadleaderer by creatby creatinging an environmean environment where all communities in ICON Republic nt where all communities in ICON Republic are interconnected in realare interconnected in real time through time through Smart Contracts Smart Contracts Furthermore aFurthermore as the number of communities connected through s the number of communities connected through the the ICON ICON Network Network incrincreases the number of transactions eases the number of transactions increaseincreasess exponentially resulting in maxiexponentially resulting in maximum mum utility of utility of the networkthe network 
+ 2 8 Implementation of loopchainImplementation of loopchain
+ We
+ We are in the process of implementingare in the process of implementing our our blockchain blockchain technology in technology in variousvarious industry communities made industry communities made up of reputable up of reputable ininstitutionsstitutions including capital market including capital marketss insurance university and healthcare Each insurance university and healthcare Each community has started to embrace the blockchain technology to solve existing inefficiencies and began community has started to embrace the blockchain technology to solve existing inefficiencies and began to recognize the possibilities of expanding beyond respective communities by connecting with other to recognize the possibilities of expanding beyond respective communities by connecting with other communiticommunities es In a sense ICON is a natural evolution of thriving blockchain ecosystem and is the In a sense ICON is a natural evolution of thriving blockchain ecosystem and is the solution to the need of bridgingsolution to the need of bridging disparate blockchain communities disparate blockchain communities 
+ Capital Market
+ Capital Marketss
+ ‘Korea Financial Investment Blockchain Consortium ’ the first industry
+ ‘Korea Financial Investment Blockchain Consortium ’ the first industry wide wide blockchain consortium blockchain consortium backed by 25 securities firms is leading the innovation of domestic capital marketbacked by 25 securities firms is leading the innovation of domestic capital marketss with with loopchainloopchain a a blockchain technology developed by theloop The first blockchain service to be launched by the blockchain technology developed by theloop The first blockchain service to be launched by the consortium in 2H 2017 is a BSIconsortium in 2H 2017 is a BSI basedbased authentication which enables direct authentication and authentication which enables direct authentication and generation/verification of digital signatures without the third party The consortium plans to expand its generation/verification of digital signatures without the third party The consortium plans to expand its blockchain services to other capital market processes including postblockchain services to other capital market processes including post trading and trading thtrading and trading through rough SCORE the SCORE the loopchainloopchain’s smart contract execution environment ’s smart contract execution environment 
+ 2 ICON
+ Copyright 2017 ICON Foundation 12
+ Throughout the global capital market countless transactions are constantly being carried out through
+ Throughout the global capital market countless transactions are constantly being carried out through large group of intermediaries and centralized institutions Because of these intelarge group of intermediaries and centralized institutions Because of these intermediaries the rmediaries the transaction becomes lengthy and backtransaction becomes lengthy and back office work becomes complicated In general the clearing and office work becomes complicated In general the clearing and settlement process (postsettlement process (post trading process) for stock transaction will take t+2 to t+3 days and the United trading process) for stock transaction will take t+2 to t+3 days and the United States alone spends over 9 billion States alone spends over 9 billion dollars every year dollars every year 
+ Insurance
+ Insurance
+ The top
+ The top tiered life insurance company in Korea and major university hospitals are working together on tiered life insurance company in Korea and major university hospitals are working together on a blockchain pilot project to incorporate theloop’s blockchain technology into the insurance claims and a blockchain pilot project to incorporate theloop’s blockchain technology into the insurance claims and payment process Thipayment process This project aims to automate the entire insurance claiming process from patient s project aims to automate the entire insurance claiming process from patient authentication to sending medical records to insurance providers through blockchain technologies authentication to sending medical records to insurance providers through blockchain technologies without any intermediaries The pilot project will be implemented through SCOREwithout any intermediaries The pilot project will be implemented through SCORE and plans to launch and plans to launch in early 2018 initially for select insurance products The project received a government grant from the in early 2018 initially for select insurance products The project received a government grant from the Ministry of Science ICT and Future Planning in April 2017 and is expected to gain further momentum Ministry of Science ICT and Future Planning in April 2017 and is expected to gain further momentum by adding more products and iby adding more products and inviting other insurance providers to the consortium nviting other insurance providers to the consortium 
+ Blockchain is driving the innovation of the insurance industry throughout its value chain
+ Blockchain is driving the innovation of the insurance industry throughout its value chain10 Innovation of Innovation of claims and payment services not only can reduce the cost by improving the efficiency of the transclaims and payment services not only can reduce the cost by improving the efficiency of the transaction action process but also will greatly enhance consumer experience thereby improving the overall satisfaction process but also will greatly enhance consumer experience thereby improving the overall satisfaction of the insurance industry of the insurance industry 
+ Compared to those of other financial industries transactions within the insurance industry frequently
+ Compared to those of other financial industries transactions within the insurance industry frequently involves externainvolves external parties (both in terms of data and transfer of funds) However these external l parties (both in terms of data and transfer of funds) However these external organizations generally operate on isolated system infrastructures unique to each institution which organizations generally operate on isolated system infrastructures unique to each institution which hampers efficient transactions By ensuring interoperability and mutual rehampers efficient transactions By ensuring interoperability and mutual reliability of different systems liability of different systems blockchain dramatically improves the efficiency of transactions between various organizations As such blockchain dramatically improves the efficiency of transactions between various organizations As such we believe blockchain technology will continue to attract vast amount of interest from the insurance we believe blockchain technology will continue to attract vast amount of interest from the insurance sector and accelerasector and accelerate the transformation of the industry ecosystem te the transformation of the industry ecosystem 
+ 2 ICON
+ Copyright 2017 ICON Foundation 13
+ University
+ University
+ U
+ U Coin (‘UniversityCoin (‘University Coin’) is a cryptocurrency for university students in major universities in Korea Coin’) is a cryptocurrency for university students in major universities in Korea Scheduled to launch its pilot test by the end of 2017 UScheduled to launch its pilot test by the end of 2017 U Coin received a grant by the Coin received a grant by the Ministry of Creation Ministry of Creation and Science in April 2017 and is expected to expand its services to other universities in Korea and Science in April 2017 and is expected to expand its services to other universities in Korea Furthermore UFurthermore U Coin will expand its ecosystem by creating other cryptocurrencyCoin will expand its ecosystem by creating other cryptocurrency based services that based services that can be used in nearby communities and can be used in nearby communities and university towns including cryptocurrency vending machines university towns including cryptocurrency vending machines and easy payment/transfer systems and easy payment/transfer systems 
+ University students are one of the most receptive to new technologies and have always been at the
+ University students are one of the most receptive to new technologies and have always been at the forefront of experiencing new innovations Especially with theforefront of experiencing new innovations Especially with the pace of innovation accelerating there pace of innovation accelerating there are disparities between age generations in how they adopt and embrace new technologies Similarly are disparities between age generations in how they adopt and embrace new technologies Similarly the university students will play a significant role in the spread of this innovative technology the university students will play a significant role in the spread of this innovative technology 
+ Healthcare
+ Healthcare
+ Prec
+ Precision Medical Hospital Information System (Pision Medical Hospital Information System (P HIS) is the largest Healthcare blockchain consortium HIS) is the largest Healthcare blockchain consortium in Korea joined in Korea joined by major domestic hospitals by major domestic hospitals and and loopchainloopchain will provide the underlying blockchain will provide the underlying blockchain technology technology 11 This project aims to build the network to sha This project aims to build the network to share precision medical data in a secure manner re precision medical data in a secure manner and plans broaden the scope of medical data distribution globally through global networks including and plans broaden the scope of medical data distribution globally through global networks including ODHSI (Observational Health Data Sciences and Informatics)ODHSI (Observational Health Data Sciences and Informatics)12 This consortium is building a safe and This consortium is building a safe and transparetransparent distribution system of medical information based on blockchain and promoting the nt distribution system of medical information based on blockchain and promoting the introduction of cryptocurrencies to the ecosystem introduction of cryptocurrencies to the ecosystem 
+ While sharing medical information is essential in improving the overall quality of medical services (e g 
+ While sharing medical information is essential in improving the overall quality of medical services (e g prevention diaprevention diagnosis treatment research etc ) improper disclosure or indiscriminate use of sensitive gnosis treatment research etc ) improper disclosure or indiscriminate use of sensitive personal information can cause great damages With the explosion of genomic information from nextpersonal information can cause great damages With the explosion of genomic information from next generation sequencing (‘NGS’) and medical data from wearable devicegeneration sequencing (‘NGS’) and medical data from wearable devices both interest and discussion s both interest and discussion about ways to securely share medical information have reached its allabout ways to securely share medical information have reached its all time high time high 
+ Blockchain technology is emerging as an alternative solution to this sensitive and complex problem 
+ Blockchain technology is emerging as an alternative solution to this sensitive and complex problem Blockchain ensures the interoperability Blockchain ensures the interoperability between different hospital systems and manage the access between different hospital systems and manage the access rights to data and records reliably We believe a secure distribution of medical information through rights to data and records reliably We believe a secure distribution of medical information through blockchain and a fair reward system for those who share their data through the network will invigblockchain and a fair reward system for those who share their data through the network will invigorate orate the medical ecosystem the medical ecosystem 
+ 2 ICON
+ Copyright 2017 ICON Foundation 14
+ 3 ICON Architecture
+ Copyright 2017 ICON Foundation 15
+ 3 ICON ArchitectureICON Architecture
+ 3 1 IntroductionIntroduction
+ ICON constitutes a network
+ ICON constitutes a network where where various blockchainvarious blockchain based independent based independent CCommunities are connected ommunities are connected via Cvia C RepRep to form a greater community or ICON Republicto form a greater community or ICON Republic In basic In basic ICON architecture Nexus supports ICON architecture Nexus supports ICON Republic while Portals support ICON Republic while Portals support CC RepRepss allowingallowing blockchains blockchains to be connected to Nexus so that to be connected to Nexus so that tokens tokens can be transferred with can be transferred with speed and trust speed and trust AA Nexus can connect to another Nexus and this allows Nexus can connect to another Nexus and this allows blockchain networks to scale and expand in diverse ways blockchain networks to scale and expand in diverse ways 
+ 3 2 Conceptual Conceptual MModel odel
+ With ICON numbers of blockchains are connected around Nexus via Portal Nexus is a
+ With ICON numbers of blockchains are connected around Nexus via Portal Nexus is a loopchainloopchain based blockchain It realizes a dbased blockchain It realizes a decentralized governance by allowing Portals and different nodes to ecentralized governance by allowing Portals and different nodes to participate Blockchain participate Blockchain Transmission Transmission Protocol (BTP) facilitates transactions among independent Protocol (BTP) facilitates transactions among independent blockchains connected to Nexus through respective Portals This structure connecting a networblockchains connected to Nexus through respective Portals This structure connecting a network with k with one type of governance to another network is same as that of Internet that connects every computer one type of governance to another network is same as that of Internet that connects every computer into one communication network by establishing Networks of Networks into one communication network by establishing Networks of Networks 
+ Internet is a computer network system across the globe that connects the wo
+ Internet is a computer network system across the globe that connects the world with standard Internet rld with standard Internet protocol called TCP/IP Likewise ICON uses BTP as the standard protocol In order to construct a protocol called TCP/IP Likewise ICON uses BTP as the standard protocol In order to construct a massive network of blockchains it guarantees independent governance to different blockchains and massive network of blockchains it guarantees independent governance to different blockchains and makes mutual connections only whemakes mutual connections only when they are needed It does not connect every participant to a single n they are needed It does not connect every participant to a single blockchain blockchain 
+ 3 3 NexusNexus
+ Nexus is a Multi
+ Nexus is a Multi Channel blockchain comprised of Light Client of respective blockchains Each Channel blockchain comprised of Light Client of respective blockchains Each blockchain is connected to Nexus via Portal and each Portal basically the representative of blockchain is connected to Nexus via Portal and each Portal basically the representative of independent networks participates in Nexus blockchain network as a nindependent networks participates in Nexus blockchain network as a node Since Nexus is built on the ode Since Nexus is built on the basis of basis of loopchainloopchain its consensus is reached based on LFT consensus algorithm one of the its consensus is reached based on LFT consensus algorithm one of the loopchainloopchain
+ 3 ICON Architecture
+ Copyright 2017 ICON Foundation 16
+ features with unique functions of grouping and voting rights adjustment Nexus includes a
+ features with unique functions of grouping and voting rights adjustment Nexus includes a Representation channel through whRepresentation channel through which operational policies are proposed and selected by voting Each ich operational policies are proposed and selected by voting Each Portal as the CPortal as the C Rep representing its community participates in the Representation channel Rep representing its community participates in the Representation channel 
+ Tokens called ICX (ICON Exchange) are embedded in Nexus and the interconnected blockchains can
+ Tokens called ICX (ICON Exchange) are embedded in Nexus and the interconnected blockchains can uuse ICX to transfer values Nexus incorporates Reserve channels that can issue ICX according to the se ICX to transfer values Nexus incorporates Reserve channels that can issue ICX according to the policies In principle every node that constitutes Nexus can issue ICX token by participating in Reserve policies In principle every node that constitutes Nexus can issue ICX token by participating in Reserve channel As a blockchain itself Nexus can be connechannel As a blockchain itself Nexus can be connected to another Nexus allowing different cted to another Nexus allowing different blockchains with different governance structures to execute transactions and exchange values blockchains with different governance structures to execute transactions and exchange values 
+ 3 4 PortalPortal
+ As a component that connects independent blockchain to Nexus Portals are connected to Nexus
+ As a component that connects independent blockchain to Nexus Portals are connected to Nexus through BTP through BTP Depending on the policy of respective blockchain Portal can be organized by a single Depending on the policy of respective blockchain Portal can be organized by a single node or multiple nodes or it can make another form of consensus network to serve the different needs node or multiple nodes or it can make another form of consensus network to serve the different needs 
+ This structure can be thought as a SWIFT
+ This structure can be thought as a SWIFT13 system where each countrysystem where each country has its own currency system has its own currency system but multiple banks within one country are able to be connected through the SWIFT network but multiple banks within one country are able to be connected through the SWIFT network Likewise Likewise tthe number of nodes in Nexus can also be single or plural Nodes are managed in one group by he number of nodes in Nexus can also be single or plural Nodes are managed in one group by loopchainloopchain’s grouping function and ’s grouping function and the voting of the nodes should comply to the Nexus policy Portal the voting of the nodes should comply to the Nexus policy Portal represents its own blockchain as a Crepresents its own blockchain as a C Rep and votes for the policies via Representation channel to Rep and votes for the policies via Representation channel to realize a decentralized governance realize a decentralized governance 
+ 3 5 BTPBTP (Blockchain Transmission Protocol)(Blockchain Transmission Protocol)
+ BTP is a protoco
+ BTP is a protocol to connect transactions among blockchains that are linked to Nexus It is through the l to connect transactions among blockchains that are linked to Nexus It is through the Notary channels in Nexus that the Transmitter blockchain transfers the transactions to the Receiver Notary channels in Nexus that the Transmitter blockchain transfers the transactions to the Receiver blockchain blockchain 
+ In this sense Nexus nodes with voting rights to the Not
+ In this sense Nexus nodes with voting rights to the Notary channels possess multiple channels where ary channels possess multiple channels where the Light Client of each blockchain connected to Nexus is counted as one channel A Notary channel is the Light Client of each blockchain connected to Nexus is counted as one channel A Notary channel is implemented based on Multiimplemented based on Multi Channel function of Channel function of loopchainloopchain It can identify the transactions confirmed It can identify the transactions confirmed by respective blockchains through the blockchain’s Light Client connected to Nexus by respective blockchains through the blockchain’s Light Client connected to Nexus 
+ 3 ICON Architecture
+ Copyright 2017 ICON Foundation 17
+ Multiple signatures of nodes with voting rights to Notary registration request are contained in blocks and
+ Multiple signatures of nodes with voting rights to Notary registration request are contained in blocks and these blocks formthese blocks form blockchains of Notary channel The block data with the transactions registered to blockchains of Notary channel The block data with the transactions registered to Notary channel will then be transmitted to the Receiver blockchain via Portal When the Receiver Notary channel will then be transmitted to the Receiver blockchain via Portal When the Receiver blockchain verifies the relevant block data it validates the signature of eblockchain verifies the relevant block data it validates the signature of each node based on the ach node based on the certificates of nodes from Notary channel If twocertificates of nodes from Notary channel If two thirds or more of the signatures are confirmed thirds or more of the signatures are confirmed according to the Notary channel standards which follows the LFT consensus algorithm the agreement according to the Notary channel standards which follows the LFT consensus algorithm the agreement will be confirmed and the requested trwill be confirmed and the requested transaction will be executed ansaction will be executed 
+ Multiple signatures of nodes with voting rights to Notary registration request are contained in blocks and
+ Multiple signatures of nodes with voting rights to Notary registration request are contained in blocks and these blocks form blockchains of Notary channel The block data with the transactions registered to these blocks form blockchains of Notary channel The block data with the transactions registered to Notary channel willNotary channel will then be transmitted to the Receiver blockchain via Portal When the Receiver then be transmitted to the Receiver blockchain via Portal When the Receiver blockchain verifies the relevant block data it validates the signature of each node based on the blockchain verifies the relevant block data it validates the signature of each node based on the certificates of nodes from Notary channel If twocertificates of nodes from Notary channel If two thirds or more of the signaturthirds or more of the signatures are confirmed es are confirmed according to the Notary channel standards which follows the LFT consensus algorithm the agreement according to the Notary channel standards which follows the LFT consensus algorithm the agreement will be confirmed and the requested transaction will be executed will be confirmed and the requested transaction will be executed 
+ 3 ICON Architecture
+ Copyright 2017 ICON Foundation 18
+ 3 6 DEXDEX (Decentralized Exchange)(Decentralized Exchange)
+ DEX
+ DEX14 is a trading market that executes transactions automatically on a blockchain rather than a is a trading market that executes transactions automatically on a blockchain rather than a centralized exchange that relies on a trusted third party typically represented by cryptocurrency centralized exchange that relies on a trusted third party typically represented by cryptocurrency exchanges Although centralized exchanges are easy to use and arexchanges Although centralized exchanges are easy to use and are available of various types of e available of various types of transactions such as reserved transactions and margin transactions users have to completely trust the transactions such as reserved transactions and margin transactions users have to completely trust the exchange and anonymous transactions are difficult to take place since users have to sign up before exchange and anonymous transactions are difficult to take place since users have to sign up before use In particular ususe In particular users are the ones who suffer from the damage when accidents such as hacking ers are the ones who suffer from the damage when accidents such as hacking break out as in thebreak out as in the case of the Mt Gox incidentcase of the Mt Gox incident15 DEX on the other hand enables automated DEX on the other hand enables automated transactions without the need to trust a particular exchange supports completely anonymtransactions without the need to trust a particular exchange supports completely anonymous ous transactions and is free from problems such as server breakdown and hacking Bitsquaretransactions and is free from problems such as server breakdown and hacking Bitsquare16 and and BitsharesBitshares17 are some examples of DEX but they had some issues of users always having to be online are some examples of DEX but they had some issues of users always having to be online during the transactions in addition to issues regarding liquduring the transactions in addition to issues regarding liquidity idity 
+ As a blockchain network that links multiple blockchains with their own unique governance ICON
+ As a blockchain network that links multiple blockchains with their own unique governance ICON provides DEX based on ICX It enables transactions among different cryptocurrencies by determining provides DEX based on ICX It enables transactions among different cryptocurrencies by determining the exchange rate through Reserve the exchange rate through Reserve based on the Bancor Pbased on the Bancor Protocolrotocol18 
+ For transactions between ETH and ICX DEX can be comprised of nodes with voting rights to Reserve
+ For transactions between ETH and ICX DEX can be comprised of nodes with voting rights to Reserve Smart Contracts within Ethereum and ICON In this case the price of ICX is determined according to Smart Contracts within Ethereum and ICON In this case the price of ICX is determined according to the following equation the following equation 𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝐵𝑎𝑙𝑎𝑛𝑐𝑒=𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑅𝑎𝑡𝑒 × 𝐼𝐶𝑋𝑉𝑜𝑙𝑢𝑚𝑒 × 𝐼𝐶𝑋𝑃𝑟𝑖𝑐𝑒 𝐼𝐶𝑋𝑃𝑟𝑖𝑐𝑒=𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝐵𝑎𝑙𝑎𝑛𝑐𝑒𝑅𝑒𝑠𝑒𝑟𝑣𝑒𝑅𝑎𝑡𝑒 × 𝐼𝐶𝑋𝑉𝑜𝑙𝑢𝑚𝑒
+ If one purchases ICX with ETH via DEX the Reserve Balance composed of ETH increases and the ICX
+ If one purchases ICX with ETH via DEX the Reserve Balance composed of ETH increases and the ICX VVolume decreases resulting in an increase in the ICX Price Conversely buying ETH with ICX reduces olume decreases resulting in an increase in the ICX Price Conversely buying ETH with ICX reduces the Reserve Balance and increases the ICX Volume resulting in a decrease in the ICX Price Please the Reserve Balance and increases the ICX Volume resulting in a decrease in the ICX Price Please refer to threfer to the Formulas for Bancor systeme Formulas for Bancor system19 for the details for the details on the purchase price and ICX token number on the purchase price and ICX token number calculation calculation 
+ If ICX is listed and traded on another exchange its value at the corresponding exchange and the value
+ If ICX is listed and traded on another exchange its value at the corresponding exchange and the value
+ 3 ICON Architecture
+ Copyright 2017 ICON Foundation 19
+ at ICON DEX may be different In this case arbitrage transactions which lead to ETH inflow and
+ at ICON DEX may be different In this case arbitrage transactions which lead to ETH inflow and eexchange will take place thereby resulting in similar price levels of ICX xchange will take place thereby resulting in similar price levels of ICX 
+ Such an ICX
+ Such an ICX based DEX scheme enables trading of the cryptocurrencies of various independent based DEX scheme enables trading of the cryptocurrencies of various independent blockchains connected to ICON In the case of blockchains that use BFTblockchains connected to ICON In the case of blockchains that use BFT20 series consensus algorithms series consensus algorithms in particular such as in particular such as loopchainloopchain exchanges are processed in real time For example if there is a exchanges are processed in real time For example if there is a blockchain for financial institutions connected to Nexus and a cryptocurrency called Fcoin used only blockchain for financial institutions connected to Nexus and a cryptocurrency called Fcoin used only among the concerned financiamong the concerned financial institutions Fcoin DEX service is provided based on the Reserve made al institutions Fcoin DEX service is provided based on the Reserve made up of Fcoin and ICX in which Fcoin and ICX can be traded in real time Moreover since the converted up of Fcoin and ICX in which Fcoin and ICX can be traded in real time Moreover since the converted ICX can then be used for exchange with other cryptocurrencies connected to ICON ICX can then be used for exchange with other cryptocurrencies connected to ICON transactions among transactions among different cryptocurrencies are ultimately realized different cryptocurrencies are ultimately realized 
+ Another key feature of ICON DEX is that it can establish an A I Analysis Model
+ Another key feature of ICON DEX is that it can establish an A I Analysis Model21 based on the based on the accumulated data such as total call volume transaction frequency and price involved in traccumulated data such as total call volume transaction frequency and price involved in transactions ansactions among different cryptocurrencies Such data enable various adjustments of features such as the among different cryptocurrencies Such data enable various adjustments of features such as the Reserve Rate and the Reserve composition ratio of each cryptocurrency which in turn create a stable Reserve Rate and the Reserve composition ratio of each cryptocurrency which in turn create a stable cryptocurrency that can be used in real life cryptocurrency that can be used in real life 
+ 3 7 NeNexus Public Channelxus Public Channel
+ Nexus includes a Public Channel opened to anyone It is embodied in Nexus through the Multi
+ Nexus includes a Public Channel opened to anyone It is embodied in Nexus through the Multi channel channel function of the function of the loopchainloopchain Anybody can participate in the Public Channel as the name implies Users Anybody can participate in the Public Channel as the name implies Users participating in the Public Channel participating in the Public Channel can not only participate in ICX transactions but can also create and can not only participate in ICX transactions but can also create and use various DAuse various DAPPPPss22 The concept of DA The concept of DAPPsPPs in Public Channel is similar to that of Ethereum but there in Public Channel is similar to that of Ethereum but there are differences in how it is deployed and executed Ethereum includes the compiled coare differences in how it is deployed and executed Ethereum includes the compiled codes in the des in the transaction data and executes the codes with Virtual Machine (VM) On the other hand in Public transaction data and executes the codes with Virtual Machine (VM) On the other hand in Public Channel DAChannel DAPPsPPs areare developed and registered in developed and registered in the the DADAPPsPPs Store in advance nodes that want to Store in advance nodes that want to participate in the transaction must download and instalparticipate in the transaction must download and install DAl DAPPsPPs from the DAfrom the DAPPsPPs Store in order to use Store in order to use it it 
+ Nodes participating in the Public Channel are divided into Light
+ Nodes participating in the Public Channel are divided into Light ClientClient based nodes that can register based nodes that can register and confirm transactions and Full Nodes which validate the transactions Full Nodes are chosen by and confirm transactions and Full Nodes which validate the transactions Full Nodes are chosen by RepreseRepresentation channels the consensus channels of Nexus and receive incentives when they validate ntation channels the consensus channels of Nexus and receive incentives when they validate transactions In addition Light Client nodes can also receive incentives according to various criteria transactions In addition Light Client nodes can also receive incentives according to various criteria such as the transaction size or the amount of ICX deposit such as the transaction size or the amount of ICX deposit 
+ 3 ICON Architecture
+ Copyright 2017 ICON Foundation 20
+ 3 8 GovernanceGovernance
+ ICON essentially aims for a decentralized governance Each blockchain connected to Nexus holds its
+ ICON essentially aims for a decentralized governance Each blockchain connected to Nexus holds its own governance and Nexus progresses discussions with an equal level of representation on behalf of own governance and Nexus progresses discussions with an equal level of representation on behalf of each independent blockchain like an indirecteach independent blockchain like an indirect democracydemocracy23 To this end Nexus also includes To this end Nexus also includes Representation channels to propose policies and cast votes Reserve channel to issue and manage Representation channels to propose policies and cast votes Reserve channel to issue and manage ICX in addition to Notary channels to process BTPICX in addition to Notary channels to process BTP 
+ Representation channel
+ Representation channel
+ Representation channel is a blockchain
+ Representation channel is a blockchain channel composed of nodes that participate as a Cchannel composed of nodes that participate as a C Rep and Rep and thus have the right to vote It is a consensus system that decides the rules of all issues take place in thus have the right to vote It is a consensus system that decides the rules of all issues take place in Nexus It is basically through CNexus It is basically through C Rep that blockchains connected to Nexus hold the voting righRep that blockchains connected to Nexus hold the voting rights Other ts Other nodes such as nodes that support offnodes such as nodes that support off chain transactionschain transactions24 of ICX exchange and banks can also of ICX exchange and banks can also participate in Representation channels In a Representation channel one can manage node policies participate in Representation channels In a Representation channel one can manage node policies regarding node addition and removal in Nexus adjust ICXregarding node addition and removal in Nexus adjust ICX transaction fee manage node selection and transaction fee manage node selection and removal from Notary channel Representation channel and Reserve channel In addition one can also removal from Notary channel Representation channel and Reserve channel In addition one can also discuss the policy regarding voting rights of nodes from different channels The policy that sets up the discuss the policy regarding voting rights of nodes from different channels The policy that sets up the voting voting right is similar to an Electoral College System By allocating the number of votes eligible in right is similar to an Electoral College System By allocating the number of votes eligible in proportion to the community size and the transaction scale it can reinforce the status of relatively small proportion to the community size and the transaction scale it can reinforce the status of relatively small communities communities 
+ Reserve channel
+ Reserve channel
+ Reserve channel is a blo
+ Reserve channel is a blockchain channel composed of nodes that can generate ICX in Nexus When ckchain channel composed of nodes that can generate ICX in Nexus When the Genesis block is created ICX will be issued according to predefined rules and the issued ICX will the Genesis block is created ICX will be issued according to predefined rules and the issued ICX will be stored in Public Treasury of Nexus At this stage an A I analysis model will be stored in Public Treasury of Nexus At this stage an A I analysis model will be established based be established based on total money supply and transaction size to decide the issue amount according to inflation rate and on total money supply and transaction size to decide the issue amount according to inflation rate and exchange rate exchange rate 
+ Anyone can participate in Reserve channel and participating nodes can issue bonds that can purchase
+ Anyone can participate in Reserve channel and participating nodes can issue bonds that can purchase ICX issued from NeICX issued from Nexus The bond limit is determined based on its contribution to invigorate the ICON xus The bond limit is determined based on its contribution to invigorate the ICON NNetwork Afterwards the nodes participating in Reserve channel can issue their own bonds as much etwork Afterwards the nodes participating in Reserve channel can issue their own bonds as much as they need exchange them for ICX and distribute ICX Nexus can withdrawas they need exchange them for ICX and distribute ICX Nexus can withdraw the bonds which was the bonds which was issued by these nodes and exchanged for ICX can exercise the bonds to withdraw ICX as needed in issued by these nodes and exchanged for ICX can exercise the bonds to withdraw ICX as needed in order to manage total money supporder to manage total money supplyly 
+ Incentives
+ Incentives
+ Transaction fees of ICX transaction and other types of transactions from different channel
+ Transaction fees of ICX transaction and other types of transactions from different channels are stored s are stored in Public Treasury of Nexus together with ICX which is steadily generated by Reserve channel in Public Treasury of Nexus together with ICX which is steadily generated by Reserve channel 
+ ICX stored in Public Treasury is exchanged for bonds of nodes participating in Nexus and distributed to
+ ICX stored in Public Treasury is exchanged for bonds of nodes participating in Nexus and distributed to the respective nodes The limit of the bond the respective nodes The limit of the bond depends on how much the node has contdepends on how much the node has contributed to invigorate ributed to invigorate the ICON Nthe ICON Network A scoring system called IISS (Ietwork A scoring system called IISS (ICON Incentives CON Incentives Scoring System) is applied here with Scoring System) is applied here with a variety of criteria the node’s 1) frozen ICX 2) Ca variety of criteria the node’s 1) frozen ICX 2) C Rep status 3) ICX exchange volume 4) ICXRep status 3) ICX exchange volume 4) ICX exchange volume of the whole community if it has one 5) ICX volume traded through DEX if it has one exchange volume of the whole community if it has one 5) ICX volume traded through DEX if it has one and so on Scoring model calculated according to these standards of IISS will be consistently and so on Scoring model calculated according to these standards of IISS will be consistently updated updated to invigorate the ICON Nto invigorate the ICON Network to the maximum on thetwork to the maximum on the basis of A I prediction modele basis of A I prediction model25 
+ 3 ICON Architecture
+ Copyright 2017 ICON Foundation 21
+ According to IISS the more actively the nodes participate in
+ According to IISS the more actively the nodes participate in the the ICON Network the more ICX they can ICON Network the more ICX they can secure secure 
+ Nodes participating in Reserve channel can use the acquired ICX as the basis for business such as
+ Nodes participating in Reserve channel can use the acquired ICX as the basis for business such as banking One banking One can issue bonds of higher limit based on ICX transaction volume and the ICX secured by can issue bonds of higher limit based on ICX transaction volume and the ICX secured by enlisting customers in a variety of deposit products and then secure more ICX based on the relevant enlisting customers in a variety of deposit products and then secure more ICX based on the relevant bonds to pay for interests on the deposits bonds to pay for interests on the deposits 
+ A variety of services i
+ A variety of services in addition to banking can be operated through DAn addition to banking can be operated through DAPPPPss of Public channel Besides of Public channel Besides making profit from charging fees on the services one can also benefit from securing ICX allocated by making profit from charging fees on the services one can also benefit from securing ICX allocated by IISS which may activate a variety of services One can also receive predeIISS which may activate a variety of services One can also receive predefined incentives in ICX after fined incentives in ICX after participating in Representation channel to conduct proposal and cast vote participating in Representation channel to conduct proposal and cast vote 
+ 5 Use Cases
+ Copyright 2017 ICON Foundation 22
+ 4 Inside ICONInside ICON
+ At t
+ At the core of ICON is he core of ICON is loopchainloopchain loopchainloopchain is a highis a high performance blockchain that can provide realperformance blockchain that can provide real time time transaction which is based on enhanced Smart Contract transaction which is based on enhanced Smart Contract 
+ 4 1 loopchainloopchain
+ Bitcoin
+ Bitcoin26 most synonymously used for virtual currency is a distributed ledger that actually verifies the most synonymously used for virtual currency is a distributed ledger that actually verifies the reliability of reliability of blockchain technology Early blockchain technologies mainly focused on virtual currencies blockchain technology Early blockchain technologies mainly focused on virtual currencies This led to the introduction of various virtual currencies which are actively traded through private This led to the introduction of various virtual currencies which are actively traded through private exchanges Unfortunately the early blockchain technologies haveexchanges Unfortunately the early blockchain technologies have failed to attract traditional financial failed to attract traditional financial institutions to implement this technology into their operations However with the introduction of institutions to implement this technology into their operations However with the introduction of EthereumEthereum27 and the concept of Smart Contractand the concept of Smart Contract28 the blockchain technology has entered a new phase the blockchain technology has entered a new phase with explosive interwith explosive interest from the industry Smart Contract can allow transactions to be executed without est from the industry Smart Contract can allow transactions to be executed without trusted third party and the blockchain technology which previously remained as a mere ledger for trusted third party and the blockchain technology which previously remained as a mere ledger for transactions was transformed into an application platform transactions was transformed into an application platform 
+ We have seen
+ We have seen various attempts to embody transactions without trusted third party using public various attempts to embody transactions without trusted third party using public blockchain platforms such as Ethereum within the finance industry However the transaction speed of blockchain platforms such as Ethereum within the finance industry However the transaction speed of 7~15 TPS (transactions per second)7~15 TPS (transactions per second)29 and the public nature of nodes greatand the public nature of nodes greatly limited the implementation ly limited the implementation of the blockchain technology to highly regulated financial sectors In order to overcome such limitations of the blockchain technology to highly regulated financial sectors In order to overcome such limitations the need for enterprise blockchain technologies where only validated nodes can participated in the the need for enterprise blockchain technologies where only validated nodes can participated in the transaction emerged transaction emerged Hyperledger FabricHyperledger Fabric30 and R3 Cordaand R3 Corda31 have been leading this effort to introduce have been leading this effort to introduce enterprise blockchain technology to various industries including finance supply chain and public enterprise blockchain technology to various industries including finance supply chain and public sectors sectors 
+ Since majority of industries have different operational requirements
+ Since majority of industries have different operational requirements and governance structures an and governance structures an enterprise blockchain with flexible features is necessary to accommodate such diverse needs This idea enterprise blockchain with flexible features is necessary to accommodate such diverse needs This idea was the start of was the start of loopchainloopchain loopchainloopchain is a highis a high performance enterprise blockchain with Smart Contract performance enterprise blockchain with Smart Contract features that can be features that can be customized according to operational needs and linked with other distributed ledger customized according to operational needs and linked with other distributed ledger networks networks 
+ 4 2 FeaturesFeatures
+ Consensus
+ Consensus
+ LFT (
+ LFT (LLoopoop Fault Tolerance) is an enhanced BFT (Byzantine Fault Tolerance)Fault Tolerance) is an enhanced BFT (Byzantine Fault Tolerance)32 based algorithm that based algorithm that promotes faster consensus and ensures the finalpromotes faster consensus and ensures the finality of the consensus without the possibility of forks ity of the consensus without the possibility of forks within the network LFT supports faster consensus by creating a group among trusted nodes LFT can within the network LFT supports faster consensus by creating a group among trusted nodes LFT can accommodate diverse consensus structure by allowing such groups or nodes to freely determine the accommodate diverse consensus structure by allowing such groups or nodes to freely determine the numbernumber of votes of votes 
+ SCORE
+ SCORE (Smart Contract On Reliable Environment)(Smart Contract On Reliable Environment)
+ SCORE is an enhanced Smart Contract feature of
+ SCORE is an enhanced Smart Contract feature of loopchainloopchain that ensures highthat ensures high performance contracts performance contracts to run directly in the node operation environment without a separate Virtual Machine (VM) SCORE is to run directly in the node operation environment without a separate Virtual Machine (VM) SCORE is eeasily deployable and can be created for various applications as it runs separate from the underlying asily deployable and can be created for various applications as it runs separate from the underlying blockchain processes blockchain processes 
+ 5 Use Cases
+ Copyright 2017 ICON Foundation 23
+ Multi
+ Multi ChannelChannel
+ Multi
+ Multi channelchannel33 feature allows independent channels to be created within the same blockchain network feature allows independent channels to be created within the same blockchain network and execute requeand execute request consensus and Smart Contracts Since the channel is established with only two st consensus and Smart Contracts Since the channel is established with only two business nodes integrity and assurance are ensured on a channelbusiness nodes integrity and assurance are ensured on a channel byby channel basis and transaction channel basis and transaction data is held only by actual transaction partiesdata is held only by actual transaction parties 
+ Tiered System
+ Tiered System
+ Apart from
+ Apart from the initial authentication process to participate in a blockchain network each transaction is the initial authentication process to participate in a blockchain network each transaction is validated and secured through PKIvalidated and secured through PKI based authentication based authentication loopchainloopchain can also set different access can also set different access privileges to create nodes with specific functions (e g audit supervision) to monitor certain transactions privileges to create nodes with specific functions (e g audit supervision) to monitor certain transactions if necessary without participating in the actual transaction if necessary without participating in the actual transaction 
+ 4 3 ConsensusConsensus
+ Background
+ Background
+ Bitcoin the first service to
+ Bitcoin the first service to implement blockchain has achieved the consensus of all bitcoin nodes implement blockchain has achieved the consensus of all bitcoin nodes transaction ledger in a network of a global scale using algorithm of Proof of Worktransaction ledger in a network of a global scale using algorithm of Proof of Work34 However the However the algorithm of Proof of work used in Bitcoin experienced difficulties under the circumstanalgorithm of Proof of work used in Bitcoin experienced difficulties under the circumstances requiring ces requiring efficiency and spontaneity of payment due to low processing speed inefficient energy usage and partial efficiency and spontaneity of payment due to low processing speed inefficient energy usage and partial network split network split 
+ To resolve this type of the problem we started to use BFT (Byzantine Fault Tolerance)
+ To resolve this type of the problem we started to use BFT (Byzantine Fault Tolerance)35 series series consensus algorithm mainly consensus algorithm mainly used for a traditional state machine replication For data consensus BFT used for a traditional state machine replication For data consensus BFT series consensus algorithms (famous for PBFT (Practical Byzantine Fault Tolerance)series consensus algorithms (famous for PBFT (Practical Byzantine Fault Tolerance)36) make ) make consensus by voting for validation of data and sharing the results Tendermintconsensus by voting for validation of data and sharing the results Tendermint37 announced bannounced blockchain lockchain consensus algorithm that modified PBFT algorithm into DPOS (Delegated Proof Of Stake) In addition consensus algorithm that modified PBFT algorithm into DPOS (Delegated Proof Of Stake) In addition IBM Fabric a private blockchain project for enterprise chose PBFT as a consensus algorithm in version IBM Fabric a private blockchain project for enterprise chose PBFT as a consensus algorithm in version 0 6 and attempted to utilize SBFT (Simple0 6 and attempted to utilize SBFT (Simple Byzantine Fault Tolerance) that simplified PBFT as a Byzantine Fault Tolerance) that simplified PBFT as a consensus algorithm for Orderer service in version 1 0 consensus algorithm for Orderer service in version 1 0 
+ LFT
+ LFT (Loop Fault Tolerance)(Loop Fault Tolerance)
+ LFT is a traditional BFT consensus algorithm that improved Raft
+ LFT is a traditional BFT consensus algorithm that improved Raft38 algorithm one of the State machine algorithm one of the State machine replicationreplication39 algoralgorithms that is often used as Fault Tolerance mechanism in the current distributed ithms that is often used as Fault Tolerance mechanism in the current distributed environment to be Byzantine Fault Tolerant and optimize itself to the nature of blockchain network environment to be Byzantine Fault Tolerant and optimize itself to the nature of blockchain network 
+ 5 Use Cases
+ Copyright 2017 ICON Foundation 24
+ The object that organizes the blockchain network is called node These n
+ The object that organizes the blockchain network is called node These nodes are responsible for odes are responsible for generation validation retention of blocks and each node can create a signature that can distinguish its generation validation retention of blocks and each node can create a signature that can distinguish its own message Most of the networks using consensus BFT series algorithms can be divided into leader own message Most of the networks using consensus BFT series algorithms can be divided into leader nodes and validation nodesnodes and validation nodes Leader nodes vote for validation of a block by verifying the contents that Leader nodes vote for validation of a block by verifying the contents that leader has made LFT can be also divided into leader nodes and validation nodes leader has made LFT can be also divided into leader nodes and validation nodes 
+ In the initial stage of the network verification nodes transfer the transactions that need to be
+ In the initial stage of the network verification nodes transfer the transactions that need to be executed executed to the leader node The leader node then creates a block from collected transactions and transfers the to the leader node The leader node then creates a block from collected transactions and transfers the block to all the other verification nodes with its own signature When each verification node receives the block to all the other verification nodes with its own signature When each verification node receives the block they 1) confirm the creation block they 1) confirm the creation of the block 2) check if the block level and the prior block hash are of the block 2) check if the block level and the prior block hash are correct and 3) validate the block data If step 1 to 3 are correct ‘vote data’ is generated and shared to correct and 3) validate the block data If step 1 to 3 are correct ‘vote data’ is generated and shared to all nodes It is important to transmit vote data to every node If leader nodall nodes It is important to transmit vote data to every node If leader node is Byzantine it is possible e is Byzantine it is possible to separate certain nodes from the network by transmitting blocks only to the nodes that is above the to separate certain nodes from the network by transmitting blocks only to the nodes that is above the quorum To prohibit this sort of problem vote data is transmitted to every node A node without any quorum To prohibit this sort of problem vote data is transmitted to every node A node without any block can know if the block can know if the block is created or not and also request the block to the others block is created or not and also request the block to the others 
+ To create blocks leader receives vote data from nodes more than quorum Leader creates new blocks
+ To create blocks leader receives vote data from nodes more than quorum Leader creates new blocks with vote data and transmits to every node This saves the need to transmit every data oncewith vote data and transmits to every node This saves the need to transmit every data once again to again to guarantee that nodes more than the quorum have finished the same vote It also allows to confirm the guarantee that nodes more than the quorum have finished the same vote It also allows to confirm the block by verifying the vote of new blocks If transmitted block is not the initial one validated node block by verifying the vote of new blocks If transmitted block is not the initial one validated node performs verification of vote data more thperforms verification of vote data more than quorum when verifying blocks This is when every node an quorum when verifying blocks This is when every node final commits prior blocks final commits prior blocks 
+ The blockchain is a technique for nodes without trust to construct a trust network through distributed
+ The blockchain is a technique for nodes without trust to construct a trust network through distributed data agreement Not every state machine guarantees a response like tdata agreement Not every state machine guarantees a response like the current state machine he current state machine replication system Each node provides a service and creates a transaction Leader nodes can reject a replication system Each node provides a service and creates a transaction Leader nodes can reject a transaction of a specific node when a block is created To minimize this problem Spinningtransaction of a specific node when a block is created To minimize this problem Spinning40 was used was used to reduce the number of servto reduce the number of service faults that could be caused by the Byzantine leader by replacing the ice faults that could be caused by the Byzantine leader by replacing the leader for every block creation In addition we have developed a method to directly tolerate a fault leader for every block creation In addition we have developed a method to directly tolerate a fault handler by avoiding the complicated leader fault tolerance algorithm used in exishandler by avoiding the complicated leader fault tolerance algorithm used in existing algorithms such ting algorithms such as Tangoraas Tangora41 
+ LFT is a distributed consensus algorithm for permissioned blockchain We improved the existing BFT
+ LFT is a distributed consensus algorithm for permissioned blockchain We improved the existing BFT algorithm for the blockchain and simplified the process using block data Details of the consensus algorithm for the blockchain and simplified the process using block data Details of the consensus process can be found in process can be found in LFT white paperLFT white paper42 
+ 4 4 SCORESCORE (Smart Contract on Reliable Environment)(Smart Contract on Reliable Environment)
+ SCORE indicates Smart Contract provided from
+ SCORE indicates Smart Contract provided from loopchainloopchain SCORE ensures a high SCORE ensures a high performance since performance since it runs directly in real runtime but not a separate VM It is executed on a runtime based on a it runs directly in real runtime but not a separate VM It is executed on a runtime based on a container container separated from basic blockchain process so the basic blockchain process can still function properly separated from basic blockchain process so the basic blockchain process can still function properly even if there is problem with Smart Contract even if there is problem with Smart Contract 
+ One of the key characteristics of SCORE is the repository based versioning features Generally whe
+ One of the key characteristics of SCORE is the repository based versioning features Generally when n a Smart Contract is updated data migration is required However with our versioning capability Smart a Smart Contract is updated data migration is required However with our versioning capability Smart Contract does not require data migration with every update This means that Smart Contract update Contract does not require data migration with every update This means that Smart Contract update process is easy and quick process is easy and quick 
+ It provides a local
+ It provides a local repository by default for SCORE distribution and developers can easily deploy and repository by default for SCORE distribution and developers can easily deploy and update Smart Contracts by using a remoteupdate Smart Contracts by using a remote repository called SCORE Store repository called SCORE Store 
+ 5 Use Cases
+ Copyright 2017 ICON Foundation 25
+ 4 5 BSI (Blockchain Signature Infrastructure)BSI (Blockchain Signature Infrastructure)
+ BSI is based on Smart Contract to enables the constructi
+ BSI is based on Smart Contract to enables the construction of digital signature infrastructures like Public on of digital signature infrastructures like Public Key Infrastructure (PKI) In the existing PKI a separate Trusted Third Party (TTP) that has no relation Key Infrastructure (PKI) In the existing PKI a separate Trusted Third Party (TTP) that has no relation to the transactions was needed to store keys safely and issue/manage certificates using the keys to the transactions was needed to store keys safely and issue/manage certificates using the keys 
+ H
+ However BSI does not need to manage separate keys for certificate issuance since it issues X 509 owever BSI does not need to manage separate keys for certificate issuance since it issues X 509 certificates which are issued by creating digital signature on the basis of information that can process certificates which are issued by creating digital signature on the basis of information that can process Merkle tree based Proof of Existence In Merkle tree based Proof of Existence In loopchainloopchain B BSISI based certificates are issued to nodes based certificates are issued to nodes participating as Light Clientparticipating as Light Client43 in addition to normal nodes participating validation and consensus to use in addition to normal nodes participating validation and consensus to use as digital signature to authentication and transaction of relevant nodes as digital signature to authentication and transaction of relevant nodes 
+ • ComponentsComponents
+ ✓ Users Generate Users Generate PKIPKI based key pairs and manage issued certificatesbased key pairs and manage issued certificates
+ ✓ RARA (Registra(Registration Authtion Authoorityrity) ) Identifies the user and requests for certificate issuanceIdentifies the user and requests for certificate issuance
+ ✓ CACA (Certificate (Certificate AuthorityAuthority) SCORE ) SCORE Provides services related to certificate issuance by Smart Provides services related to certificate issuance by Smart Contracts on Contracts on loopchainloopchain rather than separate institutionsrather than separate institutions
+ 6 Roadmap
+ Copyright 2017 ICON Foundation 26
+ 5 RoadmapRoadmap
+ 5 1 Business RoadmapBusiness Roadmap Date Description 2017 Q3 • Open source of loopchain • 1st Developers meet up • Partnership with major bank
+ 2017 Q4
+ • ICO
+ • Listing of ICX
+ • Financial Investment Consortium Blockchain ID service open
+ • U Coin pilot service open 3 Universities
+ • Insurance Blockchain based auto claim pilot service open 2018 Q1 • 2nd Developers meet up • Expansion of DEX reserve pool to most of major cryptocurrencies • Expansion of partnership with blockchain networks
+ 2018 Q3
+ • 3rd Developers meet up
+ • U Coin Expansion 10 Universities
+ • Financial Investment Consortium Second service launch
+ 5 2 Technical RoadmapTechnical Roadmap Date Version Description 2017 Q3 V1 RC • Nexus Testnet launch
+ 2017 Q4
+ V1 GA
+ • Nexus Mainnet launch
+ • Reserve channel open
+ • IISS implementation
+ • DEX(Ethereum/ICX) launch
+ • Wallet Web/iOS/Android 2018 Q1 V2 • Representation channel open • Public channel open • A I advisor launch
+ 7 ICX Token
+ Copyright 2017 ICON Foundation 27
+ 6 ICX token ICX token
+ 6 1 Term Term SummarySummary
+ ▪ Target Amount offered 150 000 ETHTarget Amount offered 150 000 ETH
+ ▪ Currency accepted ETH OnlyCurrency accepted ETH Only
+ ▪ FixeFixed Price 0 0004 ETH per 1 ICX (d Price 0 0004 ETH per 1 ICX (2 500 ICX per 1ETH)2 500 ICX per 1ETH)
+ ▪ Duration Duration Token Sale will close early if target amountToken Sale will close early if target amount is reachedis reached
+ ▪ Offering Summary Offering Summary Topic Description ICX TokenICX Token • ICX is a ICX is a loopchainloopchain based smart contract digital protocol that facilitates based smart contract digital protocol that facilitates verifies and enacts a negotiated agreement between consenting parties verifies and enacts a negotiated agreement between consenting parties within ICONwithin ICON
+ The Issuer
+ The Issuer
+ • ICON Foundation a Swiss nonprofit organizationICON Foundation a Swiss nonprofit organization RightsRights • ICX represents limited license to ICX represents limited license to validate the ICON and DEXvalidate the ICON and DEX • No voting or membership rightsNo voting or membership rights • No sharing of revenue dividends equity etc No sharing of revenue dividends equity etc 
+ Refunds
+ Refunds
+ • NoneNone RedemptionRedemption • Buyback option in open market (treasury)Buyback option in open market (treasury) • Regulatory redemptionRegulatory redemption
+ Listing
+ Listing
+ • DEX (immediate with ETH)DEX (immediate with ETH)
+ • Exchange partnersExchange partners
+ 7 ICX Token
+ Copyright 2017 ICON Foundation 28
+ 6 2 AllocationAllocation
+ ▪ Expected allocation of the ICX Token are Expected allocation of the ICX Token are Token SaleToken Sale 50% Foundation 14% Community 50% Foundation 14% Community GGroup & roup & Strategy Partners 10% Team Advisors & Early Strategy Partners 10% Team Advisors & Early CContributors 10% and Reserve 16% ontributors 10% and Reserve 16% 
+ 6 3 Use of Use of PProceedsroceeds
+ ▪ Selected key use of proceeds are Tech Company Reserve Foundation Operating Business Selected key use of proceeds are Tech Company Reserve Foundation Operating Business development and Strategy Partner development and Strategy Partner 
+ 7 ICX Token
+ Copyright 2017 ICON Foundation 29
+ ▪ Tech Company Tech Company Development expense for blockchain engine Development expense for blockchain engine DAPPDAPPs artificial intelligence etc s artificial intelligence etc 
+ ▪ Reserve Required for realReserve Required for real time DEX time DEX with other blockchain network Reserve is divided into with other blockchain network Reserve is divided into Reserve1 (ETH Reserve) and Reserve2 (Other Reserve) Reserve1 is required for DEX with Reserve1 (ETH Reserve) and Reserve2 (Other Reserve) Reserve1 is required for DEX with Ethereum based networks and Reserve2 is required for DEX with other nonEthereum based networks and Reserve2 is required for DEX with other non Ethereum based Ethereum based networks networks 
+ ▪ Foundation expensFoundation expense Covers operating expenses marketing fees legal & account fees associated e Covers operating expenses marketing fees legal & account fees associated with the ICON Foundationwith the ICON Foundation
+ ▪ Business development fee Fees associated with the global expansion of the ICON Foundation Business development fee Fees associated with the global expansion of the ICON Foundation including offices and business development related expensesincluding offices and business development related expenses
+ ▪ SStrategy Partner Costs associated with ICtrategy Partner Costs associated with ICXX expansion which are provided to the Global Business expansion which are provided to the Global Business PartnerPartner
+ 8 Issuance and Incentives
+ Copyright 2017 ICON Foundation 30
+ 7 Issuance and IncentivesIssuance and Incentives
+ 7 1 Issuance Policy Issuance Policy
+ Issuance
+ Issuance
+ ICX can be issued
+ ICX can be issued up toup to 20% of total volume annually with the conse20% of total volume annually with the consensus of ICON Republic taking into nsus of ICON Republic taking into consideration the ICX trading volume DEX trading volume freezing volume anconsideration the ICX trading volume DEX trading volume freezing volume and transaction fee d transaction fee However ICXHowever ICX isis not directly issued but by providing nodes with the right to issuance These rights not directly issued but by providing nodes with the right to issuance These rights are are granted to the nodes granted to the nodes on on ICON Republic and each node is entitled to receive ICX from the ICON ICON Republic and each node is entitled to receive ICX from the ICON Foundation by exercising Foundation by exercising itsits rights Each Node may exercise rights Each Node may exercise itsits rights at any time and does not have rights at any time and does not have to to exercise immediately exercise immediately 
+ Rights granted to each
+ Rights granted to each nnode are determined based on the Iode are determined based on the ICCXX Issuing Scoring System (IISS) and each Issuing Scoring System (IISS) and each nnode is granted in accordance to its IISS score Nodes in ICON Republic can acquire ICX by exercising ode is granted in accordance to its IISS score Nodes in ICON Republic can acquire ICX by exercising their rights their rights 
+ IISS
+ IISS (IC(ICONON Incentives Scoring System)Incentives Scoring System)
+ IISS is an artificial intelligence (AI) based evaluation
+ IISS is an artificial intelligence (AI) based evaluation system for effective ICX distribution policy IISS is system for effective ICX distribution policy IISS is based on a financial AI solution called ‘DAVinCI ’ which uses machine learning technology to enhance based on a financial AI solution called ‘DAVinCI ’ which uses machine learning technology to enhance CSS (Credit Scoring System) of existing financial institutions DAVinCI’s AI algorithm provideCSS (Credit Scoring System) of existing financial institutions DAVinCI’s AI algorithm providess anan oopptimal prediction model for timal prediction model for ICON Republic ICON Republic 
+ Moreover components including ICX transaction volume DEX transaction volume freezing volume 
+ Moreover components including ICX transaction volume DEX transaction volume freezing volume and transaction fee will be used as and transaction fee will be used as important evaluation criteriaimportant evaluation criteria for IISS IISS relies on DAVinCI to for IISS IISS relies on DAVinCI to continuously ancontinuously analyze learn and evolve relevant data on ICON Republic alyze learn and evolve relevant data on ICON Republic 
+ 7 2 Transaction Transaction FFeeee
+ The transaction fee is set at 0 01 ICX per transaction to protect against DDOS attacks The transaction
+ The transaction fee is set at 0 01 ICX per transaction to protect against DDOS attacks The transaction fee is paid in ICX and other tokens can be converted into ICX through DEX fee is paid in ICX and other tokens can be converted into ICX through DEX Newly generated Newly generated transaction fees are reserved in the Ptransaction fees are reserved in the Public Treasury from which the nublic Treasury from which the nodes can withdraw their ICX odes can withdraw their ICX through exercise of rights Transaction fee can be modified through governance consensus through exercise of rights Transaction fee can be modified through governance consensus 
+ 7 3 Public Treasury Public Treasury
+ Public Treasury is a public walle
+ Public Treasury is a public wallet that is responsible for the issuance and storage of ICX The Public t that is responsible for the issuance and storage of ICX The Public Treasury operates according to Treasury operates according to the policies agreed upon by the policies agreed upon by ICON Republic ICON Republic 
+ 7 4 IncentivesIncentives
+ Incentives are provided to all
+ Incentives are provided to all nnodes in ICON Republic Incentives are provided automatically throughodes in ICON Republic Incentives are provided automatically through IISS and granted in the form of the right to issue ICX IISS and granted in the form of the right to issue ICX 
+ 7 5 Freezing FeeFreezing Fee
+ 8 Issuance and Incentives
+ Copyright 2017 ICON Foundation 31
+ Freezing allows ICX to be deposited in the DEX Reserve Pool allowing all participants with ICX to freeze their ICX The volume of ‘Frozen’ ICX is one of the significant evaluation criteria of IISS 
+ Appendix
+ Copyright 2017 ICON Foundation 32
+ Appendix
+ Appendix
+ A 1 
+ A 1 DefinitionDefinitionss
+ Transaction(Tx)
+ Transaction(Tx)
+ ▪ A unit of information Contains information that needs to be saved using blockchain A unit of information Contains information that needs to be saved using blockchain 
+ Block
+ Block
+ ▪ A single container containing a A single container containing a collection of multiple transactions Contains one or multiple collection of multiple transactions Contains one or multiple Transactions Transactions 
+ Peer
+ Peer
+ ▪ Represents one peer on the P2P network Most blockchain tasks are performed by peers Represents one peer on the P2P network Most blockchain tasks are performed by peers 
+ ▪ Create TransactionCreate Transaction
+ ▪ Exchanges Block and Transaction on P2P networkExchanges Block and Transaction on P2P network
+ Leader Peer
+ Leader Peer
+ ▪ The Peer thThe Peer that can create a Block among Peers in the P2P networkat can create a Block among Peers in the P2P network
+ ▪ Creates a Block by collecting Transactions on a regular basis and distributes the Block on the Creates a Block by collecting Transactions on a regular basis and distributes the Block on the NetworkNetwork
+ ▪ Collects Transactions created by each PeerCollects Transactions created by each Peer
+ Radio
+ Radio StationStation
+ ▪ Creates Creates GroupGroup
+ ▪ Connects Peers with GroupConnects Peers with Group
+ ▪ AllAll running Peers connect to Radiorunning Peers connect to Radio Station to obtain the connection status of the neighboring peers Station to obtain the connection status of the neighboring peers in the groupin the group
+ ▪ Monitors the status of each PeerMonitors the status of each Peer
+ SCORE
+ SCORE
+ ▪ Smart Contract supported by Smart Contract supported by loopchainloopchain
+ ▪ A Function that alters the state value with Transaction as an input vA Function that alters the state value with Transaction as an input valuealue
+ ▪ Runs after the Block is verified and a new Block is addedRuns after the Block is verified and a new Block is added
+ Service System
+ Service System
+ ▪ An application system that attempts to use a blockchain It may be a Legacy system that has been An application system that attempts to use a blockchain It may be a Legacy system that has been used before or a Service that is newly createdused before or a Service that is newly created
+ Appendix
+ Copyright 2017 ICON Foundation 33
+ A 2 
+ A 2 SCORESCORE
+ SCORE
+ SCORE Code ConfiguratCode Configurationion
+ The function of each function is as follows 
+ The function of each function is as follows 
+ ▪ invoke() adds data of a verified Block to a separate embedded databaseinvoke() adds data of a verified Block to a separate embedded database
+ ▪ query() query internal dataquery() query internal data
+ SCORE
+ SCORE Processing FlowProcessing Flow
+ Conditions
+ Conditions
+ ▪ Peer owns ScorePeer owns Score
+ ▪ Provided separatelyProvided separately
+ Appendix
+ Copyright 2017 ICON Foundation 34
+ Sequence
+ Sequence
+ ① LeaderPeer LeaderPeer creates an invalidated blockcreates an invalidated block
+ ② Peer saves the invalidated block in a blockchain and sends the verification result to Peer saves the invalidated block in a blockchain and sends the verification result to LeaderPeerLeaderPeer
+ ③ LeaderPeer verifies the invalidated block based on the verification result sent by Peer(s)LeaderPeer verifies the invalidated block based on the verification result sent by Peer(s)
+ ④ Transfers the invoke() function of bloTransfers the invoke() function of block and SCORE through Parameter when Peer saves ck and SCORE through Parameter when Peer saves the verified block in a blockchain the verified block in a blockchain
+ ⑤ SCORE needs to inherit write and add a class called ScoreBase An actual transfer of SCORE needs to inherit write and add a class called ScoreBase An actual transfer of information takes place information takes place 
+ ⑥ Runs the invoke() function by putting in the data of the TransRuns the invoke() function by putting in the data of the Transaction which is included in the action which is included in the block inside SCOREblock inside SCORE
+ ⑦ Saves the result of execution in SCORE storage or takes ActionSaves the result of execution in SCORE storage or takes Action
+ ⑧ Saves block in the blockchainSaves block in the blockchain
+ A 3 
+ A 3 Integration of Integration of loopchainloopchain and and LLegacyegacy SystemsSystems
+ It is accessible to the blockchain peer in REST API through
+ It is accessible to the blockchain peer in REST API through loopchainloopchain proxy A taskproxy A task specific specific loopchainloopchain Application SDK which is “wrapped” so that it can be easily used according to legacy environment and Application SDK which is “wrapped” so that it can be easily used according to legacy environment and different tasks is provided as well This enables business development just by calling API different tasks is provided as well This enables business development just by calling API 
+ Appendix
+ Copyright 2017 ICON Foundation 35
+ A 4 
+ A 4 loopchaloopchainin MultiMulti channelchannel
+ It is accessible to the blockchain peer in REST API through
+ It is accessible to the blockchain peer in REST API through loopchainloopchain proxy A taskproxy A task specific specific loopchainloopchain Application SDK which is “wrapped” so that it can be easily used according to legacy environment and Application SDK which is “wrapped” so that it can be easily used according to legacy environment and different tasks is provided as well This enables business development just by calling API different tasks is provided as well This enables business development just by calling API 
+ A 5 
+ A 5 AIAI driven driven PPolicyolicy
+ In the present economic system c
+ In the present economic system centralized institutions make most of the decisions A small group of entralized institutions make most of the decisions A small group of experts (e g FOMC) of the central bank judges the prices and the economy and then decides the experts (e g FOMC) of the central bank judges the prices and the economy and then decides the standard interest rate The government coordinates the formation and distribution of wealthstandard interest rate The government coordinates the formation and distribution of wealth based on based on various policies Government policies in other various fields are also led by a small number of various policies Government policies in other various fields are also led by a small number of government officials belonging to each department The data that serve as the basis for such a series government officials belonging to each department The data that serve as the basis for such a series of decisions and adjustments are often data withof decisions and adjustments are often data with low accuracy that was collected in the past Therefore low accuracy that was collected in the past Therefore the economic judgment in the existing economic system often produces adverse effects since it is slow the economic judgment in the existing economic system often produces adverse effects since it is slow inaccurate and the consequent action either inappropriate or belated In addition since it relinaccurate and the consequent action either inappropriate or belated In addition since it relies on ies on human analysis and judgment the personality or characteristics of a person is inevitably reflected to human analysis and judgment the personality or characteristics of a person is inevitably reflected to the analysis or decision the person makes which leads to a lack of consistency yielding different the analysis or decision the person makes which leads to a lack of consistency yielding different decisiondecision makings from the same set of data makings from the same set of data 
+ Bl
+ Blockchain is an economic platform that enables reliable transactions among participants without a ockchain is an economic platform that enables reliable transactions among participants without a separate intermediary or a trusted third party The numerous transactions that take place within this separate intermediary or a trusted third party The numerous transactions that take place within this platform reflect various economic motives and behaviors oplatform reflect various economic motives and behaviors of the participants All transactions on a f the participants All transactions on a blockchain are recorded and synchronized in real time with guaranteed integrity If it is possible to blockchain are recorded and synchronized in real time with guaranteed integrity If it is possible to analyze these big data precisely and delicately a breakthrough can be achieved in the way economic analyze these big data precisely and delicately a breakthrough can be achieved in the way economic problems areproblems are managed now managed now 
+ Appendix
+ Copyright 2017 ICON Foundation 36
+ DAVinCI LABS Automatic modeling
+ DAVinCI LABS Automatic modeling
+ DAVinCI LABS Automatic Clustering
+ DAVinCI LABS Automatic Clustering
+ Over the past two years with A I big data analysis we have produced results that outperform the models
+ Over the past two years with A I big data analysis we have produced results that outperform the models traditional financial institutions have developed over decades traditional financial institutions have developed over decades with hundreds of experts Many financial with hundreds of experts Many financial institutions including the world s largest insurance group major commercial banks credit card institutions including the world s largest insurance group major commercial banks credit card companies credit finance companies and savings banks have already begun adopting DAVinCI LABS companies credit finance companies and savings banks have already begun adopting DAVinCI LABS a machinea machine learninglearning basebased A I solution we have created DAVinCI LABS are used in various tasks such d A I solution we have created DAVinCI LABS are used in various tasks such
+ Appendix
+ Copyright 2017 ICON Foundation 37
+ as loss ratio forecast credit risk assessment conversion rate prediction price sensitivity measurement 
+ as loss ratio forecast credit risk assessment conversion rate prediction price sensitivity measurement FDS (Fraud Detection System) and EWS (Early Warning System) FDS (Fraud Detection System) and EWS (Early Warning System) 
+ The process
+ The process based on traditional statistics requires user input at every step During this process the based on traditional statistics requires user input at every step During this process the user s intuition and background knowledge may be applied to the methodology of analysis and the user s intuition and background knowledge may be applied to the methodology of analysis and the criteria of decisioncriteria of decision making which in turn cause misjudgments Alsomaking which in turn cause misjudgments Also due to the nature of this technique due to the nature of this technique only a limited amount of data only a limited amount of data isis made made of of use which makes it unsuitable for analyzing the effects of use which makes it unsuitable for analyzing the effects of different variables On the other hand more efficient and sophisticated data analysis is possible by different variables On the other hand more efficient and sophisticated data analysis is possible by automating anaautomating analysis process with machine learning algorithm The possibility of misjudgment caused lysis process with machine learning algorithm The possibility of misjudgment caused by personal opinions is minimized by making human intervention as less as possible during the analysis by personal opinions is minimized by making human intervention as less as possible during the analysis In addition as the technique itself allows all data available to bIn addition as the technique itself allows all data available to be utilized for analysis it can make a e utilized for analysis it can make a synthetic analysis of the effects of different variables synthetic analysis of the effects of different variables 
+ We will use AI
+ We will use AI solution DAVinCI which is already verified by a number of major financial institutions to solution DAVinCI which is already verified by a number of major financial institutions to analyze the data derived from the ICON Network and tanalyze the data derived from the ICON Network and to optimize its reward scheme By constantly o optimize its reward scheme By constantly monitoring and analyzing the transactions and the participants behavioral data with DAVinCI in monitoring and analyzing the transactions and the participants behavioral data with DAVinCI in the the ICON Network the reward scheme will always remain optimized so that the two goals ICON Network the reward scheme will always remain optimized so that the two goals –– incentives to incentives to participants participants and growth of and growth of the the ICON Network ICON Network –– are always kept aligned are always kept aligned 
+ Most of the reward and incentive policies of the existing blockchain networks operate in a rigid manner 
+ Most of the reward and incentive policies of the existing blockchain networks operate in a rigid manner failing to adequately address different market conditifailing to adequately address different market conditions ons The The ICON Network can maintain the growth ICON Network can maintain the growth level as it can flexibly respondlevel as it can flexibly respond to market situation by using Ato market situation by using AI I 
+ References
+ Copyright 2017 ICON Foundation 38
+ References
+ References
+ 1 https //github com/ethereum/wiki/wiki/Whitehttps //github com/ethereum/wiki/wiki/White PaperPaper
+ 2 https //www bancor network/static/Bahttps //www bancor network/static/Bancor_Protocol_Whitepaper_en pdfncor_Protocol_Whitepaper_en pdf
+ 3 https //github com/EOSIO/Documentation/blob/master/TechnicalWhitePaper mdhttps //github com/EOSIO/Documentation/blob/master/TechnicalWhitePaper md
+ 4 http //www coindesk com/tokenizedhttp //www coindesk com/tokenized dollarsdollars singaporessingapores centralcentral banbankk detailsdetails newnew blockchainblockchain trial/trial/
+ 5 http //www itu int/en/mediacentre/Pages/2016http //www itu int/en/mediacentre/Pages/2016 PR53 aspxPR53 aspx
+ 6 https //en wikipedia org/wiki/List_of_countries_by_GDP_(nominal)https //en wikipedia org/wiki/List_of_countries_by_GDP_(nominal)
+ 7 https //e27 co/koreahttps //e27 co/korea standsstands outout inin asiaasia asas aa keykey testtest marketmarket forfor globalglobal techtech companiescompanies includingincluding facebook/facebook/
+ 8 http //www investopediahttp //www investopedia com/news/why com/news/why southsouth koreankorean bitcoinbitcoin priceprice 10001000 overover globalglobal price/ lgl=riraprice/ lgl=rira baselinebaseline verticalvertical
+ 9 https //exchangewar info/https //exchangewar info/
+ 10 product development and distribution pricing and underwriting payment and collections claims product development and distribution pricing and underwriting payment and collections claims policy & administration and back policy & administration and back offices risk capital and investment managementoffices risk capital and investment management
+ 11 7 of 10 state7 of 10 state designated research designated research hospitals joined the Consortiumhospitals joined the Consortium
+ 12 https //www ohdsi orghttps //www ohdsi org
+ 13 https //www swift com/https //www swift com/
+ 14 hhttps //www cryptocompare com/exchanges/guides/whatttps //www cryptocompare com/exchanges/guides/what isis aa decentralizeddecentralized exchangeexchange
+ 15 https /https //www wired com/2014/03/bitcoin/www wired com/2014/03/bitcoin exchange/exchange/
+ 16 https //bitsquare io/https //bitsquare io/
+ 17 https //bitshares org/https //bitshares org/
+ 18 https //bancor network/static/Bancor_Protocol_Whitepaper_en pdfhttps //bancor network/static/Bancor_Protocol_Whitepaper_en pdf
+ 19 https //goo gl/HXQBUrhttps //goo gl/HXQBUr
+ 20 https //en wikipedia org/wiki/Byzantine_fault_tolerancehttps //en wikipedia org/wiki/Byzantine_fault_tolerance
+ 21 https //davincilhttps //davincilabs aiabs ai
+ References
+ Copyright 2017 ICON Foundation 39
+ 22 http //www coindesk com/information/whathttp //www coindesk com/information/what isis aa decentralizeddecentralized applicationapplication DAPPDAPP//
+ 23 https //en wikipedia org/wiki/Representation_(politics)https //en wikipedia org/wiki/Representation_(politics)
+ 24 https //en bitcoin it/wiki/Offhttps //en bitcoin it/wiki/Off Chain_TransactionsChain_Transactions
+ 25 To To Section Section AA 5 5 A I driven policyA I driven policy
+ 26 https //bitcoin org/bitcoin pdfhttps //bitcoin org/bitcoin pdf
+ 27 https //github comhttps //github com/ethereum/wiki/wiki/White/ethereum/wiki/wiki/White PaperPaper
+ 28 https //en wihttps //en wikipedia org/wiki/Smart_contractkipedia org/wiki/Smart_contract
+ 29 https //github comhttps //github com/ethereum/wiki/wiki/Sharding/ethereum/wiki/wiki/Sharding FAFA
+ 30 https //www hyperledger org/projects/fabrichttps //www hyperledger org/projects/fabric
+ 31 https //www corda nethttps //www corda net
+ 32 hhttps //en wikipedia org/wiki/Byzantine_fault_tolerancettps //en wikipedia org/wiki/Byzantine_fault_tolerance
+ 33 To To Section Section AA 4 4 loopchain Multiloopchain Multi channelchannel
+ 34 https //bitcoin org/bitcoin pdfhttps //bitcoin org/bitcoin pdf
+ 35 https //en wikipedia org/wiki/Byzantine_fault_tolerancehttps //en wikipedia org/wiki/Byzantine_fault_tolerance
+ 36 http //pmg csail mit edu/papers/osdi99 pdfhttp //pmg csail mit edu/papers/osdi99 pdf
+ 37 https //tendermint com/static/docs/tendermint pdf https //tendermint com/static/docs/tendermint pdf
+ 38 https //raft github io/raft pdfhttps //raft github io/raft pdf
+ 39 https //en wikipedia org/wiki/State_machine_replicationhttps //en wikipedia org/wiki/State_machine_replication
+ 40 http //ieeexplore ieee org/document/5283369/http //ieeexplore ieee org/document/5283369/
+ 41 http //www scs stanford edu/14auhttp //www scs stanford edu/14au cs244b/labs/projects/copeland_zcs244b/labs/projects/copeland_zhong pdfhong pdf
+ 42 http //docs icon foundation/en/whitepaper/_static/LFT pdfhttp //docs icon foundation/en/whitepaper/_static/LFT pdf
+ 43 hhtps //github com/ethereum/wiki/wiki/Lighttps //github com/ethereum/wiki/wiki/Light clientclient protocolprotocol 

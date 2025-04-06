@@ -1,0 +1,533 @@
+Neo White Paper
+ A distributed network for the Smart Economy
+ 
+ Neo design goals Smart Economy
+ Neo is the use of blockchain technology and digital identity to digitize assets the use of smart contracts for digital assets to be self managed to achieve smart economy with a distributed network 
+ 
+ Digital Assets
+ Digital assets are programmable assets that exist in the form of electronic data With blockchain technology the digitization of assets can be decentralized trustful traceable highly transparent and free of intermediaries On the Neo blockchain users are able to register trade and circulate multiple types of assets Proving the connection between digital and physical assets is possible through digital identity Assets registered through a validated digital identity are protected by law 
+ 
+ Neo has two forms of digital assets global assets and contract assets Global assets can be recorded in the system space and can be identified by all smart contracts and clients Contract assets are recorded in the private storage area of the smart contract and require a compatible client to recognize them Contract assets can adhere to certain standards in order to achieve compatibility with most clients 
+ 
+ Digital Identity
+ Digital identity refers to the identity information of individuals organizations and other entities that exist in electronic form The more mature digital identity system is based on the PKI (Public Key Infrastructure) X 509 standard In Neo we will implement a set of X 509 compatible digital identity standards This set of digital identity standards in addition to compatible X 509 level certificate issuance model will also support Web Of Trust point to point certificate issuance model Our verification of identity when issuing or using digital identities includes the use of facial features fingerprint voice SMS and other multi factor authentication methods At the same time we will also use the blockchain to replace the Online Certificate Status Protocol (OCSP) to manage and record the X 509 Certificate Revocation List (CRL) 
+ 
+ Smart Contract
+ The smart contract was first proposed by the cryptographer Nick Szabo in 1994 only five years after the creation of the World Wide Web According to Szabo s definition When a pre programmed condition is triggered the smart contract will execute the corresponding contract terms Blockchain technology provides us with a decentralized tamper resistant highly reliable system in which smart contracts are very useful Neo has an independent smart contract system NeoContract 
+ 
+ The NeoContract smart contract system is the biggest feature of the seamless integration of the existing developer ecosystem Developers do not need to learn a new programming language but use C# Java and other mainstream programming languages in their familiar IDE environments (Visual Studio Eclipse etc ) for smart contract development debugging and compilation Neo s Universal Lightweight Virtual Machine NeoVM has the advantages of high certainty high concurrency and high scalability The NeoContract smart contract system will allow millions of developers around the world to quickly carry out the development of smart contracts NeoContract will have a separate white paper describing the implementation details 
+ 
+ Application and Ecosystem
+ Ecosystem is the vitality of the open source community In order to achieve the goal of an intelligent economic network Neo will be committed to the development of its ecosystem providing mature development tools improving development of documents organizing education and training activities and providing financial support We plan to support the following Neo based applications and ecology and to reward improvements to the design of the experience 
+ 
+ Node Program
+ 
+ A fully functioning Full node PC program
+ 
+ A light node PC program with a better user experience
+ 
+ Web / Android / iOS clients that do not need to synchronize with the blockchain
+ 
+ Hardware wallet
+ 
+ Blockchain Explorer
+ 
+ SDK Development Kit
+ 
+ Support Java / Kotlin NET C # / VB JavaScript / Typescript Python Go
+ 
+ Smart Contract Compiler and IDE Plugin
+ 
+ C# / VB Net / F# Visual Studio
+ 
+ Java / Kotlin Eclipse
+ 
+ C / C++ / GO
+ 
+ JavaScript / TypeScript
+ 
+ Python / Ruby
+ 
+ Decentralized Applications
+ 
+ Smart fund
+ 
+ AI assisted legal smart contract
+ 
+ Social networking
+ 
+ Automated tokens liquidity providers
+ 
+ Decentralized exchange
+ 
+ Secure communication protocol
+ 
+ Data exchange market
+ 
+ Intellectual property trading market
+ 
+ Prediction market
+ 
+ Advertising market
+ 
+ Hashpower market
+ 
+ GAS market
+ 
+ Neo Management Model
+ Economic Model
+ Neo has two native tokens NEO (abbreviated symbol NEO) and GAS (abbreviated symbol GAS) 
+ 
+ NEO with a total of 100 million tokens represents the right to manage the network Management rights include voting for bookkeeping Neo network parameter changes and so on The minimum unit of NEO is 1 and tokens cannot be subdivided 
+ 
+ GAS is the fuel token for the realization of Neo network resource control with a maximum total limit of 100 million The Neo network charges for the operation and storage of tokens and smart contracts thereby creating economic incentives for consensus nodes and preventing the abuse of resources The minimum unit of GAS is 0 00000001 
+ 
+ In the genesis block of the Neo network 100 million NEOs are generated GAS has not yet been generated 100 million GAS corresponding to the 100 million NEO will be generated through a decay algorithm in about 22 years time to address holding NEO If NEO is transferred to a new address the subsequent GAS generated will be credited to the new address 
+ 
+ The Neo network will set a threshold by voting to exempt GAS from a certain amount of transfer transactions and smart contract operations to enhance the user experience When a large amount of spam transactions occur NeoID can be used to prioritize transactions and smart contracts with qualified identities Transactions and smart contracts with no qualifying digital identities can get priority by paying GAS 
+ 
+ Distribution Mechanism
+ NEO distribution 
+ 
+ NEO s 100 million tokens is divided into two portions The first portion is 50 million tokens distributed proportionally to supporters of NEO during the crowdfunding This portion has been distributed 
+ 
+ The second portion is 50 million NEO managed by the Neo Council to support Neo s long term development operation and maintenance and ecosystem The NEO in this portion has a lockout period of 1 year and is unlocked only after October 16 2017 This portion will not enter the exchanges and is only for long term support of Neo projects The plans for it are as below 
+ 
+ 10 million tokens (10% total) will be used to motivate Neo developers and members of the Neo Council
+ 
+ 10 million tokens (10% total) will be used to motivate developers in the Neo ecosystem
+ 
+ 15 million tokens (15% total) will be used to cross invest in other block chain projects which are owned by the Neo Council and are used only for Neo projects
+ 
+ 15 million (15% total) will be retained as contingency
+ 
+ The annual use of NEO in principle shall not exceed 15 million tokens
+ 
+ GAS distribution 
+ 
+ GAS is generated with each new block The initial total amount of GAS is zero With the increasing rate of new block generation the total limit of 100 million GAS will be achieved in about 22 years The interval between each block is about 15 20 seconds and 2 million blocks are generated in about one year 
+ 
+ Each year around 2 million blocks will be generated and the initial generation will be 8 GAS per block There will be an annual reduction of 1 GAS per block per year to coincide with the passing of every 2 million blocks The reduction will continue down to just 1 GAS per block and will be held at that rate for around 22 years After the 44 millionth block the total GAS generated will have reached 100 million and from this point there will be no further generation of GAS from new blocks 
+ 
+ According to this release curve 16% of the GAS will be created in the first year 52% of the GAS will be created in the first four years and 80% of the GAS will be created in the first 12 years These GAS will be distributed proportionally in accordance with the NEO holding ratio recorded in the corresponding addresses NEO holders can initiate a claim transaction at any time and claim these GAS tokens at their holding addresses 
+ 
+ Governance mechanism
+ Chain governance NEO token holders are the network owners and managers managing the network through voting in the network using the GAS generated from NEO to utilize the functions in the network NEO tokens can be transferred 
+ 
+ Off chain governance Neo Council consists of the founding members of the Neo project under which the management committee technical committee and the secretariat respectively are responsible for strategic decision making technical decision making and specific implementation The Neo Council is responsible to the Neo community for the promotion and development of Neo ecosystem as its primary objective 
+ 
+ Neo technology implementation
+ Consensus mechanism dBFT
+ The dBFT is called the Delegated Byzantine Fault Tolerant a Byzantine fault tolerant consensus mechanism that enables large scale participation in consensus through proxy voting The holder of the NEO token can by voting pick the consensus node it supports The selected group of consensus nodes through BFT algorithm reach a consensus and generate new blocks Voting in the Neo network continues in real time rather than in accordance with a fixed term 
+ 
+ The dBFT provides fault tolerance of f = ⌊ (n 1) / 3 ⌋ for a consensus system consisting of n consensus nodes This fault tolerance also includes both security and availability resistant to general and Byzantine failures and is suitable for any network environment dBFT has good finality meaning that once confirmations are final the block can not be bifurcated and the transaction will not be revoked or rolled back 
+ 
+ In the Neo dBFT consensus mechanism taking about 15 to 20 seconds to generate a block the transaction throughput is measured up to about 1 000TPS which is excellent performance among the public chains Through appropriate optimization there is potential to reach 10 000TPS allowing it to support large scale commercial applications 
+ 
+ The dBFT combines digital identity technology meaning the consensus nodes can be a real name of the individual or institution Thus it is possible to freeze revoke inherit retrieve and ownership transfer due to judicial decisons on them This facilitates the registration of compliant financial assets in the Neo network The Neo network plans to support such operations when necessary 
+ 
+ Smart contract system NeoContract
+ Neo s smart contract system consists of three parts 
+ 
+ NeoVM Universal Block Chain Virtual Machine 
+ 
+ NeoVM is a lightweight general purpose virtual machine whose architecture is very close to the JVM and NET Runtime similar to a virtual CPU that reads and executes instructions in the contract in sequence performs process control based on the functionality of the instruction operations logic operations and so on It has a good start up speed and versatility is very suitable for small programs such as smart contracts can also be ported to non blockchain systems or integrated with the IDE to provide an optimal development experience NeoVM s functionality can be extended like introducing a JIT (real time compiler) mechanism thereby enhancing the efficiency of the implementation 
+ 
+ InteropService Interoperable Services 
+ 
+ Used to load the blockchain ledger digital assets digital identity persistent storage area NeoFS and other underlying services They are like virtual machines that are provided for virtual machines enabling smart contracts to access these services at run time to achieve some advanced functionality Through this low coupling design NeoVM can be ported to any blockchain or even non blockchain system used increasing the utility of the smart contracts 
+ 
+ DevPack Compiler and IDE plugin 
+ 
+ DevPack includes the high level language compiler and the IDE plug in Because NeoVM s architecture is very similar to JVM and NET Runtime the compilers in DevPack can compile Java byte code and NET MSIL into NeoVM s instruction set Developers using main stream languages like Java / Kotlin/ C# do not need to learn new languages and will be able to immediately start developing smart contracts in VS Eclipse and other familiar IDE environments This greatly reduces the learning curve for developing smart contracts allowing us to easily build a vibrant community around NeoContract 
+ 
+ NeoContract can create a smart contract call tree through static analysis before running a smart contract Through the deterministic call tree the Neo node can dynamically fragment the smart contract to achieve theoretically unlimited expansion which overcomes the jamming effect caused by the static fragmentation of other block chain systems 
+ 
+ Cross chain interoperability agreement NeoX
+ NeoX is a protocol that implements cross chain interoperability NeoX is divided into two parts cross chain assets exchange protocol and cross chain distributed transaction protocol 
+ 
+ Cross chain assets exchange agreement 
+ 
+ NeoX has been extended on existing double stranded atomic assets exchange protocols to allow multiple participants to exchange assets across different chains and to ensure that all steps in the entire transaction process succeed or fail together In order to achieve this function we need to use NeoContract function to create a contract account for each participant If other blockchains are not compatible with NeoContract they can be compatible with NeoX as long as they can provide simple smart contract functionality 
+ 
+ Cross chain distributed transaction protocol 
+ 
+ Cross chain distributed transactions mean that multiple steps of a transaction are scattered across different blockchains and that the consistency of the entire transaction is ensured This is an extension of cross chain assets exchange extending the behavior of assets exchange into arbitrary behavior In layman s terms NeoX makes it possible for cross chain smart contracts where a smart contract can perform different parts on multiple chains either succeeding or reverting as a whole This gives excellent possibilities for cross chain collaborations and we are exploring cross chain smart contract application scenarios 
+ 
+ Distributed Storage Protocol NeoFS
+ NeoFS is a distributed storage protocol that utilizes Distributed Hash Table (DHT) technology NeoFS indexes the data through file content (Hash) rather than file path (URI) Large files will be divided into fixed size data blocks that are distributed and stored in many different nodes 
+ 
+ The main problem with this type of system is the need to find a balance between redundancy and reliability NeoFS plans to solve this contradiction by means of token incentives and the establishment of backbone nodes Users can choose the reliability requirements of the file Files with low reliability requirements can be stored and accessed for free or almost free Stable and reliable services for files with high reliability requirement will be provided by backbone nodes 
+ 
+ NeoFS will serve as one of the InteropService interoperability services under the NeoContract system enabling smart contracts to store large files on the blockchain and set access for those files In addition NeoFS can be combined with digital identity so that digital certificates used by digital identities can be assigned sent and revoked without a central server to manage them In the future the old block data can be stored in NeoFS so that most of the full nodes can release the old data for better scalability and at the same time ensure the integrity of historical data 
+ 
+ Anti quantum cryptography mechanism NeoQS
+ The emergence of quantum computers poses a major challenge to RSA and ECC based cryptographic mechanisms Quantum computers can solve the large number of decomposition problems (which RSA relies on) and the elliptic curve discrete logarithm (which ECC relies on) in a very short time NeoQS (Quantum Safe) is a lattice based cryptographic mechanism At present quantum computers do not have the ability to quickly solve the Shortest Vector Problem (SVP) and the Closest Vector Problem (CVP) which is considered to be the most reliable algorithm for resisting quantum computers 
+ 
+ Summary
+ Neo is a distributed network that combines digital assets digital identities and smart contracts The Neo system will use DBFT NeoX NeoFS NeoQS and many other original technologies as the infrastructure for the intelligent economy of the future 
+ 
+ NeoVM
+ Introduction
+ NeoVM is a lightweight virtual machine for executing Neo smart contracts As the core component of Neo NeoVM has Turing completeness and high consistency which can implement arbitrary execution logic and ensure consistent execution results of any node in distributed network providing strong support for decentralized applications 
+ 
+ With the help of NeoCompiler source code written in Java C# or other high level languages can be compiled into a unified NeoVM instruction set thus achieving cross platform Also it lowers the development threshold for enabling smart contract developers to participate in the application development in Neo ecosystem without learning a new development language 
+ 
+ In addition NeoVM is highly decoupled from the upper level code and customizable by using techniques such as interop services NeoVM can be used by simply creating an instance incredibly easy to use and can be applied to various blockchain and non blockchain scenarios 
+ 
+ Infrastructure and Execution Process
+ Infrastructure
+ The NeoVM architecture is mainly composed of the execution engine stack and interoperation service layer 
+ 
+ 
+ 
+ ExecutionEngine
+ ExecutionEngine is the core of NeoVM mainly responsible for loading scripts and executing corresponding instructions such as flow control stack operation bit operation arithmetic operation logical operation cryptography etc It can also interact with external data by interoperable service layer through system call 
+ 
+ Stack
+ NeoVM is a stack based virtual machine NeoVM has four types of stack InvocationStack EvaluationStack AltStack and ResultStack 
+ 
+ InvocationStack is used to store all execution contexts of current NeoVM which are isolated from each other in the stack Context switching is performed based on the current context and entry context The current context points to the top element of invocation stack which is ExecutionContext0 in the architecture figure And the entry context points to the tail element of invocation stack which is ExecutionContextN in the architecture figure 
+ 
+ EvaluationStack is for storing the data used by the instruction in execution process Each execution context has its own evaluation stack 
+ 
+ AltStack is for storing the temporary data used by the instruction in execution process Each execution context has its own alt stack 
+ 
+ ResultStack is used to store execution result after all scripts are executed 
+ 
+ Interoperation Service Layer
+ Interoperation service layer is a bridge between VM and external data By invoking interoperation interfaces NeoVM can access the block information、 transaction information、contract information、asset information and other data required for the execution of smart contracts 
+ 
+ Each Neo smart contract can choose whether to enable a private storage area which stores data in key value format With the help of interoperation service layer NeoVM can dynamically modify the corresponding data in storage area when executing the smart contract 
+ 
+ Besides interoperation service layer provides encryption algorithms zero knowledge proof network resource access etc to meet the needs of developers to build advanced applications 
+ 
+ In addition the interoperation service layer also supports custom extensions and modifications to meet the customization needs of developers 
+ 
+ Execution Process
+ Neo supports multi language smart contract development NeoCompiler compiles multi language smart contracts into unified avm bytecode files which are then decoded and executed by NeoVM Cross platform compatibility are achieved with multi language compliers and virtual machines 
+ 
+ A complete execution process is as follows 
+ 
+ Compiling the source code of smart contracts into unified bytecode files by corresponding compilers 
+ 
+ Execution engine of NeoVM loads the bytecode file and then constructs the bytecodes together with the related parameters in the file as an execution context and finally pushes it into invocation stack 
+ 
+ Each time execution engine takes an instruction from current context and then executes corresponding operations according to the instruction The data generated in execution process will be stored in the evaluation stack and alt stack of current context 
+ 
+ For accessing external data encrypting data zero knowledge proof and other operations the interoperation interfaces will be invoked 
+ 
+ After all scripts are executed the result will be stored in the result stack 
+ NeoContract White Paper
+ Preface
+ Smart contracts refer to any computer program which can automatically execute the terms of its preprogrammed contract The idea of smart contract was first proposed by the cryptographer Nick Szabo in 1994 making it as old as the Internet itself Due to the lack of a reliable execution environment smart contracts have not been widely used 
+ 
+ In 2008 a man under the name of Satoshi Nakamoto released Bitcoin and outlined the foundational concepts of a blockchain Within the Bitcoin blockchain Nakamoto uses a set of scripting languages to help users gain more flexibility in controlling their personal accounts and the transfer process which eventually became the embryonic form of a chain based smart contract system 
+ 
+ In 2014 a teenager called Vitalik Buterin released Ethereum which provides a chain based Turing complete smart contract system that can be used to create a variety of decentralized blockchain applications 
+ 
+ NEO blockchain is a digital asset and application platform which provides a new smart contract system NeoContract At the core of the NEO platform the network provides multiples functions such as digital asset capabilities NeoAsset and digital identity NeoID allowing users to easily engage in digital businesses and are no longer limited to just the issuance of native tokens on the blockchain 
+ 
+ Features
+ Certainty
+ If a program is running on different computers or at different times on the same computer the behavior of the program is deterministic if the same input is guaranteed to produce the same output 
+ 
+ Blockchain is a multi party storage and computational method where the data within this distributed system is the result of reliable calculations that cannot be tampered with Smart contracts operate within the multi node distributed blockchain network If a smart contract is non deterministic the results of different nodes may be inconsistent As a result consensus between the nodes cannot be reached and the network becomes stagnant Therefore in the design of a smart contract system there is a need to rule out any factors which may lead to non deterministic behavior 
+ 
+ Time
+ Obtaining system time is a very common system function that may be heavily applied in certain time sensitive contract procedures However obtaining system time is a non deterministic system function and it is difficult to obtain a unified precise time in a distributed system as the results of different nodes will be inconsistent NeoContract provides a block based system call that treats the entire blockchain as a timestamp server and obtains the timestamp whenever a new block is generated On average NEO network generates a new block every 15 seconds so the contract runs at approximately the same time as the latest block time plus minus 15 seconds 
+ 
+ Randomness
+ Many smart contract programs such as gambling contracts and small games use random number functions However random number functions are a typical non deterministic function and each system call will obtain different results In a distributed system there are many ways to solve this problem Firstly the same random seed can be used for all nodes so that the return sequence of the entire random function is deterministic but this method exposes the entire random result in advance greatly reducing the practical value of the random number Another possible solution is to let all nodes communicate in a collaborative way to generate random numbers This can be achieved by using cryptographic techniques to produce a fair random number but the disadvantage lies in the very poor performance and need for additional communication overhead A centralized random number provider can be used to generate random numbers which guarantees consistency and performance but the drawback of this approach is obvious Users will have to unconditionally trust the centralized number provider 
+ 
+ There are two ways to generate a random number in NEO 
+ 
+ When each block is generated the consensus node will reach a consensus on a random number and fill it into the Nonce field of the new block The contract program can easily obtain the random number of any block by referencing the Nonce field
+ 
+ The contract program can use the hash value of the block as a random number generator because the block hash value has certain inherent randomness This method can be used to obtain a weak random number
+ 
+ Data Source
+ If a program obtains data at run time it might become a non deterministic program if the data source provides non deterministic data For example using different search engines to obtain the top 10 search results for a particular keyword may yield different results in various sort orders if different IP addresses are used 
+ 
+ For smart contracts NEO provides two types of deterministic data sources 
+ 
+ Blockchain Ledger
+ 
+ The contract procedure can access all data on the entire chain through interoperable services including complete blocks and transactions and each of their fields The data on the blocks are deterministic and consistent so they can be securely accessed by smart contracts 
+ 
+ Contract Storage Space
+ 
+ Each contract deployed on the NEO network has a private storage area that can only be accessed by the contract itself NEO consensus mechanism ensures consistency of the storage status of each node in the network 
+ 
+ For situations where access to non blockchain data is required NEO does not provide a direct way to interact with these data Non blockchain data will have to be transferred to the NEO blockchain using transactions and subsequently translated into the either of the aforementioned data sources in order to become accessible by the smart contracts 
+ 
+ Contract Call
+ Smart contracts in NeoContract can call each other but not be recursively called Recursion can be achieved within the contract but it cannot cross the boundaries of the current contract In addition the call relationship between contracts must be static The target cannot be specified at runtime This allows the behavior of the program to be fully determined before execution and its call relationship to be fully defined before it can run Based on this multiple contracts can be dynamically partitioned to achieve parallel execution 
+ 
+ High Performance
+ The execution environment of a smart contract plays an integral role in its performance When we analyze the performance of any execution environment there are main two indicators which are critical 
+ 
+ Execution speed of the instruction
+ 
+ Startup speed of the execution environment itself
+ 
+ For smart contracts the execution environment is often more important than the speed of execution of the instruction Smart contracts are more involved in IO operation of the logic to determine the instructions where the implementation of these instructions can easily be optimized Every time the smart contract is called it must start up a new virtual machine / container Therefore the execution speed of the environment itself (starting a virtual machine / container) has greater impact on the performance of the smart contract system 
+ 
+ NEO uses a lightweight NeoVM (NEO Virtual Machine) as its smart contract execution environment which has a very fast start up and takes up very little resources perfect for short programs like smart contracts Using the compilation and caching of hotspot smart contracts with JIT (real time compiler) can significantly improve the efficiency of virtual machines 
+ 
+ Scalability
+ High concurrency and dynamic partitioning
+ When discussing the scalability of a system it involves two main areas Vertical scaling and horizontal scaling Vertical scaling refers to the optimization of the processing workflow allowing the system to take full advantage of existing equipment capacity With this approach limits of the system are easily reached as series based processing capacity is based on the hardware limit of a single device When we need to scale the system is there a way to transform the series system into a parallel system Theoretically we will only need to increase the number of devices and we will be able to achieve almost unlimited scalability Could we possibly achieve unlimited scaling in distributed blockchain networks In other words can the blockchain execute programs in parallel 
+ 
+ The blockchain is a distributed ledger that records a variety of state data and the rules governing the changes in state of these data Smart contracts are used as carriers to record these rules Blockchains can process programs in parallel only if multiple smart contracts can be executed concurrently and in a non sequential manner Basically if contracts do not interact with each other or if the contract does not modify the same state data at the same time their execution is non sequential and can be executed concurrently Otherwise it can only execute in series following a sequential order and the network is unable to scale horizontally 
+ 
+ Based on the analysis above we can easily design unlimited scaling in smart contract systems All we must do is to set up simple rules 
+ 
+ A smart contract can only modify the state record of the contract that it belongs to
+ 
+ In the same transaction batch (block) a contract can only be running once
+ 
+ As a result all the smart contracts can be processed in parallel as sequential order is irrelevant to the result However if a smart contract can only modify the state record of the contract that it belongs to it implies that the contract cannot call each other Each contract is an isolated island if In the same transaction batch (block) a contract can only be running once this implies that a digital asset issued with a smart contract can only handle one transaction per block This is a world of difference with the original design goals of smart contracts which cease to be smart After all our design goals include both mutual call between contracts and multiple execution of the same call in the same block 
+ 
+ Fortunately smart contracts in NEO have a static call relationship and the call target cannot be specified at run time This allows the behavior of the program to be fully determined before execution and its call relationship to be fully defined before it can run We require that each contract explicitly indicate the contracts which are likely to be invoked so that the operating environment can calculate the complete call tree before running the contract procedure and partition execution of the contracts based on the call tree Contracts that may modify the same state record are executed in a sequential manner within the same partition whereby different partitions can then be executed in parallel 
+ 
+ Low coupling
+ Coupling is a measure of the dependency between two or more entities NeoContract system uses a low coupling design which is executed in the NEOVM and communicates with the non blockchain data through the interoperable service layer As a result most upgrades to smart contract functions can be achieved by increasing the API of interoperable services 
+ 
+ Contract Use
+ Verification Contract
+ Unlike the public key account system used in Bitcoin NEO s account system uses the contract account system Each account in the NEO corresponds to a verification contract and the hash value of the verification contract is the account address The program logic of the verification contract controls the ownership of the account When transferring from an account you firstly need to execute the verification contract for that account A validation contract can accept a set of parameters (usually a digital signature or other criteria) and return a boolean value after verification indicating the success of the verification to the system 
+ 
+ The user can deploy the verification contract to the blockchain beforehand or publish the contract content directly in the transaction during the transfer process 
+ 
+ Application Contract
+ The application contract is triggered by a special transaction which can access and modify the global state of the system and the private state of the contract (storage area) at run time For example you can create a global digital asset in a contract vote save data and even dynamically create a new contract when the contract is running 
+ 
+ The execution of the application contract requires charging by instruction When the transaction fee is consumed the contract will fail and stop execution and all state changes will be rolled back The success of the contract does not affect the validity of the transaction 
+ 
+ Function Contract
+ The function contract is used to provide some public or commonly used functions which can be called by other contracts The smart contract code can be reused so that developers are able to write increasingly complex business logic Each function contract when deployed can choose to have a private storage area that is either read or written to data in a future contract achieving state persistence 
+ 
+ The function contract must be pre deployed to the chain to be invoked and removed from the chain by a self destructing system function which will no longer be used and its private storage will be destroyed The old contract data can be automatically migrated to another subcontract before it is destroyed using contract migration tools 
+ 
+ Virtual Machine
+ Virtual Hardware
+ NEOVM provides a virtual hardware layer to support the execution of smart contracts including 
+ 
+ CPU
+ 
+ CPU is responsible for reading and sequentially order the execution of instructions in the contract according to the function of the instruction flow control arithmetic operations logic operations The future of the CPU function can be extended with the introduction of JIT (real time compiler) function thereby enhancing the efficiency instruction execution 
+ 
+ Call Stack
+ 
+ The call stack is used to hold the context information of the program execution at each function call so that it can continue to execute in the current context after the function has finished executing and returning 
+ 
+ Calculate Stack
+ 
+ All NEOVM run time data are stored in the calculation stack when after the implementation of different instructions the stack will be calculated on the corresponding data elements of the operation For example when additional instructions are executed the two operations participating in the addition are ejected from the calculation stack and the result of the addition is pushed to the top of the stack Function call parameters must also be calculated from right to left according to the order of the stack After the function is successfully executed the top of the stack fetch function returns the value 
+ 
+ Spare Stack
+ 
+ When you need to schedule or rearrange elements in the stack you can temporarily store the elements in the spare stack and retrieve them in the future 
+ 
+ Instruction Set
+ NEOVM provides a set of simple and practical instructions for building smart contract programs According to functions the main categories are as follows 
+ 
+ Constant instruction
+ 
+ Process control instruction
+ 
+ Stack operation instruction
+ 
+ String instruction
+ 
+ Logic instruction
+ 
+ Arithmetic operation instruction
+ 
+ Cryptographic instruction
+ 
+ Data operation instruction
+ 
+ It is worth noting that the NeoVM instruction set provides a series of cryptographic instructions such as ECDSA SHA and other algorithms to optimize the implementation efficiency of cryptographic algorithms in smart contracts In addition data manipulation instructions directly support arrays and complex data structures 
+ 
+ Interoperable Service Layer
+ The virtual machine where smart contract executes is a sandbox environment that requires an interoperable service layer in times when it needs to access data outside of the sandbox or to keep the run time data persistent Within the interoperable service layer NEO contract can open a series of system function and services with the smart contract program and these contracts can be called and accessed like ordinary functions All system functions are being conducted concurrently so there is no need to worry about scalability 
+ 
+ Debugging Function
+ Often the development of smart contracts is very difficult due to the lack of good debugging and testing methods NeoVM provides program debugging support at the virtual machine level where you can set the breakpoint on the contract code or single step single process execution Thanks to the low coupling design between the virtual machine and the blockchain it is easy to integrate NeoVM directly with various IDEs to provide a test environment that is consistent with the final production environment 
+ 
+ High level Languages
+ C# VB Net F
+ Developers can use NeoContract for almost any high level language they are good at The first batch of supported languages ​​are C # VB Net F # etc We provide compilers and plug ins for these languages ​​allowing compilation of these high level language into the instruction set supported by NeoVM As the compiler focus on MSIL (Microsoft intermediate language) during compilation so theoretically any NET language can be translated into MSIL language and become directly supported 
+ 
+ A huge number of developers are proficient in these languages and the above languages have very strongly integrated development environments Developers can develop generate test and debug all within Visual Studio where they are able to take full advantage of the smart contract development templates we provide to gain a head start 
+ 
+ Java Kotlin
+ Java and Kotlin ​​forms the second batch of supported languages where we provide compilers and IDE plugins for these languages ​​to help developers use the JVM based language to develop NEO s Smart Contract applications 
+ 
+ Java is widely used and Kotlin has recently become the official Google recommended Android development language We believe that supporting these languages will help drastically increase the number of NEO smart contract developers 
+ 
+ Other Languages
+ Afterwards NeoContract will add support for other high level languages based on the degree of difficulty in the complier development process Some of the languages that may be supported include 
+ 
+ C C++ GO
+ 
+ Python JavaScript
+ 
+ In the future we will continue to add more high level language support Our goal is to see more than 90% of NEO developers developing with NeoContract without needing to learn a new language and even possibly transfer existing business system code directly onto the blockchain 
+ 
+ Service
+ Blockchain Ledger
+ NEO Smart Contracts can obtain complete block data for the NEO blockchain including complete blocks and transactions and each of their fields at runtime through the system functions provided by the interoperable service Specifically you can query these data 
+ 
+ Height of the blockchain
+ 
+ Block head current block
+ 
+ Transactions
+ 
+ Type of transaction attributes input output etc 
+ 
+ Through these data you can develop some interesting applications such as automatic payouts smart contracts based upon proof of workload 
+ 
+ Digital Assets
+ Through the interoperable services provided by the digital asset interface smart contracts not only can query the NEO blockchain on properties and statistics of various digital assets but also create new digital assets during its run time Digital assets created by smart contracts can be issued transferred traded outside of the contract They are the same as original assets on NEO and can be managed with any NEO compatible wallet software This specific interface includes 
+ 
+ Asset attribute inquiry
+ 
+ Asset statistics query
+ 
+ Asset life cycle management create modify destroy etc 
+ 
+ Asset management multi language name total change precision change changes in the administrator
+ 
+ Persistence
+ Each smart contract program deployed on the NEO blockchain will have a private storage area that can only be read and written by the contract itself Smart contracts have full operational permissions on the data in its own store can be read written modified deleted The data is stored in the form of key value pairs and provides these interfaces 
+ 
+ Traverse all the records stored
+ 
+ Return to a specific record according to the specified key
+ 
+ Modify or write new records according to the specified key
+ 
+ Delete the record according to the specified key
+ 
+ In general a contract can only read and write data from its own store with one exception when a contract is invoked the invoked contract can access the caller s store through a cross domain request provided that the caller provides authorization In addition for a sub contract that is dynamically created at the time of contract execution the parent contract gets instant access to its store 
+ 
+ Cross domain requests enable NeoContract to implement rich library capabilities that provide highly scalable data management capabilities for the callers 
+ 
+ Fees
+ Deployment Fee
+ NEO s distributed architecture provides high redundancy of storage capacity and the use of this capacity is not free Deploying a smart contract on the NEO network requires a fee which currently oscillates between 100 and 1000GAS depending on the capabilities required by the contract This fee is collected by the system and recorded as a system gain Future fees will be adjusted according to the actual operating cost in the system The smart contract deployed on the blockchain can be used multiple times until the contract is destroyed by the deployer 
+ 
+ Implementation Fee
+ NEO provides a credible execution environment for smart contracts and the execution of contracts requires the consumption of computing resources for each node therefore users are required to pay for the execution of smart contracts The fee is determined by the computational resources consumed with each execution and the unit price is also in GAS If the implementation of the smart contract fails due to lack of GAS the cost of consumption will not be returned and this prevents malicious attacks on the network power consumption 
+ 
+ For most simple contracts they can be executed for free so long as the execution costs remain under 10 GAS thus greatly reducing costs for the user 
+ 
+ Application Scenarios
+ Superconducting Transactions
+ Digital assets on the blockchain inherently require some form of liquidity and usually point to point transactions cannot provide it sufficiently Therefore there is a need for exchanges to provide users with trading services Digital asset exchanges can be broadly divided into two categories 
+ 
+ Central exchanges where the user needs to deposit the digital assets with the exchange and subsequent place pending orders for trading on the website
+ 
+ Decentralized exchanges where its trading system is built into the blockchain and the system provides the matching services 
+ 
+ Centralized exchanges can provide very high performance and diversified services but need to have a strong credit guarantee otherwise there will be moral hazards such as misappropriation of user funds fraud etc Comparatively decentralized exchange has no moral hazard but the user experience is poor and there is greater performance bottleneck Is there a way to combine both solutions and achieve the best of both worlds 
+ 
+ Superconducting transactions is a mechanism that can do this Users do not need to deposit assets where they are able to use their own assets on the blockchain in trading Transaction settlement complete on the blockchain but the process of matching orders occurs off chain by a central exchange that provides matching services Since the matching is conducted off chain its efficiency is like centralized exchanges but the assets remain under the control of the user Exchanges uses the user s trading intent to carry out matching services with no moral hazards involved such as misappropriation of user funds fraud etc 
+ 
+ At present within the NEO community development of smart contracts to achieve blockchain superconducting transactions has emerged such as OTCGO 
+ 
+ Cross chain Interoperability
+ In the foreseeable future there will be many public chains and thousands of alliance chains or private chains in existence worldwide These isolated blockchain systems are islands of value and information which are not interoperable with each other Through the cross chain interoperability mechanism numerous isolated blockchains can be linked so that the values in different blockchains can be exchanged with each other to achieve the true value of the Internet 
+ 
+ NeoContract provides support for the implementation of cross chain interoperability ensuring consistency within cross chain asset exchange cross chain distributed transactions and execution of smart contracts on different blockchains 
+ 
+ Oracle Machines
+ The concept of oracles in folktale lies in the ability of a certain supernatural entity that can answer a particular set of questions In the blockchain oracle machines open the door to the outside world for smart contracts making it possible for smart contracts to use real world information as a condition for contract execution 
+ 
+ NeoContract does not provide the ability to directly access external data such as access to resources on the Internet because this will introduce non deterministic behavior resulting in inconsistencies between nodes during contract execution Implementing the oracle machine in NeoContract requires that external data be sent to the blockchain by a trusted third party integrating these data feeds as part of the blockchain ledger thereby eliminating non determinism 
+ 
+ The credible third party mentioned above may be a person or institution that is co trusted by both parties in the contract or a decentralized data provider that is guaranteed by economic incentives In this manner NeoContract can be used in the implementation of such Oracle machines 
+ 
+ Ethereum DAPP
+ Bitcoin created the era of blockchains and electronic cash and Ethereum created the era of smart contracts Ethereum the pioneers of smart contract on the blockchain has made great contributions to the design idea economic model and technological realization of a smart contract system At the same time the Ethereum platform has seen many DAPPs (distributed applications) where functionalities including gambling agreements digital assets electronic gold gaming platform medical insurance marriage platform with widespread use over many industries In theory all of these DAPPs can be easily transplanted onto the NeoContract platform as a NEO application 
+ Consensus Mechanism
+ Overview
+ A blockchain is a decentralized distributed ledger system It could be used for registration and issuance of digitalized assets property right certificates credit points and so on It enables transfer payment and transactions in a peer to peer way The blockchain technology was originally proposed by Satoshi Nakamoto in a cryptography mailing list i e the Bitcoin Since then numerous applications based on the blockchain emerged such as e cash systems stock equity exchanges and Smart Contract systems 
+ 
+ A blockchain system is advantageous over a traditional centralized ledger system for its full openness immutability and anti multiple spend characters and it does not rely on any kind of trusted third party 
+ 
+ However like all distributed systems blockchain systems are challenged with network latency transmission errors software bugs security loopholes and black hat hacker threats Moreover its decentralized nature suggests that no participant of the system cannot be trusted Malicious nodes may emerge so does data difference due to conflicting interests 
+ 
+ To counter these potential errors a blockchain system is in need of an efficient consensus mechanism to ensure that every node has a copy of a recognized version of the total ledger Traditional fault tolerance mechanisms concerning certain problems may not be completely capable of tackling the issue that distributed and blockchain systems are faced with A universal cure to all fault tolerance solution is in need 
+ 
+ Proof of Work mechanism employed by the Bitcoin addresses this issue rather brilliantly But it comes with an obvious price i e significant electricity cost and energy consumption Further with Bitcoin’s existence new blockchains must find different hashing algorithms so as to prevent computational attacks from it For example Litecoin adopts SCRYPT rather than Bitcoin’s SHA256 
+ 
+ Byzantine Fault Tolerance mechanism is a universal solution for distributed systems Neo proposes dBFT (delegated Byzantine Fault Tolerance) consensus algorithm based on PBFT (Practical Byzantine Fault Tolerance) algorithm Algorithm dBFT determines validator set according to real time blockchain voting which effectively enhances the effectiveness of the algorithm bringing block time and transaction confirmation time savings dBFT2 0 as an upgraded version was released in Mar 2019 which improves robustness and safety by introducing 3 stage consensus as well as a recovery mechanism 
+ 
+ System Model
+ A blockchain is a distributed ledger system in which participants connect with each other via a peer to peer network All messages within it will be sent by broadcasting Two types of roles exist Ordinary nodes and Bookkeeping nodes Ordinary nodes use the system to transfer and exchange accepting ledger data while bookkeeping nodes provide accounting service for the entire network and maintain the ledger 
+ 
+ Hypothetically in this system messages may subject to loss damage latency and repetition Also the sending order may not necessarily be consistent with the receiving order of messages The activities of nodes could be arbitrary they may join and quit the network at any time they may also dump and falsify information or simply stop working Artificial or non artificial glitches may occur as well 
+ 
+ Integrity and Authenticity of information transmission are ensured with cryptography while senders must attach signatures to the hash value of the message sent 
+ 
+ The Algorithm
+ Our algorithm ensures security as well as usability With erroneous nodes in the consensus making no more than ⌊ (N−1) / 3 ⌋ the functionality and stability of the system is guaranteed In it N = |𝑅| suggests the total number of nodes joined in the consensus making while R stands for the set of consensus nodes Given F = ⌊ (N−1) / 3 ⌋ f stands for the maximum number of erroneous nodes allowed in the system In fact the total ledger is maintained by bookkeeping nodes while ordinary nodes do not participate in the consensus making This is to show the entire consensus making procedures 
+ 
+ All consensus nodes are required to maintain a state table to record current consensus status The data set used for a consensus from its beginning to its end is called a View If consensus cannot be reached within the current View a View Change will be required We identify each View with a number v starting from 0 and it may increase till achieving the consensus 
+ 
+ We identify each consensus node with a number starting from 0 the last node is numbered N − 1 For each round of consensus making a node will play speaker of the house while other nodes play congressmen The speaker’s number p will be determined by the following algorithm Hypothetically the current block height is h then 𝑝 = (ℎ − 𝑝) 𝑝𝑝𝑝 N p’s value range will be 0 ≤ 𝑝 < N 
+ 
+ A new block will be generated with each round of consensus with at least N − F signatures from bookkeeping nodes Upon the generation of a block a new round of consensus making shall begin resetting v=0 
+ 
+ General Procedures
+ 
+ 
+ A round of consensus consists of 4 steps as shown in the Figure above 
+ 
+ Speaker starts consensus by broadcasting a Prepare Request message 
+ 
+ Delegates broadcast Prepare Response after receiving the Prepare Request message 
+ 
+ Validators broadcast Commit after receiving enough Prepare Response messages 
+ 
+ Validators produce & broadcast a new block after receiving enough Commit messages 
+ 
+ View Change
+ In case of the following scenarios the Change View Request will be broadcasted attempting to replace speaker 
+ 
+ The transaction verification fails
+ 
+ Time is out while waiting for Prepare Request or Prepare Response
+ 
+ Recovery Mechanism
+ When creating Change View Request if there are not enough active consensus nodes (sum of nodes with Commit sent and fault nodes is greater than F) consensus nodes will broadcast Recovery Request message to update the local consensus context Upon receiving Recovery Request if certain conditions are met a consensus node will generate and broadcast Recovery Message 
+ 
+ Fault Tolerance of dBFT2 0
+ A dBFT2 0 consensus system withNvalidators can tolerate at mostFabnormal nodes Each consensus phase (Commit Change View block generation etc ) requires at leastMnodes to reach consensus As long as the amount of normal validators is not less thanM the consensus process will go on smoothly For example just 4 − ⌊ (4−1) / 3 ⌋ =3 normal validators required can keep alive a consensus system whereN= 4 
+ 
+ Single Block Finality of dBFT2 0
+ Neo s dBFT 1 0 algorithm was susceptible to a single block fork in rare cases of network latency dBFT2 0 fixes this problem hence there is no possibility of forking since then The mechanism is described as follows 
+ 
+ To generate a new block it is required to collect Commit messages from at least M different validators for corresponding block proposal 
+ 
+ A validator will never change its view after broadcasting Commit message 
+ 
+ Hence the success of block generation means 
+ 
+ There are already at least M validators having signed the block proposal and broadcast Commit messages Moreover these validators won t change the view in current consensus round 
+ 
+ The rest of the validators are insufficient to produce another different block 
+ 
+ Therefore the finality of the new block can be guaranteed at a given height 
+ 
+ Further Reading
+ Consensus Algorithm
+ 
+ Consensus Protocol
+ 
+ Voting 

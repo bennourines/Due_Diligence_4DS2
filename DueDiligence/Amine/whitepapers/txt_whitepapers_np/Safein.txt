@@ -1,0 +1,1286 @@
+1
+ Whitepaper
+ A C C E S S A N D PAY M E N T S
+ O N A N Y W E B S I T E I N
+ T W O C L I C K S
+ M A K E I T S I M P L E
+ info@safein com
+ Version 1 1 last updated 5 February 2018
+ www safein com
+ 2
+ TA B L E O F C O N T E N T S
+ Disclaimer 1
+ 3
+ 5
+ 12
+ 20
+ 5
+ 7
+ 9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 18
+ 19
+ 20
+ 21
+ Executive summary
+ 1 1 Problem poor user experience poor e commerce
+ 1 2 Problem lack of transparency in how user data is managed
+ 1 3 Problem Threats to online security
+ 1 4 Problem barriers for regulated business
+ 1 5 Problem absence of universal e wallet
+ 2 1 Combining the best of two worlds
+ 2 2 Safein architecture
+ 2 3 Digital wallet and payments
+ 2 4 Single sign on
+ 2 5 User data protection
+ 2 6 Multi factor authentication mechanism and
+ digital identity managment
+ 2 7 KYC procedure engine
+ 2 8 Buyer protection mechanism
+ 2 9 MVP
+ 3 1 Benefits of Safein
+ 3 2 Application and possible markets
+ 1 Background Problems in e commerce
+ 2 Solution Safein single sign on digital wallet
+ 3 Safein benefits and application
+ 3
+ 36
+ 40
+ 41
+ 6 1 The team 36
+ 6 Team partnerships endorsements
+ 7 Roadmap
+ References
+ 22
+ 29
+ 23
+ 23
+ 25
+ 25
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 32
+ 33
+ 35
+ 35
+ 4 1 Token distribution
+ 4 2 Merchant and user benefits
+ 4 3 User base growth
+ 4 3 1 Registration Pool
+ 4 3 2 Login pool
+ 4 3 3 Referral Progam
+ 4 4 ICO
+ 4 5 Token value and further development
+ 5 1 Growth strategy
+ 5 2 Target audience
+ 5 3 Regulatory considerations
+ 5 4 Corporate structure
+ 5 5 Financial projections
+ 5 5 1 Top line
+ 5 5 2 Expenses
+ 5 5 3 Bottom line cash flow
+ 4 Token model
+ 5 Business plan
+ 1
+ Disclaimer
+ IMPORTANT NOTICE
+ PLEASE READ THIS ENTIRE SECTION AND DO NOT TAKE ANY ACTIONS UNTIL YOU FINISH IT 
+ THIS WHITE PAPER IS A SUMMARY OF SAFEIN BUSINESS MODEL TECHNOLOGY AND A BRIEF
+ INTRODUCTION TO SAFEIN FUNDRAISER’S PRINCIPLES SAFEIN FUNDRAISER IS CONSIDERED TO
+ BE A CROWDFUNDING CAMPAIGN DETAILED TERMS AND CONDITIONS OF THE CAMPAIGN ARE
+ PUBLISHED ON SAFEIN WEB PAGE 
+ IF YOU ARE IN ANY DOUBT AS TO THE ACTION YOU SHOULD TAKE YOU SHOULD CONSULT YOUR
+ LEGAL FINANCIAL TAX OR OTHER PROFESSIONAL ADVISOR(S) AND IMMEDIATELY NAVIGATE
+ AWAY FROM SAFEIN WEBSITE AND DO NOT CONTRIBUTE TO THE DEVELOPMENT OF SAFEIN 
+ This whitepaper information provided on Safein web page and any fundraiser’s terms and
+ conditions published by Safein do not constitute a prospectus or offer document of any sort and
+ is not intended to constitute an offer of securities or a solicitation for investment in securities in
+ any jurisdiction The tokens to be issued by Safein are not intended to constitute securities and/or
+ collective investment units in any jurisdiction If you decide to contribute to Safein development 
+ please note that your contribution to Safein does not involve the exchange of cryptocurrencies
+ for any form of securities investment units and/or shares in Safein or any other company Safein
+ token holder does not receive any form of voting rights dividend or other revenue right that is
+ guaranteed or participates in profit sharing scheme 
+ Due to legal and regulatory uncertainty in the United States of America the citizens and green
+ card holders of and persons residing in the United States of America are not allowed to provide
+ contributions and obtain Safein tokens Citizens and green card holders of and persons residing in
+ the United States of America that participate in the fundraiser by providing false information about
+ their citizenship residency and nationality will breach fundraiser’s terms and conditions and will
+ entitle Safein to request such persons to compensate any damages and/or losses suffered due
+ to this violation The whitepaper information provided on the Safein website and any fundraiser’s
+ terms and conditions published by Safein or any part thereof and any copy thereof must not be
+ taken or transmitted to any country where distribution or dissemination of these documents/
+ information is prohibited or restricted 
+ No regulatory authority has examined or approved any of the information set out in the whitepaper 
+ No such action has been or will be taken under the laws regulatory requirements or rules of any
+ jurisdiction The publication distribution or dissemination of the whitepaper does not imply that
+ the applicable laws regulatory requirements or rules have been complied with 
+ 2
+ To the maximum extent permitted by the applicable laws regulations and rules Safein its founders 
+ team members and any third party involved in the Safein project shall not be liable for any indirect 
+ special incidental consequential or other losses of any kind in tort contract or otherwise
+ (including but not limited to loss of revenue income or profits and loss of use or data) arising out
+ of or in connection with any acceptance of or reliance on this whitepaper or any part thereof and/
+ or information provided on Safein web page by you 
+ All statements contained in this whitepaper and the Safein website statements made in press
+ releases or in any place accessible by the public and oral statements that may be made by Safein 
+ its founders team members and any third party involved in Safein project and acting on behalf
+ of Safein that are not statements of historical fact constitute “forward looking statements” All
+ statements regarding Safein financial position business strategies plans and prospects and the
+ future prospects of the industry which Safein is in are forward looking statements Neither Safein its
+ founders team members any third party involved in Safein project nor any other person represents 
+ warrants and/or undertakes that the actual future results performance or achievements of Safein
+ will be as discussed in these forward looking statements 
+ This whitepaper includes market and industry information and forecasts that have been obtained
+ from internal surveys reports and studies where appropriate as well as market research publicly
+ available information and industry publications Such surveys reports studies market research 
+ publicly available information and publications generally state that the information that they contain
+ has the information from sources believed to be reliable but there can be no assurance as to the
+ accuracy or completeness of such included information 
+ No information in this whitepaper should be considered to be business legal financial or tax advice
+ regarding contribution to the development of Safein You should be aware that you may be required
+ to bear the financial risk of any obtained Safein tokens for an indefinite period of time 
+ Safein does not make or purport to make and hereby disclaims any representation warranty or
+ undertaking in any form whatsoever to any entity or person including any representation warranty
+ or undertaking in relation to the truth accuracy and completeness of any of the information set
+ out in this whitepaper 
+ The information contained on the Safein web page and whitepaper is of descriptive nature only
+ and not binding – unless explicitly referred to in fundraiser’s terms and conditions No part of
+ this whitepaper is to be reproduced distributed or disseminated without including this section
+ “Important Notice” 
+ 3
+ Executive summary
+ Inefficiencies in e commerce are staggering Even though the industry itself is full of promise 
+ the technology behind it is not Namely the way we identify ourselves online as well as
+ transfer our data and money is outdated and thus ripe for improvement Without it we’re
+ stuck with never ending registrations redundant verifications delays limited utility of crypto
+ payments constant infringements of data protection legislation as well as the generally
+ worrisome state of cyber security 
+ With all this in mind Safein offers a single sign on digital wallet enabling users to quickly 
+ safely and conveniently conduct their activities online through a one stop shop for all online
+ authentications and payments With our platform digital customers can easily demonstrate
+ their true identities with no lengthy registrations or verifications maintain instant
+ access to various online shops and payments as well as control the extent of personal data
+ shared with service providers Moreover Safein allows its users to go beyond fragmented
+ identity system born in the last millennium and exercise proper control of their profiles in
+ a secure and modern manner 
+ Our platform is uniquely beneficial for both users and merchants First users will undoubtedly
+ appreciate the end of repeat registrations KYCs and password recoveries replaced
+ by instant access granted by our multi factor authentication solution Furthermore not
+ having redundant accounts provides greater security and data protection both of which
+ are valuable to any consumer Finally the ability to easily conduct payments in any chosen
+ medium has long been desired by the market Safein will also satisfy this need to allow a
+ fully seamless payment experience for all its users and merchants 
+ Merchants also benefit with our platform as Safein significantly reduces merchant costs
+ for user onboarding and verification Furthermore Safein reduces transaction fees and
+ can remove the problem of having to manage lost passwords for the customer support 
+ Merchants also get easy access to crypto payments at one of the lowest commission fees
+ in the market with a completely free identity verification tool Moreover merchants who
+ possess Safein tokens in their wallet will be able to process payments with no commission 
+ Our platform will also help them increase trust and user conversion rates as well as protect
+ them from accidental breaches of increasingly complex data protection regulations and
+ processes 
+ 4
+ Admittedly building a universal gateway for e commerce requires scale and wide product
+ adoption by the target audiences Accordingly our growth strategy is primarily focused on
+ rapid scaling of our user base and initially introducing the platform to the communities our
+ team has best access to gaming and crypto assets In order to achieve these goals we
+ will employ similar incentivization tactics as used by PayPal or Airbnb and reward the first
+ adopters of our platform with Safein tokens Across 3 market verticals we will enter total
+ number of merchants and user wallets by end of 36th month in operation are estimated to
+ reach 3 600 and 1 7 million respectively Cumulative monthly growth rate in value of transactions
+ is estimated to be 18 20% and net commission revenue will grow in line Operational
+ breakeven is expected to be achieved in approx 20 months after launch of revenue generating
+ activities 
+ Work on our vision is already in progress and users will soon be able to try out a fully functional
+ MVP on our website and sites of our partnering websites Beyond further development
+ of the platform itself our team is currently working hard on expanding the company’s
+ network of partners names of which will be announced in due course The process of
+ obtaining an electronic money license in the EU is also in progress 
+ The Safein ICO starts on 20th of March 2018 At this time 10% of the Safein tokens will be
+ issued with the remaining pool will be used for user and merchant incentivization remuneration
+ and further development of the platform 
+ 5
+ Background Problems
+ in e commerce
+ Rapid growth of e commerce remains unstoppable However the industry itself is still ripe
+ for improvements as growing concerns mount over data protection cybersecurity money
+ laundering and monopolization of numerous sectors Moreover shopping online is not
+ only troublesome it’s also redundantly complicated Think for example of all the repeat
+ registrations verifications and password recoveries trailing the daily online customer experience 
+ We believe that outdated technology is to blame for almost all of these problems Accordingly 
+ we think it’s about time to fix this by embracing a modern way of managing your online
+ identity and the shopping experience 
+ One could argue that the internet was designed around the groundbreaking discovery of
+ public database – the website – thus making it the very core of Web 1 0 but subsequently
+ leaving user engagement somewhat secondary However as the internet evolved and grew
+ in popularity personalized online user interaction standards emerged as standard for the
+ protocol Hence keeping track of “who’s who” became crucial for the online community 
+ Unfortunately the internet was created without an identity layer thus online merchants 
+ forums and other stakeholders had to develop this layer from scratch Instead of joining
+ forces for this endeavor each website decided to solve this problem internally which
+ consequently gave rise to the well known horror of “signing up” and creating different accounts
+ for every single website we visit 
+ It’s worth noting that in its infancy “signing up” wasn’t really that bad First there were only
+ so many websites that asked us to register and setting up your user account brought the
+ joy of creation to many However this perception swiftly changed once our modern lives
+ became dependent on the internet and shopping online turned mainstream Naturally with
+ ever growing Web 2 0 interactions still relying on stagnant user onboarding procedures 
+ we had to “sign up” and “sign in” more and more Subsequently irritation with providing
+ 1 1 P R O B L E M P O O R U S E R E X P E R I E N C E –
+ P O O R E C O M M E R C E
+ 6
+ the same data already submitted numerous
+ times before grew to the point where
+ at least 22% of current online shoppers
+ simply choose to abandon their carts if
+ completing the purchase required creation
+ of a new user account1 
+ Anti Money Laundering (AML) and general Know Your Customer (KYC) procedures did not
+ take long to become ubiquitous In turn this made customer onboarding even more problematic
+ as using financial or other regulated services online in most cases required submitting
+ personal documents for manual review and waiting for them to be verified Since we
+ live in the age where time is perceived as precious commodity this delay between account
+ creation and verification (sometime lasting more than a month2) naturally persuades many
+ potential customers to stick with the regulated service provider (e g inferior bank) they
+ already work with or forego buying something online altogether All this just to avoid the
+ hassle of printing signing scanning and submitting their passports or utility bills once again 
+ And it’s no better from the merchant perspective Market research
+ shows that onboarding new users can cost an online
+ service provider up to 20 USD per new customer3 with a total
+ annual bill for identity assurance exceeding 3 5 billion EUR in
+ the UK alone4 Worse another fortune is required to properly
+ collect manage and store the personal data collected 
+ Small armies of KYC specialists need to be available in each
+ company so that legal requirements are not breached and exorbitant
+ fines—like the one received by Paddy Power for failure
+ to verify just 3 customers—can be avoided5 Moreover no
+ matter how good KYC departments usually fail to deliver their
+ service within 24 hours Naturally this deters potential customers
+ who need your services promptly (e g access to financial
+ markets) or not at all (think of buying stocks on the last hours
+ before quarterly results for example) 
+ 22%
+ 20$
+ 7
+ Finally multiple accounts and different passwords are
+ not easy to manage for either users or merchants This is
+ perfectly illustrated by the fact that 30 40% of support
+ center call volume is related to something as stupid as
+ password and account recovery6 
+ This is the magnitude of user time and merchant resources
+ that could easily be saved for better purposes with
+ an advanced Identity 2 07 solution Additionally widespread
+ adoption of Identity 2 0 could also diminish the
+ above mentioned obstacles to fair competition enable
+ greater consumer mobility maximize product utility and
+ supercharge the total growth of e commerce Lastly we
+ live in the age where generations Y and Z tend to reject
+ walls on the internet and jump between the growing number
+ of platforms with no sentimental attachment In this
+ new reality the old way does not work anymore 
+ In this environment merchants became eager to mine more
+ and more data on their site users thus giving rise to a society
+ where 76% of all online users claim that information
+ requested of them during the registration procedure is
+ intrusive and unnecessary9 
+ The need for online merchants to identify their customers through “login” functionality rose
+ from shortcomings of the internet itself and was quite justifiable at the dawn of e commerce 
+ However as the World Wide Web evolved this feature remained unchanged Two
+ factors are to blame for this shortcoming First moving from site centered Identity 1 0 to
+ user centered Identity 2 0 required significant investment by site owners and broad consensus
+ of the online community neither of which is easy to attain Second businesses
+ discovered over time that user registration wasn’t just draining their resources it was also
+ giving them precious piles of data on users’ geography demography contacts and preferences
+ for further sales Naturally it didn’t take long for businesses to discover that such
+ databases could easily be packaged and sold to the highest bidder enabling the digital advertising
+ industry that’s currently worth more than 220 billion USD8 a year 
+ 1 2 P R O B L E M L A C K O F T R A N S PA R E N C Y I N H OW
+ U S E R D ATA I S M A N A G E D
+ 76%
+ 8
+ And that’s completely understandable as most of us try to avoid unwelcome data mining
+ or spamming operations Excessive and intrusive questioning also impacts commerce Many
+ survey respondents list privacy and security issues among the key factors of shopping cart
+ abandonment12 Moreover we normally treasure our right to privacy as a basic human right13
+ that we expect to be protected Governments do try to do this and data protection is no
+ longer at the sidelines of political agendas (think GDPR14 for example) But forcing e commerce
+ incumbents to stop collecting and storing valuable data they don’t really need is
+ no easy feat and legal enforcement is struggling to overcome the “Agree with everything”
+ checkbox we ticked during the last registration Accordingly instead of waiting for the world
+ to fix itself Identity 2 0 could step up and lead the way 
+ A new era of online identity recognition could not only mean increased trust in e commerce
+ through greater protection and control of our personal data It could also enable the online
+ shopper to do something our physical selves take for granted – i e remain anonymous at
+ the counter This does not mean that we imagine a world with no age or country restrictions
+ – these checks are there for a reason and shouldn’t be removed without proper debate 
+ However just like a vendor not even looking at you when you buy something simple and
+ only inspecting your ID when you ask for some liquor or medicine at a physical store online
+ merchants do not need to know your name age gender or email They just need to
+ know that you qualify for the purchase you came for All this can be done without separate
+ accounts spam emails and tiresome verifications We just need to embrace the change
+ that’s long overdue 
+ Furthermore since extensive profiling was not really welcomed by the community almost
+ 60% of internet dwellers started retaliating with increasing numbers of fake email addresses
+ and other false data being submitted during registration10 To date this problem has gotten
+ so big that on average 10% of any online community user database is likely to be false11 
+ 9
+ This fear is not without merit In 2016 we saw 1 1 billion
+ identities exposed in data breaches17 and 2017
+ hasn’t been any better–Equifax alone exposed 143
+ million accounts in the first half of the year18 And
+ we should not forget that this is super sensitive personal
+ data that’s likely to remain accessible to fraudsters
+ indefinitely Naturally this is frightening 
+ In light of all these problems it is no wonder that over 69% of consumers look for websites
+ displaying trust symbols provided by Bizrate Customer Certified TRUSTe and others19 
+ Properly posting these symbols on your website is neither easy nor cheap Accordingly 
+ they’re usually not present on new and exciting websites such as startups struggling to raise
+ capital deliver goods and further develop products Such merchants need to prioritize cyber
+ security and data protection but the costs tend to prevent this 
+ Established merchants however do have the resources to improve security but they fall
+ victim to fraudsters with talent and determination to steal the valuable treasure chests of
+ merchant data Fewer and fewer merchants have the resources and capability to withstand
+ the constant cyberattack and that results in fewer and fewer trusted merchants online 
+ Over time consumers opt for these few trusted merchants but using just a few sites for everything
+ is far from ideal Competition 101 tells us that rising barriers for entry and effective
+ discrimination of startups inevitably leads to fewer choices slower innovation oligopolies
+ and ultimately higher prices None of this is good for the consumer 
+ Distortions to competition e commerce and privacy brought about by the rise of cybercrime
+ are too great to ignore Something needs to be done Therefore we believe that
+ Identity 2 0 could be a huge step in the right direction 
+ The rise of online shopping digital marketing and loyalty schemes resulted in merchants
+ storing more and more consumer data that is of value to cyber criminals Not surprisingly 
+ breaches involving loss of client data from hacking or online leakage doubled in one year
+ from 2015/16 to 2016/1715 Accordingly we’re currently at a place where 60% of consumers
+ believe online merchants aren’t doing enough to protect their personal information 34%
+ of respondents even go as far as to avoid buying online altogether16 
+ 1 3 P R O B L E M T H R E AT S T O O N L I N E S E C U R I T Y
+ 10
+ Obviously having your business online does not shield you from most of the requirements
+ imposed on brick & mortar merchants Regulations intended for consumer or data protection
+ as well as tax collection work for the cyber and real worlds almost identically However 
+ not all commerce is the same and some of it is subject to extra scrutiny We speak here of
+ licensed businesses such as pharmacies financial brokers beverage stores casinos etc 
+ These are the businesses that if run badly could hurt the society we live in Hence they
+ are required to adhere to higher standards in order to protect both consumers and communities 
+ Probably the most popular way to protect the young is ban them from using some goods or
+ services until their adulthood at the age of 16 18 or 21 However whereas in the real world
+ establishing your age isn’t that hard and being asked for ID in some bar at the age of 40 is
+ almost unheard of buying liquor online is a completely different story Online merchants
+ are unable to actually see their customers and judge their age on appearance Accordingly 
+ they need to solve this problem in some other way And the way chosen by most is online
+ ID verification 
+ This verification is quite unsecure costly and—for the user irritating – especially when you
+ have to do this repeatedly Moreover with numerous different IDs across the globe populations
+ with no IDs and stolen IDs bought for a few dollars one should wonder how capable
+ are the merchants of really establishing true identity and age of their shoppers And how
+ much do the customer support armies employed for this task cost them 
+ Even if your true identity online can be discerned this is usually not enough Although internet
+ has no borders domiciles of its users do Accordingly applicable laws differ for users
+ from the Netherlands and India To put it simply whereas something is legal for a Dutch of
+ 23 the same thing can still be banned for an Indian of 70 The same can be said about taxes
+ – VAT in Denmark is 25 percent whereas in Malta it’s only 18 Online merchants need to
+ know and account this properly but we believe that few merchants do With the wide use
+ of VPNs online users tend to “cherry pick” the jurisdictions that suit them best or have the
+ lowest taxes Of course consumers will always take the path of least resistance and that’s
+ understandable – because it’s really the merchant that’s going to be blamed fined and
+ prosecuted if something goes wrong Nobody should want this 
+ 1 4 P R O B L E M B A R R I E R S F O R
+ R E G U L AT E D B U S I N E S S E S
+ 11
+ Whereas the inefficiencies of “signing up” and “signing in” are widely debated we believe
+ that this debate is still missing one core issue the outdated way we pay for the goods or
+ services acquired online Traditionally there’s actually more than one “signing in” in the online
+ process of buying First you sign in to the store itself and then you do it again to access
+ your payment provider Naturally this means two accounts and two passwords Surely that
+ redundancy could be optimized 
+ While the above scenario is already far from ideal we believe that the most common alternative
+ is not actually better We mean here regulated merchants like currency exchanges 
+ betting houses etc all of which usually require users to deposit funds upfront to get the
+ services they came for This is flawed in the way that it makes customers wait from 3 to 72
+ hours before being served (by which time we might lose our interest altogether) with less
+ established businesses it can be many times worse 
+ Many of us at least once felt this fear of transferring a balance to some new exchange or
+ online casino where we weren’t actually sure that the transferred amount would be added
+ to our balance This is quite common the market is rich with stories of fraudulent websites
+ and disappearing accounts Even if your balance gets added to your account you cannot
+ yet be sure that you’ll be able to withdraw it later 
+ Due to the above problems we believe that a significant part of e commerce is lost on the
+ part of new entrants Commerce needs trust and while it’s easy to establish it with simply
+ opening your wallet in the physical world online shopping is different Accordingly forgoing
+ the old fashioned ways and conducting all payments from a single account could greatly
+ benefit e commerce development and competition alike 
+ Finally with regard to the use of a cryptocurrency and blockchain systems we feel the
+ technology is strongly applicable but needs enhanced stability to better serve ecommerce 
+ The Bitcoin idea was born almost 10 years ago The whole cryptocurrency market is worth
+ well over $500bn and crypto payments are still not widely used The general reasons for
+ that is volatility of cryptocurrency rates which frightens merchants and limits blockchain
+ technology The world needs a one stop payment solution for both traditional payment
+ methods and cryptocurrencies with ability to instantly convert payments to the currency
+ that merchant feels safe with 
+ 1 5 P R O B L E M A B S E N C E
+ O F A U N I V E R S A L E W A L L E T
+ 12
+ Data shows that modern internet users have a
+ strong preference for single sign on solutions
+ like Facebook identity or Google accounts In
+ fact some 88% of all online customers use
+ these gateways from time to time to sign into
+ websites they visit20 On the other hand neither
+ Facebook nor Google can grant an account
+ that’s verified or capable of payments which
+ significantly limits user convenience and growth 
+ Accordingly there’s a huge market that’s ripe for
+ the taking 
+ In view of all this as well as the cyber world problems mentioned in previous sections the
+ Safein team has set out to create a single sign on and payment solution that can be used
+ universally on all websites By doing so we will eradicate the traditional way of creating accounts
+ on numerous websites we shop on and we will enable the world to adopt Identity
+ 2 0 This profound leap in technology can easily eliminate the inefficiencies of never ending
+ KYC procedures and finally grant the community a default customer gateway for all e commerce
+ activities 
+ Equally important is our ambition to finally enable our customers to properly secure the
+ personal data used for e commerce and shop anonymously wherever possible We strongly
+ believe that instant access to payment for services with no delays for KYCs or deposit
+ transfers will undoubtedly lead to greater competition increased conversion rates and
+ booming e commerce In tandem merchants will benefit from a significant cut in their cost
+ of regulatory compliance data protection KYC and user onboarding cyber security as well
+ as reduction in need for significant portion of customer support handling trivial matters like
+ password recovery 
+ Here’s how we will achieve our goals 
+ 2 1 C O M B I N I N G T H E B E S T O F T W O W O R L D S
+ 88%
+ Solution 
+ Safein single sign on digital wallet
+ 13
+ S T A N D A R D P A T H
+ S A F E I N PAT H
+ Safein will allow users to store their identity as well as crypto and fiat currencies in accounts
+ opened on our platform Safein will go into various business areas where combination of
+ possessing all of the above gives benefit to its users online and offline The main priority of
+ Safein is to eliminate redundant registrations and KYC procedures 
+ At the same time Safein will standardize crypto payments on all e commerce websites 
+ Currently there is no single large scale Payment Service Provider (PSP) which accepts both 
+ fiat and crypto payments Safein shall resolve this by allowing its users to pay for their goods
+ directly using their Safein wallet regardless of the currency held in the account (cryptocurrency
+ or fiat money) Transactions will be automatically converted to the currency required
+ by the merchant Conversions will be executed at the best available rate in the market with
+ only 0 5% markup on top by Safein This is a unique solution in the market which will allow
+ crypto payments to reach global scale eliminating current crypto payment disadvantages
+ for merchants high network fees the need to convert to fiat manually and huge conversion
+ rate fluctuations 
+ Open your
+ email account
+ Enter email address
+ Think of a
+ new password
+ Click “Register”
+ Enter your personal
+ information
+ Verify your
+ email address
+ Click checkout
+ Choose payment
+ method
+ Login to payment
+ account
+ Confirm payment
+ Checkout with Safein
+ Approve the payment
+ Sign in with Safein on a mobile device 
+ 2 2 S A F E I N A RC H I T E C T U R E
+ 14
+ Safein is planning to be a fully licenced EU electronic money institution with the ability to
+ receive and process payments in full compliance with the law Users will be able to hold
+ their crypto and fiat currency in a single wallet as well as convert them from one to another 
+ Major crypto currencies including Bitcoin Ethereum ERC20 tokens and other popular
+ cryptocurrencies will be supported Currency exchange functionality for crypto and fiat 
+ will be standard for all currencies with 0 5% markup from the best available rate in the
+ market Having an EU electronic money institution (EMI) licence will allow Safein to connect
+ to the SEPA network and give IBAN codes to all of our users Having that available Safein
+ will be one step closer to becoming a standard instrument for daily use Additionally Safein
+ plans to have payment cards linked to users’ accounts so users will be able to use their
+ Safein accounts daily both online and offline 
+ Standard Safein e commerce commission for merchants will be 1% Merchants who possess
+ Safein tokens will be able to receive part of their payments free of any commission 
+ and users who pay with Safein tokens will receive 0 25% cashback on every purchase More
+ on these Safein token benefits can be found in the “Token model” Section 
+ C R Y P T O C U R R E N C I E S
+ S TA N D A R T C U R R E N C I E S
+ 2 3 D I G I TA L W A L L E T A N D PAY M E N T S
+ 15
+ Safein provides a unique solution for both users and merchants Users will be able to login
+ into websites directly with no registrations The Safein account will at the same time provide
+ merchants with the information necessary for client acceptance and service provision 
+ For example if a user is signing in to a forum the forum usually only needs to know user’s
+ display name or some unique identifier enabling it to separate the user from others In this
+ case Safein would not disclose data like user’s full name address etc Instead it will only
+ provide the forum with the required username On the other hand should the same user
+ be buying a physical book additionally the merchant would be provided with user’s full
+ name and address for shipping Despite this the user will have full control of his data at all
+ times always seeing what information is being requested by the merchant and giving a clear
+ consent to such transfer up front 
+ Before integrating Safein a merchant will have
+ to choose what user data is essential and
+ must be acquired and what data is optional
+ and could be omitted Our team will monitor
+ this process and advise merchants on whether
+ their choices on data to be collected complies
+ with applicable data protection regimes 
+ Moreover the user will be able to choose
+ whether to pass or decline passing optional
+ data to the merchant Safein will try to grow a
+ generation of users who value their personal
+ data and do not share it with everybody by
+ default The same applies to merchants as we
+ will try to do what we can without losing our
+ competitive advantages to limit merchant requests
+ for data and convince them to accept
+ anonymous users where possible 
+ LOGIN WITH SAFEIN
+ 2 4 S I N G L E S I G N O N
+ 16
+ Primary focus of many online merchants is business expansion Given limited resources
+ available to most companies (especially the smaller ones) businesses tend to focus on
+ core functions areas like proper user data collection and management don’t get enough
+ attention This is where Safein steps in 
+ In particular it’s no secret that even though many online shops conduct their business
+ globally most of them are not experts in different rules of data protection in every market 
+ Many don’t even know all the details of the laws applicable in their own jurisdiction We
+ believe that this is one of the core reasons for excess data mining and general non compliance
+ with data protection legislation online 
+ With all this in mind Safein’s architecture is built in a way that solves most of these problems
+ automatically First as required by recent developments in the EU21 our users will
+ always be presented with a full and clear information on what personal data is being passed
+ on to relevant websites No such transfer shall take place without clear consent of the
+ user Moreover once the user agrees to give her specific data to a merchant on the first
+ login the merchant will be able to access this data on our platform anytime before this
+ relationship is terminated by the user Accordingly such merchant will have little reasons to
+ store this information on his own server and thus be able to significantly decrease his and
+ his user’s exposure to hacking operations and data theft (as well as save some expenditure
+ related to counter measures to such threats) 
+ We argue that such measures will not only help merchants comply with the EU General
+ Data Protection Regulation (“GDPR”) coming into force as of 25th of May 2018 and also be
+ beneficial for customer trust in general As compliance with GDPR becomes increasingly
+ important Safein will dedicate significant resources to educating the merchants on applicable
+ requirements and guiding them when deciding on which customer data should and
+ should not be collected by specific merchants In short we’ll strive to pass only the “need
+ to know” information to merchants and maintain our users anonymity where possible 
+ Furthermore the platform will also solve the problem of personal data updates with different
+ service providers as all relevant merchants will receive information on updated addresses 
+ surnames etc automatically as soon as such changes are submitted to our platform 
+ Finally the Safein platform will enable our users to truly exercise their rights of personal
+ data management and terminate any previous sharing of data with specific merchant 
+ 2 5 U S E R D ATA P ROT E C T I O N
+ 17
+ Even more importantly we will also let our users to properly exercise Art 17 of GDPR (“the
+ right to be forgotten”) in the EU and request any merchant to delete specific user data from
+ their archives immediately upon receipt of a relevant notice All this shall be done without
+ leaving the boundaries of our platform as the user will simply be required to click a couple
+ of buttons and let our platform take care of further communication with the merchant on
+ behalf of the user 
+ We believe that all the above features will be greatly beneficial for both users and merchants
+ and should be appreciated by educated and law abiding online community in general 
+ Moreover as Safein will closely monitor its partnering websites and share no information
+ with entities of uncertain reputation our services should also help in growing trust in
+ e commerce thereby increasing the conversion rates 
+ Security must be a primary focus while managing your identity
+ and wallet online Safein will have a multi factor authentication
+ mechanism implemented from the very beginning While integrating
+ Safein each merchant will be able to choose a minimum security
+ level that he requires from its users For example merchants
+ can ask that all logins to the merchant’s website and all payments
+ must be confirmed by user on his mobile device i e (i) a push
+ notification shows up (ii) user must identify himself via pin code
+ or fingerprint on his mobile Safein app and (iii) approve login or
+ purchase User (in his panel) can also enhance general security
+ levels for each website individually For example even if a specific
+ website does not require mobile device confirmation for website
+ login a user can always enhance his security level by enabling that
+ requirement himself 
+ With Safein users will not only be able to fully control their logins
+ and actions but track and manage them as well Users will be able
+ to see their full activity history including logins and payments 
+ track their used devices manage current active login sessions and
+ cancel them at any time Users will also be able to easily check
+ which website has access to certain data Most of the functionality
+ related to identity management is already available in the MVP 
+ 2 6 M U L T I F A C T O R A U T H E N T I C A T I O N M E C H A N I S M
+ A N D D I G I TA L I D E N T I T Y M A N A G E M E N T
+ 18
+ Safein team is currently in talks with the world’s leading automated ID verification service
+ provider to provide exceptionally accurate results using its AI powered document checking
+ algorithm Such checks where users will only need to scan their IDs with their cameras and
+ take selfies will be sufficient for most uses Some advanced verifications where users need
+ to comply with very specific regulations (for example some cryptocurrency exchanges) 
+ will be done manually by the Safein team It could take up to few minutes but compared
+ to current waiting periods of weeks for some exchanges it is still a radical improvement 
+ especially keeping in mind that users will only need to do it once 
+ Most of the merchants are well aware of the issues that arise from credit card chargebacks
+ and fraud One of the biggest advantages of crypto payments is that they are irreversible In
+ standard e commerce the merchant is considered to be a more trusted party hence the
+ buyer needs to send the payment first Chargeback and dispute resolution mechanisms
+ were invented to help the buyers recover funds from merchants who failed to deliver the
+ goods or delivered them in unsatisfactory fashion However recently those mechanisms
+ are being abused by fraudsters and scammers in quite the opposite way than intended 
+ Crypto payments without buyer protection mechanisms rob customers of a money back
+ guarantee in case of failure to deliver Hence Safein will provide a buyer protection mechanism
+ for crypto payments in its platform The mechanism shall only be initiated if the
+ goods are not duly received by the buyer or if they are not as described Safein will provide
+ all the tools to the buyers to protect their accounts hence merchants will be able to feel
+ safe as there will be no chargebacks or fraud cases If buyers and sellers are not able to
+ resolve disputes themselves a well trained Safein support team will intervene and resolve
+ the outcome of these disputes 
+ 2 7 K Y C P RO C E D U R E E N G I N E
+ 2 8 B U Y E R P ROT E C T I O N M E C H A N I S M
+ 19
+ The Safein MVP now allows users to create an account on the Safein platform and connect
+ it to a mobile device Safein is currently integrated in a demo website where users can login
+ with Safein without registering adjust their security levels for different websites track their
+ login activity from their mobile devices and close active login sessions at any time This website
+ can be found at www curonian com Additional features are coming soon 
+ 2 9 M V P
+ 20
+ We believe that our services will be desirable by both merchants and users 
+ By employing our services users would benefit by/from 
+ 3 1 B E N E F I T S O F S A F E I N
+ Being able to skip multiple time consuming
+ registration s and gain access
+ to any services immediately with no
+ delays for identity verification or transfer
+ of deposits 
+ The end of management and recovery
+ of numerous user accounts with different
+ passwords 
+ Ability to buy from a merchant offering
+ the best prices or products rather
+ than from the one user already has a
+ verified account with 
+ Convenient one stop shop for both 
+ easy online access and payments 
+ Full and clear disclosure of what customer
+ data is being passed on to websites 
+ Increased cybersecurity of their personal
+ data 
+ 3 Safein benefits
+ and application
+ Comfort that the company collecting
+ their personal data (i e Safein) is trustworthy
+ and will be able to protect it 
+ Significantly lower transaction fees
+ as well as an ultra convenient way to
+ make payments in both fiat and cryptocurrencies 
+ Increased anonymity and protection
+ from unwelcomed data mining and
+ spamming activities 
+ Ability to instruct chosen networks to
+ cease collection of respective user’s
+ data as well as delete the data collected
+ on the user 
+ Cashback as well as further rewards
+ for loyalty and use of our services 
+ Merchants and services providers will appreciate 
+ 20
+ 21
+ Crypto exchanges and other ICOs 
+ Digital goods markets where fraud and
+ chargeback rates are extremely high 
+ eShops benefiting from extremely low
+ payment fees access to crypto payments
+ and verified users 
+ Online financial or legal gambling service
+ providers (which could easily use
+ our platform to verify user’s age and applicable
+ legal regime as well as accept
+ payments from the user with no further
+ registration process) 
+ Car sharing and other rent service providers 
+ Investment and trading platforms 
+ Increased conversion rates due to reduced
+ loss of customers shunning any
+ new registration 
+ Reduced costs of user verification procedures
+ (as we would provide such
+ verified users free of charge) as well as
+ significant savings in account/password
+ recovery department 
+ Diminished need to worry about compliance
+ with GDPR and data protection
+ regulations in other countries 
+ Reduced risk of cyber leaks of customer
+ data 
+ Access to our growing group of users 
+ who are incentivized to use the services
+ provided by our partners 
+ Ability to accept payments from users
+ paying in both fiat and crypto 
+ Lower transaction fees 
+ Single plug in integration 
+ Ability to properly establish user’s location
+ and applicable legal regime 
+ Commission discounts and further rewards
+ for using our tokens and services 
+ Social networks 
+ Regional polls (utilizing our ability to give
+ access to users from certain jurisdictions
+ only) 
+ Smart contracts (users could feed their
+ data directly into smart contracts by using
+ our databases) 
+ E signature and merchants in need of
+ immediate verification of the data presented
+ to them in person (our users
+ would be able to prove credibility of
+ their claims by supporting such claims
+ with verified data on our website) 
+ Brick and mortar retail shops of at later
+ project stages 
+ 3 2 A P P L I C AT I O N A N D P O S S I B L E M A R K E T S
+ Any online website which requires any sort of user identification or payments could greatly
+ benefit from our service Our services could be utilized by 
+ 21
+ 22
+ 4 Token Model
+ The idea of having a single account for everything you do online is simply brilliant 
+ but it requires large scale Developing Safein is the same as trying to solve the
+ chicken and egg problem you need a lot of users to attract merchants and vice
+ versa Without merchants you cannot acquire new users Safein will leverage its
+ tokens to grow its user base and acquire merchants Use of the Safein platform
+ will reward both users and merchants for using innovative payments and identity
+ management solutions created by our team 
+ 23
+ Merchants using Safein will be able to reduce their transaction fees by holding SFN tokens 
+ Each SFN token held entitles a a merchant to process a specific amount of payments per
+ month with no commission fees The initial multiplier right after payments launch will be
+ 10 i e each SFN token will let merchant receive 10 SFN tokens worth of payments with no
+ commission that month The multiplier will gradually decrease within 5 years starting from
+ the date when the payments are launched This will lead to a very high token demand from
+ the very beginning and merchants who buy tokens during the ICO will benefit the most as
+ they will be able to buy them for the lowest starting price 1 ETH = 9 000 SFN 
+ 4 2 M E RC H A N T A N D U S E R B E N E F I T S
+ 4 1 T O K E N D I S T R I B U T I O N
+ T O T A L S U P P L Y 1 0 0 0 0 0 0 0 0 0 S F N T O K E N S
+ Safein Registration Pool
+ ICO
+ Safein team and advisors with
+ 6 24 months lock period 
+ Safein Login Pool
+ Safein Referral Program
+ 60%
+ 10%
+ 10%
+ 10%
+ 5%
+ 5%
+ 24
+ For example right after the payment functionality launch if merchant has 10 000 SFN tokens 
+ he will be able to receive 100 000 SFN worth (at market price) of payments for his
+ goods or services with no commission fee in any currency each month After he receives
+ 100 000 SFN or equivalent amount in other currency that month he will be charged a
+ standard 1% commission fee for the remaining part of the month Doing some simple math
+ shows that if a merchant buys $1 000 worth of SFN tokens during the ICO and the token
+ price doesn’t change that will save him $1 140 of Safein commission per year (1% commission
+ on total transaction volume) and more than $2 000 yearly compared to other payment
+ service providers charging commission and fees more than twice as large as Safein 
+ Accordingly this should allow us to incentivize merchants to promote payments with SFN
+ tokens even more as this would allow them to store the tokens received from customers
+ and minimize their commision fees further 
+ Users paying with SFN tokens will receive 0 25% cashback for all of their purchases Merchants
+ will only be charged 1% no matter what payment method is chosen by the user 
+ No other crypto payments solution currently has an active cashback bonus system for its
+ payments 
+ 10 000 SFN allows to receive 100 000 SFN per month for free 
+ $1 000 worth SFN tokens saves $2 000 yearly compared to other
+ payment service providers 
+ A
+ B
+ 25
+ Login pool will be distributed as a reward for loyalty to 
+ We expect the Registration Pool to be launched within few months following the conclusion
+ of the ICO 
+ users who use Safein login websites who have Safein login implemented 
+ 4 3 2 L O G I N P O O L
+ The Safein Registration Pool is to be distributed among 5 000 000 users of Safein that are
+ first to complete full account verification after the launch of Registration Pool The Registration
+ Pool shall be distributed in “decreasing reward” fashion following this model 
+ 4 3 1 R E G I S T R AT I O N P O O L
+ M I L L I O N S O F U S E R S
+ 4 3 U S E R B A S E G ROW T H
+ 100M
+ SFN
+ tokens
+ 5M
+ users
+ 1st
+ 50
+ SFN
+ 2nd
+ 26
+ SFN
+ 3rd
+ 14
+ SFN
+ 4th
+ 6
+ SFN
+ 5th
+ 4
+ SFN
+ per user per user per user
+ for
+ per user
+ 26
+ The Login Pool will have 5% of the overall issued tokens They will be distributed over the
+ first 24 months as of the launch of Login Pool which we expect to happen within a few
+ months following the conclusion of the ICO 
+ At the end of each month the system will count qualifying logins for each user and each
+ participating website (qualifying one unique login per user per site per day i e if a user
+ logs into the same site three times per day only one login counts) If total amount of qualifying
+ logins is X the total amount of SFN tokens in the pool dedicated to users that month is
+ Y then each qualifying login is awarded with Y/X tokens Users and websites can claim their
+ tokens in their panel on Safein website 
+ Unclaimed tokens will stay in the pool for the next month Tokens are distributed by last infirst 
+ out principle those tokens not withdrawn from the pool for longer than 3 months will
+ be transferred to Safein company reserve 
+ Users split ¾ of the pool Websites split ¼ of the pool 
+ Safein allocates 5% of its total token supply for its Referral Program Users who invite their
+ friends to register on Safein will be rewarded the same amount of Safein tokens that the
+ new user is rewarded from the Registration Pool For more details please see the Registration
+ Pool section Referred users will only entitle their friends to referral bonuses if they
+ fulfill all of the below within 90 days from registration 
+ Not many people know that PayPal’s referral program was a key factor to its success PayPal
+ has spent about $60 000 000 on their referral program and achieved 7 10% daily growth in
+ the early 2000s Its referral program was a key to their user base growth to 100 million users 
+ Safein will use the same strategy and grow its community faster than any other crypto
+ project 
+ The Safein Referral Program is planned to be launched within 6 months of completion of
+ the ICO however not before the launch of payments 
+ Fully verified account and identity 
+ At least $10 worth of crypto or fiat currency deposited 
+ At least $10 spent on goods or services 
+ 4 3 3 R E F E R R A L P R O G R A M
+ 27
+ ICO will be run on a smart contract and tokens will be distributed right after the ICO ends 
+ Should any part of the tokens allocated to ICO not be distributed during the ICO such tokens
+ will be returned to the company and added to its reserve for further development In
+ case of failure to reach Soft cap all contributions will be returned to their original owners 
+ N B all values indicated in ETH in this chapter are subject to change before the start of the
+ ICO in case of large fluctuations in market price of ETH 
+ The Safein ICO will be distributing 10% of the total token supply to cover the below costs 
+ Further development of our product 
+ Crypto payments functionality 
+ Smart Contracts for Login Pool 
+ Safein payment solution with internal transaction processing system 
+ Acquiring EMI licence 
+ Onboarding at least 500 merchants 
+ ICO expenses and marketing 
+ 4 4 I C O
+ First 4 000 
+ 1 ETH = 9 000 SFN tokens 
+ 4 001 8 500 ETH 
+ 1 ETH = 8 000 SFN tokens 
+ 8 501 12 500 ETH 
+ 1 ETH = 7 000 SFN tokens 
+ R A T E S T A R T
+ D A T E
+ March 20th
+ 13 00 (UTC)
+ S O F T
+ C A P
+ 4 000 ETH
+ H A R D
+ C A P
+ 12 500 ETH
+ 28
+ All of the above should be done by Q4 2018 (obtaining the EMI license may take a bit longer) 
+ After all of these goals are met Safein will slowly distribute its tokens in the market to get the
+ funds needed to continue project development mostly for B2B sales (i e onboarding new
+ merchants acquiring more users launching payment cards if community supports it and
+ going into NFC mobile payments) 
+ In the short term it is expected that token value will grow due to the growing user base and
+ expanding list of partnering merchants Users will be incentivized to use SFN tokens for
+ their payments due to cashback bonus merchants will be buying SFN to receive commission
+ free payments Due to merchants holding the tokens and users buying them to receive
+ the cashback bonus demand will be going up supply will be going down and token price
+ should therefore go up Section 4 2 goes into more details on how beneficial it is for the
+ merchants to save on commission by possessing SFN tokens 
+ N B Since the company shall be working in an extremely fast changing environment and
+ is still under rapid development itself some features envisioned for the company’s token
+ model commision size Referral Program as well as the Registration and Login Pools might
+ become redundant or subject to change in the future Accordingly the company reserves
+ the right to change and revise these features bonuses and incentivization programs as
+ such need materialises and is recognized as such by the management of the company 
+ 4 5 T O K E N V A L U E A N D F U R T H E R D E V E L O P M E N T
+ 28
+ 29
+ 5 Bussines plan
+ Safein’s success is based on rapid growth of the user and merchant base Safein won’t be
+ successful if it’s not widely used Given that imperative one of the key project priorities
+ is adapting every part of the project (including token model marketing strategy business
+ strategy and technical development) for rapid growth of user and merchant base Safein’s
+ token model is designed to incentivize users and merchants to use Safein as much as possible 
+ The rise of the cryptocurrency market allows us to approach growth from a very different
+ angle Until now all business strategies had their growth projections built around a bottom
+ line concept of “cost to acquire single user ” Our solution is to adopt the same strategies
+ that the fastest growing companies did but use them with modifications from the decentralized
+ cryptocurrency world in tandem with extremely low payment commissions for merchants 
+ The Safein team will use different strategies tailored for users and merchants Our user
+ base growth strategy initially relies on the Referral Program This strategy was actively used
+ by PayPal Airbnb Dropbox and other companies which managed to achieve viral growth 
+ Initial user base will be achieved by signing up users during our ICO and then launching
+ our referral campaign 5% of the generated Safein tokens will be allocated to the Referral
+ Program With an initial critical mass of users registered during our ICO our user base will
+ grow exponentially Starting active marketing campaigns in certain industries as mentioned
+ in previous sections will allow us to demonstrate user benefit of having one single login for
+ most popular websites Similar example can be seen in the gaming industry where Steam
+ login is already extremely popular when it comes to websites where users don’t need to
+ show their true identity or pay for goods 
+ 5 1 G ROW T H S T R AT E G Y
+ 30
+ Acquiring merchants in crypto and gaming spaces is easier with a very large user base and
+ Safein’s benefits for both industries 
+ All of the above solves real current issues for both markets For example Steam stopped
+ accepting Bitcoin on December 2017 due to extremely high network fees (more than $40
+ at the time) Merchants accepting Safein payments will be able to process those payments
+ completely free by having Safein tokens in their wallet 
+ With all of the mentioned benefits and large user base merchants from crypto and gaming
+ sectors will be very easy to approach not only due to direct benefits but due to increased
+ conversion rates as well users won’t need to register or remember different passwords to
+ purchase goods immediately 
+ Safein will start its user acquisition from two different verticals the crypto audience and the
+ online computer games market Both of these sectors have tech savvy user bases already
+ using or at least aware of cryptocurrencies Users in these sectors often face repetitive
+ registrations KYC procedures and identity verification 
+ 5 1 TA R G E T A U D I E N C E
+ C R Y P T O G A M I N G
+ free outsourced identity verification 
+ no network fees due to payments moving
+ internally in Safein wallet 
+ instant payments 
+ ability to receive payments in any cryptocurrency 
+ extremely cheap currency conversions 
+ reduced fraudulent payments due to
+ verified identities 
+ buyer protection mechanism 
+ access to crypto payments 
+ only 1% transaction fee 
+ free KYC procedures for large volume ingame
+ item traders 
+ 31
+ The gaming industry is also suffering from fraudulent payments Safein would be able to
+ eliminate this problem Global revenue for online games related industries passed $100bn
+ in 2017 making it a very attractive sector to start Safein user acquisition especially as the
+ founding team has great experience and connections in this market After establishing in
+ the gaming industry it’s logical to go to all markets surrounding it 
+ Crypto markets are suffering from delayed registrations to exchanges and ICOs due to very
+ slow identity verification processes Safein is currently securing partnerships with crypto
+ market players to save their time and costs on KYC processes and to improve user experience
+ allowing to sign in to websites passing KYC documents from Safein account This
+ would be completely free of charge for users and businesses with only a very small commission
+ for payments going through Safein platform 
+ Since payment services are envisioned to form the core of our operations these services
+ shall fall under increased governmental scrutiny and thus be subject to licensing in most
+ markets On the other hand we should note that Safein plans to allow payments in both
+ fiat money and cryptocurrencies Accordingly at least for the foreseeable future most jurisdictions
+ will treat these types of payments differently and different considerations are
+ therefore relevant for these payment methods 
+ First Safein plans to initially focus its expansion in the European Union Accordingly EU
+ E Money Directive (2009/110/EC) establishing universal guidelines for regulation of Electronic
+ Money Institutions (EMI) across the EU is the primary focus of our legal considerations 
+ In view of this as well as numerous discussions with various regulators and other
+ legal professionals Safein acknowledges this EMI license as necessary for successful development
+ and continuous expansion of our business In view of the above obtaining this
+ license for payment operations e money issuance SEPA transfers and IBAN account creations
+ will be a top priority as of the first days following the ICO It should also be noted 
+ that once received this license will enable us to enjoy the so called “passporting” right and
+ conduct our operations in all 28 EU member states 
+ On the other hand it should not be forgotten that most leading jurisdictions still lack clarity
+ in respect to regulations applicable to cryptocurrencies Accordingly at the time of writing 
+ this usually means that such payments do not fall under the scope of already existing regulatory
+ regimes and hence are not subject to licensing Even though this might seem convenient
+ at first we see this lack of established rules more as a threat than an opportunity 
+ In view of this Safein is determined to place all our payment activities under due regulatory
+ 5 3 R E G U L AT O RY C O N S I D E R AT I O N S
+ 32
+ 5 4 C O R P O R AT E S T R U C T U R E
+ 5 5 F I N A N C I A L P RO J E C T I O N S
+ scrutiny as soon as possible and to obtain the above mentioned EMI license for payments
+ not only in fiat money but in cryptos as well Accordingly our present aim is to seek this
+ license in Luxembourg currently the only EU jurisdiction fully catering to our needs We
+ should note however that the process of obtaining this license in Luxembourg is quite
+ lengthy and can take more than a year thus crypto payments functionality might be provided
+ to Safein users even before the license is obtained In that event these services will only
+ be provided in countries where such license for crypto payments is not yet mandatory and
+ will remain unlicensed only until the respective license covering both methods of payments
+ is received Furthermore we continue to actively monitor the regulatory developments in
+ other EU countries and will strive to take advantage of them in case a more optimal licensing
+ procedure becomes available 
+ Finally it should be noted that the EMI license grants limited powers outside the EU and is
+ not a global solution to all regulatory inquiries Accordingly our regulatory efforts will not be
+ limited to EU only and further regulatory considerations will also be duly made before any
+ expansion outside the EU 
+ Since regulatory regimes financial logic and accepted business practices often dictate division
+ of project operations among separate legal entities companies implementing the
+ Safein project shall also be organized in a company group composed of several separate
+ legal entities Accordingly initially the ICO company shall be established in Estonia Most of
+ the operations will be performed by a company in Lithuania whereas payment operations
+ shall be conducted through an entity or entities established in jurisdictions providing the
+ applicable legal framework for these operations Further developments of this company
+ group might also be possible in the future as the need for such changes arises 
+ The Safein team has prepared a preliminary financial model for the first 36 months of operations
+ after ICO The profit and loss statement has been developed bottom up building
+ from the initial quotations we have received after discussions with regulators third party
+ solutions providers as well as benchmarking with industry peers Top line (merchant and
+ user base growth monetization) has been modelled as a result of investing resources into
+ proactive initiatives such as registration and login pool our own referral campaign as well
+ as paid marketing and business development efforts 
+ 33
+ In the following sections we present key estimated figures We believe that even if some of
+ the assumptions are proven wrong as we go along having a structured model allows us to
+ understand fundamental relationships between key operational and financial KPIs providing
+ great value and allowing a transparent and pragmatic view of the business’ viability 
+ More detailed financial projections are available upon request on an exclusive basis The
+ SafeIn team has the full right to refuse to present financial projections based on their own
+ criteria 
+ 5 5 1 T O P L I N E
+ N U M B E R O F M I D T O L A R G E S I Z E M E R C H A N T S O N B O A R D E D
+ Safein’s business model is based on growing the merchant base and number of active user
+ wallets For each of the verticals we will be working on in the first 36 months we estimate
+ different growth models 
+ Number of total merchants and total user wallets are estimated to reach 3 600 and 1 7 million
+ respectively by the end of the 36th month 
+ 1
+ 4 000
+ 3 500
+ 3 000
+ 2 500
+ 2 000
+ 1 500
+ 1 000
+ 500
+ 35 79 11 13 15 17 19 21 23 25 27 29 31 33 35
+ Crypto Gaming E commerce
+ 34
+ N U M B E R O F A C T I V E U S E R W A L L E T S
+ TOTA L V A L U E O F T R A N S A C T I O N S
+ The number and value of transactions through Safein is expected to grow in line with the
+ launch of crypto and fiat payment functionality Our business model is based on an 18 20%
+ cumulative monthly growth rate which we believe is a conservative projection The monetization
+ scheme is based on a flat commission rate hence Net Commission Revenue will
+ grow in direct relationship with to the value of transactions 
+ 1
+ 200 000
+ 400 000
+ 600 000
+ 800 000
+ 1 000 000
+ 1 200 000
+ 1 400 000
+ 1 600 000
+ 1 800 000
+ 35 79 11 13 15 17 19 21 23 25 27 29 31 33 35
+ Crypto Gaming E commerce
+ 35
+ 5 5 2 E X P E N S E S
+ At the initial stages significant development costs will be incurred It implies that the first
+ year’s business cost structure will be biased towards product development and cyber security
+ infrastructure development expenses Significant one off costs will be incurred around
+ the time when it is expected to receive EMI license 
+ Cost of revenue will appear as we launch crypto and fiat currency payments Safein will
+ need to participate in the financial system hence it will incur payment processing costs 
+ Despite of the obvious competitive advantages against currently existing payment providers
+ at the start we also understand competitive pressures will arise as we go As a result we are
+ determined to keep superior cost structure and be as lean as possible 
+ 5 5 3 B O T T O M L I N E A N D C A S H F L O W
+ Launching a product on blockchain and using a token based incentivization scheme allows
+ us to achieve a very competitive cost structure which in turn improves profitability and
+ decreases pressure on cash flow That is of great importance atr the inception of the company 
+ At currently estimated transaction levels (scenario conservative) the company is expected
+ to reach monthly operational breakeven at months 30 36 after the crowdsale and approximately
+ 20 months after launch of revenue generating activities 
+ 36
+ 6 1 T H E T E A M
+ The team behind Safein is composed of successful repeat entrepreneurs and various industry
+ experts giving Safein the experience necessary for building and growing Safein platform 
+ 6 Team partnerships 
+ endorsements
+ V L A D A S J U R K E V I Č I U S
+ Business | Co founder
+ Vladas has more than 5 years of experience in developing fast
+ growing e commerce companies where he was able to utilize
+ his expertise in online projects by putting together and
+ managing top talent teams and establishing key partnerships 
+ After founding and exiting a few highly successful esports and
+ online games related projects he is now building a unique
+ identity and payments management solution 
+ L U K A S D E K S N Y S
+ Operations | Co founder
+ Lukas has worked as an actuary for one of the largest UK insurers 
+ Liverpool Victoria and was a member of Institute and
+ Faculty of Actuaries His areas of expertise include finance 
+ risk management and advanced statistical modelling Now his
+ interests have shifted to blockchain technologies and startups 
+ A U D R I U S S L A Ž I N S K A S
+ Legal | Co founder
+ Audrius is an attorney at law specializing in the fields of
+ e commerce gaming corporate M&A finance and data protection 
+ Legal experience and industry knowledge allows Audrius
+ to spot market inefficiencies caused by the changing environment
+ and quickly address them with practical solutions 
+ 37
+ B O G D A N K U Š TA N
+ Senior Development Team Lead
+ Bogdan has 10 years’ experience of software programming 
+ He has contributed to many different projects of various
+ scope and fields Currently he is mainly involved in ecommerce
+ and custom software development solutions in transport 
+ retail sports analysis industries For the last 3 years he
+ has been working as CTO in a software development companies 
+ J O N A S T I R E V I Č I U S
+ Senior IT Project Manager
+ Jonas has more then 10 years’s experience in software development
+ business He first started as an IT project manager
+ in one of the Swedish capital bank Later he has been
+ mainly focused on software development business and for
+ the last 8 years has contributed to various large scale projects
+ in transport retail ecommerce and sports analysis industries 
+ Also Jonas is a co owner board member and advisor
+ in some other businesses 
+ J O S E P H B O RG
+ Regulatory
+ Dr Joseph F Borg is an advocate acting currently a Senior
+ Advisor to WH Partners practicing mainly on Gaming 
+ Blockchain Esports Corporate IT Telecoms and Intellectual
+ Property Law He also lectures Gaming Law at the University
+ of Malta Joe occupied the role of Secretary General of
+ the Malta IT Law Association (MITLA) for over 3 years and is
+ currently the Vice President and Co Founder of Bitmalta 
+ which is a non profit organisation with a mission to promoting
+ and stimulating discussion about blockchain technology
+ and cryptocurrencies in Malta Before joining WH Partners
+ he occupied the post of Chief Regulatory Officer of the Lotteries
+ and Gaming Authority Malta 
+ 38
+ D R V I L I U S B E N E T I S
+ Cyber Security
+ Dr Vilius is a digital security professional with focus on securing
+ digital environments On the side he is an industry
+ professor in Cyber Security at Kaunas University of Technology
+ (KTU) as well contributing to many different national and
+ international cybersecurity practices as well as publishing
+ via ISACA Center for Internet Security and other establishments 
+ M A R I U S M I Š K I N I S
+ Finance
+ Marius spent most of his career in fast pace environments 
+ in management consulting delivering complex strategic 
+ operational and change management projects for corporate
+ and startup clients in CEE EMEA USA etc in finance
+ acting as CFO for international group of companies and in
+ private equity working on deal sourcing and execution as
+ well as monitoring portfolio companies Marius advices Safein
+ team on financial planning questions
+ J U S TA S B R A Z A U S K A S
+ UX/UI/Data
+ Justas is a Web Specialist with more than 5 years of experience
+ in developing and managing of e commerce projects
+ and data analysis With rapid growth of the blockchain technology
+ his interests turned towards it 
+ V I L I U S S E M Ė N A S
+ Business Development
+ Vilius is the Chief Commercial at CoinGate one of the largest
+ payment processors in the area of blockchain and cryptocurrencies 
+ With his focus on business development sales
+ strategy and customer excellence Vilius has helped the
+ company grow its merchant base to over 1 000 clients that
+ produce a sales volume of over $30 million per month 
+ 39
+ P I E R R E R O B E R G E
+ Cyber Security
+ Pierre is an 11 year veteran of the Communication Security
+ Establishment Canada (CSEC) Pierre led advanced technical
+ teams tasked with protecting Canada’s national interests in
+ cyberspace While the majority of Pierre’s projects remain
+ classified Pierre established a strong reputation among
+ ‘5 Eyes’ nations as a leading expert and innovator in cyber
+ intelligence operations His declassified awards include the
+ CSEC Excellency Award and the Chief of the Defence Staff
+ Commendation While working alongside British and American
+ counterparts Pierre lead teams of 100+ members to
+ combat the most advanced cyber threats originating from
+ both state and non state actors 
+ 40
+ 7 Solution
+ roadmap
+ Full ID
+ vertification
+ EMI licence
+ obtained
+ MVP with login
+ functionality
+ Whitepaper and ICO
+ Safein idea is born campaign launch
+ 2017 Q2 2017 Q4 2018 Q1
+ 2018 Q1
+ 2018 Q3 2019 Q1
+ 2018 Q2 2018 Q1
+ 2018 Q3
+ Login Pool
+ launch ICO launch
+ Crypto payments
+ and wallet launch
+ Registration Pool and
+ Referral Program launch
+ Fiat payment
+ launch
+ 2019 Q2
+ 41
+ R E F E R E N C E S 
+ 1 Data provided by Statista in 2016 survey covering primary reasons for digital buyers to
+ abandon their carts in the United States as of 2015 
+ 2 For example Thomson Reuters 2016 Know Your Customer Surveys reveal that the time to
+ onboard new corporate customers for financial institutions exceeds two months at least
+ 30% of the time Of course such lengthy periods to satisfy the regulator are most apparent
+ in the financial sector yet the regulations and their effects are quickly spilling over to other
+ industries including e commerce 
+ 3 https //thefinanser com/2014/04/theres a big difference between kyc and knowingyour 
+ customer html 
+ 4 CTRL Shift research Economics of Identity 
+ 5 Fined £280 000 in 2016 for this offence 
+ 6 2011 HDI Support Center Practices and Salary Report 
+ 7 A method for identity verification using user centric technologies 
+ 8 https //www statista com/statistics/237974/online advertising spending worldwide 
+ 9 https //www marketingweek com/2015/07/08/consumers are dirtying databases 
+ with false details 
+ 10 Ibid 
+ 11 https //www telesign com/fake user impact report/ 
+ 12 http //angelineclose com/wp content/uploads/2011/02/Determinants of E Shopping 
+ Cart Abandonment pdf
+ 13 Article 8 of European Convention on Human Rights 
+ 14 EU General Data Protection Regulation to come into effect as of 25th of May 2018 
+ 15 http //www telegraph co uk/news/2017/08/13/cyber attacks online retailers doubleyear 
+ hackers try steal 
+ 16 https //www digitalcommerce360 com/2015/02/03/online shoppers hesitate buy because 
+ security concerns 
+ 17 http //www livemint com/Industry/mCSJiFfZrxk8USJ0Rxh8lI/11 billion identities exposed 
+ in data breaches in 2016 say html 
+ 18 http //www wired co uk/article/hacks data breaches 2017 
+ 19 https //www digitalcommerce360 com/2015/02/03/online shoppers hesitate buy because 
+ security concerns/ 
+ 20 LoginRadius report on Customer Identity Preference Trends 2016 
+ 21 Namely adoption of General Data Protection Regulation (EU) 2016/679 
+ 22 Mary Meeker’s Internet Trends 2017 
