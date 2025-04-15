@@ -1,0 +1,656 @@
+[
+  {
+    "text": "[Section 1] b xdc protocol technical whitepaper xinfin organization www xinfin org blockchain technology global trade finance september 2017 contact info xinfin org x0ctable contents 1 blockchain paradigm 3 2 xdc blockchain 5 2 1 vanilla ethereum 5 2 2 xdc blockchain network 5 2 3 hybrid network architecture 6 2 4 xdc blockchain architecture 7 2 5 forking quorum 11 2 6 xdc nodes 11 2 7 design considerations 13 3 real world use case 15 4 blockchain applications 18 5 conclusion 20 list figures figure 1 xdc network 6 figure 2 xdc blockchain architecture 7 figure 3 administration manager 9 figure 4 conduit services 10 figure 5 node 12 figure 6 reference node 12 figure 7 light node 13 figure 8 auditing node 13 figure 9 steps 1 4 15 figure 10 steps 5 6 16 figure 11 steps 7 8 17 figure 12 steps 9 11 17 list tables table 1 comparison blockchain platforms 4 table 2 data model 8 xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 2 x0c1 blockchain paradigm history past",
+    "metadata": {
+      "chunk_id": "06c8d420535ad425413f810d6cadf8ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 2] tables table 1 comparison blockchain platforms 4 table 2 data model 8 xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 2 x0c1 blockchain paradigm history past years important innovation colloquially known xe2 x80 x9cblockchain xe2 x80 x9d emerged potentially disruptive technology core innovation built concept distributed cryptographic database database referred ledger maintained network computers ledger makes possible entire network create evolve track immutable record transactions successful blockchain application far satoshi nakamoto xe2 x80 x99 s cryptocurrency known bitcoin outlined seminal paper xe2 x80 x9cbitcoin peer peer electronic cash system xe2 x80 x9d 2008 powerful technology far implicated numerous cryptocurrencies exist online financial institutions beginning understand potential applications blockchain conventionally regulated industries understanding blockchain fundamental level blockchain data structure cryptographically links",
+    "metadata": {
+      "chunk_id": "79419c9bb138ba823fb272b7205e5a30",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 3] institutions beginning understand potential applications blockchain conventionally regulated industries understanding blockchain fundamental level blockchain data structure cryptographically links blocks transactions potential transfers value paradigm blockchain allows true privacy exist involved transaction characteristic blockchain makes significant implementation financial industry structure allows automation immutability decentralization characteristics carefully chosen nakamoto order create digital mechanism trust financial world result limited reliance party trust mechanisms enabling direct contractual interface parties involved transfer value technology power exchanges safer faster costeffective ownership value stored blockchain established asymmetrical cryptography digital keys wallet addresses digital signatures created cryptographically ensure total privacy transmission transactional data transaction blockchain needs signed digital keys owns keys owns access value stored",
+    "metadata": {
+      "chunk_id": "6c3bce866f2cc93cbb0fee305cd52d5a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 4] wallet addresses digital signatures created cryptographically ensure total privacy transmission transactional data transaction blockchain needs signed digital keys owns keys owns access value stored wallet keys generated wallet software come pairs private key kept secret public key public key akin bank account number private key like secret pin control account idea digital signatures private public key pair shares mathematical relationship message transaction signed private key verified public key revealing private key public blockchain bitcoin s blockchain network structured peer peer network architecture network implementation nodes equal symmetric server centralized service hierarchy bitcoin s network blockchain implementations financial industry allow open symmetric network structure bitcoin enthusiasts advocate blockchain bitcoin fundamentally linked short sighted view taking consideration bitcoin technology stack exists solve problem unregulated digital currency stack evolved",
+    "metadata": {
+      "chunk_id": "236fac2a1f603750bacfc6760c20bfef",
+      "entities": {
+        "crypto_project": [
+          "bitcoin"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 5] bitcoin enthusiasts advocate blockchain bitcoin fundamentally linked short sighted view taking consideration bitcoin technology stack exists solve problem unregulated digital currency stack evolved solve similar transfers value asymmetric network xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 3 x0cthe development ethereum blockchain major milestone blockchain ecosystem focus shifted system state virtual machines run smart contracts network availability turing complete smart contracts limited functionality bitcoin scripting language overcome number different applications possible private blockchain private blockchains came prominence hyperledger project saw participation ibm intel 2016 major private blockchain developed r3 called corda raised significant amounts money r3 joined hyperledger project fully private blockchains case centralized trusted implementation core data structure blockchain significant changes consensus mechanism meaningful",
+    "metadata": {
+      "chunk_id": "cf5828cb98631dece79fc08c9ef550ed",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 6] amounts money r3 joined hyperledger project fully private blockchains case centralized trusted implementation core data structure blockchain significant changes consensus mechanism meaningful value propositions enterprise applications hybrid blockchain hybrid blockchains fairly unexplored implementations exist development quorum developed jp morgan designed hybrid blockchain fully permissioned environment truly hybrid blockchain necessarily able connect public blockchain private blockchain implementation running fully permissioned environment xdc hybrid blockchain aims exactly leveraging power public private blockchain paradigms table 1 illustrates comparison public private hybrid blockchain systems parameters public blockchain private blockchain hybrid blockchain transactional visibility fully visible visible subject use case auditability low low high high network decentralized centralized hybrid security compromised high high throughput low 3 4 s 1 bitcoin 15 s 1 ethereum high high",
+    "metadata": {
+      "chunk_id": "342fe1637f12e6894d3f741c83ce33d1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 7] fully visible visible subject use case auditability low low high high network decentralized centralized hybrid security compromised high high throughput low 3 4 s 1 bitcoin 15 s 1 ethereum high high membership open restricted participation open hosting restricted interoperability yes table 1 comparison blockchain platforms xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 4 x0c2 xdc blockchain public blockchain implementations including ethereum serve important purpose woefully inadequate financial use cases entire industries benefit greatly blockchain technology implement ethereum based solution 2 1 vanilla ethereum industries stringent data security needs fully public blockchain stores transaction data encrypted form compromised case bitcoin blockchain addition data security institutions auditability requirements balance data security data auditability important consideration xdc protocol equipped satisfy data visibility nature public",
+    "metadata": {
+      "chunk_id": "ab79797f5ed30c0e7ad0fd569f3f6d8c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 8] blockchain addition data security institutions auditability requirements balance data security data auditability important consideration xdc protocol equipped satisfy data visibility nature public blockchain transactional data visible participants network means anybody track transactions public key cryptography theoretically provides level anonymity entire industries exist de anonymize bitcoin ethereum blockchain wholly unacceptable sensitive financial data makes public blockchain paradigm unsuitable enterprise applications data auditability data visibility concerns hand hand auditability requirements different institutions different levels participants institution require ways easily accessing data inability requisite participants access data compromising benefits public key cryptography makes application public blockchains like ethereum financial use cases impossible xdc blockchain runs xe2 x80 x99s reference nodes infrastructure consortium members blockchain contents available",
+    "metadata": {
+      "chunk_id": "077dc5d28f3b82be2d3818792136c89e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 9] makes application public blockchains like ethereum financial use cases impossible xdc blockchain runs xe2 x80 x99s reference nodes infrastructure consortium members blockchain contents available public network xe2 x80 x99s possible brute force relationships transactions associated public keys consortium members undergo stringent vetting able run xe2 x80 x98gerent xe2 x80 x99 nodes entire blockchain stored infrastructure nodes xe2 x80 x98bootnodes xe2 x80 x99 ethereum paradigm different kinds nodes perform different functions described section 2 6 2 2 xdc blockchain network important aspect distributed databases network architecture written public private blockchain architectures consortium blockchains somewhat ignored unfortunate consortium blockchain architectures tread important middle ground low trust ecosystem public blockchains high trust member entities private blockchains fully public blockchains like bitcoin ethereum rely certain number long term stable nodes consortium",
+    "metadata": {
+      "chunk_id": "495d90639cca902170f390c2dab1cd6d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 10] ground low trust ecosystem public blockchains high trust member entities private blockchains fully public blockchains like bitcoin ethereum rely certain number long term stable nodes consortium blockchains similarly structured selective inclusion clauses centralization inherently undesirable quality blockchain architectures enterprises depend heavily centralization hard blanket case decentralization regulated fiduciary institutions xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 5 x0cnetwork 1 network 2 master nodes network 1 network 2 network 1 figure 1 xdc network 2 3 hybrid network architecture 2 3 1 hybrid network public private xdc blockchain built paradigm consortium blockchains architecture differs conventional private permissioned blockchains public blockchains built ethereum codebase xdc blockchain deals system state blocks transactions different kinds networks exist xdc ecosystem firstly public network constituents private",
+    "metadata": {
+      "chunk_id": "b6dc670c60ff205e0a0c0ab6b6d49bdf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 11] blockchains public blockchains built ethereum codebase xdc blockchain deals system state blocks transactions different kinds networks exist xdc ecosystem firstly public network constituents private permissioned network restricts participation secondly private network state maintained respective network record hash transactions smart contracts stored public state blockchain depicted figure 1 institutions different relationships participants public state xdc blockchain shared participating nodes owned different kinds constituents groups nodes form fully permissioned networks private state accessible authorized members instance let assume private marketplace goods services set network 1 specifics trade parties accessible network 2 record individual trades stored hashes public state shared private network immutable record transactions 2 3 2 hybrid network xdc public blockchains previous section outlines private public states xdc blockchain coexist provide benefits hybrid nature xdc",
+    "metadata": {
+      "chunk_id": "711eefc0c198d8c194abb4d3b66a4f53",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 12] private network immutable record transactions 2 3 2 hybrid network xdc public blockchains previous section outlines private public states xdc blockchain coexist provide benefits hybrid nature xdc blockchain extends interoperability public blockchains like ethereum bitcoin transactions marked hybrid xdc blockchain transmitted executed ethereum xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 6 x0cpublic blockchain need external wallets exchanges xdc protocol seeks create truly decentralized cryptocurrency space interoperability 2 3 3 consortium membership consortium membership refers relationship different institutions individuals xdc blockchain xdc blockchain kinds membership accessible individual institution owns xdc tokens tier 1 membership default tokens bought interested individuals institutions planned crowdsale tier 2 tier 3 memberships obtained holding certain xdc subject requisite vetting tiers allow institutions host xdc nodes",
+    "metadata": {
+      "chunk_id": "dbf3c7b8de7d242ca8486e46b0f2e5e7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 13] default tokens bought interested individuals institutions planned crowdsale tier 2 tier 3 memberships obtained holding certain xdc subject requisite vetting tiers allow institutions host xdc nodes participate consensus mechanism xdc blockchain 2 3 4 fork prevention private permissioned blockchains usually resistant possible forks blockchain xdc blockchain exception tier 2 tier 3 consortium members allowed run xdc nodes asset forfeiture rules written protocol seize xdc holdings unscrupulous consortium members looking undermine integrity xdc blockchain furthermore block signed node creates block fraudulent additions xdc blockchain easily prevented asset forfeiture close vigilance additions xdc blockchain mimic legal responsibilities financial institutions real world public blockchains mechanisms exacting personal cost ill intentioned participants introduces lawlessness conducive enterprise applications 2 4 xdc blockchain architecture section outlines individual components xdc protocol",
+    "metadata": {
+      "chunk_id": "3ac527d7399b7a2e2c4cffff9a3ab3e2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 14] exacting personal cost ill intentioned participants introduces lawlessness conducive enterprise applications 2 4 xdc blockchain architecture section outlines individual components xdc protocol following sections outlined different components protocol different type nodes xdc blockchain certain nodes require fewer components protocol depending functionality necessary distributed applications admin manager network manager smart contract manager conduit services chain manager public chain state private chain state resource manager augur services ethereum layer figure 2 xdc blockchain architecture xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 7 x0c2 4 1 administration manager administration manager lives heart xdc protocol activity administration manager divided conceptually sections location definition data model messaging carries state manipulation administration manager equipped java script cli define data models create messaging frames alter",
+    "metadata": {
+      "chunk_id": "ce8bcc2bdcc4daf53f11d9369cc022e1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 15] divided conceptually sections location definition data model messaging carries state manipulation administration manager equipped java script cli define data models create messaging frames alter state system administration manager summary allows definition data models initialization instance creation creating messaging frames lifecycle state changes table 2 data model xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 8 x0c2 4 1 1 data model data model administration manager structure data stored blockchain defined public state blockchain predefined data model stored private state blockchain inherit data model extant changes create entire new structure according use case administration manager state initialize data model messaging state update state alteration figure 3 administration manager 2 4 1 2 messaging messaging section administration manager interfaces conduit service transfer different kinds messages constituent parts protocol js cli",
+    "metadata": {
+      "chunk_id": "426031d1a9e95d11445703c379d38565",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 16] alteration figure 3 administration manager 2 4 1 2 messaging messaging section administration manager interfaces conduit service transfer different kinds messages constituent parts protocol js cli default messaging structure altered private state use cases 2 4 1 3 state transitions administration manager carries state transitions private public states blockchain conduit services network manager connect administration manager different parts protocol local storage xdc ecosystem general order define initiate execute different classes transactions 2 4 2 smart contract manager smart contract manager executes appropriate contracts right time deeply connected resource manager augur services order ensure conditions stipulated contracts met highly audited smart contracts available inherited public state participants private networks having ability customizations according needs use case 2 4 3 message conduit message conduit connects parts protocol connects augur service resource manager smart",
+    "metadata": {
+      "chunk_id": "08eb6ac11cc0752e82d5657aa19afc61",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 17] state participants private networks having ability customizations according needs use case 2 4 3 message conduit message conduit connects parts protocol connects augur service resource manager smart contract manager ensure external conditions critical execution smart contracts securely transmitted executed correctly connects network manager administration manager carry number state modification tasks including transactions xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 9 x0cconduit smart contract manager admin manager network manager resource manager augur service figure 4 conduit services 2 4 4 network manager network manager connects nodes xdc ecosystem responsible creating permissioned subnetwork private state connecting nodes modifying public state 2 4 5 chain manager chain manager implicated consensus mechanism resolves bft byzantine fault tolerance issues arise state transitions chain manager maintains private state permissioned sub",
+    "metadata": {
+      "chunk_id": "4c79f6acd4db9532eaa8fca5fb6e474a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 18] state 2 4 5 chain manager chain manager implicated consensus mechanism resolves bft byzantine fault tolerance issues arise state transitions chain manager maintains private state permissioned sub networks local storage takes voting mechanism maintain public state 2 4 6 resource manager resource manager protocol connects equipment resource monitoring ecosystem fiduciary arrangements instance iot based resource monitoring ecosystem set sure equipment purchased loan utilized terms agreement resource manager xe2 x80 x99s job connect iot like devices tied corresponding resources xdc protocol comes inbuilt support arduino raspberry pi intel edison esp2866 iot device support planned 2 4 7 augur service augur service communicates smart contract manager highly secure oracle service smart contracts depend external variables market conditions data augur service augur service contain highly vetted controlled connections pertinent external sources smart contracts transactions deal solely private",
+    "metadata": {
+      "chunk_id": "faf01a38b8fd9dbb0f4d01df0d51338b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 19] depend external variables market conditions data augur service augur service contain highly vetted controlled connections pertinent external sources smart contracts transactions deal solely private state permissioned network oracle data augur services augmented mutually agreed sources xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 10 x0c2 5 forking quorum xdc blockchain built quorum private permissioned blockchain developed j p morgan quorum developed layer implementation ethereum protocol significant changes protocol consensus mechanism entirely reworked replacing proof work consensus mechanism called quorumchain new consensus mechanism allows new blocks created step process step transactions included new block voted participating nodes second step node selected leader block maker randomly block maker node creates new block xdc blockchain forked quorum number reasons decision firstly powerful smart contract functionality exists ethereum",
+    "metadata": {
+      "chunk_id": "9587a9cfb2b09c3fcf5ab948dae0457e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 20] step node selected leader block maker randomly block maker node creates new block xdc blockchain forked quorum number reasons decision firstly powerful smart contract functionality exists ethereum protocol easily accessible quorum secondly consensus mechanism implemented smart contract quorumchain additional changes method achieving consensus easy implement thirdly hybrid nature quorum blockchain ideal large number enterprise use cases fourthly fairly high throughput compared public blockchains essential scaling needs high volume businesses finally ability reuse substantial development dedicated ethereum protocol makes choice quorum base implementation appropriate addition fork includes number improvements quorum protocol throughput transactions significantly increased test environment ve developed smart contract manager allows interoperability xdc blockchain public blockchains ve added punitive smart contracts connect quorumchain consensus smart contracts ensure stake xdcs run",
+    "metadata": {
+      "chunk_id": "1d4b78cb8705ac1a648d05f7d855f976",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 21] ve developed smart contract manager allows interoperability xdc blockchain public blockchains ve added punitive smart contracts connect quorumchain consensus smart contracts ensure stake xdcs run network infrastructure remain honest process developing light client built quorum protocol connect natively xdc ecosystem 2 6 xdc nodes xdc network hosts different kinds nodes nodes don t require functionality resources run nodes nodes write private state sub network don t require components xdc protocol furthermore ability run nodes restricted institutions meet criteria consensus architecture xdc protocol divided parts xdc consortium membership requirements order participate xdc network institutions belong tiers tiers correspond xdc token holdings fraudulent activity results seizure xdc tokens staked gain membership host network infrastructure second actual process achieving consensus network topology stable nodes come vote transactions new block new leader selected validator nodes random",
+    "metadata": {
+      "chunk_id": "4d31faf9c4f6303d2bc9bb09fde51210",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 22] staked gain membership host network infrastructure second actual process achieving consensus network topology stable nodes come vote transactions new block new leader selected validator nodes random leader creates new block transactions voted nodes described different type nodes exist xdc network purpose xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 11 x0c2 6 1 node nodes possess entire xdc protocol certain nodes possess transaction history entire network addition state nodes controlled consortium members come number caveats nodes purchase hold fixed equity xdc able host xdc protocol major advantage design choice node groups nodes gain control network order possess 51% public network nodes acquire xdc drives price xdc ensures financially impossible node cartel control majority network admin manager network manager smart contract manager conduit services chain manager public chain state private chain state resource manager augur services",
+    "metadata": {
+      "chunk_id": "bacb5237615d51214b98c491e0aa27a3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 23] node cartel control majority network admin manager network manager smart contract manager conduit services chain manager public chain state private chain state resource manager augur services figure 5 node 2 6 2 reference node second kind nodes reference nodes exist transfer transactions transaction pool nodes access entire blockchain play minor verification role ensure structure transaction according protocol transactions verified added blockchain nodes admin manager network manager conduit services chain manager public chain state private chain state figure 6 reference node 2 6 3 light node kind node light node light node implemented private networks don xe2 x80 x99t participate achieving consensus voting process store relevant private state local storage access public state transaction history nodes xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 12 x0cadmin manager network manager smart contract manager conduit services chain manager",
+    "metadata": {
+      "chunk_id": "2c25cf330701383e7934002170c39cb7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 24] history nodes xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 12 x0cadmin manager network manager smart contract manager conduit services chain manager public chain state private chain state figure 7 light node 2 6 4 auditing node fourth kind node auditing node node parts protocol chain manager limited functionality auditing node allows access public private state blockchain purposes regulation auditing reconciliation legacy systems admin manager chain manager public chain state private chain state figure 8 auditing node 2 7 design considerations 2 7 1 tokens xdc token built erc20 token standard design decision taken ensure fundamental compatibility multitude emerging ethereum dapps view future interoperability ethereum blockchain choice erc20 standard straightforward compatibility extends smart contracts written ethereum blockchain 2 7 2 centralized exchanges claim proud participants movement decentralization tied centralized exchanges true",
+    "metadata": {
+      "chunk_id": "da047b959c1af8d21efeb806414f1a35",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 25] straightforward compatibility extends smart contracts written ethereum blockchain 2 7 2 centralized exchanges claim proud participants movement decentralization tied centralized exchanges true decentralization evade blockchain ecosystem till meaningful interoperability design choice taken perspective mind envision future kinds tokens exchanged smart contracts limited architecture individual organizations xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 13 x0c2 7 3 wallet security online wallets convenient way storing cryptocurrency tokens actually insecure certain implementations online wallets simply web applications access wallets running node extremely insecure share private public keys inevitable online wallet implementations added concern accidental planned shutting node hosting wallet case tokens lost stolen incidents financially damaging hurt general reputation blockchain ecosystem xdc ecosystem provide easily accessible light wallets",
+    "metadata": {
+      "chunk_id": "2a402fbd237c8b08e38a324afa52980a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 26] planned shutting node hosting wallet case tokens lost stolen incidents financially damaging hurt general reputation blockchain ecosystem xdc ecosystem provide easily accessible light wallets connect securely nodes light wallet unique keys sign transactions associated account light wallet standalone application serves account possibility hacked losing xdc tokens highly unlikely 2 7 4 token standard major problem ecr20 standard designing custom tokens transfers ethereum wallets result loss ether design challenge lot custom coins face xinfin going specialized functions token xe2 x80 x99s contract sending wallet preventing loss tokens 2 7 5 xdc01 standard plan release token standard ensure users xdc blockchain accidentally send tokens incompatible erc20 based blockchain plan build xdc01 standard erc20 standard ensure future compatibility interoperability allows kinds transfer xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 14 x0c3 real world use",
+    "metadata": {
+      "chunk_id": "7b020db4f14ccd187af757ac78e938d2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 27] erc20 standard ensure future compatibility interoperability allows kinds transfer xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 14 x0c3 real world use case 10 farmers ghana want procure certain kind harvester indian manufacturer delving far financial relationships need facilitated acquisition equipment functioning repayment loan carried xdc protocol actors involved party farmers party b equipment manufacturers party c institutions involved party accesses marketplace service providers party b advertises wares communication happen dapp marketplace initiated conventional method 1 dapp connects party party b party c terms agreed smart contracts written initialized implemented smart contract manager 2 dapp sends transaction data frame administration manager 3 administration manager invokes appropriate smart contracts smart contract manager 4 smart contract manager initializes monitoring service resource manager augur service xdc purchase",
+    "metadata": {
+      "chunk_id": "17b198df99599ea95ce11c3fbf4025e6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 28] manager 3 administration manager invokes appropriate smart contracts smart contract manager 4 smart contract manager initializes monitoring service resource manager augur service xdc purchase equipment transferred party b case loan required purchase required xdc transferred party c financiers party b depicted figure 9 figure 9 steps 1 4 5 state blockchain updated administration manager sending transaction details conduit service chain manager network manager necessary network manager intimates remaining xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 15 x0cnetwork public state needs updated chain manager updates private state updates public state network manager 6 network manager broadcasts pertinent information relevant actors network escrow smart contract initiated smart contract manager percentage xdc stored account order underwrite investment protect non payment term violations depicted figure 10 figure 10 steps 5 6 7 smart contract",
+    "metadata": {
+      "chunk_id": "166c4606fd9aa9312c8fd9d56e826027",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 29] smart contract initiated smart contract manager percentage xdc stored account order underwrite investment protect non payment term violations depicted figure 10 figure 10 steps 5 6 7 smart contract manager sends escrow details administration manager 8 administration manager updates private state broadcasts public state update network manager actors involved private state transaction service started resource manager monitors physical location activity equipment purchased face terms violation preventive smart contracts case escrow smart contract initiate payout financiers according terms agreement depicted figure 11 xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 16 x0cfigure 11 steps 7 8 9 resource manager updates smart contract manager conditions fulfilled violated turn updates administration manager 10 value generated equipment recorded xdc blockchain 11 loan repaid smart contract terminates payouts distributed constituents depicted figure 12",
+    "metadata": {
+      "chunk_id": "7c613c22b73fa063e28a2a91b201829b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 30] violated turn updates administration manager 10 value generated equipment recorded xdc blockchain 11 loan repaid smart contract terminates payouts distributed constituents depicted figure 12 figure 12 steps 9 11 xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 17 x0c4 blockchain applications 4 1 asset valuation financing generally asset valuation tedious process financial institutions certain assets like real estate easier value assets depreciate value like airplanes instead holding collateral finance refinance assets sense constantly assess asset question unfortunately opaque outdated processes asset valuation impossible financial institutions xdc blockchain allow asset valuation procurement financing later lifecycle monitoring services constantly evaluate health asset information quickly available relevant authorities let assume airlines financed number airplanes fleet asset valuation case airplane recorded xdc blockchain standard formulas",
+    "metadata": {
+      "chunk_id": "2e02b4135f8c916e367684b29243e8b9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 31] evaluate health asset information quickly available relevant authorities let assume airlines financed number airplanes fleet asset valuation case airplane recorded xdc blockchain standard formulas value depreciation resulting use airplane age asset repairs maintenance traditional refinancing coded smart contracts monitor value assets transparent standardized format airline needs trim fleet cryptographically signed record history available readily standardized format aforementioned opacity longer prevents asset valuation 4 2 resource monitoring section 3 outlines procurement monitoring assets trade finance context innovation supported xdc protocol ability finance operate assets value ascribed asset example farmers able procure farming equipment financed value produce order calculate value produced record xdc blockchain mechanisms resource monitoring place iot enabled resource monitors connect securely xdc protocol allow monitoring 4 3 smart contracts smart contracts truly innovative",
+    "metadata": {
+      "chunk_id": "01df47fd05cd6338c1322b4a635089a6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 32] produced record xdc blockchain mechanisms resource monitoring place iot enabled resource monitors connect securely xdc protocol allow monitoring 4 3 smart contracts smart contracts truly innovative invention blockchain paradigm plan build large community developers enthusiasts design innovative smart contracts xinfin nonetheless cautiously optimistic smart contracts dao hack undeniable proof ethereum protocol having robust security smart contracts compromised right kind oversight 4 4 security highly audited standardized contracts solution problem straightforward xdc ecosystem belongs consortium blockchain paradigm plan allow comprehensively audited smart contracts ensure security xdc ecosystem create standardization secondary benefits number fiduciary use cases xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 18 x0c4 5 xe2 x80 x98marketplace smart contracts xe2 x80 x99 xdc blockchain gains maturity envision regulated marketplace welldefined",
+    "metadata": {
+      "chunk_id": "089adfca76c1c8b03eae14bf320235cc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "oversight"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 35.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 33] xinfin organization september 2017 rights reserved v1 0 18 x0c4 5 xe2 x80 x98marketplace smart contracts xe2 x80 x99 xdc blockchain gains maturity envision regulated marketplace welldefined process security auditability smart contract writing firms undertake creation standardized contracts general financial use cases cater customized applications entirely separate auditing firms ensure infallibility smart contracts aim ensure hacks like dao don t happen xdc blockchain xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 19 x0c5 conclusion enterprise application requirements difficult fulfill normal circumstances implementing new technologies comes significant risk industry vetting popular public blockchains favorable visibility transactions rigidity development paradigms bitcoin block size debate lack permissioned infrastructure energy intensive consensus gaps enterprise applications built public blockchains difficult real world applications",
+    "metadata": {
+      "chunk_id": "c406aac8fea268fe1a4530f64b687341",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 34] development paradigms bitcoin block size debate lack permissioned infrastructure energy intensive consensus gaps enterprise applications built public blockchains difficult real world applications bitcoin protocol brought grand visions decentralized secure world facilitate transactions cryptocurrency ecosystem developed ironically resulted monolithic silos interoperability centralized exchanges necessary carry conversions cryptocurrency pairs suspect exactly kinds security problems bitcoin protocol set solve xdc blockchain attempts solve problem secluded ecosystems highly secure robust interoperability powered protocol described paper interoperability refers xdc protocol outside xdc ecosystem public private states interact specific ways outside xdc ecosystem interoperability public blockchains allows exchange xdc tokens protocol xdc blockchain aims bring significant advantages public blockchains necessary restrictions permissioned blockchains create ecosystem enterprise ready tiered",
+    "metadata": {
+      "chunk_id": "8de507f5a731374c7f82e6f0cfa51e98",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  },
+  {
+    "text": "[Section 35] allows exchange xdc tokens protocol xdc blockchain aims bring significant advantages public blockchains necessary restrictions permissioned blockchains create ecosystem enterprise ready tiered membership rules participation xdc network allows robust mechanisms maintaining network integrity addition controlling network participation creates environment standardized relationships allow focus important business references 1 2 3 4 5 nakamoto satoshi bitcoin peer peer electronic cash system cryptography mailing list 2008 swan melanie blockchain blueprint new economy sebastopol o xe2 x80 x99reilly 2015 copeland christopher zhong hongxia tangaroa byzantine fault tolerant raft stanford 2015 buterin vitalik ethereum platform review opportunities challenges private consortium blockchains 2016 voell david nielsen patrick quorum whitepaper v0 1 https github com jpmorganchase 2016 xdc protocol technical whitepaper xinfin organization september 2017 rights reserved v1 0 20 x0c",
+    "metadata": {
+      "chunk_id": "2420380198cd3adb2f2ba51208a40887",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "XinFin Network.txt"
+    }
+  }
+]

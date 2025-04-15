@@ -1,0 +1,754 @@
+[
+  {
+    "text": "[Section 1] b genaro network yellow paper genaro network roadmap multi source data governance framework yellow paper v1 0 1 page 1 x0cgenaro network yellow paper abstract genaro network new public blockchain platform based peer peer encryption sharing platform aims realize highly efficient node management public chain based pos proof stake spor sentinel proof retrievability vision genaro establish new medium distributed encrypted storage enable user use share data establish abundant distributed applications dapps blockchain provide stable support compared public chains genaro following advantages 1 genaro modified use file sentinels better suit distributed systems combination pos spor enhancing ability defend replay attacks 2 design chain style pos genaro studied famous pos methods casper cffg ctfg xef xbc x8c tendermint ouroboros analyzed major ways attacking pos proposed relevant schemes 3 terms management structure genaro combines proof data integrity pos provides effective methods defense",
+    "metadata": {
+      "chunk_id": "d3f9b504d0a84239e1830746f52f8dbd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 2] xef xbc x8c tendermint ouroboros analyzed major ways attacking pos proposed relevant schemes 3 terms management structure genaro combines proof data integrity pos provides effective methods defense potential problems pos addition terms data structure public chain genaro developed gsiop protocol line date methods storage encryption settle different layers data usage finally terms adding data genaro added relevant vm order sets table contents 1 genaro s vision 3 2 storage network 3 3 3 3 file sharing based proxy recryption 9 3 4 new vm opcodes 11 3 5 new instructions 11 3 6 new special transaction 12 2 1 dht distributed hash table 3 2 2 kad network nodes 4 2 3 xor matrix distance calculation 5 2 4 node status contact 5 2 5 kademlia agreement 6 4 1 flp impossible features 12 2 6 lookup algorithm 6 4 2 cap theorem 13 2 7 cache 6 4 3 point point encryption storage 2 8 bucket refresh 6 2 9 key value redistribution 7 4 consensus spor 15 genaro public chain 7 3 1 searchable encryption 7 3 2",
+    "metadata": {
+      "chunk_id": "4c494c356b95cb74e38543b1b7939861",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 6 4 2 cap theorem 13 2 7 cache 6 4 3 point point encryption storage 2 8 bucket refresh 6 2 9 key value redistribution 7 4 consensus spor 15 genaro public chain 7 3 1 searchable encryption 7 3 2 genaro o streaming protocol consensus governance structure 12 5 4 4 chain style pos 17 4 5 data management structure design 19 summary outlook 20 references 21 gsiop 8 page 2 x0cgenaro network yellow paper 1 genaro s vision genaro public chain combines peer peer encrypted storage original intention design allow data shared encryption giving users different data rights ultimately allowing rich ecosystem decentralized applications dapps built public chain dapps centered transactions trading market gambling gaming 2 2 1 storage network dht distributed hash table p2p 1 peer peer said concentrated embodiment internet philosophy common participation transparent openness equal sharing applications based p2p technology including file sharing instant messaging collaborative processing streaming media",
+    "metadata": {
+      "chunk_id": "7be1211fc94fd7e01f195ddcb7f29283",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 4] internet philosophy common participation transparent openness equal sharing applications based p2p technology including file sharing instant messaging collaborative processing streaming media communication etc 2 contact analysis understanding data related features dapps 1 limited data storage chain 2 chain data directly usable making dapp ubiquitous current mobile phone web app resulting narrow functionality blockchain genaro designed allow data decentralized storage medium complement functionality encrypted data incorporating idea encrypted data processing blockchain achieve goal genaro s system designed parts storage network public chain consensus governance figure 1 yellow paper elaborate elements applications essence p2p new network communication technology new communication technology breaks traditional structures gradually decentralized flattened moving future trend equal nodes working application p2p file sharing bts emules etc concentrated embodiment p2p technology genaro p2p",
+    "metadata": {
+      "chunk_id": "eef68b90956da5acd63bba8c96b805ec",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 5] breaks traditional structures gradually decentralized flattened moving future trend equal nodes working application p2p file sharing bts emules etc concentrated embodiment p2p technology genaro p2p file sharing network entry point file network system operability combined blockchain formula algorithm design new flat decentralized cloud retaining blockchain xe2 x80 x99s open transparent characteristics development p2p file sharing network generally following stages including network tracker server pure dht network server hybrid p2p network distributed hash table dht distributed storage method dht type information uniquely identified key value stored multiple nodes according certain convention protocol effectively avoid issues single failure xe2 x80 x9ccentralized xe2 x80 x9d server tracker distinct centralized node server node dht network need store information entire network stores data neighboring subsequent node figure 1 genaro system architecture greatly reduces bandwidth occupation",
+    "metadata": {
+      "chunk_id": "2f7fac8b75b4e711174eabf5733eec3d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 6] centralized node server node dht network need store information entire network stores data neighboring subsequent node figure 1 genaro system architecture greatly reduces bandwidth occupation resource consumption dht network backs redundant information node closest keyword avoiding single node failure problem page 3 x0cgenaro network yellow paper techniques algorithms implementing nodes kad dht storage network include dht chord 3 pastry 4 kademlia 5 etc genaro uses kademlia algorithm p2p file following features sharing software bt bt derivatives mainline btspilits btcomet utorrent emule emule mods xef x81 xac nodeid needs 160 bits 20 bytes kad verycd easy emules xtreme based algorithm xef x81 xac contact contains nodeid nodeid address string udp protocols implemented incompatibility issues bt uses python s kademlia implementation called khashmir emule uses c kademlia implementation called kad port number xef x81 xac p2p protocols genaro s implementation based emule s kad dht network",
+    "metadata": {
+      "chunk_id": "31f9b0e1b43f6543f55a79e540cf3d96",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 7] bt uses python s kademlia implementation called khashmir emule uses c kademlia implementation called kad port number xef x81 xac p2p protocols genaro s implementation based emule s kad dht network implementing kad bucket vaugekconst contact routing nodes bucket contain k nodes nodes disappear hour protocol reason point point library xef x81 xac vaugekconst set 20 storage network isomorphic following introduction gradually explain advantages xef x81 xac router contains contact kbucket kbucket kademlia algorithm kademlia technology referred generation p2p technology p2p universal protocol distributed peer peer computer networks kademlia defines structure network plans communication nodes specific information interaction processes kademlia network nodes use udp communicate distributed hash table store data node id identify bucket bit id kademlia uses key values identify nodes data kad network key value kad transparent length 160 bits computer comes key called nodeid generated 160 bit",
+    "metadata": {
+      "chunk_id": "1eb6bddce53e60dcbb47565a512ed162",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 10] easy implement xef x81 xac later managing accounts 2 3 xor matrix distance calculation bucket receiver places end list xef x81 xac data 160 bit identifier determine node kv pair exists kad uses concept xor expresses integer xor gets definition distance system binary tree frame 160 bit id binary tree id size id distances smallest subtree containing nodes leaf closest idx leaf shares longest common prefix x tree fully binary tree example distance 0011 1001 1010 integer expression 10 distance node appropriate k bucket bucket fewer key value pairs k receiver directly add new sender end kad node 160 bit nodeid key value distance identifiers given 160 bit identifiers x y kad determines distance sending node exists recipient s k list xef x81 xac appropriate k bucket receiver decides pinging node seen k bucket recently seen node receives failed reply stripped k bucket new sender placed end conversely node seen recently gets reply placed end list new send contact discarded kad s k bucket",
+    "metadata": {
+      "chunk_id": "4b07f9701b7f54e073d0e5a84c6f68fc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 11] node seen k bucket recently seen node receives failed reply stripped k bucket new sender placed end conversely node seen recently gets reply placed end list new send contact discarded kad s k bucket benefits nodes 10 k bucket implements recently observed node eviction policy retained node 2 4 removed list analysis p2p system indicates node likely node status contact nnd node network data represent information kad node contains xef x81 xac ip address xef x81 xac udp port xef x81 xac node id hour k bucket maximizes possibility staying online preserving old surviving contact second k bucket provides resistance certain dos attacks malicious user swipe routing state node large number new nodes kad page 5 x0cgenaro network yellow paper node join new node old node leaves find closer nearest observed node kad node routing table routing table binary tree leaf nodes k buckets initiator resend find node find k recent ones requested initiator node s routing table contains k buckets node neighbors",
+    "metadata": {
+      "chunk_id": "1c880dc56b3089080e12ced0b4ee9302",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 13] key value ensure subsequent retrieval terms caching lookup successful node find node rpc contains 160 bits key arg receiver find node rpc returns nnd unidirectional nature topology possible encounter array cached key value pairs contact information nearest k node target id finding nearest node future looking key value high frequency certain find value rpc functions like find node returns nearest k node corresponding target id exception rpc receiver receives store given key return stored value sent request stores key value kv pair observed nearest node return value key value system eventually cached nodes prevent excessive caching validity period kv pair node database set inversely exponential number nodes number current node key node recent key id 2 6 lookup algorithm 15 node lookup process kad locate k nearest nodes kad according given key value kad 2 8 chooses use recursive algorithm node lookup party initiated lookup finds node transfer nodes issue resolving table non k bucket",
+    "metadata": {
+      "chunk_id": "c1d0c24832b2d1901df56e51aba98936",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 14] kad locate k nearest nodes kad according given key value kad 2 8 chooses use recursive algorithm node lookup party initiated lookup finds node transfer nodes issue resolving table non k bucket bucket fewer key value bucket refresh kad bucket generally refreshed request particular id segment node refreshes bucket requested node hour initiator sends find node rpc selected refreshing bucket randomly selecting id bucket segment node lookup nodes parallel asynchronous means xce xb1 concurrency id pairs xce xb1 nearest node key parameter system recursive phase initiator resends find node node previously sent rpc nodes respond quickly removed replied round looking node order join network node u contact existing node w usually bootstrap node network u inserts w appropriate k bucket u look node id end u refreshes page 6 x0cgenaro network yellow paper k buckets farther refresh u ting key values kad node information fills k bucket adds k bucket nodes existing node similarly surrounding subtrees",
+    "metadata": {
+      "chunk_id": "6039d392647c6fba45e3758b2e2fcab4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 15] end u refreshes page 6 x0cgenaro network yellow paper k buckets farther refresh u ting key values kad node information fills k bucket adds k bucket nodes existing node similarly surrounding subtrees k nodes node u flushes k buckets k node subtree complete information surrounding subtree knows new node hold kv pair redistributing kv pair automatically find k nearest nodes given key value node needs know new node store rpc sent transmit relevant kv pair new node 3 order avoid reusing store rpc save content different nodes node transmit kv pairs id closer nodes key value 2 9 key value redistribution ensure persistence kv pairs nodes periodically redistribute key values cases cause search limited key value fail k nodes kv pairs leave network kv pair distributed second new node join network id closer node distributing key cases node kv pair redistributed ensure available k recent key valued nodes compensate node leaving network kad redistributes kv key hour kad proposes mechanisms",
+    "metadata": {
+      "chunk_id": "aed0a2e07d4fb23391670e59d1137d63",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 16] id closer node distributing key cases node kv pair redistributed ensure available k recent key valued nodes compensate node leaving network kad redistributes kv key hour kad proposes mechanisms optimizing key value redistribution ensuring efficient use computing resources node receives store rpc given kv pair assumes rpc sent k 1 nearest nodes receiver redistribute kv pair hour guarantees long time period redistribution fully synchronized node redistributed hour given kv pair second optimization avoids node lookups redistribu 3 1 genaro public chain searchable encryption talk entire public chain need introduce technique public chain searchable encryption role encrypted storage public chain searchable encryption implies scheme searching querying based ciphertext cryptography protect user s data privacy second searchable encryption advantages provable security control search hidden query query independence decentralized storage searchable encryption provide privacy personal data",
+    "metadata": {
+      "chunk_id": "acc208f01d6a6a5ac94a216634f0127c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 21] chain identity tw keyword searched output set identifiers file containing keyword w search operation performed key distribution operated credible secondly data control genaro sort parts available chain processed multiple times different nodes uploading data public difficult page 8 x0cgenaro network yellow paper example malicious node change public data data owners provide stable data specific b c accounts penalty b c accounts prohibited changed accounts modifiers monitors trusted time new account d maliciously operated users chain data version gsiop changed value uint uploaded need differentiated type function type application current solutions include lightning network encrypted chain system derived data owner system user holds gnx raiden network called chain based solutions data link uplink verified use gnx chain locking gnx coin genaro chain information use means self verification verification nodes chain chain provided centralized manner gnx chain accepted encrypted storage",
+    "metadata": {
+      "chunk_id": "a47f4ffe9a923908c8e3683011449405",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 22] uplink verified use gnx chain locking gnx coin genaro chain information use means self verification verification nodes chain chain provided centralized manner gnx chain accepted encrypted storage network means user owns account chain chain prefer pass information account gnx partial data chain protocol synchronize data way data changer finally entire node chain acts monitor information simply channel gives data chain user needs initialize data genaro coming way stores intermediate steps end user s recovery remaining gnx reward punishment solved chain need relevant storage information way management guarantee simple cross chain operation gsiop protocol scheme guarantees reliability storage chain encryption later versions gsiop provide change operation string related function extension encryption algorithm selectively change storage unit data initialized storage application written later addition related storage features genaro corresponding account divided data owner data modifier",
+    "metadata": {
+      "chunk_id": "9ad9f9ddc60b51f33b9e45536cb498e9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 23] encryption algorithm selectively change storage unit data initialized storage application written later addition related storage features genaro corresponding account divided data owner data modifier changes smart contracts virtual machine parts data monitor genaro add opcodes existing stacking virtual machines way compatible existing evms corresponds users different roles data data owner fully modified key fully adding related types instructions grammar finally special transactions change modified operation data maintained state chain database following specific owner system data related specific storage address data privacy data implementation process modifier refers data owner chooses change relevant data data segmented address data modifiers corresponds data change action person changed data problem found data monitor right view data changing data function entire system exclude corrupted data related bad address uploads early days large number data owners decide modifiers monitors",
+    "metadata": {
+      "chunk_id": "419406ea274449a4286da00a30bbce34",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 25] 8 achieve xef x81 xac user xe2 x80 x99 s public key ciphertexts user b xe2 x80 x99 s xef x81 xac xef x81 xac xef x81 xac xef x81 xac xe2 x86 x92 z e g g xe2 x88 x88 xef x81 xac 2 xe3 x80 x82 q xc3 x97 global parameters g xe2 x88 x88 1 generates pair secret public keys sa pa ga xe3 x80 x82 create second level xc3 x97 2 xe3 x80 x82 ciphertext user b bk k cb e xce xb1 ra xe2 x86 x92b xce xb2 z mz xe2 x88 x88 2 xe3 x80 x82 level decryption user uses secret key sa xce xb2 1 xce xb1s xce xb2 xe3 x80 x82 xce xb11 1 xc3 x97 2 second level decryption decrypting ciphertext xce xb2 key generation kg user selects random integera xe2 x88 x88 xef x81 xac 2 1 level xce xb1 xce xb2 xe2 x88 x88 1 e xce xb1 g sa scheme based elgamal cryptosystem let 2 original messagem afgh scheme xc3 x97 transform ciphertext xce xb1 xce xb2 xe2 x88 x88 scheme unidirectional unihop collusion resistant 1 1 scheme subsequently extended paper support additional functionalities afgh map e 2 xe3 x80 x82 encryption computing",
+    "metadata": {
+      "chunk_id": "2c33ad1109acfe2be003c9c6c0b21b39",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 31] public chain xe9 xa6 x99 xe4 x81 x8bm xe9 xa6 x99 xe2 x80 xab xdd x91 xe2 x80 xac xe9 xa6 x99 xe4 x81 x8bm xcd xb2 xe1 x88 xbf21 xe3 x8c xb3 xe4 x81 x8b xe9 xa6 x991m xe9 xa6 x992m m xe1 x88 xbf xe2 x80 xab xdd x91 xe2 x80 xac xe3 x8c xb3 xe4 x81 x8f 2 3 4 5 6 7 8 9 storage slice size xe9 xa6 x99 xe4 x81 x8bm 1 xe4 x81 x8b read update 1 table 1 genaro s opcodes storage g value method represent subtracted stack 0x5c 32 byte address type members basis storage parts choice opcodes genaro uses new instructions based original ethereum vm mnemonic corresponding space address store storage new vm opcodes value saves xc3 x98 d storage ds 0x12345678901234567890123456789012 read data specific version specific space uint256 result ds read version 0x03 uint256 newresult result 3 assert newresult expectation return enable data timing update assert ds update return store address queried smart contract stop contract execution judgment point 1 2 3 4 5 6 7 8 9 10 11 12 13 14 d storage ds",
+    "metadata": {
+      "chunk_id": "f103dc946566b13be56f0d5ae68234df",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 32] expectation return enable data timing update assert ds update return store address queried smart contract stop contract execution judgment point 1 2 3 4 5 6 7 8 9 10 11 12 13 14 d storage ds 0x12345678901234567890123456789012 uint32 bucketid 0x12345678901234567890123456789012 mapping d storage uint32 public file file ds push bucketid check greater 3 months sgas ds bucketid 3 month check number backups 6 require ds slice 6 assert ds update check fragment size 1gb require ds sused 1 gb check space 3gb require ds ssize 3 gb check total number file fingerprints owned address 10000 check sentinel user address 10000 page 11 x0cgenaro network yellow paper 3 6 new special transaction special transaction added accommodate bet public chain storage verification attribute distributed processes way determine specific value consensus permits participants vote specific value given series processors following special transactions added system initial value 1 bet transactions user initiated",
+    "metadata": {
+      "chunk_id": "03d4225b15f4539a5e8537649a6c5f74",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 33] way determine specific value consensus permits participants vote specific value given series processors following special transactions added system initial value 1 bet transactions user initiated transactions role xef x81 xac non error handling eventually reaches value xef x81 xac processing decisions things value xef x81 xac value determined needs raised support action betting pos user uses balance account place bet bet bet added user s stake attribute 2 storage weight synchronization transaction storage network initiated transaction role synchronize stored results public chain aid special account specified storage network initiates synchronous transaction heft value synchronizing heft chain 3 transaction user purchases storage space main role support users directly pay storage capacity corresponding price chain transaction purchase determined according space parameter provided user successful deduction indicates transaction successful transaction process records expired historical",
+    "metadata": {
+      "chunk_id": "93191dedcb0747649ec3dd8f3d62448c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 34] corresponding price chain transaction purchase determined according space parameter provided user successful deduction indicates transaction successful transaction process records expired historical storage space cleaned purchasing storage space traffic bundled according purchase quota 4 transaction user purchases traffic traffic store represents upload download traffic traffic purchased user added total traffic example 1g space purchased 10g traffic downloaded 10 times processors characteristics called termination agreement validity algorithm characteristics solve problem consensus 16 termination agreement relatively easy explain need avoid operations wrong nodes validity need remove nodes wrong choice regardless initial value algorithm certainly satisfies requirements termination agreement useless 4 1 flp impossible features flp fischer lynch patterson impossibility 11 actually involves slightly weaker form consensus termination non erroneous process decisions sufficient s important",
+    "metadata": {
+      "chunk_id": "7bf20b835d9de1e14d9417be1ca4b8f8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 36] theorem needs considered advance algorithm validation xe2 x80 x9c0 1 xe2 x80 x9d guarantee case consistency finality block executed synchronously case availability process terminated soon downtime occurs correct similar error occurs case asynchronous asynchronous distributed system converge state system xe2 x80 x9ctwo valued state xe2 x80 x9d state 0 input 1 input destroy balance end dual value state way system proven infinite non terminal system infinite loop asynchronous execution termination system implemented system flp impossible feature needs emphasized cap fault tolerance guaranteed choose synchronization class bft consensus asynchronous nakamoto chain consensus end loop completely state 4 2 1 means need add state guided faulttolerant consensus vote hard time proving end need t guaranteed cap time need discuss separately design genaro priority availability chain xe2 x80 x9c 0 1 xe2 x80 x9d result guarantee 1 possibility achieve multi node high concurrency standard prove process",
+    "metadata": {
+      "chunk_id": "49c7f73e20c454f48ca849ddfde711f7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "downtime"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 37] cap time need discuss separately design genaro priority availability chain xe2 x80 x9c 0 1 xe2 x80 x9d result guarantee 1 possibility achieve multi node high concurrency standard prove process need logically perfect guarantee t reach design genaro public chain case need abandon consistency feature preserve system fault consensus considering thing ability break valued state adding additional information need add additional information designing forked approach chain consensus added storage related system fault tolerance tolerance general way reduce fault tolerance special data state checking special broadcast special transaction timeout specific protocol fault tolerance information genaro distributed storage system system failure causes information lost duplicated 4 2 malicious node ie error information consensus problem called cft crash fault tolerance cap theorem genaro follow cap theorem design blockchain consensus specific distributed malicious node called bft byzantine fault",
+    "metadata": {
+      "chunk_id": "ad80ce77b91943048d8f191ca54fecc2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 38] error information consensus problem called cft crash fault tolerance cap theorem genaro follow cap theorem design blockchain consensus specific distributed malicious node called bft byzantine fault computer data system cap theorem known tolerance order solve problem byzantine fault tolerance common distributed systems genaro draws brewer s theorem theorem proves parts guaranteed simultaneously distributed industry s classical pbft practical byzantine fault tolerance algorithm proposed miguel computer system consistency availability partition tolerance 12 castro barbara liskov 1999 13 core consensus design asynchronous approach consistency byzantine fault tolerance need consistency primarily acid database consistency specific performance feature understand graft pbft compatibility issue byzantine fault tolerance design previous read latest written result error availability means time pass request system clarification cap theorem explained chain consensus blockchain ap type reply error",
+    "metadata": {
+      "chunk_id": "d8b7666e03bd132d380e0b5b5291793c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 39] fault tolerance design previous read latest written result error availability means time pass request system clarification cap theorem explained chain consensus blockchain ap type reply error don t need ask latest partition tolerance distributed system consistency different information nodes network lost byzantine fault tolerant asynchronous case similar following brief description pbft system works designing consensus cap page 13 x0cgenaro network yellow paper pbft assumes asynchronous distributed system model current primary client sends request node failures occur independently pbft uses encryption prevent spoofing attacks replay attacks believes current primary point point message detect corrupted information information includes public key signature message validation code message digest generated collision free hash function nodes know public key node signature verification pbft algorithm form state machine replication 4 client waits f 1 replies valid signatures different",
+    "metadata": {
+      "chunk_id": "60388c122b2c4dab332cab75b6e11b68",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 40] digest generated collision free hash function nodes know public key node signature verification pbft algorithm form state machine replication 4 client waits f 1 replies valid signatures different replicas t r accepting result r ensures result valid f replicas faulty client receive replies soon broadcasts request replicas request service modeled state machine replicated different nodes distributed system state processed replicas simply send reply replicas remember reply message machine replica maintains service state implements service operations replicas sent client replica primary relays request primary succession configurations called xe2 x80 x98 views xe2 x80 x99 view primary multicast request group replica primary backups eventually suspected faulty replicas cause view change denote set replicas xe2 x84 x9d f maximum number replicas faulty 3f 1 view changes carried appears primary failed pbft algorithm works roughly follows 1 client sends request invoke service operation primary",
+    "metadata": {
+      "chunk_id": "fea45b579326db7b1de5b2a091b2a8b4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 43] process compared damage faulty client providing access control authenticates clients deny access client issuing consensus mechanisms replacing pow content design lower consumption essence request right invoke operation consensus verify hash combination services provide operations change access permissions client algorithm ensures auxiliary information given corresponding heft chain governance means governance effects access revocation operations observed consistently clients provides powerful simple stake offline governance use storage integrity verification algorithm audit mechanism recover attacks faulty clients contribution storage nodes chain combine online governance stakes gradually optimize pbft algorithm rely synchrony provide maintain stability system advantage safety rely synchrony provide liveness implement consensus approach interfere stability system uncertainties chain spor asynchronous system possible guarantee liveness e clients eventually receive replies sentinel",
+    "metadata": {
+      "chunk_id": "8d0f19710465ff97e64b311f15634794",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 44] provide liveness implement consensus approach interfere stability system uncertainties chain spor asynchronous system possible guarantee liveness e clients eventually receive replies sentinel proof retrievability algorithm traditional por detects data verifiability setting requests provided f replicas faulty specific file fingerprint sentinel file fingerprint delay t grow faster t indefinitely e add control time design block random values indistinguishable encrypted data spor protocol structure includes following parts pbft limit total number nodes public communication idea asynchronous bft time control node control provides design idea xef x81 xac design asynchronous bft compatibility genaro related measurement control number node synchronizations time sampling required 4 3 randomly constructed check values let f denote file f embedded sentinels xef x81 xac efficient way verify integrity file storage relevant proof fully retrieved genaro chose representative spor algorithm 6 provides",
+    "metadata": {
+      "chunk_id": "eef6829521a491fa3556391b25c2cd32",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 45] check values let f denote file f embedded sentinels xef x81 xac efficient way verify integrity file storage relevant proof fully retrieved genaro chose representative spor algorithm 6 provides complete provable secure theoretical system file storage integrity verification use set storage integrity verification algorithms provide important auxiliary information genaro chain style consensus algorithm introduced later achieve organic asks archive return corresponding sentinel values genaro s ultimate goal public chain encrypted shared files proven storage integrity retrieved need reliable verification phase ensure archive retained f v specifies positions sentinels f sentinel proof retrievability spor encrypted shared need ensure setup phase verifier v encrypts file f embeds sentinels random positions file f sentinels xef x81 xac security f encrypted sentinels randomly valued archive feasibly distinguish priori sentinels portions original file achieve following property archive deletes",
+    "metadata": {
+      "chunk_id": "f946752cfa3c4d732d4b8a3e1943f4e8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 49] provides detection failure probability 1 1 000 000 4 3 1 better sampling mechanism genaro s innovation changes previous spor algorithm based characteristics public chain operation public chain pseudo random hashes storage process number fingerprints inspection small miners relatively low cost attacking combining blocks e 2gbfile ensure validity file storage backtracking new version use better sampling mechanism instead 21h file expands 14% error coding size xe1 x88 xbf 2 xe1 x88 xbf 2 xe3 x8c xb3 xe4 x81 x8b1 h xcd xb5 xc3 x97 1 xcd xb5 1 12 xcd xb51 1 xe3 x8c xb3 xe3 x8c xb3 xcd xb5 xc3 x97 1 xe4 x81 x8b e probability adversary renders chunk obtain 2 xe8 x82 x80 xe8 x82 x80 223 32 code 2 xe8 x82 x80 xe8 x82 x80 blocks features genaro designed sampling mechanism conforms public chain storage previous spor code means standard technique xe2 x80 x9c striping xe2 x80 x9d consists xe1 x88 xbf 2 suppose add 1 xe4 x81 x8b xe4 x81 x8b xe4 x81 x8b xe4 x81 x8b xe4 x81 x8b xe4 x81 x8b sentinels",
+    "metadata": {
+      "chunk_id": "58c8276999daa03269b74f1cfa0860ae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 51] miner example file fingerprint granularity 6 miner unit file fingerprint long difficulty attacker greatly increased fact use finer granularity previous versions exceeds 1 6 contribution capacity need development increase difficulty contribute plus 1 6 granularity 12 miners contributed 1 6 got 2 fingerprints want file fingerprint need increase contribution 1 12 large granularity good miner wants contributions incentive xef x81 xac xef x81 xac random number selected specific byte hash generated block ensures file fingerprint test predicted generation random number blockchain relatively limited choose partial bytes hash generated block evolution basis selects unified check multiple times time select selection relative probability fields file fingerprint perform traceable test randomly selecting fingerprint group relative relatively small miner wants wrong particular block need verification single fingerprint miner stake system contribute specific standard time replay attack responsible",
+    "metadata": {
+      "chunk_id": "7fd696e99a37c8756e66d6c0e27008cc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 53] signal continue replay attack considering save 4 file thing ensured file generated image attacked mirror node time file retrieved fingerprint set verification miner 6 fingerprints single file 4 5 6 7 8 9 fingerprint set requires 5 7 9 compared previous sampling mechanism new file fingerprint group sampling mechanism better characteristics backtracking proof miners replay attacks better incentive mechanism miners larger granularity file fingerprints 4 4 chain style pos introduce chained pos worthwhile compare mainstream chain consensus forms mainstream chained pow known nakamoto representative bitcoin ethereum existing pow workload 5000 gh class memory o class cpu gpu class 3000th cryptonight form monero bytecoin cracked asic processors resulting limited anti asic algorithms blake2b memory configuration asics page 17 x0cgenaro network yellow paper higher higher asic configuration related pows availability preserved case consistency new public chain continue use pow easily succumb",
+    "metadata": {
+      "chunk_id": "db5f8a7eb117b3612b5fe4130406aa61",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 55] range attack 14 4 4 3 storage overlay hybrid consensus order solve problem chained pos problems genaro devised mixed consensus combination storage public chain need briefly mention storage related 4 4 1 stake components e file fingerprint group ensure integrity file uploaded distributed storage problem design pos system contrast pow s continuously increasing work costs pos network random fingerprint pair por algorithm file means retrieved nodes need stake participate consensus timed random sampling method easy stake user pledge lot tokens perform multiple forks proof example uploading file file stored situation profitable option prover example multiple forks happen simultaneously simultaneous authentication forks profitable choice attacker matter longest chain benefit stable system xe2 x80 x93 flp unlikely characterized adding fingerprint record reliability increased redundant storage related method related operation checking storage periodically performed specifically pseudo random",
+    "metadata": {
+      "chunk_id": "cb09a919d2cdcfb3a1fdfc97a97244a6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 56] x93 flp unlikely characterized adding fingerprint record reliability increased redundant storage related method related operation checking storage periodically performed specifically pseudo random pattern obtained block hashing checks random fingerprint pair fingerprint group record return value correct verification pass error constant balance dual valued states timeout operation pass mixing previous practices chain solve mentioned earlier need provide stateoriented job system genaro s work adding problems mentioned earlier additional storage information covered stake provide total number storage hybrid consensus section inspection fingerprint record groups blockchain consensus operation total records 4 4 2 long range attack attack works thanks way reserve availability cap theorem attacker needs attack attributes system inspection synchronized chain multiple forks main chain synchronize latest total number fingerprint inspection records relatively large value extra piece information",
+    "metadata": {
+      "chunk_id": "dfbfcdcd8631f22c8736d63888a39f53",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 57] needs attack attributes system inspection synchronized chain multiple forks main chain synchronize latest total number fingerprint inspection records relatively large value extra piece information information page 18 x0cgenaro network yellow paper previously mentioned push balance valued conclusions derived successful pos cases state information impose additional penalties attacker bet wrong fork compared 21 nodes dpos eos 101 greatly increased number inclusiveness increases difficulty adding new node flood attacks long term attack previous solution fingerprint verification record introduced xef x81 xac round committee generate block turn relatively long block fork determined total number fork evolved beginning higher ranked nodes rounds existing block generation divided round verification point stop total number fingerprints smaller main fork block random number block ouroboros random number encrypted communicated solving related problems new problem block output occurs according",
+    "metadata": {
+      "chunk_id": "ac78932820f51f222562b78702f69414",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 58] point stop total number fingerprints smaller main fork block random number block ouroboros random number encrypted communicated solving related problems new problem block output occurs according specific random number determined pos arises long range attack starts previous necessarily comprised good nodes genaro finds fingerprint verification point new attack mode mayarise depending quickly attack repelled genaro good nodes ranks storing additional information data retrieved introduce governance consensus solve problem chain governance genaro s approach generate blocks faster save random number communication operation 4 5 data governance design indispensable link consensus governance structure makes major difference traditionally structured internet network statisfying consistency verification system proven specified time network statisfying availability node system needs follow specific data governance structure broadcast order maintain fault tolerance characteristic entire system",
+    "metadata": {
+      "chunk_id": "c36c13edfdca80cb4c702287f29cf537",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 59] system proven specified time network statisfying availability node system needs follow specific data governance structure broadcast order maintain fault tolerance characteristic entire system data governance structure genaro public chain design following governance methods additional information obtained storage network xef x81 xac storage node needs stake enter system contribution storage unit xef x81 xac storage ranking calculated combined hefts storage contribution stake combination xef x81 xac highly ranked 101 nodes generate block operations public chain selection 101 nodes based xef x81 xac large nodes choose small nodes contribute storage governance structure 1 storage node wants start contributing system needs stake enter system design storage node needs relatively stable mechanism entering threshold admission mechanism selected primary node screening obtained data needs stored storage space needs space mapping backups require relatively robust storage nodes ensure data",
+    "metadata": {
+      "chunk_id": "efbda62a1cf186b68df3d979b1b5a170",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 60] entering threshold admission mechanism selected primary node screening obtained data needs stored storage space needs space mapping backups require relatively robust storage nodes ensure data retrieved later 2 members committee ranked comprehensive heft storage contribution stake nodes chain system need recognized storage network public chain accepted committee single approach pledge ranking storage network stably kept committee relative nodes guarantee page 19 x0cgenaro network yellow paper stability system avoid pushed people excessive assets 3 large node encourage small nodes participate storage construction storage network letting small nodes contribute storage large nodes improve ranking way participation mechanism allows medium sized nodes large nodes chance play different divisions work large nodes medium nodes small nodes fair overall mechanism design mediumsized nodes compete large nodes small nodes sell storage obtain additional blocks 5 summary outlook current technical",
+    "metadata": {
+      "chunk_id": "6a81d7aa7724ebab54ec358e6ee534e7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 61] work large nodes medium nodes small nodes fair overall mechanism design mediumsized nodes compete large nodes small nodes sell storage obtain additional blocks 5 summary outlook current technical advantages genaro network include 1 design sentinel set 2 original hybrid consensus mechanism combination consensus spor chained pos 3 unique data management method chain 4 encryption algorithm involves specific features gsiop 5 storage information instruction level vm stack special transaction meet storage requirements 6 means number times miner asked multiple times reduced increasing network stability future genaro consider encryption storage features including use de duplex encryption ensure single encrypted file redundantly processed increase miners benefits encrypted file stream storage allows users download watch streaming media operations terms consensus genaro provide fine grained consensus improvements ensure participation small medium sized nodes increase instruction set new vms",
+    "metadata": {
+      "chunk_id": "7aab6e630f73bfeba8402057ecc3a12d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 62] users download watch streaming media operations terms consensus genaro provide fine grained consensus improvements ensure participation small medium sized nodes increase instruction set new vms expand increase application scenarios page 20 x0cgenaro network yellow paper references 1 schollmeier r 2002 definition peer peer networking classification peer peer architectures applications proceedings international conference peer peer computing ieee 2 bandara h m n d jayasumana p 2012 collaborative applications peer peer systems xe2 x80 x93 challenges solutions peer peer networking applications arxiv 1207 0790 3 stoica morris r karger d kaashoek m f balakrishnan h 2001 chord scalable peer peer lookup service internet applications acm sigcomm computer communication review 31 4 149 4 rowstron druschel p 2001 pastry scalable decentralized object location routing large scale peer peer systems ifip acm international conference distributed systems platforms middleware heidelberg germany 329 xe2",
+    "metadata": {
+      "chunk_id": "6598ff597c213d1bc6c2b141869bf159",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Genaro Network.txt"
+    }
+  },
+  {
+    "text": "[Section 63] p 2001 pastry scalable decentralized object location routing large scale peer peer systems ifip acm international conference distributed systems platforms middleware heidelberg germany 329 xe2 x80 x93350 5 maymounkov p mazieres d 2002 kademlia peer peer information system based xor metric international workshop peer peer systems 53 65 6 juels kaliski b 2007 pors proofs retrievability large files proceedings ccs 2007 584 xe2 x80 x9397 acm press 7 naor m rothblum g n 2009 complexity online memory checking journal acm jacm 56 1 8 yu s wang c ren k lou w 2010 achieving secure scalable fine grained data access control cloud computing infocom 2010 proceedings ieee 1 9 9 blaze m bleumer g strauss m 1998 divertible protocolsand atomic proxy cryptography advances cryptology xe2 x80 x94eurocrypt xe2 x80 x9998 127 xe2 x80 x93144 10 ateniese g fu k green m hohenberger s 2005 improved proxy encryption schemes applications secure distributed storage proceedings 12th annual network distributed",
+    "metadata": {
+      "chunk_id": "d93a2a1a08cf3f45cc3f1ea866c48514",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Genaro Network.txt"
+    }
+  }
+]

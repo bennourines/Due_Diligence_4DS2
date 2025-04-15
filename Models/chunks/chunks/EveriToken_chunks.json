@@ -1,0 +1,929 @@
+[
+  {
+    "text": "[Section 1] b technical whitepaper version 3 1 xc2 xa9 2019 everitoken public chain zug switzerland x0clast updated march 26 2019 disclaimer everitoken technical whitepaper informational purposes whitepaper represent expressed implied warranty proof expectation etc technical specifications technological realization methods written whitepaper change time technology team disbanded reorganized time loss core technicians lead failure realization project whitepaper provided xe2 x80 x9cas xe2 x80 x9d project team members project responsible content results stemming future use content token whitepaper practical value use virtual world sole purpose confirm user permissions token event blockchain derivatives run technology described technical whitepaper automatically generated program automation responsible consequences individuals organizations responsible inherent consequences everitoken blockchain content contained technical whitepaper premise non commercial use technical whitepaper modified altered way",
+    "metadata": {
+      "chunk_id": "4d4d3bf6ce63447bf494b5c77e25cbd1",
+      "entities": {
+        "location": [
+          "switzerland"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 2] individuals organizations responsible inherent consequences everitoken blockchain content contained technical whitepaper premise non commercial use technical whitepaper modified altered way responsible effects resulting use content x0ccontent background vision 1 arrival token economy 1 competitive analysis 2 summary 5 ii technology everitoken 7 safe contract 7 database 7 token model 8 security 18 consensus algorithm 19 bonus design 20 lock functions 22 technical details 22 iii economic model 28 gas fee fuel evt 28 pinned evt 29 extra evt issuance 29 iv ecosystem 31 tools 31 decentralized chain governance committee 31 escrow company 31 v conclusions 33 founders 34 x0cpart background vision arrival token economy blockchain technology turned 10 years old february 2019 despite evolution time key question persists blockchain technology revolutionizing production ways create value global economy let xe2 x80 x99s look data xe2 x80 x94at present assets managed blockchains referred xe2 x80",
+    "metadata": {
+      "chunk_id": "8422f4c6fd8ec376065ec0f35ae31f76",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 3] key question persists blockchain technology revolutionizing production ways create value global economy let xe2 x80 x99s look data xe2 x80 x94at present assets managed blockchains referred xe2 x80 x98on chain xe2 x80 x99 basically variety coins digital currencies total market value $150 billion usd assets chains generally characterized high volatility strong speculation fail provide benefits global economy fact satoshi nakamoto people wanted xe2 x80 x98coins xe2 x80 x99 payment currency primarily serve digital currencies play traditional currency role digital currency actual operating currency hand right issue currency political realization monetary power belong state difficult cryptocurrency replace fiat currency authorization support state called xe2 x80 x98digital currency xe2 x80 x99 idealistic pursuit hand global mainstream assets tangible intangible blockchains referred xe2 x80 x98off chain xe2 x80 x99 limited interaction blockchains assets chain token digital currency basic",
+    "metadata": {
+      "chunk_id": "6917925ec3fb27bc98866c8242e3ff4c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 4] idealistic pursuit hand global mainstream assets tangible intangible blockchains referred xe2 x80 x98off chain xe2 x80 x99 limited interaction blockchains assets chain token digital currency basic definition token xe2 x80 x9csymbol sign xe2 x80 x9d appropriately considered certificate digital currency certificates represent kinds rights interests including shopping points coupons identity cards diplomas real estate access keys event tickets wide variety proofs rights interests looking history proof rights interests essential element civilizations human society accounts ownership qualifications proofs representative rights interests yuval noah harari stated brief history humankind xe2 x80 x9cit xe2 x80 x98fictitious facts xe2 x80 x99 core reasons wise men stand build human civilization xe2 x80 x9d proofs rights interests 1 x0cwere digital electronic cryptographically protected verify authenticity integrity human civilization revolutionized phenomenon token economy running certificates",
+    "metadata": {
+      "chunk_id": "2e1cc04e591207545ff2ce672661779f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 5] x80 x9d proofs rights interests 1 x0cwere digital electronic cryptographically protected verify authenticity integrity human civilization revolutionized phenomenon token economy running certificates chain provides solid foundation trust traceability provided traditional centralized infrastructure certificate end economic unit token economy blockchain end technology token economy integrally linked co dependent competitive analysis public blockchain born token economy everitoken currently main competitors ethereum eos competitive advantage clear analyzing strengths weaknesses opportunities threats market sw xef xbc x88strength weakness everitoken believes blockchain technology token economy effectively manage proof rights interests primarily regards following aspects 1 proof digital rights interests certificate credible digital form rights interests backed inherent intrinsic value tangible intangible 2 security encryption authorization management certificate verifiable tamper proof",
+    "metadata": {
+      "chunk_id": "38ebe1888713413e8f8b5b2fb1576dca",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 6] interests certificate credible digital form rights interests backed inherent intrinsic value tangible intangible 2 security encryption authorization management certificate verifiable tamper proof privacy protected supervised protected cryptology usable authorized 3 negotiability certificate traded exchanged conveniently according requirements forward set solutions meet basic needs token economy promote management circulation tokens build technical foundation token economy specifically realized following main characteristics according requirements xef x82 x9f fast convenient issuance tokens users need write code easily issue tokens api apps web pages party applications xef x82 x9f efficient transfer tokens enable transfer tokens seconds 2 x0cvolume hundreds millions tokens simultaneously xef x82 x9f flexible authorization management simple elegant unified model achieve authorization management supports multi person holding private key recovery multilevel authority legality government",
+    "metadata": {
+      "chunk_id": "d4305efd65022bf0bfba3be95ab81ed9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 7] xef x82 x9f flexible authorization management simple elegant unified model achieve authorization management supports multi person holding private key recovery multilevel authority legality government supervision complex requirements need extra coding let xe2 x80 x99s look ethereum eos ethereum erc20 erc721 main way achieve token economy ethereum develop smart contracts based erc20 erc721 protocols erc20 supports fts fungible tokens erc721 supports nfts non fungible tokens problems xef x82 x9f tps presently ethereum support fewer 20 transactions second unable meet practical needs token usage circulation xef x82 x9f cost implementation ethereum smart contracts requires gas fee step functions complex business logic multi person holding supervision legality etc cost high uncontrollable xef x82 x9f popularize realization token economy ethereum based smart contracts accessible non developers use party applications complex nature creates security regulatory concerns preventing mass adoption",
+    "metadata": {
+      "chunk_id": "bbdb7fc2b9a01b8142397c0bf3639096",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 8] x9f popularize realization token economy ethereum based smart contracts accessible non developers use party applications complex nature creates security regulatory concerns preventing mass adoption xef x82 x9f non standardization different smart contracts require completely different developmental ideas metadata virtual tokens unexchangeable result isolated conducive ecological development token economy additionally users use unified way query different kinds token assets eos eos launched mainnet june 2018 eos xe2 x80 x99s primary aim remedy problems ethereum creating new solutions created new range problems xef x82 x9f security token transactions represent extremely precious non renewable real entities important security problems overall development continues based smart contracts limited proficiency level developers difficult ensure types token developers sufficient security awareness 3 x0ceos xe2 x80 x99s smart contracts based webassembly relatively new test beta stage additionally",
+    "metadata": {
+      "chunk_id": "0fe093a10c0431957fd36767e5ae77da",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 9] proficiency level developers difficult ensure types token developers sufficient security awareness 3 x0ceos xe2 x80 x99s smart contracts based webassembly relatively new test beta stage additionally eos xe2 x80 x99s smart contract code turing complete excessive authority makes vulnerable unintentional security loopholes people write secure smart contracts order issue transfer tokens users rely party applications trust quality code party control assets users xe2 x80 x99 hands control relinquished party xef x82 x9f non standardization like ethereum metadata different smart contracts interact cooperate xef x82 x9f regulation trust legality technical expertise required non standardization code reading difficult government achieve regulation likewise non developers find difficulty deciding trust relevant programs makes hard blockchains accepted ordinary people governments xef x82 x9f execution efficiency order meet diverse needs eos xe2 x80 x99s smart contract functions complex system",
+    "metadata": {
+      "chunk_id": "12663667a8cac60cba9e97cce4d16b1c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 10] trust relevant programs makes hard blockchains accepted ordinary people governments xef x82 x9f execution efficiency order meet diverse needs eos xe2 x80 x99s smart contract functions complex system modules numerous resource scheduling distribution difficult greatly increases complexity system reduces speed operation possible conflicts different data functions multithreading increase speed easy scheduling costs high token economy complex functions critical solved xef x82 x9f popularize business needs global economy complex variable lack consistency smart contracts time develop test makes difficult solve needs diverse markets short time span hindrance development token economy main difference everitoken everitoken uses safe contracts use smart contracts means everitoken turing complete complicated application scenarios everitoken satisfy everitoken meet 99% demand token economy everitoken safest cost effective user friendly public chain people world ot xef xbc x88opportunities threats",
+    "metadata": {
+      "chunk_id": "b368be7df60f4c9493a2af85be9d3f67",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 11] application scenarios everitoken satisfy everitoken meet 99% demand token economy everitoken safest cost effective user friendly public chain people world ot xef xbc x88opportunities threats xef xbc x89 strengths everitoken created evtlink standard connect payers payees variety data channels including nfc 4 x0cbluetooth qr code based evtlink everipay payment protocol born face face token micropayments everitoken public blockchain core infrastructure everipass token ownership validation protocol everipay everipass includes standard qr code generation definition communication protocol achieved impressive list features innovations xef x81 xac instant clearance transaction settlement xef x81 xac decentralization p2p payment centralized platform modify data chain participate pricing xef x81 xac secure data content blockchain forged tampered maximize protection security user property xef x81 xac compatible everipay everipass support tokens supported everitoken currency points key open door",
+    "metadata": {
+      "chunk_id": "5f9ff87419acf50d7b30024d3f5bb8c5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 12] secure data content blockchain forged tampered maximize protection security user property xef x81 xac compatible everipay everipass support tokens supported everitoken currency points key open door use phone xef x81 xac convenient xe2 x80 x99t connect internet complete transaction based characteristics everipay everipass provide world xe2 x80 x99s secure convenient user friendly service face face payments token ownership summary threats exist mentioned ethereum eos great public chain certain specific needs token economy greatest problem ethereum eos high entry barrier users created nature smart contracts solved problem development safe contract everitoken poised support world wide token economy people based analysis designed new concept perfectly suitable preferable majority blockchain applications propose new public chain ecosystem everitoken development token economy assets certificates vouchers real world digitalized 5 x0cthe issuance tokens easily unprecedented security speed",
+    "metadata": {
+      "chunk_id": "d1b543e8a918faf527a084f5d6550217",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 13] applications propose new public chain ecosystem everitoken development token economy assets certificates vouchers real world digitalized 5 x0cthe issuance tokens easily unprecedented security speed network compatibility 6 x0cpart ii technology everitoken safe contract smart contracts theory effective digital means facilitating decentralized exchanges goods services need middleman practice smart contracts suffer widespread security vulnerabilities arise improper implementation logical errors giving rise consequences lock outs leaked access improper terminations smart contracts fail provide sufficient level trust viewed reliable traditional contracts exchanges everitoken introduces novel idea safe contracts api layer code directly users rely safe contracts facilitate processes issuance transfer tokens simplifying functions core requirements safe contracts ensure chain transactions secure loopholes available api functions fully reviewed verified safe contracts turing complete achieve",
+    "metadata": {
+      "chunk_id": "80bfe16583e2d6ebc302f82cbaac4410",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 14] tokens simplifying functions core requirements safe contracts ensure chain transactions secure loopholes available api functions fully reviewed verified safe contracts turing complete achieve majority necessary functions apis provide flexibility token issuers completion chain services furthermore safe contracts added benefits increasing accessibility tps inclusion apis makes simple easy integration existing workflows having write chain integration code scratch regards usage apis allows translations types distinguished easily independent token transactions processed parallel faster speeds 10 000 tps achieved mainnet december 2018 database eos utilizes boost multiindex based memory database chainbase supports rollback operations results contract operations exist memory database order support rollback branching recovery contract code abnormal necessary record extra data rollback operation addition data stored processed memory database increase users transactions time foreseeable demand",
+    "metadata": {
+      "chunk_id": "127f6392ff408b71e274a64ffda2e5b6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 15] rollback branching recovery contract code abnormal necessary record extra data rollback operation addition data stored processed memory database increase users transactions time foreseeable demand memory increase significantly result high demand memory capacity 7 x0cblock producers furthermore program crashes restarts memory data lost restore data need repeat operations blocks leading long impractical cold startup time preserving eos xe2 x80 x99s memory database developed token database based rocksdb benefits xef x82 x9f rocksdb mature industrial level key value database fully verified core cluster facebook xef x82 x9f rocksdb based leveldb provides better performance richer functionality leveldb enables optimization low latency storage situations flash ssd xef x82 x9f needed rocksdb memory database xef x82 x9f rocksdb based architecture naturally supports version rollback persistence influence performance extremely low token database rocksdb underlying storage engine fully optimized",
+    "metadata": {
+      "chunk_id": "2a740dbaf811091ea3eff75048472d42",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 16] database xef x82 x9f rocksdb based architecture naturally supports version rollback persistence influence performance extremely low token database rocksdb underlying storage engine fully optimized token related operations maximize performance technology achieve rollback lower cost addition token database supports optional functions data persistence quantitative backup incremental backup solve problems like cold startup operations everitoken highly abstract code fixed information required operation minimal data redundancy low compared general systems eos reduces size blocks token model overview born token economy everitoken unique token based token management method tokens different digital currencies issued central banks encrypted currencies bitcoin eth define token proof exclusive share economy asset period time particular place time based service provided particular entity tokens divided types fungible tokens fts 8 x0cnon fungible tokens nfts differences application scenarios",
+    "metadata": {
+      "chunk_id": "88cb720d05aa7c5bfb9f93f56e770cb4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 17] share economy asset period time particular place time based service provided particular entity tokens divided types fungible tokens fts 8 x0cnon fungible tokens nfts differences application scenarios structures according analysis non fungible tokens play extensive role token economy begin analysis non fungible tokens non fungible tokens understanding non fungible tokens let s consider large number stones beach real world stone beach different weight appearance rock type exactly identical stones stones easily combined stone xe2 x80 x98indivisible xe2 x80 x99 xe2 x80 x98not combined xe2 x80 x99 example blockchain cryptokitties hot game blockchain world cat unique numbers attributes nft similar individual stone blockchain cat naturally different unique real world nfts system generally speaking nfts divided different categories according value types categorize similar kinds nfts form domain concentrating tokens allows high standardization feature everitoken custom tokens issued users",
+    "metadata": {
+      "chunk_id": "7de4a0decb4b2bba29c4e1775f9e6b3d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 18] nfts divided different categories according value types categorize similar kinds nfts form domain concentrating tokens allows high standardization feature everitoken custom tokens issued users satisfy structure specifically token contains domain corresponding specific domain classification token belongs issuer designates token unique domain token usually stands special meaning example bar code product naming rule includes information country origin manufacturer product uniqueness token determined domain token addition information ownership included token owner mentioned id token uniquely determined domain token basic structure token shown figure 1 token id structure shows owner token necessary information 9 x0cfigure 1 token structure everitoken domain details queried domain domain displays relative authorization management information right issue xe2 x80 x99s token token value utility endorsed issuer xe2 x80 x99s real credit new token issued transferred transactions nfts transferring",
+    "metadata": {
+      "chunk_id": "5accb9f6324f5e17ed13c3b2090f347e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 19] relative authorization management information right issue xe2 x80 x99s token token value utility endorsed issuer xe2 x80 x99s real credit new token issued transferred transactions nfts transferring token means changing owner token token owner group owners change owner group needed member token circulation confirm operation signing digital signature owner group token changes everitoken node confirms transaction satisfies permission requirements synchronizes nodes authorization management everitoken system contains kinds permissions authorization management issue transfer manage 1 issue right issue tokens domain 2 transfer right transfer tokens domain 3 manage right modify domain including authorization management parameters specific authorization follows tree structure called authorization tree root permission threshold connected 10 x0cone actors actors actors categorized groups accounts regular groups owner groups accounts individual users groups clustered accounts owner group special",
+    "metadata": {
+      "chunk_id": "8ad6d3f32f40b4112c425a353815597f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 21] xe2 x80 x98 owner xe2 x80 x99 represents collection token xe2 x80 x99s owners special dynamic refers actual owners token group xe2 x80 x99s authorizing condition agrees group weight person group 1 group xe2 x80 x99s threshold number members group management authorizations initiated issuers tokens authorization managed group token issued issuer specifies information relative weight group authorization sets token threshold executing operation certain domain system verify operating group weights operation approved weights exceed threshold grouping design suitable situations real world flexible setting weights thresholds meets kinds complex needs example given figure 2 11 x0cfigure 2 transfer permissions figure 2 describes transfer permissions domain threshold value 3 groups involved owner group group b based current set weights group 1 2 3 respectively owner group need authorize group b authorize meet transfer threshold group owner authorized alice group satisfy threshold 4",
+    "metadata": {
+      "chunk_id": "41dea383fc3f5fa2d8fb116384167763",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 22] owner group group b based current set weights group 1 2 3 respectively owner group need authorize group b authorize meet transfer threshold group owner authorized alice group satisfy threshold 4 authorizations bob tony tom tony group b authorized henry emma meet threshold 2 user right issue tokens target scenarios tokens domain different example transfer property reviewed government related agencies strict supervision chain xe2 x80 x99s membership cards coupons need company xe2 x80 x99s brand endorse concert ticket useless concert fixed parking space xe2 x80 x99s owner change time issuing tokens issuer token implement authorization management designing permissions domain following scenario demonstrates convenience authorization management figure 3 shows complex problems solved everitoken xe2 x80 x99s 12 x0cauthorization management mechanism company built new office building hopes issue 1000 tokens bearing property rights building company sets spv special purpose vehicle issue maintain",
+    "metadata": {
+      "chunk_id": "59c5e7980aff84a535a021a7e8d1dd15",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 23] x80 x99s 12 x0cauthorization management mechanism company built new office building hopes issue 1000 tokens bearing property rights building company sets spv special purpose vehicle issue maintain tokens real life token issuance transfer property needs examined approved local property bureau issued conformity local standards token details total issuer authority management structure etc displayed official platform central property department highest authority limit manage local property bureau owners figure 3 structure authority management group s represents spv issuer initial owner token domain group l represents local property bureau group c represents central property department cases transfer token needs authorization owner local property bureau combined weight 3 meeting threshold process transfer operation audited local property bureau case accident token owner passed away lost private key central property department transfer ownership token legal heir court relevant department",
+    "metadata": {
+      "chunk_id": "c3c9ff43259791888794ba73091fcc56",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 24] transfer operation audited local property bureau case accident token owner passed away lost private key central property department transfer ownership token legal heir court relevant department xe2 x80 x99s judgment review spv token owners agree add new tokens add tokens getting issuing authority meet actual needs furthermore authorization management structure suitable handling extreme cases example central property department needs temporarily freeze spread type token change threshold transfer permissions 13 x0cmanagement permissions holds freezing circulation tokens domain fungible tokens issuance issue fungible tokens registering unique symbol evt users set total number circulated tokens symbol users decide number tokens want immediately issue transfer private key transfer tokens details account record number tokens held associated symbols independent key value record store basic information tokens different symbols users allow private key right transfer specified numbers tokens",
+    "metadata": {
+      "chunk_id": "4e7033b30f964bd2a9d9ca8f98f78a36",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 25] account record number tokens held associated symbols independent key value record store basic information tokens different symbols users allow private key right transfer specified numbers tokens specified symbol function called token allowance utilized token exchange token based transaction model overview everitoken employs token based transaction model regards tokens system short token token based ledger create independent data space store history token s ownership way s easy sharding multi core paralleling data space given token relationship tokens result operations tokens easily parallel manner conflict enables super high performance constantly improving tps easily sharding adding cpu cores token based transaction model invented core team members everitoken proven work perfect nfts everitoken blockchain based token based transaction model like everitoken 14 x0cdivide database parts token db block db token based transaction model operates storing managing data spaces non fungible",
+    "metadata": {
+      "chunk_id": "8e0e4be69704a18dd212627baa19996f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 26] blockchain based token based transaction model like everitoken 14 x0cdivide database parts token db block db token based transaction model operates storing managing data spaces non fungible tokens block db second stores original blocks token db block db multi versioned database fast rollback block reversed example everitoken uses rocks db underlying database system token db token db block db append databases updates record new value increased version added database record containing old version won xe2 x80 x99t removed token db token db indexed database quickly searching changing newest status blockchain ownership tokens account balance fungible tokens chain token db considered key value database key indicates id tokens value represents current ownerships tokens database append values key latest value represents current ownership status token historical reference rollback token independent data space includes ownership history like separate chain value chain initial ownership example",
+    "metadata": {
+      "chunk_id": "f1c80694b4cb0023cba625937a43a465",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 27] latest value represents current ownership status token historical reference rollback token independent data space includes ownership history like separate chain value chain initial ownership example executes transaction new ownership appended database old versions roll value block needs reversed eventually garbage collected token independent data space sharding easy example computers node let computer process half tokens 100 tokens computer process tokens 1 50 second tokens 51 xe2 x80 x93 100 changing owner token impact tokens computers process parallel manner 15 x0cblock db block db charge storing original irreversible blocks chain block stores detailed information including names parameters actions executed signatures block following graph shows kinds databases work nfts transaction model comparisons utxo utxo model token owner transfers coin digitally signing hash previous transaction public key address owner adding end coin mechanism essentially continual transgression inputs",
+    "metadata": {
+      "chunk_id": "85dff218783e2b2d8a878f7d4659f836",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 28] model comparisons utxo utxo model token owner transfers coin digitally signing hash previous transaction public key address owner adding end coin mechanism essentially continual transgression inputs outputs owner tokens actually directly tokens owns output specific number tokens signed input new owner controls new outputs 16 x0c source bitcoin org utxo great avoiding double spending obvious input disadvantages xef x81 xac btc kind nft ft useless unique id utxo everitoken supports nft ft xef x81 xac utxos s waste computing resources disk volume store huge utxos b account based account based transaction model like bank create account bank save money account changing balance completely different way utxo works s efficient utxo update balance database create new utxos result utxo model suitable nfts balance based model good sharding transferring person requires steps modify account old holder second modify account new holder safety reasons steps atomic operation sharding environment s",
+    "metadata": {
+      "chunk_id": "f1aefaebdc364fe97b5ca436240c491e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 29] nfts balance based model good sharding transferring person requires steps modify account old holder second modify account new holder safety reasons steps atomic operation sharding environment s difficult performance level poor token based transaction model step append new 17 x0cownership token security focusing related functions tokens everitoken streamlines unnecessary abstractions greatly increases efficiency provides remarkable safety types tokens everitoken abundant theoretically unlimited unified token structure enables system party organization audit following principles regarded system recognizes single form smart contract avoids complicated auditing security implications consequence everitoken core codebase spring 2019 everitoken introduced organizations reviewing core code everitoken public chain including hacken proof chaitin static dynamic analysis included everitoken uses safe contract proved core codebase safe contracts based everitoken proved safe script everisigner",
+    "metadata": {
+      "chunk_id": "b152de1e78320a558842a2bc1e99669d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 30] public chain including hacken proof chaitin static dynamic analysis included everitoken uses safe contract proved core codebase safe contracts based everitoken proved safe script everisigner everisigner offline signer plugin browsers signing process add private keys exposed website interacts everisigner creating new channel ensure security website passes content signed channel everisigner returns signed data lost private key based authorization management parties provide services example company c specializes password protection services alice fears forgotten lost private key token alice manage transfer permission domain owner 1 group c 1 set threshold 1 case alice forgotten private key authorization authorization group c proves alice identity card fingerprints company c way alice recover token transferring new account verification 18 x0cfigure 4 company c provides service retrieve key course group c steal alice xe2 x80 x99s token operations recorded chain destroy group c xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "8eac09af3c754b19e217761e9c480f71",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 31] token transferring new account verification 18 x0cfigure 4 company c provides service retrieve key course group c steal alice xe2 x80 x99s token operations recorded chain destroy group c xe2 x80 x99s credibility consensus algorithm everitoken uses bft dpos consensus algorithm dpos proven capable meeting performance requirements applications chain algorithm hold evt select block producers continuous approval voting system choose participate block production given opportunity produce blocks provided persuade token holders vote everitoken enables blocks produced 0 5 seconds exactly producer authorized produce block given point time block produced scheduled time block time slot skipped blocks skipped 0 5 second gap blockchain number block producers everitoken public chain dynamic initial year 15 producers set number decided chain governance committee convenience use 15 whitepaper everitoken blocks produced rounds 180 12 blocks multiplied 15 producers start round 15 unique block producers",
+    "metadata": {
+      "chunk_id": "894d027fb5842102983847db6091f0de",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 32] 15 producers set number decided chain governance committee convenience use 15 whitepaper everitoken blocks produced rounds 180 12 blocks multiplied 15 producers start round 15 unique block producers chosen preference votes cast evt holders selected producers scheduled 19 x0corder agreed 11 producers producer misses block produced block 24 hours removed consideration notify blockchain intention start producing blocks ensures network operates smoothly minimizing number blocks missed scheduling producers proven unreliable byzantine fault tolerance provide extra security safety users requiring confirmations signed producers producer sign blocks timestamp block height 11 producers signed block deemed irreversible byzantine producer signs blocks timestamp block height generating cryptographic evidence treason bonus design bonuses added release everitoken 3 0 february 2019 s powerful flexible convenient element combine existing features xe2 x80 x99s mainly designed purpose distributing",
+    "metadata": {
+      "chunk_id": "2de194a4787d721bbf4887e0c069d7ab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 33] evidence treason bonus design bonuses added release everitoken 3 0 february 2019 s powerful flexible convenient element combine existing features xe2 x80 x99s mainly designed purpose distributing profits stakeholders shareholders according set rules types bonuses supported according different ways collecting profits passive bonus active bonus passive bonus profit collected transaction fungible token managers fungible token decide set passive bonus transaction evt charged fuel additional fee fungible token charged options control actual fees transaction main option transaction rate result fees rate multiplied transaction minimum threshold control options limiting upper lower bounds final fees prevents overwhelming cost high value transactions 20 x0cthe manager fungible token decide fees charged party responsible fee method fee attachment method like credit card payer paying n payee receiving n fee subtracted initial second method like traditional bank transaction want transfer n need",
+    "metadata": {
+      "chunk_id": "88e734a43436cf1d7e99d6f0ae2e632f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 34] party responsible fee method fee attachment method like credit card payer paying n payee receiving n fee subtracted initial second method like traditional bank transaction want transfer n need pay additional fee transaction original active bonus xe2 x80 x99s launched manually similar dividends stocks xe2 x80 x99s decided fungible token manager bonus divided bonus active passive set definition distribution rules types rules currently valid fixed percent remaining percent fixed rule fixed guaranteed receiver percent rule calculated percent value times total bonus remaining percent rule separate fixed percent rules consists remaining multiplied times percent value rule xe2 x80 x99s necessary assign receiver receiver isn xe2 x80 x99t limited address holder fungible token holder receive according balance relation total supply fungible token stakeholders fungible tokens limited fungible token profit fungible token registered everitoken acceptable s possible issue bonus token solely profit",
+    "metadata": {
+      "chunk_id": "9ac1693c70a12d9db1fe13a5b2fa5e98",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 35] balance relation total supply fungible token stakeholders fungible tokens limited fungible token profit fungible token registered everitoken acceptable s possible issue bonus token solely profit distribution benefit transparency fairness liquidity provided everitoken implementation xe2 x80 x99s required snapshot stakeholders xe2 x80 x99 addresses balance receiver address storage stakeholder address cost 34 bytes xe2 x80 x99ve highly optimized situation cases address cost 4 bytes store million stakeholders cost 4 mbytes versus 34 mbytes fine tune optimization token database system read update stakeholder balances extraordinary low cost 21 x0clock functions lock functions supported everitoken xe2 x80 x99s system xe2 x80 x99s allowed lock non fungible tokens fungible tokens period time depends conditions set lock proposal conditions satisfied lock time set period time unlocked assets transferred different registered addresses currently lock conditions adjusted public keys means lock time",
+    "metadata": {
+      "chunk_id": "699b5b348e25e82682ba4a21fedf11fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 36] conditions set lock proposal conditions satisfied lock time set period time unlocked assets transferred different registered addresses currently lock conditions adjusted public keys means lock time approved keys given proposal provide access technical details basic chain want reinvent wheel result absorbed excellent parts existing public chain system improved weaknesses adopted graphene dpos pbft consensus algorithm code consensus algorithm generated dpos3 0 form eos codebase improved recognize eos excellent code structure retained code structure apart public chain completely new developed development mainly create safe contract instead smart contracts new database model based rocksdb better performance token payment protocol everipay advantages practice xef x82 x9f graphene validated long dpos core mechanisms fully tested projects like bitshare eos xef x82 x9f reusing consensus algorithm reduce workload allowing focus core functions xe2 x80 x99 development authorization operation",
+    "metadata": {
+      "chunk_id": "6b22162973e4d3e95640b95fa233af1d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 37] long dpos core mechanisms fully tested projects like bitshare eos xef x82 x9f reusing consensus algorithm reduce workload allowing focus core functions xe2 x80 x99 development authorization operation everitoken xe2 x80 x99s authorization operations mainly include multi signing weight calculation threshold setting transfer token independent transfer operation different tokens executed 22 x0cparallel additionally group xe2 x80 x99s permission status independent issuance management operations executed parallel different groups transaction data packet plus signature list case authorization verification need verify signature relationship signatures authorization operations executed parallel execution engine everitoken xe2 x80 x99s system token operation completely independent parallel processes require additional partition burdens addition type token operation limited code built long type operation tested repeatedly system completely stable execution transaction split phases recovering",
+    "metadata": {
+      "chunk_id": "3981e85289dfe8d74cf8c8d669c124f2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 38] require additional partition burdens addition type token operation limited code built long type operation tested repeatedly system completely stable execution transaction split phases recovering signatures authorization checks computation writing database etc phases executed sequentially phases independent different transactions phases called signature recovering isn xe2 x80 x99t logical dependency signatures transaction signature transaction independent xe2 x80 x99s problem recover signatures fully parallel manner phases authorization checks appears recovering signatures glance imagine checking authorization transactions transferring tokens token plays role xe2 x80 x99s function transactions transferring token system encounter unexpected behavior continues check parallelly owners token checking changed transaction way execute phases parallel situations planned carefully implemented shown dependence graph system parallelizes data flow graph parallelism computations represented nodes",
+    "metadata": {
+      "chunk_id": "08e1bf935bb0286bf16ba98c1b54d13f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 39] checking changed transaction way execute phases parallel situations planned carefully implemented shown dependence graph system parallelizes data flow graph parallelism computations represented nodes communication channels computations represented edges 23 x0cabove example calculate sum sequences squares cubes 1 10 implementation node represents phase transaction scheduler receive transactions split build graph suspended transaction suspended transaction transaction completed multiple delays ordinary non suspended transactions conditions met transaction submitted example signers sign reality transactions completed process participants transaction able complete signatures time suspended transaction allows signatures provided step step transaction successful everipay everipass evtlink everipay everipass everipay everipass payment method born face face micropayments everitoken public blockchain evtlink includes standard qr code generation definition communication protocol highlights",
+    "metadata": {
+      "chunk_id": "6d347b002100075c8f8bbb8ceb144648",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "suspended"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 40] everipass everipay everipass payment method born face face micropayments everitoken public blockchain evtlink includes standard qr code generation definition communication protocol highlights everipay everipass evtlink xef x81 xac instant clearance transaction settlement 24 x0c xef x81 xac decentralization p2p payment centralized platform modify data chain participate pricing xef x81 xac secure data content blockchain forged tampered maximize security protection user property xef x81 xac convenient xe2 x80 x99t connect internet complete transaction payer payee doesn t need input money manually payer payee receive notification soon transaction successful xef x81 xac compatible everipay everipass support tokens issued everitoken functional day day operations key open door supported best use simply phone xef x81 xac lightning fast everitoken achieved high tps quickly transactions completed 1 3 seconds depending quality equipment network xef x81 xac standardization unique technologies",
+    "metadata": {
+      "chunk_id": "cf670a5703f7f248f0edda98cd380d8c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 41] use simply phone xef x81 xac lightning fast everitoken achieved high tps quickly transactions completed 1 3 seconds depending quality equipment network xef x81 xac standardization unique technologies wallet evtlink cross wallet cross chain cross app standard directly ecosystem use apps create parse based seven characteristics everipay everipass provide secure convenient user friendly service face face payment industry everipay everipass payee use app supports parsing evtlink pushing transactions everitoken simple easy provide easy use apis code examples developers similar adding alipay wechat support store easier payee qr code payee qr code support features everipay provides example payers connect internet complete payee qr code transaction payers payees input transaction manually receive automatic notification payment finished 25 x0chowever payees don t need use app supports payment method fact payees need simply use wallet supported everitoken phone check received money payer",
+    "metadata": {
+      "chunk_id": "356fa3d19c23f12fd27150757dfdc47a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 42] automatic notification payment finished 25 x0chowever payees don t need use app supports payment method fact payees need simply use wallet supported everitoken phone check received money payer suitable types sizes vendors exchanges people everipay instead payee qr code recommended transparent safe user friendly evtlink works evtlink standard binary format represents everipay everipass everitoken public chain utilizes everipay everpass actions order execute transaction evtlink process payments everipay everipass technical point view 1 payer selects kind token use wallet payer shows series dynamic qr codes consisting unique 128 bit linkid signature payer symbol token payment note linkid shouldn t changed qr code swapping related transaction executed prevents risk duplicate payment chain doesn t allow actions evtlink linkid 2 payer xe2 x80 x99s wallet application continuously query transaction related linkid calling api named xe2 x80 x98get trx id link id xe2 x80 x99 returns valid",
+    "metadata": {
+      "chunk_id": "688e382f0962026278400140edf46855",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 43] doesn t allow actions evtlink linkid 2 payer xe2 x80 x99s wallet application continuously query transaction related linkid calling api named xe2 x80 x98get trx id link id xe2 x80 x99 returns valid transaction id wallet change linkid time shows qr code wallet transaction result querying transaction id payer wallets don t need send transactions directly 3 payee scans qr code phone scanner smart gateway evtlink scanned parsed wrapped action pushed chain chain nodes synchronized result xe2 x80 x98get trx id link id xe2 x80 x99 return transaction id base42 encoding base42 encoding algorithm binary string conversions similar hexadecimal encoding instead uses 42 base correspondingly uses unique alphabet sequence characters alphabet 26 x0ccharacters encoding qr code s alphanumeric mode s efficient pack base42 encoded string qr code results smaller qr code allows convenient scanning everitoken base42 encode evtlink xe2 x80 x99s content 27 x0cpart iii economic model gas fee fuel evt order avoid",
+    "metadata": {
+      "chunk_id": "e2ea00ccf77a8b8c8743411a13085d48",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 44] pack base42 encoded string qr code results smaller qr code allows convenient scanning everitoken base42 encode evtlink xe2 x80 x99s content 27 x0cpart iii economic model gas fee fuel evt order avoid attacks system ddos provide stake dpos vote reasonable reward producers issue evt fuel operation charge certain evt service fee reward producer number evt charged float automatically fees collected primarily prevent malicious attacks affect users xe2 x80 x99 regular use method generation transfer evt mainstream blockchain xe2 x80 x99s encrypted currency evt reward resources provided producers prevent malicious behavior 150 million evt 15% total given core team 14% co founders everitoken extra 1% core contributors 400 million evt 40% total given community members build apps based everitoken greatly contribute everitoken ecosystem providing technology resources promotion funding 450 million evt 45% total investors multiple rounds services everitoken cost service fuel fee xeb xac x98 xce x93",
+    "metadata": {
+      "chunk_id": "33a0e563a898f92f359eea9c303e3d8f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 45] contribute everitoken ecosystem providing technology resources promotion funding 450 million evt 45% total investors multiple rounds services everitoken cost service fuel fee xeb xac x98 xce x93 xeb xb6 x80 xce x93 xe8 xbd xb0 xeb xac x98 xea xbb xa0 xce x94 xeb xac x98 xce x94 xe3 xa8 x90 xcd x95 xe9 x8e x80 xce x84 xe3 xbc x80 xea xbb xa0 xce x94 xeb xac x98 xce x94 xcd x95 xe9 x8e x80 xeb xac x98 xe4 x9f x98 formula xea xbb xa0 xce x94 xeb xac x98 xce x94 xcd x95 xe9 x8e x80 xeb xac x98 xe4 x9f x98 price specific action unit price evt represents adjusting rate bp nodes independently decide time rate hike chain busy attack rate cut price evt high actual calculated median number 15 bps users chain assume 1 time api provided r changed bp completed changed fail value r bp xe2 x80 x99s response user try action example let price creatingaccount api 2 evt 28 x0cusually user able creatingaccount api 2 evt bps rate hike 1 1 price change 2 2 evt use median number distributions producers",
+    "metadata": {
+      "chunk_id": "eb685125096b694e2b301b5caf319a4a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 46] response user try action example let price creatingaccount api 2 evt 28 x0cusually user able creatingaccount api 2 evt bps rate hike 1 1 price change 2 2 evt use median number distributions producers suggest block producers 3 1 15 5 producers 1 2 2 1 1 2 1 3 1 1 4 1 45 1 producer final value 1 2 pinned evt pinned evt similar evt transferred fuel fee converting evt pinned evt allowed evt xe2 x80 x99s exchange rate pinned evt 1 pinned evt currency safe airdrop pinned evt generally convert evt pinned evt able use evt pay fuel fees decides convert evt pinned evt pinned evt automatically bind receiver pinned evt pinned evt belongs account transferred convenient safe airdrop pinned evt users companies organizations able convert evt pinned evt post specific accounts pinned evts transferred addresses payer account pays given transaction everitoken allows users specify payers transaction useful creating accounts safety payers extra signatures transaction domain special pinned evt balance chain",
+    "metadata": {
+      "chunk_id": "e324b8342fd862ae680cfc4a80e17aae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 47] payer account pays given transaction everitoken allows users specify payers transaction useful creating accounts safety payers extra signatures transaction domain special pinned evt balance chain prefers consuming domain xe2 x80 x99s pinned evt balance zero actions like transferring destroying tokens domain users able prepay domain xe2 x80 x99s pinned evt balance evt extra evt issuance initial volume evt 1 billion chain issue extra evt yearly basis actual issuance decided everitoken xe2 x80 x99s chain governance committee issue extra evt january 1 2020 earliest 29 x0cblock producers bps xe2 x80 xa2 number bps dynamic permissions bps hard bps evil evil bps dos denial service balance earnings bps ensure decentralization use dynamic count equal greater 15 2019 actually use 15 bps following years count decided chain governance committee 30 x0cpart iv ecosystem tools everiwallet implies everiwallet everitoken wallet supports web browsers mobile phones visit information https www",
+    "metadata": {
+      "chunk_id": "6fb01e55c227cf2f90f4c1fe5ebe3110",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 48] years count decided chain governance committee 30 x0cpart iv ecosystem tools everiwallet implies everiwallet everitoken wallet supports web browsers mobile phones visit information https www everiwallet com evtjs evtjs everitoken xe2 x80 x99s api binding library javascript supports nodejs browsers supported everisigner use library build web apps everitoken easily visit information https www github com everitoken evtjs evtscan evtscan blockchain browser everitoken search specific information present blocks generated nodes everitoken mainnet includes details transactions accounts groups domains chain statistics analytics developers evtscan efficient tool confirm information properly linked chain users provides method verifying authenticity transactions visit information https evtscan io decentralized chain governance committee everitoken public chain decentralized chain governance committee decide important things like count bps extra issuance evt future development committee expected",
+    "metadata": {
+      "chunk_id": "27bcdcc374338520c9c0b1b8a1ba083e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 49] chain governance committee everitoken public chain decentralized chain governance committee decide important things like count bps extra issuance evt future development committee expected online 1st jan 2020 escrow company everitoken doesn t involve assets coins users token id value token endorsed escrow companies escrow companies 31 x0ccan sign extra signature issuing tokens trust token trusts company makes signature token like ssl 32 x0cpart v conclusions token economy way touching corner globe ethereum eos smart contracts good start suitable developing token economy people world utilize everitoken born goal creating token based blockchain technology benefits built revolutionary system makes low cost simple developers businesses end users issue transfer verify use tokens system safe contracts removed turing completeness result abstraction complications system greatly reduced instead constantly creating custom models created size fits model preferable solution 99% people improved",
+    "metadata": {
+      "chunk_id": "63d4f1c90862887bf34953d1437d715e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 50] contracts removed turing completeness result abstraction complications system greatly reduced instead constantly creating custom models created size fits model preferable solution 99% people improved speed security operability stability supervision needed create efficient thriving token economy providing decentralized platform people world learn create interact truly exchange value digitally join token economy revolution www everitoken io 33 visit website x0cfounders hengjin cai xef xbc x8cchief scientist dr hengjin cai professor ph d advisor school computer science wuhan university 2005 expert residence global fintech lab visiting researcher shenzhen institute advanced technology chinese academy science expert committee member china ai big data committee 100 engaged ssme service science management engineering ai blockchain technologies recently published book named blockchain system integrated human machine intelligence 2017 won wu wenjun artificial intelligence science technology",
+    "metadata": {
+      "chunk_id": "ea2f5dd8dc107143230897e2842b19e7",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  },
+  {
+    "text": "[Section 51] management engineering ai blockchain technologies recently published book named blockchain system integrated human machine intelligence 2017 won wu wenjun artificial intelligence science technology award received president xe2 x80 x99s award extraordinary contributions teaching wuhan university 2012 dedicated advisor led students winning 80 prizes influential competitions china world including microsoft imagine cup microsoft morgan stanley cup high performance computing finance intel cup national collegiate software innovation contest china college students xe2 x80 x99 entrepreneurship competition brady true believer global token economy based blockchain technology received undergraduate beijing university aeronautics astronautics electrical engineering master xe2 x80 x99s degree finance brandeis university united states studied blockchain strategy curriculum said business school university oxford natural serial entrepreneur elected batch shanghai 1000 talents plan venture group sold",
+    "metadata": {
+      "chunk_id": "7bc0855ac80131e703c28aa004904092",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EveriToken.txt"
+    }
+  }
+]

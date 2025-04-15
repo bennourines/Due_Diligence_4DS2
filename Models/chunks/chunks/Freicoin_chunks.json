@@ -1,0 +1,801 @@
+[
+  {
+    "text": "[Section 1] b freimarkets extending bitcoin protocol user specified bearer instruments peer peer exchange chain accounting auctions derivatives transitive transactions version v0 0 1 mark friedenbach jorge tim xc3 xb3n august 24 2013 abstract proposal adds primitives bitcoin necessary implementing non currency financial constructs dividend yielding bonds asset ownership tokens credit relationships variety forms smart contracts distributed marketplaces exchanging private accounting servers provide mechanism support unlimited volume chain transactions able interact chain assets atomic cross chain trade integrated peer peer market keywords bitcoin freicoin user specified bearer instruments chain accounting atomic trades auctions derivatives transitive transactions 1 x0ccontents 1 introduction 3 2 major features 2 1 indivisible unique tokens 2 2 user issued assets 2 3 partial transactions 2 4 private ledgers 5 5 5 6 6 3 proposed changes 3 1 precision rounding limits 3 2 indivisible tokens 3 3 asset",
+    "metadata": {
+      "chunk_id": "b18bb619c906a1395cb2e2747dcc7c13",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 2] features 2 1 indivisible unique tokens 2 2 user issued assets 2 3 partial transactions 2 4 private ledgers 5 5 5 6 6 3 proposed changes 3 1 precision rounding limits 3 2 indivisible tokens 3 3 asset tags 3 4 granular outputs 3 5 granular redemption 3 6 validation scripts 3 7 authorizing signatories 3 8 new scripting opcodes 3 9 transaction expiration 8 8 9 9 9 9 10 10 10 12 4 formal specification 4 1 nversion 3 transactions 4 2 hierarchical sub transactions 4 3 asset definition transactions 13 13 14 15 5 example use cases scripts 5 1 general notation conventions 5 2 basic uses 5 3 auctions 5 4 options 5 5 gateways bridges 5 6 chain transactions 16 16 16 17 19 21 21 2 x0c1 introduction propose new transaction format nversion 3 transactions enables hierarchies independently verified sub transactions additional validation scripts introspective opcodes strict currency controls relaxation rules coin generation coinbase transactions purpose supporting user defined assets block chain",
+    "metadata": {
+      "chunk_id": "f5def938a1ba0668da4a25de7ed47dd6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 3] sub transactions additional validation scripts introspective opcodes strict currency controls relaxation rules coin generation coinbase transactions purpose supporting user defined assets block chain introduce concept private centralized accounting servers perform transactions chain assets cam interact chain assets combined suitable extensions peer peer json rpc restful wallet interfaces protocol changes complete bitcoin xe2 x80 x99s repertoire low level constructs allowing emulation wide variety financial instruments enables following sorts applications xe2 x80 xa2 issuing new assets means asset definition transactions coinbase transactions usual transaction block assets allowed specify interest demurrage rate unit granularity display scale hash field referencing external resource possibly legal ricardian contract chain validate xe2 x80 xa2 issuing unique indivisible tokens transferred sets instead numeric allow fast look ups current ownership enhance smart property use cases manage",
+    "metadata": {
+      "chunk_id": "63c554469f3593e35f8e365cddc90167",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 4] legal ricardian contract chain validate xe2 x80 xa2 issuing unique indivisible tokens transferred sets instead numeric allow fast look ups current ownership enhance smart property use cases manage permissions regular custom assets xe2 x80 xa2 atomic exchange assets differing types inclusion inputs outputs types single transaction xe2 x80 xa2 signing orders partial transactions giving asset exchange binding completed chain balanced transaction attached expiration dates explicitly cancelled double spending signed inputs xe2 x80 xa2 executing arbitrary number orders atomically creating complete valid transaction orders included nested sub transactions executing atomic trade requiring parties online direct communication composing orders separate markets atomic trade intermediate assets enables payments based transitive trust relationships xe2 x80 xa2 destruction coins tokens assets longer needed special class nonspendable prunable output script xe2 x80 xa2 restricting conditions",
+    "metadata": {
+      "chunk_id": "fc5820d662a83d60d2b6e44ef79260fa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 5] enables payments based transitive trust relationships xe2 x80 xa2 destruction coins tokens assets longer needed special class nonspendable prunable output script xe2 x80 xa2 restricting conditions transaction sub transaction selected inclusion specifying validation scripts run enclosing block validated introspection block chain bitcoin scripting environment enabled introduction new opcodes xe2 x80 xa2 running accounting servers private chains centralized distributed consensus chain assets issued transferred traded way public chain private block chain providing audit log xe2 x80 xa2 execute arbitrary number trades different accounting servers public 3 x0cchain atomic transaction public chain agreed timestamping service commit phase xe2 x80 xa2 public chains private accounting servers configured xe2 x80 x9cobserve xe2 x80 x9d chains enable faster secure cross chain trade compared existing slow multi phase protocols involving revelation hashed secrets requires ability extract proofs",
+    "metadata": {
+      "chunk_id": "662d8c73b138e7274e862de21fc1069d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 6] xe2 x80 x9cobserve xe2 x80 x9d chains enable faster secure cross chain trade compared existing slow multi phase protocols involving revelation hashed secrets requires ability extract proofs observed chain order validate conditional transactions xe2 x80 xa2 restrict usage custom asset assigning rotatable signing keys sign transactions involving restricted assets prior inclusion support kyc regulatory compliance remainder document overview major features proposal detail precise modifications formal specifications covering handful applications 4 x0c2 major features describe non normative prose proposed changes assume technical familiarity bitcoin protocol freicoin xe2 x80 x99s extensions thereof 2 1 indivisible unique tokens indivisible uniquely identifiable asset tokens useful applications like physical ownership keys smart car numbered seats membership tokens token contained unspent transaction output given time xe2 x80 x99s necessary trace ownership xe2 x80 x9cgenesis transaction xe2",
+    "metadata": {
+      "chunk_id": "4603079b96f2d3efb4fa2b2b5cd539ed",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 7] like physical ownership keys smart car numbered seats membership tokens token contained unspent transaction output given time xe2 x80 x99s necessary trace ownership xe2 x80 x9cgenesis transaction xe2 x80 x9d need colored coins approach 1 allows smart property clients smaller requirements authenticated unspent transaction output index checkpoints included block 2 2 2 user issued assets divisible currency tokens representing user issued assets minted special coinbase transactions separate usual transaction block freicoins currently continue minted coins created generating transactions freicoins user issued asset shares represent fungible ownership underlying asset type asset tokens identified asset unique bitstrings coins tokens included transactions containing regular freicoin currency document called host currency fee currency creator new asset define interest demurrage rate quantity issued fixed define list issuance tokens permit owners issue new units asset defined creator asset",
+    "metadata": {
+      "chunk_id": "55fc91611a79af87ce9c3f644320a24b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 8] document called host currency fee currency creator new asset define interest demurrage rate quantity issued fixed define list issuance tokens permit owners issue new units asset defined creator asset definition transaction specify list authorizer tokens signature authorizer required time transaction involves inputs outputs asset allows issuers gateways manage closed list xe2 x80 x9cauthorized accounts xe2 x80 x9d registered users regulatory restrictions jurisdiction requires 3 desire whitelisting participants example local currencies restricted stock sales allows issuers charge fees assets traded moved 1 colored coins approach custom assets chain define genesis transaction identifies asset trace funds transaction outside chain treat differently represent regular bitcoins approach limitations compared protocol extension xe2 x80 x99s discussion group colored coins development https groups google com forum forum bitcoinx 2 having fast access utxo tree indexed block enhance light clients",
+    "metadata": {
+      "chunk_id": "726a7839aeffce04851098a3639e01c6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 9] compared protocol extension xe2 x80 x99s discussion group colored coins development https groups google com forum forum bitcoinx 2 having fast access utxo tree indexed block enhance light clients security important scalability important proposal enables new uses bigger volume expected mark friedenbach xe2 x80 x99s work improvements documented http utxo tumblr com 3 issuers currencies convertible fiat comply know customer regulations jurisdiction anti money laundering enforcement example u s dollar gateways based usa need comply fincen xe2 x80 x99s normative 5 x0cusing unique tokens manage new issuance authorizers allows creator follow key cycling policy security protocols utilizing multisig multiple signatures possible transactions remain valid key rotations properties asset interest demurrage rate unit granularity display scale listings issuer authorizer tokens set coinbase string asset definition transaction 2 3 partial transactions proposal extends transaction format optionally",
+    "metadata": {
+      "chunk_id": "86ae1abfe15427a27a8f6de0510219e3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 10] rate unit granularity display scale listings issuer authorizer tokens set coinbase string asset definition transaction 2 3 partial transactions proposal extends transaction format optionally nested level subtransactions sub transactions differ regular block level transactions inputs outputs required balance associated quantity granularity allowing fractional redemption validation sub transactions occurs separately higher level enclosing transaction pre signed unbalanced transactions able act offers distributed exchange market participants sign offers adding coins asset type exchange output type signed offers broadcast channel aggregated miners cross detected bid higher ask miner combines pre signed offers claims difference fee use cases enabled example underlying assets represent lines credit exchange mechanism allows payments based transitive trust relationships style original ripplepay application ryan fugger 2 4 private ledgers private accounting servers xe2 x80 x9caccountants xe2",
+    "metadata": {
+      "chunk_id": "b497e22ec00b4a7ebc6723969e1d1112",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 11] exchange mechanism allows payments based transitive trust relationships style original ripplepay application ryan fugger 2 4 private ledgers private accounting servers xe2 x80 x9caccountants xe2 x80 x9d use variant freicoin freimarkets code base stripped distributed consensus proof work mechanism accountants responsible eliminating double spending reserving balances pending transfers authorizing transactions conditionally external events accountants able prevent transactions going owner obligated funds keeping track available balance actual balance minus funds stages commit accountants use distributed consensus mechanisms coordinating transaction commitment private accounting servers public block chains level privacy vary server server operators allowed freedom choosing parts block chain audit log publish sensible default block headers coinbase transactions allowing validation authenticated inclusion index proofs notify users wallet balance history current activity revealing user xe2",
+    "metadata": {
+      "chunk_id": "6072a1db86bd3fc435a3ba825db9b145",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 12] audit log publish sensible default block headers coinbase transactions allowing validation authenticated inclusion index proofs notify users wallet balance history current activity revealing user xe2 x80 x99s balances transaction history newly added extrospective opcodes construct scripts dependent external chains possible private transactions conditional public freicoin blockchain data private accounting servers 6 x0cnote opposite relation apply time public chains support transactions conditional data chains enhance cross chain trade observing chain xe2 x80 x99s validation dependent observed chain validation approach cross chain described times 4 trivial implement protocol extension 4 threads describe cross chain trade scheme https bitcointalk org index php topic 31643 0 https bitcointalk org index php topic 91843 0 7 x0c3 proposed changes 3 1 precision rounding limits internal computation accounting quantities performed arbitrary precision fractions equivalent mathematical system",
+    "metadata": {
+      "chunk_id": "5fae1aece561ea2c1d3ffebcc3cbe42f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 13] org index php topic 91843 0 7 x0c3 proposed changes 3 1 precision rounding limits internal computation accounting quantities performed arbitrary precision fractions equivalent mathematical system suffer loss precision underflow 3 1 1 max money moneyrange limitation maximum numerical value allowed output stored intermediary value asset type 253 1 kria 9 007199254740991 x 10384 10% maximum value representable decimal64 type transaction violates constraint invalid 3 1 2 ieee 754 2008 decimal floating point output amounts nversion 3 transactions positive real decimal floating point values stricter subset binary integer decimal encoding specified ieee 754 2008 infinities numbers allowed normal lowest exponent representation nversion 1 nversion 2 transactions int64 nvalue field interpreted according following equation nvalue int64 dvalue decimal64 dvalue nvalue 10 369 old style minimum representable positive value 1 kria 0 00000001 freicoins encoded new style decimal64 value 10369 smallest",
+    "metadata": {
+      "chunk_id": "4ea0a186f7b677aab455f849bbefc51e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 14] following equation nvalue int64 dvalue decimal64 dvalue nvalue 10 369 old style minimum representable positive value 1 kria 0 00000001 freicoins encoded new style decimal64 value 10369 smallest representable positive decimal64 value 10 xe2 x88 x92398 gives expressive range approximately 768 orders magnitude exponent plus sixteen digits precision technically providing infinite divisibility leaves plenty room 3 1 3 note units document couple differing units describing financial quantities freicoin block chain unfortunate confusing situation arises history representing bitcoin freicoin amounts user interface serialization formats talking host currency speak freicoins 1 freicoin 1 frc traditionally specified 8 decimal places precision old style transactions smallest non zero representable unit freicoins 1 kria 100 000 000 kria 1 frc new style transactions encode freicoin quantities decimal64 values 1 kria 10369 smallest non zero representable unit 10 xe2 x88 x92398 10 xe2 x88 x92775 frc",
+    "metadata": {
+      "chunk_id": "45c7a0f6b6d27f1eef9c54f1a705fff8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 15] freicoins 1 kria 100 000 000 kria 1 frc new style transactions encode freicoin quantities decimal64 values 1 kria 10369 smallest non zero representable unit 10 xe2 x88 x92398 10 xe2 x88 x92775 frc case expected user interface configured units freicoins multiplier underlying asset 8 x0c3 2 indivisible tokens new style outputs contain decimal64 continuous value combined possibly list bitstrings bitstrings indivisible unique outputs output token found input enclosing transaction tokens shared outputs transaction asset definition transaction transaction asset xe2 x80 x99s issuers signatory allowed violate constraint continuous outputs equal inputs output unique tokens subset inputs asset 3 3 asset tags new style outputs tagged 160 bits identifying asset output drawn tag 20 byte serialized hash ripemd160 sha256 asset definition transaction outputs host currency freicoin similarly calculated 20 byte hash genesis block instead 3 4 granular outputs granularity option asset definition",
+    "metadata": {
+      "chunk_id": "dc5c575b2bcbea390305d40e5e216088",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 16] hash ripemd160 sha256 asset definition transaction outputs host currency freicoin similarly calculated 20 byte hash genesis block instead 3 4 granular outputs granularity option asset definition determines minimum increment transfer continuous value represented positive decimal64 value left unspecified asset limited time minimum encodable positive decimal64 value 10 xe2 x88 x92398 subdivision allowed future extensions enable host currency freicoin defined maximally divisible way assets non zero interest demurrage granularity checks reference height transaction 3 5 granular redemption general outputs considered spent claimed later transaction claims subtracted remaining balance transaction claim utilizing granular offer signed offer contains 64 bit integer field ngranularity specifies number equal sized units offer split transaction making use offer choose number units claim long remains sufficient output remaining order implement functionality set unspent transaction outputs include",
+    "metadata": {
+      "chunk_id": "ad9fe3945f72cb255086cd696f13104d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 17] equal sized units offer split transaction making use offer choose number units claim long remains sufficient output remaining order implement functionality set unspent transaction outputs include field recording remaining equivalently spent far fractional redemption outputs containing unique tokens allowed 9 x0c3 6 validation scripts new style transactions validation script split fields scriptvalidpubkey scriptvalidsig combined executed run completion abnormal termination return non zero value stack transaction valid performing signature operations script scriptvalidsig set script performing hash serialization scriptvalidpubkey stripped code prior including delegation separator exists special case scriptvalidpubkey scriptvalidsig automatically passes old style nversion 1 nversion 2 transaction script value fields 3 7 authorizing signatories new style transactions sorted list assetid token scriptsig signatories assetid 20 byte asset tag token bitstring taking remaining bytes",
+    "metadata": {
+      "chunk_id": "056bc9f3190c2456dba15720b8b6674d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 18] 2 transaction script value fields 3 7 authorizing signatories new style transactions sorted list assetid token scriptsig signatories assetid 20 byte asset tag token bitstring taking remaining bytes scriptpubkey retrieved current unspent transaction output containing identified authorizing token 3 8 new scripting opcodes new scripting language opcodes added proposal behavior detailed 3 8 1 block height block time opcodes push height block containing current frame ntime value stack 3 8 2 delegation separator delegation separator opcode nop execution affect signature hash operations serialization script executed code prior including delegation separator omitted 3 8 3 quantity new quantity opcode pushes nquantity value current frame stack 1 current frame block level transaction 10 x0c3 8 4 extrospection opcodes following opcodes assume maintenance discrete set observed chains chain public chain observes public chain xe2 x80 x99s validation security completely dependent observed chain",
+    "metadata": {
+      "chunk_id": "fb5f45cdbdac5f2cbdd9d1d82e1326ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 19] 4 extrospection opcodes following opcodes assume maintenance discrete set observed chains chain public chain observes public chain xe2 x80 x99s validation security completely dependent observed chain reorg later trigger reorg assuming public chain observes chain opcodes require nodes data xe2 x80 x99s currently utxo set opening door new dos attacks vectors reasons opcodes recommended private chains cases configure caution potentially limiting strictly standard behavior described example freicoin behavior modified described section 3 8 4 4 3 8 4 1 output spent tx id output number height chain id output spent throws error abnormally terminating script execution following condition true xe2 x80 xa2 chain identified chain id hash chain xe2 x80 x99s genesis block set chains observed chain script validated returns 0 following condition true xe2 x80 xa2 output identified txid output number exists utxo chain id block height height returns 1 3 8 4 2 output spent tx id output number output",
+    "metadata": {
+      "chunk_id": "02aeb88a072962853c12271e3bf5ceac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 20] script validated returns 0 following condition true xe2 x80 xa2 output identified txid output number exists utxo chain id block height height returns 1 3 8 4 2 output spent tx id output number output spent equivalent following script tx id output number block height frc chain id output spent difference execution unspent transaction output set result applying transactions block chain prior validated including transactions current block precede transaction validated excluding transactions come later 3 8 4 3 output exists refheight tokens scriptpubkey chain id asset id output exists throws error abnormally terminating script execution following conditions true 11 x0c xe2 x80 xa2 chain identified chain id hash chain xe2 x80 x99s genesis block set chains observed chain script validated xe2 x80 xa2 tokens serialized sorted non repeating possibly list bitstrings returns 0 following condition true xe2 x80 xa2 xe2 x80 x99s unspent output chain id block height block height included specified",
+    "metadata": {
+      "chunk_id": "9522b48a74b16a9002b252bdec61cb9d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 21] xa2 tokens serialized sorted non repeating possibly list bitstrings returns 0 following condition true xe2 x80 xa2 xe2 x80 x99s unspent output chain id block height block height included specified asset contract script output greater equal reference height refheight set output tokens superset tokens returns 1 3 8 4 3 1 output exists refheight tokens scriptpubkey asset id output exists equivalent following script refheight tokens scriptpubkey frc chain id asset id block height block height output exists nodes look outputs utxo moment validation output spent detailed explanation 3 8 4 4 freicoin xe2 x80 x99s treatment extrospection opcodes freicoin observed chain freicoin depth introspection restricted limited output spent output exists opcodes available use generic ones result abnormal termination script 3 9 transaction expiration nexpiretime works similar way nlocktime mandating case maximum time specified unix time block height transaction accepted block nlocktime bitcoin xe2 x80",
+    "metadata": {
+      "chunk_id": "8b1bc26ec5a1629e03c79af6135924c8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 22] termination script 3 9 transaction expiration nexpiretime works similar way nlocktime mandating case maximum time specified unix time block height transaction accepted block nlocktime bitcoin xe2 x80 x99s protocol specification details 12 x0c4 formal specification formal specifications assume familiarity bitcoin protocol extensions modifications freicoin developers document makes reference specify extensions modifications detail 4 1 nversion 3 transactions specification defines new standard bitcoin transaction type nversion 3 transactions nversion 2 freicoin xe2 x80 x99s reference height transactions specification extends nversion 3 transactions differ syntactically nversion 2 transactions following ways xe2 x80 xa2 possibly sub transaction list precedes input list xe2 x80 xa2 outputs prefixed asset identifier tag 20 byte serialized hash ripemd160 sha256 coinbase transaction output xe2 x80 x99s coins derived output contains coins tokens single asset currency host currency freicoin",
+    "metadata": {
+      "chunk_id": "009a4d2956a65f6caee5b637f6e7bb19",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 23] prefixed asset identifier tag 20 byte serialized hash ripemd160 sha256 coinbase transaction output xe2 x80 x99s coins derived output contains coins tokens single asset currency host currency freicoin similarlycalculated 20 byte hash entire chain xe2 x80 x99s genesis block instead asset definition transaction asset defined identified 0 hash xe2 x80 xa2 outputs suffixed optionally sorted list unique token bitstrings xe2 x80 xa2 optionally sorted list mapping assetid token scriptsig signatories added immediately following vout xe2 x80 xa2 new script field split fields scriptvalidpubkey scriptvalidsig added following signatories xe2 x80 x99 list xe2 x80 xa2 new 32 bit block time field nexpiretime added immediately following nlocktime following modifications validation rules nversion 3 transactions 1 sub transaction list present nested sub transaction independently validate according rules sub transaction validation 2 sub transaction aggregate input output balances calculated sub",
+    "metadata": {
+      "chunk_id": "3859136a24d20c4fb96b711493ef72d9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 24] 3 transactions 1 sub transaction list present nested sub transaction independently validate according rules sub transaction validation 2 sub transaction aggregate input output balances calculated sub transaction xe2 x80 x99s reference height time adjusted enclosing transaction xe2 x80 x99s reference height summed contributors transaction xe2 x80 x99s aggregate balance 3 asset tag output reference asset unspent unpruned transaction outputs coins tokens destroyed sending category prunable unspendable scriptpubkey prefixed op return unspent outputs asset constructed asset considered destroyed 4 block level transaction asset currency independently balance input coin output coin input tokens equal superset output tokens difference left fee miner transaction signature token asset xe2 x80 x99s issuers list exempted requirement particular asset asset definition transactions asset defined 13 x0c5 signature signatories mapping reference existing token execute run completion token xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "5ae5182f42558519614fabe908cb5029",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 25] issuers list exempted requirement particular asset asset definition transactions asset defined 13 x0c5 signature signatories mapping reference existing token execute run completion token xe2 x80 x99s scriptpubkey abnormal termination signatories removed signature operations transaction validate script finish execution non zero value stack valid signature stop transaction validation example authorizer xe2 x80 x99s signature required signature present terminates zero stack transaction validate error missing authorizer signature authorizer signatures passes transaction validate 6 asset transaction asset non list authorizers signature present signatories mapping 7 scriptvalidpubkey scriptvalidsig block level transaction nested sub transaction depth separately combined executed run completion abnormal termination return non zero value stack transaction valid special case scriptvalidpubkey scriptvalidsig check skipped script 8 current time block height equal transaction xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "3f0e90c84391026690b2e597d8024d72",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 26] abnormal termination return non zero value stack transaction valid special case scriptvalidpubkey scriptvalidsig check skipped script 8 current time block height equal transaction xe2 x80 x99s nexpiretime single field interpreted block number unix timestamp manner nlocktime 9 purposes enumeration indexing inputs outputs block level transaction counted followed sub transactions order corresponds depth pre order traversal sub transaction tree 10 transaction coinbase transaction block extra validation rules asset definition transactions apply 4 2 hierarchical sub transactions nversion 3 transaction includes optionally nested level sub transactions serialized nversion vin fields sub transactions differ syntactically regular transactions following ways xe2 x80 xa2 sub transactions prefixed varint value nquantity required lie semi closed interval 0 ngranularity xe2 x80 xa2 sub transactions suffixed varint value ngranularity required non zero sub transactions similar regular block level",
+    "metadata": {
+      "chunk_id": "00e877456c6913a0373b8322e03dcec4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 27] varint value nquantity required lie semi closed interval 0 ngranularity xe2 x80 xa2 sub transactions suffixed varint value ngranularity required non zero sub transactions similar regular block level bitcoin transactions additional verification rules 1 null coinbase sub transaction inputs allowed 2 inputs outputs need balance aggregate input exceed output asset 14 x0c3 reference height sub transaction equal enclosing transaction xe2 x80 x99s greater equal inputs sub transactions 4 script execution current frame sub transaction means input output indices relative sub transaction signature operations evaluate hash sub transaction 5 performing signature operations frame sub transaction ngranularity included hash serialization nquantity 4 3 asset definition transactions coinbase transaction creating asset asset definition genesis transaction transaction single nullary input marking coinbase zero ordinary inputs containing freicoins asset tokens type typically supply fee 5 output vector",
+    "metadata": {
+      "chunk_id": "00e67a5d393f3eabfb55d41a2beb9eff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 28] creating asset asset definition genesis transaction transaction single nullary input marking coinbase zero ordinary inputs containing freicoins asset tokens type typically supply fee 5 output vector include outputs newly defined asset marked zero asset tag asset immediately considered destroyed ways asset definition transactions differ ordinary transaction types xe2 x80 xa2 asset definition transactions transaction block reserved freicoin miner coinbase xe2 x80 xa2 freicoin miner coinbase input block level asset definition coinbase transaction nullary 0 txid int max n index xe2 x80 xa2 unlike freicoin miner coinbase asset definition coinbase string scriptsig nullary input allowed length closed interval 0 65535 string script parseable meet criteria specified xe2 x80 xa2 coinbase string contains asset xe2 x80 x99s interest demurrage rate unit granularity display scale external contract hash values decimal64 decimal64 signed integer 20byte serialized hash ripemd160 sha256 respectively",
+    "metadata": {
+      "chunk_id": "75274aabad81da93c66f0b245fe1c2a9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 29] asset xe2 x80 x99s interest demurrage rate unit granularity display scale external contract hash values decimal64 decimal64 signed integer 20byte serialized hash ripemd160 sha256 respectively xe2 x80 xa2 inputs nullary input allowed xe2 x80 xa2 asset definition generating transaction hash ripemd160 sha256 extant asset tag asset tokens previously defined asset destroyed spending provably unspendable prunable output scriptpubkey prefixed op return xe2 x80 xa2 0 hash asset tag refers asset defined context asset definition transaction xe2 x80 xa2 transaction require issuer authorizer signatures issuer authorizer lists asset defined effect asset definition transaction 5 contrast regular coinbase transactions currently allow extra inputs 15 x0c5 example use cases scripts expand set possible bitcoin contracts 5 1 6 protocol extensions general notation conventions following examples use summarized notation transactions doesn xe2 x80 x99t represent accurately actual serialized format lead",
+    "metadata": {
+      "chunk_id": "a2d203660c022eee54f51a5d1f14cdf3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 30] bitcoin contracts 5 1 6 protocol extensions general notation conventions following examples use summarized notation transactions doesn xe2 x80 x99t represent accurately actual serialized format lead confusion example transaction input 100 frc output 100 frc alice means payer general term user building final transaction regardless actual payment trade execution adds signed inputs totaling 100 frc inserts change address reclaiming remainder minus fees change addresses miner fees reference height details elided examples order presentation clear alice1 alice2 alice3 etc addresses script hashes p2sh alice controls puba pubb pubc etc custom assets issued public chain priva privb privc private assets managed outside public chain said assume xe2 x80 x99re issued different accounting servers needs clarified label chain server prefixed follows frc chain id frc frc chain id puba chainb pubb accountantc privc accountantd privd etc 5 2 5 2 1 basic uses peer peer exchange sub transactions enable",
+    "metadata": {
+      "chunk_id": "5479ca429a958b1d251a74749d9af466",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 31] clarified label chain server prefixed follows frc chain id frc frc chain id puba chainb pubb accountantc privc accountantd privd etc 5 2 5 2 1 basic uses peer peer exchange sub transactions enable creation partially valid transactions act like open binding orders wait outside chain example considering offer1 created alice input 50 puba output 100 pubb alice1 granularity 10 price 2 pubb puba offer divided smaller pieces 10 pubb 5 puba specified granularity 10 100 puba remain utxo set use sub transaction valid transaction bob buys 10 puba broadcasting transaction sub txns quantity 2 offer1 input 20 pubb output 10 puba bob1 6 contracts use cases described bitcoin wiki https en bitcoin wiki contracts 16 x0csince nquantity specified offer1 2 20 pubb claim 10 puba sub transaction appeared chain 50 puba referenced offer hasn xe2 x80 x99t fully spent 40 puba remain offer carol 20 puba transaction sub txns 4 offer1 input 40 1 pubb 0 1 frc output 19 99 puba carol1 carol payed needed claimed",
+    "metadata": {
+      "chunk_id": "56dbba07f1ce61dbd74aa9a6f6a43732",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 32] 50 puba referenced offer hasn xe2 x80 x99t fully spent 40 puba remain offer carol 20 puba transaction sub txns 4 offer1 input 40 1 pubb 0 1 frc output 19 99 puba carol1 carol payed needed claimed miner gets 0 1 pubb 0 1 frc 0 01 puba fee finally alice decides cancel offer spending remaining 10 puba left partially spent transaction output input tx id output 50 puba originally contained output 10 puba alice2 clears remaining balance output removed set unspent transaction outputs attempt use offer1 invalidated examples payers bob carol use orders directly actively miners act exchange engines pairing matching crossover orders described section 5 3 3 5 2 2 transitive trust relationships issuing assets representing iou debts signing outstanding offers representing lines credit standard marketplace mechanisms execute payments networks transitive trust relationships payments look like marketplace transactions involving 3 asset types alice bob carol issue public assets puba pubb pubc",
+    "metadata": {
+      "chunk_id": "0591377a02eacf7834eef3ee0b864f59",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 33] marketplace mechanisms execute payments networks transitive trust relationships payments look like marketplace transactions involving 3 asset types alice bob carol issue public assets puba pubb pubc representing bitcoin ious simplicity use public assets bitcoins freicoins avoid complicating example cross chain trade demurrage 5 2 3 baskets currencies basket currency issued fully managed block chain basket manager issues asset value offers bidirectional exchange multiple assets fixed rate 5 3 5 3 1 auctions english auction english auction owner asset declares intent sell auction starts collecting bids like following examples 17 x0cinput 100 frc output 1 item bid1 input 110 frc output 1 item bid2 auction ended seller selects highest bid composes complete transaction sub txns bid2 input 1 item output 110 frc seller1 higher level transaction signature seller covers included highest bid sub transaction possible bid substituted winner 5 3 2 dutch auction dutch auction basically english",
+    "metadata": {
+      "chunk_id": "a4dbce5fb896deaaaa2b95a751e14285",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 34] 1 item output 110 frc seller1 higher level transaction signature seller covers included highest bid sub transaction possible bid substituted winner 5 3 2 dutch auction dutch auction basically english auction roles buyer seller reversed protocol seller suggests price constructing signed offer like following input 1 item output 120 frc offer1 seller broadcasts offer waits period time takes price lowered new offer broadcast input 1 item output 110 frc offer2 seller knows offer accepted auction closed detects transaction following form network sub txns offer2 input 110 frc output 1 item buyer1 buyer combined transaction chain seller xe2 x80 x99s offers wins auction 5 3 3 double auction market exchange generalization multi item english auction basically regular market miners handling order execution asset pairing chain mechanism exists building sharing collecting signed offers alice offers buy 100 pubb price 0 500 puba pubb units 10 pubb time input 50 puba output 100 pubb bid1 18",
+    "metadata": {
+      "chunk_id": "6d7a11272c9fb46807d1493edaf8fba6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 35] order execution asset pairing chain mechanism exists building sharing collecting signed offers alice offers buy 100 pubb price 0 500 puba pubb units 10 pubb time input 50 puba output 100 pubb bid1 18 x0cgranularity 10 bob independently offers sell 20 pubb 9 5 puba price 0 475 puba pubb units 5 pubb time input 20 pubb output 9 5 puba ask1 granularity 4 long bid price greater ask price case possible combine offers yield composite market transaction sub txns quantity 2 bid quantity 4 ask fee 0 5 puba miner use granularity quantity allow fractional parts offer claimed note crossover spread claimed output bids construct matching transaction claim fee assume miners know way crossover spread ultimately claimed market clearing profitable source revenue addition intentional transaction fees 5 4 options options7 financial instruments typically hedge describe implement basic types protocol extensions 5 4 1 long buyer pays premium p right buy q puba exchange pubb price x expiry exp seller signs",
+    "metadata": {
+      "chunk_id": "31affad3b6d95c498e16c7d621e297e5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 36] options7 financial instruments typically hedge describe implement basic types protocol extensions 5 4 1 long buyer pays premium p right buy q puba exchange pubb price x expiry exp seller signs following transaction tx1 input q puba output q puba script1 script1 dup hash160 seller1 pkh equalverify checksigverify hash160 seller xe2 x80 x99s secret hash equalverify block height exp dup hash160 buyer1 pkh equalverify checksigverify dup hash160 seller2 pkh equalverify checksigverify 7 https en wikipedia org wiki option finance basic trades traded stock options 28american style 29 19 x0coption sub transaction sub tx1 input script1 output q x pubb seller3 pkh granularity n expiry exp seller signs sub tx1 seller1 buyer lacks seller xe2 x80 x99s secret able exercise sub transaction pays premium conditionally secret revelead exp2 following sub transaction sub tx2 input p pubb output granularity 1 expiry exp2 scriptvalidpubkey hash160 seller xe2 x80 x99s secret hash equalverify finally seller",
+    "metadata": {
+      "chunk_id": "c81db1170cdcf5e529485c0485beadab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 37] conditionally secret revelead exp2 following sub transaction sub tx2 input p pubb output granularity 1 expiry exp2 scriptvalidpubkey hash160 seller xe2 x80 x99s secret hash equalverify finally seller completes buyer xe2 x80 x99s transaction receive premium revealing secret allowing buyer use option transaction sub txs 1 sub tx2 input output p pubb seller4 pkh scriptvalidsig seller xe2 x80 x99s secret payer moment exp complete option sub transaction sub txs n sub tx1 input q pubb x output q puba buyer2 pkh scriptvalidsig buyer1 sig buyer1 pk seller xe2 x80 x99s secret nquantity n lower ngranularity n exp seller double spend script1 signing valid transaction seller1 seller2 seller long example taking short position 5 4 2 long example asset traded puba pubb base currency premium paid puba instead pubb consider pubb asset traded puba base currency right xe2 x80 x9cbuy puba pubb xe2 x80 x9d equivalent xe2 x80 x9csell pubb puba xe2 x80 x9d previous example premium paid puba long buyer long",
+    "metadata": {
+      "chunk_id": "5473bca0f965917ed5c1289f86331d33",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 38] pubb consider pubb asset traded puba base currency right xe2 x80 x9cbuy puba pubb xe2 x80 x9d equivalent xe2 x80 x9csell pubb puba xe2 x80 x9d previous example premium paid puba long buyer long seller long seller long buyer buyer long taking short position 20 x0c5 5 gateways bridges gateways similar basket currencies issuer creates asset distributes funds received protocol form fiat wire transfer physical deposit precious metals cross chain transaction atomically swapping bitcoin freicoin example assets redeemed similar process reverse 5 6 chain transactions ultimate privacy scalability chain accounting services preferred proposal provides missing pieces necessary accounting servers implement private block chains secure audit log expensive distributed consensus mechanism allowing opt global consensus necessary xe2 x80 x9ccross chain xe2 x80 x9d multi server public private trade support global consensus mechanisms new suite extrospective opcodes added allowing transactions contain",
+    "metadata": {
+      "chunk_id": "4fb2902953e158cf587ca61d9db82b83",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 39] global consensus necessary xe2 x80 x9ccross chain xe2 x80 x9d multi server public private trade support global consensus mechanisms new suite extrospective opcodes added allowing transactions contain cross chain conditional dependencies 5 6 1 private buy public funds seller constructs private order 200 privb 100 puba input 200 privb output granularity 4 validation scriptpubkey delegation separator dup hash160 accountantb pkh equalverify checksigverify fromaltstack refheight dup 8000 equalverify fromaltstack dup 25 div quantity equalverify fromaltstack tokens dup 0 equalverify seller1 frc chain id puba fromaltstack fromaltstack output exists signs partial transaction validation script contains delegation separator nop far script interpreter concerned marks validation script needs signed accountant owners inputs transaction sub transaction rest note xe2 x80 x99s data fetched stack data set accountantb script return false xe2 x80 x99s stack appears checksigverify case accountantb sign",
+    "metadata": {
+      "chunk_id": "c8fa26cf65ab17b8db6fa6f7274d23ba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 40] accountant owners inputs transaction sub transaction rest note xe2 x80 x99s data fetched stack data set accountantb script return false xe2 x80 x99s stack appears checksigverify case accountantb sign transaction complete validation script including xe2 x80 x99s delegation separator payer wants 50 privb completes private transaction input output 50 privb buyer1 21 x0cthe buyer creates public transaction input 50 puba output 50 puba seller1 expiry 10000 refheight 8000 doesn xe2 x80 x99t sign sends complete signed transactions accountant reads completes private validation scriptpubkey 10000 0 0 50 8000 toaltstack toaltstack toaltstack tokens toaltstack toaltstack refheight finally accountantb signs fills sub tx validation scriptsig accountantb sig accountantb pk validation scriptvalidsig scriptvalidpubkey combined yield accountantb sig accountantb pk 10000 toaltstack 0 toaltstack 0 toaltstack tokens 50 toaltstack 8000 toaltstack refheight delegation separator dup hash160 accountantb pkh",
+    "metadata": {
+      "chunk_id": "fc14333b8823e955ec6b70b0166ed0f2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 41] combined yield accountantb sig accountantb pk 10000 toaltstack 0 toaltstack 0 toaltstack tokens 50 toaltstack 8000 toaltstack refheight delegation separator dup hash160 accountantb pkh equalverify checksigverify fromaltstack refheight dup 8000 equalverify fromaltstack dup 25 div quantity equalverify fromaltstack tokens dup 0 equalverify seller1 frc chain id puba fromaltstack fromaltstack output exists buyer1 signs public transaction gets frc chain height 10000 private transaction valid happens height 10000 reached transaction considered process height 10000 appearance public private transaction invalid 5 6 2 buying public assets private assets seller constructs public order input 100 pubb output 100 accountanta priva seller1 validation scriptpubkey delegation separator dup hash160 accountanta pkh equalverify checksigverify 22 x0c signs partial transaction payer wants 50 pubb completes public transaction input output 50 pubb buyer1 expiry 10000 buyer creates private transaction input",
+    "metadata": {
+      "chunk_id": "440411bb2861c2e8b4e86ba9351cb0f8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 42] pkh equalverify checksigverify 22 x0c signs partial transaction payer wants 50 pubb completes public transaction input output 50 pubb buyer1 expiry 10000 buyer creates private transaction input 50 priva output 50 priva seller1 validation scriptpubkey 0 50 0 buyer1 0 10000 pubb frc chain id output exists buyer signs private transaction sends public accountanta public transaction lacks accountanta xe2 x80 x99s signature valid public transaction gets chain 10000 private valid rolled 5 6 3 hybrid transitive transaction puba pubb privc privd pube usera payer usera pay puba receive pube exchange privcs privds managed accountants accc accd respectively opened offers 1 fully public input 100 pubb output 100 puba userb 2 private public input 100 privc output 100 frc pubb userc validation scriptpubkey delegation separator dup hash160 accountantc pkh equalverify checksigverify fromaltstack refheight dup 0 equalverify fromaltstack dup 100 equalverify fromaltstack tokens dup 0 equalverify userc",
+    "metadata": {
+      "chunk_id": "6e99b90694e599388e9afc6bc049f124",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  },
+  {
+    "text": "[Section 43] delegation separator dup hash160 accountantc pkh equalverify checksigverify fromaltstack refheight dup 0 equalverify fromaltstack dup 100 equalverify fromaltstack tokens dup 0 equalverify userc frc chain id pubb fromaltstack fromaltstack output exists 3 private private input 100 privd output 100 accc privc userd validation scriptpubkey delegation separator 23 x0cdup hash160 accountantc pkh equalverify checksigverify dup hash160 accountantd pkh equalverify checksigverify 4 public private input 100 pube output 100 accd privd usere validation scriptpubkey dup hash160 accountantd pkh equalverify checksigverify payer usera wants buy 50 pube 50 puba builds public transaction pubtx offers 1 4 input 50 puba output 50 pubb userc 50 pube usera expiry 10000 50 pubb offer 1 pay c 50 puba userb funded usera inputs sub tx 1 complete valid offer 4 requires accd sign transaction usera hasn xe2 x80 x99t provided scriptsig access 50 puba inputs private transactions need created offer 2 payer builds",
+    "metadata": {
+      "chunk_id": "220d73fb8beeb029a9ba61f964b80ae1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Freicoin.txt"
+    }
+  }
+]

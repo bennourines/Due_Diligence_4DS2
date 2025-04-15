@@ -1,0 +1,411 @@
+[
+  {
+    "text": "[Section 1] b shift xe2 x80 x93 introductory white paper phantom decentralized storage suite version 1 1 0 isabella dell craig campbell ralf s march 5 2018 x0ctable contents 1 introduction 1 1 definition problem 1 2 expand problem 1 2 1 net neutrality internet 1 2 2 government agencies 1 2 3 centralized server hosting 1 3 proposed solution service providers 3 3 3 3 3 4 4 2 storage layer 2 1 interplanetary file system 2 2 implementation xe2 x80 x93 shift storage cluster 2 2 1 file pinning 2 2 2 http api 2 2 3 consensus 2 2 4 replication factor 2 2 5 file storage retrieval 2 3 service layer 2 3 1 haproxy 2 3 2 jenga 5 5 5 5 6 6 6 6 6 6 6 3 blockchain secured 3 1 delegated proof stake 3 2 phantom sidechain 3 2 1 transaction types 3 3 external interactions xe2 x80 x93 deployment 8 8 8 8 9 4 presentation layer 4 1 hydra xe2 x80 x93 content management system 4 2 phantom ui xe2 x80 x93 file manager 4 3 content retrieval 10 10 10 11 5 security layer 5 1 shift cluster security 5 1 1 preventing",
+    "metadata": {
+      "chunk_id": "afb268e39b91d10f9ee25ceee3a8fa18",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 2] layer 4 1 hydra xe2 x80 x93 content management system 4 2 phantom ui xe2 x80 x93 file manager 4 3 content retrieval 10 10 10 11 5 security layer 5 1 shift cluster security 5 1 1 preventing oversubscription 5 2 data privacy 5 3 illegal content 12 12 12 12 13 6 conclusion 14 references 15 1 x0cabstract censorship suppression information common problem human history advent blockchain decentralized technologies created technological revolution ensure content easily censorable combination storage presentation layer technologies potential empower end users operators ability preserve data free censorship shift proposes solution problem censorship defines combination new technologies solve problem 2 x0c1 introduction white paper provides introduction phantom unified technology suite platform hosting content decentralized system scope document specify general technical approach shift undertaking defining problems shift attempting solve phantom describing different technologies address issues 1",
+    "metadata": {
+      "chunk_id": "d8ac314ed35bca2d9683105960ebccd2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 3] content decentralized system scope document specify general technical approach shift undertaking defining problems shift attempting solve phantom describing different technologies address issues 1 1 definition problem world today greater potential threat freedom information operators internet server hosts governments isps internet service providers control web remove access content server shutdowns blacklisting dns domain system takeovers technology available mature prevent authorities attacks internet ipfs interplanetary file system benet 2014 technologies state readiness leveraged create new decentralized internet mitigate threat censorship 1 2 1 2 1 expand problem net neutrality internet service providers isps act single entry point internet nearly end users today institutions usually private commercial entities providing connectivity customers isps going vanish time soon xe2 x80 x93 threat pose freedom internet clear present example isps manipulating end users seen late 2000s",
+    "metadata": {
+      "chunk_id": "e25f4da7c98cde6b292df652f804c78b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 8] shift network end users submit files long term storage blockchain based space leasing system website operators serve entire website shift storage cluster hydra render resources content live jenga dynamically updates resources discovery censored technology suite creates seamless end user experience easily censored 4 x0c2 storage layer 2 1 interplanetary file system phantom storage layer consists freely available technology called interplanetary file system ipfs peer peer hypermedia distribution protocol benet 2014 serves backbone decentralized storage applications provides documented protocol implementing distributed file system suitable serving web applications types content ipfs described having central point failure fully peer peer meaning user participate system file system protocol rely central authority govern operation ipfs poised create new decentralized internet infrastructure free censorship 2 2 implementation xe2 x80 x93 shift storage cluster default state ipfs",
+    "metadata": {
+      "chunk_id": "d3fb32c8fc7a28ce992a508ac7871352",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 9] protocol rely central authority govern operation ipfs poised create new decentralized internet infrastructure free censorship 2 2 implementation xe2 x80 x93 shift storage cluster default state ipfs infrastructure represented globally shared network lead problems comes verifying data integrity availability custom implementation details earning token rewards running storage node reason shift runs private swarm storage nodes use custom swarm key ensure talk nodes key prevents shift nodes host deliver content added outside shift network improve reliability performance order store data permanently ipfs implements concept called pinning pinning content means content available permanently unpinned default pinning applies single peer pinned means machine goes offline content lost way ipfs cluster subnet private net running ipfs daemon containing shift peers shift cluster runs wrapper ipfs daemon allows end user connect group ipfs nodes content stored replicated group cluster elects leader",
+    "metadata": {
+      "chunk_id": "8b4050744ead842d276369653f2747f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 11] pinning prevents garbage collection process removing item prematurely ensuring available cluster 5 x0c2 2 2 http api ipfs offers suite internal commands functions interact network set functions mirrored http api allowing external software interact system functions allow phantom communicate ipfs remotely needing end user join cluster 2 2 3 consensus ipfs cluster requires consensus nodes ensure stored information kept sync especially important pinned content stored indefinitely node elected leader operates goes offline new leader elected 2 2 4 replication factor shift hosted cluster currently configured replicate piece content redundant nodes prevent data lost means file backed multiple additional locations primary location case backup locations unavailable cluster automatically replicate content additional nodes allows network scale data need copied node 2 2 5 file storage retrieval data pinned system participating nodes receive propagated data storage nodes retain data cluster",
+    "metadata": {
+      "chunk_id": "67e88cf2de0ef96beed51a94eba50b17",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 12] content additional nodes allows network scale data need copied node 2 2 5 file storage retrieval data pinned system participating nodes receive propagated data storage nodes retain data cluster requests data arrive storage nodes serving nodes storage nodes provide data serving node caches data prevent need retrieve data repeatedly new service nodes join provide data storage nodes files retrieved system cryptographic hashes hashes generated file inserted system saved later use especially important storing files blockchain hash provide identifier link file address transaction paying storage 2 3 service layer phantom provides service layer functions storage layer services services include haproxy jenga primary function service layer connect phantom xe2 x80 x9dold world xe2 x80 x9d internet protocols dns provide traffic management storage layer 2 3 1 haproxy phantom includes haproxy provides discrete addressing traffic handling api endpoints ipfs cluster addition handling end traffic",
+    "metadata": {
+      "chunk_id": "1eb1081e284cfb881f8db6cde550d6df",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 13] protocols dns provide traffic management storage layer 2 3 1 haproxy phantom includes haproxy provides discrete addressing traffic handling api endpoints ipfs cluster addition handling end traffic handles end requests system leverages ssl provide encrypted communications client server takes care incoming requests forwarded daemon cluster haproxy acting shield whitelisted calls executed target application forbidden requests rejected 2 3 2 jenga mainstream browser supports ipfs natively needs way map incoming request specific server solved chrome firefox browser extension pick ipfs node serve content browser ideal end users install party software visit website hosted phantom 6 x0canother possible solution internal load balancer issues primary issue centralized load balancer fails requests phantom fail second issue found throughput performance issues system scale handle traffic system required support throughput entire phantom network feasible worldwide file storage system jenga solves",
+    "metadata": {
+      "chunk_id": "37c75e63c39236c4ddca8917d82e0e8e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 14] phantom fail second issue found throughput performance issues system scale handle traffic system required support throughput entire phantom network feasible worldwide file storage system jenga solves issues providing scalable solution works requiring installation additional software end user viewing content jenga dns monitoring solution observes level dns entries changes records changes changes relevant ipfs cluster detected jenga updates storage nodes cluster maintaining persistent communications nodes jenga create consensus healthy dns state subsequently evict non conforming nodes system prevents attackers joining cluster injecting improper dns entry removing ddos distributed denial service attack vector system jenga creates bridge decentralized web classical internet relies solely dns records jenga creates dynamic web addressing system facilitates traffic scaling node thousands based records placed system functionality transparent end user requiring external interaction system",
+    "metadata": {
+      "chunk_id": "11f8e9ba48ba8471a20fcf0c231b13fa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 15] dns records jenga creates dynamic web addressing system facilitates traffic scaling node thousands based records placed system functionality transparent end user requiring external interaction system operate fundamental level jenga enables system address central points failure dns censorship traffic shaping order jenga function maintain contact connected peers ipfs cluster jenga detects change cluster updates dns new information event node misbehaving offline jenga action remove peers xe2 x80 x99 allotted cname record evicting cluster peers rejoin system errors corrected report healthy status jenga gateway called external actor peers cluster selected serve data caller process seamless replication data cluster order new site join system operator provide cname record domain pointed gateway event operator want use gateway operator create dns records pointing gateway data delivered cluster site lose benefits phantom gateway mainly guarantee healthy nodes available serving utilized 7 x0c3",
+    "metadata": {
+      "chunk_id": "662163366875b25537a71545a36e66f2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 16] event operator want use gateway operator create dns records pointing gateway data delivered cluster site lose benefits phantom gateway mainly guarantee healthy nodes available serving utilized 7 x0c3 blockchain secured content security utmost importance decentralized system data goes come untampered consumer needs able trust authenticity blockchain technology leveraged phantom ensure immutability truthfulness system unfalsifiable ledger removes trust related issues 3 1 delegated proof stake shift described decentralized blockchain secured delegated proof stake elected 101 number n currently 101 delegates act custodians system delegates generate blocks allocated slot 27 seconds blocktime provide ledger transaction finality shift xe2 x80 x99s web hosting platform addition tracking account balances registration states provides system cryptographic linkage private public keys user system private keys disposal keys provide ownership tokens system especially important combined blockchain",
+    "metadata": {
+      "chunk_id": "d1b1f3075d85a1ad6de18b3650aed49d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 17] balances registration states provides system cryptographic linkage private public keys user system private keys disposal keys provide ownership tokens system especially important combined blockchain host phantom users need send tokens shift blockchain phantom sidechain 3 2 phantom sidechain sidechain blockchain co exists parent blockchain case phantom sidechain pegged shift mainchain provides tokenized backbone phantom sidechain phantom separate ledger tracks end users token balances tokens provide users ability pin unpin content ipfs cluster exchange tokens ability store files long term order support system end users join system node operators lease excess space users seeking storage 3 2 1 transaction types building existing system offered shift sidechain implement new functionality specific platform functionality expands concept transaction type found shift new group transaction types created use sidechain type 10 storage request end user system needs store content cluster order",
+    "metadata": {
+      "chunk_id": "dc2374650e7ae1e1e547fab4b9cedef1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 18] platform functionality expands concept transaction type found shift new group transaction types created use sidechain type 10 storage request end user system needs store content cluster order user submits request secure storage cluster receipt sidechain confirmation blockchain user allocated storage system storage enable user insert files system type 11 return storage point user need use storage longer case user submit type request unlock tokens transaction confirmed user refunded tokens system type 12 provide storage order system operate correctly storage provided system user excess storage provide network submitting request including storage add proof stake backing request type 13 withdraw storage type 11 user want refund tokens concluding business offering storage 8 x0cto network request submitted network confirmation user refunded locked tokens associated storage commitment 3 3 external interactions xe2 x80 x93 deployment phantom deployed shift mainchain applications interface",
+    "metadata": {
+      "chunk_id": "dfd27c751704b639b376ae1eb9a06256",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 19] submitted network confirmation user refunded locked tokens associated storage commitment 3 3 external interactions xe2 x80 x93 deployment phantom deployed shift mainchain applications interface order operator deploy phantom use operator need run copy shift mainchain additionally operator need use phantom interface upload files work provided suite apis inserting new content self deployment phantom necessary end user interface system 9 x0c4 presentation layer layered applications end user interacts layer presentation layer phantom presentation layer consists hydra works conjunction storage service layers 4 1 hydra xe2 x80 x93 content management system content management system web application publish documents site content need technical knowledge end user submit plain text software render layout consistent way website dynamic content regular updates difficult operate cms order overcome limitations ipfs lack ability operate software written common server languages lack support database",
+    "metadata": {
+      "chunk_id": "8c6a5240f3c98e3fe2d571f4d78b21dc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 20] layout consistent way website dynamic content regular updates difficult operate cms order overcome limitations ipfs lack ability operate software written common server languages lack support database systems custom cms created custom cms called hydra new technology operates cms built ipfs hydra works conjunction phantom xe2 x80 x99s file manager currently capable handling common tasks adding modifying removing content basic feature set serve needs users codebase open source allow developers customize improve software needs hydra written extensible end users codebase designed modular way example site page blog post share rendering engine different schemas creating new module performed programmatically node js specifying configuration items resulting files served solely ipfs rendering occurs client end end components separated enables developers use preferred framework vue react angular data files module structures rendered json files external systems wordpress api 4 2 phantom ui xe2",
+    "metadata": {
+      "chunk_id": "ca3a4aa55ab739f188d8599c1795677d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 21] client end end components separated enables developers use preferred framework vue react angular data files module structures rendered json files external systems wordpress api 4 2 phantom ui xe2 x80 x93 file manager phantom user interface comes intelligent file management interface enables end users view modify content managed system end user tracks content use shift account content submission requests paired account available user system allows network present files changes files published users able manage stored content fashion typical modern operating system actions taken user propagate cluster interface provides advanced code editor complete syntax highlighting commonly file types ipfs creates unique hash data file prevents hosting uploading identical content functionality streamlines upload process duplicate files identified submitted additionally enables system operate efficiently reduces bandwidth usage end users operators alike phantom ui contains dns wizard control",
+    "metadata": {
+      "chunk_id": "93ffa6e603480d040c4de546b01dd563",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 22] upload process duplicate files identified submitted additionally enables system operate efficiently reduces bandwidth usage end users operators alike phantom ui contains dns wizard control addressing hosted domain names utilizing shift hosted storage cluster removes single point failure caused requiring content submitters host systems phantom uses jenga populate list healthy nodes serve content requested domain 10 x0c4 3 content retrieval data stored system content level locational level new approach provides benefits primary benefit location data longer relevant allowing nodes present information data changed new hash produced file system intelligent combining benefits create merkle hash root relative path subfolder file websites addressed url content fetched hash mutable hash domain resolving system mutable hash updated end users private key combined immutable hash feature allows content updates requiring domain record updates 11 x0c5 security layer security paramount system",
+    "metadata": {
+      "chunk_id": "cd21a3dac473991cb020bfc2de398b2b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 23] resolving system mutable hash updated end users private key combined immutable hash feature allows content updates requiring domain record updates 11 x0c5 security layer security paramount system decentralized system security fundamental necessity create stability build trust operation 5 1 shift cluster security cluster plays important role phantom cluster multiple authentication mechanisms hosts place order cluster secure attacks threats covered document layer authentication blockchain level user need complete registration process blockchain sending type 12 transaction registering committed storage user register phantom cluster participant complete join process second layer users required launch application private key register blockchain encrypted join key storage cluster application search blockchain associated storage commitment confirm validity application decrypt issued key registering phantom allow user join cluster 5 1 1 preventing oversubscription order prevent",
+    "metadata": {
+      "chunk_id": "403e0c98bfffd3824b8cbae5ca001122",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 24] application search blockchain associated storage commitment confirm validity application decrypt issued key registering phantom allow user join cluster 5 1 1 preventing oversubscription order prevent oversubscription cluster blockchain committed storage allowances monitored closely system low availability storage incentive join serve data users wishing insert data cluster pay higher premium use cluster time demand users ongoing storage needs supply operators equalize operators offer storage set time frames renewals additions allowed time contract expires operator ceases operation end committed time frame lose stake requires operators maintain high uptimes maintain system allowance set number hours offline cluster operator blockchain mentioned operators penalized acting poorly loss funds large deterrent sufficient handling operator misbehavior users act poorly oversubscribing flooding network types misbehaviors lead temporary freeze staked funds malicious user actors handled limiting",
+    "metadata": {
+      "chunk_id": "fe4cfbdcf8001e3467194b61b3b40703",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 25] large deterrent sufficient handling operator misbehavior users act poorly oversubscribing flooding network types misbehaviors lead temporary freeze staked funds malicious user actors handled limiting volume content allowed submit system period time users set number transactions time frame begin costing substantially initiate threshold exceeded period 5 2 data privacy security content entering system important securing system users given option encrypt data prior storage submission noted content encrypted readable key unlock users caution encrypting content protect private key appropriately 12 x0cwithin phantom users able encrypt content specific recipients mind list public keys provided create encrypted messages contain decrypting key recipient xe2 x80 x99s private key decrypt 5 3 illegal content decentralized systems illegal content makes niche phantom hosting severely unlawful content allowed users found injecting illegal content system risk losing stake content removed system",
+    "metadata": {
+      "chunk_id": "307ccc3b4af889e5708399015a48b98f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 26] content decentralized systems illegal content makes niche phantom hosting severely unlawful content allowed users found injecting illegal content system risk losing stake content removed system maintain pinned content content unpinned swept quickly vital operators xe2 x80 x99 rights protected user case 13 x0c6 conclusion phantom world xe2 x80 x99s decentralized storage applications backed blockchain implemented shift blockchain sidechain decentralized application leveraging ipfs clustering jenga hydra phantom provides censorship resistant platform web hosting content delivery 14 x0creferences amazon 2018 summary amazon s3 service disruption northern virginia east 1 region retrieved https aws amazon com message 41926 accessed january 31 2018 benet j 2014 ipfs content addressed versioned p2p file system retrieved https filecoin io filecoin pdf accessed january 31 2018 chen c 2017 tired dmca riaa seeks isp cooperation catching stopping copyright infringement privacy news online https www",
+    "metadata": {
+      "chunk_id": "c9214b951a321c63e13bf8103be0c5ee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "service disruption"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "Shift.txt"
+    }
+  },
+  {
+    "text": "[Section 27] file system retrieved https filecoin io filecoin pdf accessed january 31 2018 chen c 2017 tired dmca riaa seeks isp cooperation catching stopping copyright infringement privacy news online https www privateinternetaccess com blog 2017 02 tired dmca riaa seeks ispcooperation catching stopping copyright infringement accessed january 31 2018 eckersley p 2007 comcast jamming gnutella lotus notes retrieved https www eff org deeplinks 2007 10 comcast jamming gnutella lotus notes accessed january 31 2018 martin j 2013 lost silk road online drug distribution xe2 x80 x98cryptomarket xe2 x80 x99 sage journals http journals sagepub com doi abs 10 1177 1748895813505234 accessed january 31 2018 morris d 2017 spanish polish raid cat admin offices threatening internet xe2 x80 x99s cutest domain fortune http fortune com 2017 09 23 spanish dot cat domain accessed january 31 2018 raphael j 2009 isps join riaa xe2 x80 x99s fight piracy isp pcworld https www pcworld com article 161978 riaa html accessed",
+    "metadata": {
+      "chunk_id": "2ebfbc21da0cae80e82e17fc8ec1fa05",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Shift.txt"
+    }
+  }
+]

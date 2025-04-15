@@ -1,0 +1,610 @@
+[
+  {
+    "text": "[Section 1] b 18 10 2018 contact rocketpool net version 2 0 8 x0c1 table contents overview 2 rocket pool 3 rocket pool 1 0 3 ethereum roadmap change 4 rocket pool 2 0 4 design 5 components 5 smart contracts 6 smart nodes 7 minipools 9 rpl token 9 proof authority network 15 user types 16 staking users 16 staking durations 17 staking process 17 groups 17 chunking 18 infographic 19 fee structure 20 node operators 20 setup 20 staking process 21 determining node operator reward 23 rocket pool improvement process rpip 24 cli 28 audits 31 team 32 x0c2 note document informational purposes constitute offer solicitation sell shares securities rocket pool related associated company offer solicitation means confidential offering memorandum accordance terms applicable securities laws figures utilised document demonstration purposes balances percentages time frames described purely demonstrating concept currently discussion noted overview rocket pool kind ethereum proof stake infrastructure service individuals",
+    "metadata": {
+      "chunk_id": "e7e5389d756ce49f1074313750d1b0fe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 2] purposes balances percentages time frames described purely demonstrating concept currently discussion noted overview rocket pool kind ethereum proof stake infrastructure service individuals businesses want earn interest ether fixed term use rocket pool xe2 x80 x99s decentralised network node operators participate staking businesses exchanges staking pools wallets easily provide customers proof stake services leveraging rocket pool xe2 x80 x99s api unique decentralised network node operators rocket pool xe2 x80 x99s unique decentralised staking infrastructure secure scalable works aligning interests groups xef x82 xb7 stakers individuals users api integrated businesses deposit ether automatically assigned node operators staking xef x82 xb7 node operators maintain server infrastructure rocket pool network running smart node software ethereum node client parity geth assigned staker deposits node operator stake matching ether staked fee free providing service node operators charge stakers",
+    "metadata": {
+      "chunk_id": "5e3d4a447a640612da1b7b76f56bda43",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 3] pool network running smart node software ethereum node client parity geth assigned staker deposits node operator stake matching ether staked fee free providing service node operators charge stakers predetermined percentage interest earned staking node earn additional income interest ether rocket pool composed 3 primary elements smart contracts smart nodes minipools integrate form innovative global network automatically scales token incentives reduces staking risk spreading deposits multiple nodes highly distributed decentralised x0c3 rocket pool boasts market user features casper staking backup addresses deposit tokens rpd rocket pool currently beta developing compatibility ethereum xe2 x80 x99s new consensus protocol casper 2019 rocket pool rocket pool known proof stake ethereum service date originally designed constructed based mauve paper released vitalik buterin late 2016 provided early specifications casper proof stake consensus mechanism rocket pool 1 0 rocket pool 1 0 fully",
+    "metadata": {
+      "chunk_id": "e8f8d2db3fd8d0a89154dfed6da32db6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 4] date originally designed constructed based mauve paper released vitalik buterin late 2016 provided early specifications casper proof stake consensus mechanism rocket pool 1 0 rocket pool 1 0 fully compatible ethereum xe2 x80 x99s casper ffg 0 2 0 system version casper smart contract accepted deposits 1 500 ether node node operators rewarded interest deposit return keeping node online 24 7 validating ethereum blockchain successful public beta rocket pool 1 0 run 8 weeks capacity 18 385 ether deposited users rocket pool 1 0 received community feedback incorporated refine product smart contracts rocket pool 1 0 publicly available test github repository x0c4 ethereum roadmap change mid june 2018 ethereum foundation announced significant change casper released casper ethereum 2 0 release delivers dramatic scaling improvements ethereum new approach combine key projects xe2 x80 x93 casper sharding ewasm xe2 x80 x93 unified design casper ffg 0 2 0 system deprecated favour new ethereum 2 0",
+    "metadata": {
+      "chunk_id": "7f8e3e95924e72d255f8a5ab4c81bca6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 5] dramatic scaling improvements ethereum new approach combine key projects xe2 x80 x93 casper sharding ewasm xe2 x80 x93 unified design casper ffg 0 2 0 system deprecated favour new ethereum 2 0 approach release 2019 ethereum 2 0 horizon rocket pool align battle tested platform new version casper addition rocket pool opportunity add important improvements platform network robust rocket pool 2 0 extended casper release date rocket pool start developing rocket pool 2 0 features rocket pool 2 0 continue design goals rocket pool 1 0 1 incentivise robust network node operators provide security ethereum platform 2 democratise participation proof stake regardless deposit size allow users 32 ether earn interest deposit 3 lower barrier entry users businesses node operators earn income return maintaining network xe2 x80 x99s resources increasing decentralisation 4 provide seamless proof stake integration services businesses wish offer staking services customers maintaining staking infrastructure",
+    "metadata": {
+      "chunk_id": "8c5da69d5ffd9675eeec597aef91f039",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 6] network xe2 x80 x99s resources increasing decentralisation 4 provide seamless proof stake integration services businesses wish offer staking services customers maintaining staking infrastructure x0c5 aim rocket pool 2 0 primary staking infrastructure ethereum providing truly decentralised easy use staking network individuals businesses primary goals rocket pool 2 0 xef x82 xb7 ensure compatibility ethereum 2 0 advantage scaling improvements xef x82 xb7 dynamically adapt network capacity efficiently match demand rpl token economics regulate node participation xef x82 xb7 minimise risk distributing deposits xe2 x80 x98chunking xe2 x80 x99 system reducing losses case node failures malicious activity xef x82 xb7 democratise rocket pool development roadmap improvement proposal process giving network participants influence upgrades features xef x82 xb7 ensure staking infrastructure components decentralised keeping ethereum xe2 x80 x99s philosophy security xef x82 xb7 create scalable staking",
+    "metadata": {
+      "chunk_id": "d23c0d3480830305061a61deeb46599d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 7] participants influence upgrades features xef x82 xb7 ensure staking infrastructure components decentralised keeping ethereum xe2 x80 x99s philosophy security xef x82 xb7 create scalable staking network capable handling intense demand proof stake services design rocket pool 2 0 features large redesigns aimed increasing network utilisation reducing deposit risk allowing node operators size location opportunity participate components rocket pool protocol defines interactions necessary rocket pool network meet design goals implemented set software components x0c6 xef x82 xb7 smart contracts ethereum xef x82 xb7 smart node software xef x82 xb7 javascript library interacting smart contracts software components implement rocket pool protocol open source eventually open source overview components changes rocket pool 2 0 smart contracts rocket pool variety smart contracts enable users deposit ether staking manage deposits multiple node operators handle interactions casper allow voting",
+    "metadata": {
+      "chunk_id": "bb62d73c7cdf34b5167373c23a13d293",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 8] changes rocket pool 2 0 smart contracts rocket pool variety smart contracts enable users deposit ether staking manage deposits multiple node operators handle interactions casper allow voting improvement proposals rocket pool smart contracts upgradeable allows network highly flexible issue manifests smart contract new version x0c7 contract deployed replacement xe2 x80 x93 old contract longer authorised member network node operator uptime crucial requirement reliable staking infrastructure rocket pool requires node operators stake ether receive lose provide sub par service actively malicious smart contracts detect server unresponsive misbehaving stop sending new user deposits node helps minimise penalties network incur server reliability smart contracts reduce risk deposits breaking xe2 x80 x98chunks xe2 x80 x99 4 ether distributing nodes single node issues penalised casper portion deposits affected provided greater 4 ether distribute eggs baskets interests transparency smart contracts",
+    "metadata": {
+      "chunk_id": "54f5ccf38799b9a514a37c61fdb42767",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 9] x98chunks xe2 x80 x99 4 ether distributing nodes single node issues penalised casper portion deposits affected provided greater 4 ether distribute eggs baskets interests transparency smart contracts open source view github repo information smart nodes participate casper proof stake node operators required run node software rocket pool network node isn xe2 x80 x99t ordinary node xe2 x80 x99s smart node rocket pool xe2 x80 x99s smart node software listens occurring network features cli allows node operators run commands including ones voting new proposals rocket pool network smart node automatically checks rocket pool smart contracts intermittently x0c8 xef x82 xb7 report server xe2 x80 x99s health xef x82 xb7 signal fee rates node operator believes network charge additionally smart node software gives node operators ability vote rpips proposals upgrade network types smart node operators 2 0 require rpl token participate network staking node operator staking node operator join network",
+    "metadata": {
+      "chunk_id": "e0c614c8c1ebd0d98c2f1b54ca2b79a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 10] gives node operators ability vote rpips proposals upgrade network types smart node operators 2 0 require rpl token participate network staking node operator staking node operator join network time requires registration approval process staking node operator receives following benefits xef x82 xb7 require 16 ether stake opposed 32 ether outside rocket pool rocket pool assigns 16 ether user deposits xef x82 xb7 earn extra ether charging rocket pool users set percentage interest earned node xef x82 xb7 stake ether free rocket pool fees xef x82 xb7 control node xef x82 xb7 new proposals rocket pool network trusted node operator rocket pool user deposits assigned staking node operators surplus assigned trusted node operators trusted node operators backup ensure network continue onboard new users capacity staking node operators trusted node operators required match user deposit stakes x0c9 minipools minipool type smart contract created rocket pool node operator makes deposit ether node",
+    "metadata": {
+      "chunk_id": "c8d470154ada5f0ee8a2e6e6a2db096a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 11] users capacity staking node operators trusted node operators required match user deposit stakes x0c9 minipools minipool type smart contract created rocket pool node operator makes deposit ether node contracts pool ether stakers reach stake casper node operators access user funds handled minipool smart contracts minipool contracts fixed terms 3 6 12 months users options staking duration minipool xe2 x80 x99s staking time completed smart node automatically start casper withdrawal process withdrawal process takes time completed users businesses able withdraw deposit plus staking interest rocket pool rpl token rpl required wish act node operator rocket pool network rpl required user stake ether rocket pool network rocket pool 1 0 rpl measure resources available single node node required hold fixed 1 1 ratio rpl eth example node held 100 rpl node operator confident stake 100 ether rocket pool network good approach shortcomings identified particularly change casper xe2 x80 x99s staking",
+    "metadata": {
+      "chunk_id": "97626a5c908bab970c6985d88ca99ea4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 12] fixed 1 1 ratio rpl eth example node held 100 rpl node operator confident stake 100 ether rocket pool network good approach shortcomings identified particularly change casper xe2 x80 x99s staking requirement 1 500 ether 32 ether rocket pool 2 0 rpl eth ratio dynamic measures capacity entire network regulates network xe2 x80 x99s capacity efficiently combats potential attack vectors outlined x0c10 network capacity rocket pool network requires node operators cover spikes demand suffer underutilised nodes nodes attack self regulating network uses rpl maintain optimal capacity xef x82 xb7 increasing capacity needed incentivising node operators join xef x82 xb7 allowing optimal network utilisation capacity spikes usage node operator joins rocket pool network required deposit ether smart contract staking user deposits matched ether deposited minipool staking percentage node operator ether matched thought network utilisation demand increases node operator ether matched increasing utilisation",
+    "metadata": {
+      "chunk_id": "e64000e0ad08b37c395a715aaf5db36e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 13] staking user deposits matched ether deposited minipool staking percentage node operator ether matched thought network utilisation demand increases node operator ether matched increasing utilisation example node operator deposited 50 ether giving total network capacity 150 ether matched 120 ether 80% utilisation x0c11 addition ether node operator required deposit set rpl ether depositing rpl eth ratio dynamic dependent network utilisation e xef x82 xb7 network plenty capacity node operators need rpl join xef x82 xb7 network reaching capacity node operators need rpl join subsequently node operators incentivised join network needs capacity disincentivised join network doesn xe2 x80 x99t security xe2 x80 x93 attack vectors nodes reduction ether required casper reduced 1 500 ether 32 ether new attack vector identified whale lot ether rpl prevent current node operators receiving new users adding large number underutilised nodes network ensure fairness decentralisation node operators",
+    "metadata": {
+      "chunk_id": "2a87da06635d9aef84eda2b1f0602fb4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 14] new attack vector identified whale lot ether rpl prevent current node operators receiving new users adding large number underutilised nodes network ensure fairness decentralisation node operators assigned deposits users chunks random selection high number nodes x0c12 lots capacity users able begin staking long time xe2 x80 x93 xe2 x80 x93 lot idle nodes network excessive capacity new mechanics rpl requirements progressively expensive add underutilised nodes network incentivising nodes earning extra income smart node rocket pool network main draw cards node operator wasn t great deal incentive join network current available nodes couldn t satisfy demand user deposits coming rocket pool smart contracts imagine huge exchange decided use rocket pool background provide staking services users xe2 x80 x93 network automatically incentivise new smart nodes join existing ones add available capacity quickly new rpl formula substantially reduces rpl required network nears capacity reducing cost",
+    "metadata": {
+      "chunk_id": "9f47442b7d0559135b4619b327e7dcdf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 15] xe2 x80 x93 network automatically incentivise new smart nodes join existing ones add available capacity quickly new rpl formula substantially reduces rpl required network nears capacity reducing cost join network incentivising new node operators join goes rpl eth formula formula calculating rpl required node operator stake represented x0c13 figure 1 x axis network utilisation 0 100% y axis rpl eth required x0c14 determines current rpl eth ratio xef x82 xb7 x axis represents current utilisation network 0 100% xef x82 xb7 y axis represents rpl required stake 1 ether xef x82 xb7 ratio sweet spot approximately 1 1 40% 70% xef x82 xb7 network underutilised rpl required increases sharply 15% prevents attack scenarios xef x82 xb7 network near capacity rpl required reduces significantly prompt new node operators come online increase capacity ratio applies staking duration available consequently nodes support staking 6 months 12 months require rpl stake ether capacity staking duration purpose",
+    "metadata": {
+      "chunk_id": "ba89ddc114185d6adba550b3493742cc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 17] high given capacity 95% 0 25 rpl 1 ether 25 rpl network urgently needs capacity board new users proof authority network introduction sharding potential order magnitude increase tx s reduce ethereum chain transaction fees significantly poa network node node communication smart nodes sync main ethereum chain beacon chain rocket pool proof authority network sidechain geth poa network clique consensus engine 15 second blocks engine allows new authorities voted time let trusted node operators authorities network allow node node communication regardless nodes hosted server load metrics current poa ether balances allow bls signatures integrated nodes voting casper applicable beacon chain x0c16 sharding makes transactions cheap throughput main chain good network needed ideal scenario user types rocket pool 2 0 feature main types user aligned interests help sustain grow network reliance rocket pool central entity minimised greatly approach network function highly decentralised way staking",
+    "metadata": {
+      "chunk_id": "9a03a8ca3e15587aa6a9b6895a242283",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 18] rocket pool 2 0 feature main types user aligned interests help sustain grow network reliance rocket pool central entity minimised greatly approach network function highly decentralised way staking users majority users rocket pool staking users type user wants participate proof stake earning interest ether xef x82 xb7 user minimum 32 ether stake xef x82 xb7 user technical want node online secure 24 hours day 7 days week xef x82 xb7 user api integrated business rocket pool infrastructure earn interest users xef x82 xb7 user simply wishes use rocket pool convenient rocket pool allows staking users earn interest little 1 ether fixed terms hassle x0c17 staking durations user option choose fixed term staking durations options available 3 months 6 months 12 months staking process staking process easy staking users deposit ether xef x82 xb7 rocket pool website xef x82 xb7 api group exchange wallet provider etc xef x82 xb7 directly rocket pool xe2 x80 x99s smart contracts easy groups staking",
+    "metadata": {
+      "chunk_id": "f966de53cfb9253be40d95e4bf634f5e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 19] easy staking users deposit ether xef x82 xb7 rocket pool website xef x82 xb7 api group exchange wallet provider etc xef x82 xb7 directly rocket pool xe2 x80 x99s smart contracts easy groups staking users rocket pool 2 0 organised groups group business corporation pool wallet provider exchange hedge fund xe2 x80 x93 service wishes provide users ability earn interest ether fixed term worrying maintaining extensive staking infrastructure xe2 x80 x93 plug play groups registered rocket pool registered smart contract created automatically unique identifier groups set fees users delivered rocket pool network collected contract group owner access fees including rocket pool groups register smart contracts allowed deposit withdraw rocket pool network behalf api allows companies existing smart contracts integrate quickly registering rocket pool integration contracts transfer ether network receive staking completes x0c18 rocket pool xe2 x80 x99s staking pool group integration contracts sitting",
+    "metadata": {
+      "chunk_id": "4f92f6ff2209932c80adc7ef73a1c697",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 20] integrate quickly registering rocket pool integration contracts transfer ether network receive staking completes x0c18 rocket pool xe2 x80 x99s staking pool group integration contracts sitting rocket pool api use decentralised staking infrastructure offer group chunking ethereum xe2 x80 x99s proof stake protocol casper includes penalties node downtime malicious behaviour chunking new concept reduces risk staking user xe2 x80 x99s deposit distributing nodes steps 1 staking user deposits ether rocket pool example 16 ether 2 deposit broken 4 eth chunks 3 chunk allocated different minipool assigned different node operator x0c19 steps user xe2 x80 x99s deposit rocket pool 2 0 broken chunks multiple minipools assigned randomly selected nodes ensure redundancy infographic explain concept xe2 x80 x99ve created infographic version seen x0c20 fee structure users incur split fee percentage interest earned main split fee current fee voted node operators network smaller fee collected rocket pool",
+    "metadata": {
+      "chunk_id": "ac72b91e0146808496997134da06b1d9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "downtime"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 21] x99ve created infographic version seen x0c20 fee structure users incur split fee percentage interest earned main split fee current fee voted node operators network smaller fee collected rocket pool fees locked user begins staking change user staking duration node operators major benefits node operators supply node stake ether rocket pool network solo staking benefits users businesses able stake node rocket pool network little 16 ether adding node network installing rocket pool smart node software able stake ether assigned equal ether rocket pool xe2 x80 x99s staking users addition interest earned ether node operator receive set percentage interest earned staking users node consequently node operator ether rocket pool ran staking node outside rocket pool network setup technical walkthrough node staking process works node operators users options setting rocket pool node installable package approach x0c21 rocket pool provide easy install package ubuntu configure dependencies needed",
+    "metadata": {
+      "chunk_id": "7419599bac1b4aec23caaf01256497b8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 22] node staking process works node operators users options setting rocket pool node installable package approach x0c21 rocket pool provide easy install package ubuntu configure dependencies needed rocket pool smart node include xef x82 xb7 ethereum mainnet client geth parity etc xef x82 xb7 ethereum beacon chain client installation register rocket pool service xef x82 xb7 automatically start server restart xef x82 xb7 automatically restart application crash xef x82 xb7 globally available option preferred node operators hosting node cloud devops playbook option node operators wish use cloud pre configured playbook automatically configures cloud instance security groups settings daemons playbooks use install script asks cloud provider use cloud provider credentials pertinent information required configure node environment node xe2 x80 x99s mainnet coinbase account minimum ether referred base ether available times allow interaction rocket pool smart contracts staking process x0c22 staking",
+    "metadata": {
+      "chunk_id": "a550a45323fa3c3b6fc29e6bd638e758",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 23] configure node environment node xe2 x80 x99s mainnet coinbase account minimum ether referred base ether available times allow interaction rocket pool smart contracts staking process x0c22 staking process automatically handled rocket pool xe2 x80 x99s smart node software high level walkthrough deposit staking process works node operators server successful installation node operator use rocket pool xe2 x80 x99s command line interface cli deposit start staking $ rocketpool deposit $amount $duration $amount represents numeric value ether wish stake charged fee ether staking calling deposit cli registers node ready staking 1 verifies node xe2 x80 x99s mainnet etherbase account base ether minimum sending deposit $amount minimum required ether node registration 16 ether 2 determines rpl needed register node xe2 x80 x99s deposit based current network utilisation rpl calculated rpl eth formula 3 sufficient rpl node xe2 x80 x99s mainnet etherbase account operator prompted transfer rpl ether",
+    "metadata": {
+      "chunk_id": "419748db5dd13cd96323ae0df0c09439",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 24] register node xe2 x80 x99s deposit based current network utilisation rpl calculated rpl eth formula 3 sufficient rpl node xe2 x80 x99s mainnet etherbase account operator prompted transfer rpl ether deposit operator transfer rpl 24hrs account lock rpl eth ratio received 4 registers node operator rocket pool network creating new smart contract node xe2 x80 x99s deposits ether rpl current rpl eth ratio recorded contract 5 node operator notified successful deposit given smart contract xe2 x80 x99s address details manually send deposits x0c23 ether rpl needed rpl deposited operator informed 24hrs deposit rpl ratio recalculated determining node operator reward node operators earn extra ether addition interest awarded casper staking ether rocket pool network running smart node reward calculated percentage ether earned node staking users assigned rocket pool incentive provide stable highly available smart node example 16 ether assigned node operator rocket pool xe2 x80 x99s staking users earn",
+    "metadata": {
+      "chunk_id": "7d9e601f0fda4dfdf5563e1eca5656c1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 25] ether earned node staking users assigned rocket pool incentive provide stable highly available smart node example 16 ether assigned node operator rocket pool xe2 x80 x99s staking users earn 5% interest casper node operator xe2 x80 x99s reward percentage interest earned staking users specific percentage node operators charge staking users determined participating node operators network node operator configures smart node software percentage feel fair charge 24hrs smart node software automatically cast vote percentage rocket pool xe2 x80 x99s smart contracts calculate median value votes apply value new minipools launched median value node operators xef x82 xb7 provides level playing field node operators network charge staking users whale node x0c24 laptop granny xe2 x80 x99s basement equal xef x82 xb7 median value prevent single nodes groups nodes changing fee wishes majority xef x82 xb7 fee determined built limiters change single day avoid large swings similar gas block limit ethereum",
+    "metadata": {
+      "chunk_id": "0b7bfc3f4491f76673b8efe717eb00d7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 26] xef x82 xb7 median value prevent single nodes groups nodes changing fee wishes majority xef x82 xb7 fee determined built limiters change single day avoid large swings similar gas block limit ethereum xef x82 xb7 fee find equilibrium node operators low node operators income high staking users willing participate affecting node operators xe2 x80 x99 future income rocket pool improvement process rpip motivation rocket pool improvement process rpip gives rocket pool community influence rocket pool development roadmap xef x82 xb7 collecting improvement proposals submitted community providing means discussion refinement documentation design decisions xef x82 xb7 acquiring community consensus proposals prioritising rocket pool implementation team x0c25 rocket pool improvement process attempt decentralise rocket pool governance possible direction onchain governance techniques matured works improvement proposal submitted rocket pool community proposal proceeded rocket pool improvement process",
+    "metadata": {
+      "chunk_id": "a35270372f2ec37c310ab024bdee0d4a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 27] rocket pool governance possible direction onchain governance techniques matured works improvement proposal submitted rocket pool community proposal proceeded rocket pool improvement process reached final status ready incorporated rocket pool roadmap description stage improvement process discussion rocket pool community propose improvement rocket pool network gather community feedback new proposal submitted public discussion site dedicated discourse rocket pool reddit discussion phase lasts indeterminate period idea coalesced form drafted submitted github rp team draft draft proposal submitted github rp team taking template form xef x82 xb7 summary xe2 x80 x93 concise description proposed xef x82 xb7 motivation xe2 x80 x93 problem solving important xef x82 xb7 description xe2 x80 x93 detailed specification work x0c26 accepted proposal submitted github edited reviewed sure sufficient detail implementation team readable voting quorum understand proposal ready vote assigned accepted",
+    "metadata": {
+      "chunk_id": "d9a3389c2ffb324910bc6db8c1d19c61",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 28] detailed specification work x0c26 accepted proposal submitted github edited reviewed sure sufficient detail implementation team readable voting quorum understand proposal ready vote assigned accepted status passed passed community chance ratify proposal influencing improvement gets implemented node operators currently staking rocket pool network eligible vote proposal vote weight equal ether currently staking voting process phase voting scheme commit reveal commit period node operators commit vote hidden ensure votes influence true reflection intent preserved list current rocket pool improvement proposals node operator uses rpip command $ rocketpool rpip cast vote node operator uses rocket pool cli staking node run vote command providing proposal id 1 0 proposal $ rocketpool rpip vote $rpipid $yesno $comments x0c27 28 days committing votes process switches reveal phase reveal phase node operators longer cast votes rocket pool cli runs background process xe2 x80 x93 detects proposal",
+    "metadata": {
+      "chunk_id": "98759a5dec7ea50d76c6407658e52a02",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 29] $yesno $comments x0c27 28 days committing votes process switches reveal phase reveal phase node operators longer cast votes rocket pool cli runs background process xe2 x80 x93 detects proposal reveal phase automatically reveals vote check vote revealed node operator use following command $ rocketpool rpip votes 28 days revealing votes process finished votes counted final proposal passed tagged inclusion rocket pool roadmap marked final proposal passed marked passed x0c28 cli smart node come cli enable easy interaction rocket pool network common commands registration $ rocketpool register australia brisbane xe2 x80 x93 registers node rocket pool network optional timezone code supplied help provide visual map rocket pool website locations nodes network process creates special smart contract node operator deposits secured deposit auto $ rocketpool deposit $amount $duration xe2 x80 x93 creates deposit reservation node operator ether staking duration specified 3m 6m 12m automatically sends",
+    "metadata": {
+      "chunk_id": "e54c0bfac198a15f4e2743f8bfde6ce0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 32] x80 x99s registration contract prompts withdraw free eth rpl registration contract node xe2 x80 x99s etherbase account $ rocketpool withdraw rpl $amount wwithdraws rpl node xe2 x80 x99s registration contract node xe2 x80 x99s etherbase account $ rocketpool withdraw eth $amount withdraws eth node xe2 x80 x99s registration contract node xe2 x80 x99s etherbase account x0c30 fees $ rocketpool fee returns percentage fee vote charge users stake nodes network fee determined calculating median fee vote nodes network ensure equal participation block cartels $ rocketpool fee vote $percamount percentage fee vote charge users stake nodes network note set fee node charge individually fee determined calculating median fee vote nodes network ensure equal participation block cartels node $ rocketpool node contract xe2 x80 x93 displays address node xe2 x80 x99s registration contract eth rpl sent freely address convenience $ rocketpool node exit signals node wishes exit rocket pool destroy registration",
+    "metadata": {
+      "chunk_id": "371c99a2f775ac5acce9bb278822f964",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 33] contract xe2 x80 x93 displays address node xe2 x80 x99s registration contract eth rpl sent freely address convenience $ rocketpool node exit signals node wishes exit rocket pool destroy registration contract users staking node voting $ rocketpool rpip displays list active rpips rpip smart contract $ rocketpool rpip alert $emailaddress register email address notified new rpips polled day $ rocketpool rpip vote $rpipid $yesno $comments casts vote rpip yes additional comments rpip contract prompts user double check vote making transaction x0c31 vote twice rpip won t create additional vote change original vote $ rocketpool args passed shows cool rocket pool ascii logo commands listed audits order ensure security safety customer funds smart nodes rocket pool committing subjecting platform comprehensive security audit launching ethereum mainnet rocket pool contracts open source alpha longer casper compatible pool allowing public examine contract code planned code audits bug bounties",
+    "metadata": {
+      "chunk_id": "b67fed487674a164a3d394dc3e052d04",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 34] comprehensive security audit launching ethereum mainnet rocket pool contracts open source alpha longer casper compatible pool allowing public examine contract code planned code audits bug bounties contracts smart node penetration tests planned rocket pool xe2 x80 x99s future beta release audit results applicable post mortem actions publicly available x0c32 team david rugendyke project founder cto david 18 years commercial experience developing high end web applications featured twice australia personal computer apc magazine projects xe2 x80 x99s built currently committed working rocket pool time thriving challenge long list software projects david acquired proficient knowledge cryptocurrency devops unique combination skills lead creation rocket pool project scope spread unique fields david loves homebrew beer working rocket pool found enjoying beer brewing grain batch course day david xe2 x80 x99s favourite beer style good american wheat ale followed closely ipa jake pospischil senior",
+    "metadata": {
+      "chunk_id": "3cb8e3ff7925a0c29ffd8aadabf6db1e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 35] loves homebrew beer working rocket pool found enjoying beer brewing grain batch course day david xe2 x80 x99s favourite beer style good american wheat ale followed closely ipa jake pospischil senior developer jake stack developer 10 years professional experience background visual design started career end development quickly progressed building robust ends provisioning servers jake keen interest cryptocurrency years developing ethereum applications 2017 proficient number web technologies including mvc frameworks reactive view frameworks modern build pipelines x0c33 s writing code jake usually found gym sitting table playing d d friends darren langley senior developer darren 16 years software development experience technical lead architect built exciting digital products government financial services professional services darren considerable ethereum experience delivered proof ofconcept projects public service finance industries rocket pool cutting edge cryptocurrency blockchain",
+    "metadata": {
+      "chunk_id": "cb9bb2fe5a7101f226435640f254dc2e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  },
+  {
+    "text": "[Section 36] services professional services darren considerable ethereum experience delivered proof ofconcept projects public service finance industries rocket pool cutting edge cryptocurrency blockchain development darren sitting laptop usually beach family x0c",
+    "metadata": {
+      "chunk_id": "6f89979dfd428a347faf74609eccb74d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rocket Pool.txt"
+    }
+  }
+]

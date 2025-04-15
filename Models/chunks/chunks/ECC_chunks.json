@@ -1,0 +1,170 @@
+[
+  {
+    "text": "[Section 1] b ecc peer peer electronic cash trustless network services greg griffith october 2017 griffith cryptounited io https www ecc network ecc peer peer electronic cash trustless network services 1 x0cabstract common network services typically managed single entity user request information server client model lead heavy censorship entity charge decides wants restrict information flow users propose solution issue censorship peer peer network information publicly declared verified network design services information provided based consensus valid events witnessed entire peer peer node network altered added network wide consensus state networks consensus recorded hash based proof work coin age based proof stake unique service service xe2 x80 x99s sequence events validated different consensus network given node required connect services available accept longest chain joining service proof happened said node disconnected said service given node required minimum connect electronic cash transaction",
+    "metadata": {
+      "chunk_id": "236709c132cdc4aee460c3a8848b756a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ECC.txt"
+    }
+  },
+  {
+    "text": "[Section 2] given node required connect services available accept longest chain joining service proof happened said node disconnected said service given node required minimum connect electronic cash transaction network operates core service networks monetary exchange network introduction realized trustless global networks replace current electronic payment systems peer peer global network providing information services designed trustless electronic cash protocol derived satoshi nakamoto xe2 x80 x99s bitcoin proof stake derived sunny king scott nadal xe2 x80 x99s peercoin foundation operate trustless common network services multiple consensus mechanisms based peer peer electronic cash system expand transaction network functionality create mesh network multiple trust based network services replace centralized trust based counterparts today project created complete task given ecc ecc peer peer electronic cash trustless network services 2 x0cpeer peer electronic cash creating trustless network",
+    "metadata": {
+      "chunk_id": "0729bce006d3b480a43951f25cbff9b6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ECC.txt"
+    }
+  },
+  {
+    "text": "[Section 3] centralized trust based counterparts today project created complete task given ecc ecc peer peer electronic cash trustless network services 2 x0cpeer peer electronic cash creating trustless network services define electronic cash protocol core ecc run payment network service xe2 x80 x99s monetary system basis peer peer electronic cash protocol bitcoin written satoshi nakamoto 1 addition concept proof stake written sunny king scott nadal 2 included minor changes proof stake system proof work hashing algorithm proof stake system multiplies coin age value input coinstake transaction calculate reduction value coinstake transactions proof stake hash reduction check hash meets difficulty constraint similar difficulty constraint proof ofwork mining hash target difficulty block considered valid proof work hashing algorithm changed sha 256 scrypt network services having defined electronic cash payment network ecc project begin address use additional consensus mechanisms combination core",
+    "metadata": {
+      "chunk_id": "0b910e241f71b06cecf3e3cc6edf7ba0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ECC.txt"
+    }
+  },
+  {
+    "text": "[Section 4] proof work hashing algorithm changed sha 256 scrypt network services having defined electronic cash payment network ecc project begin address use additional consensus mechanisms combination core transaction network provide trustless common network services services require sort consensus mechanism important services operate purposes use hash based proof work coin age based proof stake chain consensus mechanism network service operates similar way chain core transaction network separate chains allow easier data pruning enables given node track data needs node trying perform action chain transaction chain payment peer needed complete said action include reference hash transaction payment transaction network ecc peer peer electronic cash trustless network services 3 x0cfigure 1 visual example multiple service networks working payment network depending number services user chooses subscribe storage space disk increase fair important note transaction chain added fields transaction add 256",
+    "metadata": {
+      "chunk_id": "2b1d147dfbb9a6b5ebc5949ab23862d2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ECC.txt"
+    }
+  },
+  {
+    "text": "[Section 5] multiple service networks working payment network depending number services user chooses subscribe storage space disk increase fair important note transaction chain added fields transaction add 256 bits transaction size references service action transactions reference service action average size increase transaction transaction network expanding transaction functionality given system uses electronic transactions relying trust prove additional information provided transaction originated owner signature sign transaction use expand functionality transactions include additional requests services running network transactions service networks use hashing function transactions payment network new fields non tansaction network transactions include 1 2 3 4 service identifier operation code instruction data payment reference hash ecc peer peer electronic cash trustless network services 4 x0cfigure 2 service network transaction new fields payment network transaction include 5 service reference",
+    "metadata": {
+      "chunk_id": "74c08af2c339a0755eedfb11b5d062a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ECC.txt"
+    }
+  },
+  {
+    "text": "[Section 6] data payment reference hash ecc peer peer electronic cash trustless network services 4 x0cfigure 2 service network transaction new fields payment network transaction include 5 service reference hash figure 3 payment network transaction ecc peer peer electronic cash trustless network services 5 x0c1 service identifier service identifier 2 byte unsigned field holds id number service expanded larger number bits 65 536 id numbers needed forking larger number bytes field 2 operation code operation code 2 byte unsigned field holds operation code instruction performed expanded larger number bits 65 536 operation codes needed forking larger number bytes field 3 instruction data instruction data optional variable length field contains additional data operation code need data raw byte form information added field expensive operation best add needed 4 payment reference hash payment reference hash optional field reference payment transaction network pays action specified transaction hash 256 bit",
+    "metadata": {
+      "chunk_id": "bd9d8710a224e976ed300611029ad78c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ECC.txt"
+    }
+  },
+  {
+    "text": "[Section 7] added field expensive operation best add needed 4 payment reference hash payment reference hash optional field reference payment transaction network pays action specified transaction hash 256 bit unsigned integer exact value transaction id service network referencing 5 service reference hash service reference hash option field reference service action network transaction network signifies transaction pay action specified referenced service action hash 256 bit unsigned integer exact value transaction id payment transaction network paying operation ecc peer peer electronic cash trustless network services 6 x0ccross chain agreements contracts ensure agreements different network chains honored node receiving end payment service involves action stored chain payments services redeemable state change service utilized changed include agreed operation payment service include service transaction xe2 x80 x99s id service reference hash field service transaction include payment transaction xe2 x80",
+    "metadata": {
+      "chunk_id": "e88a155f2bf8a17f5a61aaa6836b3844",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ECC.txt"
+    }
+  },
+  {
+    "text": "[Section 8] service utilized changed include agreed operation payment service include service transaction xe2 x80 x99s id service reference hash field service transaction include payment transaction xe2 x80 x99s id payment reference hash field figure 4 payment network transacting service network payments service redeemable set time predetermined sender expiring expired transaction abandoned sender containing funds returned original address expiration payment validity embedded transactions script code prevent redemption valid period time come gone ecc peer peer electronic cash trustless network services 7 x0cconclusion proposed system common network services relying trust started core peer peer electronic cash network defined satoshi nakamoto implemented customized proof stake originally defined sunny king scott nadal added additional chains consensus mechanisms common network services cross chain service contracts completed canceled need 3rd party centralized regulator nodes subscribe services",
+    "metadata": {
+      "chunk_id": "a041457c69706ce1eff94bf6d5d98997",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ECC.txt"
+    }
+  },
+  {
+    "text": "[Section 9] king scott nadal added additional chains consensus mechanisms common network services cross chain service contracts completed canceled need 3rd party centralized regulator nodes subscribe services want use prevent storing extra data nodes leave join service network accepting longest chain given service proof happened gone states network enforced chain consensus mechanism references 1 nakamoto s 2008 october 31 bitcoin peer peer electronic cash system retrieved https bitcoin org bitcoin pdf 2 king s nadal s 2012 august 19 ppcoin peer peer crypto currency proof stake retrieved https peercoin net assets paper peercoin paper pdf ecc peer peer electronic cash trustless network services 8 x0c",
+    "metadata": {
+      "chunk_id": "2d178230aef8e323eeaf22da7f567f3c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ECC.txt"
+    }
+  }
+]

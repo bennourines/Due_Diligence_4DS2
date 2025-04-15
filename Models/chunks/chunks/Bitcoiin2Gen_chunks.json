@@ -1,0 +1,418 @@
+[
+  {
+    "text": "[Section 1] b bitcoiin b2g xe2 x80 x93 technical whitepaper abstract whitepaper describes bitcoiin b2g generally presents granular descriptions elements bitcoiin algorithm implementation ethereum algorithm ethereum algorithm described general level utilities described emphasizing user benefits transactions bitcoiin b2g holders bitcoiin holders parties described general reference bitcoiin xe2 x80 x99s trading platform blocks coding protocols described finally bitcoiin xe2 x80 x99s mining process described general description bitcoiin b2g hereinafter xe2 x80 x9cbitcoiin xe2 x80 x9d cryptocurrency based ehash algorithm ethereum proof work implementation similar equihash bitcoin gold bitcoiin b2g begins genesis state s 0 incrementally executes transactions transition ledger final state s n state represents information accounts holding coins valid state transition comes transaction transactions collated blocks blocks chained cryptographic hash means reference blocks function journal recording series",
+    "metadata": {
+      "chunk_id": "de1c3c8a1a6b17f00256389632ae463b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 2] information accounts holding coins valid state transition comes transaction transactions collated blocks blocks chained cryptographic hash means reference blocks function journal recording series transactions previous block identifier final state block store final state complete journal like far large blocks punctuate transaction series incentives nodes incentivisation takes place state transition function adding value nominated account mining process dedicating effort working bolster series transactions block potential competitor block achieved cryptographically secure proof scheme known proof work pow pow backbone bitcoiin bitcoiin b2g technical whitepaper 03122018 page 1 13 x0calso decentralized consensus based transaction systems built date mechanism proof work breakthrough simultaneously solved problems provided simple moderately effective consensus algorithm allowing nodes network agree collectively set canonical updates state bitcoin ledger second pow provided mechanism",
+    "metadata": {
+      "chunk_id": "aef46de8f4d46eb9d64e84f98a9e4026",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 3] solved problems provided simple moderately effective consensus algorithm allowing nodes network agree collectively set canonical updates state bitcoin ledger second pow provided mechanism allowing free entry consensus process solving problem prioritizing gets influence consensus simultaneously preventing xe2 x80 x9csybil xe2 x80 x9d attacks substituting formal barrier participation requirement registered unique entity particular list built foundation ethereum consensus driven blockchain bitcoiin xe2 x80 x99s blockchain operates perpetually censorship free collusion resistant blockchain technology hardened tampering revision unanimity records hosted node equally transactions contract code storage code execution fees recorded continuous blocks network ledger cryptographically secured time stamped peer peer validation model blockchain transactions proven self governing mining process incentivizes pow effort awarding block rewards transaction fees paid mining participants ethereum",
+    "metadata": {
+      "chunk_id": "ed43eec5b7ba25235508d54662c2fa93",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 4] time stamped peer peer validation model blockchain transactions proven self governing mining process incentivizes pow effort awarding block rewards transaction fees paid mining participants ethereum algorithm ethereum algorithm uses accounts balances record state transitions recording function rely unspent transaction outputs utxos state denotes current balances accounts plus extra data state stored blockchain separate merkle patricia tree bitcoiin b2g technical whitepaper 03122018 page 2 13 x0ca merkle patricia tree provides cryptographically authenticated data structure store key value bindings context cryptocurrency use term confined strings patricia trees fully deterministic meaning patricia tree bindings guaranteed exactly byte root hash consistency provides o log n efficiency inserts lookups deletes application allows easier coding benefit implementation patricia trees comes addition complexity data structure nonce merkle patricia tree following null represented string branch 17",
+    "metadata": {
+      "chunk_id": "b1b7d990aafcd03c1a3efe5dc758669a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 5] lookups deletes application allows easier coding benefit implementation patricia trees comes addition complexity data structure nonce merkle patricia tree following null represented string branch 17 ite ode v xe2 x80 xa6 v 5 vt leaf 2 item node encodedpath value extension 2 item node encodedpath key result implementation optimized throughput thorough presentation use trees ethereum blockchain scope paper utilities cryptocurrency wallet stores public private keys addresses owner bitcoiin wishes receive spend coin address keys generated bip 39 style mnemonics bip 32 hd wallet bitcoiin ethereum algorithm operate utxo scheme private key possible write blockchain effectively making transaction send bitcoin account holder needs public key destination account bitcoiin accounts pseudonymous xe2 x80 x94 meaning accounts linked individual persons specific addresses owners store addresses software paper bitcoiin follows unique address format bitcoin gold major cryptocurrencies addresses bitcoiin",
+    "metadata": {
+      "chunk_id": "4180f4ceec3b9d309026b6bd8927dbb9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 6] x94 meaning accounts linked individual persons specific addresses owners store addresses software paper bitcoiin follows unique address format bitcoin gold major cryptocurrencies addresses bitcoiin xe2 x80 x99s ethereum algorithm addresses composed prefix 0x common identifier hexadecimal concatenated rightmost 20 bytes keccak 256 hash big endian ecdsa public key hexadecimal 2 digits represent byte meaning addresses contain bitcoiin b2g technical whitepaper 03122018 page 3 13 x0c40 hexadecimal digits example 0xb794f5ea0ba39494ce839613fffba74279579268 poloniex coldwallet contract addresses format determined sender creation transaction nonce user accounts indistinguishable contract accounts given address blockchain data valid keccak 256 hash described format valid correspond account private key contract comparison bitcoin bitcoiin like ether different original bitcoin notable aspects xef x82 xb7 block posting interval 14 15 seconds compared 10 minutes bitcoin xef x82 xb7 mining bitcoiin",
+    "metadata": {
+      "chunk_id": "481d4b98a728999268b0682b89a3481d",
+      "entities": {
+        "email": [],
+        "crypto_address": [
+          "0x"
+        ]
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 7] key contract comparison bitcoin bitcoiin like ether different original bitcoin notable aspects xef x82 xb7 block posting interval 14 15 seconds compared 10 minutes bitcoin xef x82 xb7 mining bitcoiin generates new coins usually consistent rate occasionally changing hard forks xef x82 xb7 transaction fees bitcoiin differ computational complexity bandwidth use storage needs bitcoin transactions compete means transaction size bytes xef x82 xb7 ethereum gas units price specified transaction bitcoin transactions usually fees specified satoshis byte xef x82 xb7 transaction fees generally considerably lower bitcoiin bitcoin december 2017 median transaction fee ether corresponded $0 33 bitcoin corresponded $23 xef x82 xb7 bitcoiin xe2 x80 x99s implementation ethereum uses account system values bitcoiin debited accounts credited opposed bitcoin s utxo system analogous spending cash receiving change return systems pros cons terms storage space complexity security anonymity xef x82 xb7 bitcoiin",
+    "metadata": {
+      "chunk_id": "594af5f2d2378e06c7118a022bccff83",
+      "entities": {
+        "crypto_project": [
+          "bitcoin"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 8] debited accounts credited opposed bitcoin s utxo system analogous spending cash receiving change return systems pros cons terms storage space complexity security anonymity xef x82 xb7 bitcoiin built rely proof work xe2 x80 x9cproof stake xe2 x80 x9d makes bitcoiin b2g second generation token bitcoiin algorithm similar bitcoin gold miners gpus bitcoin gold use gpus bitcoiin requiring minute changes bitcoiin b2g technical whitepaper 03122018 page 4 13 x0cimplications users bitcoiin xe2 x80 x99s use ethereum blockchain provides block refresh rate 14 15 seconds refresh rate reduces blockchain xe2 x80 x99s exposure sybil attacks mischiefs substantially compared original bitcoin xe2 x80 x99s posting rate approximately chain 10 12 minutes transactions transaction single cryptographically signed instruction constructed user externally bitcoiin wallet sent blockchain inclusion blocks mining process assuming validity transaction consists following fields 1 nonce xe2 x80 x93 scalar value equal",
+    "metadata": {
+      "chunk_id": "84a4dd3a53784a72cdaa59e99a90f726",
+      "entities": {
+        "crypto_project": [
+          "bitcoin"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 9] instruction constructed user externally bitcoiin wallet sent blockchain inclusion blocks mining process assuming validity transaction consists following fields 1 nonce xe2 x80 x93 scalar value equal number transactions sent particular address keeps count transactions acts measure restrict double spending 2 fee xe2 x80 x93 transaction fee units bitcoiin account user willing transaction incentive miner 3 value xe2 x80 x93 bitcoiin user willing send receiver 4 xe2 x80 x93 receiver xe2 x80 x99s bitcoiin address 5 signature xe2 x80 x93 cryptographic signature initiator transaction e account bitcoiin deducted transactions kinds including xef x82 xb7 buying bitcoiin peer user exchange fiat currencies cryptocoins xef x82 xb7 ico period buying pre mined bitcoiin organizers xef x82 xb7 selling bitcoiin bitcoiin exchange xef x82 xb7 selling bitcoiin party exchange xef x82 xb7 receiving payments bitcoiin mining activities peer users xef x82 xb7 trading bitcoiin cryptocurrencies including ether",
+    "metadata": {
+      "chunk_id": "ad0f9de0e49ea5d61c212a6831664913",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 10] bitcoiin exchange xef x82 xb7 selling bitcoiin party exchange xef x82 xb7 receiving payments bitcoiin mining activities peer users xef x82 xb7 trading bitcoiin cryptocurrencies including ether leading tokens xef x82 xb7 conceivable futures markets exotic trades derivative instruments surface bitcoiin b2g technical whitepaper 03122018 page 5 13 x0cblock block consists relevant pieces information fulfills consensus protocol constitutes following fields 1 parenthash keccak 256 bit hash parent block xe2 x80 x99s header entirety 2 ommershash keccak 256 bit hash ommers list portion block 3 beneficiary 160 bit address fees collected successful mining block transferred 4 stateroot keccak 256 bit hash root node state tree transactions executed finalizations applied 5 transactionsroot keccak 256 bit hash root node trie structure populated transaction transactions list portion block 6 receiptsroot keccak 256 bit hash root node trie structure populated receipts transaction transactions list",
+    "metadata": {
+      "chunk_id": "26e05d4309c67d0dcaa3ba65d5eb360b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 11] bit hash root node trie structure populated transaction transactions list portion block 6 receiptsroot keccak 256 bit hash root node trie structure populated receipts transaction transactions list portion block 7 logsbloom bloom filter composed indexable information logger address log topics contained log entry receipt transaction transactions list 8 difficulty scalar value corresponding difficulty level block calculated previous block xe2 x80 x99s difficulty level timestamp 9 number scalar value equal number ancestor blocks genesis block number zero 10 fee limit block fee limit defines number transactions included block collective fees transactions included block block fee limit 11 timestamp scalar value equal reasonable output unix xe2 x80 x99s time block xe2 x80 x99s inception 12 extradata arbitrary byte array containing data relevant block 32 bytes fewer 13 mixhash 256 bit hash proves combined nonce sufficient computation carried block 14 nonce 64 bit hash proves combined mix hash",
+    "metadata": {
+      "chunk_id": "e71f9cbc182af792932df17d36ca6a74",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 12] arbitrary byte array containing data relevant block 32 bytes fewer 13 mixhash 256 bit hash proves combined nonce sufficient computation carried block 14 nonce 64 bit hash proves combined mix hash sufficient computation carried block bitcoiin b2g technical whitepaper 03122018 page 6 13 x0call fields included block header block consists fields 1 transaction receipt order encode information transaction concerning useful form zero knowledge proof index search encode receipt transaction containing certain information concerning execution receipt placed index keyed trie root recorded header 2 holistic validity assert block xe2 x80 x99s validity satisfies conditions internally consistent ommer transaction block hashes given transactions executed order base state derived final state parent block result new state identity target block time 15 seconds context financial applications people tend expect rapid response time confirmation transactions purpose stable efficient transactional platform",
+    "metadata": {
+      "chunk_id": "497c26a3e920484333a3bda01b80097f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 13] result new state identity target block time 15 seconds context financial applications people tend expect rapid response time confirmation transactions purpose stable efficient transactional platform having blockchain faster 10 minute blocktime bitcoin essential arguments postulated faster block time creates orphaned blocks uncles delay block propagation entire network goal 0 5% uncles 15 second block time xe2 x80 x93 statistically insignificant difficulty adjustment bitcoin btc takes place weeks adjusting bitcoin gold adjustment time xe2 x80 x93 e adjustments block case means 15 seconds genesis block bitcoiin xe2 x80 x99s genesis block 50 million pre mined coins purpose building infrastructure funding ico providing operating capital continued operations genesis block code following code structure config chainid 6755 ethash bitcoiin b2g technical whitepaper 03122018 page 7 13 x0c nonce 0x0000000000000023 timestamp 0x0 parenthash",
+    "metadata": {
+      "chunk_id": "18aa8a5dbf453435a1e13574915595a6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 14] continued operations genesis block code following code structure config chainid 6755 ethash bitcoiin b2g technical whitepaper 03122018 page 7 13 x0c nonce 0x0000000000000023 timestamp 0x0 parenthash 0x0000000000000000000000000000000000000000000000000000000000000000 extradata 0xce02dec31ca49f3c8f149b3b931a0155121d2ca0 gaslimit 0x1388 difficulty 0x40000000 mixhash 0x0000000000000000000000000000000000000000000000000000000000000000 coinbase 0x0000000000000000000000000000000000000000 alloc 0xafc571db22ca80776def02150955026ff7329467 balance 50000000000000000000000000 similarity genesis block code ethereum notable bitcoiin built use ethereum blockchain algorithm aside security primary benefit adoption speed blockchain posting algorithm improves scalability blocks limited size original bitcoin benefits include throughput transaction speed security mining illustration mining process source https github com ethereum wiki wiki white paper bitcoin state transition system bitcoiin b2g technical",
+    "metadata": {
+      "chunk_id": "894bfa8511a060f3626e5097654611f6",
+      "entities": {
+        "email": [],
+        "crypto_address": [
+          "0x"
+        ]
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 15] benefits include throughput transaction speed security mining illustration mining process source https github com ethereum wiki wiki white paper bitcoin state transition system bitcoiin b2g technical whitepaper 03122018 page 8 13 x0cwe simply code transactions pictured centralized server s hard drive track states s transitions principle cryptocurrencies decentralization accordingly need couple state transaction system pictured transparent consensus posting system xe2 x80 x93 everybody agree order transactions ethereum algorithm implemented decentralized consensus process means network mining nodes attempt continuously produce packages transactions called blocks description blocks ethereum algorithm implemented securely maintained continuously network mining nodes intended produce roughly block 15 seconds substantial improvement original bitcoin xe2 x80 x99s latency time approximately minutes continuous posting means time creates persistent growing blockchain constantly updates",
+    "metadata": {
+      "chunk_id": "e2c8eb3465d27ff62354ce16dd20e80d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 16] block 15 seconds substantial improvement original bitcoin xe2 x80 x99s latency time approximately minutes continuous posting means time creates persistent growing blockchain constantly updates represent latest state bitcoiin ledger algorithm checking block valid expressed paradigm follows xef x82 xb7 check previous block referenced block exists valid xef x82 xb7 check timestamp block greater previous block 2 2 hours future xef x82 xb7 check proof work block valid xef x82 xb7 let s 0 state end previous block xef x82 xb7 suppose tx block s transaction list n transactions 0 n 1 set s 1 apply s tx application returns error exit return false xef x82 xb7 return true register s n state end block transaction block provide xe2 x80 x9cvalid xe2 x80 x9d result e valid state transition canonical state transaction executed note state encoded block way state purely abstraction documented validating node state computed safely securely block starting genesis state sequentially applying transaction",
+    "metadata": {
+      "chunk_id": "a9437d4f894c4dc124d1fd582a17c15d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 17] transaction executed note state encoded block way state purely abstraction documented validating node state computed safely securely block starting genesis state sequentially applying transaction block order transactions matters transactions b block b spends utxo created block valid comes b invalid b comes bitcoiin b2g technical whitepaper 03122018 page 9 13 x0canother consideration mining proof work paradigm hash block treated 256 bit number dynamically adjusted target target grow time bitcoiin blockchain grows certainly large depending volume transactions generated bad thing fact growth essence security blockchain longer blockchain harder block creation speaking computationally difficulty prevents sybil attackers remaking entire blockchain favor hash function designed completelyunpredictable pseudo random function way create valid block simply trial error repeatedly incrementing nonce seeing new hash matches order compensate miners brute force computational work working trial",
+    "metadata": {
+      "chunk_id": "4501f1a8a78a6a746167cdd7aa2084cd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 18] pseudo random function way create valid block simply trial error repeatedly incrementing nonce seeing new hash matches order compensate miners brute force computational work working trial anderror problems real time miner block entitled include transaction fee original bitcoin pays 12 5 btc present compensation halves specified intervals entire bitcoin issue computed point mining transaction higher total denomination inputs outputs difference goes miner transaction fee incidentally mechanism bitcoiin ether original bitcoin issued cryptocurrencies genesis state contained coins illustrate mining process example consider possibility malicious attacker targeting bitcoiin ethereum cryptography known secure attacker target process unprotected cryptography directly order transactions attacker s strategy likely 1 send 10 bitcoiin merchant exchange product preferably rapid delivery digital good 2 wait delivery product 3 produce transaction sending 10 bitcoiin 4 try convince mining network",
+    "metadata": {
+      "chunk_id": "e6fbc8f1b44aa3ea6099c3ef27e0e005",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 19] s strategy likely 1 send 10 bitcoiin merchant exchange product preferably rapid delivery digital good 2 wait delivery product 3 produce transaction sending 10 bitcoiin 4 try convince mining network transaction came bitcoiin b2g technical whitepaper 03122018 page 10 13 x0cafter step minute miner include transaction block hour 300 blocks added chain block blocks indirectly pointing transaction confirming merchant accept payment finalized deliver product posited instantdelivery digital good delivery horse barn attacker creates transaction sending 10 bitcoiin attacker release transaction code xe2 x80 x9cinto wild xe2 x80 x9d filtered invalid blockchain remain accurate miners run apply s tx notice tx consumes utxo longer state instead attacker creates fork blockchain starting mining version block 270000 pointing block 269999 parent new transaction place old block data different requires redoing proof work furthermore attacker s new version block 270000 different hash original blocks 270001",
+    "metadata": {
+      "chunk_id": "ccd338343bb5c553ead0ddad4ef94979",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 20] 270000 pointing block 269999 parent new transaction place old block data different requires redoing proof work furthermore attacker s new version block 270000 different hash original blocks 270001 270005 point original chain attacker s new chain completely separate rule fork longest blockchain taken truth legitimate miners work 27305 chain attacker working 270000 chain order attacker blockchain longest need computational power rest network combined order catch 51% attack feature blockchain prevents problem double posting mining crucial safety security grown bitcoiin element ecosystem conclusion whitepaper describes bitcoiin b2g generally provides concrete examples illustrate public blockchain works ledger safe xe2 x80 x93 looking everybody looking presented granular description bitcoiin algorithm implementation ethereum algorithm ethereum algorithm described general level bitcoiin b2g technical whitepaper 03122018 page 11 13 x0csome utilities described particularly wallets single",
+    "metadata": {
+      "chunk_id": "f87ee117d3a3c64a214efee028a8988d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "51% attack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 21] algorithm implementation ethereum algorithm ethereum algorithm described general level bitcoiin b2g technical whitepaper 03122018 page 11 13 x0csome utilities described particularly wallets single important build feature bitcoiin blockchain algorithm way bitcoiin keeps wallets safe secure double key system public private ensures safety wallets fungibility bitcoiin fungibility defined ability exchange bitcoiin b2g fiat currencies usd ukp eur cryptocoins including bitcoin ethereum transactions bitcoiin b2g holders bitcoiin holders parties described general reference bitcoiin xe2 x80 x99s trading platform blocks coding protocols described finally bitcoiin xe2 x80 x99s mining process described end bitcoiin b2g technical whitepaper 03122018 page 12 13 x0creferences 1 white paper xc2 xb7 ethereum wiki wiki xc2 xb7 github https github com ethereum wiki wiki white paper 2 safest cryptocurrency world coin labs https www swisscoinlab ch wpcontent uploads 2017 12 swisscoin white paper pdf 3",
+    "metadata": {
+      "chunk_id": "8b91a638e09f2f9f4e7ebecfdc0b9448",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  },
+  {
+    "text": "[Section 22] wiki wiki xc2 xb7 github https github com ethereum wiki wiki white paper 2 safest cryptocurrency world coin labs https www swisscoinlab ch wpcontent uploads 2017 12 swisscoin white paper pdf 3 white paper decred https decred org research buterin2014 pdf 4 ethereum wikipedia https en wikipedia org wiki ether currency 5 patricia tree xc2 xb7 ethereum wiki wiki xc2 xb7 github https github com ethereum wiki wiki patricia tree 6 transaction tests xe2 x80 x94 ethereum homestead 0 1 documentation http ethdocs org en latest contracts transactions ethereum tests transaction tests 7 blockchain tests xc2 xb7 ethereum tests wiki xc2 xb7 github https github com ethereum tests wiki blockchain tests 8 gender neutral terming siblings parents xc2 xb7 ethereum https github com ethereum yellowpaper commit 8dd35d4e194a49564756ad3c552bb 088f4a75031 9 blockchain technology blog http blog astemplates com isblockchain technology bitcoiin b2g technical whitepaper 03122018 page 13 13 x0c",
+    "metadata": {
+      "chunk_id": "6cf2c21f4e0ed20eb4cd4416f869f309",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Bitcoiin2Gen.txt"
+    }
+  }
+]

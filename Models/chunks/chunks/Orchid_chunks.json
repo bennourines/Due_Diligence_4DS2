@@ -1,0 +1,2122 @@
+[
+  {
+    "text": "[Section 1] b orchid decentralized network routing market jake s cannell1 2 justin sheek1 2 jay freeman2 greg hazel2 jennifer rodriguez mueller2 eric hou brian j fox dr steven waterhouse version 2 0 11 18 2019 1 primary authors 2 collaborators responsible technical design additional contributions discussed acknowledgements section abstract present orchid decentralized market anonymous communication virtual private networking extant privacy solutions opaque commercial services concomitant centralization risks free peer peer networks lack proper aligned incentives service quality economic security scale orchid bandwidth market node providers stake tokens advertise services ethereum blockchain clients construct single multi hop onion routed circuits selecting nodes randomly weighted stake filtered secondary criteria price location etc staking aligns incentives operator malfeasance linear stake weighting particular neutralizes sybil attacks orchid uses probabilistic payment system scales millions",
+    "metadata": {
+      "chunk_id": "5615c10f7b80d5d703558c740de581b8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 2] criteria price location etc staking aligns incentives operator malfeasance linear stake weighting particular neutralizes sybil attacks orchid uses probabilistic payment system scales millions transactions second enabling highly liquid bandwidth market trusted central party payments packet scale allow high frequency trustless interactions reducing implicit floated balances transactors miniscule levels 1 introduction internet free open frontier today increasingly fractured surveilled censored governments corporations effective monitoring inspecting blocking connections demand privacy anonymity tools vpns virtual private networks grown mainstream vpns work use cases suffer inherent weaknesses centralized trust based model users little assurance vpn provider secretly logging sharing data government coercion lure additional revenue recurring payment pricing models vpns create lock effects preventing users cheaply rapidly switching providers blocked slow current peer peer systems tor 1 i2p",
+    "metadata": {
+      "chunk_id": "9d1613d3537c21437f1cce952cfc5c43",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 3] coercion lure additional revenue recurring payment pricing models vpns create lock effects preventing users cheaply rapidly switching providers blocked slow current peer peer systems tor 1 i2p 2 construct multi hop circuits hide route information single party systems free suffer terms performance security performance quality suffers poor incentives limited supply donated free bandwidth security likewise suffers low takeover cost attacker provide significant fraction total network bandwidth needed peer peer privacy network proper economic incentives nanopayments allowing clients construct single multi hop routes unified global pool nodes distinct providers open market system ensure supply bandwidth provided profit motivated sellers scale elastically growth demand users use cryptocurrency contractual mechanisms provide necessary incentives malicious behavior core challenges driving design traffic analysis sybil attacks random selection problem describe briefly describing orchid detail",
+    "metadata": {
+      "chunk_id": "6699aaf34024977b30a0bf676d2feefd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 4] contractual mechanisms provide necessary incentives malicious behavior core challenges driving design traffic analysis sybil attacks random selection problem describe briefly describing orchid detail x0ctraffic analysis difficult theory practice send message leaking information parties recipient mixing network proposed chaum 3 messages routed number proxy nodes randomly reordered step encrypted layers like envelopes containing envelopes onion routing later development adopted tor 1 uses layered encryption concepts combined unique random proxy node paths circuits persistent connection instead single shared circuit greater scalability traffic analysis potential problem 4 overcome significant performance cost bandwidth burning padding random message delays collusion problem node circuit cooperating infer complete circuit sybil attacks open network agents create fake identities presenting large number independent nodes fact actually colluding retaining property openness preventing single",
+    "metadata": {
+      "chunk_id": "61337a4f45e9e84aedebec3303078f5a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 5] infer complete circuit sybil attacks open network agents create fake identities presenting large number independent nodes fact actually colluding retaining property openness preventing single attacker overwhelming system difficult solution problem proof work originating hashcash 4 later adopted bitcoin 5 proposed sybil defense earlier orchid 0 9 2 6 proof work requires node expend computational resources prove identity creating fake identities require proportionally higher cost expenditure proof burn similar effect requires proof destruction crypto currency advantage value currency burnt redistributed currency stakeholders fully wasted proof stake based cryptocurrencies require users stake currency receive block rewards participate network use stake weighting system defeat sybil attacks align incentives providing key economic security advantages random selection construct secure circuits low probability collusion need select randomly relay nodes way immune sybil attacks accomplish",
+    "metadata": {
+      "chunk_id": "55f53365b6c6bd5f4a9c07ed94e9da9e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 6] align incentives providing key economic security advantages random selection construct secure circuits low probability collusion need select randomly relay nodes way immune sybil attacks accomplish linear stake weighted random selection sybil orthogonal attacker gains advantage dividing stake multiple identities selection scheme provides simple effective means load balancing subtle additional benefits case minimal hop circuit collusion relevant implementing global random selection policy requires clients available global list node metadata earlier orchid 0 9 2 6 proposed custom chord 7 based dht distributed hash table purpose simplicity use ethereum blockchain 8 xe2 x80 x99s underlying dht directly provide global node registry overview orchid decentralized platform enabling clients compose high performance onion routed circuits variety potential uses powered new stochastic nanopayment system fund circuits bandwidth providers running orchid server software obtain stake orchid tokens",
+    "metadata": {
+      "chunk_id": "06f525a7adc0c34b7c6110a49100c689",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 7] high performance onion routed circuits variety potential uses powered new stochastic nanopayment system fund circuits bandwidth providers running orchid server software obtain stake orchid tokens xe2 x80 x9coxt xe2 x80 x9d erc201 compatible crypto currency ethereum directory smart contract receive traffic revenue relative proportion stake deposit size clients find nodes stake weighted random selection implemented smart contract function tree data structure clients pay nodes probabilistic nanopayments sent frequently second multi hop circuits use account hop indirect onion payment forwarding reduce information leakage payments circuits fail technical economic reasons ie circuit specific cost client xe2 x80 x99s traffic exceeds current budget simply resampled failure core mechanisms design surprisingly simple naturally devil details 1 https theethereum wiki w index php erc20 token standard x0c2 background privacy long concern networking especially information moves online",
+    "metadata": {
+      "chunk_id": "0a6b0b9de39c9cbb29bdcf12bc81d937",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 8] design surprisingly simple naturally devil details 1 https theethereum wiki w index php erc20 token standard x0c2 background privacy long concern networking especially information moves online vulnerabilities exposed day foundational computer networking protocols 9 practices arose academic hobbyist culture high trust2 1961 19893 modern phones laptops desktops fundamentally unhardened blind economics default operations like mail system machine typed postcards lacking verification subject undetectable modification replacement flight4 internet service providers isps tend utility companies notorious cooperating with5 run authoritarian regimes 10 manipulating services harm users improving line 11 isps tend utterly destroy value data transmission services exceptions6 academics certainly didn xe2 x80 x99t think original task designing protocols minimized degree isps corrupt voluntary bilateral client server relationships enabled existence private data transmission pipe monopolies non",
+    "metadata": {
+      "chunk_id": "bed9115765f2a119d24e0abdb1616542",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 12] tunnel protects injection attacks kinds inference attacks rise vpn services corporate environments enabled basically technology repurposed similar tunneling concepts offered consumer markets new ecosystem employer fulfill role local trusted authority leading attempts technologists entrepreneurs researchers explore solutions trustworthy secure networks consumer vpns occupy niche spectrum possible solutions tor occupies attempts improve tor typically foundered challenges introduced incentives payments lack thereof 2 1 consumer vpns consumer vpn company cuts job isp user isp jobs 1 installing wires 2 spying unhardened data wires isp job retain monopoly wires user xe2 x80 x99s home second job partly vpn tunneling software encrypting data partly vpn company decrypting data hardened streams forwarding different substreams different parts wider internet services protect user xe2 x80 x99s traffic hazards untrusted wifi scenarios coffee shops hotels airports etc popular variety use cases",
+    "metadata": {
+      "chunk_id": "a1235b8c5162dfa29081192e14484220",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 13] forwarding different substreams different parts wider internet services protect user xe2 x80 x99s traffic hazards untrusted wifi scenarios coffee shops hotels airports etc popular variety use cases customers desire hide ip address websites hide traffic isp vpn active vpn effectively user xe2 x80 x99s new isp perspective privacy trust models implies attack isp previously perform easily performed vpn provider like centralized systems vpns safe trustworthy controlling corporate entity furthermore existing payment systems business models require monthly longer service commitments steep price premiums short contracts leading user lock 2 2 tor onion router users seeking private internet connections alternatives form free distributed systems widely system tor network 1 core concept tor obfuscate traffic sending packets multiple randomly selected statistically uncorrelated intermediate routers reaching final destination unfortunately distributed systems tor come host problems primary issues",
+    "metadata": {
+      "chunk_id": "1576662ea58e2f30bd57c5229a53429c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 15] began emerge methods created explicit measure x0ceconomic utility incentives allowing fine tuned approaches driving good behavior disincentivizing bad behavior 2 3 incentivized tor examples incentivized peer peer privacy networks appeared incentivized tor 21 proposal ngan et al suggested tit tat strategy allocating routing resources incentive mechanism core tit tat offers way distribute resources peer way distributes resources peer acts uncooperatively peer acts cooperatively fashion payoff matrix iterative decisions results nash equilibrium recently androulakil et al 22 demonstrated actual payments directly encourage packet forwarding high level design revolves hybrid anonymous payment scheme pay node route chained micropayments rest circuit design implies marketplace packet forwarding ideally tor users tend choose peers provide best privacy bandwidth throughput latency exchange services pay digital currency note utility sending packet directly matched monetary incentivization",
+    "metadata": {
+      "chunk_id": "ede3d627581f4b5f863e77ab2141f41b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 16] ideally tor users tend choose peers provide best privacy bandwidth throughput latency exchange services pay digital currency note utility sending packet directly matched monetary incentivization instead held difficult quantify payoff matrix tit tat model core idea economic incentivization incredibly powerful driving desirable behavior peer peer system inherent issues biggest issue reliance central bank mint tokens solved decentralized cryptocurrency payments discuss later paper alternative approach model incentivization proof bandwidth model presented ghosh et al 23 model peer circuit helps generate new proof minting initiated client sufficient bandwidth sent information broadcast chain effectively pays members circuit forwarding packets protocol valid theory relies inflation pay nodes lacks market driven pricing additional concerns withholding attacks malicious behavior ultimately difficult introduce efficient incentive mechanism tor doesn xe2 x80 x99t expose potential attacks 2 4",
+    "metadata": {
+      "chunk_id": "df52be935a0c974ecc02b2a9a6f0f491",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 17] lacks market driven pricing additional concerns withholding attacks malicious behavior ultimately difficult introduce efficient incentive mechanism tor doesn xe2 x80 x99t expose potential attacks 2 4 payment channel backed routing payment channels route information money prominent example interledger protocol ilp introduced thomas schwartz 24 core idea atomic swap method ilp use hash time lock contracts htlcs set cryptographically verifiable micropayment channel pays tokens data packet forwarded note unlike traditional payment channels micropayment channels settle chain relatively infrequently allowing amortized transaction fees low latency process routes fully hidden network khosla 25 introduces onion routing based plugin ilp allows tor like functionality associated cryptographically verifiable micropayments system uses ilp payment circuit link multi hop data circuit significantly multiplying latencies error probability complexity x0cwhile payment channel backed routing methods",
+    "metadata": {
+      "chunk_id": "47466096646da168f2af8bb4415288bd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 18] verifiable micropayments system uses ilp payment circuit link multi hop data circuit significantly multiplying latencies error probability complexity x0cwhile payment channel backed routing methods attracted significant attention promising layer scaling solution decentralized payments deployment efficiency suffers need conduct recursive routing end users deposit funds specific payment routers requiring trust introducing form counterparty risk routing payment requires o log n steps latency payments routable depending size deposits available key edges payment routes completely fail causing long delays critical edges fail deliver reasons payment channel networks widely adopted micropayment solutions general onion routing particular 3 goals limitations orchid xe2 x80 x99s mission empower people understand control network activity computers fear censorship surveillance intermediation service mission building solutions wide audience open source software create decentralized vpn market",
+    "metadata": {
+      "chunk_id": "20c79974cd283c0c91fb1052f4178e47",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 19] people understand control network activity computers fear censorship surveillance intermediation service mission building solutions wide audience open source software create decentralized vpn market powered probabilistic nanopayments ethereum blockchain design emphasizes scalability decentralization usability simplicity extensibility orchid inherits current limitations ethereum terms payment anonymity scalability censorship resistance additionally initial focus affordable high bandwidth low latency routing currently limits orchid xe2 x80 x99s ability defend sophisticated theoretical traffic analysis attacks limitations obstacles main envisioned mass consumer use cases section 6 3 1 goals scalability orchid nanopayment system scales million users sending probabilistic transactions second current ethereum blockchain section 5 9 potentially scale billions transactions second sharding ethereum 2 0 node selection process section 4 3 allows clients outsource node selection server nodes",
+    "metadata": {
+      "chunk_id": "497bd720ebf5b700fa1817bb46404646",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 20] current ethereum blockchain section 5 9 potentially scale billions transactions second sharding ethereum 2 0 node selection process section 4 3 allows clients outsource node selection server nodes trustless manner allowing lightweight orchid client implementations decentralization components design nanopayments node directory discovery decentralized ethereum blockchain enforce minimal set contractual settlements required functional market special trusted party outsize influence control orchid assuming oxt stake distributed usability usability key wide adoption anonymity system provides user increases size user base default client implementation xe2 x80 x98just works xe2 x80 x99 requiring unnecessary user decisions configuration route management detailed configuration options available want client helps automate tedious details budgeting node selection users orchid protect network connection simple pressing button simplicity protocol simple ease comprehension implementation security",
+    "metadata": {
+      "chunk_id": "1f60d4d129e4ff493d56a90dab428a12",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 21] client helps automate tedious details budgeting node selection users orchid protect network connection simple pressing button simplicity protocol simple ease comprehension implementation security analysis use seller determined bandwidth prices client price filters instead complex auction mechanisms stochastic payment protocol comparatively simple smart contract consists 200 lines solidity code x0cextensibility core mechanisms separable orthogonal extent possible permit easier future extension replacement nanopayment protocol smart contract directly interact systems node directory likewise isolated separated node metadata registries components key system design hyperparameters withdrawal delay contractual parameters possible ease adaptation webrtc based transport protocol likewise orthogonal extensible nanopayment system built orchid bandwidth market generic potential broader uses 3 2 limitations orchid built ethereum world s leading blockchain terms smart contract capabilities",
+    "metadata": {
+      "chunk_id": "49a1b22606697045f5dca916d3be0ad7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 22] extensible nanopayment system built orchid bandwidth market generic potential broader uses 3 2 limitations orchid built ethereum world s leading blockchain terms smart contract capabilities decentralization community size engagement partake scaling security issues inherent ethereum rely efforts extended ethereum community deal crises arise network dependence orchid xe2 x80 x99s economic security section 4 4 upper bounded economic security ethereum adversary capability destabilize takedown ethereum network naturally takedown orchid furthermore successful shutdown attack ethereum de facto shutdown orchid unintentional powerful adversary accomplish launching sustained 51% attack example amplified ddos attacks key ethereum nodes orchid server nodes depend ethereum network individual level need reliable connections ethereum nodes process winning nanopayment redemptions orchid nodes individually vulnerable ethereum eclipse attacks practice commercial ethereum node operators alchemy infura",
+    "metadata": {
+      "chunk_id": "5a1a024879825a8ce2234916a8487705",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "51% attack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 23] reliable connections ethereum nodes process winning nanopayment redemptions orchid nodes individually vulnerable ethereum eclipse attacks practice commercial ethereum node operators alchemy infura help mitigate risks user scalability current orchid nanopayment system efficiency variance tradeoff larger face value tickets reduce frequency chain payments transaction fees expense variance expect users limited tolerance variance given constraints ethereum xe2 x80 x99s current max transaction throughput dozen transactions second implies scaling limit million orchid users section 5 9 scaling user limit possible ethereum 2 0 sharding9 payment anonymity rare winning nanopayment tickets redeemed chain ethereum transactions orchid nanopayments pseudo anonymous occasionally leak information section 5 8 users desiring stronger anonymity need anonymize oxt currency prior loading nanopayment account public node directory orchid node directory published ethereum blockchain public world easy",
+    "metadata": {
+      "chunk_id": "14b05e608ad9381f86e82ff55c539f6e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 24] section 5 8 users desiring stronger anonymity need anonymize oxt currency prior loading nanopayment account public node directory orchid node directory published ethereum blockchain public world easy censoring adversary automatically block listed contact ip addresses orchid nodes implications possible workarounds private ip addresses shared chain discussed section 6 4 9 https github com ethereum eth2 0 specs x0ctraffic analysis initial focus high bandwidth low latency circuits expense strong anonymity tradeoff fundamental 26 design allow users ability trade bandwidth efficiency increased anonymity bandwidth burning traffic obfuscation orchid xe2 x80 x99s network layer built webrtc provides certain initial capacity obfuscation ongoing research arms race obfuscation detection 27 sophisticated adversaries defeat known obfuscation techniques leave stronger obfuscation plugins future work section 7 4 market design orchid market decentralized peer peer p2p network allows users running",
+    "metadata": {
+      "chunk_id": "b457c5204e8709f8ab52a0b003e41cd1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 25] adversaries defeat known obfuscation techniques leave stronger obfuscation plugins future work section 7 4 market design orchid market decentralized peer peer p2p network allows users running orchid client purchase bandwidth sellers running orchid server order form proxy circuit specific resource internet website main participant roles orchid market xe2 x97 x8f user running orchid client initiates proxy circuit connections xe2 x97 x8f optionally relay nodes forward encrypted traffic xe2 x97 x8f exit node provides final connection external destination e g website xe2 x97 x8f bandwidth seller accepts nanopayments traffic relay exit bandwidth sellers register nodes ethereum blockchain user clients select suitable nodes routes calls ethereum smart contracts orchid uses stake weighting sellers lock oxt tokens form stake deposits associated nodes order receive traffic proportion relative stake 4 1 fundamental operations high level orchid market provides following key operations xe2 x97 x8f",
+    "metadata": {
+      "chunk_id": "d4a666bce63f3ac56b8c141dc36268b9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 26] lock oxt tokens form stake deposits associated nodes order receive traffic proportion relative stake 4 1 fundamental operations high level orchid market provides following key operations xe2 x97 x8f means bandwidth sellers register nodes staking xe2 x97 x8f method bandwidth sellers register custom services metadata xe2 x97 x8f means clients query nodes custom offered services metadata xe2 x97 x8f method selecting random node probability proportional stake sybil orthogonality property holds node x stake size s multiplier constant xce xb1 p select x xe2 x88 xa3 stake x xce xb1 s xce xb1 p select x xe2 x88 xa3 stake x s sybil orthogonality requires linear selection property ensures attacker splits resources multiple sub accounts gain advantage selection probability consequent expected connection requests unit time sybil attacks benefit given linear weighted selection property x0cthen number attackers aggregate stake s total system stake randomly selected node attacker probability p",
+    "metadata": {
+      "chunk_id": "2f6ffdb24fea42f3b5281c7f88700354",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 27] requests unit time sybil attacks benefit given linear weighted selection property x0cthen number attackers aggregate stake s total system stake randomly selected node attacker probability p select xc2 xacattacker 1 xe2 x88 x92 s use stake weighting allows economic security orchid network scale linearly size total deposited stake expect sizeable fraction total oxt market cap staking economics analyzed detail section 4 5 stake weighted selection process implemented chain tree data structure described section 4 3 allows client outsource selection nodes nodes scalable trustless manner avoiding need lightweight clients download store process complete node directory 4 2 node directory orchid node directory set data structures stored ethereum blockchain allows clients efficiently select bandwidth seller xe2 x80 x99s nodes essentially forms simple orchid specific overlay ethereum network node directory contract provides main functions xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f push",
+    "metadata": {
+      "chunk_id": "4c90e072f70c30d001da7e339b1ae361",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 28] seller xe2 x80 x99s nodes essentially forms simple orchid specific overlay ethereum network node directory contract provides main functions xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f push method stake variable oxt tokens specific stakee adding existing entry creating new stake deposit entry keyed staker stakee push function takes delay parameter determine subsequent withdrawal lockup period pull method initiate pending withdrawal variable oxt token existing deposit entry keyed staker stakee method finalize pending withdrawal delay period transferring pulled funds regular liquid oxt erc20 balance scan method select random node weighted relative stake given random seed parameter node metadata registry node metadata registry allows xe2 x80 x98tag xe2 x80 x99 nodes metadata bandwidth sellers use store custom metadata associated nodes blockchain advertise services constrained gas cost ethereum transaction fees metadata registry generic enable simple means future custom extensions",
+    "metadata": {
+      "chunk_id": "6b25c98cdbead8acc108fc56db732d2f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 29] sellers use store custom metadata associated nodes blockchain advertise services constrained gas cost ethereum transaction fees metadata registry generic enable simple means future custom extensions allowing node operators advertise new services clients select code updates node directory tree implement scan function efficiently use chain binary weighted tree data structure node tree stake entry stores stakee delay addition tree pointers stake subtotals left right subtrees structure effectively forms prefix sum tree stake deposits allowing simple descent decision node find subtree internode containing given random point finding exact node interval containing given random point requires logarithmic number steps withdrawal delay withdrawal delay important security restriction creates obstacle attackers attempting acquire large portion orchid client connection requests particular concerned preventing systemic takeover attack attacker acquires large fraction total deposit stake directs",
+    "metadata": {
+      "chunk_id": "30e6e193cedb40d8ebf550a5c0753248",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 30] attackers attempting acquire large portion orchid client connection requests particular concerned preventing systemic takeover attack attacker acquires large fraction total deposit stake directs clients x0cmalicious servers provide intentionally poor connections log report traffic attempt active connection attacks e g ssl downgrade similar proof stake pos cryptocurrencies main defense systemic takeover attacks high cost barrier acquiring locking significant fraction total oxt stake withdrawal delay barrier access sufficient liquidity little actual net cost attack withdrawal delay creates minimum interest opportunity cost stake position successful attack disrupt network likely reduce oxt token value sufficiently long withdrawal delay likely create additional loss attacker finally end attack sell large oxt position underlying mechanisms different systemic attacks orchid short withdrawal delay analogous rental attacks proof work pow blockchain systems rise hashpower rental services",
+    "metadata": {
+      "chunk_id": "f4f012dbe3e4051258a63a8ab46fb19f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 31] attack sell large oxt position underlying mechanisms different systemic attacks orchid short withdrawal delay analogous rental attacks proof work pow blockchain systems rise hashpower rental services nicehash10 provided large pool hashpower liquidity dramatically lower cost 51% attack pow system vs alternative purchasing requisite hardware attackers executed double spending attacks smaller coins rental hashpower ethereum classic 20 coin successfully attacked early 201911 ideal withdrawal delay longer time expect market need detect react systemic takeover attack longer withdrawal delays impose opportunity cost honest bandwidth sellers wish reduce exit stake deposit position ideal tradeoff constraints difficult estimate priori chose withdrawal delay flexible parameter client software filters withdrawal delay ignoring stake deposits delays client threshold initial client software accept withdrawal delays 3 months greater flexible parameterization allows future client updates change",
+    "metadata": {
+      "chunk_id": "e9799169628e0893f1b4a80ba07674a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "51% attack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 32] withdrawal delay ignoring stake deposits delays client threshold initial client software accept withdrawal delays 3 months greater flexible parameterization allows future client updates change parameter equivalent hard fork associated coordination difficulties 4 3 node selection clients select nodes proxy circuits step process random relative stake weighted linear selection followed secondary constraint filtering stage linear selection performed scan function node directory tree client generates random point locally passes single argument scan descends node directory tree search terminates single unique leaf internode stake segment intersects chosen random point smart contract implement main node scan function allows selection process easily outsourced nodes client request scan calls remote node execute scan locally send simple proofs correctness eth getproof eth getstorageat functions ethereum json rpc api12 mechanism ensures clients provably trust node maliciously choose themself",
+    "metadata": {
+      "chunk_id": "44c2085aaa817afb5f29b2bea43553e7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 33] node execute scan locally send simple proofs correctness eth getproof eth getstorageat functions ethereum json rpc api12 mechanism ensures clients provably trust node maliciously choose themself alias returned results client executed function locally copy ethereum blockchain outsourcing scan function allows lightweight orchid client implementations selecting nodes based linear relative stake weighting client optionally filter additional criteria exit geolocation latency ping node whitelists custom metadata tags https www nicehash com https cointelegraph com news ethereum classic 51 attack reality proof work 12 https github com ethereum wiki wiki json rpc eth getproof 10 11 x0cgeolocation popular use case vpns today bypassing geolocation based content filtering streaming services netflix country specific content licenses enforced detecting user xe2 x80 x99s ip address vpn exit server right location allow access blocked content difficult prove particular ip address actually specific",
+    "metadata": {
+      "chunk_id": "ba5c0fafd5895793480588af8a01e1e5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 34] country specific content licenses enforced detecting user xe2 x80 x99s ip address vpn exit server right location allow access blocked content difficult prove particular ip address actually specific location eventual server client connects different ip address listed directory contract legitimate reasons large bandwidth provider bounce redirect incoming client connections proxy servers load balancing considerations orchid clients interested particular exit geolocation use published node metadata filter claimed geolocation ultimately check final exit connection actually requested location check automated extent use public ip address geolocation databases latency anticipate use cases users desire connections lower latency randomly chosen nodes clients employ guess check strategy latency similar geolocation claimed ip address checked public known database maps ip addresses locations filter distant servers ultimately actual latency measured route constructed latency higher target threshold",
+    "metadata": {
+      "chunk_id": "227b868585a63aa18dfc1494e8051cb6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 35] geolocation claimed ip address checked public known database maps ip addresses locations filter distant servers ultimately actual latency measured route constructed latency higher target threshold new different route sampled lightweight nature orchid routes nanopayments allows fast route setup parallel route testing price sellers set bandwidth prices clients able determine reasonable price levels avoid egregious charges orchid client uses customizable budgeting algorithms determine current spending cap based user xe2 x80 x99s balance parameters target timespan representing long budget example user load $50 worth oxt nanopayment wallet instruct client budget money year bandwidth purchases client software uses budget determine limit pay time client pays server charging bandwidth client server throttle connection throttled throughput unacceptably low client choose new provider price forms implicit filter filtering nodes bandwidth prices incompatible client xe2 x80 x99s current usage",
+    "metadata": {
+      "chunk_id": "d0abbdf0601971b2027830288b25a94c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 36] server throttle connection throttled throughput unacceptably low client choose new provider price forms implicit filter filtering nodes bandwidth prices incompatible client xe2 x80 x99s current usage budgetary spending rate whitelists orchid client use chain curated list filters viable nodes custom subset initial releases official orchid client use feature prevent certain kinds attacks malicious exit nodes e g ssl downgrade attacks default exit node whitelist consisting trusted vpn partners customized orchid clients use whitelists eventually expect known parties emerge whitelist curators whitelists simple means importation external reputational trust supplement economic incentive based trust provided staking custom metadata tags bandwidth sellers store arbitrary metadata tags associated nodes blockchain node metadata registry future sellers use advertise new custom services unshared ip addresses users client filter associated tag find nodes claiming offer service x0csellers guilty",
+    "metadata": {
+      "chunk_id": "c00d6552258842c37dc06f6f973af21a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 37] nodes blockchain node metadata registry future sellers use advertise new custom services unshared ip addresses users client filter associated tag find nodes claiming offer service x0csellers guilty false advertising claiming services don xe2 x80 x99t actually offer run risk delisted popular whitelists 4 4 selection stake weighting orchid 0 9 2 6 presented design based proof work medallions main anti sybil mechanism explicitly argued proof stake section analyze stake weighting vs alternatives moved stake weighting approach similar proof stake preliminaries attack costs like bitcoin ethereum decentralized systems orchid open network built open source software download orchid node software run nodes resources permit viable defenses systemic attacks open decentralized system ultimately economic system secure extent cost attack attacker outweighs benefits attacker costly execute regardless partition economic security absolute relative constraints relative economic security condition attack",
+    "metadata": {
+      "chunk_id": "50320c8701575807e84f42af04ab6924",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 38] system secure extent cost attack attacker outweighs benefits attacker costly execute regardless partition economic security absolute relative constraints relative economic security condition attack unprofitable regardless resources required absolute economic security instead security high cost barrier excludes attackers insufficient resources bitcoin currently absolute economic security measured tens billions dollars smaller new cryptocurrency far absolute security rely sufficient relative security deter realistic attackers proof work proof work system derives security computational power burnt prove valid identity system orchid 0 9 2 design 6 medallions required continuous proof work maintain current active status based solving computational puzzles seeded new ethereum block mechanics similar proof work blockchain systems bitcoin assume proof work design asic resistant specialized chips dramatically efficient general chips assume significant rental market exists said chips proof work",
+    "metadata": {
+      "chunk_id": "0f9d80b1b5b7214bc2e77329f6530caa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 39] proof work blockchain systems bitcoin assume proof work design asic resistant specialized chips dramatically efficient general chips assume significant rental market exists said chips proof work system xe2 x80 x99s economic security constraint approximately 28 n c vsabotage 3 n indicates total honest non attacker hashpower c total capital cost unit hashpower vsabotage value attacker derives system sabotage lhs equation 3 attack cost absolute security barrier bitcoin mid 2019 value nc tens billions dollars bitcoin xe2 x80 x99s proof work specification asic resistant result asic chips dominant orders magnitude higher efficiency repurposable general purpose chips ethereum hand intentionally designed asic resistant proof work specification result asics minimal advantage general purpose graphics processing units gpus dominated ethereum mining general purpose exists liquid rental markets gpus attacker needs pay rental cost hashpower duration attack ignore x0cthe block rewards attacker gains",
+    "metadata": {
+      "chunk_id": "7947c4a5e54b24503b98e8c6526cbf80",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 40] processing units gpus dominated ethereum mining general purpose exists liquid rental markets gpus attacker needs pay rental cost hashpower duration attack ignore x0cthe block rewards attacker gains attack economic security constraint rental attack takes t units time rental cost c unit time unit hashpower approximately t n c vsabotage 4 t time required attack generally orders magnitude shorter depreciation timespan hardware rental scenario leads dramatically lower economic security proof work medallion design orchid 0 9 2 6 intentionally relied equihash asic resistant scheme somewhat necessary given requirement medallions generated end users cellphone level hardware asic friendly proof work algorithm huge relative advantage attacker asics vs end users cell phone cpus unfortunately use asic resistant algorithm implies liquid rental market conditions lower security equation 4 computation spent proof work puzzles wasted forms kind tax system relative net value bandwidth system provides",
+    "metadata": {
+      "chunk_id": "7c03f7c36108a616bf2e4126b4760c7f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 42] traffic day stake weighting current stake weighting approach bandwidth sellers stake oxt currency time locked deposits prove identity receive traffic proportion relative stake deposit size assume market borrowing oxt sufficient available liquidity useful attack acquire control 50% orchid traffic attacker acquire stake oxt equal total attacker stake successful attack lead drop exchange value oxt main cost attack loss stake position s total honest non attacker stake deposits xd resulting expected negative percent change exchange value oxt attack relative security condition xds vsabotage 7 attack cost absolute security barrier s size stake deposits attacker needs spend capital size s execute attack expect bandwidth sellers learn increase decrease stake deposits response market conditions optimize total profitability requirement bandwidth sellers lock oxt currency x0creceive traffic implies implicit opportunity cost capital competitive equilibrium expect total gross revenue flowing",
+    "metadata": {
+      "chunk_id": "485c3cba444624fdf055b4ffa0afc86c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 45] s duration attack t substituting rhs eq 9 s eq 10 leads eq 6 earlier proof work section s r b ir t p b vsabotage 9 6 worst case stake weighting stake fully rentable leads similar weakened security condition proof work hashpower fully rentable withdrawal delay parameter puts lower bound crucial attack time parameter t parameters earlier 1 million users paying $63 year 50% overhead withdrawal delay 3 months leads attack cost $7 9 million orders magnitude larger attack cost proof work medallions suggest larger stake withdrawal delay unlikely economic security increases monotonically withdrawal delay withdrawal delay creates additional opportunity cost honest x0cparticipants exiting stake position cost high crowd competitive bandwidth sellers effectively decreasing systemic efficiency increasing effective interest rates ic raising underlying cost bandwidth bc withdrawal delay customizable parameter market ultimately decide oxt specialized asset major holders incentivized rent huge stake",
+    "metadata": {
+      "chunk_id": "139c3638a6463511937f3f0c0348c58f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 46] effective interest rates ic raising underlying cost bandwidth bc withdrawal delay customizable parameter market ultimately decide oxt specialized asset major holders incentivized rent huge stake positions unknown unvetted entities sense rental dynamics oxt likely similar rental dynamics bitcoin asics hashpower available rent small fraction total expect whitelist mechanism section 4 3 help secure stake rental market discouraging stakeholders renting entities whitelist risk delisting essence forces penalty delisting incurred withdrawal delay transfer operator renter stakeholder rentier burn weighting considered burn weighting models stake deposits replaced provably destroyed oxt currency burn weighting actually equivalent stake weighting model withdrawal delay infinity case stake deposit effectively burnt percentage position loss term xd equation 7 1 position lost equation simplifies attack cost condition amounting sum burnt stake deposits arguments concerning non monotonicity economic",
+    "metadata": {
+      "chunk_id": "dc52d5840a4e52259d51870a5096e7f9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 49] value stake position attackers effectively extremely high interest rates opportunity costs oxt believe collapse value assuming interest rate term ir near market rate attackers naturally choose long withdrawal delays effective discount attack cost interest weighting vs stake weighting conditions market participants choose reasonable withdrawal x0cdelays result weighting term considerably smaller 1 lowering total stake deposit size vs stake weighting attackers choose infinite delay weighting term 1 given security concerns additional complexity unknown dynamic mechanism adjust global interest rate parameter ir market equilibrium finally ethereum implementation concerns complex weighting functions involving exponentiation multiplication decided interest weighting summary moved stake weighting design following key advantages earlier proof work medallion design 1 2 3 4 proof work creates additional compute burden end users proof work far lower attack costs stake weighting delay assuming",
+    "metadata": {
+      "chunk_id": "818911098c3b8860adb146b8d3878b62",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "collapse"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 50] design following key advantages earlier proof work medallion design 1 2 3 4 proof work creates additional compute burden end users proof work far lower attack costs stake weighting delay assuming rental markets general compute rental markets exist far relative liquidity expect exist future oxt stake deposit rental markets stake weighting captures future discounted profits bandwidth sellers creating larger baseline token market cap topic explored section 4 5 tokenomics stake weighting distinct advantage greater value capture competing mechanisms utility token systems section briefly expound analyze relevant economic assumptions simple model focusing user nanopayment deposits node stake deposits assume additional value component outside categories short term high velocity turnover erc20 token relatively small contribution market sizing start scenario orchid 2 million customers paying average $5 month $120 million year gross system revenue reference global vpn market size expected reach",
+    "metadata": {
+      "chunk_id": "07a85119510f92fd90e909ca4e233a83",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 51] relatively small contribution market sizing start scenario orchid 2 million customers paying average $5 month $120 million year gross system revenue reference global vpn market size expected reach $27 billion 202013 user deposits expect users pre fund nanopayment account supply oxt sufficient pay months bandwidth $15 worth oxt example vpn users accustomed prepaying months years service standard payment model vpn market total value user deposits example $30 million 13 https www statista com statistics 542817 worldwide virtual private network market x0cnode stake deposits orchid competitive bandwidth market expect system eventually evolve approximate equilibrium gross revenue approaches underlying costs includes raw cost bandwidth suppliers interest opportunity cost stake deposit capital recall equations 8 9 section 4 4 r b irs 8 s r b ir 9 r total revenue flow b seller xe2 x80 x99s raw cost bandwidth ir effective interest rate opportunity cost s total stake deposits number proof stake",
+    "metadata": {
+      "chunk_id": "8f354d67bb59910b175767221764bd9c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 52] equations 8 9 section 4 4 r b irs 8 s r b ir 9 r total revenue flow b seller xe2 x80 x99s raw cost bandwidth ir effective interest rate opportunity cost s total stake deposits number proof stake cryptocurrency systems holders earn interest stake running nodes staking interest rates coin vary considerably based system details perceived exchange risks etc assume effective apr annual percentage rate 20% oxt stake typical range rates staking returns14 ip transit prices vary location reasonable median estimate $1 month 1 mbps15 works $1 month 300gb data $0 003 gb use wholesale bandwidth price $0 01 gb average monthly data usage broadband households 268 gb data month16 use 100gb month estimate customer vpn data month implies $1 month $12 year user raw cost bandwidth $24 million total bandwidth cost term b year total value node stake deposits example approximately $480 million eq 9 cryptocurrencies bitcoin store value oxt cryptocurrency powers orchid utility token implemented ethereum",
+    "metadata": {
+      "chunk_id": "58f35339f17eb91e26498697cdbb0f2a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 53] cost term b year total value node stake deposits example approximately $480 million eq 9 cryptocurrencies bitcoin store value oxt cryptocurrency powers orchid utility token implemented ethereum blockchain possible utility token store value independently possible orchid nanopayment system find usage outside orchid expect staking mechanism capture value number cryptocurrency systems staking rewards wide variation apr yields staking ratios value total stake deposits market cap staking coins varies considerably decred staking ratio 50%17 nxt staking ratio 15%18 https stakingrewards com https blog telegeography com yup price erosion thing 16 https www telecompetitor com report u s household broadband data consumption hit 268 7 gigabytes 2018 17 https stakingrewards com asset dcr 18 https stakingrewards com asset nxt 14 15 x0c5 nanopayments 5 1 introduction layer 1 chain payment options today suffer lack usability primarily associated long confirmation times low throughput high transaction",
+    "metadata": {
+      "chunk_id": "c904f8e11bdbdb64d64f1ebf7463044f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 54] com asset nxt 14 15 x0c5 nanopayments 5 1 introduction layer 1 chain payment options today suffer lack usability primarily associated long confirmation times low throughput high transaction fees example ethereum bitcoin confirmation times 15 seconds 10 minutes respectively transaction fees roughly $0 10 29 30 orchid network associate packet transmission extension bandwidth value transaction fees confirmation times transmitting packets high current layer 1 solutions offer orchid xe2 x80 x99s network economics completely break simply transaction fees confirmation times associated sending packet orders magnitude higher value propagation time packet payment scalability requirements naturally suggest use layer 2 micropayment solutions payment backbone network data transmission tied closely payment information orchid xe2 x80 x99s guarantees bandwidth packets apply payments particular orchid xe2 x80 x99s goal reducing internet surveillance censorship means data transmission protocol payments",
+    "metadata": {
+      "chunk_id": "011f34c01fcf51d99f503c5167be5049",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 55] information orchid xe2 x80 x99s guarantees bandwidth packets apply payments particular orchid xe2 x80 x99s goal reducing internet surveillance censorship means data transmission protocol payments protocol additionally censorship resistant anonymous decentralized trustless break use case requirements technical evaluation points gauge existing work proposed protocol solve orchid xe2 x80 x99s core payment challenges scalable system support millions users making frequent tiny transactions order second implying negligible transaction fees payment expectation trustless system require participants trust particular entities functionality dependent specific performance goodwill anonymous payments leak minimal additional information real world identities addition needs deniability parties system suspected sending receiving propagation funds 31 uncensorable prohibitively expensive adversary censor transactions implies high level economically cryptographically infeasible corrupt information",
+    "metadata": {
+      "chunk_id": "5c8598e75e0e55c505a5dfd613f24079",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 56] suspected sending receiving propagation funds 31 uncensorable prohibitively expensive adversary censor transactions implies high level economically cryptographically infeasible corrupt information prevent access publication 31 words majority network controlled malicious actors attempting censor payments packets possible find way sending receiving money corruption arbitrary endpoints following sections discuss existing payments solutions fit evaluation framework orchid xe2 x80 x99s payment framework provide better guarantees specific use case existing solutions 5 2 existing work comparisons suggested prerequisite transferring value associated arbitrary amounts bandwidth potentially packet level having robust micropayment infrastructure layer 2 solutions popular layer 2 solutions tie security chain payments protocols don xe2 x80 x99t directly involve main blockchain transaction theoretically provide great benefits including lower x0ctransaction fees faster confirmation time",
+    "metadata": {
+      "chunk_id": "9f61ceadbbe7d2f05dbb9f400b189a18",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 57] tie security chain payments protocols don xe2 x80 x99t directly involve main blockchain transaction theoretically provide great benefits including lower x0ctransaction fees faster confirmation time unfortunately currently production ready micropayments solutions available ecosystem today explore failures existing schemes key evaluation points discussed section 5 1 proceed propose new nanopayment protocol stochastic value exchange 5 2 1 centralized payments traditional financial payments transactions settled interparty negotiations banks payment service providers settlements place centralizing protocols iso iec 7816 32 case payment cards ach payroll credit transfers19 nyce 36 swift 34 atm transactions participants networks synchronize local ledgers central network blend electronic payment receipts manual reconciliation 37 centralized payment systems unfortunately offer support requirements enumerated section 5 1 prevalence fraud centralized financial ecosystem 38 solution fraud",
+    "metadata": {
+      "chunk_id": "149d84de8b3ae4e1f19feebcd02cc26a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 58] receipts manual reconciliation 37 centralized payment systems unfortunately offer support requirements enumerated section 5 1 prevalence fraud centralized financial ecosystem 38 solution fraud reversal transactions 39 violate principle trustless operation responsiveness extremely high centralized systems lack byzantine fault tolerance interoperability sub systems implies global system partially available suffering consistency issues lastly trusted parties participate manage payment infrastructure typically detailed metadata transaction sender recipient time ingredients necessary engage comply censorship de anonymization 40 noted orchid 0 9 2 6 transaction fees centralized payments exhibit large variation ranging cents payment card transactions 41 $75 international wire transfers 42 lieu addition systems charge percent fee ranging 3 5% payment cards 43 13% bank transfers 44 fixed fees generally inappropriately sized micropayments percentage fee based systems provide reasonable backbone",
+    "metadata": {
+      "chunk_id": "e1f97c3dcd776b9aa2409249aa5513df",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 59] systems charge percent fee ranging 3 5% payment cards 43 13% bank transfers 44 fixed fees generally inappropriately sized micropayments percentage fee based systems provide reasonable backbone micropayments particular asia xe2 x80 x99s adoption wechat pay alipay commercial viability incredibly low percentage based fees typically 0 0% 0 1% 45 unfortunately systems suffer centralization drawbacks mentioned prior f fully featured p partially featured n featured scalable trustless uncensorable anonymous n p f n n n 5 2 2 payment channels payment channels newer layer solution scaling security guarantees traditional layer 1 blockchain systems lightning network bitcoin 46 protocols explore type solution abstract level payment channels involve steps locking funds escrow transacting funds chain closing payment channel broadcasting final state escrow paying channel participants 19 https en wikipedia org wiki automated clearing house x0cthere number issues existing payment channel infrastructure",
+    "metadata": {
+      "chunk_id": "5fa30055a14a62b00ea2fff67f40ccd3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 60] payment channel broadcasting final state escrow paying channel participants 19 https en wikipedia org wiki automated clearing house x0cthere number issues existing payment channel infrastructure makes use untenable orchid network firstly complexity routing funds payment channels average o log n hops sending receiving funds n represents number nodes network hop end end payment route low cost network concentrated primarily routing computational cost entire route incurs pairwise setup teardown costs payment channel adjacent issue hop network fails pay trigger timeouts stall entire route implies o c n setup teardown complexity amortized average lifetime payment channel c represents number payment channels node maintains additionally lock cost funds funds locked payment channel problematic wishes peer nodes instead node able use tokens micropayments peers locked token interact single peer note payment channels typically cryptographically enforced w r t root chain hash time lock contracts",
+    "metadata": {
+      "chunk_id": "83afc3099fe80c7ad526d50fefbe3631",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 61] peer nodes instead node able use tokens micropayments peers locked token interact single peer note payment channels typically cryptographically enforced w r t root chain hash time lock contracts htlcs transaction fees payment channels typically low censorability payment channels bit nuanced case bitcoin network heilman eclipse attack analysis 47 illustrates feasible 50% probability eclipse bitcoin node botnet 400 ip addresses apply attack payment channels node unable communicate larger l1 network depends heavily way peering actually handled complexity eclipse attacks differs depending l1 platform anonymity privacy unfortunately properties limited current payment channel technology f fully featured p partially featured n featured scalable trustless uncensorable anonymous f p p n 5 2 3 probabilistic micropayments concept probabilistic micropayments introduced wheeler 48 rivest 49 late 1990s way reducing impact transaction fees traditional micropayments pass shelat 50 extend idea",
+    "metadata": {
+      "chunk_id": "7d4bb4f1047b9b23e591b9d4791f392f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 62] 3 probabilistic micropayments concept probabilistic micropayments introduced wheeler 48 rivest 49 late 1990s way reducing impact transaction fees traditional micropayments pass shelat 50 extend idea micropay1 blockchain based payment systems provide benefits decentralized system core idea class micropayments similar payment channels amortizing cost transaction fees numerous transactions core mechanism blockchain backed probabilistic micropayments htlc use lottery based payments system payment $x actually sent xe2 x80 x9clottery ticket xe2 x80 x9d value c $x probability winning c1 expected value ticket c $x 1 c $x scheme generally described follows wants pay b deposits currency bitcoin escrow address newly generated key b generates random number rb transmits hidden signed commit b sends recipient address hb x0ca generates random number ra signs plaintext payment information transmits b ra xe2 x8a x95 rb ends 00 rb matches hidden signed commit ticket winner escrow pays b scheme design",
+    "metadata": {
+      "chunk_id": "bd17622e7998cc8cd5ac1367ba57c841",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 63] address hb x0ca generates random number ra signs plaintext payment information transmits b ra xe2 x8a x95 rb ends 00 rb matches hidden signed commit ticket winner escrow pays b scheme design theoretically scalable negligible transaction fees xe2 x80 x99s entirely chain unfortunately practice existing schemes rely centralized intermediary protocol trustless additionally w r t censorship resistance problems eclipsing payments channel sub section appear biggest difference probabilistic micropayments payment channels o 1 payment routing complexity probabilistic micropayments f fully featured p partially featured n featured scalable trustless uncensorable anonymous f p p n limitations existing implementations 5 3 orchid nanopayment scheme orchid nanopayment scheme strongly motivated concepts micropay1 scheme pass shelat 50 briefly described section 5 2 3 philosophy payments system attempts reasonable iterations micropay1 scheme particularly economic scalability system negligible security",
+    "metadata": {
+      "chunk_id": "11d2b6eb24e0e608e7fc63310a48905e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 64] micropay1 scheme pass shelat 50 briefly described section 5 2 3 philosophy payments system attempts reasonable iterations micropay1 scheme particularly economic scalability system negligible security cost end created protocol aiming satisfy requirements scalable trustless uncensorable anonymous payment system properties mind describe orchid nanopayment scheme offer following definitions actors sender sender nanopayment sender expected ethereum account ability connect ethereum node setup funds nanopayment account sender submits payments sending tickets defined receiver receiving message containing receiver xe2 x80 x99s hash commitment destination account receiver receiver nanopayment receiver needs ethereum account access ethereum node receiver generates hash commitment sends destination account id sender receives tickets sender receiver responsible ensuring payment parameters received sender correct required funds available payment membership smart contract smart contract responsible",
+    "metadata": {
+      "chunk_id": "8a8995cd1a4a06087d2f150ed4c253ce",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 65] id sender receives tickets sender receiver responsible ensuring payment parameters received sender correct required funds available payment membership smart contract smart contract responsible settling payment process winning ticket enforces crypto economic incentives frontrunning griefing double spends bad behavior sender messages random commit commit message receiver ticket sends sender order commit randomly generated number commit hides random number hash function ticket message sender sends receiver complete interactive ticket generation process includes sender xe2 x80 x99s random number signature confirms key fields completed nanopayment note ticket xe2 x80 x99s effective value expected value true redemption value face x0cvalue agreed sender receiver ticket winning ticket 0 ticket winning ticket ticket generation process creates random number satisfies settlement conditions winning ticket completed nanopayment satisfies conditions settle given face value particular containing",
+    "metadata": {
+      "chunk_id": "7914ea47ee68bece0324a92b163dc04f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 66] winning ticket ticket generation process creates random number satisfies settlement conditions winning ticket completed nanopayment satisfies conditions settle given face value particular containing random number satisfies probability winning message broadcast ethereum network claim settlement sender xe2 x80 x99s payment escrow prove griefing processes ticket generation sending process xe2 x80 x9csending xe2 x80 x9d ticket accurately generating interactive process receiver sends random commit sender begin random number generation process sender sends ticket includes remaining information receiver generate ticket including sender xe2 x80 x99s random number settlement redemption process redeeming settling cashing winning ticket winning ticket generated having receiver sign received information broadcast ethereum network payment contract disburse funds payment balance receiver xe2 x80 x99s address program flow illustrates payments delivered payer receiver orchid nanopayments scheme x0c",
+    "metadata": {
+      "chunk_id": "fc695e19b1e78b9fa26ee619653bbe59",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 67] broadcast ethereum network payment contract disburse funds payment balance receiver xe2 x80 x99s address program flow illustrates payments delivered payer receiver orchid nanopayments scheme x0c x0c x0cthere key things note program flow firstly time setup payer keeping setup costs extremely low relative existing solutions raises potential issues double spends frontrunning mathematically empirically highly unlikely later paper secondly receiver interacts payment escrow membership contract keeping setup costs individual sender receiver pair trivially low additionally means funds pay different receivers need locked split receivers allows money locked illiquid escrows meant collateralizing payment channels happens statistical multiplexing phenomenon networking finally nanopayments occur chain keeping efficiency guarantee delegate trust chain deal settlements ultimately removing reliance parties previous probabilistic micropayment methods suffered compare features orchid nanopayment scheme",
+    "metadata": {
+      "chunk_id": "3cec377501c3ac7015a8f8e3d6e76f4a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 68] keeping efficiency guarantee delegate trust chain deal settlements ultimately removing reliance parties previous probabilistic micropayment methods suffered compare features orchid nanopayment scheme existing micropayment schemes justify claims following sections appendix f fully featured p partially featured n featured payment solution scalable trustless uncensorable anonymous centralized n p f n n n payment channels f p p n probabilistic micropayments f p p n orchid nanopayments f f f n limitations existing implementations addressed mixing time addresses etc discussed section 5 8 anonymity n nodes l2 network c average connections node payment solution routing complexity network setup complexity fund distribution factor centralized n n n payment channels log c n c 1 c probabilistic micropayments 1 c 1 c orchid nanopayments 1 1 1 denotes fraction total funds peer transact lower fraction generally results lower network throughput x0c5 3 1 differences micropay general scheme orchid xe2",
+    "metadata": {
+      "chunk_id": "4b292cb34d698ba7fa551d0ebe499414",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 69] 1 c 1 c orchid nanopayments 1 1 1 denotes fraction total funds peer transact lower fraction generally results lower network throughput x0c5 3 1 differences micropay general scheme orchid xe2 x80 x99s nanopayment protocol similar micropay 40 orchid scheme changes underlying assumptions order introduce certain efficiency benefits addition assumptions allow introduce implementation maintains theoretical scalability censorship resistance philosophy original scheme orchid nanopayment scheme change following assumptions 1 change payment escrow receiver avoid double spends payment escrow multiple receivers redeem winning tickets 2 add way mitigate depletion funds distinct receivers 3 change use bitcoin scripting use ethereum smart contracts supporting underlying cryptographic functions 4 change use mutually trusted party deal payment escrows use ethereum based smart contract deal payment escrows discuss changes affect security double spends frontrunning section 5 10 5 4 orchid token oxt",
+    "metadata": {
+      "chunk_id": "4fe489d461c9225c198ff527aa1748d8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 70] use mutually trusted party deal payment escrows use ethereum based smart contract deal payment escrows discuss changes affect security double spends frontrunning section 5 10 5 4 orchid token oxt orchid token oxt new erc20 compliant token fixed supply billion units standard sub divisibility 18 decimal places like eth inflation possibility contractual penalty mechanisms xe2 x80 x98burn xe2 x80 x99 currency nanopayment accounts prevent double spending section 5 10 create potential small additional deflationary pressure new custom token currency orchid market provides economic incentive benefits possible generic currencies eth specifically requiring large providers stake large amounts custom utility currency specific market creates stronger incentive alignment effects generic currency provider xe2 x80 x99s behavior strongly affect price custom market token value stake positions instead generic currency eth correlation weak health orchid market expected impact price eth 5 5 orchid gas",
+    "metadata": {
+      "chunk_id": "a640a5f24b9658e63740a615bec6b2a9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 71] xe2 x80 x99s behavior strongly affect price custom market token value stake positions instead generic currency eth correlation weak health orchid market expected impact price eth 5 5 orchid gas costs current open source solidity implementation key ticket redemption function uses 100k gas called winning ticket includes cost underlying erc20 transfer function called winning tickets 5 6 censorship resistance orchid payment protocol inherits ethereum xe2 x80 x99s censorship resistance similar blockchain cryptocurrency protocols nanopayment protocol involves direct communication sender receiver normal operation non winning tickets winning tickets require receiver submit transaction ethereum blockchain orchid nanopayments censorship resistance regular ethereum transactions censoring orchid xe2 x80 x99s specific ethereum transactions orchid redemption transactions particular receiver require majority miners agree ignore winning blocks containing orchid transactions consider scenario highly",
+    "metadata": {
+      "chunk_id": "87ed1cc9f4739ecdff4d7e71c7e84402",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 72] x80 x99s specific ethereum transactions orchid redemption transactions particular receiver require majority miners agree ignore winning blocks containing orchid transactions consider scenario highly unlikely high profit risk cost decentralized x0cnature ethereum mining community limited form partial censorship achieved fraction ethereum nodes refused include orchid transactions winning blocks increase transaction fees proportion 1 1 x x relative hashpower censoring group note like section 5 2 3 payment channels eclipse attacks potentially harmful especially payer receiver running node relying trust node order submit transactions network case orchid xe2 x80 x99s nanopayments payers receivers need running nodes order participate orchid nanopayment network additionally party running node submit transactions peers trust known public peers ensure transactions censored key benefits orchid xe2 x80 x99s scheme associated implementation existing l2 payment channel schemes 5 8 anonymity orchid",
+    "metadata": {
+      "chunk_id": "2c0fbbc7dc6b4334a4c70721bf9503fc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 73] transactions peers trust known public peers ensure transactions censored key benefits orchid xe2 x80 x99s scheme associated implementation existing l2 payment channel schemes 5 8 anonymity orchid nanopayments pseudo anonymous redemption winning tickets receiver posts normally private offline client server payment information chain creating permanent public record losing tickets posted reveal payment information recipient reduces payment information leakage weeks months use winning tickets accumulate leave public information trail links user xe2 x80 x99s public account key s orchid providers paid payment ticket reveal particular server client connected public key provider sophisticated attackers pose users build model server xe2 x80 x99s public keys physical addresses users small information leakage problem users desiring stronger payment privacy appropriate steps break linkages ethereum accounts real world identity funding nanopayment account s mixing services conversion anonymous",
+    "metadata": {
+      "chunk_id": "b7e1c17d3a82132fa3702b8c22729cb7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 74] leakage problem users desiring stronger payment privacy appropriate steps break linkages ethereum accounts real world identity funding nanopayment account s mixing services conversion anonymous cryptocurrencies etc multi hop routes orchid client use separate nanopayment accounts public keys node circuit protect route inference chain payment history assuming appropriate prior disentangling multiple funding accounts 5 9 scalability analysis orchid nanopayment system layer 2 scaling solution provide orders magnitude higher transaction throughput existing layer 1 blockchain payment systems ultimately maximum viable transaction throughput multiplier underlying layer 1 foundation main sources chain transactions nanopayment system 1 2 3 users deposits withdrawals nanopayment accounts seller stake deposits withdrawals stake registry accounts seller redemptions winning tickets assess scalability perspective transaction fees perspective fundamental transaction throughput limits ethereum typical",
+    "metadata": {
+      "chunk_id": "b74e1769510a38e49ad260ee88b5ce33",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 75] deposits withdrawals stake registry accounts seller redemptions winning tickets assess scalability perspective transaction fees perspective fundamental transaction throughput limits ethereum typical average ethereum transaction fees order $0 05 51 standard transaction gas cost 20k gas typical vpn users prepay 6 months year assume orchid users typically xe2 x80 x98prepay xe2 x80 x99 depositing order $10 $50 nanopayment account fund multiple months bandwidth purchase transaction fees user deposits withdrawals small overhead burden assuming larger gas cost transaction fees bandwidth seller stake deposits withdrawals x0csignificant typical sellers thousands clients monthly revenue exceeding $1000 add remove stake month leads transaction fee overhead 0 1% overhead ticket redemption transaction costs varies expected value nanopayment win probability multiplied face value allows flexibility trading variance transaction fees low win probability high face value reduces transaction fee costs",
+    "metadata": {
+      "chunk_id": "c2d73a2bbaa9c15c0e72bcb9332ed5fe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 76] costs varies expected value nanopayment win probability multiplied face value allows flexibility trading variance transaction fees low win probability high face value reduces transaction fee costs lowering expected number winning tickets unit time expense increased variance conversely high win probability low face value tickets reduces variance expense frequent winners redemptions transaction fees current orchid smart contract payment redemption function uses 100k gas translates transaction fee $0 02 $0 20 reflecting current prices assumption 5% transaction fee overhead reasonable leads $4 face value tickets user deposits $40 nanopayment account 4 months bandwidth usage average issue 10 winning tickets 4 month period model depletion balance binomial distribution assume tickets issued amortized rate 1 second usage pattern essential feature analysis purpose illustration 10 million tickets 4 month period win rate 10 6 pool 10 winners 1 8% chance account deplete 2 months e twice fast",
+    "metadata": {
+      "chunk_id": "6efbbc241c858d161e3d3ded9f1de0f9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 77] amortized rate 1 second usage pattern essential feature analysis purpose illustration 10 million tickets 4 month period win rate 10 6 pool 10 winners 1 8% chance account deplete 2 months e twice fast expected conversely 0 6% chance account 8 months minimize transaction fees example reduce win rate 10x use $40 face value tickets leading expectation 1 winning ticket 4 months reduce transaction fee overhead 0 4% settings risk depletion enormous 30% chance account depleted 2 months transaction throughput ethereum blockchain depends transaction gas cost fixed property transaction xe2 x80 x99s compiled evm code block gas limit block production rate vary time ticket claim function uses 100k gas ethereum currently supports 10 million gas block 52 produced rate block 13 seconds 53 leading throughput 7 tps 18 million transactions month 100k gas transactions earlier example roughly 2 5 winning tickets user month leads maximum scaling limit 7 million users assuming ethereum solely orchid",
+    "metadata": {
+      "chunk_id": "ba8b0cc88cafba6a034a93fccf39b650",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 78] throughput 7 tps 18 million transactions month 100k gas transactions earlier example roughly 2 5 winning tickets user month leads maximum scaling limit 7 million users assuming ethereum solely orchid transactions scaling orchid xe2 x80 x99s nanopayment system tens millions users require deployment utilization scaling improvements underlying layer 1 blockchain ethereum 2 0 sharding migration new layer 1 solution higher base throughput 5 10 cryptoeconomic methods preventing griefing mentioned section 5 3 1 key differences existing probabilistic micropayment schemes orchid nanopayments introduction need cryptoeconomic incentives prevent malicious attacks receiver particular payer sending nanopayments redeeming winning tickets payment smart contract belongs describe efficiency ramifications section 5 3 biggest problem design introduces centers idea receiver receiving winning ticket payer able settle lack funds payment escrow happens explicitly balance payment escrow cover winning tickets",
+    "metadata": {
+      "chunk_id": "37c582c5ab51e3f9c77726b7c13a1923",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 80] bad strategies introduce incentive models avoid bad strategies assume actors act payment escrow pay winning ticket true incentives disincentives payers receivers break xe2 x80 x99s reason anybody use payment system functional outline simplified version extended form game tree tree simplified branches tree collapse failure cases listed diagram section 5 10 5 payer b c receivers x0cas number steps participants orchid xe2 x80 x99s nanopayment scheme follow expose bad strategies analyze prevent bad strategies exposed local incentives subcase note xe2 x80 x9cinformation sent xe2 x80 x9d b submits winning ticket refers propagation knowledge b xe2 x80 x99s winning ticket network number decisions depend existence knowledge receipt knowledge decision unto particular random node subgame 1 generating payments sent c honest node c knows b xe2 x80 x99s winning ticket immediately reject payments implementation orchid provided knowledge existing claim xe2 x80 x99s payments packets rejected",
+    "metadata": {
+      "chunk_id": "129afcc2ce626c6ad65296648887cf7d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "collapse"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 81] generating payments sent c honest node c knows b xe2 x80 x99s winning ticket immediately reject payments implementation orchid provided knowledge existing claim xe2 x80 x99s payments packets rejected implementation provide note benign malicious actor follow received knowledge b xe2 x80 x99s winning ticket vulnerability analysis provides cryptoeconomic incentives bad strategies 5 10 1 payer single entity frontrunning attack attack commonly known frontrunning occurs payer attempts avoid settlement attempting submit winning ticket payment escrow b settle avoiding payment b key disincentivizing attack sure penalty received attempting frontrunning outweighs benefit received frontrunning list definitions bescrow payment escrow balance bmembership membership balance vticket face value ticket rwin win rate ticket vtxn cost transaction vticket vtxn settlement value ticket case frontrunning attack goal mitigate existence bad strategy disincentivizing payer rationally choose attack particular",
+    "metadata": {
+      "chunk_id": "2834b5fc857d81a1e7ad060d6aa913c2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [
+          "vulnerability"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 82] win rate ticket vtxn cost transaction vticket vtxn settlement value ticket case frontrunning attack goal mitigate existence bad strategy disincentivizing payer rationally choose attack particular cost payer conduct attack cost simply pay ticket worded alternatively utility payer receives conducting attack cost simply pay ticket v t icket xe2 x88 x92 v txn b m embership xe2 x88 x92 v txn long inequality holds easy specify verify chain possible disincentivize rational payer choosing second case slashing membership deposit making expensive execute bad strategy simply pay receiver 5 10 2 payer multi entity frontrunning attack case multiple receivers receive winning tickets quick succession begin settlement knows somebody claiming payment escrow case possible payer conduct frontrunning attack circumvents inequality n winning tickets submitted quick succession inequality prevent multi entity frontrunning p ayout n v t icket xe2 x88 x92 v txn b m embership xe2 x88 x92 v txn x0cunfortunately",
+    "metadata": {
+      "chunk_id": "cc0bd25d045a90ae7edc70c33a8fccad",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 83] circumvents inequality n winning tickets submitted quick succession inequality prevent multi entity frontrunning p ayout n v t icket xe2 x88 x92 v txn b m embership xe2 x88 x92 v txn x0cunfortunately problems maintaining inequality firstly n unbounded number tokens locked penalty balance begins scale linearly number receivers size payments making orchid nanopayments scheme fund distribution efficient payment methods secondly increases potential harm caused winning ticket collisions completely benign cover section 5 10 3 logical way forward violating system design assumptions introducing incentives disincentivize good behavior luckily introduce slightly stronger assumption solve dilemma assume rational actor choose bad strategy expected value utility gained playing bad strategy dominated strategies assumption place bound risk system ensure expected cost running attacks low order minimize locked funds use bound introduce better bound b m embership introduce following assumption",
+    "metadata": {
+      "chunk_id": "ddefcb775645f41f64722912b8500621",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 84] strategies assumption place bound risk system ensure expected cost running attacks low order minimize locked funds use bound introduce better bound b m embership introduce following assumption additional definitions xce x94 average time difference submits settlement winning ticket b aware roxt amortized rate oxt second payer sends receiver v xce x94 value oxt transferred payer receiver time xce x94 n xce x94 number tickets sent payer receiver time xce x94 rticket e number winning tickets second derive following definitions v xce x94 roxt xce x94 v xce x94 expected v alue t icket r rt icket v oxt t icket n xce x94 v xce x94 v t icket rwin probability winning ticket collision n total payments peers given w w inning t icket f ound following p c collisions xe2 x88 xa3w c cn xe2 x88 x921 p specif ic receiver collision xe2 x88 xa3w c p specif ic receiver collision xe2 x88 xa3w n xe2 x88 x92c xe2 x88 x921 p specif ic receiver collision xe2 x88 xa3w p w inning t icket n xce x94 1 xe2 x88 x92",
+    "metadata": {
+      "chunk_id": "e9d5c6fa441dbbfce99390d646ba7c42",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 86] provide bound expected loss running attack n xe2 x88 x921 e payout xe2 x89 x88 v t icket xe2 x88 x91 p collisions xe2 x88 xa3w v t icket 1 n xe2 x88 x921 e payout xe2 x89 x88 v t icket xe2 x88 x91 c xe2 x88 x921 1 xe2 x88 x92 e 1 xe2 x88 x92roxt xce x94 v t icket e xe2 x88 x92roxt xce x94 v t icket n xe2 x88 x92i xe2 x88 x921 v t icket x0cso long e payout b m embership average good attempt running attack minimize e payout decrease funds locked maintaining cryptoeconomic disincentives bad strategies hyperparameter strategy applies simply select large v t icket correspondingly low rwin intuitive approach payment hyperparameter choices simply lowering ticket win rate effectively provides provable bound funds locked membership balance lowered effectively constant respect number receivers note model count payer able effectively monitor receivers possible possible payer avoid attempting runs situations profitable defense hyperparameter strategy makes cases far likely probability collisions",
+    "metadata": {
+      "chunk_id": "cd34867a7f101571b4efb3899800f4ef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 88] 2 oxt 0 0075% 0 0675% 0 740% good strategy 3s 3 10 xe2 x88 x926 oxt s 10 xe2 x88 x924 12 oxt 0 0000075% 0 000675% 0 00742% 5 10 3 multi entity payment races multi entity payment races winning ticket collisions malicious payer xe2 x80 x99s payment races occur naturally cases payment races reached outlined subgame 1 subgame 2 outline cases discuss prevent subgame 1 unintended payment race unintended payment race happens use collision analysis section 5 10 2 select hyperparameters minimize unintended payment races possible asynchronous setting completely prevent payment races risk associated follows p collision second xe2 x88 xa3w rt icket p collision xe2 x88 xa3 w r p collision second xe2 x88 xa3w v oxt 1 xe2 x88 x92 p 0 collision xe2 x88 xa3 w t icket p collision second xe2 x88 xa3w p collision second xe2 x88 xa3w roxt 1 v t icket roxt 1 v t icket n 1 xe2 x88 x92 c 0 xe2 x88 x92 1 xe2 x88 x92 e xe2 x88 x92r xce x94 voxt t icket xe2 x88 x92 e xe2 x88 x92roxt xce x94 v t icket xe2 x88",
+    "metadata": {
+      "chunk_id": "eba5dd16b091177fb9001c4c473bab1b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 89] second xe2 x88 xa3w roxt 1 v t icket roxt 1 v t icket n 1 xe2 x88 x92 c 0 xe2 x88 x92 1 xe2 x88 x92 e xe2 x88 x92r xce x94 voxt t icket xe2 x88 x92 e xe2 x88 x92roxt xce x94 v t icket xe2 x88 x92r xce x94 v oxt n xe2 x88 x921 xt icket 0 e n xe2 x88 x921 e penalty xe2 x88 xa3w second p collision second xe2 x88 xa3w b m embership e penalty xe2 x88 xa3w second roxt 1 v t icket xe2 x88 x92 e xe2 x88 x92roxt xce x94 v t icket n xe2 x88 x921 b m embership x0cthe risk payer takes unintended payment race losses shown examples calculate b m embership bounds section 5 10 2 parameter xce x94 roxt rwin v t icket payment race penalty second n 2 payment race penalty second n 10 payment race penalty second n 100 bad strategy 300s 3 10 xe2 x88 x926 oxt s 10 xe2 x88 x922 0 12 oxt 2 258 10 xe2 x88 x928 oxt s 2 089 10 xe2 x88 x927 oxt s 2 735 10 xe2 x88 x926 oxt s okay strategy 30s 3 10 xe2 x88 x926 oxt s 10 xe2 x88 x923 1 2 oxt 2 251 10 xe2 x88 x9210 oxt 2 026 10 xe2 x88 x929 oxt s s 2 236 10 xe2 x88",
+    "metadata": {
+      "chunk_id": "e032becec30cd62160e3d3fd188d392d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 91] 2 withholding attack receiver receiver withholds winning ticket broadcasts immediately receiver submitted winning ticket receiver force slash payer opening bad strategy hurts payer goal sufficiently disincentivize withholding receiver recall section 5 10 1 invariant hold discourage single entity frontrunning v t icket b m embership receiver wishes grief damage caused initial examination higher cost inflicting damage solution decrease burned time elapsed increases begins interfere cryptoeconomic invariants prevent payer initiated attack vectors best course action attempt reduce damage potential withholder inflict note analyses allow calculate probability collision given winning ticket found words consider winning ticket valid duration xce x94 payment race penalty time subgame 1 empirical analysis note expected damage rate withholding attack vanishingly small damage valid duration xce x94 note validity period variable actually lower expected time claim executed lower chance damage",
+    "metadata": {
+      "chunk_id": "67023a810416d8e28894b0902422c547",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 93] withholding attacks cases benign network don xe2 x80 x99t opportunity opening bad strategies fact withholding causes direct economic harm withholders mentioned 5 10 3 subgame 2 simply need include expiration time winning tickets expected damage withholding low incentivize receivers settle winning tickets quickly possible 5 10 5 recursive subgames extended form game section limits number actors number actions occur note failure cases invalidates base assumption extended form game availability funds payment escrow cover single winning ticket exits framework game leads recursively subgame 1 2 enumerate mapping xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f 5 10 2 leads invalidation base assumption rest network arrived conclusion node 5 10 2 leads entry node subgame 1 subgame 3 arbitrary receivers b c 5 10 3 leads invalidation base assumption rest network arrived conclusion node 5 10 3 leads entry node subgame 1 subgame 3 arbitrary receivers b c 5 10 4 leads entry node subgame 2 note failure cases",
+    "metadata": {
+      "chunk_id": "233db1d5a9e2585fd12f78708477a4a0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 94] 5 10 3 leads invalidation base assumption rest network arrived conclusion node 5 10 3 leads entry node subgame 1 subgame 3 arbitrary receivers b c 5 10 4 leads entry node subgame 2 note failure cases subgame lead recursive case existing game tree benign paths green nodes open additional potential attacks recursively descending subgames simply receipt new ticket arbitrary actor subgames ultimately lead infeasible bad strategies terminate benign path 5 10 6 summary conclusion based cryptoeconomic model set conditions local strategies prevent globally bad strategies played particular note attacker victim case set hyperparameters agreed pre payment prevents viability bad strategy given rational attackers fact proper hyperparameter selection irrational attackers reasonable attacks network potential attacks proper hyperparameter set result vanishingly small damage profit driven benign actor cases incentives drive actors agree hyperparameters minimize negative effects randomness benign actor",
+    "metadata": {
+      "chunk_id": "a0e389cce9944d5f51ec4e51054d601e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 96] adversary seeks block connections set users set destinations b xe2 x97 x8f content modification adversary seeks overtly covertly modify content communication streams set users destinations b assume limited local active adversaries combination powers xe2 x97 x8f observation passively observe fraction network traffic xe2 x97 x8f infiltration control fraction orchid ethereum nodes external servers xe2 x97 x8f manipulation actively modify portion network traffic xe2 x97 x8f inference apply compute harvested data infer unobserved information interest orchid protect stronger global adversary observe modify traffic nodes assume economic model adversary xe2 x80 x99s powers practically limited costs scale user traffic analysis inference attacks extensive body research concerning inference attacks anonymity systems tor particular partition main categories passive flow correlation adversary observes traffic points network typically ingress egress locations uses statistical inference correlate",
+    "metadata": {
+      "chunk_id": "21260e700392ada1ebec131ab21813c5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 97] anonymity systems tor particular partition main categories passive flow correlation adversary observes traffic points network typically ingress egress locations uses statistical inference correlate streams multi hop circuit 54 55 56 57 recent advances deep learning increase cost effectiveness attacks 54 active flow correlation adversary manipulate traffic e g insert timing delays create watermark pattern greatly boost precision recall 58 xe2 x80 x9360 attacks require control hardware stream ingress inject traffic watermark channel correlation attacks possible low latency relay timing measurements stream reveal sufficient information correlate unobserved streams passing relay 61 62 attacks reveal likely nodes circuit generally insufficient trace complete circuit user xe2 x80 x99s ip website fingerprinting attacks allow adversary observing egress point connection correlate streams circuit based matching traffic patterns known library website specific x0cfingerprints 63 64 deep learning",
+    "metadata": {
+      "chunk_id": "e08d2de41563c1fad29ca7fad303b1a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 98] fingerprinting attacks allow adversary observing egress point connection correlate streams circuit based matching traffic patterns known library website specific x0cfingerprints 63 64 deep learning techniques generate fingerprints automatically 65 xe2 x80 x9367 website fingerprinting attacks sufficient precision recall wild practical use adversaries debatable 68 scope given wide space possible adversary goals capabilities budgets defending generically wide space attackers scope low latency high bandwidth overlay network like orchid 26 instead focus common economically relevant use cases implied adversary models 6 2 bypassing geographic content restrictions bypassing geographic restrictions web content common use cases vpns today20 streaming services netflix enforce geographic license restrictions inferring user xe2 x80 x99s location ip address limit content access library customized specific location adversary case goal content modification controls destination website presents",
+    "metadata": {
+      "chunk_id": "f4e499d1f5f9d659032ae33de71c222d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 99] restrictions inferring user xe2 x80 x99s location ip address limit content access library customized specific location adversary case goal content modification controls destination website presents interesting challenges fairly easy adversary simply detect common vpn proxy services ip address block website access completely21 basic forms target traffic analysis adversary use ip registration databases find ip address ranges associated known vpn companies look large number different accounts sharing ip address determine particular address likely proxy vpn server strategies current vpns use provide clients obfuscated ip address suitable evading geographic content locks simplest expensive provide individual clients unique ip address add service alternatively vpns rapidly turnover ip addresses subleasing etc provide constant flow fresh unblocked addresses clients principle orchid xe2 x80 x99s metadata registry section 4 2 allows bandwidth sellers advertise unique ip addresses custom tag e",
+    "metadata": {
+      "chunk_id": "5c853276c37eba04546a94ba2c50b626",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 100] subleasing etc provide constant flow fresh unblocked addresses clients principle orchid xe2 x80 x99s metadata registry section 4 2 allows bandwidth sellers advertise unique ip addresses custom tag e g xe2 x80 x9cunique ip xe2 x80 x9d clients filter tag geolocation find exit nodes claiming use unique ip address specific location barrier orchid market built assumption quick stateless semi anonymous transactions unique ip address significant setup cost user connects node actually offering fresh unique ip address disconnects seconds later end paying microdollars service roughly million times expensive provide instead orchid seller charge larger macropayment unique ip address service require explicit user approval large invoice client ui expect reach feasibility highly trusted curated sellers alternatively sellers choose directly advertise unblocking specific streaming service implementation claimed capability seller implement unblocking rotation fresh ip addresses low user ip address",
+    "metadata": {
+      "chunk_id": "971acbb79528466178e8be0835406eed",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 101] alternatively sellers choose directly advertise unblocking specific streaming service implementation claimed capability seller implement unblocking rotation fresh ip addresses low user ip address ratios successful seller charge bandwidth service requiring upfront macropayments long run orchid key advantage use case allowing users access servers variety different providers avoiding lock risks inherent current vpn model single vpn subscription 20 21 https www geosurf com blog vpn usage statistics https help netflix com en node 277 x0cthe user little recourse particular provider xe2 x80 x99s servers suddenly blocked orchid user easily near instantly switch providers time 6 3 peer peer sharing systems peer peer networks popular means users share content directly bypassing centralized content sources isps internet service providers wish limit interfere peer peer sharing networks reasons perceive threats cable television streaming revenue use large amounts bandwidth allow users share",
+    "metadata": {
+      "chunk_id": "0fd1a55daf911611c5dfc99a2d243f9b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 102] sources isps internet service providers wish limit interfere peer peer sharing networks reasons perceive threats cable television streaming revenue use large amounts bandwidth allow users share protected content adversary xe2 x80 x99s goal primarily deterrence begins traffic analysis wish identify users particular p2p network sharing particular content adversaries use case fairly limited powers main attack strategies detect shape filter p2p packets infiltrate peer peer network running nodes log ip addresses actions metadata particular users current popular peer peer networks bittorrent low economic security infiltrating networks inexpensive vpn xe2 x80 x99s protect adequately use case jurisdictions encrypting traffic simply hiding user xe2 x80 x99s ip address feasible long vpn legal financial obligation logs acquiring logs difficult adversary orchid provide capable defense similar vpns use case combination stake weighted selection mechanism whitelists orchid client whitelist includes",
+    "metadata": {
+      "chunk_id": "4194f883c641f6d362ebe8c1da761b9c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 103] obligation logs acquiring logs difficult adversary orchid provide capable defense similar vpns use case combination stake weighted selection mechanism whitelists orchid client whitelist includes trusted providers known avoid logging similar better probability avoiding node adversary collusion user picking vpn random list vpns known avoid logging adversary succeeds attack user selects orchid node p2p file sharing network e g bittorrent node adversary controls probability occurs p compromise x y x xe2 x88 x88 ao y xe2 x88 x88 ab p x xe2 x88 x88 ao p y xe2 x88 x88 ab p y xe2 x88 x88 ao p y xe2 x88 x88 ab s xe2 x8b x82w sw ba bt 20 21 22 x y selected orchid node file sharing node respectively ao ab set orchid nodes file sharing nodes adversary controls respectively w client xe2 x80 x99s whitelist set orchid nodes s s w total oxt stake oxt stake nodes w respectively s xe2 x8b x82w total oxt stake nodes xe2 x8b x82 w set adversary nodes w b b t adversary xe2 x80 x99s bandwidth total",
+    "metadata": {
+      "chunk_id": "b9d372d3da21f4a4ff3938b54b920bc7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 104] whitelist set orchid nodes s s w total oxt stake oxt stake nodes w respectively s xe2 x8b x82w total oxt stake nodes xe2 x8b x82 w set adversary nodes w b b t adversary xe2 x80 x99s bandwidth total bandwidth file sharing network respectively whitelist w sw equal total system stake st probability selecting adversarial orchid node sa st relative fraction oxt stake adversary controls hypothetical scenario orchid million users total orchid stake value $1 billion section 4 4 adversary budget $10 million orchid nodes success rate orders magnitude lower single hop orchid users compared unprotected users orchid user connecting file sharing node adversary controls probability user connects adversary xe2 x80 x99s orchid nodes 0 1% x0ca random whitelist effect case s xe2 x8b x82w sw sa s carefully chosen whitelist reduces s xe2 x8b x82w sw significantly reduce compromise probability assuming adversary ability execute effective traffic timing analysis attacks multi hop circuit significantly lower",
+    "metadata": {
+      "chunk_id": "b4f3c58318ed822a47bc30035c1b6ac8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 105] whitelist reduces s xe2 x8b x82w sw significantly reduce compromise probability assuming adversary ability execute effective traffic timing analysis attacks multi hop circuit significantly lower selection probability s b p compromise x k xe2 x8b x82w k 2 b w t 23 xk represents k hop circuit adversary control node circuit infer complete path typical 3 hop circuit attacker control 2 specific nodes parameters whitelist probability user connected adversary xe2 x80 x99s file sharing node compromised 3 hop circuit 10 6 advanced adversary use active flow correlation analysis reduce effectiveness multi hop circuits injecting temporal fingerprint patterns traffic stream detecting endpoint theory adversary correlate compromise lengthy circuit controlling orchid entrance node endpoint filesharing node case 23 25 orchid client help defend attacks optional use bandwidth burning padding packet stream dummy data packets emulate continuous low variance flow attempt erase detectable temporal signals",
+    "metadata": {
+      "chunk_id": "77d4af4b509d38f5f0fdce3330fb9b2e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 106] case 23 25 orchid client help defend attacks optional use bandwidth burning padding packet stream dummy data packets emulate continuous low variance flow attempt erase detectable temporal signals use case believe advanced traffic analysis attacks unlikely type adversary limited user budget traffic analysis techniques provide statistical correlation evidence useful surveillance generally significant false positive rates 6 4 avoiding isp censorship countries censor politically objectionable internet content 69 typically enforced local isps internet service providers extent censorship varies considerably country country roughly divide use case main categories countries censor permit vpn use e g indonesia pakistan thailand restrictive countries censor extensively outlaw restrict vpn usage e g china russia weak censoring adversaries orchid evade internet censorship countries vpn proxy services permitted straightforward client use simple geographic filter select nodes outside restricted",
+    "metadata": {
+      "chunk_id": "1cad29c0422bcf9e1865fb1fab533fa0",
+      "entities": {
+        "location": [
+          "china",
+          "russia"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 107] e g china russia weak censoring adversaries orchid evade internet censorship countries vpn proxy services permitted straightforward client use simple geographic filter select nodes outside restricted country practice unnecessary exit nodes restricted countries unlikely receive traffic exit nodes tend cluster locations little censorship adversary countries xe2 x80 x98weak xe2 x80 x99 sense invest significant resources preventing censorship evasion strong censoring adversaries countries vpn proxy services actively restricted present challenge china particular implemented extensive technological solution comprehensive internet surveillance censorship dubbed great firewall china gfw china begun issuing fines individuals caught vpns 70 nonetheless external vpns remains popular china 71 providers playing constant game cat mouse adversary capabilities particular especially relevant censorship evasion x0c xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f gfw uses deep packet inspection detect likely vpn",
+    "metadata": {
+      "chunk_id": "be8fd6aa8fa35a85ddb6f012fe68cda7",
+      "entities": {
+        "location": [
+          "china",
+          "russia"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 108] playing constant game cat mouse adversary capabilities particular especially relevant censorship evasion x0c xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f gfw uses deep packet inspection detect likely vpn proxy servers en masse gfw employs active probing inspect suspected servers 72 gfw uses automated manual processes ban ip addresses associated vpn proxy services orchid client builds tunnel connections webrtc adds layer obfuscation evade detection deep packet inspection tools tuned generic vpn proxy recognition orchid popular china likely adapt gfw packet inspection systems recognize orchid webrtc traffic requiring obfuscation plugin development problematically main orchid discovery process relies public node directory published ethereum blockchain section 4 2 orchid popular china warrant attention likely gfw automatically monitor ethereum blockchain ban ip addresses listd orchid nodes public directory despite obstacles chinese citizens use orchid limited grass roots fashion friends",
+    "metadata": {
+      "chunk_id": "40a70323287b1d5312d3056ba7766803",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 109] attention likely gfw automatically monitor ethereum blockchain ban ip addresses listd orchid nodes public directory despite obstacles chinese citizens use orchid limited grass roots fashion friends enthusiasts outside country run potentially free entry nodes share addresses privately supporters philanthropists support cause distributing oxt cryptocurrency private social channels secret orchid node addresses core design improvements better evade gfw facilitate oxt distribution china exciting future research directions section 7 6 5 surveillance evasion internet surveillance generally widespread internet censorship isps jurisdictions legal obligation comply valid surveillance requests law enforcement widespread extralegal surveillance operations major western intelligence agencies open secret decompose broad scenario models assuming different combinations capabilities adversary passive isp monitoring world internet service providers isps capability affordance monitor log internet",
+    "metadata": {
+      "chunk_id": "7a029752a50c930a599350a9a0fdb482",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 111] deep packet inspection techniques single hop circuit provides protection adversary employing website fingerprinting techniques 65 xe2 x80 x9367 multi hop circuits reduce precision recall effectiveness attacks render ineffective assume correlation techniques expensive employ en masse potential threat targeted users passive isp endpoint monitoring scenario adversary gains ability monitor endpoint traffic actively shape control user xe2 x80 x99s entry traffic isp scenario corresponds agency actively x0csurveilling specific endpoints e g websites traffic analysis gather information users targeted endpoints adversary finds ip addresses targeted users use acquire additional traffic logs personal information user isp adversary additionally employ passive flow correlation techniques 20 22 assume techniques expensive employ en masse traffic flowing isp instead adversary limited analysis budget target likely user ip addresses correlation single hop circuit suffices evade surveillance case",
+    "metadata": {
+      "chunk_id": "b9a470fc3083480844eaceeba892e2cd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 112] techniques expensive employ en masse traffic flowing isp instead adversary limited analysis budget target likely user ip addresses correlation single hop circuit suffices evade surveillance case assuming endpoint connection encrypted https ssl user targeted adversary connection orchid node endpoint able easily determine user xe2 x80 x99s ip address discussed section 5 8 adversary fully monitoring traffic endpoint able correlate timing traffic orchid node endpoint redemption winning ticket node ticket reveal payer xe2 x80 x99s orchid nanopayment address adversary trace user users avoid taking appropriate steps anonymize oxt cryptocurrency endpoint orchid infiltration consider adversary crucially capability monitor data user xe2 x80 x99s isp instead infiltrate endpoint orchid network model realistic users isps log traffic scale share significant traffic data adversaries flow correlation attacks difficult capability monitor traffic link user orchid node adversary infiltrate orchid",
+    "metadata": {
+      "chunk_id": "42cc8e49fcc7b17cade6a68509679817",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 113] model realistic users isps log traffic scale share significant traffic data adversaries flow correlation attacks difficult capability monitor traffic link user orchid node adversary infiltrate orchid network perform flow correlation attacks effectiveness gained infiltration depends adversary xe2 x80 x99s budget orchid nodes staking mechanism ensures relatively high capture cost user additionally orchid gains users cost capturing fixed percentage orchid connections increases proportion discussed section 4 4 adversary compromise circuit requesting logs colluding orchid node operator keeps traffic logs provides adversary controlling orchid node directly compromise probability single node p compromise x p x xe2 x8a x86 xce xb1 1 xe2 x88 x92 p x xe2 x8a x86 xce xb1 p x xe2 x8a x86 p x xe2 x8a x86 xce xb1 p x xe2 x8a x86 s xce xb1 xe2 x8b x82w sw s xe2 x8b x82w sw 24 25 26 x randomly selected orchid node xce xb1 set colluding orchid nodes log data adversary set orchid nodes adversary",
+    "metadata": {
+      "chunk_id": "b1566be49dfec6545b31a98cc443b61e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 114] x8a x86 xce xb1 p x xe2 x8a x86 s xce xb1 xe2 x8b x82w sw s xe2 x8b x82w sw 24 25 26 x randomly selected orchid node xce xb1 set colluding orchid nodes log data adversary set orchid nodes adversary controls directly w client xe2 x80 x99s whitelist set orchid nodes s w total oxt stake nodes w s xce xb1 xe2 x8b x82w total oxt stake nodes xce xb1 xe2 x8b x82 w set colluding nodes w s xe2 x8b x82w total oxt stake nodes xe2 x8b x82 w set adversary nodes w adversary needs direct ip address metadata confirm links multi hop circuit need compromise edge node multi hop circuit compromise probability power function single hop probability x0cp compromise x k s xce xb1 xe2 x8b x82w sw 1 xe2 x88 x92 s xce xb1 xe2 x8b x82w s xe2 x8b x82w k 2 sw sw 27 multi hop circuits provide significantly greater security adversary afford traffic analysis imperfect statistical precision recall acceptable adversary uses flow correlation techniques discussed section 6 1 multi hop circuits provide compromise",
+    "metadata": {
+      "chunk_id": "61ce1cc9148f6bdcf96f81a7a0c64e7c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 115] security adversary afford traffic analysis imperfect statistical precision recall acceptable adversary uses flow correlation techniques discussed section 6 1 multi hop circuits provide compromise probability similar single hop circuits eq 24 strong adversaries powerful adversaries ability control packets isp autonomous system level adversary capability monitor traffic user xe2 x80 x99s isp correlate users websites multi hop circuit website fingerprinting attacks primary obstacle cost clients use bandwidth burning provide degree protection attacks padding encrypted traffic stream send uniform size packets highly regular schedule insensitive underlying data stream breaks temporal correlations traffic analysis techniques depend adversaries significant user analysis budgets stronger sensing inference capabilities defeat multi hop circuits absent additional protection measures discuss possibilities future work section 7 future work orchid enables bandwidth marketplace decentralized proxy",
+    "metadata": {
+      "chunk_id": "11a6fba18942c87d65c9a6483ebcf76a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 116] inference capabilities defeat multi hop circuits absent additional protection measures discuss possibilities future work section 7 future work orchid enables bandwidth marketplace decentralized proxy services scalable chain nanopayments starting foundation identified numerous routes improvement anonymity usability censorship resistance economic security traffic analysis resistance orchid xe2 x80 x99s current routing design minimizes latency maximizes bandwidth expense anonymity presence traffic analysis attacks tradeoffs latency bandwidth anonymity likely fundamental 26 users desire stronger anonymity use bandwidth burning constant rate transmission streams help defeat traffic analysis erasing time varying signature improvements bandwidth burning likely required defeat inference attacks 73 leave analysis future work independent improvements latency aware route construction enable longer circuits latency improved mixing sparser connection graph streams mixed fewer active edges payment",
+    "metadata": {
+      "chunk_id": "9d4fe6f4d43cd4f1b74fb9c2f88c4fd5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 117] leave analysis future work independent improvements latency aware route construction enable longer circuits latency improved mixing sparser connection graph streams mixed fewer active edges payment anonymity orchid xe2 x80 x99s nanopayment system built ethereum semi anonymous users requiring payment anonymity need externally anonymize oxt cryptocurrency funding nanopayment accounts creates usability hurdle alternatively orchid nanopayments circuits allow high speed mixing directory service repurposed advertise nodes provide mixing register mixing peers use case potentially strain double spend griefing defense mechanisms 5 10 require improvements double spend detection prevention x0clow variance nanopayments current orchid nanopayment mechanism fundamental variance overhead tradeoff core source variance statistical independence tickets variance potentially eliminated mutually exclusive ticket scheme simplest form entail single winning ticket payment account single winner entire set",
+    "metadata": {
+      "chunk_id": "072f754374a712fdb38a2b240be208c7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 118] source variance statistical independence tickets variance potentially eliminated mutually exclusive ticket scheme simplest form entail single winning ticket payment account single winner entire set tickets variance eliminated tradeoff mutually exclusive tickets require deferring ticket winner determination future multi party source entropy instead simple party entropy protocol ethereum blockchain simple source entropy probably sufficiently secure small transaction values nanopayment settlements require deferred winner determination entails larger volume unsettled payments flight incurring additional nanopayment storage costs traffic obfuscation ongoing arms race competing research fields traffic obfuscation detection traffic obfuscators use strategies randomization 74 75 transformation mimicry 76 tunneling 76 77 generative modeling 78 unfortunately techniques susceptible machine learning based detection 27 systems trained examples real obfuscated traffic generally stronger obfuscators",
+    "metadata": {
+      "chunk_id": "960188be2f247a76cabd86c60db5b9a4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 119] 76 tunneling 76 77 generative modeling 78 unfortunately techniques susceptible machine learning based detection 27 systems trained examples real obfuscated traffic generally stronger obfuscators require compute byte obfuscation problem formulated type gan 79 objective generator learns transform traffic stream evade detection preserving reversibility reconstruction property discriminator learns distinguish real transformed streams opens door deep learning based obfuscators detectors improved censorship resistance orchid xe2 x80 x99s ability evade state level censorship primarily limited public advertising nodes ethereum blockchain stronger censorship resistance require form private advertising model game bandwidth seller seeks advertise unblocked ip addresses legitimate customers hiding adversary seller gains expected future revenue value legitimate customer learns ip address adversary discovers ip address blocks remaining future revenue value lost viable strategy seller use affiliate",
+    "metadata": {
+      "chunk_id": "5658030afb8e44086ddadb9b277ee65e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 120] seller gains expected future revenue value legitimate customer learns ip address adversary discovers ip address blocks remaining future revenue value lost viable strategy seller use affiliate scheme reward advertising peers fraction future revenue stream create market niche affiliates good finding advertising node addresses legitimate users avoiding adversarial colluders whitelist surety bonds magnify positive incentive alignment affects staking stake weighting allowing oxt staked node xe2 x80 x99s inclusion particular whitelist node removed list stake withdrawn stake deposit forfeited burnt stake like surety bond allowing node providers prove trustworthiness putting money risk event bad behavior idea simple requires careful incentive design verification welcome develop curated lists innovative incentive structures 8 acknowledgements orchid collaborative team project like especially thank gustav simonsson david salamon substantive intellectual contributions including authorship",
+    "metadata": {
+      "chunk_id": "a55c3b8cc7bdfbe30b02ae3f7f4241ed",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 121] innovative incentive structures 8 acknowledgements orchid collaborative team project like especially thank gustav simonsson david salamon substantive intellectual contributions including authorship version 0 9 2 whitepaper x0creferences 1 dingledine r mathewson n syverson p tor second generation onion router internet 2004 available http dx doi org 10 21236 ada465464 2 shahbar k nur zincir heywood effects shared bandwidth anonymity i2p network users internet 2017 ieee security privacy workshops spw 2017 available http dx doi org 10 1109 spw 2017 19 3 chaum d untraceable electronic mail return addresses digital pseudonyms internet advances information security 2003 p 211 xe2 x80 x939 available http dx doi org 10 1007 978 1 4615 0239 5 14 4 hashcash internet 2002 cited 2019 sep 10 available http www hashcash org hashcash pdf 5 bitcoin peer peer electronic cash system internet cited 2019 sep 10 available https bitcoin org bitcoin pdf 6 orchid 0 9 2 internet 2019 cited 2019 sep 10",
+    "metadata": {
+      "chunk_id": "d15eb91ec54f40a1260dc888f1dac670",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 122] http www hashcash org hashcash pdf 5 bitcoin peer peer electronic cash system internet cited 2019 sep 10 available https bitcoin org bitcoin pdf 6 orchid 0 9 2 internet 2019 cited 2019 sep 10 available https www orchid com assets whitepaper whitepaper pdf 7 stoica morris r liben nowell d karger dr kaashoek mf dabek f et al chord scalable peer peer lookup protocol internet applications internet vol 11 ieee acm transactions networking 2003 p 17 xe2 x80 x9332 available http dx doi org 10 1109 tnet 2002 808407 8 wood dd ethereum secure decentralised generalised transaction ledger 2014 cited 2019 sep 11 available https pdfs semanticscholar org ee5f d86e5210b2b59f932a131fda164f030f915e pdf 9 protocol packet network intercommunication internet best best 2009 available http dx doi org 10 1109 9780470546543 ch54 10 fadilpa scaron s china xe2 x80 x9chijacked traffic xe2 x80 x9d spy west internet itproportal itproportal 2018 cited 2019 nov 17 available https www itproportal com news china",
+    "metadata": {
+      "chunk_id": "3b7a5da5ae1a2dfad3ff35c098734dbf",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 126] dingledine r wallach ds building incentives tor internet financial cryptography data security 2010 p 238 xe2 x80 x9356 available http dx doi org 10 1007 978 3 642 14577 3 19 22 androulaki e raykova m srivatsan s stavrou bellovin sm par payment anonymous routing internet privacy enhancing technologies p 219 xe2 x80 x9336 available http dx doi org 10 1007 978 3 540 70630 4 14 23 ghosh m richardson m ford b jansen r torpath torcoin proof bandwidth altcoins compensating relays 2014 jul 18 cited 2019 sep 23 available https apps dtic mil dtic tr fulltext u2 a621867 pdf 24 protocol interledger payments internet cited 2019 sep 23 available https pdfs semanticscholar org ab98 c62a7efdc5362c7f36589680597a93f3111f pdf 25 khosla saran v zoghb n techniques privacy interledger 2018 cited 2019 sep 23 available https pdfs semanticscholar org 02f3 aae499723063cf9c3cc42508cae13d16aa7d pdf 26 das d meiser s mohammadi e kate anonymity trilemma strong anonymity low bandwidth overhead low latency choose",
+    "metadata": {
+      "chunk_id": "8d8bc240604d3f34d0034f91dbd6a2fd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 127] available https pdfs semanticscholar org 02f3 aae499723063cf9c3cc42508cae13d16aa7d pdf 26 das d meiser s mohammadi e kate anonymity trilemma strong anonymity low bandwidth overhead low latency choose internet 2018 ieee symposium security privacy sp 2018 available http dx doi org 10 1109 sp 2018 00011 27 wang l dyer kp akella ristenpart t shrimpton t seeing network protocol obfuscation internet proceedings 22nd acm sigsac conference computer communications security ccs xe2 x80 x9915 2015 available http dx doi org 10 1145 2810103 2813715 28 budish e economic limits bitcoin blockchain internet 2018 available http dx doi org 10 3386 w24717 29 website internet cited 2019 oct 2 available https bitinfocharts com comparison ethereum transactionfees html 30 bitcoin avg transaction fee chart internet bitinfocharts cited 2019 oct 2 available https bitinfocharts com x0c31 khattak s elahi t simon l swanson cm murdoch sj goldberg sok making sense censorship resistance systems internet vol 2016",
+    "metadata": {
+      "chunk_id": "b71302d1a5a18ad857d42b5ba4161b91",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 129] 2 available http www investopedia com terms r reconciliation asp 38 title internet cited 2019 oct 2 available https www aba com media archives endorsed rippleshot state card fraud pdf 39 mian hameed khayyam m ahmed f beraldi r enhancing communication adaptability payment card processing networks internet vol 53 ieee communications magazine 2015 p 58 xe2 x80 x9364 available http dx doi org 10 1109 mcom 2015 7060519 40 banks wikileaks ny times internet 2010 dec 25 cited 2019 oct 2 available https www nytimes com 2010 12 26 opinion 26sun3 html 41 common credit card processing fees internet quora cited 2019 oct 2 available https www quora com common credit card processing fees 42 website internet cited 2019 oct 2 available https www nerdwallet com blog banking wire transfers banks charge 43 website internet cited 2019 oct 2 available https www valuepenguin com credit card processing fees costs 44 website internet cited 2019 oct 2 available https www economist com blogs dailychart 2010 12",
+    "metadata": {
+      "chunk_id": "a7b42d8e02415294377b269fa67d0d29",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 130] internet cited 2019 oct 2 available https www valuepenguin com credit card processing fees costs 44 website internet cited 2019 oct 2 available https www economist com blogs dailychart 2010 12 remittances 45 website internet cited 2019 oct 2 available https financefeeds com alipay vs wechat pay vs unionpay important research 46 joseph poon td bitcoin lightning network scalable chain instant payments internet available https lightning network lightning network paper pdf 47 title internet cited 2019 oct 2 available https www usenix org system files conference usenixsecurity15 sec15 paper heilman pdf 48 wheeler d transactions bets internet security protocols 1997 p 89 xe2 x80 x9392 available http dx doi org 10 1007 3 540 62494 5 7 49 rivest rl peppercoin micropayments internet financial cryptography 2004 p 2 xe2 x80 x938 available http dx doi org 10 1007 978 3 540 27809 2 2 50 pass r shelat micropayments decentralized currencies internet proceedings 22nd acm sigsac conference computer",
+    "metadata": {
+      "chunk_id": "13929583fbaf3b7ce21a213b747d7a49",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 131] 2004 p 2 xe2 x80 x938 available http dx doi org 10 1007 978 3 540 27809 2 2 50 pass r shelat micropayments decentralized currencies internet proceedings 22nd acm sigsac conference computer communications security ccs xe2 x80 x9915 2015 available x0chttp dx doi org 10 1145 2810103 2813713 51 ethereum avg transaction fee chart internet bitinfocharts cited 2019 oct 2 available https bitinfocharts com 52 website internet cited 2019 oct 2 available https etherscan io chart gaslimit 53 website internet cited 2019 oct 2 available https etherscan io chart blocktime 54 nasr m bahramali houmansadr deepcorr strong flow correlation attacks tor deep learning proceedings 2018 acm sigsac conference computer communications security acm 2018 p 1962 xe2 x80 x9376 55 borisov n danezis g mittal p tabriz p denial service denial security proceedings 14th acm conference computer communications security acm 2007 p 92 xe2 x80 x93102 56 sun y edmundson vanbever l li o rexford j chiang m et al raptor routing",
+    "metadata": {
+      "chunk_id": "d8ecec69ec3306b50aba8480417bbf26",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 136] https www pcmag com news 365860 china starts issuing 145 fines vpn 71 vpn usage statistics global trends vpn industry internet geosurf 2019 cited 2019 sep 15 available https www geosurf com blog vpn usage statistics 72 ensafi r fifield d winter p feamster n weaver n paxson v examining great firewall discovers hidden circumvention servers internet proceedings 2015 acm conference internet measurement conference imc xe2 x80 x9915 2015 available http dx doi org 10 1145 2815675 2815690 73 chen chen c asoni de perrig barrera d danezis g et al taranet traffic analysis resistant anonymity network layer internet 2018 ieee european symposium security privacy euros p 2018 available http dx doi org 10 1109 eurosp 2018 00018 74 meiklejohn s mercer r m xc3 xb6bius trustless tumbling transaction privacy internet vol 2018 proceedings privacy enhancing technologies 2018 p 105 xe2 x80 x9321 available http dx doi org 10 1515 popets 2018 0015 75 winter p pulls t fuss j scramblesuit polymorph network",
+    "metadata": {
+      "chunk_id": "83d4ba52b753277945ace805174f2d64",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Orchid.txt"
+    }
+  },
+  {
+    "text": "[Section 137] internet vol 2018 proceedings privacy enhancing technologies 2018 p 105 xe2 x80 x9321 available http dx doi org 10 1515 popets 2018 0015 75 winter p pulls t fuss j scramblesuit polymorph network protocol circumvent censorship internet 2013 cited 2019 sep 18 available http arxiv org abs 1305 3199 76 moghaddam hm skypemorph protocol obfuscation censorship resistance 2013 54 p 77 brubaker c houmansadr shmatikov v cloudtransport cloud storage censorship resistant networking internet privacy enhancing technologies 2014 p 1 xe2 x80 x9320 available http dx doi org 10 1007 978 3 319 08506 7 1 78 dyer kp coull se shrimpton t marionette programmable network traffic obfuscation system 24th usenix security symposium usenix security 15 2015 p 367 xe2 x80 x9382 79 goodfellow pouget abadie j mirza m xu b warde farley d ozair s et al generative adversarial nets advances neural information processing systems 2014 p 2672 xe2 x80 x9380 x0c",
+    "metadata": {
+      "chunk_id": "08fff74fb0c120a5c4f59875a44240e9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Orchid.txt"
+    }
+  }
+]

@@ -1,0 +1,294 @@
+[
+  {
+    "text": "[Section 1] b pascal coin white paper v1 0 xe2 x80 x93 july 2016 document translation original document written catalan include errors pascal coin crypto currency need historical operations important document translation original pascal coin white paper written c atalan language include translation errors definition pascal coin cryptographic virtual currency 1 operated p2p protocol works account numbers instead public keys allows predictable account numbers efficiently storing balance avoiding need consult past operations operations need check current balance way operate account numbers cryptographic keys account number unique pin cryptographic key modified time pin operate account account valid pin introduction document intended define variant cryptographic currency based knowledge provided bitcoin 1 reading document recommended deep technical knowledge bitcoin understand concepts presented history 2009 thanks invention bitcoin new method creating virtual currency transactions central authority",
+    "metadata": {
+      "chunk_id": "47b30afb9f681429cfd32d2c0743fd82",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 2] 1 reading document recommended deep technical knowledge bitcoin understand concepts presented history 2009 thanks invention bitcoin new method creating virtual currency transactions central authority created method included new elements basis bitcoin new virtual coins created blockchain 1 5 block chain source data stored historical transactions secure transactions storing merkle tree 2 5 prevents operation carried duplicate corresponding funds double spent mining 1 6 5 mining process unique basis creation block chain generation new currency mining way guarantee blocks consistency method provides gratification bitcoin generating new currency similar normal transaction bitcoin aspects distinguish traditional bank firstly account numbers correspond cryptographic key 4 easily usable electronically size 25 bytes stored 26 65 characters base 58 means person wants transaction account number necessary xc2 xa9 albert molina 2016 bpascalblockchain gmail com 1 8 x0cpascal coin white paper v1 0",
+    "metadata": {
+      "chunk_id": "8ef4ad353e234b61224e167f79225abb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 3] size 25 bytes stored 26 65 characters base 58 means person wants transaction account number necessary xc2 xa9 albert molina 2016 bpascalblockchain gmail com 1 8 x0cpascal coin white paper v1 0 xe2 x80 x93 july 2016 document translation original document written catalan include errors able read electronically manually difficult enter account number mistakes provides mechanisms detect errors contains checksum verify transaction needs mention previous transaction income able spend look balance bank account transfer obviously transfer previously spent mechanism ensures perfect operation involves historical transactions affecting bitcoin address consequently miner historical transactions important aspect fact loses key operate bitcoin able withdraw funds address generate private key secondary certainly destabilizing currencies bitcoin majority addresses generated years life theoretically created author bitcoin satoshi nakamoto certainly creator knows lost happen suddenly discovered today",
+    "metadata": {
+      "chunk_id": "79651b553d83b627457834bf447b5f2e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 4] certainly destabilizing currencies bitcoin majority addresses generated years life theoretically created author bitcoin satoshi nakamoto certainly creator knows lost happen suddenly discovered today likely massive devaluation previous price ignorance factor wrongly assuming bitcoins lost mind bitcoin operates elliptic curve cryptographic keys secp256k1 4 today key considered safe guarantee incoming years key vulnerable lose efficiency alternative proposed pascalcoin pascalcoin proposes alternative basic operation bitcoin change aspects working new virtual currency xe2 x80 xa2 pascalcoin operates traditional numbered account like bank instead directions correspond elliptic curve public key secp256k1 xe2 x80 xa2 pascalcoin don t need search transactions received account directly query balance stored safe box need historical transaction work historic transactions stored chain block serves ensure safe box handled inappropriately xe2 x80 xa2 pascalcoin provides standard way include concept",
+    "metadata": {
+      "chunk_id": "b75c54dacd497cbdcba0b5427266a674",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 5] stored safe box need historical transaction work historic transactions stored chain block serves ensure safe box handled inappropriately xe2 x80 xa2 pascalcoin provides standard way include concept transaction payload 5 intended recipient read achieved public key known everybody encrypt messages owner private key decrypt xe2 x80 xa2 pascalcoin provides method set protocol retrieve coins instead lost key method applies certain time owner operation account private key xe2 x80 xa2 operations performed depend programming language like bitcoin fixed protocol version 1 protocol supported following xc2 xa9 albert molina 2016 bpascalblockchain gmail com 2 8 x0cpascal coin white paper v1 0 xe2 x80 x93 july 2016 document translation original document written catalan include errors o transaction 1 1 o change key operate account o recover money stored unoperative account lost key xe2 x80 xa2 possibility creating new types operations new revisions protocol open upgrade o way know miners accept new",
+    "metadata": {
+      "chunk_id": "f3343470718f511be65d09ee837cbb85",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 6] o change key operate account o recover money stored unoperative account lost key xe2 x80 xa2 possibility creating new types operations new revisions protocol open upgrade o way know miners accept new versions protocol including protocol version upgrade proposal chain blocks miners choose criteria begin accepting new protocol mined blocks assuming risk creating orphan blocks 5 sample transfer bitcoin transaction indicate target bitcoin address exist example transaction abcdef xyz zyx cdba x transaction needs private key address ordering transaction key generates public address abcdef xyz need indicate previous transaction received address spend tx pascalcoin indicate account number source destination address keys numbers necessarily exist source destination account number transaction 1234 4321 x transaction pascalcoin needs private key 1264 address case necessary know previously transaction received 1264 spend current balance advantages method fact transaction indicate previously",
+    "metadata": {
+      "chunk_id": "d61e281aa7f9d76d951790a7ad1a3f8c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 7] 1234 4321 x transaction pascalcoin needs private key 1264 address case necessary know previously transaction received 1264 spend current balance advantages method fact transaction indicate previously transaction implies don t need look historical stored transaction quickly check operation balance known stored account freeing disk space miners advantage use different types private keys key secp256k1 bitcoin improves safety chain blocks mining generates new currency generate account numbers operate public key known bitcoin carried operation address pascalcoin encrypt messages public key target intended recipient decrypt message similarity traditional bank account number operation concept xc2 xa9 albert molina 2016 bpascalblockchain gmail com 6 8 x0cpascal coin white paper v1 0 xe2 x80 x93 july 2016 document translation original document written catalan include errors disadvantages method compared bitcoin operate account numbers quantity limited number units produced bitcoin address",
+    "metadata": {
+      "chunk_id": "1ae63db578b3f011b8bce205f38f02ef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 8] july 2016 document translation original document written catalan include errors disadvantages method compared bitcoin operate account numbers quantity limited number units produced bitcoin address quantity virtually unlimited time generate new block calculate new output value block grow size sequentially calculation new checksum needed safe box hash calculation fast negative factor compared bitcoin process increasingly expensive new item safe box pascalcoin safe box save address includes elements perform operations safely internally safe box set blocks called accountblock block generated block block chain accountblock contains account numbers generated plus checksum ensure integrity block tampered distinguishing features safe incorporating general checksum hash guarantees status accounts particular time value known safe box hash undermine new blockchain guarantees tampered safe calculations yeneral operation pascalcoin block zero block zero point safe box account inside miners seek",
+    "metadata": {
+      "chunk_id": "075723fda0db11be80adf47e76bffa33",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 9] particular time value known safe box hash undermine new blockchain guarantees tampered safe calculations yeneral operation pascalcoin block zero block zero point safe box account inside miners seek new block blockchain satisfying condition proof work 5 considering safe box hash initial fixed value hardcoded created account block creates n accounts accountblock consists n accounts modifying safe calculate new safe box hash block blockchain number account numbers safe box equal quantity mined blocks n n corresponds constant defined protocol x block miners seek new block meets requirements proof work taking starting safe box hash block x 1 receive operations incorporated merkle tree meet requirements case look historical chain blocks check veracity operation check balance account status safe box corresponds requested operation receiving valid operation modifies state merkle tree operations basis calculating proof work xc2 xa9 albert molina 2016 bpascalblockchain gmail com 4 8 x0cpascal",
+    "metadata": {
+      "chunk_id": "546ce0a9742b0e9f92a484855002de27",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 10] box corresponds requested operation receiving valid operation modifies state merkle tree operations basis calculating proof work xc2 xa9 albert molina 2016 bpascalblockchain gmail com 4 8 x0cpascal coin white paper v1 0 xe2 x80 x93 july 2016 document translation original document written catalan include errors technical specifications objects pascal coin account account contains account number type unsigned 62 bits public ec key balance public key type x y 66 200 bytes unsigned 64 bits updated block unsigned 62 bits n operation unsigned 62 bits description ordinal number single account value unchanged forever public key pin account value changed time account balance calculated operations block chain number block block chain operated account value let know account inoperative order rescue balance incremental value indicates transactions account ensures orders operations unique duplicable block account account numbers grouped blocks block account block generated time miner creates new",
+    "metadata": {
+      "chunk_id": "f8f00896cbb156b810ac767099ff1344",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 11] balance incremental value indicates transactions account ensures orders operations unique duplicable block account account numbers grouped blocks block account block generated time miner creates new block block chain operations transforms affected blocks protocol version specify accounts generated block content block account follows block number type unsigned 62 bits accounts timestamp array n accounts unsigned 62 bits block hash 62 bytes description block number equivalent block chain value unchanged forever fixed array size n account numbers generated block unix timestamp generated value unchanged forever hash value block changes time chain block change account included block account ensures integrity block finally safe box contains checksum hash xe2 x80 x9cblock hash xe2 x80 x9d value known safe box hash block chain block chain similar bitcoin adding calculation safe box hash indicating state safe box applying operations included block chain merkle tree xc2 xa9 albert molina 2016",
+    "metadata": {
+      "chunk_id": "d96ee53b1d04ecd78985c83b4fae8516",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 12] known safe box hash block chain block chain similar bitcoin adding calculation safe box hash indicating state safe box applying operations included block chain merkle tree xc2 xa9 albert molina 2016 bpascalblockchain gmail com 5 8 x0cpascal coin white paper v1 0 xe2 x80 x93 july 2016 document translation original document written catalan include errors blockchain contains following fields block number account key reward fee protocol version protocol available timestamp compact target nonce old safe box hash operations hash proof work type unsigned 62 bits public key type x y 66 200 bytes unsigned 64 bits unsigned 64 bits unsigned 16 bits unsigned 16 bits unsigned 62 bits unsigned 62 bits unsigned 62 bits 62 bytes 62 bytes 62 bytes description block number generated miners correlative n accounts generated public key protocol version protocol number apply miner owner block serves future protocol upgrades unix timestamp value safe box hash operations carried block merkle tree hash",
+    "metadata": {
+      "chunk_id": "fed6591954f061d4f5c1ca65db3d02ae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 13] n accounts generated public key protocol version protocol number apply miner owner block serves future protocol upgrades unix timestamp value safe box hash operations carried block merkle tree hash protocol include additional fields like payload xe2 x80 xa6 xc2 xa9 albert molina 2016 bpascalblockchain gmail com 6 8 x0cpascal coin white paper v1 0 xe2 x80 x93 july 2016 document translation original document written catalan include errors security yuarantee safe box integrity check safe box intact correct perform following operations xe2 x80 xa2 block account calculate block hash xe2 x80 xa2 finally calculate safe box hash hash block hash xe2 x80 xa2 value safe box hash unique safe box depending number units contain manipulate blockchain generated initial safe box hash unique block chain yeneration block chain previous safe box ensure safe box manipulates safe block hash included block chain safe box xe2 x80 x9cx 1 xe2 x80 x9d accounts x 1 accountsperblock safe box hash abcd blockchain",
+    "metadata": {
+      "chunk_id": "77ad19b661e6f83e990b47ddf2f4cee4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 14] block chain previous safe box ensure safe box manipulates safe block hash included block chain safe box xe2 x80 x9cx 1 xe2 x80 x9d accounts x 1 accountsperblock safe box hash abcd blockchain xe2 x80 x9cx xe2 x80 x9d safe box hash abcd operations hash defg merkle tree operations count y operations hash defg proof work 000000a6b957 xe2 x80 xa6 processing y operations generate new safe box safe box xe2 x80 x9cx xe2 x80 x9d accounts x accountsperblock safe box hash efgh blockchain xe2 x80 x9cx 1 xe2 x80 x9d safe box hash efgh operations hash mnop merkle tree operations count z operations hash mnop proof work 00000074cc28 xe2 x80 xa6 processing z operations generate new safe box xe2 x80 xa6 xc2 xa9 albert molina 2016 bpascalblockchain gmail com 7 8 x0cpascal coin white paper v1 0 xe2 x80 x93 july 2016 document translation original document written catalan include errors duplicate operations control account contains field called n operation incremental integer new operation sent indicates",
+    "metadata": {
+      "chunk_id": "c50b7a39299d2d3f336a91259fa04f7b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 15] july 2016 document translation original document written catalan include errors duplicate operations control account contains field called n operation incremental integer new operation sent indicates new value n operation 1 operations signed possible create operations n operation accepted miner valid discarding second value correspond 1 hard coded safe box advantage method allows necessary view history operations want starting point block chain different block 0 space saving downloading future implementations accomplished hard code safebox generated previous predetermined time hard code implemented initial value found true follows determine safe box blockchain x right access blockchain x generated calculate result safe box hash ensure correct block 0 original references 1 xe2 x80 x93 satoshi nakamoto xe2 x80 x9cbitcoin peer peer electronic cash system xe2 x80 x9d https bitcoin org bitcoin pdf 2 xe2 x80 x93 r c merkle protocols public key cryptosystems proc 1980 symposium security",
+    "metadata": {
+      "chunk_id": "669c75c9d99e19ca66606922e399be74",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  },
+  {
+    "text": "[Section 16] satoshi nakamoto xe2 x80 x9cbitcoin peer peer electronic cash system xe2 x80 x9d https bitcoin org bitcoin pdf 2 xe2 x80 x93 r c merkle protocols public key cryptosystems proc 1980 symposium security privacy ieee computer society pages 122 166 april 1980 6 hashcash denial service counter measure http www hashcash org papers hashcash pdf 2002 4 xe2 x80 x93 certicom corp xe2 x80 x9csec 2 recommended elliptic curve domain parameters xe2 x80 x9d http www secg org sec2 v2 pdf 5 xe2 x80 x93 bitcoin foundation xe2 x80 x9cbitcoin wiki xe2 x80 x9d https en bitcoin wiki xc2 xa9 albert molina 2016 bpascalblockchain gmail com 8 8 x0c",
+    "metadata": {
+      "chunk_id": "d8faa3ab9557fe7ed8288fe92b28f6cc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Pascal Coin.txt"
+    }
+  }
+]

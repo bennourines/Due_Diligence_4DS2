@@ -1,0 +1,864 @@
+[
+  {
+    "text": "[Section 1] b reserve stabilization protocol prior implementation reserve protocol reserve core team publish updates white paper substantial updates subject correction completion amendment notice visit reserve org date documentation reserve protocol taylor brent daniel colson matt elder henry fisher nevin freeman jesper o xcc x88stman elizabeth van nostrand updated september 19 2019 volatility existing cryptocurrencies significantly reduces usefulness cryptocurrency stable value permit wider usage stable store value medium exchange standard deferred payment demand short term long term stable cryptocurrency obvious feasibility implementing xe2 x80 x94clear flaws demonstrated recently proposed designs 1 2 3 paper present arguments coin implement exchangerate peg fiat currency basket assets later chain foreign collateral tokenized diversity issuers describe reserve protocol decentralized stablecoin system scales supply demand built maintain 100% chain collateral backing design strikes careful balance",
+    "metadata": {
+      "chunk_id": "059851cf0c8d979bbc420e1b8d28bd02",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 2] collateral tokenized diversity issuers describe reserve protocol decentralized stablecoin system scales supply demand built maintain 100% chain collateral backing design strikes careful balance stability decentralization profitability supporting arbitrary increases decreases demand reasons believe reserve ideal economic building block blockchain ecosystem credible alternative fiat money 1 x0ccontents 1 introduction 4 2 2 1 2 2 2 3 2 4 2 5 opportunity stable cryptocurrencies growing cryptoasset ecosystem supporting emerging markets globalizing commerce iterating fundamentals capitalism nature opportunity 4 4 5 8 8 9 3 3 1 3 2 3 3 3 4 3 5 3 6 3 7 challenge stable cryptocurrencies pegged vs floating exchange rate self referential vs foreign collateral pegging fiat money vs pegging assets partial backing vs backing chain vs chain foreign collateral single issuer vs multi issuer chain collateral summary design choices 9 9 10 10 11 12 13 13 14 14 14 15 15 15 15 16 16 17 17 17 17 18 18 18 19",
+    "metadata": {
+      "chunk_id": "9aace1f436c43dd721ab3487cb231de4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 3] backing vs backing chain vs chain foreign collateral single issuer vs multi issuer chain collateral summary design choices 9 9 10 10 11 12 13 13 14 14 14 15 15 15 15 16 16 17 17 17 17 18 18 18 19 19 20 20 21 21 22 4 overview reserve protocol 4 1 basic attributes 4 2 tokens 4 3 reserve token stabilized 4 4 reserve protocol capitalized 4 5 happens collateral tokens depreciate 4 6 preventing speculative attacks bank runs 4 7 moving usd peg 5 reserve protocol 5 1 reserve reserve rights token 5 2 reserve manager 5 2 1 raising price 5 2 2 lowering price 5 2 3 lowering target price 5 3 vault manager 5 3 1 diversifying vault 5 3 2 managing vault ratio vault 5 3 3 vault portfolio rebalancing 5 3 4 maintaining vault level 5 4 market feed 5 4 1 reports records 5 4 2 reporters 5 4 3 record book 2 portfolio x0c5 5 auctioneer 22 5 5 1 executing trade requests 22 6 iterative automation approach launching decentralized software 23 7 summary 25 3 x0c1 introduction cryptocurrencies potential massively",
+    "metadata": {
+      "chunk_id": "01e845fc3a30d14c40ccb50624304eff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "bank run"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 4] x0c5 5 auctioneer 22 5 5 1 executing trade requests 22 6 iterative automation approach launching decentralized software 23 7 summary 25 3 x0c1 introduction cryptocurrencies potential massively upgrade effectiveness money worldwide sent nearly instantly world xe2 x80 x99t diluted devalued irresponsible governments programmed operate inside financial contracts rely code instead law xe2 x80 x94each independently major improvement fiat money cryptocurrencies recently mind consumers investors regulators world adopted addition technical impediments track solved cryptocurrencies like bitcoin ether highly volatile market valuation volatility discourages merchants consumers medium exchange store value simply wants spend currency worth twice month wants store retirement savings currency worth year volatility prevents serving standard deferred payment negotiates rent wages loans currency lacking stable value unavoidably speculating currency xe2 x80 x99s future purchasing power relying volatile",
+    "metadata": {
+      "chunk_id": "e8406d5c303247f091d02fed625f1f56",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 5] volatility prevents serving standard deferred payment negotiates rent wages loans currency lacking stable value unavoidably speculating currency xe2 x80 x99s future purchasing power relying volatile currency needs introduces unnecessary risk makes difficult coordinate effectively 4 2 opportunity stable cryptocurrencies unleashing fully functional cryptocurrency similar releasing smartphones time holding iphone tell mobile browsing going lot better predicted years massive networks non professional drivers roving picking strangers taking wanted uber wasn xe2 x80 x99t thought said xe2 x80 x9capp xe2 x80 x9d 2007 similarly cryptocurrency applications technology clear xe2 x80 x99s equally clear applications surprise money basic platform commerce cryptocurrency poised functional restricted form money xe2 x80 x99ve invented 2 1 growing cryptoasset ecosystem start massive uptake asset backed stable cryptocurrencies means exchange world cryptoasset trading tether largest stable cryptocurrency",
+    "metadata": {
+      "chunk_id": "eeff1467653e1efbab79f4651309feb0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 6] money xe2 x80 x99ve invented 2 1 growing cryptoasset ecosystem start massive uptake asset backed stable cryptocurrencies means exchange world cryptoasset trading tether largest stable cryptocurrency time writing $1 $2 billion market cap 5 tether xe2 x80 x99s daily trading volume 100% market cap excluding chain transactions annual velocity 300 400 notably tether achieved level success despite enormous distrust xe2 x80 x94while market participants happy include tether short term trading plans willing hold significant periods time gives false impression stablecoins smaller piece puzzle 4 x0cview trusted stablecoin potential de risk ecosystem xe2 x80 x99s primary means exchange act store value right fundamentally stable cryptocurrency clearly needed significant distributed app economy develop holding different volatile token dapp appeal speculators xe2 x80 x99s simply cumbersome normal users difficult use case seriously xe2 x80 x94low transaction throughput makes flourishing dapp",
+    "metadata": {
+      "chunk_id": "08f72fb3ca1e8d7bb57771e287310605",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 7] develop holding different volatile token dapp appeal speculators xe2 x80 x99s simply cumbersome normal users difficult use case seriously xe2 x80 x94low transaction throughput makes flourishing dapp ecosystem far fetched xe2 x80 x94but xe2 x80 x99s good reason expect change faster internet speeds brought apps impossible dial internet higher transaction throughput enable build dapps currently completely infeasible long run believe distributed apps range recreational e g irrevocable digital asset ownership inside games mission critical e g automated compliance settlement multi billion dollar tokenized financial products distributed app technology reached notable level adoption cryptoasset industry good reason adopter financial technology primary use case ether far gas fees smart contracts order 250 million usd far payments crowdfunding billion usd 6 xe2 x80 x99ve noticed fair commerce happening bitcoin ether businesses industry don xe2 x80 x99t want wait wire large payments activity",
+    "metadata": {
+      "chunk_id": "6227c84940e7feca6f001ae544c0dcee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 8] order 250 million usd far payments crowdfunding billion usd 6 xe2 x80 x99ve noticed fair commerce happening bitcoin ether businesses industry don xe2 x80 x99t want wait wire large payments activity happened despite ether xe2 x80 x99s volatility inconvenience comes cryptocurrency ether xe2 x80 x99s properties reliably stable market value stands achieve significantly usage cryptoasset trading payment dapps crowdfunding commerce industry treasury currency industry projects 2 2 supporting emerging markets fiat currencies lost value quickly cryptocurrencies 2018 dropping value 20 99% year unfortunately exactly happens fiat currencies emerging markets live days safely insulated consequences reality lucky imagine forced hold currency loses 50% value year having little alternative rapid inflation widespread 20181 7 1 inflation devaluation thing devaluation refers currency going price relative foreign currencies inflation refers increasing prices goods services currency xe2 x80 x99s local",
+    "metadata": {
+      "chunk_id": "11a17ae678f201af4dfe1596aaee445b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 11] redenomination ratio venezuela xe2 x80 x99s new sovereign bolivar ves old bolivar fuerte vef 1 100 000 expect citizens countries simply hold foreign currency instead country xe2 x80 x99s inflationary currency governments kinds situations don xe2 x80 x99t allow happen people sell local currency worth global markets xe2 x80 x94just like speculators start lose faith sell bitcoin governments central banks incentive preserve value local currency xe2 x80 x99s currency power mint 2 abuse power cause inflation place stable cryptocurrencies inevitable new piece monetary game board xe2 x80 x99s easier stop movement physical cash bank operated digital money stop movement peer peer electronic cash indicate governments soon longer able artificially prevent competition currency citizens hold foresee progression outcomes 1 governments question realize threat massively decreasing demand local currency begin managing monetary policy responsibly keeps local currency competitive citizens don xe2 x80",
+    "metadata": {
+      "chunk_id": "54cacc8ccf26e4a1a9e0ba1859d9a6b2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 14] goods services desirable harmful net cigarettes delicious unhealthy foods view clickbait journalism earned fortunes arguably causing heap destruction way cryptocurrencies solution insidious problems capitalism fact cryptoassets likely things worse far primarily gamble steal money volatile manipulated markets believe stable programmable money technological advancements hope build built present solutions future consider effort going distributed governance innovation rapidly increasing b distributed governance permission denial transactions feasible smart contracts c cultural momentum direction experimenting upgrade money begin 3 certainly lot value generated allocation capital securitization commerce risk hedging xe2 x80 x99s clear lot public market activity combination speculation manipulation essentially amounts gambling average uninformed retail investor chump table paying sharks 8 x0ccould lead exploring new means pricing transactions new means governing automatically policing isn",
+    "metadata": {
+      "chunk_id": "dcb3c0117719e8039a50f290232a0395",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 15] essentially amounts gambling average uninformed retail investor chump table paying sharks 8 x0ccould lead exploring new means pricing transactions new means governing automatically policing isn xe2 x80 x99t legitimate capital markets behavior eager experimentation play believe stable cryptocurrency fundamental building block open possibilities 2 5 nature opportunity summary stability censorship resistance clearly desirable programmabality enable new solutions age old problems hampered net benefit capitalism demand likely high fully featured fully functional stable cryptocurrency network effects likely produce small number prominent stable cryptocurrencies competing currency challenge marketing distribution assumes xe2 x80 x99s possible create lasting stable cryptocurrency unproven xe2 x80 x94the challenge industry creating technology 3 challenge stable cryptocurrencies achieving stability compromising important properties difficult present major design decisions stable cryptocurrency",
+    "metadata": {
+      "chunk_id": "ddd84ac1bc52ea9f9dad8fb6ed6ca007",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 16] x94the challenge industry creating technology 3 challenge stable cryptocurrencies achieving stability compromising important properties difficult present major design decisions stable cryptocurrency issuer face reasoning option better decision point 3 1 pegged vs floating exchange rate floating currencies example dollar relatively stable value actually source currency stability xe2 x80 x94if currency commodity stable place peg wonder create independently stable cryptocurrency isn xe2 x80 x99t pegged numerous problems stand way lofty goal central bank stabilizes currency measure purchasing power currency predict changes demand advance manipulate currency supply doesn xe2 x80 x99t capital directly purchase currency open market future xe2 x80 x99ll sophisticated dao based legal system having relatively stable demand long standing cryptocurrency permit replication true central banking blockchain foreseeable future barriers high pegging currency contrast simpler easier cryptocurrency",
+    "metadata": {
+      "chunk_id": "5c277f2caa89a8a5e8f80a493b4fd232",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 17] relatively stable demand long standing cryptocurrency permit replication true central banking blockchain foreseeable future barriers high pegging currency contrast simpler easier cryptocurrency issuers manually automate smart contracts conclusion stable cryptocurrencies pegged existing stable currency commodity basket assets start 9 x0c3 2 self referential vs foreign collateral order peg currency xe2 x80 x99s value asset basket needs able offer holders currency fixed price terms asset basket example wanted peg currency 1 1 euro need able offer holders currency euro worth value unit currency wouldn xe2 x80 x99t necessarily need offer euros hold bunch gold vault long willing offer euro worth gold unit currency price gold goes need offer gold impacting ability maintain 100% collateralization volatile asset basket use currency higher risk xe2 x80 x99ll run collateral point market interesting approach stable cryptocurrencies use newly created self referential asset new currency self",
+    "metadata": {
+      "chunk_id": "9172d95fa392ecec8a71d7c69387ecde",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 18] volatile asset basket use currency higher risk xe2 x80 x99ll run collateral point market interesting approach stable cryptocurrencies use newly created self referential asset new currency self referential mean means value collateral token determined success new currency example collateral token holders receive share transaction fees share newly minted stable cryptocurrency coins expansionary periods benefit approach stability begets stability xe2 x80 x94if new stable cryptocurrency working adopted likely drive value collateral token increasing available collateral stable cryptocurrency problem way instability begets instability xe2 x80 x94if new stable cryptocurrency goes periods decreases demand cause expected revenue collateral token holders decline expected revenue falls people willing pay collateral tokens turn makes holders stable cryptocurrency likely believe able redeem tokens asset worth leading decreases demand stable cryptocurrency foreign collateral hand involves leveraging",
+    "metadata": {
+      "chunk_id": "e35cc501ea9642781c6a90c5deb5d3ce",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 19] pay collateral tokens turn makes holders stable cryptocurrency likely believe able redeem tokens asset worth leading decreases demand stable cryptocurrency foreign collateral hand involves leveraging asset basket independent market value currency backed gold loses demand reason little effect market price gold separation expectations pegged currency backing keeps prices affecting prevents sudden crash value self referential collateral appears viable market consensus future usage currency extremely entrenched conclusion foreign collateral likely necessary bootstrapping new stable cryptocurrency 3 3 pegging fiat money vs pegging assets fiat currencies extremely attractive pegs simple highly liquid imports inflation fiat currency stable cryptocurrency exposes holders geopolitical risk goal create currency robustly stable purchasing power long term better solution peg 10 x0cto basket assets likely composed combination fiat currency securities commodities downside approach complicated",
+    "metadata": {
+      "chunk_id": "9cc0fd6e530b408767dfacffb9d7c30f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 20] create currency robustly stable purchasing power long term better solution peg 10 x0cto basket assets likely composed combination fiat currency securities commodities downside approach complicated conceptually matter implementation exposes holders stable cryptocurrency short term fluctuations value basket initially people like conclusion fiat currency peg makes sense short term ultimately basket assets likely necessary achieve stability long term 3 4 partial backing vs backing demand pegged currency drop example 50% principle issuer needs able repurchase 50% circulating supply hold 50% backing maintain perfect stability start reason demand likely drop extreme situations guesses collateral needed looking history pegged currencies broken stress run simulations happen given possible demand histories holding 100% collateral backing comes major benefit users purchase 100% units currency circulation face value system doesn xe2 x80 x99t need hold 100% capital escrow collateral spent spend",
+    "metadata": {
+      "chunk_id": "97efb66bf432719205ca8642491b45b6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 23] subject bank runs speculative attacks maintain 100% collateral backing 3 5 chain vs chain foreign collateral native chain collateral benefit decentralization pure cryptoasset truly held smart contract censorship resistant consensus mechanism xe2 x80 x99s implemented creating new stable currency xe2 x80 x99s actually widely disruptive censorship resistance desirable property xe2 x80 x99s tempting stable cryptocurrencies pure cryptoassets example new cryptocurrency base currency smart contract platform like ether eos problem course cryptoassets highly volatile moment history know options managing volatility 1 overcollateralization xe2 x80 x94holding 100% backing account changes value collateral 2 hedging xe2 x80 x94holding combination long short positions asset changes spot market price don xe2 x80 x99t affect value portfolio problem approaches cost money case overcollateralization extra collateral degree overcollateralization feasible sale future network profit similar process selling",
+    "metadata": {
+      "chunk_id": "2b5ee959a3a2a25b00479f8a0e436884",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "bank run"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 24] xe2 x80 x99t affect value portfolio problem approaches cost money case overcollateralization extra collateral degree overcollateralization feasible sale future network profit similar process selling shares startup market xe2 x80 x99s valuation future income likely high massively overcollateralize level volatile cryptoassets require respect hedging effective mitigating impact volatility cost upkeep cuts profitability leads system slowly hemorrhaging funds 5 alternatively use tokenized chain assets comes cost centralization appears necessary economic viability chain assets substantially volatile design choices need reference existing context constraints purely chain backing optimal 4 5 details https en wikipedia org wiki speculative attack exchange fees paying bid ask spread couple reasons 12 x0capproach decade fixed supply cryptoassets lower volatility volatility cryptoassets today likely means holding purely chain backing feasible approach conclusion chain assets significantly better",
+    "metadata": {
+      "chunk_id": "18f355785af6f4e3c43c0bb6d418b268",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 25] 12 x0capproach decade fixed supply cryptoassets lower volatility volatility cryptoassets today likely means holding purely chain backing feasible approach conclusion chain assets significantly better collateral lower volatility despite cost centralization likely better choice 3 6 single issuer vs multi issuer chain collateral chain collateralization typically involves accepting chain asset example gold dollars exchange newly minted coins holding chain asset allowing users redeem coin collateral point design fundamentally centralized comes main risks 1 counterparty risk xe2 x80 x94one needs trust people managing money responsible 2 party risk xe2 x80 x94one needs trust money organization manages safe external parties hackers misaligned governments etc real threat centralized payment services shut governments including liberty reserve goldage e bullion e gold 9 single issuer holding chain assets offering redemption default issuer seizure issuer xe2 x80 x99s assets party lead complete",
+    "metadata": {
+      "chunk_id": "3e3043b6f0786e240e283a179db783d2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 27] 3 7 summary design choices xe2 x80 xa2 peg required xe2 x80 xa2 foreign collateral required xe2 x80 xa2 peg fiat short term basket assets long term 13 x0c xe2 x80 xa2 100% backing required xe2 x80 xa2 tokenized real world assets probably necessary right xe2 x80 xa2 multiple dispersed token issuers substantially reduces risk total default paper introduce reserve stabilization protocol system allows near term pegging fiat currency naturally transitions diverse assetbacked stable currency 4 overview reserve protocol xe2 x80 x99ll start simple explanation reserve protocol section xe2 x80 x99ll detail components implemented 4 1 basic attributes xe2 x80 xa2 reserve protocol implemented smart contract platform operated chain benefits locating collateral tokens liquid initially developing ethereum network ultimately expect way bridges enable complete interoperability reserve token major smart contract platforms xe2 x80 xa2 initial production version reserve protocol substantially centralized",
+    "metadata": {
+      "chunk_id": "04ba53d061a00bf480ababe20ce8d0e3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 28] network ultimately expect way bridges enable complete interoperability reserve token major smart contract platforms xe2 x80 xa2 initial production version reserve protocol substantially centralized time protocol component migrated chain released control founding team xe2 x80 xa2 reserve token initially target value $1 00 designed peg dollar long term 4 2 tokens reserve protocol interacts kinds tokens 1 reserve token rsv xe2 x80 x94a stable cryptocurrency held spent way use dollars stable fiat money 2 reserve rights token rsr xe2 x80 x94a cryptocurrency facilitate stability reserve token 3 collateral tokens xe2 x80 x94other assets held smart contracts order value reserve token similar government dollar gold protocol designed hold collateral tokens worth 100% value reserve tokens collateral tokens tokenized real world assets tokenized commodities currencies securities portfolio start relatively simple diversify time asset classes tokenized 14 x0c4 3 reserve token stabilized demand goes",
+    "metadata": {
+      "chunk_id": "02e83ab26cef83d2726acbba4465a080",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 29] tokens tokenized real world assets tokenized commodities currencies securities portfolio start relatively simple diversify time asset classes tokenized 14 x0c4 3 reserve token stabilized demand goes reserve token prices fall secondary markets happens suppose redemption price reserve $1 00 price reserve open market $0 98 arbitrageurs incentivized buy redeem reserve smart contract $1 00 worth collateral tokens xe2 x80 x99ll continue buying open markets money market price matches redemption price $1 00 mechanism works reverse demand goes price reserve open market $1 02 arbitrageurs incentivized purchase newly minted reserve tokens $1 00 worth collateral reserve rights tokens excess pool reserve tokens available immediately sell open market xe2 x80 x99ll continue selling open markets money market price matches purchase price $1 00 4 4 reserve protocol capitalized reserve protocol holds collateral tokens reserve token smart contracts new reserves sold market assets market participants",
+    "metadata": {
+      "chunk_id": "6cbfa3d80446602c82aba6a171f54a48",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 30] market price matches purchase price $1 00 4 4 reserve protocol capitalized reserve protocol holds collateral tokens reserve token smart contracts new reserves sold market assets market participants purchase new reserves placed smart contracts held collateral process keeps reserve collateralized 1 1 ratio supply increases times reserve protocol target collateralization ratio greater 1 1 case scaling supply reserve tokens requires additional capital order maintain target collateralization ratio accomplish reserve protocol mints sells reserve rights tokens exchange additional collateral tokens 4 5 happens collateral tokens depreciate collateral tokens somewhat volatile able select portfolio minimal downside risk reality drops collateral tokens xe2 x80 x99 value happen happens reserve protocol sell newly minted reserve rights tokens additional collateral tokens add backing 4 6 preventing speculative attacks bank runs xe2 x80 x99s theoretically possible reserve remain 1 1 collateralized",
+    "metadata": {
+      "chunk_id": "56d18373fde11109c0d0da1917c36e32",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "bank run"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 31] sell newly minted reserve rights tokens additional collateral tokens add backing 4 6 preventing speculative attacks bank runs xe2 x80 x99s theoretically possible reserve remain 1 1 collateralized collateral tokens depreciate market participants wish purchase reserve rights tokens minimum auction price set protocol case protocol widens price band defends reserve token example instead tight band $1 00 protocol adjust band range $0 95 $1 05 collateral tokens depreciated 5% demand 15 x0cfor rights means reserve tokens temporarily redeemable $0 95 cost $1 05 purchase expanding band approach eliminates possibility bank run redeem redeemer receive rate makes speculative attack infeasible reserve stay collateralized 100% reserve tokens redeemed risky attempt market price reserve float upward purchasing phase attack collateral tokens derive value respective markets independent demand reserve likely appreciate time market confidence reserve shaken appreciate band narrowed tight range $1 00",
+    "metadata": {
+      "chunk_id": "0a50782edfd1371b3bdc0188e7eb7efe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "bank run"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 32] purchasing phase attack collateral tokens derive value respective markets independent demand reserve likely appreciate time market confidence reserve shaken appreciate band narrowed tight range $1 00 functionality reserve protocol activated markets xe2 x80 x99t predicted advance xe2 x80 x99s necessary adequate precautions prevent total default scenario 4 7 moving usd peg reserve protocol designed portfolio tokenized assets held smart contracts stable reserve token transition representing fractional ownership collateral tokens option place dollar starts depreciate reserve maintain stable value 5 reserve protocol reserve protocol primarily manages pools value xe2 x80 xa2 reserve cryptocurrency kept stable $1 xe2 x80 xa2 vault pool blockchain assets purchase reserves demand reserve drops protocol aims maintain 100% collateral backing value minted reserves protocol designed operate collection smart contracts addition pools value consists active components xe2 x80 xa2 reserve manager keeps",
+    "metadata": {
+      "chunk_id": "14927ac5670ce618e3e4381d1622b3a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 33] aims maintain 100% collateral backing value minted reserves protocol designed operate collection smart contracts addition pools value consists active components xe2 x80 xa2 reserve manager keeps reserve stable $1 xe2 x80 xa2 vault manager manages assets vault xe2 x80 xa2 market feed tracks market data reserves reserve rights vault assets xe2 x80 xa2 auctioneer runs protocol xe2 x80 x99s market operations 16 x0c5 1 reserve reserve rights token reserve reserve rights token mintable burnable erc 20 tokens reserve token variable transfer fee initially set 0% 6 reserve rights token helps reserve backed 100% involved governance 5 2 reserve manager reserve manager charge manipulating supply reserve price stable $1 5 2 1 raising price market price reserve falls $1 reserve manager buy reserves market price vault assets burn trades executed auctioneer maximum price maximum quantity maximum acceptable price buying reserves $1 asset exchange maximum quantity reserves trade r xc2 xb7 quantity",
+    "metadata": {
+      "chunk_id": "66647d33e8b32cf3755e5bfb8a0aa3b1",
+      "entities": {
+        "crypto_project": [
+          "token reserve reserve",
+          "tokens reserve"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 34] market price vault assets burn trades executed auctioneer maximum price maximum quantity maximum acceptable price buying reserves $1 asset exchange maximum quantity reserves trade r xc2 xb7 quantity reserves xc2 xb7 $1 xe2 x88 x92 reserve price $1 r damping factor7 prevent sudden overreactions price oscillations 5 2 2 lowering price market price reserve target price plus stability spread 8 reserve manager auction reserve tokens lower token supply lower price auctions work differently depending excess pool reserve tokens 9 excess pool exists reserve manager sell reserve tokens pool $1 worth reserve rights tokens allowing rights holders perform arbitrage loop brings price $1 excess pool reserve tokens manager mint new reserve tokens sell vault assets auctioneer executes trades parameters minimum price maximum quantity minimum acceptable price selling 6 magnitude transfer fee controlled reserve core team later determined governance xe2 x80 x99s difficult reason effects transfer fee",
+    "metadata": {
+      "chunk_id": "a3aa2e38a53d210a41773dec87607acd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 35] minimum price maximum quantity minimum acceptable price selling 6 magnitude transfer fee controlled reserve core team later determined governance xe2 x80 x99s difficult reason effects transfer fee priori think xe2 x80 x99s important build flexibility system 7 number set likely empirically calibrated launch system dynamic factor based running estimates reserve xe2 x80 x99s recent price elasticity liquidity vault assets purpose twofold xe2 x80 x94first lowers odds protocol overreact price changes launch inefficient auctions second vault assets turn illiquid cause problems damping factor slow trading protocol doesn xe2 x80 x99t lose money trading illiquid assets 8 stability spread determined xe2 x80 x94it depend price elasticity reserve exchange fees liquidity assets held vault cents 9 maintaining vault level section details 17 x0creserves target price plus stability spread maximum quantity reserves trade away reserve price xe2 x88 x92 $1 r xc2 xb7 quantity reserves xc2 xb7 $1 r damping",
+    "metadata": {
+      "chunk_id": "b9bb4e3dd352a49232fd620f9b99df1e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 36] vault level section details 17 x0creserves target price plus stability spread maximum quantity reserves trade away reserve price xe2 x88 x92 $1 r xc2 xb7 quantity reserves xc2 xb7 $1 r damping factor 5 2 3 lowering target price normal circumstances reserve manager obeys behavior defined aims defend peg $1 reserve manager defend peg lower $1 vault ratio drops 1 case reserve manager defend peg equal $1 xc2 xb7 vault ratio example vault ratio 0 9 reserve manager defend peg $0 90 behavior prevents xe2 x80 x9crun bank xe2 x80 x9d instead defending $1 peg reserve holders left worthless token reserve manager defends peg allows reserve holders redeem token equal value 5 3 vault manager vault manager keeps vault level high absorb shocks vault manager maintains vault level accordance vault target vault target $1 xc2 xb7 target vault ratio xc2 xb7 quantity reserves vault manager determines current vault level adding value assets value asset quantity asset vault times fast average market price",
+    "metadata": {
+      "chunk_id": "feca68236067e80aa8aeb0253d1f7085",
+      "entities": {
+        "crypto_project": [
+          "token reserve"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 37] vault target $1 xc2 xb7 target vault ratio xc2 xb7 quantity reserves vault manager determines current vault level adding value assets value asset quantity asset vault times fast average market price asset recorded market feed 5 3 1 diversifying vault multiple assets vault portfolio tokenized commodities currencies securities minimize risk sudden drop prices vault assets reduces vault level vault target use types diversification xe2 x80 xa2 diversification asset classes xe2 x80 xa2 diversification issuers xe2 x80 xa2 diversification jurisdictions diversifying vault asset classes mitigates systemic risk associated particular asset classes assets drop sharply diversified portfolio drops little bit stay stable contains anti correlated assets 18 x0cdiversifying vault issuers mitigates counterparty risk originating asset issuers assets added vault thoroughly vetted asset tokenization involves chain components necessarily risk centralization worst case issuer steal underlying assets backing",
+    "metadata": {
+      "chunk_id": "cb8de9bdc491e27c90b4a727dfed366e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 38] risk originating asset issuers assets added vault thoroughly vetted asset tokenization involves chain components necessarily risk centralization worst case issuer steal underlying assets backing tokens issued lead sharp drop value issued tokens mitigate risk maximizing diversification issuers asset type vault spread exposure asset independent issuers possible diversifying vault jurisdictions mitigates counterparty risk originating jurisdictions vault asset issuers trust issuers governments threaten shut issuers don xe2 x80 x99t assets backing tokens asset seizure issuer shutdown likely lead sharp drops value issuer xe2 x80 x99s tokens protect type counterparty risk asset class spread exposure asset issuers jurisdictions possible 5 3 2 managing vault ratio vault portfolio short run limited availability vault assets vault overcapitalized provide additional security 10 vault ratio gradually decrease 1 ratio decreases response factors increased availability high quality assets improved",
+    "metadata": {
+      "chunk_id": "82c976774c4201501fafee7861d1ac62",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 39] availability vault assets vault overcapitalized provide additional security 10 vault ratio gradually decrease 1 ratio decreases response factors increased availability high quality assets improved quality existing vault assets new high quality assets added vault increase diversification resilience overall vault portfolio overcapitalization needed stay safe decreases portfolio diversification increases add new assets vault lower vault ratio likewise quality existing vault asset improves need slightly overcapitalization stay safe example issuer improves safety standards increases jurisdictional diversification counterparty risk asset decreases cases reduce vault ratio management policy vault ratio vault portfolio changes depending maturity system management starts centralized fully decentralized time early life system portfolio changes initiated development team making proposal update portfolio proposals include additions removals assets changes target allocation asset updates vault",
+    "metadata": {
+      "chunk_id": "86edabe03d7cceaed5f06e1858a3b023",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 40] time early life system portfolio changes initiated development team making proposal update portfolio proposals include additions removals assets changes target allocation asset updates vault ratio 5 3 3 vault portfolio rebalancing vault manager aims maintain particular portfolio assets volatility underlying assets portfolio needs periodically rebalanced order 10 unclear time overcapitalized needs overcapitalization expensive working determine smallest possible number work 19 x0censure risk remains diversified rebalancing occurs mechanisms trades executed reserve manager quarterly rebalancing governance reserve manager adds removes reserves circulation necessary maintain target price sales denominated vault asset furthest target level precisely reserves minted sold vault assets reserves sold asset furthest target level likewise reserves repurchased market vault assets vault asset spent furthest target level rebalancing mechanism won xe2 x80 x99t sufficient cases account portfolio",
+    "metadata": {
+      "chunk_id": "465177672faab0336c59ba2da6699e44",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 42] tokens auctioning vault assets quantity sold r xc2 xb7 vault target xe2 x88 x92 vault level r damping factor rate limit reserve auctions raising reserve supply vault assets appreciate vault level increase vault target vault level sufficiently vault target new reserve tokens minted held excess reserve tokens reserve tokens excess pool available purchased reserve rights token holders price reserve trading target price 5 4 market feed purpose market feed provide protocol date info market price trading volume volatility protocol currencies reserve reserve rights token vault asset primary input market feed 11 minimum reserve rights token auction price specified parameter protocol mainnet launch 20 x0cthe recent chain history major cryptocurrency exchanges primary output market feed chain summary data reported updated 30 minutes 12 market feed necessarily oracle system 10 information requires unavailable blockchain market feed composed xe2 x80 xa2 chain record book xe2 x80 xa2 collection",
+    "metadata": {
+      "chunk_id": "bfeeb861f741d31b413d825ce03e6275",
+      "entities": {
+        "crypto_project": [
+          "tokens reserve"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 43] data reported updated 30 minutes 12 market feed necessarily oracle system 10 information requires unavailable blockchain market feed composed xe2 x80 xa2 chain record book xe2 x80 xa2 collection chain trusted reporters trusted reporter periodically fetches market data summarizes data sends resulting report chain record book record book checks authorization consistency reports maintains long term summaries market data 5 4 1 reports records reporters provide packets chain data chain record book packet data report report summarizes 30 minutes trading major exchange asset trades report summarizes market data protocol xe2 x80 x99s assets including volume volatility average price volume simply sum quantities trades asset average price volume time weighted average prices trades volatility volume weighted variance prices 30 minute window chain record book accepted matching set reports combines summaries short history recent summaries compute volume volatility price 4 hours 13 30 minute fast",
+    "metadata": {
+      "chunk_id": "6c0c479ba02c0011281dca4507ea736a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 44] weighted variance prices 30 minute window chain record book accepted matching set reports combines summaries short history recent summaries compute volume volatility price 4 hours 13 30 minute fast average 4 hour slow average rest protocol 5 4 2 reporters reporter program running outside ethereum blockchain inside secure trusted execution enclave launch plan rely reporters build decentralized aggregator oracle solutions chainlink 11 preferred likely switch chainlink similar solution comes online gains significant adoption chainlink similar solution available trustworthy require following properties reporter xe2 x80 xa2 secure enclave provides cryptographic remote attestation installed program 12 reporting period tradeoff factors affecting value include market volatility quickly protocol affect prices costs operation reporter protocol dynamically adjust period static period virtue simplicity 13 like reporting period 30 minutes slow average period trade expensive market manipulation",
+    "metadata": {
+      "chunk_id": "75d494871925240a12bf5b91a7eb6c7d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 46] insufficient price feed information available 5 5 auctioneer reserve manager vault manager frequently need trade assets wider market delegate trades auctioneer properties simple trade request auctioneer xe2 x80 xa2 asset sell mint draw vault xe2 x80 xa2 asset b buy burn b save vault xe2 x80 xa2 minimum acceptable exchange rate denominated b xe2 x80 xa2 maximum quantity trade b xe2 x80 xa2 expiry time unsatisfied orders auctioneer maintains open order book external users submit limit orders response trade request auctioneer greedily matches best standing orders order books constrained specified maximum exchange rate asset quantities 5 5 1 executing trade requests technical inconvenience decentralized exchange neatly handled 0x protocol ecosystem relays 12 auctioneer tracks short list addresses 0x exchange contracts simple matter auctioneer simply offer asks trades 0x relay network market price feed latency prices auctioneer offers likely 14 report delay guards attack report delay",
+    "metadata": {
+      "chunk_id": "c1b1c14dda41bd7ca69add1db953ac7e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 47] addresses 0x exchange contracts simple matter auctioneer simply offer asks trades 0x relay network market price feed latency prices auctioneer offers likely 14 report delay guards attack report delay attacker obtains reporter xe2 x80 x99s secret key attacker spoof reporter sending false reports reporter length delay trade protocol xe2 x80 x99s responsiveness market prices protocol xe2 x80 x99s ability invalidate reporters attack 22 x0cslightly date auctioneer simply offered trades unconditionally frequently trade disadvantage auctioneer manages starting trade request falling price auction receiving trade request auctioneer begins falling price auction acceptance price 1 5 times request xe2 x80 x99s acceptable exchange rate 15 following 20 minutes acceptance price drops linearly block block equals request xe2 x80 x99s acceptable exchange rate point time external accounts submit asks signed 0x messages asset auctioneer selling auctioneer immediately offer fill submitted ask acceptance",
+    "metadata": {
+      "chunk_id": "5936bf81afa7f4efbc819f4621ba69a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 48] equals request xe2 x80 x99s acceptable exchange rate point time external accounts submit asks signed 0x messages asset auctioneer selling auctioneer immediately offer fill submitted ask acceptance price current block sold maximum quantity asset current trade request auctioneer assets sell end falling price auction acceptable trades relays accepts offchain agents haven xe2 x80 x99t submitted available asks auction auctioneer creates offer remaining assets request xe2 x80 x99s exchange rate submits offer designated 0x relay 16 minimize occasions falling price auction accounted available liquidity operate chain trading assistant trading assistant conveys available asks 0x relays auctioneer soon auctioneer willing accept 6 iterative automation approach launching decentralized software decentralized software development comes significant challenges challenges initial development 1 xe2 x80 x99s hard write software introducing single bug field single bug catastrophic 2 software interfaces",
+    "metadata": {
+      "chunk_id": "48b27f3d25d5b15f3b0bfd79e43b376f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 49] software development comes significant challenges challenges initial development 1 xe2 x80 x99s hard write software introducing single bug field single bug catastrophic 2 software interfaces markets complicated phenomena require iteration calibration 15 ceiling price multiplier tradeoff higher market responsiveness chances filling trade request lower prices market bear ceiling price multipliers near 1 leave needless opportunities outside arbitrage effective quantization time blockchain high ceiling price multipliers leave wide opportunities arbitrage ideal ceiling price multiplier nearly high trades available factor high completely satisfy fill auctioneer xe2 x80 x99s trade request 16 depends release version 2 0x protocol time launch technical considerations prevent smart contracts making liquidity 0x relays version 1 protocol according public timeline recent personal communications team version 2 0x protocol expected ready late q4 2018 release delayed way threatens timelines operate",
+    "metadata": {
+      "chunk_id": "d00bb87c8e3cbffd098f6c1cae2d1f47",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 50] liquidity 0x relays version 1 protocol according public timeline recent personal communications team version 2 0x protocol expected ready late q4 2018 release delayed way threatens timelines operate future compatible relay patches necessary 0x system needed support feature opposed entire 0x version 2 feature set relatively straightforward 23 x0cwriting series smart contracts don xe2 x80 x99t permit editing launching security audit responsible way develop kind software implementing complex functionality smart contracts functionality contract performed manually chain automated chain programmed smart contract allows iteration automation actual system behavior production environment network functionality substantially codified iteration cycles dramatically slowed initially launching smart contracts developers maintain control code period time permits fixing bugs quickly production environment users clearly willing participate centralized systems users wait control reduced join network",
+    "metadata": {
+      "chunk_id": "a96991703afbdf67500e852ef5c28da9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 51] contracts developers maintain control code period time permits fixing bugs quickly production environment users clearly willing participate centralized systems users wait control reduced join network approach taking launching reserve addition fully smart contract powered alpha running public testnet follow sequence releasing production version xe2 x80 xa2 initially chain functionality simple possible xe2 x80 xa2 maturation chain ecosystem point liquid tokenized real world assets collateral vault likely consist tokenized dollar powered reserve team separate reserve token currency tokenization projects believe meet standards quality transparency xe2 x80 xa2 team manually experiment different parameterizations procedures operating components reserve protocol xe2 x80 xa2 team confident particular procedure right approach development team automate portion overall protocol private centralized server xe2 x80 xa2 automated component running long private execution environment team confident",
+    "metadata": {
+      "chunk_id": "a27d6e936bda6105e8c1586d0c51618a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 52] procedure right approach development team automate portion overall protocol private centralized server xe2 x80 xa2 automated component running long private execution environment team confident design development team program smart contract form add smart contract chain protocol maintaining control chain code xe2 x80 xa2 smart contract performed expected subject sufficient incentives subversion sufficient period time team confident catastrophic bugs development team transition governance require voting token holders change occur xe2 x80 xa2 eventually entire protocol automated chain core development team retain privileged control kind 24 x0c7 summary described reserve stabilization protocol price reserve stable protocol adjusts supply reserve response changes demand protocol ensures backing repurchase supply reserves fully collateralized vault consisting carefully chosen chain assets overall expect design result stablecoin balances decentralization scalability stability represents",
+    "metadata": {
+      "chunk_id": "dbe4f42bf2bb8a8f5e5fc04cd94a57b6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 53] repurchase supply reserves fully collateralized vault consisting carefully chosen chain assets overall expect design result stablecoin balances decentralization scalability stability represents promising path forward feature complete global cryptocurrency 25 x0creferences 1 nevin freeman stablecoin 2018 url https medium com reserve currency stablecoin 866f774afede visited 06 19 2018 2 nevin freeman reserve xe2 x80 x99s analysis basis protocol 2018 url https medium com reserve currency analysis basis protocol cf1e0713b849 visited 09 18 2018 3 reserve research team reserve xe2 x80 x99s analysis makerdao protocol 2018 url https medium com reserve currency analysis makerdaoprotocol 4a9872c1a824 visited 09 18 2018 4 irving fisher stabilizing dollar macmillan company 1920 5 coinmarketcap tether 2018 url https coinmarketcap com currencies tether visited 10 31 2018 6 blurpesec 2018 url https www reddit com r ethereum comments 9gkn2f determine total ether e64tgeo visited 10 22 2018 7",
+    "metadata": {
+      "chunk_id": "9e7fbd990b6b09bac19db276cd0fd23f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 54] tether 2018 url https coinmarketcap com currencies tether visited 10 31 2018 6 blurpesec 2018 url https www reddit com r ethereum comments 9gkn2f determine total ether e64tgeo visited 10 22 2018 7 international monetary fund inflation rate average consumer prices oct 2018 url https www imf org external datamapper pcpipch weo oemdc visited 10 31 2018 8 steven h hanke troubled currencies project cato institute johns hopkins university 2018 url https www cato org research troubled currencies visited 10 31 2018 9 bitmex research tether 2018 url https blog bitmex com tether visited 02 18 2018 10 vitalik buterin ethereum oracles 2014 url https blog ethereum org 2014 07 22 ethereum oracles visited 03 08 2018 11 steve ellis ari juels sergey nazarov chainlink decentralized oracle 2017 url https link smartcontract com whitepaper visited 03 08 2018 12 warren amir bandeali 0x open protocol decentralized exchange ethereum blockchain 2017 url https 0xproject com pdfs 0x white paper pdf visited 03",
+    "metadata": {
+      "chunk_id": "4c0692cab307219164eda66e1fb22037",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  },
+  {
+    "text": "[Section 55] smartcontract com whitepaper visited 03 08 2018 12 warren amir bandeali 0x open protocol decentralized exchange ethereum blockchain 2017 url https 0xproject com pdfs 0x white paper pdf visited 03 13 2018 26 x0c",
+    "metadata": {
+      "chunk_id": "1ed0093a1bbcc78ad825f0023e29d35b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Reserve Stabilization Protocol.txt"
+    }
+  }
+]

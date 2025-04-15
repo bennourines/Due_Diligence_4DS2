@@ -1,0 +1,553 @@
+[
+  {
+    "text": "[Section 1] b kyber chain liquidity protocol xe2 x80 x8b2 introduction xe2 x80 x8b2 protocol architecture xe2 x80 x8b4 design properties overview network actors kyber core smart contracts takers xe2 x80 x8b4 xe2 x80 x8b5 xe2 x80 x8b6 xe2 x80 x8b6 xe2 x80 x8b7 reserves xe2 x80 x8b7 execution sequences xe2 x80 x8b8 basic token trade token token trade reserves registration connecting liquidity kyber based networks practical relay chains relay network assets non smart contract enabled blockchains kyber network crystal knc usage main areas knc usage economic facilitation governance token treasury funds knc single token unified supply chains interchangeability chains protocol level governance treasury moving forward specifications protocol functions token trades adding removing reserves token pairs reserves interface getconversionrate trade xe2 x80 x8b8 xe2 x80 x8b9 xe2 x80 x8b10 xe2 x80 x8b12 xe2 x80 x8b13 xe2 x80 x8b14 xe2 x80 x8b15 xe2 x80 x8b16 xe2 x80 x8b16 xe2 x80 x8b17 xe2 x80 x8b17 xe2 x80 x8b17",
+    "metadata": {
+      "chunk_id": "118561e2ea7c3e4dfb0a192f4cf69d4b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 2] interface getconversionrate trade xe2 x80 x8b8 xe2 x80 x8b9 xe2 x80 x8b10 xe2 x80 x8b12 xe2 x80 x8b13 xe2 x80 x8b14 xe2 x80 x8b15 xe2 x80 x8b16 xe2 x80 x8b16 xe2 x80 x8b17 xe2 x80 x8b17 xe2 x80 x8b17 xe2 x80 x8b17 xe2 x80 x8b18 xe2 x80 x8b18 xe2 x80 x8b18 xe2 x80 x8b18 xe2 x80 x8b19 xe2 x80 x8b19 xe2 x80 x8b19 xe2 x80 x8b21 xe2 x80 x8b23 xe2 x80 x8b23 xe2 x80 x8b24 x0ckyber chain liquidity protocol 22 april 2019 v0 1 abstract paper presents kyber fully chain liquidity protocol implementing instant cryptocurrency token swaps decentralized manner smart contract enabled blockchain kyber design allows party contribute aggregated pool liquidity blockchain providing single endpoint takers execute trades best rates available envision connected liquidity network facilitates seamless decentralized cross chain token swaps kyber based networks different chains paper provides technical specifications key design principles protocol followed implemented smart contract enabled blockchains includes",
+    "metadata": {
+      "chunk_id": "e6f16ef5a2ecfe1ab537b70bd4f92071",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 3] cross chain token swaps kyber based networks different chains paper provides technical specifications key design principles protocol followed implemented smart contract enabled blockchains includes specifications liquidity makers takers participate given implementation introduction cryptocurrency trading centralized exchanges shown vulnerable cybersecurity hacking internal frauds years infamous hacks mt gox coincheck addition trading centralized exchanges compatible defi applications technically infeasible bridge decentralized applications centralized servers compromising trust model regardless defi applications need access good liquidity sources critical component provide good services currently decentralized liquidity comprised sources including dexes uniswap oasisdex bancor decentralized funds financial apps scattered sources harder find best rate trade find liquidity need x0ckyber fully chain liquidity protocol implemented smart contract enabled blockchain kyber xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "1c9e128b71025c2dc47654aad4ebca40",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 4] funds financial apps scattered sources harder find best rate trade find liquidity need x0ckyber fully chain liquidity protocol implemented smart contract enabled blockchain kyber xe2 x80 x99s solution allows liquidity aggregated diverse sources single network turn provides single endpoint takers seamlessly perform multiple token trades single blockchain transaction end users dapps party need query single endpoint best available rate trade protocol allows wide range implementation possibilities liquidity providers allowing wide range entities contribute liquidity including end users decentralized exchanges decentralized protocols taker end users cryptocurrency wallets smart contracts able perform instant trustless token trades best rates available sources chain instant exchange property critical enabling wide range decentralized use cases including financial protocols cryptocurrency payments expect different implementations kyber protocol public blockchains chain instant exchanges",
+    "metadata": {
+      "chunk_id": "5e730a7344ecd5e9d4a9e169aaf2abc4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 5] critical enabling wide range decentralized use cases including financial protocols cryptocurrency payments expect different implementations kyber protocol public blockchains chain instant exchanges available use cases applications blockchains number blockchains distinctively different feature sets solving different use cases resulting plethora diverse emerging digital ecosystems order support emerging ecosystems kyber protocol play key role blockchains facilitating liquidity different stakeholders respective ecosystems addition standardizing design reserve based liquidity model actively working cross chain solutions xe2 x80 x8bpeacerelay xe2 x80 x8bwaterloo relay bridge envision connected liquidity network implementations different chains time envision protocol contributors network maintainers community knc token holders working govern kyber kyber scales appropriately decentralized governance framework critical order decide important upgrades treasury allocation additional features",
+    "metadata": {
+      "chunk_id": "a97b2ae79b36f3505ed72c3fb6edb116",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 6] community knc token holders working govern kyber kyber scales appropriately decentralized governance framework critical order decide important upgrades treasury allocation additional features protocol standardize key aspects implementations particular kyber support main implementation blockchain follows exact protocol specification knc governance utility x0cii protocol architecture design properties heart design protocol smart contracts offer single interface best available token exchange rates taken aggregated liquidity pool diverse sources xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f aggregated liquidity pool xe2 x80 x8bthe protocol aggregates liquidity sources liquidity pool making easy takers find best rates offered function diverse sources liquidity xe2 x80 x8b protocol allows different types liquidity sources plugged liquidity providers employ different strategies different implementations contribute liquidity protocol permissionless protocol designed permissionless developer set types",
+    "metadata": {
+      "chunk_id": "07eb1da5abe338393f1de7ed62713aad",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 7] liquidity sources plugged liquidity providers employ different strategies different implementations contribute liquidity protocol permissionless protocol designed permissionless developer set types reserves end user contribute liquidity implementations need consideration security vectors reserve spamming mitigated staking mechanism expect implementations permissioned initially maintainers confident considerations core feature kyber protocol facilitates token swap taker liquidity sources protocol aims provide following properties token trades xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f instant settlement xe2 x80 x8btakers wait orders fulfilled trade matching settlement occurs single blockchain transaction enables trades series actions happening single smart contract function atomicity xe2 x80 x8bwhen takers trade request trade gets fully executed reverted xe2 x80 x9call xe2 x80 x9d aspect means takers exposed risk partial trade execution public rate verification verify rates",
+    "metadata": {
+      "chunk_id": "00e906cf8270a045d5c8c5e89aa170bb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 8] xe2 x80 x8bwhen takers trade request trade gets fully executed reverted xe2 x80 x9call xe2 x80 x9d aspect means takers exposed risk partial trade execution public rate verification verify rates offered reserves trades instantly settled querying smart contracts ease integration trustless atomic token trades directly easily integrated smart contracts enabling multiple trades performed smart contract function x0coverview protocol implemented set smart contracts blockchain fits requirements following diagram shows overview actors involved implementation protocol figure 1 overview actors protocol implementation briefly define actors details actor works specified section xe2 x80 x8bnetwork actors xe2 x80 x8b 1 takers refer directly smart contract functions trade tokens end users dapps wallets 2 reserves refer wishes provide liquidity implement smart contract functions defined reserve interface order registered token pairs listed 3 registered reserves refer cycled matching taker requests 4",
+    "metadata": {
+      "chunk_id": "c03a70c51d35a86b96a027dcd396a5ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 9] 2 reserves refer wishes provide liquidity implement smart contract functions defined reserve interface order registered token pairs listed 3 registered reserves refer cycled matching taker requests 4 maintainers refer permission access functions adding removing reserves token pairs dao team protocol implementation x0c5 comprise xe2 x80 x8bnetwork xe2 x80 x8b refers actors involved given implementation protocol protocol implementation needs following 1 functions takers check rates execute trades 2 functions maintainers register remove reserves token pairs 3 reserve interface defines functions reserves needs implement network actors kyber core smart contracts kyber core smart contracts implementation protocol major protocol functions allow actors join interact network example kyber core smart contracts provide functions listing delisting reserves trading pairs having clear interfaces reserves comply able register network adding support new trading pairs addition kyber core smart",
+    "metadata": {
+      "chunk_id": "8a5f1c5f0ac198abbf2b39416958e463",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 10] smart contracts provide functions listing delisting reserves trading pairs having clear interfaces reserves comply able register network adding support new trading pairs addition kyber core smart contracts provide function takers query best rate registered reserves perform trades corresponding rate reserve trading pair consists quote token token reserve wishes support quote token token traded trades example ethereum implementation kyber protocol uses ether quote token order search best rate reserves supporting requested token pair iterated kyber core smart contracts need search algorithm implemented key functions implemented kyber core smart contracts listed figure 2 visit explain implementation details security considerations function xe2 x80 x8bspecification section xe2 x80 x8b x0cfigure 2 kyber core smart contract oop diagram takers taker entity takes liquidity provided registered reserves calling trade function protocol smart contracts trade token token taker blockchain entity",
+    "metadata": {
+      "chunk_id": "e3aac349b8de6a13ca712fb1fd88bc16",
+      "entities": {
+        "crypto_project": [
+          "token reserve"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 11] 2 kyber core smart contract oop diagram takers taker entity takes liquidity provided registered reserves calling trade function protocol smart contracts trade token token taker blockchain entity including end user address decentralized exchanges smart contracts calling trade function taker needs specify source destination tokens minimum acceptable rate taker send corresponding source token taker receive destination token immediately transaction successfully executed source token refunded entirely reserves reserves liquidity sources network provide liquidity terms tokens inventory prices smart contracts implementing reserve interface depicted figure 3 reserve register protocol smart contracts offer liquidity takers details reserves determine prices manage inventory dictated protocol entirely reserves long implementation complies reserve interface opens wide range reserve types network including manually managed reserves e having market makers actively manage prices inventory automated",
+    "metadata": {
+      "chunk_id": "d9018d066513a1ea5dfdff943cb78476",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 12] reserves long implementation complies reserve interface opens wide range reserve types network including manually managed reserves e having market makers actively manage prices inventory automated market making reserves chain liquidity sources x0conce taker sent request protocol smart contracts query corresponding function reserve smart contract e g getconversionrate query price trade execute trade worth noting permissionless implementation protocol consider prevent potential attacks makes costly execute trades block trades successfully executed reserve spamming attack e attacker sets register lot reserves malicious implementation reserves e g reserves honor quoted rates figure 3 reserve interface oop diagram iii execution sequences trade executed kyber xe2 x80 x99s main contract invokes functions iterate listed reserves find select offering best exchange rate source tokens transferred takers reserve reserve xe2 x80 x99s destination tokens transferred specified destination address",
+    "metadata": {
+      "chunk_id": "6e4e58e1b1963f7f4e47df51396d39c7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 13] functions iterate listed reserves find select offering best exchange rate source tokens transferred takers reserve reserve xe2 x80 x99s destination tokens transferred specified destination address basic token trade basic token trade quote token source destination token trade request execution flow basic token trade depicted diagram taker like exchange bat tokens eth example trade happens single blockchain transaction x0cfigure 4 basic token trade execution flow 1 2 3 4 5 6 taker sends 1 eth protocol contract like receive bat return protocol contract queries reserve eth bat exchange rate reserve 1 offers exchange rate 1 eth 800 bat protocol contract queries second reserve eth bat exchange rate reserve 2 offers exchange rate 1 eth 820 bat process goes reserves iteration reserve 2 discovered offered best eth bat exchange rate 7 protocol contract sends 1 eth reserve 2 8 reserve sends 820 bat taker token token trade token token trade quote token source destination token trade request",
+    "metadata": {
+      "chunk_id": "e04346120f17e3554c3738cd8382a223",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 14] offered best eth bat exchange rate 7 protocol contract sends 1 eth reserve 2 8 reserve sends 820 bat taker token token trade token token trade quote token source destination token trade request exchange flow token token trade depicted diagram taker like exchange bat tokens dai example trade happens single blockchain transaction x0cfigure 5 token token trade execution flow 1 2 3 4 5 6 taker sends 50 bat protocol contract like receive dai return protocol contract sends 50 bat reserve offering best bat eth rate protocol contract receives 1 eth return protocol contract sends 1 eth reserve offering best eth dai rate protocol contract receives 30 dai return protocol contract sends 30 dai user diagram depicts 2 reserves selected token trades possible reserve selected reserves registration diagram shows protocol contract interacts reserve smart contract addition removal network reserves listing token s trading reading token exchange rates possible implementations reserves create new reserve",
+    "metadata": {
+      "chunk_id": "b126bad375074100a9c803d759d7e174",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 15] shows protocol contract interacts reserve smart contract addition removal network reserves listing token s trading reading token exchange rates possible implementations reserves create new reserve long reserve smart contract contains methods specified xe2 x80 x9cfeeding rates providing liquidity xe2 x80 x9d section reserve needs added network reserves order selected taker trade requests x0cfigure 6 reserve interaction protocol 1 protocol contract adds reserve network 2 protocol contract enables token pairs reserve trading x0civ connecting liquidity kyber based networks currently kyber network fully developed robust user base dapp ecosystem single blockchain xe2 x80 x94 ethereum paper outline liquidity connected smart contract enabled blockchains practical approaches kyber explored far allowing liquidity moved freely somewhat transparently different chains kyber enables connected liquidity network blockchain ecosystems connected liquidity network decentralized cross chain swaps kyber",
+    "metadata": {
+      "chunk_id": "cd05ad88cbf50945a7a04a858813ed87",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 16] liquidity moved freely somewhat transparently different chains kyber enables connected liquidity network blockchain ecosystems connected liquidity network decentralized cross chain swaps kyber implementations x0cpractical relay chains smart contract enabled chains practical interoperability implementation light client smart contract implemented blockchains efficient algorithm verify hash functions blockchains minimal computation costs waterloo project presented proof concept prove feasibility practical relay approach ethereum eos demonstrated similar approach peacerelay project connect ethereum ethereum classic expect generalized approach applicable smart contract enabled blockchain light client implemented smart contract chain relay implements bi directional relay block headers blockchains bridge block headers blockchain constantly submitted smart contract blockchain b implements light client logic verify validity headers analogously headers blockchain b submitted smart contract",
+    "metadata": {
+      "chunk_id": "63fd91928783cf80572e3596fbc40884",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 17] bridge block headers blockchain constantly submitted smart contract blockchain b implements light client logic verify validity headers analogously headers blockchain b submitted smart contract blockchain blockchain protocols aware block header contains mathematically verifiable witness transaction block typically form merkle root included transactions smart contract validates headers validate existence transaction header smart contract verify transactions verify operation e g token transfer action smart contracts blockchain serves light x0cclient verify validity block content block header relays transfer assets different blockchains enable trading activity blockchains s distinct advantages example eos chain advantage enabling higher frequency trading higher transaction second rate ethereum chain considered secure crypto community large currently offers popular assets advanced financial primitives defi projects cross chain trades occur view corresponding transaction hashes cross chain",
+    "metadata": {
+      "chunk_id": "af592318cc9779b37a20ef0d4a9c41cd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 18] chain considered secure crypto community large currently offers popular assets advanced financial primitives defi projects cross chain trades occur view corresponding transaction hashes cross chain conversion token moves protocol verifiable chains token trades taken place relay network key implementing decentralized token swaps networks different blockchains creating relay unidirectional cross chain link having entities relay validate cross chain communications individual kyber network deployment linked relayer validator network smart contract enabled blockchain relays designed open trustless join relay transactions assets chains removing potential central points failure x0cthe diagram shows potential chain topology relay network ethereum center connecting chains relay network active area research expect share results future updates assets non smart contract enabled blockchains cryptocurrencies blockchains natively support smart contracts approach similar xe2 x80 x8bwrapped btc wbtc",
+    "metadata": {
+      "chunk_id": "71bd8399d616052448e7599d67b752e5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 19] research expect share results future updates assets non smart contract enabled blockchains cryptocurrencies blockchains natively support smart contracts approach similar xe2 x80 x8bwrapped btc wbtc adopted tokenized cryptocurrencies wrapped coins utilize custodian model implement tokenization cryptocurrency bitcoin monero smart contract enabled blockchain wrapped coin minted existence smart contract enabled blockchain equivalent cryptocurrency held custody 1 1 ratio method benefit ease transparency custodian funds fully verifiable chain wrapped coin approach pragmatic represents immediate benefit dexes dapps smart contracts restriction x0cv kyber network crystal knc usage kyber network crystal knc integral kyber protocol serve crucial economic governance treasury functionalities implementations protocol networks knc key usage utility governance considered supported project community exact usage knc different chains dependent specific implementation key details include specific",
+    "metadata": {
+      "chunk_id": "60438dc882984e7780417914f1fbe6e4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 20] protocol networks knc key usage utility governance considered supported project community exact usage knc different chains dependent specific implementation key details include specific features different chains maturity ecosystem protocol implementation network maintainers expected decisions initially implementation reaches certain stage maturity expect decisions community knc holders expect distinction protocol maintainers focus protocol level governance like unified knc supply network maintainers focus economics technical features implementation chain roles likely responsibilities involving knc protocol maintainer protocol governing unified knc supply protocol specs treasury cross chain compatibility knc network maintainers blockchain implementation ie network governance implementation ensuring conforms protocol specs determining tokenomic parameters protocol level network level maintainers main areas knc usage 3 main areas expect knc x0ceconomic facilitation knc transaction",
+    "metadata": {
+      "chunk_id": "3e76af3d3e6477b801d35f4d6c69cf89",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 21] ensuring conforms protocol specs determining tokenomic parameters protocol level network level maintainers main areas knc usage 3 main areas expect knc x0ceconomic facilitation knc transaction facilitate ongoing system operations example getting reserves pay fee knc trade acts barrier perform wash trading fee incorporated spread addition users need instant liquidity pay fees order trade facilitated scope kyber expands possible mechanisms leverage knc staking mechanism acts barrier malicious actors safeguards integrity kyber ecosystem example requirement reserves stake knc considered network requirement relayers validators facilitate cross chain transactions kyber based networks different chains governance token knc utilized governance protocol level networks different chains protocol level specs initiatives expect overall knc based dao help decisions overall spec funding proposals individual implementations chains host tokenomic parameters upgrade decisions token listings knc",
+    "metadata": {
+      "chunk_id": "71022c16395a56646b7c93b8569edd80",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 22] level specs initiatives expect overall knc based dao help decisions overall spec funding proposals individual implementations chains host tokenomic parameters upgrade decisions token listings knc stakeholders turn able vote decide treasury funds economic governance knc expect knc based treasury network maintainers dao members leverage source funds fund development marketing growth kyber protocol open grant programs proposals allow network important contributors drive adoption build core platform earn income knc getting knc hands contributors giving economic interest success platform sustainable decentralized community system knc single token knc represented different chains relays managed single token terms unified supply interchangeability terms protocol governance treasury x0cunified supply chains knc supply managed economic concept event require transfer knc ethereum chain chain changes unified supply approved dao protocol maintainers likely occur protocol gets implemented chain",
+    "metadata": {
+      "chunk_id": "c4117d7ab662ecea7ba9ee42a9b096db",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 23] supply chains knc supply managed economic concept event require transfer knc ethereum chain chain changes unified supply approved dao protocol maintainers likely occur protocol gets implemented chain interchangeability chains striving interchangeability chains knc tokens easily moved chain exploring cross chain technologies e g peacerelay waterloo enable functionality way technically feasible protocol level governance treasury apart governing unified knc token supply making decisions protocol specifications protocol maintainers govern treasury fund research development efforts adoption protocol different blockchains knc token interoperability causes moving forward kyber system community grows knc play crucial role ensuring kyber continues evolve cohesive economic purposeful community x0cwe look forward including details knc particularly protocol level governance managing knc ledger supply chains technical workings dao treasury future papers vi specifications protocol functions methods",
+    "metadata": {
+      "chunk_id": "104020a244ac630b0eaf3aa69e8d7b26",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 24] look forward including details knc particularly protocol level governance managing knc ledger supply chains technical workings dao treasury future papers vi specifications protocol functions methods implemented smart contracts interact protocol smart contracts token trades contract functions executed taker view expected token conversion rate trade request getexpectedrate xe2 x80 x8bgetexpectedrate xe2 x80 x8b function called query expected slippage token exchange rate xe2 x80 x8bsrc xe2 x80 x8b token xe2 x80 x8bdest xe2 x80 x8b token parameter type description src address source token address dest address destination token address srcqty uint source token figure 7 input parameters getexpectedrate function parameter expectedrate type uint description expected token exchange rate figure 8 return parameter getexpectedrate function rate zero signifies trade requested source token destination token possible moment x0cthe rates returned precision values regardless source destination xe2 x80",
+    "metadata": {
+      "chunk_id": "60a54d9e398b8906b9fe1162a8a42480",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 25] parameter getexpectedrate function rate zero signifies trade requested source token destination token possible moment x0cthe rates returned precision values regardless source destination xe2 x80 x99s token decimals example example token token token symbol token decimals src gifto gto 5 dest zilliqa zil 12 figure 9 token information conversion rate example suppose taker queries gto zil conversion rate number 1 xe2 x80 x8b219076623416000000 returned assume precision value 10 18 1219076623416000000 10 18 1 219 means 1 gto token exchanged 1 219 zil tokens source token decimals different returned rate precision values trade xe2 x80 x8btrade xe2 x80 x8b function called trade token converted tokens sent xe2 x80 x8bdestaddress xe2 x80 x8b implementation function consider security checks prevent rate manipulation reserves incorrect implementation reserves sure trade happens expected taker parameter type description src address source token address srcamount uint source token dest address",
+    "metadata": {
+      "chunk_id": "1223e4f1d921eb54ac798b305f7ef51c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 26] rate manipulation reserves incorrect implementation reserves sure trade happens expected taker parameter type description src address source token address srcamount uint source token dest address destination token address destaddress address recipient address destination tokens maxdestamount uint maximum destination tokens convert excess source x0ctokens conversion returned sender minconversionrate uint minimum conversion rate trade cancelled rate lower parameter protects user rate slippage transaction mined included blockchain figure 10 input parameters trade function parameter type uint description actual destination tokens traded figure 11 return parameter tradewithhint function adding removing reserves token pairs functions executed add remove new reserves enable disable token trades addreserve xe2 x80 x8baddreserve xe2 x80 x8b function called add reserve liquidity provider parameter type description reserve address reserve contract address filterflag boolean dependent protocol",
+    "metadata": {
+      "chunk_id": "a14e47db269e113c2a7a5ea873fc7e18",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 27] addreserve xe2 x80 x8baddreserve xe2 x80 x8b function called add reserve liquidity provider parameter type description reserve address reserve contract address filterflag boolean dependent protocol implementation decide use flag figure 12 input parameters addreserve function parameter type description x0cbool returns true operation successful false figure 13 return parameter addreserve function removereserve xe2 x80 x8bremovereserve xe2 x80 x8b function called remove reserve protocol parameter type description reserve address reserve contract address index uint index reserve reserve array figure 14 input parameters removereserve function parameter type bool description returns true operation successful false figure 15 return parameter removereserve function listpairforreserve xe2 x80 x8blistpairforreserve xe2 x80 x8b function called denote token pairs supported listed reserve parameter type description reserve address reserve contract address token address token address buytoken",
+    "metadata": {
+      "chunk_id": "a5d6d64cd49e55a5bab6e9c465c9d8e5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 28] x8blistpairforreserve xe2 x80 x8b function called denote token pairs supported listed reserve parameter type description reserve address reserve contract address token address token address buytoken boolean true buying tokens enabled false buying tokens disabled x0cselltoken boolean true selling tokens enabled false selling tokens disabled add boolean true enable token pair trade false disable token pair trade figure 16 input parameters listpairforreserve function parameter type bool description returns true operation successful false figure 17 return parameter listpairforreserve function reserves interface reserve wants provide liquidity protocol users need implement 2 methods connecting main protocol contract getconversionrate xe2 x80 x8bgetconversionrate xe2 x80 x8b function implemented reserve main protocol contract obtain token exchange rates parameter type description src address source token address dest address destination token address srcqty uint source tokens figure 18",
+    "metadata": {
+      "chunk_id": "d76bdd893fc6cc92cb94395f1c5e8378",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 29] reserve main protocol contract obtain token exchange rates parameter type description src address source token address dest address destination token address srcqty uint source tokens figure 18 input parameters getconversionrate function parameter type uint description token conversion rate figure 19 return parameter getconversionrate function x0cthe conversion rate returned precision values regardless source xe2 x80 x99s destination xe2 x80 x99s token decimals explained xe2 x80 x8bgetexpectedrate xe2 x80 x8b function addition reserve unable fulfill trade request eg hold destination tokens taker exchange expected return rate zero trade xe2 x80 x8btrade xe2 x80 x8b function called main protocol contract reserve selected fill user trade order notice function differs taking orders interface network contract expects reserves implement trade function order actually use srcamount srctoken network sent calculate desttoken conversionrate send destaddress validate param reserve use parameter",
+    "metadata": {
+      "chunk_id": "b8d166ea406a8cf70b3794eb9802bc10",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  },
+  {
+    "text": "[Section 30] network contract expects reserves implement trade function order actually use srcamount srctoken network sent calculate desttoken conversionrate send destaddress validate param reserve use parameter type description srctoken address source token address srcamount uint source token desttoken address destination token address destaddress address recipient address destination tokens conversionrate uint actual token conversion rate validate boolean true additional validations performed false additional validations performed figure 20 input parameters trade function parameter type bool description returns true operation successful false figure 21 return parameter trade function x0cthe reserve network reserves added token pairs listed trading x0c",
+    "metadata": {
+      "chunk_id": "ef49115f7cb463404898325dabdc7031",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Kyber.txt"
+    }
+  }
+]

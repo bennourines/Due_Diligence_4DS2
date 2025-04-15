@@ -1,0 +1,578 @@
+[
+  {
+    "text": "[Section 1] b temporal innovation blockchain chronologic october 11 2018 v2 x0cabstract current generation blockchains lack crucial time based functionality like transaction scheduling proposed paper discusses potential implementable solutions challenges enabling functionality x0ccontents 1 introduction 1 1 centralized scheduling 1 2 decentralized scheduling 2 ethereum alarm clock 2 1 architecture 2 1 1 smart contracts 2 1 2 timenode 2 2 claiming mechanism 2 3 remote providers 2 4 mitigation efforts 2 5 recommendation 2 6 cryptoeconomics 2 7 limitations 2 7 1 gas price 2 7 2 account abstraction 2 7 3 gas cost 2 8 protocol fees 2 9 multi network protocol 2 10 day token 3 4 4 5 5 5 8 9 9 9 10 10 11 11 12 13 13 13 13 3 chronos generation scheduling protocol 14 3 1 conditional scheduling 14 3 2 day token staking 15 4 second layer execution markets 17 4 1 delegated execution 17 4 2 execution market 17 4 3 timenode scheduling 19 appendix chain claiming mechanism 1 claiming mechanism 1 1 claiming 1 2",
+    "metadata": {
+      "chunk_id": "1e1c2d31884dcbf9074bc8202b5bc850",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 2] staking 15 4 second layer execution markets 17 4 1 delegated execution 17 4 2 execution market 17 4 3 timenode scheduling 19 appendix chain claiming mechanism 1 claiming mechanism 1 1 claiming 1 2 execution 1 economics 20 20 20 21 x0ca 1 3 expected payout definition 2 simulation 2 21 22 x0cchapter 1 introduction scheduling feature native modern financial world schedule routine bank transfers bill payments know ahead time payment set automatic payments instead waiting exact time date financial transactions increasingly moving self sovereign trustless world cryptocurrencies volume moved networks like ethereum1 daily higher expectations foundational tooling fiat world provides users expect scheduling transactions feature ethereum ecosystem learned rely everyday lives fact scheduling calls ethereum powerful scheduling movements money fiat world xe2 x80 x93 users schedule smart contracts execution access complex logic identify tooling gap exists developers working ethereum stack cron jobs",
+    "metadata": {
+      "chunk_id": "acc4323b18d7155d6e067dc690a4e2ed",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 3] powerful scheduling movements money fiat world xe2 x80 x93 users schedule smart contracts execution access complex logic identify tooling gap exists developers working ethereum stack cron jobs unix contrary intuition scheduling calls decentralized peer peer blockchain trivial problem solve reasons person want schedule smart contract calls facile use cases involves simple scheduling value transfers xe2 x80 x93 movement ether erc20 token address future indoctrination concepts daos2 world start smart contracts employed use organizational governance high stakes uses instance users want schedule vote dao determine zoning neighborhood live additionally developers invent new use cases scheduling hood bothering user complexity application interacting blockchains new software platform people set maintain software environments use cron3 schedule jobs commands shell scripts run periodically fixed times dates intervals need cron world ethereum 1 https www ethereum org 2 https en wikipedia org",
+    "metadata": {
+      "chunk_id": "29f465c0a8e8b8d1f980f7f56a4cbdcc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 4] maintain software environments use cron3 schedule jobs commands shell scripts run periodically fixed times dates intervals need cron world ethereum 1 https www ethereum org 2 https en wikipedia org wiki decentralized autonomous organization 3 https en wikipedia org wiki cron 3 x0c1 1 centralized scheduling ethereum platform offers native way smart contract called specified time future way recurring obvious need feature led developers create solutions deprecated parity ui4 built scheduling feature locally hold transaction memory sending desired time solution worked fine major drawbacks including 1 necessity user run local node use specific parity client software 2 single point failure experienced cases local node disconnected peer peer network multiple issues actually combined centralization 1 2 decentralized scheduling advantages decentralized protocol centralized single point failure scheduling aspect ethereum alarm clock5 entirely smart contracts running ethereum backend allows",
+    "metadata": {
+      "chunk_id": "00112c6b0548b37c706abcb17515ca8b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 5] 1 2 decentralized scheduling advantages decentralized protocol centralized single point failure scheduling aspect ethereum alarm clock5 entirely smart contracts running ethereum backend allows permission implementations user friendly ends 6 execution aspect protocol handled network chain clients known timenodes timenodes incentivized operate user set bounty payment thought small reward offered user timenode compensate expenses monitoring state ethereum keeping network alive users aware existence timenodes pay small premium bounty need understand execution flow ethereum alarm clock protocol entirely 4 https github com paritytech parity ui 5 ethereum alarm clock created piper merriam lead python team ethereum august 26 2015 development history deployed ethereum network maintained solely single developer adoption protocol 2016 ddos attacks ethereum network smart contracts started fall date piper began pursuing new projects 6 implemented ends current iteration ethereum alarm clock",
+    "metadata": {
+      "chunk_id": "06a50555e7b53b22b52a66c20549e395",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 6] single developer adoption protocol 2016 ddos attacks ethereum network smart contracts started fall date piper began pursuing new projects 6 implemented ends current iteration ethereum alarm clock chronologic chronos dapp https app chronologic network native integration popular mycrypto wallet https mycrypto com 4 x0cchapter 2 ethereum alarm clock november 2017 nearly year ddos attacks metaphorically threw ratchet ethereum alarm clock xe2 x80 x99s gears developers chronologic team began work reboot ethereum alarm clock protocol months work including updating core smart contracts rewriting test suite javascript truffle framework building developer libraries constructing new timenode client typescript performing numerous internal audits external audit notable member community chronologic team deployed 1 0 0 stable release ethereum alarm clock smart contracts august 24 2018 following information discuss architecture analyze cryptoeconomic incentives enumerate limitations found stable",
+    "metadata": {
+      "chunk_id": "cf0d516e0dca960deba4554108418cf8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 7] team deployed 1 0 0 stable release ethereum alarm clock smart contracts august 24 2018 following information discuss architecture analyze cryptoeconomic incentives enumerate limitations found stable release 2 1 architecture ethereum alarm clock architecture best described symbiotic differential components component ethereum alarm clock architecture smart contracts deployed ethereum main chain operate trustlessly second component timenode network timenodes chain execution agents charge handling logic executions 2 1 1 smart contracts smart contracts ethereum alarm clock thought consisting mainly parts requestfactory schedulers divided timestampscheduler blockscheduler transactionrequestcore main sections architecture numerous libraries contain pieces core logic functionality library contracts level scheduler contracts contract requestfactory transactionrequestcore adding zeppelin xe2 x80 x99s 5 x0cfigure 2 1 ethereum alarm clock architecture overview safemath ownable brings total 15",
+    "metadata": {
+      "chunk_id": "348b2f642ba4e14e13fbd8d5a52d0e5c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 8] level scheduler contracts contract requestfactory transactionrequestcore adding zeppelin xe2 x80 x99s 5 x0cfigure 2 1 ethereum alarm clock architecture overview safemath ownable brings total 15 smart contracts entire ethereum alarm clock architecture logic scheduled transactions exists transactionrequestcore contract acts central library numerous instances delegatecall1 clone contracts deployed requestfactory shown code example primary actions transactionrequestcore allows timenodes execute cancel claim scheduled transaction function execute public returns bool function cancel public returns bool function claim public payable returns bool schedulers blockscheduler sol timestampscheduler sol level apis exposed user facing applications contracts provide simpler interface taking necessary parameters scheduled transaction setting rest options sane defaults scheduler contracts objects hold data concerning 1 https github com ethereum eips issues 23 6 x0cfigure 2 2 ethereum alarm clock smart",
+    "metadata": {
+      "chunk_id": "f7be72c8df793c9c47dfb7abc85901a6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 9] scheduled transaction setting rest options sane defaults scheduler contracts objects hold data concerning 1 https github com ethereum eips issues 23 6 x0cfigure 2 2 ethereum alarm clock smart contracts overview taking fees purpose separating logic taking fees scheduler contracts allow party developers new integrations customize fee structure fee destination preferred way allowing option party integration customize fee structures creates incentive integrate ethereum alarm clock product scheduler contracts works requestfactory backend benefiting network timenodes requestfactory contract core ethereum alarm clock protocol deploys new delegatecall clone contracts possible request factory directly time request factory called xe2 x80 x9cinternal transaction xe2 x80 x9d scheduler contracts requestfactory functions perform different kinds validation parameters passed lower level xe2 x80 x98createrequest xe2 x80 x98 7 x0cattempt raw creation transactionrequest validation performing validation",
+    "metadata": {
+      "chunk_id": "16961b371f24e97ac98edae147eac82d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 10] functions perform different kinds validation parameters passed lower level xe2 x80 x98createrequest xe2 x80 x98 7 x0cattempt raw creation transactionrequest validation performing validation function saves gas lead possibility parameters contained error executed properly use cases validation input parameters desired xe2 x80 x98createvalidatedrequest xe2 x80 x98 instead requestfactory factory timenodes watch order date scheduled transactions emits xe2 x80 x98requestcreated xe2 x80 x98 event alerts timenodes user scheduled transactions 2 1 2 timenode timenodes chain execution agents represent individual nodes decentralized peer peer execution network ethereum alarm clock figure 2 3 ethereum alarm clock timenodes network primary timenode action execute function second action claim xe2 x80 x99ll detail section execute called anytime timenode tries execute transaction scheduled executed executing transaction timenode receives reward bounty helps incentivize timenodes execute incoming",
+    "metadata": {
+      "chunk_id": "92a019a30b60a36f81e1ec06d8a7b013",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 11] x99ll detail section execute called anytime timenode tries execute transaction scheduled executed executing transaction timenode receives reward bounty helps incentivize timenodes execute incoming scheduled transactions execute action run triggering function smart contract holds scheduled transaction trigger requires timenode spend small gas trigger action 8 x0ca problem arises multiple timenodes send execute trigger time e block trigger execution timenode xe2 x80 x99s transaction reverted cost small gas timenode notice collides timenodes execution time scheduled transactions choose claim transactions 2 2 claiming mechanism claiming advanced opt feature ethereum alarm clock protocol helps timenodes lower risk transaction collisions users schedule transaction scheduled transaction appears blockchain timenodes track scheduled timenode attempt claim scheduled transaction depositing small eth claiming transactions removes risk colliding timenodes execution time brings forward set problems",
+    "metadata": {
+      "chunk_id": "fc793a46911e871f316b2afd297dff2a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 12] timenodes track scheduled timenode attempt claim scheduled transaction depositing small eth claiming transactions removes risk colliding timenodes execution time brings forward set problems 1 transaction collisions transaction collisions happen execute function problem claim function chance multiple timenodes trying claim transaction block result transaction collision able claim 2 deposit loss timenode claims transaction deposits small eth guarantee online execute time right timenode unforeseen circumstances offline exact time scheduled transaction executed lose deposit 2 3 remote providers effect sending claim execute actions scheduled transaction bring risks depending timenode connected local remote node connecting timenode remote provider introduce delays network conditions facilitate failed claims executions running local rpc provider node recommended way running timenode eliminate risk slow responses rpc requests timenode 2 4 mitigation efforts efforts mitigate risks mentioned",
+    "metadata": {
+      "chunk_id": "8fa370bc4115fa4cd29104b4a11d3937",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 13] failed claims executions running local rpc provider node recommended way running timenode eliminate risk slow responses rpc requests timenode 2 4 mitigation efforts efforts mitigate risks mentioned introducing haspending check timenode core library haspending allows timen9 x0codes check transaction pool txpool providers connected incoming execute claim actions certain scheduled transactions allows timenodes avoid transaction collisions use node txpool parity geth mind rpc providers txpool e g infura http work feature 2 5 recommendation order avoid mentioned risks running timenode recommend following setup xe2 x80 xa2 connect timenode local parity geth node xe2 x80 xa2 turn claiming transactions xe2 x80 xa2 reliable internet connection minimum offline time risks currently unquantifiable clear network behave real world conditions 2 6 cryptoeconomics ethereum alarm clock protocol incorporates cryptoeconomic incentives reward decentralized network timenodes continue operation incentive",
+    "metadata": {
+      "chunk_id": "e1f6908dc43fda81755d3fed993d3ada",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 14] clear network behave real world conditions 2 6 cryptoeconomics ethereum alarm clock protocol incorporates cryptoeconomic incentives reward decentralized network timenodes continue operation incentive consists extra ether sent timenode following execution bounty variable depends transaction claimed extra gas paid execution transaction general rule timenodes execute transactions return net loss eth balance formula bounty calculation provided btotal p xc3 x97 bset xe2 x88 x92 gactual xe2 x88 x92 gset p payment modifier given scheduled transactions expected executed exact time network n competing nodes exists expect face xe2 x80 x9dswarming xe2 x80 x9d problem described uncoordinated attempts execution n nodes time problem result unnecessary costs timenodes making operations potentially profitable 1 n going earn timebounty execution timenodes trying execute block pay transaction cost failed transaction introducing payment modifier p timenode operators able pick theirs profitability point",
+    "metadata": {
+      "chunk_id": "d5c8e889f16f500ff042f4d34dd1865a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 15] 1 n going earn timebounty execution timenodes trying execute block pay transaction cost failed transaction introducing payment modifier p timenode operators able pick theirs profitability point effectively mitigates xe2 x80 x9dswarming xe2 x80 x9d problem expect timenodes try claim different blocks moments time perfect competition profitability metric timenode trends perfect zero leading timenodes send claim transaction block detailed timenode economics refer appendix 10 x0c2 7 limitations 2 7 1 gas price ethereum network uses concept gas unit measuring computational work performed network transaction broadcasted network sets gas limit gas price gas limit describes maximum gas allowed consumed transaction gas price describes ether eth willing pay unit gas setting gas limit cases straightforward automatic setting correct gas price trivial task gas price determines time broadcasting block inclusion depends current network capacity observed spikes gas price popular icos2 cryptokitties",
+    "metadata": {
+      "chunk_id": "10dca959b1182d4a0e1ededd63231bb0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 16] automatic setting correct gas price trivial task gas price determines time broadcasting block inclusion depends current network capacity observed spikes gas price popular icos2 cryptokitties fcoin chain voting given nature scheduled transactions ethereum alarm clock protocol needs handle execution predicted gas price important characteristics xe2 x80 xa2 execution prioritization xe2 x80 xa2 timenode withholding protection possible solution problem let xe2 x80 x99s analyze separately 1 fixed gas price allows setting exact gas price timenode execution declared gas price reimbursed scheduler pros xe2 x80 xa2 simple xe2 x80 xa2 protects timenode withholding cons xe2 x80 xa2 fails gas price spikes xe2 x80 xa2 requires users guess price future 2 range gas price allows setting minimum maximum gas price scheduler maximum gas price reimbursed gas price timenode min max spot price allow split remaining budget scheduler timenode e g scheduler sets range 20gwei 100gwei locks funds cover 100gwei",
+    "metadata": {
+      "chunk_id": "f1448d53b29bb5ca6da08ed062cb8a2f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 17] price scheduler maximum gas price reimbursed gas price timenode min max spot price allow split remaining budget scheduler timenode e g scheduler sets range 20gwei 100gwei locks funds cover 100gwei gas limit timenode incentivized pick good price 20 100 let xe2 x80 x99s 50 remaining 50 split making timenode earn extra 25 pros 2 https en wikipedia org wiki initial coin offering 11 x0c xe2 x80 xa2 protects timenode withholding xe2 x80 xa2 incentivize timenodes pick correct price bounds cons xe2 x80 xa2 given running equilibrium max xe2 x80 xa2 requires decently high max order cover spikes 3 minimum gas price allows setting minimum gas price scheduler minimum gas price reimbursed higher gas prices covered timenode effectively reducing reward execution pros xe2 x80 xa2 protects timenode withholding xe2 x80 xa2 allows timenode decide equilibrium cons xe2 x80 xa2 covers spikes minimum reimbursement reward order pick right solution need understand ethereum alarm clock execution process 3",
+    "metadata": {
+      "chunk_id": "6a46d4d5c2cb02ca735dd2f67deb515c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 18] xe2 x80 xa2 allows timenode decide equilibrium cons xe2 x80 xa2 covers spikes minimum reimbursement reward order pick right solution need understand ethereum alarm clock execution process 3 different time windows xe2 x80 xa2 pre execution claiming process timenodes bidding reservation execution xe2 x80 xa2 reserved execution time period timenode claimed transaction xe2 x80 xa2 execution free execution timenode claimed missed execution claiming happened minimum gas price best option reserved execution execution allows timenodes control pick gas price best fits profit model 2 7 2 account abstraction cases address sender known upfront given ethereum alarm clock architecture scheduled transaction represented separate smart contract unique ethereum address need use proxy wallet address proxy wallet seen msg sender destination contract account example procedure scheduling transaction proxy wallet described follows 1 create schedule request destination set proxy wallet 2 send scheduling",
+    "metadata": {
+      "chunk_id": "e7b9e54d1017479eb425d0bfc85e8457",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 19] wallet seen msg sender destination contract account example procedure scheduling transaction proxy wallet described follows 1 create schedule request destination set proxy wallet 2 send scheduling request proxy wallet owner request 12 x0c3 whitelist scheduled request proxy wallet relayed need workaround necessary native account abstraction 3 available ethereum network 2 7 3 gas cost storage smart contract keeping data conditions parameters scheduled transaction comes cost currently scheduled transaction costs approximately 500 000 gas total cost usd $14 xe2 x80 x9cpremium xe2 x80 x9d scheduling 20x compared regular eth transfers 2 8 protocol fees potential business model ethereum alarm clock protocol based fee enabled transaction architecture protocol allows deployment schedulers specific 3rd party wallets scheduler deployed different fee setting 2 9 multi network protocol ethereum alarm clock deployed evm compatible blockchain like ethereum classic5 rsk6 multi network protocol",
+    "metadata": {
+      "chunk_id": "7cf63bc142cb5520ab0bb1b5f68c775b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 20] 3rd party wallets scheduler deployed different fee setting 2 9 multi network protocol ethereum alarm clock deployed evm compatible blockchain like ethereum classic5 rsk6 multi network protocol handled timenodes listening networks providing execution wallets timenodes native cryptocurrency blockchains order cover transaction fees multi network deployment expand scheduling user base ethereum blockchain 2 10 day token running web7 desktop8 versions timenode software requires users prove ownership 333 day9 tokens required held ethereum account controlled timenode operator running client cli tool10 require day tokens compared cli timenode superior analytics ease use 3 https github com ethereum eips issues 859 4 given current 8 2gwei gas price 5 https ethereumclassic org 6 https www rsk co 7 https app chronologic network 8 https github com chronologic eth alarm clock dapp releases 9 https etherscan io token 0xe814aee960a85208c3db542c53e7d4a6c8d5f60f 10 https github com ethereum alarm clock",
+    "metadata": {
+      "chunk_id": "b2b1c637a922b54d84259ef9a50b33b6",
+      "entities": {
+        "email": [],
+        "crypto_address": [
+          "0x"
+        ]
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 21] app chronologic network 8 https github com chronologic eth alarm clock dapp releases 9 https etherscan io token 0xe814aee960a85208c3db542c53e7d4a6c8d5f60f 10 https github com ethereum alarm clock cli 13 x0cchapter 3 chronos generation scheduling protocol 3 1 conditional scheduling time based scheduling powerful idea xe2 x80 x99s capable handling type scheduling idea explore type scheduling sparked discussions teams projects ethereum space potential use cases ethereum alarm clock based state change specific time period let xe2 x80 x99s closer look example implement decentralized stop loss functionality ethereum alarm clock possible solutions problem implemented defined follows xe2 x80 xa2 create smart contact called stoploss execute function going check decentralized exchange current position place sell order certain conditions met xe2 x80 xa2 use ethereum alarm clock protocol create scheduled transaction recurring execution execute e g 5min solution works generate enormously high cost",
+    "metadata": {
+      "chunk_id": "1131b320ebf3ba3f7485b201e8a0a1b1",
+      "entities": {
+        "email": [],
+        "crypto_address": [
+          "0x"
+        ]
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 22] place sell order certain conditions met xe2 x80 xa2 use ethereum alarm clock protocol create scheduled transaction recurring execution execute e g 5min solution works generate enormously high cost users given 500000 gas daily cost approximately 500000gas xc3 x97 12 xc3 x97 24 xe2 x89 x88 $1301 making unfeasible general problem approach trigger costs gas regardless succeeds efficient solution problem scheduler allows store conditions 1 given 1eth 221usd gasprice 4 1gwei 14 x0cdirectly contract allows execution conditions met looking lens came conclusion time based scheduling special case conditional scheduling conditions time block timenodes chain executors checking time block conditions execution reading smart contract means attempt sending transactions conditions met instead defining time block delegate check external contracts e g method inexecutionwindow uint windowstart uint windowsize returns bool checks block number given window 3 2 day token staking ethereum alarm clock",
+    "metadata": {
+      "chunk_id": "243cf7a43f8bd7446dc2619a21ed2773",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 23] time block delegate check external contracts e g method inexecutionwindow uint windowstart uint windowsize returns bool checks block number given window 3 2 day token staking ethereum alarm clock protocol claiming process order improve cryptoeconomics reducing collisions timenodes chronos protocol different approach solve problem taken account implementing claiming mechanism based day token staking hypothetical staking model assumes day tokens act collateral claiming actions align incentives execution commitment timenode backed day tokens lack execution result token slashing complete stake partial slashing seen example staking model called priority queue described follows xe2 x80 xa2 client running timenode software register intent claiming timenode blockchain sending transaction containing tokens contract inside transaction timenode specifies preferences kinds transactions wants execute preferences include big bounty attached scheduledtransaction execution window starts xe2 x80 xa2",
+    "metadata": {
+      "chunk_id": "7437c4e9ce28da971b6e2d5da2d1fafe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 24] tokens contract inside transaction timenode specifies preferences kinds transactions wants execute preferences include big bounty attached scheduledtransaction execution window starts xe2 x80 xa2 time timenode enters claiming queue entry highest staked moved queue entries sorted downward xe2 x80 xa2 user wants schedule transaction send transaction chronos scheduler contract containing data transaction like executed later time later conditionals return true xe2 x80 xa2 timenode claiming queue fits preferences timenode popped queue xe2 x80 x9cassigned xe2 x80 x9d transaction 15 x0c xe2 x80 xa2 execution time timenode assigned exclusive rights send execute transaction timenodes try 16 x0cchapter 4 second layer execution markets 4 1 delegated execution delegated execution pattern ethereum alarm clock chronos others1 high level enables safe transaction delegation 3rd party agents exchange reward figure 4 1 delegated execution example 4 2 execution market currently ethereum ecosystem",
+    "metadata": {
+      "chunk_id": "4893b3f94a0218a281525cbe35c24763",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 25] alarm clock chronos others1 high level enables safe transaction delegation 3rd party agents exchange reward figure 4 1 delegated execution example 4 2 execution market currently ethereum ecosystem multiple projects working execution markets purpose drawback approach economic incentive participate market depends delegation available protocols dapps2 scatter market smaller ones potentially profitable join issues siloed markets xe2 x80 xa2 nodes depends bounties 1 gnosis safe uport relayers 2 https en wikipedia org wiki decentralized application 17 x0cfigure 4 2 siloed relayers markets xe2 x80 xa2 reliability network depends nodes xe2 x80 xa2 networks run protocol dapps creators subject low censorship resistance solution problem conceptualize common market able handle multiple protocols dapps figure 4 3 common relayers markets order design market pre conditions xe2 x80 xa2 agree interfaces chain chain representations eip 10773 erc 12284 xe2 x80 xa2 agree bounties representation erc 11975",
+    "metadata": {
+      "chunk_id": "9c8167d54592aa687451c0accffc2685",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 26] figure 4 3 common relayers markets order design market pre conditions xe2 x80 xa2 agree interfaces chain chain representations eip 10773 erc 12284 xe2 x80 xa2 agree bounties representation erc 11975 3 https eips ethereum org eips eip 1077 4 https github com ethereum eips issues 1228 5 https github com ethereum eips issues 1197 18 x0c4 3 timenode scheduling timenode working implementation delegated execution pattern potentially serve blueprint implementations generalized handle cases scheduling 19 x0cappendix chain claiming mechanism economics 1 claiming mechanism claiming mechanism described follows transaction t x deployed network expected executed 1 n nodes network process execution divided steps claiming execution claiming process reserving transaction execution 1 1 claiming xe2 x80 xa2 happen execution xe2 x80 xa2 node chance successfully claim t x xe2 x80 xa2 claiming requires deposit locked claimant xe2 x80 xa2 deposit lost claimant execution won xe2 x80 x99t happen exclusive",
+    "metadata": {
+      "chunk_id": "74c3ab03b870bfe0fb50552b5df76827",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 27] xa2 happen execution xe2 x80 xa2 node chance successfully claim t x xe2 x80 xa2 claiming requires deposit locked claimant xe2 x80 xa2 deposit lost claimant execution won xe2 x80 x99t happen exclusive execution window xe2 x80 xa2 node fail claiming t x claimed figure 1 scheduled transaction life cycle 20 x0c xe2 x80 xa2 claiming requires sending transaction cost described cc successful cf unsuccessful 0 beginning claiming window xe2 x80 xa2 payment modifier pmod t 1 end claiming window xe2 x80 xa2 claiming optional 1 2 execution xe2 x80 xa2 successful execution reward described t imebounty xe2 x80 xa2 execution cost reimbursed scheduler successful xe2 x80 xa2 execution cost cost described ce unsuccessful xe2 x80 xa2 deposit locked claimant acquired node claimant failed execute t x 1 3 expected payout definition let xe2 x80 x99s define expected payout node p ps pf pnf ps expected payout successful claim execution pf expected payout successful claim missed execution pnf expected payout",
+    "metadata": {
+      "chunk_id": "d36c080e441ed0b8f435590e08d40f47",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 28] payout definition let xe2 x80 x99s define expected payout node p ps pf pnf ps expected payout successful claim execution pf expected payout successful claim missed execution pnf expected payout node loses deposit network n 1 nodes network nodes n 1 define expected payouts ps pmod pmod xc3 x97 t imebounty xe2 x88 x92 cc pf xe2 x88 x92cc xe2 x88 x92 deposit pnf t imebounty xe2 x88 x92 cc 21 x0cnetwork n 1 nodes case expected reward t imebounty assuming probability n successful claiming equal nodes case failing transaction node pay ct x ps pmod pmod xc3 x97 t imebounty xe2 x88 x92 cc xe2 x88 x92 n xe2 x88 x92 1 xc3 x97 ct x n pf xe2 x88 x92cc xe2 x88 x92 deposit t imebounty deposit xe2 x88 x92 n xe2 x88 x92 1 xc3 x97 ct x n order improve cost failing transactions let xe2 x80 x99s introduce mechanism x prevents sending transaction fail accuracy mechanism x defined ax xe2 x88 x88 0 1 pnf ps ax pmod pmod xc3 x97 t imebounty xe2 x88 x92 cc xe2 x88 x92 1 xe2 x88 x92 ax xc3 x97 n xe2 x88 x92 1",
+    "metadata": {
+      "chunk_id": "ebc8dab331e59e48fef7335f93f8ffc9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 29] x prevents sending transaction fail accuracy mechanism x defined ax xe2 x88 x88 0 1 pnf ps ax pmod pmod xc3 x97 t imebounty xe2 x88 x92 cc xe2 x88 x92 1 xe2 x88 x92 ax xc3 x97 n xe2 x88 x92 1 xc3 x97 ct x n pf xe2 x88 x92cc xe2 x88 x92 deposit t imebounty deposit xe2 x88 x92 1 xe2 x88 x92 ax xc3 x97 n xe2 x88 x92 1 xc3 x97 ct x n introduce pld xe2 x88 x88 0 1 probability timenode loosing deposit pnf ax p ax pld pmod ps ax pmod xc3 x97 1 xe2 x88 x92 pld pf ax pnf ax xc3 x97 pld 2 simulation going simulate cases equation formulated section 1 3 ax pld pmod variables depends reliability running costs timenode owners calculated results going represented gas let xe2 x80 x99s define profitability threshold assume monthly running cost timenode 7usd based current rates heroku cloud translating 7usd gas et h u sd 700u sd gasp rice 10gwei 7u sd xe2 x89 xa1 1000000gas shows running costs covered acquiring 1000000gas let xe2 x80 x99s look translates executed transactions order calculate p ax pld",
+    "metadata": {
+      "chunk_id": "b82a84458d30bfa833d000cf4e86ead0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 30] gas et h u sd 700u sd gasp rice 10gwei 7u sd xe2 x89 xa1 1000000gas shows running costs covered acquiring 1000000gas let xe2 x80 x99s look translates executed transactions order calculate p ax pld pmod use script listed 22 x0cmoreover following values describing timenode operations network conditions n xe2 x89 x888 t imebounty xe2 x89 x88 300000gas deposit xe2 x89 x88 600000gas ax xe2 x89 x88 0 95 95% pld xe2 x89 x88 0 1 1% cc 90000gas ct x 25000gas target 1000000gas 7u sd results parameters 15 16 17 18 19 20 21 p mod res 0 70 1428 250 0 75 3178 094 0 80 4450 974 0 85 5951 569 0 90 7394 698 0 95 8980 225 1 00 10402 272 tx 700 314 224 168 135 111 96 results data frame contains 3 columns xe2 x80 xa2 p mod payment modifier pmod xe2 x80 xa2 res expected gas earned timenode transaction xe2 x80 xa2 num tx number transactions executed order cover running costs results achieved running simulation treated informational taken granted expected payout depends variables described simulation",
+    "metadata": {
+      "chunk_id": "51ee70943f5af508b03fd84c92db3df1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  },
+  {
+    "text": "[Section 31] x80 xa2 num tx number transactions executed order cover running costs results achieved running simulation treated informational taken granted expected payout depends variables described simulation purpose picked values intuition variable controlled timenode operator pmod major component low pmod allows timenode claim transaction order profitable low pmod timenode running cost low timenode market characteristics perfect competition market1 perfect information barriers entry deliver service timenode price takers based long term situation marginal cost equal average cost 1 http www economicsonline co uk business economics perfect competition html 23 x0c",
+    "metadata": {
+      "chunk_id": "cf97ea5ae08abc1bf5490671edf0b69f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Chronologic.txt"
+    }
+  }
+]

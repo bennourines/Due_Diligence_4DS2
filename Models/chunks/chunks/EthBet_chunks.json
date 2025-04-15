@@ -1,0 +1,620 @@
+[
+  {
+    "text": "[Section 1] b 1 x0cethbet whitepaper version 2 0 copyright xc2 xa9 2017 ethbet rights reserved table contents abstract 3 gambling house edge 3 provable fairness 4 optional player defined house edge 5 market potential 6 profit model 7 ethbet tokens ebet 8 crowdsale 8 project architecture 10 chain matchmaking 10 ethbet protocol 11 development timeline 12 timeline 13 future possibilities 14 similar projects 14 disclaimer 16 information 17 2 x0cabstract ethbet decentralized peer peer provably fair ethereum based dicing game mandatory house edge ethbet able offer bets house edge players bet directly players instead centralized house disadvantage order place bet party willing place bet reason possible player wait desired bet place especially large combat additional feature optional player defined house edge added allowing players offer xe2 x80 x98call xe2 x80 x99 bets house edge desire player prioritizes speed expected return agree bet gives slight disadvantage e bet gives opponent small house edge",
+    "metadata": {
+      "chunk_id": "c599d6b7fc8f46ac5b15721476e5f28f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 2] edge added allowing players offer xe2 x80 x98call xe2 x80 x99 bets house edge desire player prioritizes speed expected return agree bet gives slight disadvantage e bet gives opponent small house edge similarly player patient prioritizes expected return offer bets mentioned player choose results model players effectively able casinos allowing market forces provide players bets quickly possible best possible rates ethbet protocol features efficient chain matchmaking relay order allow players quickly cheaply communicate intent protocol extended support betting ethereum based erc20 token use games gambling house edge house edge statistical bias favor house house slight advantage bet house edges games found physical casinos range 2% 15% games having low house edge craps games having higher house edge slot machines advent online gambling cryptocurrencies websites offer players relatively lower house edges 1% 1% sounds like low house edge mind house edge applied individual bet player places",
+    "metadata": {
+      "chunk_id": "9881fafead3be8a5ed23a6e2887ce0e9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 4] losing xe2 x80 x93 longer making inherently irrational decision negative expected gain provable fairness modern cryptocurrency dicing sites offer provably fair betting having client seed server seed client seed picked client generated randomly default server seed picked server server hashes server seed secure cryptographic hash function sha2 sha3 function provides hash client roll client submits client seed bet information server server combines seeds public algorithm generate random number roll client able view server seed confirm server modify client seed server seed result roll results roll mathematically impossible bias predict party given basic assumptions including client use predictable seed hash function secure model provable fairness suitable client server model performed smart contract blockchain public information fully unbiased source entropy exists solutions fourth securely generate random number ethereum blockchain pose significant downsides actors able influence",
+    "metadata": {
+      "chunk_id": "331dec42d8f6e2a88bdd630affc3a50f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 5] smart contract blockchain public information fully unbiased source entropy exists solutions fourth securely generate random number ethereum blockchain pose significant downsides actors able influence blockchain money stake example hash ethereum block source randomness miner choose modify block publish decide publishing block altogether depending favorable given notable instances miners acting selfishly way hurts users acceptable solution randao1 attempts solve problem untrustable miners effectively crowd sourcing entropy wants participate randao contribute pool entropy incentivized paid small reward randao turn collects contract participant collude order manipulate result2 unfortunately takes wait time blocks randao statistically confident miner manipulated pool entropy randao limited entropy provide unit time potentially unit ether similar algorithm called signidice3 algorithm early versions dao casino4 blockchain protocol designed provably fair gambling sound statistical",
+    "metadata": {
+      "chunk_id": "ed5771de240dd30f5771e3cbacbb8c46",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 6] limited entropy provide unit time potentially unit ether similar algorithm called signidice3 algorithm early versions dao casino4 blockchain protocol designed provably fair gambling sound statistical gametheoretic point view algorithm computationally expensive relatively complex 4 x0cused frequently production settings rng method best implemented separate smart contract large participants unable collude complexity risks involved algorithm chosen adopt solution etheroll5 use oraclize6 random org7 generate random number oraclize service fetches external outside blockchain data use blockchain oraclize makes random org returning integer roll random org id associated tlsnotary proof8 showing oraclize modify result id associated bet returned random org supplied shown oraclize random org requested solution downsides introduces liability depending oraclize desired second random org trusted provide secure random number solution currently implemented decentralized dicing game lack appealing",
+    "metadata": {
+      "chunk_id": "2fc70f0d079df8671d3d9ce8406a45fd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 7] solution downsides introduces liability depending oraclize desired second random org trusted provide secure random number solution currently implemented decentralized dicing game lack appealing efficient alternatives performing statistical analysis results returned oraclize random org appears solution far succeeded high probability goal providing source entropy unbiased previously mentioned issue miner choosing publish block result rng output detrimental reoccurs scenario oraclize instead miner single instance occurring detected gap integer ids returned random org hypothetically oraclize attempted game system ceases work longer trusted additional solution currently tested oraclize9 solution involves hardware random data source integrated ethereum network random bytes generated data source periodically published ethereum network proof modified fully functional currently available testnet available mainnet likely best option use ethbet xe2 x80 x99s source randomness period",
+    "metadata": {
+      "chunk_id": "eaaa88effce96c4c94e301f6894ee970",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 8] data source periodically published ethereum network proof modified fully functional currently available testnet available mainnet likely best option use ethbet xe2 x80 x99s source randomness period aforementioned solution additional liability random org scheduled ethbet optional player defined house edge placing bets house edge 0% come disadvantage e bet place parties wish bets significantly advantageous players 0% negligible house edge network effects cause majority players use ethbet profitable betting alternatives possible players content time wait 5 x0cbetween bets especially larger bets fewer players willing solve problem optional feature added allow players offer bets player defined house edge ability players offer bets arbitrary player defined house edge problem large wait times bets solved negligible downsides players effectively able casinos ethbet setting house edge player offers bets competing players bets taken incentivized set house edge low possible example player wants",
+    "metadata": {
+      "chunk_id": "ce665a5386fabbd35319bd35279d1d12",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 9] solved negligible downsides players effectively able casinos ethbet setting house edge player offers bets competing players bets taken incentivized set house edge low possible example player wants large bet incentivized offer house edge calls bet wait long bet player decides prioritize speed proportional expected gain similarly player large eth wishes profit time high variable probability offer bets small house edge favor making easier play game giving small profit time service player providing xe2 x80 x98bet liquidity xe2 x80 x99 ethbet acting casino return rewarded house edge favor market potential global online gambling market estimated worth $50 billion usd end 201710 forecast grow 10% years come11 advent cryptocurrencies allowing players gamble ease lower house edge previous options cryptocurrency gambling garnered significant proportion market potential 2013 estimate suggests 50 60% bitcoin transactions related gambling point12 previously dominated bitcoin ethereum major player",
+    "metadata": {
+      "chunk_id": "f6c4d83baa22e50631cc6088dfc0ff19",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 10] cryptocurrency gambling garnered significant proportion market potential 2013 estimate suggests 50 60% bitcoin transactions related gambling point12 previously dominated bitcoin ethereum major player cryptocurrency world offering significantly features shorter block time lower transaction fees ethereum gains users benefits network effects currently leading users invest use ethereum bitcoin leading market cap increase $38 billion usd june 201713 possible gamble ethereum smart contract14 players faced house 1% significantly detrimental casual players mentioned given ethbet able provide competitive house edge market allows strong possibility acquire significant proportion cryptocurrency gambling market share reason user gamble house edge 1% higher 6 x0ccan instead gamble house edges significantly lower possibly zero ethbet allow users bet technically possible house edge desire potentially deprecating forms gambling users wish maximize expected value bitcoin dicing sites primedice",
+    "metadata": {
+      "chunk_id": "7d59222baf899bece943d71aa709ed8c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 11] lower possibly zero ethbet allow users bet technically possible house edge desire potentially deprecating forms gambling users wish maximize expected value bitcoin dicing sites primedice satoshidice reported profits millions dollars satoshidice selling 126 315 btc 2013 xe2 x80 x98only xe2 x80 x99 $11 47 million usd time15 ethbet significant advantages platforms including decentralized transparent peer peer uses ether bitcoin crucially provides lowest possible house edge aforementioned reasons market potential platform ethbet extremely large profit model profit model ethbet aspects cause ethbet tokens appreciate value ethbet smart contract small portion house edge offered players occurs bets nonzero house edge example suppose player offers bet 1 eth house edge 1% favor player xe2 x80 x99s expected gain normally 0 01 eth ethbet smart contract 10% cut expected gain change expected gain 0 009 eth player win total 1 009 eth instead 1 01 eth decreasing profit slightly 0 1% 1 1000th portion",
+    "metadata": {
+      "chunk_id": "213bde7decf73d18e646c1cb6bdbf065",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 12] expected gain normally 0 01 eth ethbet smart contract 10% cut expected gain change expected gain 0 009 eth player win total 1 009 eth instead 1 01 eth decreasing profit slightly 0 1% 1 1000th portion house edge ethbet takes decided token holders house edge converted ebet smart contract value ebet tokens increases external protocol 0x ethbet smart contract addition xe2 x80 x99s possible ethbet charge small fee bets ethbet house instead matchmaking platform fee need high like dicing platforms matter low fee raw profit ethbet ethbet funds risk play value able decided token holders profit converted ebet tokens increasing demand consequence token holders vote values incentivized set values unreasonable users use ethbet value tokens decrease example token holders vote charge fee higher alternative dicing platforms offer platform unable compete able leverage wisdom crowds order effectively optimize profitability competitiveness ethbet platform 7 x0cethbet tokens ebet purposes",
+    "metadata": {
+      "chunk_id": "e9645d3f7414baf6dc945c735a496b20",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 13] higher alternative dicing platforms offer platform unable compete able leverage wisdom crowds order effectively optimize profitability competitiveness ethbet platform 7 x0cethbet tokens ebet purposes decentralization enforcing beneficial market incentives decentralized governance developmental funding future endeavors ethbet ethbet token ebet created ethereum network standard erc20 token secure easy store use trade wallets exchanges needed technical infrastructure interface tokens implement erc20 interface technical details erc20 specification eip github16 ethbet token currency ethbet platform protocol order provide incentives run ethbet relays described later paper small fee charged service matchmaking fee dynamic fluctuates based bet liquidity platform example users offering bets fee low negative compared higher fee users offering bets profit ethbet smart contracts generate ebet converted ebet having smart contract purchase party smart contract 0x ethbet smart contract buy feature",
+    "metadata": {
+      "chunk_id": "138ac09087a2e9cb1e190163540e4c20",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 14] negative compared higher fee users offering bets profit ethbet smart contracts generate ebet converted ebet having smart contract purchase party smart contract 0x ethbet smart contract buy feature allows price ebet appreciate platform widely addition possible token holders vote burn rate ethbet burn rate cause smart contract destroy small portion ebet causing currency deflationary addition functionality token holders eligible vote ethbet improvement proposals ethbet ips ethbet ip proposed change ethbet modifying fees ethbet charges having single entity decide proposal proposal voted hold ethbet tokens voting weight linearly proportional tokens hold way holders ebet able optimize ethbet direction desirable crowdsale wishing invest ethbet purchasing ethbet tokens opportunity ethbet crowdsale funds received crowdsale fund development ethbet including party contract security audits web application development crowdsale 4 weeks set begin september 17th 2017 8 00 pm utc information relevant",
+    "metadata": {
+      "chunk_id": "8ae52fb11888d1c095776c5a04fd6a01",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 15] funds received crowdsale fund development ethbet including party contract security audits web application development crowdsale 4 weeks set begin september 17th 2017 8 00 pm utc information relevant crowdsale available table 8 x0cethbet description ethbet decentralized peer peer dicing platform lowest possible house edge token description ethbet tokens currency ethbet protocol holders ability vote proposals improve drive ethbet forward ticker symbol ebet start date september 17th 2017 8 00 pm utc duration 4 weeks base token price 1 000 ebet 1 eth early investor bonuses day 50% week 40% second week 30% week 25% final week 15% percentage tokens offered crowdsale 75% 5% bounty 10% partners 10% ethbet total possible token supply 10 000 000 founders xe2 x80 x99 tokens locked post crowdsale yes locked 6 months investor tokens locked excess tokens deleted yes additional tokens created token type erc 20 compliant intended funding allocation proceeds crowdsale depend largely tokens purchased",
+    "metadata": {
+      "chunk_id": "2f7a476d431c7fd7c5345092465e6b43",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 16] locked 6 months investor tokens locked excess tokens deleted yes additional tokens created token type erc 20 compliant intended funding allocation proceeds crowdsale depend largely tokens purchased low funding project able fully fund necessary operations smart contract development user experience development interfaces interact smart contracts written primarily js html security audits critical infrastructure including smart contracts larger amounts funding ambitious goals set goals include funding large advertisement campaigns promote ethbet decreasing barrier entry ethbet promoting additional efforts user experience ease use overcoming legal barriers widespread adoption additional projects involving types gambling games blockchain anticipate tokens sold account future unknown values provide information showing exactly proportion funds allocated goals maximum possible tokens supply 10 000 000 ebet 75% 7 500 000 purchased crowdsale purchased day crowdsale 50% tokens theoretical maximum",
+    "metadata": {
+      "chunk_id": "2ea8e75cd059cb6c0a64bdd4085430ab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 17] information showing exactly proportion funds allocated goals maximum possible tokens supply 10 000 000 ebet 75% 7 500 000 purchased crowdsale purchased day crowdsale 50% tokens theoretical maximum possible funding 7 500 000 1 500 5 000 eth ensuring possibility project significantly funded information crowdsale participate visit https crowdsale ethbet io 9 x0cproject architecture structure ethbet code intended highly modularized clean secure project functionality split smart contracts based principles high cohesion low coupling applicable contract crowdsale separate contract token contract game contracts audited tested extensively ensuring best practices followed major bugs exist implementation ethbet dice game relatively lightweight intended fully functioning proof concept types calls game contract place bet bet cancel bet player previously placed called player bet composed variables bet id address player placing calling bet house edge ability decide probability winning given bet",
+    "metadata": {
+      "chunk_id": "668ce067580043f5da4039145a7770b2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 18] game contract place bet bet cancel bet player previously placed called player bet composed variables bet id address player placing calling bet house edge ability decide probability winning given bet ability user set xe2 x80 x98roll xe2 x80 x99 xe2 x80 x98role xe2 x80 x99 values roll available initial version ethbet instead win loss chance set static value 50% reasons xe2 x80 xa2 original implementation lightweight possible encourage small codebase fewer potential bugs xe2 x80 xa2 user experience smooth simple possible decrease overhead involved users use ethbet platform xe2 x80 xa2 market likely easier time providing types players desirable selection available bets bets risk reward ratio xe2 x80 xa2 users able manage risk profile arbitrary fashion instead bets potentially differing amounts desire certain ratio risk reward practice causes risk reward ratio equivalent found variableprobability bet17 said reason feature implemented manner token holders favor chain matchmaking information",
+    "metadata": {
+      "chunk_id": "7755a66e2201405ac154ab8760a2c349",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 19] desire certain ratio risk reward practice causes risk reward ratio equivalent found variableprobability bet17 said reason feature implemented manner token holders favor chain matchmaking information stored blockchain fee paid referred gas order provide incentive miners include information blocks 10 x0cinformation wishes store blockchain higher fees blockchain immutable stored nodes storing information blockchain generally costly transaction avoided possible blockchain secure decentralized cost extreme redundancy reason blockchain needed desire secure decentralized immutable environment offering canceling bets blockchain highly inefficient player wishes offer bets cancel pay high gas fees information stored blockchain forever bets actually executed solution match bets blockchain players confirm execute bets submitting smart contract common system decentralized exchanges order placement cancellation need stored blockchain instead blockchain advantages security immutability highly",
+    "metadata": {
+      "chunk_id": "21038454d8fe8e923dc0bf27904deb03",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 20] confirm execute bets submitting smart contract common system decentralized exchanges order placement cancellation need stored blockchain instead blockchain advantages security immutability highly relevant e actual transaction example chain matchmaking system decentralized exchange protocol 0x18 able set xe2 x80 x98relay xe2 x80 x99 allows efficient communication intent exchange users users incentivized set honest relays fee structure allows profit providing valuable service example decentralized exchange known etherdelta19 hosts service allows system similar implemented ethbet service acts relay functions separate blockchain allows users signal intent match found intent users users submit bet smart contract ensures bet executed fairly securely matchmaking service hosted code open source official version service provided obligation use use matchmaking service system offers significant number improvements naive implementation information exchanged blockchain aside significant reduction",
+    "metadata": {
+      "chunk_id": "0e5a04b04fdf7095556a294cbfddd702",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 21] version service provided obligation use use matchmaking service system offers significant number improvements naive implementation information exchanged blockchain aside significant reduction fees users allows bets communicated significantly quickly makes easier users cancel bets safely instead placing canceling bet broadcasting storing pieces information blockchain bet placed canceled instantly zero fees signaling intent revoking intent ethbet protocol ethbet protocol description information users need relay order signal intent bet assets protocol open meaning implemented executed actor need use specific website browser medium communication 11 x0cthe information exchanged method including email forum post physical message addition protocol extendable modified use ether erc20 token ethereum blockchain allow users bet ether ethereum based token original version deployment ethbet protocol focus ether leaving option arbitrary erc20 token support later period ethbet protocol closely",
+    "metadata": {
+      "chunk_id": "a7d46fa6734d96c5f1f9986e82197d11",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 22] blockchain allow users bet ether ethereum based token original version deployment ethbet protocol focus ether leaving option arbitrary erc20 token support later period ethbet protocol closely mirrors protocol outlined 0x whitepaper20 ethbet protocol goal xe2 x80 x99s 0x xe2 x80 x99s 0x intends allow users exchange tokens ethbet intends allow users bet tokens following example demonstrates scenario users ethbet protocol bet example xe2 x80 x98maker xe2 x80 x99 user offers bet xe2 x80 x98caller xe2 x80 x99 user accepts offer 1 maker approves ethbet contract access balance intend wager 2 maker creates offer bet balance specifying desired edge bet expiration time signs offer private key proving ownership intent 3 maker broadcasts bet medium theoretically best place broadcast bet ethbet relay reason posted forum sent email string text 4 caller reads bet offer maker decides like 5 caller approves ethbet contract access balance 6 caller submits maker xe2 x80 x99s signed order contract 7",
+    "metadata": {
+      "chunk_id": "c837c386e542b6401ffde6510a500aaa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 23] reason posted forum sent email string text 4 caller reads bet offer maker decides like 5 caller approves ethbet contract access balance 6 caller submits maker xe2 x80 x99s signed order contract 7 ethbet contract authenticates maker xe2 x80 x99s signature verifies bet expired bet called 8 ethbet contract executes bet transfers bet parties based outcome primary method communication ethbet protocol intended relays outlined previous section protocol description ethbet finalized information format relatively standard containing parameters bet edge expiration later asset type necessary information secure including cryptographic hash function like sha3 ecdsa signature private key participants development timeline time crowdsale ethbet token ethbet crowdsale contracts deployed mainnet fully functional necessary crowdsale occur code smart contracts relatively standard lightweight implementation erc20 standard possibility critical bugs small comparison complex novel contracts primary ethbet",
+    "metadata": {
+      "chunk_id": "9c3ca6049003ec14f2910db9f2cd9e78",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 24] necessary crowdsale occur code smart contracts relatively standard lightweight implementation erc20 standard possibility critical bugs small comparison complex novel contracts primary ethbet game contract significant problem occurs recoverable necessary steps 12 x0ctaken remedy situation example critical flaw token contract allowing steal ethbet tokens fix problem deploy new token contract problem fixed restore balances users migrating entire platform newer version token similar happened ethereum dao issue like unlikely occur caused problem ethereum ethbet token nearly isomorphic ethereum erc20 tokens critical problem indicate problem crowdsale complete ethbet tokens unfrozen sent users time development primary game contract proceed relatively lengthy process despite simplicity game architecture general timeline follows 1 develop primary contract functionality tests 2 extensively test audit contract potential flaws 3 deploy contract testnet 4 allow users interact contract beta period",
+    "metadata": {
+      "chunk_id": "6b56b4298437791d400326da39955834",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 25] general timeline follows 1 develop primary contract functionality tests 2 extensively test audit contract potential flaws 3 deploy contract testnet 4 allow users interact contract beta period 5 continue improve contract needed 6 perform final party security audit s 7 deploy contract mainnet 8 continue improve non contract code improving accessibility user interfaces updating contract fix critical issues later implement new features addition xe2 x80 x99s developmental overhead blockchain relay user interfaces required interact ethbet user friendly fashion order interaction smart contract user friendly simple users able interact mist browser giving experience similar traditional websites interfacing smart contracts betting timeline q1 2017 market research feasibility assessment planning xe2 x80 x93 completed q2 2017 website whitepaper xe2 x80 x93 completed q3 2017 crowdsale live demo development community building xe2 x80 x93 progress q4 2017 continuation development improvements alpha",
+    "metadata": {
+      "chunk_id": "fe78ac8c3bb04a58c27aefe273424b3e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 26] x80 x93 completed q2 2017 website whitepaper xe2 x80 x93 completed q3 2017 crowdsale live demo development community building xe2 x80 x93 progress q4 2017 continuation development improvements alpha beta launches q1 2018 launch playerbase building community growth improvements needed q2 2018 additional features projects games advertising community building 13 x0cfuture possibilities ethereum matures technology allow decentralized applications ethbet run efficiently improvements technologies web3 browsers mist metamask extension help ethbet xe2 x80 x99s goals ethbet progresses project opportunities features added examples include feature rich implementation dicing games lotteries card games possibility bet arbitrary erc20 tokens advances gas time efficiency use state channels inclusion features depends success ethbet crowdsale opinions votes ethbet token holders addition opportunities lowering gas costs increasing quality provable fairness exist research projects performed areas",
+    "metadata": {
+      "chunk_id": "8abc4beefe7452f8bcff8cad32f5c1db",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 27] features depends success ethbet crowdsale opinions votes ethbet token holders addition opportunities lowering gas costs increasing quality provable fairness exist research projects performed areas similar projects size blockchain ethereum ecosystems grown considerably years number projects goals similar ethbet xe2 x80 x99s emerged projects similar nature different goals lacking features ethbet projects summarized emphasis different ethbet edgeless edgelesss claims offer betting ethereum blockchain 0% house edge notable caveats exist xe2 x80 xa2 edgeless claims unreleased blackjack game house edge 0% applies game played player perfect result expect house profit game21 xe2 x80 xa2 edgeless partially decentralized exists blockchain peer peer xe2 x80 xa2 edgeless support eth token edg purchase edg use platform xe2 x80 xa2 games blackjack involve large amounts data stored blockchain fees paid execute involved smart contracts high xe2 x80 xa2 edgeless generates random numbers server",
+    "metadata": {
+      "chunk_id": "f377af803adbf8b1969c2583fad7dc25",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 28] purchase edg use platform xe2 x80 xa2 games blackjack involve large amounts data stored blockchain fees paid execute involved smart contracts high xe2 x80 xa2 edgeless generates random numbers server blockchain xe2 x80 xa2 publicly readable changes smart contracts appear months22 14 x0cregardless drawbacks edgeless appealing option wishing play provably fair games blackjack blockchain near future consider direct competitor target audience etheroll etheroll functioning dicing game ethereum blockchain similar ethbet peer peer house edge 1% bet aside appears successful platform ethereum projects generating revenue token holders making good model future ethereum based projects follow dao casino dao casino recently funded ethereum based blockchain protocol gambling application intended function framework allows create blockchain based gambling lower overhead dao casino utilizes token called bet required interactions protocol goals dao casino help casinos games blockchain encourage chain",
+    "metadata": {
+      "chunk_id": "0fe259968692bffb15e81f5d95f99204",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 29] framework allows create blockchain based gambling lower overhead dao casino utilizes token called bet required interactions protocol goals dao casino help casinos games blockchain encourage chain game development participation protocol differs substantially goal ethbet provide peer peer dicing blockchain house edge peerplays projects peerplays23 markets based peer topeer interaction critically peerplays currency blockchain completely separate ethereum barriers entry larger peerplays boasts technologies smart contracts separate ethereum network result able benefit network effects ethereum ecosystem security reliability ethereum virtual machine associated smart contracts addition visible cases dicing house edge offered platform funfair funfair24 ethereum based project ambitious goal xe2 x80 x98delivering generation gaming world xe2 x80 x99 according technical whitepaper funfair xe2 x80 x99s scope includes gambling games focus providing variety immersive graphically extensive games xe2",
+    "metadata": {
+      "chunk_id": "df9bb75ec38da6c391ad794a982012aa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 30] x98delivering generation gaming world xe2 x80 x99 according technical whitepaper funfair xe2 x80 x99s scope includes gambling games focus providing variety immersive graphically extensive games xe2 x80 x98fun xe2 x80 x99 quote directly technical whitepaper xe2 x80 x9cwe don xe2 x80 x99t want simple boring xe2 x80 x98pick number xe2 x80 x99 games fun fun xe2 x80 x9d25 order interact games built funfair use funfair xe2 x80 x99s token fun funfair uses custom chain technology called fate channels functions manner similar bitcoin xe2 x80 x99s proposed lightning network26 attempting secure patents related technology funfair claims implementation fate channels provably fair server code currently 15 x0copen source implementation details public purportedly allow funfair retain competitive advantage players field interesting project ambitious goals primary objectives different projects considered competitors ethbet stated goals orthogonal different cryptocurrencies serve different purposes",
+    "metadata": {
+      "chunk_id": "9881541fe551a37432d18c0c4cd1e603",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 31] players field interesting project ambitious goals primary objectives different projects considered competitors ethbet stated goals orthogonal different cryptocurrencies serve different purposes cater different audiences projects able reasons believe demand market niche ethbet realizes met projects disclaimer risks associated ethbet token like ethereum entire ethbet project dependent ethereum critical issue ethereum prove significantly detrimental fatal ethbet guarantee expectation ethbet tokens purchased increase value provide return sufficient adoption liquidity enable exchange assets guarantee blockchain technology smart contracts especially related gambling remain legal unregulated usable legal jurisdiction presently owning ethbet tokens constitute share equity ownership ethbet platform united states citizens allowed participate ethbet crowdsale participate ethbet crowdsale resident united states risks known unknown involved cryptographic assets including ethereum ethbet tokens",
+    "metadata": {
+      "chunk_id": "593d9881990c2426063b1fbae1d1810b",
+      "entities": {
+        "location": [
+          "united states"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 32] united states citizens allowed participate ethbet crowdsale participate ethbet crowdsale resident united states risks known unknown involved cryptographic assets including ethereum ethbet tokens risks include limited critical bugs security flaws difficulty scaling denial service risk new cryptographic breakthroughs 16 x0cthis document constitute prospectus sort initial public offering share equity offering tokens involved ethbet way involve form ordinary shares ethbet dividends guaranteed ethbet tokens fiat currency accepted ethbet crowdsale ethereum experimental technology possible future risks enumerated ethbet responsible losses occur exercise caution cryptographic assets invest money afford lose information information ethbet questions visit ethbet website27 https ethbet io send email team ethbet io 17 x0c1 https github com randao randao 2 https blog ethereum org 2015 08 28 anti pre revelation games 3 https github com gluk256 misc blob master rng4ethereum signidice md 4 https",
+    "metadata": {
+      "chunk_id": "d69c86489cbcc640358be8b901a2759b",
+      "entities": {
+        "location": [
+          "united states"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 33] team ethbet io 17 x0c1 https github com randao randao 2 https blog ethereum org 2015 08 28 anti pre revelation games 3 https github com gluk256 misc blob master rng4ethereum signidice md 4 https github com daocasino 5 http crowdfund etheroll com etheroll whitepaper pdf 6 http www oraclize services 7 https random org 8 http docs oraclize security deep dive authenticity proofs tlsnotary proof 9 https blog oraclize random datasource chapter 2 779946e54f49 10 https www statista com statistics 270728 market volume online gaming worldwide 11 http www businesswire com news home 20161006005678 en global online gambling market worth usd 66 59 12 http lsvp com 2013 08 23 half bitcoin transactions online gambling 13 https coinmarketcap com currencies ethereum 14 https etheroll com forks 15 http www coindesk com bitcoin company acquisitions begin gambling site satoshidice sells 11 5m 126315 btc 16 https github com ethereum eips issues 20 17 example instead user making bet 25% win chance 4x payout",
+    "metadata": {
+      "chunk_id": "00bc2a82f7b9544105e82d6972210219",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  },
+  {
+    "text": "[Section 34] com bitcoin company acquisitions begin gambling site satoshidice sells 11 5m 126315 btc 16 https github com ethereum eips issues 20 17 example instead user making bet 25% win chance 4x payout user 2 bets 50% win chance 2x payout resulting risk reward ratio equivalent wish risk smaller amounts able bets small feasible dictated network gas fees preferences 18 https 0xproject com 19 https etherdelta github io 20 https 0xproject com pdfs 0x white paper pdf 21 https medium com edgeless ultimate edgeless faq 22081ae768aa 22 https github com edgelesscasino smart contracts 23 https www peerplays com docs peerplays whitepaper pdf 24 https funfair io 25 https funfair io wp content uploads 2017 06 funfair technical white paper pdf 26 https lightning network 27 https ethbet io x0c",
+    "metadata": {
+      "chunk_id": "588b40f33432a7d10463c0754d1b3d55",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EthBet.txt"
+    }
+  }
+]

@@ -1,0 +1,1232 @@
+[
+  {
+    "text": "[Section 1] b protocol decentralized content exchange white paper phantasma protocol authors s xc3 xa9rgio flores miguel ferreira alexandre paix xc3 xa3o bernardo pinho version 1 0 6 2018 05 12 5 00 utc x0ca protocol decentralized content exchange phantasma protocol abstract recent advent smart contract blockchain networks like neo ethereum opens huge opportunity vast new array innovative decentralized services applications dapps dominant paradigm xe2 x80 x99cloud xe2 x80 x99 cloud computing storage services etc seriously challenged decentralized systems increasingly competitive giving main advantages ability aggregate immense set disparate small economic resources gaining economies scale increased transparency freedom dependent trusted party e amazon xe2 x80 x99s aws microsoft xe2 x80 x99s azure new computational economic environment infancy lacks great basic building blocks infrastructure required development realization decentralized applications systems services needed components service",
+    "metadata": {
+      "chunk_id": "d80b8268eaaa66a3ff83d653bf338bd8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 2] new computational economic environment infancy lacks great basic building blocks infrastructure required development realization decentralized applications systems services needed components service customizable communication data sharing dapps tackle issues present phantasma new generation decentralized content sharing platform x0ca protocol decentralized content exchange ii contents abstract 1 introduction 1 1 problem 1 2 solution 1 2 1 unique value proposition 1 3 role decentralization 1 4 use neo 1 5 phantasma overview 1 5 1 blockchain 1 5 2 smart contract 1 5 3 software development kit 1 5 4 relay nodes 1 5 5 distributed content storage 1 5 6 products 1 1 2 2 4 4 5 5 5 5 6 6 7 2 platform details 2 1 core concepts 2 2 phantasma virtual machine 2 2 1 virtual machine implementation 2 3 phantasma relay 2 3 1 design philosophy 2 4 phantasma storage 2 4 1 overview 2 4 2 minimum replica set 2 4 3 proof retrievability role groups 2 4 4 content privacy 2 4 5 storage cost 2 4 6 failure",
+    "metadata": {
+      "chunk_id": "884efff53637be74d14c7febe0cd1fbe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 3 phantasma relay 2 3 1 design philosophy 2 4 phantasma storage 2 4 1 overview 2 4 2 minimum replica set 2 4 3 proof retrievability role groups 2 4 4 content privacy 2 4 5 storage cost 2 4 6 failure handling 2 4 7 specific network attacks 2 5 phantasma blockchain 2 5 1 overview 2 5 2 smart contracts 2 5 3 migration 8 8 10 10 11 11 13 13 14 14 15 17 18 18 19 20 20 20 21 3 party development 3 1 application development framework 3 1 1 available programming languages 3 1 2 service api 3 1 3 debugging 3 1 4 smart contracts 22 22 22 22 23 23 x0ca protocol decentralized content exchange iii 4 use 4 1 4 2 4 3 4 4 cases decentralized email oracles digital commerce video streaming 5 ecosystem 5 1 data economy 5 2 soul phantasma network token 5 3 infrastructure incentives 5 4 ecosystem initiatives 24 24 25 25 25 27 27 27 28 29 6 project funding 6 1 distribution 6 1 1 projected use contributions 6 1 2 token metrics 6 1 3 token distribution 6 1 4 sale details 6 1 5 lock period 6 1 6 transparency",
+    "metadata": {
+      "chunk_id": "c6d7a64ededeeba8cf086d86e5633dc8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 4] 24 24 25 25 25 27 27 27 28 29 6 project funding 6 1 distribution 6 1 1 projected use contributions 6 1 2 token metrics 6 1 3 token distribution 6 1 4 sale details 6 1 5 lock period 6 1 6 transparency policy 30 30 30 31 31 32 32 33 7 roadmap 34 7 1 planned roadmap 34 8 team 36 8 1 phantasma team 36 phantasma vm instruction 1 instruction set states boxes data 1 1 opcodes core arithmetic string logical control data payments storage miscellaneous set 38 38 38 38 38 38 38 39 39 40 40 40 41 41 42 b phantasma data file system reference 43 b 1 node protocol messages 43 bibliography 45 x0c1 1 introduction 1 1 problem traditional content sharing systems isolated machines running small local area networks lan early 2000s new paradigm remote centralized services emerged called cloud platforms service trends centralization greater specialization service providing brought substantial cost reductions improved economies scale currently facing limitations solutions inherent disadvantages increased",
+    "metadata": {
+      "chunk_id": "d0ce1eb2889ad8ae41691fc04df7f7c4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 5] trends centralization greater specialization service providing brought substantial cost reductions improved economies scale currently facing limitations solutions inherent disadvantages increased risks having single point failure locked proprietary closed systems brief history content distribution xe2 x80 xa2 2000 scour exchange shut multimedia search engines xe2 x80 xa2 2001 napster extremely popular p2p network shut xe2 x80 xa2 2002 soribada shut p2p network gain traction asia later reopened shut 2015 xe2 x80 xa2 2004 suprnova websites focus torrent distribution disappear xe2 x80 xa2 2009 piratebay leader content distribution torrent shut xe2 x80 xa2 2010 limewire free program p2p content distribution shut xe2 x80 xa2 2012 megaupload xe2 x80 x99s domain seized kim dotcom owner arrested users service lost files xe2 x80 xa2 2013 lavabit email provider edward snowden shut gag order users service lost access emails xe2 x80 xa2 2014 icloud hacked leading massive leaks celebrities xe2 x80",
+    "metadata": {
+      "chunk_id": "d4b2586fb0aeeef508a889099712f20f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 20.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 6] service lost files xe2 x80 xa2 2013 lavabit email provider edward snowden shut gag order users service lost access emails xe2 x80 xa2 2014 icloud hacked leading massive leaks celebrities xe2 x80 x99 private photos long user content owned party continue happen extent problem persists cloud storage services apple xe2 x80 x99s icloud faced multiple hacks years despite maintaining centralized system high end security x0cchapter 1 introduction 2 5 years new computing paradigm started emerge arising ubiquity proliferation small affordable devices smartphones smartappliances increasing pc penetration widespread availability devices utilization presents unique opportunity leverage enormous computing resources cpu cycles storage bandwidth recent blockchain projects launched explore market niche golem cpu storj sia filecoin storage rightmesh opengarden bandwidth etc time burgeoning ecosystem market developing decentralized applications dapps running smart contract platforms ethereum neo etc",
+    "metadata": {
+      "chunk_id": "b556b6997cf0f6c752cea622eb6e2378",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 7] golem cpu storj sia filecoin storage rightmesh opengarden bandwidth etc time burgeoning ecosystem market developing decentralized applications dapps running smart contract platforms ethereum neo etc applications computing requirements traditional applications compounded costly decentralized infrastructure increasing architectural complexity climate demand incresingly reliable available resources present additional critical requirement decentralized applications space usability developer friendliness remarkably complex logic workflows pose complex design hurdles developers systems architects present main obstacles expansion blockchain technology end users companies challenging development spheres decentralized applications designers manage data store access manage b kr xc3 xa4mer 1997 data major bottleneck dapps accounting major fraction transaction execution costs popular ethereum dapps references storing real world data blockchain prohibitively expensive managing impossible",
+    "metadata": {
+      "chunk_id": "76da5657cc5b2ae37c8eb96f229aa6b0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 8] 1997 data major bottleneck dapps accounting major fraction transaction execution costs popular ethereum dapps references storing real world data blockchain prohibitively expensive managing impossible considering little infrastructural support developers faced mounting implementation details pitfalls trying scale develop complex inter connected dapps decentralized world 1 2 solution paper present phantasma innovative platform revolutionize application development key area data management content sharing 1 2 1 unique value proposition phantasma introduces decentralized content distribution system running blockchain strong emphasis privacy security phantasma platform users control content instead relying party entities host secure manage relying party services critical personal like email dangerous companies hacked bankruptcies happen government entities force access emails content creators ones creating videos games music monetized content giving large percentage revenue discouraging",
+    "metadata": {
+      "chunk_id": "9119fc01e5ec104c6d4966588c8fc993",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 9] dangerous companies hacked bankruptcies happen government entities force access emails content creators ones creating videos games music monetized content giving large percentage revenue discouraging content creators fully tied platform holders enforce drastic rule changes lowers revenue events creators choice accept x0cchapter 1 introduction 3 interoperability existing systems extremely important order ease adoption imperative blockchain technology end users created taking email example phantasma based mailboxes compatible standard email addresses communicate email systems outside blockchain privacy extremely important distributed data phantasma encrypted ensures total control content content owner deciding access distributed words ownership private keys wallet means ownership content stored wallet encrypted private key read steal owners phantasma developers access x0cchapter 1 introduction 4 1 3 role decentralization phantasma new standard seamless secure data sharing management",
+    "metadata": {
+      "chunk_id": "835b5a5d4b2568348595a4ce0caf661d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 10] stored wallet encrypted private key read steal owners phantasma developers access x0cchapter 1 introduction 4 1 3 role decentralization phantasma new standard seamless secure data sharing management integration multitude communication partners connected users dapps neo ecosystem goal phantasma provide new adaptable framework fill needs data management dapps providing uniform standard interface api fundamental data access semantics applications require phantasma boost productivity dapp developers broaden potential energize entire neo ecosystem targeted focus access control desired granularity supports vast array use cases customizable user according unique needs phantasma autonomous decentralized network running smart contract neo blockchain code executing platform public immutable elevated permissions creator admin phantasma team platform de intermediation allows trust confidence system subject timely review analysis community experts isolating health ecosystem particular localized",
+    "metadata": {
+      "chunk_id": "1cf6c8d75d493af7e8549fd5933f7b93",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 11] permissions creator admin phantasma team platform de intermediation allows trust confidence system subject timely review analysis community experts isolating health ecosystem particular localized shocks set proposed software powers phantasma protocol production ready network self sustaining completely detached original developers deployed blockchain 1 4 use neo considering modern scalable blockchain infrastructure develop phantasma mainly deliberated ethereum neo production ready available smart contract platforms final choice neo blockchain believe phantasma perfect match neo great example showcase best blockchain offer deciding platform use came following factors transaction throughput xe2 x80 x93 ethereum bound proof work limits 10 30 transactions second solutions currently development increase throughput eg casper plasma require trade offs importantly available hand neo fast transaction speeds cheap currently 0 gas costs high throughput mainly derived use proof stake pos consensus",
+    "metadata": {
+      "chunk_id": "a15714c2f17bd4bc8925c5fa339cfb1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 12] increase throughput eg casper plasma require trade offs importantly available hand neo fast transaction speeds cheap currently 0 gas costs high throughput mainly derived use proof stake pos consensus implemented distributed byzantine fault tolerance dbft algorithm second layer scalability xe2 x80 x93 transaction throughput scaling current problem blockchain space options propose future solutions ethereum having raiden neo having proposals future advances scalability advent sharding state channels trinity ecosystem xe2 x80 x93 talking maturity time tested reliability system platforms strong neo extensive development environment large growing community developers partner support staff healthy x0cchapter 1 introduction 5 number applications integrated excited supportive user community neo believe looking support nascent projects raises awareness neo xe2 x80 x99s competitive advantages regards pioneering ethereum neox xe2 x80 x93 neox cross chain interoperability agreement important",
+    "metadata": {
+      "chunk_id": "219e7d968b913c8a5798e10bee8215d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 13] believe looking support nascent projects raises awareness neo xe2 x80 x99s competitive advantages regards pioneering ethereum neox xe2 x80 x93 neox cross chain interoperability agreement important feature neo reason final decision gives guarantee future project separate blockchain maintaining interoperability neo 1 5 phantasma overview phantasma protocol composed components represent different stages project component structure designed way possible bootstrap network initial components gradually expand system developing remaining components 1 5 1 blockchain initially bootstrap network phantasma exist service running neo blockchain later adopted use neox cross chain protocol proceed forking phantasma blockchain complete freedom data collected phase redesign transactions order obtain maximum performance avoid gas costs reduce strain neo blockchain 1 5 2 smart contract backbone phantasma smart contract running neo blockchain messages xe2 x80 x93 main function contract handle messaging",
+    "metadata": {
+      "chunk_id": "014ac0ef997a98b64a7c07db5e6483d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 14] performance avoid gas costs reduce strain neo blockchain 1 5 2 smart contract backbone phantasma smart contract running neo blockchain messages xe2 x80 x93 main function contract handle messaging protocol runs small vm allowing mini contracts run inside phantasma smart contract storage xe2 x80 x93 content storage mechanism controlled smart contract allows proper regulation distribution storage claims data blocks integrity tokens xe2 x80 x93 phantasma uses token fuel protocol token follows nep5 formal specification distribution xe2 x80 x93 contract dedicated token sale including distribution interfaces asset swaps 1 5 3 software development kit software development kit allow developer use phantasma create dapps technical terms allow abstraction dapps xe2 x80 x99 communication phantasma smart contract exposing available features protocol updated support new features components available x0cchapter 1 introduction 6 initially available c language upcoming support languages added",
+    "metadata": {
+      "chunk_id": "875851d3275cce820a92071a86d38cf7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 15] smart contract exposing available features protocol updated support new features components available x0cchapter 1 introduction 6 initially available c language upcoming support languages added eventually eg javascript actual sdk proper documentation examples included 1 5 4 relay nodes current blockchains bound transaction block confirmation speeds neo currently fastest production ready smart contract platform block times 15 seconds fast certain classes applications phantasma relay secondary chain layer sitting neo blockchain phantasma xe2 x80 x99s apps allowing faster delivery cryptographic signed content act queue system packing merging content necessary reduce strain blockchain 1 5 5 distributed content storage real world data voluminous prohibitively expensive save content chain currently perfect solution group competing standards phantasma backend agnostic possible support backend storage systems store actual content messages endorse allow support party data backends eg ipfs",
+    "metadata": {
+      "chunk_id": "5a6a4b55cd683368d9e3750749edf6b0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 16] perfect solution group competing standards phantasma backend agnostic possible support backend storage systems store actual content messages endorse allow support party data backends eg ipfs bluzelle develop data storage mechanism phantasma data file system pdfs come phase project recommended storage backend pdfs developed extension relay layer way gives phantasma capacity store generic byte data interaction phantasma smart contract allow storage content hashes system distributing rewards storage nodes possible backends usable phantasma xe2 x80 xa2 core decentralized protocols like ipfs swarm xe2 x80 xa2 file storage blockchains storj filecoin xe2 x80 xa2 decentralized databases general data bluzelle genaro xe2 x80 xa2 phantasma storage built phantasma incentivized decentralized storage x0cchapter 1 introduction 7 content resources saved phantasma unique identifier form hash value contents hash function varies according backend e sha 256 algorithm ipfs kademlia hashing phantasma",
+    "metadata": {
+      "chunk_id": "3ac2537bdb795314b36d3d045c5664ac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 17] x0cchapter 1 introduction 7 content resources saved phantasma unique identifier form hash value contents hash function varies according backend e sha 256 algorithm ipfs kademlia hashing phantasma storage access resource developer read message containing resource identifying hash value second pass fetch actual resource intended backend phantasma sdk operations transparent possible 1 5 6 products roadmap include development products sdk designing new technology requires ability position forthcoming developers way sure concepts align real world demands xe2 x80 xa2 decentralized email xe2 x80 xa2 decentralized chat xe2 x80 xa2 box marketplace xe2 x80 xa2 oracle nodes xe2 x80 xa2 content streaming consult road map check intended dates development final releases product expand phantasma separate teams responsible blockchain tech develop end user apps x0c8 2 platform details 2 1 core concepts phantasma platform framework designed basis publish subscribe data dissemination model described",
+    "metadata": {
+      "chunk_id": "7e15ff0be983abeae9d372cacbf202e7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 18] teams responsible blockchain tech develop end user apps x0c8 2 platform details 2 1 core concepts phantasma platform framework designed basis publish subscribe data dissemination model described concepts presented section boxes xe2 x80 x93 act content hubs generalized data responsible providing general interface content storage data piping access sharing box associated specific neo address better accessibility named allowed characters lowercase latin letters z digits 0 9 underscore characters allowed smart contract order protect homograph attacks user xe2 x80 x93 entity uses phantasma infrastructure share consume data smart contract pulling data box application mobile desktop web based messages xe2 x80 x93 data items stored shared phantasma optionally linking chain stored content stored inside boxes gate xe2 x80 x93 permissioned gateway phantasma box gates defined programmable phantasma vm supporting fine coarse grained customized permissions allowing multiple access modes box gates",
+    "metadata": {
+      "chunk_id": "ef7cc15843429ef075f63b3cd4b8da24",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 19] inside boxes gate xe2 x80 x93 permissioned gateway phantasma box gates defined programmable phantasma vm supporting fine coarse grained customized permissions allowing multiple access modes box gates specify different payments models free access pay access subscription based access boxes linked neo addresses user create number boxes box customized gates creation user immediately start pushing content box access modes box fully controlled phantasma vm opcodes allowing emulation read write modes time based condition based access basically programmed given opcodes data available inside blockchain tokens xe2 x80 x93 access gate verified token permissions soul tokens tokens fuel phantasma network meaning operations inside phantasma network require including creation boxes allocation renewal space storage x0cchapter 2 platform details 9 example access box user send read write request goes gate script gate script validate user required permissions access charge predefined cost type access",
+    "metadata": {
+      "chunk_id": "452a41a7eeb49081b5fbad8727ae0765",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 20] space storage x0cchapter 2 platform details 9 example access box user send read write request goes gate script gate script validate user required permissions access charge predefined cost type access fundamental phantasma entities primitives platform built building blocks keeping defined versatile interface possible implement vast array practical applications planning build showcase protocol x0cchapter 2 platform details 10 2 2 phantasma virtual machine main points smart contracts immutability having little bit reprogrammability desired enter phantasma vm blockchain emulated general purpose execution environment puts forward capacity deploy sub contracts neo paying costs neo contract phantasma vm immediate user friendly way add smart contract programmability marginal cost phantasma longer necessary pay large gas fee deploy small set rules blockchain instead programmable rules deployed inside boxes residing smart contract component makes possible push arbitrary code phantasma boxes",
+    "metadata": {
+      "chunk_id": "c4a318c78a9f00dbcf57a35a77011205",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 21] necessary pay large gas fee deploy small set rules blockchain instead programmable rules deployed inside boxes residing smart contract component makes possible push arbitrary code phantasma boxes creating bridge generalizes chain chain storage enabling automatic message responses necessary advanced use cases phantasma quintessential example phantasma vm programming write read access phantasma boxes programmed couple operations examples include programming chain reactions new messages arrive specific box examples features programmed vm include chain payment automatic delivery content decentralized box auction system 2 2 1 virtual machine implementation vm runs inside neo smart contract containing large set opcodes include opcodes data manipulation oracle reading support opcodes large opcode set direct mapping opcodes supported neo vm zhang 2016 decision eases switch moving phantasma new blockchain neox bridge neox requires neo compatible vm phantasma vm able run directly future",
+    "metadata": {
+      "chunk_id": "9fb71a223e25f90ae2827f2a2744701e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 22] opcode set direct mapping opcodes supported neo vm zhang 2016 decision eases switch moving phantasma new blockchain neox bridge neox requires neo compatible vm phantasma vm able run directly future blockchain completely removing need emulated neo vm allowing better performance reduced gas costs phantasma vm turing complete design set inputs possible compute advance vm going stop necessary order estimate gas cost specified phantasma script possible write malicious script consumes gas user nonturing completeness achieved limiting opcodes available vm removing particularly opcodes lead loops recursion note design choice currently specific neo implementation phantasma vm limits lifted phantasma blockchain deemed necessary appendix b contains proposal opcode sheet phantasma vm x0cchapter 2 platform details 11 2 3 phantasma relay blockchain ledger system significant advantages compared traditional databases major disadvantage throughput speed orders magnitude slower traditional database",
+    "metadata": {
+      "chunk_id": "adc5ec3ec547d7373aa2355d5d6958c1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 23] platform details 11 2 3 phantasma relay blockchain ledger system significant advantages compared traditional databases major disadvantage throughput speed orders magnitude slower traditional database backends neo xe2 x80 x99s transaction throughput types applications prohibitively slow costly run blockchain natural approach resource intensive tasks chain heavy computation communication storage requirements locations identities endpoints preserved accessed blockchain speed blockchain roughly estimated function nodes required participate consensus rule thumb achieve greater scalability need reduce consensus set size neo small set validators idea generalized use applicationspecific decentralized systems limited number nodes limited number connections consensus set node 2 3 1 design philosophy phantasma relay solution maximizing protocol xe2 x80 x99s efficiency described second layer scaling solution taking ideas existing large scale communication protocols eg skype protocol s baset 2017",
+    "metadata": {
+      "chunk_id": "1973db59db4e6f14b646179cf68df671",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 24] phantasma relay solution maximizing protocol xe2 x80 x99s efficiency described second layer scaling solution taking ideas existing large scale communication protocols eg skype protocol s baset 2017 following points describe design philosophy relay xe2 x80 xa2 speed prerequisite delivery data single source ring receivers maximum swiftness xe2 x80 xa2 ephemerality choice data written blockchain blockchain single shared entity grows continually size bloating blockchain data meant single time consumption hindrance performance allow avoided xe2 x80 xa2 integrity trust siblings obvious reasons data arrive intact partial loss content furthermore leaving expected trust blockchain expect maximal trust subservient layer course guaranteed use cryptographically secure scheme backed asymmetric key algorithms x0cchapter 2 platform details 12 xe2 x80 x9crelay xe2 x80 x9d summarized second layer sitting neo blockchain phantasma based applications capable following operations phantasma messages xe2",
+    "metadata": {
+      "chunk_id": "87dd3a5f751251fae02952f4c659eaeb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 25] x0cchapter 2 platform details 12 xe2 x80 x9crelay xe2 x80 x9d summarized second layer sitting neo blockchain phantasma based applications capable following operations phantasma messages xe2 x80 xa2 cache data cached relay level allowing extremely fast reads desired xe2 x80 xa2 merge data merged necessary order minimize writes reads blockchain long consistency semantics preserved xe2 x80 xa2 sign data signed order confirm identity message sources relay operate running udp protocol simple effective low cost protocol require establishment constant connection guarantee message delivery features fit fast data delivery multiple recipients specifically useful peer peer applications case phantasma relay specifications relay xe2 x80 x99s protocol detailed separate technical document x0cchapter 2 platform details 13 2 4 phantasma storage phantasma data filesystem pdfs decentralized data storage file system developed default storage backend phantasma dapps implemented kademlia distributed",
+    "metadata": {
+      "chunk_id": "4926770992dd623cc8ff39801e155d96",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 26] 2 platform details 13 2 4 phantasma storage phantasma data filesystem pdfs decentralized data storage file system developed default storage backend phantasma dapps implemented kademlia distributed protocol p maymounkov 2002 extension phantasma relay users running phantasma nodes contribute network rewarded running pdfs node users incentivized participate token economy 2 4 1 overview content stored opaque byte array subdivided blocks fixed size block content hash calculated added contract metadata help retrieve original file uploading pdfs alloc opcode vm createcontent method require payment tokens based number blocks uploaded payment fixed fee tokens successful alloc user gets valid pdfs content id upload content pdfs network check appendix b protocol specifications content upload writes pdfs validated based content hash hashes stored blockchain tries upload block network rejected hashes match x0cchapter 2 platform details 2 4 2 14 minimum replica set shown taken specific set consumer",
+    "metadata": {
+      "chunk_id": "a0b3b727820b89d73205d3000c9327cf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 27] validated based content hash hashes stored blockchain tries upload block network rejected hashes match x0cchapter 2 platform details 2 4 2 14 minimum replica set shown taken specific set consumer based devices wide distribution availability devices defined terms fraction available computation time day j douceur 2011 extremely important sure replicas storage blocks distributed evenly set endpoints taking account highest priority allocations remain available network require storage nodes certain ordering balancing contents phantasma protocol specifies inclusion priority flag allocation possible nodes aggressive stance pushing low priority blocks low reputation nodes running storage space high priority blocks general assumption phantasma nodes contain certain content block content retrievable time n blocks specific content network require k replicas block minimum accept block k greater equal n k equals n single failure signify temporary erasure block n 2 k 4 content block retrievable",
+    "metadata": {
+      "chunk_id": "6582930d5b47b5101e698d7cd6955845",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 28] time n blocks specific content network require k replicas block minimum accept block k greater equal n k equals n single failure signify temporary erasure block n 2 k 4 content block retrievable replicas offline k grows xe2 x88 x9e reliability block existence grows 100 2 4 3 proof retrievability pdfs network uses proof retrievability algorithm bowers 2009 stores content provide proof content available retrieval proof retrievability area extensive research including works kevin d bowers juels kaliski shacham waters case phantasma propose model based split consensus group derived reputation counter calculated chain moving average model entities network start process verification entities involve large chain steps consisting interactions nodes nodes smart contract running blockchain x0cchapter 2 platform details 15 role groups node system fall beneath roles xe2 x80 xa2 observer node fetch content store content xe2 x80 xa2 prover node stores content blocks require proving validity blocks",
+    "metadata": {
+      "chunk_id": "b070e5789f00570e45196edd6ccf205b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 29] 2 platform details 15 role groups node system fall beneath roles xe2 x80 xa2 observer node fetch content store content xe2 x80 xa2 prover node stores content blocks require proving validity blocks incentive receiving tokens correct proofs node reputation lower equal current system average xe2 x80 xa2 validator node stores content blocks validate nodes incentive receiving tokens compensation node reputation greater current system average roles static instead change point time depending moving direction ecosystem actions individual nodes time new proofs submitted rewards mined reputation participants updated system global average threshold point calculated follows xce xbb xce xbb0 r xe2 x88 x92 xce xbb0 n xce xbb0 previous global average r current reputation value participant n total number participants involved xce xbb value smart contract decide request proofs validator reputation xce xbb value submit answer proofs reputation equal xce xbb x0cchapter 2 platform details 16 phase verify",
+    "metadata": {
+      "chunk_id": "89d11d1c91831bf701834323da20ccd1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 30] participants involved xce xbb value smart contract decide request proofs validator reputation xce xbb value submit answer proofs reputation equal xce xbb x0cchapter 2 platform details 16 phase verify 1 node xe2 x80 x9cinitiator xe2 x80 x9d picks node list connected peers selection scheme node implementation initiator xe2 x80 x9cvalidator xe2 x80 x9d set 2 asks selected node list current available contents 3 selected node answers list content ids 4 initiator node selects content ids fetches list blocks form specific content 5 initiator calls startproof target smart contract time tells target node contentid blockid chosen received list 6 target node send ordered bytes requested block 7 initiator hashes received data hash matches expected value obtained previous step sends random 256 bit nonce target node 8 target node send received nonce blockchain showproof initiator nonce 9 initiator calls acceptproof target smart contract adds initiator target rewards queue 10 optionally slave",
+    "metadata": {
+      "chunk_id": "96b8cf4b1eb0fb6be45157392a8f819c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 31] nonce target node 8 target node send received nonce blockchain showproof initiator nonce 9 initiator calls acceptproof target smart contract adds initiator target rewards queue 10 optionally slave provide block provides invalid data master failproof available 5 minutes passed startproof phase 2 reward proofs accepted verification phase validator participants submitted queue maximum limit 128 participants proofer participants sent second queue size forcing flushing proof queue calling obtainrewards invoking smart contract rules collect rewards happen obtainrewards called minimum 5 participants queue ii signatures addresses ordered lower greater iii signatures different allows guarantee participant queue unique helped previous rule iv addresses validator queue average reputation time inclusion x0cchapter 2 platform details 17 v addresses proofer queue reputation equal reputation average time inclusion vi time passed rewards vii participant validator queue paid 1 token validation fee",
+    "metadata": {
+      "chunk_id": "7b6c6f0070f335854ed9856a90b20f39",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 32] x0cchapter 2 platform details 17 v addresses proofer queue reputation equal reputation average time inclusion vi time passed rewards vii participant validator queue paid 1 token validation fee rewards time based variable rewards times helping preventing spamming attacks reward wait time increases time obtainrewards completes success conditions participant selected randomly proofer pool validator pool randomization mersenne twister having neo consensus pseudo random value act seed concatenated signature address invoked obtainrewards participants chosen winners half tokens distributed participant new round rewards start 2 4 4 content privacy phantasma data secure design achieved state art encryption algorithms content securely stored encrypted storage backend records referenced phantasma smart contract access actual content users appropriate permissions able receive actual decryption keys stored content data encryption phantasma backend agnostic running layer raw storage symmetric",
+    "metadata": {
+      "chunk_id": "59032b7e537e187e9479bcb0c8b0468a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 33] smart contract access actual content users appropriate permissions able receive actual decryption keys stored content data encryption phantasma backend agnostic running layer raw storage symmetric ciphers aes phantasma storage uses aes256 ctr sha 256 key generation distribution keys access groups based concept broadcast encryption naor 1994 algorithm broadcast encryption requires additional coordination group participants added advantage possibly sending message millions receivers requiring sub linear growth ciphertext write read goes storage node e storage bridge pdfs node responsible encrypting decrypting data generating storing data encryption keys aes keys ensure privacy data nodes direct access encryption keys keys kept privately phantasma node creator owner data encrypt send keys consumer reader demand readdata response carries particular aes key encrypted reader xe2 x80 x99s public key neo key ecc algorithm key management layer crucial required component phantasma nodes",
+    "metadata": {
+      "chunk_id": "44a76ca91d5c500e7799070b580404e8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 34] keys consumer reader demand readdata response carries particular aes key encrypted reader xe2 x80 x99s public key neo key ecc algorithm key management layer crucial required component phantasma nodes responsible interfacing supported data backends x0cchapter 2 platform details 2 4 5 18 storage cost allocating content blockchain fixed storage data block storage valid fixed period time eg month space content allocated necessary specify priority storage mode mode simple blocks read writable associated soul value storage greater represents integer number specifying inherent importance content specifying different priority levels possible adjust storage cost raising content deleted decreasing cost volatile violative content prescribed value soul storage upfront meaning loader submit determined soul content reside chain 1 month 1 year number required soul adjusting accordingly possible prescribe minimum soul deposit later amend storage allocation period additional soul installments 2 4 6",
+    "metadata": {
+      "chunk_id": "14b5071017fc7387dbaeb0f19cc03f09",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 35] soul content reside chain 1 month 1 year number required soul adjusting accordingly possible prescribe minimum soul deposit later amend storage allocation period additional soul installments 2 4 6 failure handling system like phantasma main parts attacked suffer technical outages xe2 x80 xa2 neo network neo built extremely fault tolerant blockchain end neo development network gets bit stressed certain heavy conditions triggered situation phantasma continuing function partially taking support phantasma relay cache system caching mechanisms neo local nodes failure short duration phantasma ecosystem possibly withstand minimal disruption xe2 x80 xa2 phantasma relays device running phantasma dapp potentially act relay node situation nodes offline difficult imagine possible number large nodes offline turn fetching specific blocks impossible nature decentralized storage system situation needs accounted recommended need access certain data blocks sure running relay nodes specific blocks",
+    "metadata": {
+      "chunk_id": "b17bc924816cd670c143df4f83f4b1a6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "outage"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 36] offline turn fetching specific blocks impossible nature decentralized storage system situation needs accounted recommended need access certain data blocks sure running relay nodes specific blocks flagged local storage x0cchapter 2 platform details 2 4 7 19 specific network attacks denial service xe2 x80 x93 distributed denial service attack disadvantages targeting distributed system mainly single point failure targeted targeting specific nodes possibility phantasma relay nodes able detect abnormal network activity immediately start distributing blocks relay nodes taking block priority account theory possible target single phantasma node resources carry order magnitude higher power available organizations identity hijacking xe2 x80 x93 way kademlia exchanges messages nodes possible malicious node hijack messages intended nodes similar storj protocol s wilkinson 2017 extend kademlia encrypt messages neo ecc key pair allows verification helps avoid identity hijacking protocol poisoning",
+    "metadata": {
+      "chunk_id": "098c94f13751f1ab055c57b1ec34f9fd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 37] node hijack messages intended nodes similar storj protocol s wilkinson 2017 extend kademlia encrypt messages neo ecc key pair allows verification helps avoid identity hijacking protocol poisoning xe2 x80 x93 malicious entity try large number nodes join phantasma network control try manipulate storage proof retrievability brute forcing phase proof controlled nodes tokens distributed second phase block confirmation conditions preference peers oldest minting timestamps pushes puppet nodes queue creation new malicious nodes prevented specifying minimum period registration block inclusion x0cchapter 2 platform details 20 2 5 phantasma blockchain 2 5 1 overview current available blockchains mere currency transaction systems instead work platforms distributed applications programmable smart contracts case ethereum neo supports storage mechanism save application state state described quasi immutable storage given smart contracts free rewrite state time necessary previous states recovered",
+    "metadata": {
+      "chunk_id": "dd52af60372ad19a92bf8838b0657862",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 38] contracts case ethereum neo supports storage mechanism save application state state described quasi immutable storage given smart contracts free rewrite state time necessary previous states recovered transactions stored immutable blockchain foster healthy growth space required store blockchain data current platforms encourage frugal use storage mechanism existing model operations inside smart contracts associated fees platform gas cost writing storage proportional bytes stored storing single kilobyte blockchain extremely expensive given current gas prices currently kind applications distributed way limited subset apps minimal storage data requirement main motive creation new blockchain platform introduce new model storage smart contracts phantasma proposes model storage cost location offloaded distributed way participants network instead forcing redundancy state network node introduce concept ephemeral storage sense smart contract choose data handled inside network forcing higher",
+    "metadata": {
+      "chunk_id": "75105cd5ad36c83828ef160662c2f107",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 39] offloaded distributed way participants network instead forcing redundancy state network node introduce concept ephemeral storage sense smart contract choose data handled inside network forcing higher level redundancy static content alive dropping data longer necessary network 2 5 2 smart contracts current smart contract languages usually turing complete limited way operate data manipulating large amounts data currently scope existing smart contract languages phantasma blockchain focus data following capabilities supported data manipulation xe2 x80 x93 order manipulate large amounts data necessary able operate data abstracted way high level concepts like map filterreduce available phantasma smart contracts storage xe2 x80 x93 phantasma smart contracts able receive large amounts data input allocate storage blockchain drop necessary encryption xe2 x80 x93 encryption privacy basic requirements distributed applications phantasma smart contracts access underlying protocol allows",
+    "metadata": {
+      "chunk_id": "62a7d598f1f56d10f33ac897ee4fc682",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 40] data input allocate storage blockchain drop necessary encryption xe2 x80 x93 encryption privacy basic requirements distributed applications phantasma smart contracts access underlying protocol allows distribution encrypted content specific parties token xe2 x80 x93 smart contract platform ability issue tokens native token support phantasma blockchain token class citizen platform programming phantasma smart contracts tools neo network adherence neox protocol guarantees compatibility contract virtual machines x0cchapter 2 platform details 2 5 3 21 migration phantasma project initially start neo operating blockchain later necessary migrate new blockchain mainnet launched neox allows transferring tokens blockchains feature transfer user tokens applications upgrade order operate new blockchain phantasma application running neo blockchain continue operate albeit lacking access new features introduced new blockchain x0c22 3 party development 3 1 application development framework developers",
+    "metadata": {
+      "chunk_id": "1764d3a2ffb86817582a721f612dbf6e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 41] phantasma application running neo blockchain continue operate albeit lacking access new features introduced new blockchain x0c22 3 party development 3 1 application development framework developers phantasma based dapps use supporting software development kit sdk order access phantasma features sdk handles communication phantasma nodes dapps allowing sending custom transactions relay nodes interfacing underlying phantasma smart contract features supported sdk xe2 x80 xa2 create new boxes xe2 x80 xa2 send read messages boxes xe2 x80 xa2 opcode script builder generate logic gates deployable phantasma vm xe2 x80 xa2 allocate storage content upload retrieve xe2 x80 xa2 communication relay nodes xe2 x80 xa2 programmatically participation proof retrievability 3 1 1 available programming languages sdk initially written c language allowing consumed language net platform language developers experience phantasma defines standard dapp protocol later developers contribute implementations",
+    "metadata": {
+      "chunk_id": "e9a04d9dfc1d82d8a0f810908cc4312d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 42] languages sdk initially written c language allowing consumed language net platform language developers experience phantasma defines standard dapp protocol later developers contribute implementations phantasma library written programmable languages 3 1 2 service api api interoperability languages services essential platform phantasma provide sdk include thin client functionality able provide clear complete service api external applications interact phantasma dapps plus phantasma website provide extensive api reference complete code examples allow developer integrate products phantasma x0cchapter 3 party development 3 1 3 23 debugging sdk debugging utilities help developers easily phantasma dapps running integrated debugger based work team achieved neo smart contract debugger debugger supports blockchain emulation allows fast development times requiring deploying private test network interfacing neo blockchain accomplished neo lux client library developed 3 1 4 smart contracts initially",
+    "metadata": {
+      "chunk_id": "15c5e3cc1ae02cdcbe0912a9f4ff6ab0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 43] blockchain emulation allows fast development times requiring deploying private test network interfacing neo blockchain accomplished neo lux client library developed 3 1 4 smart contracts initially sub contracts available phantasma blockchain test net released later smart contracts available interoperability smart contracts available sdk executing transactions transfer tokens development smart contracts phantasma advantage tools enviroments developed neo thanks usage compatible virtual machine x0c24 4 use cases 4 1 decentralized email phantasma easily create fledged email like centralized system phantasma based email application advantage secure configurable phantasma vm script data completely control inbox owners phantasma email implemented single box input optional additional box output sent messages stored emails sent neo blockchain destination xe2 x80 x99s input box additional behaviour basic phantasma email client implemented automatic newsletters action triggers input messages e",
+    "metadata": {
+      "chunk_id": "7c03807dcace19c14c611cda2041b48d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 44] sent messages stored emails sent neo blockchain destination xe2 x80 x99s input box additional behaviour basic phantasma email client implemented automatic newsletters action triggers input messages e autoresponders etc phantasma based autoresponder offers advanced level easily customizable cheap efficiency familiar mailchimp like ui user interface powerful phantasma vm allow specific behaviour click configurable triggers input box allowing automatic email responses complex state transitions fraction cost current available solutions interesting application distributing newsletters phantasma based newsletter easily efficiently implemented simple box cost free permissioned gate recipients newsletters added gate xe2 x80 x99s access list cost free soul tokens gas costs access newsletter finally important point communication traditional email systems existing blockchain chain email based systems exist suffer closed system proper communication exterior systems phantasma proposes creation xe2",
+    "metadata": {
+      "chunk_id": "12571d7fc94ab72865a00db9f9d7923f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 45] important point communication traditional email systems existing blockchain chain email based systems exist suffer closed system proper communication exterior systems phantasma proposes creation xe2 x80 x9cmail providers xe2 x80 x9d run phantasma nodes bridges smtp imap protocol allowing messages blockchain course spam largest deterrent bridges work based mix provider based user based whitelisting domains support auto inclusion pgp signed messages d shaw 2007 x0cchapter 4 use cases 25 4 2 oracles phantasma makes easy provide oracle like services neo therea 3 methods available oracle depending actual data volume requirements xe2 x80 xa2 fully onchain low data query volumes fully onchain approach suited data written read neo blockchain possible application method provider certain daily quotes e closing day quote nyse xe2 x80 xa2 onchain backend storage similar method 1 dealing real world levels data volumes application use available phantasma backends store xe2 x80 x99s provided data",
+    "metadata": {
+      "chunk_id": "ea54cf6887f49e1f7e1f6dfcfa2ac360",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 46] e closing day quote nyse xe2 x80 xa2 onchain backend storage similar method 1 dealing real world levels data volumes application use available phantasma backends store xe2 x80 x99s provided data xe2 x80 xa2 endpoint phantasma relays method solution highthroughput data flows applications need constantly reading writing data use solution phantasma box hold endpoint id address actual phantasma relay providing data reader client needs relay running connect endpoint start receiving data multiple kinds applications type data trading engines meteorological data providers etc future planning phantasma oracle feed source aggregator work functional marketplace data sources allowing new developers find use existing contents developers sell access box contents course systems based oracle pattern absolutely necessary data pushed blockchain comes trustful source reputation system marketplace improve viability concept 4 3 digital commerce digital commerce good fit phantasma platform allowing sales",
+    "metadata": {
+      "chunk_id": "d88ed84bdc26dd5e4d8d50c18965b336",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 47] necessary data pushed blockchain comes trustful source reputation system marketplace improve viability concept 4 3 digital commerce digital commerce good fit phantasma platform allowing sales digital products videos videogames files taking advantage programmable sub contracts run phantasma vm possible example create box permissions set way read owner write use box product listing create second box write messages owner consume allowing purchase orders sent box content automatically unlocked phantasma storage 4 4 video streaming content creator usually releases videos free host videos network allowing decide videos days bothering followers unwanted ads phantasma host videos minimal costs control monetize content regardless types videos creating demonetisation certain types x0cchapter 4 use cases 26 videos control party providers supply paid content followers form courses specific paid videos interesting use phantasma network taking advantage programmable sub contracts automatically",
+    "metadata": {
+      "chunk_id": "9dee785065f11ae3a1ace374552315b4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 48] use cases 26 videos control party providers supply paid content followers form courses specific paid videos interesting use phantasma network taking advantage programmable sub contracts automatically distribute access video content allowing video previews restricting access partial storage blocks platforms like udemy teachable business model provides capability significant percentage sales phantasma costs reduced tremendously power blockchain based content host subsidized helping hosting content having viewers participate hosting provides better scaling solution creators large audiences cost hosting content significantly lower technical terms video streaming supported seekable random access pdfs layer possible storage segmented fixed size blocks fast transfer speeds achieved use phantasma relays use caching capacity deliver pre fetched blocks high speeds x0c27 5 ecosystem 5 1 data economy phantasma aims create incentivized environment securely distribute monetize data dapps achieve",
+    "metadata": {
+      "chunk_id": "0257e8cbea2765a67462ef972b033a2b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 49] relays use caching capacity deliver pre fetched blocks high speeds x0c27 5 ecosystem 5 1 data economy phantasma aims create incentivized environment securely distribute monetize data dapps achieve goal utility tokens critical fuel transmits value producers consumers keepers data allows developer create application built economic system producers xe2 x80 x93 valuable data provide ecosystem specific dapp s individuals coordinated team organization general provider data feeds consumers xe2 x80 x93 users dapps required data function p2p application like email consumer producer operators xe2 x80 x93 users running phantasma nodes ensure network xe2 x80 x99s reliability availability speed details 5 2 soul phantasma network token soul token fuel phantasma network serving basis economic incentives binding consumers producers operators xe2 x80 x9csoul xe2 x80 x9d chosen allegory traveling gates new applications use cases developed network soul token provide backbone economy network developers",
+    "metadata": {
+      "chunk_id": "8beb610c5c389550df3dd8034e662d29",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 50] binding consumers producers operators xe2 x80 x9csoul xe2 x80 x9d chosen allegory traveling gates new applications use cases developed network soul token provide backbone economy network developers users network use souls future applications use cases phantasma encourages natural flow tokens users consumers need tokens pay data tokens producers developers need pay storage network services node rewards redistributed node operators expectedly include simple users consumers ecosystem designed foster increasing use souls participants network appreciating outlook token value ease use compatibility current neo based software token nep 5 based unfamiliar concept nep 5 defines standard interface tokens conform need implement neo equivalent erc20 ethereum tokens following nep 5 specification token support distribution pool essential reward claiming functionality pdfs layer distribution described detail proof retrievability section x0cchapter 5 ecosystem 28 5 3 infrastructure incentives",
+    "metadata": {
+      "chunk_id": "c533ade5a2cfc1cfb72bf11c30c26815",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 51] token support distribution pool essential reward claiming functionality pdfs layer distribution described detail proof retrievability section x0cchapter 5 ecosystem 28 5 3 infrastructure incentives phantasma users contribute healthy running system allowing device storage partly decentralized network rewarded receiving tokens return order support redistribution tokens storage participants phantasma smart contract includes xe2 x80 x9dstorage pool xe2 x80 x9d combined proof ofretrievability allows fair stochastic distribution tokens node administrators ecosystem follows token renewal system payment follows split system subject change order maintain market equilibrium xe2 x80 xa2 95% paid tokens sent payment target xe2 x80 xa2 5% paid tokens sent reward pool payments rewards managed phantasma smart contract records token balances users system standard nep 5 implementation rewards sent instantly addresses participants following nep 5 standard token transfer mechanism specifically payment",
+    "metadata": {
+      "chunk_id": "f870f5f18ed4626c83418a0192d3f7fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 52] smart contract records token balances users system standard nep 5 implementation rewards sent instantly addresses participants following nep 5 standard token transfer mechanism specifically payment tokens required createbox allocstorage optional readcontent writecontent calls later calls tokens required vary zero determined pre defined code path phantasma vm previewed inspectcontent x0cchapter 5 ecosystem 29 5 4 ecosystem initiatives preparation official launch phantasma run marketing campaign rewards stir initial interest crypto community allow raise initial awareness platform platform launched incentivisation program 3rd party apps developed phantasma community programs organic social marketing raise awareness platform initiatives allow team work community develop phantasma planned activities community growth include competitions poc xe2 x80 x99s phantasma based dapps later development developer welcomed participate pool rewards distributed winners competition intend aggressively",
+    "metadata": {
+      "chunk_id": "e614ba8089c62d3a2d43198e072b6cab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 53] community growth include competitions poc xe2 x80 x99s phantasma based dapps later development developer welcomed participate pool rewards distributed winners competition intend aggressively pursue partnerships leading blockchain developers companies showcasing advantages phantasma basic infrastructure x0c30 6 project funding 6 1 distribution fund development phantasma network enable fulfil potential team single funding round private public token sale majority tokens available public public sale required reserve soul available rewards parties contribute development improvement phantasma ecosystem 6 1 1 projected use contributions xe2 x80 xa2 40% reserved marketing growth xe2 x80 x93 marketing funds start expand platform advertising sponsorships partnerships conferences reward programs contests xe2 x80 xa2 30% reserved development xe2 x80 x93 continuously develop tech powers phantasma platform dapps x0cchapter 6 project funding 31 xe2 x80 xa2 20% reserved operations xe2 x80 x93",
+    "metadata": {
+      "chunk_id": "8f16acbd378b7963e9de29971f2b66d6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 54] contests xe2 x80 xa2 30% reserved development xe2 x80 x93 continuously develop tech powers phantasma platform dapps x0cchapter 6 project funding 31 xe2 x80 xa2 20% reserved operations xe2 x80 x93 administrative overhead costs running business xe2 x80 xa2 10% reserved legal contingency xe2 x80 x93 order maintain desired high standards fluidity operations company 6 1 2 token metrics xe2 x80 xa2 ico token price 0 23 usd xe2 x80 xa2 token total supply 100 000 000 soul xe2 x80 xa2 tokens available sale 65 000 000 soul 1 3 bonus tokens burned unclaimed 6 1 3 token distribution xe2 x80 xa2 65% available public private sale xe2 x80 xa2 20% reserved team advisors xe2 x80 xa2 15% reserved platform growth developer incentives x0cchapter 6 project funding 6 1 4 32 sale details xe2 x80 xa2 tokens distributed sale neo smart contract smart contract support pausing postponing sale case adverse network conditions xe2 x80 xa2 order access sale interested parties register phantasma whitelist participate",
+    "metadata": {
+      "chunk_id": "a76e1d90e485e909f56b673bf57a1ee6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 55] sale neo smart contract smart contract support pausing postponing sale case adverse network conditions xe2 x80 xa2 order access sale interested parties register phantasma whitelist participate kyc process order neo address approved sale xe2 x80 xa2 smart contract support assigning different tiers participating neo address order apply different rules team members strategic partnerships public sale buyers xe2 x80 xa2 hard cap reached crowdsale total token supply lower remaining tokens minted equivalent unsold token burn 6 1 5 lock period smart contract lock period known vesting period type address tier party vested tokens unlock tokens vesting period reached calling unlocktokens smart contract team tokens locked tiered vesting period following xe2 x80 xa2 cliff 6 months xe2 x80 xa2 vesting 3 years 10% unlocked 3 months total 30 months advisor tokens locked tiered vesting period following xe2 x80 xa2 cliff 2 months xe2 x80 xa2 vesting 12 months 10% unlocked month total 10 months",
+    "metadata": {
+      "chunk_id": "e258264ebdacb4f55c6043d2b64e8553",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 56] vesting 3 years 10% unlocked 3 months total 30 months advisor tokens locked tiered vesting period following xe2 x80 xa2 cliff 2 months xe2 x80 xa2 vesting 12 months 10% unlocked month total 10 months addresses belonging presale contributors strategic partnerships following rules apply xe2 x80 xa2 100% base non bonus tokens released transferable immediately token sale xe2 x80 xa2 bonus tokens vesting period 90 days vesting linearly roughly 3 months bonus tokens released month addresses belonging public sale contributors token share split single lock period following xe2 x80 xa2 100% tokens released transferable immediately token sale x0cchapter 6 project funding 6 1 6 33 transparency policy contribution wallets public knowledge tracked blockchain tracking platforms neo ongoing reports progress development network provided regularly public public access phantasma github allow developers investors alike date network xe2 x80 x99s development required portion contributions raised converted",
+    "metadata": {
+      "chunk_id": "f51ebbecde2413d85219aee4a72cf5ac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 57] development network provided regularly public public access phantasma github allow developers investors alike date network xe2 x80 x99s development required portion contributions raised converted fiat currency order runway years platform development x0c34 7 roadmap 7 1 planned roadmap phantasma project separate teams working core tech building working products products open source showcase power phantasma tech q3 2017 proposal design phantasma development initial proof concept q4 2017 submission proof concept city zion dapp contest 5 winners website launch team formation q1 2018 initial draft white paper presentation phantasma neo devcon sf continued development core protocol q2 2018 phantasma public token sale prototype phantasma dapp secure email q3 2018 release phantasma sdk let party developers start building phantasma based products release oracle nodes example sdk usage q4 2018 phantasma relay nodes finished released allowing phantasma apps break free transaction speed limits",
+    "metadata": {
+      "chunk_id": "f48927b0b6f154838c28fc9f13a00f50",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 58] developers start building phantasma based products release oracle nodes example sdk usage q4 2018 phantasma relay nodes finished released allowing phantasma apps break free transaction speed limits blockchain sdk upgraded support new feature phantasma chat developed showcase relay nodes development competition held point start split phantasma neo network blockchain neox protocol cross chain interoperability testnet released q1 2019 release phantasma storage expansion relay system sdk updated support storage release main net native tokens issued according nep 5 ownership porting sdk support native blockchain storage nodes start rolled public phantasma network q2 2019 phantasma digital commerce released showcase create complex x0cchapter 7 roadmap 35 logic programmable blockchain gates q3 2019 service discover phantasma dapps created point forward parties developer support reached critical mass q4 2019 phantasma video streaming released showcase dapp dealing heavy data loads x0c36 8",
+    "metadata": {
+      "chunk_id": "1e59293df129e68ff5caf8fa614d03eb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 59] 2019 service discover phantasma dapps created point forward parties developer support reached critical mass q4 2019 phantasma video streaming released showcase dapp dealing heavy data loads x0c36 8 team 8 1 phantasma team team mainly composed portuguese developers experience blockchain smart contracts mobile web development team based lisbon portugal s xc3 xa9rgio flores co founder phantasma city zion developer blockchain consultant s xc3 xa9rgio came idea phantasma extensive development work neo saw cloud hosted content vulnerable traditional centralized servers neo support system solve s xc3 xa9rgio senior experienced developer 20 years business customer facing software development track record tackling complex structural systems filesystems drivers compilers debuggers case recent development neo debugger miguel ferreira co founder senior xe2 x80 x98bigdata xe2 x80 x99 compiler developer blockchain expert miguel senior experienced developer years entreprises systems engineering",
+    "metadata": {
+      "chunk_id": "2a01b4e4ba2106f97371c841eab967c4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 60] neo debugger miguel ferreira co founder senior xe2 x80 x98bigdata xe2 x80 x99 compiler developer blockchain expert miguel senior experienced developer years entreprises systems engineering academic research distributed systems crypto enthusiast deeply involved blockchain dapp ecosystem sees phantasma new frontier bringing scalable application development people neo ethereum solidity developer alexandre paix xc3 xa3o marketing expert tech enthusiast background management business development alexandre complements team non technical business growth brings important skills like marketing public relations table key increasing awareness development phantasma platform s xc3 xa9rgio pereira da silva business developer fiscal legal lead economist trade crypto lover s xc3 xa9rgio pereira responsible building valuable partnerships larger neo ecosystem evangelizing phantasma real world use cases companies worldwide bruno freitas software developer graduated computer engineering entered crypto",
+    "metadata": {
+      "chunk_id": "0521dbc498f433c266b3397cd6393309",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 61] building valuable partnerships larger neo ecosystem evangelizing phantasma real world use cases companies worldwide bruno freitas software developer graduated computer engineering entered crypto space hobby early 2017 found xe2 x80 x9dantshares xe2 x80 x9d neo project immediately got interested resulted accepted city zion developer work experienced c net stack technologies specialized cross platforms applications bruno charge mobile development phantasma x0cchapter 8 team 37 bernardo pinho software developer qa tester recent youngest member team bernardo crypto enthusiast passionate developer recent graduate engineering university completely devoted blockchain development previous experience ethereum ecosystem rafael barbosa graphic designer rafael early age began work graphic designer attending esad matosinhos best schools europe developed projects international companies nos primavera sound porto major interests design world helping business promote effectively x0c38 phantasma vm",
+    "metadata": {
+      "chunk_id": "86494afcdd4ec0112ce4ca729a77f904",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 62] attending esad matosinhos best schools europe developed projects international companies nos primavera sound porto major interests design world helping business promote effectively x0c38 phantasma vm instruction set 1 instruction set vm uses stack based architecture vein neo ethereum virtual machines instruction occupies byte exceptions annotated list included exhaustive list implementation proposal later change states verbs write xe2 x80 x93 true writing read xe2 x80 x93 true reading inspect xe2 x80 x93 true inspecting xe2 x80 x93 true caller owner box boxes xe2 x80 x93 address current box executed entry xe2 x80 x93 address box started execution data timestamp xe2 x80 x93 timestamp obtained blockheader consensus xe2 x80 x93 pseudo random number obtained block header note state changes context vm changes eg calling pull context switches xe2 x80 x9dread xe2 x80 x9d true things like xe2 x80 x9down xe2 x80 x9d change state reverts control returns previous context 1 1 opcodes core",
+    "metadata": {
+      "chunk_id": "90dcdd533a9463dfd0ec86af16f0ffc3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 65] x9d stack fail xe2 x80 x93 stops execution pushes value xe2 x80 x9dfalse xe2 x80 x9d stack throw xe2 x80 x93 throws exception neo vm data push pushes new content box taken stack puts true false stack x0cappendix phantasma vm instruction set 41 depending operation successful pull pulls latest content box taken stack executes puts result stack inspect inspects latest content box taken stack puts token cost stack delete deletes content box taken stack puts true false stack depending operation successful replace replaces content box taken stack puts true false stack depending operation successful xe2 x80 x93 executes content taken stack box taken stack pushes result stack inputs called box passed stack box specified input older xe2 x80 x9dthis xe2 x80 x9d box prevents infinite recursion count xe2 x80 x93 gets content box pushes result stack gets specified box pushes result stack find finds address box taken stack pushes result stack payments balance pushes number balance tokens box stack",
+    "metadata": {
+      "chunk_id": "28b2f69f811b4dc6ec65dd00ab99d767",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 66] xe2 x80 x93 gets content box pushes result stack gets specified box pushes result stack find finds address box taken stack pushes result stack payments balance pushes number balance tokens box stack pay xe2 x80 x93 size pays certain taken stack tokens box time xe2 x80 x93 pushes time payment stack payment happened pushes unix epoch value storage alloc xe2 x80 x93 size 4 zeros 4 data allocates n blocks phantasma storage indicated hashes number blocks total size blocksize number hashes match hash 4 bytes data opcode executes new pdfs link created opcode replaced memory execution vm stops returning link x0cappendix phantasma vm instruction set 42 opcode executed happens xe2 x80 x9dwrite xe2 x80 x9d mode content executed push xe2 x80 x9dwrite xe2 x80 x9d mode reads pulls executed immediately replaced link opcode allows pdfs contentid retrieved later time makes impossible alloc content link xe2 x80 x93 id 8 puts link phantasma storage stack elnk xe2 x80 x93 service size data marks link",
+    "metadata": {
+      "chunk_id": "db96103163e84c982b72affcda81921b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 67] replaced link opcode allows pdfs contentid retrieved later time makes impossible alloc content link xe2 x80 x93 id 8 puts link phantasma storage stack elnk xe2 x80 x93 service size data marks link hash party external storage specific service eg bluzelle storj size xe2 x80 x93 contentid returns size bytes specified content pushed stack write xe2 x80 x93 writes content stack storage key taken stack read xe2 x80 x93 reads content source taken stack storage key taken stack miscellaneous sha256 hashes byte contents value stack sha256 pushes result stack state xe2 x80 x93 state puts value specified vm state stack include xe2 x80 x93 box adds box list boxes caller exclude xe2 x80 x93 box removes box list boxes caller x0c43 b phantasma data file system reference b 1 node protocol messages proposal message protocol initial phantasma relay implementation query allows request data blocks request contentid blocklist response contentid blockbytes signatures info allows request info availability",
+    "metadata": {
+      "chunk_id": "70353224092a879fd71759e2c36564fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  },
+  {
+    "text": "[Section 68] message protocol initial phantasma relay implementation query allows request data blocks request contentid blocklist response contentid blockbytes signatures info allows request info availability contentid request contentid join allows node join network storage node node validate identity signing message neo keys joins receives response containing map network request identity response network attach allows node attach master request target response ok error detach allows node detach master request target response ok error upload allows anybody upload block contentid hash data match stored blockchain request contentid blockid data response ok error x0cappendix b phantasma data file system reference 44 x0c45 bibliography b kr xc3 xa4mer n v xc3 xb6lker 1997 xe2 x80 x9csafety critical real time systems xe2 x80 x9d book url https www amazon com safety critical real time systems bernd kr%c3%a4mer dp 0792380223 bowers kd 2009 xe2 x80 x9cproofs retrievability theory implementation xe2 x80",
+    "metadata": {
+      "chunk_id": "47078b0454f837c04b5c83b801e5afa3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Phantasma.txt"
+    }
+  }
+]

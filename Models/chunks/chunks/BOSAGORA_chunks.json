@@ -1,0 +1,1194 @@
+[
+  {
+    "text": "[Section 1] b bosagora white paper january 16 2020 x0cbackground 4 vision 5 mission statement 5 core values key attributes 5 forward thinking 5 fair 5 dependable 5 ico original white paper 6 proposal 7 consensus algorithm 9 overview 9 federated byzantine agreement consensus algorithm 10 modified federated byzantine agreement mfba algorithm different 10 congress network 11 overview 11 need 11 problems collaborative decision making 11 introduction congress network 12 functions 12 features 12 process 14 creating activity 14 discussion 15 voting 15 tallying votes 15 quorum 16 implementation 16 review inspection 16 conclusion 16 network interactions 16 transactions 16 proposals 17 coin freezing 17 reward system 17 commons budget 18 token distribution issuance 19 bosagora token distribution 19 issuance 20 1 x0ctechnology 22 abstract 22 introduction 22 proof work resource consumption 22 proof stake 22 scalability issues 23 summary 24 ii attacks pos 24 short long range attacks 24 stake grinding attacks 24",
+    "metadata": {
+      "chunk_id": "2fe2edc4e7c65e53457b2e0ac91f79a2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 2] x0ctechnology 22 abstract 22 introduction 22 proof work resource consumption 22 proof stake 22 scalability issues 23 summary 24 ii attacks pos 24 short long range attacks 24 stake grinding attacks 24 stake attacks 25 iii fundamentals 25 network model 25 source randomness 26 enrollment process 26 validators signature scheme 27 iv layer 1 protocol 27 cycle consensus rounds 27 pre image availability 28 nomination protocol 28 quorum balancing event 28 reward allocation 29 conclusion 30 appendix 1 federated byzantine agreement 31 appendix 2 trust contracts 33 appendix 3 token issuance schedule chart 35 reference 39 2 x0cabstract xe2 x80 x8bthe bosagora platform decentralized self evolving cryptocurrency built trust contracts embedded decision making system called congress network 1 trust contracts securely executable contracts based protocol layer intend provide efficient safely designed smart contract engine provide easy develop language tools popularity easy adoption developers 2",
+    "metadata": {
+      "chunk_id": "42f98592269e3b717c869a2546fd6b3c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 3] contracts securely executable contracts based protocol layer intend provide efficient safely designed smart contract engine provide easy develop language tools popularity easy adoption developers 2 congress network decision making body bosagora platform solves governance issues arising decentralized organizations clearly defined automated governance system aim continuously develop community software anti fragile ecosystem 3 x0cbackground blockchain conceptualized satoshi nakamoto xe2 x80 x99s white paper xe2 x80 x9cbitcoin peer peer electronic cash system xe2 x80 x9c 20081 technology implemented following year central technology bitcoin bitcoin uses blockchain technology financial transaction ledger individuals publicly record transfers currency bitcoin kind use blockchain successfully solve double spending problem despite absence centralized administrator bitcoin successfully supported 180 million peer peer transactions market capitalization 100 billion dollars following success",
+    "metadata": {
+      "chunk_id": "c2a911eed5958d5251dd20f2fb5deb6e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 4] solve double spending problem despite absence centralized administrator bitcoin successfully supported 180 million peer peer transactions market capitalization 100 billion dollars following success bitcoin numerous systems leveraging blockchain technology hundreds competing cryptocurrencies according recent ibm report 90% banks investing blockchain technology currency transactions common applications blockchain technology2 groups attempting transfer manage kinds digital assets technology financial products services logistics information property ownership identity etc cryptocurrency ethereum gained lot traction 2016 aims provide smart contracts blockchain xe2 x80 x9ca blockchain built fully fledged turing complete programming language create xe2 x80 x98contracts xe2 x80 x99 encode arbitrary state transition functions 3 goal allow users write kind program contract blockchain similar bitcoin ethereum uses blockchain consensus mechanism ensure malicious node attempts forge content",
+    "metadata": {
+      "chunk_id": "5687a0d8214b46c44d630dea4bdf63d1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 5] state transition functions 3 goal allow users write kind program contract blockchain similar bitcoin ethereum uses blockchain consensus mechanism ensure malicious node attempts forge content contract forged contract eventually removed blockchain bitcoin ensures integrity bitcoin transferred accounts ethereum similarly ensure integrity contract executed smart contracts potential paradigm shift development decentralized applications programs held centralized server run logic smart contracts develop decentralized marketplaces currency exchange platforms projects like golem4 aim create decentralized worldwide super computer freedom flexibility provided turing complete language ethereum based cause problems believe turing complete language inappropriate writing smart contracts satoshi nakamoto bitcoin peer peer electronic cash system https bitcoin org bitcoin pdf leading pack blockchain banking trailblazers set pace https www 01 ibm com common ssi cgi bin ssialias htmlfid gbp03467usen 3",
+    "metadata": {
+      "chunk_id": "1df6b782e120f4c8f9d1ac97859f233c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 6] bitcoin peer peer electronic cash system https bitcoin org bitcoin pdf leading pack blockchain banking trailblazers set pace https www 01 ibm com common ssi cgi bin ssialias htmlfid gbp03467usen 3 vitalik buterin ethereum whitepaper https github com ethereum wiki wiki white paper 4 golem https golem network 1 2 4 x0cinherently undecidable 5 undecidability issue smart contract based turing complete language difficult know smart contract running ethereum attempts overcome issue applying cost computational work gas inherent issue language program execute smart contracts inevitably led series security vulnerabilities6 outright failed projects dao 7 vision contribute making better world blockchain technology project enabler mission statement building open decentralized blockchain protocol ensures transparency consensus algorithm clarity contract enriching blockchain ecosystem enabling meaningful projects expression collective intelligence advanced democratic decision making process core",
+    "metadata": {
+      "chunk_id": "59003d3258bfe38eb8d609ab7a5ea332",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 7] transparency consensus algorithm clarity contract enriching blockchain ecosystem enabling meaningful projects expression collective intelligence advanced democratic decision making process core values key attributes forward thinking pioneering future realization xe2 x80 x8bwe aim develop node proof stake federated byzantine agreement consensus algorithm blockchain platform innovative technology development experience speed trust fair mature democracy xe2 x80 x8b embody democracy guarantees highest level fairness free inclusive decision making advanced deliberative democratic decision making tool dependable clear transparency xe2 x80 x8bto easier entire project transparency decisions based established procedures community update technical advisory board github congress voting process hodges andrew alan turing enigma london burnett books p 111 n atzei m bartoletti t cimoli survey attacks ethereum smart contracts https eprint iacr org 2016 1007 pdf 7 dao https slock dao html 5 6 5 x0cico",
+    "metadata": {
+      "chunk_id": "a535ef8f1c143f66b6ecf7e097667537",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 8] andrew alan turing enigma london burnett books p 111 n atzei m bartoletti t cimoli survey attacks ethereum smart contracts https eprint iacr org 2016 1007 pdf 7 dao https slock dao html 5 6 5 x0cico original white paper bosagora received surprising response 95 countries 2017 achieve 6902 btc hard cap 17 hours result achieved diverse technological ecological blueprints pursued existing white paper similar projects announced past 2 years difficult gain exclusive status technology development plans ecosystem blueprints competition blockchain platform market getting intensive global giant signaling launch blockchain platform circumstances bosagora try pioneer new areas gain exclusive status survive retain framework spirit existing white papers promise participants initial coin offering ico regulations changed numerous technological advancements bosagora team focuses delivery adhering original white paper time amendments reflect changes policies technology methodologies result team create",
+    "metadata": {
+      "chunk_id": "fcb0fc9759b4e42c4450edbabf7ef642",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 9] changed numerous technological advancements bosagora team focuses delivery adhering original white paper time amendments reflect changes policies technology methodologies result team create robust date platform keeping promise value vision found original white paper promise value vision found original white paper maintained words fundamentals formation congress network nodes participate decision making provision commons budgets utilized congress wants functions mainnet platform supports dapps business partners remain written distinct aspect bosagora s operating principles unleash collective intelligence nodes involved decision making process particular thanks advanced form mature decision making capabilities bosagora opinions aggregated harmonized forms harmonious process collective intelligence ultimately bosagora seeks improve ecosystem 6 x0cproposal anti centralizing consensus algorithm xe2 x80 x8b cryptocurrencies like bitcoin use proof work pow type consensus protocol affected",
+    "metadata": {
+      "chunk_id": "e844fcfa0476b80171d218de01e473f3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 10] ultimately bosagora seeks improve ecosystem 6 x0cproposal anti centralizing consensus algorithm xe2 x80 x8b cryptocurrencies like bitcoin use proof work pow type consensus protocol affected issues arising non separation economic political incentives buying mining hardware user attain control blockchain political increase mining income economic bosagora overcomes issue consensus mechanism explained detail separates economic incentives political ones attaining political power economical wealth requires investment system user acquire votes increasing number nodes operational node equals congressional vote user invest confirmation rewards rewards relative coins locked away node maximize mining income governance xe2 x80 x8b decentralized systems lack systematic decision making process cases cryptocurrency space led confusion substantial financial losses bosagora constitutes governance system node operators referred congress network participate creating voting proposals order continuously",
+    "metadata": {
+      "chunk_id": "dd20c3cc122dacff75bc4cc68f1eae20",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 11] space led confusion substantial financial losses bosagora constitutes governance system node operators referred congress network participate creating voting proposals order continuously improve software ecosystem system changing proposals voted congress network accepted considered reached social consensus changes proposal automatically applied network type proposal funding proposal proposals requests funds commons budget voted congress network bosagora sets aside large public budget specifically development bosagora ecosystem proposals explain later paper trust contracts xe2 x80 x8bbosagora team aims implement trust contracts enable safe accurate programmable executable contract original intention continuing feasible redefine trust contracts actively pursue selecting optimal direction applying suitable technology improve core protocol approach considers adopting methodology uses flexible programming language virtual machines currently exploring webassembly industry players end intend",
+    "metadata": {
+      "chunk_id": "b73f0dc8ed2779393b50f8afd1e42f45",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 12] suitable technology improve core protocol approach considers adopting methodology uses flexible programming language virtual machines currently exploring webassembly industry players end intend provide efficient safely designed smart contract engine provide easy develop language tools popularity easy adoption developers webassembly new type code run modern web browser provides new capabilities offers significant performance benefits xe2 x80 x9cwebassembly binary instruction format stack based virtual machine webassembly designed portable target compilation high level languages like c c rust enabling deployment web client server applications xe2 x80 x9d 7 x0crunning programs written multiple languages web near native speeds client applications previously impossible running codes webassembly similar actual hardware webassembly developers code variety programming languages c rust expect run program near native performance eos uses webassembly blockchain platforms ethereum tron cardano",
+    "metadata": {
+      "chunk_id": "62725ba2ea48fb3992b58d26fa3f531f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 13] similar actual hardware webassembly developers code variety programming languages c rust expect run program near native performance eos uses webassembly blockchain platforms ethereum tron cardano introduced plan introduce virtual machines webassembly feasibility implementation plan studied solution discovered technical practical measures taken complete objectives directions trust contracts presented original white paper features bitcoin ethereum bosagora coin btc eth boa core features financial transactions bitcoin script smart contracts solidity serpent etc trust contracts wasm decision making process non systematic non systematic democratic congress node vote consensus algorithm proof work current proof work future casper modified fba federated byzantine agreement block size 1 mb dynamic dynamic fig 1 comparison cryptocurrencies 8 x0cconsensus algorithm overview consensus algorithm core blockchain based currency system algorithm attempts answer question xe2 x80 x98how prove",
+    "metadata": {
+      "chunk_id": "51b604f9448b003789afa6dbc243c2ca",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 14] dynamic dynamic fig 1 comparison cryptocurrencies 8 x0cconsensus algorithm overview consensus algorithm core blockchain based currency system algorithm attempts answer question xe2 x80 x98how prove confidence distributed databases hold set information xe2 x80 x99 response question bosagora uses modified federated byzantine agreement mfba consensus algorithm based stellar xe2 x80 x99s consensus protocol fba 8 consensus algorithm proof work tendermint decentralize d control o o low latency o flexible trust asymptotic security o byzantine agreement fba 1 mfba 2 o o o o o o o o o o o governance features staking features o o o 1 federated byzantine agreement 2 modified federated byzantine agreement bosagora protocol fig 2 comparison consensus algorithms mazieres defines key features federated byzantine agreement protocol xe2 x97 x8f decentralized control able participate central authority dictates approval required consensus xe2 x97 x8f low latency practice nodes reach consensus timescales",
+    "metadata": {
+      "chunk_id": "3047e40d753e07dc051e7da6abccd5a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 15] agreement protocol xe2 x97 x8f decentralized control able participate central authority dictates approval required consensus xe2 x97 x8f low latency practice nodes reach consensus timescales humans expect web payment transactions xe2 x80 x94i e seconds xe2 x97 x8f flexible trust users freedom trust combination parties fit example small non profit play key role keeping larger institutions honest david mazieres stellar consensus protocol https www stellar org papers stellar consensus protocol pdf 8 9 x0c xe2 x97 x8f xe2 x97 x8f asymptotic security safety rests digital signatures hash families parameters realistically tuned protect adversaries unimaginably vast computing power governance features voting features related operating congress additional features embedded protocol federated byzantine agreement consensus algorithm bitcoin xe2 x80 x99s consensus mechanism traditional byzantine agreement based protocols require unanimous agreement participants network federated byzantine",
+    "metadata": {
+      "chunk_id": "0303f8eea361705caafde9b3576d4e8d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 16] byzantine agreement consensus algorithm bitcoin xe2 x80 x99s consensus mechanism traditional byzantine agreement based protocols require unanimous agreement participants network federated byzantine agreement fba require unanimous agreement participants additionally node choose nodes trust results faster transactions losing integrity financial network allowing organic growth network fba implemented type non unanimous consensus mechanism grouping nodes teams known quorums transaction information sent group waiting network agree state data node hears message sufficient number trusted nodes node assumes information correct overlapping nodes loose federation nodes results different nodes different sets teams agree transactions leads system wide consensus requiring unanimous agreement transaction block situations nodes disagreement fraudulent transaction ballot system embedded system overcome issues technical details fba found stellar xe2 x80 x99s consensus protocol paper modified federated",
+    "metadata": {
+      "chunk_id": "643e6aa6dc301a71b83867de2e8af353",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 17] block situations nodes disagreement fraudulent transaction ballot system embedded system overcome issues technical details fba found stellar xe2 x80 x99s consensus protocol paper modified federated byzantine agreement mfba algorithm different addition fba bosagora consensus protocol applies proof stake feature maintenance governance system validators need freeze 40 000 boa node forgo liquidity frozen coins node act economic incentive confirmation rewards operate node collateral security integrity information held node xe2 x80 x99s blockchain according pre set rules node discovered forged blockchain node frozen coins forfeited commons budget 10 x0ccongress network overview congress network decision making body bosagora consisting fully synchronized node operators enables effective inclusive collaboration project stakeholders continuously enhance software ecosystem example development source code marketing resources proposed decided implemented system node operators bosagora join",
+    "metadata": {
+      "chunk_id": "c1e986f074f0aab1e0370fbc9296026f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 18] collaboration project stakeholders continuously enhance software ecosystem example development source code marketing resources proposed decided implemented system node operators bosagora join congress network participate collective decision making process bosagora congress network enables members engage contribute proposals discussion voting reviewing issues project xe2 x80 x99s common interest congress network adheres 1 node 1 vote rule need like product blockchain projects satisfy needs potential users matter intricate initial design technology people market change directions projects accordingly continually adaptive changes choosing change network critical sustainability growth communicating stakeholders xe2 x80 x99 interests perspectives agreement painfully long process resulting centralized governance systems blockchain projects nature decentralization best intentions centralized decision making process inevitably leave comprehensive voices network members channel participate",
+    "metadata": {
+      "chunk_id": "3d6ba63eb4be4df8c9e2a47ecc24fe75",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 20] people taking account opinions vulnerable consequences 11 x0c xe2 x97 x8f xe2 x97 x8f discussions dominated certain group individuals happen crowd marginalized voices cognitive biases subconscious conscious biases prevent ideas evaluated merit peer pressure social peer pressure prevents constructive feedback dialogue problems today xe2 x80 x99s decision making exacerbated notable absence moderation resulting ineffective collaboration lack facilitation rules people easily fall trap diverging opinions discussion fails progress introduction congress network propose decentralized collaborative decision making system based node deliberation voting mechanism bosagora congress network functions congress network serve platform xe2 x97 x8f members actively exchange ideas communicate xe2 x97 x8f decisions reached proposals implement bosagora network bosagora mainly types proposals xe2 x97 x8f system proposals ones impact bosagora platform includes decisions alter improve technical functions",
+    "metadata": {
+      "chunk_id": "9b20a43609d39e7f7fe461cd09aef819",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 23] fears disclosure aaid technology authenticated anonymous identity generate anonymized accounts members pass eligibility verification derive disposable identities unique time permit activity prevent users xe2 x80 x99 digital footprint different activities groups traceable technology enables privacy preserved unlikely scenario servers compromised maintain trust ensuring elimination biases promote freedom speech discussions eligibility verified network aaid provider issues proof verification aaid derived un linkable proof eligibility address node 40 000 boa homomorphic encryption concept implemented discussions reviews voting determines tangible impacts system changes funding usage verifiability records takes priority aaid applied flexible adaptable xe2 x80 x8b recognizing different ways approaching problem choice decision congress network designed stages features optional according needs discover decision flow suitable needs process flow directly customized structure discussions problem",
+    "metadata": {
+      "chunk_id": "1f2ccc5fd58d7cdb39e64ae67b34bb1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 24] problem choice decision congress network designed stages features optional according needs discover decision flow suitable needs process flow directly customized structure discussions problem solving methods additional activities discussion review voting added existing activities create flexible flow best reflects changing priorities real time facilitated efficient xe2 x80 x8b help focus discussions topic reach outcome congress network activity templates extensive catalog features signpost expectations members stage xe2 x80 x99re looking lively discussion vote set proposals evaluation outcome archived interlinked transparent accountable xe2 x80 x8b transparency accountability essential foundations good decision congress network archive data possible limitations block sizes blockchain hold hashes records verify decisions accessible archives discussion votes reviews provided party server help members track internal discussions outcomes measure performance time inspired archiving",
+    "metadata": {
+      "chunk_id": "c5616cfd4f66880ed38e5b92993e2e47",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 25] hold hashes records verify decisions accessible archives discussion votes reviews provided party server help members track internal discussions outcomes measure performance time inspired archiving different 13 x0cfrom conventional practice storing data aaid generates unique time permit activity prevent traceable digital footprint members access entire activity log platform process joining congress network congress member long fulfill following conditions regarded congress member meet following criteria xe2 x97 x8f run fully synchronized node stable network speeds actual validator xe2 x97 x8f freeze 40 000 boa node server personal computer congress member runs node located home remote location long network speeds stable congress members choice invest increasing political influence running nodes increasing economic return increasing number staked boa token creating activity members feel need discuss reach decisions create activity choosing different templates depending nature topic",
+    "metadata": {
+      "chunk_id": "9554d742f902f5b54381204a5a398c79",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 26] nodes increasing economic return increasing number staked boa token creating activity members feel need discuss reach decisions create activity choosing different templates depending nature topic topics new business opportunities systemic modification general sentiments project requires inputs group members brought currently 3 templated activities members choose xe2 x97 x8f discussion members exchange opinions discuss brainstorm ideas xe2 x97 x8f voting members vote issues comment vote able options xe2 x97 x8f review members review products decisions participate surveys additional templates features introduced reflecting users needs members proposals t xe2 x80 x8b o ensure quality accountability proposals fee structure introduced future guide activity created organizer needs input necessary information members understand engage 1 links optional activity created add previous activity vote change community rule period review activity related vote created connected previous vote 2 label",
+    "metadata": {
+      "chunk_id": "c55d861575b5b86449f76dd4e90be3a2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 28] opinions comments problematic goes community rules members mute opinions comments longer viewable local app voting votes created reach collaborative agreement result vote direct impacts changes bosagora platform results recorded verifiable later vote verifiable mid voting results hidden deadline implemented validator hash chain scheme person validator congress member member pick random number known member hash random number n times random number hashed n times represented hn 1 n index locating value validator decides vote blockheight 500 commitment h1008 vote close blockheight 600 100 block time away validator automatically broadcast preimage 100 h908 preimage easy verify validity h1008 possible figure h908 h1008 h1008 verification value proof stake layer validator penalized broadcasting network voting system benefit adding additional layer incentive validators properly participate vote validator present commitment ballot ballot encrypted private key derived h908 ex h h908 xe2 x80",
+    "metadata": {
+      "chunk_id": "1e2c38a53ffc8e4d611b6d076ebbad70",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 29] network voting system benefit adding additional layer incentive validators properly participate vote validator present commitment ballot ballot encrypted private key derived h908 ex h h908 xe2 x80 x9dcongress network xe2 x80 x9d vote id vote closed validator present h908 vote server able decrypt ballot tally tallying votes end voting period system stores vote results date time vote retained ballot duplicated vote counts final 15 x0cresult ensuring singularity 1 node 1 vote process results verifiable scheme explained quorum quorum minimum number congress members participate vote proposal recognized legitimate quorum congress voting process set initially congress members dynamically adapts reflect average participation approval occurs number agreement votes minus disagreements 10% total available votes disapproval occurs disagreement votes minus agreement votes count 10% total available votes implementation proposal passed proposal implemented development team charge passed system",
+    "metadata": {
+      "chunk_id": "d13acea44ed26c16055820bc72168b1e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 30] available votes disapproval occurs disagreement votes minus agreement votes count 10% total available votes implementation proposal passed proposal implemented development team charge passed system proposals necessary development plan roadmap security tests funding proposal budgets distributed accordance written contract trust contract implemented chain transactions created manage review inspection implementation proposal subject review congress foundation scheduled inspection according roadmap proposal reviewing activity templates available aggregate members view ongoing proposals funding proposals review costs covered fee paid proposer conclusion congress network exclusive model bosagora community system envisions application inclusive effective transparent collaboration organization communities requires multiple stakeholders shape lives public policies crypto communities enterprises believe create ecosystem iteratively learn best ways structure direct deliberative democracy network",
+    "metadata": {
+      "chunk_id": "7b39c9c952ff75ee2d6d36b52dc48282",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 31] requires multiple stakeholders shape lives public policies crypto communities enterprises believe create ecosystem iteratively learn best ways structure direct deliberative democracy network interactions transactions transaction digital assets requested user request sent congress network simple transfer bosagora node confirms block user xe2 x80 x99s transactions confirmed bosagora transferred wallet complex trust contracts pre defined logic procedures carried initial stage bosagora transaction fees fixed 0 01 boa 16 x0cthe fixed transaction rate later adjusted congress network voting process transaction fees act economic incentive node operators defense mechanism dos attacks proposals proposals system changing plans commons budget spending plans submitted congress network proposal xe2 x80 x98net percentage point difference xe2 x80 x99 positive negative votes exceed 10% proposal passed funding proposal proposal passes requested coins sent proposer conditions size proposal large system",
+    "metadata": {
+      "chunk_id": "322a696f5275535e354047b0832cf227",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 32] x98net percentage point difference xe2 x80 x99 positive negative votes exceed 10% proposal passed funding proposal proposal passes requested coins sent proposer conditions size proposal large system define contract requires report coins spent coin freezing coin freezing proof stake concept participant wants validator locks coins frozen coins collateral case attempted forgery blockchain node attempts forge blockchain portion frozen coins confiscated additionally system requires weeks prior notice unfreeze coins mechanism promote price stability concept explained technology paper reward system bitcoin suffers hash power centralization issue reliance proof work consensus protocol small number major miners easily buy large amounts mining hardware allows influence changes code threaten integrity blockchain separating incentives wish optimize financial gain barriers entry participate governance process comparatively lower system equates decision making power financial rewards ways congress",
+    "metadata": {
+      "chunk_id": "34e0faf650a7477f0d7dcb487448962d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 33] blockchain separating incentives wish optimize financial gain barriers entry participate governance process comparatively lower system equates decision making power financial rewards ways congress members receive boa rewards confirmation rewards transaction fees xe2 x97 x8f confirmation reward xe2 x80 x8bconfirmation rewards given node block confirmed reward crucial providing financial incentive operate node reward directly linked number frozen coins node reward issued relative proportion frozen coins held node initially block confirmation reward starts 27 boa 5 seconds decrease 6 31% year year roughly 128 years rewards distributed validators new block created xe2 x97 x8f transaction fee xe2 x80 x8b transaction fee fixed 0 01 boa congress nodes receive 70% collected transactions fee block 30% sent commons budget transaction fees adjusted congress 17 x0ccommons budget commons budget account boa held transferred proposals passed congress main role commons budget expedite growth coin",
+    "metadata": {
+      "chunk_id": "f32081e0c311d7e138b6b4bb7901c380",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 34] 30% sent commons budget transaction fees adjusted congress 17 x0ccommons budget commons budget account boa held transferred proposals passed congress main role commons budget expedite growth coin users early stages coins commons budget mainly accumulated channels direct issuance 50 boa coins 5 seconds roughly 6 years secondly 30% transaction fee ensure funds available growth hack adoption bosagora proposal passes congress access coins commons budget example proposal airdrop proposal geo socially distribute free coins users order increase number bosagora users examples include funding development bosagora eco system marketing campaigns organizing bosagora related meetings 18 x0ctoken distribution issuance bosagora token distribution bosagora conducted airdrop boa bos holders thursday 16th september 30th 2019 according snapshot taken friday april 5th 2019 12 00 00 utc according snapshot 542 130 130 1958463 bos coins supply xe2 x97 x8f 500 000 000 bos initial supply xe2 x97 x8f 41 420",
+    "metadata": {
+      "chunk_id": "0ec2e87c8eeab0a50ddafd42fb88f453",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 35] september 30th 2019 according snapshot taken friday april 5th 2019 12 00 00 utc according snapshot 542 130 130 1958463 bos coins supply xe2 x97 x8f 500 000 000 bos initial supply xe2 x97 x8f 41 420 159 8931463 bos blockchainos pf00 membership rewards issuance xe2 x97 x8f 709 970 3027000 bos blockchainos pf01 membership rewards issuance finalization boa token airdrop distribution plan boa token following category initial supply boa airdrop bos holders unclaimed original distribution 5 09% burn 92 130 130 marketing 30 000 000 0 61% remain 82 404 969 1 66% foundation 40 000 000 0 81% members 40 000 000 0 81% bounty 10 000 000 0 20% initial supply total token burn 247 595 031 share 542 130 130 bcos pf 42 130 130 unclaimed 50 000 000 initial supply total burn 450 000 000 confirmation rewards 2 700 000 000 54 54% commons budget 1 800 000 000 36 36% total 4 950 000 000 100 00% fig 3 boa coin issuance plan number airdrop tokens bos holders 247 595 031 305721 number unclaimed tokens",
+    "metadata": {
+      "chunk_id": "5c40375014cc248425f058360d28a933",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 36] rewards 2 700 000 000 54 54% commons budget 1 800 000 000 36 36% total 4 950 000 000 100 00% fig 3 boa coin issuance plan number airdrop tokens bos holders 247 595 031 305721 number unclaimed tokens finalization airdrop 204 535 098 694279 total 204 535 098 694279 unclaimed tokens 19 x0c xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f 42 130 130 1958463 tokens issued public financing intention bos platform foundation burned 50 000 000 burned foundation decided burn 50 000 000 boa unclaimed tokens 10% original issuance plan 30 000 000 boa reserved marketing purposes exchange listings partnerships 82 404 968 6942793 remained unclaimed actual initial supply 450 000 000 boa foundation separate announcement token metrics changes fig 4 boa coin issuance plan issuance new coins issued ways initial development budget 0 45bil 10% confirmation rewards 2 7bil 54% commons budget 1 8bil 36% aim issue total 4 95 billion coins 100 years values subject change xe2 x97 x8f xe2 x97 x8f initial",
+    "metadata": {
+      "chunk_id": "8bcba2a64a0cb008d8e0c544ee7ac088",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 37] initial development budget 0 45bil 10% confirmation rewards 2 7bil 54% commons budget 1 8bil 36% aim issue total 4 95 billion coins 100 years values subject change xe2 x97 x8f xe2 x97 x8f initial development budget xe2 x80 x8b initial development coins coins distributed prior genesis block intended support final development software coins airdrops bounties 450 million boa issued genesis block confirmation rewards xe2 x80 x8b confirmation rewards financial rewards issued evenly distributed nodes confirmed block reward distributed evenly number nodes increase probability node receive 20 x0c xe2 x97 x8f reward decreases reward relative number coins frozen node 2 7 billion boa issued confirmation rewards initially 27 boa issued 5 seconds reward decreases roughly year 6 31% 128 years commons budget xe2 x80 x8bthe commons budget holds boa proposals passed congress network order create sufficient budget proposals 50 commons coins issued 5 seconds roughly years years commons budget maintained",
+    "metadata": {
+      "chunk_id": "0009b877a372b99cf91c5620aa39a986",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 38] xe2 x80 x8bthe commons budget holds boa proposals passed congress network order create sufficient budget proposals 50 commons coins issued 5 seconds roughly years years commons budget maintained 30% commons fee transactions fees mainnet launch confirmation rewards validators commons budget issued complete token issuance chart attached end document fig 5 boa coin issuance schedule technology abstract bitcoin introduced world idea digital bearer xe2 x80 x99s money implementing virtual equivalent cash laid foundation multi billion dollar industry properties money discussed challenged 21 x0cthe approach originally timestamping server inclusion batch operations based expanded computing power providing attractive properties usage proof work pow turned extremely energy inefficient additionally mining approach led development specific hardware centrally hosted areas lower energy cost threatening system greater centralization alternatives developed mining approach inherently wasteful propose",
+    "metadata": {
+      "chunk_id": "394d5de556a10b3f9440ea07e495cb9d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 39] mining approach led development specific hardware centrally hosted areas lower energy cost threatening system greater centralization alternatives developed mining approach inherently wasteful propose construction consensus achieved low cost self contained system penalties applied provably misbehaving actors self contained system usually referred xe2 x80 x9cproof stake xe2 x80 x9d pos provide definition means start exploring assumptions system operate safe define properties seek compare bitcoin additionally explore current state art development pos notably ethereum xe2 x80 x99s research pos specific attack introduction proof work resource consumption mentioned bitcoin white paper nak09 main problem electronic cash system face double spend proof work pow powerful tool democratizing concept electronic cash led development special hardware large wasteful consumption energy result mining operations largely centralized areas offering cheap electricity june 2018 estimated 74% hash rate",
+    "metadata": {
+      "chunk_id": "6fb8636cceb95a11a32ed6d8b28bd2c2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 40] electronic cash led development special hardware large wasteful consumption energy result mining operations largely centralized areas offering cheap electricity june 2018 estimated 74% hash rate operated chinese entities kjl18 additionally specialized hardware asic developed china makes currency vulnerable chinese regulators proof stake currently replacement pow exhibit properties contender thought proof stake pos projects explored problem starting peercoin 2012 kn12 xe2 x80 x9ccoin age xe2 x80 x9d approach established coin nxt uses approach newly created block data seed decide selector nxt19 prominent project working pos system ethereum planning transition pos inception 2014 past years new projects introduced notion xe2 x80 x9cdelegated pos xe2 x80 x9d dpos nodes votes delegate voting power small subset nodes major difference pos pow protocol favors safety liveness resulting protocols stopped instant finalization provide guaranteed liveness exponential safety pow provide 22",
+    "metadata": {
+      "chunk_id": "f65b5b9356ef7b38a620924ae405549f",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 41] voting power small subset nodes major difference pos pow protocol favors safety liveness resulting protocols stopped instant finalization provide guaranteed liveness exponential safety pow provide 22 x0cmeaningful liveness attacker resources decide produce blocks effectively rendering system useless time writing missing income marginal compared block reward easily compensated external actors nonetheless aspect safety attack likely result devaluation currency cases strong incentive prevent attack blockchain community fully embraced game theory essential analysis consensus protocol day 1 gtb19 scalability issues additionally inherent waste resources pow system represent blockchain scalability topic active research bitcoin community multiple factions emerged bitcoin stayed 1 mb block limit segregated witness segwit helped augment capacity chain bitcoin cash increased block size 32 mb argument favor small blocks nodes nodes verify blockchains completely secure rely parts system e g miners",
+    "metadata": {
+      "chunk_id": "f126e788a7c1936848775f3e00b27bc3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 42] witness segwit helped augment capacity chain bitcoin cash increased block size 32 mb argument favor small blocks nodes nodes verify blockchains completely secure rely parts system e g miners personal computer able run bitcoin node 32 mb block 1 block 10 minutes 144 blocks day data accepted 4 6 gb daily 138 gb monthly 1 659 gb yearly inherent requirement decentralized network transaction confirmed majority system considered accepted additionally nodes participate network decentralized network provided nodes controlled colluding entities system gains users stress node leading higher hardware bandwidth requirements hand number nodes increases transaction need reach nodes increasing time takes transaction confirmed instead attacking multi objective optimization problem decided follow track bitcoin core building layer l2 xe2 x80 x9cflash layer xe2 x80 x9d blockchain layer l1 xe2 x80 x9csettlement layer xe2 x80 x9d slightly weaker rules allowing l1 safety allowing transactions accepted",
+    "metadata": {
+      "chunk_id": "e3a5e113bc7bdb4f28f44f5f2e1b4215",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 43] bitcoin core building layer l2 xe2 x80 x9cflash layer xe2 x80 x9d blockchain layer l1 xe2 x80 x9csettlement layer xe2 x80 x9d slightly weaker rules allowing l1 safety allowing transactions accepted peers needing record l1 extension forward nodes integrate incentives clients use scheme default nodes accept transactions benefits flash layer solution xe2 x97 x8f data blockchain xe2 x97 x8f confirmation time xe2 x80 x9calmost instantaneous xe2 x80 x9d protocol followed xe2 x97 x8f users wait block confirmation xe2 x97 x8f cheaper fee micro transactions occur flash layer benefits expect built second layer solution bring secure low cost dapp development environment additionally important goal bosagora project separation political economic power realized flash layer solution 23 x0csummary xe2 x80 x8bsection ii xe2 x80 x8b explore attacks pos system xe2 x80 x8bsection iii xe2 x80 x8b introduce foundations approach network model source randomness scheme validators sign blocks efficient manner",
+    "metadata": {
+      "chunk_id": "27863c839987082dcfeb2866a5f39430",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 44] x8bsection ii xe2 x80 x8b explore attacks pos system xe2 x80 x8bsection iii xe2 x80 x8b introduce foundations approach network model source randomness scheme validators sign blocks efficient manner xe2 x80 x8bsection iv xe2 x80 x8b introduce consensus protocol participants xe2 x80 x9cvalidators xe2 x80 x9d lock specific xe2 x80 x9cstake xe2 x80 x9d order participate consensus protocol incentive scheme designed encourage correct collaboration network xe2 x80 x8bsection v xe2 x80 x8b describe layer 2 approach integration layer 1 section developed later ii attacks pos attacks concerns pos discussed years section basic definitions attack effort enlighten reader challenges protocol face short long range attacks define short range attacks attacks happening clients n blocks latest network accepted block long range attacks targeting clients n blocks latest network accepted block n parameter consensus protocol explicitly chosen derives factors example explicit definition n found ethereum xe2",
+    "metadata": {
+      "chunk_id": "b83d7fe9c90a9bc62cf7fee8eae3f8cd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 45] block long range attacks targeting clients n blocks latest network accepted block n parameter consensus protocol explicitly chosen derives factors example explicit definition n found ethereum xe2 x80 x99s concept weak subjectivity vb14 low computational cost associated creating blocks adverse entity access past private keys create competing chain associated costs keys essentially worthless coins control moved economically viable validators sell private keys exiting system stake grinding attacks grinding attacks arise consensus algorithm depends random factor consensus protocol rely data verify induce trust extension single point failure randomness based known predictable process data available participants odds traditional approach randomness data publicly available attackers attempt influence way favorable example naive consensus protocol following steps xe2 x97 x8f select fixed set n validators xe2 x97 x8f order set predictable way e g according public key xe2 x97 x8f round pick",
+    "metadata": {
+      "chunk_id": "6c10f1e26ff95a2a88c5dcd71f05646d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 46] way favorable example naive consensus protocol following steps xe2 x97 x8f select fixed set n validators xe2 x97 x8f order set predictable way e g according public key xe2 x97 x8f round pick validator nominate block xe2 x97 x8f validator selected index hash previous block % n ordered set 24 x0cwith approach validator simply find single suitable hash elected round xe2 x80 x99s validator random oracle model n 100 1000 combinations validator 99 99% chances validator approach cited solve issue requiring blinded pre commit example validators commit hash round r reveal pre image hash round r 1 random value seed sum xor hash concatenation pre images stake attacks stake attacks present early design pos protocol validator presented different blocks valid candidates current chain economically viable behavior xe2 x80 x9cvote xe2 x80 x9d xe2 x80 x9cvoting xe2 x80 x9d chain consumes resources vb14 led consensus protocol adding penalization behaviors penalties inefficient combined mandatory lock",
+    "metadata": {
+      "chunk_id": "0d58ce695580201d574258370662e22a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 47] behavior xe2 x80 x9cvote xe2 x80 x9d xe2 x80 x9cvoting xe2 x80 x9d chain consumes resources vb14 led consensus protocol adding penalization behaviors penalties inefficient combined mandatory lock period validators able sell stake time including directly voting block trivial stake attempt double spend previously spend output block stake way penalize behavior stake belong party reason lock period introduced iii fundamentals network model 3 available network models synchronous asynchronous partially synchronous position synchronous model dls88 result scp xe2 x80 x99s requirement synchronous protocol known result consensus research protocol liveness ensuring network makes progress safety ensuring participants reach result fault tolerance ensuring network safely progress nodes responding result called flp impossibility flp85 heavily referenced scp paper chooses favor safety liveness fault tolerance hand requirement system open membership source randomness parts paper signature scheme rely",
+    "metadata": {
+      "chunk_id": "614dd6cdf8a95a709ba38b0a42ad69a4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 48] called flp impossibility flp85 heavily referenced scp paper chooses favor safety liveness fault tolerance hand requirement system open membership source randomness parts paper signature scheme rely pseudo random data randomness nature unpredictable verified correctness ensuring randomness distributed system faces needs rely seed data provided participants resulting challenge ensuring participant gain edge participant crafting delaying seed data achieved hash preimage seed data 25 x0cupon enrollment validators pick random value hash n times commit final value initial seed data time new seed data required validators reveal pre image published seed data ensuring true randomness ability manipulate data issue arises validator willingly withhold data network publishing data leads worse outcome withholding node choose selectively withhold preimage stopping network skewing result avoid pitfall validators regularly publish listening validator support seed data survive minor outage sensible",
+    "metadata": {
+      "chunk_id": "0c3149d0de3f47561795edf4c0a20276",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "outage"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 50] x80 x8b signature message h xe2 x80 x8bk x n r xe2 x80 x8b key xe2 x80 x8bk xe2 x80 x8b xe2 x80 x8br xe2 x80 x8b registration recorded validator expected start signing blocks immediately described iv 1 following requirements utxo controlled xe2 x80 x8bx xe2 x80 x8b satisfy order qualify enrollment xe2 x97 x8f 40 000 coins xe2 x97 x8f default xe2 x80 x8bfreezing period xe2 x80 x8b blocks validators signature scheme validators signal commitment block signing hash block signatures combined efficiently best case scenario validators sign signature combined signature validators taking o 1 space scheme based schnorr signatures described define following notations xe2 x97 x8f h hash function xe2 x97 x8f given pair k k xe2 x97 x8f k value group g prime order p xe2 x97 x8f k exponentiation base point b elliptic curve k xe2 x97 x8f pair k k private public key pair respectively 26 x0c xe2 x97 x8f pair r r unique random value exponentiation iv layer 1 protocol cycle consensus rounds consider",
+    "metadata": {
+      "chunk_id": "7e63a6281c88b7671dbb7df45d8ee42f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 51] point b elliptic curve k xe2 x97 x8f pair k k private public key pair respectively 26 x0c xe2 x97 x8f pair r r unique random value exponentiation iv layer 1 protocol cycle consensus rounds consider consensus protocol succession simultaneous xe2 x80 x8bcycles xe2 x80 x8b undertaken participant individually participants called xe2 x80 x8bvalidator xe2 x80 x8b observers consensus protocol called xe2 x80 x8bnode xe2 x80 x8b validator node node validator cycle length xe2 x80 x8bn xe2 x80 x8b known beginning cycle length expressed terms consensus round output consensus round block primarily defined set transactions selected round expected range minutes defined experimentation testnet round value n decreases cycle value reaches 0 cycles dependent freezing capability utxo malicious actor strong incentive revert blocks right exited validator capacity able immediately trade stake validation result stake validation frozen xe2 x80 x8b freezing period xe2 x80 x8b fixed 14 days order node validator",
+    "metadata": {
+      "chunk_id": "c76387c0f752249af9c8ca43de1f0b95",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 52] revert blocks right exited validator capacity able immediately trade stake validation result stake validation frozen xe2 x80 x8b freezing period xe2 x80 x8b fixed 14 days order node validator begin cycle complete enrollment process xe2 x80 x8b selecting number round n suitable entity bounds defined iii 3 propagating message existing validators transaction registered node immediately validator collecting propagating transactions node originally enroll assigned quorum set expected xe2 x80 x8bpassive xe2 x80 x8b sign blocks reach 50% threshold quorum balancing event happens quorum balancing events xe2 x80 x8b happens 1 hour quorum balancing event happens network organized pseudo random predictable manner ensure fairness reward process prevent collusion validators end round nodes initiate nomination process defined scp scp16 leader selects set transaction elects according roles defined scp paper future aim replace nomination protocol protocol based source randomness result scp round block",
+    "metadata": {
+      "chunk_id": "a1af29404eda9e82544508dab96328a0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 53] process defined scp scp16 leader selects set transaction elects according roles defined scp paper future aim replace nomination protocol protocol based source randomness result scp round block signed majority registered participants pre image availability enrolled validators sure preimage available nodes timely manner aspect validation quorum balancing dependent 27 x0cpreimages node able provide preimage needed usually end consensus round validators pre image available broadcasting message comprising pre image certain round round number xe2 x80 x8bp nx xe2 x80 x8b xe2 x80 x8bp xe2 x80 x8b pre image xe2 x80 x8bnx xe2 x80 x8b xe2 x80 x8bn rounds enrollment xe2 x80 x8b network miss preimage node said xe2 x80 x8bdefaulted xe2 x80 x8b node able enroll consensus unfreeze stake set period time nomination protocol nomination act selecting set transactions candidates inclusion block multiple participants network different set transactions task relegated single node bitcoin node miner consensus",
+    "metadata": {
+      "chunk_id": "184720e50d8134e65cdc609c5e6402b1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 54] protocol nomination act selecting set transactions candidates inclusion block multiple participants network different set transactions task relegated single node bitcoin node miner consensus protocol leader election decides set transactions currently bosagora relies scp xe2 x80 x99s nomination protocol based quorum leader election presence unbiased source randomness enable build filter building set transactions predictable importantly verifiable change desirable left future improvement protocol quorum balancing event quorum assignment reduce overhead communication nodes provided quorum assignment essentially splitting network smaller overlapping network main challenge provide configuration minimize communication compromising safety quorum balancing event currently designed team require experimentation suggest changes later revision reward allocation reward allocation follows structure outlined previously whitepaper total 27 coins initially issued 5 seconds distributed evenly",
+    "metadata": {
+      "chunk_id": "10a565e39a2c78b1c44cb498d5288685",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 55] experimentation suggest changes later revision reward allocation reward allocation follows structure outlined previously whitepaper total 27 coins initially issued 5 seconds distributed evenly validators new block generated decreasing rate applied fixed period 28 x0cconclusion bosagora team aims overcome technical operational issues inherent cryptocurrencies incentive scheme issuance plan aimed creating value coin deterring centralization power modified federated byzantine agreement algorithm allow low latency transactions energy efficient congressional system aimed creating democratic productive decision making process trust contracts provide decidable approachable framework creating executing contracts blockchain bosagora team aim achieve goals leveraging security integrity gained blockchain technology 29 x0cappendix 1 federated byzantine agreement 2015 professor david mazieres head stanford xe2 x80 x99s secure computer systems group introduced alternative pbft called stellar",
+    "metadata": {
+      "chunk_id": "c9b292be98282b286c0bc5e2431a64ad",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 56] blockchain technology 29 x0cappendix 1 federated byzantine agreement 2015 professor david mazieres head stanford xe2 x80 x99s secure computer systems group introduced alternative pbft called stellar consensus protocol federated byzantine agreement hereinafter fba decentralized alternative existing consensus protocols pow pbft consensus protocol likely require extensions order fully decentralized open fba proven track record technical excellence unlikely change fba short federated byzantine agreement powers stellar 13th biggest cryptocurrency market capitalization 900 million dollars federated byzantine agreement described following network consisting quorums quorum set nodes sufficient reach agreement fba introduces concept quorum slice subset quorum convince particular node agreement consensus process achieved quorums collective agreement quorums final decision entire network despite byzantine failure pros fba main features fba suitable bosagora consensus protocol confirmation",
+    "metadata": {
+      "chunk_id": "da28e256d389bcf7bcbffa5e595e07eb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 57] consensus process achieved quorums collective agreement quorums final decision entire network despite byzantine failure pros fba main features fba suitable bosagora consensus protocol confirmation transaction consensus protocol gets finalized seconds unlike pow mining process means computing power involved reach agreement agreement happens data passing voting process need validate single node xe2 x80 x99s data validate result voting quorums utility coin confirmation speed low latency critical utilized real life environment second membership mechanism network open public fba validator list chosen organization validator decides validators trust list trusted validators called quorum slice quorum slices validator overlap form quorum network wide consensus transaction character fba network spin validator participate consensus participating validator adds quorum slice like bitcoin expect validators joining leaving network impact consensus currently stellar network biggest network utilizing",
+    "metadata": {
+      "chunk_id": "864a825260c7c9ca106f8ffcfe17d89b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 58] validator participate consensus participating validator adds quorum slice like bitcoin expect validators joining leaving network impact consensus currently stellar network biggest network utilizing fba argument stellar network decentralized bitcoin xe2 x80 x99s important note xe2 x80 x99s construction inherently allows growing decentralization unlike pbft 30 x0cmore nodes added network new quorum slices form lead entire network decentralized network wanted openness fba pursuing open network public shortcomings example validator node quorum set validating node account participate consensus process new node attempting join network declares validator composes quorum set existing validators accept new node quorum set decision new node received validators lead new nodes participate decision process scp stellar consensus protocol states anybody operate node join stellar network characterizes network open half correct joining network open join network participate consensus process validator",
+    "metadata": {
+      "chunk_id": "e70f4cb4883c566f08839797e1877fd6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 59] scp stellar consensus protocol states anybody operate node join stellar network characterizes network open half correct joining network open join network participate consensus process validator limited currently scp network join validator existing validators approve accept new node words wants join network needs permission 31 x0cappendix 2 trust contracts original white paper explains trust contract following xe2 x80 x9ctrust contracts securely executable contracts based protocol layer called owlchain consists web ontology language timed automata language trust contracts aim overcome issues non decidable smart contracts contained comprehensible programming framework provides secure decidable transactions contracts xe2 x80 x9d ultimate goal architecture able build decidable contract ensures safe accurate execution maximizing scalability achieve goal original white paper mentions methodologies flexible programming language virtual machine use slightly flexible decidable domain specific",
+    "metadata": {
+      "chunk_id": "84ac6d43179f8c0deb753f771f62b2bd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 60] safe accurate execution maximizing scalability achieve goal original white paper mentions methodologies flexible programming language virtual machine use slightly flexible decidable domain specific language original plan going second option initial development team blockchainos researched inference engine based semantic web technology result research discovery method technology overcome issue xe2 x80 x9can ontology explicit specification conceptualization term borrowed philosophy ontology systematic account existence knowledge based systems xe2 x80 x9cexists xe2 x80 x9d exactly contents represented knowledge domain represented declarative formalism set objects represented called universe discourse set objects describable relationships reflected representational vocabulary knowledge based program represents knowledge describe ontology program defining set representational terms xe2 x80 x9d9 xe2 x80 x9can ontology formal explicit specification shared conceptualization domain interest",
+    "metadata": {
+      "chunk_id": "1a2808ea113965f7ed49b0ffb1dc1b68",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 62] technology inference engines easy different situations s difficult automate time automata language based verification analyzing semantic source codes implemented owl complexity source code increases number states increases exponentially making impossible verify owl write contract require complex detailed specification produce realistic contract process creating predictable realistic contract difficult verify challenging users bosagora team aims implement trust contracts enable safe accurate programmable executable contract original intention continuing feasible redefine trust contracts actively pursue selecting optimal direction applying suitable technology improve core protocol approach considers adopting methodology uses flexible programming language virtual machines currently exploring webassembly industry players end intend provide efficient safely designed smart contract engine provide easy develop language tools popularity easy adoption developers webassembly new type code run",
+    "metadata": {
+      "chunk_id": "80558aade36fb450f211588ad10d23a2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 63] webassembly industry players end intend provide efficient safely designed smart contract engine provide easy develop language tools popularity easy adoption developers webassembly new type code run modern web browser provides new capabilities offers significant performance benefits xe2 x80 x9cwebassembly binary instruction format stack based virtual machine webassembly designed portable target compilation high level languages like c c rust enabling deployment web client server applications xe2 x80 x9d10 running programs written multiple languages web near native speeds client applications previously impossible running codes webassembly similar actual hardware webassembly developers code variety programming languages c rust expect run program near native performance eos uses webassembly blockchain platforms ethereum tron cardano introduced plan introduce virtual machines webassembly feasibility implementation plan studied solution discovered technical practical measures taken complete",
+    "metadata": {
+      "chunk_id": "b8b9e2502cb8bee4ccb12c4a0967849d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 64] platforms ethereum tron cardano introduced plan introduce virtual machines webassembly feasibility implementation plan studied solution discovered technical practical measures taken complete objectives directions trust contracts presented white paper 10 webassembly https webassembly org 33 x0cappendix 3 token issuance schedule chart confirmation reward initial circulating supply commons budget total supply 0 450 000 000 0 450 000 000 year 1 170 294 400 620 294 400 315 360 000 935 654 400 year 2 159 548 823 779 843 223 315 360 000 1 410 563 223 year 3 149 481 293 929 324 516 315 360 000 1 875 404 516 year 4 140 049 023 1 069 373 539 315 360 000 2 330 813 539 year 5 131 211 930 1 200 585 469 315 360 000 2 777 385 469 year 6 122 932 457 1 323 517 926 223 200 000 3 123 517 926 year 7 115 175 419 1 438 693 345 3 238 693 345 year 8 107 907 850 1 546 601 195 3 346 601 195 year 9 101 098 865 1 647 700 060 3 447 700 060 year 10 94 719 526 1 742 419 586 3 542 419 586 year 11 88 742 724 1 831",
+    "metadata": {
+      "chunk_id": "42e985820fe3894d910794e4fe10b3c3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 72] bosagora platform white paper https bosagora io pdf bosagorawhitepaper pdf webassembly https webassembly org translation approach portable ontology specifications https pdfs semanticscholar org 5120 f65919f77859a974fcc1ad08f72b2918b8ec pdf dao https slock dao html david mazieres stellar consensus protocol https www stellar org papers stellar consensus protocol pdf andrychowicz dziembowski malinowski mazurek modeling bitcoin contracts timed automata lecture notes computer science formal modeling analysis timed systems 7 22 2014 https arxiv org pdf 1405 1861v2 pdf david mazieres stellar consensus protocol https www stellar org papers stellar consensus protocol pdf decentralized prediction market https www augur net evan duffield daniel diaz dash privacycentric cryptocurrency https www dash org wp content uploads 2015 04 dash whitepaperv1 pdf golem https golem network hodges andrew alan turing enigma london burnett books ian grigg ricardian contract ieee international workshop electronic",
+    "metadata": {
+      "chunk_id": "42ef6368a45fcc751f85ca19dad4594b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 73] wp content uploads 2015 04 dash whitepaperv1 pdf golem https golem network hodges andrew alan turing enigma london burnett books ian grigg ricardian contract ieee international workshop electronic contracting wec 6th july 2004 http iang org papers ricardian contract html leading pack blockchain banking trailblazers set pace https www 01 ibm com common ssi cgi bin ssialias htmlfid gbp03467usen n atzei m bartoletti t cimoli survey attacks ethereum smart contracts https eprint iacr org 2016 1007 pdf satoshi nakamoto bitcoin peer peer electronic cash system https bitcoin org bitcoin pdf simple declarative language https sdlang org 38 x0cthe dao https slock dao html decentralized governance proposals voting budgets https dashpay atlassian net wiki display doc decentralized governance%3a prop osals% 2c voting%2c budgets owl web ontology language https www w3 org tr owl features owl web ontology language reference https www w3 org tr owl ref vitalik buterin ethereum whitepaper https github",
+    "metadata": {
+      "chunk_id": "536a5c0954c20d0929ef017474b83794",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 74] osals% 2c voting%2c budgets owl web ontology language https www w3 org tr owl features owl web ontology language reference https www w3 org tr owl ref vitalik buterin ethereum whitepaper https github com ethereum wiki wiki white paper de filippi p loveluck b 2016 invisible politics bitcoin governance crisis decentralised infrastructure internet policy review 5 3 retrieved march 18 2018 https policyreview info articles analysis invisible politics bitcoin governance crisis decentrali sed infrastructure ehrsam f 2017 blockchain governance programming future retrieved march 18 2018 https medium com fehrsam blockchain governance programming future c3bfe30f2d 74 albert o hirschman 1970 exit voice loyalty responses decline firms organizations states cambridge ma harvard university press retrieved march 18 2018 duncan l 2017 thoughts governance network effects medium retrieved march 18 2018 https blog aragon thoughts governance network effects f40fda3e3f98 surowiecki j 2005 wisdom crowds",
+    "metadata": {
+      "chunk_id": "cdd2a01d759b164bb499f64297c7becb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 76] system 39 x0cijca vol 50 152 retrieved march 18 2018 http www gjimt ac wp content uploads 2017 11 vijay kumar sinha enhancing iris securi ty detection fake iris paper pdf zyskind nathan pentland 2016 decentralizing privacy blockchain protect personal data retrieved march 18 2018 https enigma co znp15 pdf fujioka okamoto t ohta k 1993 practical secret voting scheme large scale elections seberry j zheng y eds advances cryptology xe2 x80 x94 auscrypt 92 auscrypt 1992 lecture notes computer science vol 718 springer berlin heidelberg retri eved march 18 2018 https link springer com chapter 10 1007 3 540 57220 1 66 xc3 x87etinkaya o doganaksoy 2007 practical verifiable e voting protocol large scale elections network availability reliability security 2007 ares 2007 second international conference pp 432 442 10 xe2 x80 x9313 april 2007 retrieved march 18 2018 http ieeexplore ieee org document 4159833 dash decentralized governance proposals voting budgets https dashpay atlassian net wiki",
+    "metadata": {
+      "chunk_id": "dc6f96798896ba0d774bb603cecac5ec",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 77] pp 432 442 10 xe2 x80 x9313 april 2007 retrieved march 18 2018 http ieeexplore ieee org document 4159833 dash decentralized governance proposals voting budgets https dashpay atlassian net wiki display doc decentralized governance%3a prop osals%2c voting%2c budgets understanding dash governance https docs dash org en stable governance understanding html dmytro kaidalov andrii nastenko oleksiy shevtsov mariia rodinko lyudmila kovalchuk roman oliynykov 2016 review dash governance system https api zotero org groups 478201 items bjuuee9q file view key qcjdk4ersuuz8jvaah5 9asef bingsheng zhang roman oliynykov hamed balogun 2017 treasury system cryptocurrencies enabling better collaborative intelligence https www lancaster ac uk staff zhangb2 treasury pdf utm content buffer7118a utm medi um social utm source twitter com utm campaign buffer nak09 satoshi nakamoto 2009 bitcoin peer peer electronic cash system cryptography mailing list https metzdowd com kjl18 ben kaiser mireya jurado alex",
+    "metadata": {
+      "chunk_id": "3b6a46dcce7788b31a526175e58f15fe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  },
+  {
+    "text": "[Section 78] social utm source twitter com utm campaign buffer nak09 satoshi nakamoto 2009 bitcoin peer peer electronic cash system cryptography mailing list https metzdowd com kjl18 ben kaiser mireya jurado alex ledger 2018 looming threat china analysis chinese influence bitcoin arxiv 1810 02466v1 cs cr kn12 sunny king scott nadal 2012 ppcoin peer peer crypto currency proof stake https peercoin net whitepapers peercoin paper pdf 40 x0c poe15 andrew poelstra 2015 stake consensus https download wpsoftware net bitcoin pos pdf nxt19 nxt contributors version 2018 07 02 15 03 https nxtwiki org wiki whitepaper nxt nxt e2 80 99s proof stake model vb14 vitalik buterin 2014 11 25 proof stake learned love weak subjectivity https blog ethereum org 2014 11 25 proof stake learned love weak subjectivity dls88 cythia dwork nancy lynch larry stockmeyer 1988 consensus presence partial synchrony https groups csail mit edu tds papers lynch jacm88 pdf scp16 david maziere 2016 stellar consensus protocol federated",
+    "metadata": {
+      "chunk_id": "8e403433eecee8998ed39028f0d10f32",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "BOSAGORA.txt"
+    }
+  }
+]

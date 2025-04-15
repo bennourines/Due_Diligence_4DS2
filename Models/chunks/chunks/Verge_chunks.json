@@ -1,0 +1,882 @@
+[
+  {
+    "text": "[Section 1] b x0cintroduction inception 2009 bitcoin 1 concept blockchain developed response inherent flaw way transactions processed internet whitepaper 2 nakamoto explains commerce internet come rely exclusively financial institutions serving trusted parties process electronic payments system works transactions suffers inherent weaknesses trust based model nakamoto 2007 bitcoin rapidly adopted today xe2 x80 x99s modern marketplaces primary issue bitcoin xe2 x80 x99s rapid adoption increase demand original blockchain handle varying degrees large transactions increased demand comes increased transactional waiting periods resulted higher transactional fees attempts try speed transaction confirmation times official verge blackpaper 5 0 2 x0ctable contents introduction 1 0 overview 1 1 multi algo pow 1 2 tailored transactional applications 1 3 simple transactions 1 4 stealth transactions 1 5 anon transactions 2 0 verge network 2 1 tor integration 2 2 i2p integration 2 3 electrum 2 4 tor android 3 0",
+    "metadata": {
+      "chunk_id": "07252690f3d808b517ecc302f1fd27a1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 2] 2 tailored transactional applications 1 3 simple transactions 1 4 stealth transactions 1 5 anon transactions 2 0 verge network 2 1 tor integration 2 2 i2p integration 2 3 electrum 2 4 tor android 3 0 encrypted messaging 3 1 message propagation 4 0 dual key stealth addressing 4 1 dual key stealth address protocol 4 2 key agreements 4 3 diffie hellman algorithm 4 4 elliptic curve diffie hellman ecdh 4 5 key aways 5 0 atomic swaps 5 1 hash time locked contract htlc 5 2 hash time locked contracts work 5 3 benefits htlc xe2 x80 x99s 5 4 benefits atomic swaps 5 5 limitations chain atomic swaps 5 6 lightning network 6 0 rootstock rsk 7 0 ring confidential transactions 7 1 ring signatures 7 2 pendersen commitment 7 3 range proofs conclusion references personal note official verge blackpaper 5 0 2 4 4 4 4 5 5 6 6 7 7 9 10 11 12 13 14 14 15 17 18 18 18 19 19 19 19 21 24 25 25 26 26 28 30 3 x0c1 0 overview core innovation bitcoin decentralized structure unlike traditional fiat currencies bitcoin",
+    "metadata": {
+      "chunk_id": "087adf862e8d25b06a08fa881d99547a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 4 4 4 4 5 5 6 6 7 7 9 10 11 12 13 14 14 15 17 18 18 18 19 19 19 19 21 24 25 25 26 26 28 30 3 x0c1 0 overview core innovation bitcoin decentralized structure unlike traditional fiat currencies bitcoin central control central repository information central management central point failure point verge created bring tailored transactional applications inherent privacy implementations strengthen user obfuscation maintaining nakamoto xe2 x80 x99s vision decentralized electronic payment system based cryptographic proof instead party trust 1 1 multi algo pow verge multi algorithm enabled proof work based cryptocurrency designed enable people different types mining devices equal access earning coins cryptocurrencies support 5 hash functions combined blockchain results increased security wider range people devices verge 5 algorithms supported verge network scrypt x17 lyra2rev2 myr groestl blake2s 5 algorithms 30 second block target time difficulty influenced algorithms hash rate 1 2 tailored",
+    "metadata": {
+      "chunk_id": "ce053558d3f0a20b1e107d4b50ca40fa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 4] people devices verge 5 algorithms supported verge network scrypt x17 lyra2rev2 myr groestl blake2s 5 algorithms 30 second block target time difficulty influenced algorithms hash rate 1 2 tailored transactional applications verge xvg originally created based idea providing end user identity obfuscation suited everyday use believe human deserves right privacy idea mind pride able provide different available methods transacting verge network method provides users base level obfuscation tor network different obfuscation options tailored xe2 x80 x99s specific needs 1 3 simple transactions like bitcoin verge network operates publicly facing blockchain important understand transactions stored publicly permanently blockchain means balance transactions verge address verge addresses linked person entity users remain pseudo anonymous long different addresses transaction information revealed purchase transactional circumstance ref styles transactions best suited general everyday use official",
+    "metadata": {
+      "chunk_id": "6282e47a5298a87732bd2ad7bab88f0c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 5] entity users remain pseudo anonymous long different addresses transaction information revealed purchase transactional circumstance ref styles transactions best suited general everyday use official verge blackpaper 5 0 4 x0c1 4 stealth transactions stealth transactions primarily compromised dual key stealth addresses read later paper stealth addresses method additional obfuscation implemented protect receiving party transacting verge requiring payers generate random time addresses given transaction multiple users send funds stealth address transactions appearing blockchain multiple payments address instead appear multiple payments going different addresses theory makes near impossible link transactions recipient xe2 x80 x99s published address time generated addresses important note type transaction designed recipient payment maintain privacy stealth addresses provide 100% anonymity protect sender 1 5 anon transactions anon transactions use combination dual key stealth addresses ringct",
+    "metadata": {
+      "chunk_id": "facaf1676aa54dcd79a18921b043275d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 6] designed recipient payment maintain privacy stealth addresses provide 100% anonymity protect sender 1 5 anon transactions anon transactions use combination dual key stealth addresses ringct ring signatures confidential transactions preserve anonymity sending receiving parties concepts explained later paper short version ring signatures harder trace transactions obscuring output true sender set outputs blockchain confidential transactions hide actual amounts sent tor hides parties true ip addresses e ip obfuscation style transaction best suited fully looking maintain personal privacy official verge blackpaper 5 0 5 x0c2 0 verge network following segments discuss key integrations supported verge network 2 1 tor integration tor 16 derived acronym original software project xe2 x80 x9cthe onion router xe2 x80 x9d ip obfuscation service enables anonymous communication layered circuit based network tor directs internet traffic free worldwide volunteer overlay network consisting seven",
+    "metadata": {
+      "chunk_id": "4355598e7838208f67bd9be8762db4ba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 7] onion router xe2 x80 x9d ip obfuscation service enables anonymous communication layered circuit based network tor directs internet traffic free worldwide volunteer overlay network consisting seven thousand relays conceal user xe2 x80 x99s location usage conducting network surveillance traffic analysis layers encrypted address information anonymize data packets sent tor reminiscent onion way data packet s path tor network fully traced tor s use intended protect personal privacy users freedom ability conduct confidential communication keeping internet activities monitored onion routing implemented encryption application layer communication protocol stack nested like layers onion tor encrypts data including node destination ip multiple times sends virtual circuit comprising successive randomly selected tor relays relay decrypts data packet wrapper know relay data came relay send relay rewraps package new wrapper sends final relay decrypts innermost layer encryption sends original data",
+    "metadata": {
+      "chunk_id": "e748fc3dbc72a85fae7520bc64d3d96e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 8] selected tor relays relay decrypts data packet wrapper know relay data came relay send relay rewraps package new wrapper sends final relay decrypts innermost layer encryption sends original data destination revealing knowing source ip address short user connects tor network internet traffic routed number global servers removes information previous server exit node server ends clueless network originated official verge blackpaper 5 0 6 x0c2 2 i2p integration i2p 10 11 originally built provide hidden services allow people host servers unknown locations i2p provides benefits tor allow anonymous access online content use p2p style routing structure operate layered encryption i2p designed xe2 x80 x9cnetwork internet xe2 x80 x9d figure 1 1 traffic staying contained borders i2p performs packet based routing opposed tor xe2 x80 x99s circuit based routing provides benefit permitting i2p dynamically route congestion service interruptions manner like internet xe2 x80 x99s ip routing provides",
+    "metadata": {
+      "chunk_id": "13e62243f38c6547d1f119737706bf9d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 9] based routing opposed tor xe2 x80 x99s circuit based routing provides benefit permitting i2p dynamically route congestion service interruptions manner like internet xe2 x80 x99s ip routing provides higher level reliability redundancy network time client wants contact client query fully distributed network database custom structured distributed hash table dht based kademlia algorithm find client s inbound tunnels efficiently subsequent data usually includes information network database lookups required 2 3 electrum official verge blackpaper 5 0 7 x0celectrum s 21 strength speed simplicity low resource usage uses secure remote servers handle complicated parts verge network allows users recover wallets secret seed phrase additionally electrum offers simple easy use cold storage solution allows users store coins offline manner electrum wallets provide native tor i2p support integrating electrum tor i2p achieve anonymity desktop mobile wallet ip address transaction information secured leak",
+    "metadata": {
+      "chunk_id": "d548817e3ef64e55c61370f8781ea51d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 10] users store coins offline manner electrum wallets provide native tor i2p support integrating electrum tor i2p achieve anonymity desktop mobile wallet ip address transaction information secured leak connecting servers increasing user privacy electrum enables multi signature support requires key authorize electrum transaction standard transactions verge network called single signature transactions transfers require signature owner private key associated verge address electrum transaction multi signature support requires signatures multiple people coins transferred verge requires multiple different party addresses provided electrum wallet primary computer smart phone coins spent signature devices attacker gain access devices steal coins official verge blackpaper 5 0 8 x0c2 4 tor android verge tor 16 10 wallet designed bring ip obfuscation services personal mobile devices transacting verge wallet default ability connect broadcast user information clearnet helps ensure user data",
+    "metadata": {
+      "chunk_id": "18b6e7f957787ec4106564048fedac95",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 11] verge tor 16 10 wallet designed bring ip obfuscation services personal mobile devices transacting verge wallet default ability connect broadcast user information clearnet helps ensure user data unintentionally leaked transactions completed tor simple payment verification spv spv technique described satoshi nakamoto xe2 x80 x99s paper allows wallet verify transactions proof inclusion method verifying transaction included block downloading entire block similar electrum wallet functions spv allows nearly instant payment confirmations acts thin client needs download block headers drastically smaller blocks verge tor wallet houses standard security features 4 digit pin code biometric locking options added layer physical security additionally verge tor wallet handle p2p qr code scan transactions instant verification clients import qr codes paper wallets pull balances cold storage required official verge blackpaper 5 0 9 x0c3 0 encrypted messaging encrypted messaging p2p peer peer instant",
+    "metadata": {
+      "chunk_id": "e80c14ce1070dfd26e0e7d8ba62a7782",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 12] instant verification clients import qr codes paper wallets pull balances cold storage required official verge blackpaper 5 0 9 x0c3 0 encrypted messaging encrypted messaging p2p peer peer instant messaging system utilizing state art encryption technology communications private messages encrypted proven aes 256 cbc algorithm distributed nodes way prevent recipients messages inferred assailants utilizing sophisticated traffic analysis encrypted messaging utilizes elliptic curve digital signature algorithm variant digital signature algorithm elliptic curve cryptography ecdsa confidence knowing messages receive come original recipient remain untouched propagation stealth address transactions elliptic curve diffie hellman key exchange method allows secret key encryption shared sender recipient data embedded message private keys verge dual key stealth addresses held sender recipient allowing distribution messages knows recipient order send encrypted message like sending verge possess public",
+    "metadata": {
+      "chunk_id": "0d89be4ef396138eb11604deae2a97b5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 13] data embedded message private keys verge dual key stealth addresses held sender recipient allowing distribution messages knows recipient order send encrypted message like sending verge possess public key intended recipient verge uses curve secp256k1 27 elliptic curve functions curve bitcoin altcoins widespread use underpinning systems immense value extremely unlikely curve secp256k1 secure messages signed keys sent allows confident origin messages receive allows public key sender extracted message providing information needed send reply additionally implementation encrypted messaging takes advantage lz4 xxhash algorithms lz4 lossless data compression algorithm focused compression decompression speed simultaneously utilizing little compute resource lz4 primary compression algorithm modern day applications zfs linux freebsd illumos found xxhash extremely fast noncryptographic hashing algorithm working speeds close ram limitations combining xxhash lz4 compression enables verge network",
+    "metadata": {
+      "chunk_id": "54694ad9c1954ef73eb642a75be54871",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 14] day applications zfs linux freebsd illumos found xxhash extremely fast noncryptographic hashing algorithm working speeds close ram limitations combining xxhash lz4 compression enables verge network quickly send receive messages blockchain limited impact compute network resources official verge blackpaper 5 0 10 x0c3 1 message propagation encrypted messages duplicated participating node verge network xe2 x80 x93 prevents adversaries form uncovering recipient encrypted message network traffic analysis messages stored node maximum period 48 hours message deleted recipient absent network 48 hours possibility exists receive messages sent recommended connect network day order prevent occurrence stored messages grouped time divisions 1 hour system operates grouped buckets messages save bandwidth official verge blackpaper 5 0 11 x0c4 0 dual key stealth addressing stealth addressing allows senders create unlimited number onetime destinations addresses behalf recipient interaction parties",
+    "metadata": {
+      "chunk_id": "d29f1acf1d28882cc0a50e9a9604ea2b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 15] official verge blackpaper 5 0 11 x0c4 0 dual key stealth addressing stealth addressing allows senders create unlimited number onetime destinations addresses behalf recipient interaction parties stealth addresses method additional obfuscation implemented protect receiving party transacting verge multiple users send funds stealth address transactions appearing blockchain multiple payments address instead appear multiple payments going different addresses theory makes near impossible link transactions recipient xe2 x80 x99s published address time generated addresses achieved system cryptography known elliptic curve specifically case xe2 x80 x93 elliptic curve diffie hellman ecdh short ecdh works allowing individuals know xe2 x80 x99s public keys able calculate shared secret duplicate link party xe2 x80 x99s public keys unique cryptographic properties ecdh algorithm shared key reverse engineered arrive sender receiver addresses understand stealth address functions let xe2 x80 x99s look",
+    "metadata": {
+      "chunk_id": "00198457b3604401b2d3444cc967ff57",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 16] party xe2 x80 x99s public keys unique cryptographic properties ecdh algorithm shared key reverse engineered arrive sender receiver addresses understand stealth address functions let xe2 x80 x99s look key fundamental components involved process official verge blackpaper 5 0 12 x0c4 1 dual key stealth address protocol protocol designed eliminate continuous usage private spending key design flaws original stealth addressing protocol significantly increased risk said key compromised order eliminate private spending key use dual key stealth address protocol dksap introduced protocol introduces pairs cryptographic keys scan spend key computes time payment address transaction order better understand works let xe2 x80 x99s review style transaction takes place xe2 x80 xa2 marvin receiver private public key pairs s s b b s s xc2 xb7g b b xc2 xb7g xe2 x80 x98scan public key xe2 x80 x99 xe2 x80 x98spend public key xe2 x80 x99 respectively g base point elliptic curve group xe2 x80 xa2 swen sender",
+    "metadata": {
+      "chunk_id": "9f0856a48ed8aef690e2ff2fce374e01",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 17] key pairs s s b b s s xc2 xb7g b b xc2 xb7g xe2 x80 x98scan public key xe2 x80 x99 xe2 x80 x98spend public key xe2 x80 x99 respectively g base point elliptic curve group xe2 x80 xa2 swen sender generates ephemeral key pair r r r r xc2 xb7g transmits transaction xe2 x80 xa2 swen marvin compute shared secret c ecdh c h r xc2 xb7s xc2 xb7g h r xc2 xb7s h s xc2 xb7r h xc2 xb7 cryptographic hash function xe2 x80 xa2 swen uses c xc2 xb7g b ephemeral destination address sending payment xe2 x80 xa2 marvin actively monitors blockchain checks transaction sent purported destination address c xc2 xb7g b depending wallet encrypted receiver compute destination address different ways e c xc2 xb7g b c b xc2 xb7g match payment spent corresponding private key c b note ephemeral private key c b computed marvin dksap auditor proxy server exists system receiver share xe2 x80 x98scan private key xe2 x80 x99 s xe2 x80 x98spend public key xe2 x80 x99 b auditor proxy server entities scan blockchain",
+    "metadata": {
+      "chunk_id": "a880d2d433aa4edf8471d0aa6729c9dd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 18] marvin dksap auditor proxy server exists system receiver share xe2 x80 x98scan private key xe2 x80 x99 s xe2 x80 x98spend public key xe2 x80 x99 b auditor proxy server entities scan blockchain transaction behalf receiver able compute ephemeral private key c b spend payment official verge blackpaper 5 0 13 x0c4 2 key agreements key agreement scheme procedure parties agree value subsequently derive keys use symmetric encryption party completely determines key value instead contribute final key value important observes exchanges parties tell result important note basic form key agreement schemes anonymous tell party identity party 4 3 diffie hellman algorithm original diffie hellman key agreement scheme based multiplication integers modulo large prime number specifically numbers greater p p large prime ecdh analogous scheme based addition points elliptic curve schemes basic operations combined create primitive function known keyed way function keyed way function function takes inputs",
+    "metadata": {
+      "chunk_id": "ee9016406d8328495b4ec87197d48c15",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 19] p large prime ecdh analogous scheme based addition points elliptic curve schemes basic operations combined create primitive function known keyed way function keyed way function function takes inputs private e g key produces output given inputs straightforward calculate output computationally infeasible calculate key input output way party use private key revealing party eavesdropper manin middle official verge blackpaper 5 0 14 x0c4 4 elliptic curve diffie hellman ecdh ecdh variant diffie hellman algorithm elliptic curves key agreement protocol means ecdh defines keys generated exchanged parties encrypt data keys edch implemented solve following problem parties marvin swen want exchange information securely party man middle intercept decode xe2 x80 x99s works 1 marvin swen generate private public keys private key da public key ha dag marvin keys db hb dbg swen note marvin swen base point gon elliptic curve finite field 2 marvin swen exchange public keys ha hb insecure channel man",
+    "metadata": {
+      "chunk_id": "947ea416473630517423a811620839f1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 20] public keys private key da public key ha dag marvin keys db hb dbg swen note marvin swen base point gon elliptic curve finite field 2 marvin swen exchange public keys ha hb insecure channel man middle intercept ha hb won xe2 x80 x99t able find da db solving discrete logarithm problem 3 marvin calculates s dahb private key swen xe2 x80 x99s public key swen calculates s dbha private key marvin xe2 x80 x99s public key note s marvin swen fact s dahb da dbg db dag dbha man middle knows ha hb domain parameters able find shared secret s transaction begin marvin swen agree transactional parameters b p g figure 3 party generates random integer use private key marvin m swen n multiplies base point g private key form new point represents public key terms elliptic curve remember point comprises x coordinate y coordinate marvin swen exchange public keys multiply xe2 x80 x99s public key private key produces new point party remains convert point bit string suitable use key note eavesdropper able",
+    "metadata": {
+      "chunk_id": "79631c2f80b0ea386456cea99b24b042",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 21] coordinate y coordinate marvin swen exchange public keys multiply xe2 x80 x99s public key private key produces new point party remains convert point bit string suitable use key note eavesdropper able observe agreed parameters exchange public keys able determine private key key parties agreed official verge blackpaper 5 0 15 x0ca verge currency stealth address 95 character string consists public view key public send key marvin sent verge swen marvin use swen xe2 x80 x99s public view key public spend key random data generate unique time public key stealth address swen xe2 x80 x99s new output time public key blockchain marvin swen know marvin sent verge swen output created way swen locate output destined scanning blockchain wallet xe2 x80 x99s private view key detected retrieved swen xe2 x80 x99s wallet able calculate time private key corresponds time public key spend relevant output wallets private spend key process occurs having swen xe2 x80 x99s wallet address publicly linked",
+    "metadata": {
+      "chunk_id": "b08a6379738b205bce22701ca8f4af06",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 22] xe2 x80 x99s wallet able calculate time private key corresponds time public key spend relevant output wallets private spend key process occurs having swen xe2 x80 x99s wallet address publicly linked transaction official verge blackpaper 5 0 16 x0c4 5 key aways 1 publicly unlinkable original public address 2 publicly unlinkable time address 3 recipient link payments 4 recipient derive secret key associated time address stealth addresses enhance user privacy transaction allowing user generate time public key automatically generates records spend output later transaction stealth addresses prevent outputs associated wallet addresses effectively allowing users transact outside publicly viewable blockchain outside observer way tell funds moved user link wallet addresses simply looking transaction blockchain marvin sends verge swen output swen receives associated public wallet address stealth addressing built methods ensuring funds sent allowing sender case marvin able verify payment sent",
+    "metadata": {
+      "chunk_id": "7730d206f97aa4694d7bf56a3810bd72",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 23] blockchain marvin sends verge swen output swen receives associated public wallet address stealth addressing built methods ensuring funds sent allowing sender case marvin able verify payment sent checking transactional confirmation wallet swen rest assured verge sent long appropriate precautions taken transacting multiple parties official verge blackpaper 5 0 17 x0c5 0 atomic swaps atomic swaps 24 25 26 aka atomic cross chain trading cryptographically powered smart contracts allow interoperability verge crypto s peer peer chain basis need trusted party atomic swap works way users send funds allowing users cross trade different cryptocurrencies relying centralized parties core atomic swaps rely check lock time verify cltv known hash time locked contract htlc 5 1 hash time locked contract htlc hash time locked contract type payment people agree financial arrangement party pay party pre determined crypto contracts xe2 x80 x9ctime locked xe2 x80 x9d basically means receiving party certain",
+    "metadata": {
+      "chunk_id": "e3651eaf64064884a8fd488b2fc769ee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 24] hash time locked contract type payment people agree financial arrangement party pay party pre determined crypto contracts xe2 x80 x9ctime locked xe2 x80 x9d basically means receiving party certain time accept payment money returned sender styles payments help eliminate need party contracts contracts established parties parties involved contracts lawyers banks etc lawyers required draw contracts banks required help store money transferred receiving party stated contract htlc xe2 x80 x99s parties setup contracts transfer money need party involvement 5 2 hash time locked contracts work best way describe following example marvin wants pay swen xe2 x80 x98x xe2 x80 x99 htlc marvin sets specific hash represents money paid allotted time window swen able receive funds order swen receive payment create cryptographic proof payment pre defined time limit swen meets deadline procures necessary proof required release funds swen paid swen fails meet deadline money returned marvin official verge",
+    "metadata": {
+      "chunk_id": "b2f3368d25f22a77e5e2a3161367f83e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 25] create cryptographic proof payment pre defined time limit swen meets deadline procures necessary proof required release funds swen paid swen fails meet deadline money returned marvin official verge blackpaper 5 0 18 x0c5 3 benefits htlc xe2 x80 x99s 1 previously mentioned htlc xe2 x80 x99s eliminate need party involvement implementing contract parties turn eliminates need party trust 2 contracts time sensitive prevents person making payment having wait indefinitely find payment goes prevents money wasted cryptographic acknowledgment obtained funds simply returned sender 3 cryptographic proof payment required recipient automatically helps validate payment blockchain 4 hash time locked contracts based hashes easily added blockchains 5 party protected counter party risk structure contracts parties involved sending receiving payments trust know sure contract executed correctly 5 4 benefits atomic swaps primary benefit users ability exchange trade crypto s involved parties trustless manner",
+    "metadata": {
+      "chunk_id": "3046d79e7959e23a7b10f890fbb6f267",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 26] involved sending receiving payments trust know sure contract executed correctly 5 4 benefits atomic swaps primary benefit users ability exchange trade crypto s involved parties trustless manner depending party escrow service reducing default risk zero additionally atomic swaps entire cryptocurrency ecosystem currency agnostic effectively simplifying process switching different crypto depending said crypto s use case instance wanted switch digibyte dgb verge xvg vice versa utilize available features network crypto s network xe2 x80 x93 process instant painless 5 5 limitations chain atomic swaps implementation certain limitations come play atomic swaps limitations follows xe2 x97 x8f currencies exchanged hash algorithm xe2 x97 x8f verge supports multiple algorithms limited currencies regard xe2 x97 x8f currencies support htlc xe2 x97 x8f individuals need certain level programming capability able use atomic swaps xe2 x97 x8f cross chain atomic swaps possible fiat currencies furthermore",
+    "metadata": {
+      "chunk_id": "03efd9a6870cee35fd59352a43c8b189",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 27] xe2 x97 x8f currencies support htlc xe2 x97 x8f individuals need certain level programming capability able use atomic swaps xe2 x97 x8f cross chain atomic swaps possible fiat currencies furthermore implementation allows cross chain transactions paves way future implementations lightning network important note plans implement lightning network ln verge blockchain understanding concept ln helps spread educational insights interested parties segment ln strictly educational content 5 6 lightning network official verge blackpaper 5 0 19 x0cthe lightning network briefly described 1 network user generated channels send payments forth 2 secured smart contract functionality 3 privatized trust fashion trust means don xe2 x80 x99t need trust know counter party transacting trusted fashion normally standard transaction lightning network transactions completely trust means styles transactions operate multi signature based platform participants remain anonymous transactions ensured secure smart",
+    "metadata": {
+      "chunk_id": "65f2f688c35448f80bdcfca5045bcf48",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 28] standard transaction lightning network transactions completely trust means styles transactions operate multi signature based platform participants remain anonymous transactions ensured secure smart contract capabilities official verge blackpaper 5 0 20 x0c6 0 rootstock rsk understand foundation rootstock 12 understand smart contract smart contract software application operates blockchain contains set mailable rules participating parties smart contract agree interact smart contracts facilitate verify enforce pre defined rules execute decentralized autonomous transactions contracts allow complex transactions place simply exchanging digital tokens product service means xe2 x80 x9cbuyer xe2 x80 x9d xe2 x80 x9cseller xe2 x80 x9d held accountable terms outlined smart contract uphold respective ends deal successfully transact predefined transactional ruleset formalized digital form enforced automatically executed computer network computers soon parties come agreement met conditions agreement",
+    "metadata": {
+      "chunk_id": "024f319e269bb4857edf2cad19a3fa76",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 29] deal successfully transact predefined transactional ruleset formalized digital form enforced automatically executed computer network computers soon parties come agreement met conditions agreement effectively removes party trust entirely short smart contracts self verifying self executing tamper resistant turn legal obligations automated processes simultaneously reducing transactional cost greatly increasing transactional security official verge blackpaper 5 0 21 x0cthe mentioned smart contract functionality currently present functional ethereum blockchain network allow interoperability bitcoin bitcoin based networks said let xe2 x80 x99s look rootstock smart contracts benefits verge bitcoin based network rootstock rsk way pegged sidechain enables ethereum style turing complete virtual machine infrastructure e smart contract functionality bitcoin based blockchains sidechain independent blockchain attached main chain way peg way peg allows interchangeability assets case xe2 x80",
+    "metadata": {
+      "chunk_id": "bc86a972a438b124cac2923b865adae9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 30] machine infrastructure e smart contract functionality bitcoin based blockchains sidechain independent blockchain attached main chain way peg way peg allows interchangeability assets case xe2 x80 x9csmartverge xe2 x80 x9d sxvg verge xvg predetermined rate main blockchain sidechain addition rsk sidechain comes implementation merged mining support merged mining allows miner blockchain time effectively utilizing hashing calculations contribute fuel chains rsk sidechain merged mined verge meaning machines mining verge don xe2 x80 x99t use additional power resources participate securing maintaining rsk network miners rewarded transaction fees rsk network verge long participating merged mining merged mining inherits security features verge terms double spend prevention settlement finality official verge blackpaper 5 0 22 x0cfor user obtain sxvg send xvg coins output address coins locked user unable spend transaction completed confirmation obtained sidechain releases equivalent number sxvg",
+    "metadata": {
+      "chunk_id": "66bc39f6509d6a7de2b5f6a382c76944",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 31] verge blackpaper 5 0 22 x0cfor user obtain sxvg send xvg coins output address coins locked user unable spend transaction completed confirmation obtained sidechain releases equivalent number sxvg coins user allowing access spend sidechain important note interchange process new coins minted 1 sxvg equal 1 xvg vise versa added benefit rsk ability scale rsk currently achieves 300 payment transactions second huge progressive leap compared current standing transaction rate 100 second rsk development team stated eventual goal push bar higher future goals support 20 000 transactions second second layer technology called lumino stated lctp whitepaper lumino network chain payment system relies protocol known lumino transaction compression protocol ltcp compared lightning network scaling solution originally designed bitcoin currently tested litecoin rsk functionality going enable developers outside verge core development team build exciting platforms services network examples platforms xe2 x97",
+    "metadata": {
+      "chunk_id": "9d1fa8bcc07fffb5facd8b08713f68bc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 32] designed bitcoin currently tested litecoin rsk functionality going enable developers outside verge core development team build exciting platforms services network examples platforms xe2 x97 x8f dapps decentralized applications xe2 x97 x8f retail payment systems xe2 x97 x8f escrow services xe2 x97 x8f asset securitization xe2 x97 x8f decentralized remittances xe2 x97 x8f micro lending platforms xe2 x97 x8f voting systems additional use cases information found rsk xe2 x80 x99s whitepaper disclaimer xe2 x80 x9csmart contract xe2 x80 x9d commonly defined legislation event driven program computerized transaction protocol runs distributed decentralized shared replicated ledger executes contract provision s contract taking custody instructing transfer assets ledger verge developers core team members verge ability modify regain custody funds placed smart contract official verge blackpaper 5 0 23 x0c7 0 ring confidential transactions important note ring confidential transactions development",
+    "metadata": {
+      "chunk_id": "42dbf64fc267e0c4d109554bd082ffbd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 33] verge ability modify regain custody funds placed smart contract official verge blackpaper 5 0 23 x0c7 0 ring confidential transactions important note ring confidential transactions development information contained segment purpose education document edited later include information required ring confidential transactions begin dissect understand complex nature ring confidential transactions 3 4 5 understand fundamentals transaction differences mechanical component root verge transaction based sequence immutable python objects list format changed known nth tuple case basic nth tuple transaction follows ai bi vi ai input addresses bi output addresses vi amounts output basic transaction verge blockchain comes unencrypted data entire world public ledger good merchant service platform integration ideal people concerned privacy transactions easy trace regardless times coins change owners primary goal confidential transactions ensure participants transaction privy values sent forth",
+    "metadata": {
+      "chunk_id": "76180ec4b20ef714b9684d926045ecf1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 34] integration ideal people concerned privacy transactions easy trace regardless times coins change owners primary goal confidential transactions ensure participants transaction privy values sent forth simultaneously hiding values sight rest world time want non participants able tell transaction bogus core cryptographic concepts need covered better able understand anonymity maintained confidential transaction simultaneously able verify sum outputs doesn xe2 x80 x99t exceed sum account contents input addresses official verge blackpaper 5 0 24 x0c7 1 ring signatures preface segment ring signatures comprised series complex mathematical equations easily described dry hard comprehend topic sake keeping pace paper par interested seeing mathematical equations associated ring signatures deep dive materials listing materials references segment paper references 4 5 14 2831 following going brief point introduction ring signatures benefit verge currency cryptography ring signature group based",
+    "metadata": {
+      "chunk_id": "9ea3f3afc87e9672c4af24f2118461ba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 35] materials listing materials references segment paper references 4 5 14 2831 following going brief point introduction ring signatures benefit verge currency cryptography ring signature group based digital signature like threshold signatures ring signatures performed member group users keys message signed ring signature endorsed group people standard cryptographic signature proves authenticity integrity transaction single signer think way sign check identifying approve expenditure group signatures instead showing transaction approved single signer ring signatures allow fixed group sign transaction worth noting takes person fixed group participants sign transaction scheme expose member group signed exact number participants ring signature group determined ring size ring size effectively determines anonymity set signature larger ring size number participants harder deanonymize transaction example ring signatures ring size marvin wants send transaction swen ring signature size 4 means",
+    "metadata": {
+      "chunk_id": "b9b21360723bea9a6aa7620bad3f3d7d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 36] determines anonymity set signature larger ring size number participants harder deanonymize transaction example ring signatures ring size marvin wants send transaction swen ring signature size 4 means total 4 participants group marvin swen half possible participants transaction fact anonymized small number participants weakens anonymity guarantees network conversely marvin wants send transaction swen instead having ring size 4 ring size 30 indicate 28 group members vastly increasing anonymity guarantee associated initializing ring signature based transaction summarize ring signatures obscure linkage sender recipient obscure sent transactions values obscured way outside observer differentiate members signature group original signer transaction primary security properties ring signature computationally infeasible determine group members xe2 x80 x99 keys produce signature 7 2 pendersen commitment basic tools confidential transactions based called pedersen commitment cryptographic",
+    "metadata": {
+      "chunk_id": "11cde32f33b1e463bc7ec827455e40f2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 37] computationally infeasible determine group members xe2 x80 x99 keys produce signature 7 2 pendersen commitment basic tools confidential transactions based called pedersen commitment cryptographic algorithm allows prover commit certain value revealing able change explained gregory maxwell 5 pedersen commitments commitment scheme allows piece data secret value transaction commit change later official verge blackpaper 5 0 25 x0cfor example marvin output value 30 xvg wants send 15 swen outputs xe2 x80 x99t spent twice marvin needs spend output entirety return xe2 x80 x98change xe2 x80 x99 marvin xe2 x80 x99s transaction input 30 xvg outputs 15 xvg actual transaction designated swen 15 xvg returned marvin xe2 x80 x98change xe2 x80 x99 transaction prove verge fraudulently fabricated transaction sum transaction xe2 x80 x99s inputs equal sum transaction xe2 x80 x99s outputs pedersen commitments enable send verge publicly disclosing sent sending specific data segment network makes possible",
+    "metadata": {
+      "chunk_id": "7848d6240a9433c3066472ebd3e9cc60",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 38] sum transaction xe2 x80 x99s inputs equal sum transaction xe2 x80 x99s outputs pedersen commitments enable send verge publicly disclosing sent sending specific data segment network makes possible miners verify transaction worth noting information segment broadcast network long chain random numbers significant data points lead outsider able determine value verge sent transaction 7 3 range proofs understand range proof 28 29 30 31 lets briefly review concept zero knowledge proof zero knowledge proof zkp method person prove person b know value x revealing stating information fact know value x simplify range proof zero knowledge proof serves form commitment validation allows verify commitment represents specified range revealing value known secret value example marvin sends swen verge ranging 10 000 100 000 simple range proof validate sent revealing actual publicly concept important ramifications validation confidential transactions verify payment positive revealing transferred",
+    "metadata": {
+      "chunk_id": "9018d951b2930bbbf99047612bb5faa5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 39] ranging 10 000 100 000 simple range proof validate sent revealing actual publicly concept important ramifications validation confidential transactions verify payment positive revealing transferred transaction furthermore transaction output based system proves committed inputs greater sum committed outputs revealing committed inputs outputs 28 xe2 x80 x99s important note modern implementations confidential transactions use range proofs committed values proof size linear n 28 additionally note technology specific verge conclusion verge created bring tailored transactional applications inherent privacy implementations strengthen user obfuscation maintaining nakamoto xe2 x80 x99s vision decentralized electronic payment system based cryptographic proof instead party trust official verge blackpaper 5 0 26 x0cwhether simple stealth anon transactions cryptographically secured proven publicly facing blockchain verge completely user controlled decentralized insures point time transactional meta",
+    "metadata": {
+      "chunk_id": "2a730d5e8a241ac53d53fd149732a77f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 40] 5 0 26 x0cwhether simple stealth anon transactions cryptographically secured proven publicly facing blockchain verge completely user controlled decentralized insures point time transactional meta data going shared sold independent 3rd party corporations purchase verge personal privacy kept safe key points satoshi nakamoto s original vision provide solution defied standard convention cryptographically secure digital currency trusted trustless pure p2p version ecurrency allows online payments sent directly party going financial institution unfortunate series events progressive financial institution adoption core values bitcoin slowly dissipating currency centralized controlled primary factors influence centralization bitcoin limited circulating supply bitcoin predefined cap 21mm coins circulation today s circulating supply 17 5mm coins limited supply progressively increasing demand mainstream channels financial institutions like jpmorgan forms large scale investors ultimately contribute",
+    "metadata": {
+      "chunk_id": "da32ca02b1f5018c5e1b1eda3bac7a6c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 41] today s circulating supply 17 5mm coins limited supply progressively increasing demand mainstream channels financial institutions like jpmorgan forms large scale investors ultimately contribute centralization meant decentralized verge solves issue having overall supply cap 16 555b coins large seldom realize value lost want lives determine want desire pursue personal interest compromise people don t realize pursuit external interests opens vulnerabilities public space cr endgame circulating supply widespread distribution verge decentralized overall value verge increases time distribution wealth token holders increasing overall level decentralization nakamoto s original vision official verge blackpaper 5 0 27 x0creferences 1 bitcoin open source p2p money online available https bitcoin org 2 nakamoto s 2009 bitcoin peer peer electronic cash system online available https bitcoin org bitcoin pdf 3 adam bender jonathan katz ruggero morselli 2005 ring signatures stronger definitions",
+    "metadata": {
+      "chunk_id": "40a9c4d5d8da2ec63c0f9ba948c3307d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 42] org 2 nakamoto s 2009 bitcoin peer peer electronic cash system online available https bitcoin org bitcoin pdf 3 adam bender jonathan katz ruggero morselli 2005 ring signatures stronger definitions constructions random oracles online available https eprint iacr org 2005 304 pdf 4 gregory maxwell andrew poelstra 2015 borromean ring signatures online available https github com blockstream borromean paper blob master borromean draft 0 01 9ade1e49 pdf 5 gregory maxwell 2016 confidential transaction initial investigation online available https elementsproject org elements confidential transactions investigation html 6 anonymity block chain xe2 x80 xa2 ihb news xe2 x84 xa2 2014 november 18 online available https ihb io 2014 1117 news anonymity block chain 13570 7 distributed hash table n d online available http infoanarchy org distributed hash table 8 durumeric z wustrow e halderman j 2013 zmap fast internet wide scanning security applications online available https zmap io paper pdf 9",
+    "metadata": {
+      "chunk_id": "1792debb1cee02edcbd6cbfb221ce898",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "investigation"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 43] online available http infoanarchy org distributed hash table 8 durumeric z wustrow e halderman j 2013 zmap fast internet wide scanning security applications online available https zmap io paper pdf 9 gribble s brewer e hellerstein j culler d 2000 october 23 scalable distributed data structures internet service construction online available https www usenix org legacy events osdi2000 papers gribble gribble html index html 10 holden e 2017 july 18 introduction tor vs i2p online available https www ivpn net privacy guides anintroduction tor vs i2p 11 i2p scalable framework anonymous communication i2p n d online available online available https geti2p net en docs tech intro 12 lerner s 2015 rsk white paper overview xe2 x80 x93 online available https docs rsk co rsk white paper overview pdf 13 masayuki abe miyako ohkubo koutarou suzuki 2002 1 n signatures variety keys online available https dl acm org citation cfm id 717163 14 michael rosenberg 2017 confidential transactions basic",
+    "metadata": {
+      "chunk_id": "714fa4b9e6b7233e37ff43d686eb61f6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 44] pdf 13 masayuki abe miyako ohkubo koutarou suzuki 2002 1 n signatures variety keys online available https dl acm org citation cfm id 717163 14 michael rosenberg 2017 confidential transactions basic principles online available https cryptoservices github io cryptography 2017 07 21 sigs html official verge blackpaper 5 0 28 x0c 15 multisignature bitcoin wiki n d online available https en bitcoin wiki multisignature 16 scharr j 2013 october 23 tor tor work use tor online available https www tomsguide com tor faq news 17754 html 17 shoup v 2000 practical threshold signatures online available https www iacr org archive eurocrypt2000 1807 18070209 new pdf 18 sompolinsky y zohar secure high rate transaction processing bitcoin online available https eprint iacr org 2013 881 pdf 19 spv simplified payment verification bitcoin glossary online available https bitcoin org en glossary simplified paymentverification 20 voegtlin t 2015 simple payment verification xe2 x80 x94 electrum 2 5",
+    "metadata": {
+      "chunk_id": "e5d6ea8b8cb6ad0302d75134005d044d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 45] simplified payment verification bitcoin glossary online available https bitcoin org en glossary simplified paymentverification 20 voegtlin t 2015 simple payment verification xe2 x80 x94 electrum 2 5 documentation retrieved http docs electrum org en latest spv html 21 voegtlin t n d welcome electrum documentation xe2 x80 x94 electrum 2 5 documentation retrieved august 8 2017 http docs electrum org en latest 22 bitcoin org things need know bitcoin online available https bitcoin org en need know 23 elementsproject org confidential transactions online available https elementsproject org features confidentialtransactions 24 khatwani s 2018 atomic swap matters know online coinsutra bitcoin community available https coinsutra com atomic swap 25 blockonomi atomic swaps guide revolution decentralization online available https blockonomi com atomic swaps 26 van der hoeff m 2018 atomic swaps simply explained swap cryptocurrencies middleman online hacker noon available https hackernoon com atomic",
+    "metadata": {
+      "chunk_id": "da84aa05899b20d2cdd3e73bd423cf5c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 46] online available https blockonomi com atomic swaps 26 van der hoeff m 2018 atomic swaps simply explained swap cryptocurrencies middleman online hacker noon available https hackernoon com atomic swaps simply explained swap cryptocurrencies middleman6cd29680c32e 27 secp256k1 online available https en bitcoin wiki secp256k1 28 curran b xe2 x80 x9cwhat bullet proofs guide confidential cryptocurrency transactions xe2 x80 x9d blockonomi 28 june 2018 https blockonomi com bullet proofs range proofs official verge blackpaper 5 0 29 x0c 29 chaabouni r lipmaa h shelat additive combinatorics discrete logarithm based range protocols steinfeld r hawkes p eds acisp 2010 lncs vol 6168 pp 336 xe2 x80 x93351 springer heidelberg 2010 online available https doi org 10 1007 978 3 642 14081 5 21 30 bender katz j morselli r ring signatures stronger definitions constructions random oracles cryptology eprint archive report 2005 304 2005 online available http eprint iacr org 2005 304 31 boudot f efficient",
+    "metadata": {
+      "chunk_id": "55f6d87234e177230a5550b30c61169b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Verge.txt"
+    }
+  },
+  {
+    "text": "[Section 47] katz j morselli r ring signatures stronger definitions constructions random oracles cryptology eprint archive report 2005 304 2005 online available http eprint iacr org 2005 304 31 boudot f efficient proofs committed number lies interval preneel b ed eurocrypt 2000 lncs vol 1807 pp 431 xe2 x80 x93444 springer heidelberg 2000 online available https doi org 10 1007 3 540 45539 6 31 personal note dear reader wanted moment thank reading document important note document changing evolving based specifications project mind document serve educational materials hopes help understand little bit verge crypto functions genuinely hope helped learn new appreciate taking time life read great pride working hope xe2 x80 x99ve enjoyed reading revisions come far look forward bringing content future thanks reading c r official verge blackpaper 5 0 30 x0c",
+    "metadata": {
+      "chunk_id": "fab4a7495de4e60c13cf6ae1788c3385",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Verge.txt"
+    }
+  }
+]

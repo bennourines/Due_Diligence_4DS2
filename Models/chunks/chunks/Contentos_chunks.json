@@ -1,0 +1,148 @@
+[
+  {
+    "text": "[Section 1] b contentos technical white paper contentos blockchain system aims form foundation decentralized digital content ecosystem provides mature security mechanism protect users xe2 x80 x99 accounts xef xac x82exible meet operational needs economic rules incentivize users contribute valuable contents participate activities system consensus protocol combination dpos bft achieve high throughput fast con xef xac x81rmation transactions contentos provides gprc restful api services supports http https access smart contract supported enables users develop dapps user friendly contentos provides plenty smart contract apis supports chain data query asset transfer contents management cross contract invocation smart contract template module provided easier develop deploy smart contract 1 consensus 1 1 overview according cap theory distributed system consistency availability partition tolerance new consensus protocol called sabft invented achieve consistency availability maximize system xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "789c15a290fc6e3e45eb6ecccdf6dbb3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Contentos.txt"
+    }
+  },
+  {
+    "text": "[Section 2] according cap theory distributed system consistency availability partition tolerance new consensus protocol called sabft invented achieve consistency availability maximize system xe2 x80 x99s throughput minimize con xef xac x81rmation time transactions generates blocks manner dpos adopts bft achieve fast block con xef xac x81rmation s self adaptive way adjust frequency bft process based load blockchain network tra xef xac x83c x0c1 2 terminology node server running contentos daemon cosd block producer node generate blocks validator node participates bft consensus proposer validator broadcasts proposal proposal block validators try reach consensus reached ll committed commit commit block means mark block irreversible block 1 3 block generation x0csabft generates blocks manner dpos validator takes turn produce 10 blocks row block generated second fork possible longest chain considered current main branch 1 4 fork switch branch grows main branch swichfork taken place xef xac x81nds",
+    "metadata": {
+      "chunk_id": "2b56068c22981261a39d23bbf3f45653",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Contentos.txt"
+    }
+  },
+  {
+    "text": "[Section 3] takes turn produce 10 blocks row block generated second fork possible longest chain considered current main branch 1 4 fork switch branch grows main branch swichfork taken place xef xac x81nds common ancestor branches pop blocks main branch ancestor apply blocks longer branch 1 5 need bft instant transactions required scenarios especially involves asset transfer bitcoin world guarantee xef xac x81nalize certain block theoretically node resource generate longer chain cause fork switch direct violation safety realm distributed system adopt bft achieve fast consensus consensus reached certain block reverted 1 6 performance sabft reaches consensus 1 2 seconds lan bft process adopts 3 phasecommit propose prevote precommit propose phase validators wait synchronously proposer broadcast proposal rest phases completely asynchronous better illustrate sabft s performance experiment conducted following limitations test environment hardware parameter cpu 2 cpu ram 8 gb bandwidth 100 gb s",
+    "metadata": {
+      "chunk_id": "861b7c4e27bfac0ab020e56c76a10d30",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Contentos.txt"
+    }
+  },
+  {
+    "text": "[Section 9] xef xac x80erent properties processed parallel transaction processed 4 stages decoding reading execution writing decoding stage generates evaluating function dependent input output properties reading stage reads input properties database execution stage feeds evaluating function input properties gets values output properties writing stage writes updated output properties database establish 4 stage parallel pipeline database o occurs reading writing stage o blocks decoding execution use cpu resource 3 economic system general representation asset contentos called cos transferred accounts holding cos doesn xe2 x80 x99t users voting power voting power users stake cos transfer cos vests participate monetary circulation process system user vests xef xac x82uence system cos vests ratio 1 1 time block generated newly generated vests partially reward pool rest assigned block producer reward vest generated block decided mathematic model adjusted members committee block producers 15% vests dapp",
+    "metadata": {
+      "chunk_id": "6cd8e1af55ac1d0e9829333416519a08",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Contentos.txt"
+    }
+  },
+  {
+    "text": "[Section 11] power vote power post accumulated total vote power xef xbc x9aincrease user upvotes post decrease block generated posts comments uploaded exactly 7 days ago rewarded post xe2 x80 x99s reward x post power total vote power x total cos reward pool reward added total vote power decrease 1 86400 17 time new block generated transfer cos vests called power power vice versa power instant power takes 13 weeks complete multiple power inside account time allow 4 resource consumption x0c4 1 resource type network resource broadcasting transaction consumes network resources calculated size transaction cpu resource action smart contract invoked cpu resource consumed 4 2 fee simplify fee calculation network cpu resource consumption resource type converted stamina user xe2 x80 x99s stamina insu xef xac x83cient network resource consumption transaction sent transaction discarded deducting stamina transaction invalid stamina deducted stamina insu xef xac x83cient cpu resource consumption transaction",
+    "metadata": {
+      "chunk_id": "c6d9e473d03944bc74bf4bf39e0a6494",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Contentos.txt"
+    }
+  },
+  {
+    "text": "[Section 13] 5 2 contentos uses digital signature check authority user pair pub priv key users sign messages private key receivers use public key verify authenticities messages 6 storage service contentos uses leveldb store data performance follows initial dataset 100 000 x0cleveldb key int64 leveldb key string16 insert 190 985 193 573 query 36 627 39 842 update 32 107 29 975 delete 228 10 223 41 initial dataset 1 000 000 leveldb key int64 leveldb key string16 insert 189 322 174 581 query 33 231 34 575 update 29 455 28 918 delete 254 647 198 649 initial dataset 10 000 000 leveldb key int64 leveldb key string16 insert 174 794 165 809 query 23 347 12 996 update 22 795 17 041 delete 248 015 237 812 details xef xbc x9adb benchmark high performance highly available database service implemented based leveldb mem cache provides transactional supports fast roll mechanism smart contract virtual machine smart contracts contentos currently written c c language webassembly virtual machine smart contracts run",
+    "metadata": {
+      "chunk_id": "700d7099f5f86a896c184cf2223a40b4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Contentos.txt"
+    }
+  },
+  {
+    "text": "[Section 14] mem cache provides transactional supports fast roll mechanism smart contract virtual machine smart contracts contentos currently written c c language webassembly virtual machine smart contracts run 7 1 supported actions smart contracts developed users compiled wasm byte codes deployed blockchain series apis provided contract development eaiser provides similar features erc20 standards apis allows contract developers post article comment statistics care smart contracts updated online developer hot xef xac x81x bugs add new features x0c7 2 limitations running time contract cpu ram bandwidth resources use limited maintain stableness system 7 3 security smart contracts running sandbox called webassembly security model webassembly important goals 1 protect users buggy malicious modules 2 provide developers useful primitives mitigations developing safe applications constraints 1 contentos conduct authority validation resource check execution smart contract 8 smart contract api contentos",
+    "metadata": {
+      "chunk_id": "b842896e12c1a7fa2e069330a002f3ba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Contentos.txt"
+    }
+  },
+  {
+    "text": "[Section 15] developers useful primitives mitigations developing safe applications constraints 1 contentos conduct authority validation resource check execution smart contract 8 smart contract api contentos provides plenty apis enable dapp developer write contracts advanced features include limited low level operations like read write blockchian high level operations like post articles comment cross contracts interactions 9 smart contract template smart contract development deployment easier new feature smart contract template provided contentos users propose template adopted users programming skills develop develop contracts template 10 plugin plugin mechanism implemented contentos users develop plugin add new functionalities currently trxsqlservice statelogservice dailystatservice provided statistics purposes x0c",
+    "metadata": {
+      "chunk_id": "e11c67ae9a451600bfcc4bc44ba62cfe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Contentos.txt"
+    }
+  }
+]

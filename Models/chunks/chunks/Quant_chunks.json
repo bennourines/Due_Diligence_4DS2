@@ -1,0 +1,1825 @@
+[
+  {
+    "text": "[Section 2] dependent makes difficult choose appropriate dlt fit purpose meeting technical business requirements considering dlts decentralised applications technical dependency slows mass adoption limits scope impedes scalability new features reduces necessary controls required data security privacy business perspective single ledger dlt application increases risk complexity effort needed adopt multiple dlt technologies cases duplicating resources investments enterprises forced accept financial risk monopolistic approach dlt fees limiting options manage fees transaction costs challenges listed limit widespread adoption critical mass users paper proposes solution problem single ledger dependency introducing new technology design deployment execution multi ledger decentralised applications technology xe2 x80 x99s called overledger page 2 48 x0ctable contents abstract 1 1 3 introduction 1 1 background information 3 1 2 state art 5 1 2 1 purpose 5 1 2 2 interoperability 7 1 2 3 layer communication 9",
+    "metadata": {
+      "chunk_id": "499606b4e4f55c8b97d55b704aacd70a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 3] x80 x99s called overledger page 2 48 x0ctable contents abstract 1 1 3 introduction 1 1 background information 3 1 2 state art 5 1 2 1 purpose 5 1 2 2 interoperability 7 1 2 3 layer communication 9 1 2 4 connection method 9 1 2 5 scalability 10 1 2 6 fault tolerance 11 1 2 7 connection speed 12 1 3 2 13 overledger philosophy overledger 15 2 1 messaging layer 16 2 1 1 standardization 17 2 1 2 messages information chain 17 2 1 3 messages security properties 19 2 1 4 improve privacy specification 20 2 1 5 shortcomings messages chain 23 2 1 6 speed throughput messages 24 2 2 filtering ordering layer 25 2 2 1 filtering criterion overledger 26 26 2 2 2 ordering criterion overledger 35 2 3 cross ledger transactions 2 3 1 blockchain transaction properties 36 2 3 2 acid blockchain 37 2 3 3 base blockchain 37 2 3 4 cross ledger transaction acid 38 2 3 5 phase commit cross ledger transactions 38 41 2 4 application layer 2 4 1 overledger applications 41 2 4 2 application level responsibility 42 44",
+    "metadata": {
+      "chunk_id": "1bc4434c3f5a72b3943f4a30e31730ae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 4] 37 2 3 4 cross ledger transaction acid 38 2 3 5 phase commit cross ledger transactions 38 41 2 4 application layer 2 4 1 overledger applications 41 2 4 2 application level responsibility 42 44 3 use cases 44 3 1 cqrs es overledger 4 conclusion 46 bibliography 47 page 3 48 x0c1 introduction invention bitcoin 1 achieved new technological milestone blockchain underlying technology blockchain isn xe2 x80 x99t new innovation results combination existing technologies integrated original way create blockchains components e merkel tree concatenated hashes public key encryption established technologies bitcoin paper nakamoto 2009 2 moment writing argue according technology life cycle theory xe2 x80 x99re beginning called phase xe2 x80 x9cfermentation xe2 x80 x9d characterised technological uncertainty evolution blockchain alternative technical paths industry promotes different model designs favouring functional performance aspects meet specific business goals currently thousand digital",
+    "metadata": {
+      "chunk_id": "6d3b762c13c28e29f2769b3ec199e70e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 5] uncertainty evolution blockchain alternative technical paths industry promotes different model designs favouring functional performance aspects meet specific business goals currently thousand digital currencies clarity phrase digital currency cryptocurrency interchangeably paper tokens thousands blockchain projects development different sectors worldwide 3 current blockchain ecosystem fragmented complex progress achieved silos variation blockchain designs possible configurations represent hindrance enterprises software architectures developers heterogeneous development brings lack blockchain interoperability compatibility blockchain networks existing systems networks ability blockchains exchange information chain systems lack interoperability threat wide uniform adoption blockchain applications techno socio economic systems apart technical challenges existing e g key management filtering ordering messages lack interoperability ledgers presents business risks major concern consists",
+    "metadata": {
+      "chunk_id": "95c22a5f3c74f0cfa2bae5892decf932",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 6] techno socio economic systems apart technical challenges existing e g key management filtering ordering messages lack interoperability ledgers presents business risks major concern consists decoupling different business logic underlying ledgers increase communicability preserving privacy requirements 40 41 case internet xe2 x80 x99s necessary provide shelf software development tools simplify develop deploy distributed ledger dlt applications requiring developers build components scratch addressing risks decentralised applications grow increasingly interoperable widely adopted page 4 48 x0cbackground information 1 order address problem blockchain interoperability software reference architectures blockchain interoperability set majority existing technologies trying connect dlts define standard interoperability platform outside integration legacy dlts challenging difficult implement choosing correct technology crucial xe2 x80 x99s hard foresee suitable short term uncertainty presented",
+    "metadata": {
+      "chunk_id": "101cd093c68b49ffa5e83a56791cb3d7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 7] interoperability platform outside integration legacy dlts challenging difficult implement choosing correct technology crucial xe2 x80 x99s hard foresee suitable short term uncertainty presented external factors technologies forking insecure abandoned altogether development blockchain applications choice underlying blockchain technology xe2 x80 x99t easily undone migrations aren xe2 x80 x99t possible transactions scope blockchain address space example blockstack 10 open source project create manage use decentralised apps blockchain decided namecoin bitcoin technology considered secure migration applications problem soon apply running ethereum 17 endless problem solution xe2 x80 x99t merely designing better smarter blockchains end technologies today obsolete years planned unplanned obsolescence solve issues overledger presents following solutions introduction new scripting languages updating existing ones scaling applications e g increasing transaction speeds communication different",
+    "metadata": {
+      "chunk_id": "779c412f0e2184b9a086357422b6cbe6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 8] solve issues overledger presents following solutions introduction new scripting languages updating existing ones scaling applications e g increasing transaction speeds communication different dlts cross ledger operations adaptable technology change meet newer sector specific requirements regulation mitigation tools new security threats overledger new blockchain operating system intending solve problems singleledger dependency increasing communicability dlts allowing general purpose applications run different blockchains overledger abstracts single ledger dependent technology overcome bound different architectures regardless addresses ledger implementation consensus mechanisms defining specific platform multiple connectors accommodating plugin compliant dlts solution introduces vendor independent wire level protocol message oriented middleware decoupling transaction layer shared messaging layer overledger provides unique solution interoperability digital ledger environments overledger",
+    "metadata": {
+      "chunk_id": "55e824f4bb7dfdcc8ba95f57a4ce732a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 9] wire level protocol message oriented middleware decoupling transaction layer shared messaging layer overledger provides unique solution interoperability digital ledger environments overledger allows business logic decouple underlying ledger increases communicability chains privacy constraints decentralised applications demand readers familiar distributed systems aware differences blockchains larger family dlts dlt generally mean database technology records decentralised transactional data stored sequence necessarily grouped blocks continuous ledger spread network multiple locations blockchain particular kind dlt batches transactions held blocks blocks linked hash pointers chain block contains hash prior block chain method keeping integrity set data blockchain sake page 5 48 x0csimplicity xe2 x80 x99ll use terms blockchain distributed ledger technologies indistinguishably time time xe2 x80 x99ll refer blocks chain overledger universal general purpose operating system family distributed",
+    "metadata": {
+      "chunk_id": "d77d274d2a55c2181663df230bcb81b9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 10] x80 x99ll use terms blockchain distributed ledger technologies indistinguishably time time xe2 x80 x99ll refer blocks chain overledger universal general purpose operating system family distributed ledger technologies privacy constraints data ownership applications requiring transparency challenge projects exploring e g blockstack digital holding asset 14 sidechains 5 section 1 2 future decentralised blockchain applications spread widely xe2 x80 x99ll necessary create method allowing applications communicate exchange replicate data multiple blockchains finally easier compare performance different blockchains running application aspects help boost blockchain technology applications opportunities exploit technology widely subsection analyse existing solutions problem single ledger dependency xe2 x80 x99ll introduce mathematical models order theory blockchains considering technical aspects underlying blockchain technologies required deliver solution state art 2 section provides overview",
+    "metadata": {
+      "chunk_id": "e264aeffd9cccbdbadc1142b5aac3946",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 12] scalability fault tolerance 1 2 1 purpose virtualchain blockstack introduced virtualchain build state machines underlying blockchains main idea virtualchains extend blockchain xe2 x80 x99s business logic allow ability migrate dlts changing underlying dlt virtualchains overlays page 6 48 x0cof specific blockchains building multiple state machines allowing migration blockchain migration requires ledgers communicate context applications run single blockchain represented virtual state machines way state machines evolve adding new operational codes functions op code transactions blocks implemented additional data field bitcoin called op return additional field hash new state added state machine operation executed makes system fork consistent interledger purpose interoperability layer comm virtualchai n sidechain payments ability migrate add new innovative different dlt features payment systems fault main crypto based dlt tolerance currencies 1 c 1 1 c 1 1 xe2 x80 x931 transaction level",
+    "metadata": {
+      "chunk_id": "9ddad9d5b68044640fd02caba5f81b70",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 13] n sidechain payments ability migrate add new innovative different dlt features payment systems fault main crypto based dlt tolerance currencies 1 c 1 1 c 1 1 xe2 x80 x931 transaction level transaction level overcome blockchain limits transfer assets transaction level phase connection method connection speed phase phase commit commit commit like way pegspv notaries entity consensus ledgers scalability fault tolerance allow connectors run nodes migration time ledgers allow write metadata depends depends notaries institutions validates blockchains involved transactions migration cosmos contest period ledger xe2 x80 x99s transfer assets solve blockchain data smart isolation contract problem applications protocol based transaction transaction transaction level legacy level legacy level legacy ledger ledger ledger phase phase phase commit spv commit commit protocol time protocol time depended depended phase commit like proportional validator number ibf talk hub implement polka dot security",
+    "metadata": {
+      "chunk_id": "b191e9e628ed6e0d5032be3a0bd5892c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 14] ledger ledger ledger phase phase phase commit spv commit commit protocol time protocol time depended depended phase commit like proportional validator number ibf talk hub implement polka dot security zones para chains user responsibility follow rules coins consensus polkadot n xe2 x80 x93n transaction level protocol flexible time depended ledger xe2 x80 x99s aion readability compatible writability consensus confined sidechain multiledgers protocol based implement sidechain confined layer protocol based way peg faults build messaging n c n security overledger n c n compliance aion n c n tendermint confirmation polkadot compatible blockchain aion 1 follow rules protocol based consensus aion 1 table 1 comparison projects aiming increase intercommunication dlts interoperability section explain convention table page 7 48 x0ccosmos cosmos project ambitious mission creation network distributed ledgers solve xe2 x80 x9clong standing problems xe2 x80 x9d cryptocurrency blockchain communities",
+    "metadata": {
+      "chunk_id": "83959f1e23551a837518986a524c7bb6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 15] convention table page 7 48 x0ccosmos cosmos project ambitious mission creation network distributed ledgers solve xe2 x80 x9clong standing problems xe2 x80 x9d cryptocurrency blockchain communities cosmos project wants solve traditional issues blockchains like energy inefficiency pow limited performances transactions compared conventional centralised systems poor governance strategies example change protocol needs implemented polkadot polkadot xe2 x80 x99s vision build web people direct control data polkadot like cosmos network ledgers allows exchange assets data ledgers interledger protocol interledger payments ripple project wants allow secure payment transfers different ledgers today service provided centralized systems like western union need trusted endpoints transactions interledger wants enable payments users holding assets separate ledgers need trust party aion 1 aion seeks solve scalability privacy communication issues digital ledgers aims provide decentralised accountability",
+    "metadata": {
+      "chunk_id": "d73a4743c26379674d666cc679ece66d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 16] wants enable payments users holding assets separate ledgers need trust party aion 1 aion seeks solve scalability privacy communication issues digital ledgers aims provide decentralised accountability blockchain networks aion claims introduce nextgeneration blockchain enables intercommunicating blockchains generation presents distributed ledger technology cryptographically secured like bitcoin second enhances smart contract distributed apps like ethereum according aion classification generation adds ability communication value exchange ledgers sidechain sidechain interledger protocols projects aiming promote communication blockchains allow asset transfers sidechain builds ad hoc external chains interact automatically specific blockchain mesh connection interledger needs use external nodes connectors consensus mechanism allow currency conversion need trust party exchanger focus sidechain xe2 x80 x99s allow ledgers notably bitcoin transfer coins particular chains innovative new",
+    "metadata": {
+      "chunk_id": "def924be8c95b90bf7e7281d4f25eb57",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 17] nodes connectors consensus mechanism allow currency conversion need trust party exchanger focus sidechain xe2 x80 x99s allow ledgers notably bitcoin transfer coins particular chains innovative new cryptocurrency features extend traditional cryptocurrencies like bitcoin limited original protocol overledger projects introduced far xe2 x80 x9csingle ledger dependent xe2 x80 x9d start point blockchain protocols adaptive needs e propose particular solutions solve specific needs differently overledger universal general purpose technology reason overledger shares common technical aspects existing projects decouples business logic underlying ledger technologies means general purpose applications sit different ledgers time ability communicate fact propose xe2 x80 x9cover layer xe2 x80 x9d existing blockchains applications run applications communicate migrate exchange information value regardless ledgers xe2 x80 x99ve deployed overledger enables users build decentralized multi chain",
+    "metadata": {
+      "chunk_id": "0a0ac6fb49a6235b43d7fa8e8413e135",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 18] existing blockchains applications run applications communicate migrate exchange information value regardless ledgers xe2 x80 x99ve deployed overledger enables users build decentralized multi chain applications aren xe2 x80 x99t single blockchain dependent means users run applications smart contracts treaties data different blockchain technologies original approach empower adoption blockchain technologies sectors use cases enabling large scale adoption technology tying particular vendor chain page 8 48 x0c1 2 2 interoperability today xe2 x80 x99s challenges distributed ledgers exist silos different structures working mechanisms harder impossible build common interface general users different rights different ledgers example group people append data permissioned ledger read data tackle interoperability issues positioning overledger ledgers struggling order match different ledgers approach distinguish ledgers ability read write ledgers readable ledger offers write function arbitrary",
+    "metadata": {
+      "chunk_id": "3b40035c84b4658187e40922cd1a62f5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 19] interoperability issues positioning overledger ledgers struggling order match different ledgers approach distinguish ledgers ability read write ledgers readable ledger offers write function arbitrary strings long host hash classified writable case users use optional fields regular transaction add hash arbitrary messages ledgers don xe2 x80 x99t offer write function arbitrary strings offer read operation labelled readable proposed solutions blockchain interoperability depend specific goals projects originated interledger protocol interledger payments connect ledgers having connector node ledgers xe2 x80 x99s possible connect ledgers let xe2 x80 x99s c directly joined connector xe2 x80 x99s path ledgers starts ends b virtualchain virtualchain allows running state machine specific blockchain underlying blockchain obsolete longer suitable virtualchain offers ability migrate convenient reason interaction blockchains happens blockchains involved migration sidechain sidechain communication",
+    "metadata": {
+      "chunk_id": "213b24d0960248f22e47b7141cfd7096",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 20] underlying blockchain obsolete longer suitable virtualchain offers ability migrate convenient reason interaction blockchains happens blockchains involved migration sidechain sidechain communication happens chains main called parent chain new features called sidechain newer applications use existing blockchains security consolidated lower parallel layer business logic applications build messages chain hash add digests blockchains case parallel chains build extension chains allow exchange assets main ones extension chains provide benefits allowing development complex applications delegating complexity external layer sidechains project uses approach transfer assets existing blockchains like bitcoin litecoin offering new features extensions compliant main blockchain protocol e g bitcoin changing protocol isn xe2 x80 x99t flexible small changes result hard fork cosmos cosmos architecture allows zones blockchains compliant protocol communicate hubs multi asset blockchains coins owned",
+    "metadata": {
+      "chunk_id": "abd4555bb68051ab49738272a071ad10",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 21] changing protocol isn xe2 x80 x99t flexible small changes result hard fork cosmos cosmos architecture allows zones blockchains compliant protocol communicate hubs multi asset blockchains coins owned individuals zones hub blockchain appends transactions ledger individuals zones polkadot polkadot uses relay chains coordinate consensus parachains parachains gather collect process transactions use relay chain consensus normal cross ledger transactions aion 1 aion provides protocol route propagate translate messages blockchain networks root network xe2 x80 x99s ad hoc blockchain called aion 1 page 9 48 x0coverledger noted solutions allow communication blockchains time solution conduct operations multiple blockchains simultaneously overledger read information like transactions scripts contracts map xe2 x80 x9cover layer xe2 x80 x9d information compliant selected business logic way overledger connect blockchains allowing ability add arbitrary hash message host cases projects encourage",
+    "metadata": {
+      "chunk_id": "1ca562ef0b93e7db825f7f5531a0bf80",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 22] map xe2 x80 x9cover layer xe2 x80 x9d information compliant selected business logic way overledger connect blockchains allowing ability add arbitrary hash message host cases projects encourage connectivity blockchains create network ledgers asset information needs routed source destination different hops applicable propose network approach introduce multi layer approach information layers creating common interface ledgers table 1 summarise level interoperability following notation xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f 1 c 1 connected blockchains time connector n c n connected blockchains time connectors 1 xe2 x80 x931 connected blockchain connected time connector n xe2 x80 x93n connected blockchains time connectors 1 2 3 layer communication idea xe2 x80 x99s build presentation layer blockchains allow applications run communication blockchains happens logical layer sits transactional virtualchains adopt similar approach virtualchains designed perform migration blockchains",
+    "metadata": {
+      "chunk_id": "bd2b407dba3c48735954f06562700d4f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 23] layer blockchains allow applications run communication blockchains happens logical layer sits transactional virtualchains adopt similar approach virtualchains designed perform migration blockchains migrations executed messages exchanged virtual layer means transaction fingerprint operation added doesn xe2 x80 x99t affect underlying transaction instead projects carry communication transaction level protocol interledger sidechains focus tokens coins need impose connection happens level transactions cosmos polkadot aion define new standards work new sharable transaction layer limitation approach work token based ledgers 1 2 4 connection method projects table 1 propose different ways communicate ledgers comes interactions different ledgers cases connection methods different ledgers require phase commit approach consists states transaction proposed propagated processed committed aborted stakeholders interledger case protocol interledger particular nodes called connectors charge",
+    "metadata": {
+      "chunk_id": "a9ebab2780aaf6b1f9968501754bfae0",
+      "entities": {
+        "crypto_project": [
+          "polkadot"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 24] require phase commit approach consists states transaction proposed propagated processed committed aborted stakeholders interledger case protocol interledger particular nodes called connectors charge communications connector chains entity having node ledgers coordinate transfers multiple ledgers smart contracts smart contracts force connectors cooperate people don xe2 x80 x99t need trust escrow xe2 x80 x99s implemented financial equivalent phase commit locks resources moves rolls transaction previous owners page 10 48 x0cvirtualchain virtualchain s migration uses step commit locks application new blockchain migration ended sidechains sidechains newer blockchains particular rules allowing transfers parent chains proposed scheme locks coins chain sending unique addresses simple payment verification spv proof unlock blockchain spv lightweight clients checking validity transactions blocks check transaction xe2 x80 x99s member merkle tree block appended past method xe2 x80 x99s described",
+    "metadata": {
+      "chunk_id": "18df576717b6704d81bb88754563f99c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 25] spv proof unlock blockchain spv lightweight clients checking validity transactions blocks check transaction xe2 x80 x99s member merkle tree block appended past method xe2 x80 x99s described original bitcoin whitepaper 1 faster users need check membership merkle tree block header block header received transaction belongs longest blockchain checked seen doesn xe2 x80 x99t guarantee xe2 x80 x99s longest valid chain cosmos cosmos zones communicate xe2 x80 x9chub xe2 x80 x9d inter blockchain communication ibc protocol defining types messages ibcblockcommittx ibcpackettx similar spv approach polkadot polkadot seeks address unsolved questions extensibility scalability decoupling tied bound canonicality validity popular blockchain architectures focus security parachains communicate relay chain relay chain provides foundation consensus mechanism parachain interface routing protocol polkadot network xe2 x80 x99s built aion 1 aion like cosmos polkadot connect blockchain networks compliant set",
+    "metadata": {
+      "chunk_id": "f1ddf5ffaaf9be7d6422e1da47698a27",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 26] relay chain provides foundation consensus mechanism parachain interface routing protocol polkadot network xe2 x80 x99s built aion 1 aion like cosmos polkadot connect blockchain networks compliant set requirements aion compatible communicate central node case aion 1 overledger overledger adopts phase commit schema similar projects 1 2 5 scalability interledger scalability payments interledger protocol depends connectors connector run node ledger having right transactions potentially use protocol exchange particular ledger virtualchain scalability virtualchain depends ability blockchain add metadata blockchain sidechain sidechain scalability parameter depends blockchain xe2 x80 x99s ability implement way peg scheme considered way peg scheme uses spv proof requires proof work means needs adjusted blockchains consensus mechanism cosmos cosmos scale long new blockchain adopt inter blockchain communication protocol connect cosmos hub page 11 48 x0cpolkadot similar cosmos polkadot scale new",
+    "metadata": {
+      "chunk_id": "e918cb2a81657a459f50a5d4f5d3efa0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 27] blockchains consensus mechanism cosmos cosmos scale long new blockchain adopt inter blockchain communication protocol connect cosmos hub page 11 48 x0cpolkadot similar cosmos polkadot scale new ledgers adopt requirements connect relay chain e new ledgers compatible connector standard aion 1 aion 1 follows similar approach cosmos polkadot overledger internet scalability built core overledger protocol approach 1 2 6 fault tolerance interledger interledger protocol xe2 x80 x99s modes working atomic mode universal mode fault tolerance atomic mode depends behaviour group notaries approve transactions case universal mode depends institution fills role charge incentive interledger protocol intended value exchanges blockchains blockchain error xe2 x80 x99t compromise business logic blockchain insecure connectors won xe2 x80 x99t transfer values blockchain virtualchain fault tolerance main reason virtualchain blockchain insecure application migrate blockchain blockchain xe2 x80 x99s fully",
+    "metadata": {
+      "chunk_id": "f37b594b76e542d9bce8bbad500a8b64",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 28] insecure connectors won xe2 x80 x99t transfer values blockchain virtualchain fault tolerance main reason virtualchain blockchain insecure application migrate blockchain blockchain xe2 x80 x99s fully compromised previous state application xe2 x80 x99t recovered unlikely happen avoid virtualchain frequently publishes logs blockchains sidechain regards fault tolerance consider sidechain treats chains isolated case security fault malicious design sidechain damage confined sidechain doesn xe2 x80 x99t compromise main cosmos cosmos topology hub critical point failure security enforced hub uses tendermint consensus protocol 18 considered secure uses trusted validators transactions problem arises zones security issue spread network hub doesn xe2 x80 x99t validate transactions inside zones validates inter zone transactions polkadot polkadot single point failure relay chain reason project focuses security entities aion 1 aion 1 blockchain root network potential single point failure type",
+    "metadata": {
+      "chunk_id": "a876afa5452b455a6ce4953c803892ca",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 29] validates inter zone transactions polkadot polkadot single point failure relay chain reason project focuses security entities aion 1 aion 1 blockchain root network potential single point failure type technology 1 2 7 connection speed xe2 x80 x99s hard estimate connection time let xe2 x80 x99s different software architectures projects table 1 influence interledger protocol interledger payments operates phases proposal preparation execution phasing works utilising phase commit protocol chosen group notaries act like transaction manager transaction time depends time required blockchain add information phases nodes involved transactions plus time required notaries check information needed phase protocols send vote page 12 48 x0c commit abort liveness property deadlock free starvation guaranteed process presence timeouts stage virtualchain virtualchain logical physical layer blockchain showing evolution state virtual machine chain needs respect consensus rule fork consistent depending",
+    "metadata": {
+      "chunk_id": "09e923a5e7d23d9e8d79c08d6024f4b8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 30] process presence timeouts stage virtualchain virtualchain logical physical layer blockchain showing evolution state virtual machine chain needs respect consensus rule fork consistent depending rules rough estimation speed transactions communication blockchains e migration require messages announce xe2 x80 x99re leaving message old blockchain new blockchain announcing migration started blockchain sidechain sidechain xe2 x80 x99s way peg requires sending spv proof lock coins blockchain parent unlock process delays specific period time sending spv proof confirmation time allow sufficient proof work created spv proof xe2 x80 x99s sent contest period prevent double spending according sidechain white paper 5 period days cosmos connection speed cosmos depends parameter tendermint consensus protocol 18 good trade validators allow thousands transactions second polkadot polkadot connection speed depends protocol involved entities nominators collators validators fishermen aion 1 estimate",
+    "metadata": {
+      "chunk_id": "10d84e8a31fdc869b02d32a3ca9f60c9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 31] protocol 18 good trade validators allow thousands transactions second polkadot polkadot connection speed depends protocol involved entities nominators collators validators fishermen aion 1 estimate connection speed aion need consider architecture considering bitcoin manage approximately seven transactions second given underlying speed depend transactional speed underlying aion compatible blockchains involved aion 1 blockchain overledger projects don xe2 x80 x99t create presentation layer aim achieve communication transaction level needed route information ledgers source ledger destination solution doesn xe2 x80 x99t route information ledgers connection time proportional latency involved chains requires fixed set transactions doesn xe2 x80 x99t depend path length ledgers directly connected presentation layer 3 overledger philosophy challenges digital ledgers exist silos different structures working mechanisms harder build common interface overledger addresses issue sitting struggling",
+    "metadata": {
+      "chunk_id": "c5e4fdedbb9a814848ebd0a8a458c568",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 32] presentation layer 3 overledger philosophy challenges digital ledgers exist silos different structures working mechanisms harder build common interface overledger addresses issue sitting struggling match different rights different ledgers overledger xe2 x80 x99s vision build unique group transactions ordered distributed applications analysis projects table 1 dlt inter communication interoperability allows extract connection methods adopted cases comparative analysis permits extract common logical elements pertaining methods page 13 48 x0c xe2 x97 x8f build platform new features designed address today xe2 x80 x99s dlts challenges slow transaction rates migrations cryptocurrency exchanges etc xe2 x97 x8f build network blockchains nodes different roles responsibilities e g parentchain sidechain hub zone relaychain parachain 16 xe2 x97 x8f define standard connect blockchains platform xe2 x97 x8f build adapters existing technologies compliant standard xe2 x97 x8f transaction oriented",
+    "metadata": {
+      "chunk_id": "4fe2128d41f20535021bbe5c988876bb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 33] hub zone relaychain parachain 16 xe2 x97 x8f define standard connect blockchains platform xe2 x97 x8f build adapters existing technologies compliant standard xe2 x97 x8f transaction oriented application oriented xe2 x97 x8f connections low levels strictly involving consensus mechanism xe2 x97 x8f tree graph network requires complex routing algorithms methods proposed far limited application set strict rules create standard connection level approach automatically excludes technologies limits evolution new ones bounded new constraints harder harder include current new technologies developed xe2 x80 x99s impossible build general meta adapter connect present future blockchains resulting platform needing build different adapters different complexity fig 1 represents common scenario xe2 x80 x99s special nodes responsibility regular ones special node single point failure connected bodies needs able manage nodes possible xe2 x80 x99s designed optimised connection represented hexagon hexagon",
+    "metadata": {
+      "chunk_id": "2617ca643c1ed2fcae8b9eb1e838471f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 34] special nodes responsibility regular ones special node single point failure connected bodies needs able manage nodes possible xe2 x80 x99s designed optimised connection represented hexagon hexagon symbol connectivity property cover plane internal angle divisor 360 despite design needs connect legacy existing technologies designed inter communicability purple blue polygons implement maintain different adapters yellow node representation brand new blockchain technology xe2 x80 x99s particularly complex adapter irregular shape highlight complexity fig 1 connectivity differences regular special nodes issue upgrades changes upgrade communication protocol standard adds complexity xe2 x80 x99re dealing transactions lead unavailability service inconsistency problems affects flexibility communication resistance page 14 48 x0cchanges furthermore account upgrade platforms require adapters updated resulting architecture graph network requiring different adapters different dlts routing strategy",
+    "metadata": {
+      "chunk_id": "185f79a4cf5bd273f8dfd2c0fca56f04",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 35] resistance page 14 48 x0cchanges furthermore account upgrade platforms require adapters updated resulting architecture graph network requiring different adapters different dlts routing strategy forwards information source destination avoiding loops fig 2 shows topology architecture fig 2 connection topology let xe2 x80 x99s suppose dlt wants send message dlt g following issues arise xe2 x97 x8f convert message platform format dlt format respecting time route message node routing strategy efficient different consensus timing adds complexity fastest path shortest safest path fastest user control path information message needs converted dlt platform format dlt g special node master relay parent hub points failure adapters example overledger approach manages connection upper layer despite underpinning technology applications bind blockchains treat decentralised queue transactions messages attached transactions appended different ledgers page 15 48 x0c2 overledger paper propose",
+    "metadata": {
+      "chunk_id": "25dddbf08d9d7619a1cda41f7feb2833",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 36] despite underpinning technology applications bind blockchains treat decentralised queue transactions messages attached transactions appended different ledgers page 15 48 x0c2 overledger paper propose architecture acts like osi model internet redistributing tasks different layers built transport layer blockchain technologies built internet fig 3 transaction layer layer stores transactions appended ledger xe2 x80 x99s technology includes operations needed reach consensus different blockchain domains representation simplified putting operations layer transactions executed specific blockchain scope domain e xe2 x80 x99s possible valid ledgers layer xe2 x80 x99s represented different isolated ledgers messaging layer logical layer relevant information retrieved ledgers information transaction data smart contract metadata underlying ledgers add arbitrary strings transactions particular case metadata added strings typically digest chain messages interpreted payload logical layer logical layer",
+    "metadata": {
+      "chunk_id": "f28f3c12aab028f5d32e908b8acb1138",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 37] smart contract metadata underlying ledgers add arbitrary strings transactions particular case metadata added strings typically digest chain messages interpreted payload logical layer logical layer stores transaction information message xe2 x80 x99s digests different applications way shared channel packets different applications filtering ordering layer layer messages extracted built transaction information referenced transaction hash exchanged chain filtered ordered layer responsible creating connections different messages built messaging layer case metadata layer charge validation chain messages validation checks application schema requirements application requirements set transaction data example application accept transactions particular address need certain coin moved applications consider valid messages certain coins specific address application layer valid messages respect requested format requested signatures list application xe2 x80 x99s messages messages update state",
+    "metadata": {
+      "chunk_id": "5936fa2f2e6174085d5e4d1b5e240f8d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 38] consider valid messages certain coins specific address application layer valid messages respect requested format requested signatures list application xe2 x80 x99s messages messages update state application different applications share messages refer messages application message references unique hash pointer transaction ledger containing digest messages hash pointer basically pointer place cryptographic hash information stored xe2 x80 x99s identifier uniquely select transaction database verify hasn xe2 x80 x99t changed 2 1 messaging layer reasons think control logic business logic decoupled transaction level reason lies consideration general blockchain protocols xe2 x80 x99t accept changes fork chain different ones reasons blockchain communities decide split depart original chain adopting different protocol rules example ethereum platform forked versions ethereum classic etc ethereum eth prior fork token called ethereum fork page 16 48 x0cnew tokens kept eth old tokens renamed etc",
+    "metadata": {
+      "chunk_id": "7f2fd66b650dd547a46a3390fe643a5a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 39] different protocol rules example ethereum platform forked versions ethereum classic etc ethereum eth prior fork token called ethereum fork page 16 48 x0cnew tokens kept eth old tokens renamed etc ethereum classic appeared result disagreement ethereum foundation dao hard fork 38 notable examples regard forks bitcoin reference implementation bitcoin core aiming increase transaction processing capacity e g bitcoin xt bitcoin unlimited bitcoin cash 39 fig 3 overledger architecture model fact supporting architecture choice lies fact bitcoin blockchain based projects originally conceived designed support cryptocurrencies simple transfers xe2 x80 x99s smart contracts distributed scripts aren xe2 x80 x99t powerful today xe2 x80 x99s application xe2 x80 x99s demands transactions scope blockchain address space simple original design finally architecture justified need code language independent languages build today xe2 x80 x99s blockchain systems likely substituted languages future example",
+    "metadata": {
+      "chunk_id": "f681bf32602acffa872824be5af79611",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 40] address space simple original design finally architecture justified need code language independent languages build today xe2 x80 x99s blockchain systems likely substituted languages future example bitcoin script script language bitcoin takes inspirations forth 50 year old concatenative programming language instead blockchains like ethereum implemented complex business logic blockchain layer serpent solidity turing complete programming languages run ethereum inspired python javascript respectively adopted scripting languages today necessarily tomorrow remaining subsection explain technical requirements overledger messaging layer needs meet 2 1 1 standardisation messaging layer shall abstract transactions regardless particular ledger applications living application layer responsible design rules according business logic specify specific information need extracted transactions order xe2 x80 x99ll need sorted messaging layer extracts information transactions single ledger transaction",
+    "metadata": {
+      "chunk_id": "d89e29d537c21912872c1a3f539bf6a3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 41] rules according business logic specify specific information need extracted transactions order xe2 x80 x99ll need sorted messaging layer extracts information transactions single ledger transaction layer messaging layer stores information recorded ledger transaction source recipient coin script smart contract types information recorded ledger laying transaction layer allows legacy applications work architecture extending capability ledgers ledger technologies different follow different architectural standards 29 requires build unique standard naming system messaging layer standard define refer different ledgers particular fields unique unequivocal way example possible refer address page 17 48 x0cbitcoin transaction compound syntax e g btc height transactionindex outputindex apply output index xe2 x80 x9coutputindex xe2 x80 x9d transaction index xe2 x80 x9ctransactionindex xe2 x80 x9d block main chain height equal xe2 x80 x9cheight xe2 x80 x9d parameter proposal opportunity build",
+    "metadata": {
+      "chunk_id": "c99b802df0f0b5ddb67e6e4d8f60f3b2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 42] index xe2 x80 x9coutputindex xe2 x80 x9d transaction index xe2 x80 x9ctransactionindex xe2 x80 x9d block main chain height equal xe2 x80 x9cheight xe2 x80 x9d parameter proposal opportunity build standard libraries developers interact similar ways different ledgers 2 1 2 messages information chain blockchains provide ability add small metadata transaction input output example bitcoin allows use op return 23 field add metadata ethereum field script bytecode 24 ripple xe2 x80 x98memos xe2 x80 x99 field 25 external messages converted hexadecimal values arbitrary logic messages considered transactions blocks external blockchain locally stored users fingerprints messages added blockchain digital asset platform 14 uses approach privacy enhancement tool solve reconciliation problem parties user set views build view transactions hashes transactions stored public ledger prove validity case conflict views user validity set transactions showing transactions containing hash messages prove",
+    "metadata": {
+      "chunk_id": "f1de7f2c42d1a99ea3829f9e98a39062",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 43] user set views build view transactions hashes transactions stored public ledger prove validity case conflict views user validity set transactions showing transactions containing hash messages prove validity counterpart want extend approach messages messages exchange information simple transaction complex concerning application logic fig 4 depicts example hashing approach applied messaging layer example different applications running blockchains messages differentiated different colours white blocks represent section xe2 x80 x9cwhite xe2 x80 x9d blockchain coloured applications blue green orange appending messages xe2 x80 x9cwhite xe2 x80 x9d blockchain hosts hash messages hash corresponds message applications message application different transactions stored block messages different applications block block 1 white blockchain application run different blockchains time shown example letting blue application add messages xe2 x80 x9cwhite xe2 x80 x9d blockchain xe2 x80 x9cblue xe2 x80",
+    "metadata": {
+      "chunk_id": "856b2c93d5cfa98e51b99116beb37426",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 44] block block 1 white blockchain application run different blockchains time shown example letting blue application add messages xe2 x80 x9cwhite xe2 x80 x9d blockchain xe2 x80 x9cblue xe2 x80 x9d figure note numbers messages monotonically increasing page 18 48 x0cfig 4 messages chain different applications different blockchains pointed concept blockchain xe2 x80 x9cmessage xe2 x80 x9d generic blockchain xe2 x80 x9ctransaction xe2 x80 x9d fact messages require complex format complicated interactions parts mark languages like xml json good fit build messages context applications define valid sequences messages format schema validate messages exchanged standard http machines xml json good choices xe2 x80 x99re widely internet communication 2 1 3 messages security properties security properties messaging layer regard solutions problems identification authentication authorisation non repudiation entities actions involved messaging identification identification action claim certain entity e g",
+    "metadata": {
+      "chunk_id": "6ffde201f958930ece2b50b31b365c5c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 45] messaging layer regard solutions problems identification authentication authorisation non repudiation entities actions involved messaging identification identification action claim certain entity e g person company department ambiguity login system user identifies username usually arbitrary alphanumeric string blockchains identification usually achieved public keys hash context public key best approach cases users identified address similarly works username respect message format field unequivocally identifies senders receivers authentication authorisation authentication action proves claim standard login systems user authenticated password blockchain authentication private key process digital signature context asymmetric cryptography digital signature common approaches enable message compliance authentication user initial authentication phase username password xe2 x80 x99s possible application shares secret user starts exchange messages encrypted symmetric cryptography hash messages",
+    "metadata": {
+      "chunk_id": "90cf9d8bfa202fa3c7ff2e6a9f4e2c9a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 46] authentication user initial authentication phase username password xe2 x80 x99s possible application shares secret user starts exchange messages encrypted symmetric cryptography hash messages stored blockchain future user shared secret complete message able prove xe2 x80 x99ve received messages page 19 48 x0cnon repudiation non repudiation means future action xe2 x80 x99t questioned disowned taken place digital signatures common way achieve property computer science means copy signed message stated message compliant entities signed privacy constraints applications need obfuscate data related users order compliant privacy requirements classic lower level blockchain satisfy privacy constraints intrinsic transparency property blockchain words common blockchain transaction xe2 x80 x99t completely anonymous impossible check validity regards proposed messaging layer borrows similar approach digital asset platform adding hash messages special field regular blockchain transaction holds copy",
+    "metadata": {
+      "chunk_id": "d11a95672877ed6fd1ec6843ef5930e6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 47] anonymous impossible check validity regards proposed messaging layer borrows similar approach digital asset platform adding hash messages special field regular blockchain transaction holds copy valid message e g signed stakeholders opportunity hash chain xe2 x80 x99s valid colored coins bitcoin applications digital representation management real world assets uses similar mechanism op return field bitcoin 36 proposed solution drawbacks add hash message blockchain transactions creating called xe2 x80 x9cblockchain bloat xe2 x80 x9d problem 3 means irrelevant invalid messages hash chain presence hash chain isn xe2 x80 x99t sufficient condition treat message valid according overledger logic cover check message validity section 2 1 2 fig 5 depicts situation messages exchanged chain example internet sufficient save hashes messages separate transactions represent stored different blocks chain user hashes chain details transactions blue green example doesn xe2 x80 x99t know xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "f901723bec8d303ea64849b0dcb496b4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 48] internet sufficient save hashes messages separate transactions represent stored different blocks chain user hashes chain details transactions blue green example doesn xe2 x80 x99t know xe2 x80 x99s transaction user b user c xe2 x80 x99s conflict users xe2 x80 x99 views records user exhibit complete transaction history prove validity transactions sending hash pointers counterpart verify data blockchain fig 5 messages chain user xe2 x80 x99s views page 20 48 x0c2 1 4 improve privacy specification enhance user privacy conceive introduction multi message hash pointer technique subsection 2 1 3 way proper view application proper entity certain circumstances applications require messages follow hierarchical structures different scope privacy context arbitrary message formats propose adding hash pointers message way applications provide user user specific parts messages e unique content addressed specific users user rights multi message xe2 x80 x99ll hash pointer random piece data fig 6",
+    "metadata": {
+      "chunk_id": "3a750f11fb97f56cf9f97b643e694c6b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 49] hash pointers message way applications provide user user specific parts messages e unique content addressed specific users user rights multi message xe2 x80 x99ll hash pointer random piece data fig 6 provide example messages chain different levels secrecy example user right xe2 x80 x9cblue xe2 x80 x9d message aware branches message starts xe2 x80 x9cred xe2 x80 x9d starts xe2 x80 x9cgreen xe2 x80 x9d user doesn xe2 x80 x99t know deep branches time user xe2 x80 x9cblack xe2 x80 x9d message knows xe2 x80 x9cgreen xe2 x80 x9d xe2 x80 x9cblue xe2 x80 x9d xe2 x80 x99t know xe2 x80 x99s aware content xe2 x80 x9cred xe2 x80 x9d consider modular approach replaced removing pointers lower adding reference upper ones treating newer messages adding hashes chain lead business logic inconsistency parts messages aren xe2 x80 x99t correctly added happened problem approach described sits given level privacy aware levels privacy avoided situations solve issue hide level secrecy taking fields contain",
+    "metadata": {
+      "chunk_id": "72e45e8729e31c7e194213dbcaef79fa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 50] messages aren xe2 x80 x99t correctly added happened problem approach described sits given level privacy aware levels privacy avoided situations solve issue hide level secrecy taking fields contain private information like hash pointers encrypt public keys interested user look like random piece data users means case levels secrecy add random sequence data fig 6 messages chain different level secrecy page 21 48 x0cone problems approach secret information different size means need amend size use padding strategy main issue solved users xe2 x80 x99 awareness different parts message message encrypted key want use strategy need replicate different parts concerning specific key instance fig 8 users xe2 x80 x9cgreen xe2 x80 x9d message xe2 x80 x9cblack xe2 x80 x9d need add xe2 x80 x9cgreen xe2 x80 x9d hash pointers xe2 x80 x9cblue xe2 x80 x9d extension figure random pieces data extension field following ones middle figure hash pointer xe2 x80 x9cblack xe2 x80 x9d messages encrypted keys",
+    "metadata": {
+      "chunk_id": "9f167aacbb35382e7ba29988f04c7606",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 51] x80 x9d hash pointers xe2 x80 x9cblue xe2 x80 x9d extension figure random pieces data extension field following ones middle figure hash pointer xe2 x80 x9cblack xe2 x80 x9d messages encrypted keys extending example lower level secrecy higher number keys involved fig 7 field extend message contains hash pointers parts message contains random sequence bytes page 22 48 x0c fig 8 cryptography multi messages showed example fig 8 xe2 x80 x99s possible manage multi messages different keys issue related different message sizes need fix size sure authorised users aren xe2 x80 x99t aware branches secrecy level section propose extension field approach fig 9 partially solves problem adding field message point message contains hash pointers case xe2 x80 x9cblue xe2 x80 x9d message extra field extension content field random sequence bytes hash xe2 x80 x9cblue xe2 x80 x9d dashed extension xe2 x80 x9cblue xe2 x80 x9d extension contains pointers xe2 x80 x9cred xe2 x80 x9d xe2 x80 x9cgreen xe2 x80 x9d",
+    "metadata": {
+      "chunk_id": "9e0ce7a5b52b23ad226ae45a18b1c038",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 52] content field random sequence bytes hash xe2 x80 x9cblue xe2 x80 x9d dashed extension xe2 x80 x9cblue xe2 x80 x9d extension contains pointers xe2 x80 x9cred xe2 x80 x9d xe2 x80 x9cgreen xe2 x80 x9d message way users sit lower level don xe2 x80 x99t know levels secrecy solution users read xe2 x80 x9cred xe2 x80 x9d message know xe2 x80 x9cgreen xe2 x80 x9d read xe2 x80 x9cgreen xe2 x80 x9d know xe2 x80 x9cred xe2 x80 x9d page 23 48 x0c fig 9 level secrecy keys 2 1 5 shortcomings messages chain main issues needing overcome building layer message hash added blockchain xe2 x80 x99t control messages appended means xe2 x80 x99s rules limit problems like trashing spamming xe2 x80 x99s possible design denial service happen lower level blockchain consensus mechanism fact consensus rules frequently blocks added chain spamming messaging system spamming action send unsolicited messages action results overwhelming channel valid messages case channel space transaction field use add hash application",
+    "metadata": {
+      "chunk_id": "d99f672aff593a8ec4dcc3297fe17df6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 53] blocks added chain spamming messaging system spamming action send unsolicited messages action results overwhelming channel valid messages case channel space transaction field use add hash application message possible solution let party validate messages signing case messages right format signed authority hashes valid chain considered valid business contexts approach mandatory user transparency non repudiation property traditional centralised applications xe2 x80 x99t guarantee trust centralised authority checking message consistency controlling growth replica issues replay attacks occur example command valid message added times executed arbitrary number times difficult build application logic scanning messages messages correct format right signatures xe2 x80 x99re longer valid xe2 x80 x99re overledger techniques solve issue like enumerating messages timestamps trashing trashing action overwhelming channel meaningless data business logic valid messages action malicious user involuntary",
+    "metadata": {
+      "chunk_id": "d5e706f1727e4dbf00d2b488c48f779d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 54] overledger techniques solve issue like enumerating messages timestamps trashing trashing action overwhelming channel meaningless data business logic valid messages action malicious user involuntary act fact applications run blockchain messages application trash data applications e lack m2m communication means entity application loses pointer page 24 48 x0cto particular block transaction hosts hash message compare hash hashes valid messages applications run blockchain matching xe2 x80 x99s found means check message validated added chain users check messages store pointer 2 1 6 speed throughput messages building new decentralised applications blockchain layer affected parameters concerning underlying layers e g speed transactions energy efficiency scalability fact want act xe2 x80 x9cover layer xe2 x80 x9d accept respect latency underlying blockchain technologies involved discussion speed throughput messages relevant overledger applications require operations single multiple blockchain",
+    "metadata": {
+      "chunk_id": "9eac759f031d2d12df616598f8ac990d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 55] xe2 x80 x9d accept respect latency underlying blockchain technologies involved discussion speed throughput messages relevant overledger applications require operations single multiple blockchain s case time subsequent transaction needs properly accounted trivial case want perform layer action affects blockchain want sure hash action stored valid transaction blockchain transaction valid consensus achieved distributed network meaning correct node appends set block transaction s xe2 x80 x9cm xe2 x80 x9d copy blockchain appending set block transaction s xe2 x80 x9cn xe2 x80 x9d correct node append xe2 x80 x9cn xe2 x80 x9d xe2 x80 x9cm xe2 x80 x9d copy blockchain concept consensus finality related idea correctness existence single global set recognised transactions system refers ability distributed system resilient correct transaction multiple times referred problem double spending forks 29 respect blockchain follow randomised probabilistic consensus e g bitcoin deterministic blockchains",
+    "metadata": {
+      "chunk_id": "e8fc91e0d8bffe31db533a7558a1bb28",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 56] system resilient correct transaction multiple times referred problem double spending forks 29 respect blockchain follow randomised probabilistic consensus e g bitcoin deterministic blockchains based lamport byzantine fault tolerance 9 example case bitcoin xe2 x80 x9csure xe2 x80 x9d commitment transaction use heuristic 6 confirmed blocks reduce probability come longer chain making transaction invalid let xe2 x80 x99s suppose action ready particular time need wait latency deterministic transaction accepted added block period need wait probabilistic period time consensus achieved 6 blocks bitcoin case 2 2 filtering ordering layer benefits blockchains capability store transactions distributed replicated collision free hiding puzzle friendly 6 hashed data structure way quickly detect changes log data structure manipulation data tamper evident property consensus mechanism embedded blockchain xe2 x80 x99s protocol unequivocally decides order valid blocks filtering sorting blocks allows",
+    "metadata": {
+      "chunk_id": "4103e3d676d077ae85e04f0c683a5590",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 57] log data structure manipulation data tamper evident property consensus mechanism embedded blockchain xe2 x80 x99s protocol unequivocally decides order valid blocks filtering sorting blocks allows trace ownership asset calculate balance account replaying transfers transactions beginning chain 20 transactions transfers secured digital signatures giving blockchain identification authorisation non repudiation properties signature algorithm key length public private key pairs hash function produce account address public key embedded particular blockchain protocol order property non repudiation property solve double spending problem blockchain challenge building xe2 x80 x9cover ledger xe2 x80 x9d ledgers define criterion according blocks sequentially ordered blockchains xe2 x80 x99 addresses standardised criterion intelligibly order different blocks different blockchains processed page 25 48 x0ctranslate addresses unique alphanumeric identifiers different blockchains format reference",
+    "metadata": {
+      "chunk_id": "9649942db2e091a0fef0ce7d524494ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 58] standardised criterion intelligibly order different blocks different blockchains processed page 25 48 x0ctranslate addresses unique alphanumeric identifiers different blockchains format reference architecture information contained ledgers filtering ordering layer logical physical layer set rules filtering small set messages transactions determines processing order regardless sequential position held respective ledger transaction extract information sources receivers coins script contract combine define rules ledgers allow users append arbitrary data transactions subsection 2 1 3 users use space fill fields messages xe2 x80 x99s space fingerprints messages meaningful hosting transactions use contained information filter order messages transactions different ways considering xe2 x80 x99s straightforward find order transactions ledgers challenging multi ledger environment previous section focused build message achieve section xe2 x80 x99ll introduce ordering problem focus xe2 x97 x8f set",
+    "metadata": {
+      "chunk_id": "b4293f2d1c9204b981efb8af1a85a327",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 59] find order transactions ledgers challenging multi ledger environment previous section focused build message achieve section xe2 x80 x99ll introduce ordering problem focus xe2 x97 x8f set order binary relation blocks different blockchains xe2 x97 x8f allow cross ledger transactions mapping addresses blockchains address valid overledger domain order transactions application application scans ledgers involved places transaction hashes compliant applications blockchain programming interface bpi virtual block called verification block hash pointer verification block written blockchains forming application given interval dependent variables number application transactions block height etc application scans blockchains involved verification block new bpi compliant transactions appended blockchains application appended verification block updated blockchains involved note order transactions block invalid transactions design verification block keeping order chains involved application hashes",
+    "metadata": {
+      "chunk_id": "b520ae555e206aae0668b2aa97617914",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 60] application appended verification block updated blockchains involved note order transactions block invalid transactions design verification block keeping order chains involved application hashes appended consensus reached 2 2 1 filtering criterion overledger messaging layer contains potentially infinite combinations messages information existing ledgers find way bound set introduce filtering rules drop messages xe2 x80 x99re interested handling overledger rules related transactions fields fields filled arbitrary data chain messages means set rules messages fingerprints ledgers xe2 x80 x99ve levels apply rules xe2 x97 x8f transaction validation rules xe2 x97 x8f chain messages validation rules category set rules information transaction set rules include choice permitted ledgers produce messages xe2 x80 x99ve picked ledgers use need decide fields selected difficult ledger transaction structure page 26 48 x0cbut need select fields build consistent messages ledgers chose set shared fields",
+    "metadata": {
+      "chunk_id": "38918877b30471009c32a87c3129614f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 61] xe2 x80 x99ve picked ledgers use need decide fields selected difficult ledger transaction structure page 26 48 x0cbut need select fields build consistent messages ledgers chose set shared fields xe2 x80 x99s difficult create compliant messages ledgers example select ledgers having similar transaction structure look addresses source receiver xe2 x80 x99ll need find way map addresses allow exchange ledgers reason band messages useful provide ability implement map eventually detailed information fact map addresses different transaction ledgers xe2 x80 x99 external messages messages contain signature user fingerprints transactions apply complex logic messages example utilising validation schema transaction information essential contain low level information addresses coin information example application allow messages pay lower level transaction ledger addresses certain coin use source transaction send response possibly use script smart contract information allow legacy application work 2",
+    "metadata": {
+      "chunk_id": "179a701f54d2f883547b2fb96d1f6b42",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 62] allow messages pay lower level transaction ledger addresses certain coin use source transaction send response possibly use script smart contract information allow legacy application work 2 2 2 ordering criterion overledger order binary relations address order problem faced filtering ordering layer resort order theory branch mathematics studies order binary relations theory provides formal tools compare objects set decide greater consider objects comparable different ways example xe2 x80 x99s possible sort set natural numbers magnitude lexicographical order complex objects composed fields compared combination fields use concept partially ordered set poset 4 order blocks transactions poset formalises generalises intuitive concept ordering sequencing arrangement elements set poset consists set binary relation indicating certain pairs elements set elements precedes ordering e pair elements need comparable given set p relation xe2 x89 xa4 p elements xe2 x89 xa4 partial order iff x y z p",
+    "metadata": {
+      "chunk_id": "2849eb2ec664b3a2817d6099908b644b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 68] maximals list ingoing edges minimal sets element xe2 x80 x99s sufficient way prove existence greatest element element xe2 x80 x99s possible check element predecessor successor checking path exists connecting elements o v e depth search 28 fig 11 dag divisors 30 ordered divisibility blocks order popular blockchains blockchain consensus relates set rules procedures allowing maintain update ledger guarantee trustworthiness records ledger e reliability authenticity accuracy 29 rules procedures jointly considered designing active network consensus validation process individual configuration combination determines overall blockchain agreement achieved ledger xe2 x80 x99s updated new information business logic perspective correct order information critical establish ownership page 29 48 x0crights obligations 2 particular new information added ordered stored ledger different rules consensus immutability failure tolerance 29 common rules include proof work pow proof stake pos hybrid solutions",
+    "metadata": {
+      "chunk_id": "fb27306749e8241857f47f1279b2e596",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 69] obligations 2 particular new information added ordered stored ledger different rules consensus immutability failure tolerance 29 common rules include proof work pow proof stake pos hybrid solutions like xe2 x80 x9cpow pos xe2 x80 x9d pow blocks act checkpoints containing transactions anchor pos chain example bitcoin ethereum use set rules respectively called hashcash 31 etash based pow pow setup miners connected network perform task validating transactions proposed addition blockchain solving inversion cryptographic function solution found brute force pow probability mining new block depends instantaneous computational power devoted task miners connected network rule xe2 x80 x9cone cpu vote xe2 x80 x9d pow miners continuously asked brute force way hash function computing new hash values based combination previous hash values contained message new transaction block nonce new hash value start given number zeros xe2 x89 xa4 target way xe2 x80 x99s easy build strict binary relation blocks",
+    "metadata": {
+      "chunk_id": "c87c6879dd3d26c159c5808c0c08c654",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 70] combination previous hash values contained message new transaction block nonce new hash value start given number zeros xe2 x89 xa4 target way xe2 x80 x99s easy build strict binary relation blocks differently pow pos creator new block selected deterministic way depending stake block generation linked proof ownership certain digital assets e g digital currencies linked blockchain probability prover selected verify block larger larger share assets prover system underlying assumption users large share system xe2 x80 x99s wealth likely provide trustworthy information respect verification process considered trusted validator 32 case dlts storage data isn xe2 x80 x99t based chains blocks ripple 31 addition new information ledger based iterative processes node builds transaction set based newer transactions knows candidate set broadcasts trusted network proposed transaction set applied ledger node receives proposed transaction set trusted nodes implicitly votes transaction set xe2 x80 x9cyes",
+    "metadata": {
+      "chunk_id": "c0f4300b412c4cb446cc097b77c4100b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 71] knows candidate set broadcasts trusted network proposed transaction set applied ledger node receives proposed transaction set trusted nodes implicitly votes transaction set xe2 x80 x9cyes xe2 x80 x9d xe2 x80 x9cno xe2 x80 x9d including newer proposed transaction set certain percentage nodes trusted network specific node votes transaction node add transaction set awhile percentage threshold rises making transaction set converge added ledger concerning specific timing scheme blocks transaction order overledger things seen consensus techniques order blocks xe2 x80 x99s convenient represent hasse diagram order blocks b s s set blocks relation states block comes b total strict order meaning given blocks xe2 x80 x99s possible choose comes example fig 12 represents hasse diagram order problem 4 blocks fig 12 hasse diagram order b s s set blocks 1a 2a 3a 4a page 30 48 x0cif blocks conflicting transactions transaction greatest latest block isn xe2 x80 x99t valid coin xe2 x80 x99s considered",
+    "metadata": {
+      "chunk_id": "0ac96592b2be5977d3c6195e93ddd8dc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 72] 4 blocks fig 12 hasse diagram order b s s set blocks 1a 2a 3a 4a page 30 48 x0cif blocks conflicting transactions transaction greatest latest block isn xe2 x80 x99t valid coin xe2 x80 x99s considered spent ordering partially solves double spending challenge happens conflicting transactions present block transactions block timestamp model set transactions total poset t xe2 x89 xa4 w w set transactions contained blocks xe2 x89 xa4 binary relation compares transaction order example fig 13 represents hasse diagram poset problem 3 blocks 5 transactions luckily problem automatically solved blockchain protocols blocks conflicting invalid transactions eligible added xe2 x80 x99re proposed block ledger xe2 x80 x99re dropped way xe2 x80 x99s possible conflicting transactions different blocks block 29 fig 13 hasse diagram poset t w w set transaction t1 t2 t3 t4 t5 overledger block order order set blocks transactions particular blockchain modelled total order comparison order blocks transactions",
+    "metadata": {
+      "chunk_id": "0b8cbd4a9bbc0093f5435e232f517bd9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 73] 29 fig 13 hasse diagram poset t w w set transaction t1 t2 t3 t4 t5 overledger block order order set blocks transactions particular blockchain modelled total order comparison order blocks transactions different blockchains impossible elements exist inside different domains fig 14 blockchains overledger representation problem represented fig 14 showing hasse diagram set blocks different blockchains blockchain b order poset o xe2 x89 xa4 s s set 1a 2a 3a 2b 3b 4b xe2 x89 xa4 binary relation deciding block comes xe2 x80 x99s way compare block 1a 2b couple blocks belonging different chains easiest solution problem use timestamps decide block comes dealing different consensus mechanisms timing scheme regulating way new blocks added chains choice non compliant cross ledger business logic xe2 x80 x99s possible chains don xe2 x80 x99t use timestamp comparable fact timestamps define time range transactions considered occurred timestamps expressed windows distributed system xe2 x80 x9ctrue xe2",
+    "metadata": {
+      "chunk_id": "783aea2234960041970b2159bcd30c2f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 74] x99s possible chains don xe2 x80 x99t use timestamp comparable fact timestamps define time range transactions considered occurred timestamps expressed windows distributed system xe2 x80 x9ctrue xe2 x80 x9d time example bitcoin blockchain block rejected contains timestamp 1 lower equal median timestamp previous blocks 2 greater equal xe2 x80 x9cnetwork adjusted time xe2 x80 x9d 2 hours isn xe2 x80 x99t problem page 31 48 x0cin overledger xe2 x80 x99s need compare transactions moving assets existing blockchain domain don xe2 x80 x99t conflicting transactions situation changes xe2 x80 x99ll introduce cross ledger transactions subsection 2 3 case xe2 x80 x99ll explain compare blocks different chains detect conflicting transactions cross ledger transaction block poset fig 15 provides example cross ledger transaction blockchains xe2 x80 x9cpurple xe2 x80 x9d b xe2 x80 x9cgreen xe2 x80 x9d block contains set transactions identified unique field serial composed xe2 x80 x99coin xe2 x80 x99",
+    "metadata": {
+      "chunk_id": "4b69c33b2804f1253f8e937419c20a06",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 75] cross ledger transaction blockchains xe2 x80 x9cpurple xe2 x80 x9d b xe2 x80 x9cgreen xe2 x80 x9d block contains set transactions identified unique field serial composed xe2 x80 x99coin xe2 x80 x99 field indicating asset moved transaction xe2 x80 x99public key xe2 x80 x99 field showing user xe2 x80 x99s moving asset block 2 blockchain 2 transaction indexed 2 cross ledger transaction moves asset 3 blockchain 3 user u4 blockchain u4 user u1 blockchain b u1 b fig 15 cross ledger overledger transaction representation transaction appears according blockchain b semantics block 3 b index 0 sake simplicity assume blockchain semantics transactions represent transfer xe2 x80 x99s evident blocks containing transactions happen concerning business logic example blocks added different consensus methods xe2 x80 x99s unlikely xe2 x80 x99re added time avoid inconsistency xe2 x80 x99s mandatory find way allow atomic cross ledger transactions unfortunate case blockchains record transaction overledger",
+    "metadata": {
+      "chunk_id": "eb5c63f9281ef0139488fad495ce61ce",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 76] xe2 x80 x99s unlikely xe2 x80 x99re added time avoid inconsistency xe2 x80 x99s mandatory find way allow atomic cross ledger transactions unfortunate case blockchains record transaction overledger representation transactions blocks happen time business logic xe2 x80 x99re added subsequent blocks choice explained later xe2 x80 x99ll introduce protocol achieve atomicity user owning asset proposes transfer subsection 2 3 fig 16 xe2 x80 x99s hasse diagram set blocks different blockchains ordered binary relation stating block comes according overledger business logic fig 14 wasn xe2 x80 x99t possible compare blocks different blockchains case fig 15 xe2 x80 x99re able compare cross ledger transaction 1a xe2 x89 xa4 4b 2b xe2 x89 xa4 3a model overledger chain containing blocks different chains block overledger block include blocks different blockchains page 32 48 x0cfig 16 hasse diagram poset o xe2 x89 xa4 s s blocks blockchains fig 15 poset set minimal blocks block zorn xe2 x80 x99s lemma",
+    "metadata": {
+      "chunk_id": "d72ba4c2b14e896c373c902b6ead8e34",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 77] block overledger block include blocks different blockchains page 32 48 x0cfig 16 hasse diagram poset o xe2 x89 xa4 s s blocks blockchains fig 15 poset set minimal blocks block zorn xe2 x80 x99s lemma duality fig 17 represents overledger based cross ledger transactions shown fig 16 fig 17 overledger modelled blockchain block set 4 6 note block 2 3 grouped overledger block contain blocks different blockchains includes set transactions blocks example shown fig 15 model overledger block regular block transactions xe2 x80 x99re sure xe2 x80 x99s conflicts surmise happen time fig 18 transactions n block overledger shown fig 17 page 33 48 x0cblockchain blockchains blocks blockchain xe2 x80 x99t model transactions happening time lead enter set conflicting transactions fact strict order relation exists transactions different blocks blockchain reason consider equal fig 19 conflicting transactions block fig 19 hasse diagram showing order blocks shows cross ledger transaction blocks 2a 3b case",
+    "metadata": {
+      "chunk_id": "f406bee8ce001270afe2b7630e960b63",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 78] exists transactions different blocks blockchain reason consider equal fig 19 conflicting transactions block fig 19 hasse diagram showing order blocks shows cross ledger transaction blocks 2a 3b case transaction block 1b transfers coin 1 b u1 b u2 b transaction block 2b moves coin u2 b u3 b xe2 x80 x99s clear strict order relation transactions xe2 x80 x99t ignore order consider transactions happened moment transfer moves coin u2 b isn xe2 x80 x99t valid u2 b doesn xe2 x80 x99t coin overledger treats blocks transactions set poset regular set leads block model contain little piece different chains obtain computer science known list lists case blockchain blockchains fig 20 blockchain blockchains representation overledger hasse diagram fig 19 fork issue multi ledger applications described blockchains list valid blocks said common rules accept new block valid cases blockchain suffer fork problem 3 fork situation blockchain splits separate chains temporarily permanently forks naturally occur",
+    "metadata": {
+      "chunk_id": "a8f58d5d4a5a7f61ce95c24ec54e3b3b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 79] list valid blocks said common rules accept new block valid cases blockchain suffer fork problem 3 fork situation blockchain splits separate chains temporarily permanently forks naturally occur miners unintentionally solve pow puzzle nearly time generate distinct blocks succeed block page 34 48 x0can undesirable situation transactions branches ordered conflicting rule situations longer branch main chain long chain rule fork forms branch quickly longer extended miners system xe2 x80 x99s state agreed blocks shorter branch pruned transactions ignored happened forks occur consequence use distinct sets rules trying govern blockchain case fork permanent soft hard 33 regardless reason forks compromise blockchain business logic example branch containing set messages containing completely different set messages different order problem solved single ledger environments techniques unfortunately applicable context fork situation branches conflict xe2 x80 x99re consistently way solve problem",
+    "metadata": {
+      "chunk_id": "535c94d44b0be49291d259893753489e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 80] set messages different order problem solved single ledger environments techniques unfortunately applicable context fork situation branches conflict xe2 x80 x99re consistently way solve problem single ledger environment clear universally recognised set rules like long chain rule independently allowing users univocally pick valid branches ones let xe2 x80 x99s imagine overledger application interacts distinct blockchains b fig 21 fork happens block 3 blockchain 3 overledger application aware fork append transactions block 4 4 a1 later discover surviving branch doesn xe2 x80 x99t include block 4 a1 ordering business logic compromised single blockchain fork resistant backup consistent state xe2 x80 x99t sure restored consistent state consistent business logic blockchain b involved overledger application fig 21 example fork happening ledgers overledger leading inconsistency 2 3 cross ledger transactions distributed environment xe2 x80 x99s challenging build applications hand want",
+    "metadata": {
+      "chunk_id": "271da9eeb68077409e8053b1955976e7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 81] application fig 21 example fork happening ledgers overledger leading inconsistency 2 3 cross ledger transactions distributed environment xe2 x80 x99s challenging build applications hand want applications guarantee validity event failures errors hand want high availability security openness harder environment nodes behave according bar model byzantine altruistic rational context develop system xe2 x80 x99s time acid compliant byzantine fault tolerant bft achieving acid bft ledger logic challenging failures errors malicious behaviour sub chains page 35 48 x0cinteractions previous section introduced cross ledger transactions studied importance build order blocks different blockchains order transactions 2 3 1 blockchain transaction properties computer science acronym acid stands atomicity consistency isolation durability 34 xe2 x97 x8f atomicity changes data performed xe2 x80 x99re single operation changes performed xe2 x97 x8f consistency data consistent state transaction starts ends xe2",
+    "metadata": {
+      "chunk_id": "ab048a25f729ba20ee6caa73da2e0b6d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 83] system guarantee following properties time xe2 x97 x8f consistency time user manages read data receive recent value data xe2 x80 x99re guaranteed receive answer xe2 x97 x8f availability time user try read data receive reply ensured receives recent values xe2 x97 x8f partition tolerance system work messages lost different partitions system base system gives consistency exchange availability basically available indicates system guarantee availability terms cap theorem soft state indicates state system change time input eventual consistency model eventual consistency indicates system consistent time given system doesn xe2 x80 x99t receive input time base architecture domains xe2 x80 x99s huge demand data approximate answers tolerated stale data e commerce sites item stock users happen users buy item xe2 x80 x99s issue ecommerce site sell item customer apologise contexts users dealing asset transfers xe2 x80 x99s need assure validity acid properties blockchains don xe2 x80 x99t guarantee",
+    "metadata": {
+      "chunk_id": "1193b103fe4e6ebeff8dd5031f723e4c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 84] buy item xe2 x80 x99s issue ecommerce site sell item customer apologise contexts users dealing asset transfers xe2 x80 x99s need assure validity acid properties blockchains don xe2 x80 x99t guarantee deterministic way acid properties consider section 2 3 2 acid blockchain atomicity transaction breakable smaller operations execution binary succeeds aborts blockchain guarantees atomicity transaction present absent block intermediate states operation fail page 36 48 x0ccase smart contracts xe2 x80 x99s true xe2 x80 x99s precise state assets contract constraints ruling assets committed aborted consistency operation executed system state compliant business logic execution operation system different state compliant business logic changes states shifts focus assure data integrity system upheld aware consistency different meaning consistency cap theorem blockchain guarantees consistency fact time transactions validated block appended appending new block lead blockchain invalid state consensus",
+    "metadata": {
+      "chunk_id": "ab4ca81f9e982f500570d9a63e9a89fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 85] consistency different meaning consistency cap theorem blockchain guarantees consistency fact time transactions validated block appended appending new block lead blockchain invalid state consensus mechanism assures xe2 x80 x99s valid block takes blockchain valid newer state isolation transaction executed way won xe2 x80 x99t interfere having result system executes transactions sequentially block xe2 x80 x99s strict order blockchain guarantees isolation property durability committing transaction produces changes persistent blockchains nondeterministic consensus agreement finality 29 like bitcoin don xe2 x80 x99t guarantee property deterministic way probability disagree decreases time probability incurring fork xe2 x80 x99t completely eliminated transactions blocks persistent blockchains deterministic consensus agreement finality like based lamport byzantine fault tolerance 9 guarantee property consensus converges certainty transactions immediately confirmed rejected ledger 2 3 3 base",
+    "metadata": {
+      "chunk_id": "3d903ba7e0d67993bd82d82a570f9d98",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 86] consensus agreement finality like based lamport byzantine fault tolerance 9 guarantee property consensus converges certainty transactions immediately confirmed rejected ledger 2 3 3 base blockchain eventual consistency according model different nodes store different conflicting states logic sufficiently long period nodes detect conflicts solve means nodes eventually updated version data architecture enforces liveness nodes don xe2 x80 x99t need sure data version update directly answer request best answer strong eventual consistency sec contexts data updates bring state point point b regardless order transactions words nodes receive messages different order xe2 x80 x99re considered state logic counter receives increment operations decrement operations state value regardless order operations property isn xe2 x80 x99t true transactions lead invalid state set transactions poset xe2 x80 x99t ignore order shown fig 19 blocks blockchain order guarantees consistency transactions embedded",
+    "metadata": {
+      "chunk_id": "230cb0c7420fd1e87952f9973b09b0c4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 87] property isn xe2 x80 x99t true transactions lead invalid state set transactions poset xe2 x80 x99t ignore order shown fig 19 blocks blockchain order guarantees consistency transactions embedded format node receives blocks different order rebuild proper order hash pointers means blockchains considered strong eventual consistency sec systems acid case deterministic consensus converge probability acid case non deterministic consensus case probability estimated proportional number confirmed blocks succeeding block interest 2 3 4 cross ledger transaction acid page 37 48 x0catomicity cross ledger transactions need record data blockchains interested exchange information easiest case like shown fig 15 transaction needs recorded domains blockchain b transfer operation longer atomic single ledger operations consists sub operations consistency reasons happen cross ledger transaction recorded blockchains breaking consistency blockchains fact example blockchain records transfer asset domain",
+    "metadata": {
+      "chunk_id": "e852e9d79777ac53aeed2f117d7df6f6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 88] operations consists sub operations consistency reasons happen cross ledger transaction recorded blockchains breaking consistency blockchains fact example blockchain records transfer asset domain blockchain b according asset considered b conversely blockchain b consider asset case blockchains don xe2 x80 x99t agree asset exist domain xe2 x80 x99s data integrity violation isolation cross ledger transactions don xe2 x80 x99t guarantee isolation let xe2 x80 x99s suppose blockchain b xe2 x80 x99s transaction moves asset user u1 b suppose transfer failed blockchain user u1 b use partial information asset doesn xe2 x80 x99t example happen acting uncommitted information durability cross ledger transactions based blockchains durability property guaranteed blockchains based deterministic consensus instead blockchains based nondeterministic consensus estimate probability xe2 x80 x99s product confirmation probabilities blockchains 2 3 5 phase commit cross ledger transactions transaction",
+    "metadata": {
+      "chunk_id": "12b0875c5289fe3fada4613ad24c7646",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 89] instead blockchains based nondeterministic consensus estimate probability xe2 x80 x99s product confirmation probabilities blockchains 2 3 5 phase commit cross ledger transactions transaction processing databases computer networking phase commit protocol 2pc type atomic commitment protocol validates transactions distributed environments xe2 x80 x99s distributed algorithm coordinates processes participating distributed atomic transaction commit abort roll transaction 37 terms 2pc ensures databases updated databases remain synchronised algorithm able achieve goal cases temporary system failure involving process network node communication etc failures computer nodes network interested transaction example fig 22 node1 node2 need express commit abort coordinator according time scheme coordinator receives commits nodes validate transaction abort xe2 x80 x99s called phase commit commit reached phases voting phase nodes express intention commit abort second phase commit phase coordinator",
+    "metadata": {
+      "chunk_id": "67214add20dfb2aa799599d42e4a9e62",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 90] receives commits nodes validate transaction abort xe2 x80 x99s called phase commit commit reached phases voting phase nodes express intention commit abort second phase commit phase coordinator commit transaction xe2 x80 x99s abort error messages problem cross ledger transactions need distribute coordinator xe2 x80 x99s job proposed scheme fig 23 role coordinator entities clients client server exchange asset start interaction posting xe2 x80 x9cready xe2 x80 x9d message acts like commit request blockchains involved succeed add xe2 x80 x9cready xe2 x80 x9d message chains confirm commit transaction chain transfer started messages xe2 x80 x9cready xe2 x80 x9d hash pointer proposed message prove user xe2 x80 x99s intentions final commit message contains hash pointers xe2 x80 x9cready xe2 x80 x9d messages simple scheme locks coin successful transfer build complicated models including ability abort involved blockchain e g transaction proposed page 38 48 x0c fig 22 phase commit scheme fig 23",
+    "metadata": {
+      "chunk_id": "48d437b84ae4193599e3b9a1423e8b1b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 91] messages simple scheme locks coin successful transfer build complicated models including ability abort involved blockchain e g transaction proposed page 38 48 x0c fig 22 phase commit scheme fig 23 phase commit scheme ledgers rare occasions application write transaction blockchains involved transaction invalidated consensus mechanism performing fork ordering solution shown fig 24 solves issue appending known verification block common blockchains involved forked chain application scans blockchain reappending transactions invalidated fork standard ordering method crossledger fork issue shown diagram fig 24 named solution verification block fig 24 verification block process page 39 48 x0c2 4 application layer section xe2 x80 x99ll explore application layer upper reference architecture domain isolated applications business logic independent lower component applications chance communicate putting messages messaging layer messages compliant filtering rules application page 40 48 x0cflow",
+    "metadata": {
+      "chunk_id": "63a4ee1b31cc1d83d24705df9a15e8e2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 92] isolated applications business logic independent lower component applications chance communicate putting messages messaging layer messages compliant filtering rules application page 40 48 x0cflow filtering ordering layer application layer applications chance implement communication mechanisms scheme scheme allows anonymous users send message application xe2 x80 x99s compliant business logic 2 4 1 overledger applications previous sections explored theoretic point view build overledger architecture adding messages meta information different ledgers giving order making complex application business logic section xe2 x80 x99ll describe steps perform basic transaction e append message overledger start providing clear formal description overledger building blocks blockchain programming interface bpi overledger definition overledger described sorted list messages satisfy set unambiguous properties set properties define valid format message build fingerprint requirements dependant methods",
+    "metadata": {
+      "chunk_id": "254ba450b4f0f02570564a27fbfe3dc1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 93] bpi overledger definition overledger described sorted list messages satisfy set unambiguous properties set properties define valid format message build fingerprint requirements dependant methods required transaction contain fingerprint valid message considered overledger application list messages defines messaging layer overledger set rules determines sort valid messages sorted list called ordering filtering layer system overledger reacts sequence change state change sets rules results different list messages different permutation systems different control logic share overledger respect rules blockchain programming interface bpi multi ledger applications wanting use overledger need define sets mandatory optional rules rules determine wire protocol interact overledger system users applications non exhaustive list rules includes xe2 x97 x8f accept messages validated specific schema xe2 x97 x8f accept messages respect certain pattern sequences e g 2pc want receive xe2 x80 x9cpropose xe2",
+    "metadata": {
+      "chunk_id": "9643f55376f4df1484361d84480dfd6e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 94] non exhaustive list rules includes xe2 x97 x8f accept messages validated specific schema xe2 x97 x8f accept messages respect certain pattern sequences e g 2pc want receive xe2 x80 x9cpropose xe2 x80 x9d message xe2 x80 x9cready xe2 x80 x9d message xe2 x97 x8f accept messages fingerprint hash appended particular set ledgers xe2 x97 x8f accept messages fingerprint specific source recipe addresses xe2 x97 x8f accept messages fingerprint spending certain cryptocurrency application define complex messages use combination e g different messages different validation schema different rules transactions hosting fingerprint rules involve information example script contract contain respect schema similar systems expose apis fact systems application level publish file library interact system abstract data type adt likewise set rules describe interact overledger assume approach having api application layer rules messaging layer technology independent approach bpi blockchain programming interface",
+    "metadata": {
+      "chunk_id": "274bdc2c43550761771378965351f023",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 95] data type adt likewise set rules describe interact overledger assume approach having api application layer rules messaging layer technology independent approach bpi blockchain programming interface bpi essentially marked text defines specific overledger rules application follow order add messages read output write ledgers question bpi automatically read clients implement required methods according technology xe2 x80 x99re creating overledger software development kit sdk set software development tools page 41 48 x0cthat allow applications define rules bpi need address low level details transactions messages sdk xe2 x80 x99ll enable additional methods appropriate interface lower level functions ledgers question final overview overledger introduction overledger bpi provide simple example typical transaction journey describe steps followed order append valid message overledger example user client wants append specific message follow following rules 1 client reads requirements message",
+    "metadata": {
+      "chunk_id": "d1cf394ac489675202c6d0c85c79ce5d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 96] typical transaction journey describe steps followed order append valid message overledger example user client wants append specific message follow following rules 1 client reads requirements message wants append 2 client builds valid message m1 calculates fingerprint h1 3 client builds valid transaction t1 inserting fingerprint proposes systems charge proposing transactions 4 t1 appended ledger accepted bpi 5 client sends complete message application transaction t1 contains fingerprint note rules example interchangeable 2 4 2 application level responsibility sections 2 1 2 2 discussed different roles messaging layer filtering ordering layer explained logical layers didn xe2 x80 x99t explain xe2 x80 x99s charge implementing features filtering messages requires deep knowledge different blockchains included overledger application reason convenient build open source libraries helping application developer use high level function interact blockchains let xe2 x80 x99s example write",
+    "metadata": {
+      "chunk_id": "6e97c6cb16d203ed2a3fdc8b06b8fe2a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 97] blockchains included overledger application reason convenient build open source libraries helping application developer use high level function interact blockchains let xe2 x80 x99s example write operation client sending message particular application app id 1 import import import import import bitcoin btc ethereum eth json hashlib requests message definition jstring app id 1 message hello world client 1 msg json dumps jstring sort keys true hash function hashlib sha256 hash function update msg hash message hash function digest r requests post server address json msg page 42 48 x0ceth add msg chain hash message btc add msg chain hash message btc add msg chain hash message mode op return example code takes responsibilities layers lines related messaging filtering definition particular message format values particular message instance chosen hash function method message added ledger lines code bitcoin chain allow different way add information ledger line optional parameter mode",
+    "metadata": {
+      "chunk_id": "3925c4511214ebe150396e53f5e1f69a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 98] message format values particular message instance chosen hash function method message added ledger lines code bitcoin chain allow different way add information ledger line optional parameter mode specifies default option performs post operation send entire message network op return script opcode mark bitcoin transaction output invalid outputs op return provably un spendable op return digital asset proof ofownership transaction based business logics server responsible checking message valid case hash message blockchains interest proper transaction parameters addresses coins check message chain application needs perform scan newer blocks react finds message lead solutions need timeout complex protocol server finds hash message react json file xe2 x80 x99s information receiver case xe2 x80 x99s field xe2 x80 x9cclient xe2 x80 x9d message equal number refer client address set configurations allow server reply schema adding messages blockchains design solution assign responsibility check",
+    "metadata": {
+      "chunk_id": "00b29c7eea1ac7d17c812242cfe3e90b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 99] x99s field xe2 x80 x9cclient xe2 x80 x9d message equal number refer client address set configurations allow server reply schema adding messages blockchains design solution assign responsibility check hash client scan interested ledgers finds transaction prove providing transaction xe2 x80 x99s hash pointer e g merkle tree proof server case server quickly check lowest details doesn xe2 x80 x99t need pull interested chains scan example introduce import statement library xe2 x80 x9cquant xe2 x80 x9d takes responsibility tasks filtering order layer application loads configuration file hosted local storage downloaded time guarantee consistency application upgrade client application case developer needs focus business logic client import quant app builder q app new q client application conf txt information filtering layer app set configuration conf txt jstring app id 1 message hello world msg json dumps jstring app sendmessage msg page 43 48 x0c3 use cases uses overledger produced",
+    "metadata": {
+      "chunk_id": "a6a69d9c40649c4d41634a18b0811414",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 101] scales fig 25 cqrs architecture schema overledger overledger good fit pattern implementation fig 25 use different blockchains appending commands querying status useful application different scale reading writing different blockchains different levels security different throughput example sense use faster blockchain collect commands secure probably lower speed blockchain store valid transaction application logic use different blockchain different types aggregation according client xe2 x80 x99s needs blockchain store client state verification blocks overledger event sourcing oes pattern builds status system scanning events changed new event happens updating state system events sourcing architecture appends event stream state calculating replaying events appending events single operation oes inherently atomic way state calculated page 44 48 x0cmany similarities blockchain technology fig 26 events appended blockchain different domains applications retrieve event data different reasons",
+    "metadata": {
+      "chunk_id": "f2356274be1dc732ee7dd171c5d77841",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 103] 27 simple overledger message flow 4 conclusion paper propose design new operating system able increase interoperability different dlt technologies overledger operating system proposes approach order manage blockchain blocks forming overledger application eliminate double spending problems maintaining ability react situations dlt subject fork result accepted consensus solve challenges introducing bpi blockchain programming interface verification block described solutions coupled 2 phase commit facilitate crossledger transactions transactional messaging layer finally paper describes leveraging features underlying functionality dlt s utilised impose cqrs architecture pattern held managed externally interface dlts integrate legacy systems external data sources page 46 48 x0cbibliography 1 satoshi nakamoto bitcoin peer peer electronic cash system 2008 2 tomaso aste paolo tasca tiziana di matteo blockchain technologies foreseeable impact society industry computer 50 9 2017 18 28 3 paolo",
+    "metadata": {
+      "chunk_id": "dc8f682f0bcbef7001573b1364df7a61",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 104] satoshi nakamoto bitcoin peer peer electronic cash system 2008 2 tomaso aste paolo tasca tiziana di matteo blockchain technologies foreseeable impact society industry computer 50 9 2017 18 28 3 paolo tasca digital currencies principles trends opportunities risks september 7 2015 available ssrn https ssrn com abstract 2657598 4 birkhoff garrett lattice theory 25 3rd revised ed american mathematical society 1940 5 luke dashjr mark friedenbach gregory maxwell andrew miller andrew poelstra jorge timn adam matt corallo pieter wuille enabling blockchain innovations pegged sidechains 2012 6 edward felten andrew miller steven goldfeder arvind narayanan joseph bonneau bitcoin cryptocurrency technologies 2015 7 ryan shea michael j freedman princeton university jude nelson muneeb ali blockstack labs extending existing blockchains virtualchain 2017 8 jae kwon ethan buchman cosmos network distributed ledgers 9 marshall pease leslie lamport robert shostak byzantine generals problem 1982 10 jude",
+    "metadata": {
+      "chunk_id": "475335f99bd2e03574c8b6f25315462a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 105] extending existing blockchains virtualchain 2017 8 jae kwon ethan buchman cosmos network distributed ledgers 9 marshall pease leslie lamport robert shostak byzantine generals problem 1982 10 jude nelson muneeb ali ryan shea michael j freedman blockstack new internet decentralised applications 2017 11 barbara liskov miguel castro practical byzantine fault tolerance laboratory computer science massachusetts institute technology 1999 12 pierre karpman ange albertini marc stevens elie bursztein yarik markov aion generation blockchain network 2017 13 pierre karpman ange albertini marc stevens elie bursztein yarik markov collision sha 1 2017 14 digital asset platform non technical white paper 2016 manny trillo 15 stefan thomas evan schwartz protocol interledger payments 2016 16 gavin wood polkadot vision heterogeneous multi chain framework 2016 17 gavin wood ethereum secure decentralised generalised transaction ledger yellow paper 18 jae kwon tendermint consensus mining 2014 19 matthew",
+    "metadata": {
+      "chunk_id": "0cd1dab5e3253c788c8e9e73714ed954",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 106] vision heterogeneous multi chain framework 2016 17 gavin wood ethereum secure decentralised generalised transaction ledger yellow paper 18 jae kwon tendermint consensus mining 2014 19 matthew spoke nuco engineering team aion generation blockchain network 2017 20 paolo tasca shaowen liu adam hayes evolution bitcoin economy extracting analyzing network payment relationships forthcoming journal risk finance 2018 21 aliprantis charalambos d burkinshaw owen principles real analysis ed academic 1998 22 campbell pj origin xe2 x80 x9czorn s lemma xe2 x80 x9d historia mathematica 1978 feb 1 5 1 77 89 23 bitcoin wiki 2018 op return online available https en bitcoin wiki op return accessed 13 january 2018 24 ethereum github 2018 ethereum development tutorial online available https github com ethereum wiki wiki ethereum development tutorial accessed 29 january 2018 25 ripple 2018 transactions format online available https ripple com build transactions accessed 29 january 2018 26 davey b priestley",
+    "metadata": {
+      "chunk_id": "01f0455c0109ed7bfcbbfe5d112b44d1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 107] wiki wiki ethereum development tutorial accessed 29 january 2018 25 ripple 2018 transactions format online available https ripple com build transactions accessed 29 january 2018 26 davey b priestley h introduction lattices order 2nd ed cambridge university press 2002 27 cqrs 2018 welcome cqrs info online available https cqrs wordpress com 2010 09 08 welcome cqrs info accessed 29 january 2018 28 shimon graph algorithms 2nd ed cambridge university press pp 46 xe2 x80 x9348 2011 29 paolo tasca thayabaran thanabalasingham claudio j tessone taxonomy blockchain technologies principles identification classification forthcoming ledger journal 2018 30 adam hashcash denial service counter measure 2002 31 david schwartz noah youngs arthur britto ripple protocol consensus algorithm 2014 page 47 48 x0c32 juri mattila blockchain phenomenon blockchain phenomenon berkeley roundtable international economy 2016 edn 2016 33 peter todd soft forks safer hard forks 2016 online available https petertodd org",
+    "metadata": {
+      "chunk_id": "2957c431fc6374554a9cda39216173c5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 108] juri mattila blockchain phenomenon blockchain phenomenon berkeley roundtable international economy 2016 edn 2016 33 peter todd soft forks safer hard forks 2016 online available https petertodd org 2016 soft forks safer hard forks accessed 10 january 2018 34 haerder t reuter principles transaction oriented database recovery acm computing surveys 15 4 287 doi 10 1145 289 291 1983 35 brewer eric robust distributed systems podc vol 7 2000 36 bitcoin wiki colored coins https en bitcoin wiki colored coins 2018 accessed 03 january 2018 37 philip bernstein vassos hadzilacos nathan goodman concurrency control recovery database systems chapter 7 addison wesley publishing company 1987 38 rob price digital currency ethereum cratering $50 million hack business insider 16 jun 2016 13 online available http uk businessinsider com dao hacked ethereum crashing value tensof millions allegedly stolen 2016 6 ir t accessed 01 december 2017 39 croman kyle et al scaling decentralised blockchains",
+    "metadata": {
+      "chunk_id": "b8c8c6944d6a7c54f0cb1feb85af4f28",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Quant.txt"
+    }
+  },
+  {
+    "text": "[Section 109] available http uk businessinsider com dao hacked ethereum crashing value tensof millions allegedly stolen 2016 6 ir t accessed 01 december 2017 39 croman kyle et al scaling decentralised blockchains international conference financial cryptography data security springer berlin heidelberg 2016 40 paolo tasca sebastian widmann challenges faced blockchain technologies xe2 x80 x93part 1 journal digital banking 2 2 2017 132 147 41 paolo tasca sebastian widmann challenges faced blockchain technologies xe2 x80 x93part 2 forthcoming journal digital banking 2018 page 48 48 x0c",
+    "metadata": {
+      "chunk_id": "1f8093eb3977a100cbe26dc155b85710",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Quant.txt"
+    }
+  }
+]

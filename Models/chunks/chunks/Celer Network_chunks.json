@@ -1,0 +1,2451 @@
+[
+  {
+    "text": "[Section 1] b celer network bring internet scale blockchain scalesphere foundation ltd xe2 x80 x9cfoundation xe2 x80 x9d june 15 2018 draft subject change abstract like 56kbps dialup internet 90s possibly support 4k video streaming insufficient scalability today xe2 x80 x99s blockchain key factor limiting use cases current blockchains low throughput operation needs processed vast majority nodes reach chain consensus exactly xe2 x80 x9dhow build super slow distribution system xe2 x80 x9d ironically chain consensus scheme leads poor privacy node transaction history new consensus algorithms getting proposed developed hard free chain consensus fundamental limitations o xe2 x86 xb5 chain scaling techniques allow mutually distrustful parties execute contract locally instead global blockchain parties involved transaction maintain multi signature fraud proof o xe2 x86 xb5 chain replicated state machine resort chain consensus absolutely necessary e g parties disagree state o xe2 x86 xb5 chain scaling way",
+    "metadata": {
+      "chunk_id": "97410055278d0c68d3ca92c86c8d15c2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 2] transaction maintain multi signature fraud proof o xe2 x86 xb5 chain replicated state machine resort chain consensus absolutely necessary e g parties disagree state o xe2 x86 xb5 chain scaling way support fully scale decentralized applications xe2 x80 x9ddapps xe2 x80 x9d better privacy compromise trust decentralization guarantees inflection point blockchain mass adoption engine scalable dapps celer network internet scale trust free privacy preserving platform quickly build operate use highly scalable dapps standalone blockchain networked system running existing future blockchains provides unprecedented performance flexibility innovation o xe2 x86 xb5 chain scaling techniques incentive aligned cryptoeconomics celer network embraces layered architecture clean abstractions enable rapid evolution individual component including generalized state channel sidechain suite supports fast generic o xe2 x86 xb5 chain state transitions provably optimal value transfer routing mechanism achieves",
+    "metadata": {
+      "chunk_id": "090ea82ff10a65b70a37052763c02081",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 3] individual component including generalized state channel sidechain suite supports fast generic o xe2 x86 xb5 chain state transitions provably optimal value transfer routing mechanism achieves order magnitude higher throughput compared state art solutions powerful development framework runtime o xe2 x86 xb5 chain applications new cryptoeconomic model provides network e xe2 x86 xb5ect stable liquidity high availability o xe2 x86 xb5 chain ecosystem x0cimportant read following disclaimer continuing sale xe2 x80 x9ctoken sale xe2 x80 x9d celr xe2 x80 x9ctokens xe2 x80 x9d cryotographic token associated celer network detailed whitepaper xe2 x80 x9cwhitepaper xe2 x80 x9d intended directed certain persons whitepaper prospectus offer document sort intended constitute offer securities form units business trust units collective investment scheme form investment solicitation form investment jurisdiction regulatory authority examined approved information set whitepaper whitepaper registered",
+    "metadata": {
+      "chunk_id": "0ce946b6d9f844577b2bc097e991edfe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 4] business trust units collective investment scheme form investment solicitation form investment jurisdiction regulatory authority examined approved information set whitepaper whitepaper registered regulatory authority jurisdiction accessing accepting possession information whitepaper thereof case represent warrant cspeed ltd bvi business company number 1976167 xe2 x80 x9ctoken vendor xe2 x80 x9d excluded person defined b located jurisdiction token sale prohibited restricted unauthorised form manner laws regulatory requirements rules c read entirety whitepaper understand risks entailed purchase tokens d agree bound limitations restrictions described e acknowledge whitepaper prepared delivery assist making decision purchase tokens purely reference intention create legal relations token vendor legally binding enforceable token vendor proceed contents whitepaper agree refer section entitled xe2 x80 x9cimportant notice xe2 x80 x9d sections entitled xe2 x80 x9cdisclaimer liability xe2 x80",
+    "metadata": {
+      "chunk_id": "a9b932209b502d7be346a961a7f83af6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 5] legally binding enforceable token vendor proceed contents whitepaper agree refer section entitled xe2 x80 x9cimportant notice xe2 x80 x9d sections entitled xe2 x80 x9cdisclaimer liability xe2 x80 x9d xe2 x80 x9cno representations warranties xe2 x80 x9d xe2 x80 x9crepresentations warranties xe2 x80 x9d xe2 x80 x9ccautionary note forward looking statements xe2 x80 x9d xe2 x80 x9cthird party information consent persons xe2 x80 x9d xe2 x80 x9cterms xe2 x80 x9d xe2 x80 x9cno advice xe2 x80 x9d xe2 x80 x9cno information update xe2 x80 x9d xe2 x80 x9crestrictions distribution dissemination xe2 x80 x9d xe2 x80 x9cno offer investment registration xe2 x80 x9d xe2 x80 x9crisks uncertainties xe2 x80 x9d carefully proceeding whitepaper x0ccontents 1 introduction 4 1 1 celer technology stack 5 1 2 celer cryptoeconomics 8 2 cchannel foundation o xe2 x86 xb5 chain scaling 2 1 2 2 10 generalized state channel 10 2 1 1 key idea simple example 10 2 1 2 design goals 12 2 1 3 general specification 12 2 1",
+    "metadata": {
+      "chunk_id": "955c5db8ec42b465445e0f37d7e678b2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 6] cryptoeconomics 8 2 cchannel foundation o xe2 x86 xb5 chain scaling 2 1 2 2 10 generalized state channel 10 2 1 1 key idea simple example 10 2 1 2 design goals 12 2 1 3 general specification 12 2 1 4 common utilities 16 2 1 5 box features 17 alternative channel model sidechains 19 3 croute provably optimal value transfer routing 21 3 1 challenges state channel network routing 21 3 2 distributed balanced routing dbr 23 3 2 1 system model 24 3 2 2 protocol description 25 3 2 3 throughput performance dbr 27 discussions dbr 33 3 3 1 failure resilience 33 3 3 2 privacy 33 simulation results 33 3 3 3 4 4 cos o xe2 x86 xb5 chain decentralized application operating system 35 4 1 directed acyclic graph conditionally dependent states 35 4 2 o xe2 x86 xb5 chain application development framework 36 4 3 o xe2 x86 xb5 chain application runtime 38 5 ceconomy o xe2 x86 xb5 chain cryptoeconomics mechanism design 5 1 40 tradeo xe2 x86 xb5s o xe2 x86 xb5 chain ecosystems 41 5 1 1 o xe2 x86 xb5 chain",
+    "metadata": {
+      "chunk_id": "ca7e8a3ae2765b510c7a8405d3f78c59",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 7] 4 3 o xe2 x86 xb5 chain application runtime 38 5 ceconomy o xe2 x86 xb5 chain cryptoeconomics mechanism design 5 1 40 tradeo xe2 x86 xb5s o xe2 x86 xb5 chain ecosystems 41 5 1 1 o xe2 x86 xb5 chain scalability vs liquidity 41 5 1 2 o xe2 x86 xb5 chain scalability vs availability 42 2 x0c5 2 ceconomy design 43 5 2 1 proof liquidity commitment polc mining 44 5 2 2 liquidity backing auction liba 45 5 2 3 state guardian network 49 5 2 4 summary 52 6 conclusion 52 7 founding team 53 3 x0c1 introduction modern economic activities essentially flow exchange information value past centuries transfer information evolved discrete events pigeon networks continuous flows speed light internet value transfer portion far light speed discrete events controlled segregated financial silos mismatch creates devastating bottleneck economic evolution matter fast information flows expensive slow value transaction limiting productive exchange essentially revolutionary abstraction trust distrustful parties",
+    "metadata": {
+      "chunk_id": "7ca1bb1b8a42cfe8a72509fe6a791f01",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 8] devastating bottleneck economic evolution matter fast information flows expensive slow value transaction limiting productive exchange essentially revolutionary abstraction trust distrustful parties results incentive aligned distributed consensus blockchain technology o xe2 x86 xb5ers foundation dismantle segregated financial silos dramatically expand scope freedom global value flows practice blockchain deviating away speed light vision low processing power compared traditional value transfer tools scalability fundamental challenge hindering mass adoption blockchain technology envision future decentralized ecosystems people computers mobile internet things xe2 x80 x9diot xe2 x80 x9d devices perform secure private trust free information value exchange massive scale achieve blockchains match scale internet support hundreds millions billions transactions second given processing speed existing blockchains e tens transactions second possible bring scale internet blockchains answer yes o xe2",
+    "metadata": {
+      "chunk_id": "d782413a601f612595a851ae4ebd24a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 9] scale internet support hundreds millions billions transactions second given processing speed existing blockchains e tens transactions second possible bring scale internet blockchains answer yes o xe2 x86 xb5 chain scaling chain consensus foundation blockchain technology limitations obvious sense consensus opposite scalability distributed system nodes need reach consensus single transaction performance better fact worse communication overhead centralized system single node processes transaction means system eventually bottlenecked processing power slowest node chain consensus severe implications privacy transactions permanently public chain consensus improvements proposed including sharding proof x mechanisms blockchain relatively faster di xe2 x86 xb5erent tradeo xe2 x86 xb5s performance decentralization security 4 x0cfinality change fundamental limitations chain consensus enable internet scale blockchain systems better privacy compromise trust decentralization look chain consensus",
+    "metadata": {
+      "chunk_id": "d007618877366d0b5006d25f78623f4a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 10] decentralization security 4 x0cfinality change fundamental limitations chain consensus enable internet scale blockchain systems better privacy compromise trust decentralization look chain consensus improvements core principle design scalable distributed system operations di xe2 x86 xb5erent nodes independent simple insight shows way fully scale decentralized applications bring transactions o xe2 x86 xb5 chain avoid chain consensus possible use resort related techniques include state channel sidechain o xe2 x86 xb5 chain computing oracle despite high potentials o xe2 x86 xb5 chain scaling technology infancy technical economic challenges remaining unresolved enable o xe2 x86 xb5 chain scaling prime time use propose celer network1 coherent architecture brings internet scale existing future blockchains celer network consists carefully designed o xe2 x86 xb5 chain technology stack achieves high scalability flexibility strong security privacy guarantees gametheoretical cryptoeconomic model",
+    "metadata": {
+      "chunk_id": "80451ff12ca0fad752ac46525f2dcc3e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 11] celer network consists carefully designed o xe2 x86 xb5 chain technology stack achieves high scalability flexibility strong security privacy guarantees gametheoretical cryptoeconomic model balances new tradeo xe2 x86 xb5s 1 1 celer technology stack comprehensive stack platform built existing future blockchains celer network encompasses cleanly layered architecture decouples sophisticated o xe2 x86 xb5 chain platform hierarchical modules architecture greatly simplifies system design development maintenance individual component easily evolve adapt changes designed layered architecture open interfaces enable encourage di xe2 x86 xb5erent implementation layer long support cross layer interfaces layer needs focus achieving functionality inspired successful layered design internet celer network adopts o xe2 x86 xb5chain technology stack built di xe2 x86 xb5erent blockchains named cstack consists following layers order xe2 x80 xa2 cchannel generalized state channel sidechain suite xe2 x80",
+    "metadata": {
+      "chunk_id": "22a73d6a8f05314ce73bcc598eed9f21",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 12] adopts o xe2 x86 xb5chain technology stack built di xe2 x86 xb5erent blockchains named cstack consists following layers order xe2 x80 xa2 cchannel generalized state channel sidechain suite xe2 x80 xa2 croute provably optimal value transfer routing xe2 x80 xa2 cos development framework runtime o xe2 x86 xb5 chain enabled applications 1 celer swift fast latin c speed light 5 x0cfigure 1 celer network layered architecture celer architecture provides innovative solutions layers highlight technical challenges features cchannel croute cos cchannel layer celer network interacts di xe2 x86 xb5erent underlying blockchains provides upper layer common abstraction upto date states bounded time finality cchannel uses state channel sidechain techniques cornerstones o xe2 x86 xb5 chain scaling platforms state channel allows mutually distrustful parties execute program o xe2 x86 xb5 chain quickly settle latest agreed states security finality guaranteed chain bond contracts initially introduced",
+    "metadata": {
+      "chunk_id": "b28a40629e5d838097d4da834759d301",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 13] state channel allows mutually distrustful parties execute program o xe2 x86 xb5 chain quickly settle latest agreed states security finality guaranteed chain bond contracts initially introduced lightning network 9 support high throughput o xe2 x86 xb5 chain bitcoin micropayments introduction lightning network research works addressed di xe2 x86 xb5erent problems context payment channel networks routing 10 13 16 time lock optimization 5 privacy 6 o xe2 x86 xb5 chain network early stage facing major challenges terms modularity flexibility costefficiency cchannel meets current challenges o xe2 x86 xb5ering set new features xe2 x80 xa2 generic o xe2 x86 xb5 chain state transition o xe2 x86 xb5 chain transactions arbitrary state transitions dependency dag allows celer network support complex high performance o xe2 x86 xb5 chain dapps gaming online auction insurance prediction market decentralized exchanges xe2 x80 xa2 flexible efficient value transfer multiple state channel sidechain",
+    "metadata": {
+      "chunk_id": "47e57d9c3b6644255491a70a41870497",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 14] high performance o xe2 x86 xb5 chain dapps gaming online auction insurance prediction market decentralized exchanges xe2 x80 xa2 flexible efficient value transfer multiple state channel sidechain constructions di xe2 x86 xb5erent tradeo xe2 x86 xb5s efficiency finality provided support fast value transfer generic condition dependency minimal chain interactions minimal fund lockup 6 x0c xe2 x80 xa2 pure o xe2 x86 xb5 chain contract contract directly associated chain deposits need chain operation initialization dispute triggered pure o xe2 x86 xb5 chain contract object uniquely identifiable o xe2 x86 xb5 chain address needs deployed blockchains necessary chain address assigned built o xe2 x86 xb5 chain address translator croute celer network platform highly scalable dapps designed support high throughput value transfer o xe2 x86 xb5 chain value transfer essential requirement o xe2 x86 xb5 chain applications celer network capable supporting dapps payment solutions makes groundbreaking",
+    "metadata": {
+      "chunk_id": "26e767740381a739dc330435300a4004",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 15] high throughput value transfer o xe2 x86 xb5 chain value transfer essential requirement o xe2 x86 xb5 chain applications celer network capable supporting dapps payment solutions makes groundbreaking improvements o xe2 x86 xb5 chain payment routing directly determines fast value transferred ecosystem existing o xe2 x86 xb5 chain payment routing proposals 3 4 10 12 13 16 boil conventional xe2 x80 x9cshortest path routing xe2 x80 x9d algorithms achieve poor performance o xe2 x86 xb5 chain payment network fundamental di xe2 x86 xb5erences link model link capacity computer network stateless stable e xe2 x86 xb5ected past transmissions link capacity o xe2 x86 xb5 chain payment network stateful e determined chain deposits past payments leads highly dynamic network topology link states constantly changing makes conventional shortest path routing algorithms hard converge yields low throughput long delay outages counter fundamental challenge celer network xe2 x80 x99s payment routing module",
+    "metadata": {
+      "chunk_id": "8071fffc2092c81eb39dd186062b4220",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "outage"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 16] changing makes conventional shortest path routing algorithms hard converge yields low throughput long delay outages counter fundamental challenge celer network xe2 x80 x99s payment routing module croute introduces distributed balanced routing dbr routes payment traffic distributed congestion gradients highlight unique properties dbr details xc2 xa7 3 2 2 xe2 x80 xa2 provably optimal throughput prove global payment arrival rate exists routing algorithm support rate dbr achieve evaluation shows dbr achieves 15x higher throughput 20x higher channel utilization ratio2 compared state art solutions xe2 x80 xa2 transparent channel balancing xe2 x80 x9ckeeping channels balanced xe2 x80 x9d goal proposal lightning network existing attempts 2 ratio transferred fund time slot total deposits channels 7 x0cchannel balancing comprise heuristics require heavy chain o xe2 x86 xb5 chain coordination poor guarantees dbr embeds channel balancing process routing constantly balances network requiring",
+    "metadata": {
+      "chunk_id": "124ac57bd3a5eb8f44fd64b6b8813a56",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "outage"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 17] 7 x0cchannel balancing comprise heuristics require heavy chain o xe2 x86 xb5 chain coordination poor guarantees dbr embeds channel balancing process routing constantly balances network requiring additional coordination xe2 x80 xa2 fully decentralized dbr algorithm fully decentralized algorithm node needs xe2 x80 x9dtalk xe2 x80 x9d neighbors state channel network topology dbr xe2 x80 x99s protocol lowers messaging cost xe2 x80 xa2 failure resilience dbr algorithm highly robust failures quickly detect adapt unresponsive nodes supporting maximum possible throughput remaining available nodes xe2 x80 xa2 privacy preserving dbr algorithm seamlessly integrated onion routing 11 preserve anonymity sources destinations multi path nature dbr algorithm naturally preserves privacy transferred value additional privacy preserving techniques e g zksnark cos chain dapp simply frontend connecting blockchain o xe2 x86 xb5 chain dapps great potentials high scalability easy build use traditional chain",
+    "metadata": {
+      "chunk_id": "31f1ee2f43f7987d79e70b5921988cc4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 18] additional privacy preserving techniques e g zksnark cos chain dapp simply frontend connecting blockchain o xe2 x86 xb5 chain dapps great potentials high scalability easy build use traditional chain dapps celer network introduces cos development framework runtime easily develop operate interact scalable o xe2 x86 xb5 chain dapps bogged additional complexities introduced o xe2 x86 xb5 chain scaling celer network allows developers concentrate application logic create best user experience cos dealing heavy lifting including following tasks xe2 x80 xa2 figure dependency arbitrary o xe2 x86 xb5 chain chain states xe2 x80 xa2 handle tracking storage dispute o xe2 x86 xb5 chain states xe2 x80 xa2 tolerate intermediate node failures transparently xe2 x80 xa2 support multiple concurrent o xe2 x86 xb5 chain dapps xe2 x80 xa2 compile unified implementation di xe2 x86 xb5erent chain o xe2 x86 xb5 chain modules 1 2 celer cryptoeconomics celer network xe2 x80 x99s cryptoeconomic mechanism ceconomy",
+    "metadata": {
+      "chunk_id": "0532fb4dc60fee8f312c203db86d8f49",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 19] xb5 chain dapps xe2 x80 xa2 compile unified implementation di xe2 x86 xb5erent chain o xe2 x86 xb5 chain modules 1 2 celer cryptoeconomics celer network xe2 x80 x99s cryptoeconomic mechanism ceconomy designed based fundamental principle good cryptoeconomic token model provide additional 8 x0cvalues enable new game theoretical dynamics impossible gaining scalability o xe2 x86 xb5 chain platform making tradeo xe2 x86 xb5s network liquidity state availability o xe2 x86 xb5 cryptoeconomic model enable new dynamics balance tradeo xe2 x86 xb5s new tradeo xe2 x86 xb5s o xe2 x86 xb5 chain platform gains scalability making following tradeo xe2 x86 xb5s xe2 x80 xa2 scalability vs liquidity o xe2 x86 xb5 chain value transfer requires deposits locked chain network liquidity especially challenging potential o xe2 x86 xb5 chain service providers significant liquidity needed provide e xe2 x86 xb5ective o xe2 x86 xb5 chain services global blockchain users outgoing deposits state channels fraud",
+    "metadata": {
+      "chunk_id": "1dd9cacb072dd7b6533fa63b65f211ac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 19.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 20] potential o xe2 x86 xb5 chain service providers significant liquidity needed provide e xe2 x86 xb5ective o xe2 x86 xb5 chain services global blockchain users outgoing deposits state channels fraud penalty bond sidechains owners large number crypto assets whales business interest technical capability run o xe2 x86 xb5 chain service infrastructure people technical capability running reliable scalable o xe2 x86 xb5 chain service capital channel deposits fraud proof bonds mismatch creates huge hurdle mass adoption technical evolution o xe2 x86 xb5 chain operating networks xe2 x80 xa2 scalability vs availability o xe2 x86 xb5 chain scaling compromise trust free property blockchain sacrifice availability guarantee state channel o xe2 x86 xb5 chain contract associated dispute timeout involved party risk staying o xe2 x86 xb5 line longer timeout local states lost need incentive compatible mechanism provide sufficient liquidity entities capable running reliable scalable o xe2 x86 xb5 chain",
+    "metadata": {
+      "chunk_id": "769aa608d41ab4753fd43f9bf39385f1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 21] party risk staying o xe2 x86 xb5 line longer timeout local states lost need incentive compatible mechanism provide sufficient liquidity entities capable running reliable scalable o xe2 x86 xb5 chain service infrastructure guarantee o xe2 x86 xb5 chain states available possible chain dispute new cryptoeconomics complete o xe2 x86 xb5 chain scaling solution introduce suite cryptoeconomic mechanisms named ceconomy brings indispensable value provides network e xe2 x86 xb5ect stable liquidity high availability celer network xe2 x80 x99s protocol token xe2 x80 x9ccelr xe2 x80 x9d tightly coupled components xe2 x80 xa2 proof liquidity commitment polc polc virtual mining process acquires abundant stable liquidity o xe2 x86 xb5 chain ecosystem participate simply needs commits locks idle liquidity form 9 x0cdigital assets including limited cryptocurrencies celr o xe2 x86 xb5 chain platform certain period time celr rewarded incentives users xe2 x80 xa2 liquidity backing auction liba liba enables",
+    "metadata": {
+      "chunk_id": "fb81c513b3a984f193cb17be48bff19f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 22] 9 x0cdigital assets including limited cryptocurrencies celr o xe2 x86 xb5 chain platform certain period time celr rewarded incentives users xe2 x80 xa2 liquidity backing auction liba liba enables o xe2 x86 xb5 chain service providers solicit liquidity xe2 x80 x9ccrowd lending xe2 x80 x9d negotiated interest rates lenders ranked according xe2 x80 x9chappiness scores xe2 x80 x9d determined interest rate provisioned liquidity staked celr particular lenders stake celr indicator past contributions ecosystems higher priority selected provide liquidity o xe2 x86 xb5 chain service providers xe2 x80 xa2 state guardian network sgn sgn special compact sidechain guards states users o xe2 x9c x8fine users xe2 x80 x99 states available dispute guardians need stake celr sgn earn guarding opportunities service fees users section 5 introduces ceconomy mechanisms detail analysis celr value model incentive compatibility 2 cchannel foundation o xe2 x86 xb5 chain scaling celer network xe2 x80 x99s cchannel",
+    "metadata": {
+      "chunk_id": "77aa9ce890b8c1c2cd1a4673bbef2962",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 23] fees users section 5 introduces ceconomy mechanisms detail analysis celr value model incentive compatibility 2 cchannel foundation o xe2 x86 xb5 chain scaling celer network xe2 x80 x99s cchannel aims provide framework enable state channel sidechain network maximum flexibility efficiency section starts generalized channel construct outlines key elements support arbitrary conditional dependency chain verifiable states expand horizon classic state channel examine encapsulate sidechain interface exposed upper layer 2 1 2 1 1 generalized state channel key idea simple example major limitation existing payment network solutions lack support generalized state transitions need generalized state transitions comes rise smart contract platforms ethereum smart contract enables asynchronous value transfer based arbitrary contractual logic improve scalability 10 x0cof blockchains o xe2 x86 xb5 chain state channel concepts chain state transitions o xe2 x86 xb5 chain state channels corresponding value",
+    "metadata": {
+      "chunk_id": "5ee65cfa0b70d46b0ebd896879d12868",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 24] based arbitrary contractual logic improve scalability 10 x0cof blockchains o xe2 x86 xb5 chain state channel concepts chain state transitions o xe2 x86 xb5 chain state channels corresponding value transfer aware state transitions use simple example conditional payment illustrate key idea transform chain states transition o xe2 x86 xb5 chain states transitions let xe2 x80 x99s alice carl want play board game betting result game trust free manner alice pay carl $1 carl wins vice versa simple logic implement chain build smart contract holds alice xe2 x80 x99s carl xe2 x80 x99s payment game starts alice carl play game calling chain smart contract xe2 x80 x99s functions loses game surrenders times winner gets loser xe2 x80 x99s deposit deposits seen payments conditionally issued e condition counterparty wins unfortunately chain smart contract operations extremely slow expensive transaction involves chain transaction o xe2 x86 xb5 chain state channel significantly improve scalability",
+    "metadata": {
+      "chunk_id": "4bdb11e111ca1adfa5d1bc608df6538f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 25] counterparty wins unfortunately chain smart contract operations extremely slow expensive transaction involves chain transaction o xe2 x86 xb5 chain state channel significantly improve scalability maintaining semantic let xe2 x80 x99s assume payment channel alice carl enable semantic need expand functionality channel xe2 x80 x99s state proof include conditional lock depends game xe2 x80 x99s winner state alice send carl o xe2 x86 xb5 chain conditional payment e xe2 x86 xb5ectively saying xe2 x80 x9ci pay carl $1 game contract xe2 x80 x99s winner function says carl wins xe2 x80 x9d game state transitions moved o xe2 x86 xb5 chain straightforward way chain contract governing rule board game contract xe2 x80 x99s address referenced conditional payment state transitions happening o xe2 x86 xb5 chain mutually signed game states injected chain contract necessary fact requirement kind value bond program states entire game contract associated states stay o xe2 x86 xb5 chain long involved",
+    "metadata": {
+      "chunk_id": "dfba848cabe8746c790300d114cb27e0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 26] xb5 chain mutually signed game states injected chain contract necessary fact requirement kind value bond program states entire game contract associated states stay o xe2 x86 xb5 chain long involved parties collaborative requirement relevant game states chain verifiable need chain verifiable state means contracts objects refer ambiguity realize need reference translator contract maps o xe2 x86 xb5 chain references hash contract code constructor parameters nonce chain references contract address constructs game alice carl involves 11 x0clong term chain contract specific game logic chain operation initialization gaming example reflects specialized simple instance o xe2 x86 xb5 chain design patterns sophisticated conditional payment complicated simple boolean conditions designed way redistribute locked liquidity based arbitrary contractual logic fact conditional payments simply special case generalized conditional state transition channel dependency complicated dependency realize common",
+    "metadata": {
+      "chunk_id": "273563af822c97a80c859c3225ba18e9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 27] locked liquidity based arbitrary contractual logic fact conditional payments simply special case generalized conditional state transition channel dependency complicated dependency realize common pattern multi hop state relays detail technical specification followings sections 2 1 2 design goals goal achieve fast flexible trust free o xe2 x86 xb5 chain interactions expect cases o xe2 x86 xb5 chain state transitions stay o xe2 x86 xb5 chain final resolution aim optimize commonly o xe2 x86 xb5 chain patterns succinct interactions built support chain components second goal design data structure object interaction logic works di xe2 x86 xb5erent blockchains celer network aims build blockchain agnostic platform run di xe2 x86 xb5erent blockchains support smart contracts common data structure schema certain layer indirection required highlighted goals plan employ formal specification channel state machines verify security properties communication protocols alter states aim provide efficient",
+    "metadata": {
+      "chunk_id": "143623f5ad4e209739b0f67227e3c203",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 28] certain layer indirection required highlighted goals plan employ formal specification channel state machines verify security properties communication protocols alter states aim provide efficient chain resolution mechanism possible 2 1 3 general specification section provide specifications core components cchannel xe2 x80 x99s generalized state channel approach describes common state channel interface applies state channel value transfer arbitrary contractual logic extensive specialization optimization di xe2 x86 xb5erent concrete use cases principles stay detailed specification generalized state channel introduce important notations terms section 12 x0c xe2 x80 xa2 state denote s state channel bi party payment channel s represents available balances parties board game s represents board state xe2 x80 xa2 state proof state proof serves bridge data structure chain contracts o xe2 x86 xb5 chain communication protocols state proof sp contains following fields sp s seq merkle root sigs 1 s",
+    "metadata": {
+      "chunk_id": "34e582864a556e4bd96ead18448e869e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 29] xe2 x80 xa2 state proof state proof serves bridge data structure chain contracts o xe2 x86 xb5 chain communication protocols state proof sp contains following fields sp s seq merkle root sigs 1 s denotes accumulative state updates note given base state s0 state update s uniquely produce new channel state s example bi party payment channel base state s0 corresponds deposits parties state update s mapping indicates tokens transferred participant participant seq sequence number state proof state proof higher sequence number disable state proofs lower sequence numbers merkle root root merkle tree pending condition groups crucial creating conditional dependency states cchannel finally sigs represents signature parties state proof state proof valid parties signatures present xe2 x80 xa2 condition condition cond data structure representing basic unit conditional dependency conditional dependency dags weaved condition specified follows cond timeout xe2 x87 xa4isfinalized args xe2 x87",
+    "metadata": {
+      "chunk_id": "39b872b764d64b0573353a681a5b08da",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 31] condition second price auction arguments args participant1 participant2 xc2 xb7 xc2 xb7 xc2 xb7 participantn querying winner money participant pay generic condition resolution process condition perform isfinalized args perform result query queryresult args xe2 x80 xa2 condition group condition group cond group higher level abstraction group conditions express generalized state dependencies condition group specified follows cond group xe2 x87 xa4 resolvegroup cond results 3 xe2 x87 xa4 denotes set conditions contained condition group condition cond 2 xe2 x87 xa4 resolves arbitrary bytes array e output cond queryresult args bytes array handled group resolving function resolvegroup cond results takes resolving results conditions inputs returns state update s payment channel con dition group corresponds conditional payment example conditional payment saying xe2 x80 x9ca pays b $1 b wins gomoku game xe2 x80 x9d corresponds condition group contains conditions hashed time lock condition",
+    "metadata": {
+      "chunk_id": "39b2021ec7493637dd209d0f68277f93",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 32] corresponds conditional payment example conditional payment saying xe2 x80 x9ca pays b $1 b wins gomoku game xe2 x80 x9d corresponds condition group contains conditions hashed time lock condition multi hop relay gomoku game condition xe2 x80 x9cb wins game xe2 x80 x9d resolvegroup function simply returns transfer $1 b conditions true ready specify interface state channel state channel c specified following tuple c p s0 sp s f xe2 x8c xa7 4 p p1 p2 pn set participants channel s0 chain base state channel e g initial deposits participant payment channel sp represents updated known state proof channel s updated 14 x0cchannel state state proof sp fully settled xe2 x8c xa7 settlement timeout increment state proof specified later f contains set standard functions implemented state channel xe2 x80 xa2 resolvestateproof sp cond groups function updates current state proof resolving attached condition groups xe2 x80 xa2 getupdatedstate sp s0 function updated state based o xe2 x86 xb5 chain state",
+    "metadata": {
+      "chunk_id": "f031d9a630e0dc7ee894e6ca6e867bbc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 33] xa2 resolvestateproof sp cond groups function updates current state proof resolving attached condition groups xe2 x80 xa2 getupdatedstate sp s0 function updated state based o xe2 x86 xb5 chain state proof sp chain base states s0 xe2 x80 xa2 updatestate s function allows chain updates state channel xe2 x80 x99s currently resolved state s xe2 x80 xa2 intendsettle new sp function opens challenge period settlement timeout challenge period function takes state proof input update current state proof input newer xe2 x80 xa2 confirmsettle sp function validates confirms current state proof fully settled given current time exceeded settlement timeout xe2 x80 xa2 isfinalized args queryresult args entry points resolving conditional dependency accepts outside queries necessary arguments querying contract interpret accordingly fact patterns frequently cchannel xe2 x80 x99s implementation separate pre defined function interfaces xe2 x80 xa2 closestatechannel s function terminates life cycle state",
+    "metadata": {
+      "chunk_id": "ecfc39d00387598613f6f3738365942c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 34] interpret accordingly fact patterns frequently cchannel xe2 x80 x99s implementation separate pre defined function interfaces xe2 x80 xa2 closestatechannel s function terminates life cycle state channel distributes necessary states according latest settled state s settlement timeout determined based time called resolvestateproof settlestateproof settlement timeout increment xe2 x8c xa7 dependency constraints create dependencies di xe2 x86 xb5erent state channels constraints need enforced order guarantee proper resolution dependency dag suppose state channel c1 depends state channel c2 required participants c1 subset participants c2 participants c1 necessary information resolving dependency c1 15 x0c2 1 4 common utilities abstraction defines common pattern generalized state channel construction di xe2 x86 xb5erent blockchains actual implementation di xe2 x86 xb5erent example ethereum cross contract calls contains return value dfinity crosscontract calls trigger registered callbacks",
+    "metadata": {
+      "chunk_id": "6510b89b4a44c15fbc985f62159d8cb7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 35] di xe2 x86 xb5erent blockchains actual implementation di xe2 x86 xb5erent example ethereum cross contract calls contains return value dfinity crosscontract calls trigger registered callbacks reviewing multiple blockchains xe2 x80 x99 implementations state transition vms identify common utilities essential operation generalized state channel practice followings xe2 x80 xa2 o xe2 x86 xb5 chain address translator oat abstraction condition condition group associated di xe2 x86 xb5erent functions functions reference chain contract xe2 x80 x99s functions program smart contract states inherently bound constraints blockchain fundamental requirement chain presence barrier moving entirely o xe2 x86 xb5 chain possible ambiguity reference functions isfinalized queryresult resolve ambiguity define chain rule set map o xe2 x86 xb5 chain references chain references o xe2 x86 xb5 chain address translator built contract value involved referenced unique identifier generated contract code initial states",
+    "metadata": {
+      "chunk_id": "7cf983d7f1d9fb1584021d077a67d5bd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 36] rule set map o xe2 x86 xb5 chain references chain references o xe2 x86 xb5 chain address translator built contract value involved referenced unique identifier generated contract code initial states certain nonce unique identifier o xe2 x86 xb5 chain address resolving conditions chain referenced contracts need deployed corresponding functions e g isfinalized queryresult able translate o xe2 x86 xb5 chain addresses chain addresses realize functionality oat needs able deploy contract code initial states chain chain contract establish mapping o xe2 x86 xb5 chain address chain address xe2 x80 xa2 hash time lock registry htlr hash time lock commonly scenario transactions involving multiple state channels need happen atomically example multi hop relayed payment unconditional conditional atomic swap di xe2 x86 xb5erent tokens cross chain bridges htl implemented entirely o xe2 x86 xb5 chain sprite 5 pointed overoptimization actually limits o xe2 x86 xb5 chain scalability sprite 5 proposes",
+    "metadata": {
+      "chunk_id": "f590371940932b7e721ec393904dfb95",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 37] swap di xe2 x86 xb5erent tokens cross chain bridges htl implemented entirely o xe2 x86 xb5 chain sprite 5 pointed overoptimization actually limits o xe2 x86 xb5 chain scalability sprite 5 proposes central registry locks refer extend modify sprite fit cchannel xe2 x80 x99s common model e xe2 x86 xb5ectively htlr provides dependency endpoints isfinalized queryresult conditions act locks isfinalized takes 16 x0ca hash block number returns true corresponding pre image registered block number queryresult takes hash returns true pre image hash registered functions simplified sake generality simply separate functions note htlr associated isfinalized queryresult chain 2 1 5 box features addition need look patterns commonly enhance certain chain components box features simplify corresponding o xe2 x86 xb5chain interactions generalized payment channel gpc good example generalized payment channel payment channel conforms general state channel specification support conditional payments based",
+    "metadata": {
+      "chunk_id": "3ebb6c788a8c9b6c778356f372ffa25a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 39] complexity getupdatedstate straightforward function compute netted payment party based initial deposit fully resolved sp closestatechannel simply closes channel distributes netted final balance party basic model discuss optimize gpc constructs enable useful box features xe2 x80 xa2 cooperative settling cases counterparties state channel applications cooperative result added complexity expense challenge period settle cchannel enables cooperative settling 17 x0cwhere counterparties sign recent state proof sign resulting signature agreement state update described state proof final state number transactions settle state proof reduce 2 1 xe2 x80 xa2 single transaction channel opening optimization cchannel brings reduce number chain operation open channel 3 1 achieved dependency contract store deposits counterparties n 1 counterparties sign authorization withdrawal entirely o xe2 x86 xb5 chain counterparty submit chain complete channel opening process xe2 x80 xa2 direct final state claim",
+    "metadata": {
+      "chunk_id": "d4442b99d61ccdd72ca9b44801752824",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 40] deposits counterparties n 1 counterparties sign authorization withdrawal entirely o xe2 x86 xb5 chain counterparty submit chain complete channel opening process xe2 x80 xa2 direct final state claim building generalized state channel applications conditional state dependency commonly finalizing gpc party want avoid process traversing conditional dependency graph limit griefing scenario counter party counterparty goes o xe2 x86 xb5 line refuse cooperatively convert conditiongroup unconditional state update limit work needed disputing party introduce method direct final state claim allows online party directly claim final state actually performing additional traversal dependency graph counterparty signatures needed avoid abuse fraud proof bond required claiming party challenging period state final needing perform additional operations xe2 x80 xa2 dynamic deposit withdrawal common requirement gpc enable seamless chain transactions counterparty connected network withdrawals funds",
+    "metadata": {
+      "chunk_id": "0cb8d25d5e51387e33552d34ac36c71d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 41] state final needing perform additional operations xe2 x80 xa2 dynamic deposit withdrawal common requirement gpc enable seamless chain transactions counterparty connected network withdrawals funds introduces pair functions intendwithdraw confirmwithdraw meet requirement intendtowithdraw changes base state s0 challenge period counterparty submit conflicting sp dispute dispute happens challenge period defined xe2 x8c xa7 confirmtowithdraw called confirm distribute withdrawal functions work like intendsettle confirmsettle deposit straightforward changes base state s0 xe2 x80 xa2 boolean circuit condition group expect gpc xe2 x80 x99s common use case boolean circuit based conditional payment example xe2 x80 x9ca pays b 18 x0cfunction x function y return true xe2 x80 x9d optimize payment tweak interface condition group condition particular specialize function resolvegroup release pre defined conditional payment condition resolving results boolean circuit condition results holds true way",
+    "metadata": {
+      "chunk_id": "0c4a3d1e2a5998fbc6909dd71e549392",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 42] interface condition group condition particular specialize function resolvegroup release pre defined conditional payment condition resolving results boolean circuit condition results holds true way saved trouble creating additional objects resolvegroup corresponding multi party communication overhead specify condition boolean condition require depending objects interface e xe2 x86 xb5ect xe2 x80 x9cissatisfied xe2 x80 x9d returns true false based state queried xe2 x80 xa2 fund assignment condition group generalized use case gpc generalized state assignment implement introducing di xe2 x86 xb5erent type condition group condition queryresult directly return state assignment map dictating update s enables general plug point gpc plugin o xe2 x86 xb5 chain contract initialized certain locked liquidity contract check wins game boolean steps winner took win game assign liquidity carrying certain computation involved parties generate condition group references check function o xe2 x86 xb5",
+    "metadata": {
+      "chunk_id": "096e2bfd4270079a26a06992b347974c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 43] liquidity contract check wins game boolean steps winner took win game assign liquidity carrying certain computation involved parties generate condition group references check function o xe2 x86 xb5 chain contract address mutually agree common patterns defined di xe2 x86 xb5erent patterns example illustrates design principle optimization 2 2 alternative channel model sidechains mentioned generalized state channel model cchannel introduces alternative state channel model facilitated sidechains 1 example consider scenario multiple users need pay users pool deposits central contract acts like sidechain contract o xe2 x86 xb5 chain service providers playing role block proposers forming xe2 x80 x9cmulti party hub xe2 x80 x9d o xe2 x86 xb5 chain service providers xe2 x80 x9chub operators xe2 x80 x9d enables payment relationships hub integrity o xe2 x86 xb5 chain service providers ensured certain level fraud proof bond acceptable participants specifically celer network o xe2 x86 xb5 chain",
+    "metadata": {
+      "chunk_id": "572297e14f15253f5a6a32c249796695",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 44] x80 x9d enables payment relationships hub integrity o xe2 x86 xb5 chain service providers ensured certain level fraud proof bond acceptable participants specifically celer network o xe2 x86 xb5 chain service provider run sidechain 19 x0caided state channel c s p xe2 x87 xa4 b xe2 x8c xa7 5 s sidechain state p xe2 x87 xa4 single block proposer o xe2 x86 xb5 chain service provider b fraud bond xe2 x8c xa7 represents finality timeout node send sidechain transactions node channel update latest state like sidechain transactions node sign transaction sign transaction prove seen transaction included block created p xe2 x87 xa4 second signed transaction proof node long participants block data fully available finality sidechain transaction confirmed quickly sidechain aided channel model comes following expected benefits 1 compared previously mentioned channel models xe2 x80 xa2 chain transaction online presence needed receiver natural benefit inherited sidechain properties reason receiver",
+    "metadata": {
+      "chunk_id": "243758eda85e22cb698135cbd6b82bbf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 45] following expected benefits 1 compared previously mentioned channel models xe2 x80 xa2 chain transaction online presence needed receiver natural benefit inherited sidechain properties reason receiver redeem fund received sidechain aided channel actually performing sidechain deposit xe2 x80 xa2 party fund lock benefit context payment channels chain based channels multi party payment party need lock deposit advance pay block proposer needs deposit fraud proof bond ecosystem clearly aware downsides channel model following xe2 x80 xa2 fraud proof bond needed case sidechain based channels fraud proof bond needed block proposer p xe2 x87 xa4 directly providing auditing insurance services clearly understood worst case liquidity requirement block proposer e o xe2 x86 xb5 chain service provider actually unbounded reason colluding malicious party create unbounded repeated spending xe2 x80 xa2 data availability issue complicate finality malicious parties involved inherent finality delay",
+    "metadata": {
+      "chunk_id": "bbf92cf4030de2307e68c81d4f097b37",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 46] actually unbounded reason colluding malicious party create unbounded repeated spending xe2 x80 xa2 data availability issue complicate finality malicious parties involved inherent finality delay sidechain model haunts 20 x0cchannel model especially data availability issue block data available relevant parties sidechain faces inevitable organization finality delayed best entire sidechain abandoned worst case sidechain based channels connected common state channels 3 croute provably optimal value transfer routing 3 1 challenges state channel network routing need state routing xe2 x80 x9cpayment routing xe2 x80 x9d case payment channel networks apparent impractical establish direct state channels pair nodes channel opening costs deposit liquidity lockup necessary build network consisting state channels state transitions relayed trust free manner design state routing crucial level scalability state channel network provide e fast transactions flow given network existing proposals fall short",
+    "metadata": {
+      "chunk_id": "970c6b7bc705f1eac19744b4074afdad",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 47] channels state transitions relayed trust free manner design state routing crucial level scalability state channel network provide e fast transactions flow given network existing proposals fall short meet fundamental challenges imposed unique properties state channel networks landmark routing 16 proposed option decentralized payment routing payment channel networks example lightning network 9 adopts landmark routing protocol called flare 10 similar algorithm decentralized iou credit network silentwhispers 4 key idea landmark routing determine shortest path sender receiver intermediate node called landmark usually known node high connectivity raiden network 2 payment channel network mentioned implementation alternatives payment routing xe2 x87 xa4 tree search distributed implementation shortest path routing addition route discovery hard crucial nodes provide pathfinding services nodes convenience fees raiden network recently proposed speedymurmurs 13 enhances previous shortest path",
+    "metadata": {
+      "chunk_id": "59ea0c180b5892d8038c21c3f64a89d1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 48] shortest path routing addition route discovery hard crucial nodes provide pathfinding services nodes convenience fees raiden network recently proposed speedymurmurs 13 enhances previous shortest path routing algorithms lightning network raiden network accounting available balances payment channel specifically speedymurmurs based 21 x0c100 b 100 100 200 100 100 c time slot 1 0 200 c 200 0 200 0 c b c time slot 2 b 200 b b 200 0 0 0 100 c b c time slot 3 figure 2 shortest path routing leads frequent topology changes channel imbalance embedding based routing algorithms commonly p2p networks 12 constructs prefix tree assigns coordinate node forwarding payment based distances coordinate known node coordinate destination prefix tree coordinate node adjusted link needs removed e link runs balance added e depleted link receives new funding observed existing routing mechanisms boil xe2 x80 x9cshortest path routing available balance consideration xe2 x80 x9d traditional data networks shortest",
+    "metadata": {
+      "chunk_id": "12662d175bddd2dc1ba8c75be805575a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 49] added e depleted link receives new funding observed existing routing mechanisms boil xe2 x80 x9cshortest path routing available balance consideration xe2 x80 x9d traditional data networks shortest path routing provide reasonably good throughput delay performance based assumption network topology remains relatively stable link capacity xe2 x80 x9cstateless xe2 x80 x9d e capacity link xe2 x86 xb5ected past transmissions unfortunately assumption longer holds o xe2 x86 xb5 chain state channel network xe2 x80 x9cstateful xe2 x80 x9d link model e capacity available balance directed link keeps changing payments link note shortest path routing account channel balancing link quickly run capacity leads frequent changes network topology figure 2 illustrates scenario shortest path routing leads topology changes time slot suppose beginning time slot node node b node c initiates payment 100 tokens node b node c node respectively initial channel balance distribution time slot 1 pair nodes connected",
+    "metadata": {
+      "chunk_id": "de568556a8f0613d2040c025f0c1a80a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 50] changes time slot suppose beginning time slot node node b node c initiates payment 100 tokens node b node c node respectively initial channel balance distribution time slot 1 pair nodes connected bi directional link node selects direct route destination shortest path routing results 22 x0cin uni directional transfer channel distribution channel balances highly skewed time slot 2 underlying topology counter clockwise cycle new topology shortest path routing continues uni directional transfers e g selects route c b payment b channel balances pushed extreme underlying topology completely reversed clockwise cycle time slot 3 pattern repeat indefinitely contrast node c takes longer route c b channel remain balanced time network topology changes decentralized implementation shortest path routing frequent topology changes lead poor performance takes time algorithm converge new topology e g reconstruct prefix tree speedymurmurs 13 sub optimal routes taken xe2 x80 x99s worse network topology",
+    "metadata": {
+      "chunk_id": "8d98f54ab12d09b95a431f912e07b357",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 51] frequent topology changes lead poor performance takes time algorithm converge new topology e g reconstruct prefix tree speedymurmurs 13 sub optimal routes taken xe2 x80 x99s worse network topology change algorithm converges algorithm converge achieve continually poor throughput performance note recent project revive 3 proposes explicit channel rebalancing scheme revive account state routing means channel rebalancing procedure transparent underlying routing process requires extra band coordination revive works restricted class network topologies contain cyclic structures provide guarantee channel rebalancing procedure feasible general topology comparison propose routing algorithm achieves transparent optimal channel balancing routing process 3 2 distributed balanced routing dbr propose distributed balanced routing dbr efficient routing protocol value transfers o xe2 x86 xb5 chain state channel network dbr algorithm inspired backpressure routing algorithm 7 15 originally wireless",
+    "metadata": {
+      "chunk_id": "0490da86c9daa36fadeb2cffc03861a3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 52] distributed balanced routing dbr efficient routing protocol value transfers o xe2 x86 xb5 chain state channel network dbr algorithm inspired backpressure routing algorithm 7 15 originally wireless networks based completely di xe2 x86 xb5erent design philosophy traditional shortest path routing particular dbr perform explicit path computation source destination instead routing direction guided current network xe2 x80 x99s congestion gradients think water flowing hill destination foot hill water need know route destination needs follow direction gravity 23 x0cthe dbr algorithm uses similar design philosophy accounts stateful link model state channel networks particular dbr algorithm augmented state channel balancing ability transparently maintains balanced transfer flows state channel compared existing routing algorithms proposed dbr algorithm following advantages xe2 x80 xa2 provably optimal throughput words given arrival rate value transfer requests exists routing algorithm xe2 x80",
+    "metadata": {
+      "chunk_id": "6f8b3b8e41c27bc030cc7b42d11dd015",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 53] existing routing algorithms proposed dbr algorithm following advantages xe2 x80 xa2 provably optimal throughput words given arrival rate value transfer requests exists routing algorithm xe2 x80 x9csupports xe2 x80 x9d rate dbr able meaning xe2 x80 x9csupport xe2 x80 x9d specified section 3 2 3 xe2 x80 xa2 transparent channel balancing dbr channel rebalancing process naturally embedded routing process additional coordination automatically rebalances state channel maintain balanced value transfers long term xe2 x80 xa2 fully decentralized dbr algorithm fully decentralized algorithm node needs talk neighbors state channel network topology dbr low messaging cost protocol xe2 x80 xa2 failure resilience dbr algorithm highly robust failures quickly detect adapt unresponsive nodes supporting maximum possible throughput remaining available nodes xe2 x80 xa2 privacy preserving multi path nature dbr algorithm naturally preserves privacy transferred values additional privacy preserving techniques",
+    "metadata": {
+      "chunk_id": "d65a7c593d737be4ae1c3fed89e82b3f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 54] possible throughput remaining available nodes xe2 x80 xa2 privacy preserving multi path nature dbr algorithm naturally preserves privacy transferred values additional privacy preserving techniques e g zksnark importantly dbr algorithm seamlessly integrated onion routing 11 preserve anonymity sources destinations following introduce state channel network model describe dbr algorithm finally prove performance dbr note ease exposition restrict attention bi party payment channels section ideas apply state channel network value transfer requirements 3 2 1 system model model time discretized slots fixed length length slot usually corresponds physical transmission delay hop suppose 24 x0cthere n nodes network pair nodes j pair directed links j j exit bi directional payment channel $ j node node j let cij t capacity link j slot t corresponds remaining balance payment channel transferred node node j beginning slot total deposit constraint bi directional payment channel node node j cij t cji t",
+    "metadata": {
+      "chunk_id": "68bc751d41aafce953e689035d45854f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 55] j let cij t capacity link j slot t corresponds remaining balance payment channel transferred node node j beginning slot total deposit constraint bi directional payment channel node node j cij t cji t bi$j t bi$j t total deposit bi directional payment channel $ j beginning slot t note total deposit bi$j t change time dynamic chain fund deposit withdrawal slot t node receives new payment requests outside network total tokens delivered node k k ai t k 0 denote xc2 xb5ij t tokens required delivered node k sent link j slot t referred routing variable 3 2 2 protocol description description dbr introduce important notions debt queue channel imbalance congestion plus imbalance cpi weight debt queue operation dbr node needs maintain xe2 x80 x9cdebt k queue xe2 x80 x9d payments destined node k queue length qi t corresponds tokens destination k relayed node hop relayed beginning slot t intuitively length debt queue indicator congestion link queue length evolution follows h x k k k k qi t 1 qi t",
+    "metadata": {
+      "chunk_id": "67fe63303a6362068bff170fc3657df9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 56] length qi t corresponds tokens destination k relayed node hop relayed beginning slot t intuitively length debt queue indicator congestion link queue length evolution follows h x k k k k qi t 1 qi t ai t xc2 xb5ji t j2ni x j2ni k xc2 xb5ij t 6 x max 0 x queue length negative ni set neighbor nodes node equation simply means slot t change queue length caused components 1 new token transfer requests k outside network e ai t 2 tokens routed neighbors node e 25 x0cp k j2ni xc2 xb5ji t 3 tokens routed node neighbors e p k j2ni xc2 xb5ij t noted queue length destination node zero e qi t 0 node guarantees packet eventually delivered destination dbr algorithm channel imbalance link j define channel imbalance ij t xx xe2 x87 xa3 xe2 x8c xa7 t intuitively ij t k xc2 xb5ji xe2 x8c xa7 k xe2 x8c x98 k xc2 xb5ij xe2 x8c xa7 7 di xe2 x86 xb5erence total tokens received node node j total tokens sent j payment channel beginning slot t note ij t 0 means node sent tokens node j received node j clearly ij",
+    "metadata": {
+      "chunk_id": "a127d2c76597887398a40d24372d365d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 57] xb5ij xe2 x8c xa7 7 di xe2 x86 xb5erence total tokens received node node j total tokens sent j payment channel beginning slot t note ij t 0 means node sent tokens node j received node j clearly ij t natural measure channel imbalance perceived node dbr algorithm tries balance payment channel limt 1 ij t t 0 payment channel $ j implies long term sending rate j equals sending rate j congestion plus imbalance cpi weight define congestion plusimbalance cpi weight link j destination k k k k wij t qi t qj t ij t 8 0 parameter adjusting importance channel balancing intuitively k weight sum di xe2 x86 xb5erential backlog qi t k qj t payments destined node k node node j e congestion gradient channel imbalance ij t node node j reduce network congestion improve network throughput balance payment channels distributed balanced routing dbr following protocol locally executed node time slot t node exchanges queue length information 26 x0cits neighbors calculates cpi weights link j node calculates",
+    "metadata": {
+      "chunk_id": "85dcbbeea33faff7302e7123dbbe77c2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 58] distributed balanced routing dbr following protocol locally executed node time slot t node exchanges queue length information 26 x0cits neighbors calculates cpi weights link j node calculates best payment flow transmit link k k xe2 x87 xa4 arg max wij t k k xe2 x87 xa4 wij k k xe2 x87 xa4 9 k xe2 x87 xa4 t 0 xc2 xb5ij t cij t xc2 xb5ij t 0 k 6 k xe2 x87 xa4 set xc2 xb5ij t 0 remark slot t dbr essentially tries solve following weighted sum optimization problem max xx ij s t x k k xc2 xb5ij t wij t k k xc2 xb5ij t k x k xc2 xb5ji t k 10 xef xa3 xbf bi$j t 8i j optimization problem called maxweight derived theoretical analysis dbr section aforementioned algorithm description gives approximate solution maxweight 3 2 3 throughput performance dbr analyze throughput performance dbr introduce definitions xe2 x80 xa2 state channel network said stable k qi t 0 8i k t 1 t lim implies long term arrival rate debt queue equals long term departure rate queue xe2 x80 xa2 state channel network said",
+    "metadata": {
+      "chunk_id": "f069ee03b7816a318afef1c485889e0e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 59] xe2 x80 xa2 state channel network said stable k qi t 0 8i k t 1 t lim implies long term arrival rate debt queue equals long term departure rate queue xe2 x80 xa2 state channel network said balanced lim t 1 ij t t 0 8 channel $ j 27 x0cin words payment channel $ j long term sending rate node node j equals sending rate node j node xe2 x80 xa2 define k t 1 1 x k ai xe2 x8c xa7 t 1 t lim xe2 x8c xa7 0 long term average arrival rate node payments destination k arrival rate vector k k said supportable exists routing algorithm network stable balanced arrival rate vector xe2 x80 xa2 throughput region state channel network set supportable arrival rate vectors xe2 x80 xa2 routing algorithm throughput optimal support payment arrival rate vector inside throughput region ease exposition assume external payment arrival process k ai t t 0 stationary steady state distribution total de posit payment channel remains fixed e bi$j t bi$j t 0 analysis extended case arrival process non stationary channel",
+    "metadata": {
+      "chunk_id": "af4f50f161a23b12a0997a228c4f94ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 60] payment arrival process k ai t t 0 stationary steady state distribution total de posit payment channel remains fixed e bi$j t bi$j t 0 analysis extended case arrival process non stationary channel deposits time varying e g dynamic chain deposit withdraw expense unwieldy notations following theorem shows throughput performance dbr theorem 3 1 dbr algorithm throughput optimal words long exists routing algorithm payment network stable balanced dbr algorithm achieve rest xc2 xa73 2 3 proof theorem 3 1 introduce lemma characterizes throughput region state channel network lemma 3 2 arrival rate vector 28 k k supportable x0c k exist flow variables f fij j k satisfy following conditions k x x j2ni k fij k x k fji x k k fij k x k x j2ni k fij xef xa3 xbf 0 8k 6 k 11 k 12 k 13 fji 8i j fji xef xa3 xbf bi$j 8i j proof necessity conditions trivial inequality 11 corresponds flow conservation requirement violated arrival rate node larger departure rate state channel network unstable equation 12",
+    "metadata": {
+      "chunk_id": "c4d083fc1ca5401311d79bb3887251d7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 61] xbf bi$j 8i j proof necessity conditions trivial inequality 11 corresponds flow conservation requirement violated arrival rate node larger departure rate state channel network unstable equation 12 corresponds channel balance requirement violated channel $ j imbalanced inequality 13 corresponds channel capacity constraint sum tokens transferred channel $ j exceed total channel deposit bi$j order prove sufficiency conditions construct algorithm stabilize balance state channel network arrival rate vector satisfies 11 13 algorithm straightforward slot t set routing k k variable xc2 xb5ij t fij j k clearly routing algorithm chanp k p k p k nel $ j remains balanced slot t k xc2 xb5ij t k fij k fji p k k xc2 xb5ji t network stable algorithm flow con servation requirement satisfied node note link j p k insufficient fund initially e cij 0 k fij routing decision infeasible case let node j transfer tokens node beginning order equalize fund ends state channel adjustment process incurs bi$j sub",
+    "metadata": {
+      "chunk_id": "b7649f4f394781ae1706a9575ee06c74",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 62] j p k insufficient fund initially e cij 0 k fij routing decision infeasible case let node j transfer tokens node beginning order equalize fund ends state channel adjustment process incurs bi$j sub optimal transfers channel $ j influence network stability channel balance long term equations 11 13 necessary sufficient condition arrival rate vector supportable noted routing algorithm mentioned proof lemma 3 2 implemented practice know external arrival rate vector advance following prove dbr achieve throughput performance knowing payment traffic statistics advance 29 x0cby lemma 3 2 arrival rate vector belongs throughput region satisfy 11 13 supported algorithm mentioned proof lemma 3 2 referred optimal oracle algorithm following denote k xc2 xb5 eij t routing decision optimal oracle algorithm slot t k k nature optimal oracle algorithm xc2 xb5 eij t fij t ignoring initial fund adjustment process define lyapunov function follows t x xe2 x87 xa3 k xe2 x8c x982 k qi t 2 x 2 ij t 14 j define",
+    "metadata": {
+      "chunk_id": "caf40fc04d5e228968a2e007b97a343a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 63] slot t k k nature optimal oracle algorithm xc2 xb5 eij t fij t ignoring initial fund adjustment process define lyapunov function follows t x xe2 x87 xa3 k xe2 x8c x982 k qi t 2 x 2 ij t 14 j define conditional lyapunov drift d t e t 1 t q t t expectation respect randomness arrivals facilitate analysis assume new payments arrivals network slot bounded constant equation 6 xe2 x87 xa3 k qi t 1 xe2 x8c x982 h x k k k qi t ai t xc2 xb5ji t xe2 x87 xa3 x j k qi t xe2 x87 xa3 k x k xc2 xb5ji t j k 2ai t qi t j k xc2 xb5ij t j k 2qi t xe2 x87 xa3x k xc2 xb5ij t i2 xe2 x87 xa3 xe2 x8c x982 k ai t k xc2 xb5ij t j j k xe2 x8c x982 x k xc2 xb5ji t j xe2 x87 xa3 xe2 x8c x982 k xef xa3 xbf qi t k x x k xc2 xb5ij t x xe2 x8c x98 k xc2 xb5ji t j 15 xe2 x8c x98 2ai t qi t const k inequality assumption arrival ai t slot t bounded constant fact number transferred tokens k slot bounded xc2 xb5ij t xef xa3 xbf bi$j x xe2 x87 xa3 k qi t 1 k xef xa3 xbf const const 2 x xx j k x xe2 x87 xa3 k qi t k k qi t k",
+    "metadata": {
+      "chunk_id": "23d9ce2071e3b69a3cdc20b394b60788",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 64] ai t slot t bounded constant fact number transferred tokens k slot bounded xc2 xb5ij t xef xa3 xbf bi$j x xe2 x87 xa3 k qi t 1 k xef xa3 xbf const const 2 x xx j k x xe2 x87 xa3 k qi t k k qi t k 2 xe2 x8c x982 xe2 x87 xa3x xe2 x8c x982 k xc2 xb5ij t j k xe2 x87 xa3 x j k xc2 xb5ij t qi t 30 xe2 x8c x98 x k k k xc2 xb5ji t 2 ai t qi t k xe2 x8c x98 qj t 2 x k k k k ai t qi t x0cwhere rearrange sum equality similarly noticing ij t 1 ij t x x k xc2 xb5ji t k k xc2 xb5ij t k prove 2 x 2 ij t 1 j 2 x 2 ij t j xef xa3 xbf j xc2 xb7 const k xx xc2 xb7 const xe2 x87 xa3 k t xc2 xb5ij t ij xx xc2 xb7 const j 2 k xc2 xb5ij t k xx j xe2 x87 xa3 k xc2 xb5ij t ij t k xc2 xb5ji t ji t xe2 x8c x98 xe2 x8c x98 ij t k 16 use fact ij t ji t result combining 15 16 conditional lyapunov drift bounded d t xef xa3 xbf c1 c2 xef xa3 xbf c1 c2 c1 c2 2 xx j 2 j 2 k xx j c1 c 2 2 k xx x xe2 x87 xa3 k k xc2 xb5ij t qi t k xc2 xb5 eij t k fij k k qi t k xe2 x87 xa3 xe2 x87 xa3 k qi t k xe2 x87 xa3 k k qj t k qi",
+    "metadata": {
+      "chunk_id": "43d42e9f7027919ef7db5b650dada600",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 66] j xe2 x8c x982 xef xa3 xbf 2 x h e 2 ij t j xef xa3 xbf c1 c2 t e 0 inequality holds variance t negative e hp xe2 x87 xa3 p xe2 x8c x982 2 t var t e e t 0 ij j ij j e x j ij t xef xa3 xbf s 2c1 t 2c2 t 2e 0 e 0 1 payment channel $ j lim e t 1 h ij t t 0 e network maintains channel balance dbr algorithm similarly x k k e qi t xef xa3 xbf p c1 c2 t e 0 implies k e qi t 0 8i k t 1 t lim e network stable dbr algorithm 32 x0c3 3 discussions dbr 3 3 1 failure resilience adaptive multi path nature dbr algorithm inherently robust network failures example unresponsive nodes dbr quickly adapt support maximum possible throughput remaining available nodes 3 3 2 privacy multi path nature dbr intermediate node access information small fraction value transfer request result dbr algorithm naturally provides good privacy protection terms transferred values dbr node need know destination value transfer request order place proper debt queue need hide payment destination onion routing 11 conjunction dbr",
+    "metadata": {
+      "chunk_id": "fcf81809a4f0ffbf29b964484d752dbf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 67] good privacy protection terms transferred values dbr node need know destination value transfer request order place proper debt queue need hide payment destination onion routing 11 conjunction dbr onion routing messages encapsulated layers encryption encrypted data transmitted series network nodes called onion nodes xe2 x80 x9cpeels xe2 x80 x9d away single layer uncovering data xe2 x80 x99s destination final layer decrypted message arrives destination direct payments overlay network consisting onion nodes apply dbr optimally route payments onion nodes 3 4 simulation results numerically compare performance dbr existing routing algorithms payment state channel networks speedymurmurs 13 flare 10 lightning network simulation conducted topology given figure 3 figure 4 shows throughput performance comparison observed dbr achieves 15x improvement average payment throughput compared existing routing algorithms exceptional throughput performance dbr channel balancing congestion aware nature",
+    "metadata": {
+      "chunk_id": "7aa6489819155d6ffd129d9476dad726",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 68] comparison observed dbr achieves 15x improvement average payment throughput compared existing routing algorithms exceptional throughput performance dbr channel balancing congestion aware nature particular figure 5 illustrates channel utilization3 dbr speedymurmurs flare observe 3 channel utilization corresponds ratio transferred tokens time slot 33 x0cforce directed graph figure 3 payment channel network topology simulations 77 nodes 254 bi directional payment channels payment channel network running 40 payment flows randomly chosen source destination pairs initial deposit channel uniformly distributed 100 200 tokens payment arrivals follow poisson process size payment follows geometric distribution mean 3 tokens simple force directed graph shows character co occurence les mis xc3 xa9rables physical simulation charged particles springs places related characters closer proximity unrelated characters farther apart layout algorithm inspired tim dwyer thomas jakobsen data based character",
+    "metadata": {
+      "chunk_id": "722edc3245596ea60c4df9af8215fb06",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 69] physical simulation charged particles springs places related characters closer proximity unrelated characters farther apart layout algorithm inspired tim dwyer thomas jakobsen data based character coappearence victor hugo s les mis xc3 xa9rables compiled donald knuth open compare display force layout curved links force layout fisheye distortion matrix diagram index html doctype html meta charset utf 8 style figure 4 instant payment throughput comparison dbr avg 6748 pay links line ments slot speedymurmurs avg 467 stroke 999 payments slot flare avg 316 paystroke opacity 0 6 ments slot nodes circle stroke fff dbr consistently stroke width 1 5px figure 5 channel utilization comparison dbr speedymurmurs flare higher channel utilization implies higher level channel balancing achieves high nearly 100% channel utilization routing algorithms achieve 5% channel utilization lack https bl ocks org mbostock 4062045 channel balancing total token deposits channels example total deposits 100 50",
+    "metadata": {
+      "chunk_id": "ff5e61d7c4701b69f122f38742a34156",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 70] nearly 100% channel utilization routing algorithms achieve 5% channel utilization lack https bl ocks org mbostock 4062045 channel balancing total token deposits channels example total deposits 100 50 moved slot t overall channel utilization slot 50% 34 1 8 x0c4 cos o xe2 x86 xb5 chain decentralized application operating system help quickly build operate use scalable o xe2 x86 xb5 chain decentralized applications hassled additional complexities introduced o xe2 x86 xb5 chain scaling celer network innovates higher level abstraction cos combination application development framework sdk runtime system section provides high level vision design objectives illustrations cos 4 1 directed acyclic graph conditionally dependent states section provide view abstraction model construct o xe2 x86 xb5 chain applications describe model integrated state channel networks order support use cases simple p2p payments model system o xe2 x86 xb5 chain applications directed acyclic graph dag conditionally",
+    "metadata": {
+      "chunk_id": "5f659b1798c7e892d37525ce219053d1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 71] chain applications describe model integrated state channel networks order support use cases simple p2p payments model system o xe2 x86 xb5 chain applications directed acyclic graph dag conditionally dependent states edges represent dependencies figure 6 dag conditionally dependent states figure 6 illustrates system model generalized conditional payment channel payment networks contracts chain states settlement chain states depends conditional payment objects e g conditional payment object 3 completely o xe2 x86 xb5 chain chain enforceable want highlight conditional payment objects simple time hash locked transactions conditioned o xe2 x86 xb5 chain application 35 x0ccontract states xe2 x80 x9co xe2 x86 xb5 chain app x xe2 x80 x9d figure 6 conditional payment objects relayed multiple hops like simple unconditional payments objects example payment channel 1 channel connecting alice bob payment channel 2 channel connecting bob carl let xe2 x80 x9co xe2 x86 xb5 chain app 2 xe2 x80 x9d o",
+    "metadata": {
+      "chunk_id": "7fae927b7f93a908066b1318f7984acb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 72] like simple unconditional payments objects example payment channel 1 channel connecting alice bob payment channel 2 channel connecting bob carl let xe2 x80 x9co xe2 x86 xb5 chain app 2 xe2 x80 x9d o xe2 x86 xb5 chain chess game alice playing carl suppose alice wants express semantic xe2 x80 x9calice pay carl 10 eth carl wins game xe2 x80 x9d direct channel alice carl alice send conditional payment carl bob layers conditional locks layer simple time hashed lock sure bob relays resolves payment reasonable time second layer locks payment conditioning result chess game hop relay conditional payment alice carl settled bob bob involve chess game minimized example dependency graph formed generalized state channels conditional payment objects o xe2 x86 xb5 chain applications support arbitrarily complex multi party interactions note o xe2 x86 xb5 chain objects depend o xe2 x86 xb5 chain objects example alice pay carl successfully transfers certain ens words payment depends o xe2 x86 xb5 chain",
+    "metadata": {
+      "chunk_id": "715d2a5ef63538686d3b67f13c152bd1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 73] multi party interactions note o xe2 x86 xb5 chain objects depend o xe2 x86 xb5 chain objects example alice pay carl successfully transfers certain ens words payment depends o xe2 x86 xb5 chain condition owner ens changes carl alice o xe2 x86 xb5 chain payment objects conditional conditional payment object xe2 x80 x9cdegenerate xe2 x80 x9d unconditional balance proof application runs generally speaking conditional dependencies transient nature application state updates pair topological traversals underlying state graph traversal goes forward direction second reverse direction forward traversal starting chain state channel contracts creates additional transient conditional dependency edges modifies existing ones reverse traversal remove existing transient conditional dependency edges conditions evaluate constant true traversing backward 4 2 o xe2 x86 xb5 chain application development framework like modern high level languages operating systems abstract away details underlying hardware",
+    "metadata": {
+      "chunk_id": "8bda740061e2996d53985d2ec1441d5f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 74] evaluate constant true traversing backward 4 2 o xe2 x86 xb5 chain application development framework like modern high level languages operating systems abstract away details underlying hardware complexity interacting conditional 36 x0cstate dependency graphs necessitates dedicated development framework principle xe2 x80 x9cease use xe2 x80 x9d mind celer network presents cos sdk complete toolchain solution creation tracking resolution states o xe2 x86 xb5 chain applications hope sdk accelerate adoption o xe2 x86 xb5 chain scaling solution payment network provided celer network fostering strong ecosystem capp platform specific code cos api smart contract cos state compiler state dependency graph figure 7 structure decentralized application celer network capp general categorize decentralized applications classes simple payper use applications complex multi party applications pay use applications include examples like orchid protocol user keeps receiving microservices e g data relay real",
+    "metadata": {
+      "chunk_id": "ef85de0efc4299235a39963a694d30ba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 75] applications classes simple payper use applications complex multi party applications pay use applications include examples like orchid protocol user keeps receiving microservices e g data relay real world entity streams payments payment network need conditional dependency o xe2 x86 xb5chain states lean transport layer api routing layer provided celer network suffice cases class multi party applications general structure illustrated figure 7 idea conditional state dependency graphs shines sdk defines set design patterns common framework developers express conditional dependencies plan extend existing smart contract languages modern software construction techniques metaprogramming annotation processing dependency injection dependency information written explicitly intrusive compiler processes application code extracts declared o xe2 x86 xb5 chain objects generates conditional dependency graph compiler detects invalid unfulfillable dependency information generates human readable errors",
+    "metadata": {
+      "chunk_id": "6bfbab0d75c7f0ba0613eb548c1aa460",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 77] compile time check dispatching method cos runtime execution 4 3 o xe2 x86 xb5 chain application runtime cos runtime serves interface capps4 celer network transport layer supports capps terms network communication local o xe2 x86 xb5chain state management overall architecture illustrated figure 8 capp capp capp cos vm native bridge smart contract vm communicate cchannel dispute blockchain handoff state guardian network persist local storage figure 8 cos runtime architecture network runtime handles multi party communication lifecycle capp provides set primitives secure multi party computation capable supporting complex use cases gaming case counter party failure fail stop byzantine runtime relays disputes chain state case client going o xe2 x9c x8fine runtime handles availability o xe2 x9c x8foading state guardian network client comes online runtime synchronizes local states state guardian network 4 decentralized applications running celer network capps 38 x0cfor local o xe2 x86 xb5",
+    "metadata": {
+      "chunk_id": "2bd1db44264e91f159cf6a79d6a50afb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 78] x8foading state guardian network client comes online runtime synchronizes local states state guardian network 4 decentralized applications running celer network capps 38 x0cfor local o xe2 x86 xb5 chain state management conditional state graphs synthesized cos sdk bundled capp passed runtime o xe2 x86 xb5 chain execution runtime serves infrastructure create update store monitor o xe2 x86 xb5 chain states locally celer network clients tracks internal logic applications running performs dag traversal state updates outlined xc2 xa7 4 1 gracefully handles payment reliability issues insufficient capacity routing payment core cos runtime bundles native virtual machine vm running smart contracts intend deploy cos platforms including desktop web mobile iot devices adopted ambitious design principle xe2 x80 x9cwrite run xe2 x80 x9d words enable developers write common business logic run exact chain smart contract code environment opposed having implement multiple variants logic adopting",
+    "metadata": {
+      "chunk_id": "0849556a15b71e6f286279959ac054ac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 80] able solidity swift bridge code contract available compile time code generator cos sdk generated bridge method named chess getboardstate dispatched vm actual query possible use language xe2 x80 x99s foreign function interface eg jni reduce overhead calling forth smart contracts native code developer able use debugging profiling tools chain smart contracts o xe2 x86 xb5 chain development scenario order genuinely replicate state changes happened onchain o xe2 x86 xb5 chain environment vm progresses bytecode 39 x0cif executed chain caveat di xe2 x86 xb5erences major di xe2 x86 xb5erence vm needs update store states locally instead blockchain achieve seamless transparent inter operation vm rest cos implement set apis bridge platform specific storage backends vm second major di xe2 x86 xb5erence opposed online local vm shut unexpectedly time software bugs hardware failure simply loss power avoid corruption local states need implement robust logging checkpointing committing protocol minor",
+    "metadata": {
+      "chunk_id": "7e5180020713a0d401aee673219e4ba6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 81] opposed online local vm shut unexpectedly time software bugs hardware failure simply loss power avoid corruption local states need implement robust logging checkpointing committing protocol minor di xe2 x86 xb5erence logic gas metering omitted execution happens locally sense charge gas fees bundled vm needs lightweight performant run mobile iot devices tend operate tight processor power memory capacity battery life constraints currently embed lightweight ethereum vm cos researching adopting common bytecode formats eg webassembly goal supporting contract languages blockchains ultimate vision cos vm apply modern vm techniques ahead time compilation aot time compilation jit achieve nearnative performance o xe2 x86 xb5 chain smart contract execution instead interpreting smart contract bytecodes like ethereum vms currently compile bytecodes lower level intermediate representations closer native code code certain contract available compile time eg contract deployed chain perform compilation",
+    "metadata": {
+      "chunk_id": "52d7952ccd5f15e129d8a04647ebb81a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 82] like ethereum vms currently compile bytecodes lower level intermediate representations closer native code code certain contract available compile time eg contract deployed chain perform compilation ahead time statically link binary rest application contracts dynamically loaded runtime profile frequently called functions e xe2 x80 x9chot xe2 x80 x9d code perform time compilation believe combination techniques bring great balance performance energy consumption crucial mobile iot devices 5 ceconomy o xe2 x86 xb5 chain cryptoeconomics mechanism design native digital cryptographically secured protocol token celer network celr major component ecosystem celer network de 40 x0csigned solely network celr non refundable functional utility token platform currency ecosystem celer network celr way represent shareholding participation right title interest token vendor foundation affiliates company enterprise undertaking celr entitle token holders promise fees revenue profits investment returns",
+    "metadata": {
+      "chunk_id": "0cc79b51638988b652f02d5286d7757a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 83] represent shareholding participation right title interest token vendor foundation affiliates company enterprise undertaking celr entitle token holders promise fees revenue profits investment returns intended constitute securities singapore relevant jurisdiction celr utilized celer network ownership celr carries rights express implied right use celr means enable usage interaction celer network following introduce celer network xe2 x80 x99s cryptoeconomics mechanisms ceconomy design based principle good cryptoeconomics model token model provide additional values enable new game theoretical dynamics impossible following elaborate fundamental tradeo xe2 x86 xb5s o xe2 x86 xb5 chain ecosystems section 5 1 demonstrate ceconomy bring value enable new dynamics xe2 x80 x9cbalance xe2 x80 x9d tradeo xe2 x86 xb5s section 5 2 5 1 tradeo xe2 x86 xb5s o xe2 x86 xb5 chain ecosystems o xe2 x86 xb5 chain solution gaining scalability making tradeo xe2 x86 xb5s following describe fundamental tradeo xe2",
+    "metadata": {
+      "chunk_id": "2fa7e83c2560c40da9836e138fd5941c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 84] xe2 x86 xb5s section 5 2 5 1 tradeo xe2 x86 xb5s o xe2 x86 xb5 chain ecosystems o xe2 x86 xb5 chain solution gaining scalability making tradeo xe2 x86 xb5s following describe fundamental tradeo xe2 x86 xb5s o xe2 x86 xb5 chain ecosystems scalability liquidity tradeo xe2 x86 xb5s scalability availability tradeo xe2 x86 xb5s 5 1 1 o xe2 x86 xb5 chain scalability vs liquidity o xe2 x86 xb5 chain platform gains scalability trading o xe2 x86 xb5 network liquidity example bi party payment state channel involved parties safely send payments high speeds hitting underlying blockchain deposited liquidity chain bond contract beginning liquidity locking nature works fine end users end users simply deposit liquidity open channels enjoy scalable dapps poses significant challenge want operate o xe2 x86 xb5 chain service providers osps state channels example osps need deposits channel outgoing payment possibility deposits easily aggregate 41 x0castronomical celer networks sidechain channels",
+    "metadata": {
+      "chunk_id": "5f5bbd31b48bb56e07394e57cae68654",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 85] xe2 x86 xb5 chain service providers osps state channels example osps need deposits channel outgoing payment possibility deposits easily aggregate 41 x0castronomical celer networks sidechain channels significantly reduce level liquidity requirement block proposer needs deposit fraud proof bonds proportional level value transfer xe2 x80 x9cat stake xe2 x80 x9d significant liquidity needed provide e xe2 x86 xb5ective o xe2 x86 xb5 chain services global blockchain users whales business interest technical capability run o xe2 x86 xb5 chain service infrastructure people technical capability running reliable scalable o xe2 x86 xb5 chain service capital channel deposits fraud proof bonds mismatch creates huge hurdle mass adoption technical evolution o xe2 x86 xb5 chain platforms mitigated eventually rich serve osps high capital barrier osp result centralized network providing undermines entire premise blockchain xe2 x80 x99s decentralization vision practical view censorship poor service",
+    "metadata": {
+      "chunk_id": "ae336dcf7a4c25786d24714806322683",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 86] rich serve osps high capital barrier osp result centralized network providing undermines entire premise blockchain xe2 x80 x99s decentralization vision practical view censorship poor service quality privacy breach hurt users today xe2 x80 x99s centralized services 5 1 2 o xe2 x86 xb5 chain scalability vs availability o xe2 x86 xb5 chain platform improves scalability bringing application states o xe2 x86 xb5chain imposes impractical xe2 x80 x9calways online xe2 x80 x9d responsibility users o xe2 x86 xb5 chain states available chain disputes example biparty payment state channel party goes o xe2 x9c x8fine counterparty hacked act maliciously try settle old favorable state data availability issue critical sidechain channel block proposers need independently monitored validated participants o xe2 x9c x8fine matter security scrutinized carefully challenge critical machine machine communication scenarios iot devices likely online time crucial design proper mechanisms guarantee data",
+    "metadata": {
+      "chunk_id": "be55e58b4ddad899d4626754f0e1bdfd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "breach",
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 34.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 87] o xe2 x9c x8fine matter security scrutinized carefully challenge critical machine machine communication scenarios iot devices likely online time crucial design proper mechanisms guarantee data availability o xe2 x86 xb5 chain platform solving challenge requires systematic thinking entire o xe2 x86 xb5 chain ecosystem existing solutions fail provide important properties decentralization efficiency simplicity flexibility security discuss following section 42 x0cfigure 9 relationship ceconomy components 5 2 ceconomy design balance mentioned tradeo xe2 x86 xb5s propose suite cryptoeconomics mechanisms called ceconomy includes tightly interconnected components proof liquidity commitment polc mining liquidity backing auction liba state guardian network sgn relationship components illustrated figure 9 moving details components introduce terms section specifically user ceconomy system play roles o xe2 x86 xb5 chain service provider osp end users eu network liquidity backer nlb state guardians",
+    "metadata": {
+      "chunk_id": "e99e03379d5fde961df03e31ba285777",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 88] 9 moving details components introduce terms section specifically user ceconomy system play roles o xe2 x86 xb5 chain service provider osp end users eu network liquidity backer nlb state guardians sg o xe2 x86 xb5 chain service providers osp entities technical capability run highly redundant scalable secure o xe2 x86 xb5 chain infrastructures end users eu access o xe2 x86 xb5 chain services provided osp e g pay receive cryptocurrency common consumers iot devices vpn providers live video streaming providers cdn providers counterparties machine machine m2m systems o xe2 x86 xb5 chain chain smart contract network liquidity backers nlb entities lock liquidity system support operations o xe2 x86 xb5 chain infrastructure state guardians provide eus decentralized secure flexible 43 x0cand efficient state guarding service state guardian network 5 2 1 proof liquidity commitment polc mining goal balance scalability liquidity tradeo xe2 x86 xb5 lowering liquidity barrier technically capable",
+    "metadata": {
+      "chunk_id": "3e58be8f42de98b2c39bc8abe23c9c2e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 89] state guarding service state guardian network 5 2 1 proof liquidity commitment polc mining goal balance scalability liquidity tradeo xe2 x86 xb5 lowering liquidity barrier technically capable parties o xe2 x86 xb5 chain service providers creating efficient competitive market good reliable o xe2 x86 xb5 chain services gist idea enable service providers tap large amounts liquidity need realize idea provision abundant stable liquidity pool smooth short term liquidity supply fluctuation end propose proof liquidity commitment polc virtual mining process high level polc mining process incentivize network liquidity backers nlb lock liquidity form digital assets including limited cryptocurrencies celr celer network long time rewarding celr tokens establishing stable abundant liquidity pool specifically mining process involves nlbs commit lock idle liquidity example eth xe2 x80 x9cdumb box xe2 x80 x9d called collateral commitment contract ccc certain period time period time digital assets",
+    "metadata": {
+      "chunk_id": "f7e30e9a925b8fb78db7467db52c08a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 90] mining process involves nlbs commit lock idle liquidity example eth xe2 x80 x9cdumb box xe2 x80 x9d called collateral commitment contract ccc certain period time period time digital assets locked nlb xe2 x80 x99s assets liquidity backing process formally polc mining process defined following definition 5 1 polc power nlb locks si local cryptocurrency blockchain e g eth ti time polc power mi computed mi s xe2 x87 xa5 t 18 definition 5 2 polc incentive mechanism limited period time celer network intends provide incentives form celr nlbs lock ccc support system incentives distributed proportional nlb xe2 x80 x99s polc power let ri denote incentives ri r xe2 x87 xa5 mi n p mj j 1 44 19 x0cwhere r total reward current block note locking liquidity ccc carry inherent counterparty risk simply shows liquidity commitment celer network note early unlocking ccc allowed try create xe2 x80 x9cspoofed liquidation xe2 x80 x9d appearance xe2 x80 x99s ccc getting liquefied xe2 x80 x9chacking xe2 x80",
+    "metadata": {
+      "chunk_id": "8beb726a5298954ca92436c1d6587524",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 32.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 91] liquidity commitment celer network note early unlocking ccc allowed try create xe2 x80 x9cspoofed liquidation xe2 x80 x9d appearance xe2 x80 x99s ccc getting liquefied xe2 x80 x9chacking xe2 x80 x9d faked osp prevent spoofing newly mined celr available withdrawal usage ccc unlocks early liquidation cause mined ccc forfeited redistributed miners construct common denominator liquidity polc important question initial launch platform use native currency target blockchain later use heterogeneous crypto assets external price oracles mechanisms place polc mining process ensures polc power system grow system utility celr grows forming positive loop point wonder celr valuable act incentive explain following sections describing liquidity backing auction state guardian networks 5 2 2 liquidity backing auction liba second solving liquidity puzzle enable way o xe2 x86 xb5 chain service providers access liquidity pool globally achieved liquidity backing auction liba liba enables o xe2 x86 xb5 chain",
+    "metadata": {
+      "chunk_id": "2a0e0d6c78efa88e64fdef3fc2eb3a24",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 92] auction liba second solving liquidity puzzle enable way o xe2 x86 xb5 chain service providers access liquidity pool globally achieved liquidity backing auction liba liba enables o xe2 x86 xb5 chain service providers solicit liquidity xe2 x80 x9ccrowd lending xe2 x80 x9d essence o xe2 x86 xb5 chain service provider starts liba celer network xe2 x80 x9cborrow xe2 x80 x9d certain liquidity certain time interested liquidity backer submit bid contains interest rate o xe2 x86 xb5ered liquidity celr willing stake said period time liquidity submitted ccc ccc functionality act liquidity backing asset borrowed liquidity fraud proof bond outgoing channel deposit liba generalized multi attribute vickrey clarke groves sealed bid secondscore auction start auction process osp creates standard liba contract celer network xe2 x80 x99s central liba registry information total requested liquidity q duration request d highest interest 45 x0crate rmax accept nlbs watch registry notice new liba contract",
+    "metadata": {
+      "chunk_id": "f0c8668bd93908fa2ecaee3415dd05bb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 93] celer network xe2 x80 x99s central liba registry information total requested liquidity q duration request d highest interest 45 x0crate rmax accept nlbs watch registry notice new liba contract start bidding process celer network requires crypto assets locked ccc bidding process note ccc xe2 x80 x9clock free xe2 x80 x9d simply backing asset functionality polc mining ccc acts container crypto assets provides unified verifiable value heterogeneous crypto assets use ccc makes easier nlbs participate liba moving crypto assets time bid simplifies backing process improve security nlb submits bid form tuple bi ri ti ci ri interest rate ti total celr willing lock contract time ci aggregate currency value contained set cccs bonded bid bid submitted corresponding cccs temporarily frozen sealed bidding liba contract uses reverse second score auction 8 determine winning bids following steps xe2 x80 xa2 scoring rule bid bi ri ti ci bid set b b1 b2 bn ti ci fi score si calculated following s bi w1",
+    "metadata": {
+      "chunk_id": "7475f23e4cfa96f2f4a7a43da751beaa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 94] liba contract uses reverse second score auction 8 determine winning bids following steps xe2 x80 xa2 scoring rule bid bi ri ti ci bid set b b1 b2 bn ti ci fi score si calculated following s bi w1 fi fmax w2 ri rmax 20 fmax max f1 f2 fn rmax max r1 r2 rn w1 w2 weights components initially ensure account interest rate higher weight account staked celr 5 xe2 x80 xa2 winner determination determine opportunity network liquidity backer liba contract sorts bids b descending order scores sorted bid set denoted b xe2 x87 xa4 b xe2 x87 xa41 b xe2 x87 xa42 b xe2 x87 xa43 b xe2 x87 xa4n s b xe2 x87 xa41 s b xe2 x87 xa42 xc2 xb7 xc2 xb7 xc2 xb7 k p b xe2 x87 xa4 ti 1 s b xe2 x87 xa4n ties broken randomly winners k bids kp1 q ti q 1 xe2 x80 xa2 second score celr staking consumption winners determined cccs locked liba contract time d duration request interest requests accepted interests prepaid osp initiating liquidity request important note committed celr locked consumed contract winner needs 5",
+    "metadata": {
+      "chunk_id": "e22e588d3c8ba86149c09fb9b1abf810",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 95] cccs locked liba contract time d duration request interest requests accepted interests prepaid osp initiating liquidity request important note committed celr locked consumed contract winner needs 5 weights subject future decentralized governance adjustment 46 x0clock consume celr score matches score loser auction token locked consumed depends stage platform years new tokens generated polc mining liba requires token staking polc mining concludes liba start consume token consumed tokens injected system continuous polc mining rewards note second score celr staking consumption mechanism participants projected submit bids matching true valuation truthfulness 17 good case opportunity network liquidity example assume osp initiated liba following parameters 600 eth 30 days 1% potential bidders let xe2 x80 x99s b c liba bidders xe2 x80 x99 bids ba 1% 800 celr 400 eth bb 0 5% 800 celr 200 eth bc 1% 100 celr 400 eth according scoring rule sb sa sc b fill entire request selected winners noted c",
+    "metadata": {
+      "chunk_id": "374faaaf4967f4ab64780781f711c4c4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 96] xe2 x80 x99s b c liba bidders xe2 x80 x99 bids ba 1% 800 celr 400 eth bb 0 5% 800 celr 200 eth bc 1% 100 celr 400 eth according scoring rule sb sa sc b fill entire request selected winners noted c interest rate 1% provide liquidity 400 eth bidder selected winner bidder c loses fact committed celr tokens symbol contributions platform significantly di xe2 x86 xb5erent finally according second score staking rule b lock consume celr tokens match score c 30 days auction process finishes osp initiated liquidity request pays interests wining liquidity backers depositing liba contract receiving payment interests liba contract gives interests corresponding liquidity backers issues 1 1 backed ceths eth example match liquidity request ceth essentially iou brings risk user ious 100% insured network liquidity backers liba contract normal cases liba contract resolved timeout osp sends ceth tokens basically timeout osp settle paid ceths eus real eths withdrawing upstream channels collectively 47",
+    "metadata": {
+      "chunk_id": "899e501c0b411b2bc96aa5308f574847",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 97] liquidity backers liba contract normal cases liba contract resolved timeout osp sends ceth tokens basically timeout osp settle paid ceths eus real eths withdrawing upstream channels collectively 47 x0cin case osp hacked celer network xe2 x80 x99s trust model vary simplest trust model protocol level overhead reputation driven nlbs choose reputable osp history default simple model nlbs exposed risk losing funds assets cccs insurances eus osp defaults arguable simple trust model operating highly reliable reputable osp possible unlikely backings lost additional security features added liba alleviate potential risk example newly issued ceths allowed deposited whitelist state channel contracts ceths allowed incrementally upper bound spending speed lot things osp maintain secure infrastructure compartmentalized multi node deployment formal verification security access rule network infrastructure addition enable enhanced security model randomly selected quorum nlb need co sign osp xe2 x80",
+    "metadata": {
+      "chunk_id": "f686aba58db84577abc30b5d9abca931",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 98] compartmentalized multi node deployment formal verification security access rule network infrastructure addition enable enhanced security model randomly selected quorum nlb need co sign osp xe2 x80 x99s operations e g payment nlbs allow outgoing transfer incoming transaction matching nlbs tethered incoming payments osp osp fails repayment eventually nlbs priority right claim incoming funds osp channels note operation model inevitably tradeo xe2 x86 xb5 efficiency network having said believe ultimate balance trust model defined market demand open trust model market organically evolve envision trust free model favorable early days network launch trust based regardless liba xe2 x80 x99s trust model want highlight liba process ensures end users security risk required liquidity 100% xe2 x80 x9cinsured xe2 x80 x9d liba contract celer network xe2 x80 x99s system strive sure benevolent end users need worry security received fund liba achieves polc liba incentivize abundant liquidity pool",
+    "metadata": {
+      "chunk_id": "53a843a37222b79261a58e6538709012",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 99] x9cinsured xe2 x80 x9d liba contract celer network xe2 x80 x99s system strive sure benevolent end users need worry security received fund liba achieves polc liba incentivize abundant liquidity pool lower barrier o xe2 x86 xb5 chain service provider reduce centralization risk accelerate network adoption 48 x0c5 2 3 state guardian network usage celr provide o xe2 x86 xb5 chain data availability novel insurance model simple interactions balances scalability availability tradeo xe2 x86 xb5s mentioned section 5 1 2 surface availability problem easy solve possible answer question let xe2 x80 x99s build monitoring services future people pay monitoring services online feels like reasonable solution look drive train thought little bit forward immediately track wrecking flaws let xe2 x80 x99s start question monitoring services trust based answer yes creates centralized choking point single point failure secure malicious counterparty easily bribe monitoring services hurt benevolent end users",
+    "metadata": {
+      "chunk_id": "6177d33997506dfdc449450d25fdb050",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 100] question monitoring services trust based answer yes creates centralized choking point single point failure secure malicious counterparty easily bribe monitoring services hurt benevolent end users construct monitoring service trust free example punish monitoring service providers fail defend states users delving idea immediately caveats render approach impractical penalty monitoring service providers pay ignoring frictions total penalty bond monitoring service providers equal largest potential loss incurred party went o xe2 x9c x8fine e xe2 x86 xb5ectively doubles liquidity requirement o xe2 x86 xb5 chain network goes o xe2 x9c x8fine addition existing locked liquidity channels fraud proof bond sidechains monitoring service providers need lock liquidity penalty deposits worse monitoring service providers need retain di xe2 x86 xb5erent assets di xe2 x86 xb5erent monitoring tasks things complicated involved states complex multiple assets classes play straightforward translation state",
+    "metadata": {
+      "chunk_id": "bfd632c4b9cad186f569f1184a1e6f93",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 43.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 101] service providers need retain di xe2 x86 xb5erent assets di xe2 x86 xb5erent monitoring tasks things complicated involved states complex multiple assets classes play straightforward translation state underlying value given complex state dependency generalized state channels liquidity xe2 x80 x9cinsurance xe2 x80 x9d model rigid basically saying x% monitoring service providers fail defend states choose large value x expensive additional liquidity locking choose small value x insecure 49 x0con disadvantages unclear price state monitoring services determined market information segregated low efficiency low efficiency party bond heterogeneous assets cause complicated chain o xe2 x86 xb5 chain interactions monitoring services smash usability o xe2 x86 xb5 chain platform issues bad solve issues propose state guardian network sgn state guardian network special compact chain guard o xe2 x86 xb5 chain states users o xe2 x9c x8fine celr token holders stake celr sgn state guardians user goes o",
+    "metadata": {
+      "chunk_id": "6ec5cb266823b1cd4668753d612b2bb4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 102] propose state guardian network sgn state guardian network special compact chain guard o xe2 x86 xb5 chain states users o xe2 x9c x8fine celr token holders stake celr sgn state guardians user goes o xe2 x9c x8fine submit state sgn certain fee ask guardians guard state certain period time number guardians randomly selected responsible state based state hash xe2 x80 x9cresponsibility score xe2 x80 x9d detailed rules selecting guardians follows xe2 x80 xa2 state guarding request state guarding request tuple xe2 x8c x98i si di si state guarded service fee paid guardians di duration state guarded xe2 x80 xa2 responsibility score responsibility score state guarding request xe2 x8c x98i calculated di user xe2 x80 x99s responsibility score essentially income flow generated user sgn xe2 x80 xa2 number guardian stakes given set outstanding state guarding request r xe2 x8c x981 xc2 xb7 xc2 xb7 xc2 xb7 xe2 x8c x98m number celr stake request xe2 x8c x98i 2 r ni m p k j j 1 k total number celr",
+    "metadata": {
+      "chunk_id": "60060524df86a9d124147bee1cdd99a1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 103] number guardian stakes given set outstanding state guarding request r xe2 x8c x981 xc2 xb7 xc2 xb7 xc2 xb7 xe2 x8c x98m number celr stake request xe2 x8c x98i 2 r ni m p k j j 1 k total number celr stakes guardians stake sgn words responsible celr staked proportional ratio requests responsibility score sum outstanding states 50 x0cresponsibility scores xe2 x80 xa2 assignment guardian stakes given state guarding request xe2 x8c x98i let hi hash value corresponding state si e g keccak256 hash celr stake k associated id pk hash value let g1 g2 distance hash values g1 g2 e g distance measure chord dht 14 celr stakes sorted ascending order distance hash value hi suppose p1 hi xef xa3 xbf p2 hi xef xa3 xbf xc2 xb7 xc2 xb7 xc2 xb7 xef xa3 xbf pk hi ties broken randomly ni celr stakes smallest distance selected corresponding stake owner state guardian request state guarding service fee distribution state guarding request xe2 x8c x98i si di attached service fee distributed state guardians",
+    "metadata": {
+      "chunk_id": "7b7ee95dd1cbf4172c097fbef8dceb90",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 105] celr stake result long selected guardians corrupted fulfills job end user xe2 x80 x99s state safe available dispute sgn mechanism brings following additional values xe2 x80 xa2 require significant liquidity lock guardians guardians staking celr guard arbitrary states regardless type underlying value tokens 51 x0c xe2 x80 xa2 provides unified interface arbitrary state monitoring regardless state related eth erc20 tokens complicated states users attach fee send sgn sgn care underlying states involved value simply allocates celr proportional fee paid responsible state xe2 x80 xa2 enables simple interactions users celer network need contact individual guardians need submit states sidechain xe2 x80 xa2 importantly enables entirely new flexible state guarding economic dynamics instead forcing rigid opaque xe2 x80 x9cget x% xe2 x80 x9d model sgn brings users novel mechanism xe2 x80 x9cget money x period time xe2 x80 x9d efficient pricing mechanism fluid insurance model guardians stake fail",
+    "metadata": {
+      "chunk_id": "2d47afc140eb82990f38e060dbaf5f46",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 106] rigid opaque xe2 x80 x9cget x% xe2 x80 x9d model sgn brings users novel mechanism xe2 x80 x9cget money x period time xe2 x80 x9d efficient pricing mechanism fluid insurance model guardians stake fail dispute user celr stakes guardians compensation steady state celr tokens staked sgn represent incoming flow e g earning x dai second ignoring cost state monitoring frictions user submits state sgn choose explicitly celr xe2 x80 x9ccovering xe2 x80 x9d state choosing fees paid second e responsibility score 5 2 4 summary thinking systematically ceconomy covers life cycle o xe2 x86 xb5 chain platform liba polc mining bringing intermediary transactions o xe2 x86 xb5 chain low barrier fashion sgn securing capability bring date states chain needed believe ceconomy comprehensive o xe2 x86 xb5 chain platform cryptoeconomics brings new value enables impossible dynamics 6 conclusion celer network coherent technology economic architecture brings internetlevel scalability existing future blockchains",
+    "metadata": {
+      "chunk_id": "7003534f9a4fee9c8502a0a197aa4e0e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 107] platform cryptoeconomics brings new value enables impossible dynamics 6 conclusion celer network coherent technology economic architecture brings internetlevel scalability existing future blockchains horizontally scalable trustfree decentralized privacy preserving encompasses layered architecture significant technical innovations layer addition celer network proposes principled o xe2 x86 xb5 chain cryptoeconomics design balance tradeo xe2 x86 xb5s achieve 52 x0cscalability celer network mission fully unleash power blockchain revolutionize decentralized applications built 7 founding team dr mo dong received ph d uiuc research focuses learning based networking protocol design distributed systems formal verification game theory dr dong led project revolutionizing internet tcp improved cross continental data transfer speed 10x 100x non regret learning algorithms work published conferences won internet2 innovative application award adopted major internet content service providers dr dong",
+    "metadata": {
+      "chunk_id": "a806911b9c060c0397f575520a34f62f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 108] continental data transfer speed 10x 100x non regret learning algorithms work published conferences won internet2 innovative application award adopted major internet content service providers dr dong founding engineer product manager veriflow startup specializes network formal verification formal verification algorithms developed protecting networking security fortune 50 companies dr dong experienced applying algorithmic game theory especially auction theory computer system protocol designs teaching stack smart contract courses produces technical blogs videos blockchain 7000 subscribers dr junda liu received ph d uc berkeley advised prof scott shenker propose develop dag based routing achieve nanosecond network recovery 1000x improvement state art dr liu joined google 2011 apply pioneer research googles global infrastructure tech lead developed dynamic datacenter topology capable 1000 terabit s bisection bandwidth interconnecting 1 million nodes 2014 dr liu founding member project fi",
+    "metadata": {
+      "chunk_id": "037b5ccf6e5805d2368e22ba7a202b81",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 109] googles global infrastructure tech lead developed dynamic datacenter topology capable 1000 terabit s bisection bandwidth interconnecting 1 million nodes 2014 dr liu founding member project fi googles innovative mobile service tech lead seamless carrier switching oversaw fi concept $100m year business 2 years android tech lead carrier services run 1 5b devices dr liu holds 6 patents published numerous papers conferences received bs ms tsinghua university dr xiaozhou li received ph d princeton university broadly interested distributed systems networking storage data management research publishes venues including sosp nsdi fast sigmod eurosys conext won nsdi xe2 x80 x9918 best paper award building distributed coordination service 53 x0cwith multi billion qps throughput microseconds latency xiaozhou specializes developing scalable algorithms protocols achieve high performance low cost core components widely deployed systems google tensorflow machine learning platform intel dpdk packet",
+    "metadata": {
+      "chunk_id": "8821ca9da370da71b98df6fec9c0b73e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 111] infocom 2016 2018 54 x0creferences 1 plasma https plasma io plasma pdf 2 raiden network documentation https raiden network readthedocs io accessed january 2018 3 r khalil gervais revive rebalancing o xe2 x86 xb5 blockchain payment networks proceedings 2017 acm sigsac conference computer communications security acm 2017 pp 439 xe2 x80 x93453 4 g malavolta p moreno sanchez kate m ma xe2 x86 xb5ei silentwhispers enforcing security privacy credit networks ndss 2017 5 miller bentov r kumaresan p mccorry sprites payment channels faster lightning corr abs 1702 05812 2017 available http arxiv org abs 1702 05812 6 p moreno sanchez kate m ma xe2 x86 xb5ei k pecina privacy preserving payments credit networks network distributed security symposium 2015 7 m j neely e modiano c e rohrs dynamic power allocation routing timevarying wireless networks ieee journal selected areas communications 23 2005 pp 89 xe2 x80 x93103 8 l pham j teich h wallenius j wallenius multi attribute online reverse auctions",
+    "metadata": {
+      "chunk_id": "dd29030e7a1f8b04e2d6105f91c8152e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 112] routing timevarying wireless networks ieee journal selected areas communications 23 2005 pp 89 xe2 x80 x93103 8 l pham j teich h wallenius j wallenius multi attribute online reverse auctions recent research trends european journal operational research 242 2015 pp 1 xe2 x80 x939 9 j poon t dryja bitcoin lightning network scalable o xe2 x86 xb5 chain instant payments technical report draft 2015 10 p prihodko s zhigulin m sahno ostrovskiy o osuntokun flare approach routing lightning network 2016 11 m g reed p f syverson d m goldschlag anonymous connections onion routing ieee journal selected areas communications 16 1998 pp 482 xe2 x80 x93494 12 s roos m beck t strufe anonymous addresses efficient resilient routing f2f overlays computer communications ieee infocom 2016 35th annual ieee international conference ieee 2016 pp 1 xe2 x80 x939 13 s roos p moreno sanchez kate goldberg settling payments fast private efficient decentralized routing path based transactions arxiv preprint arxiv 1709",
+    "metadata": {
+      "chunk_id": "bc8863d90ebec270977bb5319b959fb8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 113] conference ieee 2016 pp 1 xe2 x80 x939 13 s roos p moreno sanchez kate goldberg settling payments fast private efficient decentralized routing path based transactions arxiv preprint arxiv 1709 05748 2017 14 stoica r morris d liben nowell d r karger m f kaashoek f dabek h balakrishnan chord scalable peer peer lookup protocol internet applications ieee acm transactions networking ton 11 2003 pp 17 xe2 x80 x9332 15 l tassiulas ephremides stability properties constrained queueing systems 55 x0cscheduling policies maximum throughput multihop radio networks ieee transactions automatic control 37 1992 pp 1936 xe2 x80 x931948 16 p f tsuchiya landmark hierarchy new hierarchy routing large networks acm sigcomm computer communication review vol 18 acm 1988 pp 35 xe2 x80 x9342 17 h r varian c harris vcg auction theory practice american economic review 104 2014 pp 442 xe2 x80 x9345 56 x0cimportant notice whitepaper current form circulated general information invite investor feedback celer network",
+    "metadata": {
+      "chunk_id": "326916175928d05dd055107805aff17f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 115] xe2 x80 x9d xe2 x80 x9cthird party information consent persons xe2 x80 x9d xe2 x80 x9cterms xe2 x80 x9d xe2 x80 x9cno advice xe2 x80 x9d xe2 x80 x9cno information update xe2 x80 x9d xe2 x80 x9crestrictions distribution dissemination xe2 x80 x9d xe2 x80 x9cno offer investment registration xe2 x80 x9d xe2 x80 x9crisks uncertainties xe2 x80 x9d carefully doubt action consult legal financial tax professional advisor s effort ensure material whitepaper accurate date material way constitutes provision professional advice token vendor affiliates guarantee accepts legal liability whatsoever arising connected accuracy reliability currency completeness material contained whitepaper participants potential holders tokens seek appropriate independent professional advice prior relying entering commitment transaction based material published whitepaper material purely published reference purposes purposes whitepaper xe2 x80 x9caffiliates xe2 x80 x9d token vendor mean person directly indirectly",
+    "metadata": {
+      "chunk_id": "4c7a8a4b547dc7947932c76e7f4ccfe5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 116] transaction based material published whitepaper material purely published reference purposes purposes whitepaper xe2 x80 x9caffiliates xe2 x80 x9d token vendor mean person directly indirectly controlling controlled common control token vendor ii foundation entity developing operating celer network tokens issued cryptographic token tokens intended constitute construed constitute securities form units business trust units collective investment scheme form investment jurisdiction whitepaper constitute prospectus offer document sort intended constitute offer securities form units business trust units collective investment scheme form investment solicitation form investment jurisdiction whitepaper constitute form opinion advice acquire sell solicitation offer token vendor acquire tokens shall fact presentation form basis relied connection contract investment decision x0cno person bound enter contract binding legal commitment relation acquisition tokens cryptocurrency form payment accepted",
+    "metadata": {
+      "chunk_id": "4bd45419bd1bb31a054d3d5208b1d27c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 117] fact presentation form basis relied connection contract investment decision x0cno person bound enter contract binding legal commitment relation acquisition tokens cryptocurrency form payment accepted basis whitepaper agreement token vendor participant token sale relation purchase tokens governed separate document setting terms conditions xe2 x80 x9ctoken sale terms xe2 x80 x9d agreement event inconsistencies token sale terms whitepaper shall prevail note token vendor offer sell eligible purchase tokens token sale citizen domiciled resident located excluded jursidiction b incorporated operate excluded jursidiction c prohibited ineligible way law applicable participating token sale collectively xe2 x80 x9cexcluded persons xe2 x80 x9d purposes hereof xe2 x80 x9cexcluded jurisdiction xe2 x80 x9d means jurisdictions strategic anti money laundering counter financing terrorism deficiencies recently identified financial action task force http www fatf gafi org countries high risk accessed 4",
+    "metadata": {
+      "chunk_id": "8a59409d1190ee2c666f31ba6e793863",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 118] x9d means jurisdictions strategic anti money laundering counter financing terrorism deficiencies recently identified financial action task force http www fatf gafi org countries high risk accessed 4 july 2018 ii jurisdictions designated individuals entities identified monetary authority singapore purposes regulations promulgated monetary authority singapore act chapter 186 singapore united nations act chapter 339 singapore terrorism suppression financing act chapter 325 singapore iii canada iv new zealand v people xe2 x80 x99s republic china vi united states america vii jurisdiction token sale prohibited restricted unauthorised form manner laws requirements rules jurisdiction regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction publication distribution dissemination whitepaper imply applicable laws regulatory requirements rules complied risks uncertainties associated token vendor affiliates x0crespective",
+    "metadata": {
+      "chunk_id": "853f9c702a260ab1fe919be3f53fc9c3",
+      "entities": {
+        "location": [
+          "singapore"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 119] rules jurisdiction publication distribution dissemination whitepaper imply applicable laws regulatory requirements rules complied risks uncertainties associated token vendor affiliates x0crespective business operations tokens token sale celer network refer section entitled xe2 x80 x9crisks disclosures xe2 x80 x9d set whitepaper whitepaper thereof copy thereof taken transmitted country distribution dissemination whitepaper prohibited restricted whitepaper reproduced distributed disseminated including section following sections entitled xe2 x80 x9cdisclaimer liability xe2 x80 x9d xe2 x80 x9cno representations warranties xe2 x80 x9d xe2 x80 x9crepresentations warranties xe2 x80 x9d xe2 x80 x9ccautionary note forward looking statements xe2 x80 x9d xe2 x80 x9cthird party information consent persons xe2 x80 x9d xe2 x80 x9cterms xe2 x80 x9d xe2 x80 x9cno advice xe2 x80 x9d xe2 x80 x9cno information update xe2 x80 x9d xe2 x80 x9crestrictions distribution dissemination xe2 x80 x9d xe2 x80",
+    "metadata": {
+      "chunk_id": "ce508a5f7832cb7f97800d91015c958f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 120] persons xe2 x80 x9d xe2 x80 x9cterms xe2 x80 x9d xe2 x80 x9cno advice xe2 x80 x9d xe2 x80 x9cno information update xe2 x80 x9d xe2 x80 x9crestrictions distribution dissemination xe2 x80 x9d xe2 x80 x9cno offer investment registration xe2 x80 x9d xe2 x80 x9crisks uncertainties xe2 x80 x9d disclaimer liability maximum extent permitted applicable laws regulations rules token vendor affiliates shall liable indirect special incidental consequential losses kind tort contract including limited loss revenue income profits loss use data arising connection acceptance reliance whitepaper thereof person transmit whitepaper authorised unauthorised token vendor affiliates representations warranties token vendor affiliates makes purports disclaims representation warranty undertaking form whatsoever entity person including representation warranty undertaking relation truth accuracy completeness information set whitepaper representations warranties accessing accepting possession information whitepaper",
+    "metadata": {
+      "chunk_id": "a49ca6bd679f0d6f5d6265d8638041f7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 121] person including representation warranty undertaking relation truth accuracy completeness information set whitepaper representations warranties accessing accepting possession information whitepaper thereof case represent warrant token vendor follows agree acknowledge tokens constitute securities form units business trust units collective investment scheme form investment jurisdiction b excluded person c citizen resident jurisdiction purchase receipt holding tokens prohibited restricted curtailed hindered impaired adversely affected applicable law regulation rule d case corporation subsidiaries directors officers employees agents person x0cacting behalf subsidiaries individual entity owned controlled individual entity e listed monetary authority singapore xe2 x80 x9cmas xe2 x80 x9d designated individuals entities defined respective regulations promulgated monetary authority singapore act chapter 186 singapore united nations act chapter 339 singapore terrorism suppression financing act",
+    "metadata": {
+      "chunk_id": "724dd4515f5184ae19cb033b3395f00b",
+      "entities": {
+        "location": [
+          "singapore"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 122] individuals entities defined respective regulations promulgated monetary authority singapore act chapter 186 singapore united nations act chapter 339 singapore terrorism suppression financing act chapter 325 singapore law regulation rule prescribed mas time time ii subject sanctions administered enforced singapore united states america including limitation u s department treasury xe2 x80 x99s office foreign asset control united kingdom great britain northern ireland european union governmental authority collectively xe2 x80 x9csanctions xe2 x80 x9d iii located organised resident country territory subject country wide territory wide sanctions including limitation democratic people xe2 x80 x99s republic korea democratic republic congo eritea iran libya somalia south sudan sudan yemen iv engaged engaged dealings transactions government person entity project targeted located country territory time dealing transaction subject sanctions v party token vendor prohibited dealing laws",
+    "metadata": {
+      "chunk_id": "a4d195045366854228f4dccbbf44a223",
+      "entities": {
+        "location": [
+          "singapore"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 123] iv engaged engaged dealings transactions government person entity project targeted located country territory time dealing transaction subject sanctions v party token vendor prohibited dealing laws applicable ii person controlling controlled iii privately held entity person having beneficial interest iv person acting agent nominee connection participation token sale senior foreign political figure immediate family member close associate senior foreign political figure terms defined xe2 x80 x9csenior foreign political figure xe2 x80 x9d defined senior official executive legislative administrative military judicial branch government elected senior official major political party senior executive foreign government owned corporation includes corporation business entity formed benefit senior foreign political figure xe2 x80 x9cimmediate family xe2 x80 x9d senior foreign political figure typically includes figure xe2 x80 x99s parents siblings spouse children laws xe2 x80 x9cclose associate",
+    "metadata": {
+      "chunk_id": "51494d95822a170a371adf5afe171d8a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 124] political figure xe2 x80 x9cimmediate family xe2 x80 x9d senior foreign political figure typically includes figure xe2 x80 x99s parents siblings spouse children laws xe2 x80 x9cclose associate xe2 x80 x9d senior foreign political figure person widely publicly known maintain unusually close relationship senior foreign political figure includes person position conduct substantial domestic x0cinternational financial transactions behalf senior foreign political figure f affiliated non u s banking institution xe2 x80 x9cforeign bank xe2 x80 x9d receive deposits payments behalf handle financial transactions related foreign bank represent warrant token vendor foreign bank fixed address solely electronic address country foreign bank authorised conduct banking activities ii foreign bank maintains operating records related banking activities iii foreign bank subject inspection banking authority licensed foreign bank conduct banking activities iv foreign bank provide banking services foreign",
+    "metadata": {
+      "chunk_id": "1b8cbff468eebde588a70a3708ca394c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 125] operating records related banking activities iii foreign bank subject inspection banking authority licensed foreign bank conduct banking activities iv foreign bank provide banking services foreign bank physical presence country regulated affiliate g agree acknowledge whitepaper constitute prospectus offer document sort intended constitute offer securities form units business trust units collective investment scheme form investment jurisdiction solicitation form investment bound enter contract binding legal commitment cryptocurrency form payment accepted basis whitepaper h acknowledge understand tokens construed interpreted classified treated enabling according opportunity token holders participate receive profits income payments returns arising connection tokens proceeds token sale receive sums paid profits income payments returns agree acknowledge regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction publication",
+    "metadata": {
+      "chunk_id": "48d1d0319bd30b462fc8f617e016788d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 126] sums paid profits income payments returns agree acknowledge regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction publication distribution dissemination whitepaper imply applicable laws regulatory requirements rules complied j agree acknowledge whitepaper undertaking completion token sale future trading tokens cryptocurrency exchange shall construed interpreted deemed indication merits token vendor affiliates tokens token sale celer network k distribution dissemination whitepaper thereof copy x0cthereof acceptance prohibited restricted applicable laws regulations rules jurisdiction restrictions relation possession applicable observed complied restrictions expense liability token vendor affiliates l agree acknowledge case wish acquire tokens tokens construed interpreted classified treated kind currency cryptocurrency ii debentures stocks shares issued person entity iii rights options derivatives respect debentures",
+    "metadata": {
+      "chunk_id": "9ddf9d0a2fed02c1b706ae66d5dff4f5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 127] wish acquire tokens tokens construed interpreted classified treated kind currency cryptocurrency ii debentures stocks shares issued person entity iii rights options derivatives respect debentures stocks shares iv rights contract differences contract purpose pretended purpose secure profit avoid loss v units collective investment scheme vi units business trust vii derivatives units business trust viii form investment m legally permitted participate token sale actions contemplated associated participation including holding use tokens n amounts use acquire tokens directly indirectly derived activities contravene laws regulations jurisdiction including anti money laundering laws regulations o natural person sufficient age capacity applicable laws jurisdiction reside jurisdiction citizen participate token sale p obtaining tokens illegal purpose q basic degree understanding operation functionality usage storage transmission mechanisms material characteristics cryptocurrencies blockchain",
+    "metadata": {
+      "chunk_id": "96dbe7d36d23cb5941abc782045be20b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 128] token sale p obtaining tokens illegal purpose q basic degree understanding operation functionality usage storage transmission mechanisms material characteristics cryptocurrencies blockchain based software systems cryptocurrency wallets related token storage mechanisms blockchain technology smart contract technology r fully aware understand case wish purchase tokens risks associated token vendor affiliates x0crespective business operations tokens token sale celer network s bear sole responsibility determine tax implications purchase tokens agree hold token vendor affiliates person involved token sale liable tax liability associated arising therefrom t agree acknowledge token vendor affiliates liable direct indirect special incidental consequential losses kind tort contract including limited loss revenue income profits loss use data arising connection acceptance reliance whitepaper thereof u waive right participate class action lawsuit class wide arbitration token vendor affiliates",
+    "metadata": {
+      "chunk_id": "9a7b128635ac9f93f0b14e397b436855",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 130] xe2 x80 x9d xe2 x80 x9cbelieve xe2 x80 x9d xe2 x80 x9ccould xe2 x80 x9d xe2 x80 x9cestimate xe2 x80 x9d xe2 x80 x9cexpect xe2 x80 x9d xe2 x80 x9cif xe2 x80 x9d xe2 x80 x9cintend xe2 x80 x9d xe2 x80 x9cmay xe2 x80 x9d xe2 x80 x9cplan xe2 x80 x9d xe2 x80 x9cpossible xe2 x80 x9d xe2 x80 x9cprobable xe2 x80 x9d xe2 x80 x9cproject xe2 x80 x9d xe2 x80 x9cshould xe2 x80 x9d xe2 x80 x9cwould xe2 x80 x9d xe2 x80 x9cwill xe2 x80 x9d similar terms terms exclusive means identifying forward looking statements statements token vendor affiliates xe2 x80 x99 business strategies plans prospects future prospects industry token vendor affiliates forward looking statements forward looking statements including limited statements token vendor affiliates xe2 x80 x99 prospects future plans expected industry trends matters discussed whitepaper token vendor affiliates matters historic facts predictions forward looking statements involve known unknown risks uncertainties factors cause actual future results",
+    "metadata": {
+      "chunk_id": "28db241797658da7693d2cdb7e70296b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 131] trends matters discussed whitepaper token vendor affiliates matters historic facts predictions forward looking statements involve known unknown risks uncertainties factors cause actual future results performance achievements token vendor affiliates materially different future results performance achievements expected expressed implied forward looking statements factors include changes political social economic stock cryptocurrency market conditions regulatory environment countries token vendor affiliates conduct respective businesses operations x0c b risk token vendor affiliates unable execute implement business strategies future plans c changes interest rates exchange rates fiat currencies cryptocurrencies d changes anticipated growth strategies expected internal growth token vendor affiliates celer network e changes availability fees payable token vendor affiliates connection respective businesses operations celer network f changes availability salaries employees required token",
+    "metadata": {
+      "chunk_id": "ae4eb51a22bfccae5d620ace97e7ea20",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 132] affiliates celer network e changes availability fees payable token vendor affiliates connection respective businesses operations celer network f changes availability salaries employees required token vendor affiliates operate respective businesses operations g changes preferences users celer network h changes competitive conditions token vendor affiliates operate ability token vendor affiliates compete conditions changes future capital needs token vendor affiliates availability financing capital fund needs j war acts international domestic terrorism k occurrences catastrophic events natural disasters acts god affect businesses operations token vendor affiliates l factors control token vendor affiliates m risk uncertainties associated token vendor affiliates respective business operations tokens token sale celer network forward looking statements attributable token vendor affiliates persons acting behalf token vendor affiliates expressly qualified entirety factors given risks",
+    "metadata": {
+      "chunk_id": "1e6c6bc6ea75ca89c3cc2dc8bf7bfd7f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 133] tokens token sale celer network forward looking statements attributable token vendor affiliates persons acting behalf token vendor affiliates expressly qualified entirety factors given risks uncertainties cause actual future results performance achievements token vendor affiliates materially different expected expressed implied forward looking statements whitepaper undue reliance placed statements forward looking statements applicable date whitepaper token vendor affiliates person represents warrants undertakes actual future results performance achievements token vendor affiliates discussed forward looking statements x0cactual results performance achievements token vendor affiliates differ materially anticipated forward looking statements contained whitepaper relied promise representation undertaking future performance policies token vendor affiliates token vendor affiliates disclaim responsibility update forward looking statements publicly announce revisions forwardlooking statements",
+    "metadata": {
+      "chunk_id": "dc79c814efbae1b6e5e62feed0cd1925",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 135] party information consequently token vendor directors executive officers employees acting behalf makes representation warranty accuracy reliability completeness information shall obliged provide updates terms facilitate better understanding tokens subject sale conducted token vendor business operations token vendor affiliates certain technical terms abbreviations certain instances descriptions whitepaper descriptions assigned meanings treated definitive meanings correspond standard industry meanings usage words importing singular shall applicable include plural vice versa words importing masculine gender shall applicable include feminine neuter genders vice versa references persons shall include corporations advice information whitepaper considered business legal financial tax advice token vendor affiliates tokens token sale celer network consult legal financial tax professional adviser token vendor affiliates respective business operations tokens token sale celer network aware",
+    "metadata": {
+      "chunk_id": "75645cec77ad4e2cee0e41efc2e14972",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 136] token vendor affiliates tokens token sale celer network consult legal financial tax professional adviser token vendor affiliates respective business operations tokens token sale celer network aware required bear financial risk purchase tokens indefinite period x0cof time advisors engaged purports statement whitepaper statement statement whitepaper based makes representation statement whitepaper maximum extent permitted law expressly disclaims takes responsibility liability person based arises statement information opinions omission whitepaper information update person authorised information representation contained whitepaper connection token vendor affiliates respective business operations tokens token sale celer network given information representation relied having authorised behalf token vendor affiliates token sale shall circumstances constitute continuing representation create suggestion implication change development reasonably likely involve material change affairs conditions",
+    "metadata": {
+      "chunk_id": "4befa4d0c33d03856023084548e1ee10",
+      "entities": {
+        "crypto_project": [
+          "token vendor"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 138] registration whitepaper constitute prospectus offer document sort intended constitute offer securities form units business trust units collective investment scheme form investment solicitation form investment jurisdiction person bound enter contract binding legal commitment cryptocurrency form payment accepted basis whitepaper regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction publication distribution dissemination whitepaper imply applicable laws regulatory requirements rules complied x0cwith prevailing language english language version whitepaper official version force inconsistency whitepaper translations whitepaper english version whitepaper shall prevail acknowledge agree translation reviewed available reference certified token vendor affiliates names laws regulations governmental authorities institutions natural persons entities translated english included whitepaper official english translation exists",
+    "metadata": {
+      "chunk_id": "bef4222ebfe5d21cf34fd382e714cf46",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Celer Network.txt"
+    }
+  },
+  {
+    "text": "[Section 139] certified token vendor affiliates names laws regulations governmental authorities institutions natural persons entities translated english included whitepaper official english translation exists unofficial translations reference risks uncertainties prospective purchasers tokens carefully consider evaluate risks uncertainties associated token vendor affiliates respective business operations tokens token sale celer network information set whitepaper token sale terms prior purchase tokens details risk factors relating participating token sale token vendor set token sale terms risks uncertainties develops actual events business financial condition results operations prospects token vendor affiliates materially adversely affected cases lose value tokens x0c",
+    "metadata": {
+      "chunk_id": "bf187cd143068070e7aa926ad0ef86e8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Celer Network.txt"
+    }
+  }
+]

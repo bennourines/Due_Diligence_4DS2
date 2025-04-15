@@ -1,0 +1,196 @@
+[
+  {
+    "text": "[Section 1] b trezarcoin sven van gelder1 oliver ziegler2 1 sven van gelder web de 2 o zieglerz web de abstract introducing trezarcoin extremely secure energy efficient cryptocurrency trezarcoin combines best features proof work proof stake mining central innovation developed ghostlander 0% proof stake far advanced implementation technology date trezarcoin supports multiple algorithms achieve enhanced security features trezarcoin targeting users place high value security 1 neoscrypt neoscrypt development scrypt increase security improve performance general purpose computer hardware maintaining comparable costs requirements innovative design day scrypt developed vulnerabilities announced differential cryptanalysis salsa20 8 tsunoo et al 1 2007 deliver advantage 256 bit brute force attack following research aumasson et al 2 reduced time complexity break 2 255 2 251 50% success probability improved shi et al 3 2012 2 250 critical improved attacks salsa20 8 developed future neoscrypt uses salsa20",
+    "metadata": {
+      "chunk_id": "8a8a351d1cdbc5148dabd08a7377b4f8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 2] research aumasson et al 2 reduced time complexity break 2 255 2 251 50% success probability improved shi et al 3 2012 2 250 critical improved attacks salsa20 8 developed future neoscrypt uses salsa20 chacha20 improve scrypt security known successful attacks non reduced salsa20 chacha20 exhaustive brute force hacks neoscrypt replaces sha 256 blake2s 4 development blake 256 5 5 nist sha 3 contest finalists based chacha20 neoscrypt operates lower round count 10 supports keyed hashing native little endian faster significantly sha 256 blake 256 interfaced directly pbkdf2 need hmac pbkdf2 constructs derived keys blocks means minor change input datum nonce increment result entirely different derived key replacement kdf developed address issue 2 proof stake proof work underlying database structure transactions bitcoin digital currencies decentralized ledger called blockchain stores entire transaction history stems fact transactions bundled blocks block blockchain e genesis block references",
+    "metadata": {
+      "chunk_id": "6fd8e7e71c319768add55775c95bc12a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 3] transactions bitcoin digital currencies decentralized ledger called blockchain stores entire transaction history stems fact transactions bundled blocks block blockchain e genesis block references previous block node participating bitcoin network copy blockchain synchronized nodes peer peer protocol implementation digital currency way secure blockchain attacks blockchain prevents attacker spending cryptocurrency reversing spending transaction broadcasting version blockchain transaction security blockchain rely single authority instead uses network contributors agree transactions users prior knowledge version ledger valid change information contains bitcoin security network relies proof work pow algorithm form block mining 1 x0cnode participating mining required solve computationally difficult problem ensure validity newly mined block solutions rewarded bitcoins protocol fair sense miner p fraction total computational power win reward create block probability p attacker required solve",
+    "metadata": {
+      "chunk_id": "34cc7fc7b1bd4079d687666dfc68e093",
+      "entities": {
+        "crypto_project": [
+          "bitcoin"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 4] problem ensure validity newly mined block solutions rewarded bitcoins protocol fair sense miner p fraction total computational power win reward create block probability p attacker required solve tasks rest bitcoin network attack bitcoin successful attacker bring significant computational resources greater rest network combined operation bitcoin protocol security network supported physically scarce resources xe2 x80 xa2 specialized hardware needed run computations xe2 x80 xa2 electricity spent power hardware makes bitcoin inefficient resource standpoint increase share rewards bitcoin miners compelled participate arms race continuously deploy resources mining makes cost attack bitcoin prohibitively high ecological unfriendliness bitcoin protocol resulted proposals build similar systems resource intensive possible decentralized ledger implementation security based expensive computations relies proof stake pos algorithms idea proof stake simple instead mining power probability create",
+    "metadata": {
+      "chunk_id": "98938693e137bc90a09b1570187fdb32",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 5] resource intensive possible decentralized ledger implementation security based expensive computations relies proof stake pos algorithms idea proof stake simple instead mining power probability create block receive associated reward proportional users ownership stake system individual stakeholder p fraction total number coins circulation creates new block p probability rationale pos following users highest stakes system interest maintain secure network suffer reputation price cryptocurrency diminish attacks mount successful attack outside attacker need acquire currency prohibitively expensive popular system table 2 vulnerability proof work proof stake consensus mechanisms attack vectors reasons combination proof stake proof work implemented trezarcoin 3 advanced checkpointing advanced checkpointing feature originally invented implemented feathercoin developer peter bushnell purpose defend blockchain trezarcoin 51% attacks advanced checkpointing acp feature remove need changes client",
+    "metadata": {
+      "chunk_id": "2e1d6a8e2a3dc43192ff2f2f2e646a89",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "51% attack",
+          "vulnerability"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 6] feature originally invented implemented feathercoin developer peter bushnell purpose defend blockchain trezarcoin 51% attacks advanced checkpointing acp feature remove need changes client software publishing feed checkpoints central node checkpointing infrequently utilized feature cryptocurrencies way maintain integrity block chain recording blocks bitcoin checkpoints 2 x0cstored code client enables verify checkpoints copy block chain downloaded ensuring block chain retroactively rewritten 51% attack means block chain grows client software updated store new checkpoints code leaves clients having updated long time vulnerable attacks block chain trezarcoin team intends solve problem separating checkpoint record client software team created master node updated client publish series checkpoints trezarcoin clients verify 4 orbitcoin super shield difficulty trezarcoin pos pow blocks defined orbitcoin super shield oss uses inputs retarget difficulty retarget block oss takes averaging windows",
+    "metadata": {
+      "chunk_id": "cacb1769a9910b07299c00c2cc851c07",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "51% attack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 7] trezarcoin clients verify 4 orbitcoin super shield difficulty trezarcoin pos pow blocks defined orbitcoin super shield oss uses inputs retarget difficulty retarget block oss takes averaging windows 5 20 blocks 0 25 damping oscillation limiting idea oss protection network multipool mining creates higher difficulty leaving blockchain difficulty trap common attack blockchains havent implemented intelligent retarget algorithm basic advantage oss regulates difficulty according significant measurements instead average 2016 blocks like bitcoin 5 0% proof stake 0% proof stake adds additional layer security trezarcoin protocol essentially coins start staking day period period starts moment incoming transaction broadcast including previous pos block possible generate pos inputs younger day predict time generate pos similar traditional solomining gpu depends xe2 x80 xa2 depends current difficulty turn depends activity xe2 x80 x9dcompetitors xe2 x80 x9d miners xe2 x80 xa2 mining power pos mining",
+    "metadata": {
+      "chunk_id": "9acc5f93f65adb64a758c6cfef24fc1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 8] time generate pos similar traditional solomining gpu depends xe2 x80 xa2 depends current difficulty turn depends activity xe2 x80 x9dcompetitors xe2 x80 x9d miners xe2 x80 xa2 mining power pos mining power megahashes mining hardware coins days accumulate wallet xe2 x80 xa2 time spend mining pos time gpu asic work time running wallet online xe2 x80 x9dold xe2 x80 x9d coins staking xe2 x80 xa2 luck staking power usually called xe2 x80 x9dweight xe2 x80 x9d calculated following way coins coinage 1 coinweight coinage counted input transaction individually explained inputs age smaller day zero weight according formula negative value protocol accounts inputs 0 weight aren xe2 x80 x99t staking example incoming 25 tzc transaction week old weight 25 7 1 150 coin days increasing continuously time generating pos finally successful pos generation coin age reset zero weight 0 process starts beginning maximum possible weight reached 16 days maximum weight input size x 15 possible calculate exact",
+    "metadata": {
+      "chunk_id": "98e185f91cee4515403331b15153a656",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 9] generating pos finally successful pos generation coin age reset zero weight 0 process starts beginning maximum possible weight reached 16 days maximum weight input size x 15 possible calculate exact time individual input generate pos stochastic procedure heavily dependent luck xe2 x80 x9dlucky xe2 x80 x9d inputs generate pos blocks hours reaching minimum age case bad luck exact opposite transaction staking days weeks generating pos reward possibly course having inputs staking time reduces luck factor timing rewards predictable main difference trezarcoin pos pos systems best explained example 1000 coins want stake profit continuously traditional pos launch wallet month synchronise generate 3 x0ca single big stake quickly shut wallet month motivated online possible support network case tzc means losing potential profit want split 1000 tzc smaller parts like 20 50 tzc stake independently process wallet care automatically fastest way second want stake soon possible best way wallet online",
+    "metadata": {
+      "chunk_id": "b278f6b6d3969063d6729a5adc36823d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "TrezarCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 10] means losing potential profit want split 1000 tzc smaller parts like 20 50 tzc stake independently process wallet care automatically fastest way second want stake soon possible best way wallet online possible produce number pos blocks process single constantly replay blocks transactions messages short help securing maintaining network 6 conclusion primarily advantages features trezarcoin compared standard scrypt coins described evaluated going detail understand vast topic cryptocurrency mining details refer source code trezarcoin 4 x0c7 references 1 yukiyasu tsunoo teruo saito hiroyasu kubo tomoyasu suzaki hiroki nakashima differential cryptanalysis salsa20 8 january 2007 2 jean philippe aumasson simon fischer shahram khazaei willi meier christian rechberger new features latin dances analysis salsa chacha rumba december 2007 3 zhenqing shi bin zhang dengguo feng wenling wu improved key recovery attacks reducedround salsa20 chacha november 2012 4 jean philippe aumasson samuel neves",
+    "metadata": {
+      "chunk_id": "78533a9f85424fd6f7ba06036d3931ec",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "TrezarCoin.txt"
+    }
+  }
+]

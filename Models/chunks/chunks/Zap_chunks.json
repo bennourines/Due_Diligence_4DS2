@@ -1,0 +1,551 @@
+[
+  {
+    "text": "[Section 1] b zap xe2 x80 x8b connecting smart contracts chain world whitepaper v2 2 11 05 2018 x0ccontents 1 executive summary 1 1 problem overview 1 2 mission statement 1 3 core objectives 2 primary components 2 1 token mechanism 2 2 key actors 2 3 economic incentives 3 potential applications 3 1 finance 3 2 insurance 3 3 real estate 3 4 shipping 3 5 dapps 4 roadmap 4 1 finances activities 4 2 development roadmap 5 zap faq 6 zap architecture 6 1 oracle bonding mechanism 6 2 encrypted peer peer p2p data feeds 6 3 chain data proxy 7 legal considerations 7 1 synapse foundation 7 2 tokens x0c1 executive summary 1 1 problem overview blockchain technology empowers creation smart contracts capable governing arbitrary interaction decentralized application layer built atop poised disrupt nearly arena human behavior smart contracts operate based real world events provide maximum value receive real world data example insurance contract know given reported event meets specified criteria xe2 x80 x9ccovered",
+    "metadata": {
+      "chunk_id": "de3788b855ba0bf5bb762fab55909312",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 2] behavior smart contracts operate based real world events provide maximum value receive real world data example insurance contract know given reported event meets specified criteria xe2 x80 x9ccovered xe2 x80 x9d facts order anticipate level xe2 x80 x9cdamages xe2 x80 x9d decentralized energy grid know use patterns e volume time different customers e g residential versus commercial smart contracts run algorithmic calculations store retrieve data node runs calculation s simply feasible arbitrary requests data oracles resolve issue providing results query contract primary driver value blockchain decentralization value add decentralized application greatly reduced isn xe2 x80 x99t negated altogether xe2 x80 x99s single data source true trust requires choice absence choices data extinguishes trust replaces compulsion xe2 x80 x9ctake leave xe2 x80 x9d challenge devising scalable method curating oracles remains prediction market platforms like gnosis augur proposed solve oracle problem",
+    "metadata": {
+      "chunk_id": "3ac7f531154322c5c901138d121c87f4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 3] trust replaces compulsion xe2 x80 x9ctake leave xe2 x80 x9d challenge devising scalable method curating oracles remains prediction market platforms like gnosis augur proposed solve oracle problem distributing consensus event outcomes userbase work certain cases slow requiring days weeks event resolution unwieldy requiring mobilization thousands users poorly incentivized relative pittance potentially compromised highly centralized distribution tokens gnosis s case 97 75% tokens controlled addresses aeternity proposed alternative blockchain claim allow user oracle capability limited yes questions allows users contradict proportion deposited funds danger enabling funded users decide truth presents severe credibility flaw hardly ideal scenario oraclize provides services linking existing apis blockchain limited requires data pass single aggregator zap s system includes model set economic incentives techniques ultimately oraclize oracles sold individual oracles zap platform demand data",
+    "metadata": {
+      "chunk_id": "0a51962718c0f8590f36765c8a4bea36",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 4] blockchain limited requires data pass single aggregator zap s system includes model set economic incentives techniques ultimately oraclize oracles sold individual oracles zap platform demand data blockchain new data invaluable resource consider popular legend following famous battle waterloo 1815 british continental armies defeated french army napoleon nathan rothschild able profitable stock purchases learning trading news napoleon xe2 x80 x99s defeat official word news reached england competing traders exact method x0crothschild got information subject intense historical dispute nonetheless account illustrates value data recognize value recognize value customers having best data best choices source receive data intend empower smart contracts utilize available data 1 2 mission statement zap xe2 x80 x99s objective disruptive driving change wide range global industries including finance insurance real estate shipping zap find applications dynamic new distributed application protocols",
+    "metadata": {
+      "chunk_id": "2a9066b4c2447c92addc3740619aa54f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 5] zap xe2 x80 x99s objective disruptive driving change wide range global industries including finance insurance real estate shipping zap find applications dynamic new distributed application protocols providing new monetization opportunities individuals emerging economies zap positioned premier provider data smart contracts stands potentially monetize device linked internet things iot 1 3 core objectives build robust source agnostic oracle network zap bringing existing wealth global data diverse capabilities distributed applications ensuring secure creation oracles incentivize oracle creation curation zap building global decentralized data marketplace populating unique incentivization tools empowering begin monetizing data fuel generation embedded dapps zap supplying needed fundamental piece ethereum ecosystem web 3 0 paradigm enabling developers construct dapps simply function x0c2 primary components 2 1 token mechanism token distributed token launch known zap token zap time tokens",
+    "metadata": {
+      "chunk_id": "2a83aa52936b8775f05615dfb7ee4c79",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 6] ethereum ecosystem web 3 0 paradigm enabling developers construct dapps simply function x0c2 primary components 2 1 token mechanism token distributed token launch known zap token zap time tokens created total supply zap fixed order create oracle queries data providers subscribers bond zap locking individual oracle gain control oracle specific integer value known dots dots query oracle destroyed release zap respective oracle dot equal query respective oracle non exchangeable indivisible dot token integer value zap necessary bond produce dot determined price supply curve delineated data provider oracle creation designed introduce dynamic economic mechanisms incentivizing oracle curation creators subscribers speculators alike dynamic economic elements necessarily attract speculators intentional design element act refinement mechanism incentivizing discovery publicity potentially useful data utilizing economic incentives prediction markets zap bonding occurs oracle smart contract prior",
+    "metadata": {
+      "chunk_id": "07f80d6e269e71d3877322b5a228749b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 7] design element act refinement mechanism incentivizing discovery publicity potentially useful data utilizing economic incentives prediction markets zap bonding occurs oracle smart contract prior bonding zap tokens oracle users able exactly dots receive result users choose produce dots able afford based predetermined price curve limit times zap bonded produce dots zap seeks create useful software community interested sharing data need create model lowers barrier entry repeat users users holding dots incentivized bring participate data feed bring competing oracles marketplace necessary bonding zap reduce liquidity driving underlying value oracles network data providers incentivized bring similar data providers network oracles secure profitable providers constructed bundled data feeds multiple providers 2 2 key actors oracles create oracle data provider selects ethereum account acts provider identifier ipfs key pair data routing data feeds bonding variables govern derivative dot price dot",
+    "metadata": {
+      "chunk_id": "6a1669695466c03c955d673ea474a6a6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 8] providers 2 2 key actors oracles create oracle data provider selects ethereum account acts provider identifier ipfs key pair data routing data feeds bonding variables govern derivative dot price dot supply curve arbitrary bond zap produce oracle s initial dot supply x0csubscribers query oracle subscriber bonds zap desired oracle redeeming quantity dots chooses conditions receive data provides ipfs key pair encrypted peer peer communications 2 3 economic incentives designed zap protocol subscriber simply makes payment directly provider instead designed baroque complicated smart contract middle man reasons escrow simplest function oracle contract act escrow provider subscriber holding dots data releasing simultaneously speculation elaborate function oracle contract introduce type actor ecosystem xe2 x80 x8bspeculator xe2 x80 x8bis defined actor interest receiving transferring particular data interest instead lies projecting predicting oracles related data flows useful demand future",
+    "metadata": {
+      "chunk_id": "1a67266a5b401ea1abacd671ff68f434",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 9] ecosystem xe2 x80 x8bspeculator xe2 x80 x8bis defined actor interest receiving transferring particular data interest instead lies projecting predicting oracles related data flows useful demand future maximizing current supply zap searching data need speculator rewarded based ability locate bond oracles likely useful future destroying dots release zap ratio favorable compared entry point introduction speculation transforms zap oracle marketplace prediction market data new class behavior likely arise governing search useful true data speculation introduces security concerns door open market participants opportunity profit providing data risk exit scams mediated fact oracle tied unique ethereum address speculators subscribers participants bond relatively new oracle risk mature ecosystem expect find professional data providers thousands oracles tied single ethereum address history stored blockchain acts sort trustless e non trust based reputation data provider running profitable data",
+    "metadata": {
+      "chunk_id": "61f33b516f5d5d22fb378dbe9c38203e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 10] expect find professional data providers thousands oracles tied single ethereum address history stored blockchain acts sort trustless e non trust based reputation data provider running profitable data business years stand lose far running exit scam stand gain trustless reputation opens possibilities revenue stream long standing accounts able monetize reputation acting guarantor co signer new data providers renting reputation new actors leg risk remains acting guarantor bad actor eventually reflect poorly guarantor co signer s reputation x0cbonding zap introducing economic mechanism bonding curves time smart contract ecosystem economic device like released marketplace far inspired simon de la rouviere s writings curation markets development team spent significant time evaluating possible parameters incentivize oracle creation curation decided like bonding mechanism seen ought leave variables oracle creators expect zap ecosystem testing ground economic incentivization time users",
+    "metadata": {
+      "chunk_id": "22467fbe9ec95187e4766d790cc30873",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 12] traders markets constantly looking alternative data data called alpha data capable producing profit thusly highly coveted traders tens thousands hedge funds filled quantitative algorithmic traders quants use data order trades quants extrapolate metadata order analyze trends oraclized smart contracts quants tool execute trades automatically zap store traders access numerous data feeds request specific data available bounty 3 2 insurance believe insurance industry benefit greatly smart contracts zap store xe2 x80 x99s data marketplace provide insurance companies opportunity provide self actuating insurance automatically pays customers eligible payout smart contracts insurance payouts predetermined streamlining process insurers consumers alike scenario doctors decentralized insurance network use private key sign smart contract releasing funds order pay service example humans acting oracles 3 3 real estate commercial real estate agencies clients stand gain great deal real time heatmaps",
+    "metadata": {
+      "chunk_id": "e7d15cd3780504a1f826ae5c8457f8ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 13] use private key sign smart contract releasing funds order pay service example humans acting oracles 3 3 real estate commercial real estate agencies clients stand gain great deal real time heatmaps foot traffic serve proxy indicator shopper volume consequently indicate higher likelihood retail sales decentralized zap marketplace streets clicker counter track foot traffic apart heatmaps real estate transactions simpler use smart contracts smart contract linked data feed change ownership specific property change ownership recognized oracle automatically sign transaction release payment owner said property principle rentals 3 4 shipping shipping largest industries planet given demand transport goods meet demand generally increasing demand certain imported goods commodities x0ccases scarcity increasing globalization shipping industry industries immune obsolescence magnitude commerce enormous billions packages shipped world year millions packages xe2 x80 x9cdisappear xe2 x80 x9d factors",
+    "metadata": {
+      "chunk_id": "203b65d7686b1f2146506f75b04b0a01",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 14] increasing globalization shipping industry industries immune obsolescence magnitude commerce enormous billions packages shipped world year millions packages xe2 x80 x9cdisappear xe2 x80 x9d factors including inconsistent tracking methods controls carelessness outright fraud theft smart contracts track shipments inventory economic activity characterized process e g construction assemblage large scale financial reporting empowering smart contracts track movement goods allow verification shipment customers gain comfort real time knowledge delivery financial institutions extending letters credit secure transactions pending performance able reduce risk capital nonperformance loss product shipping companies create escrow smart contract customer deposit paid delivery package furthermore shipping companies use zap alternate source income publishing data oracle allowing access data data generated shipping companies immense determine market trends 3 5 dapps decentralized applications protocols",
+    "metadata": {
+      "chunk_id": "69ee063818c82fb5bace52846d741891",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 15] companies use zap alternate source income publishing data oracle allowing access data data generated shipping companies immense determine market trends 3 5 dapps decentralized applications protocols leverage smart contracts blockchain technology order create xe2 x80 x98unstoppable apps xe2 x80 x99 don xe2 x80 x99t require middlemen apple xe2 x80 x99s app store google xe2 x80 x99s play store order operate dapps outlined ethereum whitepaper crop insurance farmer insure crop dapp connected external data feed ethereum whitepaper states xe2 x80 x9c xe2 x80 x8bif farmer iowa purchases derivative pays inversely based precipitation iowa drought farmer automatically receive money rain farmer happy crops xe2 x80 x9d ideal use decentralized application currently way build dapp requires oraclized data feed function case feed precipitation iowa currently dapps available operate based information blockchain dapps valuable right begun scratch surface ethereum smart contracts dapps capable order",
+    "metadata": {
+      "chunk_id": "db102f97c556cfeca6b9dbcce907bad4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 16] data feed function case feed precipitation iowa currently dapps available operate based information blockchain dapps valuable right begun scratch surface ethereum smart contracts dapps capable order dapps smart contracts capable feats outlined ethereum whitepaper needs method making chain information usable smart contracts zap oracle marketplace solution 3 5 1 escrowchain zap based institutional digital asset escrow dapp btc eth example zap dapp service xe2 x80 x8bescrowchain digital asset decentralized escrow service allows traders transact different cryptocurrencies trustless manner facilitated zap token particularly interest involves multiple blockchains seeks maintain complete transaction atomicity blockchains additionally offer ubiquitous wall street financial transaction fix protocol access institutions individuals easily connect x0cescrowchain zap powered xe2 x80 x8bfix 4 x xe2 x80 x8bbased service allows institutional individual traders transact standard fix 4 x protocol",
+    "metadata": {
+      "chunk_id": "b4aec085f522ccd395cbf4b3ac07e65b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 17] access institutions individuals easily connect x0cescrowchain zap powered xe2 x80 x8bfix 4 x xe2 x80 x8bbased service allows institutional individual traders transact standard fix 4 x protocol defined digital assets transparent decentralized safe escrow manner solves current issue large traders xe2 x80 x9cwhales xe2 x80 x9d performing transactions exchange x0c4 roadmap 4 1 finances activities zap token distribution zap project long term budget public beta web mobile x0capplications functioning ethereum testnet available github raised million dollars pre sale goal 18 000 data providers 2 years based community feedback ve abstracted oracle creation protocol expanding possible range economic incentivization mechanisms leaving variables end user way launching truly free market data oracles expect continue develop global network 4 2 development roadmap november 2018 bug bounties alpha web admin cli admin v2 zap oracle template suite december 2018 android contract builder pre release bug",
+    "metadata": {
+      "chunk_id": "6b0d8a643471eab66ad22606f48aba7f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 18] expect continue develop global network 4 2 development roadmap november 2018 bug bounties alpha web admin cli admin v2 zap oracle template suite december 2018 android contract builder pre release bug bounties beta web admin streamer subscription toolkit npm prerelease myoraclewallet com oraclemarketcap com january 2019 launch mainnet contracts android contract builder release development bounties eos alpha sdk multi party oracle admin cli web zap iot arduino raspi boilerplate february 2019 oracle schema builder npm etc compliant contract deployment eos sdk npm zap oracle bridge alpha eth etc eos aeternity expanded partnerships zap oracle bridge rolling release myoraclewallet com oraclemarketcap com march 2019 host workshop create oracles zap sdk master nodes x0caeternity sdk partnerships hackathons oracle bounties zap oracle bridge rolling release april 2019 partnerships hackathons oracle bounties 2019 partnerships hackathons oracle bounties june 2019 partnerships hackathons oracle",
+    "metadata": {
+      "chunk_id": "60fc454dbdec6cc291ede33ad171eda5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug",
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 19] hackathons oracle bounties zap oracle bridge rolling release april 2019 partnerships hackathons oracle bounties 2019 partnerships hackathons oracle bounties june 2019 partnerships hackathons oracle bounties july 2019 partnerships hackathons oracle bounties 5 zap faqs zap zap token based ethereum technology mechanism bonding oracles zap ecosystem producing dots zaps represent zap tokenized digital asset conveys legal right enabling tokenholder access new blockchain based data market tokenholder xe2 x80 x99s rights solely nature customer purchasing good service licensee rights terms conditions x0cregarding tokenholder xe2 x80 x99s relationship rights tokens detailed network access license agreement posted website strongly encouraged read purchases zap tokens subject network access license agreement holders zap tokens deemed entered accepted agreed terms conditions network access license agreement purchase acceptance zap tokens holders zap tokens possession tokens subject network access",
+    "metadata": {
+      "chunk_id": "b150619c390b475735fb3c320f7a7ac5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 22] income streams profit shares type monetary equity interest company entity project zap tokenholders right participate governance management company zap tokens distributed functional product synapse foundation management designees exclusive power x0coperate manage direct operations network marketplace input tokenholders raised s cap tokens follow offering exist 520 million tokens plan time having follow subsequent offering tokens participation rights network means number zap tokens public access network marketplace strictly limited crypto currencies accepted crowdsale eth crypto currency digital asset accepted purchase tokens crowdsale required ethereum wallet pointed token crowdsale address participate crowdsale zaps ethereum derived tokens hold btc crypto currency exchanged eth participate crowdsale crowdsale happen crowdsale scheduled begin october 21st 4pm utc rights zap holders purchasers zap tokens rights consumers holders license right access network marketplace set forth network",
+    "metadata": {
+      "chunk_id": "16055997098615ea2c502bc082190be9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 23] crowdsale crowdsale happen crowdsale scheduled begin october 21st 4pm utc rights zap holders purchasers zap tokens rights consumers holders license right access network marketplace set forth network access license agreement tokenholders right participate management foundation network marketplace zap tokens transferable zap tokens immediately bonded produce oracle zap tokens designed restrictions transfer zap tokens designed intended network marketplace 6 zap architecture note zap architecture enhanced scope document visit comprehensive documentation zap architecture including zap github zap ethereum api zapjs sdk http www zap tech ethereum contract repository xe2 x80 x8bgithub com zapproject zap ethereum api nodejs package repositor xe2 x80 x8bgithub com zapproject zap monorepo nodejs packages xe2 x80 x8bwww npmjs com package zapjs technical docs found xe2 x80 x8bzap tech x0ccontact project s maintainers development zap org overview zap platform tokenizing services curating service",
+    "metadata": {
+      "chunk_id": "40c7f15fe3d9eed41158ebd683a746b5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 24] xe2 x80 x8bwww npmjs com package zapjs technical docs found xe2 x80 x8bzap tech x0ccontact project s maintainers development zap org overview zap platform tokenizing services curating service providers focus oracle services data providers incentivized publish secure data feeds variety endpoints monetized resource specific bonding markets bonding markets data consumers speculators stake zap tokens data providers exchange data provider specific access tokens xe2 x80 x98dots xe2 x80 x99 dots redeemable xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f query requests data provider request endpoints 1 dot 1 query subscription periods data provider streams subscription endpoints 1 dot 1 block time zap token determined data provider specific bond market price purpose api allow developers register accounts set bond market parameters expose tokenized service offchain subscribers onchain user contracts zap ethereum backend allows developers achieve following xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f",
+    "metadata": {
+      "chunk_id": "668d27e091b541155f5b0ac70b1b1155",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 25] accounts set bond market parameters expose tokenized service offchain subscribers onchain user contracts zap ethereum backend allows developers achieve following xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f register data providers backend registry class write feed specific data provider daemons serve queries subscription requests operate eth zap token wallets scripts interact data provider specific bonding curves data monetization data provider speculation incorporate data streams scripts develop endpoint specific feed handlers contract overview zap platform currently exists collection contracts kovan testnet list main contracts purposes follows x0czaptoken xe2 x80 x8b xe2 x80 x8b serves ledger zap tokens bound data provider return finite access provider s data access granted token based provider defined supply cost curve registry xe2 x80 x8b xe2 x80 x8b data providers accounts endpoint specifications managed public keys data query encryption account",
+    "metadata": {
+      "chunk_id": "5846ac1d420500455eeba5f996bd4b01",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 26] s data access granted token based provider defined supply cost curve registry xe2 x80 x8b xe2 x80 x8b data providers accounts endpoint specifications managed public keys data query encryption account addresses bond pricing parameters data schemas housed bondage xe2 x80 x8b xe2 x80 x8b data provider endpoint specific bonding performed contract xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f defines available pricing curves plots access cost dot cost zap versus access supply dot supply based provider defined parameters calculates request subscription prices given data providers dot prices holds dots escrow user provider subscriptions pending transactions allows zap bound dots price defined point provider specific curve allows dots burned zap price defined point provider specific curve dispatch xe2 x80 x8b xe2 x80 x8b handles delivery bond market interface smart contract endpoints ex smart contract powered futures contract crypto exchange prices queries data provider oracle",
+    "metadata": {
+      "chunk_id": "70ab37c087c35e6188864839a2b8b2a2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 27] curve dispatch xe2 x80 x8b xe2 x80 x8b handles delivery bond market interface smart contract endpoints ex smart contract powered futures contract crypto exchange prices queries data provider oracle btc eth spot price timestamp arbiter xe2 x80 x8b xe2 x80 x8b handles data delivery bond market interface temporal subscriptions temporal subscription endpoint building consists ipfs publisher subscriber socket subscriptions ex user wishes subscribe real time data feed 2 hours x0cregistry bondage dispatch arbiter storage decoupled logic allowing contracts securely updatable bonding curve encoding token holders bond zap token provider endpoints mint dots redeemable endpoint specific services according dot price vs dot supply curve example oracle provider answering queries sports data deploy sports data endpoint price supply function costs uniform function simply constant price query dot price 10 provider offer subscriptions market event signal data website case 1 dot redeemable 1 hour",
+    "metadata": {
+      "chunk_id": "d2c0a8021463b1bed2398ba90f5be712",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 29] xe2 x80 x8b0 xe2 x80 x8b 0x xe2 x80 x8b1 xe2 x80 x8b 2x xe2 x80 x8b2 xe2 x80 x8b value function length piecewise segment max number dots piecewise segment example limit 1000 simple subscriber example contract contract pricebet address xe2 x80 x8bpublic xe2 x80 x8b xe2 x80 x8b owner x0czapbridge xe2 x80 x8bpublic xe2 x80 x8b xe2 x80 x8b coordinator erc20 token uint256 id constructor address coordinator owner msg sender coordinator zapbridge coordinator address zaptokenaddress coordinator getcontract zap token token erc20 zaptokenaddress set provider contract receive data owner xe2 x80 x8bfunction xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bsetprovider xe2 x80 x8b xe2 x80 x8b address provider bytes32 endpoint xe2 x80 x8brequire xe2 x80 x8b xe2 x80 x8b msg sender owner endpoint endpoint provider provider query offchain onchain provider xe2 x80 x8bfunction xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bqueryprovider xe2 x80 x8b xe2 x80 x8b string endpoint bytes32 params xe2 x80 x8breturns xe2 x80 x8b xe2 x80",
+    "metadata": {
+      "chunk_id": "54b7de7a3e34b0d5cf1bc56283689007",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 30] query offchain onchain provider xe2 x80 x8bfunction xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bqueryprovider xe2 x80 x8b xe2 x80 x8b string endpoint bytes32 params xe2 x80 x8breturns xe2 x80 x8b xe2 x80 x8b uint256 specify query provider address dispatchaddress coordinator getcontract dispatch id zapbridge dispatchaddress query provider coin endpoint params xe2 x80 x8breturn xe2 x80 x8b xe2 x80 x8b id implementing callback accept provider s respondintarray response method options respondbytes32array respondintarray respond1 respond2 respond3 respond4 xe2 x80 x8bfunction xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bcallback xe2 x80 x8b xe2 x80 x8b uint256 id int response xe2 x80 x8bexternal xe2 x80 x8b xe2 x80 x8b xe2 x80 x8brequire xe2 x80 x8b xe2 x80 x8b id id implement logic response 7 legal considerations synapse foundation x0ct xe2 x80 x8bhe synapse foundation isle man non profit organization offices zug switzerland synapse foundation formed build promote oversee zap project engage activities",
+    "metadata": {
+      "chunk_id": "da9a1bfc34ae7c8b45b4f5ec0e16ee9c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 33] tokens functional utility tokens synapse platform purchase use recommended endorsed zap related authentication tokens non refundable zap tokens related authentication tokens convey possess attached xe2 x80 x8bno rights network access license xe2 x80 x8bnetwork end user license agreement governs use token holders tokens platform tokens shall xe2 x80 x8bno rights equity title interest dividends distributions income gain profits company affiliates shall benefit share receive participate capital appreciation company affiliates shall benefit share receive participate distribution assets liquidation dissolution company affiliates shall rights title interest shareholder noteholder bondholder creditor company affiliates shall rights title interest participate transaction company affiliates xe2 x80 x8bexcept ordinary x0ccommercial transactions retail customer shall future rights benefits privileges company affiliates including rights future development company affiliates rights intellectual",
+    "metadata": {
+      "chunk_id": "97e1f0c024e27a8b083427ffae10b194",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 34] x80 x8bexcept ordinary x0ccommercial transactions retail customer shall future rights benefits privileges company affiliates including rights future development company affiliates rights intellectual property trade secrets company affiliates xe2 x80 x8bexcept license granted agreement shall rights refund sell unused token received conversion exercise purchase redemption tokens thereof rights refunds credits exchanges compensation new license new token token xe2 x80 x99s conversion exchange xe2 x80 x9cmining xe2 x80 x9d right expire terminated tokens zap tokens related authentication tokens interests participation rights synapse foundation affiliate holders zap tokens related authentication tokens shall rights vote affairs management said foundation affiliate rights share participate revenues capital gains distributions dividends entity rights lender creditor guarantor holders shall rights network access license represented zap tokens related authentication tokens zap tokens sold",
+    "metadata": {
+      "chunk_id": "5cc4752eb71fb1174d164d3f46a8ff9f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  },
+  {
+    "text": "[Section 35] revenues capital gains distributions dividends entity rights lender creditor guarantor holders shall rights network access license represented zap tokens related authentication tokens zap tokens sold functional good proceeds received synapse foundation spent freely synapse foundation absent conditions zap tokens intended experts dealing cryptographic tokens blockchain based software systems event synapse foundation affiliates liable person entity damages losses liabilities costs expenses kind direct indirect consequential compensatory incidental actual exemplary punitive special use reference reliance white paper content contained including limitation loss business revenues profits data use goodwill intangible loss x0c",
+    "metadata": {
+      "chunk_id": "2defb94773f5ee2f985acc82c89b85cd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Zap.txt"
+    }
+  }
+]

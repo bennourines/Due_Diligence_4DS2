@@ -1,0 +1,691 @@
+[
+  {
+    "text": "[Section 1] b pressone blockchain based digital content trading distribution network version 1 0 2 craft february 21 2019 info press x0csynopsis 4 background problems 5 opportunities solutions 8 technology architecture 10 architecture design 10 dapps 11 api 11 content storage 12 authentication public key cryptography dapp development 12 prs contracts 12 transaction messages 13 verification nodes 13 prs network 13 transactions contracts 14 contract template 16 content signatures 17 proof identity 17 copyright ownership confirmation declaration 18 content distribution 19 dapps prs network 20 dapps prs team 20 press website mobile app 20 20 3rd party dapps prs ecosystem 21 22 summary 22 stakeholders 23 engage 24 2 x0csetting fund potential scenarios self funded funds direct management funds founded prs token 25 26 26 27 token consumption 27 token collateral 27 token distribution 28 token circulation 29 acquire prs tokens 29 team 30 li xiaolai ceo 30 huo ju cto 30 xi qiao coo product director 31 3",
+    "metadata": {
+      "chunk_id": "bbffd31c09a7239b07af7894bf9e499a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 2] token 25 26 26 27 token consumption 27 token collateral 27 token distribution 28 token circulation 29 acquire prs tokens 29 team 30 li xiaolai ceo 30 huo ju cto 30 xi qiao coo product director 31 3 x0csynopsis pressone xe2 x80 x99s1 aim build blockchain based digital content trading distribution network xe2 x97 x8f taking advantage digital signature info transaction data stored unchangeably chain highly customizable light contracts digital currency distributed storage networks pressone expects drive revolution content trading model rebuild production authorization distribution consumption digital content industry xe2 x97 x8f reshape roles relationships content producers licensors consumers licensees exploring leveraging new trust relationships organizational structures models driving participants xe2 x80 x99 motivation xe2 x97 x8f build application layer protocol prs protocol spans multiple consensus systems combining resources including multiple public chains decentralized storage",
+    "metadata": {
+      "chunk_id": "fd2aa379a84b32bd9717721f90951533",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 3] xe2 x80 x99 motivation xe2 x97 x8f build application layer protocol prs protocol spans multiple consensus systems combining resources including multiple public chains decentralized storage centralized cloud storage decentralized open architecture allows create dapps content based data infrastructure explore innovative business models transparent efficient equal way value proposition pressone follows xe2 x97 x8f solve problem copyright ownership confirmation declaration content producers taking advantage storing identity proof author digital signature content published unchangeable data chain xe2 x97 x8f create settle transactions smart contracts coded executed automatically pricing power content producers licensors lowering cost content trading licensing consumers licensees 1 xe2 x80 x9cprs project xe2 x80 x9d xe2 x80 x9cprs network xe2 x80 x9d xe2 x80 x9cprs team xe2 x80 x9d xe2 x80 x9cwe xe2 x80 x9d xe2 x80 x9dthe project team xe2 x80 x9d 4 x0c xe2 x97 x8f offer flexible extensible",
+    "metadata": {
+      "chunk_id": "980b5f8ccdc4acc28f749df58dc1a3f4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 6] process closing concentration power aggravated lead hidden continuous infringement values personal privacy autonomy brooker k 2018 august devastated tim berners lee man created world wide web regrets retrieved https www vanityfair com news 2018 07 man created worldwide web regrets 2 tapscott d tapscott 2016 blockchain revolution technology bitcoin changing money business world penguin 3 5 x0ccommercial economic activities based paywall model facing problems caused closing excessive concentration digital content centralization web traffic monopolization distribution channels exorbitant transaction costs forcing creators xe2 x80 x9cassign intellectual property rights essentially large rights management operations xe2 x80 x9d gradually lose control creation property rights4 rewards obtained sufficiently reasonable fair creators xe2 x80 x9cright control xe2 x80 x9d trading activities economic value transfer related digital content subject limitations difficulties creation acquisition",
+    "metadata": {
+      "chunk_id": "a227520b4418e8b1fde03f3c22aafe55",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 7] sufficiently reasonable fair creators xe2 x80 x9cright control xe2 x80 x9d trading activities economic value transfer related digital content subject limitations difficulties creation acquisition digital content easier multiple reasons cause current situation xe2 x97 x8f centralized organizations publishing houses major content platforms online content retailers dominating method sale place purchase determination price creators little influence decisions sales protect benefits xe2 x97 x8f centralized channels content licensing internet marked price find way contact copyright owner price payment method licensing purchasing numerous efforts huge time need signing executing verifying contracts parties involved xe2 x97 x8f certification appeal arbitration copyright rely authoritative thirdparty intermediary cumbersome single individual manage license trade creation xe2 x80 x99s copyright xe2 x97 x8f difficulties tracing history copyright licensing difficult licensees know ask approval use",
+    "metadata": {
+      "chunk_id": "91d9706cccd6fb77bdc87bcbe14aeefe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 8] intermediary cumbersome single individual manage license trade creation xe2 x80 x99s copyright xe2 x97 x8f difficulties tracing history copyright licensing difficult licensees know ask approval use content especially content posted created adapted harder people judge xe2 x80 x9cwho contact request purchase license authorization xe2 x80 x9d monopoly closed situation exist process content ownership confirmation content distribution caused content owners lose tapscott d tapscott 2016 blockchain revolution technology bitcoin changing money business world penguin 4 6 x0ccontrol revenue suppressed potential growth content transaction market development profitable business approaches inhibited instance nowadays middlemen xe2 x80 x99s monopoly market trend small transactions content difficult achieve large transactions platform vendors spend lot time effort process identifying copyright signing agency agreements authors cost reasonable vendors depend selling content higher pricing gain profit",
+    "metadata": {
+      "chunk_id": "9d6151d6af4aa755120fb3919d34ffe9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 10] price e g piece code set typefaces xe2 x97 x8f allowing low frequency non professional creators low maintenance model selling content e g amateur photographers illustrators xe2 x97 x8f needs micro transactions flexible transactions satisfied content creators willing participate purchasing options consumers choose content creators driven opportunity higher income barriers copyright licensing trading lowered copyright owners licensees share revenue reasonably based effort contribution transparent flexible way decreasing piracy infringement behaviours 7 x0c xe2 x80 x9cco creating consumers usually sustainable business model suing xe2 x80 x9d5 conclusion exorbitant transaction costs monopolistic distribution channels damaging growth ecosystem content creation suppressing diversity innovation new business models industry digital content needs redefine rebuild new ways content production distribution consumption rights authorization enable creators better incentives rewards enable",
+    "metadata": {
+      "chunk_id": "a2a1d2eef4b1aeb7f06b2250f40ce339",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 11] new business models industry digital content needs redefine rebuild new ways content production distribution consumption rights authorization enable creators better incentives rewards enable creativity transmitted effectively opportunities solutions emerging blockchain technologies expected xe2 x80 x9crevolutionize industry commerce drive economic change global scale xe2 x80 x9d6 open new world opportunities solving aforementioned problems blockchain xe2 x80 x9cwill create new standard artists compensated instead liberate choose customize infinite array solutions work specific needs beliefs xe2 x80 x9d5 xe2 x80 x9ctransfer economic value lower cost xe2 x80 x9d7 achieve flexible income allocation characteristics xe2 x80 x9csecurity immutability transparency xe2 x80 x9d blockchain xe2 x80 x9cability cut middleman xe2 x80 x9d 6 expected bring trustworthy transparent solutions digital content industry smart contracts use code clearly define parties xe2 x80 x99 accountability obligation",
+    "metadata": {
+      "chunk_id": "3049b5b22cd21261f1c1308bc4377625",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 12] x9cability cut middleman xe2 x80 x9d 6 expected bring trustworthy transparent solutions digital content industry smart contracts use code clearly define parties xe2 x80 x99 accountability obligation value allocated contract execution records saved blockchain able tampered retrieved transfer process copyright xe2 x80 x99s economic value transparent stakeholders guarantees safety credibility transactions protects participants xe2 x80 x99 access fair value allocation based promises contract malicious breaches contract easily discovered easier collect relevant evidence tapscott d tapscott 2016 blockchain revolution technology bitcoin changing money business world penguin 5 6 underwood s 2016 blockchain bitcoin communications acm 59 11 15 17 7 imada takatoshi 2017 xe3 x83 x96 xe3 x83 xad xe3 x83 x83 xe3 x82 xaf xe3 x83 x81 xe3 x82 xa7 xe3 x83 xbc xe3 x83 xb3 xe9 x9d xa9 xe5 x91 xbd xe5 x88 x86 xe6 x95 xa3 xe8 x87 xaa xe5 xbe x8b xe5 x9e x8b xe7 xa4 xbe xe4 xbc x9a xe3 x81 xae xe5 x87 xba",
+    "metadata": {
+      "chunk_id": "0cc7158ff7f9b2064f2954d7e2643203",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "breach"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 13] x83 x83 xe3 x82 xaf xe3 x83 x81 xe3 x82 xa7 xe3 x83 xbc xe3 x83 xb3 xe9 x9d xa9 xe5 x91 xbd xe5 x88 x86 xe6 x95 xa3 xe8 x87 xaa xe5 xbe x8b xe5 x9e x8b xe7 xa4 xbe xe4 xbc x9a xe3 x81 xae xe5 x87 xba xe7 x8f xbe xe6 x97 xa5 xe6 x9c xac xe7 xb5 x8c xe6 xb8 x88 xe6 x96 xb0 xe8 x81 x9e xe5 x87 xba xe7 x89 x88 xe7 xa4 xbe 8 x0csecondly smart contracts ricardian contracts xe2 x80 x9csatisfy common contractual conditions minimize exceptions xe2 x80 xa6 need trusted intermediaries xe2 x80 x9d 8 content creators licensors tie prs contract creations consumers licensees execute contract automatically calculate price pay settle payment saving contract blockchain effortless trace existence contract related certain piece content verify contract executed correctly remarkably lower cost agreement signing execution traditional way improve efficiency content trading distribution core fundamental blockchain distributed ledger computer code stored executed chain code automatically executes certain",
+    "metadata": {
+      "chunk_id": "7231cb9f534895c6d72c7b67df4e4d13",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 14] execution traditional way improve efficiency content trading distribution core fundamental blockchain distributed ledger computer code stored executed chain code automatically executes certain conditions met distributed ledger records transactions forever transaction records blockchain secured cryptography programming s difficult build low cost high efficiency decentralization automation transactions system fiat currencies programmable money 9 based consensus trust mechanism supported blockchains coupled application smart contracts cryptocurrency content trading disintermediated making possible xe2 x80 x9csmall transactions xe2 x80 x9d xe2 x80 x9cflexible transactions xe2 x80 x9d previously difficult achieve reshaping revenue share model content producers consumers licensors licensees inclined cooperate mutually beneficial way achieve value sharing amplification motive malicious behaviours piracy infringement lower increased risk evil long run positive constructive changes emerge",
+    "metadata": {
+      "chunk_id": "13938272e8f77d16de990d6b7c5f8c2f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 15] inclined cooperate mutually beneficial way achieve value sharing amplification motive malicious behaviours piracy infringement lower increased risk evil long run positive constructive changes emerge pushing forward innovation content creation models business models finally facilitating booming industry digital content szabo n 1997 idea smart contracts retrieved http szabo best vwh net smart contracts idea html https perma cc v6az 7v8w 8 9 swan m 2015 blockchain blueprint new economy o reilly media inc 9 x0ctechnology architecture architecture design architecture prs protocol prs application layer protocol built different consensus mechanisms main purpose prs network build decentralized digital content distribution system prs protocol provides developers ability create decentralized apps connect technologies example blockchains consensus p2p cloud storage dapps private data chain store public data prs network ecosystem benefit shared data users developers write business logic verify",
+    "metadata": {
+      "chunk_id": "a16516e0298047f47bd944e86851515e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 16] connect technologies example blockchains consensus p2p cloud storage dapps private data chain store public data prs network ecosystem benefit shared data users developers write business logic verify transactions prsc dsl ensure reliability transactions 10 x0cthe prs network connects blockchains different consensus mechanisms major components system mixin network10 abft consensus dag prs chain bft dpos system uses mixin network decentralized ledger process asset transactions prs chain takes responsibility verifying smart contracts storing transaction related metadata content storage default service prs network storage service including centralized cloud p2p services provide content end users occasions mesh networks offline storage content providers blockchains centralized banks integrate prs network gateways dapps prs framework dapp directly interacts end users multiple dapps coordinate serve requests users examples website mobile app press dapps dapp contain private public data public",
+    "metadata": {
+      "chunk_id": "27de0194aee7db89575dfaacbee0019a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 17] network gateways dapps prs framework dapp directly interacts end users multiple dapps coordinate serve requests users examples website mobile app press dapps dapp contain private public data public data stored blockchain compatible prs data protocol hand private data sensitive personal information stored chain chain private data needed dapps appropriate sharing storing chain kept secure dapp developers maintainers api dapp developers needn t implement protocol ground use pressone api service interact nodes apis allow hide complexity low level blockchain systems expose functionality friendly way 10 feng x 2018 july 01 mixin network draft retrieved https mixin assets mixin draft 2018 07 01 pdf 11 x0ccontent storage hashes media text files stored blockchain instead original copies files prs protocol uses storage location descriptors define actual locations files resources flexible architecture allows users adopt storage methods including centralized cloud storage distributed storage",
+    "metadata": {
+      "chunk_id": "feaa9c46aba9ec64726881749722265a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 18] prs protocol uses storage location descriptors define actual locations files resources flexible architecture allows users adopt storage methods including centralized cloud storage distributed storage solutions bittorrent magnet links ipfs authentication public key cryptography dapp development users create new key pair grant permissions party dapp key pair create signatures execute contracts registration process press user creates key pair root key pair user use root private keys signing transactions create revoke party key pairs pressone uses digital certificates help users verify identity dapps prevent phishing security threats pressone provides certificate authority issue digital certificates dapp developers issuing certificate authorities privilege pressone originator dao certificate authority based reputation prs contracts prs contract essential elements prs ecosystem prs protocol support smart contracts ricardian contract defined easyto understand descriptive language resembles",
+    "metadata": {
+      "chunk_id": "3db982e1cb4ddae5e170158449bb52b7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 19] authority based reputation prs contracts prs contract essential elements prs ecosystem prs protocol support smart contracts ricardian contract defined easyto understand descriptive language resembles natural language contracts executed trading effective prs contract interpreter interpret execute code written prsc dsl domain specific language prices depend requirements order calculated contract code execution contract instance containing mixin network snapshot id created success user payment verified dpos nodes 12 x0cnodes sign block half nodes signed block deemed irreversible mixin network snapshot id payment receipt contract deemed digital content traded prs network help developers lawyers create smart contracts higher reliability reduce security risks following prs protocol contracts updated stopped transactions update stop time remain effective transaction messages transaction procedure client follows prs protocol publish requests write network types transaction messages prs",
+    "metadata": {
+      "chunk_id": "757de202ee58ae533017adc8309790ed",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 20] updated stopped transactions update stop time remain effective transaction messages transaction procedure client follows prs protocol publish requests write network types transaction messages prs protocol defines example identity verification message digital content distribution message trading confirmation message contract instance terms conditions attached transaction message contract execution effect verification nodes prs validator nodes responsibility validating transaction messages contract execution nodes sign blocks results validations return successfully prs token holders stake tokens vote validator candidates voting service runs mixin network malicious validator nodes voted replaced candidates prs network vision pressone create blockchain based digital content transaction distribution network prs team designed innovative product framework construct network leveraging features blockchain decentralization 13 x0cdisintermediation distributed trust immutability programmability",
+    "metadata": {
+      "chunk_id": "417346bd107c4a687784af4c9734d795",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 21] network prs team designed innovative product framework construct network leveraging features blockchain decentralization 13 x0cdisintermediation distributed trust immutability programmability 11 continue perfect framework changing complexity scope project core designs include xe2 x97 x8f creating executing transactions light smart contracts prs contracts reduce transaction costs increase transaction efficiency xe2 x97 x8f solving problem copyright ownership declaration storing users xe2 x80 x99 id proof content digital signature transaction history record licensing authorization unchangeable data chain xe2 x97 x8f reforming digital content distribution decentralized architecture reciprocal symbiotic ecosystem new way redistribute revenue producers licensors consumers licensees xe2 x97 x8f framework prs network transactions contracts prs network supports transactions type digital content article picture movie encyclopedia file create digital signature tradable object long unique hash",
+    "metadata": {
+      "chunk_id": "97fb2c55b1fc3f6f04f6d9f212cd3774",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 22] framework prs network transactions contracts prs network supports transactions type digital content article picture movie encyclopedia file create digital signature tradable object long unique hash value produced cryptographic algorithm file creation execution transactions relies programmable light contract easy understand descriptive programming language resembles natural language set contract define runs content producer creates digital content signature work bind contract signed content set sets trading pricing conditions similar smart contract prs contract essentially piece programming code executed typical example executing contract content transaction buyer wants purchase particular content needs 11 iansiti m lakhani k r 2017 truth blockchain harvard business review 95 1 118 127 14 x0cquote signature content associated contract trigger included operating conditions total needed pay calculated automatically execution transaction billing automatically real time kind transaction",
+    "metadata": {
+      "chunk_id": "b2a24306287859a39269764980ab1a37",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 23] x0cquote signature content associated contract trigger included operating conditions total needed pay calculated automatically execution transaction billing automatically real time kind transaction smart contracts irreversible trackable trading records reduce disputes caused malicious unexpected behaviour reduce costs term contracting arbitration execution verification content producers longer constrained conditions traditional model longer need rely intermediary platforms copyright agencies manage transactions 15 x0cthe range transactions supported contract immensely diverse payfor reading pay subscriptions licensing adaptations translations licensing post resale licensing compiling publications etc setting trading conditions extremely flexible example license grants permitted uses prohibited uses validity periods termination conditions licence clearly agreed contract restricting behaviour parties transaction example author column paid subscription contract update 10 pieces monthly",
+    "metadata": {
+      "chunk_id": "bc97627b2f2bc8a28db6d4f906fd3183",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 24] uses validity periods termination conditions licence clearly agreed contract restricting behaviour parties transaction example author column paid subscription contract update 10 pieces monthly subscribers prs protocol supports application multiple contracts combination enabling innovative models emerge production sale distribution content example posting sharing content mining listicle producing review writing regarded xe2 x80 x9cdistributing xe2 x80 x9d behaviours allow revenue sharing original author co creators adapt translate work develop new type cooperative relationship original author innovative licensing model parties earn income fairly transparently according contribution creation production contract template based prs contract transaction creators coding ability design contract based needs don t know program pressone offers contract template store xe2 x80 x9ccontract template xe2 x80 x9d set contract codes pre written pay view authorized translation agreed revenue split",
+    "metadata": {
+      "chunk_id": "6da4c1a8a8cc0882f6b06c3f09cef629",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 26] conditions contracts broader pattern innovation terms 16 x0ctrading context pricing models collaboration income sharing models allowed emerge prs network content signatures transaction objects prs network content signatures create contract piece content create content signature declaring original author copyright agent content creation signature requires user s private key successfully signed signature information saved undeleted data blockchain appears long character string consisting user address creator hash value snapshot content file signed supporting offline verification file types signed include text images video audio pdf users create content signature single file group files iterations created content signature chain supported future view digital content signature find signature creator viewing associated proof identity timestamp signature created hash value calculated snapshot file signed associated prs contract version history signature metadata content signature",
+    "metadata": {
+      "chunk_id": "5439560c2bfc3ce0ba4535736043bbf7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 27] signature creator viewing associated proof identity timestamp signature created hash value calculated snapshot file signed associated prs contract version history signature metadata content signature transparently stored blockchain originally signed file probably chain terms contract explain acquire original file automatically fetch original file dapps choose original files stored data stored privately chain stored public data chain proof identity general selling digital content requires transaction creator sell real involves legal issues validity agreement tax issues considering privacy avoiding centralization true real systems difficult implement blockchain networks data completely transparent prs protocol solves problem adopting support multiple types identity proof 17 x0cthe protocol identity proof pressone consists proof record stored chain associated social network information tie social profile user s corresponding key pair user needs id proof url posting social network",
+    "metadata": {
+      "chunk_id": "b457afab8a433d3fa520adfd09e0d810",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 29] dapp copyright ownership confirmation declaration press provide centralized copyright certification review arbitration mechanism content producer required tie identity id methods publish content signature identity necessary link real id proof set contract trading succeeded signing work copyrighted xe2 x80 x99 received revenue selling prs network evidence misappropriation xe2 x80 x99 work record sales revenues permanently stored chain impossible remove traces piracy infringement hide illegal income evidence help original author claim rights legal means prs network dapps operated party copyright certification agencies connected required party copyright certification dapps need build reputation blockchain safeguard reputation similar personal users certification agencies dapp wrong authentication malicious behaviour occurs evidence eliminated 18 x0cfinally planning press place centralized content distribution mechanism ideally content producers accumulated certain readers fans social",
+    "metadata": {
+      "chunk_id": "99065bc9aaaca4146899a8937320e8ac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 32] service providers services applications connect users different interests different fields form huge market great diversity liquidity time meeting users xe2 x80 x99 needs terms diversity content requirements differences consumption motivation purchasing behaviour 12 chang j han f etc 2016 xe5 x8c xba xe5 x9d x97 xe9 x93 xbe xef xbc x9a xe4 xbb x8e xe6 x95 xb0 xe5 xad x97 xe8 xb4 xa7 xe5 xb8 x81 xe5 x88 xb0 xe4 xbf xa1 xe2 xbd xa4 xe7 x94 xa8 xe7 xa4 xbe xe4 xbc x9a xe4 xb8 xad xe4 xbf xa1 xe5 x87 xba xe7 x89 x88 xe7 xa4 xbe 19 x0cin addition mentioned earlier trust consensus brought blockchain coupled application smart contracts digital currency protect participants achieving fair value distribution according commitments prs contracts participants endowed fresh impetus distribution content reshape role relationship content producers spreaders consumers changes income allocation model role willing collaborate benefit actively participating stage content production distribution order",
+    "metadata": {
+      "chunk_id": "85204f52d1e262bcb52dacac16cbb037",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 33] reshape role relationship content producers spreaders consumers changes income allocation model role willing collaborate benefit actively participating stage content production distribution order share value added gains brought accelerated circulation content facilitation transactions dapps prs network dapps prs team press website press official website prs project contains core functional modules prs network including id proof content signature management modules content trading module economic module wallet transaction history task admin system task hall resources open platforms fund institutions stakeholders prs ecosystem 3rd party developers find documents resources supports needed press mobile app pressone mobile app including android ios versions public beta end july 2018 mobile app positioned differently press website focuses previewing reading listening playing etc trading aggregation content press optimal design mobile application scenarios future versions mobile app evolve",
+    "metadata": {
+      "chunk_id": "17a5728d9d0db75e843b2f63a90c94c6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 35] inspiration developers entrepreneurs exploration innovation areas product business models competitive advantage create market niche 1 stock photography pictures prs500 platform aggregates categorizes recommends photos images collected photographers allows image users find need run contract pay photographer easily product concept photographers link social network identities upload work prs smart contracts customize licensing models supporting different pricing models ratios shared revenue photographers paid wasting energy dealing trading request website profits rational revenue share stock photography co exist different niche market positioning signed contracts revenue sharing details transparent blockchain fair content producer distributor 2 certificate authority service based prs prsca 3rd party credibility relevant reputation set centralized identity certificate authority product concept decentralized identity certification core concepts prs users consider centralized certification",
+    "metadata": {
+      "chunk_id": "60452e28bdc36772ed9c126b14203b9a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 36] party credibility relevant reputation set centralized identity certificate authority product concept decentralized identity certification core concepts prs users consider centralized certification 21 x0cconvenient certificate piece digital content smart contacts prs implement fee collecting authentication certificate issuing processes authentication results certificates released blockchain signing certificate authority wrong incorrect record open damage reputation certification authority centralized institutions co exist compete reputation valuable asset 3 news aggregator like hacker news prs digg product concept users forward good content find prs network vote favourite content spending prs end revenue shared based associated contract instance user forwards content receives 30% revenue 70% belongs creator content prs ecosystem summary ways blockchain disruptive change incentives ways effectiveness groups organizations cooperate redefine economies power productive activities changes",
+    "metadata": {
+      "chunk_id": "bd41ca0868d165693e752eb13b9feb89",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 37] 70% belongs creator content prs ecosystem summary ways blockchain disruptive change incentives ways effectiveness groups organizations cooperate redefine economies power productive activities changes originate xe2 x97 x8f holding token project prs token participants contributors value sharers prs ecosystem xe2 x97 x8f value growth ecosystem automatically allocated contributors builders investors rise token value transparent fair way xe2 x97 x8f major driving forces participation commitment stakeholder encouraging cooperate contribute create value ecosystem spontaneously 22 x0c xe2 x97 x8f distribution equality transparency consensus blockchain enhance trust people furthermore increase efficiency collaboration offer ways participate endowing individuals power opportunity prs ecosystem value network built prs project developing vision self organizing system continue evolving way value created members shared ecosystem long haul prs ecosystem eventually adept decentralized distributed",
+    "metadata": {
+      "chunk_id": "77e629de728b874ccd9fb3f2173c23f8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 42] x80 x99s value start fund join fund join project fund types funds xe2 x97 x8f direct management fund created managed operated directly prs official foundation support development project ecosystem include funds developer relationship building fund prs branding fund fund support new creators funds primarily invested prs official foundation accept outside investment xe2 x97 x8f self funded fund voluntarily created supporters prs ecosystem apply investment prs official foundation raise funds prs official foundation established help participants builders ecosystem share experiences lessons reduce risk failure operating funds projects types funds additional support prs project team terms investment products technology strategy 25 x0cthe main missions official foundation include approve certify establishment fund support preparation operation fund projects supervise announcements transparency fund projects select invest self funding funds projects promote prs ecosystem supervise track usage",
+    "metadata": {
+      "chunk_id": "e6156da64cab301e7816f8d491c2d89e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 45] goal expanding brand influence pressone promoting quality apps creators content network designing motive tasks attract participants creation dissemination branded content xe2 x80 xa2 prs developer fund goal building strong relationship developers offering support resource 3rd apps development discoverying outstanding developers quality dapps fostering innovation xe2 x80 xa2 prs creation promoting fund goals discover outstanding creators fostering fine originals attracting quality authors settle design tasks promote interaction authors readers prs token token pressone network ecosystem called prs total supply 2 billion tokens prs issued based ethereum erc 20 standard contract addition circulating value prs network dapps prs token widely payment trading collateralizing exchanging network resources token consumption purpose consuming prs token increase usage cost prevent spam recycled tokens rewarded verification nodes revenue network actions consume prs token include creating contract",
+    "metadata": {
+      "chunk_id": "700fe59e7f499bbd8fe01d5e2f51f2bd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 46] token consumption purpose consuming prs token increase usage cost prevent spam recycled tokens rewarded verification nodes revenue network actions consume prs token include creating contract creating content signature executing contract operations consuming network resources expenditures exist network instance storage service provider request certain storage fees token collateral vote nodes verify transactions prs network prs project team uncirculated tokens vote 27 x0ctoken distribution january 8th 2018 press project issued 2 billion 2 000 000 000 prs tokens token xef xbc x9a0xe0d95530820aafc51b1d98023aa1ff000b78d8b xe2 x97 x8f exchange listing 5% 100 000 000 prs 100 million prs token listed big january 8th 2018 revenue exchange listing prs project operation development including expenses r d marketing operations media pr financial legal affairs xe2 x97 x8f held anchor investors 8% 159 800 000 prs owned early investors influential optimistic prospects prs project great help prs",
+    "metadata": {
+      "chunk_id": "f8748444596fb0494cecd942dd96ca1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 47] r d marketing operations media pr financial legal affairs xe2 x97 x8f held anchor investors 8% 159 800 000 prs owned early investors influential optimistic prospects prs project great help prs project terms resource cooperation business development market confidence acquisition costs anchor investors public exchange listing costs big xe2 x97 x8f team total shares 20% 400 000 00 prs shares reserved founding team rewarding contribution team members development prs shares locked long 28 x0ctime 0 9 million shares 900 010 prs unlocked team quarterly bonus 2018 2019 xe2 x97 x8f remaining shares 67% 1 340 200 000 prs ecosystem building strategic acquisitions investments business partnerships resource exchanges verification node collateral operations marketing activities slowly injected prs ecosystem stages planned manner 60 million shares 60 000 000 prs locked candy 2 19 million shares 2 192 538 prs unlocked purpose ecosystem building operations marketing activities shares planned prs",
+    "metadata": {
+      "chunk_id": "319d73c49e146f36bbf1bdbdfb4dcb32",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 48] ecosystem stages planned manner 60 million shares 60 000 000 prs locked candy 2 19 million shares 2 192 538 prs unlocked purpose ecosystem building operations marketing activities shares planned prs ecosystem primarily released prs official foundation support establish funds projects foundation release signed monthly investment reports announce investment purpose guaranteeing information transparency foundation token circulation xe2 x80 xa2 total circulating supply 13 14% 322 892 548 prs including tokens public xe2 x80 x99s hand holded anchor investors unlocked team remaining shares xe2 x80 xa2 tokens locked 86 86% 1 737 107 452 prs xe2 x97 x8f locked reserved team remaining shares 0x1682c90820a14a24985a8f8340d6baec5ee8a9dd xe2 x97 x8f shares locked candy 0xab414ac271b49502e760bb31677997ef37dfbe7a acquire prs tokens xe2 x97 x8f buy cryptocurrency exchanges 29 x0c xe2 x97 x8f user partake trading economic activities prs network including content trading obtaining rewards engaging",
+    "metadata": {
+      "chunk_id": "3483a2a5e5a48a4e04e8e2ebe644a4d0",
+      "entities": {
+        "email": [],
+        "crypto_address": [
+          "0x"
+        ]
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 49] acquire prs tokens xe2 x97 x8f buy cryptocurrency exchanges 29 x0c xe2 x97 x8f user partake trading economic activities prs network including content trading obtaining rewards engaging content discovery compiling spreading selling co creating xe2 x97 x8f user community participant obtain prs tokens rewards participating tasks designed funds prs ecosystem making contributions committing completion tasks xe2 x97 x8f deeply involved participant join project building ecosystem start fund submit project proposal apply investment prs official foundation xe2 x97 x8f developer entrepreneur participate advancement growth entire prs network building applications tools services based prs protocol providing infrastructure technology services dapps network integrating prs protocol existing applications profit offering products services users pressone willing incubate provide investment projects beneficial ecosystem team li xiaolai ceo li xiaolai chinese investor blockchain enthusiast based beijing",
+    "metadata": {
+      "chunk_id": "039efd0647a02e8143e0ca69800a6726",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PressOne.txt"
+    }
+  },
+  {
+    "text": "[Section 50] profit offering products services users pressone willing incubate provide investment projects beneficial ecosystem team li xiaolai ceo li xiaolai chinese investor blockchain enthusiast based beijing early proponent bitcoin blockchain li started funds launched cryptocurrency exchange invested blockchain projects huo ju cto huo ju 20 years experience software development software architecture technology management previously co founded ginkgotek site search engine cloud service provider china senior researcher shanda innovations worked independent technical advisor media system projects global media giants including new york times financial 30 x0ctimes addition ju influential bloggers technology hacker crypto space china xi qiao coo product director xi qiao engaged internet field 2005 working project management ux design product management 10 years project experiences digital content area include building rebuilding information systems websites workflow systems chinese version new york",
+    "metadata": {
+      "chunk_id": "784b1a7f913acfe17f35bcf88b793c67",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "PressOne.txt"
+    }
+  }
+]

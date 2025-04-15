@@ -1,0 +1,1296 @@
+[
+  {
+    "text": "[Section 1] stellar consensus protocol federated model internet level consensus david mazieres stellar development foundation paper introduces new model consensus called federated byzantine agreement fba fba achieves robustness quorum slicesindividual trust decisions node determine system level quorums slices bind system way individual networks peering transit decisions unify internet present stellar consensus protocol scp construction fba like byzantine agreement protocols scp makes assumptions rational behavior attackers unlike prior byzantine agreement models presuppose unanimously accepted membership list scp enjoys open membership promotes organic network growth compared decentralized proof work proof stake schemes scp modest computing financial requirements lowering barrier entry potentially opening financial systems new participants ccs concepts security privacy distributed systems security security protocols additional key words phrases byzantine fault tolerance asynchronous systems 1",
+    "metadata": {
+      "chunk_id": "597379b66d46e7d6233d2fd8b0f3491d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 2] opening financial systems new participants ccs concepts security privacy distributed systems security security protocols additional key words phrases byzantine fault tolerance asynchronous systems 1 introduction financial infrastructure currently mess closed systems gaps systems mean transaction costs high provost 2013 money moves slowly political geographic boundaries banning lover 2015 cgap 2008 friction curtailed growth financial services leaving billions people underserved financially demirguc kunt et al 2015 solve problems need financial infrastructure supports kind organic growth innovation weve seen internet ensures integrity financial transactions historically relied high barriers entry ensure integrity trust established financial institutions best regulate exclusivity conflicts goal organic growth growth demands new innovative participants possess modest financial computing resources need worldwide financial network open new organizations join extend financial access unserved",
+    "metadata": {
+      "chunk_id": "4c9a6af4ded71d31b2a4e42b20343c71",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 4] participants consider important agree eventually network accepts transaction infeasible attacker roll participants consider transaction settled fbas consensus ensure integrity financial network decentralized control spur organic growth paper presents stellar consensus protocol scp construction fba prove scps safety optimal asynchronous protocol guarantees agreement node failure scenario admits guarantee draft february 25 2016 2 eres d mazi scp free blocked statesin consensus longer possibleunless participant failures impossible satisfy trust dependencies scp provably safe consensus mechanism enjoy key properties simultaneously decentralized control able participate central authority dictates approval required consensus low latency practice nodes reach consensus timescales humans expect web payment transactionsi e seconds flexible trust users freedom trust combination parties fit example small non profit play key role keeping larger institutions honest asymptotic security safety rests",
+    "metadata": {
+      "chunk_id": "f2290b8227ceb7edcfab586d80a0927f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 5] payment transactionsi e seconds flexible trust users freedom trust combination parties fit example small non profit play key role keeping larger institutions honest asymptotic security safety rests digital signatures hash families parameters realistically tuned protect adversaries unimaginably vast computing power scp applications financial markets ensuring organizations perform important functions honestly example certificate authorities cas literally hold keys web experience shows cas sign incorrect certificates wild microsoft 2013 langley 2015 proposals address problem certificate transparency kim et al 2013 laurie et al 2013 basin et al 2014 melara et al 2014 certificate transparency allows users examine history certificates issued given entity detect attempts cas change entitys public key endorsement previous key scp holds potential strengthen indelible certificate history core certificate transparency demanding global consensus certificate history decentralized group auditors",
+    "metadata": {
+      "chunk_id": "3d3f32613772440afcf6041c6fcbe98b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 6] key endorsement previous key scp holds potential strengthen indelible certificate history core certificate transparency demanding global consensus certificate history decentralized group auditors harder backpedal override previously issued certificates section discusses previous approaches consensus section 3 defines federated byzantine agreement fba lays notions safety liveness applicable fba model section 4 discusses optimal failure resilience fba system establishing security goals scp section 5 develops federated voting key building block scp protocol section 6 presents scp proving safety freedom blocked states section 7 discusses limitations scp finally section 8 summarizes results readers familiar mathematical notation appendix defines symbols paper 2 related work figure 1 summarizes scp differs previous consensus mechanisms famous decentralized consensus mechanism proof work scheme advanced bitcoin nakamoto 2008 bitcoin takes pronged approach consensus provides incentives",
+    "metadata": {
+      "chunk_id": "5c2aec30c2ffcc57012133458126d489",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 7] scp differs previous consensus mechanisms famous decentralized consensus mechanism proof work scheme advanced bitcoin nakamoto 2008 bitcoin takes pronged approach consensus provides incentives rational actors behave second settles transactions proof work dwork naor 1992 algorithm designed protect ill behaved actors possess majority systems computing power bitcoin overwhelmingly demonstrated appeal decentralized consensus bonneau et al 2015 proof work limitations wastes resources estimate 2014 bitcoin consume electric power entire country ireland odwyer malone 2014 second secure transaction settlement suffers expected latencies minutes tens minutes karame et al 2012 finally contrast traditional cryptographic protocols proof work offers asymptotic security given non rational attackersor ones extrinsic incentives sabotage stellar consensus protocol mechanism decentralized control low latency flexible trust asymptoticsecurity proof work proof stake byzantine agreement tendermint maybe",
+    "metadata": {
+      "chunk_id": "d8a65761016b7eb78a6ec1b807df991a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 8] ones extrinsic incentives sabotage stellar consensus protocol mechanism decentralized control low latency flexible trust asymptoticsecurity proof work proof stake byzantine agreement tendermint maybe maybe scp work fig 1 properties different consensus mechanisms consensussmall computational advantages invalidate security assumption allowing history written called 51% attacks worse attackers initially controlling 50% computation game system provide disproportionate rewards join eyal sirer 2013 potentially gaining majority control leading digital currency backed computational power bitcoin enjoys measure protection 51% attacks smaller systems fallen victim crazyearner 2013 bradbury 2013 posing problem proof work system built bitcoin block chain alternative proof work proof stake king nadal 2012 consensus depends parties posted collateral like proof work rewards encourage rational participants obey protocol designs additionally penalize bad behavior buterin 2014 davarpanah et al 2015",
+    "metadata": {
+      "chunk_id": "9e7c09c20c6de68b598d0f177c6a573d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "51% attack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 11] guarantees schwartz et al 2014 users reluctant edit list practice great deal power ends concentrated maintainer starter list approach taken tendermint kwon 2014 base membership proof stake ties trust resource 4 eres d mazi ownership scp byzantine agreement protocol participant maximum freedom chosing combinations participants trust 3 federated byzantine agreement systems section introduces federated byzantine agreement fba model like nonfederated byzantine agreement fba addresses problem updating replicated state transaction ledger certificate tree agreeing updates apply nodes avoid contradictory irreconcilable states identify update unique slot inter update dependencies inferred instance slots consecutively numbered positions sequentially applied log fba system runs consensus protocol ensures nodes agree slot contents node v safely apply update x slot safely applied updates slots idepends additionally believes correctly functioning nodes eventually agree x slot point v externalized x",
+    "metadata": {
+      "chunk_id": "cac4c1040117ff25b591b8c42bab7a0b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 12] nodes agree slot contents node v safely apply update x slot safely applied updates slots idepends additionally believes correctly functioning nodes eventually agree x slot point v externalized x slot outside world react externalized values irreversible ways node later change mind challenge fba malicious parties join times outnumber honest nodes traditional majority based quorums work instead fba determines quorums decentralized way node selecting quorum slices subsection defines quorums based slices following subsection provides examples discussion finally define key properties safety liveness consensus protocol hope achieve 3 1 quorum slices consensus protocol nodes exchange messages asserting statements slots assume assertions forged guaranteed nodes named public key digitally sign messages node hears sufficient set nodes assert statement assumes functioning node contradict statement sufficient set quorum slice concisely slice permit progress face node failures node multiple slices",
+    "metadata": {
+      "chunk_id": "5909212a90c30180cb412ebc1e4eb566",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 13] node hears sufficient set nodes assert statement assumes functioning node contradict statement sufficient set quorum slice concisely slice permit progress face node failures node multiple slices sufficient convince statement high level fba system consists loose confederation nodes chosen slices formally definition fbas federated byzantine agreement system fbas pair v q comprising set nodes v quorum function q v 22v specifying quorum slices node node belongs quorum slicesi e v v q q v v q note 2x denotes powerset x definition quorum set nodes u v fbas v q quorum iff u u contains slice memberi e v u q q v qu quorum set nodes sufficient reach agreement quorum slice subset quorum convincing particular node agreement quorum slice smaller quorum consider node system figure 2 node single slice arrows point members slice node v1s slice v1 v2 v3 sufficient convince v1 statement v2s v3s slices include v4 meaning v2 v3 assert statement v4s agreement agreement possible v4s participation quorum",
+    "metadata": {
+      "chunk_id": "22339ea2623525de34c24eef9fe0cf10",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 14] arrows point members slice node v1s slice v1 v2 v3 sufficient convince v1 statement v2s v3s slices include v4 meaning v2 v3 assert statement v4s agreement agreement possible v4s participation quorum including v1 set nodes v1 v2 v3 v4 traditional non federated byzantine agreement requires nodes accept slices meaning v1 v2 q v1 q v2 member accepts slice traditional systems distinguish slices quorums downside stellar consensus protocol v1v2v3v4 q v1 v1 v2 v3 q v2 q v3 q v4 v2 v3 v4 fig 2 v1s quorum slice quorum v4 v1v2v3v4v5v6v7v8v9v10 2 4 2 4 3 4 tier slice 3 v1 v2 v3 v4 including self middle tier slice self 2 tier nodes leaf tier slice self 2 middle tier nodes fig 3 tiered quorum structure example membership quorums pre ordained precluding open membership decentralized control traditional system pbft castro liskov 1999 typically 3f 1 nodes 2f 1 constitute quorum f maximum number byzantine failuresmeaning nodes acting arbitrarily system survive fba introduced paper generalizes byzantine",
+    "metadata": {
+      "chunk_id": "b5415a82970d33a1ff00e29d453360a1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 15] pbft castro liskov 1999 typically 3f 1 nodes 2f 1 constitute quorum f maximum number byzantine failuresmeaning nodes acting arbitrarily system survive fba introduced paper generalizes byzantine agreement accommodate greater range settings fbas key innovation enabling node vto chose quorum slice set q v system wide quorums arise individual decisions node nodes select slices based arbitrary criteria reputation financial arrangements settings individual node complete knowledge nodes system consensus possible 3 2 examples discussion figure 3 shows example tiered system different nodes different slice sets possible fba tier comprising v1 v4 structured like pbft system f 1 meaning tolerate byzantine failure long nodes reachable behaved nodes v5 v8 constitute middle tier depend tier tier nodes required form slice middle tier node tier assumes byzantine failure tier nodes fail system failed nodes v9 v10 leaf tier slice consists 6 eres d mazi v1v2v3v4v5v6 q vi vi v mod 6 1 fig 4 cyclic quorum",
+    "metadata": {
+      "chunk_id": "4ae5b4d6bbba001a3313247568402960",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 16] form slice middle tier node tier assumes byzantine failure tier nodes fail system failed nodes v9 v10 leaf tier slice consists 6 eres d mazi v1v2v3v4v5v6 q vi vi v mod 6 1 fig 4 cyclic quorum structure example middle tier nodes note v9 v10 pick disjoint slices v5 v6 v7 v8 nonetheless indirectly depend tier practice tier consist dozens widely known trusted financial institutions size tier grows exact agreement membership significant overlap parties notions tier additionally imagine multiple middle tiers instance country geographic region tiered structure resembles inter domain network routing internet today held individual peering transit relationships pairs networks central authority dictates arbitrates arrangements pairwise relationships sufficed create notion de facto tier isps norton 2010 internet reachability suffer firewalls transitive reachability nearly completee g firewall block new york times allows google google reach new york times new york times transitively reachable",
+    "metadata": {
+      "chunk_id": "514d69e1bfefe39550486da82e6706a3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 17] 2010 internet reachability suffer firewalls transitive reachability nearly completee g firewall block new york times allows google google reach new york times new york times transitively reachable transitive reachability limited utility web sites crucial consensus equivalent example google accepting statements new york times think quorum slices analogous network reachability quorums analogous transitive reachability internets near complete transitive reachability suggests likewise ensure worldwide consensus fba ways consensus easier problem inter domain routing transit consumes resources costs money slice inclusion merely requires checking digital signatures fba nodes err inclusiveness constructing conservative slices greater interdependence redundancy typically seen peering transit arrangements example possible centralized consensus cyclic dependency structures depicted figure 4 cycle unlikely arise intentionally individual nodes choose slices possible overall system end embedding",
+    "metadata": {
+      "chunk_id": "c77618c5683fbd1677643fa88e7a1595",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 18] example possible centralized consensus cyclic dependency structures depicted figure 4 cycle unlikely arise intentionally individual nodes choose slices possible overall system end embedding dependency cycles bigger point compared traditional byzantine agreement fba protocol cope far wider variety quorum structures 3 3 safety liveness categorize nodes behaved ill behaved behaved node chooses sensible quorum slices discussed section 4 1 obeys protocol including eventually responding requests ill behaved node ill behaved nodes suffer byzantine failure meaning behave arbitrarily instance ill stellar consensus protocol ill behaved behaved failed byzantine including correct correct crashed fig 5 venn diagram node failures behaved node compromised owner maliciously modified software crashed goal byzantine agreement ensure behaved nodes externalize values despite presence ill behaved nodes parts goal like prevent nodes diverging externalizing different values slot second like ensure nodes",
+    "metadata": {
+      "chunk_id": "f5f2e2dca0efe4ca7131de856fb7d9b2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 19] byzantine agreement ensure behaved nodes externalize values despite presence ill behaved nodes parts goal like prevent nodes diverging externalizing different values slot second like ensure nodes actually externalize values opposed getting blocked dead end state consensus longer possible introduce following terms properties definition safety set nodes fbas enjoy safety externalize different values slot definition liveness node fbas enjoys liveness externalize new values participation failed including ill behaved nodes behaved nodes enjoy safety liveness correct nodes correct failed ill behaved nodes failed behaved node fail waiting indefinitely messages ill behaved nodes worse having state poisoned incorrect messages ill behaved nodes figure 5 illustrates possible kinds node failure left byzantine failures meaning ill behaved nodes right kinds behaved failed nodes nodes lack liveness termed blocked lack safety termed divergent attack violating safety strictly powerful violating",
+    "metadata": {
+      "chunk_id": "1fbae5ef3ce82ccda1928e05136a9b35",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 20] left byzantine failures meaning ill behaved nodes right kinds behaved failed nodes nodes lack liveness termed blocked lack safety termed divergent attack violating safety strictly powerful violating liveness classify divergent nodes subset blocked ones definition liveness weak says node externalize new values admits state perpetual preemption consensus remains forever possible network continually thwarts delaying reordering critical messages wrong way perpetual preemption inevitable purely asynchronous deterministic system survives node failure fischer et al 1985 fortunately preemption transient indicate node failure cause system recover time protocols mitigate problem randomness ben 1983 bracha toueg 1985 realistic assumptions message latency dwork et al 1988 latency assumptions practical like limit execution time avoid trusted dealers required efficient randomized algorithms course termination safety depend message timing 4 optimal resilience nodes enjoy safety liveness depends",
+    "metadata": {
+      "chunk_id": "171394f8d1e4497336423fda84dc5d75",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 22] byzantine agreement protocol guarantee regardless network discuss quorum intersection property safety impossible guarantee introduce notion dispensable setssets failed nodes spite possible guarantee safety liveness 4 1 quorum intersection protocol guarantee agreement quorum slices represented function q satisfy validity property quorum intersection definition quorum intersection fbas enjoys quorum intersection iff quorums share nodei e quorums u1 u2 u1 u2 figure 6 illustrates system lacking quorum intersection q permits quorums v1 v2 v3 v4 v5 v6 intersect disjoint quorums independently agree contradictory statements undermining system wide agreement quorums exist quorum intersection fails intersect example set nodes v1 v6 figure 6 quorum intersects system lacks quorum intersection intersect protocol guarantee safety absence quorum intersection configuration operate different fbas systems exchange messages quorum intersection safety impossible guarantee presence ill behaved nodes",
+    "metadata": {
+      "chunk_id": "62d81564e0e20616e6b6f88d05ab5e1f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 23] protocol guarantee safety absence quorum intersection configuration operate different fbas systems exchange messages quorum intersection safety impossible guarantee presence ill behaved nodes compare figure 6 disjoint quorums figure 7 quorums intersect single node v7 v7 ill behaved v7 makes inconsistent statements left right quorums effect equivalent disjoint quorums fact ill behaved nodes contribute safety protocol guarantee safety behaved nodes enjoying quorum intersection worst case scenario safety ill behaved nodes possible contradictory statement completes quorum quorums overlapping ill behaved nodes able operate like different fbas stellar consensus protocol systems thanks duplicity ill behaved nodes short fbas v q survive byzantine failure set nodes b v iff v q enjoys quorum intersection deleting nodes b v slices q formally definition delete v q fbas b v set nodes delete b v q written v qb means compute modified fbas v b qb qb v q b q q v responsibility node v ensure q v",
+    "metadata": {
+      "chunk_id": "a9585051cb12a786e076748f7a4a703f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 24] intersection deleting nodes b v slices q formally definition delete v q fbas b v set nodes delete b v q written v qb means compute modified fbas v b qb qb v q b q q v responsibility node v ensure q v violate quorum intersection way pick conservative slices lead large quorums course malicious v intentionally pick q v violate quorum intersection malicious v lie value q v ignore q v arbitrary assertions short q v s value meaningful v ill behaved necessary property safetyquorum intersection behaved nodes deleting ill behaved nodesis unaffected slices ill behaved nodes suppose figure 6 evolved node fbas v1 v2 v3 quorum intersection node fbas v4 v5 v6 join maliciously choose slices violate quorum intersection protocol guarantee safety v fortunately deleting bad nodes yield v q v4 v5 v6 restores quorum intersection meaning v1 v2 v3 enjoy safety note deletion conceptual sake describing optimal safety protocol guarantee safety v1 v2 v3 needing know v4 v5 v6 ill behaved 4 2 dispensable sets",
+    "metadata": {
+      "chunk_id": "cdf4f080b7f9a6f1db7bb41abfdcb292",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 26] dset slice v9 v10 entirely malicious lie v9 v10 convince assertions inconsistent rest system prevent misbehaving dset affecting correctness nodes properties hold safety deleting dset undermine quorum intersection liveness dset deny nodes functioning quorum leads following definition definition dset let v q fbas b v set nodes b dispensible set dset iff 1 quorum intersection despite b v qb enjoys quorum intersection 2 quorum availability despite b v b quorum v q b v quorum availability despite b protects nodes b refusing answer requests blocking nodes progress quorum intersection despite b protects oppositenodes b making contradictory assertions enable nodes externalize inconsistent values slot nodes balance threats slice selection equal bigger slices lead bigger quorums 10 d mazi eres behaved local property nodes independent nodes ill behaved validity slice selection intact property nodes given quorum slices particular set befouled ill behaved nodes befouled nodes ill behaved depend",
+    "metadata": {
+      "chunk_id": "a7c1cde5619a8cb268d63f3a424a5e9b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 28] v dset fbas v q vacuously enjoys quorum intersection despite v special case enjoys quorum availability despite v motivation special case given sufficiently ill behaved nodes v smallest dset contain ill behaved ones indicating scenario protocol guarantee better complete system failure dsets fbas determined priori quorum function q nodes ill behaved depends runtime behavior machines getting compromised dsets care encompass ill behaved nodes help distinguish nodes guaranteed correct ones guarantee impossible end introduce following terms definition intact node vin fbas intact iff exists dset b containing ill behaved nodes v b definition befouled node v fbas befouled iff intact befouled node v surrounded failed nodes block progress poison state vitself behaved fbas guarantee correctness befouled node optimal fbas guarantees intact node remains correct figure 8 summarizes key properties nodes following theorems facilitate analysis showing set befouled nodes dset fbas quorum intersection",
+    "metadata": {
+      "chunk_id": "357d2925cb8a0c0e912f9785b31f5cce",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 29] node optimal fbas guarantees intact node remains correct figure 8 summarizes key properties nodes following theorems facilitate analysis showing set befouled nodes dset fbas quorum intersection theorem 1 let u quorum fbas v q let b v set nodes let u u b u u quorum v qb proof u quorum node v u q q v qu u u follows v u q q v qbu rewriting deletion notation yields v u q qb v qu u v b means u quorum v qb theorem 2 b1 b2 dsets fbas v q enjoying quorum intersection b b1 b2 dset proof let u1 v b1 u2 v b2 u1 b1 v b b2 dset similarly u2 b b1 note stellar consensus protocol quorum availability despite dsets b1 b2 u1 u2 quorums v q follows definition union quorums quorum v b u1 u2 quorum quorum availability despite b quorum intersection despite b let u ub quorums v qb let u u1 u2 u2 b1 quorum intersection v q u u1 u2 theorem 1 u u2 b1 quorum v qb1 consider u b1 u b2 u b u aa aa b1 theorem 1 uab1 quorum v qb v qb1 uab2 b2 quorum v qb v qb2 case note u b1 quorum v qb1 quorum intersection v qb1 u",
+    "metadata": {
+      "chunk_id": "bd01e767740f4bf61c56123aea80f4ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 30] v q u u1 u2 theorem 1 u u2 b1 quorum v qb1 consider u b1 u b2 u b u aa aa b1 theorem 1 uab1 quorum v qb v qb1 uab2 b2 quorum v qb v qb2 case note u b1 quorum v qb1 quorum intersection v qb1 u b1 u ua b1 u ua b1 b2 follows u b2 making u b2 quorum aa v qb2 similar argument ub b2 quorum v qb2 quorum intersection despite b2 tells u b2 ub b2 possible u ub theorem 3 fbas quorum intersection set befouled nodes dset proof let bmin intersection dset contains ill behaved nodes follows definition intact node v intact iff v bmin bmin precisely set befouled nodes theorem 2 dsets closed intersection bmin dset 5 federated voting section develops federated voting technique fbas nodes use agree statement high level process agreeing statement involves nodes exchanging sets messages nodes vote vote successful nodes confirm effectively holding second vote fact vote succeeded nodes perspective rounds messages divide agreement statement phases unknown accepted confirmed pattern dates phase commit skeen",
+    "metadata": {
+      "chunk_id": "e6d66d544f36d675928656aec8884a3e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 31] nodes confirm effectively holding second vote fact vote succeeded nodes perspective rounds messages divide agreement statement phases unknown accepted confirmed pattern dates phase commit skeen stonebraker 1983 initially status completely unknown node vacould end true false stuck permanently indeterminate state vote succeeds v come accept intact nodes accept contradictory statements vis intact accepts acannot false reasons v accepting suffice v act fact v accepted mean intact nodes stuck nodes second v befouled accepting means nothinga false intact nodes v befouledwhich v knowthe system enjoy quorum intersection behaved nodes case optimal safety v needs greater assurance holding second vote addresses problems second vote succeeds v moves confirmed phase finally deem true act subsections detail federated voting process voting rule possibility stuck statements section 5 6 discusses cope section 6 turn federated voting consensus protocol avoids possibility stuck slots intact nodes 12 d",
+    "metadata": {
+      "chunk_id": "2dd70369c6c015fd592deb06e38d0cdb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 32] detail federated voting process voting rule possibility stuck statements section 5 6 discusses cope section 6 turn federated voting consensus protocol avoids possibility stuck slots intact nodes 12 d mazi eres 5 1 voting open membership correct node byzantine agreement system acts statement knows correct nodes agree statements contradicting protocols employ voting purpose behaved nodes vote statement valid behaved nodes change votes centralized byzantine agreement safe accept quorum comprising majority behaved nodes voted statement ratified received necessary votes federated setting adapt voting accommodate open membership difference quorum longer corresponds majority behaved nodes majority requirement primarily serves ensure quorum intersection behaved nodes section 4 1 adapted fba implication open membership nodes discover constitutes quorum voting process implement quorum discovery protocol specify q v messages v definition vote node v votes abstract statement iff 1 v asserts valid",
+    "metadata": {
+      "chunk_id": "bfb8c78d90ed686bf5bafbc2c3e53813",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 33] open membership nodes discover constitutes quorum voting process implement quorum discovery protocol specify q v messages v definition vote node v votes abstract statement iff 1 v asserts valid consistent statements v accepted 2 v asserts voted ai e voted statement contradicts aand v promises vote future definition ratify quorum u ratifies statement iff member u votes aa node v ratifies iff v member quorum u ratifies theorem 4 contradictory statements ratified fbas enjoys quorum intersection contains ill behaved nodes proof contradiction suppose quorum u1 ratifies quorum u2 ratifies quorum intersection v u1 u2 v illegally voted violating assumption ill behaved nodes theorem 5 let v q fbas enjoying quorum intersection despite b suppose b contains ill behaved nodes let v1 v2 nodes b let aand contradictory statements v1 ratifies v2 ratify proof contradiction suppose v1 ratifies v2 ratifies definition exist quorum u1 containing v1 ratified aand quorum u2 containing v2 ratified theorem 1",
+    "metadata": {
+      "chunk_id": "825686fe1c04fa7b34cc22ee487b3861",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 34] contradictory statements v1 ratifies v2 ratify proof contradiction suppose v1 ratifies v2 ratifies definition exist quorum u1 containing v1 ratified aand quorum u2 containing v2 ratified theorem 1 u1 b u2 b quorums v qb meaning ratified respectively v qb v qb enjoys quorum intersection ill behaved nodes theorem 4 tell aand ratified theorem 6 intact nodes fbas quorum intersection ratify contradictory statements proof let b set befouled nodes theorem 3 b dset definition dset v q enjoys quorum intersection despite b theorem 5 nodes b ratify contradictory statements 5 2 blocking sets centralized consensus liveness property system unanimously behaved quorum exists ill behaved nodes prevent rest system accepting new statements fba contrast liveness differ nodes instance tiered quorum example figure 3 middle stellar consensus protocol v1 vote accept v2 vote accept v3 vote accept v4 vote slice 3 nodes 3 4 including self fig 9 v4 voted contradicts ratified statement tier nodes v6 v7 v8 crash",
+    "metadata": {
+      "chunk_id": "daa762c4516ea38abbd6e3158b5413b5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 35] 3 middle stellar consensus protocol v1 vote accept v2 vote accept v3 vote accept v4 vote slice 3 nodes 3 4 including self fig 9 v4 voted contradicts ratified statement tier nodes v6 v7 v8 crash leaf tier blocked tier node v5 continue enjoy liveness fba protocol guarantee liveness node v q v contains quorum slice comprising correct nodes set b failed nodes violate property b contains member vs slices term set b v blocking power block progress v definition v blocking let v v node fbas v q set b v v blocking iff overlaps vs slicesi e q q v q b theorem 7 let b v set nodes fbas v q v q enjoys quorum availability despite b iff b v blocking v v b proof v v b b v blocking equivalent v v b q q v q v b definition quorum holds iff v b quorum b v exact definition quorum availability despite b corollary dset befouled nodes v blocking intact v 5 3 accepting statements intact node v learns ratified statement theorem 6 tells v intact nodes ratify contradictory statements condition sufficient v accept",
+    "metadata": {
+      "chunk_id": "0a936c923cd7c26fd85c3901843ff6f6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 36] dset befouled nodes v blocking intact v 5 3 accepting statements intact node v learns ratified statement theorem 6 tells v intact nodes ratify contradictory statements condition sufficient v accept necessary ratifying statement requires voting nodes voted contradictory statements figure 9 example v4 votes learning nodes ratified contradictory statement v4 vote like accept consistent nodes key insight node vis intact v blocking set b consist entirely befouled nodes suppose b v blocking set member b claims accept statement v intact member b intact member lie accepting true v accept course v befouled true befouled node accept vacuously affect correctness intact nodes definition accept fbas node v accepts statement iff accepted statement contradicting determines 1 exists quorum u v u member u voted claims accept 2 member v blocking set claims accept behaved node vote contradictory statements condition 2 allows node vote statement later accept contradictory 14 d mazi eres v1 vote accept v2",
+    "metadata": {
+      "chunk_id": "00fcb1544a1d2a3fd0d1fdeafb88dec3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 37] voted claims accept 2 member v blocking set claims accept behaved node vote contradictory statements condition 2 allows node vote statement later accept contradictory 14 d mazi eres v1 vote accept v2 vote av4 vote av3 vote 3 4 slice 3 nodes including self b fig 10 v2 vote av3 vote accept v4v1 vote avote vote 3 4 scenarios indistinguishable v2when v2does bold messages theorem 8 intact nodes fbas enjoys quorum intersection accept contradictory statements proof let v q fbas quorum intersection let b dset befouled nodes exists theorem 3 suppose intact node accepts statement let v intact node accept point v accepts befouled nodes b claim accept corollary theorem 7 b v blocking v accepted condition 1 v identified quorum u node claimed vote accept vis intact node accept mean nodes ub voted words vratified ain v qb generalizing statement accepted intact node v q ratified v qb b dset v qb enjoys quorum intersection additionally b contains ill behaved nodes theorem 4 rules ratification",
+    "metadata": {
+      "chunk_id": "5d9f1cdd3e4e3bd71aebd271d595f038",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 38] words vratified ain v qb generalizing statement accepted intact node v q ratified v qb b dset v qb enjoys quorum intersection additionally b contains ill behaved nodes theorem 4 rules ratification contradictory statements 5 4 accepting unfortunately nodes assume truth accepted statements yield suboptimal safety liveness guarantees federated consensus protocol discuss issues safety liveness turn provide context explain issues thornier fba centralized byzantine agreement 5 4 1 safety consider fbas v q quorum unanimous consenti e v q v v ought conservative choice safetydont agrees node v blocking v node single handedly convince node accept arbitrary statements problem accepted statements safe intact nodes discussed section 4 1 condition necessary guarantee safety quorum intersection behaved nodes hold case wellbehaved nodes befouled particular q v v dsets v meaning node failure befouls system contrast quorum intersection holds despite b v 5 4 2 liveness limitation accepted statements",
+    "metadata": {
+      "chunk_id": "581f6e6567f9c9bf6c4aa66703c3b836",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 39] nodes hold case wellbehaved nodes befouled particular q v v dsets v meaning node failure befouls system contrast quorum intersection holds despite b v 5 4 2 liveness limitation accepted statements intact nodes unable accept possibility makes reliance accepted statements stellar consensus protocol problematic liveness node proceeds act statement accepted statement nodes unable proceed similar fashion consider figure 10a node v3 crashes helping v1 ratify accept statement v1 accepts v2 v4 particular v2s perspective situation depicted indistinguishable figure 10b v3 voted behaved slow respond v1 ill behaved sent v3 vote causing v3 accept illegally sending v2 vote support protocol level notion liveness cases like figure 10a v1 needs way ensure intact node eventually accept v1 acts case makes sense system agrees definition agree fbas v q agrees statement iff regardless subsequently transpires sufficient messages delivered processed intact node accept 5 4 3 comparison centralized voting",
+    "metadata": {
+      "chunk_id": "faad31e16bc525ebb26d5d5e6c92763e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 40] sense system agrees definition agree fbas v q agrees statement iff regardless subsequently transpires sufficient messages delivered processed intact node accept 5 4 3 comparison centralized voting understand issues arise federated voting consider centralized byzantine agreement system n nodes quorum size t system enjoys quorum availability fl n t fewer node failures quorums share 2t n nodes quorum intersection behaved nodes holds fs 2t n 1 byzantine failures centralized byzantine agreement systems typically set n 3f 1 t 2f 1 yield fl fs f equilibrium point safety liveness fault tolerance safety important liveness protocols increase t fs fl li mazi eres 2007 fba quorums arise organically systems unlikely find equilibrium making far important protect safety absence liveness consider centralized system node failure contradictory votes node v ratify statement ratified nodes v hears fs 1 nodes claim ratified v knows wellbehaved safety guarantees collapsed way vcan act awith loss safety fba",
+    "metadata": {
+      "chunk_id": "bf55bc29cdbe40d0f3acd23f71f238f5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "collapse"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 41] system node failure contradictory votes node v ratify statement ratified nodes v hears fs 1 nodes claim ratified v knows wellbehaved safety guarantees collapsed way vcan act awith loss safety fba equivalent hear set b b deleted undermines quorum intersection behaved nodes identifying b hard reasons quorums discovered dynamically ill behaved nodes lie slices v know nodes behaved instead defined federated voting accept v blocking set v blocking property advantage easily checkable equivalent hearing fl 1 nodes centralized system want fs 1 guarantee agreement behaved nodes centralized system merely needs fl fs 1 nodes acknowledge statement ratified fl fail expect liveness fl fewer fail know fs 1 nodes remain willing attest ratification turn convince behaved nodes reliance fs easy analogue fba model interestingly fl fs 1 t quorum size suggesting similar approach work complex justification way point nodes need believe statement strongly depend truth safety centralized system offers ways",
+    "metadata": {
+      "chunk_id": "c0fa3bab206c96bb87b95871bf8eea9b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [
+          "collapse"
+        ],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 42] fba model interestingly fl fs 1 t quorum size suggesting similar approach work complex justification way point nodes need believe statement strongly depend truth safety centralized system offers ways reach point statement ratify hand reason backwards fs 1 nodes claiming ratified figuring safety hopeless lied fba lacks approach tool safety behaved nodes hand ratification nodes need way overcome votes ratified statements introduced notion accepting provides weaker consistency guarantee limited intact nodes 16 d mazi eres 5 5 statement confirmation limitations accepted statements stem complications set intact nodes s votes statement nonetheless ratified particularly light fbas non uniform quorums s prevent intact node ratifying v provide va means accepting adespite votes definition accept second criterion based v blocking sets second criterion weaker ratification offering guarantees befouled nodes enjoy quorum intersection suppose statement property intact node votes need accept instead",
+    "metadata": {
+      "chunk_id": "fd63980702e2715adeabcc32489b835c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 43] criterion based v blocking sets second criterion weaker ratification offering guarantees befouled nodes enjoy quorum intersection suppose statement property intact node votes need accept instead insist nodes directly ratify acting statements irrefutable definition irrefutable statement ais irrefutable fbas intact node vote theorem 8 tells intact nodes accept contradictory statements intact nodes vote statement accepted intact node statement intact node accepted irrefutable suggests holding second vote ratify fact intact node accepted definition confirm quorum u fbas confirms statement iff v u aa v claims accept node confirms iff quorum nodes express accepted statement stating accept abbreviation statement intact node accepted confirm means ratify accept behaved node v vote accept accepting v assume particular nodes intact v befouled accept false case voting cost v liveness befouled node guarantee liveness theorem shows nodes rely confirmed statements losing optimal safety theorem 11",
+    "metadata": {
+      "chunk_id": "0680a4748a487f6374c33a78f23552c8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 44] v assume particular nodes intact v befouled accept false case voting cost v liveness befouled node guarantee liveness theorem shows nodes rely confirmed statements losing optimal safety theorem 11 shows confirmed statements meet definition agreement section 5 4 2 meaning nodes rely confirmed statements endangering liveness intact nodes theorem 9 let v q fbas enjoying quorum intersection despite b suppose b contains ill behaved nodes let v1 v2 nodes b let aand contradictory statements v1 confirms v2 confirm proof note accept contradicts accept behaved node vote note v1 ratify accept confirm theorem 5 v2 ratify accept confirm theorem 10 let b set befouled nodes fbas v q quorum intersection let u quorum containing intact node ub let s set v let s sb set intact nodes s let s vs b set intact nodes s s v s s v blocking proof s v blocking v s s s v blocking v s theorem 7 s s quorum v qb case contradiction theorem 1 u b quorum v qb b dset theorem 3 v qb enjoy quorum intersection meaning s u b",
+    "metadata": {
+      "chunk_id": "b9084fca899d8374c6a2a2db5ed24b30",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 45] s s v s s v blocking proof s v blocking v s s s v blocking v s theorem 7 s s quorum v qb case contradiction theorem 1 u b quorum v qb b dset theorem 3 v qb enjoy quorum intersection meaning s u b impossible u b s s s theorem 11 intact node fbas v q quorum intersection confirms statement subsequently transpires sufficient messages delivered processed intact node accept confirm stellar consensus protocol quorum satisfying v quorum satisfying v votes accepts confirms ais valid v blocking set accepts uncommitted voted aaccepted aconfirmed voted fig 11 possible states accepted statement aat single node v bivalent valent valent stuck aagreed aagreed fig 12 possible system wide status statement proof let b dset befouled nodes let ub quorum intact node confirmed let nodes ub broadcast accept definition node v regardless voted accepts receiving accept v blocking set messages convince additional nodes accept let additional nodes turn broadcast accept point reached regardless future",
+    "metadata": {
+      "chunk_id": "be7f677a679dd114e573c7dab72757dd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 46] accept definition node v regardless voted accepts receiving accept v blocking set messages convince additional nodes accept let additional nodes turn broadcast accept point reached regardless future communication intact nodes accept point let s set nodes claim accept let s set intact nodes s let s set intact nodes s s v blocking node s nodes come accept theorem 10 s meaning intact node accepted figure 11 summarizes paths intact node v confirm given knowledge v vote contradictory v votes later vote nonetheless accept aif v blocking set accepts subsequent quorum confirmation messages allows v confirm theorem 11 means system agrees 5 6 liveness neutralization main challenge distributed consensus centralized statement stuck permanently indeterminate state system reaches agreement protocol attempt ratify externalized values directly statement value slot x stuck system forever unable agree slot losing liveness solution craft statements votes carefully possible break stuck statements hold",
+    "metadata": {
+      "chunk_id": "010ff49ad98653d3802ca9f98b1f78fa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 52] series slots sign exactly certificate tree slot applications admit plausible values slot case helpful narrow possible input values strategy begin synchronous nomination protocol achieves consensus certain timing assumptions feed output nomination protocol asynchronous ballot protocol safety depend timing lamport 2011a initial synchronous phase called conciliator aspnes 2010 nomination protocol works converging set candidate values slot nodes deterministically combine candidates single composite value slot exactly combine values depends application way example stellar network uses scp choose set transactions ledger timestamp slot combine candidate values stellar takes union transaction sets maximum timestamps values invalid timestamps receive nominations candidates possible approaches include combining sets intersection simply picking candidate value highest hash nodes produce candidate value x federated voting statement nominate x definition candidate node v considers value x",
+    "metadata": {
+      "chunk_id": "da935cb5b01039eaae11ef49a6fc2614",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 53] include combining sets intersection simply picking candidate value highest hash nodes produce candidate value x federated voting statement nominate x definition candidate node v considers value x candidate v confirmed statement nominate xi e v ratified accept nominate x 20 d mazi eres long node v candidate values v vote favor nominate x value x passes application level validity checks timestamps future fact v generally nominate values sees nodes nominate rate limiting discussed avoid explosion candidates soon vhas candidate value cease voting nominate x new values x continue accept nominate statements new values accepted v blocking set confirm new nominate statements prescribed federated voting procedure nomination protocol enjoys properties system intact nodes meaning avoided complete failure specifically slot 1 intact nodes produce candidate value 2 point set possible candidate values stops growing 3 intact node considers x candidate value eventually intact node consider x candidate",
+    "metadata": {
+      "chunk_id": "31e26f8f93a993d2ffbb88c9ed70d0fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 54] specifically slot 1 intact nodes produce candidate value 2 point set possible candidate values stops growing 3 intact node considers x candidate value eventually intact node consider x candidate value consider nomination protocol achieves properties property 1 achieved nominate statements irrefutable nodes vote nominating particular value candidate value confirmed intact nodes vote nominate value long value x passes application level validity checks intact nodes vote confirm nominate x property 2 ensured intact node confirms candidate valuewhich happen finite timeno intact nodes vote nominate new values values candidates votes intact nodes property 3 direct consequence theorem 11 nomination process efficient fewer combinations values play assign nodes temporary priority node possible nominate values higher priority node concretely let h cryptographic hash function range interpreted set integers 0 hmax 1 h sha 256 national institute standards technology 2012 case hmax 2256 let gi m h",
+    "metadata": {
+      "chunk_id": "5edcbecfbb58eca3b17b5858094b061f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 55] values higher priority node concretely let h cryptographic hash function range interpreted set integers 0 hmax 1 h sha 256 national institute standards technology 2012 case hmax 2256 let gi m h xi 1 m slot specific hash function slot xi 1 value chosen slot preceding sorted set values immediate dependencies slot slots governed partial order given slot iand round number n node vcomputes set neighbors priority neighbor follows q q q v v q weight v v q v neighbors v n v gi n n v hmax weight v v priority n v gi p n v n p constants produce different hash functions function weight v v returns fraction slices q v containing v weight probability nthat v appears neighbors v n reduce chance nodes lot trust dominate round node v initially find node v0 neighbors v 0 maximizes priority 0 v0 nodes communicate vote nominate values v0 v v0 v introduce new value nominate v use timeouts decide new nominate statements vote n timeouts v stellar consensus protocol variable meaning x set values node v voted",
+    "metadata": {
+      "chunk_id": "34668ed45d6c7fbbbc065c60f01450f9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 56] vote nominate values v0 v v0 v introduce new value nominate v use timeouts decide new nominate statements vote n timeouts v stellar consensus protocol variable meaning x set values node v voted nominate y set values node v accepted nominated z set values node v considers candidate values n set latest nominate message received node fig 14 nomination state maintained node v slot nominate vix y d message node v nominating values slot d vs quorum slice q v collision resistant hash q v x y vs state concrete message encodes following conceptual messages nominate x x x votes nominate value x accept nominate x x y votes confirm nominations y fig 15 message nomination protocol find node v neighbors v n maximizing priority n v vote nominate nn thing v voted nominate n theorem 12 eventually intact nodes composite value proof theorem follows properties nomination protocol intact node vote nominate finite number ballots absence action ill behaved nodes intact nodes converge set candidate values z",
+    "metadata": {
+      "chunk_id": "d1faaa8b0d6c3986fac1ab27dd2eae88",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 58] able reference directly fields initialized set note x y z growing timenodes remove value sets figure 15 shows concrete message constitutes nomination protocol cause x y grow monotonically time possible determine multiple nominate messages node latest independent network delivery order long ddoes change mid nomination dhas versioned remote procedure rpc needed nominationthe argument senders latest nominate message return value receivers d nominated values cryptographic hashes second rpc permit retrieval uncached hash preimages needed nodes tell nomination protocol complete scp cope different composite values different nodes optimization 22 d mazi eres nodes attempt predict final composite value candi date value composite value taken combine z z combine y y combine x x means highest priority node optimistically initiate balloting time nomination piggybacking ballot message prepare described nominate message 6 2 ballot protocol nodes composite value engage ballot protocol nomination",
+    "metadata": {
+      "chunk_id": "385c0b4244fcf991ef0773512be257c4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 59] node optimistically initiate balloting time nomination piggybacking ballot message prepare described nominate message 6 2 ballot protocol nodes composite value engage ballot protocol nomination continue update composite value parallel ballot b pair form b n x x value b referendum externalizing x slot question value n g 1 counter ensure higher ballot numbers available use c like notation b n b x denote counter value fields ballot b b b n b x ballots totally ordered b n significant b x convenience special invalid null ballot 0 0 ballots special counter value greater counters speak committing aborting ballot b shorthand federated voting agree statements commit band abort b respectively given ballot commit abort contradictory behaved node vote notation section 5 opposite commit b commit b abort b intuitive notation value chosen given slot committed stuck ballots contain value roughly speaking means commit statements invalid conflict lower numbered unaborted ballots definition compatible",
+    "metadata": {
+      "chunk_id": "33ee3771c873cf72f5c572901d07baa7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 60] b intuitive notation value chosen given slot committed stuck ballots contain value roughly speaking means commit statements invalid conflict lower numbered unaborted ballots definition compatible ballots b1 b2 compatible written b1 b2 iff b1 x b2 x incompatible written b1 b2 iff b1 x b2 x write b1 b2 b2 b1 iff b1 f b2 equivalently b2 g b1 b1 b2 similarly b1 b2 b2 b1 means b1 f b2 equivalently b2 g b1 b1 b2 definition prepared ballot b prepared iff statement following set true abort bold bold b precisely commit b valid vote b confirmed prepared nodes ensure federated voting corresponding abort statements convenient vote statements en masse write b prepared surrounding context applies set abort statements particular node votes accepts confirms b prepared iff votes accepts confirms respectively aborts commit ballot band externalize value b x scp nodes accept confirm b prepared accept confirm commit b intact node votes commit b prepare step federated voting ensures intact nodes eventually",
+    "metadata": {
+      "chunk_id": "c29755b5710cbdb0b0256769fe469cbc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 61] aborts commit ballot band externalize value b x scp nodes accept confirm b prepared accept confirm commit b intact node votes commit b prepare step federated voting ensures intact nodes eventually confirm b prepared intact node v accepts commit b means b x eventually chosen discussed section 5 4 1 v confirm commit acting case v befouled 6 2 1 concrete ballot protocol figure 16 illustrates slot state maintained node node vstores current phase current ballot b recent incompatible ballots prepared p p lowest c highest h ballot voted commit subsequently accepted abort accepted confirmed commit later phases value z try current ballot fails latest message received node m ballots b p p h non decreasing phase addition c 0meaning v stellar consensus protocol variable meaning current phase prepare confirm externalize b current ballot node v attempting prepare commit b 0 p p highest ballots accepted prepared p p p 0 p p 0 ballots c h prepare h highest ballot confirmed prepared 0 c 0 c lowest h",
+    "metadata": {
+      "chunk_id": "03806c9f0320002ca35d8e6df8422926",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 63] p prepared commit b c n 0 cb h vote commit c h c 0 confirm vibp n c n h nd sent v try externalize b x slot accepting commit implies p x c x h x b x vs state convenience p 0 p irrelevant accepting commit d specifies q v encodes implied prepare vi b x p 0 c n d accept commit b cb h vote confirm commit c h externalize vi xc n h nd v confirms commit c n x slot externalizes value x message helps nodes externalize x implies c c n x h h n x convenience b p h x p 0 encodes implied confirm vi x c n d implied confirm vi x c n h n v fig 17 messages scps ballot protocol participated ratifying commit ccode ensure chb invariant guarantees node legally vote prepare current ballot b figure 17 shows ballot protocol messages determining node send ballot messages overlap nomination messages h 0 node update z response nominate message note 24 d mazi eres accept node assert quorum accept condition 1 definition accept convenience comparing state nodes identify fields belong ing particular nodes subscripts",
+    "metadata": {
+      "chunk_id": "a7aa813273d243cb5eaf03abb0820a9d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 64] z response nominate message note 24 d mazi eres accept node assert quorum accept condition 1 definition accept convenience comparing state nodes identify fields belong ing particular nodes subscripts v node write b p p vv v denote values b p p node vs state described figure 16 similarly let v denote message ms sender b p p denote corresponding values m mm m b p p v s state implied m m node initializes ballot state slot setting prepare z b 0 z m fields p p c h invalid ballot 0 z node receive send ballot messages z b n 0 node reinitializes b 1 z start sending messages nodes repeatedly exchange messages peers sending whichever ballot message indicated adding newly received message m m node v updates state follows v 1 prepare m lets v accept new ballots prepared update p p p h p h set c 0 2 prepare m lets v confirm new higher ballots prepared raise h highest ballot set z h x 3 prepare c 0 b f h p hnor p h set c lowest ballot satisfying b f ch 4 prepare v accepts commit ballots set c",
+    "metadata": {
+      "chunk_id": "d278926da9e2a8da65bbe19d26b85496",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 65] 0 2 prepare m lets v confirm new higher ballots prepared raise h highest ballot set z h x 3 prepare c 0 b f h p hnor p h set c lowest ballot satisfying b f ch 4 prepare v accepts commit ballots set c lowest ballot set h highest ballot v accepts commit b cb h set confirm set z h x updating h hb set b h 5 confirm received message lets v accept new ballots prepared raise p highest accepted prepared ballot p c 6 confirm v accepts commit messages raises b let h highest ballot v accepts commit b bb h exists h h h set h h necessary raise c lowest ballot v accepts commit b cb h 7 confirm vconfirms commit c c set c hto lowest highest ballots set externalize externalize c x terminate 8 prepare confirm b h set b h 9 prepare confirm sm set senders v vm m s v blocking m s b n b n set b n z n mv lowest counter s exists repeat previous steps updating b c 0 protocol implements federated voting confirm bis prepared c 0 protocol implements federated voting commit c cc h confirm phase behaved node",
+    "metadata": {
+      "chunk_id": "0b7b797e5a5fdf98c386e3b7698152f3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 66] counter s exists repeat previous steps updating b c 0 protocol implements federated voting confirm bis prepared c 0 protocol implements federated voting commit c cc h confirm phase behaved node accepts commit c node accepts attempts confirm commit c c c commit confirmed value ballot safe externalize assuming quorum intersection messages sent particular node totally ordered b p p h significant h significant field values fields determined messages described figure 17 prepare messages precede confirm messages turn precede single externalize message given slot ordering makes possible ensure m contains latest ballot stellar consensus protocol node relying timing order messages network order messages details protocol merit explanation statements implied prepare form abort b accept abort b specify v voting confirming abort b distinction unimportant definition accept glossing distinction allows v forget old ballots voted commit vote abort long accepted abort message time v modifies c c 0 set",
+    "metadata": {
+      "chunk_id": "7737cb1d619d7299d1f813b68390f7a9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 67] v voting confirming abort b distinction unimportant definition accept glossing distinction allows v forget old ballots voted commit vote abort long accepted abort message time v modifies c c 0 set 0 accepting abort ballot voting commit step 1 preceding page conversely time v modifies c c 0 set value c g b step 3 nodes vote abort c c g b past abort votes conflict commit c theorem 11 requires nodes rebroadcast accepted follows definition prepare highest incompatible ballots node accepted prepared subsume ballots node accepted prepared including p p message ensures nodes converge ha confirmed prepared ballot note ballots node accepts prepared superset ballots node confirms prepared step 2 set h h c 0 step 1 set c 0 new h incompatible old c time v sends externalize message accepted commit b b c importantly confirmed commit b cb h v assert acceptance confirmed statements regard q v checked slices unanimously agrees explains appearance v place d second implicit confirm message description",
+    "metadata": {
+      "chunk_id": "55c40b9d1ddaf711b5c3c5442dec764a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 68] b c importantly confirmed commit b cb h v assert acceptance confirmed statements regard q v checked slices unanimously agrees explains appearance v place d second implicit confirm message description externalize eliminating d allows single static externalize message help nodes catch arbitrarily far future quorum slices changed significantly meantime rpc needed exchange ballot messages argument senders latest message return value receivers latest message nominate d values x ballots cryptographic hashes separate rpc needed retrieve uncached hash preimages 6 2 2 timeouts ballot updates intact nodes start ballot b steps 1 9 previous page sufficient confirm commit b externalize value b x unfortunately ballot protocol starts nomination protocol converged nodes start different values z ballot fails takes long fail unresponsive nodes nodes time try higher ballot reason nodes employ timer follows node v externalize arms timer sm vv set senders u v m s quorum v u m s b n g b n m mv b timer",
+    "metadata": {
+      "chunk_id": "bdb1589b06df1c4c7481024bfd57215d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 75] highest b narm timers timers long nodes catch theorem 11 timers long nodes converge value h highest confirmed prepared ballot timeout point intact nodes raise b value complete protocol theorem 16 assures dead end states scp set illbehaved nodes good timing perpetually preempt scp system delaying messages fraction intact nodes update h right timers fire remaining update preventing intact nodes converging ballot nodes recover attack removing ill behaved nodes slices alternative add randomness protocol instance changing step 2 page 24 update z probability 1 2 probability proportional fraction timer remaining approach terminate 28 d mazi eres probability 1 worse expected running time common case nodes behaved fail stop 7 limitations scp guarantee safety nodes choose adequate quorum slices section 3 2 discusses reasonably expect nonetheless security depends user configurable parameter possibility people set wrong people set quorum slices correctly scp guarantees safety safety rule security",
+    "metadata": {
+      "chunk_id": "4a8448f05af87d53f5b868175d99ee50",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 76] 3 2 discusses reasonably expect nonetheless security depends user configurable parameter possibility people set wrong people set quorum slices correctly scp guarantees safety safety rule security issues arise federated system example financial market widely trusted nodes leverage position network gain information engage running unethical activities byzantine nodes attempt filter transactions input scp producing correct output behaved nodes accept transactions combine function takes union transactions intact nodes filtering eventually fail block victim transactions probability 1 nonetheless impose delays scps safety optimal performance communication latency common case nodes previously voted commit ballots incompatible current possible reduce number communication rounds earlier version scp protocol description complex required nodes cache retransmit signed messages previously sent failed nodes second longer possible gloss distinction votes confirmations abort statements prepare",
+    "metadata": {
+      "chunk_id": "e2c093166a428c9b14e71685c3422b92",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 78] byzantine generals protocol lamport et al 1982 relays messages compensate ill behaved nodes saying different things different honest nodes approach help nodes depend distinct ill behaved nodes slices possibility leverage randomness synchrony terminate probability 1 shorter expected time ben style randomized protocols ben 1983 synchrony assumptions public coin techniques speed randomized centralized byzantine agreement protocols appear difficult adapt federated model barring cryptographic breakthrough federated threshold signatures unfortunately changing slices mid slot accommodate failed nodes problematic liveness behaved node v experienced wholly malicious colluding v blocking set good news theorem 13 guarantees safety set s behaved nodes enjoying quorum intersection despite v s s befouled members bad news updating q insufficient unblock nodes behaved nodes tricked voting confirm bad commit message situation nodes disavow past votes rejoining system new node names exist way automate",
+    "metadata": {
+      "chunk_id": "1e6b625ec8422578962f40f432e05dc9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 79] members bad news updating q insufficient unblock nodes behaved nodes tricked voting confirm bad commit message situation nodes disavow past votes rejoining system new node names exist way automate stellar consensus protocol recovery having nodes recognize reincarnated nodes automatically update slices fba model requires continuity participants time nodes simultaneously permanently leave restarting consensus require central coordination human level agreement contrast proof work system bitcoin undergo sudden complete turnover continue operate little human intervention hand nodes return fbas recover arbitrarily long outage proof work scheme face possibility attacker working fork outage intriguing possibility leverage scp mediate tussles clark et al 2005 voting changes configuration parameters upgrades application protocol way nominate special messages update parameters candidate values consist set values set parameter updates big limitation approach set malicious nodes large deny system",
+    "metadata": {
+      "chunk_id": "0c8a30283c04ef9eb7e7be6165504477",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "outage"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 80] upgrades application protocol way nominate special messages update parameters candidate values consist set values set parameter updates big limitation approach set malicious nodes large deny system quorum large undermine safety nonetheless trigger configuration changes lying putting configuration changes y ratified remains open question vote parameter changes way requires consent quorum jeopardizes liveness 8 summary byzantine agreement long enabled distributed systems achieve consensus efficiency standard cryptographic security flexibility designating trusted participants recently bitcoin introduced revolutionary notion decentralized consensus leading new systems research challenges paper introduces federated byzantine agreement fba model achieving decentralized consensus preserving traditional benefits byzantine agreement key distinction fba prior byzantine agreement systems fba forms quorums participants individual trust decisions allowing organic growth model similar internet",
+    "metadata": {
+      "chunk_id": "e53514cf975b4ac411f96577118f8b5b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 82] clarifications ken birman bekki bolthouse joseph bonneau mike hamburg graydon hoare joyce kim tim makarios mark moir robert morris lucas ryan katherine tom slogged drafts paper identifying errors sources confusion providing helpful suggestions eva gantz provided helpful motivation references winnie lim provided guidance figures reddit community tahoe lafs group pointed censorship weakness earlier version scp leading improved nomination protocol finally author like thank stellar team support feedback encouragement disclaimer professor mazi eress contribution publication paid consultant stanford university duties responsibilities 30 d mazi eres references eduardo alchieri alysson neves bessani joni silva fraga fabiola greve 2008 byzantine consensus unknown participants proceedings 12th international conference principles distributed systems 2240 james aspnes 2010 modular approach shared memory consensus applications probabilistic write model proceedings 29th symposium principles",
+    "metadata": {
+      "chunk_id": "04bda458391bca569c60e25c86d7007e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 83] international conference principles distributed systems 2240 james aspnes 2010 modular approach shared memory consensus applications probabilistic write model proceedings 29th symposium principles distributed computing 460467 rachel banning lover 2015 boatfuls cash money fragile states february 2015 http www theguardian com global development professionals network 2015 feb 19 boatfuls cash money fragile states david basin cas cremers tiffany hyun jin kim adrian perrig ralf sasse pawel szalachowski 2014 arpki attack resilient public key infrastructure proceedings 2014 acm sigsac conference computer communications security 382393 michael ben 1983 advantage free choice extended abstract completely asynchronous agreement protocols proceedings 2nd symposium principles distributed computing 2730 joseph bonneau andrew miller jeremy clark arvind narayanan joshua kroll edward w felten 2015 research perspectives challenges bitcoin cryptocurrencies proceedings 36th ieee symposium security",
+    "metadata": {
+      "chunk_id": "c5acd09436e8cdc5347c74313b230d90",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 84] 2730 joseph bonneau andrew miller jeremy clark arvind narayanan joshua kroll edward w felten 2015 research perspectives challenges bitcoin cryptocurrencies proceedings 36th ieee symposium security privacy gabriel bracha sam toueg 1985 asynchronous consensus broadcast protocols journal acm 32 4 oct 1985 824840 danny bradbury 2013 feathercoin hit massive attack june 2013 http www coindesk com feathercoin hit massive attack vitalik buterin 2014 slasher punitive proof stake algorithm january 2014 https blog ethereum org 2014 01 15 slasher punitive proof stake algorithm miguel castro barbara liskov 1999 practical byzantine fault tolerance proceedings 3rd symposium operating systems design implementation 173186 cgap 2008 making money transfers work microfinance institutions march 2008 http www cgap org sites default files cgap technical guide making money transfers workfor microfinance institutions technical guide developing delivering money transfers mar 2008 pdf david d clark john",
+    "metadata": {
+      "chunk_id": "e38f2a041071d555937c14ecb4e8d34a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 85] www cgap org sites default files cgap technical guide making money transfers workfor microfinance institutions technical guide developing delivering money transfers mar 2008 pdf david d clark john wroclawski karen r sollins robert braden 2005 tussle cyberspace defining tomorrows internet ieee acm transactions networking 13 3 june 2005 462475 crazyearner 2013 terracoin attack 1 2th attack confirmd sic july 2013 https bitcointalk org index php topic 261986 0 kourosh davarpanah dan kaufman ophelie pubellier 2015 neucoin secure cost efficient decentralized cryptocurrency march 2015 http www neucoin org en whitepaper download asli demirguc kunt leora klapper dorothe singer peter van oudheusden 2015 global findex database 2014 measuring financial inclusion world policy research working paper 7255 world bank http www wds worldbank org external default wdscontentserver wdsp ib 2015 04 15 090224b082dca3aa 1 0 rendered pdf the0global0fin0ion0around0the0world pdf john r douceur 2002 sybil attack",
+    "metadata": {
+      "chunk_id": "84ddaa017b4734d2ef934be95d607057",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 86] world bank http www wds worldbank org external default wdscontentserver wdsp ib 2015 04 15 090224b082dca3aa 1 0 rendered pdf the0global0fin0ion0around0the0world pdf john r douceur 2002 sybil attack revised papers international workshop peer peer systems 251260 cynthia dwork nancy lynch larry stockmeyer 1988 consensus presence partial synchrony journal acm 35 2 april 1988 288323 cynthia dwork moni naor 1992 pricing processing combatting junk mail proceedings 12th annual international cryptology conference advances cryptology 139147 ittay eyal emin g un sirer 2013 majority bitcoin mining vulnerable november 2013 http arxiv org abs 1311 0243 michael j fischer nancy lynch michael s paterson 1985 impossibility distributed consensus faulty process journal acm 32 2 april 1985 374382 ghassan o karame elli androulaki srdjan capkun 2012 double spending fast payments bitcoin proceedings 2012 acm conference computer communications security 906917 tiffany hyun jin kim lin shung huang adrian",
+    "metadata": {
+      "chunk_id": "a8b7e37f26251d9c3c98e0a6ab09401e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 87] o karame elli androulaki srdjan capkun 2012 double spending fast payments bitcoin proceedings 2012 acm conference computer communications security 906917 tiffany hyun jin kim lin shung huang adrian perring collin jackson virgil gligor 2013 accountable key infrastructure aki proposal public key validation infrastructure proceedings 22nd international conference world wide web 679690 stellar consensus protocol sunny king scott nadal 2012 ppcoin peer peer crypto currency proof stake august 2012 http peercoin net assets paper peercoin paper pdf jae kwon 2014 tendermint consensus mining 2014 http tendermint com docs tendermint pdf leslie lamport 1998 time parliament 16 2 1998 133169 leslie lamport 2011a brief announcement leaderless byzantine paxos proceedings 25th international conference distributed computing 141142 leslie lamport 2011b byzantizing paxos refinement proceedings 25th international conference distributed computing 211224 leslie lamport robert shostak marshall pease 1982",
+    "metadata": {
+      "chunk_id": "99df6946136426deb9b5cd1543968a5b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 88] distributed computing 141142 leslie lamport 2011b byzantizing paxos refinement proceedings 25th international conference distributed computing 211224 leslie lamport robert shostak marshall pease 1982 byzantine generals problem acm transactions programing languages systems 4 3 july 1982 382401 adam langley 2015 maintaining digital certificate security march 2015 http googleonlinesecurity blogspot com 2015 03 maintaining digital certificate security html ben laurie adam langley emilia kasper 2013 certificate transparency rfc 6962 internet engineering task force ietf http tools ietf org html rfc6962 jinyuan li david mazi eres 2007 faulty replicas byzantine fault tolerant systems proceedings 4th symposium networked systems design implementation 131144 marcela s melara aaron blankstein joseph bonneau michael j freedman edward w felten 2014 coniks privacy preserving consistent key service secure end end communication cryptology eprint archive report 2014 1004 december 2014 http eprint iacr",
+    "metadata": {
+      "chunk_id": "c9deaa6b9ac2286e9f0d4e57f6149913",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 89] bonneau michael j freedman edward w felten 2014 coniks privacy preserving consistent key service secure end end communication cryptology eprint archive report 2014 1004 december 2014 http eprint iacr org 2014 1004 microsoft 2013 fraudulent digital certificates allow spoofing microsoft security advisory 2798897 january 2013 https technet microsoft com en library security 2798897 aspx satoshi nakamoto 2008 bitcoin peer peer electronic cash system 2008 http bitcoin org bitcoin pdf national institute standards technology 2012 secure hash standard shs federal information processing standards publication 180 4 http csrc nist gov publications fips fips180 4 fips 180 4 pdf william b norton 2010 art peering peering playbook august 2010 http drpeering net white papers art peering peering playbook html karl j odwyer david malone 2014 bitcoin mining energy footprint irish signals systems conference limerick ireland 280285 brian m oki barbara h liskov 1988 viewstamped replication new primary copy",
+    "metadata": {
+      "chunk_id": "ef2dfeaecc246d00837f809928c58dec",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 90] karl j odwyer david malone 2014 bitcoin mining energy footprint irish signals systems conference limerick ireland 280285 brian m oki barbara h liskov 1988 viewstamped replication new primary copy method support highly available distributed systems proceedings 7th symposium principles distributed computing 817 diego ongaro john ousterhout 2014 search understandable consensus algorithm 2014 usenix annual technical conference 305319 marshall pease robert shostak leslie lamport 1980 reaching agreement presence faults journal acm 27 2 april 1980 228234 claire provost 2013 africans pay send money home january 2013 http www theguardian com global development 2013 jan 30 africans pay send money david schwartz noah youngs arthur britto 2014 ripple protocol consensus algorithm 2014 https ripple com files ripple consensus whitepaper pdf dale skeen michael stonebraker 1983 formal model crash recovery distributed system ieee transactions software engineering 9 3 1983 219228 robbert van renesse",
+    "metadata": {
+      "chunk_id": "0efc2ac2770f080c1fb9e81595746b22",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  },
+  {
+    "text": "[Section 91] com files ripple consensus whitepaper pdf dale skeen michael stonebraker 1983 formal model crash recovery distributed system ieee transactions software engineering 9 3 1983 219228 robbert van renesse nicolas schiper fred b schneider 2014 vive la diff erence paxos vs viewstamped replication vs zab ieee transactions dependable secure computing september 2014 32 d mazi eres glossary notation notation definition iff abbreviation f b function function f maps element set result set b f x application result calculating function f argument x complement overbar connotes opposite e opposite a1 antuple structure compound value field values a1 b logical b true b logical possibly b true e c e exists value e condition c e true e c e c e true value e b set set containing listed elements b e c e set builder set elements e c e true set set containing elements s cardinality number elements set s e s element element e member set s b subset member set member set b b strict subset b b 2a powerset set sets",
+    "metadata": {
+      "chunk_id": "96bdb5efeb159b343b4ccc9abcfded60",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Stellar.txt"
+    }
+  }
+]

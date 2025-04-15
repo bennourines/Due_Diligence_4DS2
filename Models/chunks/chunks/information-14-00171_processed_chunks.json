@@ -1,0 +1,1588 @@
+[
+  {
+    "text": "[Section 1] --- page 1 --- citation krishnan, l.p. vakilinia, i. reddivari, s. ahuja, s. scams solutions cryptocurrencies survey analyzing existing machine learning models. information 2023, 14, 171. https doi.org 10.3390 info14030171 academic editors georgios siolas, georgios alexandridis, paraskevi tzouveli kun received 21 december 2022 revised 3 march 2023 accepted 4 march 2023 published 8 march 2023 copyright 2023 authors. licensee mdpi, basel, switzerland. article open access article distributed terms conditions creative commons attribution cc license https creativecommons.org licenses 4.0 . information article scams solutions cryptocurrencies survey analyzing existing machine learning models lakshmi priya krishnan , iman vakilinia , sandeep reddivari sanjay ahuja school computing, university north florida, jacksonville, fl 32224, usa correspondence lakshmipriya.krishnan unf.edu abstract emergence cryptocurrencies blockchain technology, nancial sector turning gaze latest wave",
+    "metadata": {
+      "chunk_id": "fbf0d857ab4096ecbe86f19afa5b828a",
+      "entities": {
+        "location": [
+          "switzerland"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 2] . use cryptocurrencies common multiple services. food chains, network service providers, tech companies, grocery stores, services accept cryptocurrency mode payment incentives people pay them. despite tremendous success, cryptocurrencies opened door fraudulent activities ponzi schemes, hyips high-yield investment programs , money laundering, more, led loss millions dollars. decade, solutions machine learning algorithms proposed detect felonious activities. objective paper survey models, datasets used, underlying technology. study identify highly ef cient models, evaluate performances, compile extracted features, serve benchmark future research. fraudulent activities characteristics exposed survey. identi ed gaps existing models propose improvement ideas detect scams early. keywords cryptocurrencies scams blockchain machine learning fraud detection 1. introduction past decade, blockchain cryptocurrencies turned outlook investments, transactions, fact entire nancial sector",
+    "metadata": {
+      "chunk_id": "cfab3bb48e7d51a1b35b64e40cae8063",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 30.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 3] . introduction past decade, blockchain cryptocurrencies turned outlook investments, transactions, fact entire nancial sector. rst whitepaper introducing new currency network 1 introduced market november 2008 rst transaction bitcoin january 2009. february 2022, 10,300 cryptocurrencies come being, shows technology gained popularity terms aspect new coins getting introduced days, number transactions reaching millions, acceptance cryptocurrencies exchange services, etc. proof claim, value 1btc increased $0 2009 $20,144.44 5 october 2022 2 . historical statistics bitcoin value peaked $62,000 october 2021. similar fashion, second-generation cryptocurrency ethereum growing extensively. statistics reveal 250,000 con rmed transactions bitcoin 1,130,000 con rmed transactions ethereum daily 3 . 20 cryptocurrencies close 90% total market. right hands, cryptocurrencies grown terms value expanded utility",
+    "metadata": {
+      "chunk_id": "20cf892b0ba713634b9731eaddcd0569",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 4] . 20 cryptocurrencies close 90% total market. right hands, cryptocurrencies grown terms value expanded utility. despite success, characteristics cryptocurrencies attract felonious activities, resulted loss millions dollars personal identity. according report released federal trade commission 4 , start 2021 46,000 people lost $1 billion cryptocurrency scams. alongside technologies growth, scam rates increased dramatically. report states scam reports losses raised close times 2018 2021. scams categorized experts types ponzi schemes, pump dumps, money laundering, rug pulls, hyips high-yield investment programs , hacking, information 2023, 14, 171. https doi.org 10.3390 info14030171 https www.mdpi.com journal information -------------------------------------------------------------------------------- --- page 2 --- information 2023, 14, 171 2 20 phishing, initial coin offering ico scams. recent times, crypto scams reported started ad, post, message social media platform",
+    "metadata": {
+      "chunk_id": "3414cf45bfe2ded19fe16e0f31980938",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack",
+          "phishing"
+        ],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 42.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 5] . recent times, crypto scams reported started ad, post, message social media platform. investment scams attract na ve investors false promises high returns. resources talk new icos introduced frequently, success rates new startups raise investment form cryptocurrencies, increasing 5 . need detecting scams safeguarding wealth highly important cryptocurrency replacing 6 different services. research works overtime proposed detection techniques models variety approaches. survey, propose study existing models, evaluate ef ciencies, compile set features models exploited detect scams. going forward look models, need understand characteris- tics public blockchain survey focused public blockchain technology attract scammers crucial. trying understand new wave technology, examined decentralized , pseudonym , public records , digital money , se- cured wallets , digital signatures , identity addresses , terminologies. enriched glossary makes blockchain",
+    "metadata": {
+      "chunk_id": "d8236fdcefebbeb37396383c774ea896",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 6] . enriched glossary makes blockchain. fact blockchain technology decentralized covers identity user address attracts scams felonious activities. machine learning models use different algorithms detect scam activities. supervised, unsupervised, ensemble learning active learning models developed different research works produce accurate results identifying them. papers identify scams classi cation problems try classify transactions valid scam related transactions, methods try classify labels. research identify malicious websites, social media posts, fake portfolios attempted provide solution scams. contribution survey analyze techniques, research, data produce performance analysis compilation research. rates scammers cheat investors lure money increasing alarm- ingly. governments, nancial institutions, investment advising agencies trying bring solutions, knowledge understanding blockchain technology cryptocurrencies inadequate cials investors",
+    "metadata": {
+      "chunk_id": "7e9dad43c1b308dddce6d3268f75c178",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 7] . governments, nancial institutions, investment advising agencies trying bring solutions, knowledge understanding blockchain technology cryptocurrencies inadequate cials investors. work tries expose efforts provide overview secure crypto-wallets. research, considered different machine learning models worked detecting types scams. performance analysis, categorized work category scams trying catch. papers considered transactional, account, smart contract features dataset cryptocurrency transactions smart contracts. mentioned, research methodology categorizes models based scam type focuses models performance analyzing accuracy, f1 score, precision, recall. compare existing works use different machine learning models different datasets primary reason models aimed identifying scams cryptocurrencies, success rate depends accurate ef cient achieving it",
+    "metadata": {
+      "chunk_id": "650db4160394e4c99f85c569e37bdf64",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 8] . compare existing works use different machine learning models different datasets primary reason models aimed identifying scams cryptocurrencies, success rate depends accurate ef cient achieving it. rest survey organized following way section 2 explains underlying technology blockchain provides background information, mainly different types cryptocurrency scams lists examples past. section 3 talks related surveys existing detection techniques , referred perform analysis. section 4 covers analysis performed compare models, datasets used, features extracted detection models aimed address different types scams. section 5 lists observations analysis survey identi es best performing models conditions. -------------------------------------------------------------------------------- --- page 3 --- information 2023, 14, 171 3 20 section 6 concludes survey understanding contributions survey produces research. 2",
+    "metadata": {
+      "chunk_id": "dd23eab4eba9aaf4a171e37ddc06d4cb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 9] . 2. background cryptocurrencies blockchain technology revolutionizing global economy digital era. introduction email changed way world communicates. way, digital currencies wallets dramatically changed way world operates. transactions, exchanges, services rely prefer digital currencies traditional money. important reason decentraliza- tion third-party involvement blockchain technology digital currencies offer 7 . blockchain peer-to-peer network acts public ledger keeping logs transactions activities. technology serves neural network cryp- tocurrencies widely valuable characteristics decentralization, immutability, pseudonymity 8 . heart survey examine cryptocurrency scams analyze solutions proposed detect them, understanding fundamental concepts workings blockchain cryptocurrencies critical. primary advantage scammers defrauding users users lack knowledge system works",
+    "metadata": {
+      "chunk_id": "af51a3c9ce5d03a3c04735d5f1083994",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 10] . primary advantage scammers defrauding users users lack knowledge system works. blockchain technology novel record system store information tampered record created copied nodes network immutable digital signature users. transactions blockchain happen sequence ects model layers network. process transaction happens following sequence 9 signing user sends money cryptocurrency wallet, message created sender s address, receiver s address, money. wallet adds digital signature unique depends public private keys user. block created reception collection multiple messages. broadcasting block broadcast node validation. con rmation nodes validate transaction block added chain entire network updated status. concept proof work 6 comes play con rmation stage, nodes rewarded validating transaction. rst cryptocurrency, bitcoin, proved successful application blockchain technology. new coins created multiple purposes diversity services",
+    "metadata": {
+      "chunk_id": "e60228c70226c2f678bba94806309e03",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 11] . rst cryptocurrency, bitcoin, proved successful application blockchain technology. new coins created multiple purposes diversity services. according report coindesk.com 10 , blockchain market size retail expected reach $4.6 billion 2028. big corporations moving digital decentralized currency startups medium-sized businesses attracted this. apart bitcoin, cryptocurrencies ethereum, tether, u.s. dollar coin usdc values dramatically increasing. according report forbes, 20,000 cryptocurrency projects values $952 billion. 30 september 2022, market capitalization bitcoin ethereum $377 billion $165 billion, respectively 11 . increasing use digital crypto wallets, crucial understand differences traditional currencies crypto coins. ve notable differences 12 , provide better understanding use cryptocurrencies. firstly, bitcoins cryptocurrencies controlled central authority governments banks. original identity cryptocurrency user hidden addresses, users accountable traditional currencies",
+    "metadata": {
+      "chunk_id": "14125bc59d14eeb12218370b87436ea5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 12] . firstly, bitcoins cryptocurrencies controlled central authority governments banks. original identity cryptocurrency user hidden addresses, users accountable traditional currencies. limited number coins, generally declared creator, instead traditional cash central authority decide produce more. -------------------------------------------------------------------------------- --- page 4 --- information 2023, 14, 171 4 20 cryptocurrency open-source, source code coin logic available publicly, available traditional systems. finally, cryptocurrency value, value decreases increases based usage. however, value traditional currency endorsed at. evident differences cryptocurrencies continue gain popular- ity multiple services. knowing ins outs technology crucial gaining popularity. let look key concepts help researchers, investors, developers look forward engaging technology. concepts aid understanding scams better scammers exploit lack information them",
+    "metadata": {
+      "chunk_id": "da4de38bf756187fd3c3a60d15f4d535",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 13] . let look key concepts help researchers, investors, developers look forward engaging technology. concepts aid understanding scams better scammers exploit lack information them. smart contract introduction smart contracts ethereum major reason increase new projects investment opportunities cryptocurrencies. smart contract program consists agreement parties blockchain, immutable. smart contracts require third-party middleman, reduces additional expenses. work like intelligent agent automate process transferring money accounts based pre-de ned conditions. contracts generally attributes value state use statements triggering conditions 13 . contracts deployed blockchain renders transactions traceable, transparent, ir- reversible. initial coin offering ico ico provides way companies raise money launch new coin, app, service. interested investors purchase cryptocurrency token issued company initial coin offering. depending product service company offering, token utility represent stake rm",
+    "metadata": {
+      "chunk_id": "f6ca6bbe0c96be844831645d8cd8e0b7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 14] . interested investors purchase cryptocurrency token issued company initial coin offering. depending product service company offering, token utility represent stake rm. initial coin offerings popular way raise funds products services usually related cryptocurrency 14 . whitepaper introducing new coin project, creators release documents called whitepaper. whitepaper collection technical, legal, marketing information 15 . serves road map investors trying understand working goals project. mining process producing units cryptocurrency kind effort called mining. effort required ensures people create nite number cryptocurrencies, reduce value 6 . mining includes processes validating cryptocurrency transactions blockchain networks adding distributed ledger. mining usually involves computer hardware solve hash trillions possible combinations. miners work charge transaction fees reward con rming transactions. proof-of-work proof-of-work term accounts work miners con rm transactions network",
+    "metadata": {
+      "chunk_id": "9a01cbe2ac7cf8bceaa1f611d92e2e3f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 15] . miners work charge transaction fees reward con rming transactions. proof-of-work proof-of-work term accounts work miners con rm transactions network. adding block blockchain requires hashing block, time computing power. effort taken process, efforts taken solve hashes create new coins, referred proof-of-work. double spending traditional cryptocurrencies, user spends particular service, spend cash different service. comes cryptocurrency, coin copied multiple times different purposes. issue known double spending. rst whitepaper proposing bitcoin 1 solved issue consensus mechanism con rming transactions multiple nodes network. gas mentioned above, miners charge transaction fees con rming transactions. ethereum, fee referred gas 16 . important check gas committing transaction transactions regarded invalid user gas left account. wallets wallet storage location device securing cryptocurrencies securely. wallets types hot wallets cold wallets",
+    "metadata": {
+      "chunk_id": "bea4eec3636d82e3f40be5f387fa1973",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 16] . wallets wallet storage location device securing cryptocurrencies securely. wallets types hot wallets cold wallets. hot wallets online locations -------------------------------------------------------------------------------- --- page 5 --- information 2023, 14, 171 5 20 generally offered crypto exchange platforms parties private key, cold wallets physical storage ash drive hard drive store crypto assets 16 . bubble bubble economic cycle characterized rapid escalation market value, particularly price assets. fast ation followed quick decrease value contraction, referred crash bubble burst . bubbles generally characteristic scam trying defraud wealthy investors. exchange exchange service individuals companies use trade cryptocurrency cryptocurrencies cryptocurrency. mixers know, anonymity user highly preferred fea- tures cryptocurrency, mixers strengthen it. cryptocurrency deposited smart contract designed execute mixing transaction single address",
+    "metadata": {
+      "chunk_id": "d974eb40927974d5b0802011552c9b8b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 17] . mixers know, anonymity user highly preferred fea- tures cryptocurrency, mixers strengthen it. cryptocurrency deposited smart contract designed execute mixing transaction single address. users withdraw previously deposited tokens address predetermined period time. mixers protocol performing mixing action, makes dif cult track coins mixer. exploited scammers escape coins managed scam investors. understand blockchain cryptocurrencies work, let look different types scams startled nancial sector stealing billions dollars. ponzi schemes ponzi scheme fraudulent investment scheme operator pays returns investments capital derived new investors legitimate investment pro ts. ponzi schemes generally fall apart new capital pay ever-growing pool existing investors. cryptocurrency ponzi schemes common resulted huge losses. onecoin, bitclub coinup, mmm bitcoin, plustoken popular ponzi schemes defrauded investors billions dollars worth cryptocurrency 17",
+    "metadata": {
+      "chunk_id": "2f8d001e7e804532fe5aff5c1cb5687a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [
+          "fraud",
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 41.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 18] . cryptocurrency ponzi schemes common resulted huge losses. onecoin, bitclub coinup, mmm bitcoin, plustoken popular ponzi schemes defrauded investors billions dollars worth cryptocurrency 17 . pump dump schemes pump-and-dump schemes involve accumulating com- modities time, ating prices spreading misinformation pumping , selling higher prices unsuspecting buyers dumping . arti cial ation, price usually drops, leaving buyers bought based false informa- tion loss. 2018, pump dump schemes accumulated $825 millions naive investors 7 . initial coin offering ico scams mentioned, icos launched raise investment project. scammers advantage icos launch coins, coins, create service. end, cash investor s money leave coins sold value. ico scams understood help critically reading white papers checking misleading copied contents 15 . high-yield investment programs hyip high-yield investment programs hyips ponzi schemes promise high returns investments short periods time",
+    "metadata": {
+      "chunk_id": "c25d056ab57a23d67ca149246ab3e247",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 30.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 19] . high-yield investment programs hyip high-yield investment programs hyips ponzi schemes promise high returns investments short periods time. programs cheated investors millions dollars. 23 july 2013, securities exchange commission sec charged bitcoin-based hyip scammer offered 7% daily interest rate investors cheated 700,000 btc, valued 1 billion dollars today. 18 . money laundering money laundering illegal process making dirty money appear legitimate instead ill-gotten. criminals use wide variety money- laundering techniques illegally obtained funds appear clean. online banking cryptocurrencies easier criminals transfer withdraw money detection. prevention money laundering international effort includes terrorist funding targets. nancial industry set strict anti-money laundering aml measures place 19 . crypto hacking crypto hacking refers hacking user wallets spend steal cryptocurrency accounts",
+    "metadata": {
+      "chunk_id": "34cfbba1f74e7cee1a97d0bc4313cedd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 43.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 20] . nancial industry set strict anti-money laundering aml measures place 19 . crypto hacking crypto hacking refers hacking user wallets spend steal cryptocurrency accounts. scammers usually use ransomware -------------------------------------------------------------------------------- --- page 6 --- information 2023, 14, 171 6 20 phishing techniques steal private keys users hack accounts 20 . market manipulation market manipulation deliberate attempt arti cially uence interfere asset prices. scammers manipulate market multi- ple ways - spoo ng creating illusions cheat investors. scammers use dummy accounts bots place large trades, canceled lled, giving investors impression demand increasing decreasing. - running practice making trades based knowledge future transactions. miners node operators insights upcoming trades, personal gains. - churning excessive trading broker client s crypto account generate additional commissions. asset management rms receive fees managing crypto holdings",
+    "metadata": {
+      "chunk_id": "04e28842a95cb9b27a4a00464d2886f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack",
+          "phishing"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 32.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 21] . - churning excessive trading broker client s crypto account generate additional commissions. asset management rms receive fees managing crypto holdings. therefore, nefarious brokers abuse commission-based payment structure pro t unaware clients, leave clients tax liabilities. giveaway scams giveaway scam common nowadays. scammers use social media pages youtube 21 twitter attract investors saying new project scam highly functional. point websites fake information wallet addresses scammers asking investors send money high returns. decade, scams stolen billions dollars caused severe harm global economy. research works aimed detect scams multiple approaches succeeded identifying them. understanding architecture functioning blockchain technology, cryptocurrencies, scams, detection techniques crucial analyze areas. similarly, important know current trends happenings produce valid results detection techniques align current day scenario",
+    "metadata": {
+      "chunk_id": "72c52354d18d8920199887acbd914c66",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 22] . similarly, important know current trends happenings produce valid results detection techniques align current day scenario. keeping date scams, currency values, market capital, rankings cryptocurrencies help understand seriousness issue evaluate detection models meticulously. types data help achieve news articles, blogs, reports published trusted resources. cial websites blockchain.com, coinmarketcap.com, etherscan.io real-time transactions values cryptocurrencies equivalent currencies. news articles published nancial giants wall street journal, bloomberg businessweek, forbes, financial times report detailed information scams, technique, value money lost scam, action taken scammers, status victims funds. example, 22 published wall street journal 23 forbes unveil scams caused ponzi scheme pig butchering activity targeted scamming rich individuals scammers respectively. managed lure 100,000 investors false promises",
+    "metadata": {
+      "chunk_id": "68bc011e8067232a374e5cc3513aa665",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 23] . managed lure 100,000 investors false promises. articles talk general market trends analyzing aspects cryptocurrency industry, 24 , provides insights effects ation, market sliding, crippling economy cryptocurrencies value cryptocurrencies dropped 2 3rd value june 2022. similarly, 25 financial times summarizes lack regulations leads scams crypto. articles categorize rank cryptocurrencies, projects, exchanges, crypto-platforms 11 useful future predictions. news articles reports, transactions public ledger blockchain available websites including blockchain.com 26 , source validate legitimate transactions. etherscan.io 27 lists transactions ethereum market capital. exchanges binance 28 coinbase 29 list values different coins equivalent currencies aid exchanging coins currencies vice versa",
+    "metadata": {
+      "chunk_id": "b37e9648f68e904b984927cc15699f5b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 24] . etherscan.io 27 lists transactions ethereum market capital. exchanges binance 28 coinbase 29 list values different coins equivalent currencies aid exchanging coins currencies vice versa. coinmarketcap.com 30 shows market value multiple -------------------------------------------------------------------------------- --- page 7 --- information 2023, 14, 171 7 20 coins point day helps investors decide best options invest in. general, investopedia.com provides de nitions, explanations, examples cryptocurrency-related concepts help investors researchers understand technology better. governments, big corporations, cials, investment-advising agencies work- ing building regulations forward measures anti-money laundering aml know customer kyc limit scams. looking works applied computing solutions detect scams similar surveys aimed compile data available section. 3. related work blockchain technology cryptocurrencies attracted research attention past decade",
+    "metadata": {
+      "chunk_id": "8bcf2cf9685190b9c3034f9473e4923b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 25] . 3. related work blockchain technology cryptocurrencies attracted research attention past decade. effort collect compile research works, categorized based purpose approach problems. categories considered given table 1. table 1. categories research works peer-reviewed articles. category references textbooks, architectures, processes 1,6,7,9,12,14 existing surveys, literature reviews, analysis publications 5,31 40 detection techniques scams cryptocurrencies machine learning algorithms 18,19,41 65 type approaches solve scams 15,66 68 understand fundamental concepts workings blockchain technology cryptocurrencies, textbooks, glossaries, peer-reviewed articles. rst whitepaper published satoshi nakamoto 2008 introduced blockchain bitcoin. paper provides detailed information working technology concepts. federal trade commission ftc released glossary 6 annual national seminar 2018 de nes important cryptocurrency-related terms",
+    "metadata": {
+      "chunk_id": "5e3830c7e8f34368085af83d9275f11b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 26] . paper provides detailed information working technology concepts. federal trade commission ftc released glossary 6 annual national seminar 2018 de nes important cryptocurrency-related terms. authors 7,9,12 explain working blockchain, consensus mechanism, transactions carried different services. iansiti lakhani 7 compared growth blockchain technology invention emails provided insights support fact cryptocurrencies currencies future. 12 , yuan wang provided detailed explanation different layers architecture blockchain types, help identifying threats different services. literature, works aimed study, compare, compile existing research blockchains cryptocurrencies. surveys, literature reviews, conceptual papers analyzed different areas technology scams devalue them. publications look cryptocurrencies bitcoin ethereum, focus particular coin. similarly, look different types scams produce analysis scam, choose scam ponzi schemes money laundering",
+    "metadata": {
+      "chunk_id": "bdd012afe0169684a6d1fa494b0e1326",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 27] . publications look cryptocurrencies bitcoin ethereum, focus particular coin. similarly, look different types scams produce analysis scam, choose scam ponzi schemes money laundering. surveys analyze cryptocurrencies, scams occur them, defensive mechanisms given 31,37,38 . surveys approach technology scams different ways. 31 , phan et al. studied scams common issues analyzing tweets blockchain. period 8th november 31st december 2018, 2 million tweets mentioning blockchain keyword collected tweet listener created apache flume. observations analysis concluded 69% tweets blockchain negative. systematic literature review badawi jourdan 37 identi ed peer-reviewed articles scams defensive mechanisms. paper, variety information statistics different groups peer-reviewed articles provided. umamaheshwaran et al",
+    "metadata": {
+      "chunk_id": "242f664636839be8ee6636ad80f939e3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 28] . paper, variety information statistics different groups peer-reviewed articles provided. umamaheshwaran et al. 38 conducted -------------------------------------------------------------------------------- --- page 8 --- information 2023, 14, 171 8 20 survey understanding types mechanisms effectiveness detecting scams. survey questions posted group 75 people traded cryptocurrencies blockchain knowledge. observations survey stated 35% respondents believed machine learning methods useful detect fraud cryptocurrencies. importance regulations, international standards, authorization cryp- tocurrencies stated 32,34 . teichmann falker 32 studied cryptocurren- cies nancial crimes proposed effective international standard regulation. study talks mindsets criminals, experts, authorities help proposing regulations. 34 , problem money laundering ex- posed, open doors blockchain technology discussed dupuis gleason. work talks importance regulations exchanging cryptocurrencies",
+    "metadata": {
+      "chunk_id": "13f99bfa7e9a1be5393e1a58d25ce78e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 29] . 34 , problem money laundering ex- posed, open doors blockchain technology discussed dupuis gleason. work talks importance regulations exchanging cryptocurrencies. surveys 35,36,40 look cryptojacking, exchange scams, ponzi schemes, respectively. cryptojacking practice unauthorized use computation resources individuals organizations cryptocurrencies. jayasinghe poravi, 35 , aimed look cryptojacking instances cloud infrastructure discussed platforms mechanisms hack cloud servers. nutshell, paper introduced cryptojacking, analyzed attack cloud resources, reviewed existing literature, talked research gaps, suggested detection system behavioral analysis future. 36 , xia et al. exposed scams exchanges fake exchanges operated steal cryptocurrencies. authors identi ed 1595 exchange scams, 60% scams unknown, 300 fake exchange apps, available legitimate play stores google play. work clustering approach group scams fake apps families ended 94 scam families 30 fake app families",
+    "metadata": {
+      "chunk_id": "313780fdb54e095da32a2e3fa7dcb58b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 31.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 30] . work clustering approach group scams fake apps families ended 94 scam families 30 fake app families. paper, nancial loss exchange scams time 2018 evaluated 520k usd. xia et al. 39 reported number scams losses increased drastically covid-19 period. research compiled different types scams occurred cryptocurrencies. world crisis, scammers took advantage unleashed crypto crimes covid-19. 195 scams reported, including 91 token scams icos , 9 blackmail scams, 14 malware scams, 9 ponzi schemes, 53 donation scams covid-19 bait. authors studied scams, analyzed characteristics, explored tricks social engineering activities scammers used. papers focus scams detection techniques, 5 adhami et al. look brighter cryptocurrencies produce survey success startups use cryptocurrencies raise investments. authors proposed hypothesis marks success ico based availability future outlook, whitepapers, source code project investors",
+    "metadata": {
+      "chunk_id": "c4e591e96cb9c664e43d678496282716",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "malware"
+        ],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 31.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 31] . authors proposed hypothesis marks success ico based availability future outlook, whitepapers, source code project investors. additionally, characteristics presale, bonus schemes, advantages services marketplaces coupons increase success ico. detection techniques use multiple approaches spot scams cryptocurrencies based aspects. section explains technique, datasets features extracted, section, let look common observations techniques helped identify publications. generally, algorithms look type scam try train model detect scam. example, 19 proposed model identify money laundering, 59 looked pump dumps. table 2 provides list scams references studied survey. common observation techniques look type cryptocurrency bitcoin identify malicious activities accounts detect transactions valid invalid. bitcoin ethereum commonly studied cryptocurrencies literature. -------------------------------------------------------------------------------- --- page 9 --- information 2023, 14, 171 9 20 table 2",
+    "metadata": {
+      "chunk_id": "2fa23f96834cbf259eea8837e155a21a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 32] . bitcoin ethereum commonly studied cryptocurrencies literature. -------------------------------------------------------------------------------- --- page 9 --- information 2023, 14, 171 9 20 table 2. types scams references. category references ponzi schemes 42,48 50,58,63,65 money laundering 19,54,69 71 pump dump 43,59 61 cryptojacking 46,51 53 phishing 62,68,72,73 fake wallets accounts 55,57,64,74 exchange scams 36 hyip 18,75 ransomware 56 ddos attack 45 compared previous surveys, work studied scams solutions cryptocurrencies detail categorized existing works scam machine learning methods adapted address type scam. discussed type features, transaction data, outcomes models, presented previous surveys. table 3 provides list cryptocurrencies references examined curren- cies, respectively. section, categorized explained resources considered survey. background concepts review literature, section discusses solutions proposed address scams surveys performances. table 3",
+    "metadata": {
+      "chunk_id": "e29b4529f0a334b0578f907a2ab18ca9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 31.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 33] . section, categorized explained resources considered survey. background concepts review literature, section discusses solutions proposed address scams surveys performances. table 3. types cryptocurrencies references. category references bitcoin 18,19,41,42,44,47,54,57,59,75 ethereum 48 50,55,58,62 64,74 cryptocurrencies general 43,46,52,53,56,60,61 4. performance analysis detection models use digital wallets cryptocurrencies increased, number scams felonious activities hindering growth increased. according report cnbc 76 , scammers cheated $14 billion 2021, 516% raise 2020. rug pulls, ponzi schemes, pyramid schemes contributed largely loss. report said crypto-related crimes time high time, scams took advantage covid 19 situations peak. scams fraud existed society. experts scams evolved technology, motive defraud innocent people investors gain changed",
+    "metadata": {
+      "chunk_id": "c4661fc241281d704aa61b1a2c00efdd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 30.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 34] . scams fraud existed society. experts scams evolved technology, motive defraud innocent people investors gain changed. governments, corporations, investment advising companies, authorities hunt identify scams wellness economy people observing characteristics. research conducted develop computational models detect scams prevent them. section, categorized models based type scam try detect analyzed performance metrics, feature extraction methods, datasets used. effort aims provide compilation existing scam detection models perform optimally variety conditions. evaluation models, considered performance metrics precision, recall, f1 score. model s precision accurate predicting particular type event. recall -------------------------------------------------------------------------------- --- page 10 --- information 2023, 14, 171 10 20 essentially measure model correctly identify category based data receives. harmonic mean precision recall widely compare different models algorithms",
+    "metadata": {
+      "chunk_id": "267d64303717821534ec1923a85298bd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 35] . harmonic mean precision recall widely compare different models algorithms. study addressed models classi ed based types cryptocurrencies attempted detect scams. categorized machine learning model type scam aims detect. results efficiency obtained results discussed paper. primary reasons compare results different works, executed different datasets, follows datasets works consisted scam-related transactions valid transactions type cryptocurrencies type scam. features models similar, algorithms type approach. models intended detect cryptocurrency scams, success rate indicates accurate efficient so. 4.1. ponzi schemes mentioned previous sections, ponzi schemes common types scams embezzled millions dollars decade. research studies detection models identi ed ponzi schemes largely bitcoin ethereum. order detect scams, machine learning models differentiated types features tried compare impact identifying scams",
+    "metadata": {
+      "chunk_id": "011de7fea6593884bf95eefb7a95bca1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 36] . research studies detection models identi ed ponzi schemes largely bitcoin ethereum. order detect scams, machine learning models differentiated types features tried compare impact identifying scams. ethereum, smart contracts examined datasets, features separated cat- egories code account 48 50 . code features, bytecode smart contracts analyzed identify patterns commonly occurring pieces code differentiate ponzi scheme non-ponzi scheme smart contract. performance metric analysis code features multiple models surveyed shown figure 1. account features look behavioral activities balance, transaction frequencies, eth in, eth out, detecting fraudulent activities. figure 2 shows analysis account features, figure 3 provides analysis features combined. 50 , chen et al. collected real-world data reused future research proposed detection technique identify ponzi schemes. types datasets collected manually checking open-source smart contracts ethereum platform",
+    "metadata": {
+      "chunk_id": "efb154532aee0f2db7ae4a8084c203ce",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 30.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 37] . collected real-world data reused future research proposed detection technique identify ponzi schemes. types datasets collected manually checking open-source smart contracts ethereum platform. rst dataset build classi cation model consisted labels features 3780 open-source contracts. dataset contained code features smart contracts including open-source contracts hidden-source contracts , approximate number smart ponzi schemes running ethereum platform. paper multiple machine-learning algorithms build models compared performances categories features. categories account code features separately combined predict illicit smart contract. chen et al. authored 48 preliminary research construct dataset build detection model xgboost. similar fashion, jung et al., 49 , developed detection models analyzing categories features. authors focused identifying ponzi schemes right day added",
+    "metadata": {
+      "chunk_id": "d2b7ae4bff54106dec00386fd21b26dd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 38] . similar fashion, jung et al., 49 , developed detection models analyzing categories features. authors focused identifying ponzi schemes right day added. compared 0-day performance 248-day performance smart contracts level features available j48 decision tree, random forest, stochastic gradient descent algorithms detect ponzi schemes. 42 , bartoletti et al. created dataset features real-world ponzi schemes, constructed analyzing bitcoin blockchain transactions perform scams. approached problem binary classi cation problem experimented classi cation models identify best performance. effort, authors achieved accuracy detecting 31 32 ponzi schemes dataset. hu et al., 58 , proposed scsguard, novel deep-learning scam-detection framework analyzed code features smart contracts detect kind scam them. framework based n-gram features attention neural networks bytecode smart contracts detect scams. model achieved accuracy 92.2% detect ponzi schemes accuracy 94.7% detect honey pots",
+    "metadata": {
+      "chunk_id": "89333d9f9d7e5e8790d5398872cd769a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 39] . framework based n-gram features attention neural networks bytecode smart contracts detect scams. model achieved accuracy 92.2% detect ponzi schemes accuracy 94.7% detect honey pots. -------------------------------------------------------------------------------- --- page 11 --- information 2023, 14, 171 11 20 figure 1. f1 score comparison ponzi schemes account features. figure 2. f1 score comparison ponzi schemes code features. figure 3. f1 score comparison ponzi schemes account code features. -------------------------------------------------------------------------------- --- page 12 --- information 2023, 14, 171 12 20 4.2. money laundering money laundering activities caused losses cryptocurrencies attracted research study characteristics build detection models. general, models proposed detect money laundering try classify transactions illicit valid classes primarily use account features account balance, money in, money training. 19,54 , alarab et al",
+    "metadata": {
+      "chunk_id": "245d69278499eedf84c6943641ec6e7d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 40] . general, models proposed detect money laundering try classify transactions illicit valid classes primarily use account features account balance, money in, money training. 19,54 , alarab et al. explore elliptic dataset, derived bitcoin blockchain represents transactions form directed graph network nodes representing transactions sources destinations. graph structure dataset motivates use neural networks develop detection model. proposed model 19 combines graph convolutional networks linear layers multilayer perceptron mlp provide 97.4% accuracy identifying illicit transactions elliptic dataset. 54 , comparison supervised learning models random forest, extra trees, bagging, adaboost, gradient boosting, k- nearest neighbors performed, ensemble learning model combining random forest, extra trees, bagging proposed detect money laundering activities. comparison performance metrics models identi ed money laundering scams displayed figure 4",
+    "metadata": {
+      "chunk_id": "2e0e75f0ba57be22f3dfa10f98950ba2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 41] . comparison performance metrics models identi ed money laundering scams displayed figure 4. lorentz et al., 69 , explained disadvantage supervised learning models labels scarce elliptic dataset. realistic label condition, proved active learning methods detected illicit transactions high accuracy 5% labels supervised learning. authors proved unsupervised learning models poor performance similar environment. badawi al-haija, 70 , elliptic dataset build machine learning models detect money laundering activities. paper compared performance neural network decision tree models detecting felonious activities. providing multi-class classi cations probability distribution function assigns output class probability value, authors softmax classi ers showed shallow neural networks decision trees achieve classi cation accuracy capped 89.9% 93.4%, respectively",
+    "metadata": {
+      "chunk_id": "60f100ce03d1ed41994841d71b1d79b1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 42] . baek et al., 71 , unsupervised learning expectation-maximization algorithm cluster data extract features ethereum transactions real world blockchain ledgers. features engineered unsupervised learning, anomaly detection performed random forest algorithm identify discernible transactions. figure 4. f1 score comparison money laundering. -------------------------------------------------------------------------------- --- page 13 --- information 2023, 14, 171 13 20 4.3. pump dump pump dump scams common bitcoin ethereum blockchains. mt. gox exchange scam, notorious scam millions dollars embezzled, studied chen et al. 61 . work discusses importance bringing regulations crypto market. authors proposed improved apriori algorithm detect cryptocurrency pump dump schemes. observations concluded mt. gox exchange fake trading volume",
+    "metadata": {
+      "chunk_id": "293b9205dfadf0d2c71241eea0dbffb1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 43] . authors proposed improved apriori algorithm detect cryptocurrency pump dump schemes. observations concluded mt. gox exchange fake trading volume. model explored transactions relations user ids identify patterns transaction records buying selling users time number bitcoins bought sold identified pump dump phases scam. 4.4. phishing machine learning models exploited network features mainly identify phishing scams. know phishing scams start fake links web pages social media posts scammers address, models target network features. 62 , yuan et al. created network transactions dataset proposed model uses node2vec network embedding method extract features transactions uses one-class svm support vector machine classify user accounts phishing accounts accounts. similarly, 68 , j. wu et al. uses trans2vec network embedding extract features uses logistic regression, naive bayes, isolation forest, one-class svm algorithms build models compare results detecting phishing scams",
+    "metadata": {
+      "chunk_id": "170f4007855133a176a3c9738df881ab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit",
+          "phishing"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 32.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 44] . wu et al. uses trans2vec network embedding extract features uses logistic regression, naive bayes, isolation forest, one-class svm algorithms build models compare results detecting phishing scams. figure 5 shows comparison f1 score comparison models. wen et al., 72 , extracts network account features transactions propose phishing detection framework adversarial attack framework de ne metrics model optimal detect phishing activities ethereum. transaction data publicly available etherscan.io websites widely form datasets identify phishing addresses transactions related them. figure 5. f1 score comparison phishing scams. 4.5. fake wallets accounts fake user accounts wallets considered problem blockchain researchers hinder working technology makes vulnerable scams criminal activities. identify fake accounts, models widely account features machine learning algorithms detect fake accounts",
+    "metadata": {
+      "chunk_id": "b1c2b74030e8ca207aae966aa03ae563",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 45] . identify fake accounts, models widely account features machine learning algorithms detect fake accounts. -------------------------------------------------------------------------------- --- page 14 --- information 2023, 14, 171 14 20 farrugia et al., 55 , xgboost classi er detect fraudulent accounts based transaction history accounts ethereum achieved accuracy 96.3%. authors provided insights important features help build highly accurate detection model create compiled dataset future research. 57 , shayegan et al. proposed collective anomaly approach identify fake users bitcoins. approach trimmed kmeans algorithm data clustering successfully identi ed 14 users owned multiple accounts committed fraud 9 different cases. authors discussed importance reducing processing power computational time models proved proposed model detected large number fake users reduced number records features state-of-art models",
+    "metadata": {
+      "chunk_id": "e75058dacecc5b09415829a658b7c72b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 46] . authors discussed importance reducing processing power computational time models proved proposed model detected large number fake users reduced number records features state-of-art models. ostapowicz zbikowski 74 apply supervised learning techniques detect fraudulent accounts ethereum. compared working capabilities random forest, support vector machine, xgboost classi ers dataset 300 thousand accounts. work discussed sensitivity analysis models examining feature dependency system performance. kumar et al., 64 , detect suspicious accounts ethereum blockchain analyzing types accounts externally owned accounts eoa smart contract accounts. preprocessing data types analysis, authors use knn, decision tree, random forest, xgboost classi ers python s scikit-learn library. figure 6 shows comparison accuracy comparison models. figure 6. accuracy comparison fake wallets accounts. 4.6",
+    "metadata": {
+      "chunk_id": "6a8512400adf4429931f0b45140ef92d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 47] . figure 6 shows comparison accuracy comparison models. figure 6. accuracy comparison fake wallets accounts. 4.6. cryptojacking cryptojacking refers mining attacks common nowadays cryp- tocurrencies stolen directly users cpu computational power knowledge. attack leads losses, models proposed iden- tify them. 53 , zimba et al. demonstrate integrating semi-supervised learning complex network theory modeling effectively detects crypto-mining activities. proposed approach uses network characteristic features dataset, creates clusters shared nearest neighbor algorithm, uses knn classi er train model detect crypto-mining activities. short, semi-supervised learning approach uses unsupervised learning method extract features unlabeled dataset, supervised model classi es data instances crypto mining complex network -------------------------------------------------------------------------------- --- page 15 --- information 2023, 14, 171 15 20 characteristics features",
+    "metadata": {
+      "chunk_id": "c51a1719857f0c1b897654d6ba0ddfcc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 48] . outguard automated cryptojacking detection system proposed kharraz et al. 46 uses seven distinctive features svm classi - cation model. authors created dataset real-world data achieved 97.9% true positive rate 1.1% false positive rate. similarly, capjack, proposed ning et al. 52 , in-browser malicious cryptocurrency mining detecting model uses neural networks detect illegal crypto mining. model high accuracy 87% 99% window 11 s executed real-time browser data. analysis, evident scams scammers use different approaches exploit varied characteristics blockchain technology fraud investors. section, discussed different scam types models attempted identify patterns characteristics scams successfully detect real-world datasets. addition, worth mentioning machine-learning models focused bitcoin ethereum. observations worth mentioning discussed following section paper. section, models perform best multiple categories highlighted. 5",
+    "metadata": {
+      "chunk_id": "9965f8a4df86146f7f2c3a7a9ead888e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 43.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 49] . observations worth mentioning discussed following section paper. section, models perform best multiple categories highlighted. 5. results observation previous section, review existing scams, characteristics, models approach type scam, performances attained. categorizing scams, observations conclusions obtained models, discussed section. general, research works primarily focused bitcoin ethereum cryptocurrencies, constitute 45% capital value cryptocurrency market. mentioned, scam rates drastically increased recent years. covid 19 era sparked golden age crypto scams 39 . time scam techniques wash trading, giveaways, emergency scams, referrals saw peaks. 2008 2013, 500 ponzi schemes scammed $50 billion , exactly rst cryptocurrency bitcoin introduced started growing. decade, detection models machine learning techniques developed detect scams achieved optimal results. saw ponzi schemes contribute high percentage scams, machine learning models achieved high ef ciencies detecting them",
+    "metadata": {
+      "chunk_id": "bbcd7600c7d54d1641d20d65348df860",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 50] . saw ponzi schemes contribute high percentage scams, machine learning models achieved high ef ciencies detecting them. performance analysis conducted, detect ponzi schemes, models categorized features dataset account code subsets. 48 50 , evident code features combination features perform high ef ciency. random forest, j48 decision trees, stochastic gradient descent algorithms achieved high f1 scores 93%, 97%, 96%, respectively, combination features. xgboost algorithm performed fairly better compared algorithms mentioned performance analysis ponzi schemes. deep learning application neural networks demonstrated good performance, producing 96.3% precision, 97.8% recall, f1 score 97.1%. money laundering problem nancial stability created issues cryptocurrencies. mentioned analysis section, elliptic dataset commonly develop detection model. binary classi cation valid illicit transactions applied detect money laundering",
+    "metadata": {
+      "chunk_id": "8a4cc97e95249c4e6e3f728ec50df136",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 51] . mentioned analysis section, elliptic dataset commonly develop detection model. binary classi cation valid illicit transactions applied detect money laundering. clustering data expectation-maximization algorithm extract features detect laundering random forest baek et al., 71 shown highly ef cient performance f1 score 92%. badawi al-haija s comparison neural networks decision trees performed f1 scores 89.7% 93.5%, respectively, identifying money laundering 70 . additionally, algorithms extra trees, bagging, ada boost, ensemble method 54 well, f1 scores 80%. generally, network features detect phishing, account features detect fake accounts. class svm algorithm 62,68 performed well, f1 scores 84.6% 90.8%, respectively, determine phishing. -------------------------------------------------------------------------------- --- page 16 --- information 2023, 14, 171 16 20 papers use network embedding methods extract features performed better 72 , mining techniques",
+    "metadata": {
+      "chunk_id": "1ca87c90a965c43575a188919cc9ddda",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 52] . case fake wallets, surveyed models shown excellent performances, accuracy 89.3%. 74 , random forest algorithm account features dataset 300 thousand accounts achieved 99.51% accuracy, constitutes high ef ciency compared model category. cryptojacking illegal mining, performance analysis identi ed rea- sonably performing models. similarly, case scams hyip 18,75 pump dumps 61 identi ed research works attempted iden- tify characteristics developed techniques detect fraudulent transactions. performance analysis section helped come conclusions, discussed section. features, datasets, important characteristics listed successfully. depending type scam, features selected model detect them. common features useful identifying scams include transaction large transactions transactions unusual amounts indicate scam. destination address scammers use addresses known associated scams, checking destination address blacklist known scam addresses useful",
+    "metadata": {
+      "chunk_id": "d5e96b6024a9e6f5b413a7ca48f6c1c4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 32.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 53] . destination address scammers use addresses known associated scams, checking destination address blacklist known scam addresses useful. sender address identity sender provide clues nature transaction. example, sender s address associated known scammer, indicate scam. time transaction scammers act quickly, transactions occur short period time likely scams. contract code code associated transaction provide additional in- formation purpose. example, contract code associated known scam, indicate scam. network behavior behavior transaction network, number inputs outputs, provide clues nature. previous transactions history addresses involved transaction, in- cluding number previous transactions, provide additional information nature transaction. features commonly divided categories code features, network features, transaction features detect scams cryptocurrencies",
+    "metadata": {
+      "chunk_id": "1aa10b2cd2078d7900864d3c4373b181",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 54] . features commonly divided categories code features, network features, transaction features detect scams cryptocurrencies. believe survey help researchers understand existing scams, detection models, techniques available cryptocurrency technology provide insights ideas work them. section, concluding comments suggestions research area. 6. conclusions survey, understood key concepts blockchain technology cryptocurrencies, studied characteristics scams them, seen machine learning models exploit characteristics detect scams. review, clearly techniques detect frauds evolved performed ef ciently. performance analysis identi ed best performing models, datasets, features scam types. measures accuracy, precision, recall, f1 score compare models. metrics, machine learning model s performance validated attributes time complexity, number nodes used, number features used, number epochs, computational power used, on",
+    "metadata": {
+      "chunk_id": "a79686c80697af2e70934bd41f0d6681",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 31.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 55] . metrics, machine learning model s performance validated attributes time complexity, number nodes used, number features used, number epochs, computational power used, on. machine learning, detection models techniques identify scam activities investigating fake websites, social media posts, giveaway links, phishing links, forwarded messages. techniques examined research surveys. -------------------------------------------------------------------------------- --- page 17 --- information 2023, 14, 171 17 20 author contributions conceptualization, l.p.k. methodology, l.p.k. investigation, l.p.k. data curation, l.p.k. writing original draft preparation, l.p.k. writing review editing, i.v., s.r. s.a. visualization, l.p.k. supervision, i.v., s.r. s.a. project administration, i.v., s.r. s.a. authors read agreed published version manuscript. funding research received external funding. data availability statement applicable con icts interest authors declare con ict interest. references 1",
+    "metadata": {
+      "chunk_id": "2dbef36abff55c6b0336f2daca64e0a6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "investigation"
+        ],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 33.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 56] . authors read agreed published version manuscript. funding research received external funding. data availability statement applicable con icts interest authors declare con ict interest. references 1. nakamoto, s. bitcoin peer-to-peer electronic cash system. 2008. available online https bitcoin.org bitcoin.pdf accessed 21 december 2022 . 2. statista.com. cryptocurrency statistics statista. available online https www.statista.com topics 4495 cryptocurrencies accessed 21 december 2022 . 3. coinmarketcap.com. rankings, values statistics coinmarketcap.com. available online coinmarketcap.com accessed 21 december 2022 . 4. commission, f.t. data spotlight, reports scammers cashing crypto craze. 2022. available online https www.ftc. gov news-events data-visualizations data-spotlight 2022 06 reports-show-scammers-cashing-crypto-craze accessed 21 december 2022 . 5. adhami, s. giudici, g. martinazzi, s. businesses crypto? empirical analysis initial coin offerings. j. econ. bus. 2018, 100, 64 75",
+    "metadata": {
+      "chunk_id": "c249e518c037a448156101450a9ca343",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 57] . 5. adhami, s. giudici, g. martinazzi, s. businesses crypto? empirical analysis initial coin offerings. j. econ. bus. 2018, 100, 64 75. crossref 6. united states sentencing commission. bitcoin glossary 2018 annual national seminar united states sentencing commission washington, dc, usa, 2018. 7. iansiti, m. lakhani, k.r. truth blockchain. harv. bus. rev. 2017, 95, 118 127. 8. tharani, j.s. charles, e.y.a. h u, z. palaniswami, m. muthukkumarasamy, v. graph based visualisation techniques analysis blockchain transactions. proceedings 2021 ieee 46th conference local computer networks lcn , edmonton, ab, canada, 4 7 october 2021 pp. 427 430. crossref 9. islam, m.n. hossen, m.g.s. baidya, s.p. emon, m.a.u. hossain, m.s. framework tracing real identity bitcoin scammer. proceedings 2021 international conference computer, communication, chemical, materials electronic engineering ic4me2 , rajshahi, bangladesh, 26 27 december 2021 pp. 1 4. crossref 10. coindesk.com",
+    "metadata": {
+      "chunk_id": "463c4ecb581844ac02b8accc9084eafe",
+      "entities": {
+        "location": [
+          "united states"
+        ],
+        "crypto_project": [
+          "bitcoin"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 58] . proceedings 2021 international conference computer, communication, chemical, materials electronic engineering ic4me2 , rajshahi, bangladesh, 26 27 december 2021 pp. 1 4. crossref 10. coindesk.com. crypto spearhead retail payments 2022. available online https www.coindesk.com layer2 paymentsweek 2022 04 29 how-crypto-could-spearhead-retail-payments-in-2022 accessed 21 december 2022 . 11. forbes. 10 cryptocurrencies 2022. available online https www.forbes.com advisor investing cryptocurrency top-10 -cryptocurrencies accessed 21 december 2022 . 12. yuan, y. wang, f.y. blockchain cryptocurrencies model, techniques, applications. ieee trans. syst. man cybern. syst. 2018, 48, 1421 1428. crossref 13. wang, s. ouyang, l. yuan, y. ni, x. han, x. wang, f.y. blockchain-enabled smart contracts architecture, applications, future trends. ieee trans. syst. man cybern. syst. 2019, 49, 2266 2277. crossref 14. investopedia. initial coin offering ico coin launch de ned, examples",
+    "metadata": {
+      "chunk_id": "dbdb62235c4144ab015b09b60d456658",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 59] . ieee trans. syst. man cybern. syst. 2019, 49, 2266 2277. crossref 14. investopedia. initial coin offering ico coin launch de ned, examples. available online https www.investopedia. com terms initial-coin-offering-ico.asp text an-initial-coin-offering- ico -is-the-cryptocurrency-industry s-equivalent, a-way-to-raise-funds accessed 21 december 2022 . 15. morin, a. vasek, m. moore, t. detecting text reuse cryptocurrency whitepapers. proceedings 2021 ieee international conference blockchain cryptocurrency icbc , sydney, australia, 3 6 2021 pp. 1 5. crossref 16. forbes. cryptocurrency glossary terms acronyms. available online https www.forbes.com advisor investing cryptocurrency crypto-glossary accessed 21 december 2022 . 17. mukherjee, s. larkin, c. cryptocurrency ponzi schemes. understanding cryptocurrency fraud corbet, s., ed. de gruyter berlin, germany boston, ma, usa, 2022 pp. 111 120. crossref 18. toyoda, k. mathiopoulos, p.t. ohtsuki, t",
+    "metadata": {
+      "chunk_id": "308fc981555aeb90a5adf2ad1b361050",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "ponzi"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 60] . cryptocurrency ponzi schemes. understanding cryptocurrency fraud corbet, s., ed. de gruyter berlin, germany boston, ma, usa, 2022 pp. 111 120. crossref 18. toyoda, k. mathiopoulos, p.t. ohtsuki, t. novel methodology hyip operators bitcoin addresses identi cation. ieee access 2019, 7, 74835 74848. crossref 19. alarab, i. prakoonwit, s. nacer, m.i. competence graph convolutional networks anti-money laundering bitcoin blockchain. proceedings 2020 5th international conference machine learning technologies, beijing, china, 19 21 june 2020 pp. 23 27. 20. insider, b. 5 crypto scams know start trading coins, business insider. available online https www. businessinsider.com personal- nance crypto-scams accessed 21 december 2022 . 21. vakilinia, i. cryptocurrency giveaway scam youtube live stream. proceedings 2022 ieee 13th annual ubiquitous computing, electronics mobile communication conference uemcon , new york, ny, usa, 26 29 october 2022 pp. 0195 0200",
+    "metadata": {
+      "chunk_id": "b869cd8d5a3826a4456547e7064d0cee",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 30.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 61] . proceedings 2022 ieee 13th annual ubiquitous computing, electronics mobile communication conference uemcon , new york, ny, usa, 26 29 october 2022 pp. 0195 0200. -------------------------------------------------------------------------------- --- page 18 --- information 2023, 14, 171 18 20 22. wall street journal. sec charges trade coin club founder, promoters $295 million bitcoin fraud. available on- line https www.wsj.com articles sec-charges-trade-coin-club-founder-promoters-in-295-million-bitcoin-fraud-11667598 959?mod business minor pos16 accessed 21 december 2022 . 23. forbes. man lost 1 million dollar crypto super scam called pig butchering. available online https www.forbes.com sites cyrusfarivar 2022 09 09 pig-butchering-crypto-super-scam ?sh 3930764bec8e accessed 21 december 2022 . 24. wall street journal. crypto party over. available online https www.wsj.com articles the-crypto-party-is-over-11 655524807 accessed 21 december 2022 . 25. times, f. lawless world crypto scams",
+    "metadata": {
+      "chunk_id": "bbe57211bd3d48e3a1aa5cb4c3b0298f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 62] . 24. wall street journal. crypto party over. available online https www.wsj.com articles the-crypto-party-is-over-11 655524807 accessed 21 december 2022 . 25. times, f. lawless world crypto scams. available online https www.ft.com content 5987649e-9345-4eae-a4b8-9bfb0 142a2ab accessed 21 december 2022 . 26. blockchain. cial blockchain website. available online www.blockchain.com accessed 21 december 2022 . 27. etherscan.io. ethereum website. available online www.etherscan.io accessed 21 december 2022 . 28. binance. exchange platform binance. available online https www.binance.com en accessed 21 december 2022 . 29. coinbase. exchange platform coinbase. available online https www.coinbase.com accessed 21 december 2022 . 30. coinmarketcap. coinmarketcap.com. available online https www.coinmarketcap.com accessed 21 december 2022 . 31. phan, l. li, s. mentzer, k. blockchain technology current discussion fraud. comput. inf. syst. j. 2019, 20, 8 20. 32. teichmann, f.m.j. falker, m.c",
+    "metadata": {
+      "chunk_id": "d0798428a8138ef05acc35401c5699e9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 63] . 31. phan, l. li, s. mentzer, k. blockchain technology current discussion fraud. comput. inf. syst. j. 2019, 20, 8 20. 32. teichmann, f.m.j. falker, m.c. cryptocurrencies nancial crime solutions liechtenstein. j. money laund. control 2021, 24, 775 788. crossref 33. desmond, d.b. lacey, d. salmon, p. evaluating cryptocurrency laundering complex socio-technical system systematic literature review. j. money laund. control 2019, 22, 480 497. crossref 34. dupuis, d. gleason, k. money laundering cryptocurrency open doors regulatory dialectic. j. financ. crime 2020, 28, 60 74. crossref 35. jayasinghe, k. poravi, g. survey attack instances cryptojacking targeting cloud infrastructure. proceedings 2020 2nd asia paci c information technology conference, bali island, indonesia, 17 19 january 2020 pp. 100 107. 36. xia, p. wang, h. zhang, b. ji, r. gao, b. wu, l. luo, x. xu, g. characterizing cryptocurrency exchange scams. comput. secur. 2020, 98, 101993. crossref 37. badawi, e. jourdan, g.v",
+    "metadata": {
+      "chunk_id": "6560e25f9e0eeca45aaa8af79a9afd4c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 32.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 64] . 100 107. 36. xia, p. wang, h. zhang, b. ji, r. gao, b. wu, l. luo, x. xu, g. characterizing cryptocurrency exchange scams. comput. secur. 2020, 98, 101993. crossref 37. badawi, e. jourdan, g.v. cryptocurrencies emerging threats defensive mechanisms systematic literature review. ieee access 2020, 8, 200021 200037. crossref 38. umamaheswaran, s. uike, d. ramachandran, k. tharangini, a. suba, t. verma, d. critical understanding emerging threats defensive aspects cryptocurrencies machine learning techniques. proceedings 2022 2nd international conference advance computing innovative technologies engineering icacite , greater noida, india, 28 29 april 2022 pp. 1938 1942. 39. xia, p. wang, h. luo, x. wu, l. zhou, y. bai, g. xu, g. huang, g. liu, x. don t sh troubled waters! characterizing coronavirus-themed cryptocurrency scams. proceedings 2020 apwg symposium electronic crime research ecrime , boston, ma, usa, 16 19 november 2020 pp. 1 14. 40. bartoletti, m. carta, s. cimoli, t. saia, r",
+    "metadata": {
+      "chunk_id": "07408cd3fabe7945b843bd09e4e9fffe",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 65] . proceedings 2020 apwg symposium electronic crime research ecrime , boston, ma, usa, 16 19 november 2020 pp. 1 14. 40. bartoletti, m. carta, s. cimoli, t. saia, r. dissecting ponzi schemes ethereum identi cation, analysis, impact. future gener. comput. syst. 2020, 102, 259 277. crossref 41. toyoda, k. ohtsuki, t. mathiopoulos, p.t. multi-class bitcoin-enabled service identi cation based transaction history summarization. proceedings 2018 ieee international conference internet things ithings ieee green computing communications greencom ieee cyber, physical social computing cpscom ieee smart data smartdata , halifax, ns, canada, 30 july 3 august 2018 pp. 1153 1160. 42. bartoletti, m. pes, b. serusi, s. data mining detecting bitcoin ponzi schemes. proceedings 2018 crypto valley conference blockchain technology cvcbt , zug, switzerland, 20 22 june 2018 pp. 75 84. 43. victor, f. hagemann, t. cryptocurrency pump dump schemes quanti cation detection",
+    "metadata": {
+      "chunk_id": "968ff7493d6fdafdf485589e14f5dbd5",
+      "entities": {
+        "location": [
+          "switzerland"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "ponzi"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 66] . 75 84. 43. victor, f. hagemann, t. cryptocurrency pump dump schemes quanti cation detection. proceedings 2019 international conference data mining workshops icdmw , beijing, china, 8 11 november 2019 pp. 244 251. 44. vasek, m. thornton, m. moore, t. empirical analysis denial-of-service attacks bitcoin ecosystem. proceedings international conference financial cryptography data security, christ church, barbados, 3 7 march 2014 pp. 57 71. 45. baek, u.j. ji, s.h. park, j.t. lee, m.s. park, j.s. kim, m.s. ddos attack detection bitcoin ecosystem deep-learning. proceedings 2019 20th asia-paci c network operations management symposium apnoms , matsue, japan, 18 20 september 2019 pp. 1 4. 46. kharraz, a. ma, z. murley, p. lever, c. mason, j. miller, a. borisov, n. antonakakis, m. bailey, m. outguard detecting in-browser covert cryptocurrency mining wild. proceedings world wide web conference, san francisco, ca, usa, 13 17 2019 pp. 840 852. 47. yin, h.s. vatrapu, r",
+    "metadata": {
+      "chunk_id": "20a73ce11373272f311487103ae1f81f",
+      "entities": {
+        "location": [
+          "china",
+          "japan"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 67] . bailey, m. outguard detecting in-browser covert cryptocurrency mining wild. proceedings world wide web conference, san francisco, ca, usa, 13 17 2019 pp. 840 852. 47. yin, h.s. vatrapu, r. rst estimation proportion cybercriminal entities bitcoin ecosystem supervised machine learning. proceedings 2017 ieee international conference big data big data , boston, ma, usa, 11 14 december 2017 pp. 3690 3699. 48. chen, w. zheng, z. cui, j. ngai, e. zheng, p. zhou, y. detecting ponzi schemes ethereum healthier blockchain technology. proceedings 2018 world wide web conference, lyon, france, 23 27 april 2018 pp. 1409 1418. -------------------------------------------------------------------------------- --- page 19 --- information 2023, 14, 171 19 20 49. jung, e. le tilly, m. gehani, a. ge, y. data mining-based ethereum fraud detection. proceedings 2019 ieee international conference blockchain blockchain , atlanta, ga, usa, 14 17 july 2019 pp. 266 273. 50. chen, w. zheng, z. ngai, e.c.h. zheng, p",
+    "metadata": {
+      "chunk_id": "fc44f0794161a268aa1f43b1002828cc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "ponzi"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 68] . proceedings 2019 ieee international conference blockchain blockchain , atlanta, ga, usa, 14 17 july 2019 pp. 266 273. 50. chen, w. zheng, z. ngai, e.c.h. zheng, p. zhou, y. exploiting blockchain data detect smart ponzi schemes ethereum. ieee access 2019, 7, 37575 37586. crossref 51. gangwal, a. conti, m. cryptomining change spots detecting covert cryptomining magnetic side-channel. ieee trans. inf. forensics secur. 2019, 15, 1630 1639. crossref 52. ning, r. wang, c. xin, c. li, j. zhu, l. wu, h. capjack capture in-browser cryptojacking deep capsule network behavioral analysis. proceedings ieee infocom 2019 ieee conference computer communications, paris, france, 29 april 2 2019 pp. 1873 1881. 53. zimba, a. chishimba, m. ngongola-reinke, c. mbale, t.f. demystifying cryptocurrency mining attacks semi-supervised learning approach based digital forensics dynamic network characteristics. arxiv 2021, arxiv 2102.10634. 54. alarab, i. prakoonwit, s. nacer, m.i",
+    "metadata": {
+      "chunk_id": "ade0b1bb420f92528de4767ec76b1620",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [
+          "ponzi"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 69] . arxiv 2021, arxiv 2102.10634. 54. alarab, i. prakoonwit, s. nacer, m.i. comparative analysis supervised learning methods anti-money laundering bitcoin. proceedings 2020 5th international conference machine learning technologies, beijing, china, 19 21 june 2020 pp. 11 17. 55. farrugia, s. ellul, j. azzopardi, g. detection illicit accounts ethereum blockchain. expert syst. appl. 2020, 150, 113318. crossref 56. goyal, p.s. kakkar, a. vinod, g. joseph, g. crypto-ransomware detection behavioural analysis. reliability, safety hazard assessment risk-based technologies springer berlin heidelberg, germany, 2020 pp. 239 251. 57. shayegan, m.j. sabor, h.r. uddin, m. chen, c.l. collective anomaly detection technique detect crypto wallet frauds bitcoin network. symmetry 2022, 14, 328. crossref 58. hu, h. bai, q. xu, y. scsguard deep scam detection ethereum smart contracts. proceedings ieee infocom 2022 ieee conference computer communications workshops infocom wkshps , virtual, 2 5 2022 pp. 1 6",
+    "metadata": {
+      "chunk_id": "953b933af1dbe651d8eca37e5fc37b51",
+      "entities": {
+        "location": [
+          "china"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 20.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 70] . bai, q. xu, y. scsguard deep scam detection ethereum smart contracts. proceedings ieee infocom 2022 ieee conference computer communications workshops infocom wkshps , virtual, 2 5 2022 pp. 1 6. 59. la morgia, m. mei, a. sassi, f. stefa, j. pump dumps bitcoin era real time detection cryptocurrency market manipulations. proceedings 2020 29th international conference computer communications networks icccn , honolulu, hi, usa, 3 6 august 2020 pp. 1 9. 60. mirtaheri, m. abu-el-haija, s. morstatter, f. ver steeg, g. galstyan, a. identifying analyzing cryptocurrency manipulations social media. ieee trans. comput. soc. syst. 2021, 8, 607 617. crossref 61. chen, w. xu, y. zheng, z. zhou, y. yang, j.e. bian, j. detecting pump dump schemes cryptocurrency market improved apriori algorithm. proceedings 2019 ieee international conference service-oriented system engineering sose , san francisco, ca, usa, 4 9 april 2019 pp. 293 2935. 62. yuan, q. huang, b. zhang, j. wu, j. zhang, h. zhang, x",
+    "metadata": {
+      "chunk_id": "c95033f11af6b53a186c1e5a1b67e6df",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 71] . 293 2935. 62. yuan, q. huang, b. zhang, j. wu, j. zhang, h. zhang, x. detecting phishing scams ethereum based transaction records. proceedings 2020 ieee international symposium circuits systems iscas , sevilla, spain, 10 21 october 2020 pp. 1 5. 63. zhang, y. yu, w. li, z. raza, s. cao, h. detecting ethereum ponzi schemes based improved lightgbm algorithm. ieee trans. comput. soc. syst. 2021, 9, 624 637. crossref 64. kumar, n. singh, a. handa, a. shukla, s.k. detecting malicious accounts ethereum blockchain supervised learning. proceedings international symposium cyber security cryptography machine learning, er sheva, israel, 2 3 july 2020 pp. 94 109. 65. fan, s. fu, s. luo, y. xu, h. zhang, x. xu, m. smart contract scams detection topological data analysis account interaction. proceedings 31st acm international conference information knowledge management, atlanta, ga, usa, 17 21 october 2022 pp. 468 477. 66. nizzoli, l. tardelli, s. avvenuti, m. cresci, s. tesconi, m. ferrara, e",
+    "metadata": {
+      "chunk_id": "b0ed7dc29c02c4d6671c03d6b72b6524",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [
+          "ponzi",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 31.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 72] . 468 477. 66. nizzoli, l. tardelli, s. avvenuti, m. cresci, s. tesconi, m. ferrara, e. charting landscape online cryptocurrency manipulation. ieee access 2020, 8, 113230 113245. crossref 67. phillips, r. wilder, h. tracing cryptocurrency scams clustering replicated advance-fee phishing websites. proceedings 2020 ieee international conference blockchain cryptocurrency icbc , toronto, on, canada, 2 6 2020 pp. 1 8. 68. wu, j. yuan, q. lin, d. you, w. chen, w. chen, c. zheng, z. phishers? phishing scam detection ethereum network embedding. ieee trans. syst. man cybern. syst. 2020, 52, 1156 1166. crossref 69. lorenz, j. silva, m.i. apar cio, d. ascens o, j.t. bizarro, p. machine learning methods detect money laundering bitcoin blockchain presence label scarcity. proceedings acm international conference ai finance, new york, ny, usa, 15 16 october 2020 pp. 1 8. 70. badawi, a. al-haija, q.a. detection money laundering bitcoin transactions",
+    "metadata": {
+      "chunk_id": "2eddf9a5f013efe9aba09011836ff504",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 73] . proceedings acm international conference ai finance, new york, ny, usa, 15 16 october 2020 pp. 1 8. 70. badawi, a. al-haija, q.a. detection money laundering bitcoin transactions. proceedings 4th smart cities symposium scs 2021 , online, 21 23 november 2021 pp. 458 464. 71. baek, h. oh, j. kim, c.y. lee, k. model detecting cryptocurrency transactions discernible purpose. proceedings 2019 eleventh international conference ubiquitous future networks icufn , zagreb, croatia, 2 5 july 2019 pp. 713 717. 72. wen, h. fang, j. wu, j. zheng, z. transaction-based hidden strategies general phishing detection framework ethereum. proceedings 2021 ieee international symposium circuits systems iscas , daegu, republic korea, 22 28 2021 pp. 1 5. -------------------------------------------------------------------------------- --- page 20 --- information 2023, 14, 171 20 20 73. chen, w. guo, x. chen, z. zheng, z. lu, y. phishing scam detection ethereum financial security blockchain ecosystem",
+    "metadata": {
+      "chunk_id": "22a7a9f9225a3a1001d525f3ee71fdf0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 74] . chen, w. guo, x. chen, z. zheng, z. lu, y. phishing scam detection ethereum financial security blockchain ecosystem. proceedings ijcai, yokohama, japan, 11 17 july 2020 pp. 4506 4512. 74. ostapowicz, m. zbikowski, k. detecting fraudulent accounts blockchain supervised approach. proceedings international conference web information systems engineering, amsterdam, netherlands, 20 24 october 2020 pp. 18 31. 75. toyoda, k. ohtsuki, t. mathiopoulos, p.t. identi cation high yielding investment programs bitcoin transactions pattern analysis. proceedings globecom 2017 2017 ieee global communications conference, singapore, 4 8 december 2017 pp. 1 6. 76. cnbc. crypto scammers took record $14 billion 2021, 6 january 2022. available online https www.cnbc.com 2022 01 06 crypto-scammers-took-a-record-14-billion-in-2021-chainalysis.html accessed 21 december 2022 . disclaimer publisher s note statements, opinions data contained publications solely individual author s contributor s mdpi editor s",
+    "metadata": {
+      "chunk_id": "f0949b5a74b48235c774b0776739b14b",
+      "entities": {
+        "location": [
+          "japan",
+          "singapore"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "phishing"
+        ],
+        "financial": [
+          "fraud",
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 31.0,
+      "source": "information-14-00171_processed.txt"
+    }
+  }
+]

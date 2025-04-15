@@ -1,0 +1,582 @@
+[
+  {
+    "text": "[Section 1] b public blockchain white paper universal blockchain protocol enabling cross ledger access business modularization v2 0 x0ctable contents 1 overview oneledger 1 1 context mission oneledger 3 2 system functions 2 1 smart identity management platform 2 2 blockchain service 2 3 chaincode service 2 4 programming interface 6 6 7 7 3 oneledger extendable interface 8 4 oneledger architecture 4 1 oneledger business center 4 2 oneledger consensus protocol 4 2 1 business logic modularization 4 2 2 oneledger consensus protocol hierarchy 4 2 3 oneledger business initialization 4 2 4 oneledger channel consensus 4 2 5 oneledger public chain consensus 4 2 6 sidechain consensus algorithm 4 2 7 arbitration mechanism 4 2 8 block structure 9 11 11 12 13 13 15 16 18 18 5 use cases 19 6 token economics 21 7 olt token distribution 23 8 team 24 9 advisors 26 x0c1 overview oneledger interoperable blockchain protocol built business oneledger cross ledger agnostic protocol enables high performance scaling",
+    "metadata": {
+      "chunk_id": "8261a2f79a74dca11ea666ae3f96b1aa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 2] 7 olt token distribution 23 8 team 24 9 advisors 26 x0c1 overview oneledger interoperable blockchain protocol built business oneledger cross ledger agnostic protocol enables high performance scaling sharded modified practical byzantine fault tolerant consensus scheme allows permissionless permissioned setting coupling public key infrastructure pki identity management nodes node operators defined trust hierarchy allows participate consensus oneledger chain sidechain oneledger sidechains synchronized current state networks ethereum bitcoin etc cryptocurrency supports hashed time lock contracts htlc payment channels deposited account address credited oneledger sidechain allows scalable transparent solution main network chain loaded oneledger sidechain arbitrary number transactions users occur oneledger sidechain prior final user requesting withdrawal balance hashed time lock address account main chain address account choice essentially oneledger provides scalable chain solution main",
+    "metadata": {
+      "chunk_id": "140e2246b87ce859240715e9d1c18d8e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 3] occur oneledger sidechain prior final user requesting withdrawal balance hashed time lock address account main chain address account choice essentially oneledger provides scalable chain solution main chain offloads consensus corresponding oneledger sidechain inherits properties oneledger protocol role control pki enterprises launch permissioned sidechains businesses able define precise role node operators participate sidechain addition utilizing oneledger xe2 x80 x99s unified framework companies develop distributed ledger technology application single codebase simultaneously launch product multiple infrastructure networks choosing 1 1 context mission oneledger small business owners enterprises oneledger xe2 x80 x99s mission simplify businesses xe2 x80 x99 adoption blockchain technology integration specific business applications products oneledger businesses individuals leverage platform create public private blockchains uniquely identified network consensus use role control",
+    "metadata": {
+      "chunk_id": "811766b6da7a395d20de7a31ad2c8091",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 4] integration specific business applications products oneledger businesses individuals leverage platform create public private blockchains uniquely identified network consensus use role control enterprises separate read write access permissioned network industries like healthcare require people appropriate roles view certain records addition businesses able create manage community owned digital wallet credit system 3 x0cby leveraging platform xe2 x80 x99s provided blockchain based business tools modern day companies efficiently effectively adapt business models blockchain technology foundation oneledger xe2 x80 x99s protocol use public key authentication allows creation personal accounts highly configurable digital wallets credit systems arbitration mechanisms oneledger digital wallet provides individuals institutions abilities modern day digital wallet normal functions deposits withdrawals payment additional benefit able trade purchase services multi business networks maintaining",
+    "metadata": {
+      "chunk_id": "681f4a41a4429ab0973712c0a2427436",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 5] provides individuals institutions abilities modern day digital wallet normal functions deposits withdrawals payment additional benefit able trade purchase services multi business networks maintaining digital identity oneledger platform businesses consumers accumulate credit score transaction behavior network oneledger arbitration mechanism create arbitration basis supervising transaction history execution process oneledger supports consensus different blockchains ability expand query data chains possible compatibility blockchain networks leveraging chains 4 x0cthe oneledger value network composed levels service regions business logic transaction data real source records written distributed nodes open source validation mechanism data sharing blockchain underlying protocol real data simplistic reliable enablement ipfs protocol individuals participating business activities effectively smart contract performers data sharing peer safety reliability transactions promoted ensured common data",
+    "metadata": {
+      "chunk_id": "a335b85c5bcb1e4d2d158b5f3edd03d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 6] reliable enablement ipfs protocol individuals participating business activities effectively smart contract performers data sharing peer safety reliability transactions promoted ensured common data validation mechanism oneledger forms realizable verifiable blockchain network modularized real world functionality based sharing immunity mechanisms provided blockchain techniques 5 x0c2 system functions 2 1 smart identity management platform managing identity pseudonymous multiple distributed networks assigning master private public key pair identity master key pair associate public keys identity digitally signing message private key master key pair oneledger offers universal identity solution track users xe2 x80 x99 assets stored multiple distributed databases addition oneledger provides way identity assign trust value creating hybrid decentralized xe2 x80 x9cweb trust xe2 x80 x9d combined pki 2 2 blockchain services oneledger launch chain run oneledger consensus protocol chain",
+    "metadata": {
+      "chunk_id": "bf684e727b13386be35d7b705ddb42bb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 7] way identity assign trust value creating hybrid decentralized xe2 x80 x9cweb trust xe2 x80 x9d combined pki 2 2 blockchain services oneledger launch chain run oneledger consensus protocol chain permissioned permissionless case permissioned user use oneledger xe2 x80 x99s smart identity management system search identities particular trust rating provide infrastructure services e node operators store validate distributed ledgers assign particular identities roles order maintain chain public distributed ledger regardless consensus protocol supports hashed time lock contracts payment channels synchronized corresponding oneledger chain 6 x0c2 3 chaincode service businesses individuals wish deploy dapps multiple platforms developers write deploy smart contracts platform choice potentially multiple languages oneledger developing sdk eases process porting deploying smart contracts multiple platforms oneledger xe2 x80 x99s sdk allow users define xe2 x80 x9cmaster smart contract xe2 x80 x9d",
+    "metadata": {
+      "chunk_id": "631665d41575398e14c2ca8dbe25bc1e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 8] languages oneledger developing sdk eases process porting deploying smart contracts multiple platforms oneledger xe2 x80 x99s sdk allow users define xe2 x80 x9cmaster smart contract xe2 x80 x9d specifies smart contract written language choice developer launch dapp multiple platforms specifying desired platforms master smart contract 2 4 programming interface primary client interface rest api allowing applications register users query blockchain issue transactions set apis available chaincode directly interact stack execute transactions query transaction results service programming interface business portal users effortlessly build business models functions project real world functions blockchain 7 x0c3 oneledger extendable interface develop extendable interface fast safe extendable agnostic allowing easy deployment decentralized applications dapps cross ledger communication core purpose extendable blockchain interface effectively access communicate multiple ledgers 8 x0c4 oneledger",
+    "metadata": {
+      "chunk_id": "60291098fe3d6982433eb842889a58a9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 9] allowing easy deployment decentralized applications dapps cross ledger communication core purpose extendable blockchain interface effectively access communicate multiple ledgers 8 x0c4 oneledger architecture decentralized framework changes basis applications built ultimately unifying realizing real world blockchain parallel 4 1 oneledger business center oneledger develop tools business portal enabling users level blockchain experience map business module blockchain generate chaincode developer defined modules tag process flow extendable oneledger api help transforming business models blockchain applications modularity example oneledger connect businesses independent module developers provide suggestions development seamless plugin integrates multiple modules particular business flows instance shopping plugin oneledger split multiple components e catalog cart order submission shipping payment etc modules built different developers integrated create bespoke shopping flow plugin platform",
+    "metadata": {
+      "chunk_id": "63b6d92b3da322c04ae53c05510597a8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 10] shopping plugin oneledger split multiple components e catalog cart order submission shipping payment etc modules built different developers integrated create bespoke shopping flow plugin platform enable users set service agreement transparent fair manner 9 x0cthrough platform xe2 x80 x99s portal business tools originator quickly set agreement service template circulation supply chain law service agreements distribution agreements originator assign public identity group define roles individual identities public identities group created originator time circulation defines implementation agreement order ensure interests parties involved accounted completed service agreement translated solidity contract chaincode circulation starts parties involved immediately binds participant circulate execute form intelligent contract principal tools oneledger business application development kit listed 1 digital asset initiator define assets flow process including financial production content assets 2",
+    "metadata": {
+      "chunk_id": "0d60c6acccca66f08d2e1a751114af5c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 11] form intelligent contract principal tools oneledger business application development kit listed 1 digital asset initiator define assets flow process including financial production content assets 2 module contains complex business logic includes aggregation workflow process 3 workflow process basic unit build module function executed based oneledger protocol complete certain tasks including transaction crossing blockchain business flow mapping runtime data synchronization 10 x0c4 role access control decentralized signature system sign validate user associated identifier information password organization information role validated access information packed payload delegated modules 5 transaction runtime environment asset workflow process transaction come different blockchains based oneledger protocol 6 channel p2p channel emphasis speed security connect nodes single multiple blockchains 7 connector enterprise level integration tool business regions connector integrates oneledger public",
+    "metadata": {
+      "chunk_id": "0076702729282019aedf599b2e6f1c34",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 12] protocol 6 channel p2p channel emphasis speed security connect nodes single multiple blockchains 7 connector enterprise level integration tool business regions connector integrates oneledger public blockchain data existing centralized commercial network establishes hybrid application combining blockchain centralized services 4 2 oneledger consensus protocol 4 2 1 business logic modularization 11 x0cbusiness logic use configurable role based consensus methodology leveraging hierarchical grouping similar merkle tree role determined business participants role linked independent node participates consensus business logic determine role fed node data role consensus subject second level verification defined key digital signature users becorrectly linked role business enables transparency traceability allowing identification user written data blockchain respective role 4 2 2 oneledger consensus protocol hierarchy define layer consensus concept enable oneledger integrate effectively different",
+    "metadata": {
+      "chunk_id": "c61ab81f03f0a2f6206ffbecddfac823",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 13] allowing identification user written data blockchain respective role 4 2 2 oneledger consensus protocol hierarchy define layer consensus concept enable oneledger integrate effectively different blockchain products 12 x0c4 2 3 oneledger business initialization layer consensus begins business initialization contract defined indicate roles respective behaviours business participation contract defined business model generalized contract compiled generated contract recognizable executable different underlying public blockchains bitcoin ethereum generated contract deployed proper method nodes oneledger running different blockchain code ethereum nodes contract executed form smart contract bitcoin nodes contract replicated genesis contract nodes created 4 2 4 oneledger channel consensus oneledger proposes concept channel consensus execute interactions transaction business behavior roles defined contract roles come business models new block data wants record action conducted sidechain",
+    "metadata": {
+      "chunk_id": "9c37de8fa6418cf3b83d2c79bd311fdb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 14] proposes concept channel consensus execute interactions transaction business behavior roles defined contract roles come business models new block data wants record action conducted sidechain consensus details 4 4 2 based byzantine fault tolerant partial synchronization conducted channel participants sidechain consensus require participants vote sidechain consensus reached xe2 x85 x94 agreement voters channel crosses different business models sidechain sidechain consensus achieved counting votes participants model channel consensus achieved models reached consensus note consensus achieved channel written block data broadcasted nodes channel stored 13 x0ccontracts defined role considered general contracts channel concept apply consensus reached entire blockchain network vote message structure nodes assigned different channels blocks stored based channels blockchain height nodes differ implementation resilient distributed blocks rdb allows system trace lineage relation block sidechains",
+    "metadata": {
+      "chunk_id": "0d085732a3074b8d06fc9ebaadd7b7b8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 15] nodes assigned different channels blocks stored based channels blockchain height nodes differ implementation resilient distributed blocks rdb allows system trace lineage relation block sidechains help merkle tree reference stored reference field block data 14 x0c4 2 5 oneledger public chain consensus oneledger sidechain consensus helps initiate transfers public chains transfer public chains requested pre consensus step conducted oneledger sidechain pre consensus block n9 block previous diagram drive proposal public chain proposal voted validators public chain validate lock unlock action assets public chain proposal returned successfully public chains pre consensus block committed xe2 x85 x94 sidechain nodes commit block finalized oneledger transactions public chains available oneledger xe2 x80 x99s use hybrid combination federation drive chain possible synchronize public chains oneledger 15 x0c4 2 6 sidechain consensus algorithm sidechain consensus algorithm consists phases phase xe2",
+    "metadata": {
+      "chunk_id": "92789fdf3bfdb29e9b2feaf88549b7c2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 17] consensus block drive public chain proposal cross public chain case node validate exactly committed pre consensus proposal signed 2 3 nodes scope validated block broadcasted previous block finalized 16 x0c17 x0c4 2 7 arbitration mechanism partial consensus channel achieved participant channel ask arbitration concerns raised arbitration requested consensus bypass channel conducted participants oneledger 4 2 8 block structure oneledger use block hash previous block link blockchain verify use merkle tree root network type field record block stored ethereum bitcoin node introduce rdb concept block distributed stored oneledger sidechains referenced reference hash node merkle tree lineage 18 x0c5 oneledger use cases oneledger xe2 x80 x99s protocol interface enables interaction arbitrary number core infrastructure networks highly scalable manner numerous use cases come interoperability describe primary use case cross chain decentralized exchange begin protocol uses notion hash timelocks",
+    "metadata": {
+      "chunk_id": "d31d0718f7a1d1ceb63fd3509a7f85fa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 18] core infrastructure networks highly scalable manner numerous use cases come interoperability describe primary use case cross chain decentralized exchange begin protocol uses notion hash timelocks contracts htlc hash timelock contract combination hashlock timelock hashlock restriction receiving address account owner publicly reveal piece data order lift restriction likewise timelock transaction restricts time transaction spent combining pieces htlc allows cross chain transactions user deposit account address credited corresponding oneledger user trade asset asset type limited xe2 x80 x9cnormal xe2 x80 x9d base pair markets bitcoin ethereum users trade account corresponding sidechain oneledger credited accordingly choose withdraw new coins address choice time e spending htlc note sharding use sidechains number trades occur small time exceedingly high fact stems idea user trades litecoin dogecoin oneledger framework transaction communication dogecoin litecoin sidechains affect",
+    "metadata": {
+      "chunk_id": "ff9cac7eb1046e3ee1d54fb3128086a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 19] sharding use sidechains number trades occur small time exceedingly high fact stems idea user trades litecoin dogecoin oneledger framework transaction communication dogecoin litecoin sidechains affect performance instance bitcoin ethereum sidechains oneledger cross ledger decentralized exchange use smart contracts business integration apis process boarding businesses use distributed ledger technologies particular applications supply chain inventory management accounting digitization assets etc easier use cases oneledger include xe2 x80 xa2 ability business traffic sidechain high performance xe2 x80 xa2 ability deploy migrate dapp ease xe2 x80 xa2 enablement cross chain access consensus oneledger protocol xe2 x80 xa2 standardized communication dapps oneledger protocol 19 x0c xe2 x80 xa2 asset identification transparent flow asset registration donation process xe2 x80 xa2 baas offering help users create business modules open source dapps business portal ie supply chain ecommerce flow",
+    "metadata": {
+      "chunk_id": "ffb5461f50a7daee173bb6b054ff987f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 20] asset identification transparent flow asset registration donation process xe2 x80 xa2 baas offering help users create business modules open source dapps business portal ie supply chain ecommerce flow catalog cart built service hooked flexibly xe2 x80 xa2 help businesses individuals ai support flow optimization xe2 x80 xa2 transparency traceability process tagging business flows 20 x0c6 token economics 1 billion olt tokens premined olt token initially mapped corresponding erc20 token early adopters olt use ethereum ecosystem oneledger ecosystem developed oneledger ecosystem matures major participants oneledger token economics users network supporters nodes developers oneledger build marketplace decentralized application oneledger platform users users including businesses need pay network fee nodes use services oneledger platform acquire olt tokens token holders run node start acquiring tokens reuse business use cases users need pay olt tokens access services sold marketplace based",
+    "metadata": {
+      "chunk_id": "72768d053e6b93b3a42909b33f62d127",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 21] fee nodes use services oneledger platform acquire olt tokens token holders run node start acquiring tokens reuse business use cases users need pay olt tokens access services sold marketplace based distribution smart contract set developers network supporters nodes network supporters nodes receive olt tokens network fees early phase oneledger xe2 x80 x99s software allow run node period time staking established ensure commitment quality network developers developers range individual contributors enterprise teams consulting firms developers need olt tokens deploy modules oneledger platform submit modules code oneledger marketplace smart contract defines terms sale instance services free users need pay developers time fee unlock service developers implement smart contract subscription business model users need pay olt tokens monthly accessing services additionally oneledger development grant best developers qualified projects leveraging 25% tokens reserved community 21 x0coneledger use",
+    "metadata": {
+      "chunk_id": "73f3172e14337e2c9e31dfc282c83445",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 22] model users need pay olt tokens monthly accessing services additionally oneledger development grant best developers qualified projects leveraging 25% tokens reserved community 21 x0coneledger use 25% community reserved tokens benefit growth ecosystem incentivizing developers oneledger leverage tokens community engagement managing events funding development workshops oneledger focus building healthy blockchain development ecosystem developers enjoy value contributing 22 x0c7 olt token distribution 23 x0c8 team david cao founder ceo david founder ceo oneledger 3 years blockchain experience 10 years enterprise architect experience david worked magnitude technical projects fortune 500 enterprises worked ibm toronto lab development db2 websphere commerce core engine specialist supply chain payments e commerce experienced j2ee enterprise architect david helped large enterprises grow exponentially including home depot sears toshiba david active member hyperledger blockchain community bob",
+    "metadata": {
+      "chunk_id": "de61dc96a17edf3cfaa051615c666cbc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 23] payments e commerce experienced j2ee enterprise architect david helped large enterprises grow exponentially including home depot sears toshiba david active member hyperledger blockchain community bob binns chief strategy officer bob recognized innovator providing strategic consulting services companies managing change seeking growth held executive level positions companies including ibm bank montreal microsoft unisys corporation bob driving force major business transformation initiatives multiple industries xe2 x80 x93 conception launch start ventures successful transformation companies facing business dramatic growth ceo global private software companies including customized software saas cloud offerings subsequently acquired bob mathematics graduate queen xe2 x80 x99s university studied extensively harvard business school program sustainable competitive advantage kennedy school government queen program public executives served boards junior achievement ottawa information technology",
+    "metadata": {
+      "chunk_id": "86ceb456dff4232d4ba98752acde3293",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 24] extensively harvard business school program sustainable competitive advantage kennedy school government queen program public executives served boards junior achievement ottawa information technology association canada itac edwin zhang co founder managing director edwin veteran blockchain startup investment space software engineering lead spearheading blockchain related r d tribalscale xe2 x80 x93 innovation firm specializing emerging technologies edwin vast technical background blockchain developer solidity ethereum smart contract development experience software developer brings table extensive investment experience backed technical foundation wide global reach cryptocurrency community 24 x0cpaul w homer chief technology officer paul spent 25 years designing building commercial enterprise software companies large small experience includes startups financial industry healthcare year worked adding historic support tendermint following blockchain progress years interest byzantine fault",
+    "metadata": {
+      "chunk_id": "173eff6682c384cfba37f75671952b62",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 25] software companies large small experience includes startups financial industry healthcare year worked adding historic support tendermint following blockchain progress years interest byzantine fault tolerance relates past experiences building distributed systems xe2 x80 x99s writing exploring software development issues decade blog contributions 97 things series alex lan co founder blockchain r d alex data science expert holds master xe2 x80 x99s degree computer science emphasis machine learning big data application alex business intelligence engineer amazon currently data engineer industry leading innovations company breadth big data resources alex exceptionally passionate blockchain technology realized potentially disrupt industry gained extensive experience blockchain protocol consensus algorithm development stephen li vp engineering stephen senior software developer subject matter expert distributed application innovation senior consultant morgan stanley deutsche bank worked ibm",
+    "metadata": {
+      "chunk_id": "3f4fe64e705958daed83ac8353701f08",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 26] algorithm development stephen li vp engineering stephen senior software developer subject matter expert distributed application innovation senior consultant morgan stanley deutsche bank worked ibm microsoft stephen deep understanding frontend backend systems development architecture interest application high performance computing embracing blockchain revolution expert solidity smart contract development ethereum lester li blockchain engineer lester li stack engineer involved technology space 10 years early career developed security network layers managed end end encryption mechanisms ventured telecom networks building high performance customized product systems nokia senior engineer participated information security cloud computing innovative projects open source community contributor blockchain enthusiast gained extensive experience ethereum json rpc interface smart contract development 25 x0c9 advisors trevor koverko ceo polymath trevor canada xe2 x80 x99s successful angel investors",
+    "metadata": {
+      "chunk_id": "166a509176c90fcd5a70a0981875ae68",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 27] enthusiast gained extensive experience ethereum json rpc interface smart contract development 25 x0c9 advisors trevor koverko ceo polymath trevor canada xe2 x80 x99s successful angel investors early positions shapeshift io luminex royalty exchange lately trevor focusing attention blockchain xe2 x80 x93 having bought bitcoin 2012 xe2 x80 x99s continued seed advise crypto based companies icos including ethereum project trevor currently ceo digital assets international ceo polymath network xe2 x80 x93 decentralized marketplace tokenized securities matthew niemerg distributed ledger technology security advisor matthew ibm center excellence postdoctoral fellow high performance computing oak ridge national laboratory matthew involved blockchain space 2014 provides consultation related security consensus models cryptographic schemes business development blockchain based projects jor law founder verifyinvestor com homeier law pc jor pioneer building ecosystem digitizing trading securities",
+    "metadata": {
+      "chunk_id": "8fb86b5584865f46cb9bb6af42a6f508",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 28] consensus models cryptographic schemes business development blockchain based projects jor law founder verifyinvestor com homeier law pc jor pioneer building ecosystem digitizing trading securities blockchain distributed ledger technologies corporate finance securities attorney known expertise alternative finance including eb 5 venture capital crowdfunding initial coin offerings icos co founder verifyinvestor com dominant accredited investor verification service world founding shareholder homeier law pc expert attracting verifying accredited investors 26 x0cmervyn chng ico advisor partner gwei capital xe2 x80 x8bmervyn graduated degree banking finance nanyang business school singapore fast tracking management career served general manager oil trading firm managing 50 million usd revenues making career switch cryptocurrency managing partner cio venture firm focuses infrastructure xe2 x80 x9cfat protocols xe2 x80 x9d early stage multi million dollar investments rchain zilliqa bluzelle",
+    "metadata": {
+      "chunk_id": "c4f59addd7314c29de4f8f170cca205c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 29] making career switch cryptocurrency managing partner cio venture firm focuses infrastructure xe2 x80 x9cfat protocols xe2 x80 x9d early stage multi million dollar investments rchain zilliqa bluzelle elastos dragonchain poa wanchain theta chainlink like quantstamp gifto kyber network years cryptocurrency experience specializes helping projects entire ico process whitepaper token sales structure connections influencers reviewers funds exchanges spare time serves community cooperator rchain coop reuben loo apac advisor partner mw partners reuben partner mw partners consulting firm focused exclusively blockchain enabled projects connections diversified base investors located globally reuben able connect projects smart connected funds short notice advisor loom network platform service built ethereum allows developers run large scale decentralized applications hybridblock cryptocurrency trading ecosystem aims onboard new users crypto scene previously blockfolks advisory firm niches",
+    "metadata": {
+      "chunk_id": "de68d427b919cab0aaef643117475cf9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 30] built ethereum allows developers run large scale decentralized applications hybridblock cryptocurrency trading ecosystem aims onboard new users crypto scene previously blockfolks advisory firm niches community management growth services extensive experience cm services cm quantstamp zilliqa gifto utrust mirza uddin strategic advisor venture capitalist mirza venture capitalist focuses wide array early stage technologies previously worked sigma largest quantitative hedge funds sigma heavily involved researching blockchain startups analyzed hundreds investment opportunities sector worked index ventures global multistage vc previously invested companies dropbox facebook prior worked boston consulting group helped advise largest fortune 500 tech conglomerates began career east ventures prominent japanese vc early investor omisego mirza attended harvard university simultaneously enrolled courses mit harvard law school 27 x0ccraig brown senior canadian legal advisor partner fasken expert",
+    "metadata": {
+      "chunk_id": "ac6c046bf184507ec7ccdd505f851c8a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 31] japanese vc early investor omisego mirza attended harvard university simultaneously enrolled courses mit harvard law school 27 x0ccraig brown senior canadian legal advisor partner fasken expert areas mergers acquisitions corporate finance craig provides strategic legal business advice help companies realize potential canada new foreign markets craig xe2 x80 x99s practice sector agnostic past decade extensively engaged wide variety leading participants dynamic ontario innovation ecosystem addition providing excellent legal advice craig seeks intermediate opportunities clients including sourcing qualified investment targets vc private equity clients introducing promising early stage companies strategic partners investment groups capable providing transformational growth capital daniel fuke canadian legal advisor partner fasken daniel partner fasken xe2 x80 x99s securities mergers acquisitions group advises clients investment funds blockchain industries practice daniel frequently advises",
+    "metadata": {
+      "chunk_id": "044367bfc823be7f7d3585bab6d09481",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  },
+  {
+    "text": "[Section 32] legal advisor partner fasken daniel partner fasken xe2 x80 x99s securities mergers acquisitions group advises clients investment funds blockchain industries practice daniel frequently advises public private entities equity debt financings share asset purchase transactions investment fund formations blockchain area daniel advised clients initial coin offerings cryptocurrency exchanges investment fund formation daniel written presented number topics affecting blockchain companies focus securities law issues gavin knight strategic advisor gavin led investor relations bitangels 2013 coordinating pitches investor connections equity based investments time cryptocurrency space working customer service marketing business development investor relations advisory focuses organizational models team token economics community relations 28 x0c",
+    "metadata": {
+      "chunk_id": "dc307c0616b16c72ddd5308ec40f7c8a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "OneLedger.txt"
+    }
+  }
+]

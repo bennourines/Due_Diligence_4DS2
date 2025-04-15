@@ -1,0 +1,630 @@
+[
+  {
+    "text": "[Section 1] rchain architecture documentation release 0 8 1 ede eykholt lucius gregory meredith joseph denman january 12 2017 contents 1 abstract 1 1 1 introduction 1 1 2 comparison blockchains 2 1 3 architecture overview 4 1 4 requirements 5 1 5 architectural approach 5 1 6 pseudonymous identity cryptography 6 1 7 blockchain data 6 1 8 contracts 8 1 9 p2p node communications 13 1 10 specialk data continuation access cache 13 1 11 content delivery network 14 1 12 attention reputation economy 14 1 13 applications 15 1 14 contract development deployment 16 1 15 governance 16 1 16 implementation roadmap 16 1 17 participation 17 ii chapter 1 abstract rchain s platform architecture decentralized economically sustainable public compute infrastructure platform design results inspirations earlier blockchains builds shoulders giants disciplines mathematics programming language design intended audience document written primarily software designers developers want help vision realized want support efforts 1",
+    "metadata": {
+      "chunk_id": "1ece685751a22e90714aac758b350a91",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 2] builds shoulders giants disciplines mathematics programming language design intended audience document written primarily software designers developers want help vision realized want support efforts 1 1 introduction rchain cooperative partners building public sybil resistant censorship resistant computing utility open source project blockchain based platform specifying verifying building running decentralized protocols smart contracts form base decentralized applications technology platform broad array solutions built including financial services monetized content delivery networks marketplaces governance solutions daos rchain s flagship decentralized social platform decentralization movement ambitious spawn solutions provide awesome opportunities new social economic interactions decentralization provides counter balance abuses corruption occasionally occur organizations power concentrated including large corporations governments decentralization supports self determination rights",
+    "metadata": {
+      "chunk_id": "ec21264a91a77d29f5fb8eb61b64b836",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 3] provides counter balance abuses corruption occasionally occur organizations power concentrated including large corporations governments decentralization supports self determination rights individuals self organize course realities decentralized world challenges issues needs international law public good compassion honored admire respect awesome innovation intentions bitcoin ethereum creators platforms dramatically advanced state decentralized systems ushered new age cryptocurrency smart contracts symptoms projects didn t use best engineering mathematical models scaling correctness order support mission critical solutions ongoing debates bitcoin scaling june 2016 issues dao smart contract symptomatic foundational architectural issues example question scalable insist explicit serialization order transactions conducted planet earth rchain s requirements originating rchain s decentralized social product attention reputation economy provide content delivery scale facebook support",
+    "metadata": {
+      "chunk_id": "e1d1bc0dd66e6a01c1820d05a3e156b9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 4] order transactions conducted planet earth rchain s requirements originating rchain s decentralized social product attention reputation economy provide content delivery scale facebook support transaction volume speed scale visa diligence current state blockchain projects deep collaboration ethereum developers understanding respective roadmaps rchain leadership concluded current near term blockchain architectures meet requirements rchain partners resolved build better blockchain architecture blockchain industry dawn decentralized movement time lay correct architectural foundation journey ahead share ambitious vision challenging worthwhile document summarizes vision seek accomplish compare blockchains bitcoin ethereum 1 rchain architecture documentation release 0 8 1 outline rchain architecture rationale creation pointers initial specifications 1 2 comparison blockchains document assumes reader familiar basics bitcoin ethereum approach introducing architecture let s compare",
+    "metadata": {
+      "chunk_id": "c6f635367edc250ae9286c1f916c4f7c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 5] architecture rationale creation pointers initial specifications 1 2 comparison blockchains document assumes reader familiar basics bitcoin ethereum approach introducing architecture let s compare characteristics bitcoin ethereum rchain currently planned 2 chapter 1 abstract rchain architecture documentation release 0 8 1 bitcoin ethereum rchain semantic data structure blockchain chain blocks block contains header points previous block list transactions data blockchain chain blocks block contains header points previous block transaction list ommers uncles list blockchain graph blocks block contains header points previous blocks list transactions data details blockchain data semantics consensus algorithm proof work current proof work future proof stake stake based betting blocks proof stake stake based logical propositions finality probability transaction reversal diminishes time new block confirmation probability transaction reversal diminishes time new block confirmation probability",
+    "metadata": {
+      "chunk_id": "7ed52510b9413a02d8218cccf9cca824",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 6] stake based logical propositions finality probability transaction reversal diminishes time new block confirmation probability transaction reversal diminishes time new block confirmation probability transaction reversal diminishes time block confirmation visibility global private consortium public depending deployed nodes private consortium public depending namespace deployed nodes revision mechanism soft hard forks current soft hard forks future block revisions case temporary network isolation block revisions case temporary network isolation sharding heterogeneity homogeneous e sharded current homogeneous e shardedfuture level sharding address space allows clients subscribe selected address namespaces downloading entire blockchain able impose different policies different address namespaces basis sharding n address range dynamic composable sharding based namespace interaction number levels n future levels cluster leaves unbounded number levels concurrency n current future yes yes",
+    "metadata": {
+      "chunk_id": "6ed8b5b0e9ee5152c3c59eaa3360ac82",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 7] basis sharding n address range dynamic composable sharding based namespace interaction number levels n future levels cluster leaves unbounded number levels concurrency n current future yes yes allows concurrent propositions committing blocks don t conflict contracts computational power stack based language instructions turing complete turing complete runtime architecture script runs bitcoin core libbitcoin native implementations ethereum virtual machine implemented multiple platforms rhovm implemented multiple platforms programming language script solidity serpent lll languages implemented evm rholang languages implemented rhovm block size 1mb dynamic dynamic max transaction contract size 100kb dynamic based gas limit dependent token type 1 2 comparison blockchains 3 rchain architecture documentation release 0 8 1 1 3 architecture overview primary components architecture depicted like layer cake views architecture diagram simplification actual architecture glance ll notice components",
+    "metadata": {
+      "chunk_id": "e2c8219a0d2f0e7f89056680f8a3f959",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 8] release 0 8 1 1 3 architecture overview primary components architecture depicted like layer cake views architecture diagram simplification actual architecture glance ll notice components expected blockchain architectures components expected data managed platform requires associated payment course application manage data data referenced pointer stored blockchain addition datastore base architecture consensus protocol peer peer gossip network form foundation specialk data continuation access cache layer evolution existing specialk technology including decentralized content delivery key value database inter node messaging data access patterns privacy protecting agent model casper consensus protocols assure nodes reach agreement contracts contract state transactions node interested blockchain contracts aka smart contracts protocols programs written new domain specific language contracts called rholang contract languages compile rholang executed rho virtual machine number native platforms",
+    "metadata": {
+      "chunk_id": "0a28f1d6c0652f31160e4c8928d9eb43",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 9] contracts aka smart contracts protocols programs written new domain specific language contracts called rholang contract languages compile rholang executed rho virtual machine number native platforms smart contracts include essential system contracts providing capabilities tokens application supplied contracts metered monetized content delivery network cdn enabled token micro payment contracts accessing mix blockchain chain data attention reputation economy provides model set interactions motivating respectful economic creation dissemination information social networks architecture apis especially layers typed apis provide access rhovm contract services individual contracts addition apis including restful apis provided accessing cdn attention reputation economy 4 chapter 1 abstract rchain architecture documentation release 0 8 1 ll detail components sections let s discuss requirements software architecture approach motivating platform solution 1 4 requirements let s look requirements",
+    "metadata": {
+      "chunk_id": "7720b872984da7ef0d61688a6cae7d21",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 10] architecture documentation release 0 8 1 ll detail components sections let s discuss requirements software architecture approach motivating platform solution 1 4 requirements let s look requirements platform vantage point developers building applications let s look required platform order achieve requirements requirements decentralized application developers fully decentralized tamper proof blockchain immutable history smart contract state conserved quantities vm state reliably replicated support multiple tokens ability write predictably secure software contracts scalable requirements architecture design provably correct approaches data separation namespace addressing reduce unnecessary data replication independent tokens contracts support concurrent protocol execution distributed decentralized minimal external dependencies peer peer discoverable nodes consensus protocol computationally efficient resource intensive non requirements long list items architecture address let s list",
+    "metadata": {
+      "chunk_id": "25fbd237cc8a65328214afa8eb908e73",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 11] minimal external dependencies peer peer discoverable nodes consensus protocol computationally efficient resource intensive non requirements long list items architecture address let s list dispel common misperceptions example architecture address compatibility smart contracts scripts written blockchain technologies automated coin conversion platform better handled application level 1 5 architectural approach building quality software challenging easier hand craft clever software resulting software poor quality riddled bugs difficult maintain difficult evolve inheriting working software hellish development teams building open source system support mission critical economy reject minimal success mindset favor end end correctness resolved meet requirements stated earlier section build quality software implements specified protocols build software based software architecture patterns correct construction approaches 1 4 requirements 5 rchain architecture documentation release 0 8 1 cues",
+    "metadata": {
+      "chunk_id": "81f0b9d1169ed8de0a1ad72b6cadbd06",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 12] software implements specified protocols build software based software architecture patterns correct construction approaches 1 4 requirements 5 rchain architecture documentation release 0 8 1 cues mathematics use formal verification protocols leveraging model checking theorem proving evidence based decisions supporting rationale design decisions choose functional programming paradigm better enables distributed parallel processing apply best practices software patterns including compositionality 1 6 pseudonymous identity cryptography like blockchains rchain use elliptic curve cryptography ecc exact curve address formats selected areas cryptography employed including transaction signing data encryption channel based diffie hellman key exchange nodes datastores obscurity keys data dht 1 7 blockchain data 1 7 1 data semantics like ethereum rchain blockchain store contracts serialized state utxo style transactions implemented simpler system level contracts like bitcoin ethereum tamper proof",
+    "metadata": {
+      "chunk_id": "80c7d0b4e172fecab2c44fbfd3747472",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 13] data 1 7 1 data semantics like ethereum rchain blockchain store contracts serialized state utxo style transactions implemented simpler system level contracts like bitcoin ethereum tamper proof blockchain semantics create history blocks blockchain s main purpose efficiently store essential state necessary sequencing timestamping note math underlying blockchain semantic structure known traced monoidal category detail masahito hasegawa s paper topic recursion cyclic sharing traced monoidal categories models cyclic lambda calculi rchain design considers storage conserved data conserved forever instead data storage leased cost producers data proportion size contract complexity lease duration unlike bitcoin ethereum immutable data promised truly forever long lease duration equivalent simple economic reason justifying leasing storage paid maintained ve chosen economic mechanism direct environmentally unfriendly idea storage free subsidize unrelated process small real cost measurable heat",
+    "metadata": {
+      "chunk_id": "030b3cbb76e74d80de9016d6f383c141",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 14] economic reason justifying leasing storage paid maintained ve chosen economic mechanism direct environmentally unfriendly idea storage free subsidize unrelated process small real cost measurable heat signatures data centers growing staggering size charging data accessed helps reduce attack storage storage illegal content discredit technology variety data supported including public unencrypted json encrypted blobs mix data reference platform data stored private consortium public obscure locations formats 6 chapter 1 abstract rchain architecture documentation release 0 8 1 1 7 2 data storage data accessed specialk semantics physically stored key value database given node choose address namespaces cares data needs replicated node 1 7 3 addresses sharding compositionality contrast blockchains addresses public keys hashes thereof rchain s address space structured similar internet web works ip addresses urls respectively structured addressing approach allows programs talk location nuanced",
+    "metadata": {
+      "chunk_id": "11f45f2a28ce6ffa837bcd38c4159f1f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 15] addresses public keys hashes thereof rchain s address space structured similar internet web works ip addresses urls respectively structured addressing approach allows programs talk location nuanced fine grained way design choice enables fast datalog queries based namespaces better system performance analyzing communication patterns optimize sharding solution sharding solution allows dynamic composable sharding based namespace interaction concurrent betting committing blocks don t conflict clients subscribe select address spaces downloading entire blockchain able impose different policies maximum transaction size different address ranges arbitrary number levels address namespace additional information linear types change blockchain pdf lex hangout video describes inspirational math thinking area linear types provide nice way decompose blockchain scalable fashion sharding semantics type system 1 7 4 namespace definition policy order support use cases users bitcoin find valuable broader",
+    "metadata": {
+      "chunk_id": "7347940a701feac194a535dcf19b9cfa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 16] area linear types provide nice way decompose blockchain scalable fashion sharding semantics type system 1 7 4 namespace definition policy order support use cases users bitcoin find valuable broader use cases namespace definitions corresponding policy set constrains use example setting maximum contract code size maximum data size minimum lease time maximum lease time parameters policies namespace defined provide better guarantees fast transaction speed immutability example 1 7 5 contract ownership transactions messages rchain s contract accounts transactions messages analogous ethereum 1 7 6 rate limiting mechanism rchain s vm implement rate limiting mechanism related calculation processing memory storage bandwidth resources mechanism needed order recover costs hardware related operations bitcoin ethereum gas similar needs mechanisms different specifically 1 7 blockchain data 7 rchain architecture documentation release 0 8 1 metering vm level injected contract code source source",
+    "metadata": {
+      "chunk_id": "43625f39e0da892b64e98afdbd7ea323",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 17] bitcoin ethereum gas similar needs mechanisms different specifically 1 7 blockchain data 7 rchain architecture documentation release 0 8 1 metering vm level injected contract code source source translation compilation process 1 1 7 7 tokens somewhat similar omni layer multiple types tokens supported tokens different properties depending type including parameters supply initial supply supply growth function final supply fungibility properties type token link class e set distinguishing properties ratelimiting mechanism 1 8 contracts rchain contract specified behaved program interacts contract interaction clients contracts transactions contract given state needs evaluated read blockchain deserialized rhovm intermediate representation ir contract state parameters delimited continuation pattern rhovm ir compiled vm format executed contract run transaction state resulting state serialized stored blockchain 1 8 1 contract execution model rholang rhovm section describes essential requirement",
+    "metadata": {
+      "chunk_id": "f8dd3731e466753849a6e72f50f7123e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 18] rhovm ir compiled vm format executed contract run transaction state resulting state serialized stored blockchain 1 8 1 contract execution model rholang rhovm section describes essential requirement decentralized concurrency internet scale applications compute models programming languages best suit requirement rholang introduced behaviorally typed reflective higher order process language 1 8 2 concurrency requirements platform supporting global decentralized compute utility supports wide variety applications scale concurrency essential achieve transactions interact able complete time enforce sequencing constraint forces nodes process transactions sequencing constraint essentially causes blockchains current form fundamentally unscalable concurrency talking multi threaded implementation functions handling non blocking o concurrent processes nodes internet built billions autonomous computing devices executing programs concurrently respect devices concurrently devices modern hardware",
+    "metadata": {
+      "chunk_id": "6a6ea7e9fd8c8e93d437af33968afb6e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 19] functions handling non blocking o concurrent processes nodes internet built billions autonomous computing devices executing programs concurrently respect devices concurrently devices modern hardware supports native multi threading capability decentralization places special emphasis autonomy independence devices programs running apis centralized trusted parties programmers pretend giant sequential computer thing past inside organizations sequential architecture giving way lots lots autonomously executing microservices 1 ethereum 2 0 intending following technique 8 chapter 1 abstract rchain architecture documentation release 0 8 1 1 8 3 mobile process calculi relatively programming paradigms languages handle concurrent processes core model instead bolt kind threading based concurrency model address able scale thing time mobile process calculi provides model ve chosen provide fundamentally different notion computing models computing arises primarily interaction processes family mobile",
+    "metadata": {
+      "chunk_id": "0db695e943f2bf27dbefb0115ca37c7b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 20] address able scale thing time mobile process calculi provides model ve chosen provide fundamentally different notion computing models computing arises primarily interaction processes family mobile process calculi provides optimal foundation system interacting processes models computation applied calculus stands models processes send queries channels approach maps today s internet tool choice reasoning wide variety concerns essential distributed protocols basic fit way internet computes mobile process calculi going behavioral types behavioral types represent new kind typing discipline constrains shape input output permitted order inputs outputs communicating processes getting concurrency right hard support kind typing discipline extremely valuable ensure end end correctness large system communicating processes 1 8 4 rho calculus model based applied calculus equipped behavioral typing discipline best fit programming language decentralized internet let contracting language blockchain s",
+    "metadata": {
+      "chunk_id": "39ce716dd6d11de35a45d63687e5f11a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 21] processes 1 8 4 rho calculus model based applied calculus equipped behavioral typing discipline best fit programming language decentralized internet let contracting language blockchain s key ingredient rho calculus variant calculus introduced 2004 provided model concurrent computation reflection reflection widely recognized key feature practical programming languages java c scala eventually adopted reflection core feature ocaml haskell ultimately developed reflective versions reason simple industrial scale human agency end long chain programs operating programs programmers use programs write programs computational leverage long write industrial scale reflection key features enables programs write programs providing disciplined way turn programs data programs operate turn modified data programs lisp programmers known decades powerful feature took modern languages time catch understanding rhocalculus computational model combine core requirements behaviorally typed fundamentally",
+    "metadata": {
+      "chunk_id": "2675da64f97a57298d1000299b63741c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 24] contracting language contract language step includes injection code rate limiting mechanism b desugaring syntax c simplification functional equivalencies result targets rhovm ir note state rhovm serialized deserialized storage blockchain 10 chapter 1 abstract rchain architecture documentation release 0 8 1 compilation rhovm ir delimited continuations ir continuation passing delimited continuations ir lambda ir compilation follows translation pattern delimited continuations traditional continuation passing style proven correct ocaml compilation strategy code lambda ir llvm ocaml compiler note llvm core libraries provide modern source target independent optimizer code generation support popular cpus details rho lang channel rchain slack join early compiler work seen github discussion gitter 1 8 7 formal specification rholang formally specified investigating frameworks k framework achieve 1 8 8 model checking theorem proving composition contracts rhovm potentially upstream contracting",
+    "metadata": {
+      "chunk_id": "bce51e10fc852d0a59aa548823ce5b6a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 25] 1 8 7 formal specification rholang formally specified investigating frameworks k framework achieve 1 8 8 model checking theorem proving composition contracts rhovm potentially upstream contracting languages variety techniques checks applied compile time runtime help address requirements developer system know priori contracts typed terminate formal verification assure end end correctness model checking slmc theorem proving pro verif additionally checks applied runtime newly proposed assemblies contracts evaluated 1 8 9 discovery service advanced discovery feature ultimately implemented enables searching compatible contracts assembling new composite contract contracts formal verification techniques author new contract guaranteed working contracts plugged work 1 8 10 validation casper consensus protocol nodes validation role function achieve consensus blockchain state validators assure blockchain self consistent hasn t tampered protect sybil attack casper consensus protocol includes",
+    "metadata": {
+      "chunk_id": "e1b7e0456b6d7b399e11af0677868051",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 26] protocol nodes validation role function achieve consensus blockchain state validators assure blockchain self consistent hasn t tampered protect sybil attack casper consensus protocol includes stake based bonding unbonding betting cycles result consensus purpose decentralized consensus protocol assure consistency blockchains partial blockchains based shards multiple nodes achieve consensus protocol produce outcome proof safety termination properties class consensus protocols wide class fault network conditions rchain s consensus protocol uses stake based betting similar ethereum s casper design called proof ofstake protocol broader blockchain community label leads misperceptions including overstated centralization risks validators bonded stake security deposit placed escrow like contract unlike ethereum s betting blocks rchain s betting logical propositions proposition set statements blockchain example transactions e proposed state transitions included order transactions included",
+    "metadata": {
+      "chunk_id": "3445ce33dae9ceacc75db12b3ab87c88",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 27] unlike ethereum s betting blocks rchain s betting logical propositions proposition set statements blockchain example transactions e proposed state transitions included order transactions included properties concrete example proposition transaction t occur transaction s transaction r included information draft specification logic betting propositions v0 7 certain rendezvous points validators compute maximally consistent subset propositions cases computationally hard long time time exist reached forces validators 1 8 contracts 11 rchain architecture documentation release 0 8 1 submit smaller propositions consensus validators maximally consistent subset propositions block easily materialized finding minimal model propositions valid design concurrency enabled sharding address space consensus reached huge number transactions time let s walk typical sequence 1 validator node role validators stake akin bond order assure validators good actors stake risk aren t good actor 2 clients send",
+    "metadata": {
+      "chunk_id": "76783cc5c42276a1c914715443c0c59b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 28] reached huge number transactions time let s walk typical sequence 1 validator node role validators stake akin bond order assure validators good actors stake risk aren t good actor 2 clients send transaction requests validators 3 receiving validators create proposition including recent transaction 4 sets betting cycles nodes 1 originating validator prepares bet includes following source origin bet target destination target bet claim claim bet block proposition maximally consistent subset propositions belief player s confidence claim given evidence justification denotation betting strategy validator justification evidence reasonable bet 2 validator places bet 3 receiving validator evaluates bet note justification structures determine properties network example algorithm detect equivocation create justification graph detect information bet note attack vectors considered game theory discipline applied protocol design 5 betting cycles continue working proof note 1 goal betting cycle",
+    "metadata": {
+      "chunk_id": "b5158db3aace715fde033773c226bfbc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 29] create justification graph detect information bet note attack vectors considered game theory discipline applied protocol design 5 betting cycles continue working proof note 1 goal betting cycle validator nodes reach consensus maximally consistent set propositions 2 prerequisite condition proof validators behaving reasonable fashion 3 eventually betting cycle converge 4 processing partially synchronous convergence 5 proposition betting design able synthesize bigger chunks blockchain 6 cycles converge quickly conflicts 7 point proposition approach blocks materialized proposal gets block size limits s argument maximal consistent set propositions allow hundreds thousands blocks agreed create huge speed advantage existing blockchains 8 betting cycle given validator node win lose bet 9 scalability achieved fine grained sharding proposals nesting recursion consensus protocol 12 chapter 1 abstract rchain architecture documentation release 0 8 1 6 blocks synthesized protocol agreement set",
+    "metadata": {
+      "chunk_id": "6b2413463eb5109e68f51940761e55fd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 30] achieved fine grained sharding proposals nesting recursion consensus protocol 12 chapter 1 abstract rchain architecture documentation release 0 8 1 6 blocks synthesized protocol agreement set maximally consistent propositions occurs proof convergence bets current betting cycle collapses additional information consensus games axiomatic framework analyzing comparing wide range consensus protocols detail rchain s consensus protocol logic betting betting propositions find ethereum s casper discussions ethereum research gitter reddit ethereum math underlying betting cycle iterated function system convergence corresponds having attractors fix points ifs prove things convergence awards punishments validator node betters maximum freedom ones left standing validators engaged convergent betting behavior 1 9 p2p node communications similar decentralized implementations component handles node discovery inter node trust communication number platform level protocols developed related security node",
+    "metadata": {
+      "chunk_id": "c809f2d917a71028edded711e5414834",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [
+          "collapse"
+        ],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 31] 1 9 p2p node communications similar decentralized implementations component handles node discovery inter node trust communication number platform level protocols developed related security node trust communications 1 10 specialk data continuation access cache current rchain 1 0 technology stack delivers decentralized cdn primary component specialk sits mongodb rabbitmq create decentralized logic storing retrieving content locally remotely specialk implements distributed data access patterns consistent way shown item level read write distributed locking db read write pub sub messaging pub sub history data ephemeral persistent ephemeral persistent continuation 1 ephemeral ephemeral persistent persistent producer verb k 2 store publish publish history consumer verb read subscribe subscribe view nodes collaborate respond request shown 1by convention continuation function represented parameter named k 2this subset verbs possible decomposition functionality verb fetch example gets data",
+    "metadata": {
+      "chunk_id": "2796da520b2011a484da3f0f62c648f1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 32] view nodes collaborate respond request shown 1by convention continuation function represented parameter named k 2this subset verbs possible decomposition functionality verb fetch example gets data leaving continuation data available 1 9 p2p node communications 13 rchain architecture documentation release 0 8 1 1 node checks memory cache found 2 checks local store found stores delimited continuation location 3 checks network network returns data delimited continuation brought scope retrieved data parameter rchain platform implementation cdn evolve fundamental design 1 11 content delivery network layer track access storage content software clients required pay creation storage retrieval content delivered cdn microtransactions storing retrieving content free technical solution free users like centralized solutions subsidize cost indirect ways promise micropayments rchain platform directly charge storage retrieval content 1 12 attention reputation economy user centric perspective economy",
+    "metadata": {
+      "chunk_id": "653426fb3498f09e4652ac50f4289a64",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 33] centralized solutions subsidize cost indirect ways promise micropayments rchain platform directly charge storage retrieval content 1 12 attention reputation economy user centric perspective economy aims directly unobstructedly allow value placed content s creation consumption promotion applies types content example short textual post created sent initial distribution list read promoted liked available readers short movie workflow paths attention given rewards flow content originator promoters based s engagement content exchanged 14 chapter 1 abstract rchain architecture documentation release 0 8 1 s connections connection s reputation computed reputation rank subsequently present content manner consistent user demonstrated attention recent past information original whitepaper rchain decentralized distributed social network latest thinking attention reputation economy described slack discussions blog posts fig 1 1 3economiesvenn png 1 1 13 applications number variety applications built",
+    "metadata": {
+      "chunk_id": "5439bfb953bd08a313c19f6f87ca2580",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 34] distributed social network latest thinking attention reputation economy described slack discussions blog posts fig 1 1 3economiesvenn png 1 1 13 applications number variety applications built rchain platform provide decentralized public compute utility include example wallets exchanges oracles external adapters custom protocols smart contracts smart properties daos social networks marketplaces 1croll alistair 2009 http human20 com free reputation non traditional economies 1 13 applications 15 rchain architecture documentation release 0 8 1 application providers committed platform including rchain social product livelygig marketplaces wewowwe sports based social network nobex radio announced product 1 14 contract development deployment purpose discussion illustrate namespaces allow heterogeneous deployment contracts contract state namespaces crucial features sharding benefits analogous sidechains private chains consortium chains distinction test production rubric example following",
+    "metadata": {
+      "chunk_id": "6ae5771b749169918309bc0d81745d60",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 35] deployment contracts contract state namespaces crucial features sharding benefits analogous sidechains private chains consortium chains distinction test production rubric example following diagram depicts possible development test deployment configurations considerations release management enabled namespaces sharding ll collaborate ide tool vendors integrate rholang validation tools 1 15 governance like open source decentralized projects especially involving money blockchains rchain platform components require created tested released evolved great care rchain s leadership fully intends help define governance processes empower public community enforce 1 16 implementation roadmap rchain roadmap currently developed major milestones include following 16 chapter 1 abstract rchain architecture documentation release 0 8 1 programming model execution rholang 1 0 rhovm 1 0 blockchain bet proposition casper style proof stake blockchain storage blockchain ii metering token content delivery basic",
+    "metadata": {
+      "chunk_id": "b2a32f9ad1e4e66319ba89a1ecd7476f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Rchain.txt"
+    }
+  },
+  {
+    "text": "[Section 36] release 0 8 1 programming model execution rholang 1 0 rhovm 1 0 blockchain bet proposition casper style proof stake blockchain storage blockchain ii metering token content delivery basic query update model attention economy post contract model amp reo stochasticity 1 17 participation invite participate rchain s slack channels joining http slack rchain coop need variety talent urgently programmers solid computer science formal methods ideally experience mobile process calculi functional programming individuals demonstrate ability quickly learn disciplines need investors help fund building architecture note forward looking statements document subject risks contact lucius gregory meredith ed eykholt information 1 17 participation 17",
+    "metadata": {
+      "chunk_id": "62d3362b92e4c3a58344caa0965dcf0a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Rchain.txt"
+    }
+  }
+]

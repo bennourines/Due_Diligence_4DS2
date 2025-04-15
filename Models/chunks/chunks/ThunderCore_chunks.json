@@ -1,0 +1,586 @@
+[
+  {
+    "text": "[Section 1] b thunder protocol rafael pass elaine shi thunder research 1 introduction white paper introduce thunder protocol new provably secure consensus protocol overcomes main bottlenecks classic blockchains throughput existing blockchains employed major crypto currencies e g bitcoin ethereum require flooding network transactions consequence blockchains scale handle large transaction volume instance bitcoin ethereum handle 10 transactions second small throughput severely hinders wide spread adoption crypto currencies comparison visa handles 2000 transactions sec confirmation times security nakamoto xe2 x80 x99s blockchain protocol requires block time significantly larger maximum network latency 20 bitcoin new blocks transactions mined 10 minutes transaction considered confirmed incorporated block 5 subsequent blocks following takes average hour transaction confirmed low confidence ethereum uses smaller block time average confirmation time remains relatively high xe2 x80 x94approximately 13",
+    "metadata": {
+      "chunk_id": "b5e4972bd3f2a3161be978f3d9f8dbdc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 2] 5 subsequent blocks following takes average hour transaction confirmed low confidence ethereum uses smaller block time average confirmation time remains relatively high xe2 x80 x94approximately 13 minutes long confirmation times hinder important applications especially smart contract applications thunder protocol overcomes issues achieving high throughput fast confirmation time typical circumstances 2 network roundtrips robust 50% attack aware recently suggested approaches overcoming bottlenecks approaches restricted payments handle smart contracts provide security weaker 1 3 attack additionally approaches based heuristic arguments protocol accompanied rigorous proof security section 4 details design thunder inspired new theoretical paradigm consensus proposed earlier work thunderella 21 provides practical instantiation general paradigm paradigm instantiated proof work proof stake 1 x0c2 thunder protocol following thunderella paradigm 21 key idea thunder combine xe2 x80 x9cstandard",
+    "metadata": {
+      "chunk_id": "c5591aec4bfbf61bc364772df853e764",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 3] provides practical instantiation general paradigm paradigm instantiated proof work proof stake 1 x0c2 thunder protocol following thunderella paradigm 21 key idea thunder combine xe2 x80 x9cstandard xe2 x80 x9d blockchain xe2 x80 x94which refer slow chain xe2 x80 x94with optimistic fast path fast path coordinated new entity referred accelerator requires use committee xe2 x80 x9cstake holders xe2 x80 x9d long accelerator acting honestly b network conditions good c 3 4 committee honest barely need use slow chain instead transactions confirmed fast path committee extremely simple lean fast path protocol protocol offers high throughput instant confirmation transactions fast path confirms new transactions assuming mentioned good conditions met e g accelerator misbehaves attack leverage xe2 x80 x9cslow chain xe2 x80 x9d recover provably sound manner proceed provide detailed description new consensus protocol 2 1 consensus blockchains roughly speaking blockchain simply permissionless",
+    "metadata": {
+      "chunk_id": "948720865259b1f2fae7f87cd0afeee7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 4] xe2 x80 x9cslow chain xe2 x80 x9d recover provably sound manner proceed provide detailed description new consensus protocol 2 1 consensus blockchains roughly speaking blockchain simply permissionless implementation primitive known state machine replication consensus distributed systems literature consensus consensus protocol enables maintaining xe2 x80 x9clinearly ordered log xe2 x80 x9d transactions distributed fashion following properties hold xe2 x80 xa2 consistency point execution honest participants consistent logs transactions xe2 x80 x94that logs identical participant xe2 x80 x99s log prefix xe2 x80 x99s xe2 x80 xa2 liveness honest protocol participant propose add transaction transaction guaranteed incorporated logs fixed small time additionally participant sees transaction log transaction appear participant xe2 x80 x99s log fixed small time essence properties mean view participants communicating trusted party maintains global ordered append log transactions add xe2 x80 x94in",
+    "metadata": {
+      "chunk_id": "4f542c1e9ce168befe75474568561cde",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 5] appear participant xe2 x80 x99s log fixed small time essence properties mean view participants communicating trusted party maintains global ordered append log transactions add xe2 x80 x94in essence public ledger goal implement consensus protocol permissionless setting high throughput fast confirmation transactions blockchains formal definition blockchain found 20 strictly speaking blockchain directly described consistency property consistency property defined blockchain players consistent view blockchain dropping xce xba blocks xce xba security parameter words xce xba blocks xe2 x80 x9cunstable xe2 x80 x9d stabilized exponentially vanishing probability function security parameter xce xba mentioned main properties consistency liveness 20 defines notion bounded chain growth length blockchain grow define pace fast slow require use slow chain satisfies bounded chain growth pass et al 20 nakamoto xe2 x80 x99s protocol satisfies properties mining hardness appropriately set function network",
+    "metadata": {
+      "chunk_id": "619a277d3a4ac668fe4ef02acc767305",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 6] grow define pace fast slow require use slow chain satisfies bounded chain growth pass et al 20 nakamoto xe2 x80 x99s protocol satisfies properties mining hardness appropriately set function network delay total computing power 2 x0cassuming majority mining honest users k xe2 x80 x9ccomputational honest majority xe2 x80 x9d precisely nakamoto protocol satisfies consistency liveness mining hardness set function maximum network latency block time bitcoin system set 10 minutes significantly exceeds maximum network latency ethereum xe2 x80 x99s protocol related nakamoto xe2 x80 x99s ought satisfy security contexts ipants distinguish different conditions network partic xe2 x80 xa2 worst case conditions w protocol guaranteed provide consistency liveness e w conditions protocol guaranteed secure case w conditions 1 underlying slow chain secure turn follows computational honest majority case nakamoto xe2 x80 x99s blockchain 2 majority committee honest worst case conditions confirmation times",
+    "metadata": {
+      "chunk_id": "937355abb16af47a60fcf3a51c7794aa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 7] case w conditions 1 underlying slow chain secure turn follows computational honest majority case nakamoto xe2 x80 x99s blockchain 2 majority committee honest worst case conditions confirmation times slow transaction load limited case bitcoin ethereum xe2 x80 xa2 optimistic conditions o transaction volume large transactions xe2 x80 x9cinstantly xe2 x80 x9d confirmed case o conditions 1 slow chain secure 2 accelerator online honest 3 43 committee online honest new thunder protocol use simple fast path protocol conjunction underlying slow chain ensure worst case security w instant confirmation highthroughput o mentioned key idea use xe2 x80 x9cfast path xe2 x80 x9d protocol things work use slow chain recover faults 2 2 simple fast path protocol consider following simple fast path protocol xe2 x80 xa2 designated entity accelerator xe2 x80 xa2 new transactions sent accelerator accelerator bundles transactions micro blocks signs micro block increasing sequence numbers seq sends signed micro",
+    "metadata": {
+      "chunk_id": "4693b4c56a86d5b525e4944221b2c97f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 8] x80 xa2 designated entity accelerator xe2 x80 xa2 new transactions sent accelerator accelerator bundles transactions micro blocks signs micro block increasing sequence numbers seq sends signed micro block xe2 x80 x9ccommittee xe2 x80 x9d players xe2 x80 xa2 committee members xe2 x80 x9cack xe2 x80 x9d accelerator signed micro blocks signing ack micro block sequence number xe2 x80 xa2 micro block received acks e signatures 3 4 committee members refer micro block notarized notarization microblock collection signatures 1 participants directly output longest 1 actual implementation use aggregate signature scheme describe notarization compact form 3 x0csequence consecutive terms sequence numbers notarized micro blocks xe2 x80 x94all transactions contained considered confirmed way fast path instantly finalizes transactions easy prove known protocol consistent condition wfast xe2 x80 x9c 1 2 committee members honest xe2 x80 x9d additionally satisfies liveness instant confirmation conditions",
+    "metadata": {
+      "chunk_id": "3f233c575c0d206c2e73aa396f78ceb7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 9] finalizes transactions easy prove known protocol consistent condition wfast xe2 x80 x9c 1 2 committee members honest xe2 x80 x9d additionally satisfies liveness instant confirmation conditions ofast xe2 x80 x9c1 accelerator online honest 2 3 4 committee members online honest xe2 x80 x9d fact optimistic conditions need 2 communication rounds confirm transaction approach extremely practical similar protocols practice xe2 x80 x94for instance chain com uses related protocol permissioned consensus protocol problem approach protocol satisfy liveness xe2 x80 x9cslow xe2 x80 x9d liveness condition wfast accelerator cheating simply taken network protocol halts case chain com manually fix issue impossible decentralized setting 2 3 recover faults overcome problem leverage underlying xe2 x80 x9cslow chain xe2 x80 x9d assume satisfies consistency liveness roughly speaking deal follows heartbeats length xe2 x84 x93 slow chain accelerator takes hash h current log fast path sends tuple xe2 x84 x93 h",
+    "metadata": {
+      "chunk_id": "5dc09f4c15fd80ca46a290fbf45b1ded",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 10] chain xe2 x80 x9d assume satisfies consistency liveness roughly speaking deal follows heartbeats length xe2 x84 x93 slow chain accelerator takes hash h current log fast path sends tuple xe2 x84 x93 h seq seq current sequence number notarized committee members check h correct based history seen refer notarized version tuple xe2 x84 x93 h seq heartbeat accelerator subsequently required post heartbeat slow chain cool user notices transaction getting confirmed accelerator committee xe2 x80 x9cevidence xe2 x80 x9d apparent underlying slowchain xe2 x80 x94as shall shortly evidence simply fact heartbeat observed slow chain sufficiently long period time note liveness bounded chain growth properties slow chain accelerator 3 4 committee online honest guaranteed heartbeat length xe2 x84 x93 gets incorporated close length xe2 x84 x93 evidence cheating e recent heartbeat contained slow chain found enter xe2 x80 x9ccool xe2 x80 x9d period committee members stop signing messages accelerator allow",
+    "metadata": {
+      "chunk_id": "fd9b2da6a493d8c98ea48ddaa51a9dda",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 11] close length xe2 x84 x93 evidence cheating e recent heartbeat contained slow chain found enter xe2 x80 x9ccool xe2 x80 x9d period committee members stop signing messages accelerator allow post xe2 x80 x9cnew xe2 x80 x9d notarized transactions included recent heartbeat slow chain length cool period counted blocks slow chain xce xba blocks xce xba security parameter slow mode finally cool period ends safely enter xe2 x80 x9cslow period xe2 x80 x9d transactions confirmed slow chain blockchain fast path longer active stay slow chain appropriate time counted blocks slow chain e g blocks restore replace faulty accelerator reboot new epoch fast path protocol details reboot step found section 2 4 4 x0clet point reason having cool period players disagree set fast path transactions confirmed entering xe2 x80 x9cslow mode xe2 x80 x9d end inconsistent views cool period enables honest players post notarized transactions seen slow chain slowly reach consensus set transactions reached consistent",
+    "metadata": {
+      "chunk_id": "b61aa97273e16e18fa13d149f6056782",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 12] xe2 x80 x9cslow mode xe2 x80 x9d end inconsistent views cool period enables honest players post notarized transactions seen slow chain slowly reach consensus set transactions reached consistent view end cool finally fully switch confirming new transactions slow chain collecting evidence cheating xe2 x80 x9cyell xe2 x80 x9d transactions remains explain collect evidence accelerator committee cheating simply xe2 x80 x9coffline xe2 x80 x9d player notices transaction getting confirmed accelerator committee send special yell transaction contains transaction wants confirmed underlying slow chain accelerator additionally instructed confirm yell transactions sees slow chain committee member sees transactions slow chain gotten notarized sufficiently long time xe2 x80 x94counted blocks slow chain xce xba blocks xe2 x80 x94they know accelerator large fraction committee members cheating offline point committee member stop signing heartbeat messages long 1 4 committee honest cheating accelerator",
+    "metadata": {
+      "chunk_id": "fc0be03d2bea4a14e4bc0fe51419b5e5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 13] xce xba blocks xe2 x80 x94they know accelerator large fraction committee members cheating offline point committee member stop signing heartbeat messages long 1 4 committee honest cheating accelerator xe2 x80 x9cchoked xe2 x80 x9d xe2 x80 x94 new heartbeats accelerator notarized consequently observes slow chain enter xe2 x80 x9ccool xe2 x80 x9d phase subsequently slow mode 2 4 reboot fast path entered slow mode transactions posted slow chain need way return fast path simplest method current accelerator recovered fault post xe2 x80 x9csummon xe2 x80 x9d message slow chain summon committee members retry certain point time expressed terms future height slow chain generally thunder nodes use slow chain discuss vote rebootstrap possibly renegotiate committee leader election strategy general form nodes inspect stabilized prefix slow chain imagine predicate applied prefix decide nodes attempt reboot fast path section 3 4 discussions 2 5 select committee far deferred discussion committee",
+    "metadata": {
+      "chunk_id": "e90a77f923a5a080f82b8cc66d996b67",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 14] form nodes inspect stabilized prefix slow chain imagine predicate applied prefix decide nodes attempt reboot fast path section 3 4 discussions 2 5 select committee far deferred discussion committee selected consider multiple approaches rely recent miners simplest approach select committee miners 500 recent blocks slow chain 23 note rely approach need ensure underlying slow chain xe2 x80 x9cfair xe2 x80 x9d 22 sense fraction honestly mined blocks close fraction honest players case nakamoto xe2 x80 x99s original blockchain ethereum e g 14 shown 22 blockchain turned fair use approach resulting protocol consistent live simply 5 x0ccondition w xe2 x80 x9ccomputational honest majority xe2 x80 x9d condition implies majority committee honest high throughput instant confirmation holds optimistic conditions o xe2 x80 x9c1 accelerator honest 2 3 4 fraction mining power honest xe2 x80 x9d subsample stake holders blockchain cryptocurrency intend instead select committee subsampling recent stake",
+    "metadata": {
+      "chunk_id": "6d1df0ee3b81e62fac0d0473c95d8d5e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 15] conditions o xe2 x80 x9c1 accelerator honest 2 3 4 fraction mining power honest xe2 x80 x9d subsample stake holders blockchain cryptocurrency intend instead select committee subsampling recent stake holders method earlier work snow white 11 committee active slow chain length xe2 x84 x93 selected based stake holders slow chain length xe2 x84 x93 xe2 x88 x92 2 xce xba selection function takes input hash chain length xe2 x84 x93 xe2 x88 x92 xce xba explained detail earlier work 11 reasons 2 xce xba xe2 x80 x9clook xe2 x80 x9d prevent attacks attacker adaptively selects keys higher probability getting elected committee approach ensures consistency liveness conditions w xe2 x80 x9c1 slow chain secure 2 1 2 stake holders honest xe2 x80 x9d achieves fast confirmation conditions o xe2 x80 x9c1 accelerator online honest 2 3 4 stake holders online honest xe2 x80 x9d drawback approach optimistic assume majority stake holders online conditions fast path rarely hold approach deals issue select",
+    "metadata": {
+      "chunk_id": "38d9d3e828753c9d472f88dce0291922",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 17] protocol specification let xce xba security parameter mentioned require underlying slow chain guarantee consistency liveness negligible probability xce xba concrete parameters presented forthcoming implementation paper simplicity exposition describe protocol starts fast mode simply enters slow mode optimistic conditions stop holding later section 3 4 explain extend protocol enable xe2 x80 x9creboot xe2 x80 x9d fast mode simplicity assume microblock contains single transaction tx xe2 x80 x94in practice microblock contain batch transactions protocol extended deal batching method 6 x0c3 1 notations useful definitions xe2 x80 xa2 underlying slow chain nodes k xe2 x80 x9cminers xe2 x80 x9d run underlying blockchain protocol referred xe2 x80 x9cslow chain xe2 x80 x9d use notation chain denote node xe2 x80 x99s view slow chain use notation chain xe2 x84 x93 denote prefix chain upto xe2 x84 x93 th block use chain xe2 x88 x92 xe2 x84 x93 denote chain xe2 x84 x93 blocks removed recall",
+    "metadata": {
+      "chunk_id": "8c1e21f6e4aff8b03c151ff5ba48401b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 18] denote node xe2 x80 x99s view slow chain use notation chain xe2 x84 x93 denote prefix chain upto xe2 x84 x93 th block use chain xe2 x88 x92 xe2 x84 x93 denote chain xe2 x84 x93 blocks removed recall consistency property blockchain guarantee consistent view chains xce xba xce xba security parameter blocks xe2 x80 x94that xe2 x80 x9cunstable blocks xe2 x80 x9d removed chain xe2 x84 x93 xe2 x84 x93 xe2 x80 xb2 denote chain xe2 x84 x93 th block xe2 x84 x93 xe2 x80 xb2 th block assume commonly known starting length xe2 x84 x93start slow chain begin execution thunder protocol 2 xe2 x80 xa2 committee selection assume publicly known function denoted comm takes input stabilized blockchain chain xe2 x88 x92 xce xba outputs set committee members denoted comm chain xe2 x88 x92 xce xba discussed concrete committee selection methods section 2 5 xe2 x80 xa2 micro blocks micro block fast path log form mblock seq xe2 x84 x93 tx seq xe2 x88 x88 n sequence number xe2 x84 x93 slow chain length associated",
+    "metadata": {
+      "chunk_id": "4afbdaf09e1a0b9cf433ba7f3a4ea69f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 19] committee selection methods section 2 5 xe2 x80 xa2 micro blocks micro block fast path log form mblock seq xe2 x84 x93 tx seq xe2 x88 x88 n sequence number xe2 x84 x93 slow chain length associated micro block indicating slow chain length transaction proposed tx transaction xe2 x80 xa2 heartbeats heartbeat form micro block transaction tx replaced simply hash h log precisely heartbeat form heartbeat seq xe2 x84 x93 h heartbeat associated slow chain length xe2 x84 x93 xe2 x80 xa2 notarization let m form mblock seq xe2 x84 x93 heartbeat seq xe2 x84 x93 xcf x83 notarization m w r t chain xe2 x84 x93 xe2 x89 xa4 chain b xcf x83 valid aggregate signature 43 fraction members comm chain xe2 x84 x93 xe2 x88 x92 xce xba accelerator chain clear context simply xcf x83 notarization m node considers xcf x83 notarization m xcf x83 notarization m w r t node xe2 x80 x99s view slow chain finally notarized microblock heartbeat simply pair consisting microblock heartbeat notarization xe2 x80 xa2 skipped",
+    "metadata": {
+      "chunk_id": "d2e33e4eb2ce74ffbf6ac7b552f1018a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 20] x83 notarization m xcf x83 notarization m w r t node xe2 x80 x99s view slow chain finally notarized microblock heartbeat simply pair consisting microblock heartbeat notarization xe2 x80 xa2 skipped heartbeats slow chain chain skipped heartbeat exists xe2 x84 x93 xe2 x84 x93start xe2 x89 xa4 xe2 x84 x93 xe2 x89 xa4 chain xe2 x88 x92 2 xce xba b chain xe2 x84 x93 xe2 x88 x92 xce xba xe2 x84 x93 xce xba contain notarized heartbeat associated length xe2 x84 x93 3 xe2 x80 xa2 yell transactions yell transaction transaction slow chain special typemodifier yell 2 later multiple epochs fast mode use slow chain reach common knowledge starting length xe2 x84 x93start 3 exists 2 xce xba windows stabilized chain contain appropriate heartbeat 7 x0c3 2 fast mode protocol xe2 x80 xa2 storing notarized messages receiving message m notarization xcf x83 m w r t chain store m mark m notarized xe2 x80 xa2 extracting log lucky sequence defined sequence notarized tuples consecutive sequence numbers t1 1 xe2",
+    "metadata": {
+      "chunk_id": "9d1e265a2d4e47b369333dfb01488c83",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 21] receiving message m notarization xcf x83 m w r t chain store m mark m notarized xe2 x80 xa2 extracting log lucky sequence defined sequence notarized tuples consecutive sequence numbers t1 1 xe2 x84 x931 t2 2 xe2 x84 x932 tk k xe2 x84 x93k xe2 x80 x93 xe2 x84 x931 xe2 x84 x93start xe2 x80 x93 xe2 x88 x88 k ti xe2 x88 x88 mblock heartbeat xe2 x80 x93 xe2 x88 x88 k xe2 x84 x93i 1 xe2 x84 x93i 1 ti heartbeat xe2 x84 x93i 1 xe2 x84 x93i b let xe2 x84 x93 skipped heartbeat chain xe2 x88 x92 xce xba find lucky sequence denoted logstable observed far consistent heartbeats lengths xe2 x84 x93start xe2 x84 x93start 1 xe2 x84 x93 xe2 x88 x92 1 chain xe2 x88 x92 xce xba c let log maximal lucky sequence observed far xe2 x80 x94 ties break ties arbitrarily output logstable concatenated transactions log sequence number appeared logstable xe2 x80 xa2 transitioning xe2 x80 x9cslow mode xe2 x80 x9d noticing chain contains skipped heartbeat transition executing slow mode protocol described section 3 3",
+    "metadata": {
+      "chunk_id": "5b18da73469a33ccb61bca4d50c3f339",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 22] sequence number appeared logstable xe2 x80 xa2 transitioning xe2 x80 x9cslow mode xe2 x80 x9d noticing chain contains skipped heartbeat transition executing slow mode protocol described section 3 3 accelerator xe2 x80 xa2 init set seq 0 xe2 x80 xa2 microblock notarization requests observing new transaction tx transmitted network yell transaction chain xe2 x80 x93 let seq seq 1 xe2 x80 x93 sign tuple m mblock seq chain tx producing signature xcf x83 acc xe2 x80 x93 send notarization request m xcf x83 acc members comm chain xe2 x88 x92 xce xba xe2 x80 xa2 heartbeat notarization requests accelerator notices length slow chain chain grown 1 4 xe2 x80 x93 let log accelerator xe2 x80 x99s current fast path log xe2 x80 x93 let seq seq 1 xe2 x80 x93 sign heartbeat m heartbeat seq xe2 x84 x93 h log h log cryptographic digest fast path log xe2 x84 x93 length slow chain increment xe2 x80 x94let xcf x83 acc denote signature xe2 x80 x93 send notarization request m xcf x83 acc members comm chain xe2",
+    "metadata": {
+      "chunk_id": "11b19ff0c16e099ac30c61afd390a0ee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 23] h log cryptographic digest fast path log xe2 x84 x93 length slow chain increment xe2 x80 x94let xcf x83 acc denote signature xe2 x80 x93 send notarization request m xcf x83 acc members comm chain xe2 x88 x92 xce xba 4 loss generality assume slow chain grows step xe2 x80 x94we emulate multi step hop step hops 8 x0c xe2 x80 xa2 notarization receiving signatures 43 fraction comm chain xe2 x84 x93 xe2 x88 x92 xce xba message m form mblock xe2 x84 x93 heartbeat xe2 x84 x93 notarization request sent compute aggregate signature xcf x83 collected signatures accelerator xe2 x80 x99s signature m broadcast m notarization xcf x83 committee members receiving tuple m form mblock seq xe2 x84 x93 tx heartbeat seq xe2 x84 x93 h valid signature accelerator xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 assert node member comm chain xe2 x84 x93 xe2 x88 x92 xce xba assert xe2 x84 x93 xc2 xb10 5 xce xba chain assert tuple sequence number seq signed m type mblock sign m return tuple signature",
+    "metadata": {
+      "chunk_id": "02bbd0904cbd71798f64d3ce5da771ed",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 24] x80 xa2 assert node member comm chain xe2 x84 x93 xe2 x88 x92 xce xba assert xe2 x84 x93 xc2 xb10 5 xce xba chain assert tuple sequence number seq signed m type mblock sign m return tuple signature accelerator m type heartbeat xe2 x80 x93 assert h h log xe2 x80 xb2 log xe2 x80 xb2 node xe2 x80 x99s fast path log sequence number seq xe2 x88 x92 15 xe2 x80 x93 let txs xe2 x88 x97 yell transactions chain xe2 x88 x92 xce xba assert log contains xe2 x80 x93 sign m return tuple signature accelerator clients receiving transaction tx xe2 x80 xa2 send tx accelerator xe2 x80 xa2 transaction gotten included node xe2 x80 x99s fast path log slow chain grown xce xba steps broadcast yell transaction tx underlying slow chain miners participate underlying slow chain xe2 x80 x99s mining input slow chain protocol includes xe2 x80 xa2 yell transaction node aware included slow chain xe2 x80 xa2 notarized heartbeat included slow chain far 3 3 slow mode protocol slow mode committee members ignore messages",
+    "metadata": {
+      "chunk_id": "17dd2b67219e4a3910753b7c8a520afc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 25] includes xe2 x80 xa2 yell transaction node aware included slow chain xe2 x80 xa2 notarized heartbeat included slow chain far 3 3 slow mode protocol slow mode committee members ignore messages accelerator clients propose transactions slow chain broadcasting new transaction receives input miners xe2 x80 xa2 let xe2 x84 x93 xe2 x88 x97 smallest skipped heartbeat triggered slow mode xe2 x80 xa2 let h xe2 x88 x97 hash digest inside heartbeat associated length xe2 x84 x93 xe2 x88 x97 xe2 x88 x92 1 chain let log xe2 x88 x97 prefix fast path log matches hash h xe2 x88 x97 xe2 x80 xa2 participate slow chain mining round input slow chain protocol 1 notarized transaction contained log xe2 x88 x97 chain 2 transaction observed including inside yell transactions incorporated log xe2 x88 x97 chain 5 condition hold store transaction incoming message buffer sequence number log exceeds seq 9 x0c xe2 x80 xa2 broadcast fast path log including notarization micro block xe2 x80 xa2 let xe2 x84 x93 earliest",
+    "metadata": {
+      "chunk_id": "5c9f45951bbdc57ab9c31efaf8210385",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 26] hold store transaction incoming message buffer sequence number log exceeds seq 9 x0c xe2 x80 xa2 broadcast fast path log including notarization micro block xe2 x80 xa2 let xe2 x84 x93 earliest block chain xe2 x84 x93 contains skipped heartbeat6 xe2 x80 xa2 let log maximal lucky sequence section 3 2 notarized tuples t1 1 xe2 x84 x931 tx1 t2 2 xe2 x84 x932 tx2 tl l xe2 x84 x93l txl notarized tuple observed end cool period e prefix chain xe2 x84 x93 2 xce xba 7 multiple lucky sequences let log arbitrary xe2 x80 xa2 suppose chain xe2 x88 x92 xce xba contains heartbeats consecutive slow chain lengths xe2 x84 x931 xe2 x84 x932 xe2 x84 x93k xe2 x84 x93i xe2 x84 x93start xe2 x88 x92 1 let logstable lucky sequence notarized tuples consistent hashes heartbeats8 xe2 x80 xa2 output concatenation following round xe2 x80 x93 logstable xe2 x80 x93 tuple log sequence number included logstable xe2 x80 x93 transactions contained chain xe2 x88 x92 xce xba output order appear chain 3 4 rebooting fast",
+    "metadata": {
+      "chunk_id": "4b1fabe6ee292f1c3ebbbe510b724f87",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 27] round xe2 x80 x93 logstable xe2 x80 x93 tuple log sequence number included logstable xe2 x80 x93 transactions contained chain xe2 x88 x92 xce xba output order appear chain 3 4 rebooting fast path nodes slow mode reboot fast path execution follows let start xc2 xb7 general predicate determines leave slow mode examples predicates found section 2 4 let xe2 x84 x93 earliest block chain xe2 x84 x93 contains skipped heartbeat let chain xe2 x88 x97 shortest prefix chain xe2 x84 x93 xe2 x89 xa4 chain xe2 x88 x97 xe2 x88 x92 3 xce xba start chain xe2 x88 x97 xe2 x88 x92 xce xba 1 start policy predicate node enter fast mode reset xe2 x84 x93start chain xe2 x88 x97 multiple transitions slow fast modes need assign unique epoch number time new fast mode initiated mblock heartbeat messages additionally tagged epoch number simplicity earlier description omitted epoch number finally multiple epochs epoch contains fast mode followed slow mode nodes sequentially output logs epochs description explained",
+    "metadata": {
+      "chunk_id": "64569d2002e9cba760fc10eac39897b7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 28] tagged epoch number simplicity earlier description omitted epoch number finally multiple epochs epoch contains fast mode followed slow mode nodes sequentially output logs epochs description explained output log epoch 4 comparison related initiatives provide comparisons related initiatives xe2 x80 xa2 offchain payment channels e g lightning networks 1 raiden networks 2 state channels 13 18 support fast offchain payments existing systems offer little smart contract programming support parties need engage prior setup xe2 x80 xa2 initiatives rely xe2 x80 x9cclassical style xe2 x80 x9d consensus methods build decentralized cryptocurrency example zilliqa 3 tendermint 17 rely pbft 9 variants reach consensus comparison thunder combines asynchronous fast path synchronous xe2 x80 x9cfallback xe2 x80 x9d pbft instead relies asynchronous recovery path means 6 optimization practice suffices check slow chain chain xe2 x84 x93start xe2 x88 x92 xce xba xe2 x84 x93 xe2 x84 x93 2 xce xba exceeds chain",
+    "metadata": {
+      "chunk_id": "1c274b800b7a9b1ac57f1e0d74e2b5f3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 29] x9d pbft instead relies asynchronous recovery path means 6 optimization practice suffices check slow chain chain xe2 x84 x93start xe2 x88 x92 xce xba xe2 x84 x93 xe2 x84 x93 2 xce xba exceeds chain round chain 8 lucky sequence observed query nodes network lucky sequence reply obtained output log previous round 7 10 x0c1 pbft tolerate 31 fraction corruption known lower bound 12 contrast approach tolerates 50% attack 2 pbft requires rounds voting normal path necessary asynchronous recovery twice slow protocol 3 comparison approach conceptually simpler pbft friendlier implementation large scale deployment 15 19 xe2 x80 xa2 beautiful work algorand 10 designs new synchronous state machine replication protocol builds cryptocurrency like protocol provably secure tolerates 13 corruptions approach requires complete redesign consensus layer approach allows accelerate existing blockchain simple fast path protocol xe2 x80 xa2 works rely dag based approach 4 25 chain based prevent doublespending",
+    "metadata": {
+      "chunk_id": "6d70b4c69513523769f456d5058f960d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 30] requires complete redesign consensus layer approach allows accelerate existing blockchain simple fast path protocol xe2 x80 xa2 works rely dag based approach 4 25 chain based prevent doublespending works realize notion linearly ordered log support general smart contracts dapps xe2 x80 xa2 dfinity xe2 x80 x99s approach 5 relies offchain voting blocks reach finality xe2 x80 x9c2 blocks time xe2 x80 x9d approach improve throughput w r t underlying slowchain xe2 x80 xa2 ethereum xe2 x80 x99s casper 7 8 relies offchain voting blocks checkpoint blocks improve speed throughput elegant plasma framework poon buterin 24 sharding initiatives 3 6 16 conceptually related approaches orthogonal complementary effort 5 acknowledgments grateful thunder team vitalik buterin insightful feedback comments references 1 https lightning network 2 https raiden network 3 https www zilliqa com 4 http iota org 5 https dfinity org 6 sharding blockchains https github com ethereum wiki wiki sharding faq 7 vitalik",
+    "metadata": {
+      "chunk_id": "6c9810d897433ef579e8cbb7eb53962b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 31] 1 https lightning network 2 https raiden network 3 https www zilliqa com 4 http iota org 5 https dfinity org 6 sharding blockchains https github com ethereum wiki wiki sharding faq 7 vitalik buterin https medium com vitalikbuterin minimal slashing conditions 20f0b500fc6c 2017 8 vitalik buterin vlad zamfir casper https blog ethereum org 2015 08 01 introducing casper friendly ghost 2015 11 x0c 9 miguel castro barbara liskov practical byzantine fault tolerance osdi 1999 10 jing chen silvio micali algorand https arxiv org abs 1607 01341 2016 efficient democratic ledger 11 phil daian rafael pass elaine shi snow white robustly reconfigurable consensus applications provably secure proofs stake cryptology eprint archive report 2016 919 2016 12 cynthia dwork nancy lynch larry stockmeyer consensus presence partial synchrony j acm 1988 13 stefan dziembowski lisa eckey sebastian faust daniel malinowski perun virtual payment channels cryptographic currencies iacr cryptology eprint archive 2017 635",
+    "metadata": {
+      "chunk_id": "e0cecfa9095104141e55b00a6fd5e5e2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 32] partial synchrony j acm 1988 13 stefan dziembowski lisa eckey sebastian faust daniel malinowski perun virtual payment channels cryptographic currencies iacr cryptology eprint archive 2017 635 2017 14 ittay eyal emin gun sirer majority bitcoin mining vulnerable fc 2014 15 pedro fonseca kaiyuan zhang xi wang arvind krishnamurthy empirical study correctness formally verified distributed systems proceedings twelfth european conference computer systems eurosys xe2 x80 x9917 pages 328 xe2 x80 x93343 new york ny usa 2017 acm 16 e kokoris kogias p jovanovic l gasser n gailly e syta b ford omniledger secure scale decentralized ledger sharding 2018 ieee symposium security privacy sp volume 00 pages 19 xe2 x80 x9334 2018 17 jae kwon tendermint tendermint pdf 2014 consensus mining http tendermint com docs 18 andrew miller iddo bentov ranjit kumaresan patrick mccorry sprites payment channels faster lightning corr abs 1702 05812 2017 19 andrew miller yu xia kyle croman elaine shi dawn song honey",
+    "metadata": {
+      "chunk_id": "99fc887ccaf22b3e7c6f1615250521bc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  },
+  {
+    "text": "[Section 33] docs 18 andrew miller iddo bentov ranjit kumaresan patrick mccorry sprites payment channels faster lightning corr abs 1702 05812 2017 19 andrew miller yu xia kyle croman elaine shi dawn song honey badger bft protocols proceedings 2016 acm sigsac conference computer communications security ccs xe2 x80 x9916 pages 31 xe2 x80 x9342 new york ny usa 2016 acm 20 rafael pass lior seeman abhi shelat analysis blockchain protocol asynchronous networks eurocrypt 2017 21 rafael pass elaine shi thunderella blockchains optimistic instant confirmation https eprint iacr org 2017 913 pdf 22 rafael pass elaine shi fruitchains fair blockchain podc 2017 23 rafael pass elaine shi hybrid consensus efficient consensus permissionless model disc 2017 24 joseph poon vitalik buterin plasma scalable autonomous smart contracts https plasma io 12 x0c 25 yonatan sompolinsky yoad lewenberg aviv zohar spectre fast scalable cryptocurrency protocol iacr cryptology eprint archive 2016 1159 2016 13 x0c",
+    "metadata": {
+      "chunk_id": "7913f1169b4fca9ee1ebba6090ef1b82",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ThunderCore.txt"
+    }
+  }
+]

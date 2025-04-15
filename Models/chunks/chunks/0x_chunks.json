@@ -1,0 +1,554 @@
+[
+  {
+    "text": "[Section 1] b 0x open protocol decentralized exchange ethereum blockchain warren amir bandeali 0xproject com february 21 2017 abstract describe protocol facilitates low friction peer peer exchange erc20 tokens ethereum blockchain protocol intended serve open standard common building block driving interoperability decentralized applications dapps incorporate exchange functionality trades executed system ethereum smart contracts publicly accessible free use dapp hook dapps built protocol access public liquidity pools create liquidity pool charge transaction fees resulting volume protocol unopinionated impose costs users arbitrarily extract value group users benefit decentralized governance continuously securely integrate updates base protocol disrupting dapps end users 1 x0ccontents 1 introduction 3 2 existing work 4 3 specification 3 1 message format 3 1 1 point point orders 3 1 2 broadcast orders 3 2 smart contract 3 2 1 signature authentication 3 2 2 fills partial fills 3 2 3 expiration time 3 2",
+    "metadata": {
+      "chunk_id": "9c052b6ff54430099f8dc64fefb4d363",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 2] work 4 3 specification 3 1 message format 3 1 1 point point orders 3 1 2 broadcast orders 3 2 smart contract 3 2 1 signature authentication 3 2 2 fills partial fills 3 2 3 expiration time 3 2 4 cancelling orders 5 6 6 7 9 9 9 10 10 4 protocol token 11 4 1 decentralized governance 11 4 1 1 continuous integration 11 4 1 2 token registry 12 5 summary 13 6 acknowledgements 14 7 appendix 15 7 1 erc20 token 15 7 2 contract abi 15 7 3 ethereum service 15 2 x0c1 introduction blockchains revolutionary allowing transfer assets open financial network need trusted party hundreds 1 blockchainbased assets added month need exchange assets compounding advent smart contracts possible parties exchange blockchain assets need trusted party decentralized exchange important progression ecosystem centralized exchanges key reasons decentralized exchanges provide stronger security guarantees end users longer central party hacked run away customer funds subjected government regulations hacks mt gox shapeshift",
+    "metadata": {
+      "chunk_id": "5028f912ea497d54dfcd968281154dab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 3] key reasons decentralized exchanges provide stronger security guarantees end users longer central party hacked run away customer funds subjected government regulations hacks mt gox shapeshift bitfinex 2 3 demonstrated types systemic risks palpable decentralized exchange eliminate risks allowing users transact trustlessly middleman placing burden security individual users single custodian years passed ethereum blockchain xe2 x80 x99s genesis block numerous decentralized applications dapps created ethereum smart contracts peer peer exchange rapid iteration lack best practices left blockchain scattered proprietary application specific implementations result end users exposed numerous smart contracts varying quality security unique configuration processes learning curves implement functionality approach imposes unecessary costs network fragmenting end users according particular dapp user happens destroying valuable network effects liquidity 0x open protocol decentralized exchange ethereum",
+    "metadata": {
+      "chunk_id": "439d74a5bd7ead68f646d7b9410efa82",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 4] approach imposes unecessary costs network fragmenting end users according particular dapp user happens destroying valuable network effects liquidity 0x open protocol decentralized exchange ethereum blockchain intended serve basic building block combined protocols drive increasingly sophisticated dapps 4 0x uses publicly accessible system smart contracts act shared infrastructure variety dapps shown figure 1 long run open technical standards tend win closed ones assets tokenized blockchain month dapps require use different tokens result open standard exchange critical supporting open economy ethereum blockchain dapp dapp b shared liquidity pool s shared exchange protocol end users dapp n figure 1 open protocols application agnostic decoupling protocol layer application layer provides mutual benefits dapp developers end users alike 3 x0c2 existing work decentralized exchanges implemented ethereum smart contracts failed generate significant volume inefficiencies design impose high",
+    "metadata": {
+      "chunk_id": "017e3e287e495522b1a5ab4d340f304b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 5] mutual benefits dapp developers end users alike 3 x0c2 existing work decentralized exchanges implemented ethereum smart contracts failed generate significant volume inefficiencies design impose high friction costs market makers particular implementations place order books1 blockchain 5 xe2 x80 x938 requiring market makers spend gas time post modify cancel order cost single transaction small frequently modifying orders response evolving market conditions prohibitively expensive addition imposing high costs market makers maintaining chain order book results transactions consume network bandwidth bloat blockchain necessarily resulting value transfer automated market maker amm smart contracts proposed 9 10 alternative chain order book amm smart contract replaces order book price adjustment model asset xe2 x80 x99s spot price deterministically responds market forces market participants market trade amm benefits amm include availability available act counterparty spot price offers worse",
+    "metadata": {
+      "chunk_id": "98bb7bc58d23576a14b89c2e6c41c3d5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 6] model asset xe2 x80 x99s spot price deterministically responds market forces market participants market trade amm benefits amm include availability available act counterparty spot price offers worse traditional exchange ease integration external smart contracts need execute market orders deterministic nature price adjustment models insensitive market liquidity meaning trades cause prices thick thin markets 11 words amms impose artificial constraints supply curve price adjustment model sensitive small trades produce large fluctuations spot price price adjustment model sensitive amms bankroll quickly depleted arbitrageurs state channels proposed means scaling ethereum blockchain reducing costs variety applications including exchange 12 moving transactions blockchain 13 14 participants state channel pass cryptographically signed messages forth accumulating intermediate state changes publishing canonical chain channel closed state channels ideal xe2 x80 x9cbar tab xe2 x80 x9d applications",
+    "metadata": {
+      "chunk_id": "72d92c647adfea0de913a23d09a726ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 7] channel pass cryptographically signed messages forth accumulating intermediate state changes publishing canonical chain channel closed state channels ideal xe2 x80 x9cbar tab xe2 x80 x9d applications numerous intermediate state changes accumulated chain settled single chain transaction e day trading poker turn based games channel participants leaves channel attempts cheat challenge period participant publish recent message received offender follows channel participants online challenge dishonest counterparty participants vulnerable ddos attacks state channels drastically reduce number chain transactions specific use cases numerous chain transactions security deposit required open safely close state channel inefficient time transactions hybrid implementation refer xe2 x80 x9coff chain order relay chain settlement xe2 x80 x9d combines efficiency state channels near instant settlement chain order books approach cryptographically signed orders broadcast blockchain interested counterparty",
+    "metadata": {
+      "chunk_id": "2c5e3dda44ba1aa5106dfd688fe12d2f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 8] relay chain settlement xe2 x80 x9d combines efficiency state channels near instant settlement chain order books approach cryptographically signed orders broadcast blockchain interested counterparty inject orders smart contract execute trades trustlessly directly blockchain 15 16 friction costs minimized market makers signal intent offchain transactions occur value transferred extend approach allowing act exchange making protocol application agnostic 1 order book publicly record interest buyers sellers particular financial instrument entry includes reference interested party number shares price buyer seller bidding asking particular security 4 x0c3 specification figure 2 presents general sequence steps chain order relay chain settlement ignore mechanisms important later network transport layer 3 4 2 maker taker maker account taker account 6 dex 1 5 7 token token b ethereum blockchain figure 2 chain order relay chain settlement diagram gray rectangles circles represent ethereum smart",
+    "metadata": {
+      "chunk_id": "b561162270c34aee7889c0958e0a14c9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 9] layer 3 4 2 maker taker maker account taker account 6 dex 1 5 7 token token b ethereum blockchain figure 2 chain order relay chain settlement diagram gray rectangles circles represent ethereum smart contracts accounts respectively arrows pointing ethereum smart contracts represent function calls arrows directed caller callee smart contracts functions smart contracts arrows external ethereum blockchain represent information flow 1 maker approves decentralized exchange dex contract access balance token a2 2 maker creates order exchange token token b specifying desired exchange rate expiration time order filled signs order private key 3 maker broadcasts order arbitrary communication medium 4 taker intercepts order decides like fill 5 taker approves dex contract access balance token b 6 taker submits makers signed order dex contract 7 dex contract authenticates makers signature verifies order expired verifies order filled transfers tokens parties specified exchange rate 2 erc20 token",
+    "metadata": {
+      "chunk_id": "6c9f615e493e0950c995c17305f349e6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 10] submits makers signed order dex contract 7 dex contract authenticates makers signature verifies order expired verifies order filled transfers tokens parties specified exchange rate 2 erc20 token appendix possible provide approval execute unlimited number trades alternatively provide approval prior limited value individual trade 5 x0c3 1 message format order data packet containing order parameters associated signature order parameters concatenated hashed 32 bytes keccak sha3 function order originator signs order hash private key produce ecdsa signature 3 1 1 point point orders point point orders allow parties directly exchange tokens communication medium prefer relay messages packet data makes order bytes hex sent email facebook message whisper similar service order filled specified taker address rendering order useless eavesdroppers outside parties version maker taker tokena tokenb valuea valueb expiration v r s table 1 message format point point orders data type description address",
+    "metadata": {
+      "chunk_id": "c6997d9d20ee0b875f398e5f232778a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 11] address rendering order useless eavesdroppers outside parties version maker taker tokena tokenb valuea valueb expiration v r s table 1 message format point point orders data type description address exchange smart contract address address change time protocol updated address address originating order address address permitted fill order address address erc20 token contract address address erc20 token contract uint256 total units tokena offered maker uint256 total units tokenb requested maker uint256 time order expires seconds unix epoch uint8 ecdsa signature arguments bytes32 bytes32 6 x0c3 1 2 broadcast orders liquid markets emerge public locations buyers sellers post orders subsequently aggregated order books e exchanges building operating exchange costly protocol described far provide incentive expense broadcast orders solve issue allowing act exchange maintain order book public private charge transaction fees resulting liquidity refer entities host maintain order book relayers",
+    "metadata": {
+      "chunk_id": "1f892bf038001436d43fdaf60753643a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 12] incentive expense broadcast orders solve issue allowing act exchange maintain order book public private charge transaction fees resulting liquidity refer entities host maintain order book relayers exchanges exchange build operate proprietary infrastructure execute trades handle user funds relayers merely facilitate signalling market participants hosting propagating order book consists generic messages relayers execute trades behalf market participants require market participants trust relayer instead takers execute trades message format broadcast orders includes changes point point message format facilitate public exchange incentivize relayers broadcast orders specify taker address allowing broadcast order filled happens intercept second broadcast orders include feea feeb feerecipient parameters specify transaction fee values address relayer collect transaction fees exchange smart contract transfers fees feerecipient order filled figure 3 presents sequence steps makers relayers use",
+    "metadata": {
+      "chunk_id": "63f80aeb7296822e242cea438e30e65a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 13] specify transaction fee values address relayer collect transaction fees exchange smart contract transfers fees feerecipient order filled figure 3 presents sequence steps makers relayers use negotiate transaction fees trustless way 4 order book relayer 1 5 3 2 maker takers 6 ethereum blockchain figure 3 relayers host maintain chain order book exchange transaction fees diagram illustrates chain order relay sequence steps makers relayers negotiate transaction fees trustless way transaction fees moved maker taker relayer settlement trade extending chain settlement process shown figure 2 1 relayer cites fee schedule address use collect transaction fees 2 maker creates order setting feea feeb values satisfy relayer xe2 x80 x99s fee schedule setting feerecipient relayer xe2 x80 x99s desired recieving address signs order private key 3 maker transmits signed order relayer 4 relayer receives order checks order valid provides required fees order invalid meet relayer xe2 x80 x99s requirements",
+    "metadata": {
+      "chunk_id": "f22bda90ef789f9b250d29f7314b756c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 14] address signs order private key 3 maker transmits signed order relayer 4 relayer receives order checks order valid provides required fees order invalid meet relayer xe2 x80 x99s requirements order rejected order satisfactory relayer posts order order book 5 takers recieve updated version order book includes maker xe2 x80 x99s order 6 taker fills maker xe2 x80 x99s order submitting exchange contract ethereum blockchain 7 x0cname version maker tokena tokenb valuea valueb expiration feerecipient feea feeb v r s table 2 data type address address address address uint256 uint256 uint256 address uint256 uint256 uint8 bytes32 bytes32 message format broadcast orders description address exchange smart contract address originating order address erc20 token contract address erc20 token contract total units tokena offered maker total units tokenb requested maker time order expires seconds unix epoch address relayer receives transaction fees total units protocol token maker pays feerecipient total",
+    "metadata": {
+      "chunk_id": "ef78f702d9b23f6b5d7ddfcc6061eb3d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 15] units tokena offered maker total units tokenb requested maker time order expires seconds unix epoch address relayer receives transaction fees total units protocol token maker pays feerecipient total units protocol token taker pays feerecipient ecdsa signature arguments odd maker specifying transaction fees mind relayers ultimately control orders posted maker wants order posted specific order book set feea feeb feerecipient values satisfy relayer associated order book fees negotiated chain relayers change fee schedule dynamically discretion incoming orders haven xe2 x80 x99t signed existing orders relayers use information available chain chain setting adjusting fees allowing flexible fee schedules flat fees percentage based volume based tiered subscription models etc relayer accepted order order book order xe2 x80 x99s fee values changed conventional exchange services use matching engine fill market orders behalf users users trust exchange provide best available price generally users",
+    "metadata": {
+      "chunk_id": "0286e57a8c9afb78402520bdf904fd49",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 16] order book order xe2 x80 x99s fee values changed conventional exchange services use matching engine fill market orders behalf users users trust exchange provide best available price generally users feel assured regulated entities held accountable attempt cheat event matching engine malfunctions 0x protocol remain trustless relayers given ability execute trades behalf makers takers instead relayers recommend best available price takers independently decide sign send transaction blockchain means 0x protocol support true market orders designed web application approximate type user experience important recognize feerecipient address point arbitrary smart contract means complex relayer incentive structures xe2 x80 x9cplugged xe2 x80 x9d 0x protocol example feerecipient contract designed split transaction fees multiple relayers distribute transaction fees swarm nodes according level contribution node makes propagating order book censorship resistant p2p network3 3 development low latency",
+    "metadata": {
+      "chunk_id": "191c43c4be14bc096bfd60be1d738ebd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 17] transaction fees multiple relayers distribute transaction fees swarm nodes according level contribution node makes propagating order book censorship resistant p2p network3 3 development low latency relay protocol supports fully distributed order book considered phase project 8 x0c3 2 smart contract exchange protocol implemented ethereum smart contract publicly accessible free use additional costs imposed users standard gas costs written solidity programming language contains relatively simple functions fill cancel entire contract approximately 100 lines code costs approximately 90k gas fill order 3 2 1 signature authentication exchange smart contract able authenticate order originator xe2 x80 x99s maker xe2 x80 x99s signature ecrecover function takes hash signature hash arguments returns public key produced signature public key returned ecrecover equal maker address signature authentic address publickey ecrecover hash signature hash publickey maker throw 3 2 2 fills partial fills",
+    "metadata": {
+      "chunk_id": "247f8b8ed5527c34e39879573d231ada",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 18] public key produced signature public key returned ecrecover equal maker address signature authentic address publickey ecrecover hash signature hash publickey maker throw 3 2 2 fills partial fills exchange smart contract stores reference previously filled order prevent single order filled multiple times references stored mapping data structure case maps 32 byte chunk data 256 bit unsigned integer passing parameters associated order keccak sha3 function produces unique 32 byte hash uniquely identify order odds hash collision finding different orders identical hash practically zero time order filled mapping stores order hash cumulative value filled taker partially fill order specifying additional argument valuefill calling exchange smart contract xe2 x80 x99s fill function multiple partial fills executed single order long sum partial fills exceed total value order table 3 takers provide additional argument attempting fill order data type description valuefill uint256 total units tokena",
+    "metadata": {
+      "chunk_id": "86207431bc919b3062299843e0987bae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 19] fills executed single order long sum partial fills exceed total value order table 3 takers provide additional argument attempting fill order data type description valuefill uint256 total units tokena filled valuefill xe2 x89 xa4 valuea 9 x0c3 2 3 expiration time order xe2 x80 x99s expiration time specified maker time order signed expiration time unsigned integer value represents absolute number seconds unix epoch value changed signed time ethereum virtual machine given block timestamps set time new block mined expiration status order depend time taker broadcasts intention fill order instead depends time fill function executed evm miner miner set block timestamp current block earlier timestamp previous block 3 2 4 cancelling orders unfilled unexpired order cancelled associated maker exchange smart contract xe2 x80 x99s cancel function cancel function maps order xe2 x80 x99s hash order xe2 x80 x99s maximum value valuea preventing subsequent fills cancelling order costs gas cancel",
+    "metadata": {
+      "chunk_id": "f2f21c97d0a378cf79bed75a5b13cfc9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 20] exchange smart contract xe2 x80 x99s cancel function cancel function maps order xe2 x80 x99s hash order xe2 x80 x99s maximum value valuea preventing subsequent fills cancelling order costs gas cancel function intended serve fallback mechanism typically makers expected avoid chain transactions setting order expiration times match frequency intend update orders issue approach create situations maker attempts cancel order roughly time taker attempting fill order parties transactions fail wasting gas depending sequence transactions mined uncertainty sequence transactions mined lead undesirable outcomes times uncertainty increase ethereum blockchain experience significant backlog pending transactions 10 x0c4 protocol token cryptoeconomic protocols create financial incentives drive network rational economic agents coordinate behavior completion process 4 17 18 0x fundamentally network protocol facilitate signalling buyers sellers cryptoeconomic protocol intended serve open standard dapps",
+    "metadata": {
+      "chunk_id": "35a5920c14ec885c55a721367ff81c7f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 21] economic agents coordinate behavior completion process 4 17 18 0x fundamentally network protocol facilitate signalling buyers sellers cryptoeconomic protocol intended serve open standard dapps incorporate exchange functionality establishing maintaining open standard coordination problem adds operational overhead contributing parties coordination especially challenging party different needs financial incentives protocol tokens align financial incentives offset costs associated organizing multiple parties single technical standard aligning incentives adoption useful protocol tokens address challenging issue future proofing protocol implemented immutable system smart contracts decentralized governance 4 1 4 1 1 decentralized governance continuous integration ethereum smart contract deployed blockchain internal logic xe2 x80 x99t changed update protocol deploy completely new smart contract forks network disrupts users processes depend protocol xe2 x80 x9copt xe2 x80 x9d newest version",
+    "metadata": {
+      "chunk_id": "60728ec675c78f525280aada21fbfa08",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 22] blockchain internal logic xe2 x80 x99t changed update protocol deploy completely new smart contract forks network disrupts users processes depend protocol xe2 x80 x9copt xe2 x80 x9d newest version context exchange disruptive protocol update invalidate open orders require market participant approve new smart contract access trading balances alternatively protocol fork versions operate parallel neutralizing network effects created dapp interoperability smart contract abstraction continuously integrate updates protocol disrupting higher level processes update mechanism create significant security risks end users worst case attacker gain access user funds protocol tokens drive decentralized update mechanism allows continuous integration updates protocol protecting protocol xe2 x80 x99s users stakeholders 0x deployed ethereum blockchain fixed supply protocol tokens issued partnering dapps future end users protocol tokens uses market participants pay transaction fees relayers decentralized",
+    "metadata": {
+      "chunk_id": "6c323e44088c91472d329800a9677a54",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 23] stakeholders 0x deployed ethereum blockchain fixed supply protocol tokens issued partnering dapps future end users protocol tokens uses market participants pay transaction fees relayers decentralized governance updates protocol decentralized governance securely integrate updates 0x protocol according process shown figure 4 initially simple multi signature contract decentralized governance sophisticated dao developed 0x protocol native token impose unecessary costs users seek rent extract value relayers protocol xe2 x80 x99s smart contracts publicly accessible completely free use mechanisms place benefit group expense 11 x0cstakeholders ethereum blockchain dao dapp 1 dex v2 dex v1 token proxy end users token n dapp n figure 4 protocol updates deployed disrupting network combination contract abstraction decentralized governance end users provide proxy contract access tokens plan trading stakeholders propose elect protocol improvements implemented entirely new smart contracts dex v2 dao",
+    "metadata": {
+      "chunk_id": "4c78ee5bfb74d19642dd77d41d6e1c8a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 24] abstraction decentralized governance end users provide proxy contract access tokens plan trading stakeholders propose elect protocol improvements implemented entirely new smart contracts dex v2 dao dao authorizes new smart contract s access user tokens adding proxy contract xe2 x80 x99s whitelist eventually unlists deprecated versions protocol 4 1 2 token registry orders consist hexadecimal bytecode machine readable isn xe2 x80 x99t necessarily easy human visually interpret token registry4 contract store list erc20 tokens associated metadata token symbol contract address number decimal places needed represent token xe2 x80 x99s smallest unit needed determine exchange rates registry serve official chain reference market participants independently verify token addresses exchange rates executing trade token registry serve trusted source information oversight required add modify remove tokens registry 0x stakeholders provide oversight token registry easy users verify integrity orders 0x",
+    "metadata": {
+      "chunk_id": "646d16c94b5ccf322cea99c60fe84206",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "oversight"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 25] trade token registry serve trusted source information oversight required add modify remove tokens registry 0x stakeholders provide oversight token registry easy users verify integrity orders 0x protocol trade token uses erc20 token interface future protocol xe2 x80 x99s order format modified facilitate human readability tokens identified character symbol registered token registry token xe2 x80 x99s contract address ethereum service ens identify makers takers relayers human readable names xe2 x80 x9cthedunkle eth xe2 x80 x9d account contract address 4 https github com ethereum eips issues 22 12 x0c5 summary xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 chain order relay chain settlement low friction costs market makers fast settlement publicly accessible smart contracts dapp hook relayers create liquidity pools charge transaction fees volume standardization decoupling shared protocol layer xe2 x86 x92 xe2 x80 x93 xe2 x80 x93 xe2 x80 x93 xe2 x80 x93 provides interoperability dapps",
+    "metadata": {
+      "chunk_id": "3c41d0e5871abd3cf1a3e9538fb89320",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "oversight"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 26] create liquidity pools charge transaction fees volume standardization decoupling shared protocol layer xe2 x86 x92 xe2 x80 x93 xe2 x80 x93 xe2 x80 x93 xe2 x80 x93 provides interoperability dapps creates network effects liquidity mutually beneficial reduces barriers entry driving costs market participants eliminates redundancy improves user experience smart contract security xe2 x80 xa2 decentralized update mechanism allows improvements continuously safely integrated protocol disrupting dapps end users 13 x0c6 acknowledgements like express gratitude mentors advisors people ethereum community welcoming generous knowledge particular like thank joey krug linda xie fred ehrsam reviewing editing providing feedback work like thank organizers community members xe2 x80 x99ve met silicon valley ethereum meetup including joseph chow martin koppelmann rebecca migirov gustav simonsson grant hummer tom ding string labs folks 14 x0c7 appendix 7 1 erc20 token erc20 establishes standard contract abi",
+    "metadata": {
+      "chunk_id": "5d939124c8cf5aabe96ce66614619914",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 27] meetup including joseph chow martin koppelmann rebecca migirov gustav simonsson grant hummer tom ding string labs folks 14 x0c7 appendix 7 1 erc20 token erc20 establishes standard contract abi tokens ethereum blockchain de facto representation types digital assets erc20 tokens share contract interface simplifying integration external contracts core erc20 functions include xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 transfer value balanceof owner approve spender value allowance owner spender transferfrom value eip101 includes proposal change ether follow erc20 token standard xe2 x80 x9cwrapper xe2 x80 x9d smart contract proxy erc20 ether reference maker implementation gnosis implementation 7 2 contract abi eip50 proposes extension contract abi support structs allow community establish standard order signature data structures simplifying contract interface integrations external contracts 7 3 ethereum service eip137 ethereum service ens resolve human readable names xe2",
+    "metadata": {
+      "chunk_id": "574effe40375cf8a796ea0bb4b7c92ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 28] establish standard order signature data structures simplifying contract interface integrations external contracts 7 3 ethereum service eip137 ethereum service ens resolve human readable names xe2 x80 x9cmyname eth xe2 x80 x9d machine readable identifiers represent ethereum addresses swarm ipfs content hashes identifiers associate metadata names contract abis whois information ens 0x protocol create intuitive message formats optionally reference makers takers relayers 15 x0creferences 1 coinmarketcap https coinmarketcap com views accessed 2017 02 016 2 wikipedia mt gox https en wikipedia org wiki mt gox accessed 2017 02 016 3 timeline shapeshift hacking incident https info shapeshift io blog 2016 04 19 timelineshapeshift hacking incident accessed 2017 02 016 4 warren difference https medium com willwarren89 2017 app coins protocol tokens 5 maker market https mkr market accessed 2017 02 01 6 etheropt https etheropt github io accessed 2017 02 01 7 augur https augur dev firebaseapp com",
+    "metadata": {
+      "chunk_id": "aff2389a6e74620c3fb93be25fb159d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 29] com willwarren89 2017 app coins protocol tokens 5 maker market https mkr market accessed 2017 02 01 6 etheropt https etheropt github io accessed 2017 02 01 7 augur https augur dev firebaseapp com accessed 2017 02 01 8 intrinsically tradable tokens https www reddit com r ethereum accessed 2017 02 01 9 euler https www reddit com r ethereum accessed 2017 02 01 10 galia benartzi guy benartzi eyal hertzog bancor protocol hierarchical monetary system foundation global decentralized autonomous exchange 2017 11 abraham othman david m pennock daniel m reeves tuomas sandholm practical liquidity sensitive automated market maker acm transactions economics computation 1 3 14 2013 12 raidex http www raidex io accessed 2017 02 014 13 jeff coleman state channels http www jeffcoleman state channels accessed 2017 02 014 14 ledger labs state channels wiki https github com ledgerlabs state channels wiki accessed 2017 02 014 15 idex decentralized capital http www idex market accessed 2017 02 01 16",
+    "metadata": {
+      "chunk_id": "fda229bec558edf4c5b83e5a0d9c5543",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  },
+  {
+    "text": "[Section 30] accessed 2017 02 014 14 ledger labs state channels wiki https github com ledgerlabs state channels wiki accessed 2017 02 014 15 idex decentralized capital http www idex market accessed 2017 02 01 16 etherdelta https etherdelta github io accessed 2017 02 01 17 fred ehrsam app coins https blog coinbase com 2016 dawn decentralized business model 18 fred ehrsam raise money blockchain token https blog gdax com 2016 16 x0c",
+    "metadata": {
+      "chunk_id": "195e493e5c26955057e48d093ad411cc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "0x.txt"
+    }
+  }
+]

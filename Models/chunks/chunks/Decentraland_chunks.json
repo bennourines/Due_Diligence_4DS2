@@ -1,0 +1,418 @@
+[
+  {
+    "text": "[Section 1] b white paper x0cdecentraland blockchain based virtual world esteban ordano esteban decentraland org ariel meilich ari decentraland org yemel jardi yemel decentraland org manuel araoz manuel decentraland org abstract decentraland virtual reality platform powered ethereum blockchain users create experience monetize content applications land decentraland permanently owned community giving control creations users claim ownership virtual land blockchain based ledger parcels landowners control content published portion land identified set cartesian coordinates x y contents range static 3d scenes interactive systems games land non fungible transferrable scarce digital asset stored ethereum smart contract acquired spending erc20 token called mana mana world purchases digital goods services people spending increasingly time virtual worlds leisure work1 occurs predominantly 2d interfaces web mobile phones traversable 3d world adds immersive component adjacency content enabling physical clusters",
+    "metadata": {
+      "chunk_id": "e47793dfcd5d2d52d35184beb8de883e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 2] spending increasingly time virtual worlds leisure work1 occurs predominantly 2d interfaces web mobile phones traversable 3d world adds immersive component adjacency content enabling physical clusters communities unlike virtual worlds social networks decentraland controlled centralized organization single agent power modify rules software contents land economics currency prevent accessing world decentraland 1 14 document lays philosophical underpinnings technical foundations economic mechanisms decentraland 1 state mobile flurry analytics blog https flurrymobile tumblr com post 155761509355 x0cwe like thank following reviewers contributions feedback document possible jake brukhman founder coinfund luis cuende project lead aragon simon de la rouviere consensys diego doval founder n3xt previously cto ning michael bosworth google jesse walden mediachain spotify chris burniske ex ark invest guillermo rauch ceo zeit joe urgo co founder district0x david wachsman wachsman pr jon choi dropbox",
+    "metadata": {
+      "chunk_id": "2d3568ca61bca500d1dbcad891b81419",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 3] cto ning michael bosworth google jesse walden mediachain spotify chris burniske ex ark invest guillermo rauch ceo zeit joe urgo co founder district0x david wachsman wachsman pr jon choi dropbox decentraland 2 14 allen hsu x0ctable contents decentraland 3 14 1 introduction 1 1 rationale 1 2 history 1 3 traversable world 1 4 foundations world economy 1 5 use cases 4 4 5 6 6 7 2 architecture 2 1 consensus layer 2 2 content distribution layer 2 3 real time layer 2 4 payment channels 2 5 identity system 8 9 9 10 11 11 3 economy 3 1 land mana token 3 2 fostering network 12 12 13 4 challenge 5 summary 13 14 x0c01 introduction decentraland provides infrastructure support shared virtual world known metaverse2 consists decentralized ledger land ownership protocol describing content land parcel peer peer network user interactions 1 1 rationale development large proprietary platforms facebook allowed hundreds millions users gather interact share content play games network e xef xac x80ects helped",
+    "metadata": {
+      "chunk_id": "01d2c90fe917525482ebc64629222368",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 4] peer network user interactions 1 1 rationale development large proprietary platforms facebook allowed hundreds millions users gather interact share content play games network e xef xac x80ects helped cultivate vast online communities gaming companies platforms controlled centralized organizations manage network xe2 x80 x99s rules content flow extracting significant revenue communities content creators drive tra xef xac x80ic platforms decentraland aims establish network allows content creators capture value contributions current team began working decentraland 2015 time adoption cryptoassets infancy blockchain based infrastructure necessary consumer oriented platform lacking rate consumer adoption infrastructure creation exploded instance july 2017 coinbase reached 8 4 million user accounts half added past 12 months4 growth given rise pool users large fuel decentralized commerce place virtual world like decentraland blockchain infrastructure spearheaded ethereum widely available lack",
+    "metadata": {
+      "chunk_id": "ddcc0c43f5d162a6ddd872d6701454da",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 5] half added past 12 months4 growth given rise pool users large fuel decentralized commerce place virtual world like decentraland blockchain infrastructure spearheaded ethereum widely available lack e xef xac x80icient method quickly process micropayments constrains throughput network transactions 01 introduction 4 14 maturation cryptocurrencies global instant low cost payment method evolving payment transactions need occur o xef xac x80 chain achieve short medium term scalability blockchain payment networks solutions bitcoin s lightning network5 ethereum s state channels6 verge enabling fast global payment system low fees 2 xe2 x80 x9cthe metaverse xe2 x80 x9d wikipedia https en wikipedia org wiki metaverse 3 http www kccllc net thq document 1213398130702000000000003 4 https www coinbase com 5 xe2 x80 x9clightning apps emerging developer ecosystem lnd xe2 x80 x9d lightning network xe2 x80 x99s blog http lightning community software lnd lightning 2017 07 05 emerging lightning developer",
+    "metadata": {
+      "chunk_id": "a3ea8935b9450a34142263bff1e41aef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 6] 5 xe2 x80 x9clightning apps emerging developer ecosystem lnd xe2 x80 x9d lightning network xe2 x80 x99s blog http lightning community software lnd lightning 2017 07 05 emerging lightning developer ecosystem 6 xe2 x80 x9csprites payment channels faster lightning xe2 x80 x9d miller bentov r kumaresan p mccorry 2017 https arxiv org pdf 1702 05812 pdf x0cmore centralized solutions work today7 expense operability systems privacy standardization decentraland built premise low cost direct payments content creators users radically change internet commerce 1 2 history decentraland began proof concept allocating ownership digital real estate users blockchain digital real estate initially implemented pixel infinite 2d grid pixel contained metadata identifying owner describing pixel s color experiment entitled decentraland xe2 x80 x99s stone age figure 1 stone age visual representation blockchain state users transfer change color pixels late 2016 team started developing bronze age 3d virtual",
+    "metadata": {
+      "chunk_id": "3bd91e39c7bd82bfd01dd8970ae050ae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 7] entitled decentraland xe2 x80 x99s stone age figure 1 stone age visual representation blockchain state users transfer change color pixels late 2016 team started developing bronze age 3d virtual world divided land parcels owner parcel able associate hash reference file modified bitcoin blockchain reference users exploring virtual world use distributed hash table dht bittorrent download file containing parcel xe2 x80 x99s content defines models textures displayed location hosted world viewer decentraland org world enthusiast run node download verify blockchain explore world following advanced instructions8 01 introduction 5 14 figure 2 bronze age structures created community genesis parcel located coordinates 0 0 7 xe2 x80 x9cnear zero fee transactions hub spoke micropayments xe2 x80 x9d peter todd bitcoin development mailing list december 2014 https www mail archive com bitcoin development lists sourceforge net msg06576 html 8 https github com decentraland bronzeage node run node",
+    "metadata": {
+      "chunk_id": "7959336495a865302103ae6caa0d66d8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 8] peter todd bitcoin development mailing list december 2014 https www mail archive com bitcoin development lists sourceforge net msg06576 html 8 https github com decentraland bronzeage node run node x0cthe version decentraland iron age create social experience economy driven existing layers land ownership content distribution iron age developers able create applications decentraland distribute users monetize iron age implement peer peer communications scripting system enable interactive content system fast cryptocurrency payments world transactions communication layer essential social experiences providing positioning postures voice chat decentraland achieves p2p network scripting system tool landowners use describe behavior interactions 3d objects sound applications running land parcels finally payment system low fees key developing economy quick environment virtual world 1 3 traversable world adjacency land makes decentraland parcels unique web domains new land parcels contiguous",
+    "metadata": {
+      "chunk_id": "44f4ce12c35d48324304d36bfaa749a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 9] finally payment system low fees key developing economy quick environment virtual world 1 3 traversable world adjacency land makes decentraland parcels unique web domains new land parcels contiguous existing ones adjacency allows spatial discovery new content creation districts devoted special topic theme web domain unlimited number hyperlinks content parcels decentraland fixed adjacencies additionally content adjacent parcels seen distance content creators establishment districts provides access targeted tra xef xac x80ic end users enables discovery themed experiences users travel neighborhoods interact applications stumble discovery adjacency odds having infinite land scenario users hard time finding relevant content traveling scarce land developers acquire users purchasing land high tra xef xac x80ic areas allow secondary markets develop land ownership rentals happening district0x io 9 01 introduction 6 14 1 4 foundations world economy decentraland xe2 x80 x99s value proposition",
+    "metadata": {
+      "chunk_id": "d3c7732a26a8d65cb215b4272d10b8f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 10] tra xef xac x80ic areas allow secondary markets develop land ownership rentals happening district0x io 9 01 introduction 6 14 1 4 foundations world economy decentraland xe2 x80 x99s value proposition application developers fully capitalize economic interactions applications users allow economic interactions platform allow things traded currency goods services decentraland integrate core system allows global instant cost e xef xac x80ective payments users internet cryptocurrencies allow trustless payment channels established parties low trust hub spoke systems possible 9 https blog district0x io decentraland districts 40b9ada0431b x0cfor services provided decentraland developing scripting system enables developers program interactions users applications scripting system runs exclusively client allows di xef xac x80erent data flow models mere local e xef xac x80ects traditional client server architectures p2p interactions based state channels developers programming benefit availability",
+    "metadata": {
+      "chunk_id": "b0532d41d9eaa66ea3288ff8bdde5c8d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 11] allows di xef xac x80erent data flow models mere local e xef xac x80ects traditional client server architectures p2p interactions based state channels developers programming benefit availability fast cheap micropayments provably fair games decentralized storage features enabled advent cryptographic techniques blockchain based smart contracts foster exchange virtual goods economic incentives place ensure continued creation distribution avatars items scripts static content arbitrarily copied user experience empower social agreements recognize original creations implementing identity system establish authorship users able track verify author xe2 x80 x99s consent cryptographic signatures experiments happening case rare pepes10 1 5 use cases applications decentraland scripting language allow development applications games gambling dynamic 3d scenes scripting language designed handle wide range capabilities including creating objects loading textures handling physics encoding user",
+    "metadata": {
+      "chunk_id": "f94b5c329bab5302bc8ea17a6aece568",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 12] allow development applications games gambling dynamic 3d scenes scripting language designed handle wide range capabilities including creating objects loading textures handling physics encoding user interactions sounds payments external calls content curation users decentraland gather neighborhoods shared interest located near high tra xef xac x80ic hubs drive users landowners xe2 x80 x99 content advertising 01 introduction 7 14 brands advertise billboards near high tra xef xac x80ic land parcels promote products services events neighborhoods virtual versions times square new york city additionally brands position products create shared experiences engage audience digital collectibles expect users publish distribute collect rare digital assets issued blockchain creators occurs today virtual worlds online forums digital assets traded inside world scripting system backed aforementioned naming system 10 xe2 x80 x9crare pepe xe2 x80 x9d fred wilson https avc com 2017 05 rare pepe x0csocial",
+    "metadata": {
+      "chunk_id": "92c63613063c932e6b98873b044a8b6e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 13] worlds online forums digital assets traded inside world scripting system backed aforementioned naming system 10 xe2 x80 x9crare pepe xe2 x80 x9d fred wilson https avc com 2017 05 rare pepe x0csocial groups currently gather online forums chat groups centralized multiplayer games port communities decentraland o xef xac x80line communities find decentraland space gather use cases technical specifications built decentraland use cases emerge training professional development education therapy 3d design virtual tourism 02 architecture decentraland protocol comprised layers 1 consensus layer track land ownership content 2 land content layer download assets decentralized distribution system 3 real time layer enable users xe2 x80 x99 world viewers connect land ownership established consensus layer land content referenced hash file xe2 x80 x99s content reference content downloaded bittorrent ipfs downloaded file contains description objects textures sounds elements needed render scene contains",
+    "metadata": {
+      "chunk_id": "891fa6e1e03ededce3ce349aca221237",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 14] land content referenced hash file xe2 x80 x99s content reference content downloaded bittorrent ipfs downloaded file contains description objects textures sounds elements needed render scene contains url rendezvous server coordinate connections p2p users exploring tile simultaneously figure 3 shows diagram steps decentraland clients execute provide experience shared virtual world decentralized way 02 architecture 8 14 figure 3 decentraland protocol simultaneous users decentralized virtual world x0cadditionally systems key decentraland xe2 x80 x99s economy develop payment channel infrastructure fast payments low fees identity system allows users establish ownership original creations 2 1 consensus layer decentraland use ethereum smart contract maintain ledger ownership land parcels virtual world non fungible digital assets land land unique x y coordinates owner reference content description file encodes landowner wants serve decentraland clients connect ethereum network fetch updates",
+    "metadata": {
+      "chunk_id": "75bff106545696cb28018cff5aa203a9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 15] world non fungible digital assets land land unique x y coordinates owner reference content description file encodes landowner wants serve decentraland clients connect ethereum network fetch updates state land smart contract land bought burning mana fungible erc20 token fixed supply token serves proxy cost claiming new parcel land contract uses burn function destroy mana create new entry land registry new parcels need adjacent non parcel 2 2 content distribution layer decentraland uses decentralized storage system distribute content needed render world parcel needs rendered reference file description parcel xe2 x80 x99s content retrieved smart contract current solution uses battle tested bittorrent kademlia dht networks storing magnet link parcel inter planetary file system ipfs 11 provides compelling alternative technology matures 02 architecture 9 14 decentralized distribution system allows decentraland work need centralized server infrastructure allows world exist long users",
+    "metadata": {
+      "chunk_id": "f66dc29a0b37a66a8ffcdc470eeeaa86",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 16] provides compelling alternative technology matures 02 architecture 9 14 decentralized distribution system allows decentraland work need centralized server infrastructure allows world exist long users distributing content shifting cost running system actors benefit provides decentraland strong censorship resistance eliminating power central authority change rules prevent users participating hosting files bandwidth required serve content significant costs currently users decentraland p2p network seeding content compensation goodwill future infrastructure cost covered use protocols like filecoin12 technology available automated micropayments pay quality service proceeds decentraland xe2 x80 x99s continuous sale mana cover costs long run section 3 2 11 https ipfs io 12 https filecoin io x0cthe description parcel contain list di xef xac x80erent files required render list services hosted landowner entry point orchestrate placement objects behavior document declare content files references",
+    "metadata": {
+      "chunk_id": "0ecb4a02d4f41c571ab87d7e45e1d7d6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 18] help servers hosted landowners parties centralized server peer peer connections needed provide social interactions users applications landowner wants run inside parcel coordinate bootstrap peer peer connections landowners provide rendezvous servers understand users able parcel 02 architecture 10 14 maintenance servers incentivized way content servers lightweight protocols like stun13 cover functionality required server costs fairly low advanced features voice chat multiple concurrent users network traversal services micropayments cover operating costs social experience users decentraland include avatars positioning users voice chat messaging interaction virtual environment di xef xac x80erent protocols coordinate features work existing p2p solutions like federated voip webrtc 14 13 https tools ietf org html rfc5389 14 https webrtc org x0c2 4 payment channels general purpose public distributed htlc networks like lightning year away materializing low trust hub spoke payment channel",
+    "metadata": {
+      "chunk_id": "f68519bcd058e29deafa6767d2eb3fee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 19] tools ietf org html rfc5389 14 https webrtc org x0c2 4 payment channels general purpose public distributed htlc networks like lightning year away materializing low trust hub spoke payment channel networks allow fast low cost transactions implemented today payment channels key decentraland reasons world purchases incentivizing quality service content p2p servers today platforms mitigate risk inherent credit card payments users trust platform application payment details payment channels direct purchases developer risk identity theft parts decentraland xe2 x80 x99s infrastructure paid micropayments costs include hosting content serving running p2p protocols like spatial audio processing multiple users marginal cost running applications decentraland developers given market incentivized servers provide infrastructure approaches real cost essentially commoditized order barrier entry incoming developers decentraland subsidize services proceeds selling mana tokens 2 5 identity system",
+    "metadata": {
+      "chunk_id": "ac747d9d626325518d16e321727f7462",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 20] servers provide infrastructure approaches real cost essentially commoditized order barrier entry incoming developers decentraland subsidize services proceeds selling mana tokens 2 5 identity system decentraland xe2 x80 x99s ownership land kind identity system credentials coordinates xe2 x80 x99s land economic incentives necessary ensure creators avatars items scripts continue building distributing content arbitrarily copied rely social agreements enforce retribution creator 02 architecture 11 14 social agreements digital scarcity possible centralized systems scarcity defended company creates platform bitcoin proof work blockchains scarcity enabled computational puzzle fact mining blocks requires onerous economic sacrifice decentraland use decentralized identity systems create layer ownership world items system allow users easily verify consent author linking public keys signatures human readable names x0cprojects like uport15 ethereum service16 social reputation needed facilitate",
+    "metadata": {
+      "chunk_id": "4762fa1ab9faa216c9f2f7b110492db1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 21] world items system allow users easily verify consent author linking public keys signatures human readable names x0cprojects like uport15 ethereum service16 social reputation needed facilitate contributions author ability incentivize content creation decentralized economies evolving quickly multiple projects working space directly indirectly potential solutions include mediachain17 curation markets18 rare pepes19 03 economy section 1 1 case increasing adoption cryptocurrencies creates necessary conditions emergence distributed platform virtual world introduce utility land mana token strategic allocation help bootstrap utility network outline issuance mana conducted 3 1 land mana token launch iron age introducing digital assets land non fungible parcels virtual world divided mana erc 20 token burned claim land world purchases goods services utility land based adjacency attention hubs ability host applications identity mechanism developers content creators demand land build reach target",
+    "metadata": {
+      "chunk_id": "c2daa0159cc907ab685ed3c0aabbb78b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 22] burned claim land world purchases goods services utility land based adjacency attention hubs ability host applications identity mechanism developers content creators demand land build reach target audience unclaimed land purchased exchange rate 1000 mana 1 land land parcels distinguishable potentially trading di xef xac x80erent prices secondary market di xef xac x80erences adjacencies tra xef xac x80ic 03 economy 12 14 hand mana serves proxy asses price new parcel land mana buy goods services virtual world creates utility value token 15 https www uport 16 ethereum system successful projects area https ens domains 17 http www mediachain io 18 xe2 x80 x9ccuration clubs tokenizing incentivizing public funding curation markets xe2 x80 x9d simon de la rouviere 2017 https medium com simondlr 276613e641f0 19 http avc com 2017 05 rare pepe x0c3 2 fostering network land ownership acquired erc 20 token called mana token serve bring value network acquire new parcel land mana purchase world",
+    "metadata": {
+      "chunk_id": "4d5c4d627959e69ca0cd4d85a235ff94",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 23] 276613e641f0 19 http avc com 2017 05 rare pepe x0c3 2 fostering network land ownership acquired erc 20 token called mana token serve bring value network acquire new parcel land mana purchase world goods services order jumpstart network developers content creators rewarded set shop decentraland foundation hold contests create art games applications experiences prizes contingent meeting set milestones time new users assigned allowances allowing participate economy immediately financial incentives help bootstrap utility value network independently attracts users developers 04 challenges decentralized content distribution content distribution p2p network main issues involves download speed retrieving file dht distributed peer peer storage system traditionally slow specially graphical application like decentraland users adverse system load experience quickly second issue involves availability ensuring content su xef xac x80iciently distributed network loss ipfs upcoming filecoin protocol",
+    "metadata": {
+      "chunk_id": "a2477d75cab07c9629033434bfc4c722",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  },
+  {
+    "text": "[Section 24] like decentraland users adverse system load experience quickly second issue involves availability ensuring content su xef xac x80iciently distributed network loss ipfs upcoming filecoin protocol addressing issues xe2 x80 x99re looking forward production ready scripting scripting important element create valuable experiences users decentraland apis need secure clients hold private keys authorize micropayments frequently ease use critical penetrate broad audience developers 04 challenges 13 14 content curation issue filtering content mature audiences like pornography violence gambling di xef xac x80icult solve decentralized network expect market emerge reputation based approach users select providers whitelists blacklists track type content served parcel x0c05 summary 05 summary 14 14 decentraland distributed platform shared virtual world enables developers build monetize applications scarcity land applications built creates hubs capture user attention drives revenue content creators",
+    "metadata": {
+      "chunk_id": "494464043637f0472dd9b1bbd599e701",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Decentraland.txt"
+    }
+  }
+]

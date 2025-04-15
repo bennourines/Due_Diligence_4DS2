@@ -1,0 +1,1762 @@
+[
+  {
+    "text": "[Section 1] b origo privacy preserving platform decentralized applications origo foundation support origo network version 0 2 update jan 28th 2019 disclaimer paper intended technical overview intended comprehensive final design noncritical aspects covered x0cii important notice read legal disclaimer risk factors appendix continuing reading white paper x0ccontents 1 introduction 1 1 privacy problems 1 2 contributions 1 1 2 2 overview 2 1 scope aimed privacy 3 3 3 origo protocol 3 1 design principles 3 2 limitations current solution 3 3 protocol overview 4 4 5 7 4 technical design 4 1 protocol roles 4 2 protocol phases 4 2 1 initialize phase 4 2 2 commit phase 4 2 3 execute phase 4 2 4 settle phase 4 3 zero knowledge proof 4 3 1 zkp origo 4 3 2 trusted setup 4 3 3 comparison secure multi party computation 4 3 4 conclusion 9 9 9 9 10 10 11 11 13 14 15 15 5 infrastructure 5 1 ethereum compatibility 5 2 confidential transaction 16 16 16 iii x0ccontents iv 6 future improvements 6 1 consensus protocol 6",
+    "metadata": {
+      "chunk_id": "95730fdfd293a40e46d74ea2a175618a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 2] 4 3 4 conclusion 9 9 9 9 10 10 11 11 13 14 15 15 5 infrastructure 5 1 ethereum compatibility 5 2 confidential transaction 16 16 16 iii x0ccontents iv 6 future improvements 6 1 consensus protocol 6 2 sharding 6 2 1 computation sharding 6 2 2 state sharding 6 3 virtual machine 18 18 20 21 21 21 24 24 24 25 25 26 8 security 8 1 fairness assurance 8 2 execution completeness party 8 3 execution completeness executor 28 28 28 29 9 cryptoeconomics design 9 1 design principles 9 2 incentives roles 30 30 30 10 roadmap 33 bibliography 34 list figures 37 list tables 38 legal disclaimer 39 b risk factors 52 7 applications 7 1 applications enabled origo 7 1 1 privacy public 7 1 2 privacy participant party 7 2 privacy preserving application platform ppap 7 3 example x0cchapter 1 introduction ethereum 1 advanced bitcoin 2 smart contract digital assets directly controlled piece code creates possibility complex applications 3 current smart contract privacy input data smart contract execution result",
+    "metadata": {
+      "chunk_id": "da59822e7957af9261f1d36aa93b1ab3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 1 advanced bitcoin 2 smart contract digital assets directly controlled piece code creates possibility complex applications 3 current smart contract privacy input data smart contract execution result public visible network limits usage adoption real world privacy concerned companies individuals 4 blockchain s powerful technologies allowed untrusted parties interact securely correctly origo strengthens addition security correctness privacy key broader adoption blockchain progresses like zerocash 5 enabled private transaction origo furthers privacy work based related research hawk 6 bulletproofs 7 etc enabling parties create execute smart contract revealing private input output 1 1 privacy problems real world governments centralized private corporations increasing omnipresent surveillance citizens users soon later moment citizens users start demanding fundamental human rights privacy growing global concern privacy public media repeatedly covered controversial privacy related incidents",
+    "metadata": {
+      "chunk_id": "9cf31d474ca44b73cacd9a2f712afc42",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 4] citizens users soon later moment citizens users start demanding fundamental human rights privacy growing global concern privacy public media repeatedly covered controversial privacy related incidents examples story government surveillance 8 example facebook s large scale scientific experiment apparently conducted explicitly informing participants 9 1 x0cintroduction 2 business individuals concerns privacy viewed restrictions public blockchain exposure cause issues intellectual property ownership rights data misuse inimical behaviors etc terms contracts entities major concerns sensitive data details contract monetary key data performance measurement contract execution prerequisites traditional smart contracts like ethereum failed protect sensitive contract details restricting industrial personal usage 1 2 contributions xe2 x80 xa2 privacy preserving application platform combining innovative privacy protocol efficient zero knowledge proof zkp framework origo s privacy preserving",
+    "metadata": {
+      "chunk_id": "b53c928d8d5ba7b4bbb46edd30fe5228",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 6] improving performance enhanced consensus protocol state art sharding stateless client improved application runtime environment virtual machine x0cchapter 2 overview 2 1 scope aimed privacy recent projects like monero 10 zcash etc strived solve privacy issues creating new private cryptocurrencies projects aim achieve confidential transactions mainly mechanisms zero knowledge proofs cryptography primitives origo aims provide privacy preserving ability confidential transactions input output data privacy decentralized applications written smart contracts origo s results complexity projects mentioned comparison scope aimed privacy origo confidential transaction focused projects shown table 2 1 illustrates monero zcash mimblewimble fork bitcoin support confidential transactions origo aligned enhanced ethereum liked decentralized application platform guards input output data privacy applications monero zcash origo sender address sender address transaction transaction receiver address",
+    "metadata": {
+      "chunk_id": "62bcfb0feb16c67bfce34cbee2a8b77f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 7] enhanced ethereum liked decentralized application platform guards input output data privacy applications monero zcash origo sender address sender address transaction transaction receiver address receiver address application input application output table 2 1 comparison privacy scope origo monero zcash 3 x0cchapter 3 origo protocol 3 1 design principles privacy preserving application platform provides functionality confidential transaction confidential transaction means protect sender receiver money privacy preserving applications require including functionality confidential transaction ability protecting input output data privacy parties provide input data e g choices gamble game currency units e g bids auction system receiving inputs system executes application chain encrypted outputs payout distribution parties system needs ensure privacy inputs fairness execution xe2 x80 xa2 privacy inputs outputs inputs outputs applications including data currencies protected public words inputs",
+    "metadata": {
+      "chunk_id": "91832b1d0c488ef45c9d4e751a95b765",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 8] distribution parties system needs ensure privacy inputs fairness execution xe2 x80 xa2 privacy inputs outputs inputs outputs applications including data currencies protected public words inputs outputs cryptographically hidden public achieve information sent blockchain encrypted uses zero knowledge proofs ensure correctness contract execution xe2 x80 xa2 fairness execution decentralized applications especially multi party involved protecting privacy public assuming participants selfish maximize interest abort execution system need ensure fairness parties 4 x0corigo protocol 5 origo proposes solution execute decentralized application securely privately protect input output data privacy origo execute decentralized applications chain environment proof chain execution submitted chain verification correct computation application developers need knowledge cryptography origo privacy preserving application platform ppap write application original way origo ppap compiles executes application",
+    "metadata": {
+      "chunk_id": "6ce69b641e4592ead8139184585894ae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 9] correct computation application developers need knowledge cryptography origo privacy preserving application platform ppap write application original way origo ppap compiles executes application leaking input output ppap empowers developers build privacy protecting applications easily conveniently ensure efficiency privacy origo provided chain chain computation stages execution proof correctness application requires privacy chain verification computation privacy preserving application execution normal application chain use zero knowledge proof ensure public blockchain verify correctness chain application execution maintaining execution details private origo proposes proper economic mechanism prevent malicious party aborting contract 3 2 limitations current solution s simple way implement turing complete privacy preserving application existing blockchain technology ethereum public permissionless blockchain supports turing complete applications provide transaction privacy node need run",
+    "metadata": {
+      "chunk_id": "9387e3052795ee8f08efd72ce879d6b4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 10] turing complete privacy preserving application existing blockchain technology ethereum public permissionless blockchain supports turing complete applications provide transaction privacy node need run contract verify contracts executed correctly input intermediate status output contract available node ethereum techniques preserve privacy certain applications ethereum example parties playing rock paper scissors games ethereum smart contract party directly post choice contact party advantage reading party s choice post adversary instead post hash choice plus random string contract parties committed input reveal input submit choice random string contract contract input parties checking hash x0corigo protocol 6 claimed input plus random string matches submitted hash value code 3 1 demonstrates described solution techniques allows parties play game worrying party party s choice adjust choice accordingly outcome game public know won game paid winner 1 2 3 def commit party c h o c e random",
+    "metadata": {
+      "chunk_id": "29a1bafe6b5d6bf1f9603a7184a417ae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 11] described solution techniques allows parties play game worrying party party s choice adjust choice accordingly outcome game public know won game paid winner 1 2 3 def commit party c h o c e random string commitment hash func c h o c e random string p r t y send commitment 4 5 6 7 8 9 10 11 def r e v e l party c h o c e random string wait l e n commitments 2 timeout t expected commitment hash func c h o c e random string received commitment commitments p r t y f expected commitment received commitment r e t u r n party c h o c e r e t u r n party null choice 12 13 14 15 16 17 18 19 def e x e c u t e p r t e s p r t y c h o c e s f winner p r t y c h o c e s p r t e s 0 transfer fund parties 0 e l f winner p r t y c h o c e s p r t e s 1 transfer fund parties 1 refund parties parties listing 3 1 pseudocode smart contract ethereum play rock paper scissors game cryptocurrencies like zcash monero partially solved problem supporting confidential transactions support smart contract origo",
+    "metadata": {
+      "chunk_id": "e78242ebb85dfef1a8c07fc1942070f4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 12] 3 1 pseudocode smart contract ethereum play rock paper scissors game cryptocurrencies like zcash monero partially solved problem supporting confidential transactions support smart contract origo support confidential transaction smart contract decentralized applications prevent input data privacy preserving applications public executed chain execution verified revealing actual result zero knowledge proof proper protocol designed incentivize party behave rules x0corigo protocol 7 figure 3 1 protocol illustration 3 3 protocol overview address limitations origo supports private transaction smart contract inspired work hawk 6 introduce protocol combining chain chain computation preserves privacy smart contract executing shown figure 3 1 phases protocol initialize commit execute settle s brief explanation phases details described chapter initialize phase executor network elected later execution phase commit phase party freeze coins contract submit commitment including private input coin",
+    "metadata": {
+      "chunk_id": "9a9f6be5023adc5026bf13e46d71eec2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 13] explanation phases details described chapter initialize phase executor network elected later execution phase commit phase party freeze coins contract submit commitment including private input coin commitment schema input coin private party t change commitment parties submitted commitment timeout phrase reached deposit verified moves phase execution phase party reveal private input offline executor executor execute smart contract offline way input execution result revealed public x0corigo protocol 8 contract executed executor generate zero knowledge proof contract executed correctly blockchain verifies correctness fund distributed party based execution result protocol user input transaction contract execution details kept private verify contract correctly executed x0cchapter 4 technical design 4 1 protocol roles origo protocol contains major roles involved life cycle smart contract execution xe2 x80 xa2 parties p1 xc2 xb7 xc2 xb7 xc2 xb7 pn set users participating smart contract sc",
+    "metadata": {
+      "chunk_id": "471c8ef9c082ad94385fe81ec5a354e2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 14] design 4 1 protocol roles origo protocol contains major roles involved life cycle smart contract execution xe2 x80 xa2 parties p1 xc2 xb7 xc2 xb7 xc2 xb7 pn set users participating smart contract sc parties ofpriv pub priv pub fer private input i1 xc2 xb7 xc2 xb7 xc2 xb7 public input i1 xc2 xb7 xc2 xb7 xc2 xb7 coins c1 xc2 xb7 xc2 xb7 xc2 xb7 cn xe2 x80 xa2 blockchain b open distributed ledger record transactions parties efficiently verifiable permanent way xe2 x80 xa2 executor pe special party facilitates execution origo s smart contract executor outputs result o1 xc2 xb7 xc2 xb7 xc2 xb7 o n party 4 2 protocol phases origo protocol phases initialize commit execute settle phases strictly bounded timeouts t1 t2 tcommit t1 t1 xe2 x89 xa4 texecute t2 technical details phase 4 2 1 initialize phase parties elects node ni blockchain b executor pe pe s public key ke shared parties 9 x0ctechnical design 10 4 2 2 commit phase party pi xe2 x88 x88 n freeze coin ci xe2 x88 x88 n want deposit",
+    "metadata": {
+      "chunk_id": "9b4a4afdc513b71382bcb712a1db58d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 15] phase parties elects node ni blockchain b executor pe pe s public key ke shared parties 9 x0ctechnical design 10 4 2 2 commit phase party pi xe2 x88 x88 n freeze coin ci xe2 x88 x88 n want deposit priv smart contract wallet party compute commitment cm comm ci ii zero knowledge proof proo f ci xe2 x88 x88 n frozen coin ci commitment cm proo f ci supposed sent blockchain b t1 parties accepted contract s participants blockchain b responsible verifying proo f ci sent party guarantee new parties accepted t1 required parties committed input coins contract execute phase contract aborted committed coins refunded party purpose phase let party submit input coins privately executor know parties input coin phase input coins deposit smart contract immutable phase advantage changing input coin knowing parties input 4 2 3 execute phase priv party pi xe2 x88 x88 n encrypts private input ii n coins ci xe2 x88 x88 n information executor pe s public key ke zero knowledge proof proo f ei xe2 x88 x88 n",
+    "metadata": {
+      "chunk_id": "331f9d658b5de359228a244faa945a8d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 16] parties input 4 2 3 execute phase priv party pi xe2 x88 x88 n encrypts private input ii n coins ci xe2 x88 x88 n information executor pe s public key ke zero knowledge proof proo f ei xe2 x88 x88 n built prove encrypted value matches commitment cm encrypted priv data enc ii ci corresponding proof proo f ei send blockchain blockchain receives encrypted data proof party b priv verify party encrypted data enc ii ci matches commitment priv cm comm ci ii submitted commit phase prevents party alert input data parties submitted encrypted data b successfully verified proo f ei checked current time t1 xe2 x89 xa4 t t2 sends encrypted data executor pe receiving verified encrypted data blockchain b executor pe decrypts priv private key pke ii ci party executes smart contract t2 parties failed send encrypted data proof blockchain proof correct party considered aborting contract x0ctechnical design 11 proper punishment applied deposit based requirement contract executor failed send output proof",
+    "metadata": {
+      "chunk_id": "651b62d791baba0545e46a7605ee8f5c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 17] encrypted data proof blockchain proof correct party considered aborting contract x0ctechnical design 11 proper punishment applied deposit based requirement contract executor failed send output proof blockchain timeout executor considered aborting malicious executor purpose abort contract execution result certain party s favor prevent require executor pay certain deposits executor failed submit result proof lose deposit sure executor disclose party s input outcome execution good idea run execution trusted hardware like intel sgx 11 4 2 4 settle phase executor pe finished execution outputs o1 xc2 xb7 xc2 xb7 xc2 xb7 o n party pi xe2 x88 x88 n produced pe builds proof proo f e prove outputs correctly compute parties inputs smart contract encrypt outputs o1 xc2 xb7 xc2 xb7 xc2 xb7 o n party s public key kpi xe2 x88 x88 n enc o1 xc2 xb7 xc2 xb7 xc2 xb7 enc o n pe sends proo f e enc o1 xc2 xb7 xc2 xb7 xc2 xb7 enc o n blockchain b b verifies proo f e check contract executed correctly",
+    "metadata": {
+      "chunk_id": "778e508b33e6ef801b295b7060469715",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 18] party s public key kpi xe2 x88 x88 n enc o1 xc2 xb7 xc2 xb7 xc2 xb7 enc o n pe sends proo f e enc o1 xc2 xb7 xc2 xb7 xc2 xb7 enc o n blockchain b b verifies proo f e check contract executed correctly distributes coins party based execution result lastly party decrypts output gets coin contract deposit wallet private transaction 4 3 zero knowledge proof zero knowledge proof zkp key technique origo ensure privacy smart contract executing contract correctly completely zkp established method cryptography zkp parties party called prover prove party called verifier statements holds sharing information holds zkp protocol satisfy following properties xe2 x80 xa2 completeness given honest prover honest verifier protocol succeeds overwhelming probability x0ctechnical design 12 xe2 x80 xa2 soundness know secret convince verifier non negligible probability xe2 x80 xa2 zero knowledge proof leak additional information intuitive way create zkp protocol allow interactive communication prover verifier",
+    "metadata": {
+      "chunk_id": "c971875b6652d452a12ba48226e4e436",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 19] know secret convince verifier non negligible probability xe2 x80 xa2 zero knowledge proof leak additional information intuitive way create zkp protocol allow interactive communication prover verifier called interactive zero knowledge proof izkp verifier construct question randomly prover based assumption prover knows secret information prover answer question possessing announced secret information course constructing questions based previous replies prover allowed possible convert izkp verifier public coin verifier e random choices verifier public non interactive protocol secure zero knowledge random oracle model fiat shamir heuristic 12 xe2 x80 x94 random challenges replaced hashes specifically non interactive zero knowledge proofs nizk proposed tool enable smart contracts expose user inputs academia 6 13 14 nizk limitation practical usage smart contracts fact communication blockchain equipped smart contract expensive smart contract s computation ability limited current widely",
+    "metadata": {
+      "chunk_id": "dea4235fd38e5a329c78cd9d3ad40e07",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 20] inputs academia 6 13 14 nizk limitation practical usage smart contracts fact communication blockchain equipped smart contract expensive smart contract s computation ability limited current widely adopted snarks 15 neutral choice smart contracts require complex trusted setup core trusted setup common reference strings crs usually long specific individual smart contract makes schema unreliable possible trapdoors arithmetic circuit ac core digital circuit form mathematical representation combination small logic operations like addition subtraction multiplication division example figure 4 1 shows ac format computation b xc3 x97 c d based fact computational condition represented ac takes input output boolean value true false b smart contract turing complete formally specified language viewed complicated collection interaction computational conditions transferring smart contract arithmetic circuit surprise different techniques proposed 7 16 create efficient zero knowledge argument arbitrary",
+    "metadata": {
+      "chunk_id": "39b9ea74f8b43754418decfce4c1dc8a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 21] collection interaction computational conditions transferring smart contract arithmetic circuit surprise different techniques proposed 7 16 create efficient zero knowledge argument arbitrary arithmetic circuit ac e prover prove possession certain input satisfy ac x0ctechnical design 13 figure 4 1 example arithmetic circuit making ac output true proving correctness contract execution sharing contract data information possible 4 3 1 zkp origo orgio zkp shield transaction information send receiver address transaction input output smart contract based section 3 3 executing private smart contract multiple phases require zkp prove verify commitment parties pi xe2 x88 x88 n executor pe xe2 x80 xa2 commit phase parties pi xe2 x88 x88 n need prove sufficient coins ci xe2 x88 x88 n smart contract sc xe2 x80 x93 statement n izk prove pi ci ki witness xe2 x88 x88 n xe2 x80 x93 n izk veri f y pi statement priv xe2 x80 xa2 compute phase parties pi xe2 x88 x88 n need prove private inputs ii xe2 x88",
+    "metadata": {
+      "chunk_id": "045b74f9163dcb789e9e350352e02b5f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 23] setup required required required practical yes yes table 4 1 comparison different zkp systems priv xe2 x80 x93 statement n izk prove pi ii witness xe2 x88 x88 n proving processes origo described proceeded chain possibility seconds minutes finished verifying different nizk systems variant performance verifying chain variance verifying performance traded requirement setup process proof verification size 4 3 2 trusted setup described current techniques requires trusted setup step application trusted party multi party computation mpc origo designed support privacy preserving smart contract smart contract needs trusted setup creating unique crs matter trusted setup process makes creating privacy preserving smart contract heavy inflexible privacy preserving smart contract trusted setup essential making origo practical note private transaction tolerate trusted setup need industry showcases running valid setup ceremony investigated new techniques 7 15 provide valid zkp protocol trusted setup",
+    "metadata": {
+      "chunk_id": "3f90f27c358e27c6f4c42c6718e2c622",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 24] making origo practical note private transaction tolerate trusted setup need industry showcases running valid setup ceremony investigated new techniques 7 15 provide valid zkp protocol trusted setup illustrated table 4 1 currently practical proof system trusted setup worse verifier efficiency expensive verifier degrade consensus speed verification required chain work chain verification necessary minimize drawbacks caused new proof system trusted setup x0ctechnical design 15 features secure multi party computation origo performance poor acceptable privacy output yes synchronization required required table 4 2 comparison secure multi party computation origo 4 3 3 comparison secure multi party computation zkp researched privacy preserving technologies homomorphic encryption secure multi party computation secure multi party computation allow parties jointly compute function inputs keeping inputs private applied smart contract allows participating parties jointly compute smart contract",
+    "metadata": {
+      "chunk_id": "0f131ec5ce78c4a6377b2101c7231668",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 25] computation secure multi party computation allow parties jointly compute function inputs keeping inputs private applied smart contract allows participating parties jointly compute smart contract execution input data private mpc requires multiple rounds interactions parties noninteractive zero knowledge proof require proofer verifier s existing approach execution results privately preserved participating parties importantly computation complexity mpc higher zkp applied limited scope real applications think zkp better solution build privacy preserving application platform 4 3 4 conclusion ensure efficiency private transaction prefer apply zkp require trusted setup private transaction verification efficient verification time verification blockchain requiring privacy preserving smart contract perform trusted setup practical prefer apply zkp techniques require trusted set verify contract execution x0cchapter 5 infrastructure 5 1 ethereum compatibility current status origo s chain",
+    "metadata": {
+      "chunk_id": "f6010e1ad02b81020b3808b8045dbf9e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 26] contract perform trusted setup practical prefer apply zkp techniques require trusted set verify contract execution x0cchapter 5 infrastructure 5 1 ethereum compatibility current status origo s chain infrastructure ethereum compatible pow consensus evm solidity initially developed platform based ethereum s byzantium fork reasons chooses ethereum compatible infrastructure step ethereum community largest groups active developers invest resources privacy technologies optimal block gas limit current platform designed higher current ethereum privacy preserving features require computation resources ethereum compatible infrastructure scalability challenges willing overcome challenges later versions origo platform 5 2 confidential transaction goal confidential transaction ensure data transaction remains private similar zcash confidential transaction uses private addresses transaction private addresses leak information sender receiver transaction party user transfer token public address",
+    "metadata": {
+      "chunk_id": "de372197d67cb1d71a8e6624bdc7bf63",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 27] remains private similar zcash confidential transaction uses private addresses transaction private addresses leak information sender receiver transaction party user transfer token public address private address vice versa utilize zero knowledge proof system zksnarks transaction data private correctness confidential transaction sender knows secrete spend token 16 x0cinfrastructure 17 private address sum input token equals sum output token verified public x0cchapter 6 future improvements ethereum like infrastructure suffers limitations scalability platform extremely efficient future improvements platform focus implementing scalability features xe2 x80 xa2 optimized consensus hybrid consensus improve throughput transactions xe2 x80 xa2 sharding state art sharding protocol origo linearly scalable xe2 x80 xa2 enhanced virtual machine new virtual machine standard improve execution speed smart contract whitepaper sections introduce techniques briefly concrete design potential techniques",
+    "metadata": {
+      "chunk_id": "ce95d707b82fa2e73725576f0a4124a8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 28] scalable xe2 x80 xa2 enhanced virtual machine new virtual machine standard improve execution speed smart contract whitepaper sections introduce techniques briefly concrete design potential techniques publish detailed documents 6 1 consensus protocol consensus specifies group nodes network reach agreements value consensus protocol resilient failures nodes network partitioning order corrupted messages message delays selfish node deliberately malicious node breaks consensus leads wrong state key properties consensus non faulty nodes produce output eventually liveness ii nodes participating consensus produces identical valid output consistency consensus new problem academic world 18 x0cfuture improvements 19 classical consensus blockchain consensus example pbft paxos pow pos poa transaction throughput high low medium network size small large openness permissioned permissionless table 6 1 comparison classical consensuses blockchain focused consensuses studying extensively decades developed",
+    "metadata": {
+      "chunk_id": "be8001d0db8f28c856fb15ca73cd7cc1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 29] high low medium network size small large openness permissioned permissionless table 6 1 comparison classical consensuses blockchain focused consensuses studying extensively decades developed numerous practical solutions tolerate malicious nodes 17 18 solutions aimed closed permissioned low latency network bitcoin s fundamental innovation enable consensus open permissionless decentralized network achieved leader election procedure called proof work pow participants attempt solve mathematical puzzle participant wins right add block pow strong guarantee security permissionless network suffers poor performance fundamental redesign 19 consumes huge energy rapid growth blockchain industry numerous proposals address issues 20 researches focused reduce energy consumption e g proof stake pos 21 focused modify original pow protocol better performance 22 compared classical consensus protocol permissioned network performance protocols ideal adopting blockchain real world applications table 6 1",
+    "metadata": {
+      "chunk_id": "a0dbfaf07447ff3f7676918551177356",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 30] focused modify original pow protocol better performance 22 compared classical consensus protocol permissioned network performance protocols ideal adopting blockchain real world applications table 6 1 illustrates classical consensuses blockchain focused consensuses given fact classical consensus blockchain focused consensus ideal massive adoption current blockchain environment believe hybrid consensus protocol able achieve similar performance like classical consensus require permissioned settings considered long term consensus engine platform figure 6 1 demonstrates future possible architecture origo consensus xe2 x80 xa2 address requirement node awareness pbft consensus need identity chain identity chain uses current widely adopted blockchain focused consensus like pow pos consensus resilient x0cfuture improvements 20 figure 6 1 origo consensus architecture sybil attack 23 identity chain chain identity block block contains list nodes eligible transaction chain validators xe2 x80 xa2",
+    "metadata": {
+      "chunk_id": "4af1df342dc64a9987891c7ad9d5d9bf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 31] x0cfuture improvements 20 figure 6 1 origo consensus architecture sybil attack 23 identity chain chain identity block block contains list nodes eligible transaction chain validators xe2 x80 xa2 pbft adopted consensus transaction chain pbft best performance relatively small network e g hundreds nodes periodical validator election implemented fixed configurable number validators randomly elected nodes recorded identity chain perform pbft consensus xe2 x80 xa2 random beacon based bls signature 24 implemented secure source distributed randomness randomness required electing validators candidates sharding network design implementation details origo s hybrid consensus future documents 6 2 sharding current blockchain designs node stores chain data processing transactions mechanism largely protects security sacrafices performance lot blockchains like ethereum bitcoin process tens transactions second address issues concluded types sharding mechanism computation sharding state sharding",
+    "metadata": {
+      "chunk_id": "0da32d81385a6265970cf371d6b23917",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 32] protects security sacrafices performance lot blockchains like ethereum bitcoin process tens transactions second address issues concluded types sharding mechanism computation sharding state sharding x0cfuture improvements 21 6 2 1 computation sharding computation sharding indicates nodes split multiple groups group processes subset transactions network linearly scalable increasing number groups secure deterministic random generator essential grantee security secure deterministic random generator shard assignment deductible deductible shard assignment greatly decrease security difficulty attacking single shard attacking entire network mentioned 6 1 need bls signature 24 generate random number group pre elected validators shard assignment recorded identity block client uses information send transaction corresponding shards sender address transaction sharding criteria guarantee transactions account processed shard minimize cross shard communication requirement 6 2 2 state sharding improve",
+    "metadata": {
+      "chunk_id": "28423e7bce09444660f3bb101237a3f9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 33] corresponding shards sender address transaction sharding criteria guarantee transactions account processed shard minimize cross shard communication requirement 6 2 2 state sharding improve scalability state sharding adopted state sharding indicates nodes sharded store partial block data compared computation sharding state sharding challenging issues needs extensive work secure ii cross shard communication necessary xe2 x80 x99s likely transaction needs involve state cross multiple shards cross shard communication hurt overall throughput 6 3 virtual machine virtual machine runtime environment smart contract crucial blockchain support smart contract future origo vm based emerging virtual machine standard webassembly wasm short new portable size load time efficient format webassembly currently designed open standard w3c community group wasm efficient performant contains support llvm compilation backend support multiple programing languages input long x0cfuture improvements 22 term future",
+    "metadata": {
+      "chunk_id": "d009f57d400fe089f4c1acde4bc25473",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 34] designed open standard w3c community group wasm efficient performant contains support llvm compilation backend support multiple programing languages input long x0cfuture improvements 22 term future origo vm support developer friendly language like python java figure 6 2 illustrates process compiling executing smart contract figure 6 2 ethereum s compile execute process smart contract origo s privacy preserving smart contract relies zero knowledge proof zkp proof verify privacy preserving smart contract execution requires compiler vm integrated zkp systems privacy preserving smart contract needs compiled arithmetic circuits provable program zkp system vm able run circuits produce proofs verify proofs origo supports public privacy preserving smart contract origo vm instance designed able run public privacy preserving smart contract normal pipeline compiling executing smart contract able meet requirement long term pipeline accepts public privacy preserving smart contract necessary",
+    "metadata": {
+      "chunk_id": "5e033b4285d0c1402c29bf203c5f0ff3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 35] run public privacy preserving smart contract normal pipeline compiling executing smart contract able meet requirement long term pipeline accepts public privacy preserving smart contract necessary illustrated figure 6 3 currently origo s virtual machine evm compatible extended opcode support zkp prove verify operation circuits origo s privacy preserving smart contract language limited solidity strict certain operations achieve better performance note origo public smart contract complete solidity intend use solidity origo dsl minimum effort required migrating smart contract ethereum origo x0cfuture improvements figure 6 3 origo s compile execute process smart contract 23 x0cchapter 7 applications 7 1 applications enabled origo origo privacy preserving protocol enables broad adoption decentralized applications requires privacy mentioned section 2 1 classify categories 7 1 1 privacy public category participants want input output private public fine share information participants examples",
+    "metadata": {
+      "chunk_id": "3e42e73e574b315f3949f8feaedb4c83",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 36] applications requires privacy mentioned section 2 1 classify categories 7 1 1 privacy public category participants want input output private public fine share information participants examples applications domain finance xe2 x80 xa2 private exchange xe2 x80 xa2 credit scoring xe2 x80 xa2 online lending xe2 x80 xa2 insurance xe2 x80 xa2 options futures contracts enterprise xe2 x80 xa2 salary bonus contracts 24 x0capplications 25 xe2 x80 xa2 employee stock incentive plans xe2 x80 xa2 supply chain contracts xe2 x80 xa2 corporate compliance health care xe2 x80 xa2 personalized medicine xe2 x80 xa2 diagnostics xe2 x80 xa2 medical records xe2 x80 xa2 iot applications category payroll employee employer involved want salary private public case employer employee execute contract locally submit zero knowledge proof blockchain origo protocol optimized improve efficiency application 7 1 2 privacy participant party category participant want input output transaction private origo protocol applied",
+    "metadata": {
+      "chunk_id": "000210edb8bf7c9c5b20eac7f4c799f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 37] knowledge proof blockchain origo protocol optimized improve efficiency application 7 1 2 privacy participant party category participant want input output transaction private origo protocol applied satisfy privacy requirement examples applications include xe2 x80 xa2 fundraising e g token fundraising xe2 x80 xa2 auction xe2 x80 xa2 voting 7 2 privacy preserving application platform ppap origo ppap developers build privacy preserving applications knowledge cryptography origo ppap provides compiler auto x0capplications 26 matically generates cryptographic protocols cryptographic primitives zero knowledge proofs 7 3 example present pseudocode payroll uses origo application platform 1 2 3 4 5 6 employer o f f c h n def commit r t e c o n cm commitment r t e c o n value proof zkp prove c o n s v l d n t e r c t b l o c k c h n blockchain commit proof coin cm 7 8 9 10 11 12 def e x e c u t e r t e c o n e n c r y p t e d n p u t e n c r y p t e x e c u t o r epk r t e c o n value proof zkp",
+    "metadata": {
+      "chunk_id": "12ffebe1b3cc405fc477954f3f662a22",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 38] v l d n t e r c t b l o c k c h n blockchain commit proof coin cm 7 8 9 10 11 12 def e x e c u t e r t e c o n e n c r y p t e d n p u t e n c r y p t e x e c u t o r epk r t e c o n value proof zkp prove e n c r y p t e d n p u t c o r r e c t l y encrypted n t e r c t b l o c k c h n blockchain e x e c u t e proof e n c r y p t e d n p u t 13 14 15 16 17 18 blockchain def commit proof coin cm zkp v e r f y proof c o n s v l d check spend c o n freeze coi n contract coin 19 20 21 22 23 def e x e c u t e proof e n c r y p t e d n p u t zkp v e r f y proof e n c r y p t e d n p u t c o r r e c t l y encrypted send e n c r y p t e d n p u t t o e x e c u t o r c l l executor e x e c u t e e n c r y p t e d n p u t 24 25 26 27 def s e t t l e output coin employee coin employer p r o o f s zkp v e r f y proofs c o n t r c t s c o r r e c t l y executed coin employee coin employer r e v l d send coin employee employee x0capplications 28 27 f r e e z e c o n t o c o n t r c t coin employer",
+    "metadata": {
+      "chunk_id": "6be479363e0f83be3b5bba81cceee91f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 39] v e r f y proofs c o n t r c t s c o r r e c t l y executed coin employee coin employer r e v l d send coin employee employee x0capplications 28 27 f r e e z e c o n t o c o n t r c t coin employer f o r l t e r use 29 30 31 32 33 34 35 36 37 38 39 40 41 42 executor o f f c h n def e x e c u t e e n c r y p t e d n p u t r t e c o n v l u e decrypt e n c r y p t e d n p u t s l r y r t e hour balance coin value xe2 x88 x92 salary output e n c r y p t b l n c e employer enc key f balance 0 coin employee c o n s l r y coin employer c o n b l n c e h n d l e e r r o r b l n c e coin employee c o n c o n v l u e coin employer c o n 0 43 44 45 46 p r o o f s zkp prove c o n t r c t s c o r r e c t l y executed zkp prove coin employee coin employer r e v l d n t e r c t b l o c k c h n blockchain s e t t l e output coin employee coin employer p r o o f s listing 7 1 pseudocode smart contract origo execute payroll employer offchain auto generated code blockchain built origo developers need",
+    "metadata": {
+      "chunk_id": "27783d661bb3fdce6c8a0b17c40260a0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 40] s e t t l e output coin employee coin employer p r o o f s listing 7 1 pseudocode smart contract origo execute payroll employer offchain auto generated code blockchain built origo developers need implement logic executor similar writing smart contract ethereum x0cchapter 8 security 8 1 fairness assurance ensure fairness execution smart contract inputs execution separated steps contract s participants prepare commit encrypted inputs including money starting execution commits encrypted want disclose parties inputs hidden commit step ends parties change input anymore commit step finishes parties need open inputs executor executor process smart contract step arbitrary parties know inputs inputs immutable commit change inputs anymore design parties affect result execution 8 2 execution completeness party design ensure fairness participants change execution result thing abort prevent loss arbitrary parties know inputs predict result e g gamble game deposit mechanism introduced prevent",
+    "metadata": {
+      "chunk_id": "2a1520c379ddaacb8cf032ec2b8e5027",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 41] party design ensure fairness participants change execution result thing abort prevent loss arbitrary parties know inputs predict result e g gamble game deposit mechanism introduced prevent contracts need prevent quitting e g gamble game origo provides deposit framework contract designer allows parties deposit participating parties abort contract deposit shared participants way parties won t motivation abort contract 28 x0csecurity 29 8 3 execution completeness executor unlike parties abortion deposit executor default executor deposit execute contract fails deposit distributed participants contracts high availability requirement backup executor mechanism designed executor group runs contract serve verifiers normally check result main executor executor abort backup x0cchapter 9 cryptoeconomics design 9 1 design principles decentralized systems like torrent platform failed lack economic incentives users follow rules keeping seeds share file network download torrent s case bitcoin",
+    "metadata": {
+      "chunk_id": "12ff671a3e9cebfc789f4e878ae966c0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 42] design 9 1 design principles decentralized systems like torrent platform failed lack economic incentives users follow rules keeping seeds share file network download torrent s case bitcoin improved decentralized systems establishing proper crytoeconomic mechanism users follow rules overcome byzantine general s problem create perfect consensus system origo platform rules shown later chapter mainly focus issues privacy instance role origo conduct intended unintended behaviors related smart contract privacy info leak privacy preserving contract execution abort order reach consensus based rules origo incentive mechanism insufficient consensus algorithms like pow pos cause xe2 x80 x9cdouble spending xe2 x80 x9d xe2 x80 x9cnothing stake xe2 x80 x9d problems lack punishment negative incentive mechanism origo applies hybrid consensus algorithm combine bft consensus stake based blockchain consensus 9 2 incentives roles origo consensus consist incentive sets described table 9 1 30",
+    "metadata": {
+      "chunk_id": "8c300e75496dd0482f05c7528c94b4f2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 43] incentive mechanism origo applies hybrid consensus algorithm combine bft consensus stake based blockchain consensus 9 2 incentives roles origo consensus consist incentive sets described table 9 1 30 x0ccryptoeconomics design 31 incentive set 1 basic set origo token origo token serves similar xe2 x80 x9cgas fee xe2 x80 x9d function eth ethereum roles actively participate contribute blockchain assigned cryptocurrencies efforts privileges roles use origo token purposes origo ecosystem incentive set 2 advanced set deposits origo token required deposits perform certain tasks bidding executor job payments participants pay certain origo token order participate certain activities including transaction fees rewards good participants origo token rewards punishments bad participants lose portion deposits certain rights taken away behaving badly according rules table 9 1 incentive set origo defines denotations incentives later discussion xe2 x80 xa2 token rewards r1 xc2 xb7 xc2 xb7 xc2 xb7 rn nth",
+    "metadata": {
+      "chunk_id": "6231a202bc3bdb391bf7cd4f6e83d874",
+      "entities": {
+        "crypto_project": [
+          "origo token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 44] certain rights taken away behaving badly according rules table 9 1 incentive set origo defines denotations incentives later discussion xe2 x80 xa2 token rewards r1 xc2 xb7 xc2 xb7 xc2 xb7 rn nth party xe2 x80 xa2 payment p1 xc2 xb7 xc2 xb7 xc2 xb7 pn nth party xe2 x80 xa2 deposits d1 xc2 xb7 xc2 xb7 xc2 xb7 dn nth party xe2 x80 xa2 punishments pun1 xc2 xb7 xc2 xb7 xc2 xb7 punn nth party addition origo defines roles platform xe2 x80 xa2 validators vi xe2 x88 x88 v provides computation power platform execute tasks proof verification block validation vi receives rvi mining block computing certain task xe2 x80 xa2 users ui xe2 x88 x88 u utilize contracts dapps platform ui makes deposit dui payment pui exchange service product smart contracts dapps ui gain rewards rui contract dapp mechanisms created developers x0ccryptoeconomics design 32 xe2 x80 xa2 contract dapp developers devi xe2 x88 x88 dev create privacy preserving smart contracts dapps devi payment pdevi computation resource obtain",
+    "metadata": {
+      "chunk_id": "ffeaf7be72d633b08a6fea2555a2a8fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 45] developers x0ccryptoeconomics design 32 xe2 x80 xa2 contract dapp developers devi xe2 x88 x88 dev create privacy preserving smart contracts dapps devi payment pdevi computation resource obtain rewards r devi generating smart contracts dapps xe2 x80 xa2 executor ei xe2 x88 x88 e conduct privacy related tasks zero knowledge proof ei forced deposit dei origo prevent misconducting receives punishment pun ei ei obtain rewards r ei completing privacy related task order incentives sets work role fundamental protocols 1 activity origo platform dui pui pdevi dei xe2 x89 xa5 r mi rui r devi pun ei r ei applies dui pui pdevi dei r mi rui r devi pun ei r ei xe2 x89 xa5 0 time 2 origo lets supply demand law decide exact dui pui pdevi dei rvi rui r devi pun ei r ei platform xe2 x88 x91 dui pui pdevi dei xe2 x89 xa5 xe2 x88 x91 rvi rui rdevi punei rei time maintain platform sustainability x0cchapter 10 roadmap xe2 x80 xa2 2018 december originis test net release confidential transaction xe2 x80 xa2",
+    "metadata": {
+      "chunk_id": "0881d26b923dbaef1f1202a0a83eca92",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 46] xe2 x89 xa5 xe2 x88 x91 rvi rui rdevi punei rei time maintain platform sustainability x0cchapter 10 roadmap xe2 x80 xa2 2018 december originis test net release confidential transaction xe2 x80 xa2 2019 4th quarter medietas main net release xe2 x80 xa2 2020 1st quarter adscensus enable built privacy preserving smart contracts xe2 x80 xa2 2020 2nd quarter infinitas enable developers create privacy preserving secure verifiable smart contracts 33 x0cbibliography 1 g wood ethereum project yellow paper 151 1 2014 2 s nakamoto bitcoin peer peer electronic cash system 2009 3 v buterin 2014 banks s privacy concerns shaping blockchain 4 t macheel https www americanbanker com news vendors xe2 x80 x99 strategies banks privacy concerns shaping blockchain vendors strategies 2016 online accessed 15 march 2018 5 e b sasson et al zerocash decentralized anonymous payments bitcoin security privacy sp 2014 ieee symposium pp 459 xe2 x80 x93474 ieee 2014 6 kosba miller e shi z wen c papamanthou hawk",
+    "metadata": {
+      "chunk_id": "5684517e9537d866b1da95565bbc7d8f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 47] march 2018 5 e b sasson et al zerocash decentralized anonymous payments bitcoin security privacy sp 2014 ieee symposium pp 459 xe2 x80 x93474 ieee 2014 6 kosba miller e shi z wen c papamanthou hawk blockchain model cryptography privacy preserving smart contracts security privacy sp 2016 ieee symposium pp 839 xe2 x80 x93858 ieee 2016 7 b b xc3 x83ijnz et al bulletproofs short proofs confidential transactions cryptology eprint archive report 2017 1066 2017 https eprint iacr org 2017 1066 8 j ball nsa s prism surveillance program works https www theguardian com world 2013 jun 08 nsa prism server collection facebook google 2013 online accessed 15 march 2018 9 v goel facebook tinkers users emotions news feed experiment stirring outcry http nyti ms 2efhepr 2014 online accessed 15 march2018 10 n van saberhagen crypto note v2 0 howpublished https github com monero project research lab blob master whitepaper whitepaper pdf 34 x0cbibliography 35 year 2016 note online accessed 15 march 2018 11",
+    "metadata": {
+      "chunk_id": "ce3be1f1ef033ef6451abb2e7e1f9473",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 48] n van saberhagen crypto note v2 0 howpublished https github com monero project research lab blob master whitepaper whitepaper pdf 34 x0cbibliography 35 year 2016 note online accessed 15 march 2018 11 intel intel software guard extensions https software intel com en sgx 2017 online accessed 15 march 2018 12 m bellare p rogaway random oracles practical paradigm designing efficient protocols ccs xe2 x80 x9993 proceedings 1st acm conference computer communications security fairfax virginia usa november 3 5 1993 pp 62 xe2 x80 x9373 1993 13 p mccorry s f shahandashti f hao smart contract boardroom voting maximum voter privacy financial cryptography data security 21st international conference fc 2017 sliema malta april 3 7 2017 revised selected papers pp 357 xe2 x80 x93375 2017 14 m campanelli r gennaro s goldfeder l nizzardo zero knowledge contingent payments revisited attacks payments services cryptology eprint archive report 2017 566 2017 https eprint iacr org 2017 566 15 e ben sasson",
+    "metadata": {
+      "chunk_id": "6000acbdbcb31ab3ddab857f12188509",
+      "entities": {
+        "location": [
+          "malta"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 49] r gennaro s goldfeder l nizzardo zero knowledge contingent payments revisited attacks payments services cryptology eprint archive report 2017 566 2017 https eprint iacr org 2017 566 15 e ben sasson chiesa e tromer m virza succinct non interactive zero knowledge von neumann architecture proceedings 23rd usenix conference security symposium sec xe2 x80 x9914 pp 781 xe2 x80 x93796 berkeley usa 2014 usenix association 16 j bootle j groth efficient batch zero knowledge arguments low degree polynomials cryptology eprint archive report 2018 045 2018 https eprint iacr org 2018 045 17 l lamport acm transactions computer systems tocs 16 133 1998 18 m castro et al practical byzantine fault tolerance osdi vol 99 pp 173 xe2 x80 x93186 1999 19 k croman et al scaling decentralized blockchains international conference financial cryptography data security pp 106 xe2 x80 x93125 springer 2016 20 s bano m al bassam g danezis usenix login magazine 2017 21 s king s nadal self published paper august 19 2012",
+    "metadata": {
+      "chunk_id": "110f6f59ab09ad9eabb56d2ac9e13c4b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 50] conference financial cryptography data security pp 106 xe2 x80 x93125 springer 2016 20 s bano m al bassam g danezis usenix login magazine 2017 21 s king s nadal self published paper august 19 2012 22 gervais et al security performance proof work blockchains proceedings 2016 acm sigsac conference computer communications x0cbibliography 36 security pp 3 xe2 x80 x9316 acm 2016 23 wikipedia sybil attack xe2 x80 x94 wikipedia free encyclopedia http en wikipedia org w index php title sybil%20attack oldid 833940724 2018 online accessed 05 2018 24 d boneh b lynn h shacham short signatures weil pairing international conference theory application cryptology information security pp 514 xe2 x80 x93532 springer 2001 x0clist figures 3 1 protocol illustration 7 4 1 example arithmetic circuit 13 6 1 origo consensus architecture 20 6 2 ethereum s compile execute process smart contract 22 6 3 origo s compile execute process smart contract 23 37 x0clist tables 2 1 comparison privacy scope origo monero",
+    "metadata": {
+      "chunk_id": "7d1d387932fdaf58a4791111e379a417",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 51] consensus architecture 20 6 2 ethereum s compile execute process smart contract 22 6 3 origo s compile execute process smart contract 23 37 x0clist tables 2 1 comparison privacy scope origo monero zcash 3 4 1 comparison different zkp systems 14 4 2 comparison secure multi party computation origo 15 6 1 comparison classical consensuses blockchain focused consensuses 19 9 1 incentive set 31 38 x0cappendix legal disclaimer sale token sale origo token origo tokens exchange medium participants origo platform detailed whitepaper whitepaper intended directed certain persons whitepaper prospectus offer document sort intended constitute offer securities form units business trust units collective investment scheme form investment solicitation form investment jurisdiction regulatory authority examined approved information set whitepaper whitepaper registered regulatory authority jurisdiction accessing accepting possession information whitepaper thereof case represent warrant origo foundation",
+    "metadata": {
+      "chunk_id": "9136e8aa3998e4b02592f3b5f2e175b2",
+      "entities": {
+        "crypto_project": [
+          "origo token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 52] approved information set whitepaper whitepaper registered regulatory authority jurisdiction accessing accepting possession information whitepaper thereof case represent warrant origo foundation singapore foundation registration 201808339d project company token issuer xe2 x80 xa2 located people s republic china citizen resident tax domiciled people s republic china xe2 x80 xa2 b located united states america citizen resident tax green card holder domiciled united states america u s qualified person defined xe2 x80 xa2 c located jurisdiction token sale prohibited restricted unauthorized form manner laws regulatory requirements rules xe2 x80 xa2 d agree bound limitations restrictions described 39 x0clegal disclaimer 40 xe2 x80 xa2 e acknowledge whitepaper prepared delivery assist making decision purchase origo tokens important notice whitepaper current form circulated general information invite investor feedback origo platform presently conceived subject review revision directors token",
+    "metadata": {
+      "chunk_id": "f7714fa1419c38c22a7a98c2e1927044",
+      "entities": {
+        "location": [
+          "china",
+          "united states"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 53] purchase origo tokens important notice whitepaper current form circulated general information invite investor feedback origo platform presently conceived subject review revision directors token issuer project company advisers legal advisers token issuer project company replicate distribute whitepaper note accompaniment whitepaper intended create legal relations recipient whitepaper legally binding enforceable recipient token issuer project company updated version whitepaper published date determined announced token issuer project company course read section following sections entitled disclaimer liability representations warranties representations warranties cautionary note forwardlooking statements party information consent persons terms advice information date restrictions distribution dissemination offer investment registration risks uncertainties carefully doubt action consult legal financial tax professional advisor s origo tokens intended constitute securities form units",
+    "metadata": {
+      "chunk_id": "69a763565c730755795533c4e6c93893",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 54] dissemination offer investment registration risks uncertainties carefully doubt action consult legal financial tax professional advisor s origo tokens intended constitute securities form units business trust units collective investment scheme form investment jurisdiction whitepaper constitute prospectus offer document sort intended constitute offer securities form units business trust units collective investment scheme form investment solicitation form investment jurisdiction x0clegal disclaimer 41 whitepaper constitute form opinion advice acquire sell solicitation offer project company token issuer acquire origo tokens shall fact presentation form basis relied connection contract investment decision proceeds sale origo tokens deployed support ongoing development growth origo platform business development partnerships community support activities person bound enter contract binding legal commitment relation acquisition origo tokens cryptocurrency form payment accepted basis whitepaper",
+    "metadata": {
+      "chunk_id": "04c94f5983ef581748fc1d2852fa391f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 55] development partnerships community support activities person bound enter contract binding legal commitment relation acquisition origo tokens cryptocurrency form payment accepted basis whitepaper agreement token issuer participant token sale relation purchase origo tokens governed separate document setting terms conditions token sale terms agreement event inconsistencies token sale terms whitepaper shall prevail note token issuer offer sell eligible purchase origo tokens token sale located people s republic china citizen resident tax domiciled people s republic china b located united states america citizen resident tax green card holder domiciled united states america u s qualified person c token sale prohibited restricted unauthorized form manner laws regulatory requirements rules jurisdiction located time intended purchase purchase origo tokens token sale regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction",
+    "metadata": {
+      "chunk_id": "4e2db09d7d6cd54e88b4ce99f087aee0",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "location": [
+          "china",
+          "united states"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 56] located time intended purchase purchase origo tokens token sale regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction publication distribution dissemination whitepaper imply applicable laws regulatory requirements rules complied x0clegal disclaimer 42 risks uncertainties associated project company token issuer business operations origo tokens token sale origo platform refer section entitled risks disclosures set end whitepaper whitepaper thereof copy thereof taken transmitted country distribution dissemination whitepaper prohibited restricted whitepaper reproduced distributed disseminated including section following sections entitled disclaimer liability representations warranties representations warranties cautionary note forward looking statements party information consent persons terms advice information update restrictions distribution dissemination offer investment registration risks uncertainties disclaimer",
+    "metadata": {
+      "chunk_id": "ba1014e1dcc8f95edd18c0bba865cbb9",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 57] note forward looking statements party information consent persons terms advice information update restrictions distribution dissemination offer investment registration risks uncertainties disclaimer liability maximum extent permitted applicable laws regulations rules project company token issuer shall liable indirect special incidental consequential losses kind tort contract including limited loss revenue income profits loss use data arising connection acceptance reliance whitepaper thereof representations warranties project company token issuer purport disclaim representation warranty undertaking form whatsoever entity person including representation warranty undertaking relation truth accuracy completeness information set whitepaper x0clegal disclaimer 43 representations warranties accessing accepting possession information whitepaper thereof case represent warrant project company token issuer follows agree acknowledge origo tokens constitute securities form units business trust",
+    "metadata": {
+      "chunk_id": "bb6ae0807b351532132c0060221d3664",
+      "entities": {
+        "crypto_project": [
+          "origo tokens constitute"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 58] accepting possession information whitepaper thereof case represent warrant project company token issuer follows agree acknowledge origo tokens constitute securities form units business trust units collective investment scheme form investment jurisdiction b xe2 x80 xa2 located people s republic china citizen resident tax domiciled people s republic china xe2 x80 xa2 ii located united states america citizen resident tax green card holder domiciled united states america u s qualified person defined xe2 x80 xa2 iii located jurisdiction token sale prohibited restricted unauthorized form manner laws regulatory requirements rules jurisdiction c located united states america citizen resident tax green card holder domiciled united states america u s qualified person person individual legal entity person including limitation governmental authority accredited investor defined rule 501 regulation d u s securities act 1933 modified amended supplemented time time d agree acknowledge whitepaper",
+    "metadata": {
+      "chunk_id": "7c840d41df5b5a8270c2bb7a9e071e8c",
+      "entities": {
+        "crypto_project": [
+          "origo tokens constitute"
+        ],
+        "location": [
+          "china",
+          "united states"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 59] person including limitation governmental authority accredited investor defined rule 501 regulation d u s securities act 1933 modified amended supplemented time time d agree acknowledge whitepaper constitute prospectus offer document sort intended constitute offer securities form units business trust units collective investment scheme form investment jurisdiction solicitation form investment bound enter contract binding legal commitment cryptocurrency form payment accepted basis whitepaper e acknowledge understand origo tokens construed interpreted classified treated enabling according opportunity token x0clegal disclaimer 44 holders participate receive profits income payments returns arising connection origo tokens proceeds token sale receive sums paid profits income payments returns f agree acknowledge regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction publication distribution dissemination whitepaper imply",
+    "metadata": {
+      "chunk_id": "39af10ff69bdd71116a9d262b0d06f90",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 60] acknowledge regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction publication distribution dissemination whitepaper imply applicable laws regulatory requirements rules complied g agree acknowledge whitepaper undertaking completion token sale future trading origo tokens cryptocurrency exchange shall construed interpreted deemed indication merits project company token issuer origo tokens token sale origo platform h distribution dissemination whitepaper thereof copy thereof acceptance prohibited restricted applicable laws regulations rules jurisdiction restrictions relation possession applicable observed complied restrictions expense liability project company token issuer agree acknowledge case wish acquire origo tokens origo tokens construed interpreted classified treated xe2 x80 xa2 kind currency cryptocurrency xe2 x80 xa2 ii debentures stocks shares issued person entity xe2 x80 xa2 iii rights options derivatives",
+    "metadata": {
+      "chunk_id": "4b7af858bc50801177207911c3ead08c",
+      "entities": {
+        "crypto_project": [
+          "origo tokens origo",
+          "origo tokens token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 61] origo tokens construed interpreted classified treated xe2 x80 xa2 kind currency cryptocurrency xe2 x80 xa2 ii debentures stocks shares issued person entity xe2 x80 xa2 iii rights options derivatives respect debentures stocks shares xe2 x80 xa2 iv rights contract differences contract purpose pretended purpose secure profit avoid loss xe2 x80 xa2 v units collective investment scheme xe2 x80 xa2 vi units business trust xe2 x80 xa2 vii derivatives units business trust xe2 x80 xa2 viii form investment x0clegal disclaimer 45 j legally permitted participate token sale actions contemplated associated participation including holding use origo tokens k amounts use acquire origo tokens directly indirectly derived activities contravene laws regulations jurisdiction including anti money laundering laws regulations l natural person sufficient age capacity applicable laws jurisdiction reside jurisdiction citizen participate token sale m obtaining origo tokens illegal purpose n basic degree",
+    "metadata": {
+      "chunk_id": "1b09e528f373b65ab41999411db4652f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 62] laws regulations l natural person sufficient age capacity applicable laws jurisdiction reside jurisdiction citizen participate token sale m obtaining origo tokens illegal purpose n basic degree understanding operation functionality usage storage transmission mechanisms material characteristics cryptocurrencies blockchain based software systems cryptocurrency wallets related token storage mechanisms blockchain technology smart contract technology o fully aware understand case wish purchase origotokens risks associated project company token issuer business operations origo tokens token sale origo platform p bear sole responsibility determine tax implications purchase origo tokens agree hold project company token issuer person involved token sale liable tax liability associated arising therefrom q agree acknowledge project company token issuer liable direct indirect special incidental consequential losses kind tort contract including limited loss revenue income profits loss use data",
+    "metadata": {
+      "chunk_id": "97b1eb0d272367efd298e96e7afccee3",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 64] case statements historical fact constitute forward looking statements statements identified forward looking terms aim target anticipate believe estimate expect intend plan possible probable project similar terms terms exclusive means identifying forward looking statements statements project company token issuer s business strategies plans prospects future prospects industry project company token issuer forward looking statements forward looking statements including limited statements project company token issuer s prospects future plans expected industry trends matters discussed whitepaper project company token issuer matters historical facts predictions forward looking statements involve known unknown risks uncertainties factors cause actual future results performance achievements project company token issuer materially different future results performance achievements expected expressed implied forward looking statements factors include xe2 x80 xa2 changes political social economic",
+    "metadata": {
+      "chunk_id": "905efd22ef326f1781a67523580577dd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 65] company token issuer materially different future results performance achievements expected expressed implied forward looking statements factors include xe2 x80 xa2 changes political social economic stock cryptocurrency market conditions regulatory environment countries project company token issuer conduct business operations xe2 x80 xa2 b risk project company unable execute implement business strategies future plans xe2 x80 xa2 c changes interest rates exchange rates fiat currencies cryptocurrencies x0clegal disclaimer 47 xe2 x80 xa2 d changes anticipated growth strategies expected internal growth project company origo platform xe2 x80 xa2 e changes availability fees payable project company connection businesses operations origo platform xe2 x80 xa2 f changes availability salaries employees required project company token issuer operate business operations xe2 x80 xa2 g changes preferences users origo platform xe2 x80 xa2 h changes competitive conditions project company operates",
+    "metadata": {
+      "chunk_id": "52eb930a9ba8965787440c2d93294a31",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 66] required project company token issuer operate business operations xe2 x80 xa2 g changes preferences users origo platform xe2 x80 xa2 h changes competitive conditions project company operates ability project company compete conditions xe2 x80 xa2 changes future capital needs project company availability financing capital fund needs xe2 x80 xa2 j war acts international domestic terrorism xe2 x80 xa2 k occurrences catastrophic events natural disasters acts god affect businesses operations project company token issuer xe2 x80 xa2 l factors control project company token issuer xe2 x80 xa2 m risk uncertainties associated project company token issuer business operations origo tokens token sale origo platform forward looking statements attributable project company token issuer persons acting behalf project company token issuer expressly qualified entirety factors given risks uncertainties cause actual future results performance achievements project company token issuer materially different",
+    "metadata": {
+      "chunk_id": "6f3f8679ec897eed7deb544bba46446a",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 67] project company token issuer expressly qualified entirety factors given risks uncertainties cause actual future results performance achievements project company token issuer materially different expected expressed implied forward looking statements whitepaper undue reliance placed statements forward looking statements applicable date whitepaper project company token issuer person represents warrants undertakes actual future results performance achieve x0clegal disclaimer 48 ments project company token issuer discussed forward looking statements actual results performance achievements project company token issuer differ materially anticipated forward looking statements contained whitepaper relied promise representation undertaking future performance policies project company token issuer project company token issuer disclaim responsibility update forward looking statements publicly announce revisions forward looking statements reflect future developments events circumstances new",
+    "metadata": {
+      "chunk_id": "a6dbac0537afd51ed28b10b1bb1784a3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 69] respective directors executive officers employees acting behalf makes representation warranty accuracy reliability completeness information shall obliged provide updates terms facilitate better understanding origo tokens subject sale conducted token issuer business operations project company token issuer certain technical terms abbreviations x0clegal disclaimer 49 certain instances descriptions whitepaper descriptions assigned meanings treated definitive meanings correspond standard industry meanings usage words importing singular shall applicable include plural vice versa words importing masculine gender shall applicable include feminine neuter genders vice versa references persons shall include corporations advice information whitepaper considered business legal financial tax advice project company token issuer origo tokens token sale origo platform consult legal financial tax professional adviser project company token issuer business operations origo tokens token sale origo",
+    "metadata": {
+      "chunk_id": "50aee5ab797895b0d069ad03d8f10860",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 70] project company token issuer origo tokens token sale origo platform consult legal financial tax professional adviser project company token issuer business operations origo tokens token sale origo platform aware required bear financial risk purchase origo tokens indefinite period time information update person authorized information representation contained whitepaper connection project company token issuer business operations origo tokens token sale origo blockchain given information representation relied having authorized behalf project company token issuer token sale shall circumstances constitute continuing representation create suggestion implication change development reasonably likely involve material change affairs conditions prospects project company token issuer statement fact information contained whitepaper date hereof restrictions distribution dissemination x0clegal disclaimer 50 distribution dissemination whitepaper thereof prohibited restricted laws regulatory",
+    "metadata": {
+      "chunk_id": "6d66a0d40bbf6e25e97fa1a37323f321",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 71] fact information contained whitepaper date hereof restrictions distribution dissemination x0clegal disclaimer 50 distribution dissemination whitepaper thereof prohibited restricted laws regulatory requirements rules jurisdiction case restriction applies inform observe restrictions applicable possession whitepaper thereof case expense liability project company token issuer persons copy whitepaper distributed disseminated provided access whitepaper possession shall circulate persons reproduce distribute whitepaper information contained purpose whatsoever permit cause occur offer investment registration whitepaper constitute prospectus offer document sort intended constitute offer securities form units business trust units collective investment scheme form investment solicitation form investment jurisdiction person bound enter contract binding legal commitment cryptocurrency form payment accepted basis whitepaper regulatory authority examined approved information set whitepaper action",
+    "metadata": {
+      "chunk_id": "6716b545221dcd6ff77ad23a1aad4781",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 72] jurisdiction person bound enter contract binding legal commitment cryptocurrency form payment accepted basis whitepaper regulatory authority examined approved information set whitepaper action taken laws regulatory requirements rules jurisdiction publication distribution dissemination whitepaper imply applicable laws regulatory requirements rules complied risks uncertainties prospective purchasers origo tokens carefully consider evaluate risks uncertainties associated project company token issuer business operations origo tokens token sale origo platform information set whitepaper token sale terms prior purchase origo tokens risks uncertainties develops x0clegal disclaimer 51 actual events business financial condition results operations prospects project company token issuer materially adversely affected cases lose value origo tokens refer risk factors set whitepaper x0cappendix b risk factors risks relating participation token sale investments startups token issuer project company",
+    "metadata": {
+      "chunk_id": "cf7574f42275fd7db50256cb567e7993",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 73] adversely affected cases lose value origo tokens refer risk factors set whitepaper x0cappendix b risk factors risks relating participation token sale investments startups token issuer project company involve high degree risk financial operating risks confronting startups significant token issuer project company immune startups experience unexpected problems areas product development marketing financing general management frequently solved token issuer project company forced cease operations possible number reasons including limited unfavorable fluctuation value cryptographic fiat currencies inability token issuer project company establish origo platform origo tokens utility failure commercial relationships intellectual property ownership challenges token issuer project company longer viable operate token issuer project company dissolve actions result dissolution token issuer project company tax treatment token sale terms purchase rights contained token sale uncertain adverse tax",
+    "metadata": {
+      "chunk_id": "6fbfc49d8c7255d8ed4dd13c35d1423c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 74] viable operate token issuer project company dissolve actions result dissolution token issuer project company tax treatment token sale terms purchase rights contained token sale uncertain adverse tax consequences purchasers certain future events tax characterization token sale terms origo tokens uncertain purchaser seek tax advice connection investment 52 x0crisk factors 53 origo tokens investment pursuant token sale terms purchase origo tokens pursuant thereto result adverse tax consequences purchaser including withholding taxes income taxes tax reporting requirements purchaser consult rely advice professional tax advisors respect tax treatment investment origo tokens pursuant token sale terms prior market origo tokens token sale result active liquid market tokens prior token sale public market origo tokens event origo tokens traded cryptocurrency exchange assurance active liquid trading market origo tokens develop developed sustained origo tokens available trading cryptocurrency",
+    "metadata": {
+      "chunk_id": "9092fe4e46b5832a0579b12bbb5c6dfb",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 75] market origo tokens event origo tokens traded cryptocurrency exchange assurance active liquid trading market origo tokens develop developed sustained origo tokens available trading cryptocurrency exchange assurance market price origo tokens decline consideration purchaser acquired origo tokens purchase consideration indicative market price origo tokens available trading cryptocurrency exchange origo token currency issued central bank national supranational quasi national organisation backed hard assets credit token issuer responsible pursue circulation trading origo tokens market trading origo tokens merely depends consensus value relevant market participants obliged purchase origo token holder origo token guarantee liquidity market price origo tokens extent time accordingly token issuer ensure demand market origo tokens purchase consideration indicative market price origo tokens available trading cryptocurrency exchange future sales origo tokens materially adversely affect market",
+    "metadata": {
+      "chunk_id": "a7dacfc9963b79b47018aa32667da47f",
+      "entities": {
+        "crypto_project": [
+          "origo token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 76] ensure demand market origo tokens purchase consideration indicative market price origo tokens available trading cryptocurrency exchange future sales origo tokens materially adversely affect market price origo tokens future sale origo tokens available sale token sale increase supply origo tokens market result downward price pressure origo token sale distribution significant number origo tokens outside token sale perception x0crisk factors 54 sales issuance occur adversely affect trading price origo tokens negative publicity materially adversely affect price origo tokens negative publicity involving token issuer project company b origo plat form c origo tokens d key personnel token issuer project company materially adversely affect market perception market price origo tokens publicity justified assurance success origo platform value demand origo tokens hinges heavily performance origo platform assurance origo platform gain traction launch achieve commercial success origo platform fully",
+    "metadata": {
+      "chunk_id": "79563d3fdcd96cd1e211f86219921cb8",
+      "entities": {
+        "crypto_project": [
+          "origo token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 77] assurance success origo platform value demand origo tokens hinges heavily performance origo platform assurance origo platform gain traction launch achieve commercial success origo platform fully developed finalized integrated subject changes updates adjustments prior launch changes result unexpected unforeseen effects projected appeal users impact success token issuer effort provide realistic estimate assurance cryptocurrencies raised token sale sufficient development integration origo platform foregoing reason development integration origo platform completed assurance launched distributed origo tokens hold little worth value impact trading price trading price origo tokens fluctuate following token sale prices cryptographic tokens general tend relatively volatile fluctuate significantly short periods time demand corresponding market price origo tokens fluctuate significantly rapidly response following factors control token issuer project company xe2 x80 xa2 new technical innovations",
+    "metadata": {
+      "chunk_id": "3cde70622d50bac155b0461e9bf19079",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 78] short periods time demand corresponding market price origo tokens fluctuate significantly rapidly response following factors control token issuer project company xe2 x80 xa2 new technical innovations x0crisk factors 55 xe2 x80 xa2 b analysts speculations recommendations perceptions estimates origo token s market price token issuer s project company s financial business performance xe2 x80 xa2 c changes market valuations token prices entities operations similar token issuer project company available sale purchase cryptocurrency exchanges origo tokens xe2 x80 xa2 d announcements token issuer project company significant events example partnerships sponsorships new product developments xe2 x80 xa2 d fluctuations market prices trading volume cryptocurrencies cryptocurrency exchanges xe2 x80 xa2 e additions departures key personnel token issuer project company xe2 x80 xa2 f success failure management token issuer project company implementing business growth strategies xe2 x80 xa2 g changes",
+    "metadata": {
+      "chunk_id": "6b8ef2ff6df51fcc59e92ae6753bbfdf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 79] e additions departures key personnel token issuer project company xe2 x80 xa2 f success failure management token issuer project company implementing business growth strategies xe2 x80 xa2 g changes conditions affecting blockchain financial technology industry general economic conditions market sentiments events factors risks relating wallet loss compromise information relating wallet defined affect access possession origo tokens purposes receipt origo tokens establish maintain access cryptocurrency wallet wallet access origo tokens wallet depends things safeguards information wallet including limited user account information address private key password event foregoing lost compromised access wallet curtailed adversely affecting access possession origo tokens including origo tokens unrecoverable permanently lost x0crisk factors 56 wallet wallet service provider technically compatible origo tokens wallet wallet service provider technically compatible origo tokens result delivery origo",
+    "metadata": {
+      "chunk_id": "6b9373e972df516183d05cec5279eade",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 80] permanently lost x0crisk factors 56 wallet wallet service provider technically compatible origo tokens wallet wallet service provider technically compatible origo tokens result delivery origo tokens unsuccessful affect access origo tokens risks relating token issuer project company origo platform intended developed operated maintained token issuer project company events circumstances adversely affect token issuer project company corresponding adverse effect token issuer project company events circumstances affect token issuer s project company s ability maintain origo platform correspondingly impact trading price origo tokens token issuer project company materially adversely affected fail effectively manage operations business develops evolves direct impact ability maintain origo platform consequently trading price origo tokens financial technology cryptocurrency industries markets token issuer project company compete grown rapidly continue grow rapidly continue evolve response new",
+    "metadata": {
+      "chunk_id": "a99647ec11548a5ab8f345b2607356d5",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token issuer"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 81] consequently trading price origo tokens financial technology cryptocurrency industries markets token issuer project company compete grown rapidly continue grow rapidly continue evolve response new technological advances changing business models factors result constantly changing environment token issuer project company face operational difficulties adjusting changes sustainability token issuer project company depend ability manage respective operations adapt technological advances market trends ensure hire qualified competent employees provide proper training personnel respective business evolves token issuer project company expand adapt operational infrastructure token issuer s project company s respective businesses rely blockchain based software systems cryptocurrency wallets related token storage mechanisms blockchain technology smart contract technology manage technical support infrastructure x0crisk factors 57 origo platform effectively token issuer project company need continue",
+    "metadata": {
+      "chunk_id": "33ee0af66b35ad75410fd684e51d658c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 82] storage mechanisms blockchain technology smart contract technology manage technical support infrastructure x0crisk factors 57 origo platform effectively token issuer project company need continue upgrade improve data systems operational systems procedures controls upgrades improvements require dedication resources likely complex increasingly rely hosted computer services parties token issuer project company control token issuer project company unable adapt respective systems organization timely efficient cost effective manner accommodate changing circumstances business financial condition results operations adversely affected parties token issuer project company rely subject security breach suffer disruptions impact respective services token issuer project company utilize integrity availability respective internal information compromised consequently cause loss confidential proprietary information economic loss loss financial labor resources adverse effect token issuer s project",
+    "metadata": {
+      "chunk_id": "9aa8afb73ec5bf6a8bc367c492a0fce0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "breach"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 83] respective internal information compromised consequently cause loss confidential proprietary information economic loss loss financial labor resources adverse effect token issuer s project company s respective business financial condition operations direct adverse effect token issuer s project company s ability maintain origo platform origo platform main product origo tokens relate adversely impact trading price origo tokens token issuer project company experience system failures unplanned interruptions network services hardware software defects security breaches causes adversely affect token issuer s project company s infrastructure network origo platform token issuer project company unable anticipate occurrences hacks cyber attacks mining attacks including limited double spend attacks majority mining power attacks selfish mining attacks distributed denials service errors vulnerabilities defects origo platform origo tokens wallet technology including limited smart contract technology",
+    "metadata": {
+      "chunk_id": "567bfedb9d3d7c0b4bb0f5b25d0955c6",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token issuer"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "breach",
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 84] mining power attacks selfish mining attacks distributed denials service errors vulnerabilities defects origo platform origo tokens wallet technology including limited smart contract technology token issuer project company origo platform origo tokens wallet relies ethereum blockchain blockchain events include example flaws programming source code leading exploitation abuse thereof token issuer project company able detect hacks mining attacks including limited double spend attacks majority mining power attacks selfish mining attacks cyber attacks distributed denials service errors vulnerabilities defects x0crisk factors 58 timely manner sufficient resources efficiently cope multiple service incidents happening simultaneously rapid succession token issuer s project company s respective network services include origo platform disrupted numerous events including natural disasters equipment breakdown network connectivity downtime power losses intentional disruptions respective services",
+    "metadata": {
+      "chunk_id": "df6f7da5bdc41db5c5fab3e4f04d6573",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit",
+          "hack"
+        ],
+        "financial": [],
+        "operational": [
+          "downtime"
+        ]
+      },
+      "risk_score": 31.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 86] origo platform significant breach token issuer s project company s intended security measures disruptions resulting compromise usability stability security token issuer s project company s network services including origo platform adversely affect trading price origo tokens token issuer project company dependent location data centre facilities parties token issuer s project company s infrastructure network established servers respectively house location facilities parties servers respectively rent data center facilities parties token issuer project company unable renew respective data facility lease commercially reasonable terms token issuer project company required transfer respective servers new data center facility incur significant costs possible service interruption connection relocation facilities vulnerable damage interruption natural disasters arson terrorist attacks power losses telecommunication failures additionally party providers facilities suffer breach security result",
+    "metadata": {
+      "chunk_id": "0ae3967f51f182da2368b811820d7224",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token issuer"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "breach"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 87] facilities vulnerable damage interruption natural disasters arson terrorist attacks power losses telecommunication failures additionally party providers facilities suffer breach security result x0crisk factors 59 party action employee error malfeasance party obtain unauthorized access data servers techniques obtain unauthorized access sabotage systems change frequently generally recognized launched target token issuer project company providers facilities unable anticipate techniques implement adequate preventive measures security breaches damages occur impact token issuer s project company s infrastructure network origo platform adversely impact price origo tokens general global market economic conditions adverse impact token issuer s project company s operating performance results operations cash flows token issuer project company affected general global economic market conditions challenging economic conditions worldwide time time contributed continue contribute slowdowns",
+    "metadata": {
+      "chunk_id": "9ecb73f99f9bf47655cf47c194ef39a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "breach"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 88] operations cash flows token issuer project company affected general global economic market conditions challenging economic conditions worldwide time time contributed continue contribute slowdowns information technology industry large weakness economy negative effect token issuer s project company s respective business operations financial condition including decreases revenue operating cash flows additionally cycle economic environment token issuer project company experience negative effects increased competitive pricing pressure slowdown commerce usage origo platform suppliers token issuer project company rely servers bandwidth location services negatively impacted economic conditions turn negative impact token issuer s project company s respective operations expenses assurance current economic conditions worsening economic conditions prolonged recurring recession significant adverse impact token issuer s project company s respective business financial condition results operations",
+    "metadata": {
+      "chunk_id": "3274c6f7d2009cb884b07f6a5872ec22",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 89] economic conditions worsening economic conditions prolonged recurring recession significant adverse impact token issuer s project company s respective business financial condition results operations origo platform correspondingly impact trading price origo tokens token issuer project company origo tokens affected newly implemented regulations cryptocurrency trading generally unregulated worldwide numerous regulatory authorities jurisdictions outspoken considering x0crisk factors 60 implementation regulatory regimes govern cryptocurrency cryptocurrency markets token issuer project company origo tokens affected newly implemented regulations relating cryptocurrencies cryptocurrency markets including having measures comply regulations having deal queries notices requests enforcement actions regulatory authorities come substantial cost require substantial modifications origo tokens origo platform impact appeal origo tokens origo platform users result decreased usage origo tokens origo",
+    "metadata": {
+      "chunk_id": "2a3520d48075289c3d58fe5048783478",
+      "entities": {
+        "crypto_project": [
+          "origo tokens origo",
+          "origo tokens token issuer"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 90] regulatory authorities come substantial cost require substantial modifications origo tokens origo platform impact appeal origo tokens origo platform users result decreased usage origo tokens origo platform costs financial complying newly implemented regulations exceed certain threshold maintaining origo tokens origo platform longer commercially viable token issuer project company opt discontinue origo tokens origo platform difficult predict government regulatory authorities implement changes laws regulations affecting distributed ledger technology applications including origo tokens origo platform token issuer project company cease respective operations jurisdiction makes illegal operate jurisdiction commercially unviable undesirable obtain necessary regulatory approval s operate jurisdiction scenarios foregoing trading price origo tokens adversely affected origo tokens cease traded regulatory regime governing blockchain technologies cryptocurrencies tokens token offerings token sale",
+    "metadata": {
+      "chunk_id": "c2497ba7ac321c2d76f1df2f4476602f",
+      "entities": {
+        "crypto_project": [
+          "origo tokens origo"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 91] scenarios foregoing trading price origo tokens adversely affected origo tokens cease traded regulatory regime governing blockchain technologies cryptocurrencies tokens token offerings token sale origo platform origo tokens uncertain regulations policies materially adversely affect development origo platform utility origo tokens regulation tokens including origo tokens token offerings token sale cryptocurrencies blockchain technologies cryptocurrency exchanges currently undeveloped likely rapidly evolve varies significantly international federal state local jurisdictions subject significant uncertainty legislative executive bodies singapore countries future adopt laws regulations guidance actions severely impact development growth origo platform adoption utility origo tokens failure token issuer project company users origo platform comply laws rules regulations exist subject interpretation subject change result x0crisk factors 61 variety adverse consequences including civil penalties",
+    "metadata": {
+      "chunk_id": "7d44f3f0db83d9a5982effb64abd9536",
+      "entities": {
+        "crypto_project": [
+          "origo tokens token"
+        ],
+        "location": [
+          "singapore"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 92] issuer project company users origo platform comply laws rules regulations exist subject interpretation subject change result x0crisk factors 61 variety adverse consequences including civil penalties fines blockchain networks face uncertain regulatory landscape foreign jurisdictions european union china south korea russia foreign jurisdictions near future adopt laws regulations directives affect origo platform laws regulations directives directly negatively impact token issuer s project company s respective business effect future regulatory change impossible predict change substantial materially adverse development growth origo platform adoption utility tokens new changing laws regulations interpretations existing laws regulations materially adversely impact value currency origo tokens sold value distributions token issuer project company liquidity origo tokens ability access marketplaces exchanges trade origo tokens structure rights transferability origo tokens origo token holders",
+    "metadata": {
+      "chunk_id": "0b5f915721c18d81ca53128db0801ef6",
+      "entities": {
+        "location": [
+          "china",
+          "russia"
+        ],
+        "crypto_project": [
+          "origo tokens origo token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 93] sold value distributions token issuer project company liquidity origo tokens ability access marketplaces exchanges trade origo tokens structure rights transferability origo tokens origo token holders control token issuer project company holders origo tokens entitled vote receive dividends deemed holder capital stock token issuer project company purpose construed confer purchasers rights stockholder token issuer project company right vote election directors matter submitted stockholders meeting thereof withhold consent corporate action receive notice meetings receive subscription rights purchasers lack information monitoring investment purchasers origo tokens able obtain information want token issuer project company origo tokens origo platform timely basis possible purchasers aware timely basis material adverse changes occurred token issuer efforts use open source development origo tokens information highly technical nature result difficulties uncertainties purchasers accurate",
+    "metadata": {
+      "chunk_id": "2b2cfbc69fde443af9d8f761c380d852",
+      "entities": {
+        "crypto_project": [
+          "origo tokens origo token"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  },
+  {
+    "text": "[Section 94] timely basis material adverse changes occurred token issuer efforts use open source development origo tokens information highly technical nature result difficulties uncertainties purchasers accurate accessible information origo platform unanticipated risks arising origo tokens cryptographic tokens origo tokens relatively new dynamic technology addition risks included section risks x0crisk factors 62 associated purchase holding use origo tokens including token issuer project company anticipate risks materialize unanticipated variations combinations risks discussed document x0c",
+    "metadata": {
+      "chunk_id": "d6fe1876fa7584e16775bc521413e4cb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Origo.txt"
+    }
+  }
+]

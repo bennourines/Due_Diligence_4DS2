@@ -1,0 +1,308 @@
+[
+  {
+    "text": "[Section 1] compound money market protocol version 1 0 february 2019 authors robert leshner geoffrey hayes https compound finance abstract paper introduce decentralized protocol establishes money markets algorithmically set interest rates based supply demand allowing users frictionlessly exchange time value ethereum assets contents 1 introduction 2 2 compound protocol 2 2 1 supplying assets 3 2 1 1 primary use cases 3 2 2 borrowing assets 3 2 2 1 collateral value 3 2 2 2 risk liquidation 4 2 2 3 primary use cases 4 2 3 interest rate model 4 2 3 1 liquidity incentive structure 5 3 implementation architecture 5 3 1 ctoken contracts 5 3 2 interest rate mechanics 6 3 2 1 market dynamics 6 3 2 2 borrower dynamics 7 3 3 borrowing 7 3 4 liquidation 7 3 5 price feeds 7 3 6 comptroller 7 3 7 governance 8 4 summary 8 references 8 1 1 introduction market cryptocurrencies digital blockchain assets developed vibrant ecosystem investors speculators traders exchanging thousands 1 blockchain assets unfortunately",
+    "metadata": {
+      "chunk_id": "1bb498d788fa6f6464a9ab19ce5fb521",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 2] 8 references 8 1 1 introduction market cryptocurrencies digital blockchain assets developed vibrant ecosystem investors speculators traders exchanging thousands 1 blockchain assets unfortunately sophistication financial markets hasnt followed participants little capability trading time value assets interest rates fill gap people surplus assets cant use people assets productive investment use trading time value assets benefits parties creates non zero sum wealth blockchain assets major flaws exist today borrowing mechanisms extremely limited contributes mispriced assets e g scamcoins unfathomable valuations theres way short blockchain assets negative yield resulting significant storage costs risks exchange exchange natural interest rates offset costs contributes volatility holding disincentivized centralized exchanges including bitfinex poloniex allow customers trade blockchain assets margin borrowing markets built exchange trust based systems trust exchange wont hacked abscond assets",
+    "metadata": {
+      "chunk_id": "bc9eccd0bf5056ea45a939054c9accac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [
+          "scam"
+        ],
+        "operational": []
+      },
+      "risk_score": 33.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 3] centralized exchanges including bitfinex poloniex allow customers trade blockchain assets margin borrowing markets built exchange trust based systems trust exchange wont hacked abscond assets incorrectly close position limited certain customer groups limited small number mainstream assets finally balances positions virtual cant position chain example use borrowed ether tokens smart contract ico making facilities inaccessible dapps 2 peer peer protocols facilitate collateralized uncollateralized loans market participants directly unfortunately decentralization forces significant costs frictions users protocol reviewed lenders required post manage event collateralized loans supervise loan offers active loans loan fulfillment slow asynchronous loans funded takes time 3 6 paper introduce decentralized system frictionless borrowing ethereum tokens flaws existing approaches enabling proper money markets function creating safe positive yield approach storing assets 2 compound protocol",
+    "metadata": {
+      "chunk_id": "18797e819ce4d8f58d2faa216a58685c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 4] decentralized system frictionless borrowing ethereum tokens flaws existing approaches enabling proper money markets function creating safe positive yield approach storing assets 2 compound protocol compound protocol ethereum blockchain establishes money markets pools assets algorithmically derived interest rates based supply demand asset suppliers borrowers asset interact directly protocol earning paying floating interest rate having negotiate terms maturity interest rate collateral peer counterparty money market unique ethereum asset ether erc 20 stablecoin dai erc 20 utility token augur contains transparent publicly inspectable ledger record transactions historical interest rates 2 1 supplying assets unlike exchange peer peer platform users assets matched lent user compound protocol aggregates supply user user supplies asset fungible resource approach offers significantly liquidity direct lending asset market borrowed protocol incentivizes liquidity users withdraw assets time",
+    "metadata": {
+      "chunk_id": "d811c1401e241eb1ef8dce2355762ab9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 5] aggregates supply user user supplies asset fungible resource approach offers significantly liquidity direct lending asset market borrowed protocol incentivizes liquidity users withdraw assets time waiting specific loan mature assets supplied market represented erc 20 token balance ctoken entitles owner increasing quantity underlying asset money market accrues interest function borrowing demand ctokens convertible increasing underlying asset way earning interest simple holding erc 20 ctoken 2 1 1 primary use cases individuals long term investments ether tokens hodlers use compound money market source additional returns investment example user owns augur supply tokens compound protocol earn interest denominated augur having manage asset fulfill loan requests speculative risks dapps machines exchanges token balances use compound protocol source monetization incremental returns sweeping balances potential unlock entirely new business models ethereum ecosystem 2 2 borrowing assets compound",
+    "metadata": {
+      "chunk_id": "8cccf179e4bbb1ff1c7e97dabec7ca7e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 6] exchanges token balances use compound protocol source monetization incremental returns sweeping balances potential unlock entirely new business models ethereum ecosystem 2 2 borrowing assets compound allows users frictionlessly borrow protocol ctokens collateral use ethereum ecosystem unlike peer peer protocols borrowing compound simply requires user specify desired asset terms negotiate maturity dates funding periods borrowing instant predictable similar supplying asset money market floating interest rate set market forces determines borrowing cost asset 2 2 1 collateral value assets held protocol represented ownership ctoken collateral borrow protocol market collateral factor ranging 0 1 represents portion underlying asset value borrowed illiquid small cap assets low collateral factors good collateral liquid high cap assets high collateral factors sum value accounts underlying token balances multiplied collateral factors equals users borrowing capacity users able borrow exceeding",
+    "metadata": {
+      "chunk_id": "afd2f023ea776a227c0d231f507aada6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 7] good collateral liquid high cap assets high collateral factors sum value accounts underlying token balances multiplied collateral factors equals users borrowing capacity users able borrow exceeding borrowing capacity account action e g borrow transfer ctoken collateral redeem ctoken collateral raise total value borrowed assets borrowing capacity protects protocol default risk 2 2 2 risk liquidation value accounts borrowing outstanding exceeds borrowing capacity portion outstanding borrowing repaid exchange users ctoken collateral current market price minus liquidation discount incentives ecosystem arbitrageurs quickly step reduce borrowers exposure eliminate protocols risk proportion eligible closed close factor portion borrowed asset repaid ranges 0 1 25% liquidation process continue called users borrowing borrowing capacity ethereum address possesses borrowed asset invoke liquidation function exchanging asset borrowers ctoken collateral users assets prices contained compound",
+    "metadata": {
+      "chunk_id": "019279c026fb89f155118ae969636167",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 8] called users borrowing borrowing capacity ethereum address possesses borrowed asset invoke liquidation function exchanging asset borrowers ctoken collateral users assets prices contained compound protocol liquidation frictionless rely outside systems order books 2 2 3 primary use cases ability seamlessly hold new assets selling rearranging portfolio gives new superpowers dapp consumers traders developers having wait order fill requiring chain behavior dapps borrow tokens use ethereum ecosystem purchase computing power golem network traders finance new ico investments borrowing ether existing portfolio collateral traders looking short token borrow send exchange sell token profiting declines overvalued tokens 2 3 interest rate model individual suppliers borrowers having negotiate terms rates compound protocol utilizes interest rate model achieves interest rate equilibrium money market based supply demand following economic theory interest rates price money increase function demand",
+    "metadata": {
+      "chunk_id": "c50dd382b1596b1e8989a539247f38e4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 9] rates compound protocol utilizes interest rate model achieves interest rate equilibrium money market based supply demand following economic theory interest rates price money increase function demand demand low interest rates low vise versa demand high utilization ratio u market unifies supply demand single variable ua borrowsa casha borrowsa demand curve codified governance expressed function utilization example borrowing interest rates resemble following borrowing interest ratea 2 5% ua 20% interest rate earned suppliers implicit equal borrowing interest rate multiplied utilization rate 2 3 1 liquidity incentive structure protocol guarantee liquidity instead relies interest rate model incentivize periods extreme demand asset liquidity protocol tokens available withdraw borrow decline occur interest rates rise incentivizing supply disincentivizing borrowing 3 implementation architecture core compound money market ledger allows ethereum accounts supply borrow assets computing interest",
+    "metadata": {
+      "chunk_id": "23318e467d43b58b3d3ee9bbf9332bfa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 10] interest rates rise incentivizing supply disincentivizing borrowing 3 implementation architecture core compound money market ledger allows ethereum accounts supply borrow assets computing interest function time protocols smart contracts publicly accessible completely free use machines dapps humans 3 1 ctoken contracts money market structured smart contract implements erc 20 token specification users balances represented ctoken balances users mint uint amountunderlying ctokens supplying assets market redeem uint ctokens underlying asset price exchange rate ctokens underlying asset increases time interest accrued borrowers asset equal underlyingbalance totalborrowbalancea reserves exchangerate ctokensupplya markets total borrowing balance increases function borrower interest accruing exchange rate ctokens underlying asset increases function abi description mint uint256 amountunderlying transfers underlying asset market updates msg senders ctoken balance redeem uint256 redeemunderlying",
+    "metadata": {
+      "chunk_id": "b8434ac33323316199e259addf6b8582",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 11] rate ctokens underlying asset increases function abi description mint uint256 amountunderlying transfers underlying asset market updates msg senders ctoken balance redeem uint256 redeemunderlying uint256 amountunderlying transfers underlying asset market updates msg senders ctoken balance borrow uint checks msg sender collateral value sufficient transfers underlying asset market msg sender updates msg senders borrow balance repayborrow uint repayborrowbehalf address account uint transfers underlying asset market updates borrowers borrow balance liquidate address borrower address collateralasset uint closeamount transfers underlying asset market updates borrowers borrow balance transfers ctoken collateral borrower msg sender table 2 abi summary primary ctoken smart contract functions 3 2 interest rate mechanics compound money markets defined interest rate applied borrowers uniformly adjust time relationship supply demand changes history interest rate money market captured interest rate",
+    "metadata": {
+      "chunk_id": "c02773d3aa4130ae135773320cc00ad7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 12] rate mechanics compound money markets defined interest rate applied borrowers uniformly adjust time relationship supply demand changes history interest rate money market captured interest rate index calculated time interest rate changes resulting user minting redeeming borrowing repaying liquidating asset 3 2 1 market dynamics time transaction occurs interest rate index asset updated compound interest prior index interest period denominated r t calculated block interest rate indexa n indexa n 1 1 r t markets total borrowing outstanding updated include interest accrued index totalborrowbalancea n totalborrowbalance n 1 1 r t portion accrued interest retained set aside reserves determined reservefactor ranging 0 1 reservesa reserves n 1 totalborrowbalancea n 1 r t reservefactor 3 2 2 borrower dynamics borrowers balance including accrued interest simply ratio current index divided index users balance checkpointed balance borrower address ctoken stored account checkpoint account",
+    "metadata": {
+      "chunk_id": "ca56e612044875cdb88629ec18a997df",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 13] 2 borrower dynamics borrowers balance including accrued interest simply ratio current index divided index users balance checkpointed balance borrower address ctoken stored account checkpoint account checkpoint solidity tuple uint256 balance uint256 interestindex tuple describes balance time interest applied account 3 3 borrowing user wishes borrow sufficient balances stored compound borrow uint relevant ctoken contract function checks users account value given sufficient collateral update users borrow balance transfer tokens users ethereum address update money markets floating interest rate borrows accrue interest exact fashion balance interest calculated section 3 2 borrower right repay outstanding loan time calling repayborrow uint repays outstanding balance 3 4 liquidation users borrowing balance exceeds total collateral value borrowing capacity value collateral falling borrowed assets increasing value public function liquidate address target address collateralasset address",
+    "metadata": {
+      "chunk_id": "88c62fc994ff431e7528030aba392785",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 14] borrowing balance exceeds total collateral value borrowing capacity value collateral falling borrowed assets increasing value public function liquidate address target address collateralasset address borrowasset uint closeamount called exchanges invoking users asset borrowers collateral slightly better market price 3 5 price feeds price oracle maintains current exchange rate supported asset compound protocol delegates ability set value assets committee pools prices 10 exchanges exchange rates determine borrowing capacity collateral requirements functions require calculating value equivalent account 3 6 comptroller compound protocol support specific tokens default instead markets whitelisted accomplished admin function supportmarket address market address interest rate model allows users begin interacting asset order borrow asset valid price price oracle order use asset collateral valid price collateralfactor function validated policy layer referred comptroller contract validates",
+    "metadata": {
+      "chunk_id": "6aff5ae2e8a01d525eb40b54fe730e04",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 15] begin interacting asset order borrow asset valid price price oracle order use asset collateral valid price collateralfactor function validated policy layer referred comptroller contract validates collateral liquidity allowing user action proceed 3 7 governance compound begin centralized control protocol choosing interest rate model asset time transition complete community stakeholder control following rights protocol controlled admin ability list new ctoken market ability update interest rate model market ability update oracle address ability withdraw reserve ctoken ability choose new admin dao controlled community dao choose new admin administration ability evolve time based decisions stakeholders 4 summary compound creates properly functioning money markets ethereum assets money market interest rates determined supply demand underlying asset demand borrow asset grows supply removed interest rates increase incentivizing additional liquidity users supply tokens money market earn",
+    "metadata": {
+      "chunk_id": "fab4c0f41b1f7b2a09ef7702d4102f38",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "CompoundEthereum.txt"
+    }
+  },
+  {
+    "text": "[Section 16] interest rates determined supply demand underlying asset demand borrow asset grows supply removed interest rates increase incentivizing additional liquidity users supply tokens money market earn interest trusting central party users borrow token use sell lend balances protocol collateral references 1 cryptocurrency market capitalizations https coinmarketcap com 2 bitfixex margin funding guide https support bitfinex com 3 ethlend white paper https github com ethlend 4 ripio white paper https ripiocredit network 5 lendroid white paper https lendroid com 6 dydx white paper https whitepaper dydx exchange 7 fred ehrsam decentralized business model https blog coinbase com",
+    "metadata": {
+      "chunk_id": "1ea1c5bbcc298041733f49bdf1267895",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "CompoundEthereum.txt"
+    }
+  }
+]

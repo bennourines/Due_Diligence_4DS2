@@ -1,0 +1,1061 @@
+[
+  {
+    "text": "[Section 2] x80 x8binteraction xe2 x80 x8b xe2 x80 x8bprocess pooled xe2 x80 x8b xe2 x80 x8bether xe2 x80 x8b xe2 x80 x8b temporary xe2 x80 x8b xe2 x80 x8bmechanism xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bsingle collateral xe2 x80 x8b xe2 x80 x8bdai 4 5 target xe2 x80 x8b xe2 x80 x8bprice 5 sensitivity xe2 x80 x8b xe2 x80 x8bparameter 7 global xe2 x80 x8b xe2 x80 x8bsettlement xe2 x80 x8b xe2 x80 x8bstep xe2 x80 x8b xe2 x80 x8bby xe2 x80 x8b xe2 x80 x8bstep 7 target xe2 x80 x8b xe2 x80 x8brate xe2 x80 x8b xe2 x80 x8bfeedback xe2 x80 x8b xe2 x80 x8bmechanism 6 global xe2 x80 x8b xe2 x80 x8bsettlement 7 risk xe2 x80 x8b xe2 x80 x8bmanagement xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker xe2 x80 x8b xe2 x80 x8bplatform risk xe2 x80 x8b xe2 x80 x8bparameters 8 9 mkr xe2 x80 x8b xe2 x80 x8btoken xe2 x80 x8b xe2 x80 x8bgovernance 10 mkr xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bmulti collateral xe2 x80 x8b xe2 x80 x8bdai 11 automatic xe2 x80 x8b xe2",
+    "metadata": {
+      "chunk_id": "b0065681e25a10d782a54cbb35792dd7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 9 mkr xe2 x80 x8b xe2 x80 x8btoken xe2 x80 x8b xe2 x80 x8bgovernance 10 mkr xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bmulti collateral xe2 x80 x8b xe2 x80 x8bdai 11 automatic xe2 x80 x8b xe2 x80 x8bliquidations xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8brisky xe2 x80 x8b xe2 x80 x8bcdps 11 liquidity xe2 x80 x8b xe2 x80 x8bproviding xe2 x80 x8b xe2 x80 x8bcontract xe2 x80 x8b xe2 x80 x8b temporary xe2 x80 x8b xe2 x80 x8bmechanism xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bsingle collateral xe2 x80 x8b xe2 x80 x8bdai debt xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bcollateral xe2 x80 x8b xe2 x80 x8bauctions xe2 x80 x8b xe2 x80 x8b multi collateral xe2 x80 x8b xe2 x80 x8bdai key xe2 x80 x8b xe2 x80 x8bexternal xe2 x80 x8b xe2 x80 x8bactors 12 12 13 keepers 13 oracles 14 global xe2 x80 x8b xe2 x80 x8bsettlers 14 examples 14 addressable xe2 x80 x8b xe2 x80 x8bmarket 16 risks xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8btheir xe2 x80 x8b xe2 x80 x8bmitigation",
+    "metadata": {
+      "chunk_id": "dd00818aa95db469ccadb2354230b6f2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 4] 14 global xe2 x80 x8b xe2 x80 x8bsettlers 14 examples 14 addressable xe2 x80 x8b xe2 x80 x8bmarket 16 risks xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8btheir xe2 x80 x8b xe2 x80 x8bmitigation 17 malicious xe2 x80 x8b xe2 x80 x8bhacking xe2 x80 x8b xe2 x80 x8battack xe2 x80 x8b xe2 x80 x8bagainst xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsmart xe2 x80 x8b xe2 x80 x8bcontract xe2 x80 x8b xe2 x80 x8binfrastructure 17 black xe2 x80 x8b xe2 x80 x8bswan xe2 x80 x8b xe2 x80 x8bevent xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8bone xe2 x80 x8b xe2 x80 x8bor xe2 x80 x8b xe2 x80 x8bmore xe2 x80 x8b xe2 x80 x8bcollateral xe2 x80 x8b xe2 x80 x8bassets 18 pricing xe2 x80 x8b xe2 x80 x8berrors xe2 x80 x8b xe2 x80 x8birrationality xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bunforeseen xe2 x80 x8b xe2 x80 x8bevents 18 competition xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bimportance xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bease use 18",
+    "metadata": {
+      "chunk_id": "baf61db030327041ee0e2b78fa3e54e1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 5] xe2 x80 x8b xe2 x80 x8bevents 18 competition xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bimportance xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bease use 18 failure xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bcentralized xe2 x80 x8b xe2 x80 x8binfrastructure 19 conclusion 19 glossary xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bterms 20 links 21 x0coverview xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bstablecoin xe2 x80 x8b xe2 x80 x8bsystem popular xe2 x80 x8b xe2 x80 x8bdigital xe2 x80 x8b xe2 x80 x8bassets xe2 x80 x8b xe2 x80 x8bsuch xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8bbitcoin xe2 x80 x8b xe2 x80 x8b btc xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bether xe2 x80 x8b xe2 x80 x8b eth xe2 x80 x8b xe2 x80 x8bare xe2 x80 x8b xe2 x80 x8btoo xe2 x80 x8b xe2 x80 x8bvolatile xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bbe xe2 x80 x8b xe2 x80 x8bused xe2 x80 x8b xe2",
+    "metadata": {
+      "chunk_id": "8bb210cbefa3c391a9487db05a0e8d1c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 6] xe2 x80 x8b eth xe2 x80 x8b xe2 x80 x8bare xe2 x80 x8b xe2 x80 x8btoo xe2 x80 x8b xe2 x80 x8bvolatile xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bbe xe2 x80 x8b xe2 x80 x8bused xe2 x80 x8b xe2 x80 x8bas everyday xe2 x80 x8b xe2 x80 x8bcurrency xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bvalue xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bbitcoin xe2 x80 x8b xe2 x80 x8boften xe2 x80 x8b xe2 x80 x8bexperiences xe2 x80 x8b xe2 x80 x8blarge xe2 x80 x8b xe2 x80 x8bfluctuations xe2 x80 x8b xe2 x80 x8brising xe2 x80 x8b xe2 x80 x8bor falling xe2 x80 x8b xe2 x80 x8bby xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8bmuch xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8b25% xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bsingle xe2 x80 x8b xe2 x80 x8bday xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8boccasionally xe2 x80 x8b xe2 x80 x8brising xe2 x80 x8b xe2 x80 x8bover xe2 x80 x8b xe2 x80 x8b300% xe2 x80 x8b xe2 x80 x8bin xe2",
+    "metadata": {
+      "chunk_id": "12f051ae0b1a812a914dc381fe306875",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 7] x8b xe2 x80 x8bday xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8boccasionally xe2 x80 x8b xe2 x80 x8brising xe2 x80 x8b xe2 x80 x8bover xe2 x80 x8b xe2 x80 x8b300% xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bmonth 1 xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bstablecoin xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bcollateral backed xe2 x80 x8b xe2 x80 x8bcryptocurrency xe2 x80 x8b xe2 x80 x8bwhose xe2 x80 x8b xe2 x80 x8bvalue xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bstable xe2 x80 x8b xe2 x80 x8brelative xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bdollar xe2 x80 x8b xe2 x80 x8bwe xe2 x80 x8b xe2 x80 x8bbelieve xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bstable xe2 x80 x8b xe2 x80 x8bdigital xe2 x80 x8b xe2 x80 x8bassets xe2 x80 x8b xe2 x80 x8blike xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bstablecoin xe2 x80 x8b xe2 x80 x8bare xe2 x80 x8b xe2 x80 x8bessential xe2",
+    "metadata": {
+      "chunk_id": "4ad5581267481453ecc379398f041842",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 8] x80 x8bdigital xe2 x80 x8b xe2 x80 x8bassets xe2 x80 x8b xe2 x80 x8blike xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bstablecoin xe2 x80 x8b xe2 x80 x8bare xe2 x80 x8b xe2 x80 x8bessential xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8brealizing xe2 x80 x8b xe2 x80 x8bfull xe2 x80 x8b xe2 x80 x8bpotential xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bblockchain xe2 x80 x8b xe2 x80 x8btechnology maker xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bsmart xe2 x80 x8b xe2 x80 x8bcontract xe2 x80 x8b xe2 x80 x8bplatform xe2 x80 x8b xe2 x80 x8bon xe2 x80 x8b xe2 x80 x8bethereum xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bbacks xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bstabilizes xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bvalue xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bdynamic xe2 x80 x8b xe2 x80 x8bsystem xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bcollateralized xe2",
+    "metadata": {
+      "chunk_id": "0bbd70f9edafcda0b0d422792d712839",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 10] xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bon xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker platform xe2 x80 x8b xe2 x80 x8bonce xe2 x80 x8b xe2 x80 x8bgenerated xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8bbe xe2 x80 x8b xe2 x80 x8bused xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsame xe2 x80 x8b xe2 x80 x8bmanner xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8bany xe2 x80 x8b xe2 x80 x8bother cryptocurrency xe2 x80 x8b xe2 x80 x8bit xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8bbe xe2 x80 x8b xe2 x80 x8bfreely xe2 x80 x8b xe2 x80 x8bsent xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bothers xe2 x80 x8b xe2 x80 x8bused xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8bpayments xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bgoods xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bservices xe2 x80 x8b xe2 x80 x8bor held xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8blong xe2 x80 x8b xe2 x80",
+    "metadata": {
+      "chunk_id": "f89dc1d1a3397433bc867c831688cc41",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 22] x8b xe2 x80 x8bclosing xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bcdp xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bdebt xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bstability xe2 x80 x8b xe2 x80 x8bfee xe2 x80 x8b xe2 x80 x8bpaid xe2 x80 x8b xe2 x80 x8bdown xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bcdp xe2 x80 x8b xe2 x80 x8buser xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8bfreely xe2 x80 x8b xe2 x80 x8bretrieve xe2 x80 x8b xe2 x80 x8ball xe2 x80 x8b xe2 x80 x8bor xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8btheir xe2 x80 x8b xe2 x80 x8bcollateral xe2 x80 x8b xe2 x80 x8bback xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8btheir xe2 x80 x8b xe2 x80 x8bwallet xe2 x80 x8b xe2 x80 x8bby xe2 x80 x8b xe2 x80 x8bsending xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8btransaction xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bmaker single collateral xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bvs xe2 x80 x8b xe2 x80 x8bmulti collateral xe2 x80 x8b xe2",
+    "metadata": {
+      "chunk_id": "fd876317611511b641179885e6298df4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 27] x80 x8beasily xe2 x80 x8b xe2 x80 x8bon xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bblockchain xe2 x80 x8b xe2 x80 x8bby xe2 x80 x8b xe2 x80 x8bdepositing xe2 x80 x8b xe2 x80 x8beth xe2 x80 x8b xe2 x80 x8binto xe2 x80 x8b xe2 x80 x8bspecial xe2 x80 x8b xe2 x80 x8bsmart xe2 x80 x8b xe2 x80 x8bcontract xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bpools xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8beth xe2 x80 x8b xe2 x80 x8bfrom xe2 x80 x8b xe2 x80 x8ball xe2 x80 x8b xe2 x80 x8busers xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bgives xe2 x80 x8b xe2 x80 x8bthem xe2 x80 x8b xe2 x80 x8bcorresponding peth xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8breturn xe2 x80 x8b xe2 x80 x8bthere xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bsudden xe2 x80 x8b xe2 x80 x8bmarket xe2 x80 x8b xe2 x80 x8bcrash xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8beth xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bcdp xe2 x80 x8b",
+    "metadata": {
+      "chunk_id": "392681af41760e95021e100924b7bcd1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 59] x8bexactly xe2 x80 x8b xe2 x80 x8b5 xe2 x80 x8b xe2 x80 x8beth xe2 x80 x8b xe2 x80 x8bfrom xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker xe2 x80 x8b xe2 x80 x8bplatform xe2 x80 x8b xe2 x80 x8bthere xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bno xe2 x80 x8b xe2 x80 x8btime xe2 x80 x8b xe2 x80 x8blimit xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bwhen xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bfinal claim xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8bbe xe2 x80 x8b xe2 x80 x8bmade risk xe2 x80 x8b xe2 x80 x8bmanagement xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker xe2 x80 x8b xe2 x80 x8bplatform xe2 x80 x8b xe2 x80 x8bmkr xe2 x80 x8b xe2 x80 x8btoken xe2 x80 x8b xe2 x80 x8ballows xe2 x80 x8b xe2 x80 x8bholders xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bvote xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bperform xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bfollowing xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2",
+    "metadata": {
+      "chunk_id": "a0e74c2306a08cf3fded4a3fea6d16eb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 60] x80 x8bto xe2 x80 x8b xe2 x80 x8bvote xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bperform xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bfollowing xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2 x80 x8bmanagement xe2 x80 x8b xe2 x80 x8bactions xe2 x97 x8f add xe2 x80 x8b xe2 x80 x8bnew xe2 x80 x8b xe2 x80 x8bcdp xe2 x80 x8b xe2 x80 x8btype xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bcreate xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bnew xe2 x80 x8b xe2 x80 x8bcdp xe2 x80 x8b xe2 x80 x8btype xe2 x80 x8b xe2 x80 x8bwith xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bunique xe2 x80 x8b xe2 x80 x8bset xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2 x80 x8bparameters xe2 x80 x8b xe2 x80 x8ba cdp xe2 x80 x8b xe2 x80 x8btype xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8beither xe2 x80 x8b xe2 x80 x8bbe xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bnew xe2 x80 x8b xe2 x80 x8btype xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bcollateral xe2 x80 x8b xe2 x80 x8bor",
+    "metadata": {
+      "chunk_id": "4f8e22c775e6d11da8652ca86e80d383",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 81] x80 x8bof xe2 x80 x8b xe2 x80 x8bthe liquidation xe2 x80 x8b xe2 x80 x8bmechanism xe2 x80 x8b xe2 x80 x8bduring xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bphase xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bsingle collateral xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bliquidation penalty xe2 x80 x8b xe2 x80 x8bgoes xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bbuy xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bburn xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bpeth xe2 x80 x8b xe2 x80 x8bbenefitting xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bpeth xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8beth xe2 x80 x8b xe2 x80 x8bratio mkr xe2 x80 x8b xe2 x80 x8btoken xe2 x80 x8b xe2 x80 x8bgovernance xe2 x80 x8b xe2 x80 x8baddition xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bpayment xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bstability xe2 x80 x8b xe2 x80 x8bfee xe2 x80 x8b xe2 x80 x8bon xe2 x80",
+    "metadata": {
+      "chunk_id": "1a42ee624e6783452c171d5861d666b0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 82] x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bpayment xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bstability xe2 x80 x8b xe2 x80 x8bfee xe2 x80 x8b xe2 x80 x8bon xe2 x80 x8b xe2 x80 x8bactive xe2 x80 x8b xe2 x80 x8bcdps xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmkr xe2 x80 x8b xe2 x80 x8btoken xe2 x80 x8b xe2 x80 x8bplays xe2 x80 x8b xe2 x80 x8ban important xe2 x80 x8b xe2 x80 x8brole xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bgovernance xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker xe2 x80 x8b xe2 x80 x8bplatform governance xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bdone xe2 x80 x8b xe2 x80 x8bat xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsystem xe2 x80 x8b xe2 x80 x8blevel xe2 x80 x8b xe2 x80 x8bthrough xe2 x80 x8b xe2 x80 x8belection xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8ban xe2 x80 x8b xe2 x80 x8bactive xe2 x80 x8b xe2 x80 x8bproposal xe2 x80 x8b xe2",
+    "metadata": {
+      "chunk_id": "417b4d3ee284943214675bde5835230b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 88] xe2 x80 x8b xe2 x80 x8bdpc xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsecond xe2 x80 x8b xe2 x80 x8blayer governance xe2 x80 x8b xe2 x80 x8blogic xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8bbe xe2 x80 x8b xe2 x80 x8brelatively xe2 x80 x8b xe2 x80 x8bsimple xe2 x80 x8b xe2 x80 x8bsuch xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8bdefining xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bprotocol xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bholding xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bweekly x0cvote xe2 x80 x8b xe2 x80 x8bon xe2 x80 x8b xe2 x80 x8bupdated xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2 x80 x8bparameters xe2 x80 x8b xe2 x80 x8bit xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8balso xe2 x80 x8b xe2 x80 x8bimplement xe2 x80 x8b xe2 x80 x8bmore xe2 x80 x8b xe2 x80 x8badvanced xe2 x80 x8b xe2 x80 x8blogic xe2 x80 x8b xe2 x80 x8bsuch xe2 x80 x8b xe2 x80 x8bas restrictions xe2 x80 x8b xe2 x80 x8bon xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80",
+    "metadata": {
+      "chunk_id": "9f6d47d8678f8cdb00cad24d57bacd65",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 90] xe2 x80 x8b xe2 x80 x8bthird xe2 x80 x8b xe2 x80 x8blayer xe2 x80 x8b xe2 x80 x8bdpcs xe2 x80 x8b xe2 x80 x8bwith xe2 x80 x8b xe2 x80 x8bor xe2 x80 x8b xe2 x80 x8brestrictions xe2 x80 x8b xe2 x80 x8bethereum xe2 x80 x8b xe2 x80 x8baccount xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8bdeploy xe2 x80 x8b xe2 x80 x8bvalid xe2 x80 x8b xe2 x80 x8bproposal xe2 x80 x8b xe2 x80 x8bsmart xe2 x80 x8b xe2 x80 x8bcontracts xe2 x80 x8b xe2 x80 x8bmkr xe2 x80 x8b xe2 x80 x8bvoters xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8bthen xe2 x80 x8b xe2 x80 x8buse xe2 x80 x8b xe2 x80 x8bmkr xe2 x80 x8b xe2 x80 x8btokens xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bcast xe2 x80 x8b xe2 x80 x8bapproval xe2 x80 x8b xe2 x80 x8bvotes xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bone xe2 x80 x8b xe2 x80 x8bor xe2 x80 x8b xe2 x80 x8bmore xe2 x80 x8b xe2 x80 x8bproposals xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bthey xe2 x80 x8b xe2 x80 x8bwant xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2",
+    "metadata": {
+      "chunk_id": "8603cd279951419ddeeb579c9ca68060",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 99] x80 x8bcontract xe2 x80 x8b xe2 x80 x8b temporary xe2 x80 x8b xe2 x80 x8bmechanism xe2 x80 x8b xe2 x80 x8bfor single collateral xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bsingle collateral xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmechanism xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bliquidation xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bliquidity xe2 x80 x8b xe2 x80 x8bproviding xe2 x80 x8b xe2 x80 x8bcontract xe2 x80 x8b xe2 x80 x8bsmart xe2 x80 x8b xe2 x80 x8bcontract xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8btrades xe2 x80 x8b xe2 x80 x8bdirectly xe2 x80 x8b xe2 x80 x8bwith xe2 x80 x8b xe2 x80 x8bethereum xe2 x80 x8b xe2 x80 x8busers xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bkeepers xe2 x80 x8b xe2 x80 x8baccording xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bprice feed xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsystem xe2",
+    "metadata": {
+      "chunk_id": "05fd06834255eec7ae9eb7ef4bb7faad",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 108] xe2 x80 x8b xe2 x80 x8bcalled xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bdebt xe2 x80 x8b xe2 x80 x8bauction xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bworks xe2 x80 x8b xe2 x80 x8bby diluting xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsupply xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmkr xe2 x80 x8b xe2 x80 x8btoken xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bselling xe2 x80 x8b xe2 x80 x8bit xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bbidders xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8ban xe2 x80 x8b xe2 x80 x8bauction xe2 x80 x8b xe2 x80 x8bformat x0cin xe2 x80 x8b xe2 x80 x8bparallel xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bcollateral xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bcdp xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bsold xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bcollateral xe2 x80 x8b xe2 x80 x8bauction xe2 x80 x8b xe2 x80",
+    "metadata": {
+      "chunk_id": "38d2a22195c3ef7f49d46fa957567b73",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 119] xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bengaged xe2 x80 x8b xe2 x80 x8bmkr xe2 x80 x8b xe2 x80 x8bvoters xe2 x80 x8b xe2 x80 x8bchoose xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bset xe2 x80 x8b xe2 x80 x8bof trusted xe2 x80 x8b xe2 x80 x8boracles xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bfeed xe2 x80 x8b xe2 x80 x8bthis xe2 x80 x8b xe2 x80 x8binformation xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker xe2 x80 x8b xe2 x80 x8bplatform xe2 x80 x8b xe2 x80 x8bthrough xe2 x80 x8b xe2 x80 x8bethereum xe2 x80 x8b xe2 x80 x8btransactions x0cto xe2 x80 x8b xe2 x80 x8bprotect xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsystem xe2 x80 x8b xe2 x80 x8bfrom xe2 x80 x8b xe2 x80 x8ban xe2 x80 x8b xe2 x80 x8battacker xe2 x80 x8b xe2 x80 x8bwho xe2 x80 x8b xe2 x80 x8bgains xe2 x80 x8b xe2 x80 x8bcontrol xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bmajority xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2",
+    "metadata": {
+      "chunk_id": "4ea9d1288706f866b2d59a5cf54429fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 125] x80 x8b xe2 x80 x8bglobal xe2 x80 x8b xe2 x80 x8bsettlers selected xe2 x80 x8b xe2 x80 x8bby xe2 x80 x8b xe2 x80 x8bmkr xe2 x80 x8b xe2 x80 x8bvoters xe2 x80 x8b xe2 x80 x8bhave xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bauthority xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8btrigger xe2 x80 x8b xe2 x80 x8bglobal xe2 x80 x8b xe2 x80 x8bsettlement xe2 x80 x8b xe2 x80 x8baside xe2 x80 x8b xe2 x80 x8bfrom xe2 x80 x8b xe2 x80 x8bthis authority xe2 x80 x8b xe2 x80 x8bthese xe2 x80 x8b xe2 x80 x8bactors xe2 x80 x8b xe2 x80 x8bdo xe2 x80 x8b xe2 x80 x8bnot xe2 x80 x8b xe2 x80 x8bhave xe2 x80 x8b xe2 x80 x8bany xe2 x80 x8b xe2 x80 x8badditional xe2 x80 x8b xe2 x80 x8bspecial xe2 x80 x8b xe2 x80 x8baccess xe2 x80 x8b xe2 x80 x8bor xe2 x80 x8b xe2 x80 x8bcontrol xe2 x80 x8b xe2 x80 x8bwithin xe2 x80 x8b xe2 x80 x8bthe system examples xe2 x80 x8b xe2 x80 x8bdai xe2 x80 x8b xe2 x80 x8bstablecoin xe2 x80 x8b xe2 x80 x8bsystem xe2 x80 x8b xe2 x80 x8bcan xe2 x80 x8b xe2 x80 x8bbe xe2 x80",
+    "metadata": {
+      "chunk_id": "5e3a9d4cc61d7196a50b664ee63451bf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 133] x8bis xe2 x80 x8b xe2 x80 x8btransferable xe2 x80 x8b xe2 x80 x8ballows xe2 x80 x8b xe2 x80 x8bcdps xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bbe xe2 x80 x8b xe2 x80 x8bused xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8bsmart xe2 x80 x8b xe2 x80 x8bcontracts xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bperform xe2 x80 x8b xe2 x80 x8bmore xe2 x80 x8b xe2 x80 x8bcomplex xe2 x80 x8b xe2 x80 x8bmethods xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bdai generation xe2 x80 x8b xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bexample xe2 x80 x8b xe2 x80 x8binvolving xe2 x80 x8b xe2 x80 x8bmore xe2 x80 x8b xe2 x80 x8bthan xe2 x80 x8b xe2 x80 x8bone xe2 x80 x8b xe2 x80 x8bactor xe2 x97 x8f example xe2 x80 x8b xe2 x80 x8b3 xe2 x80 x8b xe2 x80 x8b xe2 x80 x8balice xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bbob xe2 x80 x8b xe2 x80 x8bcollaborate xe2 x80 x8b xe2 x80 x8busing xe2 x80 x8b xe2 x80 x8ban xe2 x80 x8b xe2 x80 x8bethereum xe2 x80 x8b xe2 x80 x8botc xe2 x80 x8b xe2 x80",
+    "metadata": {
+      "chunk_id": "0419c171e00de3401ff50fe06afc7fee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 145] xe2 x80 x8b xe2 x80 x8bat xe2 x80 x8b xe2 x80 x8bleast xe2 x80 x8b xe2 x80 x8blarge xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bentire xe2 x80 x8b xe2 x80 x8bblockchain xe2 x80 x8b xe2 x80 x8bindustry xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bfollowing xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bshort xe2 x80 x8b xe2 x80 x8bnon exhaustive xe2 x80 x8b xe2 x80 x8blist xe2 x80 x8b xe2 x80 x8bsome xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bimmediate xe2 x80 x8b xe2 x80 x8bmarkets xe2 x80 x8b xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bboth xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bblockchain xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bwider xe2 x80 x8b xe2 x80 x8bindustry xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bdai stablecoin xe2 x80 x8b xe2 x80 x8bsystem xe2 x80 x8b",
+    "metadata": {
+      "chunk_id": "747240906cd9f2063916851a3159038c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 146] xe2 x80 x8b xe2 x80 x8bwider xe2 x80 x8b xe2 x80 x8bindustry xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bdai stablecoin xe2 x80 x8b xe2 x80 x8bsystem xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8bits xe2 x80 x8b xe2 x80 x8bcapacity xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bcryptocurrency xe2 x80 x8b xe2 x80 x8bwith xe2 x80 x8b xe2 x80 x8bprice xe2 x80 x8b xe2 x80 x8bstability xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bits xe2 x80 x8b xe2 x80 x8buse xe2 x80 x8b xe2 x80 x8bcase xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8bdecentralized xe2 x80 x8b xe2 x80 x8bmargin xe2 x80 x8b xe2 x80 x8btrading xe2 x80 x8b xe2 x80 x8bplatform xe2 x97 x8f prediction xe2 x80 x8b xe2 x80 x8bmarkets xe2 x80 x8b xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bgambling xe2 x80 x8b xe2 x80 x8bapplications xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bwhen xe2 x80 x8b xe2 x80 x8bmaking xe2 x80 x8b xe2 x80 x8ban xe2 x80 x8b xe2 x80 x8bunrelated prediction",
+    "metadata": {
+      "chunk_id": "f6adc9559a6a5a7f35b3796d4c9dc63b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 147] x8b xe2 x80 x8bgambling xe2 x80 x8b xe2 x80 x8bapplications xe2 x80 x8b xe2 x80 x8b xe2 x80 x8bwhen xe2 x80 x8b xe2 x80 x8bmaking xe2 x80 x8b xe2 x80 x8ban xe2 x80 x8b xe2 x80 x8bunrelated prediction xe2 x80 x8b xe2 x80 x8bit xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bobvious xe2 x80 x8b xe2 x80 x8bnot xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bwant xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bincrease xe2 x80 x8b xe2 x80 x8bone xe2 x80 x99s xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2 x80 x8bby xe2 x80 x8b xe2 x80 x8bplacing xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bbet xe2 x80 x8b xe2 x80 x8busing xe2 x80 x8b xe2 x80 x8ba volatile xe2 x80 x8b xe2 x80 x8bcryptocurrency xe2 x80 x8b xe2 x80 x8blong xe2 x80 x8b xe2 x80 x8bterm xe2 x80 x8b xe2 x80 x8bbets xe2 x80 x8b xe2 x80 x8bbecome xe2 x80 x8b xe2 x80 x8bespecially xe2 x80 x8b xe2 x80 x8binfeasible xe2 x80 x8b xe2 x80 x8bif xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8buser xe2 x80 x8b xe2 x80 x8bhas xe2 x80",
+    "metadata": {
+      "chunk_id": "01d348b2d706bad0b10955cc98ba7984",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 150] xe2 x80 x8buseful xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8bstable xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8breliable collateral xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8bcustom xe2 x80 x8b xe2 x80 x8bderivative xe2 x80 x8b xe2 x80 x8bsmart xe2 x80 x8b xe2 x80 x8bcontracts xe2 x80 x8b xe2 x80 x8bsuch xe2 x80 x8b xe2 x80 x8bas xe2 x80 x8b xe2 x80 x8boptions xe2 x80 x8b xe2 x80 x8bor xe2 x80 x8b xe2 x80 x8bcfd xe2 x80 x99s xe2 x97 x8f merchant xe2 x80 x8b xe2 x80 x8breceipts xe2 x80 x8b xe2 x80 x8bcross border xe2 x80 x8b xe2 x80 x8btransactions xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8bremittances xe2 x80 x8b f xe2 x80 x8b oreign exchange xe2 x80 x8b xe2 x80 x8bvolatility xe2 x80 x8b xe2 x80 x8bmitigation xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8black xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bintermediaries xe2 x80 x8b xe2 x80 x8bmeans xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8btransaction costs xe2 x80 x8b",
+    "metadata": {
+      "chunk_id": "fe3a9232e82523a53c6b335d64885caf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 152] xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8befficiency xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8blower xe2 x80 x8b xe2 x80 x8blevels xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bcorruption xe2 x80 x8b xe2 x80 x8bby xe2 x80 x8b xe2 x80 x8butilizing xe2 x80 x8b xe2 x80 x8bdai risks xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8btheir xe2 x80 x8b xe2 x80 x8bmitigation xe2 x80 x8b xe2 x80 x8bare xe2 x80 x8b xe2 x80 x8bmany xe2 x80 x8b xe2 x80 x8bpotential xe2 x80 x8b xe2 x80 x8brisks xe2 x80 x8b xe2 x80 x8bfacing xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsuccessful xe2 x80 x8b xe2 x80 x8bdevelopment xe2 x80 x8b xe2 x80 x8bdeployment xe2 x80 x8b xe2 x80 x8band operation xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker xe2 x80 x8b xe2 x80 x8bplatform xe2 x80 x8b xe2 x80 x8bit xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bvital xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker xe2 x80 x8b xe2",
+    "metadata": {
+      "chunk_id": "e3a38d3937a61b973e1f599830f8da69",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 153] x80 x8bplatform xe2 x80 x8b xe2 x80 x8bit xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bvital xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bmaker xe2 x80 x8b xe2 x80 x8bcommunity xe2 x80 x8b xe2 x80 x8btakes xe2 x80 x8b xe2 x80 x8ball xe2 x80 x8b xe2 x80 x8bnecessary steps xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bmitigate xe2 x80 x8b xe2 x80 x8bthese xe2 x80 x8b xe2 x80 x8brisks xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bfollowing xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8blist xe2 x80 x8b xe2 x80 x8bspells xe2 x80 x8b xe2 x80 x8bout xe2 x80 x8b xe2 x80 x8bsome xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8brisks xe2 x80 x8b xe2 x80 x8bidentified xe2 x80 x8b xe2 x80 x8band xe2 x80 x8b xe2 x80 x8baccompanying xe2 x80 x8b xe2 x80 x8bplan xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2 x80 x8bmitigation x0cmalicious xe2 x80 x8b xe2 x80 x8bhacking xe2 x80",
+    "metadata": {
+      "chunk_id": "a453162203aadd3c92ccb3e3937429cf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 154] x8b xe2 x80 x8baccompanying xe2 x80 x8b xe2 x80 x8bplan xe2 x80 x8b xe2 x80 x8bfor xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2 x80 x8bmitigation x0cmalicious xe2 x80 x8b xe2 x80 x8bhacking xe2 x80 x8b xe2 x80 x8battack xe2 x80 x8b xe2 x80 x8bagainst xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsmart xe2 x80 x8b xe2 x80 x8bcontract infrastructure xe2 x80 x8b xe2 x80 x8bgreatest xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2 x80 x8bto xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bsystem xe2 x80 x8b xe2 x80 x8bduring xe2 x80 x8b xe2 x80 x8bits xe2 x80 x8b xe2 x80 x8bearly xe2 x80 x8b xe2 x80 x8bstages xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8brisk xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8ba xe2 x80 x8b xe2 x80 x8bmalicious xe2 x80 x8b xe2 x80 x8bprogrammer finding xe2 x80 x8b xe2 x80 x8ban xe2 x80 x8b xe2 x80 x8bexploit xe2 x80 x8b xe2 x80 x8bin xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bdeployed xe2 x80 x8b xe2 x80 x8bsmart xe2 x80",
+    "metadata": {
+      "chunk_id": "e269fc4966e4b924525680b75d82f1c6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit",
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 157] x8b xe2 x80 x8b xe2 x80 x8bpart xe2 x80 x8b xe2 x80 x8bof xe2 x80 x8b xe2 x80 x8bthe xe2 x80 x8b xe2 x80 x8bcollateral portfolio xe2 x80 x8b xe2 x80 x8bthat xe2 x80 x8b xe2 x80 x8bis xe2 x80 x8b xe2 x80 x8bnot xe2 x80 x8b xe2 x80 x8bdecentralized xe2 x80 x8b dai stablecoin system whitepaper https makerdao com maker team december 2017 overview dai stablecoin system 3 collateralized debt position smart contracts 3 cdp interaction process 4 single collateral dai vs multi collateral dai 4 pooled ether temporary mechanism single collateral dai 5 price stability mechanisms 5 target price 5 target rate feedback mechanism 6 sensitivity parameter 7 global settlement 7 global settlement step step 7 risk management maker platform 8 risk parameters 9 mkr token governance 10 mkr multi collateral dai 11 automatic liquidations risky cdps 11 liquidity providing contract temporary mechanism single collateral dai 12 debt collateral auctions multi collateral dai 12 key external actors 13 keepers 13",
+    "metadata": {
+      "chunk_id": "1bbf38b625a478ded7e8777588bdc974",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 158] 11 automatic liquidations risky cdps 11 liquidity providing contract temporary mechanism single collateral dai 12 debt collateral auctions multi collateral dai 12 key external actors 13 keepers 13 oracles 14 global settlers 14 examples 14 addressable market 16 risks mitigation 17 malicious hacking attack smart contract infrastructure 17 black swan event collateral assets 18 competition importance ease use 18 pricing errors irrationality unforeseen events 18 failure centralized infrastructure 19 conclusion 19 glossary terms 20 links 21 overview dai stablecoin system popular digital assets bitcoin btc ether eth volatile everyday currency value bitcoin experiences large fluctuations rising falling 25% single day occasionally rising 300% month 1 dai stablecoin collateral backed cryptocurrency value stable relative dollar believe stable digital assets like dai stablecoin essential realizing potential blockchain technology maker smart contract platform ethereum backs stabilizes value dai",
+    "metadata": {
+      "chunk_id": "3eb9583baba660b3227208384b994372",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 159] value stable relative dollar believe stable digital assets like dai stablecoin essential realizing potential blockchain technology maker smart contract platform ethereum backs stabilizes value dai dynamic system collateralized debt positions cdps autonomous feedback mechanisms appropriately incentivized external actors maker enables leverage ethereum assets generate dai maker platform generated dai manner cryptocurrency freely sent payments goods services held long term savings importantly generation dai creates components needed robust decentralized margin trading platform collateralized debt position smart contracts collateral assets leverage generate dai maker platform maker s unique smart contracts known collateralized debt positions 2 cdps hold collateral assets deposited user permit user generate dai generating accrues debt debt effectively locks deposited collateral assets inside cdp later covered paying equivalent dai point owner withdraw collateral active cdps collateralized",
+    "metadata": {
+      "chunk_id": "bf986760d27e9d711c6423758c45cb4b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 160] user generate dai generating accrues debt debt effectively locks deposited collateral assets inside cdp later covered paying equivalent dai point owner withdraw collateral active cdps collateralized excess meaning value collateral higher value debt 1 david ernst hard problems cryptocurrency 2 https github com makerdao cdp interaction process step 1 creating cdp depositing collateral cdp user sends transaction maker create cdp sends transaction fund type collateral generate dai point cdp considered collateralized step 2 generating dai collateralized cdp cdp user sends transaction retrieve dai want cdp return cdp accrues equivalent debt locking access collateral outstanding debt paid step 3 paying debt stability fee user wants retrieve collateral pay debt cdp plus stability fee continuously accrue debt time stability fee paid mkr user sends requisite dai mkr cdp paying debt stability fee cdp debt free step 4 withdrawing collateral closing cdp debt stability fee paid cdp user freely",
+    "metadata": {
+      "chunk_id": "beca68f70b728d593ce5b29c1c20d4f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 161] accrue debt time stability fee paid mkr user sends requisite dai mkr cdp paying debt stability fee cdp debt free step 4 withdrawing collateral closing cdp debt stability fee paid cdp user freely retrieve collateral wallet sending transaction maker single collateral dai vs multi collateral dai dai initially launch support type collateral pooled ether 6 12 months plan upgrade single collateral dai multi collateral dai primary difference support number cdp types 3 3 mechanics temporarily place system single collateral phase marked white paper pooled ether temporary mechanism single collateral dai pooled ether peth collateral type accepted maker users wish open cdp generate dai phase maker platform need obtain peth instantly easily blockchain depositing eth special smart contract pools eth users gives corresponding peth return sudden market crash eth cdp ends containing debt value collateral maker platform automatically dilutes peth recapitalize system means proportional claim peth goes",
+    "metadata": {
+      "chunk_id": "faccdc6fca8b6c1e812c07d368ab354d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 162] gives corresponding peth return sudden market crash eth cdp ends containing debt value collateral maker platform automatically dilutes peth recapitalize system means proportional claim peth goes maker platform upgraded support multiple collateral types peth removed replaced eth alongside new collateral types price stability mechanisms target price dai target price primary functions maker platform 1 calculate collateral debt ratio cdp 2 determine value collateral assets dai holders receive case global settlement target price initially denominated usd starts 1 translating 1 1 usd soft peg target rate feedback mechanism event severe market instability target rate feedback mechanism trfm engaged engaging trfm breaks fixed peg dai maintains denomination trfm automatic mechanism dai stablecoin system adjusts target rate order cause market forces maintain stability dai market price target price target rate determines change target price time act incentive hold dai target rate positive",
+    "metadata": {
+      "chunk_id": "0bc354b46e572ec4a32f21ae2f12195d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 166] claims processed global settlement activated period time needed allow keepers process proportional claims dai cdp holders based fixed feed value processing dai holders cdp holders able claim fixed eth dai cdps step 3 dai cdp holders claim collateral dai cdps dai cdp holder claim function maker platform exchange dai cdps directly fixed eth corresponds calculated value assets based target price dai e g dai target price 1 u s dollar eth usd price 200 user holds 1000 dai global settlement activated processing period able claim exactly 5 eth maker platform time limit final claim risk management maker platform mkr token allows holders vote perform following risk management actions add new cdp type create new cdp type unique set risk parameters cdp type new type collateral new set risk parameters existing collateral type modify existing cdp types change risk parameters existing cdp types added modify sensitivity parameter change sensitivity target rate feedback mechanism modify target rate",
+    "metadata": {
+      "chunk_id": "155edfc7d38b8856e4cc4fc3364d6526",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 167] existing collateral type modify existing cdp types change risk parameters existing cdp types added modify sensitivity parameter change sensitivity target rate feedback mechanism modify target rate governance change target rate practice modifying target rate specific circumstance mkr voters want peg price dai current target price conjunction modifying sensitivity parameter setting sensitivity parameter target rate 0% trfm disabled target price dai pegged current value choose set trusted oracles maker platform derives internal prices collateral market price dai decentralized oracle infrastructure consisting wide set individual oracle nodes mkr voters control nodes set trusted oracles nodes half oracles compromised malfunction causing disruption continued safe operation system modify price feed sensitivity change rules determine largest change price feeds affect internal price values system choose set global settlers global settlement crucial mechanic allows maker platform survive",
+    "metadata": {
+      "chunk_id": "78888aa61df6bab6b7d2b9d427c042e2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 169] liquidation ratio liquidation ratio collateral debt ratio cdp vulnerable liquidation low liquidation ratio means mkr voters expect low price volatility collateral high liquidation ratio means high volatility expected stability fee stability fee fee paid cdp annual percentage yield calculated existing debt cdp paid cdp user stability fee denominated dai paid mkr token mkr paid calculated based price feed mkr market price paid mkr burned permanently removing supply penalty ratio penalty ratio determined maximum dai raised liquidation auction buy remove mkr supply excess collateral getting returned cdp user owned cdp prior liquidation penalty ratio cover inefficiency liquidation mechanism phase single collateral dai liquidation penalty goes buy burn peth benefitting peth eth ratio mkr token governance addition payment stability fee active cdps mkr token plays important role governance maker platform governance system level election active proposal mkr voters active proposal smart",
+    "metadata": {
+      "chunk_id": "e67c3a4e1e335bcc6bb7d5770bafe53c",
+      "entities": {
+        "crypto_project": [
+          "mkr token mkr"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 170] token governance addition payment stability fee active cdps mkr token plays important role governance maker platform governance system level election active proposal mkr voters active proposal smart contract empowered mkr voting gain root access modify internal governance variables maker platform proposals forms single action proposal contracts sapc delegating proposal contracts dpc single action proposal contracts proposals executed gaining root access execution immediately applies changes internal governance variables maker platform time execution sapc deletes type proposal phases system complicated use flexible delegating proposal contracts proposals continuously utilize root access second layer governance logic codified inside dpc second layer governance logic relatively simple defining protocol holding weekly vote updated risk parameters implement advanced logic restrictions magnitude governance actions defined time periods delegating permissions layer dpcs restrictions ethereum",
+    "metadata": {
+      "chunk_id": "039cd790c99abdc467c54844612d83ac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 171] protocol holding weekly vote updated risk parameters implement advanced logic restrictions magnitude governance actions defined time periods delegating permissions layer dpcs restrictions ethereum account deploy valid proposal smart contracts mkr voters use mkr tokens cast approval votes proposals want elect active proposal smart contract highest total number approval votes mkr voters elected active proposal mkr multi collateral dai upgrade multi collateral dai mkr significant role dai stablecoin system replacing peth recapitalization resource cdps undercollateralized market crashes mkr supply automatically diluted sold order raise funds recapitalize system automatic liquidations risky cdps ensure collateral system cover value outstanding debt according target price cdp liquidated deemed risky maker platform determines liquidate cdp comparing liquidation ratio current collateral debt ratio cdp cdp type unique liquidation ratio controlled mkr voters established based risk profile",
+    "metadata": {
+      "chunk_id": "14e29057ba0dfe1261ca8b635986824d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 172] risky maker platform determines liquidate cdp comparing liquidation ratio current collateral debt ratio cdp cdp type unique liquidation ratio controlled mkr voters established based risk profile particular collateral asset cdp type liquidation occurs cdp hits liquidation ratio maker platform automatically buy collateral cdp subsequently sell temporary mechanism place single collateral dai called liquidity providing contract multi collateral dai auction mechanism liquidity providing contract temporary mechanism single collateral dai single collateral dai mechanism liquidation liquidity providing contract smart contract trades directly ethereum users keepers according price feed system cdp liquidated immediately acquired system cdp owner receives value leftover collateral minus debt stability fee liquidation penalty peth collateral set sale liquidity providing contract keepers atomically purchase peth paying dai dai paid way immediately removed dai supply equal cdp debt removed dai paid",
+    "metadata": {
+      "chunk_id": "27d5621c22e9bafe089367706dec2856",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 173] fee liquidation penalty peth collateral set sale liquidity providing contract keepers atomically purchase peth paying dai dai paid way immediately removed dai supply equal cdp debt removed dai paid excess debt shortfall excess dai purchase peth market burn positively changes eth peth ratio results net value gain peth holders peth selloff initially raise dai cover entire debt shortfall peth continuously created sold new peth created way negatively changes eth peth ratio causing peth holders lose value debt collateral auctions multi collateral dai liquidation maker platform buys collateral cdp subsequently sells automatic auction auction mechanism enables system settle cdps price information unavailable order collateral cdp sold system needs raise dai cover cdp s debt called debt auction works diluting supply mkr token selling bidders auction format parallel collateral cdp sold collateral auction proceeds denominated dai cdp debt plus liquidation penalty risk parameter determined mkr",
+    "metadata": {
+      "chunk_id": "563671cc29c421890002ef668dae7131",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 174] works diluting supply mkr token selling bidders auction format parallel collateral cdp sold collateral auction proceeds denominated dai cdp debt plus liquidation penalty risk parameter determined mkr voting buy mkr remove supply directly counteracts mkr dilution happened debt auction dai bid fully cover cdp debt plus liquidation penalty collateral auction switches reverse auction mechanism tries sell little collateral possible leftover collateral returned original owner cdp key external actors addition smart contract infrastructure maker platform relies certain external actors maintain operations keepers external actors advantage economic incentives presented maker platform oracles global settlers external actors special permissions system assigned mkr voters keepers keeper independent usually automated actor incentivized profit opportunities contribute decentralized systems context dai stablecoin system keepers participate debt auctions collateral auctions cdps liquidated keepers",
+    "metadata": {
+      "chunk_id": "9b7c531fb11cbdcd7b1a3c8d7c555501",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 175] usually automated actor incentivized profit opportunities contribute decentralized systems context dai stablecoin system keepers participate debt auctions collateral auctions cdps liquidated keepers trade dai target price keepers sell dai market price higher target price buy dai market price target price profit expected long term convergence target price oracles maker platform requires real time information market price assets collateral cdps order know trigger liquidations maker platform needs information market price dai deviation target price order adjust target rate trfm engaged mkr voters choose set trusted oracles feed information maker platform ethereum transactions protect system attacker gains control majority oracles forms collusion global variable determines maximum change value price feed permitted system variable known price feed sensitivity parameter example price feed sensitivity parameter works price feed sensitivity parameter defined 5% 15 minutes price feeds change",
+    "metadata": {
+      "chunk_id": "84a6649f4af7db595c5a0351f44fddb9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 176] price feed permitted system variable known price feed sensitivity parameter example price feed sensitivity parameter works price feed sensitivity parameter defined 5% 15 minutes price feeds change 5% 15 minute period changing 15% 45 minutes restriction ensures time trigger global settlement event attacker gains control majority oracles global settlers global settlers external actors similar price feed oracles line defense dai stablecoin system event attack set global settlers selected mkr voters authority trigger global settlement aside authority actors additional special access control system examples dai stablecoin system restrictions sign process example 1 bob needs loan decides generate 100 dai locks eth worth significantly 100 dai cdp uses generate 100 dai 100 dai instantly sent directly ethereum account assuming stability fee 1% year bob need 101 dai cover cdp decides retrieve eth year later primary use cases cdps margin trading cdp users example 2 bob wishes margin long eth dai",
+    "metadata": {
+      "chunk_id": "7bf1385e90b24e0bbf5297c197b3deeb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 177] ethereum account assuming stability fee 1% year bob need 101 dai cover cdp decides retrieve eth year later primary use cases cdps margin trading cdp users example 2 bob wishes margin long eth dai pair generates 100 usd worth dai posting 150 usd worth eth cdp buys 100 usd worth eth newly generated dai giving net 1 66x eth usd exposure s free wants 100 usd worth eth obtained selling dai original eth collateral 150 usd worth remains locked cdp debt plus stability fee covered cdps fungible ownership cdp transferable allows cdps smart contracts perform complex methods dai generation example involving actor example 3 alice bob collaborate ethereum otc contract issue 100 usd worth dai backed eth alice contributes 50 usd worth eth bob contributes 100 usd worth otc contract takes funds creates cdp generating 100 usd worth dai newly generated dai automatically sent bob bob s point view buying 100 usd worth dai paying equivalent value eth contract transfers ownership cdp alice ends 100 usd worth",
+    "metadata": {
+      "chunk_id": "f80323ab50933baab42fdbdd8cc9d95d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 20.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 178] generating 100 usd worth dai newly generated dai automatically sent bob bob s point view buying 100 usd worth dai paying equivalent value eth contract transfers ownership cdp alice ends 100 usd worth debt denominated dai 150 usd worth collateral denominated eth started 50 usd worth eth 3x leveraged long eth usd liquidations ensure event price crash collateral backing cdp type system automatically able close cdps risky ensures outstanding dai supply remains fully collateralized example 4 let s assume ether cdp type liquidation ratio 145% penalty ratio 105% ether cdp collateral debt ratio 150% ether price crashes 10% target price causing collateral debt ratio cdp fall 135% falls liquidation ratio traders trigger liquidation begin bidding dai buying mkr debt auction simultaneously traders begin bidding dai buying 135 dai worth collateral collateral auction 105 dai bid ether collateral traders reverse bid collateral 105 dai remaining collateral returned cdp owner addressable market",
+    "metadata": {
+      "chunk_id": "1d5f892662e5bead71cc0990e9120d40",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 179] begin bidding dai buying 135 dai worth collateral collateral auction 105 dai bid ether collateral traders reverse bid collateral 105 dai remaining collateral returned cdp owner addressable market mentioned introduction cryptocurrency price stability basic requirement majority decentralized applications potential market dai large entire blockchain industry following short non exhaustive list immediate markets blockchain wider industry dai stablecoin system capacity cryptocurrency price stability use case decentralized margin trading platform prediction markets gambling applications making unrelated prediction obvious want increase s risk placing bet volatile cryptocurrency long term bets especially infeasible user gamble future price volatile asset place bet instead cryptocurrency price stability like dai natural choice prediction market gambling users financial markets hedging derivatives leverage cdps allow permissionless leveraged trading dai useful stable reliable collateral custom",
+    "metadata": {
+      "chunk_id": "daacfdb6cac4115d2d74eb145c8b6d9f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 180] like dai natural choice prediction market gambling users financial markets hedging derivatives leverage cdps allow permissionless leveraged trading dai useful stable reliable collateral custom derivative smart contracts options cfd s merchant receipts cross border transactions remittances foreign exchange volatility mitigation lack intermediaries means transaction costs international trade significantly reduced dai transparent accounting systems charities ngo s governments increases efficiency lower levels corruption utilizing dai risks mitigation potential risks facing successful development deployment operation maker platform vital maker community takes necessary steps mitigate risks following list spells risks identified accompanying plan risk mitigation malicious hacking attack smart contract infrastructure greatest risk system early stages risk malicious programmer finding exploit deployed smart contracts break steal system vulnerability fixed worst case scenario decentralized",
+    "metadata": {
+      "chunk_id": "548334f056009246828687323627a075",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit",
+          "hack",
+          "vulnerability"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 33.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 181] contract infrastructure greatest risk system early stages risk malicious programmer finding exploit deployed smart contracts break steal system vulnerability fixed worst case scenario decentralized digital assets held collateral maker platform ether eth augur reputation rep stolen chance recovery collateral portfolio decentralized digix gold iou s stolen event frozen controlled centralized backdoor mitigation smart contract security best security practices absolute highest priority dai development effort inception codebase undergone independent security audits best security researchers blockchain industry long term risk getting hacked theoretically completely mitigated formal verification code means mathematically proving code exactly intended complete formal verification long term goal significant work completed including reference implementation dai stablecoin system functional programming language haskell serves stepping stone sophisticated formalizations currently active research",
+    "metadata": {
+      "chunk_id": "ff80b375c0ecf43ddf3a8659246c7890",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "backdoor",
+          "exploit",
+          "hack",
+          "vulnerability"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 44.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 182] work completed including reference implementation dai stablecoin system functional programming language haskell serves stepping stone sophisticated formalizations currently active research development black swan event collateral assets high impact risk potential black swan event collateral dai happen early stages dai stablecoin system mkr robust support inflationary dilutions dai stablecoin system supports diverse portfolio collateral mitigation cdp collateral limited eth early stages debt ceiling initially limited growing gradually time competition importance ease use mentioned previously large money brainpower working cryptocurrency price stability virtue having true decentralization dai stablecoin system far complex model contemplated blockchain industry perceived risk movement cryptocurrency users ideals decentralization exchanged simplicity marketing centralized digital assets mitigation expect dai easy use regular cryptocurrency user dai standard ethereum token adhering erc 20",
+    "metadata": {
+      "chunk_id": "dba071696c71a78bf60e81798f102b4d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 183] users ideals decentralization exchanged simplicity marketing centralized digital assets mitigation expect dai easy use regular cryptocurrency user dai standard ethereum token adhering erc 20 standard readily available high liquidity ecosystem dai designed way average user need understand underlying mechanics system order use complexities dai stablecoin system need understood primarily keepers capital investment companies use dai stablecoin system margin trading types users resources onboard long abundant clear documentation aspect system s mechanics maker community ensure case pricing errors irrationality unforeseen events number unforeseen events potentially occur problem price feed oracles irrational market dynamics cause variation value dai extended period time confidence lost system trfm adjustments mkr dilution reach extreme levels bringing liquidity stability market mitigation maker community need incentivize sufficiently large capital pool act keepers market order maximize",
+    "metadata": {
+      "chunk_id": "328742cd4282c5820f83d02769dc8e13",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 184] trfm adjustments mkr dilution reach extreme levels bringing liquidity stability market mitigation maker community need incentivize sufficiently large capital pool act keepers market order maximize rationality market efficiency allow dai supply grow steady pace major market shocks failure centralized infrastructure maker team plays major role development governance maker platform early days budgeting expenses hiring new developers seeking partnerships institutional users interfacing regulators key external stakeholders maker team fail capacity legal reasons internal problems management future maker risk proper backup plan mitigation maker community exists partly act decentralized counterparty maker team loose collective independent actors aligned holding mkr token giving strong incentive maker platform succeed early phases mkr distribution great care taken ensure important core developers received significant mkr stake event maker team longer effectively able lead development maker",
+    "metadata": {
+      "chunk_id": "8b3792fcd7affeb461c9b8584a959b02",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 185] maker platform succeed early phases mkr distribution great care taken ensure important core developers received significant mkr stake event maker team longer effectively able lead development maker platform individual mkr holders incentivized fund developers simply carry development effort protect investment conclusion dai stablecoin system designed solve crucial problem stable exchange value ethereum ecosystem wider blockchain economy believe mechanism dai created transacted retired direct risk management role mkr holders allow self interested keepers maintain price stability dai time efficient manner founders maker community established prudent governance roadmap appropriate needs agile development short term coherent ideals decentralization time development roadmap aggressive focused widespread adoption dai responsible fashion glossary terms collateralized debt position cdp smart contract users receive asset dai effectively operates debt instrument interest rate cdp user posted",
+    "metadata": {
+      "chunk_id": "8fdbaf96f51c7f3ff1380fc208a30c93",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 186] widespread adoption dai responsible fashion glossary terms collateralized debt position cdp smart contract users receive asset dai effectively operates debt instrument interest rate cdp user posted collateral excess value loan order guarantee debt position dai cryptocurrency price stability asset exchange dai stablecoin system standard ethereum token adhering erc20 standard debt auction reverse auction selling mkr dai cover emergency debt cdp undercollateralized collateral auction auction selling collateral cdp undergoing liquidation designed prioritize covering debt owed cdp secondarily cdp owner best possible price excess collateral refund dai foundation decentralized team smart contract developers committed development successful launch maker platform keepers independent economic actors trade dai cdps mkr create dai close cdps seek arbitrage dai stablecoin system result keepers help maintain dai market rationality price stability mkr erc20 token mkr voters voting serves backstop",
+    "metadata": {
+      "chunk_id": "2e0acb84e196db2df67a66b0bbcd5e03",
+      "entities": {
+        "crypto_project": [
+          "token mkr"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 187] trade dai cdps mkr create dai close cdps seek arbitrage dai stablecoin system result keepers help maintain dai market rationality price stability mkr erc20 token mkr voters voting serves backstop case insolvent cdps mkr voters mkr holders actively manage risk dai stablecoin system voting risk parameters maker decentralized autonomous organization maker platform technical infrastructure community mkr voters oracles ethereum accounts contracts users selected provide price feeds components maker platform risk parameters variables determine things maker platform automatically judges cdp risky allowing keepers liquidate sensitivity parameter variable determines aggressively dai stablecoin system automatically changes target rate response dai market price deviations target rate feedback mechanism trfm automatic mechanism dai stablecoin system adjusts target rate order cause market forces maintain stability dai market price target price links chat https chat makerdao com primary platform",
+    "metadata": {
+      "chunk_id": "360a5f1c907c18eddf5c3f3c7561fc2d",
+      "entities": {
+        "crypto_project": [
+          "token mkr"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  },
+  {
+    "text": "[Section 188] trfm automatic mechanism dai stablecoin system adjusts target rate order cause market forces maintain stability dai market price target price links chat https chat makerdao com primary platform community interaction forum https forum makerdao com debate proposals subreddit https reddit com r makerdao best place latest news links github https github com makerdao repository public maker code teamspeak https ts makerdao com governance meeting conference calls soundcloud https soundcloud com makerdao governance meeting recordings oasis https oasisdex com mkr dai decentralized exchange sai https sai makerdao com experimental stablecoin",
+    "metadata": {
+      "chunk_id": "1409bbdf5ad682a1d3da3dfa58a87ac8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Dai.txt"
+    }
+  }
+]

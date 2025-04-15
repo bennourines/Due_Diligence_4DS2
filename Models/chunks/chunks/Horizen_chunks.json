@@ -1,0 +1,1427 @@
+[
+  {
+    "text": "[Section 1] arxiv 2002 01847v1 cs cr 5 feb 2020 zendoo zk snark veri able cross chain transfer protocol enabling decoupled decentralized sidechains alberto garo olo dmytro kaidalov alberto horizen global dmytro kaidalov iohk io horizen iohk research roman oliynykov roman oliynykov iohk io iohk research v n karazin kharkiv national university january 2020 abstract sidechains appealing innovation devised enable blockchain scalability extensibility basic idea simple powerful construct parallel chain sidechain desired features provide way transfer coins mainchain sidechain paper introduce zendoo construction bitcoin like blockchain systems allow s creation communication sidechains di erent types knowing interna l structure consider parent child relationship mainchain sidechains sidechain nodes directly observe mainchain mainchain nodes observe cryptographicall y authenticated certi cates sidechain maintainers use zk snarks construct universal veri able transfer mechanism sidechains propose speci c",
+    "metadata": {
+      "chunk_id": "d2797c1213fb0cfdc8a01e589829f325",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 2] observe mainchain mainchain nodes observe cryptographicall y authenticated certi cates sidechain maintainers use zk snarks construct universal veri able transfer mechanism sidechains propose speci c sidechain construction named latus built infrastructure realizes decentralized veri able blockchain system payments leverage use recursive composition zk snarks generate succinct proofs sidechain state progression generate certi cates validity proofs allows mainchain e ciently verify operations performed sidechain knowing details operations contents 1 introduction 3 1 1 relatedwork 4 2 preliminaries 5 2 1 cryptographicde nitions 5 2 2 recursive snarks composition state transitions 6 3 general overview 7 3 1 maincomponents ofasidechain design 8 4 zendoo cross chain transfer protocol sidechains 9 4 1 cross chaintransfer protocol 10 4 1 1 forward transfers 10 4 1 2 backward transfers 11 4 1 2 1 mainchain managedwithdrawals 14 4 1 2 2 withdrawal safeguard 16 4 1 3 sidechain transactions",
+    "metadata": {
+      "chunk_id": "4c986b9f98d9202db501f3d65821bbcc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 9 4 1 cross chaintransfer protocol 10 4 1 1 forward transfers 10 4 1 2 backward transfers 11 4 1 2 1 mainchain managedwithdrawals 14 4 1 2 2 withdrawal safeguard 16 4 1 3 sidechain transactions commitment 16 4 2 bootstrapping sidechains 17 5 latus sidechain 18 5 1 consensusprotocol 18 5 1 1 withdrawal epochs 21 5 2 accounting model andsystemstate 22 5 2 1 systemstate 22 5 3 transactional model 23 5 3 1 payment transaction 23 5 3 2 forward transfers transaction 24 5 3 3 backward transfer transaction 25 5 3 4 backward transfer requests transaction 26 5 4 statetransition proof 27 5 4 1 performance andincentives 29 5 5 cross chaintransfer protocol 29 5 5 1 mainchain block reference 29 5 5 2 forward transfers 31 5 5 3 backward transfers 31 5 5 3 1 withdrawal certi cate 32 5 5 3 2 backward transfer request 34 5 5 3 3 ceasedsidechain withdrawal 35 6 conclusions 36 7 acknowledgments 36 appendix mst delta 38 2 introduction inception bitcoin cryptocurrency 2008 20 topic decentralized ledger",
+    "metadata": {
+      "chunk_id": "0c3d4a86bcc2fa12e0850b42ddace843",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 4] request 34 5 5 3 3 ceasedsidechain withdrawal 35 6 conclusions 36 7 acknowledgments 36 appendix mst delta 38 2 introduction inception bitcoin cryptocurrency 2008 20 topic decentralized ledger technology received signi cant attention experts areas bitcoin rst decentralized payment system based peer peer networking key feature absence centralized control claimed disruptive innovation help build robust fair transparent nancial systems bitcoin inspired appearance systems based principle decentralization variety di erent features increasing use bitcoin similar blockchain systems inherent limitations apparent limited throughput increased latency reduced ability scale expand functionality etc 10 important decentralized systems challenging update single decision making entity small protocol change requires cumbersome process community agreement makes introduction new features di cult sidechains proposed et al 2014 5 appealing concept allows work constraints single decentralized blockchain",
+    "metadata": {
+      "chunk_id": "709c079119a79fbe586cb720cf330c65",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 5] requires cumbersome process community agreement makes introduction new features di cult sidechains proposed et al 2014 5 appealing concept allows work constraints single decentralized blockchain basic idea simple create separate blockchain functionality needed provide way communicate main blockchain fig 1 communication means ability transfer mainchain native asset e g bitcoins sidechain main blockchain e g bitcoin sidechain smart contracts sidechain c governance sidechain b fast transactions figure 1 sidechains main blockchain provides basic cryptocurrency functionality sidechains implement speci c functions way instance blockchain system like bitcoin extended additional functionalities smart contracts 3 implemented separate sidechain uses native asset remaining bitcoin ecosystem paper propose zendoo universal construction bitcoin like blockchain systems allows creation communication sidechains di erent types knowing internal structure e g consensus protocol types transactions",
+    "metadata": {
+      "chunk_id": "c0974dc2af115ec3dd9c4b4239515e00",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 6] propose zendoo universal construction bitcoin like blockchain systems allows creation communication sidechains di erent types knowing internal structure e g consensus protocol types transactions supported etc fact sidechain blockchain system uses standardized method communicate mainchain speci cally consider parent child relationship mainchain sidechains sidechain nodes directly observe mainchain mainchain nodes observe cryptographicall y authenticated certi cates sidechain maintainers things certi cates authorize transfers coming sidechains certi cate authentication validation achieved zk snarks 6 enable constant sized proofs arbitrary computations main feature construction sidechains allowed de ne zk snarks establishing rules authentication validation fact zk snark proofs comply veri cation interface mainchain enables great universality sidechain use arbitrary protocol authenticating certi cates e g sidechain adopt centralized solution zk snark veri es 3 certi cate signed authorized",
+    "metadata": {
+      "chunk_id": "c13c343d0fb41aca90076cb016db13df",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 8] zendoo introduces basic interfaces imposed mainchain section 5 provides details latus sidechain construction 1 1 related work concept sidechains rst introduced et al 2014 5 introduced general notion 2 way peg described operational modes synchronous asynchronou s implement interactions pegged chains synchronous mode implies main chains aware verify transfer transactions directly asynchronous mode relies validators process transfers notable construction sidechains presented 25 18 called drivechains aims deploy sidechains bitcoin network forward transfers mainchain sidechain processed providing spv proofs like synchronous mode 5 backward transfers rely validators validators drivechains mainchain miners observe sidechains endorse transfers rst formal treatment sidechains proposed p ga zi kiayias d zindros 13 addition presented sidechain construction proof stake blockchains sidechain nodes directly observe con rm forward transfers backward transfers con rmed certi ers chosen sidechain",
+    "metadata": {
+      "chunk_id": "097cddcdb21486180dd5bd7e27002081",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 9] kiayias d zindros 13 addition presented sidechain construction proof stake blockchains sidechain nodes directly observe con rm forward transfers backward transfers con rmed certi ers chosen sidechain block forgers previous proposal sidechains 12 presents exible model allows constructio n di erent types sidechains internal structures unknown mainchain relies certi ers con rm backward transfers mainchain model certi ers chosen randomly pool certi ers registered directly mainchain mentioned constructions di er current proposal aspects notably assume mainchain observes sidechains directly relies intermediary con rm transfers addition provide exibility 12 means sidechain construction e g consensus protocol chosen freely 16 kiayias d zindros proposed implementation sidechain protocol proof work blockchains based smart contracts notable sidechain constructio n relies smart contracts called plasma presented 22 j poon v buterin contrary construction rely smart contracts main features",
+    "metadata": {
+      "chunk_id": "881d9be42b8f95f4b4af29674aad3971",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 10] work blockchains based smart contracts notable sidechain constructio n relies smart contracts called plasma presented 22 j poon v buterin contrary construction rely smart contracts main features construction presented paper usage zk snarks enabling veri able cross chain communication zk snark initially propose d zero knowledge protocol allows proving possession information revealing 6 technique suited simply securing information solving scalability issues enables succinct constant size proofs arbitrary computations instance recursive composition zk snarks 19 8 possible 4 construct succinct proof state transition virtually number transactions inspired techniques designing sidechain construction notable sidechain construction relies zk snarks zk rollup 14 layer 2 solution based smart contracts scaling transaction throughput ethereum 2 basic idea transactions carried o chain information entailed state transitions zk snark proof validity submitted contract requires submission limited",
+    "metadata": {
+      "chunk_id": "3d071eadb12c2fd4a099e62288a94eac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 11] scaling transaction throughput ethereum 2 basic idea transactions carried o chain information entailed state transitions zk snark proof validity submitted contract requires submission limited information transaction chain prevent data availability attacks limiting scalability construction di ers zk rollup aspects notably push sidechain transaction data mainchain attempts construct cross chain transfer mechanisms including liquid project 9 polkadot 30 interledger 27 cosmos 1 propose solutions di erent construction 2 preliminaries section introduce de nitions cryptographic constructions paper defer formal descriptions especially recursive snarks composition separate paper de ne basic notations needed describe proposed sidechain construction 2 1 cryptographic de nitions de nition 2 1 collision resistant hash function crh hash function h collisionresistan t probability nding di erent input strings b h h b negligible formal de nition found e g 15 refer hash function suppose collision",
+    "metadata": {
+      "chunk_id": "adcd9917397b517302a80007ee497d42",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 12] resistant hash function crh hash function h collisionresistan t probability nding di erent input strings b h h b negligible formal de nition found e g 15 refer hash function suppose collision resistant de nition 2 2 merkle hash tree mht merkle hash tree simply merkle tree mt binary tree data structure value internal node computed hash values children value leaf node direct hash data block represented leaf fig 2 23 21 h1h31h32h33h34h41h42data1h43h44h45h46h47h48h21h22h41 h data1 data5data7h1 h h21 h22 h21 h h31 h32 h22 h h33 h34 data2data3data4data6data8 figure 2 merkle hash tree level node h1 fig 2 root hash mht given collisionresistan t hash function calculate tree nodes consider root hash tree 5 authenticator impossible tamper single bit data tree changing root hash important feature merkle tree structure produces concise proof particular data block s membership tree particular root hash e g wants prove data4 fig 2 included mht tree root hash h1 need provide veri er data block tuple",
+    "metadata": {
+      "chunk_id": "915d8c382fc7223ab6d299eacedebd4d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 13] tree structure produces concise proof particular data block s membership tree particular root hash e g wants prove data4 fig 2 included mht tree root hash h1 need provide veri er data block tuple internal nodes h43 h31 h22 allow recalculating tree root comparing provided root h1 merkle proof de nition 2 3 succinct non interactive argument knowledge snark snark proving system consisting triplet algorithms setup prove verify allows proving satis ability set inputs arithmetic constraint system e g 6 7 formal de nition properties analysis de ne arithmetic constraint system set polynomials nite eld f variables x1 xr y1 ys satisfying assignment given constraint system c assignment f elements xi yj polynomials evaluate zero indicate satisfying assignment c w a1 ar ai f w w1 ws wj f refer public input w witness algorithms setup prove v erify de ned 1 pk vk setup c 1 bootstraps snark constraint system c security parameter bootstrapped snark speci ed pair keys pk vk proving key veri cation key",
+    "metadata": {
+      "chunk_id": "3237abfb72f17abc2b82764fd722a40f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 15] nition recursive proof composition technique sidechain model construct succinct proofs state transitions idea recursive proofs discussed e g 6 19 8 follows based principally construction described 19 de nition 2 4 state transition system state transition system de ned set possible states s set possible transitions t transition function update ti si si s ti t returns new state si 1 case ti si constitute valid input update function speaking informally like de ne snark attests iterative state transitions e g transitions t1 t2 tn applied sequentially state s1 6 produce state sn 1 like succinct proof following statement exist t1 tn update tn update tn 1 update update t1 s1 sn 1 applying blockchain able provide succinct proofs transition states si sj j state represented instance list unspent transaction outputs 29 transitions regular blockchain transactions spend outputs create new ones construction great value veri able sidechains de nition 2 5 recursive snarks state transition systems de",
+    "metadata": {
+      "chunk_id": "43e3afc382c89288a893d389e3253dec",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 16] outputs 29 transitions regular blockchain transactions spend outputs create new ones construction great value veri able sidechains de nition 2 5 recursive snarks state transition systems de ne recursive snarks composition tuple snarks base merge 1 base snark single transition proves existence t si 1 update t si de ned triplet setup prove verify pkbase vkbase setup 1 bootstraps base snark base p rove pkbase si si 1 ti evaluates proof base con rms si 1 update ti si true false v erify vkbase si si 1 base veri es base valid proof attesting state transition si si 1 2 merge snark merges snarks base merge proving validity transition states si sj 1 j de ned triplet setup prove verify pkmerge vkmerge setup 1 bootstraps merge snark merge p rove pkmerge si sj sk 1 2 evaluates proof merge con rm s 1 valid snarks 2fbase mergeg attest state transitions 2 si sk sk sj correspondingly altogether proves valid transitio n si sj k j true false v erify vkmerge si sj merge veri es merge valid proof",
+    "metadata": {
+      "chunk_id": "fdb1f09d016349ebc90ff32fca473736",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 17] rm s 1 valid snarks 2fbase mergeg attest state transitions 2 si sk sk sj correspondingly altogether proves valid transitio n si sj k j true false v erify vkmerge si sj merge veri es merge valid proof attesting state transition si sj j intentionally omit speci cs recursive snarks composition reality sophisticated details topic found instance 19 8 defer details construction separate paper point provided basic de nitions allow describe sidechain protocol abstracting away details snarks construction general overview section gives overview sidechain concept general main components sidechain design brie y discuss proposed solutions going want introduce abstract de nitions terms mainchain sidechain paper de nition 3 1 mainchain mc mainchain blockchain system based bitcoin backbone protocol model 11 maintains public ledger asset transfer transactions additionally mainchain supports standardized mechanism register interact separate sidechain systems interaction mean cross chain transfer",
+    "metadata": {
+      "chunk_id": "42ca994043e358547249724b15fa3021",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 18] model 11 maintains public ledger asset transfer transactions additionally mainchain supports standardized mechanism register interact separate sidechain systems interaction mean cross chain transfer protocol enables sending native asset sidechain receiving secure veri able way need know internal sidechain construction operations 7 de nition 3 2 sidechain sc sidechain separate system attached mainchain means cross chain transfer protocol speaking informally consider mainchain blockchain platform supports basic payment functionality native asset coin e g bitcoin 20 horizen 26 etc sidechain attached domain speci c platform uses coin asset limited model consider single mainchain sidechains attached de nition sidechain def 3 2 imply usage particular data structure consensus algorithm mainchain totally agnostic sidechain construction decentralized blockchain centralized database maintained prede ned authority generally arbitrary application need introduce sidechains general payment based",
+    "metadata": {
+      "chunk_id": "c8007fa1f12c23206db69eab28fc3ef0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 19] totally agnostic sidechain construction decentralized blockchain centralized database maintained prede ned authority generally arbitrary application need introduce sidechains general payment based blockchain system comes need allow creation di erent blockchain applications use mainchain asset creation applications directly mainchain possible inheren t technological limitations restricted throughput expensive storage etc sidechains e ectively solve problems 3 1 main components sidechain design analyzing existing attempts design sidechains 12 5 25 18 16 13 14 outline basic components underlie sidechain architecture 1 mainchain consensus protocol mcp 2 cross chain transfer protocol cctp 3 sidechain consensus protocol scp depending speci c design components highly coupled decoupled mainchain independent particular sidechain implementation construction aspire multipurposeness designing system mcp scp completely decoupled cctp naturally bridge uni ed xed mainchain consensus protocol end scp",
+    "metadata": {
+      "chunk_id": "eca3dfbbc45c7fea0f615f235758e19b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 20] particular sidechain implementation construction aspire multipurposeness designing system mcp scp completely decoupled cctp naturally bridge uni ed xed mainchain consensus protocol end scp freely de ned sidechain developer allows variety di erent sidechains di erent purposes thrive requiring changes mainchain cross chain transfer protocol cctp protocol de nes communication mainchain sidechain s basically 2 way peg protocol allows sending coins forth high level de nes basic operations forward transfer backward transfer forward transfer sends coins mainchain sidechain backward transfer correspondingly moves coins sidechain mainchain operations cornerstone overall sidechain construction backward transfer particular importance want oblige mainchain track sidechains directly verify validity withdrawals coming focus developing sidechains directed constructing secure reliable backward transfers approach zendoo consider forward transfer special transaction mainchain destroys coins provides",
+    "metadata": {
+      "chunk_id": "8f8bf36177db2e9db22b48ef6a64fb10",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 21] withdrawals coming focus developing sidechains directed constructing secure reliable backward transfers approach zendoo consider forward transfer special transaction mainchain destroys coins provides sidechain speci c metadata allowing user receive 8 coins sidechain implementation forward transfers straightforward require mainchain know sidechain state validation complex procedure required backward transfers initiated sidechain special transactions batched withdrawal certi cate propagated mainchain processing want mc follow sc state impose enormous computational storage burden mc undermine point having sidechains question arises implement validation backward transfers e cient secure way previous paper 12 problem addressed introducing system special type decentralized actors certi ers registering mc responsible signing withdrawal certi cates safety approach shown requires certain assumptions honest majority certi ers scenarios case zendoo avoid direct reliance certi ers special type",
+    "metadata": {
+      "chunk_id": "cd508f22c2b2df88863d6b4446076b01",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 22] mc responsible signing withdrawal certi cates safety approach shown requires certain assumptions honest majority certi ers scenarios case zendoo avoid direct reliance certi ers special type actors assigned validate withdrawal certi cates instead going leverage snarks 6 7 19 provide means mainchain e ectively validate withdrawals sidechain consensus protocol consider scp generalized notion encompasse s details particular sidechain construction consensus algorithm accounting system types supported transactions incentives mechanism protocol withdrawa l certi cate generation etc importantly sidechain de nes snark1 validate withdrawal certi cates provides exibility de ne rules backward transfers instance sidechain adopt chain trust model 13 certi ers model 12 completely decoupled mainchain consensus protocol invoke uni ed veri er validate proof scp designed di erent ways propose speci c construction decentralized veri able sidechain based ouroboros protocol 17 construction latus short",
+    "metadata": {
+      "chunk_id": "942570146870dd155e0e5f8a8077b861",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 24] following section provides details communication protocol mainchain sidechains primarily represented cross chain transfer protocol cctp protocol integrated mainchain interfaces provided new sidechain created 1speaking formally refer arithmetic constraint system arithmetic circuit compiled sidechain de nes logic snark note interface veri er de ned mainchain internal logic snark di erent di erent sidechains generated proofs veri ed standardized way 9 4 1 cross chain transfer protocol cross chain transfer protocol cornerstone sidechain design connects mainchain sidechains spawned main function allow sending coins sidechains receiving secure reliable way section provides high level speci cation forward backward transfers integrated mainchain 4 1 1 forward transfers design forward transfers straightforward similar existing proposals sidechains 5 25 18 16 13 original proposal 12 mainchain implemented special type operation forward transfer destroys coins provides metadata withdrawing coins",
+    "metadata": {
+      "chunk_id": "97419023d5644f87577d4fdb1a0a9709",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 25] similar existing proposals sidechains 5 25 18 16 13 original proposal 12 mainchain implemented special type operation forward transfer destroys coins provides metadata withdrawing coins sidechain responsibility sidechain sync forward transfers mc issue corresponding coins de nition 4 1 forward transfer ft forward transfer operation moves coins original blockchain mainchain destination sidechain b represented tuple form def ft ledgerid receivermetadata ledgerid unique identi er previously created active sidechain coins transferred number coins transfer receivermetadata metadata receiving sidechain b e g receiver s address structure xed mainchain consist di erent variables prede ned types depending sidechain s construction semantic meaning known mainchain approaches integrate forward transfers mainchain dependin g details instance forward transfer separate transaction type destroys coins mainchain case utxo based blockchain system e g bitcoi n horizen consider ft special unspendable",
+    "metadata": {
+      "chunk_id": "6841c4d8e7cc46168dbdf1c9b578ab15",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 26] mainchain dependin g details instance forward transfer separate transaction type destroys coins mainchain case utxo based blockchain system e g bitcoi n horizen consider ft special unspendable transaction output regular multi input multi output transaction 29 4 speci c facilitate reading assume mainchain utxo based accounting model2 regular transaction forward transfers following structure 2it line implementation sidechains going deployed horizen mainchain 10 type transaction f inputs f input addr 0x013a 5 signature 0x034b input addr 0x0930 3 signature 0x1aa1 g outputs f output addr 0x023b 1 output addr 0x0732 2 forwardtransfer ledgerid 0x300c receiverinfo 0x139d 2 forwardtransfer ledgerid 0x300c receiverinfo 0x893d 3 g given ft non spendable output basically destroys coins mainchain transferred coins veri ed mainchain overall transaction veri cation 4 1 2 backward transfers backward transfer protocol allows coins sidechain mainchain 12 13 relies idea batched transfers means requested",
+    "metadata": {
+      "chunk_id": "925da05e94c46f42a80c96c35d913746",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 27] coins veri ed mainchain overall transaction veri cation 4 1 2 backward transfers backward transfer protocol allows coins sidechain mainchain 12 13 relies idea batched transfers means requested backward transfers submitted sidechain certain period called withdrawal epoch collected special withdrawal certi cate pushed mainchain processing withdrawal certi cates container backward transfers kind sidechain heartbeat periodically submitted mainchain backward transfers3 withdrawal epoch de ned range mc blocks withdrawal epochs di erent sidechains aligned di erent length epoch len parameter set sidechain creation entire system runs asynchronously let de ne mc block b belongs speci c epoch bjep id ep id epoch number j 0 epoch len serial number block epoch fig 3 th withdrawal epochbi0bi1bi2bilen 1bi 10bi 11bi 12bi 1len 1 1 th withdrawal epochwithdrawal certificate epoch iwithdrawal certificate epoch 1 figure 3 withdrawal epochs mainchain note withdrawal epochs di erent sidechains overlap",
+    "metadata": {
+      "chunk_id": "44a102a2e0fcbb0cb93726057012ffdc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 29] rst submit len blocks epoch 14 note mainchain consensus protocol impose rules exactly withdrawal certi cate generated submitted sidechain de ne corresponding procedures assume submitted means special transaction mainchain mentioned withdrawal certi cate contains backward transfers consider requests ful lled included withdrawal certi cate propagated mainchain restrictions backward transfers submitted collected e g separate transaction sc de nition 4 3 backward transfer bt backward transfer operation moves coins sidechain b original mainchain represented tuple form def bt receiveraddr receiveraddr address mainchain transferred coins credited number transferred coins di erent approaches integrate backward transfers mainchain followin g assumption utxo based mainchain bt represented special output transaction withdrawal certi cate de nition 4 4 withdrawal certi cate wcert withdrawal certi cate standardize d posting allows sidechains communicate mainchain main functions 1 delivering",
+    "metadata": {
+      "chunk_id": "7157e9e445a77f90939e3d379914689c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 30] output transaction withdrawal certi cate de nition 4 4 withdrawal certi cate wcert withdrawal certi cate standardize d posting allows sidechains communicate mainchain main functions 1 delivering backward transfers mc 2 serving heartbeat message enabling mc identify sc status represented tuple form def w cert ledgerid epochid quality btlist proofdata proof ledgerid identi er sidechain wcert created epochid number withdrawal epoch quality integer value indicates quality withdrawal certi cate explained later bt list list backward transfers included withdrawal certi cate proofdata input data snark veri er proof snark proof 4even requirement strong necessary provide certain properties discuss later explore possibility provide exibility withdrawal certi cate submission 12 discuss detail substance certi cate parameters important parts sidechain design brie y outlined basis proposed construction special entities authorize withdrawal certi cates e g like certi ers 12 slot leaders 13 instead",
+    "metadata": {
+      "chunk_id": "4f842bf17bbf86267c77be3171149edb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 32] equal qualities validity quality parameter enforced snark proof withdrawal certi cate veri cation veri cation newly submitted wcert mainchai n performed following basic rules wcert veri cation 1 ledgerid identi er currently active sidechain 2 epochid valid withdrawal epoch number ledgerid remember certi cate submitted rst submit len blocks epoch following certi cate created 3 quality higher quality previously submitted withdrawal certi cate epoch rst wcert epoch quality accepted 4 proof valid snark proof veri cation key vkw cert set sidechain registration snark veri cation essential veri cation procedure encapsulates veri cation backward transfers parameters provided certi cate basic snark veri er interface following true false v erify vkw cert public input proof def public input wcert sysdata mh proofdata 5even happen normal operation case instance sidechain blockchain system experiences continuous fork malicious activity 13 vkw cert snark veri cation key registered sidechain",
+    "metadata": {
+      "chunk_id": "9562f5517b41d15f2b36173278681624",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 33] sysdata mh proofdata 5even happen normal operation case instance sidechain blockchain system experiences continuous fork malicious activity 13 vkw cert snark veri cation key registered sidechain creation wcert sysdata public input uni ed sidechains enforced mainchain explained proofdata input data de ned sidechain passed withdrawal certi cate basically list variables prede ned types semantics known mainchain mh proofdata root hash merkle tree leaves variables proofdata essential snark list public inputs short combine tree pass root hash only6 proof snark proof submitted certi cate wcert sysdata parameter plays important role security standpoint idea allow mainchain verify proof public input parameters de ned protocol instance btlist quality parameters certi cate veri ed mainchain example mainchain block hashes epoch boundaries veri ed guarantee proof refers current epoch active chain wcert sysdata represented tuple following form def wcert sysdata quality mh bt list h bi 1 b quality",
+    "metadata": {
+      "chunk_id": "7f5bf1d8a204a82ce5651060397d99dd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 34] mainchain block hashes epoch boundaries veri ed guarantee proof refers current epoch active chain wcert sysdata represented tuple following form def wcert sysdata quality mh bt list h bi 1 b quality quality parameter withdrawal certi cate mh bt list root hash merkle tree leaves backward transfers btlist provided certi cate h bi 1 block hash mainchain block withdrawal epoch 1 given certi cate epoch h bi block hash mainchain block withdrawal epoch generalized snark veri er provides exibility implement di erent snarks di erent sidechain models instance want implement sidechain centralized cross chain transfer protocol withdrawal certi cates veri ed signature authorized entity conversely completely decentralized veri able sidechain constructed discussed 5 latus sidechain succinct proofs constant time veri cation overall sidechain design particularly appealing impose signi cant burden mainchain 4 1 2 1 mainchain managed withdrawals cases user want request backward transfer directly",
+    "metadata": {
+      "chunk_id": "6af38eb8916312ee92fea1e98db2b965",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 35] constant time veri cation overall sidechain design particularly appealing impose signi cant burden mainchain 4 1 2 1 mainchain managed withdrawals cases user want request backward transfer directly mainchain creating bt sc instance allow users withdraw funds case misbehaving e g maliciously controlled sidechain censors submission backward transfers ceased sidechain introduced additional mechanisms allow users withdrawals directly mainchain 1 backward transfer request btr 2 ceased sidechain withdrawal csw 6a payload proofdata provided proof generation witness 14 consider special type transaction similar withdrawal certi cates operations secured snark proofs btr withdraw funds active sidechain reason user create backward transfer inside sidechain idea btrs submitted mainchain synchronized sidechain processed verify legitimacy include corresponding backward transfers wcert standard ow processing enforced withdrawal certi cate snark force maliciously controlled sidechain process user s",
+    "metadata": {
+      "chunk_id": "52e53fe34f221287ea7cfee59020cd4e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 36] sidechain processed verify legitimacy include corresponding backward transfers wcert standard ow processing enforced withdrawal certi cate snark force maliciously controlled sidechain process user s withdrawals7 importantly btr lead direct coin transfer mainchain csw withdraw funds ceased sidechains withdrawal certi cates allowed ceased sidechains way retrieve funds valid csw makes direct payment submitter de nition 4 5 backward transfer request btr btr generic request backward transfer submitted mainchain represented following tuple def bt r ledgerid receiver nullifier proofdata proof ledgerid identi er sidechain btr created receiver address receiver mainchain number coins transferred nullifier unique identi er claimed coins proofdata input data snark veri er proof snark proof case withdrawal certi cate snark btr de ned sidechain represented veri cation key vkbt r set sidechain registration syntax proofdata proof withdrawal certi cate basic interface snark veri er following true",
+    "metadata": {
+      "chunk_id": "952ba35d02cb3f4b6cdfb726795005de",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 37] certi cate snark btr de ned sidechain represented veri cation key vkbt r set sidechain registration syntax proofdata proof withdrawal certi cate basic interface snark veri er following true false v erify vkbt r public input proof def public input btr sysdata mh proofdata vkbt r snark veri cation key btr registered sidechain creation btr sysdata proofdata mh proof meaning similar parameters withdrawal certi cate btr sysdata de ned def btr sysdata h bw nullifier receiver h bw block hash mainchain block latest withdrawal certi cate sidechain submitted de nition 4 6 ceased sidechain withdrawal csw csw operation allows movement coins ceased sidechain b original mainchain represented tuple following form def csw ledgerid receiver nullifier proofdata proof parameters meaning case btr 7note sidechain construction de ne exactly btrs processed example latus sidechain construction 5 latus sidechain introduces method enforcing btrs processing 15 seen btr csw structure conceptually di erent csw",
+    "metadata": {
+      "chunk_id": "4f6d7a72d1bc863031a3f4520a54a492",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 38] construction de ne exactly btrs processed example latus sidechain construction 5 latus sidechain introduces method enforcing btrs processing 15 seen btr csw structure conceptually di erent csw performs direct payment btr interface snark veri er csw completely btr additionally discuss role nulli ers btr csw mainchain nulli er abstract identi er claimed coins mainchain allow submission transactions nulli er main reason having nulli er prevent repeated submission btrs csws try withdraw coins essentially double spend mainchain maintain sidechain state ceased sidechains requires abstract double spend prevention mechanism exactly provided nulli ers note btr csw complementary operations allow exibility subtle use cases case malfunctioning sidechain sidechain de ne instance omit de ning operations e g setting vkbt r vkcsw null completely relying normal withdrawal procedure withdrawal certi cates 4 1 2 2 withdrawal safeguard safeguard special feature introduced prevent unlimited withdrawals",
+    "metadata": {
+      "chunk_id": "7add722dceebc9f00900d0f9ddd54e48",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 39] e g setting vkbt r vkcsw null completely relying normal withdrawal procedure withdrawal certi cates 4 1 2 2 withdrawal safeguard safeguard special feature introduced prevent unlimited withdrawals sidechain mainchain case malicious sidechain essence safeguard function maintain balance created sidechain prevent withdrawing larger previously transferred sidechain similar idea introduced 13 12 implementation safeguard feature simple created sidechain special balance variable maintained mainchain forward transfer increases balance transferred number coins withdrawal certi cate ceased sidechain withdrawal reduces balance withdrawn wcert csw withdraw coins stored sidechain balance feature prevents possible implications sidechain corruption guarantees transferred number coins withdrawn mainchain case total corruption maliciously constructed sidechain adversary mint coins thin air 4 1 3 sidechain transactions commitment far de ned 4 types actions separate transactions outputs regular",
+    "metadata": {
+      "chunk_id": "1eb866914de5ddef269344c2fb4f5660",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 40] case total corruption maliciously constructed sidechain adversary mint coins thin air 4 1 3 sidechain transactions commitment far de ned 4 types actions separate transactions outputs regular transaction determine cross chain communication mainchain point view 1 forward transfer ft 2 withdrawal certi cate wcert 3 backward transfer request btr 4 ceased sidechain withdrawal csw facilitate e cient implementation synchronization mainchain sidechains modify structure mainchain block header include additional value commits sidechain related actions mc block csw sc ceased value root hash merkle tree contains 16 transactions outputs related sidechain fig 4 sidechain transactions commitment sctxscommitment h1h21h22h23h24sc1hash h21 h h31 h32 sc1 h31h32txshashwcerthashh41h42fthashbtrhashh51h58ft1sc1btr4sc1sc2hashsc3hashsc4hashwcertsc1 sctxscommitment figure 4 sidechain transactions commitment tree root hash h1 commits sidechain related transactions sidechains included mc block scxhash x",
+    "metadata": {
+      "chunk_id": "afaa1083a9450e03db80cb0238a60b69",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 41] sctxscommitment figure 4 sidechain transactions commitment tree root hash h1 commits sidechain related transactions sidechains included mc block scxhash x sidechain identi er ordered id commit transactions related sidechain x w certhash commits wcert sidechain x present wcert allowed sidechain t xshash commits fts btrs having sct xscommitment mc block header allows sc nodes synchronize verify sc related transactions need transmit entire mc block allows construction snark proving sc related transactions speci c mc block processed correctly 4 2 bootstrapping sidechains assume mainchain implements special transaction allows create sidechain transaction submitted registers sc mainchain sets unique identi er system parameters sidechain created schedule withdrawal epochs de ned deterministically forward backward transfers processed mainchain following set sc parameters set creation 17 sidechain con guration ledgerid unique identi er sidechain start block block number mainchain rst",
+    "metadata": {
+      "chunk_id": "b8377039290729b5eedfd6e18a31ca44",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 43] suitable particular sidechain triplet cer vk btr vk csw vk especially important de nes mainchain veri es backward communication sidechain keys de ne snarks corresponding operations eventually enabling di erent designs sidechains 5 latus sidechain previous section described general sidechain design de ning cross chain transfer protocol provides communication interface mainchain section focus speci c sidechain construction example decentralized veri able sidechain built given cctp general idea utilize recursive composition snarks construct succinct proof sidechain state progression period withdrawal epoch snark withdrawal certi cate constructed proves correct sidechain state transition epoch validates backward transfers allows mainchain e ciently verify sidechain having rely intermediary certi ers 12 oblivious sidechain construction interactions section provide details proposed latus sidechain implements decentralize d permissionless blockchain bsc proof stake based consensus protocol",
+    "metadata": {
+      "chunk_id": "0426cca0439434e8572e5cb07fa663c5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 44] ers 12 oblivious sidechain construction interactions section provide details proposed latus sidechain implements decentralize d permissionless blockchain bsc proof stake based consensus protocol consider bsc simple ledger payment transactions assume bsc possess native asset instead uses coin asset transferred mainchain means cctp additionally assume mainchain classical proof work based blockchain system nakamoto consensus 20 e g horizen 26 5 1 consensus protocol use similar consensus protocol previous proposal 12 minor adjustments based modi ed version ouroboros proof stake consensus protocol 17 18 ouroboros time divided epochs prede ned number slots slot assigned slot leader authorized generate block slot slot leaders particular epoch chosen randomly epoch begins set sidechain stakeholders fig 5 protocol operates synchronous environment slot takes speci c time e g 20 seconds epoch iepoch 1 submitted block missed block figure 5 general scheme epoch note assigned slot leader slot",
+    "metadata": {
+      "chunk_id": "58884aa359c07dc7dc1f1d5d0eae9459",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 46] xed stake distributio n sdepi random value rand stake distribution sdepi xed epoch epi begins randomness rand revealed stake distribution xed construction additionally introduce binding mainchain implies sidechain blocks contain references mainchain blocks history preserved sidechain chain resolution algorithm altered enforce sidechain follows longest mainchain branch mainchain block reference consider mainchain block header transactions related referencing sidechain sidechain block forgers obliged mainchain references consistent ordered included sc blocks sidechain block sbj contain reference mainchain block bi 1 block bi valid mainchain block 2 references previous mainchain blocks bk k 2f 1 1 included sidechain blocks considering current sidechain block contain reference genesis reference fig 6 mandatory block forgers include mainchain references assume honest block forgers support cross chain transfer protocol chains possible construct incentive mechanism block forgers include",
+    "metadata": {
+      "chunk_id": "7918b172a75a753388fb45d025f72b0d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 47] fig 6 mandatory block forgers include mainchain references assume honest block forgers support cross chain transfer protocol chains possible construct incentive mechanism block forgers include references instance users initiate forward backward transfers pay fee 19 mcsc figure 6 example sidechain binding mainchain transaction incentive mechanism scope current paper provide example sidechain consensus protocol binding mainchain provides important properties sidechain construction 1 deterministic synchronization mc sc sidechain block sbi refers mainchain block bj explicitly acknowledges transactions included block bj means bj contains transactions related sidechain transactions mean forward transfers backward transfer requests transactions immediately included sidechain fig 7 mc block header mbhi mc tx1mc scmc tx2mcmc block ireferences mc blockssynchronized txs mcregular sc transactionssc block headersc tx1scsc tx2scsc block jmbhimc tx1mc sc figure 7 example transaction synchronization",
+    "metadata": {
+      "chunk_id": "cac86a657e30f14aa7ec039fd21b5a11",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 48] mbhi mc tx1mc scmc tx2mcmc block ireferences mc blockssynchronized txs mcregular sc transactionssc block headersc tx1scsc tx2scsc block jmbhimc tx1mc sc figure 7 example transaction synchronization mainchain sidechain mc block bi contains sc related transaction mc tx1 mc sc included sc block sbj refers bi 2 mainchain forks resolution known nakamoto consensus provide nality chain blocks 24 means non zero probability sub chain mc blocks reverted substituted sub chain cumulative work behaviour normally handled mainchain disastrous sidechain mc sc transactions con rmed sidechain reverted mainchain binding eliminates situations case fork mc sc blocks refer forked blocks mc reverted security standard procedure proving blockchain consensus protocol security require s demonstrating ability protocol satisfy fundamental properties distributed ledger liveness persistence 11 liveness ensures transactions broadcaste d honest parties eventually included ledger persistence ensures transaction con",
+    "metadata": {
+      "chunk_id": "fa3df447c2c87e49090a8421289d3dce",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 49] satisfy fundamental properties distributed ledger liveness persistence 11 liveness ensures transactions broadcaste d honest parties eventually included ledger persistence ensures transaction con rmed honest node con rmed honest 20 nodes eventually nal immutable properties usually proven certain assumptions honest majority protocol participants etc refer interested readers original ouroboros paper 17 exhaustive list assumptions properties analysis proposed consensus protocol incorporates binding mainchain implies additional assumption honest hashing power majority mainchain suppose assumptions proposed protocol derives security guarantees provided original ouroboros nakamoto consensus protocols want emphasize di erent types sidechains adopt di erent consensus protocols better suit speci c use cases e g fast coin transferring support sidechain consensus protocol including described section focus research needs analysis 5 1 1 withdrawal epochs described section 4 1 2 backward transfers",
+    "metadata": {
+      "chunk_id": "410eba3d0c7ccd86c80d28050804708a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 50] use cases e g fast coin transferring support sidechain consensus protocol including described section focus research needs analysis 5 1 1 withdrawal epochs described section 4 1 2 backward transfers cross chain transfer protocol introduces notion withdrawal epoch8 de ned xed length range mc blocks length set sc creation concept withdrawal epochs essential commanding backward transfers following design introduce withdrawal epochs sidechain coincide mainchain withdrawal epochs de ned range sc blocks rst blocks range determined references rst mc blocks corresponding withdrawal epoch mc fig 8 mcscwithdrawal epoch nwithdrawal epoch n figure 8 example withdrawal epoch sidechain withdrawal epoch sc variable length depends corresponding mc blocks referenced binding chains allows deterministicall y de ne boundaries sidechain formally withdrawal epoch wemc size len mc de ned sequence blocks wemc bi 0 bi 1 blen 1 corresponding withdrawal epoch sc ii determined wesc sbi 0 sbi 1 sbik sb0 immediate",
+    "metadata": {
+      "chunk_id": "ef3c7b565ae494fa1312b3f869d7ab5c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 51] de ne boundaries sidechain formally withdrawal epoch wemc size len mc de ned sequence blocks wemc bi 0 bi 1 blen 1 corresponding withdrawal epoch sc ii determined wesc sbi 0 sbi 1 sbik sb0 immediate descendant block sbn refers mc block blen 1 ii 1 1 withdrawal epoch wemc 1 sbk block refers blen 1 ii 8note withdrawal epochs independent epochs ouroboros consensus protocol 21 note simplify implementation needed restrict sc blocks refer mc blocks boundaries withdrawal epoch e sc block refers blen 1 refer mc block b0 ii 1 important restate notion withdrawal epoch independent epochs ouroboros consensus protocol 5 2 accounting model system state latus blockchain adopts utxo based accounting model 21 state represente d set unspent outputs combined xed size merkle tree fig 9 tree merkle state tree mst lowercase mstt stands denote root hash mstt tree moment t depth dmst mst tree xed system parameter constrains total number utxos exist system 2dmst fig 9 consider leaf mst utxo slot occupied",
+    "metadata": {
+      "chunk_id": "d523dcd806c8019f1995a9f55c87437f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 52] tree mst lowercase mstt stands denote root hash mstt tree moment t depth dmst mst tree xed system parameter constrains total number utxos exist system 2dmst fig 9 consider leaf mst utxo slot occupied given moment introduce deterministic function mst p osition utxoi returns position unspent output utxoi included tree note utxo position depend current state mst msth31h32h33h34h41h42utxo1h43h44h45h46h47h48h21h22 h41 h utxo1 utxo2utxo3h48 h null figure 9 example merkle state tree dmst 3 leaf tree unspent output null value tree contains 3 occupied 5 slots function mst p osition returns position given utxo tree e g mst p osition utxo2 4 unspent transaction output utxo de ned tuple addr nonce addr address utxo owner possesses corresponding private key allows spent number coins secured utxo nonce unique identi er utxo 5 2 1 system state provided mst structure core sidechain state de ne overall sc system state moment t tuple def statet mstt backward transferst backward transfers list backward",
+    "metadata": {
+      "chunk_id": "c5e6912fa764709d68f753af96bfe922",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 53] unique identi er utxo 5 2 1 system state provided mst structure core sidechain state de ne overall sc system state moment t tuple def statet mstt backward transferst backward transfers list backward transfers initiated current withdrawal epoch backward transfers transient reset new withdrawal epoch 22 5 3 transactional model 4 types transactions de ned latus sidechain realize basic payment functionality cross chain transfer protocol simplify model consider logical transactions stress real world implementation optimized single transaction blockchain combine logical transactions di erent types transactions following 1 payment ptx transfers coins sidechain 2 backward transfer bttx initiates transfer coins sc mc 3 forward transfers fttx receives coins transferred mainchain 4 backward transfer requests btrtx initiates coin transfer sc mc contrast bttx btrtx contains btrs initially submitted mainchain synchronized sc ptx bttx inherently sc de ned transactions submitted processe d sidechain",
+    "metadata": {
+      "chunk_id": "fbc56a7b8c39e68c6fd2161ecb5c3dcb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 54] requests btrtx initiates coin transfer sc mc contrast bttx btrtx contains btrs initially submitted mainchain synchronized sc ptx bttx inherently sc de ned transactions submitted processe d sidechain fttx btrtx mc de ned transactions encapsulate fts btrs initially submitted mc describe type detail following sections 5 3 1 payment transaction de ne regular payment multi input multi output transaction 29 typepaymenttxfinputs list utxo signatures list signature outputs list utxo g 1 inputs unspent outputs previous transactions spending authorize d signatures 2 total coin s value inputs equal greater total coin s value outputs state transition function update payment transaction de ned following way statei 1 update txpay statei statei 1 backward transfers unchanged statei 1 mst derived statei mst 1 removing utxos inputs txpay substituting null produce mst 2 sequentially adding mst utxos outputs txpay according mst p osition utxoj 23 5 3 2 forward transfers transaction forward transfers",
+    "metadata": {
+      "chunk_id": "764fdb5ae8086db12e13642a88c739d9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 55] mst 1 removing utxos inputs txpay substituting null produce mst 2 sequentially adding mst utxos outputs txpay according mst p osition utxoj 23 5 3 2 forward transfers transaction forward transfers allow send coins mainchain sidechain fts rst submitted mc processed destroying coins means deterministic synchronization included processed sidechain recall 4 1 1 forward transfers basic structure forward transfer mainchain def ft ledgerid receivermetadata receivermetadata de ned sidechain construction latus receiver address payback address mc needed case transfer failure def receiversmetadata receiveraddr paybackaddr single mc block contain forward transfers related di erent sidechains sidechain synchronize fts present referenced mc block including special f orwardt ransfers transaction fttx sc block fttx speci es forward transfers referenced mc block related speci c sidechain sidechain perspective consider fttx coinbase transaction creates new coins 28 authorized mainchain assume",
+    "metadata": {
+      "chunk_id": "0054dbb48c31e000cae2b733dc1fd160",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 56] fttx sc block fttx speci es forward transfers referenced mc block related speci c sidechain sidechain perspective consider fttx coinbase transaction creates new coins 28 authorized mainchain assume particular forward transfer fail coins received sidechain case coins sent mainchain creating corresponding backward transfer automatically fttx execution sidechain reasons ft failure di erent instance ft s receivermetadata malformed recall mc validate semantics ft s receivermetadata sidechain speci c failures occur e g happen mst p osition outputnew maps newly created output occupied slot msti causing collision basic structure forwardtransfers transaction following type forwardtransferstx mcid blockid ft list ft foutputs list utxo rejectedtransfers list backwardtransfer mcid identi er mc block forward transfers synchronized ft list forward transfers mc block mcid related sidechain fttx occurs outputs outputs created transferred coins valid forward transfer spawns corresponding output coins",
+    "metadata": {
+      "chunk_id": "74567624c7d16c9ddc2111174ed639a3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 57] forward transfers synchronized ft list forward transfers mc block mcid related sidechain fttx occurs outputs outputs created transferred coins valid forward transfer spawns corresponding output coins rejectedt ransfers list backward transfers failed forward transfers failed forward transfer spawns corresponding backward transfer coins state transition function update fttx de ned following way statei 1 update txft statei 24 1 statei 1 mst derived statei mst sequentially adding utxos outputs txft according mst p osition utxoj 2 statei 1 backward transfers derived statei backward transfers appending rejectedt ransfers txft note failed forward transfers recovered backward transfer mechanism withdrawal certi cate end epoch recall mc knows sc state know ft failed use standard mechanism reclaim coins mc 5 3 3 backward transfer transaction backward transfer transaction bttx allows create request backward transfer sidechain included withdrawal certi cate passed processed mainchain type",
+    "metadata": {
+      "chunk_id": "99a096de58ac93073e64b4ec18d80a7e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 58] coins mc 5 3 3 backward transfer transaction backward transfer transaction bttx allows create request backward transfer sidechain included withdrawal certi cate passed processed mainchain type backwardtransfertx finputs list utxo signatures list signature backwardtransfers list backwardtransfer 1 inputs unspent outputs previous transactions spending authorize d signatures 2 backwardtransfers data receivers coins mainchain recall 4 1 2 backward transfers basic structure backward transfer def bt receiveraddr 3 total coin value inputs equal greater total coin value backwardtransfers state transition function update backward transfer transaction de ned statei 1 update txbt statei 1 statei 1 mst derived statei mst removing utxos inputs txbt 2 statei 1 backward transfers derived statei backward transfers appending backwardt ransfers txbt essentially consider backwardt ransfers txbt specialized outputs unspendable sidechain reclaim coins mainchain transferred means withdrawal certi cate",
+    "metadata": {
+      "chunk_id": "d8207a91a6c9406856a0f4a305b24884",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 59] transfers appending backwardt ransfers txbt essentially consider backwardt ransfers txbt specialized outputs unspendable sidechain reclaim coins mainchain transferred means withdrawal certi cate respect bttx transaction special case regular payment transaction outputs backward transfers details entire backward transfer ow found 5 5 3 backward transfers 25 5 3 4 backward transfer requests transaction backward transfer request btr submitted mc similar bttx sense allows create request result backward transfer withdrawal certi cate request legitimate e g claimed coins present moment btr inclusion sc block di erence bttx btr submitted mainchain situations bttx reason recall 4 1 2 1 mainchain managed withdrawals basic structure btr mainchain def bt r ledgerid receiver proofdata proof proofdata snark proof de ned sidechain construction latus proofdata contains unspent output consumed sc provide coins transferring proofdata futxog spending right utxo enforced proof validated submission mc",
+    "metadata": {
+      "chunk_id": "942f65472ef61588dbc8667ab6b9ff47",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 60] snark proof de ned sidechain construction latus proofdata contains unspent output consumed sc provide coins transferring proofdata futxog spending right utxo enforced proof validated submission mc similar forward transfers single mc block contain btrs sidechain synchronizes btrs including sc block special backwardtransferrequests transaction btrtx contains btrs relevant sidechain referenced mc block sidechain perspective consider btrtx aggregated transaction btr represents separate backward transfer btrs btrtx invalid synced sidechain e g malicious user try spend utxo directly sidechain btr synced double spend problem btrs rejected sidechain rejection means spawn corresponding backward transfers ect state basic btrtx structure sc following typebackwardtransferrequeststx mcid blockid btr list btr finputs list utxo backwardtransfers list backwardtransfer g mcid identi er mc block btrs synchronized btr list backward transfer requests mc block mcid related sidechain inputs combined list",
+    "metadata": {
+      "chunk_id": "0fd4cc8b79d1b948ef679b0ffc2e664b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 61] list btr finputs list utxo backwardtransfers list backwardtransfer g mcid identi er mc block btrs synchronized btr list backward transfer requests mc block mcid related sidechain inputs combined list utxos derived btr proofdata valid btr backwardt ransfers list backward transfers valid btrs state transition function update btrtx transaction statei 1 update txbt r statei 1 statei 1 mst derived statei mst removing utxos inputs txbt r 2 statei 1 backward transfers derived statei backward transfers appending backwardt ransfers txbt r note correct processing btrs sidechain enforced withdrawal certi cate snark proof 26 5 4 state transition proof 5 3 transactional model de ned types transactions represent basic state transitions sidechain system given transactions applied sequentially order de ned blocks containing consider merged state transition sequence transactions blocks statei k update tx1 txk statei update txk update txk 1 update tx1 statei particular interested merging transitions",
+    "metadata": {
+      "chunk_id": "a20c3fb235b05f21bc8017d7b551ec38",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 62] ned blocks containing consider merged state transition sequence transactions blocks statei k update tx1 txk statei update txk update txk 1 update tx1 statei particular interested merging transitions withdrawal epoch proving level merged transition correct accomplished recursive snarks composition state transitions de ned def 2 5 main idea construct single snark proof transition withdrawal epoch attached withdrawal certi cate proving mainchain validit y happened sidechain including certi cate backward transfers actually revealing details state snapshots form simple hashes transition deeply details snarks architecture sophisticated case requires separate writing properly explained instead going provide basic idea constructing proof going let denote si h statei hash value represents statei note e cient hashing procedure implemented snark arithmetic constraint system instance consider h root hash merkle tree contains data statei let assume basic state transition represented txpay txft",
+    "metadata": {
+      "chunk_id": "9c4cbba4000c41f166b994534e117d09",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 65] 10 recursive composition state transition proofs sc block level proofs basic transitions represented transactions included block recursively merged single proof figure 11 demonstrates recursive construction state transition proof entire withdrawal epoch provided proofs state transitions blocks previous step merged generate single proof epoch construct nal proof withdrawal certi cate nutshell withdrawal certi cate w certi epoch commits new state statei produced applying blocks belonging epoch proves correct transition len statei 1 committed previous withdrawal certi cate involves proving len mc blocks belonging withdrawal epoch referenced mc transactions related sidechain processed forward backward transfers basic transitions proven sbi0sbi1sbi2sbileninitial statei 1lenbase proof statei 1len statei0 base proof statei0 statei1 base proof statei1 statei2 base proof stateilen 1 proof statei 1len statei1 merge proof statei2 stateilen merge proof statei 1len stateilen withdrawal epoch",
+    "metadata": {
+      "chunk_id": "c76e7910236de247dc415671f46f385c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 66] 1len statei0 base proof statei0 statei1 base proof statei1 statei2 base proof stateilen 1 proof statei 1len statei1 merge proof statei2 stateilen merge proof statei 1len stateilen withdrawal epoch figure 11 recursive composition state transition proofs withdrawal epoch state transitions sc blocks considered base transitions recursively constructed basic transitions fig 10 stress description greatly simpli ed basic idea recursive snarks composition state transitions 28 5 4 1 performance incentives generating snark proof basic transition merging requires signi cant computation task solely levied forgers wcert issuers currently investigating di erent approaches possible solutions introduce special dispatching scheme assigns generatio n proofs randomly interested parties tasks parallel submit generated proofs blockchain incentive scheme provides reward valid submission consider separate topic research elaborate paper 5 5 cross chain transfer protocol previous sections described consensus",
+    "metadata": {
+      "chunk_id": "d9479d3d0fb947ff01ca4a214b81792e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 67] generated proofs blockchain incentive scheme provides reward valid submission consider separate topic research elaborate paper 5 5 cross chain transfer protocol previous sections described consensus protocol accounting model transactiona l model proposed sidechain construction section focus structure cross chain transfer protocol sidechain based components 5 5 1 mainchain block reference 5 1 consensus protocol brie y described synchronization procedure mainchain sidechain relies mc block referencing describe reference structure detailed way recall mc block header contains sctxscommitment 4 1 3 sidechain transaction s commitment eld commits sc related transactions outputs block type mcblockheader fprevblock blockid height int sctxscommitment hash sctxscommitment root hash merkle tree subtrees merkle tree transactions related sidechain referenced block fig 12 structure mainchain block reference following type mcblockreference fheader mcblockheader mproof option merkleproof proofofnodata",
+    "metadata": {
+      "chunk_id": "7046b336555cb01fb66341b72e2a1b08",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 68] merkle tree transactions related sidechain referenced block fig 12 structure mainchain block reference following type mcblockreference fheader mcblockheader mproof option merkleproof proofofnodata option merkleproof forwardtransfers option fttx btrequests option btrtx wcert option wcert 29 h1h31h32h33h34sc1hashh41h42txshashwcerthashh51h52fthashbtrhashhft1sc1sc2hashsc3hashsc4hash sctxscommitmenthbtr4sc1 h21h22 figure 12 example sidechain transactions commitment tree intermediate nodes sc1hash root hash subtree commits transactions related sidechain sc1 header header mc block referenced mproof optional eld case mc block includes transaction related sc mproof contain merkle proof def 2 2 intermediate node sidechain transactions commitment tree root subtree transactions related sidechain example fig 12 subtree root sidechain sc1 h31 corresponding merkle proof tuple nodes fh32 h22g case mc block transactions related sc mproof null proofofnodata optional eld case mc block transactions",
+    "metadata": {
+      "chunk_id": "48910a32f892d3807f4027c6091b9019",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 69] example fig 12 subtree root sidechain sc1 h31 corresponding merkle proof tuple nodes fh32 h22g case mc block transactions related sc mproof null proofofnodata optional eld case mc block transactions related sc proofofnodata contains merkle proof s necessary prove ledgerid sct xscommitment tree forwardt ransfers optional eld forwardtransfers transaction 5 3 2 forward transfers transaction mc block contains forward transfer sidechain null btrequests optional eld backwardtransferrequests transaction 5 3 4 backward transfer requests transaction case mc block contains backward transfer request sidechain null wcert optional eld withdrawal certi cate case mc block contains withdrawal certi cate related sidechain null provided mproof forwardtransfers btrequests wcert elds sct xscommitment reconstructed veri ed sctxscommitment eld included mc block 30 header allows verify sc related transactions correctly synchronized mc block need download verify body construct snark proving mc block",
+    "metadata": {
+      "chunk_id": "ac37e6946c935006d51b4eb0abb4f043",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 70] reconstructed veri ed sctxscommitment eld included mc block 30 header allows verify sc related transactions correctly synchronized mc block need download verify body construct snark proving mc block reference correctly processed screlate d transactions applied essential constructing state transition proof withdrawal epoch 5 4 state transition proof 5 5 2 forward transfers 4 1 1 forward transfers 5 3 2 forward transfers transaction discussed details related forward transfer design mainchain sidechain sides combine general looks follows mc sc transfer represented pair transactions consider sending receiving sending mainchain means forward transfer de ned 4 1 1 forward transfers receiving sidechain means aggregated forwardtransfers transaction de ned 5 3 2 forward transfers transaction sending destroys coins mainchain receiving creates corresponding number coins sidechain forward transfers submitted mainchain available sidechain moment mc block containing referenced sidechain fig 13 mc",
+    "metadata": {
+      "chunk_id": "b12f852a20df7e1d3aa067ed0f9f697c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 71] destroys coins mainchain receiving creates corresponding number coins sidechain forward transfers submitted mainchain available sidechain moment mc block containing referenced sidechain fig 13 mc block reference 5 5 1 mainchain block reference forwardtransfers transaction fttx included sc block fts ftfttxmcscforward transfer ledgerid receivermetadata figure 13 forward transfers syncing mainchain sidechain consistency forward transfers included sidechain fttx veri ed recalculating fthash fig 12 checking sctxscommitment following procedure described 5 5 1 mainchain block reference 5 5 3 backward transfers general backward transfer transfer coins opposite direction sidechain mainchain operation sophisticated requires sub protocols provide su cient security reliability ways withdraw coins sidechain mainchain 1 regular withdrawal standard mechanism normal conditions implies usage backward transfer transaction 5 3 3 backward transfer transaction withdrawal certi cate transfer coins",
+    "metadata": {
+      "chunk_id": "d753c208d9766c17823d4ee6f75602cb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 72] sidechain mainchain 1 regular withdrawal standard mechanism normal conditions implies usage backward transfer transaction 5 3 3 backward transfer transaction withdrawal certi cate transfer coins mainchain 2 backward transfer request similar regular withdrawal di erence initially submitted mainchain 4 1 2 1 mainchain managed withdrawals synchronized sidechain means 5 3 4 backward transfer requests transaction coins transferred mainchain withdrawal certi cate 31 3 ceased sidechain withdrawal mechanism sidechain longer operating type withdrawal use withdrawal certi cates supposes direct handling mainchain rst types withdrawals regular btr use standard mechanism backward transfers withdrawal certi cate details related submission processing discussed 4 1 2 1 mainchain managed withdrawals 5 3 3 backward transfer transaction 5 3 4 backward transfer requests transaction basic principle summarized gure 14 btrbttxbtrtxmcscbtr bt wcert includes backward btrtx figure 14 withdrawing coins bt btr",
+    "metadata": {
+      "chunk_id": "1a40cb3e32f89e8b34a5196885162400",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 73] 3 backward transfer transaction 5 3 4 backward transfer requests transaction basic principle summarized gure 14 btrbttxbtrtxmcscbtr bt wcert includes backward btrtx figure 14 withdrawing coins bt btr transactions regular withdrawal special backwardtransfer transaction submitted sidechain user wants transfer coins transaction destroys coins sidechain end withdrawal epoch backward transfers collected withdrawal certi cate submitted mainchain processed corresponding number coins created mainchain backward transfer request btrs submitted mainchain synchronized sidechain means backwardtransferrequests transaction analogously forward transfers consistency btrs included sidechain veri ed recalculating btrhash fig 12 checking presence sctxscommitment tree following procedure described 5 5 1 mainchain block reference btr synchronized sidechain processed regular withdrawal withdrawal certi cate following sections discuss deeply structure generation withdrawa l certi cate btr separately discuss",
+    "metadata": {
+      "chunk_id": "1238eb9ceb8e8337eed48bf3a7118a0d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 74] block reference btr synchronized sidechain processed regular withdrawal withdrawal certi cate following sections discuss deeply structure generation withdrawa l certi cate btr separately discuss csw conceptually di erent rst withdrawal methods 5 5 3 1 withdrawal certi cate withdrawal certi cate pivotal component backward transfer ow recall basic structure withdrawal certi cate de ned mainchain 4 1 2 backward transfers def w cert ledgerid epochid quality btlist proofdata proof ledgerid epochid global parameters known mainchain semantics quality proofdata proof de ned sidechain withdrawal certi cate created withdrawal epoch includes backward transfers submitted durin g epoch quality quality parameter mainchain determine wcert 32 adopted case submitted epoch mc integer value compared quantities certi cates latus sidechain de ne quality height blockchain wcert proves state transition backward transfers list btlist list backward transfers collected withdrawa l epoch certi cate created bt",
+    "metadata": {
+      "chunk_id": "48d8d0fa52c14bdaa0a51ecec0cc700e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 75] certi cates latus sidechain de ne quality height blockchain wcert proves state transition backward transfers list btlist list backward transfers collected withdrawa l epoch certi cate created bt list statei backward transfers statei state sidechain applying block withdrawal epoch withdrawal certi cate proof withdrawal certi cate proof snark proof validates compliance certi cate set prede ned rules de ned def 2 3 snark proving system particular instantiation speci ed set arithmetic constraints de ning veri cation rules sidechain speci es set constraints withdrawal certi cate snark establishing rules basic interface snark prover veri er following proof p rove pkw cert public input witness true false v erify vkw cert public input proof particular instantiation snark proving system determined pair keys proving key pkw cert verifying key vkw cert verifying key registered sidechain creation changed sc lifetime completely de nes rules withdrawal certi cate validation including semantics",
+    "metadata": {
+      "chunk_id": "4fa4bb9af3f3e794c42eef4e217c079e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 78] cate valid chain blocks h statesbi mst valid root mst statesbi assuming applying block sbi 1 sidechain state state sbi 1 block sbi state statesbi proof veri es correct transition state statesbi means transactions subchain sbi 1 sb0 sbi correctly processed according rules 5 3 transac tional model mc blocks range b0 bi referenced sidechain blocks sb0 sbi implies sc related transactions blocks processed bt list valid list backward transfers corresponds statesbi backward transfers quality parameter height block sbi mst delta bit vector ects changes mst state mst sbi 1 statesbi mst general withdrawal certi cate proof validates correct transition range blocks belongs withdrawal epoch range adjacent range committed previous withdrawal certi cate includes proving correctness backward transfers given state transitions proved infeasible create malicious backwar d transfer creating corresponding transaction sidechain infeasible create new coins sidechains real forward transfers 5 5 3 2 backward",
+    "metadata": {
+      "chunk_id": "a20e22955645f8e77b6b14b270f4e498",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 79] state transitions proved infeasible create malicious backwar d transfer creating corresponding transaction sidechain infeasible create new coins sidechains real forward transfers 5 5 3 2 backward transfer request 5 3 4 backward transfer requests transaction discussed btrs submitted processed sidechain provide details snark proof included btr recall btr structure de ned follows def 4 5 def bt r ledgerid receiver nullifier proofdata proof 34 proofdata de ned latus construction proofdata futxog utxo unspent output holds coins user wants withdraw basic idea proof validate user s right withdraw utxo utxo present sidechain state mst committed withdrawal certi cate included mainchain note btr snark proof validated mainchain btr submission veri es withdrawn utxo present committed sc state guarantee remain valid moment btr synchronized sidechain proof serves like pre validation btr mainchain impede submission wittingly invalid requests basic interface snark prover veri er following def 4 5",
+    "metadata": {
+      "chunk_id": "c6c838eb431db16c9d9857ed48addfab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 80] remain valid moment btr synchronized sidechain proof serves like pre validation btr mainchain impede submission wittingly invalid requests basic interface snark prover veri er following def 4 5 proof p rove pkbtr public input witness true false v erify vkbt r public input proof verifying key vkbt r registered sidechain creation de nes rules btr validation including semantics public input witness prover veri er public input comprises parts def 4 5 def public input btr sysdata mh proofdata def btr sysdata h bw nullifier receiver h bw hash mc block latest withdrawal certi cate moment btr included mainchain receiver nullifier taken btr note btr sysdata enforced mainchain parameters manipulated btr issuer btr proof enforces following rules btr snark statement h bw hash mainchain block certi cate w certw submitted sidechain utxo statew mst statew mst committed w certw btr issuer rights spend utxo e possesses corresponding private key equal utxo nullifier hash utxo receiver address receiver",
+    "metadata": {
+      "chunk_id": "be9f106054e8036ba6725f9cb4c2676e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 81] w certw submitted sidechain utxo statew mst statew mst committed w certw btr issuer rights spend utxo e possesses corresponding private key equal utxo nullifier hash utxo receiver address receiver mainchain 5 5 3 3 ceased sidechain withdrawal csws allow sidechain stakeholders withdraw coins ceased sidechain 35 de ned def 4 6 ceased sidechain withdrawal submitted mainchain special transaction performs direct payment mainchain recall basic structure ceased sidechain withdrawal de ned mainchain def 4 6 def csw ledgerid receiver nullifier proofdata proof main prerequisite csw validity existence claimed coins sidechain state committed withdrawal certi cate sidechain user point speci c unspent output statesbi mst authorize spending basically snark btr 5 5 3 2 backward transfer request di erence authorizes direct payment mainchain btr essentially pre validation dive deeply snark construction csw technically completely btr general csw proof validates submitter owns utxo particular coins",
+    "metadata": {
+      "chunk_id": "78d4948a39bdd1135cd3c48fb383b3ab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 82] authorizes direct payment mainchain btr essentially pre validation dive deeply snark construction csw technically completely btr general csw proof validates submitter owns utxo particular coins moment sidechain halt enforces nulli er unique identi er withdrawn utxo nulli ers tracked mainchain prevent withdrawal coins twice 6 conclusions concept sidechains acknowledged appealing solution enhancing existin g blockchain systems allows creating platforms applications bound mainchain imposing signi cant burden seen wide adoption concept believe value sidechains scalability solution underestimated seek develop area paper introduced zendoo universal construction blockchain systems enables creation communication di erent sidechains knowing internal structure provided speci c sidechain construction latus leverages zk snark techniques establish decentralized veri able cross chain transfers consider research paper subject ongoing research future publications plan uncover details speci c",
+    "metadata": {
+      "chunk_id": "5357a95efb6753f0e5c05d48d357d1c1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 83] latus leverages zk snark techniques establish decentralized veri able cross chain transfers consider research paper subject ongoing research future publications plan uncover details speci c components properties proposed sidechain construction 7 acknowledgments like express great appreciation maurizio binello andrey sobol participatin g technical discussions like thank rob viglione daniele di benedetto marcelo kaihara luca cermelli lyudmila kovalchuk reviewing providing valuable comments references 1 cosmos network 2018 https cosmos network docs 2 ethereum generation smart contract decentralized application platform 2018 https github com ethereum wiki wiki white paper 36 3 rootstock smart contracts bitcoin network 2018 https www rsk co 4 andreas m antonopoulos mastering bitcoin second edition o reilly media inc 2017 5 m corallo l dashjr m friedenbach g maxwell miller poelstra j tim p wuille enabling blockchain innovations pegged sidechains 2014 https blockstream com sidechains pdf 6",
+    "metadata": {
+      "chunk_id": "19c15a639ab251a5406a9b935b0aba0e",
+      "entities": {
+        "crypto_project": [
+          "bitcoin"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 84] o reilly media inc 2017 5 m corallo l dashjr m friedenbach g maxwell miller poelstra j tim p wuille enabling blockchain innovations pegged sidechains 2014 https blockstream com sidechains pdf 6 eli ben sasson alessandro chiesa eran tromer madars virza succinct noninteractiv e zero knowledge von neumann architecture cryptology eprint archive report 2013 879 2013 7 sean bowe ariel gabizon making groth s zk snark simulation extractable random oracle model iacr cryptology eprint archive 2018 187 2018 8 sean bowe jack grigg daira hopwood halo recursive proof composition trusted setup cryptology eprint archive report 2019 1021 2019 https eprint iacr org 2019 1021 9 j dilley poelstra j wilkins strong federations interoperable blockchain solution centralized party risks arxiv 1612 05491 2016 https arxiv org abs 1612 05491 10 croman k et al editor scaling decentralized blockchains volume 9604 financial cryptography data security lecture notes computer science springer 07 2016 11 juan garay",
+    "metadata": {
+      "chunk_id": "50cbbf18d3a0ae570ffe2f8b396bd21f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 85] arxiv org abs 1612 05491 10 croman k et al editor scaling decentralized blockchains volume 9604 financial cryptography data security lecture notes computer science springer 07 2016 11 juan garay aggelos kiayias nikos leonardos bitcoin backbone protocol analysi s applications advances cryptology eurocrypt 2015 lecture notes computer science vol 9057 springer berlin heidelberg 2015 12 alberto garo olo robert viglione sidechains decoupled consensus chains arxiv 1812 05441 2018 https arxiv org abs 1812 05441 13 p gazi kiayias d zindros proof stake sidechains proceedings ieee symposium security privacy ieee computer society press 2019 14 alex gluchowski zk rollup scaling zero knowledge proofs matter labs 2019 https pandax statics oss cn shenzhen aliyuncs com statics 1221233526992813 pdf 15 oded goldreich foundations cryptography volume 1 basic techniques cambridge university press 2001 16 kiayias d zindros proof work sidechains cryptology eprint archive report 2018 1048 2018 https eprint",
+    "metadata": {
+      "chunk_id": "fbaefbd3fa5a39bbd23ad0147ecdda6e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 86] goldreich foundations cryptography volume 1 basic techniques cambridge university press 2001 16 kiayias d zindros proof work sidechains cryptology eprint archive report 2018 1048 2018 https eprint iacr org 2018 1048 17 aggelos kiayias alexander russell bernardo david roman oliynykov ouroboros provably secure proof stake blockchain protocol crypto 2017 volume 10401 lncs pages 357 388 springer heidelberg 2017 18 s lerner drivechains sidechains hybrid 2 way peg designs 2016 https docs rsk co drivechains sidechains hybrid 2 way peg designs r9 pdf 19 izaak meckler evan shapiro coda decentralized cryptocurrency scale 2018 https cdn codaprotocol com v2 static coda whitepaper 05 10 2018 0 pdf 37 20 satoshi nakamoto bitcoin peer peer electronic cash system 2008 https bitcoin org bitcoin pdf 21 arvind narayanan joseph bonneau edward felten andrew miller steven goldfeder bitcoin cryptocurrency technologies comprehensive introduction princeton universit y press princeton nj usa 2016 22 j poon v",
+    "metadata": {
+      "chunk_id": "64faa08b833525ca3fc4f6d019ea8920",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 87] narayanan joseph bonneau edward felten andrew miller steven goldfeder bitcoin cryptocurrency technologies comprehensive introduction princeton universit y press princeton nj usa 2016 22 j poon v buterin plasma scalable autonomous smart contracts http plasma io 23 merkle r c digital signature based conventional encryption function advances cryptology crypto 1987 lecture notes computer science vol 293 springer berlin heidelberg 1988 24 nicholas stifter aljosha judmayer philipp schindler alexei zamyatin edgar weippl agreement satoshi formalization nakamoto consensus cryptology eprint archive report 2018 400 2018 https eprint iacr org 2018 400 25 p sztorc drivechain simple way peg november 2015 2015 http www truthcoin info blog drivechain 26 horizen team community horizen blockchain platform fully customizabl e decentralized applications 2019 https www horizen global assets files horizen white paper pdf 27 s thomas e schwartz protocol interledger org interledger pdf interledger payments",
+    "metadata": {
+      "chunk_id": "4d19cfb25367f9a915dbaf7444e45718",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 88] fully customizabl e decentralized applications 2019 https www horizen global assets files horizen white paper pdf 27 s thomas e schwartz protocol interledger org interledger pdf interledger payments 2016 https 28 bitcoin wiki coinbase https en bitcoin wiki coinbase 29 bitcoin wiki transaction https en bitcoin wiki transaction 30 gavin wood polkadot vision heterogeneous multi chain framework polkadot network polkadot lightpaper pdf 2016 https appendix mst delta provide example mst delta value withdrawal certi cate 5 5 3 1 withdrawal certi cate calculated explanations needed note relates latus sidechain construction general mst delta shows leaves changed merkle state trees 5 2 accounting model system state msti mstj j e g case withdrawal certi cate msts committed previous certi cate current shows system state changed epoch mst delta bit vector shows leaves msti changed mstj let consider mst depth dmst 3 initial state mst0 fig 15 mst contain unspent outputs equal number leaves moment",
+    "metadata": {
+      "chunk_id": "ea1775f22ae1dc390968708955f93dae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 89] shows system state changed epoch mst delta bit vector shows leaves msti changed mstj let consider mst depth dmst 3 initial state mst0 fig 15 mst contain unspent outputs equal number leaves moment mst0 tree contains utxos futxo1 utxo2 utxo3 assigned leaf nodes 0 4 6 correspondingly 38 01utxo1 val 5 234567utxo2 val 3 utxo3 val 1 figure 15 merkle state tree mst0 let assume transactions tx1 tx2 tx1 finputs futxo1goutputs futxo4 val 2 utxo5 val 3 g g tx2 finputs futxo4goutputs futxo6 val 2 g assuming mst p osition utxo4 1 mst p osition utxo5 2 mst p osition utxo6 7 applying transactions tx1 tx2 state mst0 provide following mst1 01234567utxo2 val 3 utxo3 val 1 utxo6 val 2 utxo4 val 2 utxo5 val 3 figure 16 merkle state tree mst1 seen transition mst0 mst1 leaves 0 1 2 7 modi ed msd delta ects modi cations bit vector mst delta 11100001 bit represents corresponding leaf node modi ed having mst delta withdrawal certi cate allows prove utxoa contained mstk committed latest certi cate providing",
+    "metadata": {
+      "chunk_id": "2a3e3fbc3ac70ebb1c4633cb3ebaa635",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  },
+  {
+    "text": "[Section 90] cations bit vector mst delta 11100001 bit represents corresponding leaf node modi ed having mst delta withdrawal certi cate allows prove utxoa contained mstk committed latest certi cate providing proof inclusion mstt t k 39 committed certi cate past verifying bit mst p osition utxoa zero mst delta s way mstt mstk feature great value circumventing data availability attacks e g compromise d sidechain majority stakeholders adversarial submits withdrawal certi cate mainchain commits mstk revealing public mstk tree having mst delta place user able create proof utxo ownership previous mstk mechanism proving utxo ownership mainchain managed withdrawals latus sidechain construction 5 5 3 2 backward transfer request 5 5 3 3 ceased sidechain withdrawal 40",
+    "metadata": {
+      "chunk_id": "5bf443abf31b19c09e45980fbe5a2bbf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Horizen.txt"
+    }
+  }
+]

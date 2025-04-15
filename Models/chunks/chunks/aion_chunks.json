@@ -1,0 +1,892 @@
+[
+  {
+    "text": "[Section 1] white paper july 31 2017 aion generation blockchain network matthew spoke matt aion network nuco engineering team aion nuco io release v1 0 0 july 31 2017 abstract mainstream adoption blockchain systems limited unsolved questions scalability privacy interoperability paper outline proposed design aion network 3rd generation multi tier blockchain system designed address challenges core hypothesis idea blockchains created solve unique business challenges unique industries aion network designed support custom blockchain architectures providing trustless mechanism cross chain interoperability root system world s dedicated public enterprise blockchain aion 1 state art blockchain introduces new paradigm security fair representative crypto economic incentives roadmap paper intended technical introduction followed additional research design considerations coming months aion team publish series research papers thoroughly explain concepts proposed consensus algorithm virtual machine scripting",
+    "metadata": {
+      "chunk_id": "04c58b6b6780aab561af83d55e8fd844",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 2] followed additional research design considerations coming months aion team publish series research papers thoroughly explain concepts proposed consensus algorithm virtual machine scripting language bridge inter chain transaction functionality economic system underpinning network addition following introductory paper aion release fundraising strategy timeline consideration look forward feedback share ideas contents contents contents 1 introduction 4 2 history 4 2 1 generation blockchain 4 2 2 second generation blockchain 4 2 3 aion generation blockchain 5 3 aion multi tier blockchain network 5 3 1 connecting networks 5 3 2 interchain transaction 6 3 2 1 format 6 3 2 2 routing 7 3 2 3 state 7 3 3 bridges 8 3 3 1 registration 8 3 3 2 competition 9 3 3 3 bridge consensus 9 3 3 4 fee distribution 9 3 4 participating networks 10 3 4 1 aion compliant blockchains 10 3 4 2 existing network compatibility 10 3 4 2 1 aion ethereum 10 3 4 2 2 ethereum aion 11 4 aion 1 blockchain 11 4 1 high level",
+    "metadata": {
+      "chunk_id": "6bd4d306e62799fc9f97d7b9a1532941",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 9 3 4 participating networks 10 3 4 1 aion compliant blockchains 10 3 4 2 existing network compatibility 10 3 4 2 1 aion ethereum 10 3 4 2 2 ethereum aion 11 4 aion 1 blockchain 11 4 1 high level overview 11 4 2 consensus 11 4 2 1 definitions 12 4 2 2 validator nomination process 13 4 2 3 validator backer rewards distribution 14 4 2 4 tiered active set 14 4 2 5 backing 15 4 2 5 1 staking 15 4 2 5 2 solving 15 4 2 5 3 function stakes solutions 16 4 2 6 incentives 16 4 2 7 reputation 16 4 2 8 proof intelligence 17 4 2 8 1 mechanism 17 4 2 8 2 validation 17 4 2 8 3 pooling 18 4 3 aion virtual machine avm 18 4 3 1 implementation 18 4 3 2 limited consumption 18 4 3 3 chain oriented concurrency model 19 4 4 scripting language 19 4 4 1 specifications 19 4 4 2 defensive programming 19 4 4 3 blockchain runtime environment 20 4 4 4 blockchain context injection 20 4 4 5 security 20 5 roadmap 20 nuco inc new alchemy aion generation blockchain network 2 contents contents 5 0 1 phase 1 20 5 0 2",
+    "metadata": {
+      "chunk_id": "aa59c34035898e32464b8a7fb964fe8b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 4] runtime environment 20 4 4 4 blockchain context injection 20 4 4 5 security 20 5 roadmap 20 nuco inc new alchemy aion generation blockchain network 2 contents contents 5 0 1 phase 1 20 5 0 2 phase 2 21 5 0 3 phase 3 21 6 conclusion 21 7 contact 21 references 22 nuco inc new alchemy aion generation blockchain network 3 2 history 1 introduction mainstream adoption blockchains limited scalability privacy interoperability challenges aion multi tier blockchain network designed address challenges core hypothesis idea blockchains created solve unique business challenges unique industries aion network designed support custom blockchain architectures providing trustless mechanism cross chain interoperability root aion network dedicated public enterprise blockchain aion 1 aion 1 state art generation blockchain introduces new paradigm security fair representative cryptoeconomic incentives paper introduces explains aion network generation blockchain technology multi tier blockchain network",
+    "metadata": {
+      "chunk_id": "79fd420384bcddd4f01e42aaf9d58131",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 5] blockchain introduces new paradigm security fair representative cryptoeconomic incentives paper introduces explains aion network generation blockchain technology multi tier blockchain network necessary infrastructures protocols details vision technical concepts aion 1 purpose built public generation blockchain component aion network provides roadmap future implementations aion 1 aion network concepts work progress paper intended establish intent exploratory nature declarative join aion network mailing list alerts detailed white papers related specific aspects aion available 2 history landscape digital currencies related blockchain technologies changed significantly bitcoin introduced 2008 2 1 generation blockchain bitcoin 1 led way creation numerous alternative currency platforms generation blockchain technology generation blockchains provided solution conventional transaction limitations implementing cryptographically secure peerto peer digital transactions verified decentralized",
+    "metadata": {
+      "chunk_id": "9fc5f2f5d2701b000d344558247deffd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 6] blockchain technology generation blockchains provided solution conventional transaction limitations implementing cryptographically secure peerto peer digital transactions verified decentralized global network recorded immutable public ledger resulting platform leverages advantages digital preserving economics scarcity 2 2 second generation blockchain second generation blockchain ethereum introduced ability build application specific logic blockchain network 2 enabled new capabilities transactions incorporate state business logic multi party contracts stored executed blockchain written immutable ledger concepts incorporated distributed ledger technologies led distinction building blockchain building blockchain emersion blockchain based applications positive industry applications novel use cases demonstrate validate technology s ability evolve means transferring value separate networks disparate isolated able transfer data chain transfer value centralized exchanges sense tiny kingdoms",
+    "metadata": {
+      "chunk_id": "9e09c851b96d09cc1d86cb1ab8233e6f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 7] cases demonstrate validate technology s ability evolve means transferring value separate networks disparate isolated able transfer data chain transfer value centralized exchanges sense tiny kingdoms borders economies industries cemented number networks grow disconnected sparse industry early days internet disparate blockchains networks truly realize benefits connected specialized blockchain networks developed able communicate chain networks offers significant benefits particularly privacy scalability maintained mechanism joining disparate networks unlock enormous value participating network nuco inc new alchemy aion generation blockchain network 4 3 aion multi tier blockchain network 2 3 aion generation blockchain 2 3 aion generation blockchain future blockchains federate data value hub spoke model similar internet future mainstream blockchain adoption achieved development networked federated blockchain integrate separate spokes integrated blockchain network aion aion generation",
+    "metadata": {
+      "chunk_id": "ad5e481559a92d61ffcc1625a76c0d1f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 8] hub spoke model similar internet future mainstream blockchain adoption achieved development networked federated blockchain integrate separate spokes integrated blockchain network aion aion generation blockchain network enable private public sector organization federate send data value aion compliant blockchain ethereum scale provide fast transaction processing increased data capacity aion blockchains spoke allow creation customized public private blockchains maintain interoperability blockchains allow publishers choose governance consensus mechanisms issuance participation root aion network purpose built public generation blockchain called aion 1 designed connect blockchains manage robust applications aion 1 provides economic system incentivizes interoperability ecosystem aion tokens fuel create new blockchains monetize inter chain bridges secure overall network 3 aion multi tier blockchain network aion multi tier blockchain network like computer network providing protocol standard",
+    "metadata": {
+      "chunk_id": "addc824f65ab6b833a8decfc2ebed78d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 9] create new blockchains monetize inter chain bridges secure overall network 3 aion multi tier blockchain network aion multi tier blockchain network like computer network providing protocol standard dissimilar systems communicate addition information aion network pass logic value participating blockchains create contiguous value chain transaction occurs chain logic value passing chains freely liquid assets aion network participating network participating network ethereum user user user inter chain transaction inter chain communication participating network participating network inter chain transaction figure 1 example simple multi tier blockchain network network consisting major actors infrastructures protocols concepts work guarantee transmission origin destination interchain communication value technologies enable blockchain transact blockchain blockchain transact connected blockchain 3 1 connecting networks connecting networks networks facilitate interchain communication interchain",
+    "metadata": {
+      "chunk_id": "531da947f9052ffef85dcc770145ab31",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 10] value technologies enable blockchain transact blockchain blockchain transact connected blockchain 3 1 connecting networks connecting networks networks facilitate interchain communication interchain transactions multiple private public blockchain networks connecting networks defined requirements specify role context aion nuco inc new alchemy aion generation blockchain network 5 3 aion multi tier blockchain network 3 2 interchain transaction network connecting networks interchain transactions provide universal interface enables blockchain developers users route messages network specifically connecting network provide following core functionalities route messages different blockchain networks common bridging protocol involves translation propagation message considered final provide decentralized accountability provide bridging protocol aion network protocols specify standards external components actual functionality internal components connecting network vary vendor intended purpose core",
+    "metadata": {
+      "chunk_id": "ed4736b2b990afeac52be4f75eae3f2f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 11] accountability provide bridging protocol aion network protocols specify standards external components actual functionality internal components connecting network vary vendor intended purpose core functionalities implemented point point connections inter blockchain relays purpose specific networks btc relay exist central hubs protocols simple efficient result complicated state channels rise contentious situations mercy select group individuals run relaying networks connecting network instead uses bridges trust free blockchain network validate ensure correctness flowing transactions introducing party routes messages point point b networks manage difficult unclear situations 3 2 interchain transaction interchain transaction trust free message blockchain networks critical infrastructure component powering interchain communication interchain transactions allow connected blockchain networks exchange information like computers internet interchain transactions initially created source",
+    "metadata": {
+      "chunk_id": "c95a7b60e32ab9645f5e0b519aef2bc6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 12] component powering interchain communication interchain transactions allow connected blockchain networks exchange information like computers internet interchain transactions initially created source blockchain processed forwarded bridges connecting networks finally reaching target blockchain stated previously creator interchain transaction pay transaction fee communication cost aion tokens incentivizing participants junction route interchain transactions designed somewhat analogous packets specifying hops perform source target network potentially means passing numerous connecting networks 3 2 1 format ideally interchain transaction format include parts payload data specific creator typically regular transaction data potentially extended arbitrary data discretion creator source network metadata interchain transaction contains routing information fees merkle proof sender wants bypass bridge bridge connecting network validators shall interpret data check integrity transaction",
+    "metadata": {
+      "chunk_id": "0ca1817b3bf0ac19fd7a4abfd42b2a35",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 13] network metadata interchain transaction contains routing information fees merkle proof sender wants bypass bridge bridge connecting network validators shall interpret data check integrity transaction privacysensitive information applications choose encrypt data necessary net net fee address hash signature routing fee information payload proof optional figure 2 visual depiction inter chain transaction nuco inc new alchemy aion generation blockchain network 6 3 aion multi tier blockchain network 3 2 interchain transaction 3 2 2 routing routing interchain transactions multi phase process phase validators verify transaction reach consensus transaction forwarded rejected transaction gets rejected point state change result interchain transaction reverted connecting network routing path divided subpaths forward path backward path forward path interchain transaction flows source chain way target chain backward path confirmation interchain transaction passed connecting network participating",
+    "metadata": {
+      "chunk_id": "78bcf7dee4b5741e6e767f12ff06575e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 14] subpaths forward path backward path forward path interchain transaction flows source chain way target chain backward path confirmation interchain transaction passed connecting network participating network participating network 0 1 4 2 3 figure 3 depiction ict lifecycle beginning emission chain ending confirmation bridge refuses broadcast interchain transaction reason sender choose pass interchain transaction including proof directly connecting network connecting network validate interchain transaction based knowledge merkle hash chain participating network broadcast valid design interchain transaction consideration detailed paper workings interchain transactions published project progresses 3 2 3 state interchain transaction state introduced represent different stages status transaction perspective connecting network received hold confirmed timed rejected finalized figure 4 flow chart possible states occur lifetime ict interchain transaction observed participating network bridge",
+    "metadata": {
+      "chunk_id": "2d664623cff8c78734a36ae607b748d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 15] perspective connecting network received hold confirmed timed rejected finalized figure 4 flow chart possible states occur lifetime ict interchain transaction observed participating network bridge validators time state changes received thirds bridge validators vote yes interchain transaction connecting network change state interchain transaction hold trigger event corresponding connecting network token locked transaction processed thirds bridge validators vote yes interchain transaction state changes rejected nuco inc new alchemy aion generation blockchain network 7 3 aion multi tier blockchain network 3 3 bridges hold transaction forwarded bridge validators connect connecting network blockchain route confirmation received target blockchain state changes confirmed confirmation received state changes timed confirmed interchain transactions state changes finalized locked fees distributed connecting network bridge validators 3 3 bridges bridge communication protocol facilitates",
+    "metadata": {
+      "chunk_id": "65ddb0c01f85af2975da4efd6bd0c7d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 16] state changes timed confirmed interchain transactions state changes finalized locked fees distributed connecting network bridge validators 3 3 bridges bridge communication protocol facilitates communication participating network connecting network bridge composed distinct network validators assures translation protocols accountability networks bridges directional source blockchain chain transactions emitted target blockchain chain transactions forwarded bridge main responsibilities signing broadcasting interchain transaction sealed source blockchain interchain transaction forwarding fee paid informing connecting network merkle hash updates participating network bridge validators use lightweight bft based algorithm reach consensus transactions approved receiving thirds total votes weighted connecting network participating network participating network connecting participating network bridges bridges bridges participating network participating network figure 5 high level overview bridge",
+    "metadata": {
+      "chunk_id": "2f7fca3f953caffcc85cf1328c6024e6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 17] connecting network participating network participating network connecting participating network bridges bridges bridges participating network participating network figure 5 high level overview bridge connecting network relationship 3 3 1 registration connecting networks responsible registering directly connected bridges bridge dedicated table validators maintained blockchain sorted stake join publicly available bridge pledging stake specifically contract protocol purpose maintain global bridge registration updated dynamically nodes join leave bridging networks bridge considered valid minimum total stake required topvalidators allowed participate bridge consensus nuco inc new alchemy aion generation blockchain network 8 3 aion multi tier blockchain network 3 3 bridges 3 3 2 competition multiple bridges generated multiple groups validators register blockchain network different identifiers perspective connecting network bridges distinct propagate receive messages network user s",
+    "metadata": {
+      "chunk_id": "c9a3687739846b3354536e767a9d7784",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 18] multiple bridges generated multiple groups validators register blockchain network different identifiers perspective connecting network bridges distinct propagate receive messages network user s responsibility determine bridge use specifying target network identification intent drive open market incentivizing different bridging networks compete terms stability reputation pricing goal optimal fee value driven market demands 3 3 3 bridge consensus bridge validators reach consensus following lightweight bft based protocol transactions processed round instead multiple rounds validator evaluates transaction based view previous blockchain interchain transaction deemed valid thirds validators voted yes point blockchain considers transaction valid beginning start state bridge validator required wait interchain transaction received verifies validity signature transaction fees based validity transaction dropped signed validator signed propagated connecting target network yes yes start wait ict",
+    "metadata": {
+      "chunk_id": "0ba0ebfd6aa41a9f16b294aa7e266fb9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 20] network advantage approach users option optimize fees based bridge load minimum rates drawback users need basic understanding routing path fee requirements bridge sending transaction sender specifies total fee bridge connecting network shares fee based agreements hard coded protocol approach advantage simpler user drawback approach changing ratio bridge connecting network slow hard nuco inc new alchemy aion generation blockchain network 9 3 aion multi tier blockchain network 3 4 participating networks 3 4 participating networks core concepts aion network design dedicated federation compatible blockchains blockchainrelated networks purpose specific blockchains private networks consortium blockchains representing collections entities regardless context interconnectedness ability interoperate efficient secure transparent manner increases value network individually provides stability blockchain ecosystem general participating network network successfully implemented requirements integrate",
+    "metadata": {
+      "chunk_id": "e428f763f5ed2e0e60d5cf9b0195b02e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 21] efficient secure transparent manner increases value network individually provides stability blockchain ecosystem general participating network network successfully implemented requirements integrate connecting network participating networks blockchains necessarily limited useful participants oracles cryptlets 3 database clusters need verifiable information limitation flexibility participating network integrate connecting network integrated aion network participating networks gain access communication protocol interchain transaction specified earlier enabling numerous possible use cases participating networks flexibility customize different modules blockchain infrastructure including consensus algorithm hashing algorithm virtual machine vm scripting languages 3 4 1 aion compliant blockchains aion compliant blockchains refer participating blockchains comply aion protocol bridges established easily forward interchain transactions aion 1 aion compliant blockchain meet certain requirements",
+    "metadata": {
+      "chunk_id": "6c7efdb8c070ca035776d328a42d068d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 22] aion compliant blockchains refer participating blockchains comply aion protocol bridges established easily forward interchain transactions aion 1 aion compliant blockchain meet certain requirements including decentralized fashion support procedures commonly found blockchains atomic broadcast transactions exact implementation left discretion bridging protocol network able recognize interchain transactions distinct regular transactions aware consensus protocol bridge store transaction deemed valid implement locktime similar feature allows tokens held network period time blockchain vendors able adapt offerings aion compliant nuco blockchain infrastructure aion compliant networks specific details requirements published project progresses 3 4 2 existing network compatibility unlike aion compliant blockchains existing blockchains designed interoperable enable interchain transaction routing aion network existing blockchains additional assumptions compromises required section discuss",
+    "metadata": {
+      "chunk_id": "d379ebaafed40b5fcf2e64c0e13344ec",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 23] compliant blockchains existing blockchains designed interoperable enable interchain transaction routing aion network existing blockchains additional assumptions compromises required section discuss possibility connecting ethereum blockchain aion network 3 4 2 1 aion ethereum bridge protocol lightweight bft based consensus algorithm bridge validators aion connecting networks bft votes natively aggregated processed blockchain validators ethereum blockchain built functionality needs interchain transaction contract model interchain transaction contract synchronize public keys bridge validators periodically depending aion network specification interchain transaction requested bridge validators sign private key send signature interchain transaction contract interchain transaction contract collect votes signatures provide provable record event contains interchain transaction data voting information thirds votes received bridge validators use record evidence confirming interchain transaction",
+    "metadata": {
+      "chunk_id": "dd863f4c96115484b5f46a87864e54ef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 24] votes signatures provide provable record event contains interchain transaction data voting information thirds votes received bridge validators use record evidence confirming interchain transaction computation cost multi signature verification high ethereum blockchain 3 000 gas single ecdsa higher bridge fee expected reduce cost blockchain bft functionality bridge outcome voting stored ethereum blockchain nuco inc new alchemy aion generation blockchain network 10 4 aion 1 blockchain 3 4 2 2 ethereum aion sending interchain transactions ethereum blockchain aion network easier ethereum s programmable transaction size transactions intended blockchains need incorporate routing information data field possible scenarios occur ethereum interchain transaction interchain transaction ethereum blockchain aion network depending receiving address transaction sent externally owned account data field modification transaction sent contract account workaround needed data interpreted ethereum vm",
+    "metadata": {
+      "chunk_id": "ccfc182115e974975e2c70595bfa8381",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 25] blockchain aion network depending receiving address transaction sent externally owned account data field modification transaction sent contract account workaround needed data interpreted ethereum vm approach appending interchain transaction magic tag routing information original data long contract logic rely calldatasize op code ensure transaction finality bridge require additional block confirmations typically major exchanges use 120 half hour transaction confidence 4 aion 1 blockchain aion 1 blockchain genesis implementation connecting network designed fair distributed open blockchain architecture capable fulfilling requirements specified multi tier blockchain network architecture open blockchain aion 1 designed following goals connecting blockchains external services e g oracles databases contiguous network providing accountable communication maintained decentralized network providing necessary infrastructure develop high performance decentralized inter blockchain applications",
+    "metadata": {
+      "chunk_id": "2917fe19ddabd38e1ca12b3103dbcf1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 26] contiguous network providing accountable communication maintained decentralized network providing necessary infrastructure develop high performance decentralized inter blockchain applications creating maintainable network robust sustainable economic model users able deploy adjacent participating networks suitable use cases communicate networks accountable routing architecture users ranging large enterprises hosting consortium networks community oriented open networks welcome participate future decentralized applications sit connecting network logic driven integrating data multitude blockchain networks addition aion 1 blockchain equipped functioning economic system intended drive continued maintenance integrity network 4 1 high level overview proposal aion 1 refers genesis implementation connecting network aion 1 implementation serves fully functioning blockchain architecture comparable state art implementations found today s market envision aion 1 standardized template provides",
+    "metadata": {
+      "chunk_id": "10edee57fb981b5d87760bde0dfe3f3f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 28] aion 1 avm include scripting language described 4 2 consensus explore consensus algorithm featured aion 1 solve requirements introduced connecting network concept consensus algorithm selected needs maintain consensus blockchain chain transactions interchain transactions fulfill requirements efficient immutable manner aion 1 uses consensus algorithm based byzantine fault tolerant nuco inc new alchemy aion generation blockchain network 11 4 aion 1 blockchain 4 2 consensus user inter chain transaction chain transaction blockchain consensus virtual machine aion 1 bridges figure 7 birds eye view aion 1 architecture depicted critical components networks connecting network structure consisting consensus protocol applications built virtual machine bft algorithm combined hybrid protocol aims fair representation parties backing partly token system partly novel verification algorithm based concepts modern neural networks called proof intelligence meet operational scale enable wide participation",
+    "metadata": {
+      "chunk_id": "f24096f1d02a5052f9650d254282ec14",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 30] behaviour honeybadger election protocols stellar tangaroa protocols conceptual design representative network validation scheme similar representative democracy candidates register elected based votes receive constituents system validators supported backers backer receives share reward rationale design belief self governance network collective action network directly impacts security network proper voting summarize consensus protocol proposed node network submit candidate pledge backing candidate start term highest backed set candidates selected validators term validators contribute block generation process bft based protocol granted distribution block rewards continued term ends term begins restarts process 4 2 1 definitions provide context aspects representative consensus refer following set definitions consistently rest paper nomination process node register validator participate representative consensus aion 1 nomination completed users network able pledge backing ranking determine",
+    "metadata": {
+      "chunk_id": "9c2f6283a8b133161d28eeb87496eec7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 31] set definitions consistently rest paper nomination process node register validator participate representative consensus aion 1 nomination completed users network able pledge backing ranking determine nominated validators highest backing ranked list active set means valiator node contribute vote consensus process active set tiered list active validators number validators active set nuco inc new alchemy aion generation blockchain network 12 4 aion 1 blockchain 4 2 consensus b d c b d k termn term n 1 k c n set b c d n set b d k tn 1t ends n 1 tn stakers solvers candidate kbacking cbacking k static set live set static set live set k stakes 100 token request puzzle k start poi algorithm solved 0 token 0 solution 100 token 0 solution 100 token 1 solution bft bft bft bft bft bft bft k backing validator 1 1 1 1 1 1 1 figure 8 active static set staking lifecycle depicts process candidate validator joining consensus backup sets compose candidate validators active active set backup set highest",
+    "metadata": {
+      "chunk_id": "629d485e2dad3debc607d60933f0e266",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 32] 1 1 1 1 1 1 1 figure 8 active static set staking lifecycle depicts process candidate validator joining consensus backup sets compose candidate validators active active set backup set highest backed validators event malicious behaviour inactivity network looks set replacement validators backers refer nodes support validators backers validators network participation directly impacts ranking validators active set additionally backers proportionally rewarded based rewards validators backers consists distinct groups stakers solvers stakers users pledge tokens validators backing subset backers stakes locked amounts tokens held network predefined time released staker solvers users employ proof intelligence solve cryptographic puzzle given network proof intelligence converted backing solvers subset backers terms defined duration time static set network purposes bft based consensus term static set validators validates new blocks end term active set frozen generate new static set based changes",
+    "metadata": {
+      "chunk_id": "ecef98e8e67e737ea6b6b2ca8190b503",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 33] backers terms defined duration time static set network purposes bft based consensus term static set validators validates new blocks end term active set frozen generate new static set based changes stake 4 2 2 validator nomination process node self nominate register validator require sufficient backing actively validate aion 1 network maintains refreshes terms network wide repository candidate validators nomination contract validators active continuous backing process network members active set highestbacked candidates facilitate continuous backing process copies nomination contract point time live set updated network users withdraw backing candidates static set exists duration term consensus protocol derives active set static set end term static set overwritten live set duration term validators able set backers compensated validator proposes terms backing terms agreeable backers commit resources validator creates balance influence ranking subsequent nuco inc new alchemy aion",
+    "metadata": {
+      "chunk_id": "2ce6af36c6aaebc59866cb95f133b3ca",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 34] term validators able set backers compensated validator proposes terms backing terms agreeable backers commit resources validator creates balance influence ranking subsequent nuco inc new alchemy aion generation blockchain network 13 4 aion 1 blockchain 4 2 consensus stakers solvers solvers stakers validator1 backers candidate figure 9 structural representation representative voting diagram depicts active set validator backed number users staking solving depicted candidate validator validator backing join active set reward active validator based backing compared validators reputation mechanism validator nodes candidate validators offer reputation way attract initial backing exact features reputation considered quantitative measurable defined intention encourage participants consider candidate validators addition aion 1 network inherent utility 4 2 3 validator backer rewards distribution users required present certain stake network considered candidate validator rewards validator",
+    "metadata": {
+      "chunk_id": "4fb50df63b6304233818308ca4b64cdf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 35] candidate validators addition aion 1 network inherent utility 4 2 3 validator backer rewards distribution users required present certain stake network considered candidate validator rewards validator necessarily proportional stake instead ratio rewards going validator backers proposed validator time proposal nomination contract idea backers candidate validators arrive market value parties agree 4 2 4 tiered active set active set validators organized tiered structure tiered structure ranked based backing descending order highest backed validator lowest tier incentivizes virtuous behaviour providing higher reward compensation idea encourage decentralization introducing cost benefit equilibrium point centralized backing incentivizing backers diversify belief design incentivize optimization virtuous actions interaction participants validators compete receive higher backing backers benefit backing validators better compensated diversifying backing including backing inactive validators",
+    "metadata": {
+      "chunk_id": "b2cecac8293333fbfb4557f9dfe2cba7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 36] virtuous actions interaction participants validators compete receive higher backing backers benefit backing validators better compensated diversifying backing including backing inactive validators potential reward distribution scheme follows nuco inc new alchemy aion generation blockchain network 14 4 aion 1 blockchain 4 2 consensus table 1 table depicting reward % voting power % individual validator tier assuming 100 tier validators rewards validator voting power validator 1 10 2 5% 1% 2 20 1 25% 1% 3 30 0 83% 1% 4 40 0 625% 1% referring reward scheme depicted table 1 rewards divided equally tiers 25% distributed validators tiers validators higher tiers higher proportional rewards restricted tier sizes predefined reward introduces economic model backers evaluate opportunity cost backing validators incentivizing backers distribute stakes multiple validators decentralization nominate validators exact incentive model structure undergo rigorous simulation testing 4 2 5 backing backing",
+    "metadata": {
+      "chunk_id": "617045b7f42fe1541a122db0f32ccf15",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 38] sections algorithm discussed correlation variables investigated 4 2 5 1 staking backing tokens staking tokens particular validator term user able stake certain validator 1 implication tokens escrowed network end 1 point tokens returned user provided malicious actions occurred user send message indicating like tokens remain staked validator renewing stake refers backer keeping stakes validator concept coinage useful mechanism stakes half life encourage liquidity maintain competition validators return staking backer receives portion validators reward reward proportional staked current tier staked validator 4 2 5 2 solving form backing solving cryptographic puzzle exact details explained proof intelligence section unique puzzle generated request puzzle solved proof intelligence algorithm generate proof intelligence proof submitted network proof backing particular validator solvers rewarded proportionally backed nuco inc new alchemy aion generation blockchain network 15 4 aion 1",
+    "metadata": {
+      "chunk_id": "efb4484872579df3255589a459b68c56",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 42] option rely external statistics select optimal candidate incentive manipulate data reputation system needs built network past actions statistics node network protocol providing trust data allow users select appropriate candidates features included node reputation include nuco inc new alchemy aion generation blockchain network 16 4 aion 1 blockchain 4 2 consensus uptime time node active network important determining age reliability node total backing total aggregate backing received point time summed end term stakes locked duration time indicate past performance node centrality context social network indicate nodes connected network good indicator reliability performance transaction origin refers instance transaction appearing network accepted blockchain easily calculated requirement nodes sign transactions emit network trust global network value particular peer indicates satisfactory behaviour peer perspective network originally designed p2p file sharing systems 9 algorithm adapted",
+    "metadata": {
+      "chunk_id": "79a68bef49715aa8b6658f955da8c789",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 43] sign transactions emit network trust global network value particular peer indicates satisfactory behaviour peer perspective network originally designed p2p file sharing systems 9 algorithm adapted consider parameters relevant use case statistics freely available user effort statistics easily accessible internet creates knowledgeable user base necessary form basis democratic network lastly reputation system mechanism illustrates node s investment network investment subject consequences node s virtuous malicious actions effective assessing backing risk 4 2 8 proof intelligence proof intelligence economic measure deter denial service attacks requiring participants solvers aion 1 perform artificial intelligence ai computation intent motivate creation ai specific specialized hardware machine learning neural network training future b distance set block hashes input output a0 e0 en figure 10 overview proof intelligence 4 2 8 1 mechanism proof intelligence works requiring participants train",
+    "metadata": {
+      "chunk_id": "5a897f0d7768252292800fe487938c7a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 44] learning neural network training future b distance set block hashes input output a0 e0 en figure 10 overview proof intelligence 4 2 8 1 mechanism proof intelligence works requiring participants train predefined neural network output similar results proposed ground truth e g hash current block given hashes previous blocks input parameters trained neural network serve proof computation took place easy verify inputting parameter confirming results 4 2 8 2 validation validation proof fast compared training process following steps 1 load neural network defined provided parameter vector 2 feed neural network hashes previous blocks 3 run collect outputs validation process researched developed nuco inc new alchemy aion generation blockchain network 17 4 aion 1 blockchain 4 3 aion virtual machine avm 4 2 8 3 pooling pooling proof intelligence achieved separating parameter space subspaces similar pooling concept proof work miner works range nonce space proof intelligence solvers work",
+    "metadata": {
+      "chunk_id": "1cfe429271e47fd08196625d3f272f50",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 47] logic valid executable vm infrastructure evolves tooling existing bytecode analysis adapted avm bytecode leveraging interoperability allows tooling suitable mission critical code chain logic avm leverages significant existing research development efforts additionally machine friendly bytecode makes chainlogic execution efficient customized means lightweight vm configured purposes consumption metering explained subsequent section isolation host machine network file o unfiltered system data isolated environment ensure meaningful information host machine unfiltered non oracle communication takes place chain logic critical ensuring safety host machine determinism chain logic users wishing implement program submit transaction necessary data defined binary interface receiving message chain actor calls start initiate boot sequence accepts data accept data logic processes data modifies state returns response network calls stop initiate shutdown sequence 4 3 2 limited consumption key issues vm",
+    "metadata": {
+      "chunk_id": "ec0d0e2da9376896acda5e2792eaded0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 48] calls start initiate boot sequence accepts data accept data logic processes data modifies state returns response network calls stop initiate shutdown sequence 4 3 2 limited consumption key issues vm running publicly accessible environment potential misbehaviour malicious logic execution presence turing complete language expendable budget set executing logic run indefinitely behave fashion damage host machine disrupt consensus mechanism faulty timing behaviours specifically define budget mechanism limited consumption mechanism allotted value specified usage space bandwidth consumption executing logic nuco inc new alchemy aion generation blockchain network 18 4 aion 1 blockchain 4 4 scripting language effectively logic execution place isolated sandboxed environment context usage refers cpu usage allotted particular chain logic space refers memory allocation initiated executing logic prevents execution code uses large quantity memory bandwidth refers input output consumption vm",
+    "metadata": {
+      "chunk_id": "8ff47896f5db139dc3664044f68552a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 49] cpu usage allotted particular chain logic space refers memory allocation initiated executing logic prevents execution code uses large quantity memory bandwidth refers input output consumption vm mechanisms place users executing logic effectively rent vm protocols specify mechanism requires user specify exactly resources given vm things occur produce response successful logic execution subsequent response exception logic execution exceeding proposed resource bounds logic event exception logic execution avm inform network event error response 4 3 3 chain oriented concurrency model blockchain networks classically considered serial usage state changes transactions occur serial provide determinism necessary consensus creates bottleneck transactions processed time period solution lies idea transaction parallelism particular transactions implemented context given information state require definition formalized transaction scheduler implemented allows deterministic parallel transaction",
+    "metadata": {
+      "chunk_id": "9e223e2428e230c4819e2578fc7eed52",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 50] transaction parallelism particular transactions implemented context given information state require definition formalized transaction scheduler implemented allows deterministic parallel transaction execution perspective avm support program level concurrency parallel processing multiple chain logic programs required goal avm envisioned scalable automatically clustering multiple vms scheduling contracts processed deterministic manner 4 4 scripting language aion scripting language writing chain logic runs aion 1 potentially connecting participating network aion language compiled avm bytecode executed avm aion language provides following features defensive programming blockchain runtime environment blockchain context injection security 4 4 1 specifications aion language complies subset java language specifications targeted blockchain logic accomplish existing bytecode reviewed possibly refactored fit given context additionally aion language specifications include blockchain runtime",
+    "metadata": {
+      "chunk_id": "a44f6769a181b5f912a905e5e357ac2b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 51] java language specifications targeted blockchain logic accomplish existing bytecode reviewed possibly refactored fit given context additionally aion language specifications include blockchain runtime development kit bre bdk intent provide developer highly optimized development libraries implement blockchain specific functionalities include limited sending transactions emitting events retrieving blockchain related data communication chain logic applications runtime environment replace conventional development kits found general compute purpose environments general users language expect syntactic structure completely unique development kit 4 4 2 defensive programming defensive programming supported aion language according past research 10 mistakes chain logic developers result unexpected input data runtime exceptions unexpected state change reentrance aion language provide mechanisms decrease possibility common errors mechanisms include aion verifies input data passing chain logic",
+    "metadata": {
+      "chunk_id": "cece0ac89669bc1d41ef6cb44ed20500",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 52] input data runtime exceptions unexpected state change reentrance aion language provide mechanisms decrease possibility common errors mechanisms include aion verifies input data passing chain logic validates output data execution nuco inc new alchemy aion generation blockchain network 19 5 roadmap scripting language introduces precondition postcondition assertion help programmers clearly organize thoughts defensive pattern try catch exceptions fully supported chain logic emphasizing handling application state post exception state rollbacks bounds array access checked runtime addition tooling provides means guiding developer mindsets adding warnings best practices areas unprotected code found features considered future 4 4 3 blockchain runtime environment blockchain runtime environment facilitates chain logic execution providing deterministic library library carefully tailored meet determinism requirements chain logic time access limited block time instead current system time object",
+    "metadata": {
+      "chunk_id": "7a366df612664dc0009346810da02dfb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 53] chain logic execution providing deterministic library library carefully tailored meet determinism requirements chain logic time access limited block time instead current system time object allocation implemented deterministic way memory address based functions continue work e g default hashcode function addition common utilities algorithms carefully examined included blockchain runtime environment 4 4 4 blockchain context injection dependency injection technique object supplies dependencies object allows client chain logic blockchain context flexibility configurable hides details dependencies provided aion scripting language blockchain context runtime information considered dependencies chain logic requires information declare requirements use annotations aion develops resources added injectable objects 4 4 5 security security aion language derived defensive nature language avm time space resource usage strictly gauged constrained additionally security emphasized tooling provided",
+    "metadata": {
+      "chunk_id": "c8ac93b6b71a7c09d273f06d9575e00c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 55] 5 0 1 phase 1 focus phase aion release schedule interchain communication bridging infrastructure mind phase 1 functionality include modified high performance evm functioning bridging interchain communication modified proof work consensus algorithm nuco inc new alchemy aion generation blockchain network 20 7 contact 5 0 2 phase 2 second phase aion release plan targeted migration modified evm architecture proposed avm architecture development priorities phase include aion virtual machine aion scripting language evm legacy codebase continued support 5 0 3 phase 3 phase finalizes envisioned network infrastructure providing infrastructure fast efficient interchain communication interchain applications addition interchain functionalities phase 1 vm implementation phase 2 phase introduce representative consensus including representative consensus algorithm 6 conclusion proposed solutions articulated paper result years implementation experimentation blockchain industry team aion particularly",
+    "metadata": {
+      "chunk_id": "2a31245e9e491a2c4731740b3614a51a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 57] realizing dream interconnectivity blockchain networks play crucial role future enterprise government public digital infrastructures coming months conducting depth research components introduced paper crafting live iteration project join aion network mailing list alerts detailed white papers related specific aspects aion 1 available date progress twitter github linkedin publication subject intellectual property rights exclusively owned nuco including copyright protection publication reproduced distributed transmitted form means including photocopying recording electronic mechanical methods prior written permission publisher nuco reserves intellectual property rights permission requests write hello aion network nuco inc new alchemy aion generation blockchain network 21 7 contact references 1 s nakamoto bitcoin peer peer electronic cash system 2008 online available https bitcoin org bitcoin pdf 2 v buterin ethereum whitepaper 2014 online available https github com ethereum wiki wiki",
+    "metadata": {
+      "chunk_id": "65625063610942bcf4531f1078ad717b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 58] 1 s nakamoto bitcoin peer peer electronic cash system 2008 online available https bitcoin org bitcoin pdf 2 v buterin ethereum whitepaper 2014 online available https github com ethereum wiki wiki white paper 3 m gray introducing project bletchley 2016 online available https github com azure azure blockchain projects blob master bletchley bletchley whitepaper md 4 bitshares delegated proof stake 2015 online available http docs bitshares org bitshares dpos html 5 o beddows m kordek lisk whitepaper 2016 online available https github com slasheks lisk whitepaper blob development liskwhitepaper md 6 miller y xia k croman e shi d song honey badger bft protocols 2016 7 c copeland h zhong tangaroa byzantine fault tolerant raft 2014 8 d mazi res stellar consensus protocol federated model internet level consensus 2015 9 s kamvar m schlosser h garcia molina eigentrust algorithm reputation management p2p networks 2003 10 l luu d h chu h olickel p saxena hobor making smart contracts smarter 2016",
+    "metadata": {
+      "chunk_id": "5df50218b938a37bf283c51e1d32b33a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "aion.txt"
+    }
+  },
+  {
+    "text": "[Section 59] level consensus 2015 9 s kamvar m schlosser h garcia molina eigentrust algorithm reputation management p2p networks 2003 10 l luu d h chu h olickel p saxena hobor making smart contracts smarter 2016 11 n atzei m batoletti c tiziana survey attacks ethereum smart contracts 2016 12 nasa jpf 2009 online available https babelfish arc nasa gov trac jpf wiki intro jpf 13 u maryland findbugs find bugs java programs 2015 online available http findbugs sourceforge net 14 pmd welcome pmd 2017 online available https pmd github io pmd 5 8 1 nuco inc new alchemy aion generation blockchain network 22",
+    "metadata": {
+      "chunk_id": "2448db7d8cc2573d2f6d37dc9286faba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "aion.txt"
+    }
+  }
+]

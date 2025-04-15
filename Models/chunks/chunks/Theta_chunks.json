@@ -1,0 +1,1290 @@
+[
+  {
+    "text": "[Section 1] b x0ca decentralized video delivery streaming network powered new blockchain updated nov 11 2018 version 2 0 abstract whitepaper introduces theta network new blockchain token incentive mechanism decentralized video streaming delivery network theta network protocol solves challenges video streaming industry faces today tokens theta blockchain incentive encourage individual users share redundant computing bandwidth resources caching relay nodes video streams improves quality stream delivery solves xe2 x80 x9clast mile xe2 x80 x9d delivery problem main bottleneck traditional content delivery pipelines especially high resolution high bitrate 4k 8k generation streams second sufficient network density majority viewers pull streams peering caching nodes allowing video platforms significantly reduce content delivery network cdn costs importantly introducing tokens end user incentive mechanism theta network allows video platforms deepen viewer engagement drive incremental revenues differentiate",
+    "metadata": {
+      "chunk_id": "160b805843e105f6bbf694e2244fbcf4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 2] content delivery network cdn costs importantly introducing tokens end user incentive mechanism theta network allows video platforms deepen viewer engagement drive incremental revenues differentiate content viewing experience competitors theta blockchain introduces main novel concepts xe2 x97 x8f multi level bft modified bft consensus mechanism allows thousands nodes participate consensus process supporting high transaction throughput 1 000 tps core idea small set nodes form validator committee produce chain blocks fast possible pbft like process thousands consensus participants called guardians finalize chain generated validator committee regular checkpoint blocks multi level bft consensus mechanism reflects fact validator guardian division provides multiple levels security guarantee validator committee provides level consensus xe2 x80 x94 10 20 validators committee come consensus quickly guardian pool forms second line defense thousands nodes substantially difficult attackers",
+    "metadata": {
+      "chunk_id": "ba210769827cac747555a5207968970c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 3] validator committee provides level consensus xe2 x80 x94 10 20 validators committee come consensus quickly guardian pool forms second line defense thousands nodes substantially difficult attackers compromise integrity network provides higher level security believe mechanism achieves good balance transaction throughput consistency level decentralization pillars called xe2 x80 x9cimpossible triangle xe2 x80 x9d xe2 x97 x8f aggregated signature gossip scheme basic broadcasting checkpoint block hash work guardian nodes yields quadratic communication overhead scale 1 000 nodes instead propose aggregated signature gossip scheme significantly reduces messaging complexity guardian node keeps combining partially aggregated signatures neighbors gossips aggregated signature way signature share node reach nodes exponential rate 2 x0cleveraging gossip protocol addition signature aggregation keeps size node node messages small reduces communication overhead xe2 x97 x8f resource oriented",
+    "metadata": {
+      "chunk_id": "d544056a86319f3235bf3b8594c9627a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 4] share node reach nodes exponential rate 2 x0cleveraging gossip protocol addition signature aggregation keeps size node node messages small reduces communication overhead xe2 x97 x8f resource oriented micropayment pool chain xe2 x80 x9cresource oriented micropayment pool xe2 x80 x9d purpose built video streaming allows user create chain micropayment pool user withdraw chain transactions double spend resistant flexible compared chain payment channels white paper describe concepts theta blockchain detail theta network launched erc20 compliant tokens integrated sliver tv platform december 2017 theta blockchain mainnet code released live mainnet implementation planned launch march 15 2019 time erc20 theta token exchanged 1 1 native theta tokens 3 x0ctable contents vision 5 introduction 5 background opportunity 7 9 video streaming market video streaming challenges 5 6 theta mesh delivery network 11 geo optimized tracker server 12 intelligent player client 13 theta blockchain ledger 14",
+    "metadata": {
+      "chunk_id": "2c38da232bb7cd16916f298f0ced4712",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 5] background opportunity 7 9 video streaming market video streaming challenges 5 6 theta mesh delivery network 11 geo optimized tracker server 12 intelligent player client 13 theta blockchain ledger 14 consensus mechanism multi level bft 15 15 system model block settlement process block proposal 17 17 18 block consensus validators analysis 19 20 block finalization process scaling thousands guardians analysis reward penalty validators guardians turing complete smart contract support chain micropayment support resource oriented micropayment pool double spending detection penalty analysis ledger storage system storage microservice architecture history pruning state synchronization dual currency system token mechanics 21 22 24 25 26 27 27 30 32 32 32 34 34 future work 36 founding advisory team 37 4 x0cvision introduction video streaming market live video streaming accounts thirds internet traffic today expected jump 82% 2020 according cisco xe2 x80 x99s june 2016 visual networking index",
+    "metadata": {
+      "chunk_id": "070c2a2567a9875c8cb5543899a12692",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 11] x80 x9cmethods systems non concentric spherical projection multi resolution view xe2 x80 x9d4 specifically addresses problem generating highly efficient spherical videos virtual reality vr streaming highlight replay technology performs non concentric spherical projection derive high resolution displays selected important game actions concurrently lower resolution displays static game environments optimizing tradeoff visual fidelity data transfer load sliver tv today leading generation live esports streaming platform million unique visits july 2018 vision transform esports engagement experience video gaming grown popularity $40 billion market bigger hollywood bollywood combined rise multiplayer competitive gaming 4 https patents google com patent us9998664b1 7 x0cspectator sport major new industry dubbed esports esports global phenomenon major tournaments major pockets fans competitive teams europe asia north america online gaming esports ecosystems exploded past years recent 2017",
+    "metadata": {
+      "chunk_id": "bead7e86fc72d6016f566d186b623409",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 14] fan engagement launch company attracted millions esports fans circulating 1 billion virtual tokens actively participating engaging live esports matches users viewed 50 million minutes live esports streaming nearly 100 years worth content weeks launch positions company largest esports streaming sites built virtual community today 10 sliver tv platform continuing expand quickly driven word mouth referral social channels 5 https www superdataresearch com market data gaming video content https www google com patents us9573062 https www google com patents us9473758 8 https patents google com patent us9782678b2 9 https venturebeat com 2017 03 16 polands intel extreme masters biggest event esports history 10 https www sliver tv press 6 7 8 x0cfigure 3 total visits desktop mobile web 6 months opportunity company xe2 x80 x99s mission leverage blockchain technology create decentralized video streaming delivery network video viewers incentivized share redundant computing bandwidth resources",
+    "metadata": {
+      "chunk_id": "509bc9c9323e358190caa9e26c44df74",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 15] opportunity company xe2 x80 x99s mission leverage blockchain technology create decentralized video streaming delivery network video viewers incentivized share redundant computing bandwidth resources address today xe2 x80 x99s video streaming challenges ethereum evm xe2 x80 x9cworld computer xe2 x80 x9d metaphor theta network viewed xe2 x80 x9cworld cache xe2 x80 x9d formed memory bandwidth resources contributed viewers specifically viewers globe contribute devices xe2 x80 x9ccaching nodes xe2 x80 x9d form video delivery mesh network responsible delivering given video stream viewers world optimized local theta network effectively address technical challenges discussed previous section viewers xe2 x80 x99 devices geographically closer cdn pops reduces packet round trip time improves stream delivery quality addresses xe2 x80 x9clast mile xe2 x80 x9d delivery issue second sufficient caching nodes viewers receive stream caching nodes help streaming sites reduce cdn bandwidth cost caching",
+    "metadata": {
+      "chunk_id": "d0c6dcab798e4f1428e565d4a9abd151",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 16] delivery quality addresses xe2 x80 x9clast mile xe2 x80 x9d delivery issue second sufficient caching nodes viewers receive stream caching nodes help streaming sites reduce cdn bandwidth cost caching nodes reduce round trip time making foveated generation streaming technology practical encourage viewers contribute computing bandwidth resources introduce theta token incentive mechanism caching nodes earn tokens relay video streams viewers theta token motivate viewers join network caching nodes greatly improves streaming market efficiency streamlining video delivery process discuss later paper theta network advertisers directly target viewers lower cost viewers earn theta tokens attention engagement favorite content influencers earn theta token gifts directly viewers interestingly streaming content platforms open new incremental revenue opportunities theta launch theta protocol introduces new blockchain native token structure 9 x0c xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97",
+    "metadata": {
+      "chunk_id": "0117048ad10e99270c9c73cdb91655ff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 17] content platforms open new incremental revenue opportunities theta launch theta protocol introduces new blockchain native token structure 9 x0c xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f caching nodes earn tokens caching relaying video streams viewers viewers optionally earn tokens advertisers engagement rewards turn gift favorite influencers content creators streaming sites platforms drive incremental new revenues sales premium goods services deepen user engagement theta advertisers fund advertising campaigns tokens support influencers streaming sites viewers streaming sites platforms offload 80% cdn costs theta protocol builds following novel concepts xe2 x97 x8f multi level bft modified bft consensus mechanism allows thousands nodes participate consensus process supporting high transaction throughput 1 000 tps core idea small set nodes forms validator committee produce chain blocks fast possible pbft like process thousands consensus participants called guardians",
+    "metadata": {
+      "chunk_id": "ab71bfd6798d5707b9b2c9c3f7113341",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 18] high transaction throughput 1 000 tps core idea small set nodes forms validator committee produce chain blocks fast possible pbft like process thousands consensus participants called guardians finalize chain generated validator committee regular checkpoint blocks multi level bft consensus mechanism reflects fact validator guardian division provides multiple levels security guarantee validator committee provides level protection xe2 x80 x94 10 20 validators committee come consensus quickly guardian pool forms second line defense thousands nodes substantially difficult attackers compromise provides higher level security believe mechanism achieves good balance transaction throughput consistency level decentralization pillars called xe2 x80 x9cimpossible triangle xe2 x80 x9d xe2 x97 x8f aggregated signature gossip scheme naive broadcasting checkpoint block hash work guardian nodes yields quadratic communication overhead scale 1 000 nodes instead propose aggregated signature gossip scheme",
+    "metadata": {
+      "chunk_id": "6381d942d66f958677dfb95158a75375",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 19] signature gossip scheme naive broadcasting checkpoint block hash work guardian nodes yields quadratic communication overhead scale 1 000 nodes instead propose aggregated signature gossip scheme significantly reduce messaging complexity guardian node keeps combining partially aggregated signatures neighbors gossips aggregated signature way signature share node reach nodes exponential speed thanks gossip protocol addition signature aggregation keeps size node node messages small reduces communication overhead xe2 x97 x8f resource oriented micropayment pool chain xe2 x80 x9cresource oriented micropayment pool xe2 x80 x9d purpose built video streaming allows user create chain micropayment pool user withdraw chain transactions double spend resistant flexible compared chain payment channels particular video streaming use case allows viewer pay video content pulled multiple caching nodes chain transactions replacing chain transactions chain payments built xe2 x80 x9cresource oriented",
+    "metadata": {
+      "chunk_id": "87d86b7f15ca02900c11dd3d0c146a60",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 20] particular video streaming use case allows viewer pay video content pulled multiple caching nodes chain transactions replacing chain transactions chain payments built xe2 x80 x9cresource oriented micropayment pool xe2 x80 x9d significantly improves scalability blockchain 10 x0ctheta mesh delivery network peer peer streaming focuses timely delivery audio video content strict near real time parameters peer peer livestream delivery works best people tune stream time high concurrent user count means peering resources available peer nodes pull stream effectively system capacity increases peer nodes available robustness system increased peer peer network nodes need rely centralized server retrieve content especially important cases server failure contrast centralized cdn based delivery high concurrent users instead place scalability pressures cdn servers shortcoming pure peer peer streaming availability peers come anytime makes difficult predict availability given peer node uncontrollable",
+    "metadata": {
+      "chunk_id": "9c26cea86083032b77aba20d223d118d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 21] users instead place scalability pressures cdn servers shortcoming pure peer peer streaming availability peers come anytime makes difficult predict availability given peer node uncontrollable differences nodes upload download capacities hand cdn service reliable robust serve reliable xe2 x80 x9cbackup xe2 x80 x9d stream available peer nodes goal achieve maximum cdn bandwidth reduction sacrificing quality service qos critical established streaming platforms netflix youtube twitch facebook means possible want peer nodes pull stream instead cdn achieve goal xe2 x80 x99s crucial peer nodes able identify neighboring nodes effectively node identify multiple peers close proximity chances find peers provide video stream segments consistently contrary identified peers xe2 x80 x9cfurther away xe2 x80 x9d terms network hops nodes able pull stream peers consistently cause degraded user experience like stuttering frequent rebuffering etc address problem theta designed currently implementing",
+    "metadata": {
+      "chunk_id": "fbf28a608439a41ea6e554861c5371bb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 22] xe2 x80 x9d terms network hops nodes able pull stream peers consistently cause degraded user experience like stuttering frequent rebuffering etc address problem theta designed currently implementing strategy combines hyper optimized tracker server player client intelligence essentially tracker server provides high level guidance e g list candidate peers player client player client implements peer filtering algorithm finer granularity based multiple variables find neighboring nodes best serve 11 x0cfigure 4 interactions tracker servers player clients geo optimized tracker server order provide list candidate peer nodes client tracker server records location information peer joins network including ip address latitude longitude number performance parameters information server organize nodes spatial database theta xe2 x80 x99s xe2 x80 x9chyper optimized xe2 x80 x9d spatial database optimized storing querying data represents objects defined geometric space peer node joins network server",
+    "metadata": {
+      "chunk_id": "8529ae5c5b53ed18885e525e46cd52aa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 23] spatial database theta xe2 x80 x99s xe2 x80 x9chyper optimized xe2 x80 x9d spatial database optimized storing querying data represents objects defined geometric space peer node joins network server perform spatial query retrieve list candidate peers close proximity quickly efficiently figure 4 tracker servers spatial databases maintained video streaming sites use theta network community peers content delivery mentioned earlier peer node leave network anytime tracker server needs aware nodes active achieve active peer node needs maintain socket connection server send heartbeat signals consistently server doesn xe2 x80 x99t receive heartbeat certain time considers peer node having left network updates spatial database accordingly important distinction xe2 x80 x9cdistance xe2 x80 x9d peer nodes measured number router hops geographical distance typically network distance geographical distance highly correlated aren xe2 x80 x99t necessarily equivalent example computers sit physically",
+    "metadata": {
+      "chunk_id": "37248d8add030284f2111bd468d59075",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 24] nodes measured number router hops geographical distance typically network distance geographical distance highly correlated aren xe2 x80 x99t necessarily equivalent example computers sit physically connect different isps hops aside geographical information tracker server utilizes connectivity ip addresses collected past analyze select neighbor candidates example candidates returned spatial query filter exclude connected isp viewer xe2 x80 x99s 12 x0cintelligent player client peer node act viewer caching node node launches handshake step retrieves list candidate peers tracker server livestream xe2 x80 x99s playing performs speed availability test select subset optimized performance connectivity reliably provide video stream segments client performs speed availability tests regularly live stream session continuously refines neighbor list figure 5 player stream data buffer handling avoid qos degradation local buffer management critical client player maintains local cache buffer downloaded",
+    "metadata": {
+      "chunk_id": "02a6820db6a79665c99bfd45c6b91635",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 26] xe2 x80 x99s mesh streaming technology light weight frictionless theta plans release desktop mobile client support advantage desktop client app web html5 player run background facilitate video stream relay consent user end user watching video streams theta investigating dedicated hardware iot devices smarttvs related approaches specifically designed stream relay broadcast devices provide potentially better availability bandwidth 13 x0ctheta blockchain ledger theta ledger decentralized ledger designed video streaming industry powers theta token ecosystem incentives end users share redundant bandwidth storage resources enables engage actively video platforms content creators realize goals number challenges unique video streaming applications need tackled challenges support ultra high transaction throughput blockchain projects facing transaction throughput problems scaling live video streaming different possibly complex typically video segments couple seconds long achieve finest",
+    "metadata": {
+      "chunk_id": "9ca1a5ba54d25c26e90273cdcaf25d4e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 27] transaction throughput blockchain projects facing transaction throughput problems scaling live video streaming different possibly complex typically video segments couple seconds long achieve finest granularity token reward xe2 x80 x94 micropayment video segment xe2 x80 x94 live stream moderate thousand concurrent viewers generate couple thousand microtransactions second far exceeds maximum throughput today xe2 x80 x99s public chains bitcoin ethereum popular live streams like major esport tournaments attract million viewers watching stream simultaneously mention multiple concurrent live streams potentially push required transaction throughput range millions second byproduct high throughput rapidly growing storage consumption storing micropayment transactions highly storage demanding tens thousands transactions added ledger second storage space ordinary computer run quickly video streaming applications typically require fast consensus bandwidth sharing rewards users contribute redundant",
+    "metadata": {
+      "chunk_id": "93e8e48c574d36467dc8a1ae19fcc0f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 28] transactions added ledger second storage space ordinary computer run quickly video streaming applications typically require fast consensus bandwidth sharing rewards users contribute redundant bandwidth typically want payment confirmed sending use cases virtual gift donations live stream hosts require short confirmation times enable real time interactions hosts audience finally blockchain security ledger critical security highly correlated level decentralization proof stake pos based consensus mechanism decentralization means stake distribution consensus participants ideally consensus mechanism allow thousands independent nodes similar amounts stake possessing local copy blockchain participate block finalization process compromise system significant independent nodes need controlled attackers difficult achieve achieve goals designed pos consensus algorithm based byzantine fault tolerance bft protocols offers good guarantees consistency k safety 2 3 nodes running ledger software honest",
+    "metadata": {
+      "chunk_id": "3442666957442e10d445d3280d6b40f6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 29] difficult achieve achieve goals designed pos consensus algorithm based byzantine fault tolerance bft protocols offers good guarantees consistency k safety 2 3 nodes running ledger software honest traditional bft algorithms allow high level decentralization typically incur o n2 messaging complexity normal non faulty proposer case n number nodes participating consensus protocol thousands nodes considerable time reach agreement paper present novel multi level bft consensus mechanism allows mass participation achieves 1000 tps throughput transaction confirmation time short seconds level transaction throughput higher bitcoin ethereum sufficient handle micropayments xe2 x80 x9cpay byte xe2 x80 x9d 14 x0cgranularity increase throughput theta ledger provides native support chain scaling xe2 x80 x9cresource oriented micropayment pool xe2 x80 x9d amplifies supportable throughput order magnitudes note chain payment support boosts throughput decreases number transactions need stored blockchain",
+    "metadata": {
+      "chunk_id": "8760f7aec5a86da8a078b7113d720317",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 30] x9cresource oriented micropayment pool xe2 x80 x9d amplifies supportable throughput order magnitudes note chain payment support boosts throughput decreases number transactions need stored blockchain introduce technique state block history pruning reduce storage space requirement adopted microservice architecture storage system adapt different types machines storage backends powerful server clusters running data centers commodity desktop pcs consensus mechanism multi level bft theta ledger built novel multi level bft consensus mechanism11 allows thousands nodes participate consensus process supporting high transaction throughput 1000 tps core idea small set nodes forms validator committee produce chain blocks fast possible pbft like12 process sufficient number validators e g 10 20 validator committee produce blocks fast speed retain high degree difficulty prevent adversary compromising integrity blockchain reasonable expect high probability validators produce chain blocks forks",
+    "metadata": {
+      "chunk_id": "68246db145352b909dbf0bb0eebde46c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 31] committee produce blocks fast speed retain high degree difficulty prevent adversary compromising integrity blockchain reasonable expect high probability validators produce chain blocks forks thousands consensus participants called guardians finalize chain generated validator committee xe2 x80 x9cfinalization xe2 x80 x9d means convince honest guardian 2 3 guardians chain blocks guardians validators longer time guardians reach consensus validator committee order guardians finalize chain blocks speed validator committee produces new blocks guardian nodes process blocks coarser grain specific need agree hash checkpoint blocks e blocks height multiple integer t e g t 100 xe2 x80 x9cleapfrogging xe2 x80 x9d finalization strategy leverages immutability characteristic blockchain data structure xe2 x80 x94 long guardian nodes agree hash block overwhelming probability exactly copy entire blockchain block finalizing checkpoint blocks gives sufficient time thousands guardians reach consensus",
+    "metadata": {
+      "chunk_id": "0c8bd02988b9a125f7175b55edd4f688",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 32] xe2 x80 x94 long guardian nodes agree hash block overwhelming probability exactly copy entire blockchain block finalizing checkpoint blocks gives sufficient time thousands guardians reach consensus strategy independent processes e block production finalization advance pace normal condition finalizing checkpoint block similar commit step celebrated pbft algorithm guardian stored checkpoint block locally checkpoint block signed validator committee highly likely honest guardians checkpoint need protocol honest guardians confirm 2 3 guardians checkpoint hash 11 12 depth discussion refer multi xc2 xadlevel bft technical report https github com thetatoken theta xc2 xadprotocol xc2 xadledger blob master docs multi xc2 xadlevel xc2 xadbft xc2 xadtech xc2 xadreport pdf castro et al practical byzantine fault tolerance 15 x0cto implement protocol naive broadcasting checkpoint block hash work yields quadratic communication overhead scale large numbers guardians instead propose aggregated",
+    "metadata": {
+      "chunk_id": "3ad93ec3a57091151850a7bf0c37845a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 33] byzantine fault tolerance 15 x0cto implement protocol naive broadcasting checkpoint block hash work yields quadratic communication overhead scale large numbers guardians instead propose aggregated signature gossip scheme significantly reduce messaging complexity core idea simple guardian node keeps combining partially aggregated signatures neighbors gossips aggregated signature compact bitmap encodes list signers way signature share node reach nodes exponential speed utilizing gossip protocol o log n iterations high probability honest guardian nodes string aggregates signatures honest nodes network partition addition signature aggregation keeps size node node messages small reduces communication overhead mentioned validator committee comprised limited set validator nodes typically range selected election process randomized process subject rotation improve security eligible join validator committee node needs lock certain stake period time slashed malicious behavior detected blocks",
+    "metadata": {
+      "chunk_id": "b62937a866eccad3f29bf4aaeb276292",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 34] selected election process randomized process subject rotation improve security eligible join validator committee node needs lock certain stake period time slashed malicious behavior detected blocks committee reaches consensus called settled blocks process settle blocks called block settlement process guardian pool superset validator committee e validator guardian pool contains large number nodes range thousands certain tokens locked period time node network instantly guardian guardians download examine chain blocks generated validator committee try reach consensus checkpoints described xe2 x80 x9cleapfrogging xe2 x80 x9d approach allowing mass participation greatly enhance transaction security blocks guardian pool reached consensus called finalized blocks process finalize blocks called block finalization process multi level bft consensus mechanism reflects fact validator guardian division provides multiple levels security guarantee validator committee provides level protection xe2 x80",
+    "metadata": {
+      "chunk_id": "a33f0dad7216f3df427ffe0c376e0107",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 35] finalization process multi level bft consensus mechanism reflects fact validator guardian division provides multiple levels security guarantee validator committee provides level protection xe2 x80 x94 10 20 validators committee come consensus quickly resistant attacks xe2 x80 x94 fact provides similar level security compared dpos mechanism validator nodes run independent entity transaction considered safe included settled block especially low stake transactions guardian pool forms second line defense thousands nodes substantially difficult attackers compromise blockchain integrity provides higher level security unlikely event validator committee fully controlled attackers guardians elect validators blockchain restart advancing recent block finalized guardians transaction considered irreversible included finalized block believe mechanism achieves good balance transaction throughput consistency level decentralization corners called xe2 x80 x9cimpossible triangle xe2 x80 x9d multi level",
+    "metadata": {
+      "chunk_id": "6580827b7eecf42710a1f6b7dec1df0d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 36] included finalized block believe mechanism achieves good balance transaction throughput consistency level decentralization corners called xe2 x80 x9cimpossible triangle xe2 x80 x9d multi level security scheme suits video streaming applications streaming platforms transactions micropayments e g payment peer bandwidth virtual gifts hosts etc typically low value require fast confirmation low stake payments users need wait block settlement fast matter seconds high stake transfers user wait longer block 16 x0ccontaining transaction finalized slightly longer time range minutes system model diving details block settlement finalization process list assumptions system ease discussion loss generality assume node validator guardian stake extending algorithms general case different nodes different stake straightforward validator committee failure model m validator nodes total time byzantine nodes fully controlled attackers happens rarely assume pair validator nodes direct message channel e g",
+    "metadata": {
+      "chunk_id": "9b39b253be48543ad7659102e517743d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 38] eventual liveness achieved attacker model assume powerful attackers corrupt large number targeted nodes guardians simultaneously manipulate network large scale partition network bounded period time computationally bounded forge fake signatures invert cryptographic hashes block settlement process block settlement process validator committee reaches agreement produces chain blocks guardian pool finalize inspired recent proof stake research works including tendermint13 casper ffg14 hot stuff15 designed implemented block settlement algorithm described employs rotating block proposer strategy validators turns propose new blocks committee votes blocks determine order protocol similar casper ffg hot stuff 13 14 15 buchman et al tendermint byzantine fault tolerance age blockchains buterin et al casper friendly finality gadget yin et al hotstuff bft consensus lens blockchain 17 x0cblock proposal validators rotate round robin fashion play role block proposer responsible proposing block",
+    "metadata": {
+      "chunk_id": "c97ab5e4090a18267bd7379e938037a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 39] et al casper friendly finality gadget yin et al hotstuff bft consensus lens blockchain 17 x0cblock proposal validators rotate round robin fashion play role block proposer responsible proposing block validator committee vote enable round robin rotation proposer maintains local logical clock called epoch assuming m validators epoch t validator index t mod m elected proposer epoch note important 1 epoch t stalled liveness proposer rotation guaranteed 2 epoch t different validators sync e time validators t value agree node produce block protocol proposer election block proposal algorithm 1 round robin block proposal t xe2 x86 x90 0 proposer xe2 x86 x90 0 voted xe2 x86 x90 false received xe2 x86 x90 false timeout xe2 x86 x90 false loop begin proposer xe2 x86 x90 t mod m proposer self index proposed begin node elected proposer propose block end voted xe2 x86 x90 node proposed voted block epoch t received xe2 x86 x90 node received m 3 1 epochchange t 1 messages timeout xe2 x86 x90 timeout",
+    "metadata": {
+      "chunk_id": "60a7234ea1cc474fca8b0bad8c5af1e8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 40] begin node elected proposer propose block end voted xe2 x86 x90 node proposed voted block epoch t received xe2 x86 x90 node received m 3 1 epochchange t 1 messages timeout xe2 x86 x90 timeout reached voted received timeout begin broadcast message epochchange t 1 end node received 2m 3 epochchange t 1 messages begin t xe2 x86 x90 t 1 enters epoch t 1 voted xe2 x86 x90 false received xe2 x86 x90 false timeout xe2 x86 x90 false end sleep time end algorithm 1 round robin block proposal protocol protocol defines message epochchange t 1 viewed synchronization message passed validators assist advance epoch t 1 essentially validator broadcasts message epochchange t 1 validators following conditions met 1 node proposed voted block epoch t 2 node received m 3 1 epochchange t 1 messages validators 3 node timed epoch t timeout set 4 xce x94 18 x0con hand validator enters epoch t 1 received 2m 3 epochchange t 1 messages nodes protocol meets requirements eventual progression honest nodes eventually",
+    "metadata": {
+      "chunk_id": "7453e4de13204333be5f9f1cffd3426a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 42] t 1 messages triggers broadcast epochchange t 1 message xce x94 honest nodes receive 2m 3 epochchange t 1 messages enter epoch t 1 2 xce x94 honest node enters epoch t 1 honest node enters epoch practice network latency small honest nodes enter epoch t 1 time result agree proposer note actual implementation epochchange t 1 messages combined types messages e g block votes improve efficiency normal case proposer failure additional synchronization overhead added system epoch changes block consensus validators protocol settle proposed blocks involves pbft based voting procedure validators similar casper ffg hot stuff theta ledger blockchain header block contains hash pointer parent block e previous block chain similar bitcoin ethereum blocks conflicting block ancestor multiple conflicting block proposals epoch honest validator keeps settled discards conflicting blocks block settlement protocol operates epoch epoch proposer current epoch sends validators block proposal validator reacts",
+    "metadata": {
+      "chunk_id": "0eeecc0667e66afaa0c8c2d414ccc427",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 44] predecessors considered settled ensure safety require honest nodes vote block conflicts settled block forks faulty proposer asynchrony honest nodes vote blocks longest fork figure illustrates block settlement process assume proposer height 101 faulty proposed conflicting blocks x101 y101 leads branches assuming block x101 y101 gets xe2 x89 xa5 2m 3 1 votes header x102 y102 contains commit certificate denoted nil figure point branch x grows faster consecutive blocks x102 x103 obtain xe2 x89 xa5 2m 3 1 votes upper branch x block x102 considered settled lower branch y discarded figure 6 block settlement process example illustrates advantage implementation compared pbft based protocols like tendermint xe2 x80 x94 block receive commit certificate included settled chain long successor blocks settled instance block x101 example commit certificate block x102 settled considered settled reduces waste computation power helps increase transaction throughput analysis safety safety means honest",
+    "metadata": {
+      "chunk_id": "0cb76ca30ce785054617444e686ac35b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 45] settled instance block x101 example commit certificate block x102 settled considered settled reduces waste computation power helps increase transaction throughput analysis safety safety means honest validators agree chain blocks precisely honest validator accepts block future blocks accepted honest validators appear chain blocks contains argument safety similar casper ffg hot stuff omitted want point safety stems requirement honest nodes vote block conflicts settled block liveness liveness means validator committee makes progress e able produce agree new blocks timing model synchronous periods committee achieve liveness goal xe2 x80 x9cblock proposal xe2 x80 x9d section proved epoch advance honest 20 x0cvalidators march forward epoch proposer honest validator propose new block block settlement process liveness depends synchronous periods infinitely epochs proposers row honest wait sufficiently long form commit certificate note guaranteed happen infinitely round robin rotation 2 3",
+    "metadata": {
+      "chunk_id": "160681599604ab69632b26e0d42c7ee4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 46] process liveness depends synchronous periods infinitely epochs proposers row honest wait sufficiently long form commit certificate note guaranteed happen infinitely round robin rotation 2 3 validators honest transaction throughput validators committee produce settle chain blocks quickly average block production settlement time order seconds leads high throughput 1000 transactions second block finalization process section discuss xe2 x80 x9cleapfrogging xe2 x80 x9d block finalization process detail mentioned guardians need reach consensus hashes checkpoint blocks blocks heights multiple integer t e g t 100 sufficient finalize checkpoint blocks note transaction execution engine blockchain software viewed xe2 x80 x9cdeterministic state machine xe2 x80 x9d transaction viewed deterministic state transfer function nodes run state machine identical initial state executing sequence transactions reach identical end state note true transactions invalid long transactions detected state machine",
+    "metadata": {
+      "chunk_id": "f51988ccb9b08df53368e4e45beba030",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 47] transfer function nodes run state machine identical initial state executing sequence transactions reach identical end state note true transactions invalid long transactions detected state machine skipped example assume transaction tries spend tokens balance source account state machine simply skip transaction performing sanity check way xe2 x80 x9cbad xe2 x80 x9d transactions impact state context blockchain honest nodes copy blockchain ensured arrive end state processing blocks order caveat xe2 x80 x94 blockchain contain huge data honest nodes compare chain blocks efficiently immutability characteristic blockchain data structure highly relevant header block contains hash previous block long nodes hash checkpoint block overwhelming probability identical chain blocks genesis checkpoint course guardian node needs verify integrity blockchain particular block hash embedded block header actually hash previous block note node perform integrity checks communication nodes required",
+    "metadata": {
+      "chunk_id": "0a661b7d1638f18746d4f6e6cda1de92",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 48] course guardian node needs verify integrity blockchain particular block hash embedded block header actually hash previous block note node perform integrity checks communication nodes required interestingly immutability characteristic enhances tolerance network asynchrony partition network partition guardians able reach consensus hash checkpoint network recovered vote checkpoint reach agreement blocks checkpoint finalized regardless consensus current checkpoint provide byzantine fault tolerance honest node needs assured thirds guardians checkpoint block hash needs receive 21 x0csignatures checkpoint hash guardians node mark checkpoint finalized ensure safety similar xe2 x80 x9ccommit xe2 x80 x9d step celebrated pbft protocol guardians need vote checkpoint hashes t blocks time reach consensus straightforward implementation checkpoint finalization follow pbft xe2 x80 x9ccommit xe2 x80 x9d step guardian broadcasts signature guardians requires node send receive process o n messages message",
+    "metadata": {
+      "chunk_id": "0ef2a2dbf3c2919f9157a35383f71b9d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 49] straightforward implementation checkpoint finalization follow pbft xe2 x80 x9ccommit xe2 x80 x9d step guardian broadcasts signature guardians requires node send receive process o n messages message couple kilobytes long t blocks time approach scale couple guardian nodes select large t value undesirable increases block finalization latency scaling thousands guardians reduce communication complexity scale thousands guardians designed aggregated signature gossip scheme inspired bls signature aggregation technique16 gossip protocol scheme requires guardian node process smaller number messages reach consensus practical steps aggregated signature gossip protocol uses bls algorithm signature aggregation algorithm 2 aggregated signature gossip finalized xe2 x86 x90 false xcf x83 xe2 x86 x90 signbls ski heightcp hashcp ci xe2 x86 x90 initsignervector t 1 l begin send xcf x83 ci neighboring guardians finalized break wait xcf x83 j cj neighbors timeout verify xcf x83 j cj discard invalid xe2 x86",
+    "metadata": {
+      "chunk_id": "8867efd8cea4c4a4bb16fba176f69527",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 50] ski heightcp hashcp ci xe2 x86 x90 initsignervector t 1 l begin send xcf x83 ci neighboring guardians finalized break wait xcf x83 j cj neighbors timeout verify xcf x83 j cj discard invalid xe2 x86 x90 xcf x83 xe2 x88 x99 xe2 x88 x8f xcf x83 c xe2 x86 x90 c xe2 x88 x91 c mod p calculate number unique signers s xe2 x86 x90 xe2 x88 x91 c k 0 aggregate valid signatures xcf x83 j j n j j s xe2 x89 xa5 23 n finalized xe2 x86 x90 true end algorithm 2 aggregated signature gossip protocol core idea simple guardian node keeps combining partially aggregated signatures neighbors gossips newly aggregated signature way signature share node reach nodes exponential speed gossip protocol addition signature aggregation keeps size messages small reduces communication overhead diagram index current guardian node line protocol uses function signbls generate initial aggregated signature xcf x83 essentially signs 16 boneh et al survey signature aggregation techniques 22 x0cmessage concatenation height hash",
+    "metadata": {
+      "chunk_id": "e2eb8991eca69c90795c7b9854c988f4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 51] node line protocol uses function signbls generate initial aggregated signature xcf x83 essentially signs 16 boneh et al survey signature aggregation techniques 22 x0cmessage concatenation height hash checkpoint block bls signature algorithm multiplicative cyclic group g prime order p generator g hi xe2 x86 x90 h pk height xcf x83 xe2 x86 x90 h cp hashcp sk xc3 x97 xe2 x86 x92 formula function h g 0 1 g hash function takes public key pki message input prevent rogue public key attack17 protocol uses function initsignervector initialize signer vector ci n dimensional integer vector jth entry represents times jth guardian signed aggregated signature initialization ith entry set 1 remaining entries set 0 initialization guardian enters loop iteration guardian sends current aggregated signature xcf x83 signer vector ci neighbors considered checkpoint finalized waits signature signer vector neighbors waits timeout receiving signature signer vectors checks validity xcf x83 j cj bls aggregated",
+    "metadata": {
+      "chunk_id": "2f0b22b375f45cc751a72a6163f55e63",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 52] xcf x83 signer vector ci neighbors considered checkpoint finalized waits signature signer vector neighbors waits timeout receiving signature signer vectors checks validity xcf x83 j cj bls aggregated signature verification algorithm hu xe2 x86 x90 h pk height u check e xcf x83j g cp hashcp n c u xe2 x88 x8f e hu pku j u xc3 x97 xe2 x86 x92 xc3 x97 e g g gt bilinear mapping function g g gt multiplicative cyclic group prime order p invalid signatures associated signer vectors discarded aggregation step worth pointing heightcp hashcp check requires public key pku relevant guardians input information available locally guardian locks stake public key attached stake locking transaction written blockchain communication nodes necessary retrieve inputs aggregation step aggregates bls signature xcf x83 j updates signer vector cj note vector update mod p entry e hu pku gt multiplicative cyclic group prime order p guarantees entries vector cj represented limited number bits xe2 x88 x88 xcf x83i",
+    "metadata": {
+      "chunk_id": "840db674cd298726e221a85b2f49bfe4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 54] signed guardians network partitioned loop l iterations l order o log n allow signature propagate network analysis aggregated signature gossip correctness prove correctness aggregated signature gossip protocol need prove claims aggregated signature correctly formed honest nodes according algorithm 2 pass check given formula 4 second aggregated signature secure forgery stated formally forging fake aggregated signature context algorithm 2 means find xcf x83 xe2 x88 x88 g integers c1 c2 xe2 x80 xa6 cn satisfy equation n c e xcf x83 g xe2 x88 x8f e hu pku u u 1 randomly chosen pk1 g sk1 xe2 x80 xa6 pkn g skn xe2 x88 x88 g random message hashes h1 xe2 x80 xa6 hn xe2 x88 x88 g shown hard computational diffie hellman cdh problem proof claims refer multi level bft technical report finalization safety safety block finalization easy prove 2 3 supermajority honesty assumption checkpoint hashes height aggregated signatures 2 3 guardians honest guardian sign different hashes height possible",
+    "metadata": {
+      "chunk_id": "b18dfdd2489f93885126b79fe4cc9e38",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 55] safety safety block finalization easy prove 2 3 supermajority honesty assumption checkpoint hashes height aggregated signatures 2 3 guardians honest guardian sign different hashes height possible finalization liveness network partition long l large highly likely o log n iteration honest nodes aggregated signature combines signatures honest signers similar gossip protocol robustly spread message network o log n time 1 3 byzantine nodes network partition consensus checkpoint able reach finalization network partition guardian pool proceed finalize checkpoint block consensus reached blocks checkpoint considered finalized finalization process progress eventually messaging complexity aggregated signature gossip protocol runs l iterations order o log n iteration guardian needs send message xcf x83 ci neighboring guardians depending network topology typically reasonable assume average node number neighboring nodes constant e number neighbors grow total number nodes grows number message node",
+    "metadata": {
+      "chunk_id": "d1c2887c320b7cabc48f2a50374e7b83",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 57] kilobytes long plus aggregated signature size message typically kilobytes range assume average guardian connects 20 guardians l small 5 twice log20 1000 2 3 means finalizing checkpoint requires guardian send receive 100 messages neighbors couple kilobytes long renders aggregated signature gossip protocol practical implement easily scale thousands guardian nodes analysis refer multi level bft technical report reward penalty validators guardians token reward penalty structure essential encourage nodes participate consensus process deviate protocol validators guardians obtain token reward block includes special coinbase transaction deposits newly minted tokens validator guardian addresses validators share tokens block guardians rewarding guardian block practical number large instead propose following algorithm randomly pick limited number guardians reward recipient block denote height newly proposed block l cp recently finalized checkpoint proposer received aggregated signature xcf x83",
+    "metadata": {
+      "chunk_id": "3cca5926390b6b14a58e1fe3e9b201ac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 58] following algorithm randomly pick limited number guardians reward recipient block denote height newly proposed block l cp recently finalized checkpoint proposer received aggregated signature xcf x83 cp corresponding signer vector ccp checkpoint cp validating xcf x83 cp ccp proposer check following condition guardian corresponding entry vector ccp zero e guardian signed checkpoint h pki xcf x83 cp b l xe2 x88 x921 xe2 x89 xa4 xcf x84 xe2 x88 x92 xc3 x97 xe2 x86 x92 b l xe2 x88 x921 hash block height l 1 h g 0 1 g hash function bls signature algorithm inequality holds proposer adds guardian public key pki coinbase transaction recipient list threshold xcf x84 chosen properly small number guardians included proposer attach xcf x83 cp ccp coinbase transaction proof reward theta ledger enforces token penalty malicious behavior detected particular block proposer signs conflicting blocks height validator votes different blocks height penalized earlier mentioned validator guardian node needs",
+    "metadata": {
+      "chunk_id": "f9b25cebb2d19df75b459c2d80bd14e2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 59] token penalty malicious behavior detected particular block proposer signs conflicting blocks height validator votes different blocks height penalized earlier mentioned validator guardian node needs lock certain tokens period time penalty deducted locked tokens node detects malicious behavior submit special slash transaction blockchain proof 25 x0cthe malicious behavior e g signatures conflicting blocks attached slash transaction penalty tokens pulled malicious node awarded node submitted slash transaction unlikely event validators compromised malicious validators attempt perform double spending attack forking blockchain block settled finalized detectable guardian pool forking generate multiple blocks height signed validators case validators conducted double signing penalized entire validator committee elected validator committee reinstated blockchain continue advance recent finalized checkpoint turing complete smart contract support theta ledger offers smart contract runtime",
+    "metadata": {
+      "chunk_id": "41ab40aa5e549d03acbfb94f5e2e3150",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 21.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 60] validator committee elected validator committee reinstated blockchain continue advance recent finalized checkpoint turing complete smart contract support theta ledger offers smart contract runtime environment fully compatible ethereum virtual machine18 provides fledged support turing complete smart contracts solidity based ethereum smart contracts ported theta ledger little effort solidity19 grown large developer community prospect allowing proven talent pool contribute theta reinventing wheel prime consideration enabling compatibility ethereum virtual machine smart contracts enable rich user experiences new attribution models video platform dapps built theta ledger example video platforms write smart contracts loyalty programs engage users based users xe2 x80 x99 activity volume video segments data relayed platform dapps promote users higher tier unlocks certain privileges exclusive capabilities example video platforms issue virtual items backed ledger blockchain e g virtual rose",
+    "metadata": {
+      "chunk_id": "e782e2ac460bfe33eebcc487fc7c4724",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 61] segments data relayed platform dapps promote users higher tier unlocks certain privileges exclusive capabilities example video platforms issue virtual items backed ledger blockchain e g virtual rose gifting favorite content creators expand concept built xe2 x80 x9cnon fungible token xe2 x80 x9d standard virtual items rare entirely unique essentially xe2 x80 x9ccrypto collectibles xe2 x80 x9d kept trophies traded sought collectibles additional permissions 3rd parties video platforms able write smart contracts enable fluid payment consumption models pay use models instead traditional annual monthly subscriptions user consumption priced bite sized granularity users need pay use feasible way allow low priced short form content transacted economically sensible way accrues benefits video platform user theta ledger xe2 x80 x99s properties tracking micropayments video segments enables smart contracts executed smart contracts designed benefit content creators e g user generated content",
+    "metadata": {
+      "chunk_id": "861653e15153ac56322c3c359b207e61",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 62] platform user theta ledger xe2 x80 x99s properties tracking micropayments video segments enables smart contracts executed smart contracts designed benefit content creators e g user generated content producers larger production studios way fairly transparently distribute royalties traditional royalty settlement processes complexities obscurities accommodated clear smart contract terms mutually agreed creators distributors available users consume content 18 19 https github com ethereum wiki wiki ethereum virtual machine evm awesome list https solidity readthedocs io 26 x0cleveraging smart contracts theta ledger enable fully digitized item ownership innovative payment consumption models transparent royalty distributions provide additional layer social economic interactivity supplements core functionality video content delivery chain micropayment support discussed introduction section support high transaction throughput video streaming focused blockchain build support chain payment",
+    "metadata": {
+      "chunk_id": "cfdc92c7d667027d8710136d0b8ced25",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 63] core functionality video content delivery chain micropayment support discussed introduction section support high transaction throughput video streaming focused blockchain build support chain payment directly ledger facilitate high volumes transactions resource oriented micropayment pool designed implemented chain xe2 x80 x9cresource oriented micropayment pool xe2 x80 x9d purpose built video streaming allows user create chain micropayment pool user withdraw chain transactions double spend resistant flexible compared chain payment channels particular video streaming use case allows viewer pay video content pulled multiple caching nodes chain transactions replacing chain transactions chain payments built xe2 x80 x9cresource oriented micropayment pool xe2 x80 x9d significantly improves scalability blockchain following scenario diagram provide comprehensive walkthrough resource oriented micropayment pool works application 27 x0cfigure 7 resource oriented micropayment pool shows viewer",
+    "metadata": {
+      "chunk_id": "9ff8ef08eeb15be31ba83168efef85d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 64] blockchain following scenario diagram provide comprehensive walkthrough resource oriented micropayment pool works application 27 x0cfigure 7 resource oriented micropayment pool shows viewer alice making chain transactions cachers bob carol video chunks xe2 x97 x8f step 1 micropayment pool creation step alice publishes chain transaction create micropayment pool time lock slashable collateral createpool resourceid deposit collateral duration couple things noted create pool alice needs specify xe2 x80 x9cresource id xe2 x80 x9d resourceid uniquely represents digital content intends retrieve refer video file live stream deposit needs total value resource retrieved instance resource video file worth 10 tokens deposit 10 tokens 28 x0cthe collateral required discourage alice double spending double spending attempt alice detected validators blockchain collateral slashed later blogpost collateral deposit net return double spend negative rational user incentive double spend duration time lock",
+    "metadata": {
+      "chunk_id": "38c52b842b10aecbd65b8519a379bb96",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 65] spending attempt alice detected validators blockchain collateral slashed later blogpost collateral deposit net return double spend negative rational user incentive double spend duration time lock similar standard payment channel withdrawal payment pool time lock expires blockchain returns alice merkle proof createpool transaction committed blockchain createpooltxhash transaction hash createpool transaction xe2 x97 x8f step 2 initial handshake peers alice wants retrieve specified resource peer bob carol david etc sends merkle proof chain createpool transaction peer recipient peer verifies merkle proof ensure pool sufficient deposit collateral requested resource parties proceed steps xe2 x97 x8f step 3 chain micropayments alice signs servicepayment transactions sends peers chain exchange parts specified resource e g piece video file live stream segment etc servicepayment transaction contains following data targetaddress transferamount createpooltxhash targetsettlementsequence sign ska",
+    "metadata": {
+      "chunk_id": "56173cb4a5dc82e73a5b94c143184f3f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 66] specified resource e g piece video file live stream segment etc servicepayment transaction contains following data targetaddress transferamount createpooltxhash targetsettlementsequence sign ska targetaddress transferamount createpooltxhash targetsettlementsequence targetaddress address peer alice retrieves resource transferamount token payment alice intends send targetsettlementsequence prevent replay attack similar xe2 x80 x9cnonce xe2 x80 x9d parameter ethereum transaction target publishes servicepayment transaction blockchain step targetsettlementsequence needs increment recipient peer needs verify chain transactions signatures validation peer send alice resource specified createpool transaction note chain servicepayment transactions sent directly peers scalability bottleneck step xe2 x97 x8f step 4 chain settlement peer e bob carol david etc received servicepayment transactions alice publish signed transactions blockchain anytime timelock expires withdraw tokens servicepayment",
+    "metadata": {
+      "chunk_id": "af03de7ff9b8d25641d06190509a4640",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 67] x97 x8f step 4 chain settlement peer e bob carol david etc received servicepayment transactions alice publish signed transactions blockchain anytime timelock expires withdraw tokens servicepayment transactions published xe2 x80 x9con chain settlement xe2 x80 x9d transactions note recipient peers needs pay gas fee chain settlement transaction pay transaction fees incentive publish chain settlements necessary beneficial scalability network 29 x0cwe note chain transaction needed alice switches peer retrieve resource video streaming context means viewer switch caching node time making chain transaction potentially block delay video stream delivery shown figure event bob leaves alice switch carol receiving k chunks bob receiving video segments chain transaction total tokens needed create micropayment pool collateral deposit low twice value requested resource matter peers alice retrieves resource computational complexity language reserved token reduces o n o 1 compared unidirectional",
+    "metadata": {
+      "chunk_id": "fdff74375fb85c3f52756fa3ce3a6434",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 68] micropayment pool collateral deposit low twice value requested resource matter peers alice retrieves resource computational complexity language reserved token reduces o n o 1 compared unidirectional payment channel approach n number peers alice retrieves resource double spending detection penalty analysis prevent alice creator micropayment pool double spending need 1 able detect double spending 2 ensure net value alice gains double spending strictly negative detecting double spending relatively straightforward validators theta network check chain transaction remaining deposit micropayment pool cover consolidated payment transaction signed alice peer validators consider alice conducted double spend need alice worse double spends collateral comes earlier mentioned collateral tokens larger deposit figure 8 bob carol david honest alice malicious worse colludes malicious peer edward alice exchanges partially signed transactions bob carol david specified resource alice gains extra value",
+    "metadata": {
+      "chunk_id": "9dec294fff3d39fb177c549d635d237a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 69] deposit figure 8 bob carol david honest alice malicious worse colludes malicious peer edward alice exchanges partially signed transactions bob carol david specified resource alice gains extra value duplicated resource maximum value gets bob carol david deposit alice colludes edward send edward deposit asks edward commit settlement transaction return deposit later words alice gets resource worth deposit free double spending detected later bob carol david commit settlement transaction double spending detected collateral slashed net return alice netalice deposit xc2 xad collateral conclude scenario long collateral deposit alice xe2 x80 x99s net return negative alice rational incentive double spend conduct similar analysis cases details omitted shown cases alice xe2 x80 x99s net return negative conducts double spend case alice honest peers malicious alice sends micropayment peers return alice resource wants case alice turn peer resource incremental micropayment infinitesimally small",
+    "metadata": {
+      "chunk_id": "c4f5838e1cd1e62c7d3033b7a890262a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 70] conducts double spend case alice honest peers malicious alice sends micropayment peers return alice resource wants case alice turn peer resource incremental micropayment infinitesimally small theory alice xe2 x80 x99s loss arbitrarily small 30 x0cfigure 8 malicious actor detection penalty shows malicious actor alice attempting double spend resulting penalty receives 31 x0cledger storage system public ledger facilitate micropayments streaming challenging high transaction throughput storage space management achieve xe2 x80 x9cpay byte xe2 x80 x9d granularity viewer send payment seconds moderate thousand concurrent users generate couple thousands transactions second chain payment pool reduces chain transactions dramatically block state data balloon quickly designed storage system addresses problem adapt different types machines powerful server cluster running data centers commodity desktop pc storage microservice architecture harness processing storage power server clusters key design",
+    "metadata": {
+      "chunk_id": "f43565bffc5576259ca732866a2fe1d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 71] problem adapt different types machines powerful server cluster running data centers commodity desktop pc storage microservice architecture harness processing storage power server clusters key design decision adopt popular microservice architecture commonly seen modern web service backends different modules ledger configured run different machines particular consensus module storage module separated potentially consensus module run multiple machines mapreduce framework process transactions parallel theta ledger stores transaction blocks account state history similar ethereum layer storage module key value store theta ledger implements interfaces multiple databases ranging single machine leveldb cloud based nosql database mongodb store virtually unlimited data ledger run single computer configured run server clusters history pruning microservice architecture suits powerful server clusters face storage space constraints running ledger lower end home pc designed techniques reduce storage",
+    "metadata": {
+      "chunk_id": "e57a10e3156a84260efb233cc5d7ed7d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 72] run server clusters history pruning microservice architecture suits powerful server clusters face storage space constraints running ledger lower end home pc designed techniques reduce storage consumption similar ethereum theta ledger stores entire state block state tree root saved header corresponding block reduce space consumed state history theta ledger implements state history pruning leverages technique called reference counting illustrated figure 32 x0cfigure 9 state history pruning reference counting ledger state e token balance account etc stored merkle patricia trie figure 9 depicts initial state tree root denoted state 0 node tree attribute called xe2 x80 x9creference count xe2 x80 x9d equal number parents node initial state tree node parent reference count set 1 figure 9 b account updated applying transactions newly settled block new merkle state root state 1 created merkle branch connecting new root state 1 blue nodes edges new nodes added update reference count direct",
+    "metadata": {
+      "chunk_id": "d9cfa42ce59dc08e7c6836fff03e075f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 73] updated applying transactions newly settled block new merkle state root state 1 created merkle branch connecting new root state 1 blue nodes edges new nodes added update reference count direct children new nodes 1 2 point decided delete state 0 save storage space deleting nodes reference count zero recursively starting root state 0 node deleted node deleted reference count children decremented figure 9 c illustrates process figure 9 d shows result pruning achieve maximum level state storage compaction block finalized guardian pool delete history prior block ledger configured limited history states example state trees latest 1000 blocks depending available storage space shown reference counting technique pruning state tree time complexity o k log n k number accounts updated transactions block n total number accounts typically k range couple hundreds thousand pruning state tree pretty efficient time 33 x0cmanaging space consumed transaction blocks simpler block finalized simply delete",
+    "metadata": {
+      "chunk_id": "224d5b0a546a0e5ce16c80ed928fcc8e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 74] n total number accounts typically k range couple hundreds thousand pruning state tree pretty efficient time 33 x0cmanaging space consumed transaction blocks simpler block finalized simply delete previous blocks limited history similar state trees techniques common pcs laptops sufficient run guardian nodes state synchronization pain points earlier generation blockchains state synchronization time spinning new node typically needs download block history way genesis block days complete hurdle user adoption state block history stored nodes help reduce synchronization time dramatically new node start step download validator guardian join leave transactions headers blocks contain special transaction latest finalized block special transactions headers contain validator guardian signatures new node derive current validator committee guardian pool validator guardian set changes relatively infrequent data need downloaded verified step minimal second step new node downloads state tree",
+    "metadata": {
+      "chunk_id": "f3efe986daf6d902c9bc7232e25e6fe7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 75] new node derive current validator committee guardian pool validator guardian set changes relatively infrequent data need downloaded verified step minimal second step new node downloads state tree corresponding latest finalized block needs confirm root hash tree equals state hash stored latest finalized block finally new node verifies integrity state tree e g validity merkle branches checks passed new node start listening new blocks start participating consensus process dual currency system token mechanics interest securing network installing proper governance managing usage network theta blockchain use dual currency system theta token stake secure govern theta network individual operations video segment transactions smart contract operations etc paid operational token gamma key reasons introduce second token allows utility purpose token separated theta strictly staking securing network gamma power utility based operations network necessary staking inherently decreases circulating",
+    "metadata": {
+      "chunk_id": "1ebc8ce26e3a061e3b7531b32da28e1d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 76] introduce second token allows utility purpose token separated theta strictly staking securing network gamma power utility based operations network necessary staking inherently decreases circulating supply video segment transactions smart contracts require highly liquid token facilitate millions daily transactions second tokens needed solve possible consensus issues arise token staking operations token operations liquid easier malicious actor accumulate significant number frequently traded token open market token staking potentially threaten security theta network separating functions staking operations different tokens risk greatly decreased 34 x0ctheta token supply mechanics erc20 token theta token supply currently fixed 1 billion mainnet launch holder erc20 theta token receive native theta tokens new blockchain 1 1 basis supply native theta new blockchain permanently fixed 1 billion meaning new theta tokens created primary reason fixing theta token supply prohibitively expensive",
+    "metadata": {
+      "chunk_id": "67a0eb86c659a27e948bd869130c8abd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 77] theta tokens new blockchain 1 1 basis supply native theta new blockchain permanently fixed 1 billion meaning new theta tokens created primary reason fixing theta token supply prohibitively expensive malicious actor acquire tokens threaten network new theta tokens created way acquire purchasing existing tokens time making expensive amass controlling theta tokens gamma token supply mechanics gamma operational token theta blockchain xe2 x80 x9cgas xe2 x80 x9d pay video segment microtransactions smart contract operations gamma token built theta blockchain 5 000 000 000 gamma generated time mainnet launch initial supply gamma distributed theta token holders point token swap seeding network gamma network function effectively time token swap theta token holder receive 5 gamma tokens theta token hold initially increase number gamma tokens multi level bft consensus mechanism launched guardian pool formed point validators guardian nodes required stake theta tokens perform respective functions",
+    "metadata": {
+      "chunk_id": "3191bf522e9227481f93b3d1ab34817a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 78] hold initially increase number gamma tokens multi level bft consensus mechanism launched guardian pool formed point validators guardian nodes required stake theta tokens perform respective functions validators guardians earn gamma proportionally according number theta tokens staked total rewards equal target increase supply gamma target increase supply gamma initially set 5% annually rate adjusted dynamically response demand gamma video platforms words supply gamma increase 5% year run guardian node stake theta tokens share new gamma tokens equal share staked theta tokens percentage total staked theta tokens help maintain appropriate gamma circulation gamma gas deploy interact smart contracts burned permanently destroyed having gamma generation destruction tied network usage adoption number gamma tokens maintain healthy equilibrium relative demand validator guardian nodes validator set initially nodes operated theta labs followed additional validator nodes operated key strategic",
+    "metadata": {
+      "chunk_id": "6408e0fea37a67e5f37de8cd34d7d607",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 79] number gamma tokens maintain healthy equilibrium relative demand validator guardian nodes validator set initially nodes operated theta labs followed additional validator nodes operated key strategic partners eventually guardian nodes perform high standard node availability hardware bandwidth requirements etc stake sufficient number theta tokens eligible participate validator node rotating basis end goal validator set comprised theta labs video platform partners community members single entity group control network act maliciously validator s act maliciously guardian pool sufficiently diversified act second line defense prevent malicious acts remove malicious validators malicious actors actions harm network staked theta slashed forfeited expect guardian node functionality launch major upgrade following mainnet launch standalone client released allowing users operate guardian node stake 35 x0ctheta tokens currently constructed protocol support 1 000 guardian nodes sacrificing",
+    "metadata": {
+      "chunk_id": "c3fb5ce851de61b6535287d740839689",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 80] major upgrade following mainnet launch standalone client released allowing users operate guardian node stake 35 x0ctheta tokens currently constructed protocol support 1 000 guardian nodes sacrificing transaction throughput achieve optimal set guardian nodes expect set range approximately 100 000 1 000 000 theta tokens permitted staked guardian node figures adjusted based testing community feedback mainnet launch future work whitepaper introduced theta protocol new blockchain token incentive mechanism decentralized video streaming network theta network encourages viewers share computing bandwidth resources solves number technical business challenges technical aspects protocol network classify future work initial launch native theta network 20 21 xe2 x97 x8f anti piracy network expanded include anti piracy tokens stream cache certain content tokens serve xe2 x80 x9cdisincentive xe2 x80 x9d network content tagged required tokens xe2 x80 x9cpremium content xe2 x80 x9d xe2 x97 x8f general",
+    "metadata": {
+      "chunk_id": "b589c3ebff5197e69cbe8187b4646ddd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 81] anti piracy tokens stream cache certain content tokens serve xe2 x80 x9cdisincentive xe2 x80 x9d network content tagged required tokens xe2 x80 x9cpremium content xe2 x80 x9d xe2 x97 x8f general purpose service platform theta protocol fact independent streaming extended handle types service e g share computing resources allow end users receive service free xe2 x97 x8f sidechain plasma xe2 x80 x9cinfinite transaction throughput xe2 x80 x9d support turing complete smart contracts theta blockchain possible build layer 2 constructs like sidechain state channel20 plasma21 theta blockchain achieve unlimited transaction throughput https www jeffcoleman state channels poon et al plasma scalable autonomous smart contracts 36 x0cfounding advisory team founding members theta network include mitch liu mr liu co founder ceo sliver tv leading esports entertainment platform patented technology live stream esports events fully immersive 360 xc2 xb0 vr partnership intel extreme masters turner eleague",
+    "metadata": {
+      "chunk_id": "45c636a5b5baa7a5d61c0ea49b357d93",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 83] media lab xe2 x80 x9cinteractive cinema xe2 x80 x9d video group received mba stanford graduate school business jieyi long mr long co founder chief technology officer sliver tv leads technical team developed multiple patented technologies including vr live streaming instant replay video games received b s degree microelectronics peking university beijing china received ph d degree computer engineering northwestern university evanston il conducted research mathematical modeling algorithms optimize large scale electronics systems cryptography enthusiast ryan nichols mr nichols head product platform sliver tv leads company xe2 x80 x99s esports entertainment platform built largest esports virtual economies 1b virtual tokens circulated months launch leading previous startups xe2 x80 x99s designed launched virtual currency systems variety multiplayer games including cross game virtual currency api hundreds party game developers tens millions players worldwide mr nichols director tencent",
+    "metadata": {
+      "chunk_id": "ad5ec1aa03f32f4bd1dce6d7ba9d8eef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  },
+  {
+    "text": "[Section 84] launched virtual currency systems variety multiplayer games including cross game virtual currency api hundreds party game developers tens millions players worldwide mr nichols director tencent globally popular wechat app co founder live video streaming app foodies rizwan virk mr virk advisor investor interim head corporate development sliver tv mr virk serves current director play labs mit research mit media lab mr virk early investor cryptocurrency blockchain companies including ripio bitpagos coinmkt bex io active bitangels 2013 mr virk co author cryptocurrency related papers including online automatic auctions bitcoin counter trading 2015 creating peer peer system buying selling bitcoin online 2013 designer bitcoin bazaar peer peer mobile applications person trading bitcoin mr virk received bs computer science engineering mit master xe2 x80 x99s management stanford graduate school business 37 x0cthe advisory team theta includes 38 x0c",
+    "metadata": {
+      "chunk_id": "b29a9e112c49138ff6729e822b323079",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Theta.txt"
+    }
+  }
+]

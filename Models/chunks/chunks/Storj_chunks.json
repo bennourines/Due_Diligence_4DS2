@@ -1,0 +1,2368 @@
+[
+  {
+    "text": "[Section 1] b storj decentralized cloud storage network framework storj labs inc october 30 2018 v3 0 https github com storj whitepaper x0c2 copyright xc2 xa9 2018 storj labs inc subsidiaries work licensed creative commons attribution sharealike 3 0 license cc sa 3 0 product names logos brands cited document property respective owners company product service names identification purposes use names logos brands imply endorsement x0ccontents 0 1 abstract 6 0 2 contributors 6 1 introduction 7 2 storj design constraints 9 2 1 security privacy 9 2 2 decentralization 9 2 3 marketplace economics 10 2 4 amazon s3 compatibility 12 2 5 durability device failure churn 12 2 6 latency 13 2 7 bandwidth 14 2 8 object size 15 2 9 byzantine fault tolerance 15 2 10 coordination avoidance 16 3 framework 18 3 1 framework overview 18 3 2 storage nodes 19 3 3 peer peer communication discovery 19 3 4 redundancy 19 3 5 metadata 23 3 6 encryption 24 3 7 audits reputation 25 3 8 data repair 25 3 9 payments 26 x0c4 4",
+    "metadata": {
+      "chunk_id": "546c5d8b096cc3dd6611f96092945468",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 2] overview 18 3 2 storage nodes 19 3 3 peer peer communication discovery 19 3 4 redundancy 19 3 5 metadata 23 3 6 encryption 24 3 7 audits reputation 25 3 8 data repair 25 3 9 payments 26 x0c4 4 concrete implementation 27 4 1 definitions 27 4 2 peer classes 30 4 3 storage node 31 4 4 node identity 32 4 5 peer peer communication 33 4 6 node discovery 33 4 7 redundancy 35 4 8 structured file storage 36 4 9 metadata 39 4 10 satellite 41 4 11 encryption 42 4 12 authorization 43 4 13 audits 44 4 14 data repair 45 4 15 storage node reputation 47 4 16 payments 49 4 17 bandwidth allocation 50 4 18 satellite reputation 53 4 19 garbage collection 53 4 20 uplink 54 4 21 quality control branding 55 5 walkthroughs 56 5 1 upload 56 5 2 download 58 5 3 delete 58 x0c5 5 4 59 5 5 copy 60 5 6 list 60 5 7 audit 61 5 8 data repair 61 5 9 payment 62 6 future work 63 6 1 hot files content delivery 63 6 2 improving user experience metadata 64 7 selected calculations 65 7 1 object repair costs 65 7 2 audit",
+    "metadata": {
+      "chunk_id": "279ca3bafe1f3c3b1cb423c1ebe77842",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 3] audit 61 5 8 data repair 61 5 9 payment 62 6 future work 63 6 1 hot files content delivery 63 6 2 improving user experience metadata 64 7 selected calculations 65 7 1 object repair costs 65 7 2 audit false positive risk 67 7 3 choosing erasure parameters 69 distributed consensus 73 b attacks 76 c primary user benefits 79 x0ccontents 0 1 6 abstract decentralized cloud storage represents fundamental shift efficiency economics large scale storage eliminating central control allows users store share data reliance party storage provider decentralization mitigates risk data failures outages simultaneously increasing security privacy object storage allows market forces optimize expensive storage greater rate single provider afford ways build system specific responsibilities given implementation address based experience petabyte scale storage systems introduce modular framework considering responsibilities building distributed storage network additionally describe initial concrete",
+    "metadata": {
+      "chunk_id": "13e7b97699c62a9024cd41933ea03a39",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "outage"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 5] dan sorensen helene unland natalie villasana bryan white shawn wilkinson xe2 x80 x99d like thank authors contributors previous storj metadisk white papers tome boshevski josh brandoff vitalik buterin braydon fuller gordy hall jim lowry chris pollard james prestwich xe2 x80 x99d like especially thank petar maymounkov anand babu periasamy tim kosse roberto galoppini steven willoughby aaron boodman helpful review contributions early draft paper like acknowledge efforts white papers communications distributed computing blockchain distributed storage decentralized storage space work informed efforts comprehensive list sources bibliography like provide particular acknowledgement guidance inspiration provided teams designed built allmydata ceph coralcdn ethereum farsite filecoin freenet gluster gfs hadoop ipfs kademlia lustre maidsafe minio mojonation oceanstore scality siacoin tahoe lafs finally extend huge thank talked design architecture system valuable thoughts feedback input suggestions",
+    "metadata": {
+      "chunk_id": "dde0337f0b34029bd1f8b438b0f0cf01",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 6] hadoop ipfs kademlia lustre maidsafe minio mojonation oceanstore scality siacoin tahoe lafs finally extend huge thank talked design architecture system valuable thoughts feedback input suggestions address correspondence paper storj io x0c1 introduction internet massive decentralized distributed network consisting billions devices controlled single group entity data currently available internet centralized stored handful technology companies experience capital build massive data centers capable handling vast information challenges faced data centers data breaches periods unavailability grand scale storage costs expanding upgrading quickly meet user demand faster data larger formats decentralized storage emerged answer challenge providing performant secure private economical cloud storage solution decentralized storage better positioned achieve outcomes architecture natural alignment decentralized architecture internet opposed massive centralized data centers news coverage data breaches",
+    "metadata": {
+      "chunk_id": "6f55aaa8b649839b58e39d8cd4dccfef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "breach"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 7] decentralized storage better positioned achieve outcomes architecture natural alignment decentralized architecture internet opposed massive centralized data centers news coverage data breaches past years shown frequency breaches increasing factor 10 2005 2017 1 decentralized storage xe2 x80 x99s process protecting data makes data breaches difficult current methods data centers time costing current storage methods model address rapidly expanding data current solutions struggle anticipated 44 zettabytes data expected exist 2020 market grow $92 billion usd time frame 2 identified key market segments decentralized cloud storage potential address decentralized cloud storage capabilities evolve able address wider range use cases basic object storage content delivery networks cdn decentralized cloud storage rapidly advancing maturity evolution subject specific set design constraints define overall requirements implementation network designing distributed storage system parameters optimized",
+    "metadata": {
+      "chunk_id": "715af18bfd637727198c175b9ef8fa25",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "breach"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 8] cloud storage rapidly advancing maturity evolution subject specific set design constraints define overall requirements implementation network designing distributed storage system parameters optimized speed capacity trustlessness byzantine fault tolerance cost bandwidth latency propose framework scales horizontally exabytes data storage globe system storj network robust object store encrypts shards distributes data nodes world storage data stored served manner purposefully designed prevent breaches order accomplish task xe2 x80 x99ve designed system modular consisting independent components taskspecific jobs xe2 x80 x99ve integrated components implement decentralized object storage system secure performant reliable significantly economical premise traditional centralized cloud storage x0cchapter 1 introduction 8 organized rest paper additional chapters chapter 2 discusses design space storj operates specific constraints optimization efforts based chapter 3 covers framework chapter 4",
+    "metadata": {
+      "chunk_id": "2c9d56cee911f095ba88d0fd49a59d98",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "breach"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 9] 1 introduction 8 organized rest paper additional chapters chapter 2 discusses design space storj operates specific constraints optimization efforts based chapter 3 covers framework chapter 4 proposes simple concrete implementation framework chapter 5 explains happens operation network chapter 6 covers future work finally chapter 7 covers selected calculations x0c2 storj design constraints designing system xe2 x80 x99s important define requirements different ways design decentralized storage system addition requirements potential design space shrinks significantly design constraints heavily influenced product market fit goals carefully considering requirement ensure framework choose universal possible given constraints 2 1 security privacy object storage platform ensure privacy security data stored regardless centralized decentralized decentralized storage platforms mitigate additional layer complexity risk associated storage data inherently untrusted nodes decentralized storage",
+    "metadata": {
+      "chunk_id": "869aac5c4085c0e06bf4a231389c554b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 10] data stored regardless centralized decentralized decentralized storage platforms mitigate additional layer complexity risk associated storage data inherently untrusted nodes decentralized storage platforms shortcuts data center based approaches e g firewalls dmzs etc decentralized storage designed ground support end toend encryption enhanced security privacy levels system certain categories data subject specific regulatory compliance example united states legislation health insurance portability accountability act hipaa specific requirements data center compatibility european countries consider general data protection regulation gdpr individual information protected secured customers outside united states feel significant geopolitical reasons consider storing data way limits ability based entities impact privacy 3 regulations sectors user xe2 x80 x99s data privacy customers able evaluate software implemented correctly resistant attack vectors known unknown secure fulfills customers",
+    "metadata": {
+      "chunk_id": "dbe7490428f48ce49b4b19054e7d9b8e",
+      "entities": {
+        "location": [
+          "united states"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 13] world xe2 x80 x99s data fact believe implicit cost associated risk trusting party custodianship personal data possible costly outcomes include changes company xe2 x80 x99s roadmap result product useful changes company xe2 x80 x99s position data collection cause sell customer metadata advertisers company business fail customer data safe creating equivalent better decentralized system users concerned single entity risk viable alternative decentralized architecture storj cease operating data continue available decided adopt decentralized architecture despite tradeoffs believe decentralization better addresses needs cloud storage resolves core limitations risks cost factors result centralization context decentralization results globally distributed network serve wide range storage use cases archival cdn centralized storage systems require different architectures implementations infrastructure address use cases 2 3 marketplace economics public cloud computing public cloud storage",
+    "metadata": {
+      "chunk_id": "ef44899c4ca0780efc178a6e3a1594a0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 15] invest billions dollars building network data centers enjoy significant economies scale combination large upfront costs economies scale means extremely limited number viable suppliers public cloud storage arguably fewer major operators worldwide suppliers primary beneficiaries economic return believe decentralized storage provide viable alternative centralized cloud encourage partners customers bring data network price charged storage bandwidth xe2 x80 x94combined benefits decentralized storage xe2 x80 x94must compelling economically beneficial competing storage solutions design storj seek create economically advantageous situation different groups end users provide economically compelling characteristics public cloud storage upfront costs scale demand addition end users experience meaningfully better value given levels capacity durability security performance storage node operators economically attractive storage node operators help build network paid fairly transparently able",
+    "metadata": {
+      "chunk_id": "985e9807888916f5527c4e32cdca5b44",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 17] projects drive thirds public cloud workloads today receiving direct revenue source sustainable revenue network operator sustain continued investment code functionality network maintenance demand generation network operator currently storj labs inc able retain reasonable profit operator maintain profit charging end users public cloud providers margin sharing storage node operators demand providers additionally network able account ensuring efficient timely billing payment processes regulatory compliance tax reporting globally versatile possible payments network robust accom x0cchapter 2 storj design constraints 12 modate types transactions cryptocurrency bank payments forms barter lastly storj roadmap aligned economic drivers network new features changes concrete implementations framework components driven applicability specific object storage use cases relationship features performance price storage bandwidth relative use cases 2 4 amazon s3 compatibility time paper xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "7092c19583b3367e4fe8afddafe31152",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 19] creates graceful transition path centralized providers alleviating switching costs users achieve storj implementation allows applications previously built amazon s3 work storj minimal friction changes s3 compatibility adds aggressive requirements feature set performance durability bare minimum requires methods described figure 2 1 implemented 1 2 3 4 5 6 7 8 9 10 bucket operations createbucket bucketname deletebucket bucketname listbuckets object operations getobject bucketname objectpath offset length putobject bucketname objectpath data metadata deleteobject bucketname objectpath listobjects bucketname prefix startkey limit delimiter figure 2 1 minimum s3 api 2 5 durability device failure churn storage platform useless functions retrieval platform storage platform valuable careful lose data given x0cchapter 2 storj design constraints 13 presence variety possible failures system system store data high durability negligible risk data loss devices component failure guarantee hard",
+    "metadata": {
+      "chunk_id": "48da6c978b9e7c32a0e3d56bda462227",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 20] lose data given x0cchapter 2 storj design constraints 13 presence variety possible failures system system store data high durability negligible risk data loss devices component failure guarantee hard drives fail wear 6 servers providing network access hard drives eventually fail network links die power failures cause havoc sporadically storage media unreliable time data stored redundancy recover individual component failures importantly data left single location indefinitely environment redundancy data maintenance repair replacement lost redundancy considered inevitable system account issues furthermore decentralized systems susceptible high churn rates participants join network leave reasons hardware actually failed instance rhea et al found real world peer peer systems median time participant lasts network ranges hours mere minutes 7 maymounkov et al found probability node staying connected decentralized network additional hour increasing function uptime figure 2 2 8 words nodes",
+    "metadata": {
+      "chunk_id": "cb171b4bd3298867ddd7045ad4836962",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 21] lasts network ranges hours mere minutes 7 maymounkov et al found probability node staying connected decentralized network additional hour increasing function uptime figure 2 2 8 words nodes online long time likely contribute overall node churn churn caused number factors storage nodes offline hardware software failure intermittent internet connectivity power loss complete disk failure software shutdown removal network churn exists redundancy required greater rate node loss redundancy required bandwidth needed correct operation system fact tight relationship network churn additional redundancy bandwidth availability 9 background bandwidth usage redundancy low network low network churn strong incentive favor long lived stable nodes section 7 3 3 blake et al 9 discussion repair bandwidth varies function node churn 2 6 latency decentralized storage systems potentially capitalize massive opportunities parallelism opportunities include increased transfer rates processing capabilities",
+    "metadata": {
+      "chunk_id": "7345c3fdc1dda250f56137e7151f79de",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 22] varies function node churn 2 6 latency decentralized storage systems potentially capitalize massive opportunities parallelism opportunities include increased transfer rates processing capabilities overall throughput individual network links slow parallelism improve latency individual network link utilized operation latency lower bound overall operation distributed system intended high performance applications continuously aggressively optimize low latency individual process scale system xe2 x80 x99s entire architecture x0cchapter 2 storj design constraints 14 figure 2 2 probability remaining online additional hour function uptime x axis represents minutes y axis shows fraction nodes stayed online x minutes stayed online x 60 minutes source maymounkov et al 8 2 7 bandwidth global bandwidth availability increasing year year unfortunately access highbandwidth internet connections unevenly distributed world users easily access symmetric high speed unlimited bandwidth connections",
+    "metadata": {
+      "chunk_id": "0f0d5d8588e3b40e81472fdab93610eb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 25] object size differentiate groups classify xe2 x80 x9clarge xe2 x80 x9d file megabytes greater size database preferred solution storing small pieces information object store file system ideal storing large files initial product offering storj labs designed function primarily decentralized object store larger files future improvements enable database like use cases object storage predominant initial use case described paper protocol design decisions assumption vast majority stored objects 4mb larger smaller files supported simply costly store worth noting negatively impact use cases require reading lots files smaller megabyte users address packing strategy aggregating storing small files large file protocol supports seeking streaming allow users download small files requiring retrieval aggregated object 2 9 byzantine fault tolerance unlike centralized solutions like amazon s3 storj operates untrusted environment individual storage providers necessarily assumed trustworthy storj operates",
+    "metadata": {
+      "chunk_id": "197f9accd8fb358a13c3b31f9da83404",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 26] object 2 9 byzantine fault tolerance unlike centralized solutions like amazon s3 storj operates untrusted environment individual storage providers necessarily assumed trustworthy storj operates public internet allowing sign storage provider adopt byzantine altruistic rational bar model 11 discuss participants network xe2 x80 xa2 byzantine nodes deviate arbitrarily suggested protocol reason examples include nodes broken nodes actively trying sabotage protocol general byzantine node bad actor optimizes utility function independent given suggested protocol xe2 x80 xa2 inevitable hardware failures aside altruistic nodes good actors participate proposed protocol rational choice deviate xe2 x80 xa2 rational nodes neutral actors participate deviate net best interest distributed storage systems e g datacenter based cloud object storage systems operate environment nodes considered altruistic example absent x0cchapter 2 storj design constraints 16 hardware failure security breaches amazon xe2",
+    "metadata": {
+      "chunk_id": "9b4c2fe1bd43d225f8cba7810312a4db",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "breach"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 28] appendix details 2 10 coordination avoidance growing body distributed database research shows systems avoid coordination possible far better throughput systems subcomponents forced coordinate achieve correctness 12 xe2 x80 x9319 use bailis et al xe2 x80 x99s informal definition coordination requirement concurrently executing operations synchronously communicate stall order complete 16 observation happens scales applies distributed networks concurrent threads execution coordinating computer soon coordination needed actors system need wait actors waiting xe2 x80 x94due coordination issues xe2 x80 x94can significant cost types operations network require coordination e g operations require linearizability1 15 20 21 choosing strategies avoid coordination highly available transactions 15 offer performance gains orders magnitude wide area networks fact carefully avoiding coordination possible anna database 17 able 10 times faster cassandra redis corresponding environments 700 800 times",
+    "metadata": {
+      "chunk_id": "5a4ecde6107af5fb963ce21aec2d3506",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 29] performance gains orders magnitude wide area networks fact carefully avoiding coordination possible anna database 17 able 10 times faster cassandra redis corresponding environments 700 800 times faster performance focused memory databases masstree intel xe2 x80 x99s tbb 22 coordination avoided new frameworks invariant confluence 16 calm principle 18 19 allow system architects understand coordination required consistency correctness evidenced anna xe2 x80 x99s performance successes efficient avoid coordination possible systems minimize coordination better scaling small large workloads adding resources coordination avoidant system directly in1 linearizable operations atomic operations specific object order operations equivalent order given original xe2 x80 x9cwall clock xe2 x80 x9d time x0cchapter 2 storj design constraints 17 crease throughput performance adding resources coordinationdependent system bitcoin 23 raft 24 result additional throughput overall performance exabyte scale",
+    "metadata": {
+      "chunk_id": "84d3c29743f48720f81d35273643ea18",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 30] x0cchapter 2 storj design constraints 17 crease throughput performance adding resources coordinationdependent system bitcoin 23 raft 24 result additional throughput overall performance exabyte scale minimizing coordination key components strategy surprisingly decentralized storage platforms working architectures require significant amounts coordination operations accounted single global ledger achieve exabyte scale fundamental requirement limit hotpath coordination domains small spheres entirely controllable user limits applicability blockchain like solutions use case x0c3 framework having considered design constraints chapter outlines design framework consisting fundamental components framework describes components exist satisfy constraints long design constraints remain constant framework feasible describe storj years design freedom framework framework obviate need future rearchitectures entirely independent components able replaced affecting components 3 1 framework overview",
+    "metadata": {
+      "chunk_id": "66114f28c9367e99255f54ea29ac09b7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 31] feasible describe storj years design freedom framework framework obviate need future rearchitectures entirely independent components able replaced affecting components 3 1 framework overview designs framework following things store data data stored network client encrypts breaks multiple pieces pieces distributed peers network occurs metadata generated contains information find data retrieve data data retrieved network client reference metadata identify locations previously stored pieces pieces retrieved original data reassembled client xe2 x80 x99s local machine maintain data redundancy drops certain threshold necessary data missing pieces regenerated replaced pay usage unit value sent exchange services rendered improve understandability break design collection independent components combine form desired framework individual components 1 2 3 4 5 6 7 8 storage nodes peer peer communication discovery redundancy metadata encryption audits reputation data repair payments x0cchapter 3",
+    "metadata": {
+      "chunk_id": "a271fe94c8a5ee448bc2716a0fcb8ba0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 32] combine form desired framework individual components 1 2 3 4 5 6 7 8 storage nodes peer peer communication discovery redundancy metadata encryption audits reputation data repair payments x0cchapter 3 framework 3 2 19 storage nodes storage node xe2 x80 x99s role store return data aside reliably storing data nodes provide network bandwidth appropriate responsiveness storage nodes selected store data based criteria ping time latency throughput bandwidth caps sufficient disk space geographic location uptime history responding accurately audits forth return service nodes paid storage nodes selected changing variables external protocol node selection explicit non deterministic process framework means track nodes selected upload small metadata xe2 x80 x99t select nodes storing data implicitly deterministically system like dynamo 25 gfs 26 hdfs 27 lustre 28 decision implies requirement metadata storage system track selected nodes section 3 5 3 3 peer peer communication discovery peers network",
+    "metadata": {
+      "chunk_id": "14171a1debffa4cc1eb1a00f319d6092",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 33] system like dynamo 25 gfs 26 hdfs 27 lustre 28 decision implies requirement metadata storage system track selected nodes section 3 5 3 3 peer peer communication discovery peers network communicate standarized protocol framework requires protocol xe2 x80 xa2 provides peer reachability face firewalls nats possible require techniques like stun 29 upnp 30 nat pmp 31 etc xe2 x80 xa2 provides authentication s kademlia 32 participant cryptographically proves identity peer speaking avoid man inthe middle attacks xe2 x80 xa2 provides complete privacy cases bandwidth measurement section 4 17 client storage node able communicate risk eavesdroppers protocol ensure communications private default additionally framework requires way look peer network addresses unique identifier given peer xe2 x80 x99s unique identifier peer connect responsibility similar internet xe2 x80 x99s standard domain system dns 33 mapping identifier ephemeral connection address unlike dns centralized registration process",
+    "metadata": {
+      "chunk_id": "d67a551f8fa14b1304df46e008f62298",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 34] unique identifier peer connect responsibility similar internet xe2 x80 x99s standard domain system dns 33 mapping identifier ephemeral connection address unlike dns centralized registration process achieve network overlay chord 34 pastry 35 kademlia 8 built chosen peer peer communication protocol section 4 6 implementation details 3 4 redundancy assume moment storage node offline permanently redundancy strategy store data way provides access data high x0c20 chapter 3 framework probability given number individual nodes offline state achieve specific level durability defined probability data remains available face failures products space use simple replication unfortunately ties durability network expansion factor storage overhead reliably storing data significantly increases total cost relative stored data example suppose certain desired level durability requires replication strategy makes copies data yields expansion factor 8x 800% data needs stored network bandwidth process",
+    "metadata": {
+      "chunk_id": "8257fb371ff248f3b6fecbd15152a4e7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 36] numbers k n block data encoded k n erasure code n total generated erasure shares k required recover original block data block data s bytes n erasure shares roughly s k bytes case k 1 replication erasure shares unique interestingly durability k 20 n 40 erasure code better k 10 n 20 erasure code expansion factor 2x risk spread nodes k 20 n 40 case considerations erasure codes important general framework better understand erasure codes increase durability increasing expansion factors following table shows choices k n expansion factor associated durability k 2 4 8 16 20 32 n 4 8 16 32 40 64 exp factor 2 2 2 2 2 2 p d p 10% 99 207366813274616% 99 858868985411326% 99 995462406878260% 99 999994620652776% 99 999999807694154% 99 999999999990544% x0c21 chapter 3 framework contrast replication requires significantly higher expansion factors durability following table shows durability replication scheme k 1 1 1 1 1 exp factor 1 2 3 10 16 n 1 2 3 10 16 p d p 10% 90 483741803595962% 98",
+    "metadata": {
+      "chunk_id": "c4b91497173e74742db9542201fb4817",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 40] x9clong tail xe2 x80 x9d aggregate long tail responses big issue distributed system design mapreduce long tail responses called xe2 x80 x9cstragglers xe2 x80 x9d mapreduce executes redundant requests called xe2 x80 x9cbackup tasks xe2 x80 x9d sure specific stragglers long overall operation proceed waiting backup task mechanism disabled mapreduce basic operations 44% longer complete backup task mechanism causing duplicated work 44 erasure codes position create mapreduce like backup tasks storage 39 40 uploads file encoded higher k n ratio necessary desired durability guarantees upload pieces uploaded gain required redundancy remaining additional uploads canceled cancellation allows upload continue fast fastest nodes set instead waiting slowest nodes downloads similarly improved redundancy exists needed downloads served fastest peers eliminating wait temporarily slow offline peers outcome request satisfiable fastest nodes participating given transaction needing wait slower subset",
+    "metadata": {
+      "chunk_id": "d20b37b34250feb7e9eb6929e077dffa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 41] exists needed downloads served fastest peers eliminating wait temporarily slow offline peers outcome request satisfiable fastest nodes participating given transaction needing wait slower subset focusing operations result dependent fastest nodes random subpopulation turns potential liability highly variable performance individual actors great source strength distributed storage network providing great load balancing characteristics ability encode file greatly assists dynamic load balancing popular content network section 6 1 discussion plan address load balancing active files x0cchapter 3 framework 23 figure 3 1 outcomes upload download 3 5 metadata split object erasure codes select storage nodes store new pieces need track storage nodes selected allow users choose storage based geographic location performance characteristics available space features instead implicit node selection scheme consistent hashing like dynamo 25 use explicit node selection scheme directory based lookups 45",
+    "metadata": {
+      "chunk_id": "b328aa456b529e84278a0460ae80971d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 42] location performance characteristics available space features instead implicit node selection scheme consistent hashing like dynamo 25 use explicit node selection scheme directory based lookups 45 additionally maintain amazon s3 compatibility user able choose arbitrary key treated like path identify mapping data pieces node features imply necessity metadata storage system amazon s3 compatibility imposes tight requirements support hierarchical objects paths prefixes object key value storage arbitrarily large files arbitrarily large amounts files forth objects able stored retrieved arbitrary key addition deterministic iteration keys required allow paginated listing time object added edited removed entries metadata storage system need adjusted result heavy churn metadata system entire userbase metadata end sizable example suppose years network stores total exabyte data average object size 50mb erasure code selected n 40 exabyte 50mb objects 20 billion objects metadata system need track",
+    "metadata": {
+      "chunk_id": "f1542438b54cb12ad8269b241f4f372a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 43] metadata end sizable example suppose years network stores total exabyte data average object size 50mb erasure code selected n 40 exabyte 50mb objects 20 billion objects metadata system need track 40 nodes selected object metadata element roughly x0cchapter 3 framework 24 40 xc2 xb7 64 192 bytes info selected node plus path general overhead 55 terabytes metadata track fortunately metadata heavily partitioned user user storing 100 terabytes 50 megabyte objects incur metadata overhead 5 5 gigabytes xe2 x80 x99s worth pointing numbers vary heavily object size larger average object size metadata overhead additional framework focus enabling component xe2 x80 x94metadata storage xe2 x80 x94to interchangeable specifically expect platform incorporate multiple implementations metadata storage users allowed choose greatly assists design goal coordination avoidance users section 2 10 aside scale requirements implement amazon s3 compatibility desired api straightforward simple store metadata given",
+    "metadata": {
+      "chunk_id": "a2c09cf33a7cbc4940971806a9881909",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 45] decryption mechanism cases encryption choices changed upgraded support rich access management features encryption key file having access file result access decryption keys files instead file encrypted unique key allow users share access certain selected files giving encryption details file encrypted differently different keys potentially different algorithms metadata encryption stored manner secure reliable metadata metadata file including path stored previously discussed metadata storage system encrypted deterministic hierarchical encryption scheme hierarchical encryption scheme based bip32 46 allow subtrees shared sharing parents allow files shared sharing files section 4 11 discussion path based hierarchical deterministic encryption scheme x0cchapter 3 framework 3 7 25 audits reputation incentivizing storage nodes accurately store data paramount importance viability system essential able validate verify storage nodes accurately storing asked store storage systems use probabilistic",
+    "metadata": {
+      "chunk_id": "d6a2750a67f156da039b03bcde457d65",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 46] incentivizing storage nodes accurately store data paramount importance viability system essential able validate verify storage nodes accurately storing asked store storage systems use probabilistic file audits called proofs retrievability way determining repair files 47 48 extending probabilistic nature common file proofs retrievability range possible files stored specific node audits case probabilistic challenges confirm high degree certainty low overhead storage node wellbehaved keeping data claims susceptible hardware failure malintent audits function xe2 x80 x9cspot checks xe2 x80 x9d 49 help calculate future usefulness given storage node storage system audits simply mechanism determine node xe2 x80 x99s degree stability failed audits result storage node marked bad result redistributing data new nodes avoiding node altogether future storage node uptime overall health primary metrics determine files need repair case proofs retrievability 47 48 auditing mechanism audit bytes files",
+    "metadata": {
+      "chunk_id": "617a99cd957e3d62c019b3d809aae595",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 47] data new nodes avoiding node altogether future storage node uptime overall health primary metrics determine files need repair case proofs retrievability 47 48 auditing mechanism audit bytes files leave room false positives verifier believes storage node retains intact data actually modified partially deleted fortunately probability false positive individual partial audit easily calculable section 7 2 applied iteratively storage node detection missing altered data certain known modifiable error threshold reputation system needed persist history audit outcomes given node identities overall framework flexible requirements use system section 4 15 discussion initial approach 3 8 data repair data loss present risk distributed storage system potential causes file loss storage node churn storage nodes joining leaving network largest leading risk significant degree compared causes discussed section 2 5 network session time real world systems range hours mere minutes 7 ways data lost corruption",
+    "metadata": {
+      "chunk_id": "1908402e5fd294dcb8e48df5bac8b79a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 48] joining leaving network largest leading risk significant degree compared causes discussed section 2 5 network session time real world systems range hours mere minutes 7 ways data lost corruption malicious behavior bad hardware software error user initiated space reclamation issues node churn expect node churn dominant cause data loss network audits validating conforming nodes store data correctly x0cchapter 3 framework 26 mains detect storage node stops storing data correctly goes offline repair data new nodes repair data recover original data erasure code reconstruction remaining pieces regenerate missing pieces store network new storage nodes vital system incentivize storage node participants remain online longer hours encourage behavior payment strategy involve rewarding storage node operators nodes participating months years time 3 9 payments payments value attribution billing decentralized networks critical maintaining healthy ecosystem supply demand course decentralized payment",
+    "metadata": {
+      "chunk_id": "22e0a12d300cfc7387afd885e24a89f1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 49] nodes participating months years time 3 9 payments payments value attribution billing decentralized networks critical maintaining healthy ecosystem supply demand course decentralized payment systems infancy number ways framework achieve low latency high throughput transactional dependencies blockchain section 2 10 means adequately performant storage system afford wait blockchain operations operations measured milliseconds waiting cluster nodes probabilistically come agreement shared global ledger non starter framework instead emphasizes game theoretic models ensure participants network properly incentivized remain network behave rationally paid decisions modeled real world financial relationships payments transferred background settlement process behaved participants network cooperate storage nodes framework limit exposure untrusted payers confidence gained payers likely pay services rendered addition framework tracks aggregates value consumption services data stored network charging",
+    "metadata": {
+      "chunk_id": "3a90f30eab3e9a57b62ac11b8db39519",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 50] nodes framework limit exposure untrusted payers confidence gained payers likely pay services rendered addition framework tracks aggregates value consumption services data stored network charging usage framework able support end end economics storage marketplace ecosystem storj network payment agnostic protocol require specific payment type network assumes ethereum based storj token default mechanism payment intend storj token primary form payment future alternate payment types implemented including bitcoin ether credit debit card ach transfer physical transfer live goats x0c4 concrete implementation believe framework xe2 x80 x99ve described relatively fundamental given design constraints framework remains freedom choosing implement component section lay initial implementation strategy expect details contained section change gradually time believe details outlined viable support working implementation framework capable providing highly secure performant durable production grade cloud",
+    "metadata": {
+      "chunk_id": "03b944be34b90f94e175c758bba0ad45",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 51] details contained section change gradually time believe details outlined viable support working implementation framework capable providing highly secure performant durable production grade cloud storage previous version 37 publish changes concrete architecture storj improvement proposal process 50 4 1 definitions following defined terms description concrete implementation follows 4 1 1 actors client user application upload download data network peer class cohesive collection network services responsibilities different peer classes represent services network storage nodes satellites uplinks storage node peer class participates node discovery system stores data gets paid storage bandwidth uplink peer class represents application service implements libuplink wants store retrieve data peer class expected remain online like classes relatively lightweight peer class performs encryption erasure encoding coordinates peer classes behalf customer client libuplink library provides necessary",
+    "metadata": {
+      "chunk_id": "06e5e236751a9a4a7f1f838ae783b878",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 52] class expected remain online like classes relatively lightweight peer class performs encryption erasure encoding coordinates peer classes behalf customer client libuplink library provides necessary functions interact storage nodes satellites directly library available number different programming languages gateway service provides compatibility layer object storage services amazon s3 libuplink exposing amazon s3 compatible api uplink cli command line interface uploading downloading files network managing permissions sharing managing accounts satellite peer class participates node discovery system caches node address information stores object metadata maintains storage node reputation aggre x0cchapter 4 concrete implementation 28 gates billing data pays storage nodes performs audits repair manages authorization user accounts users accounts trust specific satellites user run satellite expect users elect avoid operational complexity create account satellite hosted trusted party storj",
+    "metadata": {
+      "chunk_id": "d1220713a71cfb1ce5159d15724ff75b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 54] arbitrary bytes minimum maximum size file represented ordered collection segments segments fixed maximum size file supports limited key value userdefined fields called extended attributes like paths data contained file encrypted leaves client computer extended attribute extended attribute user defined key value field associated file like file metadata extended attributes stored encrypted segment segment represents single array bytes 0 user configurable maximum segment size section 4 8 2 details remote segment remote segment segment erasure encoded distributed network remote segment larger metadata x0cchapter 4 concrete implementation figure 4 2 files segments stripes erasure shares pieces 29 x0cchapter 4 concrete implementation 30 quired track bookkeeping includes information ids nodes data stored inline segment inline segment segment small data represents takes space corresponding data remote segment need track nodes data cases data stored xe2 x80 x9cinline xe2 x80 x9d instead stored",
+    "metadata": {
+      "chunk_id": "7e560fecf67ca005c385e74fc43932a2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 55] stored inline segment inline segment segment small data represents takes space corresponding data remote segment need track nodes data cases data stored xe2 x80 x9cinline xe2 x80 x9d instead stored nodes stripe stripe subdivision segment stripe fixed bytes encryption erasure encoding boundary size erasure encoding happens stripes individually encryption happen small multiple stripes time segments encrypted remote segments erasure encode stripes stripe unit audits performed section 4 8 3 details erasure share stripe erasure encoded generates multiple pieces called erasure shares subset erasure shares needed recover original stripe erasure share index identifying erasure share e g second etc piece remote segment xe2 x80 x99s stripes erasure encoded erasure shares erasure shares remote segment index concatenated concatenated group erasure shares called piece n erasure shares erasure encoding stripe n pieces processing remote segment ith piece concatenation ith erasure shares segment xe2",
+    "metadata": {
+      "chunk_id": "5b6139a70226c071b434a7242abcc91e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 58] space operators download install configure storj software locally account required 1 configure disk space satellite bandwidth allowance node discovery storage nodes advertise bandwidth hard drive space available designated storj token wallet address simplify lifecycle management ephemeral files storage nodes track optional piece xe2 x80 x9ctime live xe2 x80 x9d ttl designations pieces stored specific ttl expiry data expected deleted expiration date ttl provided data expected stored indefinitely means storage nodes database expiration times occasionally clear old data storage nodes additionally track signed bandwidth allocations section 4 17 send satellites later settlement payment requires small database ttl bandwidth allocations stored sqlite 53 database storage nodes choose satellites work work multiple satellites default behavior payment come multiple sources varying payment schedules storage nodes paid specific satellites 1 returning data requested form egress bandwidth payment 2",
+    "metadata": {
+      "chunk_id": "d556f2023d7d37e4b0710a8c6b970397",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 59] work multiple satellites default behavior payment come multiple sources varying payment schedules storage nodes paid specific satellites 1 returning data requested form egress bandwidth payment 2 storing data rest storage nodes expected reliably store data sent paid assumption faithfully storing data storage nodes fail random audits removed pool lose funds held escrow cover additional costs receive limited future payments storage nodes paid initial transfer data store ingress bandwidth discourage storage nodes deleting data paid storing problem previous version 37 storage nodes paid repair egress bandwidth usage satellites opt pay normal retrieval egress bandwidth usage storage nodes paid node discovery maintenance traffic storage nodes support methods delete method piece id satellite id signature associated satellite instance bandwidth allocation section 4 17 satellite id forms namespace identical piece id different satellite id refers different piece 1 registration 1099 tax form",
+    "metadata": {
+      "chunk_id": "6295ff7abd81c18437343934d07bdf8e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 61] node discovery routing node operate certificate authority requires public private key pair self signed certificate certificate authority xe2 x80 x99s private key ideally kept cold storage prevent key compromise xe2 x80 x99s important certificate authority private key managed good operational security key rotation certificate authority require brand new node id figure 4 3 different keys certificates compose storage node xe2 x80 x99s overall identity row represents private public key pair public key node xe2 x80 x99s certificate authority determines node id s kademlia 32 node id hash public key serve proof work joining network unlike bitcoin xe2 x80 x99s proof work 23 proof work dependent trailing zero bits find hash output means node id end number trailing zero bits usable bal x0cchapter 4 concrete implementation 33 anced kademlia 8 tree cost meant sybil attacks prohibitively expensive time consuming node revocable leaf certificate key pair signed node xe2 x80 x99s certificate",
+    "metadata": {
+      "chunk_id": "db6404490a0f103cefd2265d878cac1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 62] 4 concrete implementation 33 anced kademlia 8 tree cost meant sybil attacks prohibitively expensive time consuming node revocable leaf certificate key pair signed node xe2 x80 x99s certificate authority nodes use leaf key pair communication leaf signed timestamp satellites track node leaf compromised node issue new leaf later timestamp interested peers note newly seen leaf timestamps reject connections nodes older leaf certificates optimized special case peers need note leaf certificate certificate authority share timestamp 4 5 peer peer communication initially grpc 54 protocol transport layer security protocol tls 55 xc2 xb5tp 56 transport protocol added session traversal utilities nat stun functionality 29 stun provides nat traversal xc2 xb5tp provides reliable ordered delivery like tcp ledbat 57 functionality tls provides privacy authentication grpc provides multiplexing convenient programmer interface ledbat allows competing internet traffic priority providing graceful user",
+    "metadata": {
+      "chunk_id": "76d1406ac6413083887c88ece78d738d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 63] tcp ledbat 57 functionality tls provides privacy authentication grpc provides multiplexing convenient programmer interface ledbat allows competing internet traffic priority providing graceful user experience home operators network usage interference time replace tls flexible secure transport framework noise protocol framework 58 reduce round trips connection handshakes situations data encrypted forward secrecy isn xe2 x80 x99t necessary authenticated communication tls noise peer ascertain id node speaking validating certificate chain hashing peer xe2 x80 x99s certificate authority xe2 x80 x99s public key estimated work went constructing node id considering number trailing zero bits end id satellites configure minimum proof work required pass audit section 4 13 time network require greater proofs work natural user intervention cases node achieve successful connection nat firewall stun 29 upnp 30 natpmp 31 similar techniques manual intervention port forwarding required future nodes",
+    "metadata": {
+      "chunk_id": "f5083dbc71f42756da9351e1b6424399",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 64] proofs work natural user intervention cases node achieve successful connection nat firewall stun 29 upnp 30 natpmp 31 similar techniques manual intervention port forwarding required future nodes unable create connection firewalls rely traffic proxying available nodes fee nodes provide assistance nodes initial stun setup public address validation forth 4 6 node discovery point storage nodes means identify communicate know address account fact storage nodes x0cchapter 4 concrete implementation 34 consumer internet connections routers constantly changing ip addresses node discovery system xe2 x80 x99s goal provide means look node xe2 x80 x99s latest address node id somewhat similar role dns provides public internet kademlia distributed hash table dht key value store built node lookup protocol utilize kademlia primary source truth dns like functionality node lookup ignoring key value storage aspects kademlia kademlia node lookup eliminates need functionality kademlia require owner based",
+    "metadata": {
+      "chunk_id": "88630b3751e5a5e3f829b18a505cbba9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 65] utilize kademlia primary source truth dns like functionality node lookup ignoring key value storage aspects kademlia kademlia node lookup eliminates need functionality kademlia require owner based key republishing neighbor based key republishing storage retrieval values forth furthermore avoid number known attacks s kademlia 32 extensions appropriate unfortunately dhts kademlia require multiple network round trips operations makes difficult achieve millisecond level response times solve problem add basic decentralized caching service kademlia caching service live independently satellite attempt talk storage node network ongoing basis hour caching service cache known good address node evict nodes hasn xe2 x80 x99t talked certain period time storage nodes need extended know caching services expect scale reasonable future ping operations inexpensive admit new solution ultimately necessary fortunately space requirements negligible instance caching addresses network 80k nodes 5mb memory 2",
+    "metadata": {
+      "chunk_id": "6ff3cafaf104f2a53a2c4ce7e4c3d540",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 66] expect scale reasonable future ping operations inexpensive admit new solution ultimately necessary fortunately space requirements negligible instance caching addresses network 80k nodes 5mb memory 2 based design satellite xe2 x80 x99s cache expected primary source truth results cache stale redundant storage strategy storage network resilient expected degree node churn staleness system robust lookups cache fail return incorrect addresses furthermore peer peer communication system provides peer authentication node discovery cache returns faulty deliberately misleading address lookup responses cause loss performance correctness satellite caches primary source truth repair section 4 14 requires rapid determination node online offline lookups system stop cache lookup attempt lookup kademlia cases failed audit requests fallback nonconcurrent lookup kademlia performed correct potentially stale cache information addition included satellite plan host help set known community run node discovery",
+    "metadata": {
+      "chunk_id": "0843180e4530c328367f2573687f550c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 67] failed audit requests fallback nonconcurrent lookup kademlia performed correct potentially stale cache information addition included satellite plan host help set known community run node discovery caches caches perform duty quickly returning address information given node id node online recently 2 assuming ordered memory list 4 tuples node id 32 bytes ip address 16 bytes ipv6 port 2 bytes timestamp 4 bytes 80000 xc2 xb7 32b 16b 2b 4b xe2 x89 x88 4 12mb x0cchapter 4 concrete implementation 35 kademlia messages use peer peer communication protocol section 4 5 includes confidentiality peer identification requires cryptographic setup connections kademlia neighbors frequent contacts cached possible kademlia message shared network nodes include available disk space satellite bandwidth availability storj wallet address metadata network needs node discovery cache collect information provided nodes allowing faster lookups 4 6 1 mitigating sybil attacks xe2 x80 x99ve adopted proof work scheme s",
+    "metadata": {
+      "chunk_id": "a57917d7d1acfcf387bfad34fe30fbc2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 68] storj wallet address metadata network needs node discovery cache collect information provided nodes allowing faster lookups 4 6 1 mitigating sybil attacks xe2 x80 x99ve adopted proof work scheme s kademlia proposes partially address sybil attacks extend kademlia application specific integration defend network given storage nodes b storage node b allowed enter storage node xe2 x80 x99s routing table storage node b present signed message satellite c storage node trusts claiming b passed audits c trusts sections 4 13 4 15 ensures nodes verified disk space opportunity participate routing layer node allowed enter routing tables considered vetted lookups progress vetted nodes sure unvetted nodes found vetted nodes unbounded lists unvetted neighbors provided xor distance unvetted neighbors farther farthest k closest vetted neighbors unvetted nodes k nearest vetted nodes date 4 7 redundancy use reed solomon erasure code 59 implement solution reducing effects long tails section 3 4 2 choose 4",
+    "metadata": {
+      "chunk_id": "953568957031f78927f43453cdcb9b19",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 71] pairs extended attributes stored alongside metadata file 4 8 2 files segments previous version 37 term shard referred pieces storage nodes sharding referred segmenting file smaller chunks easier processing addition erasure coding previous version terms somewhat confusing decided distinguish meaning new words x0cchapter 4 concrete implementation 37 sharding process called segmenting highest level subdivision file xe2 x80 x99s stream data called segment unfortunately general inconsistency terms literature gfs refers segments chunks 26 lustre refers segments stripes 28 use term stripes subdelineation file small consists segment segment smaller metadata required store network data stored inline metadata 3 inline segment larger files data broken large remote segments segmenting manner offers numerous advantages security privacy performance availability distributed storage systems 26 xe2 x80 x9328 51 52 segmenting large files e g videos distributing segments network reduces impact content",
+    "metadata": {
+      "chunk_id": "84d89b0ea9af405b9e1fad383b151f22",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 72] numerous advantages security privacy performance availability distributed storage systems 26 xe2 x80 x9328 51 52 segmenting large files e g videos distributing segments network reduces impact content delivery given node bandwidth demands distributed evenly network previous version 37 standardized sizes help frustrate attempts determine content given segment help obscure flow data network addition end user advantage parallel transfer similar bittorrent 62 peer peer networks lastly capping size segments allows uniform storage node filling node needs space store segment participate network client doesn xe2 x80 x99t need find nodes space large file 4 8 3 segments stripes situations xe2 x80 x99s important access subsection larger piece data file formats video files disk images support seeking subset data needed read operations creators audio cds discovered xe2 x80 x99s useful able decode small parts segment support operations 38 purpose stripe defines subset segment couple kilobytes size",
+    "metadata": {
+      "chunk_id": "3c9cd813cd4cb26d7299d877a2e27866",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 73] subset data needed read operations creators audio cds discovered xe2 x80 x99s useful able decode small parts segment support operations 38 purpose stripe defines subset segment couple kilobytes size encryption happens small multiple stripes erasure encoding happens single stripe time use authenticated encryption encryption batch slight overhead slightly larger encryption sizes preferred audits happen stripes want audit bandwidth usage small 3 linux file system ext4 performs optimization inline inodes 61 x0cchapter 4 concrete implementation 38 reader familiar zfec library filefec mode zfec refers stripe chunk 42 4 8 4 stripes erasure shares discussed sections 3 4 4 7 erasure codes chance control network durability face unreliable storage nodes stripes boundary perform erasure encoding k n erasure code scheme n erasure shares generated stripe 59 example stripe broken 40 erasure shares n 40 20 k 20 needed reconstruct stripe 40 erasure shares 1 20th size original stripe erasure encoding",
+    "metadata": {
+      "chunk_id": "1805205f3dc8b4cee9f0e2cda698bf19",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 74] erasure code scheme n erasure shares generated stripe 59 example stripe broken 40 erasure shares n 40 20 k 20 needed reconstruct stripe 40 erasure shares 1 20th size original stripe erasure encoding single stripe time allows read small portions large segment retrieving entire segment 38 allows stream data network staging enables number useful features section 7 3 3 breakdown varying erasure code parameters affects availability redundancy 4 8 5 erasure shares pieces stripes small erasure shares smaller metadata track separately immense relative size n x0cchapter 4 concrete implementation 39 erasure shares defined index associated specifically fixed stripe given n ith share erasure code zfec library xe2 x80 x99s filefec mode 42 instead keeping track erasure shares separately pack erasure shares index piece k n scheme n pieces piece ordered concatenation erasure shares index result erasure share 1 kth stripe piece 1 kth segment k pieces needed recover segment piece store storage node",
+    "metadata": {
+      "chunk_id": "49daab35a3c70d05f84b490997a5f7a0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 75] shares index piece k n scheme n pieces piece ordered concatenation erasure shares index result erasure share 1 kth stripe piece 1 kth segment k pieces needed recover segment piece store storage node satellites generate brand new randomly chosen root piece id time new upload begins uplink root piece id secret send node specific piece id storage node formed taking hash based message authentication code hmac root piece id node xe2 x80 x99s id serves obscure pieces belong storage nodes root piece id stored pointer storage nodes namespace pieces satellite id piece id satellite reused satellite satellite safely assume shared piece id refers different piece satellite different content lifecycle 4 8 6 pointers data owner need knowledge remote segment broken network pieces located recover contained pointer data structure pointer includes nodes storing pieces encryption information erasure coding details repair threshold determines redundancy segment lose triggering repair pieces stored",
+    "metadata": {
+      "chunk_id": "8444390b79750215085929bab8f20af3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 79] trade offs appendix useful product market work considerable advantage xe2 x80 xa2 coordination avoidance users need coordinate users satellite user high throughput demands set satellite avoid coordination overhead user allowing satellite operators select database allow user choose satellite weaker consistency semantics highly available transactions 15 reduce coordination overhead satellite increase performance launch goal allow customers store metadata database choosing expect look forward new systems improvements specifically component framework x0cchapter 4 concrete implementation 41 appendix xe2 x80 x99ve chosen currently avoid trying solve problem byzantine distributed consensus section 6 2 discussion future plans 4 10 satellite collection services hold metadata called satellite users network accounts specific satellite instance store file metadata manage authorization data track storage node reliability repair maintain data redundancy reduced issue payments storage nodes user xe2",
+    "metadata": {
+      "chunk_id": "3ede4c14824954433f29df28fc793cbf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 80] network accounts specific satellite instance store file metadata manage authorization data track storage node reliability repair maintain data redundancy reduced issue payments storage nodes user xe2 x80 x99s behalf notably specific satellite instance necessarily constitute server satellite run collection servers backed horizontally scalable trusted database higher uptime storj implements thin client model delegates trust managing files xe2 x80 x99 location metadata satellite service manages data ownership uplinks able support widest possible array client applications satellites require high uptime potentially significant infrastructure especially active set files like storage nodes satellite service developed released open source software individual organization run satellite facilitate network access satellite core complex straightforward components initial release fulfills framework notwithstanding future frameworkconforming releases initial satellite standard application server",
+    "metadata": {
+      "chunk_id": "83311269e6e176c9ea8e72ff2c81b9d6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 82] run party satellites store data access keys large improvement traditional data center model features satellites provide like storage node selection reputation leverage considerable network effects reputation data sets grow useful increase size indicating strong economic incentives share infrastructure information satellite providers choose operate public satellites service application developers x0cchapter 4 concrete implementation 42 delegate trust location data network specific satellite traditional object store lesser degree future updates allow distributions responsibilities levels trust customer applications satellites satellite instance components xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 node discovery cache section 4 6 object metadata database indexed encrypted path section 4 9 account management authorization system section 4 12 storage node reputation statistics auditing system section 4 13 data repair service section 4 14 storage node payment",
+    "metadata": {
+      "chunk_id": "ef7ce95bb8b4264dd28fb3ec50342152",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 83] encrypted path section 4 9 account management authorization system section 4 12 storage node reputation statistics auditing system section 4 13 data repair service section 4 14 storage node payment service section 4 16 launch goal satellites step ahead previous system xe2 x80 x99s bridge implementation 37 point decentralization journey expect continue find ways decentralize components 4 11 encryption encryption choice authenticated encryption support aes gcm cipher salsa20 poly1305 combination nacl calls xe2 x80 x9csecretbox xe2 x80 x9d 66 authenticated encryption user know tampered data data encrypted blocks small batches stripes recommended 4kb 67 encryption key encryption batch segment segments different encryption keys nonce encryption batch monotonically incrementing previous batch entire segment nonce wraps 0 counter reaches maximum representable nonce prevent reordering attacks starting nonce segment deterministically chosen based segment number multiple segments uploaded",
+    "metadata": {
+      "chunk_id": "fb699ddbbc14aeb576c3d48dc9dd4d17",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 84] entire segment nonce wraps 0 counter reaches maximum representable nonce prevent reordering attacks starting nonce segment deterministically chosen based segment number multiple segments uploaded parallel case amazon s3 xe2 x80 x99s multipart upload feature starting nonce segment calculated starting nonce file segment number scheme protects content data storage node housing data data owner retains complete control encryption key access data paths encrypted like bip32 46 encryption hierarchical deterministic path component encrypted separately explain start scheme determining secret value path component let xe2 x80 x99s given path p unencrypted path components p1 p2 pn want determine encrypted path e path components e1 e2 en assume predetermined root secret s0 root secret chosen user like encryption secrets leaves client computer recursively define si hmac si xe2 x80 x931 pi key k si x0cchapter 4 concrete implementation 43 deterministically generated si define encrypted path component",
+    "metadata": {
+      "chunk_id": "f0abb1568d547589c29d4aa7b10800d3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 85] encryption secrets leaves client computer recursively define si hmac si xe2 x80 x931 pi key k si x0cchapter 4 concrete implementation 43 deterministically generated si define encrypted path component ei enc k si xe2 x80 x931 pi new path e e1 e2 en hmac sha256 hmacsha512 key derivations construction allows client share access subtree path access parents paths depth example suppose client like share access paths prefix p1 p2 p3 client client client e1 e2 e3 s3 allows client decrypt access arbitrary e4 k s3 known allowing client decrypt e3 earlier generally case client decrypt access arbitrary ei 3 path encryption enabled default optional encrypted paths efficient sorted path listing challenging path encryption use perbucket feature objects sorted encrypted path deterministic relatively unhelpful client application interested sorted unencrypted paths reason users opt path encryption path encryption disabled unencrypted paths revealed user xe2 x80 x99s chosen satellite storage nodes",
+    "metadata": {
+      "chunk_id": "1b68ce526f720e03db648a1f1aa0fb87",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 86] unhelpful client application interested sorted unencrypted paths reason users opt path encryption path encryption disabled unencrypted paths revealed user xe2 x80 x99s chosen satellite storage nodes storage nodes continue information path metadata pieces store 4 12 authorization encryption protects privacy data allowing identification tampering authorization allows prevention tampering disallowing clients making unauthorized edits users authorized able add remove edit files users authorized abilities metadata operations authorized users authenticate satellite allow access operations according authorization configuration initial metadata authorization scheme uses macaroons 68 macaroons type bearer token authorizes bearer restricted resources macaroons especially interesting allow rich contextual decentralized delegation words provide property add restrictions way restrictions later removed coordination central party use macaroons restrict operations applied encrypted paths applied way",
+    "metadata": {
+      "chunk_id": "c2fb0962a6bad3452b9359270969cf34",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 87] decentralized delegation words provide property add restrictions way restrictions later removed coordination central party use macaroons restrict operations applied encrypted paths applied way macaroons provide mechanism restrict delegated access specific encrypted path prefixes specific files specific operations read access append access account root macaroon operations validated supplied macaroon xe2 x80 x99s set caveats macaroons caveated optional expirations revocation tokens allow users revoke macaroons programmatically want restrict satellite operations satellites access en x0cchapter 4 concrete implementation 44 crypted paths authorization scheme work encrypted paths access delegation specific path prefixes path separation boundaries path components remain encryption implies reduced functionality performance path delimiters forward slash uplink authorized satellite satellite approve sign operations storage nodes including bandwidth allocations section 4 17 uplink retrieve valid",
+    "metadata": {
+      "chunk_id": "8464ca106ef655add8ac7db494ff6f3c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 88] functionality performance path delimiters forward slash uplink authorized satellite satellite approve sign operations storage nodes including bandwidth allocations section 4 17 uplink retrieve valid signatures satellite prior operations storage nodes operations storage node require specific satellite id associated signature storage node reject operations signed appropriate satellite id storage nodes allow operations signed satellite apply objects owned explicitly granted owning satellite initial implementation detect attempt mitigate unexpected file removal rollback misbehaving satellite trust model expects user xe2 x80 x99s satellite behaved stores repairs data reliably satellite trusted unlikely repair data client xe2 x80 x99s behalf future implementation add thorough detection satellite based file system tampering scheme systems sundr sirius plutus 69 xe2 x80 x9371 4 13 audits network untrusted nodes validating nodes returning data accurately behaving expected vital ensuring",
+    "metadata": {
+      "chunk_id": "ffa06cabbebab3e386e282da8ba2697c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 89] based file system tampering scheme systems sundr sirius plutus 69 xe2 x80 x9371 4 13 audits network untrusted nodes validating nodes returning data accurately behaving expected vital ensuring properly functioning system audits way confirm nodes data claim auditors satellites send challenge storage node expect valid response challenge request storage node order prove expected data distributed storage systems including previous version storj 37 discuss merkle tree proofs audit challenges expected responses generated time storage form proof retrievability 47 merkle tree 72 metadata needed store challenges responses negligible proofs retrievability broadly classified limited unlimited schemes 49 merkle tree variety previous version limited scheme unfortunately scheme challenges expected responses pregenerated learned previous version periodic regeneration challenges storage node begin pass audits storing requested data keeping track challenges exist saving expected responses previous",
+    "metadata": {
+      "chunk_id": "cac7ee9662346cfdd486c88833d62108",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 90] pregenerated learned previous version periodic regeneration challenges storage node begin pass audits storing requested data keeping track challenges exist saving expected responses previous version began consider reed solomon erasure coding help solve problem assumption storage system storage nodes behave rationally incentives aligned data stored faithfully long assumption holds reed solomon able detect errors correct mechanisms x0cchapter 4 concrete implementation 45 berlekamp welch error correction algorithm 39 73 reed solomon erasure coding 59 small ranges stripes discussed hail system 41 use erasure coding read single stripe time challenge validate erasure share responses allows run arbitrary audits pre generated challenges perform audit choose stripe request stripe xe2 x80 x99s erasure shares storage nodes responsible run berlekamp welch algorithm 39 73 erasure shares storage nodes return correct information faulty missing responses easily identified given specific storage node",
+    "metadata": {
+      "chunk_id": "b4c641fce3c884dccfd39bb6742c4947",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 91] shares storage nodes responsible run berlekamp welch algorithm 39 73 erasure shares storage nodes return correct information faulty missing responses easily identified given specific storage node audit reveal offline incorrect case node offline audit failure address node discovery cache stale fresh kademlia lookup attempted node appears offline satellite places node containment mode mode satellite calculate save expected response continue try audit node node responds successfully actively fails audit disqualified offline long node responds successfully leaves containment mode audit failures stored saved reputation system audits additionally serve opportunity test storage node latency throughput responsiveness uptime data saved reputation system important storage node frequent set random audits gain statistical power behaved storage node operating discussed section 3 7 requirement audits performed byte file additionally important byte stored system equal probability checked future",
+    "metadata": {
+      "chunk_id": "65c5b30bdff599f872928aee7525ca2e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 92] audits gain statistical power behaved storage node operating discussed section 3 7 requirement audits performed byte file additionally important byte stored system equal probability checked future audit byte system section 7 2 discussion audits required confident data stored correctly 4 14 data repair storage nodes offline xe2 x80 x94taking pieces xe2 x80 x94it necessary missing pieces rebuilt segment xe2 x80 x99s pieces fall predetermined threshold m node goes offline satellite mark nodes xe2 x80 x99 file pieces missing node discovery system xe2 x80 x99s caches reasonably accurate date information storage nodes online recently storage node changes state recently online offline trigger lookup reverse index user xe2 x80 x99s metadata database identifying segment pointers stored node segment drops appropriate minimum safety threshold m segment downloaded reconstructed missing pieces x0cchapter 4 concrete implementation 46 generated uploaded new nodes finally pointer updated include new",
+    "metadata": {
+      "chunk_id": "50be24b9566c536ff7929a07e1c79597",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 93] drops appropriate minimum safety threshold m segment downloaded reconstructed missing pieces x0cchapter 4 concrete implementation 46 generated uploaded new nodes finally pointer updated include new information users choose desired durability satellite impact price considerations desired durability statistics ongoing audits directly inform reed solomon erasure code choices new repaired files thresholds set uploads successful repair needed sections 3 4 7 3 calculate values given user inputs direct implication design satellite constantly stay running user xe2 x80 x99s satellite stops running repairs stop data eventually disappear network node churn similar design value storing republishing works kademlia 8 requires owner stay online ingress inbound bandwidth demands audit repair system large given standard configuration egress outbound demands relatively small large data comes system audits repairs missing pieces sent repair audit system run bandwidth usage asymmetry means hosting",
+    "metadata": {
+      "chunk_id": "03ae6d2f99d464334d0ee168d8d23983",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 94] large given standard configuration egress outbound demands relatively small large data comes system audits repairs missing pieces sent repair audit system run bandwidth usage asymmetry means hosting providers offer free ingress especially attractive hosting location users system 4 14 1 piece hashes data repair ongoing costly operation use significant bandwidth memory processing power impacting single operator result repair resource usage aggressively minimized possible repairing segment effective minimizing bandwidth usage pieces needed reconstruction downloaded unfortunately reed solomon insufficient correcting errors redundant pieces provided instead piece hashes provide better way confident xe2 x80 x99re repairing data correctly solve problem hashes piece stored alongside piece storage node validation hash set hashes correct stored pointer repair hashes piece retrieved validated correctness pointer allowing piece validated entirety allows repair system correctly assess repair",
+    "metadata": {
+      "chunk_id": "b0d048f9b36bcfc460374631d7897bdf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 95] node validation hash set hashes correct stored pointer repair hashes piece retrieved validated correctness pointer allowing piece validated entirety allows repair system correctly assess repair completed successfully extra redundancy task x0cchapter 4 concrete implementation 4 15 47 storage node reputation reputation metrics decentralized networks critical enabling cooperation nodes progress challenging reputation metrics ensure bad actors network eliminated participants improving security reliability durability storage node reputation divided subsystems subsystem proof work identity system second subsystem initial vetting process subsystem filtering system finally fourth system preference system goal system require short proof storage node operator invested time stake resources initially proof work mentioned section 4 3 storage nodes require proof work identity generation helps network avoid sybil attacks 74 glossed proof work difficulty set let satellite operators set satellite",
+    "metadata": {
+      "chunk_id": "996860efd33fb09a9def8088ff36df9e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 96] proof work mentioned section 4 3 storage nodes require proof work identity generation helps network avoid sybil attacks 74 glossed proof work difficulty set let satellite operators set satellite minimum difficulty required new data storage storage node identity generated lower difficulty satellite xe2 x80 x99s configured minimum storage node candidate new data expect satellite operators naturally increase minimum proof work difficulty requirements time reasonable balance found case changing difficulty configuration satellites leave existing data existing nodes possible investment proof schemes possible form proof stake proposed previous work 75 second subsystem slowly allows nodes join network storage node joins network reliability unknown result placed vetting process data known propose following way gather data new nodes compromising integrity network time file uploaded satellite select small number additional unvetted storage nodes include list target nodes reed solomon parameters",
+    "metadata": {
+      "chunk_id": "1cd20cb42e52e840a11ed25ae6cc9cf7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 97] following way gather data new nodes compromising integrity network time file uploaded satellite select small number additional unvetted storage nodes include list target nodes reed solomon parameters chosen unvetted storage nodes affect durability file allow network test node small fraction data sure node reliable storage node successfully stored data long period payment period satellite start including storage node standard selection process general uploads node signed message claiming vetting process completed storage node enter nodes xe2 x80 x99 routing tables section 4 6 1 importantly storage nodes paid vetting period don xe2 x80 x99t receive data filtering system subsystem blocks bad storage nodes participating addition simply having sufficient proof work certain actions storage node disqualifying events reputation system filter nodes future uploads regardless node vetting process actions disqualifying include failing audits failing return data reasonable speed failing uptime",
+    "metadata": {
+      "chunk_id": "85b1c0d768b9377fb8d2578a07cbc758",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 98] disqualifying events reputation system filter nodes future uploads regardless node vetting process actions disqualifying include failing audits failing return data reasonable speed failing uptime checks x0cchapter 4 concrete implementation 48 storage node disqualified node longer selected future data storage data node stores moved new storage nodes likewise client attempts download piece storage node node stored node fails return node disqualified importantly storage nodes allowed reject fail operations penalty nodes allowed choose satellite operators work data store xe2 x80 x99s worth reiterating failing uptime checks disqualifying event storage nodes taken maintenance storage node offline adverse impact network node offline audit specific audit retried node responds successfully disqualified prevent nodes selectively failing respond audits storage node disqualified node entire vetting process node decides start brand new identity node restart vetting process beginning addition",
+    "metadata": {
+      "chunk_id": "33f6a132be6748473ed213c5dc500b7c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "penalty"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 99] prevent nodes selectively failing respond audits storage node disqualified node entire vetting process node decides start brand new identity node restart vetting process beginning addition generating new node id proof work system strongly disincentivizes storage nodes cavalier reputation subsystem preference system disqualified storage nodes filtered remaining statistics collected audits establish preference better storage nodes uploads statistics include performance characteristics throughput latency history reliability uptime geographic location desirable qualities combined load balancing selection process uploads sent qualified nodes higher likelihood uploads preferred nodes non zero chance qualified node initially xe2 x80 x99ll load balancing preferences randomized scheme power choices 76 selects options entirely random chooses qualified storj network preferential storage node reputation select new data stored repair upload new files unlike disqualifying events storage node xe2",
+    "metadata": {
+      "chunk_id": "f13621f0a7cc77eb31f9678a1d2b3f20",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 100] 76 selects options entirely random chooses qualified storj network preferential storage node reputation select new data stored repair upload new files unlike disqualifying events storage node xe2 x80 x99s preferential reputation decreases file pieces moved repaired nodes process planned system storage nodes contest reputation scores best interest storage nodes good uptime pass audits return data storage nodes don xe2 x80 x99t things useful network storage nodes treated satellites unfairly accept future data satellites section 4 21 quality control plan ensure satellites incentivized treat storage nodes fairly initially storage node reputation individually determined satellite node disqualified satellite store data satellites reputation initially shared satellites time reputation determined globally x0cchapter 4 concrete implementation 4 16 49 payments storj network payments clients store data platform satellite utilize satellites pays storage nodes storage bandwidth provide network",
+    "metadata": {
+      "chunk_id": "a37e9c2f4987ecc70a64cb415ba06a68",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 101] globally x0cchapter 4 concrete implementation 4 16 49 payments storj network payments clients store data platform satellite utilize satellites pays storage nodes storage bandwidth provide network payments clients mechanism storj credit card invoice etc payments storage nodes ethereum based erc20 77 storj token previous distributed systems handled payments hard coded contracts example previous storj network utilized 90 day contracts maintain data network period time file deleted distributed storage platforms use 15 day renewable contracts delete data user login 15 days use 30 day contracts believe common use case indefinite storage best solve use case network longer use contracts manage payments file storage durations default assumption data indefinitely satellites pay storage nodes data store piece downloads storage nodes paid initial transfer data paid storing data month month end payment period satellite calculate earnings storage nodes provided storage node hasn xe2 x80 x99t",
+    "metadata": {
+      "chunk_id": "a24d95392986aa463f12ecdb4596667f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 102] data store piece downloads storage nodes paid initial transfer data paid storing data month month end payment period satellite calculate earnings storage nodes provided storage node hasn xe2 x80 x99t disqualified storage node paid satellite data stored course month satellite xe2 x80 x99s records satellites strong incentive prefer long lived storage nodes storage node churn high satellites escrow portion storage node xe2 x80 x99s payment storage node maintained good participation uptime minimum time order greater half year storage node leaves network prematurely satellite reclaim escrowed payments storage node misses delete command node offline storing data satellite credits storage nodes paid storing file pieces eventually cleaned garbage collection process section 4 19 means storage nodes maintain higher availability maximize profits deleting files request minimizes garbage data store satellite maintains database file pieces responsible storage nodes believes storing pieces day",
+    "metadata": {
+      "chunk_id": "bc7b42522db690a6daeef7f7e2f04c57",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 103] nodes maintain higher availability maximize profits deleting files request minimizes garbage data store satellite maintains database file pieces responsible storage nodes believes storing pieces day satellite adds day xe2 x80 x99s worth accounting storage node file piece storing satellites track utilized bandwidth section 4 17 end month satellite adds bandwidth storage payments storage node earned makes payments appropriate storage nodes satellites earn revenue account holders executing audits repairing segments storing metadata satellites charge segment byte cost addition charging access retrieval segment charges cover cost pointer x0cchapter 4 concrete implementation 50 metadata byte charges cover cost data maintenance network day satellite execute number audits storage nodes network satellite charge completing audits repairs segments fall piece threshold needed repair detected storage node acts maliciously store files properly maintain sufficient availability paid services rendered",
+    "metadata": {
+      "chunk_id": "ef9869b35b39089f209d15ef6ed431ee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 104] charge completing audits repairs segments fall piece threshold needed repair detected storage node acts maliciously store files properly maintain sufficient availability paid services rendered funds allocated instead repair missing file pieces pay new storage nodes storing data reduce transaction fees overhead possible payments recipient initiated worth minimum value certain satellites elect use portion storage nodes xe2 x80 x99 payout cover transaction fees satellite reputation section section 4 18 details storage nodes know trust satellites 4 17 bandwidth allocation core component system requires knowing bandwidth peers previous version 37 78 exchange reports gather information transpired peers end operation peers send reports central collection service settlement peers mutually agreed straightforward determine bandwidth disagreed resorted data analysis regression determine peer greater propensity dishonesty effort catch xe2 x80 x9ccheaters xe2 x80 x9d rational nodes new version",
+    "metadata": {
+      "chunk_id": "cee1b59f98c7b0cb8ee4374cfb0d3da2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 105] straightforward determine bandwidth disagreed resorted data analysis regression determine peer greater propensity dishonesty effort catch xe2 x80 x9ccheaters xe2 x80 x9d rational nodes new version want cheating impossible protocol level solve problem turn neuman xe2 x80 x99s proxy based authorization accounting distributed systems 79 accounting protocol correctly measures resource usage delegated decentralized way neuman xe2 x80 x99s accounting protocol account holder funds cover operation account server create signed digital check transfer account holder protocol refers check proxy refer bandwidth allocation check contains information identifying account server payer payee maximum resources available operation check number prevent double spending problems 80 expiration date case account server satellite payer uplink payee storage node resource question bandwidth satellite create bandwidth allocation uplink authorized request beginning storage operation uplink transfer bandwidth",
+    "metadata": {
+      "chunk_id": "b797a4e536323460064d66c67bfd995e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 106] server satellite payer uplink payee storage node resource question bandwidth satellite create bandwidth allocation uplink authorized request beginning storage operation uplink transfer bandwidth allocation storage node x0cchapter 4 concrete implementation 51 storage node validate satellite xe2 x80 x99s signature perform requested operation allowed bandwidth limit storing later sending bandwidth allocation satellite payment xe2 x80 x99re inspired filecoin xe2 x80 x99s chain retrieval market small amounts data transferred time 81 instead allowing storage node cheat save bandwidth allocation performing requested operation break operation smaller requests storage node uplink stop participating protocol prematurely peer class exposed loss similar optimistic gradual release fair exchange protocol 80 support neuman xe2 x80 x99s accounting protocol little satellite overhead use restricted bandwidth allocations referred restricted proxies 79 neuman xe2 x80 x99s restricted proxies work like",
+    "metadata": {
+      "chunk_id": "28c5d04e50439edc704fc25fc3b1e22f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 107] 80 support neuman xe2 x80 x99s accounting protocol little satellite overhead use restricted bandwidth allocations referred restricted proxies 79 neuman xe2 x80 x99s restricted proxies work like macaroons 68 caveats added way xe2 x80 x99t removed limiting capabilities proxy proxies use public private key cryptography means validate proxy instead original issuer uplink key pair identity section 4 4 use existing key pair instead creating new key pair restriction restricted bandwidth allocations case restricted uplink limit bandwidth allocation xe2 x80 x99s value transferred far way storage node largest bandwidth allocation received point uplink send bandwidth allocations slightly larger received storage node incentive largest allocation share xe2 x80 x9ccheck number xe2 x80 x9d cashed case operation assume satellite signed bandwidth allocation allows x bytes total uplink start sending restricted allocation small y bytes kilobytes storage node verify uplink xe2 x80 x99s authorization",
+    "metadata": {
+      "chunk_id": "ab9cbdcda3151378c91edc284a7249d7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 108] operation assume satellite signed bandwidth allocation allows x bytes total uplink start sending restricted allocation small y bytes kilobytes storage node verify uplink xe2 x80 x99s authorization allocation signed correctly storage node transfer listed restricted allocation y bytes awaiting allocation uplink send allocation y larger continuing send allocations data y grown x value transaction storage node sends previously unsent data storage node sends x bytes total seen figure 4 6 pipeline requests avoid pipeline stall performance penalties request terminated time planned unexpectedly storage node largest restricted bandwidth allocation received largest restricted bandwidth allocation signed confirmation uplink uplink agreed bandwidth usage y bytes satellite xe2 x80 x99s confirmation uplink xe2 x80 x99s bandwidth allowance x storage node periodically send largest restricted bandwidth allocations received appropriate satellites point satellites pay storage node bandwidth uplink xe2",
+    "metadata": {
+      "chunk_id": "4750c83c4136685872a1446e290c6bd8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 109] xe2 x80 x99s bandwidth allowance x storage node periodically send largest restricted bandwidth allocations received appropriate satellites point satellites pay storage node bandwidth uplink xe2 x80 x99t afford bandwidth usage satellite sign bandwidth allocation protecting satellite xe2 x80 x99s reputation likewise uplink tries use x0cchapter 4 concrete implementation figure 4 5 diagram operation figure 4 6 diagram operation 52 x0cchapter 4 concrete implementation 53 bandwidth allocated storage node decline request storage node paid maximum client agreed valid bandwidth allocations return payment don xe2 x80 x99t measure peer peer traffic bandwidth traffic measurement system tracks bandwidth storage operations storage retrievals pieces apply node discovery traffic kademlia dht generic maintenance overhead 4 18 satellite reputation satellite storj network stellar payment demand generation performance history strong incentive storage nodes avoid accepting data new satellite joins network",
+    "metadata": {
+      "chunk_id": "51a2bddfc392a42c11d612371d55be59",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 110] overhead 4 18 satellite reputation satellite storj network stellar payment demand generation performance history strong incentive storage nodes avoid accepting data new satellite joins network participating storage nodes commence vetting process process limits exposure new unknown satellite building trust time highlight satellites best payment record storage nodes able configure maximum data store untrusted satellite build historical data satellite trusted future storage node operators retain manual control satellites trust won xe2 x80 x99t trust desired storage node operators elect automatically trust storj labs provided collection recommended satellites adhere strict set quality controls payment service level agreements slas protect storage node operators satellite operator wants included xe2 x80 x9ctardigrade xe2 x80 x9d approved list satellite operator required adhere set operating payment pricing parameters sign business arrangement storj labs section 4 21 details 4 19 garbage",
+    "metadata": {
+      "chunk_id": "7c018d7005fb96840b3cbaddd7cc2d59",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 111] xe2 x80 x9ctardigrade xe2 x80 x9d approved list satellite operator required adhere set operating payment pricing parameters sign business arrangement storj labs section 4 21 details 4 19 garbage collection clients replace delete data satellites clients behalf satellites notify storage nodes longer required store data configurations delete messages issued client metadata system satellite satellite reputation line require proof deletes issued configurable minimum number storage nodes means time data deleted storage nodes online reachable receive notifications right away storage nodes temporarily unavailable miss delete messages cases unneeded data considered garbage satellites pay data expect stored storage nodes lots garbage earn x0cchapter 4 concrete implementation 54 garbage collection system employed reason introduce garbage collection free space storage nodes garbage collection algorithm method freeing longer resources precise garbage collector collects garbage exactly leaves",
+    "metadata": {
+      "chunk_id": "84b5693d909571cf95b7fe99d0dd05a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 112] system employed reason introduce garbage collection free space storage nodes garbage collection algorithm method freeing longer resources precise garbage collector collects garbage exactly leaves additional garbage conservative garbage collector hand leave small proportion garbage given trade offs aim improving performance long conservative garbage collector system payment storage owed storage node high amortize cost storing garbage nodes miss initial delete messages release start conservative garbage collection strategy anticipate precise strategy near future periodically storage nodes request data structure detect differences simplest form hash stored keys allows efficient detection outof sync state detecting sync state collection use structure bloom filter 82 find data deleted returning data structure tailored node periodic schedule satellite storage node ability clean garbage data configurable tolerance satellites reject overly frequent requests data structures 4 20 uplink uplink",
+    "metadata": {
+      "chunk_id": "8fc907183bdc201dd4a551141de3be54",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 115] storage node setup documentation frequently asked questions faqs tutorials users brands able access source code community storj io demand business served tardigrade brand directed tardigrade io experience focused partners customers purchased decentralized storage bandwidth network expectation high durability resilience reliability backed industry leading service level agreement sla includes offers free trials satellite selection documentation faqs tutorials forth xe2 x80 x9ctardigrade xe2 x80 x9d brand additionally serve satellite quality credentialing system set satellite storj io satellite listed official tardigrade satellite considered xe2 x80 x9ctardigrade quality xe2 x80 x9d benefit directly storj labs xe2 x80 x99 demand generation activities operator pass certain compliance quality requirements quality controls continuously audit rank satellites behavior durability compliance performance addition satellite operator adhere particular business policies pricing storage node",
+    "metadata": {
+      "chunk_id": "d6b49859a9b10fa3ec64f857784f0c71",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 116] requirements quality controls continuously audit rank satellites behavior durability compliance performance addition satellite operator adhere particular business policies pricing storage node recruitment slas storage node payments forth satellite operators tardigrade network business relationship storj labs defines things franchise fees revenue sharing entities storj labs assume responsibilities including demand generation brand enforcement satellite operator support end user support united states form 1099 tax filing compliance 4 insurance maintenance overall network quality compliance quality controls implemented ensure storage nodes paid fairly satellites able continuously meet slas tardigrade products 4 form 1099 required law payments individual given year exceeding total $600 x0c5 walkthroughs following collection common use case examples different types transactions data system 5 1 upload user wants upload file user begins transferring data instance uplink xe2 x80 xa2 uplink",
+    "metadata": {
+      "chunk_id": "6521f9aab5e7ed64b3af7a07f77a3928",
+      "entities": {
+        "location": [
+          "united states"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 117] walkthroughs following collection common use case examples different types transactions data system 5 1 upload user wants upload file user begins transferring data instance uplink xe2 x80 xa2 uplink chooses encryption key starting nonce segment begins encrypting incoming data authenticated encryption flows network xe2 x80 xa2 uplink buffers data knows incoming segment short inline segment remote segment inline segments small stored satellite rest walkthrough assume remote segment remote segments involve technology stack xe2 x80 xa2 uplink sends request satellite prepare storage segment request object contains api credentials macaroons identity certificates receiving request satellite xe2 x80 xa2 confirm uplink appropriate authorization funds request uplink account specific satellite xe2 x80 xa2 selection nodes adequate resources conform bucket xe2 x80 x99s configured durability performance geographic reputation requirements xe2 x80 xa2 return list nodes contact information",
+    "metadata": {
+      "chunk_id": "dd7186a9585a258616aebe89957be1f3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 118] xe2 x80 xa2 selection nodes adequate resources conform bucket xe2 x80 x99s configured durability performance geographic reputation requirements xe2 x80 xa2 return list nodes contact information unrestricted bandwidth allocations chosen root piece id uplink information begin parallel connections chosen storage nodes measuring bandwidth section 4 17 xe2 x80 xa2 uplink begin breaking segment stripes erasure encode stripe xe2 x80 xa2 generated erasure shares concatenated pieces transfer storage node parallel xe2 x80 xa2 erasure encoding configured encode pieces needed eliminate long tail effect lead significant improvement visible performance allowing uplink cancel slowest uploads x0cchapter 5 walkthroughs 57 xe2 x80 xa2 data continue transfer maximum segment size hit stream ends whichever sooner xe2 x80 xa2 hashes piece written end piece stream storage node store largest restricted bandwidth allocation ttl segment exists data data identified storage node specific piece id delegating",
+    "metadata": {
+      "chunk_id": "c6045253e454e8b91b6f3ec438b6d966",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 119] sooner xe2 x80 xa2 hashes piece written end piece stream storage node store largest restricted bandwidth allocation ttl segment exists data data identified storage node specific piece id delegating satellite id upload aborted reason storage node largest restricted bandwidth allocation received client uplink behalf satellite throw away relevant request data assuming success xe2 x80 xa2 uplink encrypts random encryption key chose file utilizing deterministic hierarchical key xe2 x80 xa2 uplink upload pointer object satellite contains following information xe2 x80 x93 storage nodes ultimately successful xe2 x80 x93 encrypted path chosen segment xe2 x80 x93 erasure code algorithm xe2 x80 x93 chosen piece id xe2 x80 x93 encrypted encryption key metadata xe2 x80 x93 hash piece hashes xe2 x80 x93 signature finally uplink proceed segment continuing process segments entire stream completed segment gets new encryption key segment xe2 x80 x99s starting nonce monotonically increases previous",
+    "metadata": {
+      "chunk_id": "9ebb3c3c4749c67bc54aef8c27253791",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 120] x93 signature finally uplink proceed segment continuing process segments entire stream completed segment gets new encryption key segment xe2 x80 x99s starting nonce monotonically increases previous segment segment stored stream contain additional metadata xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 xe2 x80 xa2 segments stream contained large segments bytes starting nonce segment extended attributes metadata periodically storage nodes later send largest restricted bandwidth allocation received upload appropriate satellite payment upload happens amazon s3 multipart upload interface uploaded segment individually x0cchapter 5 walkthroughs 5 2 58 download user wants download file user sends request data uplink uplink tries reduce number round trips satellite speculatively requesting pointers segments addition pointer segment uplink needs segment pointer learn size object size number segments decrypt data future release uplink tell satellite byte ranges needed satellite respond appropriate segment",
+    "metadata": {
+      "chunk_id": "1d37772616024faafcb4a5749409a2c8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 121] addition pointer segment uplink needs segment pointer learn size object size number segments decrypt data future release uplink tell satellite byte ranges needed satellite respond appropriate segment pointers segment pointer requested satellite xe2 x80 xa2 validate uplink access download segment pointer funds pay download xe2 x80 xa2 generate unrestricted bandwidth allocation piece makes segment xe2 x80 xa2 look contact information storage nodes listed pointer xe2 x80 xa2 return requested segment pointer bandwidth allocations node contact info piece uplink determine segments necessary data request received request remaining segment pointers needed xe2 x80 xa2 necessary segment pointers returned requested segments inline uplink initiate parallel requests measuring bandwidth section 4 17 appropriate storage nodes appropriate erasure share ranges inside stored piece xe2 x80 xa2 erasure shares necessary recovery long tails eliminated significant visible performance improvement gained",
+    "metadata": {
+      "chunk_id": "39608c801246bea4d73144e2b96ff154",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 122] appropriate storage nodes appropriate erasure share ranges inside stored piece xe2 x80 xa2 erasure shares necessary recovery long tails eliminated significant visible performance improvement gained allowing uplink cancel slowest downloads xe2 x80 xa2 uplink combine retrieved erasure shares stripes decrypt data download aborted reason storage node largest restricted bandwidth allocation received throw away relevant request data way storage nodes later send largest restricted bandwidth allocation received download appropriate satellite later payment 5 3 delete user wants delete file delete operation received uplink uplink requests segment pointers file segment pointer satellite x0cchapter 5 walkthroughs 59 xe2 x80 xa2 validate uplink access delete segment pointer xe2 x80 xa2 generate signed agreement deletion segment storage node knows satellite expecting delete proceed xe2 x80 xa2 look contact information storage nodes listed pointer xe2 x80 xa2 return segments agreements contact",
+    "metadata": {
+      "chunk_id": "11efb8f4cf4d261ce6a928ec8b8df9a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 124] status periodically storage nodes ask satellite generated garbage collection messages update storage nodes offline main deletion event satellites reject requests garbage collection messages happen frequently section 4 19 details 5 4 user wants file uplink receives request moving file new path uplink requests segment pointers file segment pointer satellite xe2 x80 xa2 validates uplink access download xe2 x80 xa2 returns requested segment metadata segment pointer uplink xe2 x80 xa2 decrypts metadata encryption key derived path xe2 x80 xa2 calculates path new destination xe2 x80 xa2 encrypts metadata new encryption key derived new path uplink requests satellite add modified segment pointers remove old segment pointers atomic compare swap operation satellite validate x0cchapter 5 walkthroughs 60 xe2 x80 xa2 uplink appropriate authorization remove old path create new path xe2 x80 xa2 content old path hasn xe2 x80 x99t changed overall operation started validation successful satellite",
+    "metadata": {
+      "chunk_id": "f57910532f2f0d7c969f2d4ae8a64443",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 126] xe2 x80 xa2 invokes copy operation storage nodes pointer duplicate piece new piece id xe2 x80 xa2 waits storage nodes respond duplicated data removes nodes unsuccessful xe2 x80 xa2 encrypts metadata new piece id new encryption key derived new path finally uplink uploads modified segment pointers satellite importantly okay storage nodes de duplicate storage store actual copy data matters storage node identify data old new piece id piece ids receives delete operation piece id continue working pieces deleted node free space 5 6 list user wants list files x0cchapter 5 walkthroughs 61 xe2 x80 xa2 request listing page objects received uplink xe2 x80 xa2 uplink translate request unencrypted paths encrypted paths xe2 x80 xa2 uplink request satellite appropriate page encrypted paths xe2 x80 xa2 satellite validate uplink appropriate access return requested list page xe2 x80 xa2 finally uplink decrypt results return 5 7 audit satellite queue segment stripes audited set storage nodes queue filled",
+    "metadata": {
+      "chunk_id": "f17ac7758d9d76c716d03c311473e8b2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 127] validate uplink appropriate access return requested list page xe2 x80 xa2 finally uplink decrypt results return 5 7 audit satellite queue segment stripes audited set storage nodes queue filled mechanisms xe2 x80 xa2 mechanism satellite populates queue periodically selecting segments randomly stripes segments random segments maximum size sufficiently approximates goal choosing byte audit uniformly random xe2 x80 xa2 second mechanism satellite chooses stripe audit identifying storage nodes fewer recent audits storage nodes satellite select stripe random data contained storage node satellites work process queue report errors xe2 x80 xa2 stripe request satellite perform entire download operation small stripe range filtering nodes containment mode unlike standard downloads stripe request need performant satellite attempt download erasure shares stripe wait slow storage nodes xe2 x80 xa2 receiving shares possible generous timeout erasure shares analyzed discover wrong satellites note",
+    "metadata": {
+      "chunk_id": "705efde604b7bdf26686a6d4995a3831",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 128] need performant satellite attempt download erasure shares stripe wait slow storage nodes xe2 x80 xa2 receiving shares possible generous timeout erasure shares analyzed discover wrong satellites note storage nodes return invalid data storage node returns invalid data satellite disqualify storage node future exchanges case disqualification satellite pay storage node going forward select storage node new data xe2 x80 xa2 storage nodes respond cryptographic checksum expected audit result created stored placing unresponsive nodes containment containment node continue given audit unresponsive passes disqualified 5 8 data repair repair process parts detects unhealthy files second repairs detection straightforward x0cchapter 5 walkthroughs 62 xe2 x80 xa2 satellite periodically ping storage node knows audit process standard node discovery ping operations xe2 x80 xa2 satellite track nodes fail respond mark xe2 x80 xa2 node marked marked bad audit process pointers point storage node considered",
+    "metadata": {
+      "chunk_id": "d07e1a5d4416f5981ad8555186bf4a1d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 129] knows audit process standard node discovery ping operations xe2 x80 xa2 satellite track nodes fail respond mark xe2 x80 xa2 node marked marked bad audit process pointers point storage node considered repair pointers track minimum allowable redundancy pointer stored good online storage nodes added repair queue worker process segment pointers repair queue segment pointer taken repair queue xe2 x80 xa2 worker download pieces reconstruct entire segment piece hashes stored pieces section 4 14 1 unlike audits pieces accurate repair needed unlike streaming downloads repair system wait entire segment starting xe2 x80 xa2 piece hashes validated signature pointer downloaded pieces validated validated piece hashes incorrect pieces thrown away count source failed audits xe2 x80 xa2 correct pieces recovered missing pieces regenerated xe2 x80 xa2 satellite selects new nodes uploads new pieces new nodes normal upload process xe2 x80 xa2 satellite updates pointer xe2 x80 x99s metadata 5 9 payment",
+    "metadata": {
+      "chunk_id": "822d3c295a1bcc2b4d7b06254f22b494",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 130] recovered missing pieces regenerated xe2 x80 xa2 satellite selects new nodes uploads new pieces new nodes normal upload process xe2 x80 xa2 satellite updates pointer xe2 x80 x99s metadata 5 9 payment payment process works follows xe2 x80 xa2 satellite choose rollup period period time xe2 x80 x94defaulting day xe2 x80 x94that payment data rest calculated purely period chosen accounting actual payments happen frequent schedule xe2 x80 xa2 roll period satellite consider files believes currently stored storage node satellites track payments owed storage node rollup period based data kept storage node xe2 x80 xa2 finally storage nodes periodically xe2 x80 x94defaulting monthly xe2 x80 x94send bandwidth allocation reports satellite receives bandwidth allocation report calculates owed funds outstanding data rest calculations sends funds storage node xe2 x80 x99s requested wallet address x0c6 future work storj work progress features planned future versions chapter discuss especially",
+    "metadata": {
+      "chunk_id": "07a9bd159c97cedb5f2b5bfc57be2549",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 131] outstanding data rest calculations sends funds storage node xe2 x80 x99s requested wallet address x0c6 future work storj work progress features planned future versions chapter discuss especially interesting areas want consider improvements concrete implementation 6 1 hot files content delivery occasionally users system end delivering files popular anticipated storage node operators welcome opportunity paid bandwidth usage data demand popular files outstrip available bandwidth capacity form dynamic scaling needed fortunately satellites authorize accesses pieces meter rate limit access popular files file xe2 x80 x99s demand starts grow current resources serve satellite opportunity temporarily pause accesses necessary increase redundancy file storage nodes continue allowing access reed solomon erasure coding useful property assume k n encoding k pieces needed n total non negative integer number x n pieces k n x encoding exact pieces k n encoding means redundancy easily scaled little",
+    "metadata": {
+      "chunk_id": "07256e88eacb9a6daa017d2b5f57779a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 132] erasure coding useful property assume k n encoding k pieces needed n total non negative integer number x n pieces k n x encoding exact pieces k n encoding means redundancy easily scaled little overhead practical example suppose file encoded k 20 n 40 scheme satellite discovers needs double bandwidth resources meet demand satellite download 20 pieces 40 generate 40 pieces new k 20 n 80 scheme store new pieces 40 new nodes xe2 x80 x94without changing data original 40 nodes xe2 x80 x94store file k 20 n 80 scheme 20 80 pieces needed allows requests adequately load balance 80 pieces demand outstrips supply 20 pieces needed generate redundancy manner satellite temporarily increase redundancy 20 250 requests load balanced 250 nodes piece 250 unique 20 pieces required regenerate original file hand satellite need pay storage nodes increased redundancy content delivery manner increased rest costs high demand addition bandwidth costs hand content delivery desired highly geographically redundant",
+    "metadata": {
+      "chunk_id": "6fcecd31139eac7f0c0a71149205ec7d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 133] satellite need pay storage nodes increased redundancy content delivery manner increased rest costs high demand addition bandwidth costs hand content delivery desired highly geographically redundant scheme provides naturally x0cchapter 6 future work 6 2 64 improving user experience metadata initial concrete implementation place significant burdens satellite operator maintain good service level high availability high durability regular payments regular backups expect large degree variation quality satellites led implement quality control program section 4 21 time clients satellites want reduce dependence satellite operators enjoy efficient data portability satellites downloading uploading data manually plan spend significant time improving user experience number ways short term plan build metadata import export system users backups metadata transfer metadata satellites medium term plan reduce size exports considerably backup process automatic seamless possible expect build system",
+    "metadata": {
+      "chunk_id": "c21240675da18d72ce1e69465ceb728e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 134] metadata import export system users backups metadata transfer metadata satellites medium term plan reduce size exports considerably backup process automatic seamless possible expect build system periodically major portion metadata directly network long term plan architect satellite platform hope eliminate satellite control metadata entirely viable byzantine fault tolerant consensus algorithm arise biggest challenge finding right balance coordination avoidance byzantine fault tolerant consensus storage nodes interact share encoded pieces files operating performance levels users expect platform competing traditional cloud storage providers team continue research viable means achieve end section 2 10 appendix discussions aren xe2 x80 x99t tackling byzantine fault tolerant consensus problem right away x0c7 selected calculations 7 1 object repair costs fundamental challenge system choose system parameters expansion factor repair bandwidth minimum provide acceptable level durability",
+    "metadata": {
+      "chunk_id": "566ddef60345993575363bec51f5d5eb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 137] node 1 tb available space stated monthly bandwidth limit 500 gb xe2 x80 x99s known framework storage node expect repair 50% data given month assuming stored object served store 333 gb node causes bandwidth allowed words paid bandwidth plus repair bandwidth equal bandwidth limit higher repair rates equal lower effective storage size nodes serving paid data frequently sensitive effect practice paid bandwidth rate vary type data stored node ratios monitored closely determine appropriate usable space limits network evolves time x0c67 chapter 7 selected calculations audit false positive risk rely bayesian approach determine probability storage node maintaining stored pieces faithfully high level seek answer following question consecutive successful audits change estimate probability node continue return successful audits model audit process binomial random variable unknown probability success p xe2 x88 x88 0 1 audit independent bernoulli trial known conjugate prior binomial distribution",
+    "metadata": {
+      "chunk_id": "f37400251e4a5fe7d982514f9abc01b7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 139] 1 uniform prior audit success probability estimate 1 00 1 04 0 95 probability estimate 7 2 1 02 1 00 0 98 0 90 0 85 0 80 0 75 0 70 0 96 0 0 0 2 0 4 0 6 audit success probability 0 8 1 0 0 65 0 25 50 75 100 125 150 175 number audits assumed successful 200 figure 7 2 uniform prior assumption placed estimated audit success probability probabilities assumed equally likely choose prior derive numerical estimate audit success probability based number audits performed reasonable choices bayesian priors restrict attention popular choices uniform prior jeffrey xe2 x80 x99s x0c68 chapter 7 selected calculations prior 84 uniform prior xce xb2 1 1 initializes experiment assigning equal probability possible outcomes probability success drawn uniform distribution 0 1 jeffrey xe2 x80 x99s prior xce xb2 0 5 0 5 assumed probability success falls extreme node return successful audit probability near 0 probability near 1 number audits 0 20 40 80 200 audit success estimate given uniform prior 0 5 0 9545",
+    "metadata": {
+      "chunk_id": "f30ae64a7025f8e62c373d6465a5ea7d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 140] 0 5 0 5 assumed probability success falls extreme node return successful audit probability near 0 probability near 1 number audits 0 20 40 80 200 audit success estimate given uniform prior 0 5 0 9545 0 9762 0 9878 0 99505 audit success estimate given jeffrey xe2 x80 x99s prior 0 5 0 9762 0 9878 0 9938 0 99751 table 7 1 estimate audit success probability number audits assumed successful find estimated probability success begins 0 5 information known node audits performed estimate quickly jumping 99% 80 audits jeffrey xe2 x80 x99s prior table 7 1 present results obtained priors remark established bayesian approach allows rapidly gain confidence node xe2 x80 x99s ability return successful audit given success probability estimate tends closer 1 consecutive audit success x0c69 chapter 7 selected calculations 7 3 choosing erasure parameters context storing erasure coded segment decentralized network consider loss piece different perspectives 7 3 1 direct piece loss direct piece loss assume",
+    "metadata": {
+      "chunk_id": "c6aecb0ea1c9951aa892f80133e1c703",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 141] calculations 7 3 choosing erasure parameters context storing erasure coded segment decentralized network consider loss piece different perspectives 7 3 1 direct piece loss direct piece loss assume specific segment erasure pieces lost according certain rate point modeling straightforward pieces lost rate 0 p 1 start n pieces piece decay follows exponential decay pattern form n 1 xe2 x80 x93 p t t time elapsed according units rate 1 account multiple checks month extend n 1 xe2 x80 x93 p m rebuild threshold controls segment rebuilt solve n 1 xe2 x80 x93 p m t taking ceiling necessary determine long n pieces segment decay m pieces works clear given parameters n m smallest t t aln m n ln 1 xe2 x80 x93p p long expect segment repairs 7 3 2 indirect piece loss modeling indirect piece loss suppose fixed rate nodes drop network month 2 holding pieces segment consideration describe probability d dropped nodes storing n pieces specific segment turn hypergeometric probability distribution suppose",
+    "metadata": {
+      "chunk_id": "297abd12f9649abf8114a51c3e1041c0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 154] altruistic unfortunately previous algorithms discussed assume collection altruistic nodes reliable distributed consensus algorithms game changing applications requiring fault tolerant 2 differing consistency models new worth reading kyle kingbury xe2 x80 x99s excellent tutorial 87 xe2 x80 x99re wondering computers xe2 x80 x99t use current time order events mind exceedingly difficult computers agree 88 x0cchapter distributed consensus 75 storage success mixed byzantine fault tolerant world number attempts solve byzantine fault tolerant distributed consensus problem field exploded release bitcoin 23 early stages note particularly interested pbft 104 barbara liskov solution q u 105 fab 106 107 bitcoin zyzzyva 108 107 rbft 109 tangaroa 110 tendermint 111 aliph 112 hashgraph 113 honeybadgerbft 114 algorand 115 casper 116 tangle 117 avalanche 118 parsec 119 120 algorithms additional trade offs non byzantine distributed consensus algorithms don xe2 x80 x99t require deal potential",
+    "metadata": {
+      "chunk_id": "9704ce2051f2da03fa9d5d4850723893",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 155] 114 algorand 115 casper 116 tangle 117 avalanche 118 parsec 119 120 algorithms additional trade offs non byzantine distributed consensus algorithms don xe2 x80 x99t require deal potential uncooperative nodes example pbft 104 causes significant network overhead pbft client attempt talk majority participants individually reply client bitcoin 23 intentionally limits transaction rate changing proof ofwork difficulty post bitcoin protocols require participants copy change histories 3 xe2 x80 x99re avoiding byzantine distributed consensus ultimately existing solutions fall short goal minimizing coordination section 2 10 flexible paxos 101 significantly better normal paxos steadystate avoiding coordination completely unusable byzantine environment distributed ledger xe2 x80 x9ctangle like xe2 x80 x9d approaches suffer inability prune history retain significant global coordination overhead excited look forward fast scalable byzantine fault tolerant solution building blocks listed previous",
+    "metadata": {
+      "chunk_id": "137274cf3d774ca1361a8831f6ed4834",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 156] x80 x9d approaches suffer inability prune history retain significant global coordination overhead excited look forward fast scalable byzantine fault tolerant solution building blocks listed previous discussion clear arisen reducing risk avoiding problem entirely x0cb attacks distributed system variety attack vectors exist common distributed systems storage specific apply distributed storage system b 1 spartacus spartacus attacks identity hijacking possible unmodified kademlia 8 node assume identity node receive fraction messages intended node simply copying node id allows targeted attacks specific nodes data spartacus attack mitigation addressed s kademlia 32 implementing node ids public key hashes requiring messages signed spartacus attacker system unable generate corresponding private key unable sign messages participate network b 2 sybil sybil attacks 74 involve creation large amounts nodes attempt disrupt network operation hijacking dropping messages kademlia 8 vulnerable sybil",
+    "metadata": {
+      "chunk_id": "ba93c0079b7192425c6cc5869321b33f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 157] key unable sign messages participate network b 2 sybil sybil attacks 74 involve creation large amounts nodes attempt disrupt network operation hijacking dropping messages kademlia 8 vulnerable sybil attacks adoption s kademlia 32 proof work identity generation section 4 4 reduces vulnerability degree storage node reputation system involves prolonged initial vetting period nodes complete trusted significant amounts data membership kademlia routing tables vetting system discussed sections 4 6 1 4 15 prevents large influx new nodes taking incoming data existing reputable storage nodes proving longevity b 3 eclipse eclipse attack attempts isolate node set nodes network graph ensuring outbound connections reach malicious nodes eclipse attacks hard identify malicious nodes function normally cases eclipsing certain important messages information storj addresses eclipse attacks public key hashes node ids signatures based public keys multiple disjoint network lookups prescribed s kademlia 32",
+    "metadata": {
+      "chunk_id": "25ab558cbf81d6f6209390cca5903744",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "vulnerability"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 158] eclipsing certain important messages information storj addresses eclipse attacks public key hashes node ids signatures based public keys multiple disjoint network lookups prescribed s kademlia 32 larger network harder prevent node finding portion network uncontrolled attacker long storage node satellite x0cchapter b attacks 77 introduced portion network controlled attacker point public key hashes signatures ensure man middle attacks impossible multiple disjoint network lookups ensure kademlia routing prohibitively expensive bias avoid eclipse attack remains sure new nodes appropriately introduced behaved node network bootstrapping process end storj labs run known verified bootstrap nodes b 4 honest geppetto attack attacker operates large number xe2 x80 x9cpuppet xe2 x80 x9d storage nodes network accumulating reputation data time certain threshold reached pulls strings puppet execute hostage attack data involved simply drops storage node network best defense attack create network",
+    "metadata": {
+      "chunk_id": "301c87d904143243db0c67266cd52754",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 159] network accumulating reputation data time certain threshold reached pulls strings puppet execute hostage attack data involved simply drops storage node network best defense attack create network sufficient scale attack ineffective meantime partially prevented relatedness analysis storage nodes bayesian inference downtime latency network route attributes assess likelihood storage nodes operated organization satellites attempt distribute pieces unrelated storage nodes possible b 5 hostage bytes hostage byte attack storage specific attack malicious storage nodes refuse transfer pieces portions pieces order extort additional payments clients reed solomon encoding ought sufficient defeat attacks sort client simply download necessary number pieces nodes multiple malicious nodes collude gain control pieces file mitigations discussed honest geppetto attack apply help avoid situation b 6 cheating storage nodes uplinks satellites measuring bandwidth signatures minimizes risk uplink storage",
+    "metadata": {
+      "chunk_id": "85108f35ec50acfd94a16b091a40c679",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "downtime"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 160] control pieces file mitigations discussed honest geppetto attack apply help avoid situation b 6 cheating storage nodes uplinks satellites measuring bandwidth signatures minimizes risk uplink storage nodes uplink interact storage node sending signed restricted allocation restriction limits risk low level storage node comply protocol expected order restricted allocations storage nodes satellites commence vetting process limits exposure storage nodes allowed decline requests untrusted satellites x0cchapter b attacks b 7 78 faithless storage nodes satellites storage nodes satellites built require authentication signatures serving download requests reasonable imagine modification storage node satellite provide downloads paying requestor network faithless satellite data privacy significantly compromised strong client encryption protects contents file inspection storj designed protect compromised clients b 8 defeated audit attacks typical merkle proof verification requires pre generated",
+    "metadata": {
+      "chunk_id": "6d28e7d65e0a0f9ffe01b498c297bf55",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 161] compromised strong client encryption protects contents file inspection storj designed protect compromised clients b 8 defeated audit attacks typical merkle proof verification requires pre generated challenges responses periodic regeneration challenges storage node begin pass audits storing requested data instead request random stripe erasure shares storage nodes run berlekamp welch algorithm 73 erasure shares storage nodes return correct information faulty missing responses easily identified new storage nodes placed vetting process audits passed section 4 15 details x0cc primary user benefits designed storj network provide users better security availability performance economics xe2 x80 x94across wide variety use cases xe2 x80 x94than premise storage solutions traditional centralized cloud storage bulk paper describes design considerations overcome challenges highly decentralized system appendix describes end result significant improvement traditional approaches c 1 security designed",
+    "metadata": {
+      "chunk_id": "f3bfe14c0b4cfec1781a0a1d555c4051",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 164] center chances individual drive failing highly correlated chances drive failing decentralized system contrast node operated different individual different location separate personnel power network access forth chance individual node failing entirely uncorrelated chances drives failing result kinds availability obtain subject storms power outages xe2 x80 x9cblack swan xe2 x80 x9d events chance individual drive failing storj network higher centralized cloud chance collective failure e g losing 20 40 independent drives vanishingly small addition chance losing file correlated chances losing second file c 3 performance read intensive use cases storj network deliver superior performance taking advantage parallelism storage nodes located close xe2 x80 x9cthe edge xe2 x80 x9d reducing latency experienced recipients data physically far data center houses data read performance benefits parallelism particular erasure coding scheme use ensures slow drives slow networks networks drives",
+    "metadata": {
+      "chunk_id": "89d0f696b3d9846717f76c709a918235",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "outage"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 166] market cap planet microsoft google amazon alibaba price decreases provider quickly matched providers little incentive providers drop prices gain market share decentralized network contrast little marginal cost storage node operator experience vast majority operators existing live equipment significant spare capacity additional cost storage node operator terms capital personnel running drive capacity x0cchapter c primary user benefits 81 consume significantly power running drive excess space careful management relative caps operators experience increased bandwidth costs consequently operating node represents nearly pure margin supply cost savings passed end users designed market mechanisms demand prevent satellite operator cornering market providing healthy margin farmers demand partners satellite operators believe able provide profitable storage services fraction cost equivalent centralized cloud storage providers x0cbibliography 1 identity theft resource center cyberscout annual",
+    "metadata": {
+      "chunk_id": "4f4323a0196418323a006ff8f8dcf11d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 171] 2010 19 peter alvaro neil conway joseph m hellerstein william r marczak consistency analysis bloom calm collected approach cidr 2011 20 kyle kingsbury consistency models clickable map https jepsen io consistency 2018 21 paolo viotti marko vukoli xc4 x87 consistency non transactional distributed storage systems acm comput surv 49 1 19 1 xe2 x80 x9319 34 june 2016 22 joseph hellerstein anna crazy fast super scalable flexibly consistent kvs https rise cs berkeley edu blog anna kvs 2018 23 satoshi nakamoto bitcoin peer peer electronic cash system https bitcoin org bitcoin pdf 2008 24 diego ongaro john ousterhout search understandable consensus algorithm proceedings 2014 usenix conference usenix annual technical conference usenix atc xe2 x80 x9914 pages 305 xe2 x80 x93320 berkeley usa 2014 usenix association 25 giuseppe decandia deniz hastorun madan jampani gunavardhan kakulapati avinash lakshman alex pilchin swaminathan sivasubramanian peter vosshall werner vogels dynamo amazon xe2 x80",
+    "metadata": {
+      "chunk_id": "b01b556bbc58ea1ac1db6dde10a09bb8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 176] integrity layer cloud storage proceedings 16th acm conference computer communications security ccs xe2 x80 x9909 pages 187 xe2 x80 x93198 new york ny usa 2009 acm 42 zooko wilcox zfec filefec py xe2 x80 x99s encode file https github com tahoe lafs zfec commit 2594d395923dd945cd62 2007 43 jeffrey dean luiz andr xc3 xa9 barroso tail scale communications acm 56 74 xe2 x80 x9380 2013 44 jeffrey dean sanjay ghemawat mapreduce simplified data processing large clusters commun acm 51 1 107 xe2 x80 x93113 january 2008 45 j paiva l rodrigues policies efficient data replication p2p systems 2013 international conference parallel distributed systems pages 404 xe2 x80 x93411 dec 2013 46 peter wuille bip32 hierarchical deterministic wallets https github com bitcoin bips blob master bip 0032 mediawiki 2012 47 ari juels burton s kaliski jr pors proofs retrievability large files proceedings 14th acm conference computer communications security ccs xe2 x80 x9907 pages 584 xe2 x80 x93597 new york ny usa",
+    "metadata": {
+      "chunk_id": "dfce7476c1f289cea1f86ec96202bf47",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 181] 2016 68 arnar birgisson joe gibbs politz xc3 x9alfar erlingsson ankur taly michael vrable mark lentczner macaroons cookies contextual caveats decentralized authorization cloud network distributed system security symposium 2014 x0cbibliography 87 69 jinyuan li maxwell krohn david mazi xc3 xa8res dennis shasha secure untrusted data repository sundr proceedings 6th conference symposium opearting systems design implementation volume 6 osdi xe2 x80 x9904 pages 9 xe2 x80 x939 berkeley usa 2004 usenix association 70 eu jin goh hovav shacham nagendra modadugu dan boneh sirius securing remote untrusted storage ndss volume 3 pages 131 xe2 x80 x93145 2003 71 mahesh kallahalla erik riedel ram swaminathan qian wang kevin fu plutus scalable secure file sharing untrusted storage proceedings 2nd usenix conference file storage technologies fast xe2 x80 x9903 pages 29 xe2 x80 x9342 berkeley usa 2003 usenix association 72 ralph c merkle digital signature based conventional encryption function carl",
+    "metadata": {
+      "chunk_id": "5b6e75fa711f3dcd8f8a3aef008aaae8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 182] conference file storage technologies fast xe2 x80 x9903 pages 29 xe2 x80 x9342 berkeley usa 2003 usenix association 72 ralph c merkle digital signature based conventional encryption function carl pomerance editor advances cryptology xe2 x80 x94 crypto xe2 x80 x9987 pages 369 xe2 x80 x93378 berlin heidelberg 1988 springer 73 lloyd r welch elwyn r berlekamp error correction algebraic block codes patent us4633470a 1986 74 john r douceur sybil attack revised papers international workshop peer peer systems iptps xe2 x80 x9901 pages 251 xe2 x80 x93260 london uk 2002 springer verlag 75 shawn wilkinson james prestwich sip02 bounding sybil attacks identity cost 2016 https github com storj sips blob master sip 0002 md 76 michael mitzenmacher power choices randomized load balancing ieee trans parallel distrib syst 12 10 1094 xe2 x80 x931104 october 2001 77 fabian vogelsteller vitalik buterin erc 20 token standard 2015 https github com ethereum eips blob master eips eip 20 md 78 braydon fuller",
+    "metadata": {
+      "chunk_id": "2aa10836640e40fea2a378c1fa932155",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 183] distrib syst 12 10 1094 xe2 x80 x931104 october 2001 77 fabian vogelsteller vitalik buterin erc 20 token standard 2015 https github com ethereum eips blob master eips eip 20 md 78 braydon fuller sip09 bandwidth reputation accounting 2017 https github com storj sips blob master sip 0009 md 79 b c neuman proxy based authorization accounting distributed systems 13th international conference distributed computing systems pages 283 xe2 x80 x93291 1993 80 bruce schneier applied cryptography 2nd ed protocols algorithms source code c john wiley sons inc new york ny usa 1995 81 protocol labs filecoin decentralized storage network https filecoin io filecoin pdf 2017 82 burton h bloom space time trade offs hash coding allowable errors commun acm 13 7 422 xe2 x80 x93426 july 1970 83 asit p basu david w gaylor james j chen estimating probability occurrence tumor rare cancer zero occurrence sample regulatory toxicology pharmacology 23 2 139 xe2 x80 x93 144 1996 x0cbibliography 88 84 harold jeffreys",
+    "metadata": {
+      "chunk_id": "70031c5b601ab3610b7246cb6521ce37",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 189] alvisi fast byzantine consensus ieee trans dependable secur comput 3 3 202 xe2 x80 x93215 july 2006 107 abraham g gueta d malkhi l alvisi r kotla j p martin revisiting fast practical byzantine fault tolerance arxiv e prints december 2017 108 ramakrishna kotla zyzzyva speculative byzantine fault tolerance acm transactions computer systems tocs 27 issue 4 article 7 december 2009 109 p l aublin s b mokhtar v qu xc3 xa9ma rbft redundant byzantine fault tolerance 2013 ieee 33rd international conference distributed computing systems pages 297 xe2 x80 x93306 july 2013 110 christopher n copeland hongxia zhong tangaroa byzantine fault tolerant raft 2014 x0cbibliography 90 111 jae kwon tendermint consensus mining https tendermint com docs tendermint pdf 2014 112 pierre louis aublin rachid guerraoui nikola kne xc5 xbeevi xc4 x87 vivien qu xc3 xa9ma marko vukoli xc4 x87 700 bft protocols acm trans comput syst 32 4 12 1 xe2 x80 x9312 45 january 2015 113 leemon baird swirlds hashgraph consensus",
+    "metadata": {
+      "chunk_id": "fe036a9927b89039a2228f4ce150871a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 190] nikola kne xc5 xbeevi xc4 x87 vivien qu xc3 xa9ma marko vukoli xc4 x87 700 bft protocols acm trans comput syst 32 4 12 1 xe2 x80 x9312 45 january 2015 113 leemon baird swirlds hashgraph consensus algorithm fair fast byzantine fault tolerance 2016 114 andrew miller yu xia kyle croman elaine shi dawn song honey badger bft protocols cryptology eprint archive report 2016 199 2016 https eprint iacr org 2016 199 115 yossi gilad rotem hemo silvio micali georgios vlachos nickolai zeldovich algorand scaling byzantine agreements cryptocurrencies proceedings 26th symposium operating systems principles sosp xe2 x80 x9917 pages 51 xe2 x80 x9368 new york ny usa 2017 acm 116 vitalik buterin virgil griffith casper friendly finality gadget corr abs 1710 09437 2017 117 serguei popov tangle https iota org iota whitepaper pdf 2018 118 team rocket snowflake avalanche novel metastable consensus protocol family cryptocurrencies https ipfs io ipfs qmuy4jh5mgnzvlkjies1rwm4yuvjh5o2fyopnpvywrrvgv 2018 119",
+    "metadata": {
+      "chunk_id": "c88daba0576fcaf7438d36b9d479bf7b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  },
+  {
+    "text": "[Section 191] org iota whitepaper pdf 2018 118 team rocket snowflake avalanche novel metastable consensus protocol family cryptocurrencies https ipfs io ipfs qmuy4jh5mgnzvlkjies1rwm4yuvjh5o2fyopnpvywrrvgv 2018 119 pierre chevalier bart xc5 x82omiej kami xc5 x84ski fraser hutchison qi ma spandan sharma protocol asynchronous reliable secure efficient consensus parsec http docs maidsafe net whitepapers pdf parsec pdf 2018 120 james mickens saddest moment login logout 2013 https scholar harvard edu files mickens files thesaddestmoment pdf x0c",
+    "metadata": {
+      "chunk_id": "8f2229f2bd8c448917b157b1c42e2a1c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Storj.txt"
+    }
+  }
+]

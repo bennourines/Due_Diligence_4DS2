@@ -1,0 +1,370 @@
+[
+  {
+    "text": "[Section 1] b litepaper v1 2 q1 2019 privacy preserving virtual machine powering zero knowledge financial applications x0cintroduction vision 2 high level overview 3 renvm overview 4 zkcompute secure multiparty computation 4 zkstorage permission based access 5 darknodes 6 fees compensation 7 zktransaction layer overview 9 fast efficient zktransactions 9 compliance regulation 10 interoperability swapperd overview 11 swapperd 11 decentralised exchange application integrations 11 blockchain interoperable swaps 12 dark pool layer overview 13 party dark pools 13 renex 14 inception new ecosystem timeline future ren 15 x0ca renewed vision vision ren enable world privacy preserving applications ren power new kind trustless distributed computation applications run secret preserving privacy users data blockchain technology proven viable platform financial applications promised future users control data developers build application logic trustless distributed computer decentralized technology realize",
+    "metadata": {
+      "chunk_id": "8e7e8b7b089f5e123ae9c69e56e2ad5d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 3] use case blockchains trustless networks ren initially focus supporting core components advance state private decentralized finance provide standard economic layer future applications 2 x0ca zero knowledge transaction layer possible store transfer tokens exposing wallet balances transaction amounts xc2 xbb interoperability layer extend zero knowledge transactions possible execute trustless swaps blockchains bridge tokens blockchain xc2 xbb dark pool layer provide secret order matching engines work orders known owner allow users open orders exposing price volume order including exchange zero knowledge transactions users settle order matches secret xc2 xbb ecosystem grows core components completed ren introduce development tools support open development private applications kind paving way ecosystem unstoppable privacy 3 x0crenvm general use case virtual machine performing private computations decentralized network revealing underlying information ren built decentralized virtual machine",
+    "metadata": {
+      "chunk_id": "5d449cf4162f85e7d9cdff3a18ee7292",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 4] unstoppable privacy 3 x0crenvm general use case virtual machine performing private computations decentralized network revealing underlying information ren built decentralized virtual machine renvm leverages zksnark secure multiparty computations validate proofs run programs zero knowledge general purpose virtual machine kind program executed renvm keeping inputs outputs state completely secret programs renvm synthesize completely new data known governed program logic example program generate ecdsa private key use sign transactions specific conditions key known including program creates opportunities rebuild existing financial applications bringing privacy byzantine fault tolerance brings entirely new applications previously possible decentralized environments renvm replace ideal trusted party providing absolute secrecy correctness zkcompute secure multiparty computation secure multiparty computation protocols allow untrusted nodes jointly execute program revealing inputs outputs",
+    "metadata": {
+      "chunk_id": "e873e0abcb1e611839ee7e873cac72f1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 5] party providing absolute secrecy correctness zkcompute secure multiparty computation secure multiparty computation protocols allow untrusted nodes jointly execute program revealing inputs outputs program nodes useful executing programs require inputs multiple users want share information needing rely trusted party x0calthough secure multiparty computation general purpose execute program modern versions inefficient fault tolerant require computationally intensive preprocessing phases generate large amounts data entire execution fails node goes offline makes impractical decentralized networks nodes geographically distributed world trusted remain online operated honestly renvm solves new secure multiparty computation protocol developed ren team simpler efficient preprocessing phase require complex cryptographic primitives generates 1 3rd data compared modern protocols security liveliness guaranteed long 1 3rd network malicious new secure multiparty computation protocol heart renvm",
+    "metadata": {
+      "chunk_id": "57cd8190cd76628571627ac1b8e3d742",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 6] complex cryptographic primitives generates 1 3rd data compared modern protocols security liveliness guaranteed long 1 3rd network malicious new secure multiparty computation protocol heart renvm allowing decentralized network untrusted nodes jointly execute general purpose programs complete secrecy data known explicitly defined computation zkstorage permission based access secure multiparty computation useful executing programs effective storing sensitive information renvm data encrypted distributed shamir xe2 x80 x99s secret sharing form informational theoretically secure encryption splits data shares specific threshold shares recovered original data recovered prevents including nodes running renvm able access data renvm allows permissions defined govern access stored data defining set signatures read write access defining complex zkcompute programs evaluate governance rules secret granting read write access allows flexible powerful permission based access secret data necessarily",
+    "metadata": {
+      "chunk_id": "0799e13765b52e2b442ae63d2b685f07",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 7] signatures read write access defining complex zkcompute programs evaluate governance rules secret granting read write access allows flexible powerful permission based access secret data necessarily revealing identity accessor 5 x0c graphic renvm sensitive information stored securely trustless fault tolerant simple complex rules defined making flexible kinds applications particularly suited financial tools enterprises combination zkstorage permission based access zkcompute build stateful applications persistent renvm time stateful applications state secret prove properties state transition state darknodes renvm powered decentralized network machines called darknodes contribute compute power storage space exchange fees darknodes physical machines power renvm machine contributes cpu time compute power disk space storage important note programs executing renvm hidden darknodes run virtual machine decentralized network darknodes permissionless prevent forging large number identities good",
+    "metadata": {
+      "chunk_id": "0082a067e4b70a8b626b7306b9bfc4f4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 8] power disk space storage important note programs executing renvm hidden darknodes run virtual machine decentralized network darknodes permissionless prevent forging large number identities good behaviour bond 100 000 ren tokens required order register run darknode follows maximum supply 1 000 000 000 ren 10 000 darknodes bond prevents malicious parties forging large number darknode identities gaining control renvm 6 x0cto prevent darknodes absconding prior having bonds slashed subject cooling period bond refunded identity darknode ultimately deregistered cooling period allows finalize outstanding challenges darknode fees compensation darknode owners assumed rational players expect financial incentives contribute resources renvm use renvm fees paid active darknodes contributing computational power storage networking fees associated renvm required upfront fee compensate darknodes cost running computation optional incentivization fee encourage darknodes prioritize computation 1",
+    "metadata": {
+      "chunk_id": "6987848c9037bfa86b2b06e9c541d46c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 9] power storage networking fees associated renvm required upfront fee compensate darknodes cost running computation optional incentivization fee encourage darknodes prioritize computation 1 computation proposed upfront fee computed 2 upfront fee paid evenly active darknodes 3 computation executed incentivization fee calculated outputs computation 4 incentivization fee paid evenly active darknodes 5 result computation returned state transitions committed propose computation pay upfront fee computation dynamic fee result 7 x0cthe upfront fee paid proposed computation executed darknodes preventing malicious adversary consuming darknode resources compensation stability fee payments primary fee tailored accurately compensate darknode owners real world cost proposed computation incentivization fee calculated effect computation defined computation use state produced computation existing application state incentivization fee dynamically calculated known computation completed time darknodes",
+    "metadata": {
+      "chunk_id": "2aa41e1faed4e0640ec8d1f9ba9abb9e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 10] fee calculated effect computation defined computation use state produced computation existing application state incentivization fee dynamically calculated known computation completed time darknodes build expected distribution rewards application use expected distribution prioritize computations maximise revenue advantage incentivization fee delayed averaged computations reveals minimal outdated information application example exchange define incentivization fee percentage transacted volume 72 hour delay encouraging darknodes prioritize exchange revealing sensitive volume data phase payment mechanism darknodes able receive stable reliable compensation work power renvm payment mechanism makes possible reward darknodes proportionally volume flowing financial applications flexible incentivize run applications necessarily obvious analogy volume model contrast decentralized networks provide flatter fees opens opportunities higher comparable revenue darknodes critical securing computation",
+    "metadata": {
+      "chunk_id": "0d4e353da54b86c09ce3e8bc4c347b0b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 11] run applications necessarily obvious analogy volume model contrast decentralized networks provide flatter fees opens opportunities higher comparable revenue darknodes critical securing computation storage resources renvm especially early stages network fewer applications users 8 x0czktransaction layer allowing chain ethereum transaction conducted complete privacy zk snarks enabling sensitive otc deals eliminating running institutions enterprise businesses small businesses individuals established interests private balances transactions example paying employees undesirable able trace transactions discover salary employees example purchasing coffee typically undesirable allow cafe know wallet balance customer privacy critical simplest use cases existing blockchains state transactions public blockchains offer privacy natively like zcash providing privacy blockchains privacy offer natively open problem fast efficient zktransactions unique techniques possible secure multiparty computations",
+    "metadata": {
+      "chunk_id": "29b5b4bf495380c45c41a098f9be9a6a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 12] blockchains offer privacy natively like zcash providing privacy blockchains privacy offer natively open problem fast efficient zktransactions unique techniques possible secure multiparty computations secret generation storage private keys including participating nodes private keys generated way modern state ofthe art secure multiparty computations fault tolerant support kinds use cases modern state art secure multiparty computations node going offline cause operation private key fail result loss private key nodes operated honestly nodes real world situations offline bugs upgrades network partitions node attack renvm uses novel approach secure multiparty computations permits 1 3rd participating nodes going offline accidentally maliciously simpler faster protocols renvm safely generate store secret private keys risking loss funds 9 x0cusing ability generate store secret private keys renvm makes private transactions possible blockchain xe2 x80 xa21 private key secretly generated origin",
+    "metadata": {
+      "chunk_id": "03001ca6de6b582df7e0d1fdaea4dcf6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 13] secret private keys risking loss funds 9 x0cusing ability generate store secret private keys renvm makes private transactions possible blockchain xe2 x80 xa21 private key secretly generated origin blockchain private key funds sent controlled respective decentralized trustless application deployed renvm known zktransactor xe2 x80 xa22 users deposit balances zktransactor sending tokens associated public key xe2 x80 xa23 zktransactions public addresses interacting zktransactor balances transfers stage complete hidden xe2 x80 xa24 users time withdraw remaining balance zktransactor users didn xe2 x80 x99t deposit funds sent funds withdraw balances blockchain uses private keys manage user funds zktransactor written majority blockchains use ecdsa private keys support signature method prioritised compliance regulation regulatory landscape digital assets distributed ledger technology matures need compliance multiple jurisdictions apparent need zktransaction layer support range possibilities",
+    "metadata": {
+      "chunk_id": "6a13fed07dd14105618011c60d1dfa91",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 14] compliance regulation regulatory landscape digital assets distributed ledger technology matures need compliance multiple jurisdictions apparent need zktransaction layer support range possibilities proving compliance minimizing potentially negative repercussions loss privacy properties balances transaction histories zktransactions cryptographically correct behavior followed revealing underlying information provide auditors details specifics balances transactions revealing information party 10 x0cinteroperability swapperd allowing chain ethereum transaction conducted complete privacy zk snarks enabling sensitive otc deals eliminating running ability control private keys decentralized trustless secret application logic renvm facilitate simple transfers different zktransactors different blockchains compatible facilitate trustless swapping similar way ethereum smart contracts perform trustless swaps erc20 tokens renvm tokens origin blockchain swap amounts kept completely secret example",
+    "metadata": {
+      "chunk_id": "bc5f31ab88e07addfec9cc8fc0853c9c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 15] compatible facilitate trustless swapping similar way ethereum smart contracts perform trustless swaps erc20 tokens renvm tokens origin blockchain swap amounts kept completely secret example alice funds deposited eth zktransactor bob funds deposited funds deposited btc zktransactor alice bob able atomically swap btc eth timelocks cancellations expose amounts swapped swapperd swapperd wallet interacting renvm making zktransactions secure simple easy use provide privacy preserving cross chain swaps seamless user experience swapperd facilitates cross chain interoperability enhance capability products ren ecosystem providing universal user friendly method entire industry perform trustless swaps blockchains decentralized exchange application integrations swapperd open source audited tool designed easily integrated party applications serves standard cross chain settlements paves way party web applications servers integrate swapperd enable users services benefit interoperable swapping",
+    "metadata": {
+      "chunk_id": "57041130893c0832d36b87f2c3f3f660",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 16] designed easily integrated party applications serves standard cross chain settlements paves way party web applications servers integrate swapperd enable users services benefit interoperable swapping capabilities decentralized exchanges particular benefit swapperd integration instantly able 11 x0cexpand tokens offerings utilizing cross chain support swapperd zktransactor completed offering private settlement users blockchain interoperable swaps initially swapperd perform cross chain swaps traditional hash time locked contracts htlcs blockchain supports htlcs btc ltc eth zec eos countless able supported swapperd uses htlcs cross chain swapping zktransactors completed multiple blockchains swapperd upgraded directly use renvm efficient powerful completely secret cross chain swaps upgrade open support blockchain support htlcs transactions balances swapperd private default swapperd pay small incentivization fee darknodes ensure zktransactions prioritised executed quickly 12 x0cdark pool",
+    "metadata": {
+      "chunk_id": "9ce4015dcf62b73f0c71b567ad074176",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 17] support blockchain support htlcs transactions balances swapperd private default swapperd pay small incentivization fee darknodes ensure zktransactions prioritised executed quickly 12 x0cdark pool layer allowing party setup deploy dark pool exchange utilizing hidden order book privacy technology stack specifically built ren dark pools renex dark pool officially supported ren team demonstrates use hidden order book powered darknodes live trading https ren exchange hidden order book define standard ren platform decentralized privacy preserving order books combining zktransaction layer gives way ability build decentralized dark pool supporting completely private trading dark pools ideal manifestation ren ecosystem parts stack provide security trade counterparty risk traders remain control funds transparency parameters protocol immutable definitive clear market operates orders matched xe2 x80 x98dark xe2 x80 x99 underlying information order seen privacy retaining privacy orderbook",
+    "metadata": {
+      "chunk_id": "298e342315d05a39255f79475bc08234",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 18] funds transparency parameters protocol immutable definitive clear market operates orders matched xe2 x80 x98dark xe2 x80 x99 underlying information order seen privacy retaining privacy orderbook execution settlement ensure competitive advantages remain trade fairer implementation market possible favor particular party entity unfair advantage dark pool operators dark pools created ren provably fair default unlike parties operating centralized dark pool infrastructure advantage actions peering dark pool running clients greater uptime centralized exchanges suffer extended periods downtime result factors dos attacks maintenance ren dark pools single point failure shut party dark pools ren support implementation operation multiple independent dark pools dark pool define set rules allowing serve tailored operate 13 x0cin different jurisdictions different regulatory requirements different settlement options xe2 x80 x94 centralized decentralized dark pools able use hidden order book run renvm",
+    "metadata": {
+      "chunk_id": "bf1c5ced663f492d73c2bff28eab94b0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "downtime"
+        ]
+      },
+      "risk_score": 33.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 19] tailored operate 13 x0cin different jurisdictions different regulatory requirements different settlement options xe2 x80 x94 centralized decentralized dark pools able use hidden order book run renvm leveraging secret order matching engine maintain control kyc aml requirements traders brokers meet dark pools control supported tokens rules new tokens supported dark pools able define method settlement order matching settlement inherently decoupled allowing arbitrary methods settlement implemented chosen dark pool zktransaction layer ren offer dark pools ability settle order matches secret required dark pools use method dark pools ren ability adopt centralized decentralized method operation settlement renex https ren exchange renex officially supported dark pool built ren team operating decentralized custody tokens swapperd perform cross chain settlements swapperd upgraded use zktransactions cross chain balances settlements secret renex 14 x0cthe inception new ecosystem following",
+    "metadata": {
+      "chunk_id": "eb323df3165e1bafb4e3fbfa8035da99",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Ren.txt"
+    }
+  },
+  {
+    "text": "[Section 20] decentralized custody tokens swapperd perform cross chain settlements swapperd upgraded use zktransactions cross chain balances settlements secret renex 14 x0cthe inception new ecosystem following progression details key components ren ecosystem completed step marks significant milestone achieving comprehensive ecosystem ren renex beta swapperd 3rd party dark pools zero knowledge transactions interoperability layer open development unstoppable privacy ren providing foundation decentralized privacy preserving virtual machine ecosystem capable providing services offered current centralized entity completely trustless manner able build sophisticated financial applications blockchain truly provide general purpose decentralized utility respects sovereignty users data ecosystem grows core components completed ren introduce development tools support open development private applications kind new products paving way ecosystem unstoppable privacy interested learning building privacy based",
+    "metadata": {
+      "chunk_id": "ff8c88d55ae4da180223d29994e5ce0f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Ren.txt"
+    }
+  }
+]

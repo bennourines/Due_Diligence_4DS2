@@ -1,0 +1,2296 @@
+[
+  {
+    "text": "[Section 1] b b l o c k c h n s o l u t o n s technical white paper v1 0 20 november 2018 www impleum com x0ccontents common information 4 technical whitepaper 4 abstract 4 disclaimer 4 summary 4 blockchain distributed ledger 6 blockchain come 6 cryptocurrencies use blockchain 7 blockchain technology work 7 benefits blockchain technology 10 xe2 x80 x99s catch 10 bitcoin blockchain 2 0 growth distributed ledger technology 10 main concepts 11 microtransactions 11 smart contract 12 smart property 12 dapps decentralized applications 13 daos decentralized autonomous organizations 13 blockchain technology digital trust distributed ledger technology dlt business 14 growth dlt business initiatives 15 scale transformation transactions decentralized digital age 16 blockchain technology encoded decentralized database 18 blockchain technology xe2 x80 x93 application areas 19 blockchain banking insurance finance services 19 internet things blockchain technology 20 blockchain iot 20 supply chain management",
+    "metadata": {
+      "chunk_id": "3484b62456a028191ab98d975f69fcd9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 2] database 18 blockchain technology xe2 x80 x93 application areas 19 blockchain banking insurance finance services 19 internet things blockchain technology 20 blockchain iot 20 supply chain management logistics blockchain 20 industry 4 0 blockchain 21 blockchain technology application areas 21 blockchain business 23 looking 2017 23 big blockchain technology leaders 23 blockchain business adoption investments practices 23 blockchain potentially good business fit 24 additional resources blockchain business 25 2018 2021 data action plans near future 26 limitless applications blockchain xe2 x80 x93 revisiting transactions digital age 29 x0cwhat cloud computing 31 types cloud computing 32 platform service paas 33 blockchain service amazon aws 36 blockchain service azure 36 blockchain service ibm 37 big baas model 37 impleum blockchain platform overview 39 impleum blockchain platform 39 impleum xe2 x80 x99s coin impl 39 cross platform wallets 40 integration blockchain 40 mining opportunities",
+    "metadata": {
+      "chunk_id": "e286eae4e7885492f420090a5892464c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 37 big baas model 37 impleum blockchain platform overview 39 impleum blockchain platform 39 impleum xe2 x80 x99s coin impl 39 cross platform wallets 40 integration blockchain 40 mining opportunities 40 impleum masternodes 40 architecture development 41 keeps impleum highly resistant external attacks 41 advantages impleum smart contracts platforms 41 advantages building impleum nbitcoin platform 42 architecture impleum bitcoin node 42 impleum bitcoin node 43 security analysis proof stake protocol v3 0 44 introduction 44 ii security coinage attacks 45 iii problems solution 45 iv multisignature cold staking 46 v security analysis 46 vi conclusion 47 inflation rate 47 impleum masternode registration protocol 49 tumblebit 49 masternodes 49 bitstream format masternode registration transaction 51 collateral verification 53 future improvements 54 funding transaction 56 possible attack dos vectors 56 impleum sidechains 57 impleum c smart contracts smart contracts deployed c 58 impleum key",
+    "metadata": {
+      "chunk_id": "4492aac28f347965be67f66526ed9b61",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 4] 51 collateral verification 53 future improvements 54 funding transaction 56 possible attack dos vectors 56 impleum sidechains 57 impleum c smart contracts smart contracts deployed c 58 impleum key features 59 impleum private chains 60 impleum blockchain service baas 61 decentralised app hosting 61 click deployment 61 x0cthree tier architecture 61 scalability 62 bitcoin compatibility 63 conclusion 63 core contributors 64 references 65 x0ccommon information technical whitepaper impleum technical whitepaper software architecture document living document updated implementation completed architecture implementation changes abstract impleum xe2 x80 x8bis powerful scalable path develop decentralized applications dapps dapps use decentralised capabilities blockchain technology layer powerful service nodes route information integration blockchain deployment network node setting connection dapp documented api core impleum platform object oriented programming language c huge developer community",
+    "metadata": {
+      "chunk_id": "e0fdda68d65caa6d40a187338a89d6b6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 5] nodes route information integration blockchain deployment network node setting connection dapp documented api core impleum platform object oriented programming language c huge developer community disclaimer impleum technical white paper discussion information purposes information contained subject change draft document legally binding enforceable impleum core contributors impleum developers guarantee accuracy conclusions reached white paper white paper provided xe2 x80 x9cas xe2 x80 x9d core contributors impleum developers expressly disclaims representations warranties express implied statutory whatsoever including limited warranties merchantability fitness particular purpose suitability usage title noninfringement ii contents white paper free error iii contents infringe party rights impleum core contributors impleum developers affiliates shall liability damages kind arising use reference reliance white paper content contained advised possibility damages event impleum core",
+    "metadata": {
+      "chunk_id": "3d6dd0d67bfcdaf1adb8dd2dfee2e542",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 6] rights impleum core contributors impleum developers affiliates shall liability damages kind arising use reference reliance white paper content contained advised possibility damages event impleum core contributors impleum developers affiliates liable person entity damages losses liabilities costs expenses kind direct indirect consequential compensatory incidental actual exemplary punitive special use reference reliance white paper content contained including limitation loss business revenues profits data use goodwill intangible losses summary xe2 x80 x8b blockchain xe2 x80 x8bis growing list records called xe2 x80 x8bblocks xe2 x80 x8b linked cryptography block contains xe2 x80 x8b xe2 x80 x8b cryptographic xe2 x80 x8b xe2 x80 x8b hash previous block timestamp transaction data generally represented merkle tree root hash design blockchain resistant modification data open distributed ledger record transactions parties efficiently verifiable permanent way use distributed ledger blockchain",
+    "metadata": {
+      "chunk_id": "6a45c1b4ff8fe5d7687b80c5664f3ba5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 7] merkle tree root hash design blockchain resistant modification data open distributed ledger record transactions parties efficiently verifiable permanent way use distributed ledger blockchain typically managed peer peer 4 x0cnetwork collectively adhering protocol inter node communication validating new blocks recorded data given block altered retroactively alteration subsequent blocks requires consensus network majority blockchain records unalterable blockchains considered secure design exemplify distributed computing system high byzantine fault tolerance decentralized consensus claimed blockchain blockchain invented satoshi nakamoto 2008 serve public transaction ledger cryptocurrency bitcoin invention blockchain bitcoin digital currency solve double spending problem need trusted authority central server bitcoin design inspired applications blockchains readable public widely cryptocurrencies private blockchains proposed business use bitcoin ultimately appearance 2009 bringing classic",
+    "metadata": {
+      "chunk_id": "51a1009ace89ab4d4122c89ee026bad0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 8] central server bitcoin design inspired applications blockchains readable public widely cryptocurrencies private blockchains proposed business use bitcoin ultimately appearance 2009 bringing classic idea mutual distributed ledger blockchain entirely digital currency wasn xe2 x80 x99t controlled individual organization developed anonymous xe2 x80 x9csatoshi nakamoto xe2 x80 x9d cryptocurrency allowed method conducting transactions protecting interference use blockchain blockchain broader range assets cryptocurrency tangible assets cars real estate food products intangible assets bonds private equity securities dapps based impleum platform use blockchain track provenance goods minimize fraud document tampering double financing etc advantages terms costs transparency immutability security confidence characteristic blockchain solutions mean financial businesses government departments organisations exploring applications kinds view delivering services profitably efficiently reliable",
+    "metadata": {
+      "chunk_id": "707950d5a81fe5fd2bc215171b5ea122",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 9] confidence characteristic blockchain solutions mean financial businesses government departments organisations exploring applications kinds view delivering services profitably efficiently reliable deployment new blockchain fit purpose entails extensive overheads terms network infrastructure development security ongoing maintenance use existing blockchain bitcoin comes numerous problems mainstream business users control blockchain features future development attractive model blockchain service provision exists cloud computing cloud services tailored according needs organisation infrastructure platforms software provided services web interfaces businesses having maintenance impleum similar approach blockchain deployment enabling organisations provision private blockchains tailored precise needs secured parent impleum chain approach means unnecessary overheads whilst allowing businesses secure benefits blockchain based solution developing services powerful apis lite web based clients 5",
+    "metadata": {
+      "chunk_id": "6b8f7cf94fcdba89788c5f2f3fc41479",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 10] needs secured parent impleum chain approach means unnecessary overheads whilst allowing businesses secure benefits blockchain based solution developing services powerful apis lite web based clients 5 x0cblockchain distributed ledger blockchain technology commonly associated bitcoin cryptocurrencies xe2 x80 x99s tip iceberg people think blockchain end transforming number important industries health care politics blockchain technology commonly associated bitcoin cryptocurrencies xe2 x80 x99s tip iceberg people think blockchain end transforming number important industries health care politics blockchain technology isn xe2 x80 x99t simple dig nitty gritty basic idea isn xe2 x80 x99t hard follow xe2 x80 x99s effectively database xe2 x80 x99s validated wider community central authority xe2 x80 x99s collection records crowd oversees maintains relying single entity like bank government likely hosts data particular server course physical database kept paper managed tens thousands peers xe2 x80",
+    "metadata": {
+      "chunk_id": "edcc232ac6d775dc5cb27c74b066177b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 11] collection records crowd oversees maintains relying single entity like bank government likely hosts data particular server course physical database kept paper managed tens thousands peers xe2 x80 x99s computers internet come xe2 x80 x9cblock xe2 x80 x9d represents number transactional records xe2 x80 x9cchain xe2 x80 x9d component links hash function records created confirmed distributed network computers paired previous entry chain creating chain blocks blockchain entire blockchain retained large network computers meaning person control history xe2 x80 x99s important component certifies happened chain prior means person change things makes blockchain public ledger easily tampered giving built layer protection isn xe2 x80 x99t possible standard centralized database information traditionally needed central authorities trust fulfil needs contracts blockchain makes possible peers guarantee automated secure fashion xe2 x80 x99s innovation blockchain xe2 x80 x99s hear reference things",
+    "metadata": {
+      "chunk_id": "13294a421e32333942f362937e9392f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 12] needed central authorities trust fulfil needs contracts blockchain makes possible peers guarantee automated secure fashion xe2 x80 x99s innovation blockchain xe2 x80 x99s hear reference things bitcoin cryptocurrencies generally blockchain maintain variety information organization called follow vote attempting use electronic voting system xe2 x80 x99s secure modern versions healthcare providers day use handle patient records blockchain come blockchain technology effectively employed past decade roots traced far 1976 paper new directions cryptography discussed idea mutual distributed ledger blockchain effectively acts later built 1990s paper entitled time stamp digital document decades combination powerful modern computers clever implementation cryptocurrency ideas viable 6 x0cdata security failing better system blockchain creates secure unalterable public record poised dramatically improve world voting systems rental contracts order validate blocks manner traditional private ledger",
+    "metadata": {
+      "chunk_id": "cf7c8ad313d6c96ac111ff261cc8a0a4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 13] failing better system blockchain creates secure unalterable public record poised dramatically improve world voting systems rental contracts order validate blocks manner traditional private ledger blockchain employs complicated calculations turn requires powerful computers expensive operate cool xe2 x80 x99s reason bitcoin acted great starting point introduction blockchain technology reward taking process financial value cryptocurrencies use blockchain bitcoin alternative currencies utilize blockchain technology differing manners bitcoin invented undergone changes behest core developers wider community altcoins created improve bitcoin operating slightly different ways case bitcoin new block blockchain created roughly minutes block verifies records xe2 x80 x9ccertifies xe2 x80 x9d new transactions taken place order happen xe2 x80 x9cminers xe2 x80 x9d utilize powerful computing hardware provide proof work xe2 x80 x94 calculation effectively creates number verifies block transactions",
+    "metadata": {
+      "chunk_id": "05da13169a910ff86d76f285a82369e9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 14] taken place order happen xe2 x80 x9cminers xe2 x80 x9d utilize powerful computing hardware provide proof work xe2 x80 x94 calculation effectively creates number verifies block transactions contains confirmations received bitcoin transaction considered effectively complete technically actual bitcoin transferred near instantaneously bitcoin run problems recent years number bitcoin transactions increases relatively hard 10 minute block creation time means longer confirm transactions backlogs occur lead creation certain xe2 x80 x9coff chain xe2 x80 x9d solutions like lightning network validate transactions frequently provide faster transactions slowing rate confirmations certain alt coins geared faster transactions don xe2 x80 x99t problem scaling litecoin xe2 x80 x99s like half minutes ethereum block time 10 20 seconds confirmations tend happen far faster obvious benefits change having blocks generate faster rate greater chance errors occurring 51 percent computers working blockchain",
+    "metadata": {
+      "chunk_id": "f446a1f7d41d904720377c600cdd5ede",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 15] block time 10 20 seconds confirmations tend happen far faster obvious benefits change having blocks generate faster rate greater chance errors occurring 51 percent computers working blockchain record error near permanent generating faster blocks means fewer systems working blockchain technology work stage transaction generating set data called blocks transaction progresses blocks added forming chain cryptocurrencies like bitcoin based blockchain technology encryption software guarantees delete change blocks 7 x0cseveral computers network blockchain software installed transaction shared nodes network compete bitcoin jargon xe2 x80 x98mining xe2 x80 x99 verify transaction verifies adds block data chain gets incentive nodes check transaction agree xe2 x80 x99s correct replicate record computers updated copy ledger acts form proof transaction occurred said blockchain relies peer peer agreement opposed central authority validate transaction xe2 x80 x8buntil wanted transaction informed",
+    "metadata": {
+      "chunk_id": "4b20bd99a65d338a868caadd221b4599",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 16] updated copy ledger acts form proof transaction occurred said blockchain relies peer peer agreement opposed central authority validate transaction xe2 x80 x8buntil wanted transaction informed central authority checked details involved holds central record bank notary central certifying authority blockchain model central authority transacting parties rely open register ledger validate transaction authority comes fact numerous computers xe2 x80 x98miners xe2 x80 x99 looked broadcast data checked found correct trust comes notary xe2 x80 x99s stamp presumption computers xe2 x80 x99t wrong imagine discussion earlier mentioned press release series idc futurescape 2018 webcasts report idc described blockchain follows xe2 x80 x9cat core blockchain distributed ledger technology dlt offers potential support digital trust scale providing version truth secure information transfer value secure ownership records faster settlements smart contracts automated buying selling xe2 x80 x9d 8 x0cvisual",
+    "metadata": {
+      "chunk_id": "ac9ecba6da2646d08246bd42b8331013",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 17] support digital trust scale providing version truth secure information transfer value secure ownership records faster settlements smart contracts automated buying selling xe2 x80 x9d 8 x0cvisual explainer blockchain technology xe2 x80 x93 relationships bitcoin cryptocurrency 9 x0csome benefits blockchain technology blockchain model transacting parties rely open register validate transaction consequences transactions kinds speed absence central authority theory makes blockchain faster xe2 x80 x99re relying central certifier depend limited resources clearing settling stock trades instance days usually involves human intervention blockchain lots computers competing process transaction quickly possible today matter minutes future seconds cost blockchain cheaper computers holding blockchain paid participants hope earn incentive validate transaction transparency blockchain transparent regulators compliance officers clearer insight provenance financial transactions helping combat money",
+    "metadata": {
+      "chunk_id": "edcf0f6ebba2aa2e5ee39c9282401c97",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 18] paid participants hope earn incentive validate transaction transparency blockchain transparent regulators compliance officers clearer insight provenance financial transactions helping combat money laundering manage risk tracking changed ledger present multiple nodes blockchain easier track won xe2 x80 x99t come surprise blockchain asset tracking consequence xe2 x80 x8b xe2 x80 x8b xe2 x80 x99s catch blockchain technology lot exciting potential considerations need addressed xe2 x80 x99s technology future remember computing power required verify transactions computers need electricity bitcoin poster child problematic escalation power demanded large blockchain network exact statistics power requirements bitcoin difficult xe2 x80 x99s regularly compared small countries current state xe2 x80 x99s appealing given today xe2 x80 x99s concerns climate change availability power developing countries reliability power developed nations bitcoin blockchain 2 0 growth distributed ledger technology",
+    "metadata": {
+      "chunk_id": "8213b2e16480829a1f2a52b817a1941f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 19] x99s appealing given today xe2 x80 x99s concerns climate change availability power developing countries reliability power developed nations bitcoin blockchain 2 0 growth distributed ledger technology blockchain 2 0 xe2 x80 x8bis effect mechanism allowing programmable transactions transactions modified condition set conditions sound simple ethereum network example language write scripts aturing complete allowing 10 x0cimplement computable function enables number interesting concepts adding value platform causing stir community blockchain uses limited transactions enable plenty brand new economic opportunities previously unavailable world web include xe2 x80 x8b xe2 x80 xa2 microtransactions xe2 x80 xa2 decentralized exchange xe2 x80 xa2 creating transferring digital assets xe2 x80 xa2 smart contracts smart contracts xe2 x80 x8bare scripts executed blockchain environment codes accessible verify correctness code execution verification carried miners blockchain environment ensures honest",
+    "metadata": {
+      "chunk_id": "4a905f622f10154d8a24e839ff8e7aa4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 20] contracts smart contracts xe2 x80 x8bare scripts executed blockchain environment codes accessible verify correctness code execution verification carried miners blockchain environment ensures honest execution xe2 x80 x9ccontract xe2 x80 x9d ecosystem international decentralized trusted links based blockchain technology created makes possible economic aspects built sorts different things xe2 x80 xa2 decentralized computer networks built economic links xe2 x80 xa2 iot internet things happen forget meaning acronym individual devices engage economic interplay picture refrigerator decides wanted places orders effects payments j xe2 x80 xa2 smart cars smart homes smart cities let write remote future places present cases blockchain allows transferring money value effective trusted information exchange tool efficient distribution resources main concepts blockchain 2 0 height development different terms concept overlapping ones let cover main ones brief microtransactions appears simplest",
+    "metadata": {
+      "chunk_id": "c7f1ff7be4f5371e353284f17f98f83d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 21] exchange tool efficient distribution resources main concepts blockchain 2 0 height development different terms concept overlapping ones let cover main ones brief microtransactions appears simplest concept describe certainly worth mentioning visa mastercard backbone technologies originally designed centralized structures bases attractive targets attackers xe2 x80 x9chacker xe2 x80 x9d movies real life cases plus unable effecting small micro transactions small means minute transactions supported traditional payment systems blockchain enables transactions worth portions cent small opens new horizon opportunities let simple example let xe2 x80 x99s suppose city companies operating cargo drones blockchain drones able economic team play xe2 x80 x94 drones fleet party drones example drone 1 deliver cargo b free calculate economical deliver 11 x0cpayload point c tender delivered b party drones feasible parties strike deal complete delivery improve overall performance drone network example",
+    "metadata": {
+      "chunk_id": "40d46f6293a17a706a6d88ea8650ed23",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 22] cargo b free calculate economical deliver 11 x0cpayload point c tender delivered b party drones feasible parties strike deal complete delivery improve overall performance drone network example seen quoted literature car caught dense traffic badly need quickly let xe2 x80 x99s suppose wife labor ready pay road users certain money aside right way let pass drivers hurry destinations microtransaction help blockchain microtransaction feature set exactly engine enable centralized system transactions costly considered smart contract heard term probably asking smart contract indirectly deal concept day contract life written programming language automatically executed soon certain triggers pulled classic example contract vending machine automatically operating according fixed set rules pay money choice xe2 x80 x94 machine releases purchase smart contract context code law contested executed letter soon conditions met recently heard means challenging contract rule exceptions going tell",
+    "metadata": {
+      "chunk_id": "9577b47407371f9537096b0f4cc837b8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 23] money choice xe2 x80 x94 machine releases purchase smart contract context code law contested executed letter soon conditions met recently heard means challenging contract rule exceptions going tell interesting case later important nuance contract executed fail smart property smart property new concept case property rights car apartment etc cryptographically fixed code asset property operate recognizing legitimate user rights use property makes transfer property simple transaction course smart property concept based widespread use adaptation decentralized trusted blockchain appears distant future wouldn xe2 x80 x99t overly pessimistic xe2 x80 x94 blockchain startups register diamonds watches way adding idea information current balance supply demand supplied internet smart property item potentially engaged economic activities taxicab driver xe2 x80 x94 self owned xe2 x80 x94 marketing services taking orders balancing tariff based time day current supply demand 12 x0cdapps decentralized",
+    "metadata": {
+      "chunk_id": "face1458908633c4965a30b53cfa174f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 24] engaged economic activities taxicab driver xe2 x80 x94 self owned xe2 x80 x94 marketing services taking orders balancing tariff based time day current supply demand 12 x0cdapps decentralized applications apps executed blockchain bitcoin transaction focused peer peer network happened decentralized application opportunity smart contracts write executable code blockchain given birth sorts decentralized applications daps independent particular blockchain operating entirely stand applications example madesafe distributed data storage application short operates like disk space time available network users collect premium alternately upload data network exchange service similar projects past example wuala time founded economic principles simply offer space paid far certainty project survive internet sources list criteria application satisfy called dapp xe2 x80 xa2 dapp fully open code operate stand application organization able claim possession greater tokens dapp adapt protocol response",
+    "metadata": {
+      "chunk_id": "b2cc43be1f640fde1d5019d7cf23509f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 25] sources list criteria application satisfy called dapp xe2 x80 xa2 dapp fully open code operate stand application organization able claim possession greater tokens dapp adapt protocol response suggested improvements market feedback changes adopted consensus users xe2 x80 xa2 dapp xe2 x80 x99s data operating reports encrypted stored public domain called decentralized blockchain avoid potential network outage xe2 x80 xa2 dapp require cryptographic token bitcoin original app token access bit input contributed miners rewarded dapp xe2 x80 x99s tokens daos decentralized autonomous organizations impressive blockchain based concepts decentralized autonomous organization traditional organizations know based onsets contracts agreements enforced external agencies laws courts justice authorized bodies etc certainly increases operating cost organization impairs reliability rules procedures dao based set contracts paper contracts smart contracts executed blockchain environment puts dao ahead",
+    "metadata": {
+      "chunk_id": "105e24945ed42da12bb81e6387235b6c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "outage"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 26] bodies etc certainly increases operating cost organization impairs reliability rules procedures dao based set contracts paper contracts smart contracts executed blockchain environment puts dao ahead previous concepts turns sort company xe2 x80 x99s robotized manager dao collect store money received way investment spend money based known set rules agreed dao members forth examples decentralized autonomous organizations xe2 x80 xa2 automated marketplace trading resources valuables distributed independent marketplace equal conditions participants closer examples stock markets rtb based advertising markets xe2 x80 xa2 communities involved organizing p2p interplay profi ru based decentralized principles addition dao concepts dacs decentralized autonomous corporations dass decentralized autonomous societies appear bit redundant effect integral dao concept different dao terms operating decentralized organization different terms case mimic familiar forms centralized organizations know 13",
+    "metadata": {
+      "chunk_id": "927814e3a37a7ae92105a4cbaf16e72c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 27] societies appear bit redundant effect integral dao concept different dao terms operating decentralized organization different terms case mimic familiar forms centralized organizations know 13 x0csummary dao concept greatly alleviate completely away company xe2 x80 x99s operating costs automating operations broader application developed number xe2 x80 x982 0 xe2 x80 x99 platforms including nxt bitshares date relatively limited way lack suitability current forms adoption real world financial businesses rise bitcoin similar protocols accompanied rapid evaluation governments regulators financial services industry existing paradigms bitcoin xe2 x80 x99s position outside control state financial authorities potential misuse tool fraud money laundering illegal activity concerns volatility unregulated nature exchanges traded reactions tended scepticism concern increasing number actors recognised potential blockchain technology broad range use cases distributed ledger lends blockchain",
+    "metadata": {
+      "chunk_id": "a28d77699af103fa17da5a710cf836c1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 28] unregulated nature exchanges traded reactions tended scepticism concern increasing number actors recognised potential blockchain technology broad range use cases distributed ledger lends blockchain technology digital trust distributed ledger technology dlt business distributed ledger technology dlt known blockchain technology revolves encoded distributed database serving ledger distributed ledger technology records transactions stored core dlt innovative database approach data model cryptography encryption utilized transaction update verification possible specific blockchain network depending goal stakeholders distributed ledger technology practice cryptocurrencies xe2 x80 x93 blockchains dlt work industries applications evolutions networks business reality xe2 x80 x8b3 2018 blockchain distributed ledger technology xe2 x80 x8b dlt xe2 x80 x8band known technology powers cryptocurrency bitcoin doesn xe2 x80 x99t promise change digital business transaction processing digital services",
+    "metadata": {
+      "chunk_id": "8be5e31134e6806b24f0057094518c46",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 29] distributed ledger technology xe2 x80 x8b dlt xe2 x80 x8band known technology powers cryptocurrency bitcoin doesn xe2 x80 x99t promise change digital business transaction processing digital services requiring trust shape better challenge organizational blockchain isn xe2 x80 x99t hyped ultimate solution hyped stage xe2 x80 x8b applications early stages hype cycles xe2 x80 x8bblockchain technology arsenal software solutions highly relevant scope digital transformation certainly isn xe2 x80 x99t solution xe2 x80 x8b contrary xe2 x80 x8bas believe seeing hype highly valuable specific circumstances use relevant note today opinions blockchain mearn xe2 x80 x9cxyz xe2 x80 x9d xe2 x80 x8b blockchain means dlt xe2 x80 x8bas popular media vendor talk xe2 x80 x9cwhat mean xe2 x80 x9d terms xe2 x80 x98potential xe2 x80 x99 xe2 x80 x98revolutions xe2 x80 x99 frequently possibilities realities dlt covered know potential reality big gap xe2 x80 x93 revolutions 14 x0cthese days industry 4 0",
+    "metadata": {
+      "chunk_id": "bff3223d4b1aee8b928384b0d6d35223",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 30] xe2 x80 x98potential xe2 x80 x99 xe2 x80 x98revolutions xe2 x80 x99 frequently possibilities realities dlt covered know potential reality big gap xe2 x80 x93 revolutions 14 x0cthese days industry 4 0 revolution artificial intelligence revolution xe2 x80 x8b umbrella term xe2 x80 x8b blockchains xe2 x80 x8b plural xe2 x80 x8b tested deployed use cases digital trust exchanges industries cryptocurrencies contractual backbone trust digital age dlt poised fastest growing digital technologies evolutions years come key role ample relevant use cases digital transformation processes industries blockchain technology hype leads big difference technology possible better doubt distributed ledger technology big business big business business pic 1 blockchain technology 57% organizations 20 000 employees xe2 x80 x9cactively considering xe2 x80 x9d process deploying blockchain technology jupiter research summer 2017 reasons dlt adoption poised grow use cases industries kinds faster expected meet",
+    "metadata": {
+      "chunk_id": "31b803c7defc4f672e4f702dd9c51534",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 31] xe2 x80 x9cactively considering xe2 x80 x9d process deploying blockchain technology jupiter research summer 2017 reasons dlt adoption poised grow use cases industries kinds faster expected meet expectations simply needed xe2 x80 x8b xe2 x80 x8b relatively early days dlt companies signs clear xe2 x80 x8b roadmaps partners de facto implementations industry initiatives xe2 x80 x8b distributed ledger technology evolutions albeit adoption testing effective usage different speeds depending context industry use case maturity organizations tends case technologies table contents growth dlt business initiatives 2017 2018 literally hundreds companies including leading global companies leaders respective countries regions sectors joined important blockchain dlt initiatives 15 x0cif look partners recent initiatives mention ibm xe2 x80 x99s cross border payment blockchain initiative mainly companies asia pacific region board xe2 x80 x99s starts announced october 2017 close 100 companies time",
+    "metadata": {
+      "chunk_id": "45a75a5d707690c205e9b481da24f813",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 32] recent initiatives mention ibm xe2 x80 x99s cross border payment blockchain initiative mainly companies asia pacific region board xe2 x80 x99s starts announced october 2017 close 100 companies time initiatives xe2 x80 x8b fail meet objectives important start looking depth use cases projects xe2 x80 x8b link xe2 x80 x8bwe need small overview dlt business distributed ledger technology relatively new certainly outside bitcoin cryptocurrency scope xe2 x80 x8b xe2 x80 x99s scope outside business initiatives want leverage dlt leading discussions terms use xe2 x80 x8b tackled blockchain technology financial services industry perspective past xe2 x80 x8b attention outside cryptocurrency context started loads transactions involved iot perspective xe2 x80 x8b second digital trend list watch case don xe2 x80 x99t involves transactions xe2 x80 x8bwe want look blockchain technology gets adopted applications sectors mentioned ones xe2 x80 x8b government legal supply chains xe2 x80 x8buse table",
+    "metadata": {
+      "chunk_id": "a518b5f3e527bb2f18b27f82b099d51f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 33] don xe2 x80 x99t involves transactions xe2 x80 x8bwe want look blockchain technology gets adopted applications sectors mentioned ones xe2 x80 x8b government legal supply chains xe2 x80 x8buse table contents jump section interests scale transformation transactions decentralized digital age technologies business approaches distributed virtually digitalized areas transactions new digital services pop need integrity trust security existing services transformed essential principles digital transaction context transactions de facto distributed reality internet things iot increasing distributed transaction processing business processes scale speed volumes data involved rise speak transactions applications use cases rise question deal faster transactions core digital business reliable way doesn xe2 x80 x99t slow transactions way contrary offers speed need trustworthy cost efficient way distributed technology different data model answer enter blockchain technology 16 x0cblockchain 2018 xe2 x80",
+    "metadata": {
+      "chunk_id": "daa752cd79a5e84ecde6f2d7dceb120e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 34] x80 x99t slow transactions way contrary offers speed need trustworthy cost efficient way distributed technology different data model answer enter blockchain technology 16 x0cblockchain 2018 xe2 x80 x93 2021 future blockchain distributed ledger business according idc xe2 x80 x99s idc futurescapes 2018 worldwide predictions 17 x0cblockchain technology encoded decentralized database mentioned blockchain revolves encoded decentralized distributed database xe2 x80 x98distributed xe2 x80 x99 distributed ledger technology serves ledger records transactions stored cryptography update transactions mentioned introduction blockchain technology rooted world cryptocurrencies specifically bitcoin connotation disappear speak blockchain blockchains xe2 x80 x8b note letter xe2 x80 x98s xe2 x80 x99 xe2 x80 x8bblockchain technology distributed ledger technology today decentralization absence predefined central authority mentioned times cryptocurrencies attention aren xe2 x80 x99t strict essence xe2 x80",
+    "metadata": {
+      "chunk_id": "b7ad688ab84d64e6e268746f0a820dc0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 35] x8bblockchain technology distributed ledger technology today decentralization absence predefined central authority mentioned times cryptocurrencies attention aren xe2 x80 x99t strict essence xe2 x80 x8b bitcoin central authorities speak bitcoin miners xe2 x80 x99s different story xe2 x80 x8b blockchain technology tested implemented broad range applications industries use cases endless applications examples internet things financial services xe2 x80 x8b banking insurance reinsurance capital markets xe2 x80 x8binclude industry 4 0 fraud management digital identities information management far areas industries fits context transactions payments contracts smart contracts proof trust forth decentralizing nature digital transformation technologies records xe2 x80 x99t changed model distributed isn xe2 x80 x99t central authority isn xe2 x80 x99t involved party xe2 x80 x8b transactions xe2 x80 x8bthat change information blockchain relies peer peer network principles encrypted block chain",
+    "metadata": {
+      "chunk_id": "17830882472bc5880ba2f2bac85e41af",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 36] isn xe2 x80 x99t central authority isn xe2 x80 x99t involved party xe2 x80 x8b transactions xe2 x80 x8bthat change information blockchain relies peer peer network principles encrypted block chain linked peer peer network absence central authority blockchain precisely xe2 x80 x98invented xe2 x80 x99 solve challenge lack central authority cryptocurrency bitcoin doesn xe2 x80 x99t mean blockchain decentralized applications blockchain organizations groups organizations specific services trust parties needed build blockchain network parties traditional intermediaries xe2 x80 x99s important differentiate public private blockchains blockchain networks perspective relevance goal context organizations groups organizations use exact services attention blockchain security secure transaction perspective related fact blockchain cryptographic ledger chain consists encrypted blocks validation transaction xe2 x80 x8b peer peer network xe2 x80 x8bit added block chain permanent unchangeable record",
+    "metadata": {
+      "chunk_id": "449d513d4b72d087a708f7f700f37154",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 37] related fact blockchain cryptographic ledger chain consists encrypted blocks validation transaction xe2 x80 x8b peer peer network xe2 x80 x8bit added block chain permanent unchangeable record transaction digital ecosystems heavy transaction processing transactions data speed increase meet need layer trust 18 x0cmain use cases blockchain main use cases blockchain found juniper research summer 2017 xe2 x80 x93 details xe2 x80 x93 source venturebeat blockchain technology xe2 x80 x93 application areas examples blockchain distributed ledger technology tested implemented details mentioned industry area application blockchain banking insurance finance services especially 2015 2016 initiatives taken large financial service providers institutions fintechs blockchain finance xe2 x80 x8b distributed ledger technology tested insurance applications claims management banking applications digital identity smart contracts use cases fit myriad financial operations transfer funds financial transactions",
+    "metadata": {
+      "chunk_id": "1f32f47aadce8dab4f95178652d7066c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 38] ledger technology tested insurance applications claims management banking applications digital identity smart contracts use cases fit myriad financial operations transfer funds financial transactions areas closer roots blockchain token rapid evolutions banking earlier mentioned ibm blockchain based cross border payment solution company announced october 16th 2017 solution aims solve cross border payment challenges offers real time clearing settlement dozen banks institutions involved development deployment process cross border payments undoubtedly key use case 2017 swift mastercard r3 consortium took initatives ibm october 2017 digital identity applications useful specific banking applications totally change way onboard customers solving identity problem enabling mobile onboarding explained occassion launch alastria nation wide multi sector blockchain ecosystem announced spain october 2017 digital id initial priority 19 x0cthe internet things blockchain technology combination",
+    "metadata": {
+      "chunk_id": "8f78f0d23da838efdd7093275386ae09",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 39] explained occassion launch alastria nation wide multi sector blockchain ecosystem announced spain october 2017 digital id initial priority 19 x0cthe internet things blockchain technology combination blockchain iot looked effectively leveraged myriad reasons ranging smart contracts iot data monetization models complex chains connectivity trust crucial blockchain applications context internet things vendors specific solutions enable use blockchain iot increase trust save costs speed transactions ibm frontrunner vendor industry initiatives launched new solutions actual deployments iot transactions contracts trust distributed environment blockchain missing link settle privacy reliability concerns iot ieee xe2 x80 x99s ahmed banafa writes note iot blockchain convergence touches technologies e g ai industries e g insurance telematics activities e g supply chain management security mention page words iot blockchain needs seen context isn xe2 x80 x99t matter blockchain boost iot help solve",
+    "metadata": {
+      "chunk_id": "a7ff947793de2ef364826d271212a404",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 40] e g ai industries e g insurance telematics activities e g supply chain management security mention page words iot blockchain needs seen context isn xe2 x80 x99t matter blockchain boost iot help solve challenges iot blockchain iot supply chain management logistics blockchain long road manufacturing design product buying retail store online keeping track transactions endless applications arise example regards product existing projects regards usage blockchain supply chain management logistics transportation forth major global business high volume transactions ecosystem players xe2 x80 x8b certainly cross border trade xe2 x80 x8band high dependence paper fast evolving highly inter connected ecosystem xe2 x80 x99s related end end supply chains xe2 x80 x99s surprise financial sector blockchain spending poised largest distribution services sector global level according idc xe2 x80 x99s blockchain spending forecasts blockchain logistics stakeholders trade pretty areas definition connected",
+    "metadata": {
+      "chunk_id": "581406ecee62cf0e9eed72959aff7cf0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 41] spending poised largest distribution services sector global level according idc xe2 x80 x99s blockchain spending forecasts blockchain logistics stakeholders trade pretty areas definition connected supply chain ecosystem speed accuracy matter outbound logistics way xe2 x80 x8b forms transportation xe2 x80 x8bto distribution export intermediaries forms transportation freight forwarders container shipping import inbound logistics depending supply chain order function blockchains encompassing stakeholders left simplified ecosystem picture certainly global supply chain context interoperability key stakeholders customs systems 20 x0cin past years xe2 x80 x99ve seen blockchain supply chain logistics transportation efforts consortiums pop global cross border shipping focus specific focus container release cargo flows ports dispute resolution logistics gradually efforts coming fruition existing initiatives announce new members include e commerce giants february 2018 instance chinese retailer",
+    "metadata": {
+      "chunk_id": "38a0adce5fe26a82c9e30c1fe190676c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 43] specific real challenges lead applications blockchain use cases specific logistics context good example blockchain smart port case port antwerp real challenges scope maritime logistics especially container release tackled industry 4 0 blockchain partially related previous area thoroughly study key aspects industry 4 0 reference architecture model doubt data intensive transaction intensive life cycle value stream dimension architecture starts early data collection provisioning maps data acquisition production objects entire lifecycle blockchain technology industry 4 0 applications industrial data building block intelligent erp blockchain technology application areas application areas focus transactions security potential blockchain stretches cybersecurity include use blockchain public sector government xe2 x80 x8b xe2 x80 x8b including voting xe2 x80 x8band myriad industries use cases rights management trust reliability data protection contracts concerned increasingly digitized",
+    "metadata": {
+      "chunk_id": "e34f650b635913d3662977256a66918c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 44] sector government xe2 x80 x8b xe2 x80 x8b including voting xe2 x80 x8band myriad industries use cases rights management trust reliability data protection contracts concerned increasingly digitized environments sectors going digital transformation music media industry healthcare legal sector list far exhaustive sections find predictions end 2017 regards adoption blockchain services networks large companies major industries 21 x0cibm universal blockchain payments solution xe2 x80 x93 blockchain cross border payment initiatives launched 2017 xe2 x80 x93 read ibm solution depicted infographic 22 x0cblockchain business looking 2017 mentioned introduction large xe2 x80 x8b large xe2 x80 x8bfirms research bodies start ups universities forth launched joined industry initiatives blockchain research groups alliances roadmaps standardization projects 2017 happened increasing variety areas ranging secure blockchain based iot project vendor led supply chain initiatives trucker association",
+    "metadata": {
+      "chunk_id": "bbafcd3475990648ee48bdffa831839e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 45] research groups alliances roadmaps standardization projects 2017 happened increasing variety areas ranging secure blockchain based iot project vendor led supply chain initiatives trucker association blockchain consortium mentioned cross border payments blockchain initiative spain xe2 x80 x99s national blockchain project xe2 x80 x93 summer 2017 number pilots projects initiatives grew fast number business scope isn xe2 x80 x99t going stop 2018 course contrary end new initiatives existing ones enter stages solutions xe2 x80 x99s interesting ies xe2 x80 x8b deloitte sheer list companies testing blockchain having implemented 2017 huge giants maersk dozens insurance companies port rotterdam lufthansa recently announced project customers growing list blockchain technology providers hundreds companies find associations alliances vertical topical research groups big blockchain technology leaders earlier said ibm frontrunner iot blockchain space ibm strongest credentials players blockchain",
+    "metadata": {
+      "chunk_id": "7b2823aca5d6c4be40c387277f82a385",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 47] music industry blockchain business adoption investments practices announcement blockchain enterprise survey wasn xe2 x80 x99t technology players recognized boils blockchain survey juniper findings infographic 23 x0cthere interesting numbers market success factors based answers approximately 400 responding executives leaders xe2 x97 x8f respondents prepared share investments blockchain 67 percent said having invested $100 000 end 2016 xe2 x97 x8f respondents whopping 91 percent said spend 2017 reason spending continues grows related fact results investments convincing positive conduct extensive tests integrate extensive level trend xe2 x80 x99s token 2018 xe2 x80 x99ll spending initiatives predictions idc clearly indicate final takeaway juniper research urges companies focus private blockchains commercial deployments instead public ones blockchain potentially good business fit end july 2017 juniper research released findings report showing check infographic 57 percent organizations 20",
+    "metadata": {
+      "chunk_id": "a228558b8039030467122c5e5a05dbd5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 48] commercial deployments instead public ones blockchain potentially good business fit end july 2017 juniper research released findings report showing check infographic 57 percent organizations 20 000 employees xe2 x80 x98actively considering xe2 x80 x99 process deploying blockchain technology 34 percent doesn xe2 x80 x99t know 9 percent actively considering deploying picture completely changes looking companies including 200 000 employees majority respondents saying xe2 x80 x98yes xe2 x80 x99 instead 57 percent number considerably drops 39 percent xe2 x80 x8b play interactive infographic xe2 x80 x8b brings question kind companies industries use cases blockchain good fit xe2 x80 x99s juniper research wanted know result white paper apt xe2 x80 x98which industries best fit blockchain xe2 x80 x98 press release remember things according research companies benefit blockchain include xe2 x97 x8f need transparency clarity transactions xe2 x97 x8f current dependence paper based legacy storage",
+    "metadata": {
+      "chunk_id": "a261965ad9d5c52ac409c87b1cf9ea34",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 49] x98 press release remember things according research companies benefit blockchain include xe2 x97 x8f need transparency clarity transactions xe2 x97 x8f current dependence paper based legacy storage systems xe2 x97 x8f high volume transmitted information transactions trust transparency lot data need speed decentralizing technology landscape regards paper aspect don xe2 x80 x99t think tomorrow xe2 x80 x99ll live paperless society blockchain trust hand applications blockchain speed higher independence paper based legacy storage systems xe2 x80 x8b especially powered consortium private blockchain de facto changing game areas want remain relevant simply choice xe2 x80 x8b disruption underestimation blockchain challenge risks talk changing game human cultural contextual transformation parameters juniper research hits nail saying despite growing awareness benefits blockchain initiatives 24 x0cmight dangerous leverage blockchain looking options element disruption survey shows slow current",
+    "metadata": {
+      "chunk_id": "dec61b9fdcb1795d8eda7084bf34a3eb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 50] juniper research hits nail saying despite growing awareness benefits blockchain initiatives 24 x0cmight dangerous leverage blockchain looking options element disruption survey shows slow current enthusiasm bit quoting press release xe2 x80 x9cthe research found companies underestimated scale blockchain challenge xe2 x80 x9d interoperability clients partner ecosystems wanting collaborate forth trouble underestimating scale complexity internal external disruption adoption blockchain blockchain party pooper reason big names shoulders blockchain blockchain associations use cases industries xe2 x80 x99ll client cases coming ideally ecosystem context feeling d xc3 xa9j xc3 xa0 vu feels lot like early days iot technologies time stakeholders moving way faster history tendency repeat companies like leading ones learn history additional resources blockchain business blockchain enterprise survey screenshot interactive infographic blockchain enterprise survey juniper research presented summer",
+    "metadata": {
+      "chunk_id": "061996d86e5f7b9e6bd6b79efe53966e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 51] like leading ones learn history additional resources blockchain business blockchain enterprise survey screenshot interactive infographic blockchain enterprise survey juniper research presented summer 2017 tackled blockchain overview 25 x0cjupiter blockchain survey blockchain awareness usefulness 15% proportion survey respondents knew xe2 x80 x9cvery little xe2 x80 x9d blockchain 76% proportion respondents believing blockchain xe2 x80 x9cvery useful xe2 x80 x9d xe2 x80 x9cquite useful xe2 x80 x9d company jupiter blockchain survey enterprise disruption 35% proportion companies considering actively deploying blockchain feel cause xe2 x80 x9csignificant xe2 x80 x9d internal disruption 51% proportion companies considering actively deploying blockchain feel cause xe2 x80 x9csignificant xe2 x80 x9d disruption partners customers blockchain technology report managers end january 2018 national institute standards technology published draft report blockchain technology covered nist blockchain",
+    "metadata": {
+      "chunk_id": "78e110b3d2fc8a43a5d19699f1bd9e12",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 53] poised foundation digital trust scale idc stated end 2017 infographic course 26 x0caccording idc xe2 x80 x99s 2018 industry forecasts fully entitled xe2 x80 x9cidc futurescape worldwide industry 2018 predictions xe2 x80 x9c revealed webcast press release october 31st 2017 2021 25 percent g2000 use blockchain services exactly purpose looking industries data idc mainly global transaction banks manufacturing industry retailers healthcare organizations earliest movers blockchain networks production tests proof concept blockchain networks production 2020 main industries forecasts mentioned industries xe2 x80 x8b note idc looks 2020 2021 earlier mentioned prediction xe2 x80 x8b xe2 x97 x8f global transactions banks 25 percent blockchain network production xe2 x97 x8f manufacturers retailers blockchain network production 2020 close 30 percent xe2 x97 x8f healthcare organizations 20 percent healthcare organizations blockchain network production 2020 interesting finding time idc xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "9c7ed7955e83fa1d3f92381ec5451b3d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 54] network production 2020 close 30 percent xe2 x97 x8f healthcare organizations 20 percent healthcare organizations blockchain network production 2020 interesting finding time idc xe2 x80 x99s xe2 x80 x9cfuturescape worldwide iot 2018 predictions xe2 x80 x9d concerns blockchain internet things topic covered earlier look blockchain ways solve multiple data exchange iot monetization challenges smart contracts idc predicts 2020 10 percent pilot production blockchain distributed ledgers incorporate iot sensors read hear listen appropariate webcast idc futurescape 2018 series business 2018 order ready blockchain mover doesn xe2 x80 x99t mean best position regards adoption blockchain business things different october 31 2017 according research firm early adopters establish strong positions organizations participating blockchains industry ecosystems require encounter significant disadvantages regards speed costs xe2 x97 x8f start looking blockchain consortiums initiatives bring benefits",
+    "metadata": {
+      "chunk_id": "d3c5e6b98800e1712dde8b467acaf44d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 55] organizations participating blockchains industry ecosystems require encounter significant disadvantages regards speed costs xe2 x97 x8f start looking blockchain consortiums initiatives bring benefits blockchain specific industries use cases ecosystems xe2 x97 x8f case isn xe2 x80 x99t ecosystem case benefit investigate opportunity definition obviously means finding right peers partners help start ambitious join start blockchain network pilot xe2 x97 x8f companies slower digital transformation efforts majority organizations today homework start learning experience potential talk peers forth 2018 importantly need develop use case scenarios blockchain sense ahead digital transformation journey blockchain strategy plan place 2018 idc states 27 x0cblockchain 2018 forecasts industries article blockchain eu western europe mentioned data adoption blockchain industries cambridge centre alternative finance research end 2017 slideshare page results depicted eu blockchain factsheet presented",
+    "metadata": {
+      "chunk_id": "09538aee4ba953ba3c02a0e1b59d4347",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 58] different regions blockchain spending perspective chart shows split evolutions 2021 leads followed western europe region based spend 2017 value constant annual usd b source idc worldwide semiannual blockchain spending guide 2017h1 blockchain spending region according idc xe2 x80 x99s worldwide semiannual blockchain spending guide january 2018 distribution services sector account blockchain investment western europe financial services sector main driver case china xe2 x80 x8b prc xe2 x80 x8band apecj region xe2 x80 x8b asia pacific excluding japan xe2 x80 x8b fastest growers blockchain spending globally respectively professional services 85 8% cagr xe2 x80 x8b discrete manufacturing xe2 x80 x8b 84 3% cagr xe2 x80 x8band resource industries xe2 x80 x8b 83 9% cagr xe2 x80 x8b limitless applications blockchain xe2 x80 x93 revisiting transactions digital age time better known potential current applications blockchain broader picture revisiting transactions digital age xe2 x80 x93 look",
+    "metadata": {
+      "chunk_id": "63d1a062ec2637589a47f6453e002b30",
+      "entities": {
+        "location": [
+          "china",
+          "japan"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 59] blockchain xe2 x80 x93 revisiting transactions digital age time better known potential current applications blockchain broader picture revisiting transactions digital age xe2 x80 x93 look areas 29 x0cwhere new system contracts keeping track ultimately recording able control prove complex digital ecosystems needed let xe2 x80 x99s use definition merriam webster transaction clear xe2 x80 x9can exchange transfer goods services funds xe2 x80 x9d let xe2 x80 x99s elaborate look key aspects goods services mean things know live data intensive age information data key business asset think important data sharing monetization instance iot data monetization think data turned actionable intelligence business process outcomes important audit trail automated processes moving data value chain ecosystems transactions order leverage let xe2 x80 x98exchange xe2 x80 x99 data key mechanisms place instance sure pieces crucial data tampered reliable trustworthy original versions leveraged purpose level",
+    "metadata": {
+      "chunk_id": "482bd47d8f63bc162ab45b75f50b8add",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 60] transactions order leverage let xe2 x80 x98exchange xe2 x80 x99 data key mechanisms place instance sure pieces crucial data tampered reliable trustworthy original versions leveraged purpose level data start thinking goods services day age broadest sense number transactions happen need record instance regulatory perspective transfer exchange personal sensitive data essential information gets shared critical medical purposes actions decisions transactions myriad digital services haven xe2 x80 x99t started exploring services service economy vastness xe2 x80 x99s far transactions don xe2 x80 x99t happen people far transactions systems devices devices systems increasingly hyper connected reality devices communicate intelligent building components decisions based data exchanges changes triggers sensor measured external state information gets automatically sent system scope business process xe2 x80 x9ccase xe2 x80 x9d sense case management trigger caused change system leads result list goes",
+    "metadata": {
+      "chunk_id": "30d4e9a352dfed14c82cca6b0472ed49",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 61] sensor measured external state information gets automatically sent system scope business process xe2 x80 x9ccase xe2 x80 x9d sense case management trigger caused change system leads result list goes entirely remove human element changes status transactions systems devices lead autonomous xe2 x80 x93 decentralized xe2 x80 x93 decision making increasingly industrial automation building automation iot advanced analytics ai driven actions start seeing blockchain seen key digital transformation economy 30 x0cconcerns regards blockchain organizations found juniper research summer 2017 reported venturebeat cloud computing talking xe2 x80 x9cthe cloud xe2 x80 x9d mean seeing technology moving cloud xe2 x80 x99s fad xe2 x80 x94 shift traditional software models internet steadily gained momentum 10 years looking ahead decade cloud computing promises new ways collaborate mobile devices cloud computing essentially cloud computing kind outsourcing computer programs cloud computing users able",
+    "metadata": {
+      "chunk_id": "1995dc2e767dff6f706ed7f1cf4fa222",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 67] data blockchain service order offer benefits blockchain wider business community companies microsoft decided offer blockchain technology cloud service business model people aware iaas paas saas given way use cloud based applications storage baas model acts way allowing businesses shapes sizes access blockchain based technology having invest developing house baas model allow companies access blockchain provider xe2 x80 x99s services access develop blockchain based applications downside baas model demands certain centralization transactions need funneled host platform xe2 x80 x99s blockchain services decentralization key features makes blockchain useful companies need think long hard right solution problem 34 x0cadvantages service model xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f low cost access technology offers companies massive scalability increased data security compatibility access better software kinds things blockchain service xe2 x80 x8b startups huge",
+    "metadata": {
+      "chunk_id": "994fcb74b1895b5dc6ec6c984e356926",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 68] x8f xe2 x97 x8f low cost access technology offers companies massive scalability increased data security compatibility access better software kinds things blockchain service xe2 x80 x8b startups huge multinational corporations eventually able use blockchain service tasks ranging improving stocktaking securing confidential customer records recording property ownership helping launch ico blockchain provide partial solution problems underlying vast number transactions processes underwrite entire global economy today blockchain healthcare industry example eventually allow fully electronic medical records order record drug stock levels help improve development new drugs streamline claims adjudication blockchain insurance industry set create accurate real time risk assessments customers allow xe2 x80 x98smart insurance plans xe2 x80 x99 facilitate world xe2 x80 x99s pay need insurance policies technology help streamline internal processes reduce fraud improve customer service 35 x0cother",
+    "metadata": {
+      "chunk_id": "7d65dfe4cb76c67322fe28e39f636a09",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 69] xe2 x80 x98smart insurance plans xe2 x80 x99 facilitate world xe2 x80 x99s pay need insurance policies technology help streamline internal processes reduce fraud improve customer service 35 x0cother industries set benefit blockchain xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f advertising entertainment industry retail cloud rideshare energy finance industry government check article comprehensive list industries set disrupted blockchain blockchain service amazon aws amazon world xe2 x80 x99s largest cloud provider number years $6 billion amazon web services 2017 leading provider iaas saas paas services recently combined forces investment firm digital currency group dcg create baas environment offers aws platform aim baas environment allow dcg affiliated blockchain providers work clients secure blockchain environment aid development access financial institutions enterprise technology companies insurance companies help developers project",
+    "metadata": {
+      "chunk_id": "665f149f5d1c5b16182211506decd8c8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 70] affiliated blockchain providers work clients secure blockchain environment aid development access financial institutions enterprise technology companies insurance companies help developers project ascertain real business needs blockchain allowing push baas development direction cleaver feedback loop based business model amazon develop great iaas applications past result insiders doubt aws xe2 x80 x99s strategy won xe2 x80 x99t succeed advancing baas ensuring quick implementation blockchain service azure microsoft xe2 x80 x99s azure second biggest provider cloud based services world today microsoft caught napping aws quickly expertise heavyweight resources create cloud platform called azure recent years lot ground aws particularity migrated highly successful office software cloud flagship windows operating system continues lose market share azure quickly huge cash cow company microsoft followed aws lead recently adding baas modules existing cloud platform microsoft chosen focus baas",
+    "metadata": {
+      "chunk_id": "d74cdb8a1eb0117b4aebf7070619c202",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 71] windows operating system continues lose market share azure quickly huge cash cow company microsoft followed aws lead recently adding baas modules existing cloud platform microsoft chosen focus baas development open source ethereum blockchain unaware ethereum project probably exciting company come blockchain revolution far focuses use xe2 x80 x98smart contracts xe2 x80 x99 facilitate huge range agreements include exchange products services parties 36 x0cmicrosoft azure xe2 x80 x99s baas service aims provide fast affordable access blockchain technology offers good development environment developers businesses order facilitate innovation new processes techniques blockchain like amazon microsoft plans allow new systems developed space eventually rolled wider business market combining blockchain developer xe2 x80 x99s skills vast platform microsoft offering scalability hasten development kind solutions demand intent winning race microsoft thrown weight ai services project facilitate",
+    "metadata": {
+      "chunk_id": "7e2b67efddd3918d4650075271ec7da2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 72] developer xe2 x80 x99s skills vast platform microsoft offering scalability hasten development kind solutions demand intent winning race microsoft thrown weight ai services project facilitate powerful efficient data analysis management blockchain service ibm outside xe2 x80 x98big xe2 x80 x99 cloud providers ibm world xe2 x80 x99s fourth largest cloud provider focuses efforts providing services businesses caught napping aws early days cloud development worked hard catch proceeding years ibm developed baas service based hyperledger baas system system provides environment developers businesses create blockchain solutions primary aim digitize transaction workflow shared ledger create secure blockchain networks like amazon microsoft ibm hopes strategy help develop blockchain technology point replace existing solutions use today ibm xe2 x80 x99s core business focused buisness sector stands gain enormously able help develop secure reliable adaptable blockchain technologies competition big",
+    "metadata": {
+      "chunk_id": "9e7f3c827030c468f40ef5aa59fb4cbd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 73] replace existing solutions use today ibm xe2 x80 x99s core business focused buisness sector stands gain enormously able help develop secure reliable adaptable blockchain technologies competition big baas model right knows big baas going xe2 x80 x99s little like asking long piece string blockchain revolution beginning struggling different ideas directions developers trying explore undoubtedly reasoning larger cloud company xe2 x80 x99s decision open resources companies developers use learned lesson caught napping amazon took lead initial cloud platform development gartner noted searches blockchain increased 400% 12 months february 2017 surge price cryptocurrency market likely figure risen massively real question going limit rise baas demand companies actually need blockchain technology baas development overcome limitations current blockchain technology suffers industry need find solutions problems blockchain bloat massive energy requirements blockchain processing blockchains grow size",
+    "metadata": {
+      "chunk_id": "f6580e9ee9b7cec49968cec88b9ef4cc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 74] development overcome limitations current blockchain technology suffers industry need find solutions problems blockchain bloat massive energy requirements blockchain processing blockchains grow size inevitably contain information sent received single 37 x0cblockchain transaction resulting vast amounts network capacity needed process goes electricity needed process blockchain transaction recent estimate takes 1 barrel oil xe2 x80 x99s worth energy process single bitcoin transaction daily bitcoin transactions account energy small countries facilitating widespread use blockchain solutions including provided baas require massive amounts energy recently quebec region canada surplus electricity refused request cryptocurrency mining companies permission relocate grounds energy consumption hoped industry able use solutions use child chains overcome problems blockchain completely viable alternative existing solutions happens certain rapid rise implementation truly unleash power blockchain",
+    "metadata": {
+      "chunk_id": "d528c6bf1b6a2f888d9a1b71306fb12d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 75] industry able use solutions use child chains overcome problems blockchain completely viable alternative existing solutions happens certain rapid rise implementation truly unleash power blockchain revolution specifically baas allows developers test deploy bespoke blockchain based applications cloud having maintain network clients implementation blockchain tailored needs accessed lite clients apis 38 x0cimpleum blockchain platform overview impleum blockchain platform impleum powerful versatile way create decentralized applications dapps xe2 x80 x98dapps xe2 x80 x99 utilize ability decentralization blockchain innovation technology accompanied layer ground breaking nodes route data integration blockchain deployment network node setting connection dapp documented api dapps based impleum blockchain platform interrelated constitute open ecosystem impleum widely dispersed system indestructible cryptographic encryption system keeps user xe2 x80 x99s information encrypted safe leveraging",
+    "metadata": {
+      "chunk_id": "3c5e15ce1b321e2772aa44c4effb3595",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 76] blockchain platform interrelated constitute open ecosystem impleum widely dispersed system indestructible cryptographic encryption system keeps user xe2 x80 x99s information encrypted safe leveraging impleum xe2 x80 x99s masternodes developers easily create dapps highly secure scalable core impleum platform object oriented programming language c backed huge developer community impleum xe2 x80 x99s coin impl impleum introduced dapp building platform launched coin named impl coin stands shorter xe2 x80 x98impleum xe2 x80 x99 impl set unique technical parameters coin hybrid combination pow pos impl coin donation 39 x0ccross platform wallets impleum highlights usage accessible wallets guis graphical user interfaces available major operating systems windows macos linux wallet set finished time encryption funds maintained high scale security wallets advanced let user stake impl coins greater rewards time technical clients specialized cli charge line interface wallets offered integration",
+    "metadata": {
+      "chunk_id": "130eebf577515443d9f6155a555c1069",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 77] encryption funds maintained high scale security wallets advanced let user stake impl coins greater rewards time technical clients specialized cli charge line interface wallets offered integration blockchain impleum main chain impl currency potential future hub chains impleum enables organizations effectively deploy particular altered blockchains overheads inheritance running particular blockchain arranged framework chains store data created dapp scaling effortlessly tandem new developing venture mining opportunities impleum hybrid coin based proof stake pos proof work pow proof stake mechanism allows network affirm transactions prevent fraud counteract extortion require asset intensive calculations figurings carried thing required impl coins user xe2 x80 x99s account balance impl wallet associated network system intermittently balance experience increment new coins granted user loyalty impleum xe2 x80 x99s proof work mining process making computer hardware cpu gpu carry mathematical",
+    "metadata": {
+      "chunk_id": "6120cd26b64c8dd5b85e97299b7b3f97",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 78] associated network system intermittently balance experience increment new coins granted user loyalty impleum xe2 x80 x99s proof work mining process making computer hardware cpu gpu carry mathematical calculations impleum network required order affirm transactions trigger increment security mining algorithm x13 reward administrations impleum miners collect transaction fees transactions affirm newly created impl pow block reward directly decreases reward pow block 48 imp 0 48 impl mining specific aggressive market prizes separated calculation accomplished block 100 000 pow block found block 100 001 impleum pure pos coin impleum masternodes impleum masternodes pcs continually associated impleum network play specific assignments enabling impleum accomplish faster private transactions run impleum masternode required specific measure imp balance security satisfy different prerequisites implied protocol intended create circulating coin supply mass market adoption user provide price stability",
+    "metadata": {
+      "chunk_id": "df05bb3aee4e94d1e0ba9260e958ee68",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 79] masternode required specific measure imp balance security satisfy different prerequisites implied protocol intended create circulating coin supply mass market adoption user provide price stability needed gesture support rewarded revenue 40 x0carchitecture development impleum platform based c impleum bitcoin fullnode developed nbitcoin library complete bitcoin core port written c net given basis nbitcoin pure c code net platform development support system easier compared traditional c bitcoin core source code projects developed specifically cryptocurrency blockchain technology adapted use areas blockchain broader range assets cryptocurrency tangible assets cars real estate food products intangible assets bonds private equity securities dapps based impleum platform use blockchain track provenance goods minimize fraud document tampering double financing etc stages impleum development include xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f development impleum bitcoin node fork impleum bitcoin node",
+    "metadata": {
+      "chunk_id": "c284be60409296d3ad67546950b31008",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 80] goods minimize fraud document tampering double financing etc stages impleum development include xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f development impleum bitcoin node fork impleum bitcoin node nimpleum implement required changes nimpleum port elements sidechains c keeps impleum highly resistant external attacks source code level project conceived interest staking coins user xe2 x80 x99s wallet involved calculating reward finding block xe2 x80 x93 proof stake pos staking impleum secures stabilizes network rewards annual interest rate based current block reward key difference puts earning power hands powerful mining cartels advantages impleum smart contracts platforms impleum smart contracts built native c net framework popular enterprise programming language widely enterprise framework makes easier integrate existing enterprise architectures platforms 41 x0cwhat impleum offer xe2 x97 x8f instant impleum transactions simple efficient xe2 x97 x8f private financial information history",
+    "metadata": {
+      "chunk_id": "2b5a0c000c7bdd3c94201885418fe5af",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 81] makes easier integrate existing enterprise architectures platforms 41 x0cwhat impleum offer xe2 x97 x8f instant impleum transactions simple efficient xe2 x97 x8f private financial information history balance confidential xe2 x97 x8f secure transactions backed hundreds servers xe2 x97 x8f staking forget power hungry mining rigs xe2 x80 x93 stake earn interest xe2 x97 x8f masternodes service nodes allows impleum dapps scale chain xe2 x97 x8f low fees impleum improves savings 001 transaction fees xe2 x97 x8f sidechains means impl passed sidechain gateway pass controlled federation seamless integration blockchain solutions software impleum main chain currently hosts impl currency future hub sidechains impleum chains allow businesses easily deploy customised blockchains overheads inherent running blockchain network infrastructure chains house data dapp scaling effortlessly tandem evolving project join open ecosystem based impleum blockchain platform advantages building impleum nbitcoin",
+    "metadata": {
+      "chunk_id": "278aa67a9a1d7f8b1933afeeb3e2be27",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 82] blockchain network infrastructure chains house data dapp scaling effortlessly tandem evolving project join open ecosystem based impleum blockchain platform advantages building impleum nbitcoin platform developed pure c utilizes microsoft net framework easier maintain develop traditional c bitcoin core source code c dominant languages business application development offers advantages c nbitcoin currently cross platform alternative bitcoin implementation available impleum upgrade code base net core microsoft xe2 x80 x99s latest version net run natively devices architecture impleum bitcoin node node application goal track valid blocks blockchain essentially composed layers network layer xe2 x80 x8b deals messages exchanged nodes consensus layer xe2 x80 x8b sets blockchain wide rules considered valid block node policy layer xe2 x80 x8b adds restrictive rules consensus layer prevent ddos node wide rule infrastructure layer xe2 x80 x8b governs store verify blocks transactions efficiently",
+    "metadata": {
+      "chunk_id": "487094b2ee1a05ec33b823c48090aa4f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 83] valid block node policy layer xe2 x80 x8b adds restrictive rules consensus layer prevent ddos node wide rule infrastructure layer xe2 x80 x8b governs store verify blocks transactions efficiently interface layer xe2 x80 x8b api developers query state node user interface 42 x0cwhile bitcoin core deals layers source code impleum bitcoin node deal node policy layer infrastructure layer interface layer consensus layer integral component node architecture ideally modified industry wide consensus bug layer cause fork blockchain result loss funds result risk consensus layer close bitcoin core possible bitcoin core provides consensus code library called libconsensus nbitcoin fill gaps simplify transition impleum bitcoin node rpc api endpoints available bitcoin core provided users businesses rewrite software utilise impleum bitcoin node impleum bitcoin node c microsoft xe2 x80 x99s net framework impleum bitcoin node bitcoin originally developed satoshi nakamoto piece software bundled different",
+    "metadata": {
+      "chunk_id": "32b5660e9f59642ddd199ded4db0f2d8",
+      "entities": {
+        "crypto_project": [
+          "libconsensus nbitcoin"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 84] software utilise impleum bitcoin node impleum bitcoin node c microsoft xe2 x80 x99s net framework impleum bitcoin node bitcoin originally developed satoshi nakamoto piece software bundled different functionalities users called xe2 x80 x98bitcoin xe2 x80 x99 time protocol wallet key storage mining software infrastructure apps node maturing technology bitcoin industry specialised functionality provided bitcoin core diffused different players industry purpose piece software replaced complemented multiple specialised parties applications basic layer bitcoin everybody depends node changing code node controversial matter consequences impact virtually company ecosystem hand consensus improvement bitcoin reached new feature successfully implemented node benefits ripple 43 x0cwhole industry typical example new op csv segregated witness improvement allow development chain payments permit bitcoin scale currency present popular bitcoin node called bitcoin core developed c bitcoin core team group",
+    "metadata": {
+      "chunk_id": "8fb2961ed7a95a40aeb7d05986693858",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 85] example new op csv segregated witness improvement allow development chain payments permit bitcoin scale currency present popular bitcoin node called bitcoin core developed c bitcoin core team group highly skilled developers generally adopt conservative approach accepting improvements reasons node critical component bitcoin new features require extensive reviews testing contributors bitcoin core generally work free review time valuable limited believe way allow improvements implemented faster develop node c instead c highly skilled c engineers short supply corporate world tends prefer higher level languages like c java higher level languages easier review learn harder coding mistakes propose impleum bitcoin node based nbitcoin framework complete portable library developing blockchain applications platforms c microsofts net security analysis proof stake protocol v3 0 proof stake xe2 x80 x99s xe2 x80 x8bsecurity proven years testing advances technology impleum xe2 x80 x99s proof stake 3",
+    "metadata": {
+      "chunk_id": "0f9506a8641824ac2d217ccc34a633d8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 86] platforms c microsofts net security analysis proof stake protocol v3 0 proof stake xe2 x80 x99s xe2 x80 x8bsecurity proven years testing advances technology impleum xe2 x80 x99s proof stake 3 0 xe2 x80 x8bhave solved issues faced coin age xe2 x80 x8bblock reward xe2 x80 x8band blockchain pre computation xe2 x80 x8bthe protocol robust keeps nodes connected xe2 x80 x8b network xe2 x80 x8b disincentives inactive nodes xe2 x80 x8bpaper xe2 x80 x8bwe highlight outline advantages perform security analysis system outline ideas xe2 x80 x8bimpleum xe2 x80 x8bto potentially increase security introduction cryptography xe2 x80 x8bhas managed change way finance money defined recently advent bitcoin showed peer peer network prevent forgery solving xe2 x80 x9cbyzantine generals problem xe2 x80 x9d xe2 x80 x8b different coins created based bitcoin xe2 x80 x99s open source code major methods generating new funds network xe2 x80 x8b xe2 x80 x9cproof work xe2 x80 x9d xe2 x80 x8band second xe2 x80 x8b",
+    "metadata": {
+      "chunk_id": "87818f01450273285c677d9beba4de73",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 87] x80 x8b different coins created based bitcoin xe2 x80 x99s open source code major methods generating new funds network xe2 x80 x8b xe2 x80 x9cproof work xe2 x80 x9d xe2 x80 x8band second xe2 x80 x8b xe2 x80 x9cproof stake xe2 x80 x9d xe2 x80 x8b theory proof work hold mathematical competition computer solve puzzle receives coins makes distribution coins completely fair process creates problem wasted energy computers order compete create arms race hardware money energy wasted generate new coins xe2 x80 x8bproof stake xe2 x80 x8bis competition shareholders based connectivity network random chance receive new coins interest generated based hold solves energy waste problem bitcoin introduces new challenges network security impleum like write technical analysis advantages protocol honor predecessors discuss potential improvements pitfalls xe2 x80 x8bproof stake xe2 x80 x8bwas implemented xe2 x80 x8b xe2 x80 x9cpeercoin xe2 x80 x9d xe2 x80 x8blater major breakthroughs xe2 x80 x8bproof stake",
+    "metadata": {
+      "chunk_id": "2541e50e15a2ff2e452f61dd2315024d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 88] discuss potential improvements pitfalls xe2 x80 x8bproof stake xe2 x80 x8bwas implemented xe2 x80 x8b xe2 x80 x9cpeercoin xe2 x80 x9d xe2 x80 x8blater major breakthroughs xe2 x80 x8bproof stake xe2 x80 x8bwere 44 x0cmade impleum xe2 x80 x8b xe2 x80 x9cproof stake 2 0 xe2 x80 x9d xe2 x80 x8band xe2 x80 x8b xe2 x80 x9cproof stake 3 0 xe2 x80 x9d xe2 x80 x8b implemented xe2 x80 x8b proof stake xe2 x80 x8b xe2 x80 x8b 3 0 xe2 x80 x8bsystem believe worlds secure efficient method coin generation outline highlight great security system technical problem solved ii security coinage attacks purpose holding competitions coins avoid xe2 x80 x8battacks xe2 x80 x8b confirmation transactions honor given winner block system gamed flawed xe2 x80 x8b proof stake xe2 x80 x8b prove access coins point compete win blocks randomly people competing secure block coin age idea longer hold coins higher probability win block xe2 x80 x99s original intention incentive dormant holders coins encourage node stay",
+    "metadata": {
+      "chunk_id": "9c7f7452950b11c242f59eccd476ecd2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 89] win blocks randomly people competing secure block coin age idea longer hold coins higher probability win block xe2 x80 x99s original intention incentive dormant holders coins encourage node stay connected network practice wait reward increase shareholders disconnect network long periods time reconnect win blocks xe2 x80 x8brisk xe2 x80 x8ba xe2 x80 x8b50% attack xe2 x80 x8bon network time calculation effect payouts discouraging connectivity fewer nodes connected easier gain majority blocks forging consensus stakes computed advance attack effective timestamps xe2 x80 x8bproof stake xe2 x80 x8bto general idea time drift calculations prevent forging erroneous timestamps xe2 x80 x8b proof work xe2 x80 x8b difficulty increase decrease depending quickly block produced precautionary method prevent sort xe2 x80 x9c xe2 x80 x8btiming attacks xe2 x80 x8b xe2 x80 x9d xe2 x80 x8b proof stake xe2 x80 x8b xe2 x80 x8b coins xe2 x80 x8buse centralized checkpoints iii problems solution coin age coin",
+    "metadata": {
+      "chunk_id": "0a4c8168145c20b81a3c6c217a7cffaa",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 90] sort xe2 x80 x9c xe2 x80 x8btiming attacks xe2 x80 x8b xe2 x80 x9d xe2 x80 x8b proof stake xe2 x80 x8b xe2 x80 x8b coins xe2 x80 x8buse centralized checkpoints iii problems solution coin age coin age xe2 x80 x8b calculated weight unspent coin time dormant xe2 x80 x8b calculation simply xe2 x80 x9c xe2 x80 x8b proofhash coins xc2 xb7 age xc2 xb7 target xe2 x80 x8b xe2 x80 x9d proof hash hash obfuscation sum depends stake modifier unspent output current time attack saving xe2 x80 x8b coinage xe2 x80 x8bwas previously outlined xe2 x80 x8bimprobable xe2 x80 x8b reasoning difficult perform consecutive double spending xe2 x80 x8bcoin age xe2 x80 x8bwould reset expense entirely clear input split 1000s xe2 x80 x8bof outputs possibility consecutive double spend attacks xe2 x80 x8b difficult problem xe2 x80 x8bbecause attacker need significant funds hold weight greater network theory makes sense look forks impleum popular xe2 x80 x8bpos systems xe2 x80 x8b nodes fairly low gives greater weight",
+    "metadata": {
+      "chunk_id": "d2dcb93af5afb3f2b6db9e8ce4674a8e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 91] xe2 x80 x8bbecause attacker need significant funds hold weight greater network theory makes sense look forks impleum popular xe2 x80 x8bpos systems xe2 x80 x8b nodes fairly low gives greater weight smaller handful nodes holder coins want perform attack run potential losing value share detected rational probably fallacy attack vector real importantly coins published daily keeping nodes connected possible imperative security solution proof stake 2 0 xe2 x80 x8b xe2 x80 x8b remove coinage equation xe2 x80 x93 xe2 x80 x9cproofhash coins xc2 xb7 target xe2 x80 x9d b blockchain precomputation block timestamp key xe2 x80 x8b proof stake xe2 x80 x8b xe2 x80 x8bsystem xe2 x80 x8b possible theory fork coin changing previous timestamps stake modifier obfuscate hash sufficiently prevent knowing future proofs attacker attempt compute blocks 45 x0cadvance run higher probability forge multiple consecutive xe2 x80 x8bblocks xe2 x80 x8b solution xe2 x80 x8b proof stake xe2 x80 x8b xe2 x80 x8b2 0 xe2",
+    "metadata": {
+      "chunk_id": "39520130b2ebd1ae22e9c049c8d8f370",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 92] proofs attacker attempt compute blocks 45 x0cadvance run higher probability forge multiple consecutive xe2 x80 x8bblocks xe2 x80 x8b solution xe2 x80 x8b proof stake xe2 x80 x8b xe2 x80 x8b2 0 xe2 x80 x8bthe stake modifier changed modifier interval better obfuscate calculations pinpoint time proof stake expected block time increased xe2 x80 x8b original 60 seconds match granularity past limit time block future limit 15 seconds granularity 16 seconds effectively increased 1 second expected block time 64 seconds c block reward block reward xe2 x80 x8b proof stake xe2 x80 x8bsystems unfortunately based xe2 x80 x8bcoin age xe2 x80 x8b theory distribute interest fairly allowing nodes receive latent payments attempt common xe2 x80 x8b apr xe2 x80 x8b system work nodes stay disconnected split inputs reconnect network game reward system nodes incentive stay connected decentralized system nodes connected better securitysince shifts trust single entity network solution xe2 x80 x8b proof stake 3",
+    "metadata": {
+      "chunk_id": "c2e6a9d1113841620b3dd355e7d59852",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 93] reconnect network game reward system nodes incentive stay connected decentralized system nodes connected better securitysince shifts trust single entity network solution xe2 x80 x8b proof stake 3 0 xe2 x80 x8b block reward constant xe2 x80 x8b5 coins block xe2 x80 x8bthis based proportional supply coins maintaining interest iv multisignature cold staking final noteworthy addition protocol implementation xe2 x80 x9c xe2 x80 x8bmulti signature staking xe2 x80 x8b xe2 x80 x9c drawback staking algorithms support staking single key popularity use software xe2 x80 x8bblackhalo xe2 x80 x8b uses party escrow system known xe2 x80 x8b xe2 x80 x9cdouble deposit escrow xe2 x80 x9d xe2 x80 x8band secure dual key accounts important allow accounts participate securing network dual key accounts types inputs use xe2 x80 x8bp2sh xe2 x80 x8band lock times allowed secure network problem single key account hacker use key loggers obtain password compromise xe2 x80 x8b xe2 x80 x8b wallet unlocked staking",
+    "metadata": {
+      "chunk_id": "82c97210b8c009c1a0973eeaca233cc4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 20.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 94] use xe2 x80 x8bp2sh xe2 x80 x8band lock times allowed secure network problem single key account hacker use key loggers obtain password compromise xe2 x80 x8b xe2 x80 x8b wallet unlocked staking solution xe2 x80 x8bproof stake 3 0 xe2 x80 x8b allow users place block signing key output xe2 x80 x9c xe2 x80 x8b 6a xe2 x80 x8b xe2 x80 x9d known burn address stake sending standard transaction allows input eligible submission gives impleum huge advantage custom staking software voting legendary xe2 x80 x9c xe2 x80 x8bcold staking xe2 x80 x8b xe2 x80 x9c xe2 x80 x9c xe2 x80 x8b cold staking xe2 x80 x8b xe2 x80 x9d technique involves multiple computers basically multisignature input eligible staking signatures split computers makes account virtually impossible hack single key compromised keys completely different location local area network multiple servers technology implemented latest release xe2 x80 x8bblackhalo xe2 x80 x8b v security analysis elimination xe2 x80 x8b block reward xe2 x80",
+    "metadata": {
+      "chunk_id": "14aa618ed7c06c09c4540a083a53acf1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 20.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 95] different location local area network multiple servers technology implemented latest release xe2 x80 x8bblackhalo xe2 x80 x8b v security analysis elimination xe2 x80 x8b block reward xe2 x80 x8bbased time obvious improvement nodes staking drops yearly interest increase proportional disconnected nodes example xe2 x80 x8b 1 5th xe2 x80 x8bthe network xe2 x80 x8bstaking xe2 x80 x8byou expect 5 times reward coins nodes great advantage smaller shareholders statistical data relevant coins time consuming obtain self evident usually lot xe2 x80 x8b20% xe2 x80 x8bof shareholders xe2 x80 x8bstaking xe2 x80 x8b think increase incentive certainly nodes competitive change granularity useful prevent xe2 x80 x9c xe2 x80 x8b stake grinding xe2 x80 x9d xe2 x80 x8b good analysis probability attack xe2 x80 x8b neucoin xe2 x80 x8b claim hashing power xe2 x80 x8bbitcoin network xe2 x80 x8b attack 46 x0cwould possible rollback minutes cause new users network unsure chain join proof stake systems use xe2",
+    "metadata": {
+      "chunk_id": "f08d0b9d0e2e6548dc8fb00c646a412f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 96] x8b neucoin xe2 x80 x8b claim hashing power xe2 x80 x8bbitcoin network xe2 x80 x8b attack 46 x0cwould possible rollback minutes cause new users network unsure chain join proof stake systems use xe2 x80 x9c xe2 x80 x8bcheckpointing xe2 x80 x8b xe2 x80 x9d basically centralized control main developer choose chains attempt course ideal solution good proposal xe2 x80 x8bethereum xe2 x80 x8bfor proposed new node network asks nodes xe2 x80 x9c xe2 x80 x8boff band xe2 x80 x8b xe2 x80 x9d xe2 x80 x8b correct chain xe2 x80 x8busing decentralized markets possible nodes share information periodically solution require investigation additional removal xe2 x80 x8b coin xe2 x80 x8bage general secure decision possible perform hybrid system checking popular time servers help calculate drift require nodes closely synchronized xe2 x80 x8b general consensus xe2 x80 x8bof time addition random factors based blockchain xe2 x80 x8bitself consideration vi conclusion secure xe2 x80 x8b proof stake xe2 x80",
+    "metadata": {
+      "chunk_id": "950d0b4fb72ecfd8842b20962a04b484",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "investigation"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 97] closely synchronized xe2 x80 x8b general consensus xe2 x80 x8bof time addition random factors based blockchain xe2 x80 x8bitself consideration vi conclusion secure xe2 x80 x8b proof stake xe2 x80 x8bsystems world impleum candidate solutions ideas improving security impleum security seriously possible maintain anonymity nodes connected possible guarantee decentralization mitigate attacks decentralization xe2 x80 x8bwas original core ideology xe2 x80 x8bbitcoin xe2 x80 x8b feel ideology completely maintained entire purpose secure fair financial system place control hands people xe2 x80 x8bproof stake 3 0 xe2 x80 x8bhas economic advantage bitcoin xe2 x80 x8bbecause waste electricity generate new blocks create unfair competition new coins incentive stay connected shareholders greater benefits board inflation rate impl coins issued rate 5 coins block xe2 x80 x93 60 seconds individual stakes impleum impl coins giving reward incentive users contribute making secure pos based network staking",
+    "metadata": {
+      "chunk_id": "0a6069d36354ea4deadec519df3856e8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 100] 2628000 50591806 5 194517073 2037 2628000 53219806 4 938011236 2038 2628000 55847806 4 705645912 2039 2628000 58475806 4 494166357 2040 2628000 61103806 4 300877755 2041 2628000 63731806 4 12352978 2042 2628000 66359806 3 960228576 2043 2628000 68987806 3 809368862 2044 2628000 71615806 3 669580986 2045 2628000 74243806 3 539689223 2046 2628000 76871806 3 418678625 2047 2628000 79499806 3 305668444 2048 2628000 82127806 3 199890668 2049 2628000 84755806 3 100672537 2050 2628000 87383806 3 007422222 2051 2628000 90011806 2 919617011 2052 2628000 92639806 2 836793505 2053 2628000 95267806 2 758539438 2054 2628000 97895806 2 68448681 2055 2628000 100000000 2 628 48 x0cit inflation impl coins measly 79% based 21th august statistics people earn higher percentage simply interested means stakes coins impleum masternode registration protocol impleum xe2 x80 x8b xe2 x80 x8b masternodes xe2 x80 x8bwork xe2 x80 x8b tumblebit xe2 x80 x8btechnology new platform sending receiving bitcoin impleum",
+    "metadata": {
+      "chunk_id": "dc28968bd43e6f90173bd86e48c67ca9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 101] coins impleum masternode registration protocol impleum xe2 x80 x8b xe2 x80 x8b masternodes xe2 x80 x8bwork xe2 x80 x8b tumblebit xe2 x80 x8btechnology new platform sending receiving bitcoin impleum coins trustless decentralized private solution users bitcoin globe 1% fee privacy impl protocol transaction earn 1% tumblebit trade fees time trade volume grows probably double worth staking rewards minimal transaction xe2 x80 x93 0 1 btc impl transactions anonymous users able send receive increments xe2 x80 x8b0 1 btc xe2 x80 x8bjust time limited quantity xe2 x80 x99ll limited quantity xe2 x80 x8b xe2 x80 x8b masternode owners definitely transaction earnings high tumblebit xe2 x80 x8b 10 000 xe2 x80 x8b xe2 x80 x8b impleum xe2 x80 x8bor staking rewards earn staking rewards e xe2 x80 x9cfree impleum xe2 x80 x9d need hold xe2 x80 x8b10 000 xe2 x80 x8bor impleum qt core pocket maintain synchronized node running pc impleum stake variable xe2 x80 x8b10 000 xe2 x80 x8b xe2 x80 x8bimpleum xe2 x80",
+    "metadata": {
+      "chunk_id": "2c69b87ee4c36ca6fe5bed6c9d02cd1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 102] xe2 x80 x9d need hold xe2 x80 x8b10 000 xe2 x80 x8bor impleum qt core pocket maintain synchronized node running pc impleum stake variable xe2 x80 x8b10 000 xe2 x80 x8b xe2 x80 x8bimpleum xe2 x80 x8byou hold xe2 x80 x99ll stake earn approximately xe2 x80 x8b 25 xe2 x80 x8bimpleum day impleum lately opened tier benefits holders xe2 x80 x8b100 000 xe2 x80 x8bimpleum masternodes conducting masternode additional benefits staking rewards xe2 x80 x8b 250 xe2 x80 x8b xe2 x80 x93 xe2 x80 x8b 300 xe2 x80 x8bimpleum daily masternodes masternode xe2 x80 x8bowners supply impleum platform assistance acting xe2 x80 x8bbitcoin tumbler xe2 x80 x8bbitcoin xe2 x80 x8btumbler lets users send receive xe2 x80 x8bbitcoin xe2 x80 x8bin anonymous fashion trade blended xe2 x80 x98tumbled xe2 x80 x99 dozens transactions size obscuring xe2 x80 x8b bitcoin xe2 x80 x8boriginated sent impleum masternodes solve problem providing useful services blockchain network keeping list services decentralised tamper proof",
+    "metadata": {
+      "chunk_id": "24cf67f41d3a8b03bdbdc6c0ee9f512a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 103] size obscuring xe2 x80 x8b bitcoin xe2 x80 x8boriginated sent impleum masternodes solve problem providing useful services blockchain network keeping list services decentralised tamper proof initial masternode implementation service provided impleum privacy protocol anticipated services added future order goal accomplished masternode register advertise existence impleum blockchain referred xe2 x80 x8bmasternode registration protocol xe2 x80 x8b 49 x0ca masternode registration simply consists specially formatted impleum transaction transaction contains pertinent information needed client connect validate masternode registration transaction submitted network remains valid indefinitely invalidated consensus rules governing registrations xe2 x97 x8f masternode server xe2 x80 x99s funding address funded initial window period xe2 x97 x8f collateral funds insufficient conclusion window period section collateral verification xe2 x80 x8bfor additional information collateral balance tracking xe2",
+    "metadata": {
+      "chunk_id": "c78233be0be8f66e10ad64d7e2d986c8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 104] funded initial window period xe2 x97 x8f collateral funds insufficient conclusion window period section collateral verification xe2 x80 x8bfor additional information collateral balance tracking xe2 x97 x8f collateral funds moved wholly address decreasing balance required threshold xe2 x97 x8f subsequent registration greater block height original e g update masternode xe2 x80 x99s public parameters xe2 x97 x8f currently enforced xe2 x80 x8ba registration expires xe2 x80 x8bn xe2 x80 x8bblocks requiring operator periodically refresh responsibility privacy wallet client software scan impleum blockchain current masternode registrations prior initiating contact server observing incoming block looking transactions match bitstream format registration found stored node xe2 x80 x99s local store block height registration received determines window period masternode funding transaction masternode operator required collateral funding address window elapses registration regarded expired purged",
+    "metadata": {
+      "chunk_id": "a70ccc5179a7797f0278766975db2aff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 105] block height registration received determines window period masternode funding transaction masternode operator required collateral funding address window elapses registration regarded expired purged local storage nodes network sufficient number valid masternode registrations downloaded client select random try connect utilise services e g impleum privacy 50 x0cprotocol optionally masternode selection performed entire blockchain downloaded fair masternodes register later chain process described implemented impleum software offering bitstream format masternode registration transaction registration transaction consists single transaction broadcast impleum network testnet testing mainnet xe2 x80 x98live xe2 x80 x99 masternodes transaction number funding inputs normal precisely nulldata data storage output marking entire transaction masternode registration optional change return output present xe2 x80 x8b end entire output list remainder transaction outputs near dust value output encodes",
+    "metadata": {
+      "chunk_id": "a2bfc2a701876ef3753b5cd768f5981e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 106] storage output marking entire transaction masternode registration optional change return output present xe2 x80 x8b end entire output list remainder transaction outputs near dust value output encodes 64 bytes data public key script contents format encoded data described presumption transaction outputs reordered broadcasting masternode result potential data corruption 51 x0cop return transaction output field size description 1 26 bytes literal ascii string privat registration marker encoded public key transaction output field size description 1 1 bytes protocol version byte 200 testregistration ignored mainnet wallets 2 2 bytes length registration header 3 34 bytes server id masternode base58 representationof collateral address right padded spaces 34 characters long 4 4 bytes ipv4 address masternodes byte octet use 00000000 address field impleum privacy protocol placeholder future functionality 5 16 bytes ipv4 address masternodes byte octet use 00000000 00000000 00000000 00000000",
+    "metadata": {
+      "chunk_id": "26a09f07856fc4bdce019688b90a643d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 107] masternodes byte octet use 00000000 address field impleum privacy protocol placeholder future functionality 5 16 bytes ipv4 address masternodes byte octet use 00000000 00000000 00000000 00000000 address field priimpleumvat privacy protocol placeholder future functionality 6 16 bytes masternodes server url curreltly ascii onion address hostname prefix suffix address signified 00000000 00000000 00000000 00000000 leaving valid current impleum privacy protocol implementation 7 2 bytes tcp port masternodes ignored client implementation 8 2 bytes rsa signature length bytes 9 n bytes rsa signature proving ownership impleum privacy protocol server xe2 x80 x99s private key 10 2 bytes ecdsa signature length bytes 11 n bytes ecdsa signature privat xd1 x83 key address server id address collateral need located 12 40 bytes hash impleum privacy protocol server xe2 x80 x99s configuration file moved header version protocol protocol format extended future accommodate new functionality new fields",
+    "metadata": {
+      "chunk_id": "b123965f74efc625754109a87ca054b3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 108] need located 12 40 bytes hash impleum privacy protocol server xe2 x80 x99s configuration file moved header version protocol protocol format extended future accommodate new functionality new fields attempt far possible retain backward compatibility existing fields connection impleum privacy protocol server client public key server verified client ensure server authentic possession registered keys privacy protocol followed normal 52 x0ccollateral verification impleum privacy protocol function creation numerous insufficiently powerful masternode servers disincentive consensus rules govern validity masternode need established enforced participating client nodes impleum masternode requires 100 000 10 000 impleum coins impl regarded compliant coins kept single address moved funding transaction performed receipt new block non masternodes check transaction affect currently tracked masternode server funds moved address calculated balance decreased funds come calculated balance increases",
+    "metadata": {
+      "chunk_id": "ceba7e87978477b50f6cbc1471813b74",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 109] performed receipt new block non masternodes check transaction affect currently tracked masternode server funds moved address calculated balance decreased funds come calculated balance increases balance computed masternode registration automatically deleted falls 100 000 10 000 impleum coins impl threshold recommended significant transactional activity performed collateral funds avoid inadvertently invalidating registrations 53 x0cthe diagram illustrates 4 basic scenarios masternode xe2 x80 x99s registration sequence xe2 x97 x8f node 1 sufficient funding transaction window period collateral regarded compliant xe2 x97 x8f node 2 initially compliant window period later removed funds address longer sufficient collateral xe2 x97 x8f node 3 transfers aggregated form sufficient collateral target address valid non standard method performing funding xe2 x97 x8f node 4 took long funding transaction performed outside window period regarded non compliant terms collateral obligation collateral",
+    "metadata": {
+      "chunk_id": "e3482d1ad5ae50226eb8577be669cf38",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 110] address valid non standard method performing funding xe2 x97 x8f node 4 took long funding transaction performed outside window period regarded non compliant terms collateral obligation collateral verification functionality implemented impleum software offering future improvements inter node discovery protocol drawback approach outlined paper node download entire blockchain genesis block onwards order accurately determine collateral balances efficient registrations accumulated nodes circulated peers light nodes sufficient proof accuracy inter node discovery protocol implemented impleum node software currently order initial version simple possible indirect requirement peer policing described xe2 x80 x8bpeer policing model xe2 x80 x8bsection improvement proposal xe2 x80 x93 peer policing model differences existing masternode implementations envisioned impleum masternode approach briefly xe2 x97 x8f dash masternodes remunerated xe2 x80 x98passively xe2 x80 x99 requires actively pinged",
+    "metadata": {
+      "chunk_id": "0a4becd15b8c037b90cf663d4e8ec525",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 111] model differences existing masternode implementations envisioned impleum masternode approach briefly xe2 x97 x8f dash masternodes remunerated xe2 x80 x98passively xe2 x80 x99 requires actively pinged verifiable way remainder network avoid paying masternode performs work xe2 x97 x8f conversely impleum masternode currently earn remuneration active participation impleum privacy protocol connected clients removes need directly police masternode sense xe2 x97 x8f high cost tier impleum masternode presumed operator economically incentivised positively participate network similar core tenets proof stake consensus mechanism aspects dash approach desirable emulate particularly ability collateral xe2 x80 x98cold xe2 x80 x99 storage requirements impleum tier masternode summarised follows xe2 x97 x8f node operator possession 10 000 100 000 impleum e possess private key spend xe2 x97 x8f collateral impleum present single address 54 x0c xe2 x97 x8f moving impleum collateral different address",
+    "metadata": {
+      "chunk_id": "0d30f6affbc0bfd71d5c8dadd86dd228",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 112] x8f node operator possession 10 000 100 000 impleum e possess private key spend xe2 x97 x8f collateral impleum present single address 54 x0c xe2 x97 x8f moving impleum collateral different address invalidates proof possession generated prior requirements need actively enforced prevent dilution privacy protocol security model proposed entities suited perform enforcement masternode xe2 x80 x99s peers impleum network peers following xe2 x97 x8f masternode essentially node additional features xe2 x97 x8f xe2 x80 x98full xe2 x80 x99 node complete copy impleum blockchain xe2 x97 x8f xe2 x80 x98light xe2 x80 x99 node retain copy entire chain retain block headers xe2 x97 x8f types nodes outside scope document onus particular masternode advertise services network means node elect regard masternode registration valid depending information available game theoretic perspective advantageous operators xe2 x80 x98rival xe2 x80 x99 masternodes immediately present proofs non compliance particular",
+    "metadata": {
+      "chunk_id": "0a6f3a655e6682afd953cc60d9b1c0a2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 113] registration valid depending information available game theoretic perspective advantageous operators xe2 x80 x98rival xe2 x80 x99 masternodes immediately present proofs non compliance particular masternode rest network additionally presumed advantage gained honest node propagate registrations known invalid example xe2 x80 x98lifetime xe2 x80 x99 registration implementation xe2 x80 x98proof non compliance xe2 x80 x99 concept follows 1 operator configures masternode generates masternode registration y startup 2 node operator moves sufficient collateral address x xe2 x80 x98funding transaction xe2 x80 x99 needs finite window period registration transaction 3 registration y broadcast transaction peer nodes inclusion impleum blockchain block z 4 registration cached peer node nodes join network block z need download entire chain receive registration y xe2 x80 x93 receive lists verified historical registrations communicating peers inter node discovery protocol light nodes validate",
+    "metadata": {
+      "chunk_id": "a2f9f9e292d07575448e647767137b57",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 114] network block z need download entire chain receive registration y xe2 x80 x93 receive lists verified historical registrations communicating peers inter node discovery protocol light nodes validate registrations evaluating merkle proof registration locally downloaded block header storage 5 nodes network directly evaluate balance available address x time transpires spurious masternode registration broadcast happen nodes forward registration new peers peers attempt send known invalid registrations receive proof non compliance response 6 status quo persists period time changes affect masternode registration validity 7 masternode operator moves portion funds address x e collateral requirement 8 nodes download blocks immediately able tell balance x changed light node know actual balance nodes know calculate balance construct proof thereof showing masternode longer compliant 9 non compliance proof broadcast nodes pre emptively e broadcast proof known peers immediately passively response",
+    "metadata": {
+      "chunk_id": "7ffd1f111abdbae4b3adcd60d3e23d14",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 115] know calculate balance construct proof thereof showing masternode longer compliant 9 non compliance proof broadcast nodes pre emptively e broadcast proof known peers immediately passively response receiving invalid registration peer 55 x0cat high level proof insufficient funds consist following elements xe2 x97 x8f copy xe2 x80 x98funding transaction xe2 x80 x99 masternode defined detail xe2 x80 x8bfunding transaction xe2 x97 x8f registration record entirety peer downloaded xe2 x97 x8f complete transaction funding transaction included inputs e showing collateral funds moved spent xe2 x97 x8f net result movement transactions balance collateral address 100 000 impl 10 000 impl xe2 x97 x8f merkle proof s movement transaction s showing included block higher height funding transaction light node able interrogate peer node perceived status masternodes peer interrogated light node able pass proofs received stored nodes funding transaction funding transaction masternode transaction assigns",
+    "metadata": {
+      "chunk_id": "8070e2e77b992d15c401050197522517",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 116] node able interrogate peer node perceived status masternodes peer interrogated light node able pass proofs received stored nodes funding transaction funding transaction masternode transaction assigns 100 000 impleum collateral given address recommended single transaction output size proofs communicated peers minimum naturally possible gap block height funding transaction block height registration transaction fund movement occurred problem nodes evaluate solvency masternode determine propagate registration peers inter node protocol possible attack dos vectors vulnerable portion network light nodes proof mechanism needs robust allow light nodes participate policing masternode registrations having entire blockchain available masternode operators need protected rogue nodes attempting stifle traffic particular masternodes censoring registrations mitigated decentralised nature impleum blockchain required sufficient number honest nodes participate minimise negate impact rogue nodes",
+    "metadata": {
+      "chunk_id": "9ad9dd0caf0006ee74b82aee7d15534b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 117] stifle traffic particular masternodes censoring registrations mitigated decentralised nature impleum blockchain required sufficient number honest nodes participate minimise negate impact rogue nodes registrations percolate network blocks inter node protocol rogue node generate fake proof non compliance merkle proofs fail validated masternode operators generate copious registration transactions e spam attempt sway client nodes use server mitigated rule client node recent valid registration known masternode spamming network result increased likelihood client select particular masternode server important masternode operator avoid moving collateral funds way inadvertently provide avenue nodes construct non compliance proof funds need moved recommended entirely new address new registration performed naturally cause previous registration invalidated 56 x0cremoved caches nodes network new registration conversely cached going forwards impleum sidechains impleum node support sidechains",
+    "metadata": {
+      "chunk_id": "414591b9a1030384d8c42c9160b7c219",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 118] performed naturally cause previous registration invalidated 56 x0cremoved caches nodes network new registration conversely cached going forwards impleum sidechains impleum node support sidechains achieved way federated peg solution means impl passed sidechain gateway pass controlled federation federation consists 3 members control sidechain target audience document include federation members users impleum mainchain want send funds sidechain interested way federated peg operates like impleum node impleum sidechains written c net core platform material cover programming tasks working knowledge blockchain topics transactions wallets useful enable users started impleum create sidechain running impleum testnet 5 federation members supporting drawn impleum platform internal team sidechain token called com users deposit impl sidechain return receive com spend sidechain impleum provides modifed impleum wallet com wallet help facilitate way understanding sidechains think sidechain foreign",
+    "metadata": {
+      "chunk_id": "2f6d4a77bb0ff36bca5ec9cf005cf0f2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 119] called com users deposit impl sidechain return receive com spend sidechain impleum provides modifed impleum wallet com wallet help facilitate way understanding sidechains think sidechain foreign country impleum mainchain user xe2 x80 x99s home country federation secures foreign currency case com loan sidechain visitors return depositing impl user returns home relinquish com withdraw equivalent impl mainchain building sidechains c makes easier integrate existing enterprise architectures opens door previously blocked programming language barriers impleum sidechains c builds established net framework language ecosystem readily poised wider adoption 57 x0cimpleum sidechains solve significant challenge facing enterprises concerned implementing blockchain solutions lack privacy control inherent existing public blockchains enterprise lacking ability influence changes public infrastructure suit specific needs valid cause concern impleum sidechains operate locking impleum coins ompleum",
+    "metadata": {
+      "chunk_id": "67cfd5cbb719d608f7a0f1a14bafe468",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 120] existing public blockchains enterprise lacking ability influence changes public infrastructure suit specific needs valid cause concern impleum sidechains operate locking impleum coins ompleum mainchain value proxy enterprise tokens forged sidechain overcomes complexity transferring digital assets different blockchains offering flexibility confidence sidechain digital asset backed correct impleum coins flexibility sidechain helps improve scalability long running challenge decentralized computing aside leaving mainchain free exchange funds impleum sidechains possible specify block size block interval increasing number transactions block reducing time block impleum sidechains alpha release follows recent news impleum smart contracts c allows wide range decentralized applications built impleum platform impleum c smart contracts smart contracts deployed c value impleum platforms c net able leverage powerful ecosystem exists xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2",
+    "metadata": {
+      "chunk_id": "55e089243b7861338f14f632e227698d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 121] platform impleum c smart contracts smart contracts deployed c value impleum platforms c net able leverage powerful ecosystem exists xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f visual studio develop compile debug code easily decompiling cil c source code strong testing frameworks run natively inside visual studio c behaves exactly inside net application audited countless developers entire companies based security auditing c code produced extensive list software tools scan certain kinds conditions code essentially impleum xe2 x80 x9ccode scanners xe2 x80 x9d applied adapted smart contract code established best practices technical tools developed corporations easily impleum contracts actually mean code behave way developers expect possible running cil clr custom virtual machine far gone road c smart contracts fact gone road smart contract offering neo best known platform currently offering coding c smart contracts misleading xe2 x80 x9cneo c smart contracts",
+    "metadata": {
+      "chunk_id": "4528be58ffcacca4174732763ea9236c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 122] virtual machine far gone road c smart contracts fact gone road smart contract offering neo best known platform currently offering coding c smart contracts misleading xe2 x80 x9cneo c smart contracts xe2 x80 x9d neo compiles syntax 58 x0clanguage custom instruction set run custom virtual machine neovm smart contract code executes virtual machine net neo bytecode xe2 x80 x99s handy guide code real c xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f c code run like environments net web console mobile applications c developers audit code knowing xe2 x80 x99s going behave exactly expect developers debug visual studio natively developers use parts c ecosystem decompilers answer questions xe2 x80 x99d hard pressed convince code truly c smart contract code executes virtual machine net virtually impossible guarantee c code behave way real net web console application means developers effectively audit written impleum smart contract code executes vm code execute web mobile c application aside",
+    "metadata": {
+      "chunk_id": "2fb6b7d694af4f3d38319d99f740551a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 123] impossible guarantee c code behave way real net web console application means developers effectively audit written impleum smart contract code executes vm code execute web mobile c application aside theoretically language translated cil supported impleum means native c f vb language software written compile cil supported impleum smart contracts confidence security smart contracts important adoption technology end impleum ensured auditing testing contracts easily larger group developers contracts decompiled c source code big impleum single contract nodes natively display c source auditing instead bytecode functionality ethereum xe2 x80 x99s solidity compilers like porosity primitive impleum smart contracts developed compiled debugged unit tested visual studio external tools net code running like net application need compilation different virtual machine instruction set means auditing contracts developers community literally millions strong impleum key features impleum allows creation",
+    "metadata": {
+      "chunk_id": "495ef18fc29275bab502faa3c2ed24c0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 124] like net application need compilation different virtual machine instruction set means auditing contracts developers community literally millions strong impleum key features impleum allows creation distinct private blockchains launched party organisations tailored needs secured main impleum blockchain accessed lite clients simple powerful apis private chains based code main impleum chain chains compatible transfer straightforward 59 x0cimpleum private chains secure blockchain network typically consist hundreds thousands computers running protocol consequently significant advantages employing established network proven stability security starting scratch possible develop applications bitcoin blockchain best known secure cryptocurrency network good reasons businesses want bitcoin comparatively slow 10 minute confirmation times periodic attacks network means transactions delayed hours addressing effectively requires controversial hard fork pace development slow businesses control upgrades",
+    "metadata": {
+      "chunk_id": "2ddb8e983805cc9f4a877c1208376ecd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 125] slow 10 minute confirmation times periodic attacks network means transactions delayed hours addressing effectively requires controversial hard fork pace development slow businesses control upgrades changes network capacity block rate transactions processed bitcoin xe2 x80 x99s security advantages come cost significant rigidity unpredictability contrast impleum private chains allow developers complete freedom customise implementation specific needs whilst underpinning xe2 x80 x98parent xe2 x80 x99 blockchain established users high degree confidence security example business requires large block sizes accommodate high volume transactions rapid block times enable low latency trading controlled transactions approved users submit request network given rate inflation additional space metadata 60 x0ceach block specified launch private chain accessed straightforward apis meaning stand applications rapidly developed impleum blockchain service baas potential blockchain service baas recognized",
+    "metadata": {
+      "chunk_id": "b641949a591230c704dd60377d86be5f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 126] 60 x0ceach block specified launch private chain accessed straightforward apis meaning stand applications rapidly developed impleum blockchain service baas potential blockchain service baas recognized world xe2 x80 x99s largest software companies fact xe2 x80 x98big xe2 x80 x99 cloud providers amazon microsoft ibm developed baas platforms available cloud customers companies like google bought blockchain technology firms like firebase order try secure foothold shaping highly lucrative market recent article bitcoin magazine predicted blockchain technology market reach $7 7 billion 2024 industry insiders figures higher particularly given phenomenal gain popularity blockchain based technologies resulting 2017 xe2 x80 x99s meteoric rise bitcoin cryptocurrencies going wait big blockchain technology market going given huge potential benefits major industry world today certain blockchain set pretty big waves years come given fact want explore detail exactly new technology help businesses",
+    "metadata": {
+      "chunk_id": "d0b62bbb128a6685a522713ce5607b10",
+      "entities": {
+        "crypto_project": [
+          "bitcoin"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 127] market going given huge potential benefits major industry world today certain blockchain set pretty big waves years come given fact want explore detail exactly new technology help businesses shapes sizes examine services biggest baas providers currently offering try best idea potential technology decentralised app hosting offering services integrated blockchain impleum specialise providing hosting consultancy decentralised applications dapps ethereum blockchain enables complete peg approach smart contracts impleum work closely businesses determine needs deploying nodes required organising hosting allows clients focus solely creating dapps expending time resources infrastructure click deployment impleum makes easier organisations deploy private blockchains taking cloud services approach provisioning click process means new chains launched unprecedented speed tailored needs organisation broad range variables including block time size space metadata customisable making incredibly",
+    "metadata": {
+      "chunk_id": "b4619ccf61b3d10820041bc518608ebb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 128] provisioning click process means new chains launched unprecedented speed tailored needs organisation broad range variables including block time size space metadata customisable making incredibly flexible essentially entire network bootstrapped main chain giving ready cryptocurrency ecosystem developers use box tier architecture impleum platform uses tier architecture typical microsoft xc2 xae asp net application style good fit impleum node impleum blockchain api 61 x0cimpleum spv technology developed c run microsoft net framework common language runtime client tier browsers desktops mobiles iot internet things devices connect services application tier receive blockchain data querying impleum chain api https application tier composed impleum chain api cloud impleum management portal cloud impleum api secure payment verification spv components application tier developed c application tier handles blockchain requests spv proofs lite clients download blockchain provides access impleum",
+    "metadata": {
+      "chunk_id": "3cbf986e99015507cb97bc6a3ab39efc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 129] impleum api secure payment verification spv components application tier developed c application tier handles blockchain requests spv proofs lite clients download blockchain provides access impleum cloud management portal api server tier consists impleum blockchain node cloud impleum hosting layer impleum payment protocol scalability scalability major issue cryptocurrency protocols transaction stored blockchain transparency immutability unoptimised blockchain size chain function number transactions cause issues bitcoin xe2 x80 x99s 1 mb block sizes limit low throughput transactions second tps tensions different stakeholders bitcoin ecosystem including miners large holders advocates end users meant problem proven extremely difficult fix result periods transactions delayed space block consequently businesses voluntarily expose risks bitcoin blockchain party applications having control future protocol influence improvements bitcoin problem transaction volumes solved hard fork enable",
+    "metadata": {
+      "chunk_id": "f0bfae61524d1150d941225ba6d4dee3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 130] businesses voluntarily expose risks bitcoin blockchain party applications having control future protocol influence improvements bitcoin problem transaction volumes solved hard fork enable larger blocks suboptimal solution transaction volumes grow exponentially greater adoption best case scenario block size grow exponentially places greater demands nodes terms bandwidth disk space despite expected advances storage connectivity technology likely lead greater centralisation mining best resourced nodes afford maintain network aside political ideological concerns implications network security impleum addresses problems different ways firstly private blockchain configurable meaning organisation choose large blocks reflecting needs resources related instead single ledger application impleum comprises host chain financial businesses deploy ledgers depending specific requirements directly blockchain impleum network bitcoin ecosystem bitcoin blockchain employed offers remarkable 62",
+    "metadata": {
+      "chunk_id": "48825a49a642f235773f6adcc0c7b33e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 131] impleum comprises host chain financial businesses deploy ledgers depending specific requirements directly blockchain impleum network bitcoin ecosystem bitcoin blockchain employed offers remarkable 62 x0cversatility extensive 2 0 platform combined control private chain xe2 x80 x93 secured host blockchain tailored administrated owning organisation separate note impleum employs proof stake approach consensus aligns interests end users businesses tasked securing network nodes means business run impleum node nodes blockchain overheads associated specialist mining hardware lastly series measures combat bloat main chain ultimately serves means secure child chains kept lightweight possible bitcoin compatibility impleum xe2 x80 x99s private chains based code main blockchain interface private chains 100% compatible main impleum chain impleum provide rpc api bitcoin core initially means applications platforms use bitcoin xe2 x80 x99s rpc command line ported quickly impleum xe2 x80 x99s new",
+    "metadata": {
+      "chunk_id": "4a1c0fcc05943add671dbe4b488232ac",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 132] chains 100% compatible main impleum chain impleum provide rpc api bitcoin core initially means applications platforms use bitcoin xe2 x80 x99s rpc command line ported quickly impleum xe2 x80 x99s new functionality provided impleum specific api calls compatibility main private chains means simple matter incorporate new features developed impleum private chain potentially vice versa feature developed business released future update impleum xe2 x80 x99s place express consent business impleum xe2 x80 x99s customers de facto use feature impleum xe2 x80 x99s blockchain onus privately developed features available conclusion impleum xe2 x80 x99s private blockchains offer significant advantages creation new chain scratch organisations provide required benefits unnecessarily restrictive entailing significant overheads involved creating maintaining cryptocurrency network cloud provisioning approach blockchain blockchain service baas makes deploying new chain process simple signing account",
+    "metadata": {
+      "chunk_id": "48d974c947dc287c15a974f59aa8ecdc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 133] significant overheads involved creating maintaining cryptocurrency network cloud provisioning approach blockchain blockchain service baas makes deploying new chain process simple signing account selecting required parameters tailor solutions accessible web interfaces apis users run nodes private chain host impleum network wish compatibility bitcoin means bitcoin based services easily ported impleum additional functionality convenience result impleum positioned strongly entry baas space 63 x0ccore contributors yurii bulakh xe2 x80 x93 blockchain developer yurii web entrepreneur founder inteh s avtomatizator business analyst 14 years experience complex information systems business management technical ideologist project pavel lypysyvytskyi specialist extensive experience sales maintenance customers anton yaroshenko xe2 x80 x93 blockchain developer anton experience stack web development microsoft technologies experience mobile app development xamarin worked high loaded systems fully",
+    "metadata": {
+      "chunk_id": "9b7813ddb10d4944e8dd61212bbc073b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 135] specialist 5 year experience end 3 year experience javascript html css reactjs vladimir kalmyk xe2 x80 x93 linux unix architect unix linux architect 15 years experience michael lane thomas xe2 x80 x93 technical advisor cio vision ridge technologies michael gained 20 years enterprise business development serving frontline prominent knowledge leaders microsoft vision ridge technologies extensive experience detailed technical analysis blockchain related business models propositions oleg mishchenko xe2 x80 x93 product owner strategy ceo founder ion digital technical specialist extensive experience development digital projects founder ceo xc2 xabion digital xc2 xbb engaged development web services mobile applications 2010 participated development launch 10 start ups 64 x0creferences 1 bitcoin whitepaper xe2 x80 x8b https bitcoin org bitcoin pdf 2 ethereum whitepaper https github com ethereum wiki wiki white paper 3 https www gov uk government news distributed ledger technology block ch ain",
+    "metadata": {
+      "chunk_id": "d2dd89051057ecbe5adabf13791c45c9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 136] xe2 x80 x8b https bitcoin org bitcoin pdf 2 ethereum whitepaper https github com ethereum wiki wiki white paper 3 https www gov uk government news distributed ledger technology block ch ain 4 http money cnn com 2015 11 02 technology bitcoin 1 billion invested 5 http www ft com cms s 2 eb1f8256 7b4b 11e5 a1fe 567b37f80b64 html axzz46tuq 2d8h 6 https research tabbgroup com report v14 009 blockchain clearing settlement cr ossing chasm 7 complete bitcoin port 1 crypto 8 http www codeproject com articles 768412 nbitcoin complete bitcoin por t crypt 9 nbitcoin indexer scalable fault tolerant block chain indexer http www codeproject com articles 819567 nbitcoin indexer scalable fault tol erant blo 10 programming blockchain c https www gitbook com book programmingblockchain programmingblockchain details 11 blockstream elements xe2 x80 x8b https blockstream com sidechains pdf 12 https www jbs cam ac uk faculty research centres alternative finance publications gl obal blockchain wms8zrptypo 13",
+    "metadata": {
+      "chunk_id": "c7822886d92a48de46917127f0193ac2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  },
+  {
+    "text": "[Section 137] details 11 blockstream elements xe2 x80 x8b https blockstream com sidechains pdf 12 https www jbs cam ac uk faculty research centres alternative finance publications gl obal blockchain wms8zrptypo 13 https elementsproject org 14 https stratisplatform com 15 https en wikipedia org wiki blockchain 16 https www scoop eu blockchain distributed ledger technology 17 https www jupiterresearch com press %20press releases 6 10large corporations c onsidering blockchain 18 https blackcoin org x0c",
+    "metadata": {
+      "chunk_id": "3f1adb9c6dd49515574ab53d054d58c6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Impleum.txt"
+    }
+  }
+]

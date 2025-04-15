@@ -1,0 +1,302 @@
+[
+  {
+    "text": "[Section 4] detail 2 1 hash function gr xc3 xb8stl comes variants different output sizes denote n number bits output variant returning n bits denoted gr xc3 xb8stl n focus gr xc3 xb8stl 256 gr xc3 xb8stl512 variants returning 256 bits differ gr xc3 xb8stl 256 initial value final truncation produce hash value similarly variants returning 256 bits differ gr xc3 xb8stl 512 respects input message m padded split blocks m1 m2 mt bits 512 gr xc3 xb8stl256 1024 gr xc3 xb8stl 512 initial value iv intermediate hash values hi permutations p q size bits exact definition iv found 8 message blocks processed compression function f hi xe2 x88 x921 mi accepts bit inputs outputs bit value t message blocks processed output transformation xe2 x84 xa6 ht applied outputs final n bit hash value h h0 iv hi f hi xe2 x88 x921 mi 1 xe2 x89 xa4 xe2 x89 xa4 t h xe2 x84 xa6 ht variants twice large n 2 2 compression function compression function f based bit permutations p q compression function defined follows f hi xe2 x88",
+    "metadata": {
+      "chunk_id": "a042478cd5e6c47f46fbf91c87a6fabd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 5] mi 1 xe2 x89 xa4 xe2 x89 xa4 t h xe2 x84 xa6 ht variants twice large n 2 2 compression function compression function f based bit permutations p q compression function defined follows f hi xe2 x88 x921 mi p hi xe2 x88 x921 xe2 x8a x95 mi xe2 x8a x95 q mi xe2 x8a x95 hi xe2 x88 x921 construction compression function gr xc3 xb8stl shown figure 1 f mi hi xe2 x88 x921 q p hi figure 1 compression function f gr xc3 xb8stl permutations p q size xe2 x89 xa5 2n bits 2 3 output transformation compression function output transformation xe2 x84 xa6 applied ht final hash value size n xe2 x84 xa6 ht truncn p ht xe2 x8a x95 ht truncn x discards significant n bits x output transformation shown figure 2 2 x0cht p n figure 2 output transformation xe2 x84 xa6 gr xc3 xb8stl permutation p size xe2 x89 xa5 2n bits n bits returned 2 4 permutations permutations p q defined gr xc3 xb8stl distinguish permutations gr xc3 xb8stl 256 gr xc3 xb8stl 512 write p q size permutations permutation aes like round",
+    "metadata": {
+      "chunk_id": "ada59e798a125a9afacda831798fd79f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 6] xa5 2n bits n bits returned 2 4 permutations permutations p q defined gr xc3 xb8stl distinguish permutations gr xc3 xb8stl 256 gr xc3 xb8stl 512 write p q size permutations permutation aes like round transformations addroundconstant ac subbytes sb shiftbytes sh mixbytes mb applied state given order permutations differ constants addroundconstant shiftbytes number rounds gr xc3 xb8stl 256 10 rounds 512 bit state permutation p512 q512 viewed 8 xc3 x978 matrix bytes round permutation gr xc3 xb8stl 256 shown figure 3 gr xc3 xb8stl 512 14 rounds 1024 bit state permutations p1024 q1024 viewed 8 xc3 x97 16 matrix bytes ac sb sh mb ac sb sh mb gr xc3 xb8stl 256 b gr xc3 xb8stl 512 figure 3 round permutation gr xc3 xb8stl 256 gr xc3 xb8stl 512 hash function 2 4 1 addroundconstant addroundconstant ac transformation xors round dependent constant row state constant row different p q additionally round independent constant ff xored byte q denote hexadecimal byte values character values sans serif",
+    "metadata": {
+      "chunk_id": "d51ecc773bef2f08b6f41aabfbab0344",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 7] ac transformation xors round dependent constant row state constant row different p q additionally round independent constant ff xored byte q denote hexadecimal byte values character values sans serif font xor constants round viewed hexadecimal digit xcc x84 denotes bit wise complement shown figure 4 2 4 2 subbytes subbytes sb transformation applies aes s box byte state definition s box found 8 2 4 3 shiftbytes shiftbytes sh cyclically rotates bytes row r left xcf x83 r positions different values p q gr xc3 xb8stl 256 gr xc3 xb8stl 512 following rotation values xcf x83 0 1 2 3 4 5 6 7 p gr xc3 xb8stl 256 xcf x83 1 3 5 7 0 2 4 6 q gr xc3 xb8stl 256 xcf x83 0 1 2 3 4 5 6 11 p gr xc3 xb8stl 512 xcf x83 1 3 5 11 0 2 4 6 q gr xc3 xb8stl 512 3 x0c0i 1i 2i 3i 4i 5i 6i 7i 0i 1i 2i 3i 4i 5i 6i 7i 8i 9i ai bi ci di ei fi p512 b p1024 ff ff ff ff ff ff ff fi ff ff ff ff ff ff ff ei ff ff ff ff ff ff ff di ff ff ff ff ff ff ff ci ff ff ff ff ff ff ff bi ff ff ff ff ff ff ff ai ff ff ff ff ff ff ff",
+    "metadata": {
+      "chunk_id": "aa8c9cb7f75eaaa9709f26c7fe81c4c7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 10] 24 x3 xc2 xb7 23 x2 xc2 xb7 22 x1 xc2 xb7 21 x0 xc2 xb7 20 represented following polynomial finite field gf 28 p x x7 xc2 xb7 xce xb87 x6 xc2 xb7 xce xb86 x5 xc2 xb7 xce xb85 x4 xc2 xb7 xce xb84 x3 xc2 xb7 xce xb83 x2 xc2 xb7 xce xb82 x1 xc2 xb7 xce xb81 x0 multiplication x xc2 xb7 y field gf 28 defined polynomial multiplication modulo polynomial defining field x xc2 xb7 y p x xc2 xb7 p y mod xce xb88 xe2 x8a x95 xce xb84 xe2 x8a x95 xce xb83 xe2 x8a x95 xce xb8 xe2 x8a x95 1 section 4 4 describes multiplications field carried efficiently practice 4 x0c p512 b p1024 c q512 d q1024 figure 6 shift values shiftbytes transformation b figure 7 mixbytes transformation multiplies column state constant matrix b 3 introduction efficient implementation techniques section high level overview common efficient implementation techniques gr xc3 xb8stl gr xc3 xb8stl aes based hash function implementation techniques developed aes applied gr xc3 xb8stl main implementation techniques gr xc3 xb8stl t",
+    "metadata": {
+      "chunk_id": "12478f83d5b0ec902ef820089c3456a2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 11] efficient implementation techniques gr xc3 xb8stl gr xc3 xb8stl aes based hash function implementation techniques developed aes applied gr xc3 xb8stl main implementation techniques gr xc3 xb8stl t table implementation bit slicing byte slicing parallel byte slice implementation intel aes ni instruction vperm technique compute aes s box table 1 list benchmark results gr xc3 xb8stl current desktop processors details processors refer ebash 3 additionally byte slice implementation technique efficient 8 bit implementations gr xc3 xb8stl table 2 shows time memory trade offs 8 bit avr implementations 3 1 t table implementation daemen rijmen presented table based approach aes 6 efficiently computes combined subbytes mixcolumns transformation approach applied gr xc3 xb8stl technique table lookup needed s box mixbytes transformation computed parallel rows state combined s box lookup approach efficient column size matches register size case 32 bit platforms aes 64 bits platforms gr xc3 xb8stl",
+    "metadata": {
+      "chunk_id": "2802918032bdfa7d214c9ed7189bdc94",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 12] needed s box mixbytes transformation computed parallel rows state combined s box lookup approach efficient column size matches register size case 32 bit platforms aes 64 bits platforms gr xc3 xb8stl current future small scale 32 bit processors provide 64 bit instructions mmx neon gr xc3 xb8stl implemented efficiently platforms t table approach t table implementations state gr xc3 xb8stl stored 64 bit registers column ordering figure 8 addroundconstant transformation computed separately 64 bit xors computation subbytes shiftbytes mixbytes transformations combined efficiently compute 5 x0ctable 1 gr xc3 xb8stl software performance current desktop processors sorted speed cycles byte c b byte slice implementations aes ni vperm outperform table based implementations processors 128 bit registers hash function gr xc3 xb8stl 256 gr xc3 xb8stl 0 256 gr xc3 xb8stl 512 processor intel core i7 2600k amd phenom ii x6 intel core2 duo l9400 intel core i7 620lm intel pentium m intel core2 duo l9400",
+    "metadata": {
+      "chunk_id": "2c1f0e15f474705e945bd52fb19a6ef8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 24] counter mode 14 hash function whirlpool shares similarities gr xc3 xb8stl implemented efficiently bit slicing techniques 20 preliminary assembly implementations gr xc3 xb8stl 0 speed 29 7 cycles byte intel core2 duo processor computation hash single message 21 additionally bit slice implementations gr xc3 xb8stl 0 efficient messages hashed parallel 4 4 implementing gr xc3 xb8stl round transformations section list common techniques efficiently implement individual gr xc3 xb8stl round transformations listed techniques platforms different word sizes hardware software cases special optimization techniques combine round transformations lead better results platforms sections 5 3 2 3 3 4 1 addroundconstant addroundconstant transformation consists xors bytes state constants cases constants stored data structures ordering conventions state case xors simply carried word word exploit fact constants q correspond complementation byte followed xor constants p note q constants xored row instead row",
+    "metadata": {
+      "chunk_id": "0cdae04ff24e13d8e0241840f210b82b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 27] desktop processor store rows state 64 bit 128 bit word case shiftbytes transformation implemented simple byte shuffling instruction 4 4 mixbytes mixbytes consists multiplication column state constant 8 xc3 x97 8 matrix b multiplications additions needed compute transformation finite field gf 28 defined polynomial xce xb88 xe2 x8a x95 xce xb84 xe2 x8a x95 xce xb83 xe2 x8a x95 xce xb8 xe2 x8a x95 1 11b hexadecimal notation ways compute mixbytes depends hardware cpu features variant efficient following explain important techniques 4 4 1 table based implementation efficient way implement mixbytes precomputed t tables section 5 especially case table lookups mixbytes combined s box t table approach effect state byte column 8 bytes precomputed stored table 256 64 bit entries input byte column need separate table e g column computed follows b0 t0 a00 xe2 x8a x95 t1 a11 xe2 x8a x95 t2 a22 xe2 x8a x95 t3 a33 xe2 x8a x95 t4 a44 xe2 x8a x95 t5 a55 xe2 x8a x95 t6 a66 xe2 x8a x95 t7 a77 tables y ti",
+    "metadata": {
+      "chunk_id": "a41b640add5827863b1556fff1b2204e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 38] t5 a5 16 t6 a6 24 t7 a7 32 sb sh mb column t0 a0 48 t1 a1 56 t2 a2 0 0xff 0xff 0xff 6 p 0xff 0xff 0xff b6 b6 b6 b6 b6 b7 t3 a3 8 t4 a4 16 t5 a5 24 t6 a6 32 t7 a7 40 sb sh mb column t0 a0 56 0xff 0xff 0xff 0xff 0xff 7 p 0xff b7 b7 b7 b7 b7 b7 b7 t1 a1 0 t2 a2 8 t3 a3 16 t4 a4 24 t5 a5 32 t6 a6 40 t7 a7 48 0xff 0xff 0xff 0xff 0xff 0xff 0xff number optimized c implementations published gr xc3 xb8stl important ones implementations submitted nist designers 8 crypto library sphlib3 0 19 sphlib fully optimized e g round constants added byte byte good performance constrained 32 bit devices following present optimized assembly implementations example platforms serve reference t table optimizations 5 1 64 bit processors t table implementation gr xc3 xb8stl 64 bit processors needs 8 table lookups 8 xor 8 shift 8 instructions column computation section 5 x86 cpus reduce alu instructions 8 xor 8 mov 3 shift instructions column follows let rax contain column 0 significant 8 bits correspond byte",
+    "metadata": {
+      "chunk_id": "cb3a565cc5c9feffc43123a8fb4ecaf7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 49] spills performing computation 16 xmm registers reorder instructions way ensuring maximal instruction throughput algorithm shown table 4 achieves spills critical path masked operations start a0 a7 registers xmm0 xmm7 building b0 b7 xmm8 xmm15 byte wise multiplication 02 content xmm sequence instructions pxor pcmpgtb paddb pand pxor xmm j xmm j xmm xmm j xmm xmm j xmm xmm xmm k xmm j clear register comparing 0 sets 0xff bytes correspond msb bits set byte wise shift left position pick 0x1b correspond msb bit set xmm xor reduction polynomial result necessary requires extra register xmm j scratch space xmm k containing constant reduction value 1b1b 1b extra registers temporarily spill xmm8 xmm9 hold values y4 y5 critical path computation avx instructions available starting intel sandy bridge use operand instructions reduce number instructions required multiplication advantage smaller instruction sandy bridge cores recognize xoring clear register issue xc2 xb5ops case 6 3 vperm aes ni",
+    "metadata": {
+      "chunk_id": "4459a04590edf9677d4c9db75ab99f9e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 55] implementation room improvements x86 cpus new platforms example neon byte permute instructions speed gr xc3 xb8stl new arm platforms references 1 k aoki g roland y sasaki m schla xcc x88ffer byte slicing gr xc3 xb8stl xe2 x80 x93 optimized intel aes ni 8 bit implementations sha 3 finalist gr xc3 xb8stl j lopez p samarati editors secrypt 2011 proceedings pages 124 xe2 x80 x93133 scitepress 2011 2 arm limited neon march 2011 available online http www arm com products processors technologies neon php 3 d j bernstein t lange ebash ecrypt benchmarking submitted hashes january 2011 available online http bench cr yp ebash html 4 c xcc xa7 c xcc xa7alik multi stream constant time sha 3 implementations nist hash function mailing list december 2010 retrieved 03 2010 http www metu edu tr ccalik software html sha3 5 d canright compact s box aes j r rao b sunar editors ches volume 3659 lncs pages 441 xe2 x80 x93455 springer 2005 6 j daemen v rijmen aes proposal rijndael nist aes algorithm",
+    "metadata": {
+      "chunk_id": "9a49614f732f60736457008d1b855295",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 56] software html sha3 5 d canright compact s box aes j r rao b sunar editors ches volume 3659 lncs pages 441 xe2 x80 x93455 springer 2005 6 j daemen v rijmen aes proposal rijndael nist aes algorithm submission september 1999 available online http csrc nist gov archive aes rijndael rijndael ammended pdf 7 damga xcc x8ard design principle hash functions g brassard editor advances cryptology xe2 x80 x93 crypto xe2 x80 x9989 proceedings volume 435 lecture notes computer science pages 416 xe2 x80 x93427 springer 1990 8 p gauravaram l r knudsen k matusiewicz f mendel c rechberger m schla xcc x88ffer s s thomsen gr xc3 xb8stl xe2 x80 x93 sha 3 candidate submission nist round 3 2011 available http www groestl info 2011 11 25 9 s gueron intel corp intel r advanced encryption standard aes instructions set 2010 retrieved december 21 2010 http software intel com en articles intel advanced encryption standard aes instructions set 10 m hamburg accelerating aes vector permute instructions c clavier k",
+    "metadata": {
+      "chunk_id": "9ab1af4196eff2366e76681ecae0115d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 57] set 2010 retrieved december 21 2010 http software intel com en articles intel advanced encryption standard aes instructions set 10 m hamburg accelerating aes vector permute instructions c clavier k gaj editors ches volume 5747 lncs pages 18 xe2 x80 x9332 springer 2009 17 x0c 11 intel corporation mmx instructions transpose matrix 1996 available online ftp download intel com ids mmx mmx app transpose matrix pdf 12 intel corporation intel advanced encryption standard instructions aes ni march 2011 available online http software intel com en articles intel advanced encryption standard instructions aes ni 13 intel corporation pentium processors mmx technology march 2011 available online http edc intel com platforms previous processors pentium mmx 14 e ka xcc x88sper p schwabe faster timing attack resistant aes gcm c clavier k gaj editors ches volume 5747 lncs pages 1 xe2 x80 x9317 springer 2009 15 r c merkle way hash functions des g brassard editor advances cryptology xe2 x80 x93 crypto",
+    "metadata": {
+      "chunk_id": "b2cd0aa1830235f529bd4d529e6c3784",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 58] resistant aes gcm c clavier k gaj editors ches volume 5747 lncs pages 1 xe2 x80 x9317 springer 2009 15 r c merkle way hash functions des g brassard editor advances cryptology xe2 x80 x93 crypto xe2 x80 x9989 proceedings volume 435 lecture notes computer science pages 428 xe2 x80 x93446 springer 1990 16 national institute standards technology fips pub 197 advanced encryption standard federal information processing standards publication 197 u s department commerce november 2001 available online http www itl nist gov fipspubs 17 national institute standards technology fips pub 197 advanced encryption standard aes federal information processing standards publication 197 u s department commerce november 2001 18 national institute standards technology cryptographic hash project 2007 available online http www nist gov hash competition 19 t pornin sphlib 3 0 2011 11 25 available http www saphir2 com sphlib files sphlib 3 0 zip 20 k scheibelhofer bit slice implementation whirlpool hash",
+    "metadata": {
+      "chunk_id": "fa816c053c13af5a1a720abbd4688d00",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 59] online http www nist gov hash competition 19 t pornin sphlib 3 0 2011 11 25 available http www saphir2 com sphlib files sphlib 3 0 zip 20 k scheibelhofer bit slice implementation whirlpool hash function m abe editor ct rsa volume 4377 lncs pages 385 xe2 x80 x93401 springer 2007 21 s tillich personal communication 2008 mixbytes computation variant 18 x0ctable 5 mixbytes computation separated factors 01 02 04 ai denote input bytes bi bi 1 xe2 x8a x95 bi 2 xe2 x8a x95 bi 4 output bytes xe2 x80 x9c xe2 x80 xa2 xe2 x80 x9d marks inputs ai 02 xc2 xb7 ai 04 xc2 xb7 ai added intermediate results bi j superscripts denote order temporary values computed results factor 02 computed multiplying results factor 01 02 bi 2 02 xc2 xb7 bi 3 mod 8 1 b0 1 b1 1 b2 1 b3 1 b4 1 b5 1 b6 1 b7 1 01 xc2 xb7 a0 xe2 x88 x92 xe2 x80 xa21 xe2 x80 xa2b xe2 x80 xa2b xe2 x80 xa21 xe2 x88 x92 xe2 x80 xa21 xe2 x88 x92 01 xc2 xb7 a1 xe2 x88 x92 xe2 x88 x92 xe2 x80 xa23 xe2 x80 xa23 xe2 x80 xa2 xe2 x80 xa23 xe2 x88 x92",
+    "metadata": {
+      "chunk_id": "7bb9ea9560e410c07c08aedde9fd597d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Groestlcoin.txt"
+    }
+  }
+]

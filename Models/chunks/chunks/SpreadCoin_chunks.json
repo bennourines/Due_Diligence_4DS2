@@ -1,0 +1,128 @@
+[
+  {
+    "text": "[Section 1] spreadcoin october 5 2014 introduction proof work cryptocurrencies new coins generated network process mining purposes mining protect network double spending attacks history rewriting miners generate new blocks check contents blocks generated peers conformation network rules miners delegate checking work crucial cryptocurrency security pools means pool operators large hashing power control generation new blocks brings unnecessary centralization decentralized system controlling 50% mining power allows perform double spending attacks 100% chance success 50% control possible perform attacks chances succeed1 core idea spreadcoin prevent creation pools mining decentralized system secure 1 double spending bitcoin wiki https en bitcoin wiki double spending pool prevention pooled mining miners perform work necessary fulfill proof work requirements pools care block generation broadcasting distribute reward miners according shares submit scheme miner alternatives 1 solo mining case miner send",
+    "metadata": {
+      "chunk_id": "8fc148c75e3dd27760acf95fa930a126",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "SpreadCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 2] work necessary fulfill proof work requirements pools care block generation broadcasting distribute reward miners according shares submit scheme miner alternatives 1 solo mining case miner send shares pool accepted 2 pooled mining miners shares accepted pool case miner actually generate new block reward pool redistribute miners allows organization pools miners way cheat steal generated money prevent creation pools remove possibility pool created miner pool submit shares usual reward case actually finding block miner send directly network instead pool reward spreadcoin mining organized way miner know following things 1 private key corresponding coinbase transaction 2 block header ensures miner broadcast mined block spend coins generated block necessary know private key spend coinbase transaction conflicting transactions appear network broadcasted higher probability included block peer remembers retransmits conflicting transactions miner pool know private key pool knows content block",
+    "metadata": {
+      "chunk_id": "79c5612ec547c185f6c8d36480cae195",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "SpreadCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 3] conflicting transactions appear network broadcasted higher probability included block peer remembers retransmits conflicting transactions miner pool know private key pool knows content block pool generate broadcast spending transaction earlier miner miner pool know content block miner broadcast block spending transaction prove knowledge private key block new fields block header minersignature hashwholeblock minersignature digital signature fields block header hashwholeblock changing information block requires regeneration signature means necessary recalculate iteration mining process implies miner able sign arbitrary data hashwholeblock sha 256 hash block data arranged follows padding block max block size padding block padding ensures incentive blocks transactions padding values computed simple algorithm initializes 32 bytes 8 uint32 hashprevblock goes backward computes remaining uint32 values following recursive formula 3 7 algorithm ensures efficient way compute padding values fly",
+    "metadata": {
+      "chunk_id": "99f382a195a43ad5f9f74b1e0cea4d23",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "SpreadCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 4] simple algorithm initializes 32 bytes 8 uint32 hashprevblock goes backward computes remaining uint32 values following recursive formula 3 7 algorithm ensures efficient way compute padding values fly hash computation potentially advantage blocks certain computing environments important block hashed twice hashed pool hash beginning block send resulting hash state miners miner modify information end block recalculate hash based known state actual knowledge contained beginning block appending block data necessary know block recalculate hashwholeblock pool detect ban cheating miners miners prefer cheat pool completely unusable honest miners miners low probability finding block profit stealing reward accidentally found block pool ban miners mining power find blocks consistently connect pool submit shares time steal found block way reward shares actual mined block given expected create pool countered releasing stealing miner software miners switch compact transactions spreadcoin bitcoin uses",
+    "metadata": {
+      "chunk_id": "a39a0a5b201b7439f863fc1513e39ec4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "SpreadCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 5] shares time steal found block way reward shares actual mined block given expected create pool countered releasing stealing miner software miners switch compact transactions spreadcoin bitcoin uses ecdsa signatures address bitcoin hash ecdsa public key spend coins sent address necessary provide public key matching hash signature results 139 107 bytes transaction input script scriptsig depending compact public key possible recover public key signature2 means necessary provide transaction input compact representation signature3 allows reduce size transaction input script 139 107 bytes bitcoin 67 bytes spreadcoin recovering public key extra cpu cost compared usual signature verification process bitcoin important cpu cost ecdsa signature verification bottleneck bitcoin transaction processing 2 ecdsa signatures allow recovery public key bitcoin forum https bitcointalk org topic 6430 0%29%3f 3 signature 65 1 32 32 bytes long bitcoin stack exchange https bitcoin stackexchange com questions",
+    "metadata": {
+      "chunk_id": "a9b54b2e6662526eedcaa9bbf01ceb9d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "SpreadCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 6] 2 ecdsa signatures allow recovery public key bitcoin forum https bitcointalk org topic 6430 0%29%3f 3 signature 65 1 32 32 bytes long bitcoin stack exchange https bitcoin stackexchange com questions 12554 signature 65 13232 bytes long 4 yearstimereward50 btc25 btc12 5 btc6 66 spr3 33 spr1 66 spr0 83 spr8 years12 years16 years20 yearsbitcoinspreadcoin usual output script scriptpubkey bitcoin looks follows op dup op hash160 5bd18804e4bb43a4bb8b6bc88408970bafaf4a38 op equalverify op checksig spreadcoin semantics op checksig instruction changed checking signature hash public key recovers public key compares hash provided results simpler script spreadcoin 5bd18804e4bb43a4bb8b6bc88408970bafaf4a38 op checksig results additional minor space saving script 3 bytes smaller smooth supply block reward bitcoin computed following formula h 02 h h block height reward halving period 0 initial reward h reward block h floor function method results abrupt reward changes near halving points spreadcoin",
+    "metadata": {
+      "chunk_id": "12b4f7a630849d347e70e0e9b346c994",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "SpreadCoin.txt"
+    }
+  },
+  {
+    "text": "[Section 7] bitcoin computed following formula h 02 h h block height reward halving period 0 initial reward h reward block h floor function method results abrupt reward changes near halving points spreadcoin uses simple linear interpolation halving points reward decrease smother achieved modifying reward following formula h 43 h h h mod 2 spreadcoin uses 2106 reward halving period",
+    "metadata": {
+      "chunk_id": "ce8b45f0cf0390dc2d7b170280194eeb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "SpreadCoin.txt"
+    }
+  }
+]

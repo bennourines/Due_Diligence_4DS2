@@ -1,0 +1,809 @@
+[
+  {
+    "text": "[Section 1] --- page 1 --- spectral risk digital assets meng-jou lua, , mat u s horv athb, xingjia wangc, wolfgang karl h ardlec,d,e,f,g adepartment finance, asia university, taichung, tw bdepartment finance, masaryk university, brno, cz cbrc blockchain research center, humboldt universit zu berlin, berlin, de ddept mathematics physics, charles university, prague, cz edept information management finance, national yang ming chiao tung u, hsinchu, tw fsim kee boon institute, singapore management university, singapore, sg gaci asia competitiveness institute, national university singapore, singapore, sg abstract digital assets das unique asset class presents investors opportunities risks contingent particular characteristics volatility, type, profile, factors. das, cryptocurrencies ccs emerged liquid asset class, holding distinction decade",
+    "metadata": {
+      "chunk_id": "8a5198ba1e3241bd1b08713c38032ece",
+      "entities": {
+        "location": [
+          "singapore"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 2] . das, cryptocurrencies ccs emerged liquid asset class, holding distinction decade. however, ccs offer high level liquid- ity, investors aware potential risks rewards associated investing asset class, conduct thorough evaluation making investment decisions. study examines risk profile ccs portfolio analysis, utilizing spectral risk measures srms commonly applied method. study, investigate application srms assessing risk structure cc portfolios, alignment investors risk preferences. employ srms evaluate cc index crix portfolios constructed liquid 10 ccs blockchain research center brc , optimizing different srms.our empirical findings suggest optimal portfolio allocations formu- lated meet unique risk appetites individual investors. quantlets macros, code snippets available quantlet.com instructive educational element available quantinar.com",
+    "metadata": {
+      "chunk_id": "8dc71f34682887cccc5adebe38ab74d2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 3] . quantlets macros, code snippets available quantlet.com instructive educational element available quantinar.com. keywords spectral risk measure, value-at-risk, expected shortfall, digital assets, crix, portfolio jel classification g11, g32 acknowledgements research supported dfg irtg 1792 czech science foundation s grant no. 19-28231x cas xda 23020303 yushan fellowship, tw masaryk university internal grant no. muni 1173 2022 alternative approaches portfolio theory. computational resources provided e-infra cz project id 90140 , supported ministry education, youth sports czech republic. corresponding author email address mangrou gmail.com meng-jou lu preprint submitted review quantitative finance accounting april 28, 2023 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 2 --- 1",
+    "metadata": {
+      "chunk_id": "2804a91832843ea0cba2a8b72c1696e2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 4] . introduction cryptocurrencies ccs gained prominence digital assets das liquid asset class, maintaining position nearly years trimborn h ardle, 2018 . additionally, ccs increasingly appealing asset class institutional asset managers private investors alike recent years. investors add ccs portfolios, crucial understand potential downside risks associated asset class. address need, study employs portfolio selection techniques minimize quantile-based risk measures, response rapid growth evolution cc market. focus study broad class quantile-based risk measures expressed weighted average quantiles return probability distribution. measures, known spectral risk measures srms , capable capturing value-at-risk var expected shortfall es special cases. approach based previous work acerbi 2002, 2004 , allows comprehensive evaluation risk structure investments. special case probability level var1 quantile p l profit loss employs degenerate weighting function dirac delta",
+    "metadata": {
+      "chunk_id": "ad2eeff1fd5339858ed40a0a179c8d16",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 5] . special case probability level var1 quantile p l profit loss employs degenerate weighting function dirac delta. contrast, es 1 srm uses simple step weighting function equal 1 tail quantiles 0 others. var extensively studied financial literature widely risk management tool industry wei , 2013 m ogel auer, 2018 simlai, 2021 . despite popularity, var found limitations, significant that, terminology introduced artzner 1997 , coherent measure risk general lack subadditivity m ogel auer, 2018 . worth noting particular subset risk measures satisfy axiomatic conditions necessary proper risk measure. advantage srm conveniently fits investors preferences. examples exponential power utilities, introduced dowd blake 2006 link srms investors preferences. however, models found possess certain properties pose challenges applied practical risk management",
+    "metadata": {
+      "chunk_id": "88aae463855547d7fb63f0c8cf932744",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 6] . examples exponential power utilities, introduced dowd blake 2006 link srms investors preferences. however, models found possess certain properties pose challenges applied practical risk management. despite limitations, demonstrated exponential utility func- 2 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 3 --- tion viable option certain circumstances, originally proposed b uhlmann 1980 . however, choice utility function determination corresponding risk aversion profiles depend specific asset hand. study concentrate portfolio allocation ccs, weights determined minimization srm. exploration parameters, research investigates characteristics portfolios result different parameter values. additionally, study provides overview srms examines relationship investors preferences",
+    "metadata": {
+      "chunk_id": "fc6ab2a4fbfd37f40c489732da16b760",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 7] . exploration parameters, research investigates characteristics portfolios result different parameter values. additionally, study provides overview srms examines relationship investors preferences. ensure accuracy reliability results, adopt rolling window methodology rebalancing intervals 30 days monthly basis, aligned rebalancing frequency crix index. additionally, conduct analysis longer intervals 90 days quarterly basis, shorter intervals 14 days bi-weekly basis, strengthen robustness findings. evaluate performance portfolio, utilize range out-of-sample performance metrics, including turnover , target turnover tto , cumulative wealth cw , standard deviation sd , sharpe ratio sr , calmar ratio cr . compare outcomes portfolios based measures. research paper offers main contributions existing financial litera- ture risk management. initially, propose approach determine optimal weights portfolio ccs minimizing quantile-based risk measures",
+    "metadata": {
+      "chunk_id": "5ece19a4c4f8ed31b6214e854b9afd1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 8] . research paper offers main contributions existing financial litera- ture risk management. initially, propose approach determine optimal weights portfolio ccs minimizing quantile-based risk measures. best knowledge, previously addressed published lit- erature. emphasize importance aligning chosen risk measure risk preference investor, suggest srms particularly suited purpose. srms incorporate investor s level risk aversion enable practition- ers construct portfolio allocations cater varying degrees risk aversion investors. empirical findings portfolios risk-averse investors lower associated risk compared risk-averse investors, risk lovers ex- periencing considerably higher rewards associated fung 2013 . such, optimal portfolio allocations determined suit distinctive risk appetites individual investors",
+    "metadata": {
+      "chunk_id": "1dba164349b32cf530af821efffa04f1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 9] . such, optimal portfolio allocations determined suit distinctive risk appetites individual investors. secondly, ccs established liquid asset class 3 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 4 --- das, maintaining position decade. despite high liquidity ccs provide, investors exercise caution carefully consider potential risks rewards making investment decisions. conducting comprehensive evalu- ation essential regard. thirdly, examine variations weightings cc concerning degree risk aversion portfolio. analysis indi- cates investors risk-averse, weight bitcoin dominates ccs. attributed fact standard deviation bitcoin s value comparatively lower ccs, illustrated table 2. however, power utility function risk aversion parameter 0 1 behaves differ- ently risk measures, leading questions practical usefulness. study s results offer valuable insights characteristics risk measures",
+    "metadata": {
+      "chunk_id": "568c6fa3720f88bf673c9b1512b183cd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 10] . study s results offer valuable insights characteristics risk measures. empirical evidence study summarized follows. thing, attempting estimate total value portfolios, observe, pandemic returns portfolio experiencing higher volatility reach extreme values. additionally, analyzing performance minimum exponential srm portfolios range parameters 1 25 , found portfolios parameter value k 1 representing risk-averse portfolio demonstrated higher volatility terms cumulative wealth. conversely, portfolio parameter value k 25 representing risk-averse portfolio exhibits best performance. more, power srm estimated considering situations, 0 1 1. based analysis, inferred srm values estimating situations decreases, corresponding turnover decreases. implies strategy lower turnover susceptible impact transaction costs likely achieve better performance. final remark, proceed compare portfolios selected srms section 5.1, benchmarks",
+    "metadata": {
+      "chunk_id": "efc8c36daaec33993506e7e626cb258d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 11] . implies strategy lower turnover susceptible impact transaction costs likely achieve better performance. final remark, proceed compare portfolios selected srms section 5.1, benchmarks. benchmarks include popu- lar cryptocurrency index crix , minimum variance minvar portfolio, equally weighted strategy, known naive portfolio. analysis reveals portfolio minimizes power srm parameter 0.1 outperforms portfolios significantly. paper structured follows. section 2 literature review. 4 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 5 --- section 3, discuss methodology construction optimization port- folio model. section 4, present dataset da. section 5 contains details empirical analysis. section 6 concludes. 2. literature review theory spectral risk measures, introduced acerbi 2002 , emerged captivating highly promising development field financial risk",
+    "metadata": {
+      "chunk_id": "9467804e87997b9c13141dcb64f01830",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 12] . section 6 concludes. 2. literature review theory spectral risk measures, introduced acerbi 2002 , emerged captivating highly promising development field financial risk. measures closely linked coherent risk measures proposed artzner 1997 artzner et al. 1999 . prior research primarily concentrated estimating var risk measure high confidence levels. nonetheless, var faced significant criticism risk measure failure satisfy coherence properties, particularly lack subadditivity artzner et al., 1999 acerbi, 2004 . subadditivity based intuitive idea individual risks tend diversify, least, increase combine risky positions. var fails satisfy subadditivity, result unexpected unfavorable consequences. es emerged prevalent alternative acerbi tasche, 2002 rockafellar uryasev, 2002 var. es extended class srms, e.g. sfm course. notable advantage srms ability connect risk measure risk- aversion user",
+    "metadata": {
+      "chunk_id": "5acc17b9d03e38456f97603546dcfda8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 13] . es emerged prevalent alternative acerbi tasche, 2002 rockafellar uryasev, 2002 var. es extended class srms, e.g. sfm course. notable advantage srms ability connect risk measure risk- aversion user. essentially, srm represents weighted average loss dis- tribution s quantiles, weights determined user s level risk-aversion. consequently, srms allow link risk measure user s risk preference, im- plying risk-averse user face higher level risk, factors equal, determined srm value. srms found widespread use domains, determining capital requirements achieving optimal trade- offs risk expected returns. overbeck 2004 suggests useful capital allocation, cotter dowd 2006 propose srms assist futures clearinghouses setting margin requirements align cor- porate risk preference. addition application artzner et al",
+    "metadata": {
+      "chunk_id": "fe5bc88d0c8cb27e5093dac8d01a3c60",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 14] . addition application artzner et al. 1999 original framework bank regulation, srms applied portfolio selection adam et al., 2008 brandtner, 2013 optimal insurance contracts cai et al., 2008 , 5 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 6 --- others. expanded perspective broadened scope srm application, raised new questions. adam et al. 2008 explore risk measurement portfolio optimization risk constraints risk measures, applied hedge fund asset management framework, shows robustness optimal portfo- lios choice risk measure. focus study exploring alternative srms based differ- ent underlying utility functions. specifically, study investigates exponential srms rely exponential utility function, equivalent previously studied acerbi, power srms rely power utility function",
+    "metadata": {
+      "chunk_id": "9cc942523cbb6a3f91d1762bb3984e0a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 15] . specifically, study investigates exponential srms rely exponential utility function, equivalent previously studied acerbi, power srms rely power utility function. reveal srm properties cause problems applying practical risk management, exponential utility function plau- sible circumstances weak conditions b uhlmann 1980 . relative risk aversion coefficients rra 1, dowd blake 2006 address weighting lower risk-averse higher higher risk-averse loss portfolio increases. hand, power srm proposed dowd blake 2006 relative risk aversion coefficients rra larger 1, proper features higher weight loss increase. important note choice utility function determination risk aversion parameter depend specific financial problem addressed. study, srms utilized purpose ccs portfolio asset allocation. optimal weights ccs determined minimizing srms. specifically, paper provides estimations var, es, exponential srm, power srm, ccs positions",
+    "metadata": {
+      "chunk_id": "846b0c8c18d1523b74961dd1c3a3f100",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 20] . then, setting 1 , risk spectrum figure 3 p 1 p 1. 8 plugging weighting function 1 , power srm obtained m x z 1 0 1 p 1f 1 p dp. 9 9 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 10 --- figure 3 power srm risk spectrum different 0 1 b 1 notes power srm risk spectrum 0 1 0.1, 0.3, 0.5, 0.7 0.9. power srm risk spectrum b 1 1.5, 3, 5, 10 15. case 0 1, p p 1 1 10 1 . risk spectrum written p p 1. 11 power srm 1 m x z 1 0 p 1f 1 p dp. 12 3.2. coherent risk measures srms originally designed fulfill set axioms. noteworthy state axioms translation-invariance positive homogeneity in- duce following linearity property. risk measure satisfies following properties h1 - h4 artzner et al., 1999 bellini bignozzi, 2015 coherent. h1 positive homogeneity risk measure positive homogeneous, risk portfolio scalable size defined portfolio",
+    "metadata": {
+      "chunk_id": "31a93dcd17c3b0986295ebc709b3736a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 21] . h1 positive homogeneity risk measure positive homogeneous, risk portfolio scalable size defined portfolio. x x , 0 13 10 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 11 --- h2 translation-invariance risk measure translation invariant, risk portfolio reduced exactly adding risk-free asset portfolio. x x 14 h3 monotonicity risk measure monotonic, portfolio surely generates higher return portfolio, portfolio higher return riskiness embedded it. x y, x y 15 h4 sub-additivity risk measure sub-additive, risk large portfolio comprised multiple securities larger sum risks single positions. x y x y 16 addition properties mentioned alexandre et al. 2008 list properties desired risk measures practice. h5 law- invariance risk measure law invariant, risk positions x y return loss distributions, risk measure value",
+    "metadata": {
+      "chunk_id": "1cbef7094ecac94d12c28d800adb6549",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 22] . 2008 list properties desired risk measures practice. h5 law- invariance risk measure law invariant, risk positions x y return loss distributions, risk measure value. fx fy, x y 17 h6 comonotonic additivity risk measure comonotonic additive, loss dis- tributions risk positions comonotonic, combining risk positions result diversification effects losses influenced com- mon risk factor s . x y x y 18 table 1 gives summary risk measures terms axioms. addition, worth noting value-at-risk var fulfill property subadditivity, means diversification effectively decrease risk measured var. ideal situation. following example demon- strates var violates subadditivity",
+    "metadata": {
+      "chunk_id": "21db16fad33af949ac85e9c7a56f90d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 23] . ideal situation. following example demon- strates var violates subadditivity. let x y i.i.d x, y 0, 100 , 11 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 12 --- table 1 comparison different risk measures terms 6 axioms h1 h2 h3 h4 h5 h6 var es srm discrete random variable x y following probability distribution p x 0 p y 0 p p x 100 p y 100 1 p. 19 p 0.96, 0.95, holds var x var y 0. cdf discrete random variable x analogous manner random variable y given fx 0, x 0 p, x 100 1, x 100. 20 0.95, var0.95 x var0.95 y f 1 0.95 equal zero, jump 100 p 0.96 var0.96 x var0.96 y 100. meanwhile, assume 3 states x y state 1 p x y 0 p2 21a state 2 p x y 100 2p 1 p 21b state 3 p x y 200 1 p 2. 21c cdf fx y 0, x y 0 p2, x y 100 p2 2p 1 p , x y 200 1, x y 200",
+    "metadata": {
+      "chunk_id": "dafe2df94fac2c35abc04af004230a92",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 24] . meanwhile, assume 3 states x y state 1 p x y 0 p2 21a state 2 p x y 100 2p 1 p 21b state 3 p x y 200 1 p 2. 21c cdf fx y 0, x y 0 p2, x y 100 p2 2p 1 p , x y 200 1, x y 200. 22 cdf x y jumps 0 100 p 0.9216, followed jump 200 12 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 13 --- p 0.9984. p 0.96 0.95 smaller 0.9984, var0.95 x y 100. case, following result, var x y 100 var x var y 0 0 0. 23 var fails satisfy sub-additivity property, lead unex- pected unfavourable consequences. coherent risk measures discussed intensively finance risk management, recent questions arisen coherent asset allocation kroll et al., 2021 . 3.3. portfolio selection model study examines allocation cryptocurrencies minimising risk mea- sures, i.e. var, es , exponential srm power srm. return rp portfolio given rp n x 1 wi ri, 24 ri wi return weight constituent cc i, respectively",
+    "metadata": {
+      "chunk_id": "c869750d5a38d9abd2f28cc8cc6a1e71",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 25] . var, es , exponential srm power srm. return rp portfolio given rp n x 1 wi ri, 24 ri wi return weight constituent cc i, respectively. problem consists determining weights, wi, minimising quantile risk measure given confidence level 1 p, p cumulative probability. quantile-based risk measures serve risk minimisation objectives consider different quantile-based risk measures, m rp , min m rp , 25 s.t. n x 1 wi 1, 26 n x 1 wi ri rp rexp, 27 0 wi 1, 1, , n. 28 rexp indicates required premium. case, required premium set return crix. 13 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 14 --- 3.4. performance measures results portfolios compared out-of-sample performance measures portfolio phengpis swanson, 2011 , chosen petukhina et al. 2023 turnover calculated evaluate potential trading costs associated portfolio rebalancing. measure defined following demiguel et al",
+    "metadata": {
+      "chunk_id": "03eac4fa4206b1f9d26095788b1ae00a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 26] . 2023 turnover calculated evaluate potential trading costs associated portfolio rebalancing. measure defined following demiguel et al. 2009 demiguel nogales 2009 , average sum absolute value rebal- ancing trades n assets investment universe l rebalancing months. l 1 l x l 1 n x j 1 wj,l 1 wj,l 29 w j,l 1 weight assigned asset j rebalancing period l 1 wj,l denotes weight rebalancing l 1. explain further, considers weights assigned asset rebal- ancing periods rebalancing time l. accounts price changes period, trades need executed rebalance portfolio target. high turnover results significant transaction costs. therefore, strategy lower turnover affected non-zero transaction costs performs bet- ter. market makers consider reduced turnover critical parameter decision-making process, believe buy-side investors benefit lower turnover. addition, calculate target turnover tto , following approach petukhina et al. 2021",
+    "metadata": {
+      "chunk_id": "6c79c6436a2e2b54826900b8eee1005a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 27] . addition, calculate target turnover tto , following approach petukhina et al. 2021 . tto l 1 l x l 1 n x j 1 wj,l 1 wj,l 30 wj,l weight assigned asset j rebalancing period l. measure constructed focus modifications target portfolio weights active management decisions, cleaned influence assets price dynamics. unlike previous definition turnover, target turnover measure designed value zero equally weighted ew portfolio. 14 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 15 --- cumulative wealth cw achieved benchmark strategy initial investment cw0 1 calculated follows petukhina et al. 2021 cwl 1 cwl wt l rl 1. 31 standard deviation sd , calculate standard deviation out-of-sample daily returns series. sharpe ratio sr measure risk-adjusted returns",
+    "metadata": {
+      "chunk_id": "71e0bc153863bf8fc43090a52f2728d0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 28] . 2021 cwl 1 cwl wt l rl 1. 31 standard deviation sd , calculate standard deviation out-of-sample daily returns series. sharpe ratio sr measure risk-adjusted returns. version ratio takes account difference returns associated risk measured standard deviation s d, useful performance evaluation leng noronha 2019 . sharpe ratio given s r rp s d 32 rp average out-of-sample return portfolio s d standard devia- tion. calmar ratio cr metric risk-adjusted return popular practitioners unique focus maximum drawdown instead volatility, sharpe ratio petukhina et al. 2021 . cr calculated follows cr 365 rp mdp 33 rp average out-of sample daily return multiplied 365 annualized, cryptocurrencies traded day mdp maximum drawdown. 4. data data digital assets abundant, concentrate crypto currencies, popular da today. da data found brc blockchain-research-center.com download e.g. nfts digital art pieces high frequency order books options dominant ccs. crix, known cc index found sp global",
+    "metadata": {
+      "chunk_id": "39b77ed51a9ab8e28c0ca23b4ae316ba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 29] . da data found brc blockchain-research-center.com download e.g. nfts digital art pieces high frequency order books options dominant ccs. crix, known cc index found sp global. crix 15 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 16 --- calculated laspeyre mechanism varying number constituents slick model choice procedure based modified aic technique, called ctdc. dataset consists daily values crix index beginning, i.e., march 16, 2018 march 19, 2023. data initial analysis spectral risk measures, use average daily prices liquid cryptocurrencies available brc subsequent construction portfolios. specifically, following cryptocurrencies bitcoin btc , litecoin ltc , ripple xrp , dogecoin doge , dash dash , ethereum eth , ethereum classic etc , zcash zec , bitcoin cash bch , bitcoin sv bsv",
+    "metadata": {
+      "chunk_id": "f47e086b6e6079cc710bd58d9d70b1be",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 30] . specifically, following cryptocurrencies bitcoin btc , litecoin ltc , ripple xrp , dogecoin doge , dash dash , ethereum eth , ethereum classic etc , zcash zec , bitcoin cash bch , bitcoin sv bsv . dataset cryptocurrencies 10 november 2018, data availability date selected cryptocurrencies brc 19 march 2023. cryptocurrencies selected us, btc, eth, xrp, doge crix index, currently march 2023 consists total cryptocurrencies, including cardano binance coin addition previously mentioned ones. table 2 descriptive statistics chosen crypto currencies crix mean s.d. min. median max",
+    "metadata": {
+      "chunk_id": "fedb17a0c502d412fa150034a1170c5a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 32] . table 2 presents descriptive statistics daily return series specific as- sets. majority cryptocurrencies exhibit average daily return 0.1%, doge having highest average daily return approximately 0.5%. doge 16 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 17 --- highest volatility, measured sd, followed bsv, btc crix index exhibits lowest volatility. examining figure 4, evident ccs sudden significant surge data begging year 2021. s understandable period, order minimize impact covid-19 pandemic economy, government central bank injected massive liquidity economy. however, 2021 middle 2022, cc market experi- enced increased volatility instability, likely attributed factors inflation, wars, global economic recessions. figure 4 price ccs value crix november 09, 2018 march 19, 2023 notes 5",
+    "metadata": {
+      "chunk_id": "3c7166a6fe99bb3b58e96cda87d18c8c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 36] . spectral risk minimising portfolio models section, find portfolios minimum srm based model presented section 3.3. portfolio construction, use rolling window ap- proach monthly 30-day rebalancing crix index rebalanced, extend quarterly 90-day bi-weekly 14-day rebalancing robustness results. high volatility chosen asset, cryptocurrencies, opted one-year 365-day estimation window calculate weights. compare results, chose classical approaches benchmark port- folio theory best known crypto index crix. benchmark approach naive allocation strategy equally weighted portfolio approach, which, according demiguel et al. 2009 , difficult outperform practical applications. ap- proach typically benchmark comparative analyses.the second principle chose benchmark markowitz 1952 mean-variance practically minimum-variance minvar portfolio. model basic model portfolio theory benchmark studies. results portfolios minimizing different spectral risk measures different parameters considered",
+    "metadata": {
+      "chunk_id": "d98d054712df4e1a2a7f108ee8ece166",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 37] . model basic model portfolio theory benchmark studies. results portfolios minimizing different spectral risk measures different parameters considered. specifically, value risk, expected shortfall, exponential, power srm. 5.1.1. minimum value risk expected shortfall portfolios different start analysis spectral risk measures value risk expected shortfall, defined sections 3.1.1 3.1.2. results portfolios minimizing srms rolling window 1 month 30days seen figure 6 table 3. robustness check produce rolling window 14days 90days, results find appendix a.1 appendix a.2. figure 6 evolution cumulative wealth minimum es var portfolios different parameter, specifically values 1%, 5% 10%. look evolution cumulative wealth portfolios figure 6 portfolios minimum var 1% aspect similar evolution. given portfolio reaches extreme values volatile",
+    "metadata": {
+      "chunk_id": "c8ffd7a9e83c066c0d36ad36aeb43582",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 41] . 1% var portfolio selected because, significantly outperformed portfolios based 30 day rolling window results, results robust reviewing results appendix a.1 appendix a.2. portfolio minimizing var 5% achieved second best sr. es portfolio 5% achieved second lowest tto, achieved highest cw, sr cr minimum es portfolios. 5.1.2. minimum exponential spectral risk measure portfolios different k spectral risk measure constructed portfolios exponential. exponential spectral risk measure defined section 3.1.3. outcomes portfolios minimize exponential srm rolling window 1 month 30 days found figure 7 table 4. figure 7 displays performance minimum exponential srm portfolios different parameters , 1, 5, 10, 15, 20 25, showing cumulative wealth evolution. robustness check, generate results rolling windows 14 days 90 days, presented appendix a.3 appendix a.4, respectively. figure 7, observe portfolios perform similarly, portfolio parameter k 1, performs volatile",
+    "metadata": {
+      "chunk_id": "132af938381d11e803992d6b53fee22b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 42] . figure 7, observe portfolios perform similarly, portfolio parameter k 1, performs volatile. interestingly, terms cumulative wealth, portfolios parameter k 1, definition risk averse, portfolio k 25, contrast risk averse, perform best. similar results found rebalancing, 14 days figure a.3 90 days figure a.4 exception, minimizing exponential srm portfolio k 1 dominate strongly 14-day rolling window look results 90-day rolling window, portfolio two, indicating volatile stable 22 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 23 --- figure 7 minimum exponential spectral risk measure portfolios different k notes minimum exponential srms portfolio k 1, k 5, k 10, k 15, k 20 k 25 10 liquid cc brc monthly 30 days rebalancing",
+    "metadata": {
+      "chunk_id": "e230744ac6617ab7d8844e5c0684848c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 43] . table 4 performance minimum exponential srm portfolios tto cw sd sr cr exp k 1 18.6888 19.3862 5.7374 0.0526 0.0513 1.1784 exp k 5 12.9574 12.1562 3.6903 0.0389 0.0476 0.8425 exp k 10 5.8037 5.1116 3.7737 0.0398 0.0476 0.9011 exp k 15 5.1046 4.3240 3.9872 0.0408 0.0482 0.9331 exp k 20 4.5224 3.7088 4.1032 0.0423 0.0482 0.9644 exp k 25 4.6920 3.8173 4.4551 0.0435 0.0492 1.0133 notes out-of-sample performance measures minimum exponential srm portfolios 10 liquid cc brc monthly 30 days rebalancing turnover , target turnover tto , cumulative wealth cw , standard deviation sd , sharpe ratio sr , calmar ratio cr . table 4, assess effectiveness portfolio examining vari- ous metrics turnover , target turnover tto , cumulative wealth cw , standard deviation sd , sharpe ratio sr calmar ratio cr . according ta- ble 4, inverse relationship k tto, increase parameter k leads decrease tto. additionally, increase k typically results increase cw, exception case k 1",
+    "metadata": {
+      "chunk_id": "5327445d5efebd5ff4fa98451618da42",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 44] . according ta- ble 4, inverse relationship k tto, increase parameter k leads decrease tto. additionally, increase k typically results increase cw, exception case k 1. mea- 23 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 24 --- suring risk sd, results parameters k similar, portfolio k 1. interestingly, portfolio exponential srm pa- rameter k 1 showed best sr cr, higher values k generally led increase ratio, case k 1. based results figure 7 table 4, select portfolio minimising ex- ponential srm portfolio parameter k 25 final comparison section 5.1.5. decision select particular portfolio based factors. firstly, cumulative wealth portfolio found second highest, portfolio parameter k 1 stable appendix a.3 appendix a.4. additionally, exponential srm portfolio parameter k 25 demonstrated risk based sd, exhibited favorable tto. 5.1.3",
+    "metadata": {
+      "chunk_id": "8fb80f2e70efc9538bfafcbc574f32c5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 45] . additionally, exponential srm portfolio parameter k 25 demonstrated risk based sd, exhibited favorable tto. 5.1.3. minimum power spectral risk measure portfolios different 0 1 section 3.1.4, introduced power spectral risk measure. section, present results constructing portfolios minimize risk measure. specifi- cally, consider power spectral risk measure use rolling window approach 30 days 1 month minimum power spectral risk portfolios computed previous 365 days 1 year data. report results table 5 dis- play cumulative wealth evolution figure 8 values parameter 0 1 0.1, 0.3, 0.5, 0.7, 0.9 . robustness check, computed results rolling windows 14 days 90 days, found appendix a.5 appendix a.6, respectively. figure 8 observe portfolios evolve similarly one, case portfolio parameter 0.1. further, observe figure parameter increases, cumulative wealth decreases",
+    "metadata": {
+      "chunk_id": "1d684850fc4deced178d765214cdcab7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 52] . re- garding risk measurement, observe sd similar level case 1.5. finally, analyze sr cr, observe value generally decreases parameter increases, case 1.5. 27 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 28 --- based results table 6, appendix a.7 appendix a.8 select portfolio minimizes power spectral risk measure parameter final comparison section 4.5. portfolio achieved best results tto, cw, sr, fell portfolio parameter 0.003 sd. 5.1.5. comparison best minimum srm portfolios benchmark portfolios previous sections, compared portfolios minimising srm var, es, exponential, power different parameters find properties portfo- lios varying parameters. compare portfolios different srms selected sections 5.1.1 5.1.4 bench- marks, well-known cryptocurrency index crix, minimum variance minvar portfolio, equally weighted strategy, referred naive portfolio",
+    "metadata": {
+      "chunk_id": "3af660f2b90ec4ee00ff626700769f69",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 55] . table 7 provides evaluation effectiveness portfolio index crix based multiple metrics, including turnover , target turnover tto , cumulative wealth cw , standard deviation sd , sharpe ratio sr calmar ra- tio cr . table 7, terms don t calculate crix , convenient invest portfolio minimizes exponential srm k 25. criteria, minimum var portfolio 5% performed worst immediately followed minimum power srm portfolio 0.1, however, portfolios achieved best performance terms cw. terms risk measured sd, portfolios similar level ex- cept minimum power srm 0.1, value multiple times higher portfolios, minvar portfolio performed best ex- pected. examining risk-return ratios, specifically sr cr, observed minimum power srm portfolio parameter value 0.1 outperforms portfolios significantly cr, followed minimum var port- folio significance level 5% naive portfolio",
+    "metadata": {
+      "chunk_id": "a7fa2803f17f0bc540c1fd416f17beda",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 56] . terms sr, best 29 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 30 --- ratio crix minimum variance. summary, results figure 10 table 7 indicate portfolio mini- mizing power srm parameter 0.1 performs significantly better portfolios terms cw risk-return ratios. however, portfolio exhibits sig- nificantly higher volatility compared portfolios, higher to, potentially lower overall performance portfolio. 5.1.6. comparison weight allocations ccs minimizing different srms additionally, study examines optimal weight variation ccs minimiz- ing different srms. specifically, report portfolio weights minimized variance, value risk var confidence level 5%, exponential srms k 5 k 25, power srms 0.1, 0.5, 10, 15. op- timal weight distributions risk measures presented figures b.1-b.8 appendix b",
+    "metadata": {
+      "chunk_id": "969cdd9fccc10723d923424890b440ef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 57] . op- timal weight distributions risk measures presented figures b.1-b.8 appendix b. look figures b.1-b.8, weights different portfolios, portfolios invest smaller number assets, exception, var minimizing portfolio. figure b.2 shows allocation ccs differs period period optimizing minimum var 5%. interest- ingly, suggests particular portfolio perform extreme exhibit greater volatility weight changes. investors invest portfolio dif- ferent ccs table 7 comes cost higher transactions costs, measured tto. portfolio shown figure b.4 designed investors risk- averse, measured exponential srm k 25, compared figure b.3. weight bitcoin portfolio increases 2021 risk- averse investors seek assets lower risk. data 2021 indicates ccs volatile, observe figure 4. table 2 reveals bitcoin lower standard deviation cc assets, making comparatively stable asset market. furthermore, investors risk- averse, weight bitcoin portfolios increases, demonstrated figures b.7 b.8",
+    "metadata": {
+      "chunk_id": "029e4b2d1b1457a688b0b859f80d2573",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 58] . furthermore, investors risk- averse, weight bitcoin portfolios increases, demonstrated figures b.7 b.8. figure b.5 b.6, observe power utility function behaves 30 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 31 --- differently risk measures, leading distinct outcomes. according power weighting function, higher risk aversion results weight placed lower losses weight higher losses dowd et al., 2008 . contradicts intuition leads questions practical usefulness srms, par- ticularly based power utility functions 0 1, argued dowd blake 2006 .the key takeaway study utilizing spectral risk measures exercise caution choose utility functions match specific characteristics problem addressing. particular, power srms, users especially careful. nevertheless, findings provide valuable insights properties risk measures. 6",
+    "metadata": {
+      "chunk_id": "72b9792b8f5ddf1c0d901445a5f3ceb2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 59] . particular, power srms, users especially careful. nevertheless, findings provide valuable insights properties risk measures. 6. conclusion sum up, cryptocurrencies highly attractive investment opportu- nity, come inherent risks need evaluated making investment decisions. study focuses cryptocurrency portfolio selection tech- niques minimize quantile risk measures, specifically srms, capable capturing var es special cases. provide introduction srms, explores links investors preferences, compute srms cryptocurrency portfolios. overall, investors need conduct thorough evaluations risks rewards associated investing cryptocurrencies making investment decisions. study presents parsimonious intuitive measure practition- ers, resulting weights ccs representation risk profile different level risk-averse investors. results portfolios compared out-of-sample performance mea- sures turnover, target turnover, cumulative wealth, standard deviation, sharpe ratio calmar ratio",
+    "metadata": {
+      "chunk_id": "eddf5224ec26722e0307e15fc8701e09",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 60] . results portfolios compared out-of-sample performance mea- sures turnover, target turnover, cumulative wealth, standard deviation, sharpe ratio calmar ratio. data digital assets, particularly cryptocurrencies, abun- dant, dataset study includes crix index liquid cryptocurrencies available brc. use rolling window approach monthly, quarterly, bi-weekly rebalancing construction portfolio. study highlights high volatility cryptocurrencies, ne- 31 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 32 --- cessitates need effective risk measures better manage digital asset allocation. primary areas analysis expanded. area concerns optimizing portfolio srm order consider values parameters. extension provide greater insights performance investment strategies relation different parameters. second area involves ex- panding performance measures evaluate investment strategies",
+    "metadata": {
+      "chunk_id": "b8389221f22f628c7b796c93631e18e6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 61] . extension provide greater insights performance investment strategies relation different parameters. second area involves ex- panding performance measures evaluate investment strategies. ap- proach lead comprehensive assessment effectiveness investment strategies. area entails including additional portfolio-allocation strategies comparison. extension provide detailed understand- ing strengths weaknesses portfolio-allocation strategies. area constrain maximum weight asset portfolio avoid allocating weights asset shown section 5.1.6. references acerbi, c., 2002. spectral measures risk coherent representation subjective risk aversion. journal banking finance 26, 1505 1518. url https doi. org 10.1016 s0378-4266 02 00281-9. acerbi, c., 2003. risk aversion coherent risk measures spectral representa- tion theorem. risk aversion coherent risk measures spectral representation theorem , 1000 1019. acerbi, c., 2004. coherent representations subjective risk-aversion",
+    "metadata": {
+      "chunk_id": "9c803be61f6d48503d984938d3e41faf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 66] . journal finance 7, 77 91. m ogel, b., auer, b.r., 2018. accurate modern value-at-risk estimators derived extreme value theory? review quantitative finance accounting 50, 979 1030. overbeck, l., 2004. spectral capital allocation. capital . petukhina, a., klochkov, y., h ardle, w.k., zhivotovskiy, n., 2023. robustify- ing markowitz. journal econometrics url https doi.org 10.1016 j. jeconom.2022.12.006. petukhina, a., trimborn, s., h ardle, w.k., elendner, h., 2021. investing cryp- tocurrencies - evaluating potential portfolio allocation strategies. journal risk financial management 14, 1 27. url https doi.org 10.1080 14697688.2021.1880023. 34 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 35 --- phengpis, c., swanson, p.e., 2011. optimization, cointegration diversification gains international portfolios out-of-sample analysis. review quantita- tive finance accounting 36, 269 286",
+    "metadata": {
+      "chunk_id": "315fd521ae8f244481fe2c13d34fc5b1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  },
+  {
+    "text": "[Section 67] . optimization, cointegration diversification gains international portfolios out-of-sample analysis. review quantita- tive finance accounting 36, 269 286. rockafellar, r.t., uryasev, s., 2002. conditional value-at-risk general loss distri- butions. journal banking finance 26, 1443 1471. url https doi.org 10.1016 s0378-4266 02 00271-6. simlai, p., 2021. accrual mispricing, value-at-risk, expected stock returns. review quantitative finance accounting 57, 1487 1517. trimborn, s., h ardle, w.k., 2018. crix index cryptocurrencies. journal empirical finance 49, 107 122. url https doi.org 10.1016 j.jempfin. 2018.08.004. wei , g.n., 2013. copula-garch versus dynamic conditional correlation empiri- cal study var es forecasting accuracy. review quantitative finance accounting 41, 179 202. 35 electronic copy available https ssrn.com abstract 4414080 -------------------------------------------------------------------------------- --- page 36 --- appendix a. robustness check appendix a.1",
+    "metadata": {
+      "chunk_id": "f1d19a03569e5b9e3d39d8ac7cc7f866",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "ssrn-4414080_processed.txt"
+    }
+  }
+]

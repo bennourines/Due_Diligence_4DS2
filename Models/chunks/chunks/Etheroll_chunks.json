@@ -1,0 +1,587 @@
+[
+  {
+    "text": "[Section 1] b etheroll dice game whitepaper draft version 1 2 note document constitute prospectus sort intend misrepresent sale sort initial public offering share equity offering token sale involve exchange crypto currencies form ordinary shares etheroll dice token purchaser receive form dividend guaranteed crowdfund accept fiat currency x0cetheroll whitepaper etheroll ethereum based dice gambling dapp enables individuals place bets result 100 sided dice roll user deposits sign ups ether xe2 x80 x93 2nd popular cryptocurrency world players choose odds unique ui payouts instant game code built entirely ethereum blockchain allows level transparency accountability traditional online casinos simply provide table contents 1 abstract provably fair b market opportunity 2 solution 3 attributes 4 vision 5 dice token 6 dice conversion schedule 7 use funds 8 security 9 platform design ui ux b architecture 10 timeline 11 disclaimer draft february 2017 x0cetheroll whitepaper abstract etheroll provably fair",
+    "metadata": {
+      "chunk_id": "77cb7a5e60ce9ae728db70b0ebd5edb0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 2] token 6 dice conversion schedule 7 use funds 8 security 9 platform design ui ux b architecture 10 timeline 11 disclaimer draft february 2017 x0cetheroll whitepaper abstract etheroll provably fair ethereum based dice gaming dapp allows individuals place bets units ether etheroll dice game following characteristics transparent source code b players set odds c deposits d sign ups e immediate payouts f competitively low 1% house edge g intuitive web based user interface ii bet house holding dice tokens 100% profit etheroll earns allocated token holders profit distributed token holders proportional number tokens hold dice token holders enjoy exposure bet platform advantage house edge favour law large numbers token holders return profit house edge 1% means consistent 1% expected value ev token holders provably fair random number generation uses open source blockchain based oraclize provablyhonest oracle service retrieve integer safely outside blockchain integer supplied random org tlsnotary",
+    "metadata": {
+      "chunk_id": "b339f85286c1461e3ee317d52c4618b8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exposure"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 3] provably fair random number generation uses open source blockchain based oraclize provablyhonest oracle service retrieve integer safely outside blockchain integer supplied random org tlsnotary etheroll smart contract performs sha3 encryption result returned random org ipfs address tlsnotary proof achieve final dice result currently safest way etheroll generate random numbers method ensures potential attacking miners 3rd parties control final value final dice result etheroll continue develop random number generation etheroll currently following method retrieving random number results dice game receiving valid bet playerrolldice uint rollunder function smartcontract queries oraclize partially encrypted nested query partially encrypted nested query ensures api key etheroll uses random org remains safe whilst publicly exposing random number request range ensure players etheroll smart contract behaving honestly x0cetheroll whitepaper protect etheroll api key oraclize utilizes elliptic",
+    "metadata": {
+      "chunk_id": "ea9f33e722feba3df6c50ddc9fe52396",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 4] remains safe whilst publicly exposing random number request range ensure players etheroll smart contract behaving honestly x0cetheroll whitepaper protect etheroll api key oraclize utilizes elliptic curve integrated encryption scheme composed following algorithms 1 elliptic curve diffie hellman key exchange ecdh uses secp256k1 curve ansi x9 63 sha256 key derivation function algorithm derive shared secret oraclize public key sender private key 2 shared secret aes 256 galois counter mode gcm authenticated symmetric cipher encrypt query authentication tag 16bytes length nonce chosen xe2 x80 x98000000000000 xe2 x80 x99 96 bits length safe shared secret different encrypted query oraclize returns concatenation encoded point e public key senders authentication tag encrypted text decrypted query delivered random org turn supplies json response includes integer ranging 1 100 following solidity code query bytes32 rngid oraclize query nested url json https api random org json rpc 1 invoke result",
+    "metadata": {
+      "chunk_id": "125ef4c8998813ee32b4ee68fdaf016f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 6] api key uses atmospheric noise provide etheroll api key truly random integer atmospheric noise caused natural atmospheric processes primarily lightning discharges thunderstorms worldwide scale 3 5 million lightning flashes occur daily 40 lightning flashes second sum lightning flashes results atmospheric noise observed radio receiver form combination white noise impulse noise ipfs stored tlsnotary proof transaction proves oraclize alter results random org service proof string exactly ipfs multi hash identifies tlsnotary proof players fetch proof wish example http ipfs io ipfs proof x0cetheroll whitepaper time etheroll smart contract receives json response random number function callback bytes32 myid string result bytes proof integer result sha3 chain produce final dice result following algorithm ensures dice result provably fair players let r random value returned random org oraclize let p ipfs address pagesigner tlsnotary proof content following solidity code example produce provably",
+    "metadata": {
+      "chunk_id": "a74db786955703e71d47de7fe7712468",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 7] ensures dice result provably fair players let r random value returned random org oraclize let p ipfs address pagesigner tlsnotary proof content following solidity code example produce provably fair random number bounded l u inclusive 1 100 guaranteed evenly distributed range values finalresult uint sha3 r p % 100 1 smart contract calculates value integer finalresult original integer submitted player stored playernumber mapping player address following mapping bytes32 uint playernumber function playerrolldice uint rollunder playernumber rngid rollunder finalresult lower playernumber submitted player player wins point smart contract calculates required payout pays bets instantly whilst engraving properties bet ethereum blockchain event tamper proof history bets opportunity market size online gambling industry 2016 estimated $45 billion usd impressive numbers online gambling consist entirely cryptocurrency gambling let xe2 x80 x99s closer look current cryptocurrency gambling market focus",
+    "metadata": {
+      "chunk_id": "50f76eb5f886c308b1efa568a893c011",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 8] gambling industry 2016 estimated $45 billion usd impressive numbers online gambling consist entirely cryptocurrency gambling let xe2 x80 x99s closer look current cryptocurrency gambling market focus attention bitcoin gambling market use guide future potential market gambling world xe2 x80 x99s 2nd popular cryptocurrency ether ii iii iv bitcoin currently market cap $14 billion usd 1 estimated 50 60% bitcoin transactions relate online gambling 2 past year bitcoin alt coin casino revenue 3 173 833 btc profit 15 173 6 btc period 20 83 billion bets placed bitcoin casinos 3 bitcoin currently largest cryptocurrency market cap represents largest share cryptocurrency gambling market satoshidice launched x0cetheroll whitepaper bitcoin based dice game 2012 currently enjoys lion share bitcoin dice game market 134 374 bitcoin wagered year following table illustrates reported revenue popular bitcoin casinos 2016 4 v vi casino bets wagered primedice 11 25 billion 1 222 914 btc bustabit 205 35",
+    "metadata": {
+      "chunk_id": "c77e496fcd557c4f665a9a6f990187fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 9] game market 134 374 bitcoin wagered year following table illustrates reported revenue popular bitcoin casinos 2016 4 v vi casino bets wagered primedice 11 25 billion 1 222 914 btc bustabit 205 35 million 606 083 btc betking 321 06 million 256 431 btc satoshidice 456 94 million 134 374 btc betterbets 375 69 million 64 461 btc bitdice 32 17 million 168 726 btc current market cap ethereum $965 million ethereum released mid 2015 early 2016 2nd largest cryptocurrency market cap cryptocurrency seen tremendous growth short time 5 ethereum disruptive technology looks change way world business ether native token ethereum reasonably new crypto currency market having launched july 2015 rise ether gargantuan short time predicting market cap eventually outnumber bitcoin $14 billion ethereum market cap currently $965 million ethereum market cap grew extremely quickly programmable ability run smart contracts auditable code blockchain world banks large accountant firms including big business",
+    "metadata": {
+      "chunk_id": "00e5266b8d9dc712621d17957db7ac2b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 10] cap currently $965 million ethereum market cap grew extremely quickly programmable ability run smart contracts auditable code blockchain world banks large accountant firms including big business solutions application developers looking leverage network reduce cost business bitcoin unable offer hardening efforts protocol core development team 2016 suggest extremely positive healthy outlook ethereum protocol future ethereum protocol underlying ether token looking extremely positive taking staggering growth ethereum market cap $965 million account numbers related bitcoin gambling etheroll proposes tremendous opportunity arising traditional style dice game ported ethereum protocol platform requires experienced honest reliable operators proven track record intuitive web based interface adjustable odds zero deposits zero sign ups x0cetheroll whitepaper immediate payouts team committed innovation game fastpaced environment ethereum solution etheroll service provides provably fair transparent",
+    "metadata": {
+      "chunk_id": "61e2b27a14cb1278fe726cb9a428b8e4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 11] odds zero deposits zero sign ups x0cetheroll whitepaper immediate payouts team committed innovation game fastpaced environment ethereum solution etheroll service provides provably fair transparent web based ethereum dice gambling xc3 x90app decentralized application etheroll game code decentralized immutable players 100% confident etheroll behaves provably fair manner thanks nature ethereum protocol smart contract layer runs entirely ethereum blockchain auditable transparent verifiable provably fair etheroll accepts wagers players form ether unique web based interface decentralized immutable nature smart contract layer ensures players bet units ether 100% confidence funds held 3rd party subject risk hacks theft misconduct etheroll smart contract decentralized nature ethereum protocol ensures smart contract immutable available possibility downtime ddos attacks hosting issues government forms intended interruption service players assured etheroll dice game behaves intended thanks",
+    "metadata": {
+      "chunk_id": "fdf5d0e892914fd6766e88ac4ac40a84",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": [
+          "downtime"
+        ]
+      },
+      "risk_score": 20.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 12] ensures smart contract immutable available possibility downtime ddos attacks hosting issues government forms intended interruption service players assured etheroll dice game behaves intended thanks opensource nature smart contracts verifiable public attributes provably fair result random number provably fair thanks following formula let r random value returned random org oraclize let p ipfs address pagesigner tlsnotary proof content following code produce provably fair random number bounded l u inclusive guaranteed evenly distributed range values finalresult uint sha3 r p % 100 1 ii players set odds players power choice set odds dice roll characteristic allows players adjust dice roll suit individual risk profile turn increasing overall enjoyment user experience etheroll dice game inspiration type game play drawn xe2 x80 x98satoshidice style xe2 x80 x99 dice gambling real dice gambling experience ethereum network iii web based web3 js interface x0cetheroll whitepaper friendly",
+    "metadata": {
+      "chunk_id": "9b7c78daa435a73a58f096989a0a0170",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "downtime"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 13] inspiration type game play drawn xe2 x80 x98satoshidice style xe2 x80 x99 dice gambling real dice gambling experience ethereum network iii web based web3 js interface x0cetheroll whitepaper friendly intuitive web3 js web based user interface makes easy users place bets interact ethereum blockchain user centric design development practices ensure etheroll easiest dice game interact ethereum protocol intuitive user interface built player mind employs responsive css framework extra flexibility maximum usage wide variety web based clients truly dice gambling ethereum network way imagined iv low house edge etheroll house edge currently set 1% house edge adjustable suit market remain competitive house edge calculated deducted instance win example player places bet size 1 ether 50 50 odds player rewarded total profit 0 98 ether commission etheroll receives event loss calculated accordingly betsize chanceofloss chanceofwin betsize houseedgeaspercent example player placing bet 1 ether 50 50",
+    "metadata": {
+      "chunk_id": "4fdc5a734f1d09fc80d1c325172ca556",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 14] rewarded total profit 0 98 ether commission etheroll receives event loss calculated accordingly betsize chanceofloss chanceofwin betsize houseedgeaspercent example player placing bet 1 ether 50 50 odds 1% house edge etheroll loses bet 1 50 50 1 0 01 v 0 02 ether commission trusted experienced team etheroll early pioneers ethereum dice gambling space real world experience working ethereum february 2016 june 2016 etheroll middle original crowdfund 15 successful crypto currency crowdfunds time dao hack took place 48 hours later interests valued token holders volition suspended crowdfund refunded $50k raised days crowdfund open whilst susceptible attack vector dao decided simplest absolute safest option refund ether run crowdfund later date june 2016 etheroll researched coded implemented coded security oriented programming sop techniques solidity hired independent 3rd party security auditors piper merriam independent consensys audit ethereum smart contracts proud announce recently",
+    "metadata": {
+      "chunk_id": "09bd35a1ca56d30672400d6209213b21",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": [
+          "suspended"
+        ]
+      },
+      "risk_score": 20.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 15] coded security oriented programming sop techniques solidity hired independent 3rd party security auditors piper merriam independent consensys audit ethereum smart contracts proud announce recently received xe2 x80 x98pass xe2 x80 x99 security audit core game crowdfund contracts etheroll xe2 x80 x99s recent history proves experience honesty technical know x0cetheroll whitepaper accomplish goals proven recent crowdfund xe2 x80 x98success xe2 x80 x99 june 2016 etheroll considers postponed crowdfund june 2016 tremendous success successfully refunding 100% ether 48 hours dao hack valued token holders pleased speed honesty transparency actions trust earnt cryptocurrency community earnt trust ethereum community past year 6 vi house solidity programmers solidity smart contract code etheroll written house means etheroll extremely nimble adapt quickly changing ethereum environment low cost need set aside budget waste precious time pursuing trusted experienced competent programmers open",
+    "metadata": {
+      "chunk_id": "da0e88bb56f0cdf961b6b70171cda5ae",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 16] written house means etheroll extremely nimble adapt quickly changing ethereum environment low cost need set aside budget waste precious time pursuing trusted experienced competent programmers open innovation continue improve quality overall experience dice game faster processing times improved rng areas focus moving forward vii deposits sign ups traditional online casinos retain player deposits wins withdraw request player usually withdraw requests time days expose traditional online casino models prime target hackers malicious employees opportunity steal player funds thanks nature ethereum blockchain design patterns chosen etheroll smart contract require players sign account deposit ether play etheroll accept ether players time place bets significantly reduces risk profile etheroll compared traditional online casino model viii open source verifiable etheroll source code open source verifiable players dice token holders alike free verify game says unique set characteristics allows",
+    "metadata": {
+      "chunk_id": "90907408b769896e09e88138526637e1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 17] traditional online casino model viii open source verifiable etheroll source code open source verifiable players dice token holders alike free verify game says unique set characteristics allows environment keeps etheroll honest levels playing field online gambling space players house ix cryptographically secure properties values bet engraved blockchain tamperproof manner provides irrefutable proof history bets time players review bet history 100% confidence room tampering corruption betting results etheroll thanks nature ethereum protocol bets submitted etheroll cryptographically secure nature transcribed blockchain point time players x0cetheroll whitepaper ability review details bets x true xe2 x80 x98dice gameplay xe2 x80 x99 dice gambling far popular game cryptocurrency gambling ability players choose odds integral dice games makes traditional dice game popular unique web based ui empowers player allowing set odds xi 1 seo thanks expertise seo etheroll ranks extremely highly organic",
+    "metadata": {
+      "chunk_id": "dac26f2e43dbd58ea165986a371a0f5f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 18] players choose odds integral dice games makes traditional dice game popular unique web based ui empowers player allowing set odds xi 1 seo thanks expertise seo etheroll ranks extremely highly organic google search results term xe2 x80 x9cethereum dice xe2 x80 x9d xe2 x80 x9cethereum gambling xe2 x80 x9d xe2 x80 x9cethereum casino xe2 x80 x9d continue growth area vision future data existing bitcoin online gambling sites tell interesting story satoshidice existing bitcoin game runs bitcoin blockchain insight potential future market size gambling ethereum protocol xe2 x80 x9cresponsible 50% daily network volume bitcoin blockchain satoshidice reported year earnings wagering impressive xe0 xb8 xbf33 310 $13 740 000 year players bet total xe0 xb8 xbf1 787 470 2 349 882 individual bets average monthly growth rate 78% earnings calculated months data covering december 2012 xe2 x80 x9d 7 etheroll play significant role future gambling online ethereum thanks following characteristics platform ii",
+    "metadata": {
+      "chunk_id": "97a0c4ee12fae34db12f16c8193719f3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 19] growth rate 78% earnings calculated months data covering december 2012 xe2 x80 x9d 7 etheroll play significant role future gambling online ethereum thanks following characteristics platform ii iii iv v vi vii players choose odds deposits sign ups web interface easy intuitive players place bets designed ground appeal wide audience xe2 x80 x98satoshidice style betting xe2 x80 x99 etheroll ethereum dice game truly offer similar experience ethereum protocol early mover advantage xe2 x80 x93 network effect low house edge 1% house edge lowest ethereum nimble house development team quick react development advances ethereum focus includes advances rng bet processing times honest experienced team ethereum 2nd largest crypto currency market cap $965 million believe ethereum market cap eventually equal higher bitcoin envision explosive growth future ether ether dice gambling etheroll smart contract development phase 100% complete scheduled launch x0cetheroll whitepaper march 2017 6 month goal",
+    "metadata": {
+      "chunk_id": "ae8cb57889b8d746dacf7eb10b64bd73",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 20] equal higher bitcoin envision explosive growth future ether ether dice gambling etheroll smart contract development phase 100% complete scheduled launch x0cetheroll whitepaper march 2017 6 month goal gain 60% market share current online gambling marketplace ethereum blockchain world domination dice token dice dice token ethereum erc20 standard token additional custom functionality purposes etheroll ecosystem dice token minted event strictly limited 14 day token creation phase dice token grants owner following rights following characteristics direct earnings xe2 x80 x93 proportional number tokens hold token holders collective receive 100% ether generated game ether generated game players losing bets built 1% house edge tokens holders exposed bet processed platform advantage 1% house edge favour fully transferable p2p xe2 x80 x93 dice token fully exchangeable p2p available trade exchanges voting rights xe2 x80 x93 dice token enables holders vote proposals set forth etheroll team example",
+    "metadata": {
+      "chunk_id": "878e9b1f42cd32558055f9b9f21ebd1f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 21] fully transferable p2p xe2 x80 x93 dice token fully exchangeable p2p available trade exchanges voting rights xe2 x80 x93 dice token enables holders vote proposals set forth etheroll team example lowering raising house edge adding new game suite conversion schedule dice token strictly limited supply minted token creation phase total 14 days total 25 000 000 dice tokens offer mintage dice tokens start date token creation phase begins 10 00 utc february 13th 2017 duration 14 days week 1 200 dice rol tokens 1 eth xce x9e week 2 100 dice rol tokens 1 eth xce x9e total supply 25 000 000 crowdfund address 0x805129c7144688224c122c924e3855d5b4fa01d8 founding team pre allocated 2 5m tokens tokens remain unsold token creation phase destroyed rule possibility dilution number tokens remaining destruction unsold tokens final mintage tokens created use funds x0cetheroll whitepaper ii 80% ether raised crowdfund house bankroll pay winning bets token holders collective receive 100% profits house",
+    "metadata": {
+      "chunk_id": "4c34e3f1a655bfed136686c6b853a781",
+      "entities": {
+        "email": [],
+        "crypto_address": [
+          "0x"
+        ]
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 22] unsold tokens final mintage tokens created use funds x0cetheroll whitepaper ii 80% ether raised crowdfund house bankroll pay winning bets token holders collective receive 100% profits house bankroll generates 20% ether raised crowdfund period sent etheroll continue funding development platform security smart contracts subject 3rd party security audits conducted piper merriam independent consensys smart contract deploy main net subject following internal security protocol internal live automated truffle testing phases 3rd party security audit phase contracts deployed house private chains ropsten testnet live testing internal live testing satisfied contracts deployed main net deploy smart contract signed 3rd party independent security audit signed 3rd party independent security audits available perusal entire suite smart contracts platform design ui ux players able place bets change odds dice game directly website mist browser intuitive ui find video demonstration ui ux youtube com",
+    "metadata": {
+      "chunk_id": "37bca8a184bdfc268f6d7dec18368357",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 23] perusal entire suite smart contracts platform design ui ux players able place bets change odds dice game directly website mist browser intuitive ui find video demonstration ui ux youtube com watch v 8moxzowd39m prefer experience load etheroll com mist browser available follow instructions xe2 x80 x9chow play xe2 x80 x9d tab alternatively use google chrome extension metamask place bets x0cetheroll whitepaper screenshot ui note slider left allows players adjust odds architecture overview structure etheroll application comprised 4 smart contracts handling different aspect platform etheroll employs modular approach design smart contract architecture ensure integrity safety ecosystem example game contract function crowdfunding period crowdfund contract interact day day game play following outlines core functionality contract current development status game contract status completed security audit available yes responsible accepting processing bets playerrolldice uint rollunder function",
+    "metadata": {
+      "chunk_id": "8c95e598867bb3da1a218a6d04c8e086",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 24] core functionality contract current development status game contract status completed security audit available yes responsible accepting processing bets playerrolldice uint rollunder function smart contract player interacts contract manages things like house edge minimum bet maximum bet random number generation calculation payouts calculation refunds crowdfund contract status completed security audit available yes responsible accepting ether crowdfunding period end crowdfund period 80% ether raised moved contract multi sig x0cetheroll whitepaper wallet contract ether sent game contract actual game play funding goal reached ether raised available withdraw token holder safewithdraw function token contract status completed security audit available yes responsible distributing tokens crowdfunding period tracking token balance address contract allows token transfers place exchanges reward payout periods locks token security purposes etheroll token contract standard erc 20 token added",
+    "metadata": {
+      "chunk_id": "33d08ec3b3b4f9910119f8dabc501113",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 25] period tracking token balance address contract allows token transfers place exchanges reward payout periods locks token security purposes etheroll token contract standard erc 20 token added functionality use token etheroll ecosystem dice token tradeable 13 weeks start crowdfund campaign rewards contract status work progress security audit available tbc responsible calculating ether rewards available withdraw token holder xe2 x80 x99s address token holders special rights interact rewards contract 12 weeks profit accumulated game sent contract contract enables token holders withdraw ether rewards proportional dice token ownership 5 days 12 weeks token holder withdraw rewards 5 day reward period rewards phase forfeit 100% profit game contract generates distributed token holders proportional ownership dice tokens timeline 2016 development game code website xe2 x80 x93 complete november 2016 house game testing ongoing january 2017 security audit game code xe2 x80 x93 complete december 2016",
+    "metadata": {
+      "chunk_id": "001f69c74e5569b784cb787d81c00e69",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 26] dice tokens timeline 2016 development game code website xe2 x80 x93 complete november 2016 house game testing ongoing january 2017 security audit game code xe2 x80 x93 complete december 2016 development crowdfund code xe2 x80 x93 complete january 2017 announcement white paper release complete january 2017 security audit crowdfund code xe2 x80 x93 complete january 2017 crowdfund public awareness xe2 x80 x93 ongoing february 2017 crowdfund opens xe2 x80 x93 february 13th 2017 february 2017 crowdfund closes xe2 x80 x93 february 27th 2017 2017 dice token listed exchanges 2017 continued marketing research development new games random number generation techniques continue improvement growth core offering disclaimer risks associated etheroll dice token x0cetheroll whitepaper dice rol cryptographic token represent % ownership initial etheroll bankroll owners dice eligible receive rewards form ether based performance bankroll owners dice exposed wins losses dice crypto currency time writing",
+    "metadata": {
+      "chunk_id": "91f18ea85ed4f443f5230594badc9305",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 27] token represent % ownership initial etheroll bankroll owners dice eligible receive rewards form ether based performance bankroll owners dice exposed wins losses dice crypto currency time writing dice exchanged goods services ii known uses outside etheroll platform iii currently traded known exchanges dice investment guarantee dice purchase increase value provide return dice evidence ownership right control controlling dice grant controller ownership equity etheroll platform dice necessarily grant right participate control direction decision making etheroll platform risk losing access dice loss credentials purchaser xe2 x80 x99s dice accessed login credentials selected purchaser loss credentials result loss dice best practices dictate purchasers safely store credentials backup locations geographically separated working location risk losing ether lucky players risk variance gambling house bankroll bankrupted token holders lose initial investment risks associated ethereum protocol dice",
+    "metadata": {
+      "chunk_id": "a4e68b1ef265dfba9d24268b13f323ee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 28] separated working location risk losing ether lucky players risk variance gambling house bankroll bankrupted token holders lose initial investment risks associated ethereum protocol dice etheroll platform based ethereum protocol malfunction unintended function unexpected functioning ethereum protocol cause etheroll platform dice malfunction function unexpected unintended manner ether native unit account ethereum protocol lose value risk unfavorable regulatory action jurisdictions blockchain technologies subject scrutiny regulatory bodies world functioning etheroll platform dice impacted regulatory inquiries actions including limited restrictions use possession x0cetheroll whitepaper digital tokens like dice impede limit development etheroll platform risk competition following token sale development initial version etheroll platform possible alternative ethereum gambling platforms established utilize open source code open source protocol underlying etheroll platform etheroll platform",
+    "metadata": {
+      "chunk_id": "e4d3cf9172a196c9d3688af09bdc6d28",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 29] development initial version etheroll platform possible alternative ethereum gambling platforms established utilize open source code open source protocol underlying etheroll platform etheroll platform compete alternative platforms potentially negatively impact performance etheroll platform dice risk insufficient interest etheroll distributed applications possible etheroll platform large numbers individuals limited public interest creation development distributed applications lack interest impact development etheroll platform potential uses value dice risk etheroll platform developed meet expectations token holder etheroll platform presently development undergo significant changes release expectations form functionality dice etheroll platform held purchaser met release number reasons including change design implementation plans execution etheroll platform risk theft hacking hackers groups organizations attempt interfere etheroll platform availability dice number ways including",
+    "metadata": {
+      "chunk_id": "45a09aa472eeb0ed2a90fa84742810b8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 30] including change design implementation plans execution etheroll platform risk theft hacking hackers groups organizations attempt interfere etheroll platform availability dice number ways including limitation denial service attacks sybil attacks spoofing smurfing malware attacks consensus based attacks risk security weaknesses etheroll platform etheroll platform consists software based open source software risk etheroll team parties intentionally unintentionally introduce weaknesses bugs core infrastructural elements etheroll platform interfering use causing loss dice eth risk weaknesses exploitable breakthroughs field cryptography advances cryptography technical advances development quantum computers present risks crypto currencies etheroll platform result theft loss dice eth x0cetheroll whitepaper risk lack adoption use etheroll platform dice viewed investment return value time value limited etheroll platform lacks use adoption case profits draw loss initial investment risk",
+    "metadata": {
+      "chunk_id": "4255b86d76aee224d58790785dec1295",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug",
+          "exploit",
+          "hack",
+          "malware"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 44.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 31] whitepaper risk lack adoption use etheroll platform dice viewed investment return value time value limited etheroll platform lacks use adoption case profits draw loss initial investment risk unfavorable fluctuation ethereum value etheroll team intends use proceeds dice token sale 20% fund development etheroll platform proceeds dice token sale denominated ethereum value ethereum fluctuates unfavorably token sale etheroll team able fund development able develop platform manner intended promised risk malfunction etheroll platform possible etheroll platform malfunctions unfavorable way including limited results loss dice eth unanticipated risks crypto currency relatively new untested technology addition risks set forth risks etheroll team anticipate risks materialize unanticipated combinations variations risks set forth references 1 source https blockchain info charts market cap 2 source http lsvp com 2013 08 23 half bitcoin transactions online3 4 5 6 7 gambling source https",
+    "metadata": {
+      "chunk_id": "5dedebe4806f57c16dd7f8482d856785",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  },
+  {
+    "text": "[Section 32] combinations variations risks set forth references 1 source https blockchain info charts market cap 2 source http lsvp com 2013 08 23 half bitcoin transactions online3 4 5 6 7 gambling source https thebitcoinstrip com stats 2015 01 02 2016 12 25 source https thebitcoinstrip com stats 2015 01 02 2016 12 25 source https coinmarketcap com source https www reddit com r etheroll comments 4ooyod crowdsale closed eth refu nded source http www forbes com sites jonmatonis 2013 01 22 bitcoin casinos release 2012earnings 8039cf650cb2 x0c",
+    "metadata": {
+      "chunk_id": "44ac24d7b5879a6f32bac8b5ad5f3b04",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Etheroll.txt"
+    }
+  }
+]

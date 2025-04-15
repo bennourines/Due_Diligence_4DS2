@@ -1,0 +1,807 @@
+[
+  {
+    "text": "[Section 1] b technical whitepaper harmony team version 2 0 x0c1 introduction publication bitcoin whitepaper 2008 concept blockchain spread world decentralized money applications publicized ideas design limitations challenged core aspiration bitcoin original bitcoin blockchain designed peer peer payment system 13 allows people transfer value intermediaries like banks payment processors bitcoin gained popularity performance bottleneck evident limited throughput 7 transactions second tps cost payment system prohibitively expensive 2014 buterin et al 27 proposed new blockchain infrastructure called ethereum enabled developers create kinds blockchain applications xe2 x80 x9csmart contracts xe2 x80 x9d ethereum didn xe2 x80 x99t solve scalability problem 15 tps failed support high throughput applications gaming decentralized exchanges given ethereum bitcoin xe2 x80 x99s performance limitations blockchain projects proposed solutions 3 4 5 6 7 8 9 10 24 25 attempt increase transaction throughput",
+    "metadata": {
+      "chunk_id": "50730ba8a6c0468cc12c0171b4a98196",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 2] gaming decentralized exchanges given ethereum bitcoin xe2 x80 x99s performance limitations blockchain projects proposed solutions 3 4 5 6 7 8 9 10 24 25 attempt increase transaction throughput blockchains 3 4 5 6 24 25 proposed replace proof work pow consensus proof stake pos consensus blockchains like eos use delegated proof stake dpos block proposers elected voting chain algorithmic process projects like iota replaced chain blocks data structure dag directed acyclic graph data structure breaks limitation sequential processing transactions proposed solutions significant performance gains sacrificing critical aspects security decentralization scalability solution preserves security decentralization sharding creates multiple groups e shards validators lets process transactions concurrently result total transaction throughput increases linearly number shards grows zilliqa 12 public blockchain proposed address scalability problem sharding zilliqa s sharding approach falls short ways",
+    "metadata": {
+      "chunk_id": "b1a22aac01a3a3d6edba58a692738b1d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 3] result total transaction throughput increases linearly number shards grows zilliqa 12 public blockchain proposed address scalability problem sharding zilliqa s sharding approach falls short ways divide storage blockchain data state sharding prevents machines limited resources participating network curtailing decentralization second zilliqa xe2 x80 x99s sharding process susceptible single shard takeover attack reliance pow randomness generation mechanism introduce harmony generation sharding based blockchain fully scalable provably secure energy efficient harmony addresses problems existing blockchains combining best research results engineering practice optimally tuned system specifically harmony makes breakthroughs following aspects xe2 x97 x8f fully scalable harmony shards network communication transaction validation like zilliqa shards blockchain state makes harmony fully scalable blockchain 1 x0c xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f secure sharding harmony",
+    "metadata": {
+      "chunk_id": "f7da443774779ea72838af359a561935",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 4] transaction validation like zilliqa shards blockchain state makes harmony fully scalable blockchain 1 x0c xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f secure sharding harmony xe2 x80 x99s sharding process provably secure thanks distributed randomness generation drg process unpredictable unbiaseable verifiable scalable harmony reshards network non interruptive manner prevent slowly adaptive byzantine adversaries efficient fast consensus unlike sharding based blockchains require pow select validators harmony based pos energy efficient consensus reached linearly scalable bft algorithm xe2 x80 x99s 100 times faster pbft adaptive thresholded pos xe2 x80 x8bthe threshold stakes required node join network adjusted based volume total staking way malicious stakers concentrate power single shard threshold low small stakers participate network earn rewards scalable networking infrastructure raptorq fountain code harmony propagate blocks quickly shards network adaptive information",
+    "metadata": {
+      "chunk_id": "0d3638cb5732e01f5df00a4e017663bd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 5] single shard threshold low small stakers participate network earn rewards scalable networking infrastructure raptorq fountain code harmony propagate blocks quickly shards network adaptive information dispersal algorithm harmony adopts kademlia routing 37 achieve cross shard transactions scale logarithmically number shards consistent cross shard transactions xe2 x80 x8bharmony supports cross shard transactions shards directly communicating atomic locking mechanism ensure consistency cross shard transactions innovating protocol network layers harmony provides world scalable secure blockchain system able support emerging decentralized economy harmony enable applications previously feasible blockchain including high volume decentralized exchanges interactive fair games visa scale payment systems internet things transactions harmony strives scale trust billions people create radically fair economy 2 consensus mechanism consensus protocol key component blockchain determines securely quickly",
+    "metadata": {
+      "chunk_id": "59e1c84357778212572825aab668713b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 6] internet things transactions harmony strives scale trust billions people create radically fair economy 2 consensus mechanism consensus protocol key component blockchain determines securely quickly blockchain validators1 reach consensus block blockchain consensus protocol powers bitcoin proof work pow consensus pow process miners race find solution cryptographic puzzle xe2 x80 x94the winner gets right propose block earns token rewards pow xe2 x80 x99s security assumption 50% hashing power controlled honest nodes assumption rule consensus longest chain canonical pow consensus called chain based consensus xe2 x80 x8b type consensus protocol researched decades academia called pbft practical byzantine fault tolerance 14 pbft node elected xe2 x80 x9cleader xe2 x80 x9d rest nodes xe2 x80 x9cvalidators xe2 x80 x9d round pbft consensus 1 machines support blockchain network validating transactions reaching consensus 2 x0cinvolves major phases prepare phase commit phase prepare phase leader",
+    "metadata": {
+      "chunk_id": "bbd5092764b53e8bd32eeb28f49266ba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 7] xe2 x80 x9d round pbft consensus 1 machines support blockchain network validating transactions reaching consensus 2 x0cinvolves major phases prepare phase commit phase prepare phase leader broadcasts proposal validators turn broadcast votes proposal reason rebroadcasting validators votes validator need counted validators prepare phase finishes 2f 1 consistent votes seen f number malicious validators total number validators plus leader 3f 1 commit phase involves similar vote counting process consensus reached 2f 1 consistent votes seen rebroadcasting votes validators pbft o n 2 communication complexity scalable blockchain system hundreds thousands nodes improvement pbft 14 harmony xe2 x80 x99s consensus protocol linearly scalable terms communication complexity fast byzantine fault tolerance fbft fbft instead asking validators broadcast votes leader runs multi signature signing process collect validators xe2 x80 x99 votes o 1 sized multi signature broadcast instead receiving o n",
+    "metadata": {
+      "chunk_id": "5a203e6b5d6130846a5a8082570efa00",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 9] xc2 xa76 2 fountain code broadcasting technique avoids security issue byzcoin xe2 x80 x99s original tree based multicasting design 16 17 figure 1 network communication single round consensus specifically harmony xe2 x80 x99s fbft consensus involves following steps 3 x0c1 leader constructs new block broadcasts block header validators leader broadcasts content block erasure coding details discussed xc2 xa76 2 called xe2 x80 x9cannounce xe2 x80 x9d phase 2 validators check validity block header sign block header bls signature send signature leader 3 leader waits 2f 1 valid signatures validators including leader aggregates bls multi signature leader broadcasts aggregated multi signature bitmap indicating validators signed step 2 concludes xe2 x80 x9cprepare xe2 x80 x9d phase pbft 4 validators check multi signature 2f 1 signers verify transactions block content broadcasted leader step 1 sign received message step 3 send leader 5 leader waits 2f 1 valid signatures different signers step 3",
+    "metadata": {
+      "chunk_id": "7bd3862e1c680cce2ea3da7c56341a71",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 10] check multi signature 2f 1 signers verify transactions block content broadcasted leader step 1 sign received message step 3 send leader 5 leader waits 2f 1 valid signatures different signers step 3 step 4 aggregates bls multi signature creates bitmap logging signers finally leader commits new block multi signatures bitmaps attached broadcasts new block validators commit step 4 concludes xe2 x80 x9ccommit xe2 x80 x9d phase pbft validators harmony xe2 x80 x99s consensus elected based proof stake actual protocol differs slightly described sense validator voting shares votes signature vote instead waiting 2f 1 signatures validators leader waits signatures validators collectively possess 2f 1 voting shares details proof stake election mechanism discussed xc2 xa73 3 3 sharding blockchain sharding scalability solution gained lots attention late 2017 sharding solutions proposed industry academia industry zilliqa 12 sharding based public blockchain claimed throughput 2 800 tps zilliqa uses pow",
+    "metadata": {
+      "chunk_id": "23230903e39df914136adbc8d0a49c6a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 11] scalability solution gained lots attention late 2017 sharding solutions proposed industry academia industry zilliqa 12 sharding based public blockchain claimed throughput 2 800 tps zilliqa uses pow identity registration process e sybil attack 1 prevention zilliqa xe2 x80 x99s network contains single directory service committee multiple shard committee e network sharding xe2 x80 x8b containing hundreds nodes transactions assigned different shards processed separately e xe2 x80 x8btransaction sharding xe2 x80 x8b resulting blocks shards collected merged directory service committee zilliqa xe2 x80 x8bstate sharding solution node hold entire blockchain state able process transactions academia publications like omniledger 8 rapidchain 7 proposed solutions feature xe2 x80 x8bstate sharding shard holds subset blockchain state omniledger employs multi party computation scheme called randhound 25 generate secure random number randomly assign nodes shards omniledger assumes xe2 x80 x8bslowly 4",
+    "metadata": {
+      "chunk_id": "607a79aedb8bd5f2c75613288406ef85",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 12] holds subset blockchain state omniledger employs multi party computation scheme called randhound 25 generate secure random number randomly assign nodes shards omniledger assumes xe2 x80 x8bslowly 4 x0cadaptive xe2 x80 x8bcorruption model attackers corrupt growing portion nodes shard time security model single shard corrupted eventually omniledger prevents corruption shards reshuffling nodes shards fixed time interval called epoch xe2 x80 x8b rapidchain builds omniledger proposes use xe2 x80 x8bbounded cuckoo rule xe2 x80 x8b reshuffle nodes interruptions 19 harmony draws inspiration previous solutions 7 8 12 designs pos based sharding scheme xe2 x80 x99s linearly scalable provably secure harmony contains beacon chain multiple shard chains beacon chain serves randomness beacon identity register shard chains store separate blockchain states process transactions concurrently harmony proposes efficient algorithm randomness generation combining verifiable random function vrf verifiable",
+    "metadata": {
+      "chunk_id": "c902604af0c73b59b6e5240bfb455dda",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 13] register shard chains store separate blockchain states process transactions concurrently harmony proposes efficient algorithm randomness generation combining verifiable random function vrf verifiable delay function vdf harmony incorporates pos sharding process shifts security consideration shard minimum number nodes 7 8 12 minimum number voting shares 3 1 distributed randomness generation background approaches proposed assign nodes shards randomness based sharding 7 8 location based sharding 34 centrally controlled sharding 35 approaches randomness based sharding recognized secure solution randomness based sharding mutually agreed random number determine sharding assignment node random number following properties 1 unpredictable able predict random number generated 2 unbiaseable process generating random number biasable participant 3 verifiable validity generated random number verifiable observer 4 scalable algorithm randomness generation scale large number participants omniledger 8",
+    "metadata": {
+      "chunk_id": "f932c0c759917fb91a0173e9c7182c84",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 14] generating random number biasable participant 3 verifiable validity generated random number verifiable observer 4 scalable algorithm randomness generation scale large number participants omniledger 8 uses randhound 25 protocol leader driven distributed randomness generation drg process involves pvss publicly verifiable secret sharing byzantine agreement randhound o n c2 protocol divides participant nodes multiple groups size c achieves properties impractically slow qualify scalable rapidchain 7 takes simpler approach letting participant perform vss verifiable secret sharing 22 combined secret shares resulting randomness unfortunately protocol secure malicious nodes send inconsistent shares different nodes 25 rapidchain describe nodes reach consensus multiple possible versions reconstructed randomness 5 x0cin addition algorand 18 relies vrf based verifiable random function cryptographic sortition select group consensus validators ethereum 2 0 design proposes use vdf verifiable delay",
+    "metadata": {
+      "chunk_id": "f0467bb12e84088e359c60c6762e03d5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 15] randomness 5 x0cin addition algorand 18 relies vrf based verifiable random function cryptographic sortition select group consensus validators ethereum 2 0 design proposes use vdf verifiable delay function 20 delay revelation actual random number prevent revealer attack 36 vdf newly invented cryptographic primitive takes adjustable minimum time compute result verified immediately scalable randomness generation vrf vdf harmony xe2 x80 x99s approach combines strengths solutions harmony xe2 x80 x99s drg protocol complexity o n practice order magnitude faster randhound second unlike rapidchain xe2 x80 x99s simple vss based approach unbiasable verifiable compared ethereum 2 0 xe2 x80 x99s solution approach uses bft consensus provide finality random number specifically protocol includes following steps 1 leader sends xe2 x80 x8binit xe2 x80 x8b message hash block h b n xe2 x88 x921 validators 2 validator receiving xe2 x80 x8binit message vrf computed create random number ri proof pi ri pi v",
+    "metadata": {
+      "chunk_id": "e19eb9613d291cb318eb5d6fb423653d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 16] steps 1 leader sends xe2 x80 x8binit xe2 x80 x8b message hash block h b n xe2 x88 x921 validators 2 validator receiving xe2 x80 x8binit message vrf computed create random number ri proof pi ri pi v rf sk h b n xe2 x88 x921 v sk secret key validator v current view number consensus validator sends ri pi leader 3 leader waits receives f 1 valid random numbers combines x operation preimage final randomness prnd 4 leader runs bft discussed xc2 xa72 validators reach consensus prnd commit block b n 5 prnd committed leader starts computing actual randomness rnd v df prnd t t vdf difficulty set algorithmically randomness computed k blocks 6 rnd computed leader initiates bft validators agree validity rnd finally commit randomness blockchain figure 2 vdf verifiable delay function delays revelation final randomness vdf provably delay revelation rnd prevent malicious leader biasing randomness cherry picking subset vrf random numbers 6 x0cvdf leader won xe2 x80 x99t able know actual final",
+    "metadata": {
+      "chunk_id": "66b79271bc69bd3d7c237acf3a1b6168",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 17] final randomness vdf provably delay revelation rnd prevent malicious leader biasing randomness cherry picking subset vrf random numbers 6 x0cvdf leader won xe2 x80 x99t able know actual final randomness prnd committed blockchain time rnd computed vdf prnd committed previous block leader manipulate anymore best malicious leader blindly commit randomness prnd stall protocol committing prnd honest behavior won xe2 x80 x99t cause damage timeout mechanism pbft 14 switch leader restart protocol assume long run existence asics compute vdfs altruistic nodes running asic application specific integrated circuit publish result game system possible vdf asics production attacker faster computing device calculate result honest nodes happens attacker know randomness slightly honest nodes principle attacker advantage e g withdrawing fund bet smart contract unfavorable problem mitigated smart contract layer proper delay waiting period randomness committed protocol fund withdrawal possible 3 2 epochs",
+    "metadata": {
+      "chunk_id": "67fc7f351bb1a420988bc8737316a603",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 18] advantage e g withdrawing fund bet smart contract unfavorable problem mitigated smart contract layer proper delay waiting period randomness committed protocol fund withdrawal possible 3 2 epochs harmony consensus sharding process orchestrated concept epochs epoch predetermined time interval e g 24 hours sharding structure fixed shard continuously runs consensus set validators beginning epoch random number generated drg protocol described xc2 xa73 1 sharding structure determined based randomness validators want validate transactions epoch e need stake tokens epoch e xe2 x88 x92 1 cutoff time staking randomness preimage prnd committed blockchain 3 3 staking based sharding validator registration sybil attack 1 prevention key security consideration public blockchains bitcoin ethereum require miners compute cryptographic puzzle pow propose block similarly sharding based blockchains like zilliqa 12 quarkchain 11 use pow prevent sybil attacks harmony adopts different approach proof stake pos",
+    "metadata": {
+      "chunk_id": "1f897e63dd84d246c04b85b827998190",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 19] compute cryptographic puzzle pow propose block similarly sharding based blockchains like zilliqa 12 quarkchain 11 use pow prevent sybil attacks harmony adopts different approach proof stake pos validator registration sybil attack prevention mechanism order harmony validator prospective participants stakers stake certain tokens eligible number tokens staked determine number voting shares assigned validator voting share corresponds vote bft consensus discussed xc2 xa72 7 x0csharding voting shares figure 3 stakers obtain voting shares proportional staked tokens voting shares randomly assigned shards stakers validators shard s voting shares assigned voting share virtual ticket allows validator cast vote consensus validators acquire voting shares staking tokens tokens required voting share algorithmically adjusted beginning epoch new validators xe2 x80 x99 voting shares randomly assigned shards new validators join shard s voting shares assigned discussed xc2 xa72 consensus shard reached",
+    "metadata": {
+      "chunk_id": "fe42f727be32358b15d90ca15f3e89ea",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 22] follow protocol fear stake slashed incentive mechanism discussed xc2 xa77 addition likely possess powerful machines fast stable network adaptive thresholded pos price voting share set algorithmically xe2 x80 x99s small malicious stakers concentrate voting power single shard specifically set price voting share p vote tokens p vote t s e xe2 x88 x921 n umshard xce xbb xce xbb security parameter n umshard number shards t s e xe2 x88 x921 total tokens staked epoch e xe2 x88 x92 1 prove xce xbb 600 chance single shard having 1 3 malicious voting shares e probability failure negligible given definition p vote total number voting shares n t s e xe2 x88 x921 p vote n umshard xce xbb given trustable randomness source discussed xc2 xa73 1 sharding process based randomness probability distribution number malicious voting shares shard modeled hypergeometric distribution e random sampling replacement n total number voting shares k shares n n n umshard n 4 maximum number malicious voting number",
+    "metadata": {
+      "chunk_id": "5e34b25eb23f52c6ff8ad90ce9cab768",
+      "entities": {
+        "crypto_project": [
+          "tokens p"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 23] number malicious voting shares shard modeled hypergeometric distribution e random sampling replacement n total number voting shares k shares n n n umshard n 4 maximum number malicious voting number voting shares shard k number malicious voting shares shard actual failure rate shard p x xe2 x89 xa4 k follows cumulative hypergeometric distribution c df hg n k n k n large degrades binomial distribution e random sampling replacement 9 x0cwe n large probability shard contains 1 3 tokens held malicious entities negligible fact n 600 probability shard contains 1 3 malicious voting shares p x xe2 x89 xa4 200 0 999997 translates shard failure e consensus reached rate xe2 x80 x9conce 1000 years xe2 x80 x9d given epoch interval 24 hours set xce xbb 600 guarantee high security shards intuitively xce xbb governs minimum number voting shares single shard contain functionally similar minimum number nodes shard described pow based sharding solutions 7 8 12 approach resistant fluctuation number",
+    "metadata": {
+      "chunk_id": "6c868e0ff291516d7a57fb367555eccf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 25] subset nodes time epoch 7 8 3 fully adaptive attackers corrupt subset nodes instantaneously time 18 harmony assumes slowly adaptive corruption model attacker corrupt constant number nodes takes certain time omniledger 8 assumes corruption model prevents attack replacing validators shards epoch approach major problems high cost bootstrapping epoch second security concern nodes replaced consensus harmony mitigates problems adopting cuckoo rule based resharding mechanism 7 19 end epoch validators withdrew stake evicted network stakes stay new validators staked epoch new voting shares voting shares randomly assigned shards median total voting shares constant number voting shares shards randomly distributed half shards median total voting shares xe2 x80 x99s proven 7 resharding scheme voting shares shards balanced fulfilling security requirement 10 x0c3 5 fast state synchronization figure 4 block epoch contains hash link block epoch allows fast state synchronization new nodes rely blocks",
+    "metadata": {
+      "chunk_id": "83161e1ec4b65c3da170ae26cd3a3a9f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 26] shares shards balanced fulfilling security requirement 10 x0c3 5 fast state synchronization figure 4 block epoch contains hash link block epoch allows fast state synchronization new nodes rely blocks grey quickly verify current state validators join new shard need quickly synchronize current state shard order validate new transactions traditional procedure downloading blockchain history reconstructing current state slow resharding possible takes days fully synchronize ethereum blockchain history fortunately current state orders magnitude smaller blockchain history downloading current state time window epoch feasible compared downloading history harmony new validators joining shard download current state trie shard start validating transactions quickly ensure current state downloaded valid new node needs proper verification instead downloading blockchain history replaying transactions validate current state new node downloads historical block headers validates headers checking",
+    "metadata": {
+      "chunk_id": "e54c75d88706135272292ad36887d1da",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 27] valid new node needs proper verification instead downloading blockchain history replaying transactions validate current state new node downloads historical block headers validates headers checking signatures long cryptographic trace e g hash pointers signatures current state genesis block state valid nonetheless signature verification computationally free takes significant time verify signatures starting genesis block mitigate problem block epoch include additional hash pointer block epoch way new node jump blocks epoch tracing hash pointers genesis block significantly speed verification current blockchain state optimize state synchronization process blockchain state small possible observation ethereum blockchain state lot accounts wasting precious space blockchain state ethereum accounts specific nonce deleted potential replay attacks old transactions submitted deleted account 32 harmony adopt different model avoiding replay attacks letting transactions specify hash current block",
+    "metadata": {
+      "chunk_id": "cd9cdf517b9a054c4bbe7e326729c3f9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 28] specific nonce deleted potential replay attacks old transactions submitted deleted account 32 harmony adopt different model avoiding replay attacks letting transactions specify hash current block transaction valid certain number e g 100 blocks following block specified hash way old accounts safely deleted blockchain state kept slim 11 x0c4 shard chain beacon chain 4 1 shard chain shard chain blockchain processes validates transactions stores state shard processes transactions relevant shard chain relatively independent communicate shard chains cross shard communication cross shard communication cross shard communication key component sharding based blockchain cross shard capability breaks barrier shards extends utility single shard overall categories cross shard communication 1 main chain driven projects like zilliqa 12 rely main chain achieve transactions shards 2 client driven omniledger 8 proposed client driven cross shard transaction mechanism messages shards collected sent shards",
+    "metadata": {
+      "chunk_id": "6a27cdfad614d94f8bb6c5909fb8bcf3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 29] driven projects like zilliqa 12 rely main chain achieve transactions shards 2 client driven omniledger 8 proposed client driven cross shard transaction mechanism messages shards collected sent shards clients adds extra burden client desirable adhoc light client 3 shard driven rapidchain 7 proposed messages shards directly sent nodes shard external help harmony adopts shard driven approach simplicity absence burden clients believe benefits shard driven communication outweighs drawbacks cost overall network shard driven communication considerable cross shard message network level broadcast incurs o n network cost solve problem harmony uses kademlia routing protocol reduce communication complexity o log n addition data communicated encoded erasure code ensure robustness cross shard communication details discussed xc2 xa76 4 2 beacon chain harmony beacon chain special blockchain serves additional purposes compared shard chains effect beacon chain shard processing transactions like shard",
+    "metadata": {
+      "chunk_id": "69eebfbd1bbec5cc31c3541d4b18a36e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 30] details discussed xc2 xa76 4 2 beacon chain harmony beacon chain special blockchain serves additional purposes compared shard chains effect beacon chain shard processing transactions like shard chains beacon chain charge additional key functionalities generating random number discussed xc2 xa73 1 accepting stakes means beacon chain chain stakers deposit tokens validators 12 x0cthe validators beacon chain determined similarly shard chains sharding assignment voting shares randomly divided n umshard b buckets extra b buckets beacon chain hash link shard chain figure 5 hash link beacon chain block shard chain block beacon chain helps strengthen security consistency shard chains xe2 x80 x99 states including block header shard chain specifically new block committed shard chain block header sent kademlia based inter shard communication beacon chain beacon chain checks validity block header 1 hash previous block committed beacon chain 2 signers block xe2 x80 x99s multi signature correct",
+    "metadata": {
+      "chunk_id": "4792978ae90ae264ed3917232a95f568",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 31] sent kademlia based inter shard communication beacon chain beacon chain checks validity block header 1 hash previous block committed beacon chain 2 signers block xe2 x80 x99s multi signature correct validators shard committed block headers beacon chain broadcasted network shard chain valid block headers shards check validity transactions shards e simple payment verification adding shard chains xe2 x80 x99 block headers beacon chain serves main purposes 1 increases difficulty attacking single shard attackers corrupt shard chain beacon chain order convince alternative block shard chain valid 2 reduce network cost broadcasting block headers shards o n 2 network communication let shard broadcast headers separately beacon chain central relay complexity reduced o n 13 x0c5 blockchain state sharding unlike state sharding blockchains 7 8 adopted utxo unspent transaction output data model harmony xe2 x80 x99s state sharding applied account based data model shard chain contains account state",
+    "metadata": {
+      "chunk_id": "a2dc0bf6edd74b9d48103daf9deadd7c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 32] unlike state sharding blockchains 7 8 adopted utxo unspent transaction output data model harmony xe2 x80 x99s state sharding applied account based data model shard chain contains account state tokens existence spread shard treat user account smart contract account differently sharding user account multiple balances different shards e g 100 tokens shard 50 tokens shard b user account balance shards issuing cross shard transaction smart contract account limited specific shard contract created decentralized application requires throughput single shard handle dapp decentralized application developer instantiate multiple instances smart contract different shards let instance handle subset incoming traffic note different instances smart contract share state talk cross shard communication 6 networking previous research 33 pointed network capacity major bottlenecks blockchain systems order increase performance harmony focuses improving efficiency network utilization harmony proposes number",
+    "metadata": {
+      "chunk_id": "b6e706c32eea4f48b1012c4ebf09be88",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 33] previous research 33 pointed network capacity major bottlenecks blockchain systems order increase performance harmony focuses improving efficiency network utilization harmony proposes number improvements deal real world networking scenarios 6 1 kademlia based routing inspired rapidchain 7 adopt kademlia 37 routing mechanism cross shard messages node harmony xe2 x80 x99s network maintains routing table contains nodes different shards distance shards defined xor distance shard ids message shard needs sent shard b nodes shard look routing table send message nodes closest shard id kademlia based routing message travels o logn nodes reaches destination shard compared normal gossip broadcasting requires o n network complexity kademlia routing mechanism significantly reduce overall network load sharded blockchain 14 x0c6 2 efficient broadcasting erasure code figure 6 comparison normal gossip broadcast gossip broadcast erasure code broadcast frequent network action blockchain system built p2p",
+    "metadata": {
+      "chunk_id": "0f66c82a4ed090a5055d720e6d6a1ac6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 34] blockchain 14 x0c6 2 efficient broadcasting erasure code figure 6 comparison normal gossip broadcast gossip broadcast erasure code broadcast frequent network action blockchain system built p2p peer peer network overlay specifically consensus protocol scenarios broadcasting needed 1 newly proposed block needs broadcasted leader validators 2 newly generated master chain block needs broadcasted network 3 cross shard communication requires broadcast message shards normal p2p broadcasting original sender needs send copy message neighbors incur o d m network load sender d average number neighbors sender m message size instead harmony sender encodes message erasure code send chunks encoded message neighbor reduces load sender o m e e size erasure code usually smaller size original message m harmony xe2 x80 x99s network broadcasting mechanism significantly lowers network load broadcast sender addition harmony proposes improve ida xe2 x80 x99s robustness replacing original reed solomon erasure",
+    "metadata": {
+      "chunk_id": "963c1b9e9d27b264915edea147e57cd7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 35] xe2 x80 x99s network broadcasting mechanism significantly lowers network load broadcast sender addition harmony proposes improve ida xe2 x80 x99s robustness replacing original reed solomon erasure code raptorq fountain code broadcaster send erasure codes ensure data eventually received 6 3 fec based unicast traditional reliable transports tcp 42 relies retransmission ack based signaling order deal lost packets known introduce latency spikes proportional round trip time sender receiver window based congestion control xe2 x80 x94such reno newreno cubic use tcp implementations xe2 x80 x94are 15 x0cadditive increase multiplicative decrease aimd algorithms bandwidth known severely impacted transient packet losses harmony uses raptorq fountain code combat problems message encoded symbols symbols sent wire receiver acknowledges successful decoding message symbols received unlike fixed rate codes reed xe2 x80 x93solomon transmission fails symbols exhausted fountain code enables infinite time",
+    "metadata": {
+      "chunk_id": "2ebe9fbbcf8e052d2b1648c42e419a41",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 36] sent wire receiver acknowledges successful decoding message symbols received unlike fixed rate codes reed xe2 x80 x93solomon transmission fails symbols exhausted fountain code enables infinite time generation use encoding symbols 6 4 support home nodes p2p nodes typical residential network pose major distinctively unique problem reached outside mediated residential internet router employs technique called network address translation nat support inbound traffic routers vary different approaches developed work different types routers particular routers implementing symmetric nat easily worked explicitly configured support hole punching mechanisms internet gateway device protocol igdp harmony xe2 x80 x99s p2p layer tries detect nat mechanism node operates employs right workaround mechanism stun turn igdp etc particular harmony implements overall detection mitigation protocol named ice interactive connectivity establishment 6 5 support locator mobility nodes change ip addresses type nodes",
+    "metadata": {
+      "chunk_id": "fa3bba5fa8a73793d426bca2507464c5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 37] turn igdp etc particular harmony implements overall detection mitigation protocol named ice interactive connectivity establishment 6 5 support locator mobility nodes change ip addresses type nodes example laptop frequently hop different wi fi networks ip address changing time ip address node changes existing transport connections use ip address local remote endpoint interrupted applications directly transport connections need establish connections new ip address order continue connection handover hard implement correctly minimal application layer service interruption handling connection handover complicates application layer protocols base consensus protocols harmony xe2 x80 x99s network layer order solve problem introduces clean separation node identity cryptographic key pair possessed node node locators network transport layer locator node reached industry standard host identity protocol version 2 hipv2 hipv2 lets locators node change time keeping node identity providing mechanisms",
+    "metadata": {
+      "chunk_id": "3118ae9f30f80c9088e758cce4d56048",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 38] node locators network transport layer locator node reached industry standard host identity protocol version 2 hipv2 hipv2 lets locators node change time keeping node identity providing mechanisms locator discovery node node security association tunneling upper layer traffic associated local remote node identity endpoints 16 x0c7 incentive model 7 1 consensus rewards successful commitment block protocol defined number new tokens rewarded validators signed block proportion voting shares transactions fees rewarded validators similarly 7 2 stake slashing misbehaviors detected network certain staked tokens slashed example leader failed finish consensus process triggered leader change process p vote staked tokens slashed validators proven sign dishonest block stake shard slashed severe punishment meant strongly discourage dishonest behavior network secure possible proof misbehavior signed blocks conflict validator submit transaction prove misbehavior validator verified slashed token",
+    "metadata": {
+      "chunk_id": "70e3b089beb1e02c79054daaf3604c1a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 39] meant strongly discourage dishonest behavior network secure possible proof misbehavior signed blocks conflict validator submit transaction prove misbehavior validator verified slashed token rewarded prover s 7 3 stake withdrawal long range attacks proof stake blockchains unlike proof work blockchains tend suffer xe2 x80 x8blong range attacks xe2 x80 x8b attacks leverage fact proofs based signatures resource intensive tasks long range attack private keys honest validators stolen long attacker able create forked blockchain signing fake blocks keys happens new validators joining network way distinguish original legitimate chain attacker xe2 x80 x99s simulated chain long range attacks happen following scenarios private key compromised lack security validators commonly fact validator withdraw token financially benefits attacker looking buy private key design set validators trusted approve block transactions determines set validators private key e collectively hold 32 voting shares shard",
+    "metadata": {
+      "chunk_id": "dac550780dfedd717adab7273d2ff8c4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 40] token financially benefits attacker looking buy private key design set validators trusted approve block transactions determines set validators private key e collectively hold 32 voting shares shard compromised attacker total control subsequent validators 17 x0clong range defense resonant quorums proof work blockchain protects attacks giving honest validators objective method fork choice proof work blockchain fork choice select canonical chain accumulated work terms hashes computed proof stake blockchain objective measure select forks total weighting signatures approve block use weighted signatures compare different blocks come following equation determine chain forked safety xe2 x80 x9cblock approval key weight xe2 x80 x9d xe2 x80 x9ccompromised key weight xe2 x80 x9d xe2 x80 x9cblock approval key weight xe2 x80 x9d means voting power keys signed block stake weight private keys compromised approve block block forked validators prefer original legitimate version block harmony maximizes",
+    "metadata": {
+      "chunk_id": "9fe4e9b2af9c2df7d5baedc9ad272d48",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 41] key weight xe2 x80 x9d means voting power keys signed block stake weight private keys compromised approve block block forked validators prefer original legitimate version block harmony maximizes safety block proof stake blockchain maximizing equation infeasible disincentivize leaking private keys long term harmony instead incentivizes validators maximize approval weight block quorum achieved requiring validators sign quorum approved block allowing validators withdraw stake new additional signatures need exist blockchain need generated consensus time block new signatures added subsequent blocks validators decide withdraw stake freely improve safety chain impacting liveness 8 future research 8 1 fraud proofs capability proving misbehavior validators important light client trust block data received case cross shard communication shard light client shards ensuring messages sent shards trustable crucial inter shard data consistency actively researching topic data availability 29 fraud",
+    "metadata": {
+      "chunk_id": "69431a0b03c7042b1d33d8bbdc76c4fd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 42] received case cross shard communication shard light client shards ensuring messages sent shards trustable crucial inter shard data consistency actively researching topic data availability 29 fraud proofs 2 securitize protocol 8 2 stateless validators high throughput blockchain size blockchain data grow faster existing chains major problem new validators sync quickly makes resharding process problematic new validators xe2 x80 x99t sync time quorum validators reached new block approved quorum met security 18 x0cthe protocol reduced state block pruning mitigation problem xe2 x80 x99s optimal state grow large actively looking enabling stateless client 30 31 validators doesn xe2 x80 x99t sync state validate transactions references 1 j r douceur sybil attack 1st international workshop peer peer systems iptps 02 2002 2 al bassam m sonnino buterin v 2018 fraud proofs maximising light client security scaling blockchains dishonest majorities corr abs 1809 09044 3 vasin p 2014 blackcoin xe2 x80",
+    "metadata": {
+      "chunk_id": "b61f4d4bd8ff57c4aa2f9fc010149988",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 43] systems iptps 02 2002 2 al bassam m sonnino buterin v 2018 fraud proofs maximising light client security scaling blockchains dishonest majorities corr abs 1809 09044 3 vasin p 2014 blackcoin xe2 x80 x99s proof stake protocol v2 https blackcoin co blackcoin pos protocolv2 whitepaper pdf 4 kiayias konstantinou russell b david r oliynykov ouroboros provably secure proof stake blockchain protocol cryptology eprint archive report 2016 889 2016 http eprint iacr org xe2 x80 x8b 5 p daian r pass e shi snow white robustly reconfigurable consensus applications provably secure proofs stake cryptology eprint archive report 2016 919 2017 6 rafael pass elaine shi thunderella blockchains optimistic instant confirmation https eprint iacr org 2017 913 pdf xe2 x80 x8b 7 m zamani m movahedi m raykova xe2 x80 x9crapidchain fast blockchain protocol sharding xe2 x80 x9d cryptology eprint archive report 2018 460 2018 xe2 x80 x8bhttps eprint iacr org 2018 460 xe2 x80 x8b 8 e kokoris kogias p jovanovic l",
+    "metadata": {
+      "chunk_id": "7a505991ce718400a33e7797b62bf741",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 10.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 44] x80 x9crapidchain fast blockchain protocol sharding xe2 x80 x9d cryptology eprint archive report 2018 460 2018 xe2 x80 x8bhttps eprint iacr org 2018 460 xe2 x80 x8b 8 e kokoris kogias p jovanovic l gasser n gailly e syta b ford xe2 x80 x9comniledger secure scale decentralized ledger sharding xe2 x80 x9d 2018 ieee symposium security privacy sp pp 19 xe2 x80 x9334 2018 9 loi luu viswesh narayanan chaodong zheng kunal baweja seth gilbert prateek saxena secure sharding protocol open blockchains proceedings 2016 acm sigsac conference computer communications security ccs xe2 x80 x9916 pages 17 xe2 x80 x9330 new york ny usa 2016 acm 10 george danezis sarah meiklejohn centrally banked cryptocurrencies 23rd annual network distributed system security symposium ndss 2016 11 quarkchain team cross shard transaction https github com quarkchain pyquarkchain wiki cross shard transaction 12 zilliqa team zilliqa technical whitepaper https docs zilliqa com whitepaper pdf august 2017 13 satoshi nakamoto",
+    "metadata": {
+      "chunk_id": "6a2f62074e18b873b862c149dc77b64c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 45] transaction https github com quarkchain pyquarkchain wiki cross shard transaction 12 zilliqa team zilliqa technical whitepaper https docs zilliqa com whitepaper pdf august 2017 13 satoshi nakamoto bitcoin peer peer electronic cash system 2008 available https bitcoin org bitcoin pdf 14 miguel castro barbara liskov practical byzantine fault tolerance proceedings 3rd symposium operating systems design implementation osdi xe2 x80 x9999 new orleans louisiana february 1999 15 e kokoris kogias p jovanovic n gailly khoffi l gasser b ford enhancing bitcoin security performance strong consistency collective signing proceedings 25th usenix conference security symposium 2016 19 x0c 16 drijvers m edalatnejad k ford b neven g 2018 okamoto beats schnorr provable security multi signatures iacr cryptology eprint archive 2018 417 17 b alangot m suresh s raj r k pathinarupothi k achuthan reliable collective cosigning scale blockchain strong consistency proceedings network distributed system security",
+    "metadata": {
+      "chunk_id": "594fafec4cb1a9d5f81f010f2a46843b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 46] eprint archive 2018 417 17 b alangot m suresh s raj r k pathinarupothi k achuthan reliable collective cosigning scale blockchain strong consistency proceedings network distributed system security symposium diss xe2 x80 x9818 2018 18 y gilad r hemo s micali g vlachos n zeldovich algorand scaling byzantine agreements cryptocurrencies cryptology eprint archive report 2017 454 2017 19 baruch awerbuch christian scheideler scalable robust dht proceedings eighteenth annual acm symposium parallelism algorithms architectures spaa xe2 x80 x9906 pages 318 xe2 x80 x93327 new york ny usa 2006 acm 20 dan boneh joseph bonneau benedikt b xc3 xbcnz ben fisch verifiable delay functions crypto 2018 2018 21 d boneh b b xc2 xa8unz b fisch survey verifiable delay functions cryptology eprint archive report 2018 712 2018 xe2 x80 x8bhttps eprint iacr org 2018 712 xe2 x80 x8b 22 paul feldman practical scheme non interactive verifiable secret sharing proceedings 28th annual symposium foundations computer",
+    "metadata": {
+      "chunk_id": "3a941acdb20de0a7e186679568ce72ad",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 48] dfinity technology overview series consensus system january 2018 27 ethereum foundation ethereum whitepaper https github com ethereum wiki wiki white paper xe2 x80 x8b 28 d boneh b lynn h shacham short signatures weil pairing proceedings 7th international conference theory application cryptology information security advances cryptology asiacrypt xe2 x80 x9901 pages 514 xe2 x80 x93532 london uk uk 2001 springer verlag https www iacr org archive asiacrypt2001 22480516 pdf 29 ethereum team note data availability erasure coding https github com ethereum research wiki note data availability erasure coding 30 chepurnoy c papamanthou y zhang edrax cryptocurrency stateless transaction validation cryptology eprint archive report 2018 968 31 v buterin stateless client concept https ethresear ch t stateless client concept 172 32 derek leung adam suhl yossi gilad nickolai zeldovich vault fast bootstrapping cryptocurrencies cryptology eprint archive report 2018 269 2018 33 ethereum wiki sharding",
+    "metadata": {
+      "chunk_id": "e9b66968d49b093489a974cf39dc5f92",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  },
+  {
+    "text": "[Section 49] stateless client concept 172 32 derek leung adam suhl yossi gilad nickolai zeldovich vault fast bootstrapping cryptocurrencies cryptology eprint archive report 2018 269 2018 33 ethereum wiki sharding blockchain https github com ethereum wiki wiki sharding faqs 20 x0c 34 m f nowlan j faleiro b ford crux locality preserving distributed systems corr abs 1405 0637 2014 35 george danezis sarah meiklejohn centrally banked cryptocurrencies 23nd annual network distributed system security symposium ndss 2016 san diego california usa february 21 24 2016 internet society 2016 36 paul dworzanski note committee random number generation commit reveal revealer attacks xe2 x80 x8bhttp paul oemm org commit reveal subcommittees pdf xe2 x80 x8b 37 petar maymounkov david mazi xc3 xa8res kademlia peer peer information system based xor metric revised papers international workshop peer peer systems iptps xe2 x80 x9901 pages 53 xe2 x80 x9365 london uk uk 2002 springer verlag 38 david k gifford doctoral",
+    "metadata": {
+      "chunk_id": "ab177dbacf78dbdf15425cef3f0a4030",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Harmony.txt"
+    }
+  }
+]

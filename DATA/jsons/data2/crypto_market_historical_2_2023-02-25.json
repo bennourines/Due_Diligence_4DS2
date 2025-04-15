@@ -1,0 +1,902 @@
+{
+    "stocks": [
+        {
+            "name": "Bitcoin",
+            "price": 94048.58,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 1.7,
+                    "last_week": 2.0
+                }
+            ],
+            "market_cap": 1864849505176.0,
+            "volume": 32237561962.0,
+            "circulating_supply": null,
+            "change": 10.4,
+            "extra_details": null
+        },
+        {
+            "name": "Ethereum",
+            "price": 2647.88,
+            "currencies": [
+                {
+                    "last_hour": 0.0,
+                    "last_day": 5.5,
+                    "last_week": 3.2
+                }
+            ],
+            "market_cap": 318676208612.0,
+            "volume": 27955014516.0,
+            "circulating_supply": null,
+            "change": 20.7,
+            "extra_details": null
+        },
+        {
+            "name": "Tether",
+            "price": 0.9996,
+            "currencies": [
+                {
+                    "last_hour": 0.0,
+                    "last_day": 0.0,
+                    "last_week": 0.0
+                }
+            ],
+            "market_cap": 142358483513.0,
+            "volume": 38917982583.0,
+            "circulating_supply": null,
+            "change": 0.0,
+            "extra_details": null
+        },
+        {
+            "name": "XRP",
+            "price": 2.41,
+            "currencies": [
+                {
+                    "last_hour": 0.2,
+                    "last_day": 5.9,
+                    "last_week": 9.3
+                }
+            ],
+            "market_cap": 139690273808.0,
+            "volume": 4476365620.0,
+            "circulating_supply": null,
+            "change": 22.7,
+            "extra_details": null
+        },
+        {
+            "name": "BNB",
+            "price": 633.2,
+            "currencies": [
+                {
+                    "last_hour": 0.4,
+                    "last_day": 3.1,
+                    "last_week": 5.3
+                }
+            ],
+            "market_cap": 92116356940.0,
+            "volume": 964999571.0,
+            "circulating_supply": null,
+            "change": 7.9,
+            "extra_details": null
+        },
+        {
+            "name": "Solana",
+            "price": 151.04,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 9.9,
+                    "last_week": 15.5
+                }
+            ],
+            "market_cap": 74804485123.0,
+            "volume": 6623288392.0,
+            "circulating_supply": null,
+            "change": 41.4,
+            "extra_details": null
+        },
+        {
+            "name": "USDC",
+            "price": 0.9999,
+            "currencies": [
+                {
+                    "last_hour": 0.0,
+                    "last_day": 0.0,
+                    "last_week": 0.0
+                }
+            ],
+            "market_cap": 56663718242.0,
+            "volume": 11959165802.0,
+            "circulating_supply": null,
+            "change": 0.0,
+            "extra_details": null
+        },
+        {
+            "name": "Dogecoin",
+            "price": 0.2225,
+            "currencies": [
+                {
+                    "last_hour": 0.4,
+                    "last_day": 7.9,
+                    "last_week": 13.5
+                }
+            ],
+            "market_cap": 32825484134.0,
+            "volume": 1877801319.0,
+            "circulating_supply": null,
+            "change": 37.7,
+            "extra_details": null
+        },
+        {
+            "name": "Cardano",
+            "price": 0.7166,
+            "currencies": [
+                {
+                    "last_hour": 0.6,
+                    "last_day": 6.6,
+                    "last_week": 10.4
+                }
+            ],
+            "market_cap": 25677797640.0,
+            "volume": 742392313.0,
+            "circulating_supply": null,
+            "change": 27.1,
+            "extra_details": null
+        },
+        {
+            "name": "Lido Staked Ether",
+            "price": 2641.14,
+            "currencies": [
+                {
+                    "last_hour": 0.2,
+                    "last_day": 5.5,
+                    "last_week": 3.4
+                }
+            ],
+            "market_cap": 24857140810.0,
+            "volume": 105372164.0,
+            "circulating_supply": null,
+            "change": 20.8,
+            "extra_details": null
+        },
+        {
+            "name": "TRON",
+            "price": 0.2468,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 0.7,
+                    "last_week": 2.8
+                }
+            ],
+            "market_cap": 21217509891.0,
+            "volume": 917068382.0,
+            "circulating_supply": null,
+            "change": 2.6,
+            "extra_details": null
+        },
+        {
+            "name": "Wrapped Bitcoin",
+            "price": 93893.83,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 1.8,
+                    "last_week": 2.0
+                }
+            ],
+            "market_cap": 12124931500.0,
+            "volume": 404032809.0,
+            "circulating_supply": null,
+            "change": 10.4,
+            "extra_details": null
+        },
+        {
+            "name": "Wrapped stETH",
+            "price": 3145.29,
+            "currencies": [
+                {
+                    "last_hour": 0.6,
+                    "last_day": 6.1,
+                    "last_week": 3.6
+                }
+            ],
+            "market_cap": 10906282082.0,
+            "volume": 131414235.0,
+            "circulating_supply": null,
+            "change": 20.9,
+            "extra_details": null
+        },
+        {
+            "name": "Chainlink",
+            "price": 16.11,
+            "currencies": [
+                {
+                    "last_hour": 0.5,
+                    "last_day": 7.9,
+                    "last_week": 15.6
+                }
+            ],
+            "market_cap": 10265421930.0,
+            "volume": 590917924.0,
+            "circulating_supply": null,
+            "change": 36.0,
+            "extra_details": null
+        },
+        {
+            "name": "Stellar",
+            "price": 0.3135,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 5.1,
+                    "last_week": 6.2
+                }
+            ],
+            "market_cap": 9599983051.0,
+            "volume": 241054413.0,
+            "circulating_supply": null,
+            "change": 25.4,
+            "extra_details": null
+        },
+        {
+            "name": "Avalanche",
+            "price": 23.05,
+            "currencies": [
+                {
+                    "last_hour": 0.0,
+                    "last_day": 6.5,
+                    "last_week": 7.6
+                }
+            ],
+            "market_cap": 9544632438.0,
+            "volume": 453228831.0,
+            "circulating_supply": null,
+            "change": 37.7,
+            "extra_details": null
+        },
+        {
+            "name": "Sui",
+            "price": 3.01,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 9.8,
+                    "last_week": 6.6
+                }
+            ],
+            "market_cap": 9283173148.0,
+            "volume": 1310052924.0,
+            "circulating_supply": null,
+            "change": 27.6,
+            "extra_details": null
+        },
+        {
+            "name": "Litecoin",
+            "price": 122.13,
+            "currencies": [
+                {
+                    "last_hour": 0.5,
+                    "last_day": 4.7,
+                    "last_week": 0.8
+                }
+            ],
+            "market_cap": 9207397259.0,
+            "volume": 971393038.0,
+            "circulating_supply": null,
+            "change": 2.4,
+            "extra_details": null
+        },
+        {
+            "name": "Toncoin",
+            "price": 3.57,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 5.2,
+                    "last_week": 5.3
+                }
+            ],
+            "market_cap": 8894085102.0,
+            "volume": 155907772.0,
+            "circulating_supply": null,
+            "change": 29.8,
+            "extra_details": null
+        },
+        {
+            "name": "Hedera",
+            "price": 0.2099,
+            "currencies": [
+                {
+                    "last_hour": 1.0,
+                    "last_day": 0.5,
+                    "last_week": 1.0
+                }
+            ],
+            "market_cap": 8787975394.0,
+            "volume": 571196761.0,
+            "circulating_supply": null,
+            "change": 36.9,
+            "extra_details": null
+        },
+        {
+            "name": "USDS",
+            "price": 1.0,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 0.1,
+                    "last_week": 0.1
+                }
+            ],
+            "market_cap": 8533170740.0,
+            "volume": 50304864.0,
+            "circulating_supply": null,
+            "change": 0.1,
+            "extra_details": null
+        },
+        {
+            "name": "Shiba Inu",
+            "price": 1.429e-05,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 7.2,
+                    "last_week": 8.8
+                }
+            ],
+            "market_cap": 8417536965.0,
+            "volume": 264469985.0,
+            "circulating_supply": null,
+            "change": 28.8,
+            "extra_details": null
+        },
+        {
+            "name": "LEO Token",
+            "price": 9.1,
+            "currencies": [
+                {
+                    "last_hour": 4.1,
+                    "last_day": 6.8,
+                    "last_week": 6.9
+                }
+            ],
+            "market_cap": 8409532441.0,
+            "volume": 4619004.0,
+            "circulating_supply": null,
+            "change": 6.7,
+            "extra_details": null
+        },
+        {
+            "name": "MANTRA",
+            "price": 8.14,
+            "currencies": [
+                {
+                    "last_hour": 0.7,
+                    "last_day": 4.0,
+                    "last_week": 11.8
+                }
+            ],
+            "market_cap": 7920187330.0,
+            "volume": 564653994.0,
+            "circulating_supply": null,
+            "change": 113.7,
+            "extra_details": null
+        },
+        {
+            "name": "WETH",
+            "price": 2649.79,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 5.4,
+                    "last_week": 3.2
+                }
+            ],
+            "market_cap": 7441626480.0,
+            "volume": 1044596809.0,
+            "circulating_supply": null,
+            "change": 20.6,
+            "extra_details": null
+        },
+        {
+            "name": "Polkadot",
+            "price": 4.64,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 5.8,
+                    "last_week": 5.2
+                }
+            ],
+            "market_cap": 7060133384.0,
+            "volume": 205967363.0,
+            "circulating_supply": null,
+            "change": 27.1,
+            "extra_details": null
+        },
+        {
+            "name": "Hyperliquid",
+            "price": 20.65,
+            "currencies": [
+                {
+                    "last_hour": 0.5,
+                    "last_day": 11.4,
+                    "last_week": 18.9
+                }
+            ],
+            "market_cap": 6898166477.0,
+            "volume": 334142829.0,
+            "circulating_supply": null,
+            "change": 12.5,
+            "extra_details": null
+        },
+        {
+            "name": "Bitcoin Cash",
+            "price": 306.16,
+            "currencies": [
+                {
+                    "last_hour": 0.2,
+                    "last_day": 5.8,
+                    "last_week": 5.2
+                }
+            ],
+            "market_cap": 6062132502.0,
+            "volume": 260434891.0,
+            "circulating_supply": null,
+            "change": 31.8,
+            "extra_details": null
+        },
+        {
+            "name": "Ethena USDe",
+            "price": 1.0,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 0.1,
+                    "last_week": 0.2
+                }
+            ],
+            "market_cap": 5887503683.0,
+            "volume": 116498677.0,
+            "circulating_supply": null,
+            "change": 0.1,
+            "extra_details": null
+        },
+        {
+            "name": "Bitget Token",
+            "price": 4.82,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 3.4,
+                    "last_week": 4.2
+                }
+            ],
+            "market_cap": 5779692196.0,
+            "volume": 487681273.0,
+            "circulating_supply": null,
+            "change": 37.0,
+            "extra_details": null
+        },
+        {
+            "name": "Wrapped eETH",
+            "price": 2808.55,
+            "currencies": [
+                {
+                    "last_hour": 0.0,
+                    "last_day": 5.4,
+                    "last_week": 3.2
+                }
+            ],
+            "market_cap": 5483448837.0,
+            "volume": 15917416.0,
+            "circulating_supply": null,
+            "change": 20.5,
+            "extra_details": null
+        },
+        {
+            "name": "Uniswap",
+            "price": 8.33,
+            "currencies": [
+                {
+                    "last_hour": 0.7,
+                    "last_day": 7.1,
+                    "last_week": 15.1
+                }
+            ],
+            "market_cap": 4998370466.0,
+            "volume": 229304575.0,
+            "circulating_supply": null,
+            "change": 31.6,
+            "extra_details": null
+        },
+        {
+            "name": "Monero",
+            "price": 232.04,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 1.1,
+                    "last_week": 0.8
+                }
+            ],
+            "market_cap": 4285627712.0,
+            "volume": 52317026.0,
+            "circulating_supply": null,
+            "change": 5.1,
+            "extra_details": null
+        },
+        {
+            "name": "WhiteBIT Coin",
+            "price": 27.28,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 0.8,
+                    "last_week": 0.2
+                }
+            ],
+            "market_cap": 3930849319.0,
+            "volume": 29309668.0,
+            "circulating_supply": null,
+            "change": 3.8,
+            "extra_details": null
+        },
+        {
+            "name": "NEAR Protocol",
+            "price": 3.25,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 5.8,
+                    "last_week": 0.1
+                }
+            ],
+            "market_cap": 3859003023.0,
+            "volume": 195075217.0,
+            "circulating_supply": null,
+            "change": 34.3,
+            "extra_details": null
+        },
+        {
+            "name": "Pepe",
+            "price": 0.058454,
+            "currencies": [
+                {
+                    "last_hour": 0.4,
+                    "last_day": 8.8,
+                    "last_week": 16.4
+                }
+            ],
+            "market_cap": 3556098197.0,
+            "volume": 708188711.0,
+            "circulating_supply": null,
+            "change": 44.5,
+            "extra_details": null
+        },
+        {
+            "name": "Bittensor",
+            "price": 419.28,
+            "currencies": [
+                {
+                    "last_hour": 1.0,
+                    "last_day": 2.2,
+                    "last_week": 16.0
+                }
+            ],
+            "market_cap": 3526451779.0,
+            "volume": 264506158.0,
+            "circulating_supply": null,
+            "change": 7.1,
+            "extra_details": null
+        },
+        {
+            "name": "Dai",
+            "price": 0.9997,
+            "currencies": [
+                {
+                    "last_hour": 0.0,
+                    "last_day": 0.0,
+                    "last_week": 0.0
+                }
+            ],
+            "market_cap": 3463234562.0,
+            "volume": 364041945.0,
+            "circulating_supply": null,
+            "change": 0.1,
+            "extra_details": null
+        },
+        {
+            "name": "Aave",
+            "price": 224.67,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 8.4,
+                    "last_week": 15.1
+                }
+            ],
+            "market_cap": 3387049041.0,
+            "volume": 291020542.0,
+            "circulating_supply": null,
+            "change": 31.5,
+            "extra_details": null
+        },
+        {
+            "name": "Aptos",
+            "price": 5.67,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 6.6,
+                    "last_week": 4.9
+                }
+            ],
+            "market_cap": 3330820708.0,
+            "volume": 223208353.0,
+            "circulating_supply": null,
+            "change": 30.7,
+            "extra_details": null
+        },
+        {
+            "name": "Ondo",
+            "price": 1.04,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 7.9,
+                    "last_week": 15.4
+                }
+            ],
+            "market_cap": 3271940001.0,
+            "volume": 289279451.0,
+            "circulating_supply": null,
+            "change": 30.0,
+            "extra_details": null
+        },
+        {
+            "name": "Internet Computer",
+            "price": 6.71,
+            "currencies": [
+                {
+                    "last_hour": 0.5,
+                    "last_day": 4.3,
+                    "last_week": 5.0
+                }
+            ],
+            "market_cap": 3223256616.0,
+            "volume": 99105386.0,
+            "circulating_supply": null,
+            "change": 27.2,
+            "extra_details": null
+        },
+        {
+            "name": "Tokenize Xchange",
+            "price": 37.41,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 1.4,
+                    "last_week": 14.1
+                }
+            ],
+            "market_cap": 2992607795.0,
+            "volume": 40256333.0,
+            "circulating_supply": null,
+            "change": 17.3,
+            "extra_details": null
+        },
+        {
+            "name": "sUSDS",
+            "price": 1.04,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 0.2,
+                    "last_week": 0.1
+                }
+            ],
+            "market_cap": 2983524190.0,
+            "volume": 2781705.0,
+            "circulating_supply": null,
+            "change": 1.0,
+            "extra_details": null
+        },
+        {
+            "name": "Official Trump",
+            "price": 14.83,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 7.2,
+                    "last_week": 13.7
+                }
+            ],
+            "market_cap": 2964123827.0,
+            "volume": 783971278.0,
+            "circulating_supply": null,
+            "change": 51.0,
+            "extra_details": null
+        },
+        {
+            "name": "Ethereum Classic",
+            "price": 19.47,
+            "currencies": [
+                {
+                    "last_hour": 0.2,
+                    "last_day": 5.3,
+                    "last_week": 6.7
+                }
+            ],
+            "market_cap": 2931029691.0,
+            "volume": 115392829.0,
+            "circulating_supply": null,
+            "change": 28.5,
+            "extra_details": null
+        },
+        {
+            "name": "OKB",
+            "price": 47.45,
+            "currencies": [
+                {
+                    "last_hour": 0.9,
+                    "last_day": 3.3,
+                    "last_week": 7.0
+                }
+            ],
+            "market_cap": 2847178133.0,
+            "volume": 6674508.0,
+            "circulating_supply": null,
+            "change": 14.5,
+            "extra_details": null
+        },
+        {
+            "name": "Mantle",
+            "price": 0.8443,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 6.8,
+                    "last_week": 20.5
+                }
+            ],
+            "market_cap": 2840845959.0,
+            "volume": 44202888.0,
+            "circulating_supply": null,
+            "change": 29.7,
+            "extra_details": null
+        },
+        {
+            "name": "Gate",
+            "price": 22.16,
+            "currencies": [
+                {
+                    "last_hour": 0.2,
+                    "last_day": 4.2,
+                    "last_week": 4.0
+                }
+            ],
+            "market_cap": 2787464108.0,
+            "volume": 13728373.0,
+            "circulating_supply": null,
+            "change": 10.8,
+            "extra_details": null
+        },
+        {
+            "name": "Sonic (prev. FTM)",
+            "price": 0.8361,
+            "currencies": [
+                {
+                    "last_hour": 0.7,
+                    "last_day": 0.6,
+                    "last_week": 41.8
+                }
+            ],
+            "market_cap": 2651222337.0,
+            "volume": 442234023.0,
+            "circulating_supply": null,
+            "change": 54.0,
+            "extra_details": null
+        },
+        {
+            "name": "Coinbase Wrapped BTC",
+            "price": 93968.7,
+            "currencies": [
+                {
+                    "last_hour": 0.3,
+                    "last_day": 1.8,
+                    "last_week": 2.1
+                }
+            ],
+            "market_cap": 2592039585.0,
+            "volume": 342103970.0,
+            "circulating_supply": null,
+            "change": 10.5,
+            "extra_details": null
+        },
+        {
+            "name": "Kaspa",
+            "price": 0.09669,
+            "currencies": [
+                {
+                    "last_hour": 0.2,
+                    "last_day": 1.2,
+                    "last_week": 7.8
+                }
+            ],
+            "market_cap": 2486643073.0,
+            "volume": 51164379.0,
+            "circulating_supply": null,
+            "change": 27.9,
+            "extra_details": null
+        },
+        {
+            "name": "VeChain",
+            "price": 0.02971,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 6.7,
+                    "last_week": 9.6
+                }
+            ],
+            "market_cap": 2398326247.0,
+            "volume": 49413308.0,
+            "circulating_supply": null,
+            "change": 38.1,
+            "extra_details": null
+        },
+        {
+            "name": "POL (ex-MATIC)",
+            "price": 0.2798,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 4.2,
+                    "last_week": 12.2
+                }
+            ],
+            "market_cap": 2398265786.0,
+            "volume": 117856660.0,
+            "circulating_supply": null,
+            "change": 35.6,
+            "extra_details": null
+        },
+        {
+            "name": "Cronos",
+            "price": 0.08052,
+            "currencies": [
+                {
+                    "last_hour": 0.9,
+                    "last_day": 4.3,
+                    "last_week": 9.0
+                }
+            ],
+            "market_cap": 2200781746.0,
+            "volume": 34501589.0,
+            "circulating_supply": null,
+            "change": 42.0,
+            "extra_details": null
+        },
+        {
+            "name": "Algorand",
+            "price": 0.2427,
+            "currencies": [
+                {
+                    "last_hour": 0.1,
+                    "last_day": 5.8,
+                    "last_week": 10.3
+                }
+            ],
+            "market_cap": 2051657108.0,
+            "volume": 106507919.0,
+            "circulating_supply": null,
+            "change": 40
+        }
+    ],
+    "sources": [
+        "https://www.coingecko.com/"
+    ]
+}

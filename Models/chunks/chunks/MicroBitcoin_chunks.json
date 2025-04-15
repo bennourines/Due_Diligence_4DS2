@@ -1,0 +1,168 @@
+[
+  {
+    "text": "[Section 1] b microbitcoin decentralized peer peer payment platform micro economy abstract microbitcoin decentralized blockchain intended serve micro economy payments inherits bitcoin utxo set initially implemented hard fork er year er launch limitations began arise particular extensive size blockchain inherited bitcoin network poor performance pow algorithm block validation solve issues 9 october 2019 community switched new network essentially abandoning old new microbitcoin network featuring utxo set snapshot smaller block size new block reward formula cpu focused proof work algorithm 1 prerequisites new network launch initially original microbitcoin network launched 11 july 2018 hard fork bitcoin network main focus asic 1 resistance faster block time suitable micro payments interaction currency units easier decimal poin shi ed 4 places making 1 btc equal 10 000 mbc microbitcoin block mined 11 july 2018 causing hardfork replacing default sha256d hash function nist sha 3 candidate groestl 2 algo",
+    "metadata": {
+      "chunk_id": "f148f13cea968b743485acdd2cc15883",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "MicroBitcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 2] easier decimal poin shi ed 4 places making 1 btc equal 10 000 mbc microbitcoin block mined 11 july 2018 causing hardfork replacing default sha256d hash function nist sha 3 candidate groestl 2 algo didn t asic implementation time considered asic resistant time proven assumption wrong er baikal released 3 bk g28 featuring groestl support 26 october 2018 time bk g28 miners main source hash power microbitcoin network fundamentally corrupting decentralization er extensive research stopped rainforest 4 pow algo bill schneider 6 march 2019 microbitcoin network hardforked rainforest 7 2019 second version rainforest known rfv2 fixed flaws original algo er clear rainforest v2 algorithm way slow pow validation phase combination 200 gb blockchain size hard sync node microbitcoin essentially undermining decentralization situation main reason launch new network 2 snapshot microbitcoin network operates utxo 5 model final address balance basically sum unspent outputs moving balances network trivial",
+    "metadata": {
+      "chunk_id": "3afe308b3f6db956c3ea8228f9aff882",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "MicroBitcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 3] decentralization situation main reason launch new network 2 snapshot microbitcoin network operates utxo 5 model final address balance basically sum unspent outputs moving balances network trivial task took utxos starting block 525 000 mbc block block 1 137 200 copied merged example address 3 unspent outputs old network merged output sum amounts x0cexample snapshoted outputs located genesis 6 block new microbitcoin network checked explorer 3 supply emission moment new network launch total supply minted current userbase big chunk funds haven t moved hard fork improve situation coins haven t moved block 525 000 initial network launch height hasn t snapshoted essentially burned total 44 386 397 362 4252 mbc activated approximately 2 700 000 btc moved hard fork better distributrion new coins block emission schedule adjusted instead halvings 7 reduces block reward 50% 4 years new reward smoothly decrease new block reward base reward decaying 30% epoch 2 years graph reward mining supply",
+    "metadata": {
+      "chunk_id": "2eca8cdfefc064310d43d39ac4fc1c88",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "MicroBitcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 4] block emission schedule adjusted instead halvings 7 reduces block reward 50% 4 years new reward smoothly decrease new block reward base reward decaying 30% epoch 2 years graph reward mining supply reward formula implementation c x0c include iostream include cmath amounts satoshit coin const int64 t coin 10000 int64 t reward int height initial reward block const int64 t reward 5500 coin reward decreasing epoch 2 years const int epoch 525960 2 decrease 30% epoch const long double r 1 std log 1 0 3 epoch return reward std pow r height total supply limited 61 000 000 000 mbc 44 386 397 362 4252 mbc snapshot old network rest 16 613 602 638 mbc mined 100 years 4 block size network reliable prevent block spamming create better fair fee market terms 1 block minute model block size decreased 300kb implementation inspired bitcoin core developer luke dashjr proposal 8 5 power2b proof work algorithm x0cto encourage decentralization idea cpu vote proposed 9 satoshi original whitepaper bitcoin",
+    "metadata": {
+      "chunk_id": "08419411d0fd103536ce7448e78acb50",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "MicroBitcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 5] implementation inspired bitcoin core developer luke dashjr proposal 8 5 power2b proof work algorithm x0cto encourage decentralization idea cpu vote proposed 9 satoshi original whitepaper bitcoin modified yespower 10 hash function called power2b 11 designed cpu friendly gpu unfriendly fpga asic neutral combines computationally expensive sequential memory hard hashing way slows gpus cpu like speeds limits potential advantages fpgas asics far yespower proven decent cpu focused algorightm providing security dozens di xef xac x80erent cryptocurrencies power2b modification replaces sha256 based pbkdf2 hmac blake2b 12 based implemetations essence keeps yespower original design intact implemetations fpgas asics original yespower incompatible power2b require developers create microbitcoin specific implementations ware hardware strengthening network security overall result 6 di xef xac x80iculty adjustment algorithm microbitcoin network uses lwma3 13 di xef xac x80iculty adjustment algorithm",
+    "metadata": {
+      "chunk_id": "fc9a22b10aae06d13428cd826a440f4b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "MicroBitcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 6] implementations ware hardware strengthening network security overall result 6 di xef xac x80iculty adjustment algorithm microbitcoin network uses lwma3 13 di xef xac x80iculty adjustment algorithm authored zawy12 sets di xef xac x80iculty estimating current hashrate recent di xef xac x80iculties solvetimes divides average di xef xac x80iculty linearly weighted moving average lwma solvetimes gives weight recent solvetimes designed small coin protection timestamp manipulation hash attacks basic equation difficulty average difficulties target solvetime lwma solvetimes 7 comparison bitcoin hard forks table chart comparison microbitcoin bitcoin hard forks mind microbitcoin 4 decimal places instead 8 like case bitcoin terms satoshi units 14 supply microbitcoin 3x larger supply bitcoin x0c8 future roadmap section outlines plans ideas development microbitcoin protocol ecosystem alternative node implementation support network decentralization work alternative network node implementations",
+    "metadata": {
+      "chunk_id": "3ed810147cdb0c43fd184afb420ec9f8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "MicroBitcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 7] future roadmap section outlines plans ideas development microbitcoin protocol ecosystem alternative node implementation support network decentralization work alternative network node implementations strengthen network allow prevent centralization specific implementations good example bitcoin core 15 continuation original satoshi node implementation btcd 16 written scratch golang ware development kit public api developers important community lifes easier create publish microbitcoin sdks di xef xac x80erent languages like node js python provide simple convenient way interact network s inconvenient developers run node s create fast reliable public api restful socket interfaces provide vital information like address balances utxo set information network time lock contracts real life agreements require collateral locked certain period time implement box solution creating contracts op checklocktimeverify 17 opcode allow lock mbc till specified timestamp network height lightweight wallets",
+    "metadata": {
+      "chunk_id": "711f08178e6e373ff2c36bdd98efdb4d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "MicroBitcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 8] require collateral locked certain period time implement box solution creating contracts op checklocktimeverify 17 opcode allow lock mbc till specified timestamp network height lightweight wallets use microbitcoin network daily basis accessibility create lightweight wallets di xef xac x80erent platforms requires store blockchain devices utilize public api mentioned accessing utxo set good example lightweight wallet mobile wallet pocket references 1 https en bitcoin wiki asic 2 https www groestl info 3 https bitcointalk org index php topic 5057818 0 4 https www slideshare net bschn2 rainforest algorithm 5 https www investopedia com terms u utxo asp 6 https en bitcoin wiki genesis block 7 https en bitcoin wiki controlled supply 8 https github com bitcoin bitcoin compare v0 17 1 luke jr example 300k 0 17 9 https bitcoin org bitcoin pdf 10 https www openwall com yespower 11 https github com microbitcoinorg power2b x0c 12 https blake2 net 13 https github com zawy12 di xef xac x80iculty",
+    "metadata": {
+      "chunk_id": "bdbd74c0450d12bde9b36882e58c90d8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "MicroBitcoin.txt"
+    }
+  },
+  {
+    "text": "[Section 9] 300k 0 17 9 https bitcoin org bitcoin pdf 10 https www openwall com yespower 11 https github com microbitcoinorg power2b x0c 12 https blake2 net 13 https github com zawy12 di xef xac x80iculty algorithms issues 3 14 https en bitcoin wiki satoshi unit 15 https bitcoincore org 16 https github com btcsuite btcd 17 https github com bitcoin bips blob master bip 0065 mediawiki links o xef xac x80icial website https microbitcoin org github https github com microbitcoinorg explorer https microbitcoinorg github io explorer web wallet https microbitcoinorg github io wallet api https api mbc wiki discord https discord gg 8zg2ntv telegram https t microbitcoinorg twitter https twitter com microbitcoinorg forum https mbc wiki bitcointalk https bitcointalk org index php topic 3982489 msg37769108 reddit https www reddit com r microbitcoinorg x0c",
+    "metadata": {
+      "chunk_id": "6deb26b7855a7cd167d8ce338bf35b03",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "MicroBitcoin.txt"
+    }
+  }
+]

@@ -1,0 +1,445 @@
+[
+  {
+    "text": "[Section 1] b sociall secure private decentralised social network whitepaper version 2 3 0 august 2018 www sociall io working document xe2 x80 x93 subject change x0ctable contents abstract 3 market 4 functionality 5 wallet 5 features decentralisation 5 ups 7 user account 8 marketplace 9 instant messaging 11 mobile applications 12 community blog 12 privacy 13 crowdfunding 13 decentralisation ipfs 14 ad platform 15 self governing 16 technology stack 17 overview 17 frontend application 17 api server 17 authentication server 18 image processing micro service 18 websockets micro service 18 open source 19 bounties 19 security 20 scl 21 details 21 source code 21 exchanges 22 roadmap 23 q1 2018 23 q2 2018 23 q3 2018 23 q4 2018 23 q1 2019 23 q2 2019 24 q3 2019 24 24 contact support 25 2 x0cabstract social networks provide opportunity data hacks security privacy breaches including network provider evidenced recent facebook examples decentralised encrypted network enable users retain control protection data",
+    "metadata": {
+      "chunk_id": "6b984a9a2a81cbf9560fc2fe8ae6e75d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "breach",
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 2] provide opportunity data hacks security privacy breaches including network provider evidenced recent facebook examples decentralised encrypted network enable users retain control protection data including online behaviour wallet financial information multimedia profile information minimising potential hacking privacy breaches sociall new generation networking secure private decentralised social network sociall encrypts data multimedia uploads stores securely world making completely decentralised platform private discourages search engines viewing user profiles displaying search results sociall claim ownership uploaded data multimedia system information belongs uploading user platform utilises easy use cryptocurrency called scl pay goods services traditional money think scl native currency platform instead multiple different currencies usually come conversion fees sociall supply accounts decentralised wallet securely store scl popular cryptocurrencies account wallets exist series smart",
+    "metadata": {
+      "chunk_id": "60beb16bbc7005f81e5419189b7d6fc9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "breach",
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 3] platform instead multiple different currencies usually come conversion fees sociall supply accounts decentralised wallet securely store scl popular cryptocurrencies account wallets exist series smart contacts ethereum blockchain making completely decentralised uncontrollable wallet xe2 x80 x99s creator adding scl account breeze wallet ability convert different forms currency scl sociall plans entire platform self governing means users sociall able assist keeping platform clean safe removing spam offensive posts users contribute compensated scl eventually entire platform run users instead centralised controlling entity users ability updates fix issues thanks open source pull requests sociall giving power people 3 x0cmarket 2 5 billion people people earth use form digital social networking social media advertising spend projected reach $51 billion globally 2018 number reaching $77 billion 20221 sociall target major markets social e commerce markets multibillion dollar industries",
+    "metadata": {
+      "chunk_id": "0288555a6ae7d6f920c8ec1c910716db",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 4] social media advertising spend projected reach $51 billion globally 2018 number reaching $77 billion 20221 sociall target major markets social e commerce markets multibillion dollar industries billions users currently controlled large corporations sociall hopes create decentralized social network paired online peer peer marketplace ad platform e commerce sales expected grow 12% years global retail ecommerce sales reach $1 915 trillion 2016 accounting 8 7% total retail spending worldwide 71% shoppers believe better deal online stores number social media users worldwide 2010 2021 billions 2 number digital buyers worldwide 2014 2021 billions 3 1 https www statista com outlook 220 100 social media advertising worldwide 2 https www statista com statistics 278414 number worldwide social network users 3 https www statista com statistics 251666 number digital buyers worldwide 4 x0cfunctionality wallet sociall account wallets created decentralized smart contract process owning entity setup",
+    "metadata": {
+      "chunk_id": "58bdced9c6b52235546bf1a90de20f63",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 5] users 3 https www statista com statistics 251666 number digital buyers worldwide 4 x0cfunctionality wallet sociall account wallets created decentralized smart contract process owning entity setup entity sociall control funds kept user xe2 x80 x99s account wallet able process transactions behalf user xe2 x80 x93 making completely decentralized onboarding process prompt user create password access wallet function returns new wallet address sociall saves wallet address db reference sociall plans allow storing sending erc20 based tokens near future integrating shapeshift instant token token trading inside wallet features decentralisation entire wallet built smart contract coded solidity ethereum blockchain smart contract generate user xe2 x80 x99s wallet stored database wallet generated smart contract private key sociall store private keys instead user create password grants access wallet transaction requires signing send user simply enters password smart contract checks user access user",
+    "metadata": {
+      "chunk_id": "18501923bcf1d2bb932c26096c3234f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 6] contract private key sociall store private keys instead user create password grants access wallet transaction requires signing send user simply enters password smart contract checks user access user password hashed salted sending smart contract displayed publicly blockchain far decentralised solution hosting encrypting private keys like majority exchange application wallets flow user initiate transaction sign password 5 x0cuser initiates transaction user enters password sign transaction password hashed salted transaction signed smartcontract takes % scl txfee scl sent address passwords treated like private key sociall storing passwords password lost access wallet lost forever transactions paid scl eth user account wallet need hold eth transactions purchases sociall hold eth smart contract pay transactions charge users small scl 0 50% 1 10% depending txfees gwei prices transaction transaction prices dynamically calculated depending current scl eth trading pair price example scenario 1",
+    "metadata": {
+      "chunk_id": "34629f09a2ce27219e054fa925a320d3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 7] pay transactions charge users small scl 0 50% 1 10% depending txfees gwei prices transaction transaction prices dynamically calculated depending current scl eth trading pair price example scenario 1 scl eth trading pair goes scl transaction fee reduced smart contract overcharging scenario 2 scl eth trading pair goes scl transaction fee increased smart contract undercharging scenario 3 scl eth trading pair stays stable scl transaction fee stay slightly adjusted according market conditions scenario 4 eth average gwei increased high load network scl transaction fee increased smart contract undercharging scl eth trading pair effect scenario play depending market conditions audit smart contract completed reputable firm pushing code live refer security section document information security code audits 6 x0ctop ups users sociall able account wallet scl simply depositing popular supported cryptocurrencies btc eth eventually fiat project utilize coinpayments stripe future integrations process",
+    "metadata": {
+      "chunk_id": "4b9d7d56f794f5f22e04e27973ad06e0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 8] audits 6 x0ctop ups users sociall able account wallet scl simply depositing popular supported cryptocurrencies btc eth eventually fiat project utilize coinpayments stripe future integrations process consist complex business logic background master wallet consisting scl ad platform marketplace fees fulfil order proposed flow topping btc similar flow utilized fiat deposits different api endpoint hit user requests scl btc api checks scl exists master wallet exists api requests btc deposit address deposit address generated sent user user deposits btc scl added user wallet final proposed flow attempting btc similar error flow fiat scl execute order existing master wallet user requests scl btc api checks scl exists master wallet scl exists error displayed user scl purchased master wallet inflated rate buy rate approximately 5% higher consolidated exchange rate sociall plans eventually implement peer peer buy sell function scl directly users account wallet eliminate need master wallet 7",
+    "metadata": {
+      "chunk_id": "70d7efb20a70f0507d32844da56ac3bc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 9] rate buy rate approximately 5% higher consolidated exchange rate sociall plans eventually implement peer peer buy sell function scl directly users account wallet eliminate need master wallet 7 x0cuser account account sociall set minute user simply signs email address requested password activation email clicked final stage onboarding begins steps onboarding process 1 user enters basic details accepts terms conditions 2 user clicks verification email confirm ownership email address 3 user taken final onboarding screen select interests predefined list 4 user taken short guided tour applications 5 onboarding process complete onboarding completed user browse application user update information account settings page temporary username created signup consists random generated id user update username wish usernames mention user post comment gateway profile url url structure user profile https sociall io u username urls publicly visitable user account logged redirected login signup page",
+    "metadata": {
+      "chunk_id": "c2b1e1f81c53d45369fe7dc915892e05",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 10] username wish usernames mention user post comment gateway profile url url structure user profile https sociall io u username urls publicly visitable user account logged redirected login signup page allowing proceed requested user xe2 x80 x99s profile privacy reasons sso single sign capabilities offered party applications websites like offer users ability signup login existing sociall account 8 x0cmarketplace sociall allow creation xe2 x80 x9cproduct posts xe2 x80 x9d platform represent goods services followers post purchase directly scl held account wallet example wanted sell old laptop simply attach image meta data describing item price scl users able search multiple ways marketplace uploaded post user decides purchase marketplace item simply click xe2 x80 x9cbuy xe2 x80 x9d button attached post password prompt displayed user sign transaction receiving user notification stating user purchased item users continue discuss finer details dedicated live chat product posts geo tagged users",
+    "metadata": {
+      "chunk_id": "03cfdade892a76497ecc71dd864598b7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 11] post password prompt displayed user sign transaction receiving user notification stating user purchased item users continue discuss finer details dedicated live chat product posts geo tagged users sociall search items location available local pickup wish marketplace small flat fee 1% scl taken seller transaction complete marketplace strict rules illegal goods services laid terms conditions website product posts violate terms removed platform ensure safe compliant environment escrow based services systems integrated near future protect buyers sellers consist holding account scl stored buyer receives item confirms beginning sociall support staff act mediators transaction platform gets closer self governing model mediator role moved moderations platform decentralised peerto peer marketplace experience 9 x0csenario 1 example proposed flow item purchased successfully item correct user purchases item scl sent escrow holding account seller posts item scl released holding wallet seller buyer",
+    "metadata": {
+      "chunk_id": "48e6b5f83d15fb50f8a1c3ff49c0bef1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine",
+          "illegal"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 14] text stored database user b recieves message message derypted key pair messages sociall eventually consist advanced functions interaction includes sending scl chat sharing recorded audio 11 readable message displayed user b x0cmobile applications sociall currently concentrating release web platform complete issues resolved team begin working semi hybrid mobile applications ios android applications consist features web version able create transactions access account wallet ios android apps moved native applications ensure better usability stability reliable faster native sdk calls native migration advanced integrations vpn tor added enhance privacy aspect platform web version application accessible mobile devices consists responsive design allows sociall users use platform mobile applications development refer roadmap section document information release dates community blog community section sociall way users platform discover new accounts follow engage community consider community",
+    "metadata": {
+      "chunk_id": "bccebc890105d92ace20fe25246535e8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 15] development refer roadmap section document information release dates community blog community section sociall way users platform discover new accounts follow engage community consider community section open public blog content rich posts seen sociall create post images links embedded multimedia users sociall read community section feature rich wysiwyg editor post creation breeze community section sociall visible search engines community posts indexed search engines section application visited users registered logged 12 x0cprivacy sociall private social network allow search engines index user profiles platform soon strict simple privacy settings users control profile personal data initial launch profiles visible users sociall future releases roadmap users ability profile posts private following account settings feature way following requests manually approvable instead having request automatically approved list simple settings exist profile visibility o public profile posts visible",
+    "metadata": {
+      "chunk_id": "fe2d667aef38aa58a5478c6445029215",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 16] account settings feature way following requests manually approvable instead having request automatically approved list simple settings exist profile visibility o public profile posts visible users sociall matter blocked users o private profile posts visible users follow following approval o following requests manually approved o following requests automatically approved crowdfunding crowdfunding capabilities soon added sociall represent ico integrate foreign new token crowdfunds sociall simply represent personal cause individual user trying raise funds charity family trying raise money medical bills crowdfunds use scl set funding goal deadline images related metadata sociall small fee 1% raised scl 13 x0cdecentralisation ipfs data multimedia uploads stored encrypted decentralized storage solution built maintained sociall system integrates hosted database utilizes mongodb sharding decentralisation storage 1 image sent client website server 2 image renamed encrypted sent cloud resizing",
+    "metadata": {
+      "chunk_id": "71b004673b3a89e94138f90301ad900a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 18] ipfs true distributed protocol allows decentralise sociall xe2 x80 x99s storage solution sociall plans moving multimedia uploads data storage ipfs 2019 proposed flow implemented successfully flow data objects json documents instead multimedia objects images image sent server uploading server processes image ipfs returns unique reference hash server utilises ipfs uploads 14 hash saved db reference hash client display image x0cad platform ad platform sociall consist semi automatic self serving process user sociall account scl balance 0 create submit ad campaign platform submitted campaigns manually revived sociall support staff going live network ensure quality compliance functions sociall process eventually moved self governing model moderators platform approve ads add fees paid scl based cpi cost impression basic metrics displayed ad creator xe2 x80 x9cad manager xe2 x80 x9d section number impressions performing interests date time impressions ads sociall sit news feed different",
+    "metadata": {
+      "chunk_id": "f74ea7b8eafd4cc9f767e4555eb0b500",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 22] away main api server frontend application frontend application developed recent version angular served simple nodejs server running expressjs sits complex docker image linux server utilises popular packages frameworks ngrx rxjs frontend uses openid standards authentication communication authentication server api server sociall api server runs recent version net core delivers information database frontend application readable manner restful api service meaning xe2 x80 x99s based representational state transfer technology communicates services sociall ecosystem image processing micro service identity server 17 x0cauthentication server authentication server runs open source identityserver slightly modified use recent version net core adapt mongodb decentralised solution authentication server api compatible use frontend project server issues refreshable jwts json web tokens client communicate api server api server checks jwt authentication server verify identity image processing micro",
+    "metadata": {
+      "chunk_id": "5a2069e2b3848f3921373fcbf5dd934d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 25] xe2 x80 x99s systems displays transparency community code repositories available sociall xe2 x80 x99s github profile https github com sociall io bounties public encouraged run tests project xe2 x80 x99s available code find flaws security design aspects opens door freelance security experts developers designers whitehat experts audit code report issues lead developers bounties offered findings support team deems error bug finds assessed manually individually payout depend severity issue finds paid scl user xe2 x80 x99s account wallet sociall members names mentioned credits section platform 19 x0csecurity course important aspect social networking platform security data authentication process sociall reputable open source project called identityserver handle authentication application sociall reputable party security firm run audits penetration testing servers applications developed ensures security vulnerabilities sociall xe2 x80 x99s code development flows public report available",
+    "metadata": {
+      "chunk_id": "7e110c1804be28caec368ab15cd27f7f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 26] reputable party security firm run audits penetration testing servers applications developed ensures security vulnerabilities sociall xe2 x80 x99s code development flows public report available audits complete sociall applications technology stack section tested ensure application secure vulnerabilities new audits tests conducted time new function pushed live platform dcorp developing auditing smart contract wallet hosho complete final audit code smart contract structure pushing live blockchain wallets exist smart contract blockchain sociall store private keys passwords database makes hacking account wallets virtually impossible user enters sophisticated password sociall enforce strict password criteria user sets wallet time code audit reports publicly accessible project xe2 x80 x99s github profile 20 x0cscl details platform utilises easy use cryptocurrency called scl pay goods services traditional money think scl native currency platform instead multiple different currencies usually",
+    "metadata": {
+      "chunk_id": "e2686ebd36419a1e3d70e7a9ff9c6e1f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 27] profile 20 x0cscl details platform utilises easy use cryptocurrency called scl pay goods services traditional money think scl native currency platform instead multiple different currencies usually come conversion fees scl erc20 based token ethereum blockchain code address total supply circulating supply emission rate role token sociall scl 0xd7631787b4dcc87b1254cfd1e5ce48e96823dee8 16 714 019 66 16 714 019 66 new coins created buy goods services ad spaces sociall strict nature smart contracts project set scl minted circulating supply slightly differ total supply reasons lost tokens locked accounts lost private keys number effectively determined circulating supply listed total supply scl stored erc20 compatible wallet source code source code scl found etherscan compliant erc20 contract developed frank bonnet https etherscan io address 0xd7631787b4dcc87b1254cfd1e5ce48e96823dee8 code 21 x0cexchanges having scl listed multiple exchanges important liquidity volume token sociall support",
+    "metadata": {
+      "chunk_id": "1588dd90611240e9e6ea9fc3895d1ee5",
+      "entities": {
+        "email": [],
+        "crypto_address": [
+          "0x"
+        ]
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 28] developed frank bonnet https etherscan io address 0xd7631787b4dcc87b1254cfd1e5ce48e96823dee8 code 21 x0cexchanges having scl listed multiple exchanges important liquidity volume token sociall support team constantly reaching large reputable exchanges upcoming exchanges scl listed team hopes sociall beta public release exchanges potential token project scl currently publicly tradeable following exchanges fcoin https exchange fcoin com ex gpm scl eth hitbtc https hitbtc com exchange scl btc bancor https www bancor network communities 5aead51570a04eaf69e59a88 currency cryptopia https www cryptopia co nz exchange market scl btc 22 x0croadmap projects roadmap year half dates scope subject change variables affect dates specified revenue priority team resources size q1 2018 v2 0b initial closed beta launch invite access platform invites sent frequently platform stable bug free bug fixes optimisations micro features continuously pushed closed beta q2 2018 preparing open beta testing bug",
+    "metadata": {
+      "chunk_id": "1cf09d9b2baa086940e5d8f5e27a99e8",
+      "entities": {
+        "email": [],
+        "crypto_address": [
+          "0x"
+        ]
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 29] beta launch invite access platform invites sent frequently platform stable bug free bug fixes optimisations micro features continuously pushed closed beta q2 2018 preparing open beta testing bug fixing closed beta invites sent public week security audit completed code authentication flow remove found vulnerabilities expanding development team q3 2018 opening floodgates moving platform open beta august releasing facebook migration tool releasing account deleting data exporting bug fixes optimisations taking code repositories open source post sharing capabilities releasing community section adding better profile privacy settings building talented house marketing team q4 2018 decentralised wallet integration users store receive send scl securely starting security audit wallet feature shipping live adding optional 2fa adding events groups sections public private use adding marketplace sociall users create product posts purchases send scl user user instant message q1 2019 allowing scl ups",
+    "metadata": {
+      "chunk_id": "f5f2752b11b71feb3fe65bbe6b64abb4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 30] live adding optional 2fa adding events groups sections public private use adding marketplace sociall users create product posts purchases send scl user user instant message q1 2019 allowing scl ups inside wallet fiat adding micro features multilingual capabilities concentrating mainly english spanish japanese chinese korean hindi 23 x0cfirst release come release self governing capabilities adding poll posts planning ipfs migration q2 2019 crowdfunding capabilities posts raise scl specific goal purpose release ios android applications migrating data multimedia uploads ipfs release ad platform language support business company organisation pages q3 2019 end end message encryption secret chats user user open api party single sign capabilities integrations foreign websites applications giphy support comments messages posts integrating civic verify identity receive verified badge features team planned project sociall listens voice community like hear thoughts future integrations additions",
+    "metadata": {
+      "chunk_id": "942075440a8fa6c3d70bfb853368e775",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  },
+  {
+    "text": "[Section 31] support comments messages posts integrating civic verify identity receive verified badge features team planned project sociall listens voice community like hear thoughts future integrations additions features contact info sociall io d like suggest feature idea 24 x0ccontact support questions sociall team technology hesitate reach channel listed sociall values communities feedback consider requests website https sociall io email info sociall io medium blog https medium com sociall io facebook https www facebook com sociall io twitter https twitter com sociall io instagram https www instagram com sociall io reddit https www reddit com r sociall telegram https t sociall io youtube https www youtube com c sociall io bitcointalk https bitcointalk org index php topic 2100970 github https github com sociall io 25 x0c",
+    "metadata": {
+      "chunk_id": "d29e388f32ea1a81618c9352f1388b07",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Sociall.txt"
+    }
+  }
+]

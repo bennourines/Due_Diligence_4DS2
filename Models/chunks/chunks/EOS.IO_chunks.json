@@ -1,0 +1,800 @@
+[
+  {
+    "text": "[Section 1] skip content github enterprise explore marketplace pricing search sign sign eosio documentation 3212 1k906 code issues 27 pull requests 53 actions security insights join github today github home 40 million developers working host review code manage projects build software documentation technicalwhitepaper md gleehokie gleehokie moved images hosted github a95c323 28 apr 2018 gleehokie testzcrypto hkshwa bytemaster thomasbcox nathanhourt chanryma 1337micro 466 lines 263 sloc 50 3 kb eos io technical white paper v2 march 16 2018 abstract eos io software introduces new blockchain architecture designed enable vertical horizontal scaling decentralized applications achieved creating operating system like construct applications built software provides accounts authentication databases asynchronous communication scheduling applications cpu cores clusters resulting technology blockchain architecture ultimately scale millions transactions second eliminates user fees allows quick easy deployment",
+    "metadata": {
+      "chunk_id": "bd0e8ad09b585f8df6f57d9aa72db00b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 2] communication scheduling applications cpu cores clusters resulting technology blockchain architecture ultimately scale millions transactions second eliminates user fees allows quick easy deployment maintenance decentralized applications context governed blockchain note cryptographic tokens referred white paper refer cryptographic tokens launched blockchain adopts eos io software refer erc 20 compatible tokens distributed ethereum blockchain connection eos token distribution copyright 2018 block permission use reproduce distribute material white paper non commercial educational use e fee commercial purposes provided original source applicable copyright notice cited disclaimer eos io technical white paper v2 information purposes block guarantee accuracy conclusions reached white paper white paper provided block expressly disclaims representations warranties express implied statutory whatsoever including limited warranties merchantability fitness particular purpose suitability usage",
+    "metadata": {
+      "chunk_id": "e0c1dfd18520ebf77177798cd8ecd55f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 3] paper provided block expressly disclaims representations warranties express implied statutory whatsoever including limited warranties merchantability fitness particular purpose suitability usage title noninfringement ii contents white paper free error iii contents infringe party rights block affiliates shall liability damages kind arising use reference reliance white paper content contained advised possibility damages event block affiliates liable person entity damages losses liabilities costs expenses kind direct indirect consequential compensatory incidental actual exemplary punitive special use reference reliance white paper content contained including limitation loss business revenues profits data use goodwill intangible losses background requirements blockchain applications support millions users free usage easy upgrades bug recovery low latency sequential performance parallel performance consensus algorithm bft dpos transaction confirmation transaction proof stake tapos accounts",
+    "metadata": {
+      "chunk_id": "66285a6c1deaa676776c53eb2b4d555a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 4] users free usage easy upgrades bug recovery low latency sequential performance parallel performance consensus algorithm bft dpos transaction confirmation transaction proof stake tapos accounts actions handlers role based permission management named permission levels permission mapping evaluating permissions default permission groups parallel evaluation permissions actions mandatory delay recovery stolen keys deterministic parallel execution applications minimizing communication latency read action handlers atomic transactions multiple accounts partial evaluation blockchain state subjective best effort scheduling deferred transactions context free actions token model resource usage objective subjective measurements receiver pays delegating capacity separating transaction costs token value state storage costs block rewards worker proposal system governance freezing accounts changing account code constitution upgrading protocol constitution emergency changes scripts virtual machines",
+    "metadata": {
+      "chunk_id": "2afb26c9bd9be3ba3c4c832d1b8a0a17",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug",
+          "stolen keys"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 5] state storage costs block rewards worker proposal system governance freezing accounts changing account code constitution upgrading protocol constitution emergency changes scripts virtual machines schema defined actions schema defined database generic multi index database api separating authentication application inter blockchain communication merkle proofs light client validation lcv latency interchain communication proof completeness segregated witness conclusion background blockchain technology introduced 2008 launch bitcoin currency entrepreneurs developers attempted generalize technology support wider range applications single blockchain platform number blockchain platforms struggled support functional decentralized applications application specific blockchains bitshares decentralized exchange 2014 steem social media platform 2016 heavily blockchains tens thousands daily active users achieved increasing performance thousands transactions second reducing latency 1 5 seconds",
+    "metadata": {
+      "chunk_id": "d84436716c1283efce17b5848655dc47",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 6] exchange 2014 steem social media platform 2016 heavily blockchains tens thousands daily active users achieved increasing performance thousands transactions second reducing latency 1 5 seconds eliminating transaction fees providing user experience similar currently provided existing centralized services existing blockchain platforms burdened large fees limited computational capacity prevent widespread blockchain adoption requirements blockchain applications order gain widespread use applications blockchain require platform flexible meet following requirements support millions users competing businesses ebay uber airbnb facebook require blockchain technology capable handling tens millions active daily users certain cases application work critical mass users reached platform handle large numbers users paramount free usage application developers need flexibility offer users free services users pay order use platform benefit services blockchain platform free use users likely gain",
+    "metadata": {
+      "chunk_id": "87a48e07cdc75416dca44c8f1f4e9e7c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 7] large numbers users paramount free usage application developers need flexibility offer users free services users pay order use platform benefit services blockchain platform free use users likely gain widespread adoption developers businesses create effective monetization strategies easy upgrades bug recovery businesses building blockchain based applications need flexibility enhance applications new features platform support software smart contract upgrades non trivial software subject bugs rigorous formal verification platform robust fix bugs inevitably occur low latency good user experience demands reliable feedback delay seconds longer delays frustrate users applications built blockchain competitive existing non blockchain alternatives platform support low latency transactions sequential performance applications implemented parallel algorithms sequentially dependent steps applications exchanges need sequential performance handle high volumes platform support fast sequential",
+    "metadata": {
+      "chunk_id": "9c9b3ef93e18d4131e5c67a18948ee06",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 8] performance applications implemented parallel algorithms sequentially dependent steps applications exchanges need sequential performance handle high volumes platform support fast sequential performance parallel performance large scale applications need divide workload multiple cpus computers consensus algorithm bft dpos eos io software utilizes known decentralized consensus algorithm proven capable meeting performance requirements applications blockchain delegated proof stake dpos algorithm hold tokens blockchain adopting eos io software select block producers continuous approval voting system choose participate block production given opportunity produce blocks provided persuade token holders vote eos io software enables blocks produced exactly 0 5 second exactly producer authorized produce block given point time block produced scheduled time block time slot skipped blocks skipped 0 5 second gap blockchain eos io software blocks produced rounds 126 6 blocks times 21 producers start",
+    "metadata": {
+      "chunk_id": "15778caa8f37d799af711b5f594995be",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 9] block given point time block produced scheduled time block time slot skipped blocks skipped 0 5 second gap blockchain eos io software blocks produced rounds 126 6 blocks times 21 producers start round 21 unique block producers chosen preference votes cast token holders selected producers scheduled order agreed 15 producers producer misses block produced block 24 hours removed consideration notify blockchain intention start producing blocks ensures network operates smoothly minimizing number blocks missed scheduling producers proven unreliable normal conditions dpos blockchain experience forks compete block producers cooperate produce blocks event fork consensus automatically switch longest chain method works rate blocks added blockchain fork directly correlated percentage block producers share consensus words blockchain fork producers grow length faster fewer producers fork producers experience fewer missed blocks furthermore block producer producing blocks forks time block producer",
+    "metadata": {
+      "chunk_id": "3618de378f959e583c38178c6c2bbb72",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 10] share consensus words blockchain fork producers grow length faster fewer producers fork producers experience fewer missed blocks furthermore block producer producing blocks forks time block producer caught likely voted cryptographic evidence double production automatically remove abusers byzantine fault tolerance added traditional dpos allowing producers sign blocks long producer signs blocks timestamp block height 15 producers signed block block deemed irreversible byzantine producer generate cryptographic evidence treason signing blocks timestamp blockheight model irreversible consensus reachable 1 second transaction confirmation typical dpos blockchains 100% block producer participation transaction considered confirmed 99 9% certainty average 0 25 seconds time broadcast addition dpos eos io adds asynchronous byzantine fault tolerance abft faster achievement irreversibility abft algorithm provides 100% confirmation irreversibility 1 second transaction proof stake tapos eos io",
+    "metadata": {
+      "chunk_id": "5751c5777704ac2f98ab00efbdd1314e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 11] dpos eos io adds asynchronous byzantine fault tolerance abft faster achievement irreversibility abft algorithm provides 100% confirmation irreversibility 1 second transaction proof stake tapos eos io software requires transaction include hash recent block header hash serves purposes prevents replay transaction forks include referenced block signals network particular user stake specific fork time users end directly confirming blockchain makes difficult forge counterfeit chains counterfeit able migrate transactions legitimate chain accounts eos io software permits accounts referenced unique human readable 12 characters length chosen creator account account creator reserve ram required store new account new account stakes tokens reserve ram decentralized context application developers pay nominal cost account creation sign new user traditional businesses spend significant sums money customer acquire form advertising free services etc cost funding new blockchain account insignificant",
+    "metadata": {
+      "chunk_id": "7bac50714c15d4a64d5753ac70134a23",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 12] nominal cost account creation sign new user traditional businesses spend significant sums money customer acquire form advertising free services etc cost funding new blockchain account insignificant comparison fortunately need create accounts users signed application actions handlers account send structured actions accounts define scripts handle actions received eos io software gives account private database accessed action handlers action handling scripts send actions accounts combination actions automated action handlers eos io defines smart contracts support parallel execution account define number scopes database block producers schedule transaction way conflict memory access scopes executed parallel role based permission management permission management involves determining action properly authorized simplest form permission management checking transaction required signatures implies required signatures known generally authority bound individuals groups individuals",
+    "metadata": {
+      "chunk_id": "5a5abfdb1b2d031f328dbd631b99e5bf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 13] action properly authorized simplest form permission management checking transaction required signatures implies required signatures known generally authority bound individuals groups individuals compartmentalized eos io software provides declarative permission management system gives accounts fine grained high level control critical authentication permission management standardized separated business logic application enables tools developed manage permissions general purpose manner provide significant opportunities performance optimization account controlled weighted combination accounts private keys creates hierarchical authority structure reflects permissions organized reality makes multi user control accounts easier multi user control single biggest contributor security properly greatly reduce risk theft hacking eos io software allows accounts define combination keys accounts send particular action type account example possible key user s social media account access exchange",
+    "metadata": {
+      "chunk_id": "0209c5f1dc7dc99b9607156cc7cab8a2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 14] greatly reduce risk theft hacking eos io software allows accounts define combination keys accounts send particular action type account example possible key user s social media account access exchange possible accounts permission act behalf user s account assigning keys named permission levels eos io software accounts define named permission levels derived higher level named permissions named permission level defines authority authority threshold multi signature check consisting keys named permission levels accounts example account s friend permission level set action account controlled equally account s friends example steem blockchain hard coded named permission levels owner active posting posting permission perform social actions voting posting active permission change owner owner permission meant cold storage able eos io software generalizes concept allowing account holder define hierarchy grouping actions permission mapping eos io software allows account define mapping contract",
+    "metadata": {
+      "chunk_id": "20c61fbcd1a14b2f9de72af8637f325b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 16] authority validated threshold multi signature process authority associated named permission fails traverses parent permission ultimately owner permission alice owner default permission groups eos io technology allows accounts owner group active group change owner group permission groups derived active parallel evaluation permissions permission evaluation process read changes permissions transactions effect end block means keys permission evaluation transactions executed parallel furthermore means rapid validation permission possible starting costly application logic rolled lastly means transaction permissions evaluated pending transactions received need evaluated applied things considered permission verification represents significant percentage computation required validate transactions making read trivially parallelizable process enables dramatic increase performance replaying blockchain regenerate deterministic state log actions need evaluate permissions fact transaction included",
+    "metadata": {
+      "chunk_id": "33c02f4146d57be2386f401b5e0828dc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 17] making read trivially parallelizable process enables dramatic increase performance replaying blockchain regenerate deterministic state log actions need evaluate permissions fact transaction included known good block sufficient skip step dramatically reduces computational load associated replaying growing blockchain actions mandatory delay time critical component security cases possible know private key stolen time based security critical people applications require keys kept computers connected internet daily use eos io software enables application developers indicate certain actions wait minimum period time included block applied time cancelled users receive notice email text message actions broadcast authorize use account recovery process recover account retract action required delay depends sensitive operation paying coffee delay irreversible seconds buying house require 72 hour clearing period transferring entire account new control 30 days exact delays chosen application",
+    "metadata": {
+      "chunk_id": "5e404b0f78f6e77689623c93d4f90ecc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 18] delay depends sensitive operation paying coffee delay irreversible seconds buying house require 72 hour clearing period transferring entire account new control 30 days exact delays chosen application developers users recovery stolen keys eos io software provides users way restore control account keys stolen account owner use owner key active 30 days approval designated account recovery partner reset owner key account account recovery partner reset control account help owner hacker gain attempting recovery process control account furthermore process recovery partner likely demand identification multi factor authentication phone email likely compromise hacker gain hacker process process different simple multi signature arrangement multi signature transaction entity party transaction executed contrast recovery process recovery partner party recovery process power day day transactions dramatically reduces costs legal liabilities involved deterministic parallel execution applications",
+    "metadata": {
+      "chunk_id": "bd69e1694781fddf0157862776ebb406",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack",
+          "stolen keys"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 19] contrast recovery process recovery partner party recovery process power day day transactions dramatically reduces costs legal liabilities involved deterministic parallel execution applications blockchain consensus depends deterministic reproducible behavior means parallel execution free use mutexes locking primitives locks way guarantee transactions executed parallel create non deterministic results june 2018 release eos io software run single threaded contains data structures necessary future multithreaded parallel execution eos io software based blockchain parallel operation enabled job block producer organize action delivery independent shards evaluated parallel schedule output block producer deterministically executed process generating schedule need deterministic means block producers utilize parallel algorithms schedule transactions parallel execution means script generates new action delivered immediately instead scheduled delivered cycle reason delivered immediately receiver",
+    "metadata": {
+      "chunk_id": "1b89f0581555e00ad24e9b6dd56012c4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 20] utilize parallel algorithms schedule transactions parallel execution means script generates new action delivered immediately instead scheduled delivered cycle reason delivered immediately receiver actively modifying state shard minimizing communication latency latency time takes account send action account receive response goal enable accounts exchange actions forth single block having wait 0 5 seconds action enable eos io software divides block cycles cycle divided shards shard contains list transactions transaction contains set actions delivered structure visualized tree alternating layers processed sequentially parallel block region cycles sequential shards parallel transactions sequential actions sequential receiver notified accounts parallel transactions generated cycle delivered subsequent cycle block block producers adding cycles block maximum wall clock time passed new generated transactions deliver possible use static analysis block verify given cycle shards contain",
+    "metadata": {
+      "chunk_id": "2e50b121c0a1f33b356e7317cbfb273d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 21] subsequent cycle block block producers adding cycles block maximum wall clock time passed new generated transactions deliver possible use static analysis block verify given cycle shards contain transactions modify account long invariant maintained block processed running shards parallel read action handlers accounts able process action pass fail basis modifying internal state case handlers executed parallel long read action handlers particular account included shards particular cycle atomic transactions multiple accounts desirable ensure actions delivered accepted multiple accounts atomically case actions placed transaction accounts assigned shard actions applied sequentially partial evaluation blockchain state scaling blockchain technology necessitates components modular run especially need use small subset applications exchange application developer runs nodes purpose displaying exchange state users exchange application need state associated social media applications eos io software",
+    "metadata": {
+      "chunk_id": "faf7b1c8b970c5b56601d8bd98ba405c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 22] use small subset applications exchange application developer runs nodes purpose displaying exchange state users exchange application need state associated social media applications eos io software allows node pick subset applications run actions delivered applications safely ignored application depends state contract subjective best effort scheduling eos io software obligate block producers deliver action account block producer makes subjective measurement computational complexity time required process transaction applies transaction generated user automatically smart contract launched blockchain adopting eos io software network level transactions billed computational bandwidth cost based number wasm instructions executed individual block producer software calculate resource usage algorithm measurements block producer concludes transaction account consumed disproportionate computational capacity simply reject transaction producing block process transaction block producers consider",
+    "metadata": {
+      "chunk_id": "57d38cd16aa1f2ca215e7457dcfdf011",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 23] measurements block producer concludes transaction account consumed disproportionate computational capacity simply reject transaction producing block process transaction block producers consider valid general long 1 block producer considers transaction valid resource usage limits block producers accept 1 minute transaction find producer cases producer create block includes transactions order magnitude outside acceptable ranges case block producer opt reject block tie broken producer different happen large block caused network propagation delays community notice pattern abuse eventually remove votes rogue producer subjective evaluation computational cost frees blockchain having precisely deterministically measure long takes run design need precisely count instructions dramatically increases opportunities optimization breaking consensus deferred transactions eos io software supports deferred transactions scheduled execute future enables computation different shards creation long running",
+    "metadata": {
+      "chunk_id": "cabf3ac8a20511713bdeb39a14632101",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 24] opportunities optimization breaking consensus deferred transactions eos io software supports deferred transactions scheduled execute future enables computation different shards creation long running processes continuously schedule continuance transaction context free actions context free action involves computations depend transaction data blockchain state signature verification example computation requires transaction data signature determine public key signed transaction expensive individual computations blockchain perform computation context free performed parallel context free actions like user actions lack access blockchain state perform validation enable eos io process context free actions signature verification parallel importantly enables generalized signature verification support context free actions scalability techniques sharding raiden plasma state channels parallelizable practical development enables efficient inter blockchain communication potentially unlimited",
+    "metadata": {
+      "chunk_id": "12982ac7c3792aa1c9cc71c08cdf612d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 25] support context free actions scalability techniques sharding raiden plasma state channels parallelizable practical development enables efficient inter blockchain communication potentially unlimited scalability token model resource usage note cryptographic tokens referred white paper refer cryptographic tokens launched blockchain adopts eos io software refer erc 20 compatible tokens distributed ethereum blockchain connection eos token distribution blockchains resource constrained require system prevent abuse blockchain uses eos io software broad classes resources consumed applications bandwidth log storage disk computation computational backlog cpu state storage ram bandwidth computation components instantaneous usage long term usage blockchain maintains log actions log ultimately stored downloaded nodes log actions possible reconstruct state applications computational debt calculations performed regenerate state action log computational debt grows large necessary snapshots blockchain",
+    "metadata": {
+      "chunk_id": "52cb12588bdaec3380b5f094ff61a919",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 26] nodes log actions possible reconstruct state applications computational debt calculations performed regenerate state action log computational debt grows large necessary snapshots blockchain s state discard blockchain s history computational debt grows quickly 6 months replay 1 year worth transactions critical computational debt carefully managed blockchain state storage information accessible application logic includes information order books account balances state read application stored example blog post content comments read application logic stored blockchain s state existence post comment number votes properties stored blockchain s state block producers publish available capacity bandwidth computation state eos io software allows account consume percentage available capacity proportional tokens held 3 day staking contract example blockchain based eos io software launched account holds 1% total tokens distributable pursuant blockchain account potential utilize 1% state storage",
+    "metadata": {
+      "chunk_id": "8bb48198946330f5e0bea6ad591e1a40",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 27] tokens held 3 day staking contract example blockchain based eos io software launched account holds 1% total tokens distributable pursuant blockchain account potential utilize 1% state storage capacity adopting eos io software launched blockchain means bandwidth computational capacity allocated fractional reserve basis transient unused capacity saved future use algorithm eos io software similar algorithm steem rate limit bandwidth usage objective subjective measurements discussed earlier instrumenting computational usage significant impact performance optimization resource usage constraints ultimately subjective enforcement block producers according individual algorithms estimates typically implemented block producer writing custom plugin said certain things trivial measure objectively number actions delivered size data stored internal database cheap measure objectively eos io software enables block producers apply algorithm objective measures choose apply stricter subjective",
+    "metadata": {
+      "chunk_id": "a5d4064075ce842839c84cab9fe996c5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 28] number actions delivered size data stored internal database cheap measure objectively eos io software enables block producers apply algorithm objective measures choose apply stricter subjective algorithms subjective measurements receiver pays traditionally business pays office space computational power costs required run business customer buys specific products business revenue product sales cover business costs operation similarly website obligates visitors micropayments visiting website cover hosting costs decentralized applications force customers pay blockchain directly use blockchain launched blockchain uses eos io software require users pay blockchain directly use constrain prevent business determining monetization strategy products true receiver pay eos io enables sender pay bandwidth computation storage empowers application developers pick method best application cases sender pays significantly reduces complexity application developers want implement rationing system",
+    "metadata": {
+      "chunk_id": "8f9e27bc7c751b287e4f14fefcbf5299",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 29] bandwidth computation storage empowers application developers pick method best application cases sender pays significantly reduces complexity application developers want implement rationing system application developers delegate bandwidth computation users let sender pays model enforce usage perspective end user free perspective blockchain sender pays delegating capacity holder tokens blockchain launched adopting eos io software immediate need consume available bandwidth delegate rent unconsumed bandwidth block producers running eos io software blockchain recognize delegation capacity allocate bandwidth accordingly separating transaction costs token value major benefits eos io software bandwidth available application entirely independent token price application owner holds relevant number tokens blockchain adopting eos io software application run indefinitely fixed state bandwidth usage case developers users unaffected price volatility token market reliant price feed words blockchain",
+    "metadata": {
+      "chunk_id": "77edc25474859323465cada7e844885f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 30] tokens blockchain adopting eos io software application run indefinitely fixed state bandwidth usage case developers users unaffected price volatility token market reliant price feed words blockchain adopts eos io software enables block producers naturally increase bandwidth computation storage available token independent token s value blockchain eos io software awards block producers tokens time produce block value tokens impact bandwidth storage computation producer afford purchase model naturally leverages rising token values increase network performance state storage costs bandwidth computation delegated storage application state require application developer hold tokens state deleted state deleted tokens effectively removed circulation block rewards blockchain adopts eos io software award new tokens block producer time block produced circumstances number tokens created determined median desired pay published block producers eos io software configured enforce cap producer awards",
+    "metadata": {
+      "chunk_id": "4d53adf2ba31f8cc37bfc86b3b71c658",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 31] award new tokens block producer time block produced circumstances number tokens created determined median desired pay published block producers eos io software configured enforce cap producer awards total annual increase token supply exceed 5% worker proposal system addition electing block producers pursuant blockchain based eos io software token holders elect number worker proposals designed benefit community winning proposals receive tokens configured percent token inflation minus tokens paid block producers proposals receive tokens proportional votes application received token holders request performing work elected proposals replaced newly elected proposals token holders system contracts implement worker proposals place initial launch june 2018 funding mechanism begin accumulate funds time block producer awards start worker proposal system implemented wasm added later date fork governance governance process people community reach consensus subjective matters collective action",
+    "metadata": {
+      "chunk_id": "d5d1d39df6cfc83633480528552daa3a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 32] time block producer awards start worker proposal system implemented wasm added later date fork governance governance process people community reach consensus subjective matters collective action captured entirely software algorithms carry decisions reach alter governance rules constitutional amendments eos io software based blockchain implements governance process efficiently directs existing influence block producers absent defined governance process prior blockchains relied ad hoc informal controversial governance processes result unpredictable outcomes blockchain based eos io software recognizes power originates token holders delegate power block producers block producers given limited checked authority freeze accounts update defective applications propose hard forking changes underlying protocol embedded eos io software election block producers change blockchain block producers approve block producers refuse changes desired token holders voted block producers changes permission",
+    "metadata": {
+      "chunk_id": "2a663ad47114ac1b81d08cfda6c6fc1c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 33] protocol embedded eos io software election block producers change blockchain block producers approve block producers refuse changes desired token holders voted block producers changes permission token holders non producing node validators exchanges etc reject change freezing accounts smart contact behaves aberrant unpredictable manner fails perform intended times application account discover exploit enables consume unreasonable resources issues inevitably occur block producers power rectify situations block producers blockchains power select transactions included blocks gives ability freeze accounts blockchain eos io software formalizes authority subjecting process freezing account 15 21 vote active producers producers abuse power voted account unfrozen changing account code fails unstoppable application acts unpredictable manner blockchain eos io software allows block producers replace account s code hard forking entire blockchain similar process freezing account replacement code",
+    "metadata": {
+      "chunk_id": "61331f4d1c978ad5b2399c17667a9d58",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 11.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 34] application acts unpredictable manner blockchain eos io software allows block producers replace account s code hard forking entire blockchain similar process freezing account replacement code requires 15 21 vote elected block producers constitution eos io software enables blockchains establish peer peer terms service agreement binding contract users sign referred constitution content constitution defines obligations users entirely enforced code facilitates dispute resolution establishing jurisdiction choice law mutually accepted rules transaction broadcast network incorporate hash constitution signature explicitly binds signer contract constitution defines human readable intent source code protocol intent identify difference bug feature errors occur guides community fixes proper improper upgrading protocol constitution eos io software defines following process protocol defined canonical source code constitution updated block producers propose change constitution obtains 15 21 approval",
+    "metadata": {
+      "chunk_id": "15f8e58d4a123f8d503718d02c93a186",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "bug"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 35] protocol constitution eos io software defines following process protocol defined canonical source code constitution updated block producers propose change constitution obtains 15 21 approval block producers maintain 15 21 approval new constitution 30 consecutive days users required indicate acceptance new constitution condition future transactions processed block producers adopt changes source code reflect change constitution propose blockchain hash new constitution block producers maintain 15 21 approval new code 30 consecutive days changes code effect 7 days later giving non producing nodes 1 week upgrade ratification source code nodes upgrade new code shut automatically default configuration eos io software process updating blockchain add new features takes 2 3 months updates fix non critical bugs require changes constitution 1 2 months emergency changes block producers accelerate process software change required fix harmful bug security exploit actively harming users generally",
+    "metadata": {
+      "chunk_id": "57c973c774cbad10943300c81e41a900",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "bug",
+          "exploit"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 34.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 36] critical bugs require changes constitution 1 2 months emergency changes block producers accelerate process software change required fix harmful bug security exploit actively harming users generally speaking constitution accelerated updates introduce new features fix harmless bugs scripts virtual machines eos io software foremost platform coordinating delivery authenticated messages called actions accounts details scripting language virtual machine implementation specific details independent design eos io technology language virtual machine deterministic properly sandboxed sufficient performance integrated eos io software api schema defined actions actions sent accounts defined schema blockchain consensus state schema allows seamless conversion binary json representation actions schema defined database database state defined similar schema ensures data stored applications format interpreted human readable json stored manipulated efficiency binary generic multi index database api",
+    "metadata": {
+      "chunk_id": "5a12a3c547f184fb59a66b89ff7227e3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "bug",
+          "exploit"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 34.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 37] defined database database state defined similar schema ensures data stored applications format interpreted human readable json stored manipulated efficiency binary generic multi index database api developing smart contracts requires defined database schema track store find data developers commonly need data sorted indexed multiple fields maintain consistency indices separating authentication application maximize parallelization opportunities minimize computational debt associated regenerating application state transaction log eos io software separates validation logic sections validating action internally consistent validating preconditions valid modifying application state validating internal consistency action read requires access blockchain state means performed maximum parallelism validating preconditions required balance read benefit parallelism modification application state requires write access processed sequentially application authentication read process verifying action",
+    "metadata": {
+      "chunk_id": "591f0ad061dde2e0a004d60c61d809bf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 38] validating preconditions required balance read benefit parallelism modification application state requires write access processed sequentially application authentication read process verifying action applied application actually work real time calculations required performed transaction included blockchain longer necessary perform authentication operations inter blockchain communication eos io software designed facilitate inter blockchain communication achieved making easy generate proof action existence proof action sequence proofs combined application architecture designed action passing enables details inter blockchain communication proof validation hidden application developers enabling high level abstractions presented developers merkle proofs light client validation lcv integrating blockchains easier clients need process transactions exchange cares transfers exchange ideal exchange chain utilize lightweight merkle proofs deposit having trust block producers entirely chain s",
+    "metadata": {
+      "chunk_id": "8b6fe4eef567637fe069d763d14ad44c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 39] blockchains easier clients need process transactions exchange cares transfers exchange ideal exchange chain utilize lightweight merkle proofs deposit having trust block producers entirely chain s block producers like maintain smallest possible overhead synchronizing blockchain goal lcv enable generation relatively light weight proof existence validated tracking relatively light weight data set case objective prove particular transaction included particular block block included verified history particular blockchain bitcoin supports validation transactions assuming nodes access history block headers amounts 4mb block headers year 10 transactions second valid proof requires 512 bytes works blockchain 10 minute block interval longer light blockchains 0 5 second block interval eos io software enables lightweight proofs irreversible block header point transaction included hash linked structure shown possible prove existence transaction proof 1024 bytes size given block id block blockchain",
+    "metadata": {
+      "chunk_id": "fe9db1391645e05b464c4f83ce91106e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 40] enables lightweight proofs irreversible block header point transaction included hash linked structure shown possible prove existence transaction proof 1024 bytes size given block id block blockchain headers trusted irreversible block possible prove block included blockchain proof takes ceil log2 n digests path n number blocks chain given digest method sha256 prove existence block chain contains 100 million blocks 864 bytes little incremental overhead associated producing blocks proper hash linking enable proofs means reason generate blocks way comes time validate proofs chains wide variety time space bandwidth optimizations tracking block headers 420 mb year proof sizes small tracking recent headers offer trade minimal long term storage proof size alternatively blockchain use lazy evaluation approach remembers intermediate hashes past proofs new proofs include links known sparse tree exact approach necessarily depend percentage foreign blocks include transactions referenced merkle",
+    "metadata": {
+      "chunk_id": "e9799fdb07358164481c891d72c07f0b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 41] approach remembers intermediate hashes past proofs new proofs include links known sparse tree exact approach necessarily depend percentage foreign blocks include transactions referenced merkle proof certain density interconnectedness efficient simply chain contain entire block history chain eliminate need proofs performance reasons ideal minimize frequency inter chain proofs latency interchain communication communicating outside blockchain block producers wait 100% certainty transaction irreversibly confirmed blockchain accepting valid input eos io software based blockchain dpos 0 5 second blocks addition byzantine fault tolerant irreversibility takes approximately 0 5 second chain s block producers wait irreversibility like exchange crediting deposit later reversed impact validity blockchain s consensus eos io software uses dpos abft provide rapid irreversibility proof completeness merkle proofs outside blockchains significant difference knowing transactions processed valid knowing",
+    "metadata": {
+      "chunk_id": "32ed15894ec1edff9e8f9c7d5fc1cf9c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 42] s consensus eos io software uses dpos abft provide rapid irreversibility proof completeness merkle proofs outside blockchains significant difference knowing transactions processed valid knowing transactions skipped omitted impossible prove recent transactions known possible prove gaps transaction history eos io software facilitates assigning sequence number action delivered account user use sequence numbers prove actions intended particular account processed processed order segregated witness concept segregated witness segwit transaction signatures relevant transaction immutably included blockchain immutable signature data pruned derive current state signatures represent large percentage transactions segwit represents significant savings disk usage syncing time concept apply merkle proofs inter blockchain communication proof accepted irreversibly logged blockchain 2kb sha256 hashes proof longer necessary derive proper blockchain state case inter blockchain communication savings 32x",
+    "metadata": {
+      "chunk_id": "e9d4a0bd8b7d93344642652c95de4f53",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  },
+  {
+    "text": "[Section 43] inter blockchain communication proof accepted irreversibly logged blockchain 2kb sha256 hashes proof longer necessary derive proper blockchain state case inter blockchain communication savings 32x greater savings normal signatures example segwit steem blog posts model post contain sha256 blog content blog content segregated witness data block producer verify content exists given hash blog content need stored order recover current state blockchain log enables proof content known having store said content forever conclusion eos io software designed experience proven concepts best practices represents fundamental advancements blockchain technology software holistic blueprint globally scalable blockchain society decentralized applications easily deployed governed 2020 github inc terms privacy security status help contact github pricing api training blog",
+    "metadata": {
+      "chunk_id": "31f79720f664107cf8a3a3fe48dd5c48",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "EOS.IO.txt"
+    }
+  }
+]

@@ -1,0 +1,1356 @@
+[
+  {
+    "text": "[Section 1] b version 0 988 updated 06 13 2018 notes 1 draft owner s manual work progress describes design structure metronome new type cryptocurrency metronome underlying technology development owner s manual updated process reflect changes development cycle measure taken ensure accuracy material metronome authors partners guarantee accuracy completeness material found owner s manual 2 potential purchasers metronome participants metronome ecosystem read owner s manual including acknowledgements disclaimers appendix carefully consider risks making purchase 0 x0cowner xe2 x80 x99s manual license xc2 xa9 2018 autonomous software rights expressly granted licensor reserved autonomous software xe2 x80 x9clicensor xe2 x80 x9d owns retains exclusive ownership right title interest copyrights intellectual property rights metronome owner xe2 x80 x99s manual xe2 x80 x9cowner xe2 x80 x99s manual xe2 x80 x9d genericized version defined owner xe2 x80 x99s manual genericized version collectively referred xe2 x80",
+    "metadata": {
+      "chunk_id": "b854b6d4f8a66a260f2b447b2af5a6df",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 2] rights metronome owner xe2 x80 x99s manual xe2 x80 x9cowner xe2 x80 x99s manual xe2 x80 x9d genericized version defined owner xe2 x80 x99s manual genericized version collectively referred xe2 x80 x9cwork xe2 x80 x9d xe2 x80 x9cmetronome xe2 x80 x9d xe2 x80 x9cmet xe2 x80 x9d metronome logo collectively xe2 x80 x9cmetronome marks xe2 x80 x9d trademarks licensor licensor xe2 x80 x99s express written permission use metronome marks confusingly similar mark connection product service manner cause confusion marketplace including advertising software hardware 1 license grant restrictions xe2 x80 x8bsubject terms conditions license licensor grants worldwide royalty free non exclusive perpetual license copy display distribute owner xe2 x80 x99s manual modification modify create derivative work genericized version defined copy display distribute work provided foregoing creates implication work cryptocurrency smart contract technology described way associated endorsed licensor affiliates rights",
+    "metadata": {
+      "chunk_id": "cee17f4eab3cf7510759e8c7dd70e73c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 3] version defined copy display distribute work provided foregoing creates implication work cryptocurrency smart contract technology described way associated endorsed licensor affiliates rights exercised media formats known devised rights include right modifications technically necessary exercise rights media formats time distribute publicly perform work licensor grants recipient license work terms conditions license granted license xe2 x80 x9cgenericized version xe2 x80 x9d means version owner xe2 x80 x99s manual include contain reference licensor licensor xe2 x80 x99s affiliates words metronome met metronome marks 2 proposed modifications owner xe2 x80 x99s manual xe2 x80 x8b submitting proposed modification owner xe2 x80 x99s manual assign licensor copyrights restriction proposed modification licensor choose sole discretion include include proposed modification owner xe2 x80 x99s manual modified unmodified form 3 disclaimer representations warranties xe2 x80 x8b owner xe2 x80 x99s",
+    "metadata": {
+      "chunk_id": "32b998e6e3e835342336580af13a7fb2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 5] signed party charged waiver consent 5 treaty rights xe2 x80 x8b rights granted subject matter referenced license drafted utilizing terminology berne convention protection literary artistic works amended september 28 1979 rome convention 1961 wipo copyright treaty 1996 wipo performances phonograms treaty 1996 universal copyright convention revised july 24 1971 rights subject matter effect relevant jurisdiction license terms sought enforced according corresponding provisions implementation treaty provisions 1 x0capplicable national law standard suite rights granted applicable copyright law includes additional rights granted license additional rights deemed included license license intended restrict license rights applicable law 2 x0ctable contents table contents 3 list tables figures 4 motivations 5 taking cryptocurrency level xe2 x80 xa6 literally executive summary background 7 8 10 blockchain technology 10 cryptocurrency 10 descending price auctions 11 introducing metronome 12",
+    "metadata": {
+      "chunk_id": "cbd7c5fe739091741fd88938a4108a79",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 6] 4 motivations 5 taking cryptocurrency level xe2 x80 xa6 literally executive summary background 7 8 10 blockchain technology 10 cryptocurrency 10 descending price auctions 11 introducing metronome 12 metronome works 12 export import system 15 validation phases 16 guarantees safety measures bad actors 17 cryptocurrency market context date landscape 18 18 metronome proceeds autonomous converter contracts 23 token supply economics 27 theory supply schedule 27 27 metronome core 28 token api 28 auction api 30 metronome proceeds contract 32 proceeds contract api 32 3 x0cmetronome autonomous converter contract 32 autonomous converter contract api 32 tokenlocker tokenlocker api tokenporter tokenporter api 33 33 33 33 glossary contract terms 35 appendix 36 list tables figures figure 1 usd btc monetary base comparison 11 figure 2 flow interaction metronome contracts 12 figure 3 demonstration cross blockchain portability 15 figure 4 popular cryptocurrency mintage 18 figure 5 comparison bitcoin",
+    "metadata": {
+      "chunk_id": "4598eee7cae78173c6077f737b958e59",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 7] base comparison 11 figure 2 flow interaction metronome contracts 12 figure 3 demonstration cross blockchain portability 15 figure 4 popular cryptocurrency mintage 18 figure 5 comparison bitcoin metronome mintage supply 19 figure 6 comparison zec met author s retention 20 table 1 comparison important attributes today s cryptocurrencies 21 figure 7 autonomous converter contract works 24 table 2 supply schedule 27 4 x0cmotivations development metronome metronome authors aspire lessons learned previous cryptocurrencies build sole purpose long term monetary system mind metronome authors saw novel opportunity xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f economically engineering bootstrapping decentralized financial products ensuring equal access token distribution ensuring autonomous self governing contracts taking cryptocurrency level literally economically engineering cryptocurrencies mintage static goes zero time like bitcoin1 2 litecoin3 raising questions economists long",
+    "metadata": {
+      "chunk_id": "9ec847e685ee0f58273fc6a1a0260114",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 8] self governing contracts taking cryptocurrency level literally economically engineering cryptocurrencies mintage static goes zero time like bitcoin1 2 litecoin3 raising questions economists long term viability 4 5 cryptocurrencies token supply hand stitched pre ico deals award certain parties vast supply resulting parties controlling majority tokens cryptocurrencies sell certain parties pre sale private sale leaving little general public metronome attempts fix problems daily auctions provide going token supply mintage ad infinitum going token supply mintage theorized provide sustainability versus cryptocurrencies mintage goes zero 6 7 metronome team expects encourage met holders use payment features metronome utilizing use cases actually currency help solidify endurance metronome team believes ongoing mintage dilutes potential disproportionate amounts purchased given time metronome team believes engineering built longevity metronome s main goal bootstrapping decentralized financial",
+    "metadata": {
+      "chunk_id": "f2bca5517845fc19506a4e4e9a38a5af",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 9] ongoing mintage dilutes potential disproportionate amounts purchased given time metronome team believes engineering built longevity metronome s main goal bootstrapping decentralized financial products bootstrapping decentralized systems self sustainability new thing art science metronome attempting break new ground proceeds metronome s auctions sent separate smart contracts 8 designed things provide liquidity met owners want sell 9 https medium com jgarzik bitcoin hot wired settlement a5beb1df223a xe2 x80 x8bhttps bitcoin org bitcoin pdf 3 https bitcointalk org index php topic 47417 0 4 https www economist com blogs freeexchange 2014 04 money 5 https econjwatch org file download 139 2007 01 hummel com pdf mimetype pdf 6 https econjwatch org file download 139 2007 01 hummel com pdf mimetype pdf 7 tsiang s c journal money credit banking 1969 pp 266 xe2 x80 x9380 critical note optimum supply money 8 xe2 x80 x8bhttps medium com metronometoken metronome author retention contract behavior",
+    "metadata": {
+      "chunk_id": "4201611692f10835b0531c0a9e56001e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 10] pdf 7 tsiang s c journal money credit banking 1969 pp 266 xe2 x80 x9380 critical note optimum supply money 8 xe2 x80 x8bhttps medium com metronometoken metronome author retention contract behavior 73dad8f16494 9 xe2 x80 x8bhttps medium com metronometoken proceeds community authors d41874d4d41f 1 2 5 x0cby having auction proceeds stay metronome ecosystem metronome team anticipates thrive team expects study metronome s model projects products ensuring equal access token distribution cryptocurrency egalitarian 1% access world s cryptocurrency distributing access cryptocurrency widely public reduces number stakeholders large percentage stakes compared entire metronome economy descending price auction aims distribute token price purchasers deem fair 10 icos token distribution hand engineered gone pre sales private sales public gets access 11 metronome employs descending price auction initial supply auction daily supply lots public access auction opportunities 12 presale whitelist bonus",
+    "metadata": {
+      "chunk_id": "e08b84ceb5ddfdfa1b73fbefeec3e839",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 12] math predictable decades future algorithm apolitical hyper inflate manipulate currency discretion humans autonomous self governing contracts14 humans affect value cryptocurrency human s discretion end metronome smart contracts ownership functions locked following launch ownership metronome fully autonomous metronome engineered self adjusting self governing end metronome s contracts fully autonomous believe behave predictably intervention authors 10 11 xe2 x80 x8bhttp onlinelibrary wiley com doi 10 3982 te502 pdf http markets businessinsider com news stocks etherparty pre sale sells receives 25mpublic ico salelaunches oct 1 1002374859 12 h xe2 x80 x8b ttps medium com metronometoken descending price auction 8c0770bb6a71 13 xe2 x80 x8bhttps medium com metronometoken fairness order variable 8012a5c22ed1 14 xe2 x80 x8bhttps medium com metronometoken self governance design goal fc06afd61dd5 6 x0ctaking cryptocurrency level xe2 x80 xa6 literally cryptocurrency tied blockchain network ltc",
+    "metadata": {
+      "chunk_id": "91ccddf75fac3d01e2bb34543bb76283",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 13] 8012a5c22ed1 14 xe2 x80 x8bhttps medium com metronometoken self governance design goal fc06afd61dd5 6 x0ctaking cryptocurrency level xe2 x80 xa6 literally cryptocurrency tied blockchain network ltc recorded litecoin blockchain btc recorded bitcoin blockchain risks tied railroad management discord supply uncertainty etc market know cross blockchain possible need metronome cryptocurrency tied blockchain forevermore cryptocurrency potential secured best blockchain networks permanent commitment blockchain completely new concept innovative cryptocurrency space 7 x0cexecutive summary metronome metronome met new cryptocurrency engineered institutional level endurance metronome incorporates lessons learned cryptocurrencies like bitcoin ethereum designed 100 years metronome launched public equal opportunity access metronome zero founder privileges launch features highly predictable reliable token supply metronome token supply xe2 x97 x8f xe2 x97 x8f 10 000 000 initial met supply xe2 x97 x8b 8",
+    "metadata": {
+      "chunk_id": "a49df2bc8464e94d0f5ca993c20e9bba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 14] access metronome zero founder privileges launch features highly predictable reliable token supply metronome token supply xe2 x97 x8f xe2 x97 x8f 10 000 000 initial met supply xe2 x97 x8b 8 000 000 distributed public descending price auction described detail xe2 x97 x8b 2 000 000 distributed founders founder retention 20% xe2 x96 xa0 minted special tokenlocker contract api section xe2 x97 x8f 25% available use authors end initial supply auction xe2 x97 x8f remaining 75% available 12 equal amounts 12 calendar quarters xe2 x97 x8f metronome authors withdraw tokenlocker contract specific times new met minted daily xe2 x97 x8b daily minted met distributed public descending price auction xe2 x97 x8b daily minted volume 2 880 met day ii annual rate equal 2 0000% outstanding met supply year core design principles metronome self governance reliability portability metronome unique enduring xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f self governance xe2 x97 x8b undue founder influence launch",
+    "metadata": {
+      "chunk_id": "534e4c163e63137dc8494d61c36aabee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 15] principles metronome self governance reliability portability metronome unique enduring xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f self governance xe2 x97 x8b undue founder influence launch autonomously governed smart contracts xe2 x97 x8b resistant individual community discord disagreement misinterpretation xe2 x97 x8b public access sale opportunities xe2 x97 x8b 100% chain decentralized auditable xe2 x97 x8b pricing descending price auction reliability xe2 x97 x8b predictable token supply xe2 x97 x8b new met minted daily ad infinitum greater 2 880 met day ii annual rate equal 2 0000% outstanding met supply year xe2 x97 x8b stable predictable minting new token supply ad infinitum xe2 x97 x8b architected predictable pricing portability xe2 x97 x8b cross blockchain portability allows provable export import different contracts different chains xe2 x96 xa0 protects cryptocurrency governance issues instability xe2 x97 x8b community development new chain export import functionalities",
+    "metadata": {
+      "chunk_id": "1e97f141285f98eeffc0fee31302b775",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 16] provable export import different contracts different chains xe2 x96 xa0 protects cryptocurrency governance issues instability xe2 x97 x8b community development new chain export import functionalities xe2 x97 x8b enables migration path future blockchains ledger technology platform matures additional features 8 x0c xe2 x97 x8b xe2 x97 x8b xe2 x97 x8b xe2 x97 x8b initial payments expected settled 15 30 seconds settlement times based underlying blockchain mass pay allowing multiple payments sent batch subscriptions allowing recurring payments users erc20 compliant additional custom functionalities document propose metronome new cryptocurrency uniquely satisfies criteria world s self governing cross blockchain cryptocurrency anticipate cryptocurrency token communities devise uses end interest self governance metronome authors privileged interest metronome token initial auction metronome use descending price auction initial auction daily supply lot purchasers opportunity purchase price feel",
+    "metadata": {
+      "chunk_id": "9623e9bf555f1b70a60a7450fd21fa2d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 17] governance metronome authors privileged interest metronome token initial auction metronome use descending price auction initial auction daily supply lot purchasers opportunity purchase price feel fair 9 x0cbackground blockchain technology blockchain new type cryptographically secure record keeping technology major implications finance sector distributed usually decentralized ledger accounting units entire ecosystem public complete ledgers entire network need sync agree called nodes nodes prevent double spending blockchain units validate transactions blocks network blocks packaged transactional data hash previous block targeted hash number called nonce nodes validate blocks miners write blockchain attempting discover nonce makes hash data block meet targeted hash efforts computational power rewarded newly minted units cryptocurrency chain blockchain refers unbroken line mined blocks miners write decentralized public ledger miners incorporate data previous blocks successfully discover",
+    "metadata": {
+      "chunk_id": "0494398e5c126a140b6fe05e56fc213f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 18] rewarded newly minted units cryptocurrency chain blockchain refers unbroken line mined blocks miners write decentralized public ledger miners incorporate data previous blocks successfully discover new blocks making traceable history beginning cryptocurrency cryptocurrency cryptocurrency digital currency uses cryptographic techniques regulate addition new currency supply market new issuance reward successfully discovering blocks described mining process cryptography verifies validity funds changing hands private keys held transacting users authorizes transfer funds wallets transactions visible blockchain use cryptographic keys ensures user intends send funds sufficient funds transaction need party transfer validate transfer funds accounts reduced encryption techniques replace roles clearinghouses intermediaries cryptocurrencies potential provide greater predictability monetary supply issuance fiat currencies fiat currency issuance supply managed extensively issuing authorities",
+    "metadata": {
+      "chunk_id": "1f9f56b84c2a7281cd84a3a427a36907",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 19] clearinghouses intermediaries cryptocurrencies potential provide greater predictability monetary supply issuance fiat currencies fiat currency issuance supply managed extensively issuing authorities cryptocurrencies behave engineered behave predict monetary supply mintage rate cryptocurrency greater ease predicting monetary supply rate fiat currency 10 x0cfigure 1 comparison usd monetary base popular cryptocurrency xe2 x80 x99s bitcoin xe2 x80 x99s token base15 bitcoin cryptocurrencies similar dissimilar cryptocurrencies collectively active dynamic market created descending price auctions currently new cryptocurrencies offer initial disbursements traditional sales sales include bonuses early purchaser pricing incentives encourage purchasers buy supply incentives help guarantee sell tend asymmetrical public access model work cryptocurrency longevity main goal metronome team chose use different method aiming avoid pattern metronome team decided employ descending price auction model",
+    "metadata": {
+      "chunk_id": "b3d03202cf462d3d83c5f428b9680519",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 20] asymmetrical public access model work cryptocurrency longevity main goal metronome team chose use different method aiming avoid pattern metronome team decided employ descending price auction model initial supply auction daily supply lots provide interesting opportunities fairer distribution met descending price auction price begins high initial price auction proceeds price reduced units sold pre set price floor reached auction time limit reached auction ends believe market price discovery rapid fair purchaser pays thinks fair 16 time purchase purchaser deem given price high unfair wait price descend level agree purchase provided supply left metronome team chose mechanism effort mitigate whales controlling disproportionate met supply grant equal access auction opportunities approach fairer distribution met 15 16 sources coinmarketcap coinbase blockchain info federal reserve bank st louis http onlinelibrary wiley com doi 10 3982 te502 pdf 11 x0cintroducing metronome metronome new",
+    "metadata": {
+      "chunk_id": "f03d1069453d4c82b374989f5a0e0c5f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 21] fairer distribution met 15 16 sources coinmarketcap coinbase blockchain info federal reserve bank st louis http onlinelibrary wiley com doi 10 3982 te502 pdf 11 x0cintroducing metronome metronome new cryptocurrency engineered self governance longevity long term reliability maximum portability designed institution level endurance metronome incorporates lessons learned cryptocurrencies came designed 100 years believe metronome 1 000 year cryptocurrency metronome works figure 2 flow interaction metronome contracts ethereum blockchain 12 x0claunch metronome team s goal providing fairer equal access auction opportunities met supply metronome s initial supply auction daily supply lot utilize descending price auction dpa model different traditional auctions deserves explanation descending price auction price token starts maximum price price slowly decreases offered supply purchased auction time limit reached auction ends metronome employs dpas 17 effort establish transparent predictable",
+    "metadata": {
+      "chunk_id": "3b9d7474dac4a18b807d2f4fd1122508",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 22] auction price token starts maximum price price slowly decreases offered supply purchased auction time limit reached auction ends metronome employs dpas 17 effort establish transparent predictable pricing starting price initial supply auction 2 eth met long auction open met available purchase price descends 0 0001984320568 eth 60 seconds floor price 0 0000033 eth purchasers purchase metronome cryptocurrency real time receive metronome immediately purchase metronome purchased initial supply auction transferable close initial supply auction metronome purchased daily supply lots transferable immediately receipt metronome team believes conducting auction way provides purchasers opportunity purchase met price fair provided met available purchase price metronome team believes descending price auction provide accurate market price discovery pure dutch gets final price auction simply purchasers willing pay price final price inherently undervalued method reduce chance whales large players",
+    "metadata": {
+      "chunk_id": "3da68f8ca59524d127426c0eea5c4efd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 23] auction provide accurate market price discovery pure dutch gets final price auction simply purchasers willing pay price final price inherently undervalued method reduce chance whales large players auction soaking massive amounts met purchasing disproportionately large met potentially expensive emergent market price pure dutch auction disproportionately distribute met early purchasers supply purchase scenarios possible worth highlighting slow trickle followed sudden waterfall scenario purchasers purchase small quantity supply higher prices pricing falls threshold remaining supply consumed rapidly phase 1 initial supply auction xe2 x97 x8f initial token supply 10 000 000 tokens allocated xe2 x97 x8f 20% initial token supply retained founders xe2 x97 x8b minted special tokenlocker contract api section xe2 x96 xa0 25% available use authors end initial supply auction xe2 x96 xa0 remaining 75% available 12 equal amounts 12 calendar quarters xe2 x96 xa0 metronome authors withdraw tokenlocker",
+    "metadata": {
+      "chunk_id": "9f2c50377e2f23d7750d555316cb69e0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 24] section xe2 x96 xa0 25% available use authors end initial supply auction xe2 x96 xa0 remaining 75% available 12 equal amounts 12 calendar quarters xe2 x96 xa0 metronome authors withdraw tokenlocker contract specific times mishra debasis david c parkes multi item vickrey dutch auctions games economic behavior vol 66 1 2009 pp 326 347 doi 10 1016 j geb 2008 04 007 17 13 x0c xe2 x97 x8f descending price auction 8 000 000 tokens representing total initial token supply 10 million met 20% token supply retained founders xe2 x97 x8f initial supply auction 7 days xe2 x97 x8f initial supply auction price set 2 eth met floor price set 0 0000033 eth xe2 x97 x8f initial supply auction 60 seconds met auction price decreases 0 0001984320568 eth linearly xe2 x97 x8f auction continues entire 8 000 000 token inventory sold auction ends 7 days 10 080 minutes xe2 x97 x8f 100% initial auction proceeds stored proceeds contract phase 2 operational currency xe2 x97 x8f 24 hours new tokens added daily supply",
+    "metadata": {
+      "chunk_id": "a5c25116f473c013b114e2ce0878aee5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 25] inventory sold auction ends 7 days 10 080 minutes xe2 x97 x8f 100% initial auction proceeds stored proceeds contract phase 2 operational currency xe2 x97 x8f 24 hours new tokens added daily supply lot following previous auction s close ad infinitum rate greater 2 880 met day ii annual rate equal 2 0000% outstanding supply year xe2 x97 x8f 24 hours auction initiated lasting 24 hours avoid auction overlap xe2 x97 x8b descending price auction tokens daily supply lot begins maximum price twice previous auction closing price e xe2 x80 x8b price token sold auction sold price auction timed xe2 x97 x8b event zero 0 metronome sold given daily supply lot price following day s daily supply lot begin 1 100th price metronome purchased daily supply lot auction xe2 x80 x8b xe2 x97 x8f 60 seconds auction price decreases 99% previous price xe2 x97 x8f auction continues entire daily supply lot inventory sold ii end hour period auction whichever earlier xe2 x97 x8b daily supply lot inventory sell",
+    "metadata": {
+      "chunk_id": "acd3de814ae3e8cd9ceada263aad5f6e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 26] price decreases 99% previous price xe2 x97 x8f auction continues entire daily supply lot inventory sold ii end hour period auction whichever earlier xe2 x97 x8b daily supply lot inventory sell entirely remaining met added day s daily supply lot xe2 x97 x8f absolute floor price daily supply lot auction 1 wei xe2 x97 x8f 100% daily supply lot proceeds goes proceeds contract xe2 x97 x8f 24 hours 0 25% total accumulated balance proceeds contract sent autonomous converter contract described providing additional options met owners sell met desire 14 x0ccross blockchain portability figure 3 demonstration cross blockchain portability metronome s unique features cross chain portability allow users met blockchain blockchain reason user decides met user commit target blockchain destination receive met user removes met token supply source blockchain receiving proof exit merkle18 receipt user provides receipt metronome contracts target blockchain b scenario token supply met blockchain reduced",
+    "metadata": {
+      "chunk_id": "45c1bdfe36f0fd9c9c932c945274ac6a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 27] met user removes met token supply source blockchain receiving proof exit merkle18 receipt user provides receipt metronome contracts target blockchain b scenario token supply met blockchain reduced token supply blockchain b increased export import process autonomous daily supply lot adjusted pro rata basis blockchain blockchain b reflect new distribution met blockchains b example 50% met exist blockchain 50% met exist blockchain b daily auctions chain shall mint 1 440 tokens day daily auctions chain b shall mint 1 440 tokens day export import system metronome rides blockchains help solidify self governing nature better allow endure lack chain permanence makes maintaining constants like global supply trickier single blockchain cryptocurrencies metronome s import export functions initially rolled phases blockchain technology continues advance possible additional phases decentralize bolster metronome ecosystem high level components metronome s portability exporting xe2 x80 x8bowners met",
+    "metadata": {
+      "chunk_id": "0ff9d95c7a1c45f780fa9fa50eb660ab",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 28] rolled phases blockchain technology continues advance possible additional phases decentralize bolster metronome ecosystem high level components metronome s portability exporting xe2 x80 x8bowners met chain calling export function function takes user s met burns local chain gives user exportreceipt form merkle receipt owner pay small fee met claimed validator receipt claim met destination chain effectively moving owner s met starting chain destination chain importing xe2 x80 x8bany user offer exportreceipt intended destination metronome contracts importmet offer exportreceipt processed destination chain delivers met original recipient user completed metronome import receive mentioned fee met attestation 18 xe2 x80 x8bhttps en bitcoin wiki protocol documentation merkle trees 15 x0chowever metronome multi chain distributed source truth chains validation plays role import export validation xe2 x80 x8bbehind scenes import export validators required xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f",
+    "metadata": {
+      "chunk_id": "0ceb41fb86fd1fb96a1d1a4bfa1b8273",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 29] metronome multi chain distributed source truth chains validation plays role import export validation xe2 x80 x8bbehind scenes import export validators required xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f attest chains valid case hard fork provide additional information event proofs validation particular imports metonome s import export infrastructure rolled phases metronome launch v1 future upgrades plug existing metronome contracts validators conceptually play role metronome ecosystem similar miners cryptocurrencies verify authenticate metronome s distributed source truth exporters pay optional fee met validators effort system design validation phases described aims guarantee xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f metronome s global supply goes 10 000 000 2880 daily 2% outstanding supply annually whichever greater validators censor individual transactions validators discouraged disagreeing metronome contracts chains detect disagreement flag unsafe blockchains ultimately quarantining",
+    "metadata": {
+      "chunk_id": "bd9744771f341423649b950f5ed4abe3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 30] annually whichever greater validators censor individual transactions validators discouraged disagreeing metronome contracts chains detect disagreement flag unsafe blockchains ultimately quarantining remediate identified issue validation phases metronome support exporting ethereum chains launch shortly launch announce destination chain export import happens metronome safely hosted multiple chains globally validation technology continue improved time distinct phases validation deployment successive phase increases safety resilience censorship resistance decentralization metronome s cross chain technology phase 1 validators check validate exportreceipt hash exportreceipt sufficient number validators agreed given hash valid complete importing metronome validated receipt phase 2 validators historical list exportreceipts create merkle tree hashes receipts validate merkle root trees importers provide proof import validators users proof import consists merkle receipt pairwise hashes attesting",
+    "metadata": {
+      "chunk_id": "d051476b559250374c8682169834a823",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 31] list exportreceipts create merkle tree hashes receipts validate merkle root trees importers provide proof import validators users proof import consists merkle receipt pairwise hashes attesting root events phase 3 validators validate blockchain hashes chain metronome resides importers provide following proofs xe2 x97 x8f xe2 x97 x8f proof export event certain block header export chain merkle path proof block event corresponds validated chain hashes 16 x0cguarantees safety measures bad actors phase 1 validation model trusted actors proves community team continue iterate validation mechanism decentralized currently desirable levels decentralization likely phase 3 greater decentralization validation models adds safety ways potential actors act badly non rational reasons combat system architecture resilient griefing chain chain attacks bugs sets metronome variety fraud type error type problems system specified broadly speaking use core concepts better proof stake systems combined proof",
+    "metadata": {
+      "chunk_id": "61b2d282035baf008b95382dee271674",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 32] resilient griefing chain chain attacks bugs sets metronome variety fraud type error type problems system specified broadly speaking use core concepts better proof stake systems combined proof work concepts soft hard punishments bad actors metronome s fundamental rule supply fixed users know parts metronome universe safe able export met safe places 17 x0ccryptocurrency market context date better understand metronome fits cryptocurrency world need high level look overall landscape landscape let s examine known cryptocurrencies token supply allocation issuance schedule economic resilience mutability resistance schedule figure 4 mintage popular cryptocurrencies today note eth prediction19 bitcoin bitcoin btc began jan 5 2009 public equal access mining participation ecosystem 20 new currency supply added block block period targeted 10 minutes block 2 016 blocks supply minted 50 btc block reduced half years bitcoin community ethos places high value immutability bitcoin s 21 million currency",
+    "metadata": {
+      "chunk_id": "17d62d7feb530c1728573af60d21642d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "bug"
+        ],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 21.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 33] added block block period targeted 10 minutes block 2 016 blocks supply minted 50 btc block reduced half years bitcoin community ethos places high value immutability bitcoin s 21 million currency supply limit immutability issuance schedule limit reached mining new btc stops transaction fees hopefully provide incentive miners widely debated bitcoin community transaction fees suffice bitcoin funded secure supply issuance 19 20 sources coinmarketcap com coinbase blockchain info https bitcoin org bitcoin pdf 18 x0cdeclines negligible levels 21 22 bitcoin restarted scratch today current absolute deflationary nature replaced enduring mild inflation feature incent miners secure network indefinitely future low levels inflation desirable discourages hoarding resources encouraging xe2 x80 x8b nvestment cryptocurrencies continuing secure blockchain mining 23 figure 5 comparison bitcoin metronome mintage circulating supply24 predictability immutability issuance schedule users rely today",
+    "metadata": {
+      "chunk_id": "96bce2cc4c5af4f4baed14080240c9d0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 34] x8b nvestment cryptocurrencies continuing secure blockchain mining 23 figure 5 comparison bitcoin metronome mintage circulating supply24 predictability immutability issuance schedule users rely today predictability gives market users ability plan years possibly decades future immutability ensures currency supply subject whims frailties humans bitcoin groups interested influencing network governance embroiling community contentious forks uncertainty spectacle litecoin litecoin ltc patterned bitcoin 25 blocks targeted 2 5 minutes block supply minted 50 ltc block reduced half years litecoin largely photocopy bitcoin currency issuances perspective issuance schedule presumed immutable community new supply issuance declines time similar bitcoin litecoin s governance similar bitcoin customary deference icons ecosystem zcash zcash zec behaves similarly proof work mining open block period targeted 2 5 minutes block supply minted 12 5 zec block reduced half years special case 20 000 blocks slow",
+    "metadata": {
+      "chunk_id": "784d390492b3b0f1af85d41d725680a1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 35] icons ecosystem zcash zcash zec behaves similarly proof work mining open block period targeted 2 5 minutes block supply minted 12 5 zec block reduced half years special case 20 000 blocks slow start ramp 12 5 zec emission rate instead time compensation development team support protocol development receive 10% founders reward token supply applied blocks halving years launch point https bitcointalk org index php topic 108964 0 kroll joshua et al economics bitcoin mining bitcoin presence adversaries http www thebitcoin fr wp content uploads 2014 01 economics bitcoin mining bitcoin pres ence adversaries pdf 23 https www brightscope com financial planning advice article 8491 asked answered zero inflation 24 sources coinmarketcap com coinbase blockchain info 25 https bitcointalk org index php topic 47417 0 21 22 19 x0c100% minted token supply goes miners 26 zcash foundation intended natural locus voluntary governance ecosystem 27 figure 6 comparison zec met author xe2 x80 x99s retention vs",
+    "metadata": {
+      "chunk_id": "0f690c68213eb02c55947b9d62b8ecf6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 36] 47417 0 21 22 19 x0c100% minted token supply goes miners 26 zcash foundation intended natural locus voluntary governance ecosystem 27 figure 6 comparison zec met author xe2 x80 x99s retention vs circulating supply28 ethereum ethereum eth pre sale raised 60 000 000 eth pre mined genesis block 29 30 new currency supply 5 eth added block new currency supply t 1y increased 19 8% t 2y 21 2% t 3y 17 4% supply increase declines ethereum currency issuance schedule widely communicated flux change system evolves 31 ethereum slated change proof stake change issuance 32 issuance mutable goal resilience sustainability changes supported community miners lot customary deference reliance small founding team ripple ripple xrp available supply 38 billion xrp 33 managing company ripple inc 61 billion xrp ripple inc placed 55 billion xrp escrow 34 centrally managed ripple inc controlling large portion cryptocurrency s ecosystem ripple inc directly manages issuance supply market xrp highly mutable ripple",
+    "metadata": {
+      "chunk_id": "19bf4ee7649fc7ca4f5e24262a7f56bb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 37] inc placed 55 billion xrp escrow 34 centrally managed ripple inc controlling large portion cryptocurrency s ecosystem ripple inc directly manages issuance supply market xrp highly mutable ripple inc retains disproportionate governing power metronome takes lessons learned digital currencies result cryptocurrency designed institutional level endurance issuance governance reliability leading principles architecture 100% autonomous undue influence authors design goal self governance metronome predictable mints new met predictable rate makes stable https z cash blog founders reward transfers html https z cash blog funding html 28 https z cash blog founders reward transfers html 29 https github com ethereum wiki wiki white paper 30 https blog ethereum org 2014 08 08 ether sale statistical overview 31 https twitter com vitalikbuterin status 879675471532654595 32 https github com ethereum wiki wiki proof stake faq 33 https coinmarketcap com currencies ripple 26 27 34 https ripple com insights",
+    "metadata": {
+      "chunk_id": "d497fc16fca282a60b2a908502358032",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 38] 31 https twitter com vitalikbuterin status 879675471532654595 32 https github com ethereum wiki wiki proof stake faq 33 https coinmarketcap com currencies ripple 26 27 34 https ripple com insights ripple place 55 billion xrp escrow ensure certainty total xrp supply 20 x0cis able imported exported blockchains reason user sees fit making portable btc ltc eth xrp zec met reliability btc famous contentious forks deflationary nature token supply issuance stable finite like btc ltc s issuance token supply subject hard cap threaten chain stability eth s issuance token supply model flux forked past xrp stable supply fully governed ripple inc similar btc zec subject hard cap question security chain future met issuance supply remain predictable ad infinitum defined contracts uncertainty supply issuance selfgovernance btc self governed groups looking exert undue influence ltc self governed customary deference icons changes eth need community support reliance small team xrp self governing ripple",
+    "metadata": {
+      "chunk_id": "472976340f3f0cad19dbe4c04709ec26",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 39] selfgovernance btc self governed groups looking exert undue influence ltc self governed customary deference icons changes eth need community support reliance small team xrp self governing ripple inc retains sole power governance xrp zcash foundation natural locus voluntary governance met entirely self governed autonomous contracts portability yes immutability strong strong mutable change pos weak strong strong issuance model 50 btc 10 minutes decreases xc2 xbd 4 years 50 ltc 2 5 minutes decreases xc2 xbd 4 years 5 eth 15 seconds issued ripple inc 12 5 2 5 minutes decreases xc2 xbd 4 years daily met auction sales greater 2 880 met day ii annual rate equal 2 0000% outstanding supply year supply limit 21 million 84 million unknown 100 billion 21 million issuance model settlement time 10 minutes 2 5 minutes 15 seconds 5 seconds 2 5 minutes 15 seconds 35 36 37 38 39 https bitcoin org bitcoin pdf https bitcointalk org index php topic 47417 0 37 https github com ethereum wiki wiki white",
+    "metadata": {
+      "chunk_id": "bc45d6a7a7f51f5a7c397306fdf7ff3f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 40] minutes 2 5 minutes 15 seconds 5 seconds 2 5 minutes 15 seconds 35 36 37 38 39 https bitcoin org bitcoin pdf https bitcointalk org index php topic 47417 0 37 https github com ethereum wiki wiki white paper 35 36 38 https ripple com insights ripple place 55 billion xrp escrow ensure certainty total xrp supply 39 http zerocash project org media pdf zerocash extended 20140518 pdf 21 x0cmass pay feature yes yes yes yes subscription feature yes table 1 comparison important attributes today xe2 x80 x99s cryptocurrencies 22 x0cmetronome contracts technical aspects autonomous smart contracts comprise metronome general flow 1 contract met token ledger interacting directly blockchain users settle peer peer transactions distributed store wealth familiar erc20 token standard custom functionality improved security transfer 2 token contract followed auctions contract user purchases met auctions contract user makes purchase auctions contract contract mints met user 3 auctions contract sends proceeds",
+    "metadata": {
+      "chunk_id": "4c6b9f0bc231ece839d842d5f2b5268b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 41] security transfer 2 token contract followed auctions contract user purchases met auctions contract user makes purchase auctions contract contract mints met user 3 auctions contract sends proceeds contract proceeds contract 100% proceeds initial supply auction daily supply lot sent auctions contract proceeds contract 4 24 hours proceeds contract sends 0 25% contents fourth contract autonomous converter contract providing available eth user sends eth met autonomous converter contract contract returns met eth respectively rate determined contract ratio tokens autonomous converter contract determines relative value expect arbitrage pricing approximately accurate contract met eth makes expensive compared corresponding pair user believes met eth worth tender tokens exchange token balance contract s contents correcting relative price imbalance metronome proceeds autonomous converter contracts proceeds auctions stay metronome ecosystem intent build enduring ecosystem metronome users ensuring",
+    "metadata": {
+      "chunk_id": "295ac8e4c2502c25697af63b3bfa9aed",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 43] converter contract expectation smooth variance daily auction volume compared placing receipts autonomous converter contract directly selling eth autonomous converter contract met obtainable particular eth contract rises sells met buy eth eth wants use autonomous converter contract buy met pay eth extent daily eth selling autonomous converter contract raises met value 23 x0cthe market support believe arbitrage capture excess eth given predictability metronome measured decades long timescales expect market predict price flow eth availability autonomous converter contract figure 7 user xe2 x80 x99s experience interacting xe2 x80 x8b utonomous converter contract xe2 x80 x8b utonomous converter contract s end process economic prediction autonomous converter contract seeks approach market determined price auction contract fixed pricing schedule day consequently xe2 x97 x8f xe2 x97 x8f auction s token price higher xe2 x80 x8bautonomous converter contract s purchasers expected likely purchase",
+    "metadata": {
+      "chunk_id": "2943305f12f813628175a42fdb733127",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 44] price auction contract fixed pricing schedule day consequently xe2 x97 x8f xe2 x97 x8f auction s token price higher xe2 x80 x8bautonomous converter contract s purchasers expected likely purchase tokens auction better buying cheaper tokens autonomous converter contract auction s token price lower autonomous converter contract s arbitrage profits buying auction selling tokens autonomous converter contract arbitrage eth imbalance autonomous converter contract wants auction expected sell price discrepancy significant sum purchasers auction expected attempt purchase tokens auction price close current price autonomous converter contract day s later purchasers able profit earlier purchasers essentially getting paid risk able buy auction daily supply lotsells excess demand met selling autonomous converter 24 x0ccontract possibly increasing token price expect auction sell descending price eventually decay market price math user transacts autonomous converter contract price slippage users",
+    "metadata": {
+      "chunk_id": "c7e7a6c37d26cc29978bf1a73a49ceb6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 45] converter 24 x0ccontract possibly increasing token price expect auction sell descending price eventually decay market price math user transacts autonomous converter contract price slippage users throwing ratio token supplies formulas determine prices user makes lots tiny purchases big purchase comes 40 formulas calculates smart tokens user gets met eth determines met eth user gets smart tokens smart tokens exposed user building accurate efficient elementary functions engineering task new implementations necessary ethereum 256 bit integers restricting autonomous converter contract cryptocurrencies met eth reserve ratio 0 5 math simplified square root needed simple implement reasonably efficient run math follows r xe2 x80 x8b reserve token balance s xe2 x80 x8b smart token supply f xe2 x80 x8b constant reserve ratio t xe2 x80 x8b smart tokens received exchange reserve tokens e e xe2 x80 x8b reserve tokens received exchange smart tokens t original formulas 41 t xe2 x80 x8b s xe2 x80 x8b",
+    "metadata": {
+      "chunk_id": "b33ff62ca4a61f8000946df5a58c94d0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 46] x8b constant reserve ratio t xe2 x80 x8b smart tokens received exchange reserve tokens e e xe2 x80 x8b reserve tokens received exchange smart tokens t original formulas 41 t xe2 x80 x8b s xe2 x80 x8b 1 e r e xe2 x80 x8b r xe2 x80 x8b 1 1 f t s xe2 x88 x921 1 f case f set 0 5 formula fixed point multiplication division square root t xe2 x80 x8b s xe2 x80 x8b xe2 x88 x9a1 e r e xe2 x80 x8b r xe2 x80 x8b 1 1 1 t s 2 worked example let s autonomous converter contract 1000 eth 2000 met 10000 smart tokens autonomous converter contract s price met 0 50 eth user believes high wishes trade 100 met eth current nominal price return 50 eth actually 40 41 https drive google com file d 0b3hpnp gdn7arkvav3dkvl9ns2m view https www bancor network static bancor protocol whitepaper en pdf 25 x0cthe user price slippage step xe2 x80 x8b trade 100 met smart tokens xe2 x88 x9a1 1 t xe2 x80 x8b 10000 1 xe2 x88 x9a t xe2 x80 x8b s xe2 x80 x8b e r 100 2000 1 10000 xe2 x88 x9a1 05 1 10000 1 0247 1 10000 0 0247",
+    "metadata": {
+      "chunk_id": "15708d0d0774999c0a7368b6db5bdd0d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 47] slippage step xe2 x80 x8b trade 100 met smart tokens xe2 x88 x9a1 1 t xe2 x80 x8b 10000 1 xe2 x88 x9a t xe2 x80 x8b s xe2 x80 x8b e r 100 2000 1 10000 xe2 x88 x9a1 05 1 10000 1 0247 1 10000 0 0247 247 user receives 247 newly minted smart tokens total supply smart tokens 10247 total supply met held autonomous converter contract 2100 step xe2 x80 x8b convert 247 smart tokens eth fulfilled automatically contract user exposed smart tokens assume 1000 eth reserve supply formula e xe2 x80 x8b r xe2 x80 x8b 1 1 t s 2 e 1000 1 1 47 247 10247 2 1000 1 1 0 0241 2 1000 1 976 2 1000 1 0 953 1000 0 047 user receives 47 eth 100 met contract contains 953 eth 2100 met 0 45 eth met selling met user lowered price met autonomous converter contract compared eth receives eth approximately midway initial price final price 247 smart tokens destroyed traded lowering smart token supply 10000 transaction ordering mitigation user predict outcome trade provided transactions executed ahead user s way guarantee",
+    "metadata": {
+      "chunk_id": "01a77706092e991c8a0f7e14e91813c3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 48] final price 247 smart tokens destroyed traded lowering smart token supply 10000 transaction ordering mitigation user predict outcome trade provided transactions executed ahead user s way guarantee fact parties transaction transit issue transaction ordering miners particular effectively mitigate transaction ordering require user specify minimum return trade transaction rolls pays small transaction fee cover computational cost executing transaction 26 x0ctoken supply economics theory xe2 x97 x8f predictability supply enables market participants accurately gauge supply 12 months 5 years 50 years future xe2 x97 x8f pricing determined descending price auction supply xe2 x97 x8f initial supply 10 000 000 tokens descending price auction xe2 x97 x8f supply initial supply annual supply greater 2 880 met day ii 2 0000% outstanding supply year xe2 x97 x8f auction settles near real time xe2 x97 x8b economists suggest discovers best price auction pays price limit42 supply schedule time circulating",
+    "metadata": {
+      "chunk_id": "6c5ada4b12337954e4da1afa5ccee15e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 49] met day ii 2 0000% outstanding supply year xe2 x97 x8f auction settles near real time xe2 x97 x8b economists suggest discovers best price auction pays price limit42 supply schedule time circulating met mintage rate daily mintage t 1 year 11 051 200 10 512% 2 880 t 2 years 12 102 400 9 512% 2 880 t 3 years 13 153 600 8 686% 2 880 t 5 years 15 258 880 7 399% 2 880 t 10 years 20 517 760 5 400% 2 880 t 50 years 63 499 700 2 000% 3 411 t 70 years 94 382 561 2 000% 5 070 table 2 supply schedule 42 http onlinelibrary wiley com doi 10 3982 te502 pdf 27 x0capi reference metronome core token api token api query transfer met tokens familiar erc20 token standard 43 metronome utilizes custom functionalities align latest standards enhanced decentralized transfer security improvements makes easy transfer function receiving contract allowing data transferred value erc20 token standard metronome proud use cutting edge technology available standard erc20 const metronome const symbol met const decimals",
+    "metadata": {
+      "chunk_id": "9c3977df073f254a53abf9d4525714e9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 50] function receiving contract allowing data transferred value erc20 token standard metronome proud use cutting edge technology available standard erc20 const metronome const symbol met const decimals 18 function totalsupply erc20 compliant refer erc20 standard function balanceof erc20 compliant refer erc20 standard function transfer erc20 compliant refer erc20 standard function transferfrom erc20 compliant refer erc20 standard function approve erc20 compliant refer erc20 standard function allowance erc20 compliant refer erc20 standard event transfer erc20 compliant refer erc20 standard event approval erc20 compliant refer erc20 standard custom token function function approvemore address spender uint256 value public returns bool function approveless address spender uint256 value public returns bool function multitransfer uint bits 43 increase approval spender value ie spender spend tokens behalf approver caller decrease approval spender value ie spender spend tokens behalf approver",
+    "metadata": {
+      "chunk_id": "fc7c8e6483c03cbab5af5c8858c2547b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 51] returns bool function multitransfer uint bits 43 increase approval spender value ie spender spend tokens behalf approver caller decrease approval spender value ie spender spend tokens behalf approver caller allows multiple transfers single transaction uint bits array represents transfer xe2 x80 x8bhttps theethereum wiki w index php erc20 token standard 28 x0cfunction mint address uint value public returns bool leftmost 160 bits address 96 bits right mint allowed minter tokenporter function settokenporter address tokenporter public onlyowner returns bool function destroy address uint value public returns bool sets address tokenporter contract run owner destroy allowed minter tokenporter function enablemettransfers public returns bool function enable met transfer called successfully initial auction end function importmet bytes8 originchain bytes8 destinationchain address addresses bytes extradata bytes32 burnhashes uint supplyonallchains uint importdata bytes proof public returns bool",
+    "metadata": {
+      "chunk_id": "e6854e14f912a1875108ff97ef9ea94c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 52] auction end function importmet bytes8 originchain bytes8 destinationchain address addresses bytes extradata bytes32 burnhashes uint supplyonallchains uint importdata bytes proof public returns bool function export bytes8 destchain address destmetronomeaddr address destrecipaddr uint uint fee bytes extradata public returns bool import met metronome supported chain export met metronome supported chain merkles functions intended manual use thought foundation interesting ui features function setroot bytes32 root sets merkle root associated msg sender function rootsmatch address address b constant returns bool returns true addresses matching roots function getroot address addr public view returns bytes32 gets merkle root associated address subscriptions functions unique metronome feature subscriptions blockchain users able facilitate relationships recurring payments users institutions subscriptions user subscribes authorizing withdraw weekly payment authorized group individual able payment",
+    "metadata": {
+      "chunk_id": "87e8e7df181942d5a9f5feef80e60088",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 53] blockchain users able facilitate relationships recurring payments users institutions subscriptions user subscribes authorizing withdraw weekly payment authorized group individual able payment user s account account fit user able cancel subscriptions necessary addresses issue cryptocurrencies struggled past paying subscription based material possible onerous popular cryptocurrencies metronome subscription feature fixes function subscribe uint starttime uint payperweek address recipient public returns bool subscribe e authorize withdraw weekly payment starttime subscription start payperweek tokens payable week including decimals recipient 29 x0cwho gets withdraw tokens function cancelsubscription address returns bool recipient public cancel subscription recipient unsubscribing function getsubscription address owner address recipient public constant returns uint starttime uint payperweek uint lastwithdrawtime subscription info owner pays recipient receiver subscription return following",
+    "metadata": {
+      "chunk_id": "c838b01a4d3f90596a1c22e1313b2960",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 54] address owner address recipient public constant returns uint starttime uint payperweek uint lastwithdrawtime subscription info owner pays recipient receiver subscription return following information starttime subscription started payperweek recipient withdraw week lastwithdrawtime recipient withdrew function subwithdraw address owner public transferable returns bool withdraw funds subscribed returns success owner subscriber function multisubwithdraw address owners public returns uint withdraw funds bunch subscribers owners returns number successful withdraw function multisubwithdrawfor address owners address recipients public returns uint withdraw funds given subscribers owners respective recipients returns number successful withdraw event logsubscription address indexed subscriber address indexed subscribesto emitted new user subscriptions event logcancelsubscription address indexed subscriber address indexed subscribesto emitted user cancels subscription auction api standard",
+    "metadata": {
+      "chunk_id": "2fac0cd7c72b0a4ae2d35bf5d5e183a1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 55] address indexed subscribesto emitted new user subscriptions event logcancelsubscription address indexed subscriber address indexed subscribesto emitted user cancels subscription auction api standard fallback function send eth receive met tokens immediately tells user results purchase time timestamp wei eth wei sent timestamp timestamp function whatwouldpurchasedo uint wei uint timestamp prospective auction purchase weipertoken public constant returns uint weipertoken uint tokens uint resulting price tokens number tokens refund returned refund eth wei refund user auction sold purchase function isrunning public constant returns bool true auction system started function payable 30 x0cfunction currenttick public view returns uint function currentauction public view returns uint function whichtick uint t public view returns uint function whichauction uint t public view returns uint returns current metronome clock tick genesis time returns current metronome auction returns metronome clock",
+    "metadata": {
+      "chunk_id": "abdc706d11f702d276a0525bfe4b2288",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 56] uint t public view returns uint function whichauction uint t public view returns uint returns current metronome clock tick genesis time returns current metronome auction returns metronome clock tick given timestamp t genesis time returns metronome auction given metronome clock tick t function heartbeat public view returns bytes8 chain address auctionaddr address convertaddr address tokenaddr uint minting uint totalmet uint proceedsbal uint currtick uint returns statistics current auction currauction uint nextauctiongmt uint genesisgmt uint currentauctionprice uint dailymintable uint lastpurchaseprice creates tokenlocker founders called function createtokenlocker address founder address token initial deployment owner public onlyowner function function mintinitialsupply uint founders address token called initial deployment mint initial address proceeds address autonomousconverter public supply founders owner function onlyowner returns bool function initauctions uint starttime uint",
+    "metadata": {
+      "chunk_id": "0ae486fa58f35f2ef75c20b371fc3f95",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 57] token called initial deployment mint initial address proceeds address autonomousconverter public supply founders owner function onlyowner returns bool function initauctions uint starttime uint minimumprice called initial deployment sets auction start uint startingprice uint timescale public onlyowner returns time parameters owner function bool function skipinitbecauseiamnotog address token address called initial deployment metronome proceeds uint genesistime uint minimumprice uint non og chain e chain ethereum startingprice uint timescale bytes8 chain uint chain initialauctionendtime public onlyowner returns bool owner function pauses auction function stopeverything public onlyowner eco system genesis time true 7 days passed tokens function isinitialauctionended public view returns bool sold initial auction function globalmetsupply public view returns uint total met supply current auction function globaldailysupply public view returns uint total met available daily minting function",
+    "metadata": {
+      "chunk_id": "cfb2420b9f53df82b11f13317685aadb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 58] sold initial auction function globalmetsupply public view returns uint total met supply current auction function globaldailysupply public view returns uint total met available daily minting function currentprice public constant returns uint current price weipertoken function dailymintable public constant returns uint daily mintable met chain function currentmintable public view returns uint current available met chain function tokensonthischain public view returns uint total met chain e available purchased function prepareauctionfornonogchain public called import non og chain event logauctionfundsin uint emitted funds received auctions contract proceeds api event logproceedsin address indexed uint value event logclosedauction address indexed uint value emitted funds received proceeds contract emitted proceeds pushes funds autonomousconverter 31 x0cfunction handlefund public payable handles incoming funds proceeds function initproceeds address autonomousconverter address called initial",
+    "metadata": {
+      "chunk_id": "a9029e9858e08ae89d35fefb2945c193",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 59] emitted proceeds pushes funds autonomousconverter 31 x0cfunction handlefund public payable handles incoming funds proceeds function initproceeds address autonomousconverter address called initial deployment owner auction public onlyowner function sends funds autonomousconverter end function closeauction public auction autonomous converter api function public payable handles incoming funds autonomousconverter function init address reservetoken address smarttoken called initial deployment owner address auctions public payable function function handlefund public payable handles incoming funds autonomous converter function getmetbalance public view returns uint shows available met balance autonomous converter function getethbalance public view returns uint shows available eth balance autonomous converter function convertethtomet uint mintreturn public payable change eth met throw returned met returns uint returnedmet minreturn return met change met eth throw returned eth function",
+    "metadata": {
+      "chunk_id": "8d2e3dcf8c8e83934b043794b504da2c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 60] autonomous converter function convertethtomet uint mintreturn public payable change eth met throw returned met returns uint returnedmet minreturn return met change met eth throw returned eth function convertmettoeth uint uint mintreturn minreturn return eth public returns uint returnedeth caller need approve ac transfer function getmetforethresult uint depositamount public return met user given view returns uint256 depositamount eth function getethformetresult uint depositamount public return eth user given view returns uint256 depositamount met event logfundsin address indexed uint value emitted autonomousconvert receives funds event convertethtomet address indexed uint eth uint emitted conversion eth met happens met event convertmettoeth address indexed uint eth uint emitted conversion met eth happens met tokenlocker api event withdrawn address indexed uint emitted withdraws event deposited address indexed uint emitted deposits function locktokenlocker public onlyauction lock",
+    "metadata": {
+      "chunk_id": "17b588ed7d14606336b8d2f82dad001e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 61] met eth happens met tokenlocker api event withdrawn address indexed uint emitted withdraws event deposited address indexed uint emitted deposits function locktokenlocker public onlyauction lock tokenlocker calling function results postlock phase tokenlocker deposits allowed token withdraw allowed phase auction function function deposit address beneficiary uint public onlyauction prelock deposit fund locker depositing funds allowed prelock phase 32 x0cfunction withdraw public onlyowner postlock withdraw funds allowed postlock phase owner function tokenporter api event exportreceiptlog bytes8 destinationchain address destinationmetronomeaddr address indexed destinationrecipientaddr uint amounttoburn uint fee bytes extradata uint currenttick uint indexed burnsequence bytes32 emitted export requests indexed currentburnhash bytes32 prevburnhash uint dailymintable uint supplyonallchains uint genesistime uint blocktimestamp uint dailyauctionstarttime event importreceiptlog address indexed",
+    "metadata": {
+      "chunk_id": "1cc63d5ed24966d11bb497a74baf2e9b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 62] requests indexed currentburnhash bytes32 prevburnhash uint dailymintable uint supplyonallchains uint genesistime uint blocktimestamp uint dailyauctionstarttime event importreceiptlog address indexed destinationrecipientaddr uint amountimported uint fee bytes extradata uint currenttick uint indexed importsequence emmited import bytes32 indexed currenthash bytes32 prevhash uint dailymintable uint blocktimestamp address caller function adddestinationchain bytes8 chainname address add chain approved chain metronome export contractaddress public onlyowner returns bool owner function function removedestinationchain bytes8 chainname public remove chain approved chain metronome onlyowner returns bool export owner function function called destination contract function claimreceivables address recipients public returns performing import metronome record uint metronome mint destination contract function export address tokenowner bytes8 destchain export met metronome supported chain address",
+    "metadata": {
+      "chunk_id": "be74aec89fe0ff6cd57531d45ef9e9a7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 63] recipients public returns performing import metronome record uint metronome mint destination contract function export address tokenowner bytes8 destchain export met metronome supported chain address destmetronomeaddr address destrecipaddr uint called token uint fee bytes extradata public returns bool function importmet bytes8 originchain bytes8 destinationchain address addresses bytes extradata import met tokens chain chain bytes32 burnhashes uint supplyonallchains uint called token importdata bytes proof public returns bool chain ledger api event logregisterchain address indexed caller bytes8 indexed event emitted registeing new chain chain uint supply bool outcome system event logregisterexport address indexed caller bytes8 indexed event emitted registering export originchain bytes8 indexed destchain uint event emitted registering import 33 x0cevent logregisterimport address indexed caller bytes8 indexed originchain bytes8 indexed destchain uint function registerchain bytes8",
+    "metadata": {
+      "chunk_id": "c725fbcc7ca899c3c914322aedf4a092",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 64] indexed destchain uint event emitted registering import 33 x0cevent logregisterimport address indexed caller bytes8 indexed originchain bytes8 indexed destchain uint function registerchain bytes8 onlyowner returns bool chain uint supply public owner register new chain metronome support import export functionality met token function registerexport bytes8 originchain bytes8 destchain register export update chain ledger balance uint public origin dest chain function registerimport bytes8 originchain bytes8 destchain register import update chain ledger balance uint public origin dest chain validator api event logattestation bytes32 indexed hash address indexed event emitted validating hash bool isvalid function validatehash bytes32 hash public validator validate export hash function invalidatehash bytes32 hash public validator invalidate export hash function hashclaimable bytes32 hash public view returns bool check given hash claimable import function claimhash bytes32 hash public update",
+    "metadata": {
+      "chunk_id": "7f57c4e7e2af07e5749b0ed7b47728a1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 65] bytes32 hash public validator invalidate export hash function hashclaimable bytes32 hash public view returns bool check given hash claimable import function claimhash bytes32 hash public update hash claimed import double import happen function isreceiptclaimable bytes8 originchain bytes8 destinationchain address addresses bytes extradata bytes32 burnhashes uint supplyonallchain uint check hash valid claimable importdata bytes proof public view returns bool 34 x0cglossary contract terms xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f xe2 x97 x8f 44 autonomous converter contract xe2 x80 x8bthe smart contract allowing people trade met eth eth met autonomous proceeds provider metronome proceeds contract autonomous converter contract constants xe2 x80 x8bholds common constants like decimals daily supply lot xe2 x80 x8b descending price auction adds newly minted met ecosystem daily evm xe2 x80",
+    "metadata": {
+      "chunk_id": "ba91f3f4d2c4f3f98ef5e91b492efb5c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 66] autonomous converter contract constants xe2 x80 x8bholds common constants like decimals daily supply lot xe2 x80 x8b descending price auction adds newly minted met ecosystem daily evm xe2 x80 x8b stands ethereum virtual machine 44 fixed math xe2 x80 x8bimplements fixed point arithmetic including add subtract multiply divide square square root include overflow protections binary functions assumes inputs number decimal places formula xe2 x80 x8bimplements core bancor style formula fixed math functions formula stateless variables passed parameters metronome xe2 x80 x8bthe main auctions xe2 x80 x8bcontract migrations xe2 x80 x8bpart truffle s migrations capability reservetoken implements met gives autonomous converter contract right tokens response trading events proceeds contract xe2 x80 x8baccepts eth metronome forwards 0 25% balance autonomous converter contract 24 hours smart token xe2 x80 x8bthe token issued autonomous converter contract acts intermediary changing met eth vice versa",
+    "metadata": {
+      "chunk_id": "ae79b401f6e156f94e3a32a37c702d53",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 67] eth metronome forwards 0 25% balance autonomous converter contract 24 hours smart token xe2 x80 x8bthe token issued autonomous converter contract acts intermediary changing met eth vice versa autonomous converter contract process automated exposed user token xe2 x80 x8b met token purchased purchasers http ethdocs org en latest introduction ethereum html 35 x0cappendix acknowledgments disclaimers purchasing owning metronome tokens expressly acknowledge assume following risks 1 purchaser acknowledgments xe2 x80 x8b purchaser xe2 x80 x9cpurchaser xe2 x80 x9d xe2 x80 x9cyou xe2 x80 x9d metronome tokens xe2 x80 x9cmet xe2 x80 x9d acknowledge follows met xe2 x80 x8bnot xe2 x80 x8bstructured sold securities form investment product met registered united states securities exchange commission securities act 1933 amended state securities act similar laws jurisdiction function reliance exemptions laws accordingly information presented owner xe2 x80 x99s manual intended form basis investment",
+    "metadata": {
+      "chunk_id": "19cb3cd04d0de80cd5afac8b5a8d7ca4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 69] prospectus defined securities futures act cap 289 singapore xe2 x80 x9c xe2 x80 x8bsfa xe2 x80 x8b xe2 x80 x9d accordingly statutory liability sfa relation content prospectuses apply c use met metronome create product regulated u s commodity futures trading commission including creating futures contracts swaps retail commodity transactions acknowledge purchase met intended marketed form option swap transaction d understand technical business matters relating cryptographic tokens token storage mechanisms token wallets blockchain technology understand met appreciate risks implications purchasing disposing met e obtained sufficient information met informed decision purchase met relying information provided owner xe2 x80 x99s manual making decision purchase met 36 x0c f understand met confers right use met contemplated owner xe2 x80 x99s manual met confers rights form including limited entity ownership distribution redemption liquidation proprietary including form intellectual property",
+    "metadata": {
+      "chunk_id": "59bb0dba4fed709dc3bc78e45c92ec5c",
+      "entities": {
+        "location": [
+          "singapore"
+        ],
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 70] right use met contemplated owner xe2 x80 x99s manual met confers rights form including limited entity ownership distribution redemption liquidation proprietary including form intellectual property financial legal rights g purchasing met solely purpose met contemplated owner xe2 x80 x99s manual aware commercial risks associated met purchasing met purposes including limited investment speculative financial purpose h purchase met complies applicable laws regulations jurisdiction including limited legal capacity requirement restriction purchase met ii foreign exchange regulatory restrictions applicable purchase iii governmental consents need obtained solely responsible applicable tax obligations arising purchase use met j purchasing met behalf entity authorized agree acknowledgments disclaimers entity xe2 x80 x99s behalf k citizen resident geographic area acceptance delivery met prohibited applicable law decree regulation treaty administrative act ii citizen resident located geographic",
+    "metadata": {
+      "chunk_id": "ec6040556106cb5e38a7df1c98e0a975",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 71] entity xe2 x80 x99s behalf k citizen resident geographic area acceptance delivery met prohibited applicable law decree regulation treaty administrative act ii citizen resident located geographic area subject united nations european union u s sovereign country sanctions embargoes iii individual individual employed associated entity identified u s department commerce xe2 x80 x99s denied persons entity list u s department treasury xe2 x80 x99s specially designated nationals blocked persons lists u s department state xe2 x80 x99s debarred parties list similar restricted persons regulation list applicable sovereign country successor regulations restrictions foregoing agree country residence circumstances change acknowledgments longer accurate immediately cease met l value met depend accepted cryptocurrency extent utilized payment goods services inadequate demand difficult utilize met payment goods services tend diminish value met likewise met adopted generally value diminish near term",
+    "metadata": {
+      "chunk_id": "3b07fd394503b78e79b7bc1f9490471b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": [
+          "locked"
+        ]
+      },
+      "risk_score": 9.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 72] cryptocurrency extent utilized payment goods services inadequate demand difficult utilize met payment goods services tend diminish value met likewise met adopted generally value diminish near term remains substantial regulatory risk related oversight cryptocurrencies token sales significantly reduce value met m value met depend primarily prevailing value met cryptocurrency payment goods services n price met fluctuate response competitive market conditions affecting general supply demand met cryptocurrency conditions 37 x0care control particular party met holders value met exchanged lower price purchased o release new met regular automated independent basis intended help stabilize price met intrinsic value services metronome ecosystem assurance release met succeed metronome authors intend actions support limit price met purchase sell met account price p sale met limit respect power metronome author participate projects operate networks issue tokens compete met q promises future",
+    "metadata": {
+      "chunk_id": "f208c1d07df766c3292724a56ecf5c7c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "oversight",
+          "regulatory"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 24.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 73] intend actions support limit price met purchase sell met account price p sale met limit respect power metronome author participate projects operate networks issue tokens compete met q promises future performance value respect met including promise inherent value promise continuing payments guarantee met hold particular value r conditions metronome authors use proceeds sale met 2 acknowledgment certain risks xe2 x80 x8b acknowledge following risks exist respect met agree expressly assuming risks autonomous nature met xe2 x80 x8b met operates autonomously ability party influence control operation met autonomous nature met create risks future including risks foreseeable time launch met purchase b risk losing access met loss private key s custodial error purchaser error xe2 x80 x8ba private key combination private keys necessary control dispose met stored digital wallet vault accordingly loss requisite private key s associated digital wallet vault storing met result loss met party gains",
+    "metadata": {
+      "chunk_id": "d7ed723896e418d8c8ff04074c3c16d5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 74] key combination private keys necessary control dispose met stored digital wallet vault accordingly loss requisite private key s associated digital wallet vault storing met result loss met party gains access private key s including gaining access login credentials hosted wallet service use able misappropriate met errors malfunctions caused related digital wallet vault choose receive store met including failure properly maintain use digital wallet vault result loss met additionally failure follow precisely procedures set forth buying receiving met including instance provide wrong address result loss met c risks associated blockchain protocols xe2 x80 x8bany malfunction breakdown abandonment blockchain protocols met operates material adverse effect met advances cryptography technical advances present risks met rendering ineffective cryptographic consensus mechanism underpins blockchain protocols d risk mining attacks xe2 x80 x8bmet susceptible attacks miners course validating met",
+    "metadata": {
+      "chunk_id": "a5e0174c916895cbfdce15e06a4b469c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 75] advances present risks met rendering ineffective cryptographic consensus mechanism underpins blockchain protocols d risk mining attacks xe2 x80 x8bmet susceptible attacks miners course validating met transactions blockchain including limited double spend attacks majority mining power attacks selective delay censorship transactions selfish mining attacks 38 x0cany successful attacks present risk met including limited accurate execution recording transactions involving met e risk hacking security weaknesses xe2 x80 x8bhackers malicious groups organizations attempt interfere met variety ways including limited malware attacks denial service attacks consensus based attacks sybil attacks smurfing spoofing furthermore met based open source software risk party intentionally unintentionally introduce weaknesses core infrastructure new met implementation negatively affect met hackers malicious groups organizations attempt access private keys access credentials wallet vault storage mechanism",
+    "metadata": {
+      "chunk_id": "d8fda4839aa035a9dd921902db51da82",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [
+          "hack",
+          "malware"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 22.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 76] weaknesses core infrastructure new met implementation negatively affect met hackers malicious groups organizations attempt access private keys access credentials wallet vault storage mechanism receive hold met f risks associated markets met xe2 x80 x8bif secondary trading met facilitated party exchanges exchanges relatively new subject little regulatory oversight making susceptible fraud manipulation furthermore extent parties ascribe external exchange value met e g denominated digital fiat currency value extremely volatile diminish zero g risk uninsured losses xe2 x80 x8bunlike certain bank accounts accounts financial institutions met uninsured event loss loss utility value public insurer private insurance offer recourse h risks associated uncertain regulations enforcement actions xe2 x80 x8bthe regulatory status met distributed ledger technology unclear unsettled jurisdictions difficult predict regulatory agencies apply existing regulation respect technology applications including",
+    "metadata": {
+      "chunk_id": "86525badc9aa5bfc6029488667b6e4f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "oversight",
+          "regulatory"
+        ],
+        "technical": [
+          "hack"
+        ],
+        "financial": [
+          "fraud"
+        ],
+        "operational": []
+      },
+      "risk_score": 45.0,
+      "source": "Metronome.txt"
+    }
+  },
+  {
+    "text": "[Section 78] seek tax advice connection met j technology risks xe2 x80 x8bmet represents new capability emerging technology fully proven use technology matures new capabilities dramatically alter usefulness met ability use sell k unanticipated risks xe2 x80 x8bin addition risks included appendix risks associated purchase possession use met including unanticipated risks 39 x0crisks materialize unanticipated variations combinations risks discussed appendix 1 disclaimer xe2 x80 x8b met sold xe2 x80 x9cas xe2 x80 x9d xe2 x80 x9cas available xe2 x80 x9d basis warranties kind party including limitation implied warranties merchantability fitness particular purpose title non infringement 40 x0c",
+    "metadata": {
+      "chunk_id": "1c8dd2ccf0d8417ec125694c9d4e1b42",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Metronome.txt"
+    }
+  }
+]

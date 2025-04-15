@@ -1,0 +1,314 @@
+[
+  {
+    "text": "[Section 1] b postoken t r xc2 xa0whitepaper t r xc2 xa0 t r xc2 xa0world xe2 x80 x99s t r xc2 xa0first t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2 xa0 table t r xc2 xa0of t r xc2 xa0contents t r xc2 xa0 1 t r xc2 xa0background t r xc2 xa0 2 t r xc2 xa0introduction t r xc2 xa0 3 t r xc2 xa0specifications t r xc2 xa0 4 t r xc2 xa0pos t r xc2 xa0mining t r xc2 xa0 5 distribution t r xc2 xa0 6 t r xc2 xa0free t r xc2 xa0airdrop t r xc2 xa0 7 t r xc2 xa0roadmap t r xc2 xa0 8 t r xc2 xa0resource t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 x0cpostoken t r xc2 xa0whitepaper t r xc2 xa0 t r xc2 xa0world xe2 x80 x99s t r xc2 xa0first t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2",
+    "metadata": {
+      "chunk_id": "972d34a4a13d1a26cc10c589bc57d188",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 2] t r xc2 xa0world xe2 x80 x99s t r xc2 xa0first t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2 xa0 1 background t r xc2 xa0 t r xc2 xa0the t r xc2 xa0world t r xc2 xa0of t r xc2 xa0crypto t r xc2 xa0currency t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91work pow t r xc2 xa0and t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake pos t r xc2 xa0are t r xc2 xa0the t r xc2 xa0two t r xc2 xa0most t r xc2 xa0 important t r xc2 xa0algorithms t r xc2 xa0although t r xc2 xa0more t r xc2 xa0and t r xc2 xa0more t r xc2 xa0algorithms t r xc2 xa0are t r xc2 xa0being t r xc2 xa0proposed t r xc2 xa0bitcoin t r xc2 xa0is t r xc2 xa0the t r xc2 xa0 t r xc2 xa0p2p t r xc2 xa0crypto t r xc2 xa0currency t r xc2 xa0and t r xc2 xa0is t r xc2 xa0also t r xc2 xa0the t r xc2 xa0first t r xc2 xa0crypto t r xc2 xa0currency t r xc2 xa0to t r",
+    "metadata": {
+      "chunk_id": "13f064ac6cb5f6544a75661866ed4728",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 3] t r xc2 xa0 t r xc2 xa0p2p t r xc2 xa0crypto t r xc2 xa0currency t r xc2 xa0and t r xc2 xa0is t r xc2 xa0also t r xc2 xa0the t r xc2 xa0first t r xc2 xa0crypto t r xc2 xa0currency t r xc2 xa0to t r xc2 xa0use t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91work t r xc2 xa0algorithm t r xc2 xa0 soon t r xc2 xa0after t r xc2 xa0peercoin t r xc2 xa0was t r xc2 xa0created t r xc2 xa0in t r xc2 xa02012 t r xc2 xa0and t r xc2 xa0is t r xc2 xa0the t r xc2 xa0first t r xc2 xa0implementation t r xc2 xa0of t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0 algorithm t r xc2 xa0 t r xc2 xa0simple t r xc2 xa0terms t r xc2 xa0coin t r xc2 xa0holders t r xc2 xa0can t r xc2 xa0earn t r xc2 xa0some t r xc2 xa0extra t r xc2 xa0coins t r xc2 xa0just t r xc2 xa0by t r xc2 xa0holding t r xc2 xa0some t r xc2 xa0coins t r xc2 xa0for t r xc2 xa0a t r xc2 xa0period t r xc2 xa0 t r xc2 xa0time t r xc2 xa0in t r xc2 xa0the t r",
+    "metadata": {
+      "chunk_id": "26402f7956cfc95ae0ea24729b0e16ba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 4] xa0coins t r xc2 xa0just t r xc2 xa0by t r xc2 xa0holding t r xc2 xa0some t r xc2 xa0coins t r xc2 xa0for t r xc2 xa0a t r xc2 xa0period t r xc2 xa0 t r xc2 xa0time t r xc2 xa0in t r xc2 xa0the t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0system t r xc2 xa0to t r xc2 xa0ordinary t r xc2 xa0users t r xc2 xa0this t r xc2 xa0is t r xc2 xa0the t r xc2 xa0biggest t r xc2 xa0difference t r xc2 xa0between t r xc2 xa0 proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0and t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91work t r xc2 xa0 t r xc2 xa0postoken t r xc2 xa0first t r xc2 xa0implements t r xc2 xa0the t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0mechanism t r xc2 xa0as t r xc2 xa0an t r xc2 xa0ethereum t r xc2 xa0token t r xc2 xa0holders t r xc2 xa0 t r xc2 xa0postoken t r xc2 xa0can t r xc2 xa0get t r xc2",
+    "metadata": {
+      "chunk_id": "220390c4e3abee2efd009ab25b3e015d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 5] x80 x90 xe2 x80 x91stake t r xc2 xa0mechanism t r xc2 xa0as t r xc2 xa0an t r xc2 xa0ethereum t r xc2 xa0token t r xc2 xa0holders t r xc2 xa0 t r xc2 xa0postoken t r xc2 xa0can t r xc2 xa0get t r xc2 xa0revenues t r xc2 xa0by t r xc2 xa0holding t r xc2 xa0postoken t r xc2 xa0for t r xc2 xa0a t r xc2 xa0period t r xc2 xa0of t r xc2 xa0time t r xc2 xa0it t r xc2 xa0works t r xc2 xa0the t r xc2 xa0same t r xc2 xa0way t r xc2 xa0 t r xc2 xa0peercoin t r xc2 xa0and t r xc2 xa0any t r xc2 xa0other t r xc2 xa0coin t r xc2 xa0with t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0algorithm t r xc2 xa0do t r xc2 xa0 2 introduction t r xc2 xa0 postoken t r xc2 xa0 postoken t r xc2 xa0is t r xc2 xa0the t r xc2 xa0world s t r xc2 xa0first t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2 xa0on t r xc2 xa0ethereum t r xc2 xa0platform t r xc2 xa0it s t",
+    "metadata": {
+      "chunk_id": "9bd25892d6e2573524ef12ef1dc12120",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 6] xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2 xa0on t r xc2 xa0ethereum t r xc2 xa0platform t r xc2 xa0it s t r xc2 xa0 based t r xc2 xa0on t r xc2 xa0the t r xc2 xa0erc20 t r xc2 xa0token t r xc2 xa0standard t r xc2 xa0and t r xc2 xa0implements t r xc2 xa0all t r xc2 xa0standard t r xc2 xa0methods t r xc2 xa0as t r xc2 xa0an t r xc2 xa0ethereum t r xc2 xa0 token t r xc2 xa0postoken t r xc2 xa0first t r xc2 xa0implements t r xc2 xa0the t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0mechanism t r xc2 xa0meaning t r xc2 xa0that t r xc2 xa0every t r xc2 xa0holder t r xc2 xa0can t r xc2 xa0 earn t r xc2 xa0some t r xc2 xa0extra t r xc2 xa0tokens t r xc2 xa0just t r xc2 xa0by t r xc2 xa0holding t r xc2 xa0postoken t r xc2 xa0for t r xc2 xa0a t r xc2 xa0period t r xc2 xa0of t r xc2 xa0at t r xc2 xa0least t r xc2 xa03 t r xc2 xa0days t r xc2 xa0greater t",
+    "metadata": {
+      "chunk_id": "90db985d37d2340431fb1ef2d637840f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 7] t r xc2 xa0by t r xc2 xa0holding t r xc2 xa0postoken t r xc2 xa0for t r xc2 xa0a t r xc2 xa0period t r xc2 xa0of t r xc2 xa0at t r xc2 xa0least t r xc2 xa03 t r xc2 xa0days t r xc2 xa0greater t r xc2 xa0than t r xc2 xa0or t r xc2 xa0 equal t r xc2 xa0to t r xc2 xa0the t r xc2 xa0minimum t r xc2 xa0coin t r xc2 xa0age t r xc2 xa0 postokenstandard t r xc2 xa0 furthermore t r xc2 xa0the t r xc2 xa0idea t r xc2 xa0of t r xc2 xa0postoken t r xc2 xa0is t r xc2 xa0not t r xc2 xa0only t r xc2 xa0to t r xc2 xa0issue t r xc2 xa0a t r xc2 xa0simple t r xc2 xa0ethereum t r xc2 xa0token t r xc2 xa0with t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91 stake t r xc2 xa0but t r xc2 xa0also t r xc2 xa0to t r xc2 xa0define t r xc2 xa0a t r xc2 xa0brand t r xc2 xa0new t r xc2 xa0token t r xc2 xa0standard t r xc2 xa0for t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0tokens t r xc2 xa0a t r xc2 xa0interface t r xc2 xa0",
+    "metadata": {
+      "chunk_id": "f75bdbf3ad1826974fe668c500ef7a96",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 8] xc2 xa0token t r xc2 xa0standard t r xc2 xa0for t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0tokens t r xc2 xa0a t r xc2 xa0interface t r xc2 xa0 including t r xc2 xa0some t r xc2 xa0standard t r xc2 xa0functions t r xc2 xa0was t r xc2 xa0defined t r xc2 xa0in t r xc2 xa0the t r xc2 xa0code t r xc2 xa0of t r xc2 xa0postoken t r xc2 xa0we t r xc2 xa0call t r xc2 xa0it t r xc2 xa0 postokenstandard t r xc2 xa0which t r xc2 xa0is t r xc2 xa0like t r xc2 xa0the t r xc2 xa0erc20 t r xc2 xa0standard t r xc2 xa0postokenstandard t r xc2 xa0is t r xc2 xa0a t r xc2 xa0new t r xc2 xa0token t r xc2 xa0 standard t r xc2 xa0devised t r xc2 xa0specifically t r xc2 xa0for t r xc2 xa0issuing t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0tokens t r xc2 xa0and t r xc2 xa0maintained t r xc2 xa0by t r xc2 xa0postoken t r xc2 xa0dev t r xc2 xa0 team t r xc2 xa0although t r xc2 xa0it xe2 x80 x99s t r",
+    "metadata": {
+      "chunk_id": "3175b94fc7f3c517309368871809e50f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 10] xc2 xa0this t r xc2 xa0future t r xc2 xa0of t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0tokens t r xc2 xa0starts t r xc2 xa0 t r xc2 xa0and t r xc2 xa0we t r xc2 xa0believe t r xc2 xa0that t r xc2 xa0a t r xc2 xa0new t r xc2 xa0era t r xc2 xa0of t r xc2 xa0crypto t r xc2 xa0tokens t r xc2 xa0is t r xc2 xa0coming t r xc2 xa0 3 x7f xc2 xa0specifications t r xc2 xa0 xc2 xb7 xc2 xa0 xc2 xb7 xc2 xa0 xc2 xb7 xc2 xa0 xc2 xb7 xc2 xa0 xc2 xb7 xc2 xa0 xc2 xb7 xc2 xa0 t r xc2 xa0postoken t r xc2 xa0 symbol t r xc2 xa0pos t r xc2 xa0 decimals t r xc2 xa018 t r xc2 xa0 standard t r xc2 xa0erc20 t r xc2 xa0 t r xc2 xa0postokenstandard t r xc2 xa0 platform t r xc2 xa0ethereum t r xc2 xa0 maximum t r xc2 xa0total t r xc2 xa0supply t r xc2 xa010 000 000 t r xc2 xa0pos t r xc2 xa0 t r xc2 xa0 x0cpostoken t r xc2 xa0whitepaper t r xc2 xa0 t r xc2 xa0world xe2 x80 x99s t r xc2 xa0first t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2",
+    "metadata": {
+      "chunk_id": "19e4bfa56ca693aac8a589ed4e88dde1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 11] 000 t r xc2 xa0pos t r xc2 xa0 t r xc2 xa0 x0cpostoken t r xc2 xa0whitepaper t r xc2 xa0 t r xc2 xa0world xe2 x80 x99s t r xc2 xa0first t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2 xa0 xc2 xb7 xc2 xa0 initial t r xc2 xa0supply t r xc2 xa01 000 000 t r xc2 xa0pos t r xc2 xa0 xc2 xb7 xc2 xa0 distribution t r xc2 xa0free t r xc2 xa0airdrop t r xc2 xa0 xc2 xb7 xc2 xa0 minimum t r xc2 xa0coin t r xc2 xa0age t r xc2 xa03 t r xc2 xa0days t r xc2 xa0 xc2 xb7 xc2 xa0 maximum t r xc2 xa0coin t r xc2 xa0age t r xc2 xa090 t r xc2 xa0days t r xc2 xa0 xc2 xb7 xc2 xa0 pos t r xc2 xa0annual t r xc2 xa0interest t r xc2 xa0 t r xc2 xa0 xc2 xb7 xc2 xa0 year t r xc2 xa0 xc2 xb7 xc2 xa0 annual t r xc2 xa0interest t r xc2 xa0 xc2 xb7 xc2 xa0 total t r xc2 xa0supply t r xc2 xa0after t r xc2 xa0 xc2 xb7 xc2 xa0 1 t r xc2 xa0yr t r xc2 xa0 xc2 xb7 xc2 xa0 100% t r xc2 xa0 xc2 xb7 xc2 xa0 2 t r xc2 xa0mil t",
+    "metadata": {
+      "chunk_id": "429ab006988616b0e1b1a73205661197",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 13] t r xc2 xa0pos t r xc2 xa0as t r xc2 xa0the t r xc2 xa0 initial t r xc2 xa0supply t r xc2 xa0the t r xc2 xa0max t r xc2 xa0total t r xc2 xa0supply t r xc2 xa0will t r xc2 xa0only t r xc2 xa0be t r xc2 xa0reached t r xc2 xa0in t r xc2 xa0about t r xc2 xa015 t r xc2 xa0years t r xc2 xa0or t r xc2 xa0a t r xc2 xa0little t r xc2 xa0longer t r xc2 xa0at t r xc2 xa0 t r xc2 xa0set t r xc2 xa0pos t r xc2 xa0interest t r xc2 xa0rate t r xc2 xa0once t r xc2 xa010 t r xc2 xa0million t r xc2 xa0is t r xc2 xa0reached t r xc2 xa0no t r xc2 xa0more t r xc2 xa0postoken t r xc2 xa0will t r xc2 xa0be t r xc2 xa0generated t r xc2 xa0via t r xc2 xa0 pos t r xc2 xa0 4 x7f xc2 xa0pos t r xc2 xa0mining t r xc2 xa0 t r xc2 xa0considering t r xc2 xa0the t r xc2 xa0convenience t r xc2 xa0of t r xc2 xa0use t r xc2 xa0and t r xc2 xa0the t r xc2 xa0consumption t r xc2 xa0of t r xc2 xa0less t r xc2 xa0gas t r xc2 xa0postoken t r xc2 xa0provides t r xc2 xa0two t r xc2 xa0 methods t r xc2 xa0to t r xc2 xa0trigger t",
+    "metadata": {
+      "chunk_id": "76a2c911ee48ec4b99be3accb9597650",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 14] xa0and t r xc2 xa0the t r xc2 xa0consumption t r xc2 xa0of t r xc2 xa0less t r xc2 xa0gas t r xc2 xa0postoken t r xc2 xa0provides t r xc2 xa0two t r xc2 xa0 methods t r xc2 xa0to t r xc2 xa0trigger t r xc2 xa0pos t r xc2 xa0mining t r xc2 xa0however t r xc2 xa0the t r xc2 xa0basic t r xc2 xa0premise t r xc2 xa0of t r xc2 xa0starting t r xc2 xa0pos t r xc2 xa0mining t r xc2 xa0is t r xc2 xa0that t r xc2 xa0you t r xc2 xa0 t r xc2 xa0have t r xc2 xa0held t r xc2 xa0some t r xc2 xa0tokens t r xc2 xa0at t r xc2 xa0least t r xc2 xa03 t r xc2 xa0days t r xc2 xa0then t r xc2 xa0you t r xc2 xa0can t r xc2 xa0start t r xc2 xa0pos t r xc2 xa0mining t r xc2 xa0by t r xc2 xa0 xc2 xa0 sending t r xc2 xa0a t r xc2 xa0transaction t r xc2 xa0to t r xc2 xa0your t r xc2 xa0own t r xc2 xa0address t r xc2 xa0with t r xc2 xa0any t r xc2 xa0amount t r xc2 xa0of t r xc2 xa0pos t r xc2 xa0 b xc2 xa0 t r xc2 xa0myetherwallet com t r xc2 xa0or t r xc2 xa0mist t r xc2 xa0or t r xc2 xa0any t r xc2 xa0other t r",
+    "metadata": {
+      "chunk_id": "2b6f5a5a3efdc99acbc52252fe60d1c9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 15] t r xc2 xa0any t r xc2 xa0amount t r xc2 xa0of t r xc2 xa0pos t r xc2 xa0 b xc2 xa0 t r xc2 xa0myetherwallet com t r xc2 xa0or t r xc2 xa0mist t r xc2 xa0or t r xc2 xa0any t r xc2 xa0other t r xc2 xa0software t r xc2 xa0that t r xc2 xa0can t r xc2 xa0interact t r xc2 xa0with t r xc2 xa0 contracts t r xc2 xa0to t r xc2 xa0execute t r xc2 xa0mint t r xc2 xa0function t r xc2 xa0in t r xc2 xa0postoken t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0 t r xc2 xa0 t r xc2 xa0following t r xc2 xa0is t r xc2 xa0the t r xc2 xa0contract t r xc2 xa0code t r xc2 xa0for t r xc2 xa0mint t r xc2 xa0function t r xc2 xa0 t r xc2 xa0 x0cpostoken t r xc2 xa0whitepaper t r xc2 xa0 t r xc2 xa0world xe2 x80 x99s t r xc2 xa0first t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2 xa0 t r xc2 xa0 query t r xc2 xa0tools t r xc2 xa0 t r xc2 xa0you t r xc2 xa0are t r xc2 xa0not t r xc2 xa0sure t r xc2 xa0about t r",
+    "metadata": {
+      "chunk_id": "500cffb4920f5b6f0381b496e3c1a986",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 16] t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2 xa0 t r xc2 xa0 query t r xc2 xa0tools t r xc2 xa0 t r xc2 xa0you t r xc2 xa0are t r xc2 xa0not t r xc2 xa0sure t r xc2 xa0about t r xc2 xa0your t r xc2 xa0account s t r xc2 xa0coin t r xc2 xa0age t r xc2 xa0or t r xc2 xa0current t r xc2 xa0pos t r xc2 xa0interest t r xc2 xa0postoken t r xc2 xa0defines t r xc2 xa0two t r xc2 xa0 functions t r xc2 xa0for t r xc2 xa0query t r xc2 xa0 t r xc2 xa0 annualinterest t r xc2 xa0 t r xc2 xa0 return t r xc2 xa0current t r xc2 xa0annual t r xc2 xa0interest t r xc2 xa0 t r xc2 xa0 coinage t r xc2 xa0 t r xc2 xa0 return t r xc2 xa0coin t r xc2 xa0age t r xc2 xa0of t r xc2 xa0your t r xc2 xa0account t r xc2 xa0return t r xc2 xa00 t r xc2 xa0means t r xc2 xa0that t r xc2 xa0your t r xc2 xa0coin t r xc2 xa0age t r xc2 xa0doesn t t r xc2 xa0meet t r xc2 xa0the t r xc2 xa0min t r xc2 xa0coin t r xc2 xa0 age t r xc2 xa0now t r xc2 xa0 t r xc2 xa0 x0cpostoken t r xc2 xa0whitepaper t r xc2 xa0 t",
+    "metadata": {
+      "chunk_id": "0c4d479c099fadb92499234c91cdb432",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 17] t r xc2 xa0age t r xc2 xa0doesn t t r xc2 xa0meet t r xc2 xa0the t r xc2 xa0min t r xc2 xa0coin t r xc2 xa0 age t r xc2 xa0now t r xc2 xa0 t r xc2 xa0 x0cpostoken t r xc2 xa0whitepaper t r xc2 xa0 t r xc2 xa0world xe2 x80 x99s t r xc2 xa0first t r xc2 xa0proof xc2 xad xe2 x80 x90 xe2 x80 x91of xc2 xad xe2 x80 x90 xe2 x80 x91stake t r xc2 xa0smart t r xc2 xa0contract t r xc2 xa0token t r xc2 xa0 5 distribution t r xc2 xa0 t r xc2 xa0the t r xc2 xa0contract t r xc2 xa0deployed t r xc2 xa0only t r xc2 xa01million t r xc2 xa0pos t r xc2 xa010% t r xc2 xa0of t r xc2 xa0the t r xc2 xa0max t r xc2 xa0total t r xc2 xa0supply t r xc2 xa0will t r xc2 xa0be t r xc2 xa0created t r xc2 xa0as t r xc2 xa0the t r xc2 xa0initial t r xc2 xa0 supply t r xc2 xa0 xc2 xb7 xc2 xa0 xc2 xb7 xc2 xa0 xc2 xb7 xc2 xa0 xc2 xb7 xc2 xa0 development t r xc2 xa0100k t r xc2 xa0 marketing 50k t r xc2 xa0 bounties 50k t r xc2 xa0 free t r xc2 xa0airdrop t r xc2 xa0800k t r xc2 xa0 6 free t r xc2 xa0airdrop t r xc2 xa0",
+    "metadata": {
+      "chunk_id": "74fc6dbd1dcc3729178341cfde787b92",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 18] xc2 xb7 xc2 xa0 development t r xc2 xa0100k t r xc2 xa0 marketing 50k t r xc2 xa0 bounties 50k t r xc2 xa0 free t r xc2 xa0airdrop t r xc2 xa0800k t r xc2 xa0 6 free t r xc2 xa0airdrop t r xc2 xa0 800k t r xc2 xa0pos t r xc2 xa0will t r xc2 xa0be t r xc2 xa0distributed t r xc2 xa0to t r xc2 xa0the t r xc2 xa0community t r xc2 xa0through t r xc2 xa0free t r xc2 xa0airdrop t r xc2 xa0to t r xc2 xa0read t r xc2 xa0more t r xc2 xa0details t r xc2 xa0about t r xc2 xa0airdrop t r xc2 xa0 t r xc2 xa0visit t r xc2 xa0our t r xc2 xa0official t r xc2 xa0website t r xc2 xa0 7 roadmap t r xc2 xa0 pos t r xc2 xa0token t r xc2 xa0creation t r xc2 xa0service t r xc2 xa0 t r xc2 xa0 t r xc2 xa0q3 2017 t r xc2 xa0 multi xc2 xad xe2 x80 x90 xe2 x80 x91pos xc2 xad xe2 x80 x90 xe2 x80 x91token t r xc2 xa0wallet t r xc2 xa0 t r xc2 xa0 t r xc2 xa0q3 2017 t r xc2 xa0 pos t r xc2 xa0token t r xc2 xa0block t r xc2 xa0explorer t r xc2 xa0 t r xc2 xa0 t r xc2 xa0q4 2017 t r xc2 xa0 pos t r xc2 xa0token t r xc2",
+    "metadata": {
+      "chunk_id": "3f646cb92243895e66fccda803815ad3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  },
+  {
+    "text": "[Section 19] t r xc2 xa0 t r xc2 xa0 t r xc2 xa0q3 2017 t r xc2 xa0 pos t r xc2 xa0token t r xc2 xa0block t r xc2 xa0explorer t r xc2 xa0 t r xc2 xa0 t r xc2 xa0q4 2017 t r xc2 xa0 pos t r xc2 xa0token t r xc2 xa0decentralized t r xc2 xa0exchange t r xc2 xa0 t r xc2 xa0 t r xc2 xa0q1 2018 t r xc2 xa0 pos t r xc2 xa0mining t r xc2 xa0pool t r xc2 xa0 t r xc2 xa0 t r xc2 xa0q2 2018 t r xc2 xa0 t r xc2 xa0is t r xc2 xa0a t r xc2 xa0summary t r xc2 xa0of t r xc2 xa0our t r xc2 xa0roadmap t r xc2 xa0more t r xc2 xa0details t r xc2 xa0will t r xc2 xa0be t r xc2 xa0updated t r xc2 xa0soon t r xc2 xa0 8 resource t r xc2 xa0 website t r xc2 xa0 https postoken org t r xc2 xa0 t r xc2 xa0 github t r xc2 xa0 https github com postoken t r xc2 xa0 t r xc2 xa0 twitter t r xc2 xa0 https twitter com postoken t r xc2 xa0 t r xc2 xa0 email t r xc2 xa0 contact postoken org t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 t r xc2 xa0 x0c",
+    "metadata": {
+      "chunk_id": "e06a3a15f6f3c07d752c191dc165e787",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "PoSToken.txt"
+    }
+  }
+]

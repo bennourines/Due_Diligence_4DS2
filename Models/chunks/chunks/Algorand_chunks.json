@@ -1,0 +1,1964 @@
+[
+  {
+    "text": "[Section 1] b arxiv 1607 01341v9 cs cr 26 2017 algorand xe2 x88 x97 silvio micali csail mit cambridge ma 02139 usa silvio csail mit edu jing chen computer science department stony brook university stony brook ny 11794 usa jingchen cs stonybrook edu abstract public ledger tamperproof sequence data read augmented public ledgers innumerable compelling uses secure plain sight kinds transactions xe2 x80 x94such titles sales payments xe2 x80 x94 exact order occur public ledgers curb corruption enable sophisticated applications xe2 x80 x94such cryptocurrencies smart contracts stand revolutionize way democratic society operates currently implemented scale poorly achieve potential algorand truly democratic efficient way implement public ledger unlike prior implementations based proof work requires negligible computation generates transaction history xe2 x80 x9cfork xe2 x80 x9d overwhelmingly high probability algorand based novel super fast message passing byzantine agreement concreteness shall describe",
+    "metadata": {
+      "chunk_id": "5216f54c561716fe10fc6bdb9ddb47c5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 2] computation generates transaction history xe2 x80 x9cfork xe2 x80 x9d overwhelmingly high probability algorand based novel super fast message passing byzantine agreement concreteness shall describe algorand money platform 1 introduction money increasingly virtual estimated 80% united states dollars today exist ledger entries 5 financial instruments following suit ideal world count universally trusted central entity immune possible cyber attacks money financial transactions solely electronic unfortunately live world accordingly decentralized cryptocurrencies bitcoin 29 xe2 x80 x9csmart contract xe2 x80 x9d systems ethereum proposed 4 heart systems shared ledger reliably records sequence transactions xe2 x88 x97 formal asynchronous version arxiv paper second author 24 paper based gorbunov micali 18 algorand xe2 x80 x99s technologies object following patent applications us62 117 138 us62 120 916 us62 142 318 us62 218 817 us62 314 601 pct us2016 018300 us62 326 865 62 331 654 us62 333 340",
+    "metadata": {
+      "chunk_id": "88e0c52fde30d06c0bb186aa17b354a8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 3] 18 algorand xe2 x80 x99s technologies object following patent applications us62 117 138 us62 120 916 us62 142 318 us62 218 817 us62 314 601 pct us2016 018300 us62 326 865 62 331 654 us62 333 340 us62 343 369 us62 344 667 us62 346 775 us62 351 011 us62 653 482 us62 352 195 us62 363 970 us62 369 447 us62 378 753 us62 383 299 us62 394 091 us62 400 361 us62 403 403 us62 410 721 us62 416 959 us62 422 883 us62 455 444 us62 458 746 us62 459 652 us62 460 928 us62 465 931 1 x0cas varied payments contracts tamperproof way technology choice guarantee tamperproofness blockchain blockchains applications cryptocurrencies 29 financial applications 4 internet things 3 techniques manage blockchain based ledgers proposed proof work 29 proof stake 2 practical byzantine fault tolerance 8 combination currently ledgers inefficient manage example bitcoin xe2 x80 x99s proof work approach based original concept 14 requires vast computation wasteful scales poorly 1 addition de facto concentrates power hands",
+    "metadata": {
+      "chunk_id": "20a75c389ef9b934c5cced94fa7f56a3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 4] ledgers inefficient manage example bitcoin xe2 x80 x99s proof work approach based original concept 14 requires vast computation wasteful scales poorly 1 addition de facto concentrates power hands wish forward new method implement public ledger offers convenience efficiency centralized system run trusted inviolable authority inefficiencies weaknesses current decentralized implementations approach algorand use algorithmic randomness select based ledger constructed far set verifiers charge constructing block valid transactions naturally ensure selections provably immune manipulations unpredictable minute ultimately universally clear algorand xe2 x80 x99s approach democratic sense principle de facto creates different classes users xe2 x80 x9cminers xe2 x80 x9d xe2 x80 x9cordinary users xe2 x80 x9d bitcoin algorand xe2 x80 x9call power resides set users xe2 x80 x9d notable property algorand transaction history fork small probability e g trillion 10 xe2 x88 x9218 algorand address legal",
+    "metadata": {
+      "chunk_id": "5236c853e1180308f257d3614516f1f4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 5] x80 x9d bitcoin algorand xe2 x80 x9call power resides set users xe2 x80 x9d notable property algorand transaction history fork small probability e g trillion 10 xe2 x88 x9218 algorand address legal political concerns algorand approach applies blockchains generally method generating tamperproof sequence blocks actually forward new method xe2 x80 x94alternative efficient blockchains xe2 x80 x94 independent interest 1 1 bitcoin xe2 x80 x99s assumption technical problems bitcoin ingenious system inspired great subsequent research problematic let summarize underlying assumption technical problems xe2 x80 x94which actually shared essentially cryptocurrencies like bitcoin based proof work summary suffices recall bitcoin user multiple public keys digital signature scheme money associated public keys payment digital signature transfers money public key essentially bitcoin organizes processed payments chain blocks b1 b2 consisting multiple payments payments b1 taken order followed b2 order etc",
+    "metadata": {
+      "chunk_id": "285725b7cd5485beaa078e2441baf8fc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 6] payment digital signature transfers money public key essentially bitcoin organizes processed payments chain blocks b1 b2 consisting multiple payments payments b1 taken order followed b2 order etc constitute sequence valid payments block generated average 10 minutes sequence blocks chain structured ensure change single block percolates subsequent blocks making easier spot alteration payment history shall achieved including block cryptographic hash previous block structure referred blockchain assumption honest majority computational power bitcoin assumes malicious entity coalition coordinated malicious entities controls majority computational power devoted block generation entity fact able modify blockchain 2 x0cand write payment history pleases particular payment xe2 x84 x98 obtain benefits paid xe2 x80 x9cerase xe2 x80 x9d trace xe2 x84 x98 technical problem 1 computational waste bitcoin xe2 x80 x99s proof work approach block generation requires extraordinary computation currently",
+    "metadata": {
+      "chunk_id": "19d28e362450f902a5d00b9a3e11479a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 7] paid xe2 x80 x9cerase xe2 x80 x9d trace xe2 x84 x98 technical problem 1 computational waste bitcoin xe2 x80 x99s proof work approach block generation requires extraordinary computation currently thousands public keys system 500 powerful supercomputers muster mere 12 8% percent total computational power required bitcoin players computation greatly increase significantly users join system technical problem 2 concentration power today exorbitant computation required user trying generate new block ordinary desktop let cell phone expects lose money computing new block ordinary computer expected cost necessary electricity power computation exceeds expected reward pools specially built computers xe2 x80 x9cmine new blocks xe2 x80 x9d expect profit generating new blocks accordingly today de facto disjoint classes users ordinary users payments specialized mining pools search new blocks surprise recently total computing power block generation lies pools conditions assumption majority",
+    "metadata": {
+      "chunk_id": "ddffe5c5d6b3a3171b723c1aaf008906",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 8] de facto disjoint classes users ordinary users payments specialized mining pools search new blocks surprise recently total computing power block generation lies pools conditions assumption majority computational power honest credible technical problem 3 ambiguity bitcoin blockchain necessarily unique xe2 x80 xb2 xe2 x80 xb2 according bk 2 latest portion forks blockchain xe2 x80 x94say xe2 x80 x94 b1 bk bk 1 xe2 x80 xb2 xe2 x80 xb2 xe2 x80 xb2 xe2 x80 xb2 xe2 x80 xb2 xe2 x80 xb2 user b1 bk bk 1 bk 2 bk 3 according user blocks added chain reasonably sure k 3 blocks users rely right away payments contained block chain prudent wait block sufficiently deep blockchain sufficiently stable separately law enforcement monetary policy concerns raised bitcoin 1 1 2 algorand nutshell setting algorand works tough setting briefly permissionless permissioned environments algorand works efficiently securely totally permissionless environment arbitrarily users allowed join system time vetting",
+    "metadata": {
+      "chunk_id": "0e7afe03e6522b4e5f652beb19e1e686",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 9] algorand works tough setting briefly permissionless permissioned environments algorand works efficiently securely totally permissionless environment arbitrarily users allowed join system time vetting permission kind course algorand works better permissioned environment 1 pseudo anonymity offered bitcoin payments misused money laundering financing criminal individuals terrorist organizations traditional banknotes gold bars principle offer perfect anonymity pose challenge physicality currencies substantially slows money transfers permit degree monitoring law enforcement agencies ability xe2 x80 x9cprint money xe2 x80 x9d basic powers nation state principle massive adoption independently floating currency curtail power currently bitcoin far threat governmental monetary policies scalability problems 3 x0c b adversarial environments algorand withstands powerful adversary 1 instantaneously corrupt user wants time wants provided permissionless environment 2 3 money system belongs honest user",
+    "metadata": {
+      "chunk_id": "7d42aa47ca283b9cf9c3b793fad2cf08",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 10] 3 x0c b adversarial environments algorand withstands powerful adversary 1 instantaneously corrupt user wants time wants provided permissionless environment 2 3 money system belongs honest user permissioned environment irrespective money suffices 2 3 users honest 2 totally control perfectly coordinate corrupted users 3 schedule delivery messages provided message m sent honest user reaches 95% honest users time xce xbbm solely depends size m main properties despite presence powerful adversary algorand xe2 x80 xa2 computation required minimal essentially matter users present system users perform seconds computation xe2 x80 xa2 new block generated 10 minutes de facto leave blockchain instance expectation time generate block embodiment xce x9b 12 4 xce xbb xce x9b time necessary propagate block peer peer gossip fashion matter block size choose xce xbb time propagate 1 500 200blong messages truly decentralized system xce x9b essentially intrinsic latency algorand limiting factor block",
+    "metadata": {
+      "chunk_id": "8dc4e7740a3469d33fc8960a07fdffba",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 11] block peer peer gossip fashion matter block size choose xce xbb time propagate 1 500 200blong messages truly decentralized system xce x9b essentially intrinsic latency algorand limiting factor block generation network speed second embodiment actually tested experimentally indicating block generated 40 seconds addition algorand xe2 x80 x99s blockchain fork negligible probability e trillion users relay payments contained new block soon block appears xe2 x80 xa2 power resides users algorand truy distributed system particular exogenous entities xe2 x80 x9cminers xe2 x80 x9d bitcoin control transactions recognized algorand xe2 x80 x99s techniques 1 new fast byzantine agreement protocol algorand generates new block new cryptographic message passing binary byzantine agreement ba protocol ba xe2 x8b x86 protocol ba xe2 x8b x86 satisfies additional properties shall soon discuss fast roughly said binary input version consists 3 step loop player sends single message mi players executed complete",
+    "metadata": {
+      "chunk_id": "cd35addb076295fc7f1c9dc81bb9b812",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 12] x8b x86 protocol ba xe2 x8b x86 satisfies additional properties shall soon discuss fast roughly said binary input version consists 3 step loop player sends single message mi players executed complete synchronous network 2 3 players honest probability 1 3 loop protocol ends agreement stress protocol ba xe2 x8b x86 satisfies original definition byzantine agreement pease shostak lamport 31 weakenings algorand leverages binary ba protocol reach agreement different communication model new block agreed block certified prescribed number digital signature proper verifiers propagated network 2 cryptographic sortition fast protocol ba xe2 x8b x86 benefit speed played millions users accordingly algorand chooses players ba xe2 x8b x86 4 x0ca smaller subset set users avoid different kind concentration power problem new block b r constructed agreed new execution ba xe2 x8b x86 separate set selected verifiers sv r principle selecting set hard selecting b r directly traverse potential problem",
+    "metadata": {
+      "chunk_id": "2738aae90023887246d9d0341bf8ce3e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 13] power problem new block b r constructed agreed new execution ba xe2 x8b x86 separate set selected verifiers sv r principle selecting set hard selecting b r directly traverse potential problem approach term embracing insightful suggestion maurice herlihy cryptographic sortition sortition practice selecting officials random large set eligible individuals 6 sortition practiced centuries instance republics athens florence venice modern judicial systems random selection choose juries random sampling recently advocated elections david chaum 9 decentralized system course choosing random coins necessary randomly select members verifier set sv r problematic resort cryptography order select verifier set population users way guaranteed automatic e requiring message exchange random essence use cryptographic function automatically determine previous block b r xe2 x88 x921 user leader charge proposing new block b r verifier set sv r charge reach agreement block proposed leader malicious users",
+    "metadata": {
+      "chunk_id": "82b15128850494ffe4b47b0f04a171e5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 14] function automatically determine previous block b r xe2 x88 x921 user leader charge proposing new block b r verifier set sv r charge reach agreement block proposed leader malicious users affect composition b r xe2 x88 x921 e g choosing payments specially construct use additional inputs prove leader rth block verifier set sv r randomly chosen 3 quantity seed qr use block b r xe2 x88 x921 blockchain order automatically determine verifier set leader charge constructing new block b r challenge approach choosing slightly different payment previous round powerful adversary gains tremendous control leader controlled 1 1000 players money system ensure leaders malicious intuition section 4 1 challenge central proof stake approaches best knowledge satisfactorily solved meet challenge purposely construct continually update separate carefully defined quantity qr provably unpredictable influentiable powerful adversary refer qr rth seed qr algorand selects secret cryptographic sortition users play",
+    "metadata": {
+      "chunk_id": "7c7e69c5559556751cc87da6e0804db9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 15] continually update separate carefully defined quantity qr provably unpredictable influentiable powerful adversary refer qr rth seed qr algorand selects secret cryptographic sortition users play special role generation rth block 4 secret crytographic sortition secret credentials randomly unambiguously current block b r xe2 x88 x921 order choose verifier set leader charge constructing new block b r b r xe2 x88 x921 known generating b r non influentiable quantity qr xe2 x88 x921 contained b r xe2 x88 x921 known accordingly verifiers leader charge compute block b r powerful adversary immediately corrupt engage discussion b r control block certify prevent problem leaders actually verifiers secretly learn role compute proper credential capable proving role user privately realizes leader block secretly assembles proposed new block disseminates certified credential way adversary immediately realize leader block corrupt right away late adversary influence choice new block xe2 x80 x9ccall xe2",
+    "metadata": {
+      "chunk_id": "fa99f12a4da9579aa7dfa8ddc396dd24",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 17] sv r randomly selected set users powerful adversary unable corrupt 1 3 users certainly corrupt members sv r fortunately xe2 x80 x99ll prove protocol ba xe2 x8b x86 executed propagating messages peer topeer fashion player replaceable novel requirement means protocol correctly efficiently reaches consensus step executed totally new randomly independently selected set players millions users small set players associated step ba xe2 x8b x86 probably intersection set addition sets players different steps ba xe2 x8b x86 probably totally different cardinalities furthermore members set know set players secretly pass internal state replaceable player property actually crucial defeat dynamic powerful adversary envisage believe replaceable player protocols prove crucial lots contexts applications particular crucial execute securely small sub protocols embedded larger universe players dynamic adversary able corrupt small fraction total players difficulty corrupting players smaller sub protocol",
+    "metadata": {
+      "chunk_id": "940e7c514227dcff5ba6c1e2de7265a9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 18] particular crucial execute securely small sub protocols embedded larger universe players dynamic adversary able corrupt small fraction total players difficulty corrupting players smaller sub protocol additional property technique lazy honesty honest user follows prescribed instructions include online run protocol algorand modest computation communication requirement online running protocol xe2 x80 x9cin background xe2 x80 x9d major sacrifice course xe2 x80 x9cabsences xe2 x80 x9d honest players sudden loss connectivity need rebooting automatically tolerated consider players temporarily malicious let point algorand simply adapted work new model honest users offline time new model informally introduced follows lazy honesty roughly speaking user lazy honest 1 follows prescribed instructions asked participate protocol 2 asked participate protocol rarely suitable advance notice relaxed notion honesty confident honest people hand need algorand guarantee case system operates securely given",
+    "metadata": {
+      "chunk_id": "097c50de4f2f188fc84df4f89df12ebf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 19] asked participate protocol 2 asked participate protocol rarely suitable advance notice relaxed notion honesty confident honest people hand need algorand guarantee case system operates securely given point time majority participating players malicious 6 x0c1 3 closely related work proof work approaches like cited 29 4 orthogonal approaches based message passing byzantine agreement practical byzantine fault tolerance like cited 8 protocols run set users model restricted suitably small set users fact powerful adversary immediately corrupt users involved small set charged actually running ba protocol approach considered related proof stake 2 sense users xe2 x80 x99 xe2 x80 x9cpower xe2 x80 x9d block building proportional money system opposed xe2 x80 x94say xe2 x80 x94 money xe2 x80 x9cescrow xe2 x80 x9d paper closest sleepy consensus model pass shi 30 avoid heavy computation required proof work approach paper relies kindly credits algorand xe2 x80 x99s secret cryptographic sortition",
+    "metadata": {
+      "chunk_id": "9c619b904be111de93817441b18bfe1b",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 20] xe2 x80 x9d paper closest sleepy consensus model pass shi 30 avoid heavy computation required proof work approach paper relies kindly credits algorand xe2 x80 x99s secret cryptographic sortition crucial aspect common significant differences exist papers particular 1 setting permissioned contrast algorand permissionless system 2 use nakamoto style protocol blockchain forks frequently dispensing proof work protocol secretly selected leader asked elongate longest valid richer sense blockchain forks unavoidable wait block sufficiently xe2 x80 x9cdeep xe2 x80 x9d chain achieve goals adversary capable adaptive corruptions require block poly n deep n represents total number users system notice assuming block produced minute n 1m users wait 2m years block n 2 deep 2 years block n deep contrast algorand xe2 x80 x99s blockchain forks negligible probability adversary corrupt users immediately adaptively new blocks immediately relied 3 handle individual byzantine agreements sense guarantee xe2",
+    "metadata": {
+      "chunk_id": "74c4a8b834f1cabd12bdb84e7814d626",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 21] algorand xe2 x80 x99s blockchain forks negligible probability adversary corrupt users immediately adaptively new blocks immediately relied 3 handle individual byzantine agreements sense guarantee xe2 x80 x9ceventual consensus growing sequence values xe2 x80 x9d theirs state replication protocol ba reach byzantine agreement individual value interest contrast algorand wanted enable millions users quickly reach byzantine agreement specific value interest 4 require weakly synchronized clocks users xe2 x80 x99 clocks offset small time xce xb4 contrast algorand clocks need essentially xe2 x80 x9cspeed xe2 x80 x9d 5 protocol works lazy honest users honest majority online users kindly credit algorand raising issue honest users going offline en masse putting forward lazy honesty model response protocol works lazy honesty model adversarial sleepy model adversary chooses users online offline provided times majority online users honest 2 2 original version paper actually considered security",
+    "metadata": {
+      "chunk_id": "772bb1a7dee1f99de9e2da701444dd58",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 22] protocol works lazy honesty model adversarial sleepy model adversary chooses users online offline provided times majority online users honest 2 2 original version paper actually considered security adversarial sleepy model original version algorand precedes theirs explicitly envisaged assuming given majority online players honest explicitly excluded consideration favor lazy honesty model instance point time half honest users choose line majority users line malicious prevent happening adversary force corrupted players line clearly interest notice protocol majority lazy honest players works fine majority users line malicious sufficient number honest players knowing going crucial rare point time elect line moments forced line adversary know crucial honest players 7 x0c 6 require simple honest majority contrast current version algorand requires 2 3 honest majority paper close ouroboros provably secure proof stake blockchain protocol kiayias russell david oliynykov 20 system appeared uses",
+    "metadata": {
+      "chunk_id": "99c8baa4368710dc60a68e6f0217533d",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 23] majority contrast current version algorand requires 2 3 honest majority paper close ouroboros provably secure proof stake blockchain protocol kiayias russell david oliynykov 20 system appeared uses crytpographic sortition dispense proof work provable manner system nakamoto style protocol forks unavoidable frequent model blocks need deep sleepy consensus model system relies following assumptions words authors xe2 x80 x9c 1 network highly synchronous 2 majority selected stakeholders available needed participate epoch 3 stakeholders remain offline long periods time 4 adaptivity corruptions subject small delay measured rounds linear security parameter xe2 x80 x9d contrast algorand overwhelming probability fork free rely 4 assumptions particular algorand adversary able instantaneously corrupt users wants control 2 preliminaries 2 1 cryptographic primitives ideal hashing shall rely efficiently computable cryptographic hash function h maps arbitrarily long strings binary strings fixed length",
+    "metadata": {
+      "chunk_id": "d19bead40b0dfe19ac02957a2c029098",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 24] wants control 2 preliminaries 2 1 cryptographic primitives ideal hashing shall rely efficiently computable cryptographic hash function h maps arbitrarily long strings binary strings fixed length following long tradition model h random oracle essentially function mapping possible string s randomly independently selected fixed binary string h s chosen length paper h 256 bit long outputs length short system efficient long system secure instance want h collisionresilient hard find different strings x y h x h y h random oracle 256 bit long outputs finding pair strings difficult trying random relying birthday paradox require 2256 2 2128 trials digital signing digital signatures allow users authenticate information sharing sharing secret keys digital signature scheme consists fast algorithms probabilistic key generator g signing algorithm s verification algorithm v given security parameter k sufficiently high integer user uses g produce pair k bit keys e strings xe2 x80 x9cpublic xe2 x80 x9d",
+    "metadata": {
+      "chunk_id": "81ae2e86374a21031bb80cbcc14c4604",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 27] digital signatures satisfy conceptually convenient xe2 x80 x9cretrievability xe2 x80 x9d property e guarantee signer message easily computable signature define sigpki m m sigpki m sigi m m sigi m pki clear unique digital signing consider digital signature schemes g s v satisfying following additional property 3 uniqueness hard find strings pk xe2 x80 xb2 m s s xe2 x80 xb2 s 6 s xe2 x80 xb2 v pk xe2 x80 xb2 m s v pk xe2 x80 xb2 m s xe2 x80 xb2 1 note uniqueness property holds strings pk xe2 x80 xb2 legitimately generated public keys particular uniqueness property implies specified key generator g compute public key pk matching secret key sk knew sk essentially impossible find different digital signatures message relative pk remarks xe2 x80 xa2 unique signatures verifiable random functions relative digital signature scheme uniqueness property mapping m xe2 x86 x92 h sigi m associates possible string m unique randomly selected 256 bit string correctness mapping proved given signature",
+    "metadata": {
+      "chunk_id": "67a35e42d32e67d8fc7cd24a4ad00fc8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 28] relative digital signature scheme uniqueness property mapping m xe2 x86 x92 h sigi m associates possible string m unique randomly selected 256 bit string correctness mapping proved given signature sigi m ideal hashing digital signature scheme satisfying uniqueness property essentially provide elementary implementation verifiable random function introduced micali rabin vadhan 27 original implementation necessarily complex rely ideal hashing 9 x0c xe2 x80 xa2 different needs digital signatures algorand user relies digital signatures 1 authenticating xe2 x80 x99s payments application keys xe2 x80 x9clong term xe2 x80 x9d e sign messages long period time come ordinary signature scheme 2 generating credentials proving entitled act step s round r keys long term come scheme satisfying uniqueness property 3 authenticating message sends step acts keys ephemeral e destroyed use come ordinary signature scheme xe2 x80 xa2 small cost simplification simplicity envision user single longterm key",
+    "metadata": {
+      "chunk_id": "f92aa6accf2cac8b72399268529a74e5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 29] property 3 authenticating message sends step acts keys ephemeral e destroyed use come ordinary signature scheme xe2 x80 xa2 small cost simplification simplicity envision user single longterm key accordingly key come signature scheme uniqueness property simplicity small computational cost typically fact unique digital signatures slightly expensive produce verify ordinary signatures 2 2 idealized public ledger algorand tries mimic following payment system based idealized public ledger 1 initial status money associated individual public keys privately generated owned users letting pk1 pkj initial public keys a1 aj respective initial amounts money units initial status s0 pk1 a1 pkj aj assumed common knowledge system 2 payments let pk public key currently having xe2 x89 xa5 0 money units pk xe2 x80 xb2 public key xe2 x80 xb2 non negative number greater valid payment xe2 x84 x98 digital signature relative pk specifying transfer xe2 x80 xb2 monetary units pk pk xe2 x80 xb2 additional",
+    "metadata": {
+      "chunk_id": "76d802e76c345be96c7275b7bf32ef07",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 30] pk xe2 x80 xb2 public key xe2 x80 xb2 non negative number greater valid payment xe2 x84 x98 digital signature relative pk specifying transfer xe2 x80 xb2 monetary units pk pk xe2 x80 xb2 additional information symbols xe2 x84 x98 sigpk pk pk xe2 x80 xb2 xe2 x80 xb2 h represents additional information deemed useful sensitive e g time information payment identifier additional information deemed sensitive e g reason payment possibly identities owners pk pk xe2 x80 xb2 refer pk owner payer pk xe2 x80 xb2 owner payee xe2 x80 xb2 payment xe2 x84 x98 free joining payments note users join system want generating public secret key pairs accordingly public key pk xe2 x80 xb2 appears payment xe2 x84 x98 newly generated public key xe2 x80 x9cowned xe2 x80 x9d money 3 magic ledger idealized system payments valid appear tamper proof list l sets payments xe2 x80 x9cposted sky xe2 x80 x9d l p ay 1 p ay 2 10 x0ceach block p ay r 1 consists set payments appearance block p ay r ideal system new block",
+    "metadata": {
+      "chunk_id": "d10c0e08385473c20a6eee1a8e87345f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 31] valid appear tamper proof list l sets payments xe2 x80 x9cposted sky xe2 x80 x9d l p ay 1 p ay 2 10 x0ceach block p ay r 1 consists set payments appearance block p ay r ideal system new block appears fixed finite time discussion xe2 x80 xa2 general payments unspent transaction output generally public key pk owns valid payment p xe2 x84 x98 pk transfer amounts xe2 x80 xb21 xe2 x80 xb22 xe2 x80 xb2 xe2 x80 xb2 respectively keys pk1 pk2 long j xe2 x80 xb2j xe2 x89 xa4 bitcoin similar systems money owned public key pk segregated separate amounts payment xe2 x84 x98 pk transfer segregated entirety pk wishes transfer fraction xe2 x80 xb2 key transfer balance unspent transaction output key possibly pk algorand works keys having segregated amounts order focus novel aspects algorand conceptually simpler stick simpler forms payments keys having single associated xe2 x80 xa2 current status idealized scheme directly provide information current status system e money units public key information",
+    "metadata": {
+      "chunk_id": "998d1365c180a816cbc7127bab28a92a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 32] simpler stick simpler forms payments keys having single associated xe2 x80 xa2 current status idealized scheme directly provide information current status system e money units public key information deducible magic ledger ideal system active user continually stores updates latest status information reconstruct scratch time computed version paper shall augment algorand enable users reconstruct current status efficient manner xe2 x80 xa2 security xe2 x80 x9cprivacy xe2 x80 x9d digital signatures guarantee forge payment user payment xe2 x84 x98 public keys hidden sensitive information h appears xe2 x84 x98 h ideal hash function h random 256 bit value way figure better simply guessing prove e g prove reason payment payer reveal correctness revealed verified computing h comparing resulting value item xe2 x84 x98 fact h collision resilient hard find second value xe2 x80 xb2 h h xe2 x80 xb2 2 3 basic notions notations keys users owners specified public key xe2 x80 x9ckey xe2 x80 x9d short",
+    "metadata": {
+      "chunk_id": "85d73d7ab7897160bd38dfe9f322fc59",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 36] p possibly collectively valid set round r paysets pay r round r payset p maximal superset p round r payset actually suggest payment xe2 x84 x98 specifies round xcf x81 xe2 x84 x98 sigi xcf x81 xe2 x80 xb2 h valid round outside xcf x81 xcf x81 k fixed non negative integer k 4 4 simplifies checking xe2 x84 x98 xe2 x80 x9ceffective xe2 x80 x9d e simplifies determining payset p ay r contains xe2 x84 x98 k 0 xe2 x84 x98 sigi r xe2 x80 xb2 h xe2 x84 x98 xe2 x88 x88 p ay r submit xe2 x84 x98 12 x0cofficial paysets round r algorand publicly selects manner described later single possibly payset p ay r round xe2 x80 x99s official payset essentially p ay r represents round r payments xe2 x80 x9cactually xe2 x80 x9d happened ideal system bitcoin 1 way new user j enter system recipient payment belonging official payset p ay r given round r 2 p ay r determines status round s r 1 current round s r symbolically p ay r s r xe2 x88 x92 xe2 x86 x92 s r 1 specifically 1 set public keys round r 1 p k r 1",
+    "metadata": {
+      "chunk_id": "746bce80a821a363b20ad7cbc5a0949e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 37] official payset p ay r given round r 2 p ay r determines status round s r 1 current round s r symbolically p ay r s r xe2 x88 x92 xe2 x86 x92 s r 1 specifically 1 set public keys round r 1 p k r 1 consists union p k r set payee keys appear time payments p ay r r 1 2 money ai user owns round r 1 sum ai r xe2 x80 x94i e money owned previous round 0 6 xe2 x88 x88 p k r xe2 x80 x94 sum amounts paid according payments p ay r sum ideal system status s r 1 deducible previous payment history p ay 0 p ay r 2 4 blocks proven blocks algorand0 block b r corresponding round r specifies r set payments round r p ay r quantity qr explained hash previous block h b r xe2 x88 x921 starting fixed block b 0 traditional blockchain b 1 1 p ay 1 q0 h b 0 b 2 2 p ay 2 q1 h b 1 b 3 3 p ay 3 q2 h b 2 algorand authenticity block actually vouched separate piece information xe2 x80 x9cblock certificate xe2 x80 x9d cert r turns b r proven block b r magic ledger implemented sequence proven blocks b 1 b 2 discussion",
+    "metadata": {
+      "chunk_id": "618ef15978b9e6479aaeecf07f532002",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 38] block actually vouched separate piece information xe2 x80 x9cblock certificate xe2 x80 x9d cert r turns b r proven block b r magic ledger implemented sequence proven blocks b 1 b 2 discussion shall cert r consists set digital signatures h b r majority members sv r proof members belongs sv r course include certificates cert r blocks find conceptually cleaner separate bitcoin block satisfy special property xe2 x80 x9ccontain solution crypto puzzle xe2 x80 x9d makes block generation computationally intensive forks inevitable rare contrast algorand xe2 x80 x99s blockchain main advantages generated minimal computation fork overwhelmingly high probability block b safely final soon enters blockchain 13 x0c2 5 acceptable failure probability analyze security algorand specify probability f willing accept goes wrong e g verifier set sv r honest majority case output length cryptographic hash function h f parameter case find useful set f concrete value intuitive grasp fact possible algorand enjoy",
+    "metadata": {
+      "chunk_id": "9884c3b03a313145129be250c37551ef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 39] accept goes wrong e g verifier set sv r honest majority case output length cryptographic hash function h f parameter case find useful set f concrete value intuitive grasp fact possible algorand enjoy simultaneously sufficient security sufficient efficiency emphasize f parameter set desired second embodiments respectively set f 10 xe2 x88 x9212 f 10 xe2 x88 x9218 discussion note 10 xe2 x88 x9212 actually trillion believe choice f adequate application let emphasize 10 xe2 x88 x9212 probability adversary forge payments honest user payments digitally signed proper digital signatures probability forging payment far lower 10 xe2 x88 x9212 fact essentially 0 bad event willing tolerate probability f algorand xe2 x80 x99s blockchain forks notice setting f minute long rounds fork expected occur algorand xe2 x80 x99s blockchain infrequently roughly 1 9 million years contrast bitcoin forks occurs demanding person set f lower value end second embodiment consider setting f 10 xe2 x88 x9218 note",
+    "metadata": {
+      "chunk_id": "d7b1641494675abbaa8074cd394ed49a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 40] algorand xe2 x80 x99s blockchain infrequently roughly 1 9 million years contrast bitcoin forks occurs demanding person set f lower value end second embodiment consider setting f 10 xe2 x88 x9218 note assuming block generated second 1018 estimated number seconds taken universe far big bang present time f 10 xe2 x88 x9218 block generated second expect age universe fork 2 6 adversarial model algorand designed secure adversarial model let explain honest malicious users user honest follows protocol instructions perfectly capable sending receiving messages user malicious e byzantine parlance distributed computing deviate arbitrarily prescribed instructions adversary adversary efficient technically polynomial time algorithm personified color immediately malicious user wants time wants subject upperbound number users corrupt adversary totally controls perfectly coordinates malicious users takes actions behalf including receiving sending messages let deviate prescribed instructions arbitrary",
+    "metadata": {
+      "chunk_id": "80cfc0abc22acaa93059ac21c9f44bff",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 41] number users corrupt adversary totally controls perfectly coordinates malicious users takes actions behalf including receiving sending messages let deviate prescribed instructions arbitrary ways simply isolate corrupted user sending receiving messages let clarify automatically learns user malicious xe2 x80 x99s maliciousness transpire actions adversary powerful adversary xe2 x80 xa2 unbounded computational power successfully forge digital signature honest user negligible probability 14 x0c xe2 x80 xa2 interfere way messages exchanges honest users furthermore ability attack honest users bounded following assumption honesty majority money consider continuum honest majority money hmm assumptions non negative integer k real h 1 2 hhmk h honest users round r owned fraction greater h money system round r xe2 x88 x92 k discussion assuming malicious users perfectly coordinate actions controlled single entity adversary pessimistic hypothesis perfect coordination individuals difficult achieve",
+    "metadata": {
+      "chunk_id": "ed3d4735a36f8aaec5d34e74f8b28fec",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 43] message propagation xe2 x80 x94i e xe2 x80 x9cpeer peer gossip xe2 x80 x9d5 xe2 x80 x94 means communication temporary assumption timely delivery messages entire network paper assume propagated message reaches honest users timely fashion shall remove assumption section 10 deal network partitions naturally occurring adversarially induced shall assume timely delivery messages connected component network concrete way capture timely delivery propagated messages entire network following reachability xcf x81 95% message size xc2 xb5 xe2 x88 x88 z exists xce xbb xcf x81 xc2 xb5 honest user propagates xc2 xb5 byte message m time t m reaches time t xce xbb xcf x81 xc2 xb5 fraction xcf x81 honest users 5 essentially bitcoin user propagates message m active user receiving m time randomly independently selects suitably small number active users xe2 x80 x9cneighbors xe2 x80 x9d forwards m possibly receives acknowledgement propagation m terminates user receives m time 15 x0cthe property support",
+    "metadata": {
+      "chunk_id": "bca26f1cc2a5845693ff7935824f40b8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 44] selects suitably small number active users xe2 x80 x9cneighbors xe2 x80 x9d forwards m possibly receives acknowledgement propagation m terminates user receives m time 15 x0cthe property support algorand protocol explicitly separately envisaging mechanism obtain latest blockchain xe2 x80 x94by user depository etc fact construct new block b r proper set verifiers timely receive round r messages messages previous rounds know b r xe2 x88 x921 previous blocks necessary determine payments b r valid following assumption instead suffices message propagation mp assumption xcf x81 95% xc2 xb5 xe2 x88 x88 z exists xce xbb xcf x81 xc2 xb5 times t xc2 xb5 byte messages m propagated honest user t xe2 x88 x92 xce xbb xcf x81 xc2 xb5 m received time t fraction xcf x81 honest users protocol algorand xe2 x80 xb2 actually instructs small number users e verifiers given step round algorand xe2 x80 xb2 propagate separate message small prescribed size need bound time required fulfill instructions enriching",
+    "metadata": {
+      "chunk_id": "a927b2ef17dd1bc20c719c86647ea233",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 46] delivery message wants 7 ba protocol ba xe2 x8b x86 traditional setting 3 emphasized byzantine agreement key ingredient algorand use ba protocol algorand unaffected forks secure powerful adversary algorand rely ba protocol satisfies new player replaceability constraint addition algorand efficient ba protocol efficient ba protocols defined idealized communication model synchronous complete networks sc networks model allows simpler design analysis ba protocols 6 given honest percentage h acceptable failure probability f algorand computes upperbound n maximum number member verifiers step mp assumption need hold n xe2 x89 xa4 n addition stated mp assumption holds matter messages propagated alongside mj xe2 x80 x99s shall algorand messages propagated essentially non overlapping time intervals single block propagated n verifiers propagate small e g 200b message restate mp assumption weaker complex way 7 instance immediately learn messages sent honest players malicious user xe2 x80 xb2 asked",
+    "metadata": {
+      "chunk_id": "3fef50c18ba92baf162c7af2f1eadee3",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 47] block propagated n verifiers propagate small e g 200b message restate mp assumption weaker complex way 7 instance immediately learn messages sent honest players malicious user xe2 x80 xb2 asked propagate message simultaneously honest user choose message m xe2 x80 xb2 based message m actually propagated ability related rushing parlance distributed computation literature 16 x0caccordingly section introduce new ba protocol ba xe2 x8b x86 sc networks ignoring issue player replaceability altogether protocol ba xe2 x8b x86 contribution separate value efficient cryptographic ba protocol sc networks known far use algorand protocol modify ba xe2 x8b x86 bit account different communication model context sure section x highlight ba xe2 x8b x86 actual protocol algorand xe2 x80 xb2 start recalling model ba xe2 x8b x86 operates notion byzantine agreement 3 1 synchronous complete networks matching adversaries sc network common clock ticking integral times r 1 2 time click r player instantaneously",
+    "metadata": {
+      "chunk_id": "2292d6b14f09da42536fc3e4d4c57f50",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 48] ba xe2 x8b x86 operates notion byzantine agreement 3 1 synchronous complete networks matching adversaries sc network common clock ticking integral times r 1 2 time click r player instantaneously simultaneously sends single message mri j possibly message player j including mri j received time click r 1 player j identity sender communication protocol player honest follows prescribed instructions malicious malicious players totally controlled perfectly coordinated adversary particular immediately receives messages addressed malicious players chooses messages send adversary immediately malicious honest user wants odd time click wants subject possible upperbound t number malicious players adversary xe2 x80 x9ccannot interfere messages sent honest user xe2 x80 x9d delivered usual adversary additional ability instantaneously round messages currently honest players send instantaneously use information choose messages malicious players send time tick remarks xe2 x80 xa2 adversary power setting",
+    "metadata": {
+      "chunk_id": "64d72d19af0164e8ab8825bfbb326a11",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 50] privacy authentication guaranteed assumption contrast communication network messages propagated peer peer authentication guaranteed digital signatures privacy non existent adopt protocol ba xe2 x8b x86 setting message exchanged digitally signed identifying state sent fortunately ba protocols consider algorand require message privacy 17 x0c3 2 notion byzantine agreement notion byzantine agreement introduced pease shostak lamport 31 binary case initial value consists bit quickly extended arbitrary initial values surveys fischer 16 chor dwork 10 ba protocol mean arbitrary value definition 3 1 synchronous network let p n player protocol player set common knowledge players t positive integer n xe2 x89 xa5 2t 1 p arbitrary value respectively binary n t byzantine agreement protocol soundness xcf x83 xe2 x88 x88 0 1 set values v containing special symbol xe2 x8a xa5 respectively v 0 1 execution t players malicious player starts initial value vi xe2 x88 x88 v honest player j halts probability",
+    "metadata": {
+      "chunk_id": "3609e1dcf17a75ffa2ab9a47d5996f98",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 55] constant number steps worked having players implement common coin notion proposed rabin implemented external trusted party 32 19 x0c3 5 graded consensus protocol gc let recall arbitrary values notion consensus weaker byzantine agreement definition 3 2 let p protocol set players common knowledge player privately knows arbitrary initial value vi xe2 x80 xb2 p n t graded consensus protocol execution n players t malicious honest player halts outputting value grade pair vi gi gi xe2 x88 x88 0 1 2 satisfy following conditions 1 honest players j gi xe2 x88 x92 gj xe2 x89 xa4 1 2 honest players j gi gj 0 xe2 x87 x92 vi vj 3 v1 xe2 x80 xb2 xc2 xb7 xc2 xb7 xc2 xb7 vn xe2 x80 xb2 v value v vi v gi 2 honest players historical note notion graded consensus simply derived graded broadcast forward feldman micali 15 strengthening notion crusader agreement introduced dolev 12 refined turpin coan 33 8 15 authors provided 3 step n t graded broadcasting protocol gradecast n xe2 x89 xa5 3t 1 complex n t",
+    "metadata": {
+      "chunk_id": "1b33c430d17458c58c8881647a18e208",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 61] committee users selected reaches byzantine agreement block proposed leader process includes step ba protocol run separately selected committee agreed block digitally signed given threshold th committee members digital signatures circulated assured new block includes circulating credential signers authenticating hash new block ensuring guaranteed learn block hash clear sections present embodiments algorand algorand xe2 x80 xb21 algorand xe2 x80 xb22 work majority honest users assumption section 8 adopts embodiments work honest majority money assumption algorand xe2 x80 xb21 envisages 2 3 committee members honest addition algorand xe2 x80 xb21 number steps reaching byzantine agreement capped suitably high number agreement guaranteed reached overwhelming probability fixed number steps potentially requiring longer time steps algorand xe2 x80 xb22 remote case agreement reached step committee agrees block valid algorand xe2 x80 xb22 envisages number honest members committee greater equal",
+    "metadata": {
+      "chunk_id": "1f2b2ca96467c05ae8a4db0257ce159a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 62] requiring longer time steps algorand xe2 x80 xb22 remote case agreement reached step committee agrees block valid algorand xe2 x80 xb22 envisages number honest members committee greater equal fixed threshold th guarantees overwhelming probability 2 3 committee members honest addition algorand xe2 x80 xb22 allows byzantine agreement reached arbitrary number steps potentially shorter time algorand xe2 x80 xb21 easy derive variants basic embodiments particular easy given algorand xe2 x80 xb22 modify algorand xe2 x80 xb21 enable reach byzantine agreement arbitrary number steps embodiments share following common core notations notions parameters 4 1 common core objectives ideally round r algorand satisfy following properties 1 perfect correctness honest users agree block b r 2 completeness 1 probability 1 payset b r p ay r maximal 10 10 paysets defined contain valid payments honest users valid payments maximal p ay r contains xe2 x80 x9ccurrently outstanding xe2 x80 x9d payments honest",
+    "metadata": {
+      "chunk_id": "dd6b9839c50ff0046f66e9e7b1d4419f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 63] 1 probability 1 payset b r p ay r maximal 10 10 paysets defined contain valid payments honest users valid payments maximal p ay r contains xe2 x80 x9ccurrently outstanding xe2 x80 x9d payments honest users 22 x0cof course guaranteeing perfect correctness trivial chooses official payset p ay r case system completeness 0 unfortunately guaranteeing perfect correctness completeness 1 easy presence malicious users algorand adopts realistic objective informally letting h denote percentage users honest h 2 3 goal algorand guaranteeing overwhelming probability perfect correctness completeness close h privileging correctness completeness reasonable choice payments processed round processed avoid forks possible led byzantine agreement perfect correctness guaranteed follows start round r user constructs candidate block bir users reach byzantine agreement candidate block introduction ba protocol employed requires 2 3 honest majority player replaceable step executed small randomly selected set",
+    "metadata": {
+      "chunk_id": "69f890c4410eb7c982d6a2bcc4515eee",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 65] malicious leader xe2 x84 x93r maliciously choose b xe2 x84 x93rr block honestly propagate forcing honest users agree block leader selection algorand xe2 x80 x99s rth block form b r r p ay r qr h b r xe2 x88 x921 mentioned introduction quantity qr xe2 x88 x921 carefully constructed essentially non manipulatable powerful adversary later section shall provide intuition case start round r users know blockchain far b 0 b r xe2 x88 x921 deduce set users prior round p k 1 p k r xe2 x88 x921 potential leader round r user x01 x01 h sigi r 1 qr xe2 x88 x921 xe2 x89 xa4 p let explain note quantity qr xe2 x88 x921 block b r xe2 x88 x921 underlying x01 string uniquely signature scheme satisfies uniqueness property sigi r 1 qr xe2 x88 x921 binary x01 x01 associated r h random oracle h sigi r 1 qr xe2 x88 x921 random x01 x01256 bit long string uniquely associated r symbol xe2 x80 x9c xe2 x80 x9d h sigi r 1 qr xe2 x88 x921 x01 x01 decimal case binary point ri h sigi r 1 qr xe2 x88 x921 binary",
+    "metadata": {
+      "chunk_id": "90d614b21c89dbd0ea6f9e0fe67c8daf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 66] xe2 x88 x921 random x01 x01256 bit long string uniquely associated r symbol xe2 x80 x9c xe2 x80 x9d h sigi r 1 qr xe2 x88 x921 x01 x01 decimal case binary point ri h sigi r 1 qr xe2 x88 x921 binary expansion random 256 bit number 0 1 uniquely associated r probability ri equal p essentially p potential leader selection mechanism inspired micro payment scheme micali rivest 28 probability p chosen overwhelming e 1 xe2 x88 x92 f probability potential verifier honest fact p chosen smallest probability 23 x0cnote capable computing signatures determine x01 potential verifier round 1 revealing credential xcf x83ir sigi r 1 qr xe2 x88 x921 prove potential verifier round r leader xe2 x84 x93r defined potential leader hashed credential smaller r s hashed credential potential leader j h xcf x83 xe2 x84 x93r s r xe2 x89 xa4 h xcf x83j note malicious xe2 x84 x93r reveal credential correct leader round r known barring improbable ties xe2 x84 x93r leader round r let finally bring important detail",
+    "metadata": {
+      "chunk_id": "ac2935b4d845c57e264108a3215f14c8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 68] step s round r message includes credential xcf x83ir s enable verifiers f nest step recognize mr s legitimate step s message probability p xe2 x80 xb2 chosen ensure sv r s letting good number honest users bad number malicious users overwhelming probability following conditions hold embodiment algorand xe2 x80 xb21 1 good 2 xc2 xb7 bad 2 good 4 xc2 xb7 bad 2n n expected cardinality sv r s embodiment algorand xe2 x80 xb22 1 good th 2 good 2 bad 2th th specified threshold conditions imply sufficiently high probability step ba protocol given number honest players digitally sign new block b r b block round necessary number signatures c ba protocol step required 2 3 honest majority clarifying block generation round r leader xe2 x84 x93r honest corresponding block form x01 x01 x01 b r r p ay r sig xe2 x84 x93r qr xe2 x88 x921 h b r xe2 x88 x921 payset p ay r maximal recall paysets definition collectively valid e xe2 x84 x93r malicious b r following possible forms x01 x01 x01 x01 x01 b r b",
+    "metadata": {
+      "chunk_id": "17bdaf7196c522844bc59a75043260a4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 69] sig xe2 x84 x93r qr xe2 x88 x921 h b r xe2 x88 x921 payset p ay r maximal recall paysets definition collectively valid e xe2 x84 x93r malicious b r following possible forms x01 x01 x01 x01 x01 b r b xce xb5r r xe2 x88 x85 qr xe2 x88 x921 h b r xe2 x88 x921 b r r p ay r sigi qr xe2 x88 x921 h b r xe2 x88 x921 24 x0cin form p ay r non necessarily maximal payset p ay r xe2 x88 x85 potential leader round r leader xe2 x84 x93r happen xe2 x84 x93r keeps secret credential reveal second form arises round r execution ba protocol honest players output default value block b xce xb5r application definition possible outputs ba protocol include default value generically denoted xe2 x8a xa5 section x01 3 2 r xe2 x88 x921 x01 x01 r xe2 x88 x921 r h b note paysets cases b r xe2 x88 x85 sigi q b xce xb5r syntactically different blocks arise different situations respectively xe2 x80 x9call went smoothly execution ba protocol xe2 x80 x9d xe2 x80 x9csomething went wrong ba protocol default value output",
+    "metadata": {
+      "chunk_id": "d22d6ba78b3030b7bc295d7bc8bfb16f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 70] syntactically different blocks arise different situations respectively xe2 x80 x9call went smoothly execution ba protocol xe2 x80 x9d xe2 x80 x9csomething went wrong ba protocol default value output xe2 x80 x9d let intuitively describe generation block b r proceeds round r algorand xe2 x80 xb2 step eligible player player xe2 x88 x88 p k r xe2 x88 x92k checks potential leader case asked payments seen far current blockchain b 0 b r xe2 x88 x921 secretly prepare maximal payment set p ayir secretly x01 x01 x01 assembles candidate block b r r p ayir sigi qr xe2 x88 x921 h b r xe2 x88 x921 include bir second component prepared payset component signature qr xe2 x88 x921 component block b r xe2 x88 x921 finally propagate r round r step 1 message mr 1 includes candidate block bi b proper signature candidate block e signature hash bir c credential xcf x83ir 1 proving potential verifier round r note honest produces message mr 1 adversary clue potential verifier wish corrupt honest potential",
+    "metadata": {
+      "chunk_id": "d6b2ee2a07cddaad5d83687749ef3c54",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 71] candidate block e signature hash bir c credential xcf x83ir 1 proving potential verifier round r note honest produces message mr 1 adversary clue potential verifier wish corrupt honest potential leaders adversary corrupt random honest players sees mr 1 contains xe2 x80 x99s credential adversary knows corrupt prevent mr 1 virally propagated reaching users system second step selected verifier j xe2 x88 x88 sv r 2 tries identify leader round contained proper step 1 message mr 1 specifically j takes step 1 credentials xcf x83ir 1 xcf x83ir 1 n 1 x10 x11 x11 x10 r 1 received hashes computes h xcf x83ir 1 finds credential h xcf x83 1 xcf x83 xe2 x84 x93r 1 hash lexicographically minimum considers xe2 x84 x93rj leader round r j x01 recall considered credential digital signature qr xe2 x88 x921 sigi r 1 qr xe2 x88 x921 x01 uniquely determined qr xe2 x88 x921 h random oracle h sigi r 1 qr xe2 x88 x921 random 256 bit long string unique potential leader round r conclude 256 bit string qr xe2 x88",
+    "metadata": {
+      "chunk_id": "61fc1306e5d2b17e2497297e44d933f0",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 72] r 1 qr xe2 x88 x921 x01 uniquely determined qr xe2 x88 x921 h random oracle h sigi r 1 qr xe2 x88 x921 random 256 bit long string unique potential leader round r conclude 256 bit string qr xe2 x88 x921 randomly independently selected hashed credentials potential leaders round r fact potential leaders defined credentials actually computed set potential leaders round r random subset users round r xe2 x88 x92 k honest potential leader properly constructs propagates message mri contains xe2 x80 x99s credential percentage honest users h matter malicious potential leaders e g reveal conceal credentials minimum hashed potential leader credential belongs honest user necessarily identified leader xe2 x84 x93r round r accordingly 256 bit string qr xe2 x88 x921 randomly independently selected probability exactly h leader xe2 x84 x93r honest b xe2 x84 x93j xe2 x84 x93r honest step 2 verifiers j reality hashed credential yes randomly selected depend qr xe2 x88 x921 25 x0cnot randomly independently",
+    "metadata": {
+      "chunk_id": "a30649d4f0216117c20aafbd4be6e3d4",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 74] ba protocol verifiers step compute desired round r block b r compute authenticate propagate h b r accordingly h b r digitally signed sufficiently verifiers step ba protocol users system realize h b r hash new block retrieve wait execution asynchronous block b r protocol ensures available matter adversary asynchrony timing algorand xe2 x80 xb21 algorand xe2 x80 xb22 significant degree asynchrony adversary large latitude scheduling delivery messages propagated addition total number steps round capped variance contribute number steps actually taken soon learns certificates b 0 b r xe2 x88 x921 user computes qr xe2 x88 x921 starts working round r checking potential leader verifier step s round r assuming act step s light discussed asynchrony relies strategies ensure sufficient information acts instance wait receive given number messages verifiers previous step wait sufficient time ensure receives messages sufficiently verifiers previous step seed qr look parameter k recall ideally",
+    "metadata": {
+      "chunk_id": "8de00f684f668ea045b92b5977e6ce1c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 75] acts instance wait receive given number messages verifiers previous step wait sufficient time ensure receives messages sufficiently verifiers previous step seed qr look parameter k recall ideally quantities qr random independent suffice sufficiently non manipulatable adversary x01 glance choose qr xe2 x88 x921 coincide h p ay r xe2 x88 x921 avoid specify qr xe2 x88 x921 explicitly b r xe2 x88 x921 elementary analysis reveals malicious users advantage selection mechanism 11 additional effort shows myriads 11 start round r xe2 x88 x92 1 qr xe2 x88 x922 p ay r xe2 x88 x922 publicly known adversary privately knows potential leaders controls assume adversary controls 10% users high probability malicious user w potential leader round r xe2 x88 x92 1 assume x01 x01 h sigw r xe2 x88 x92 2 1 qr xe2 x88 x922 small highly improbable honest potential leader actually leader round r xe2 x88 x92 1 recall choose potential leaders secret cryptographic sortition mechanism adversary know honest",
+    "metadata": {
+      "chunk_id": "1e68be5d6c9bb7f5d45caf95b62c8993",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 76] 1 qr xe2 x88 x922 small highly improbable honest potential leader actually leader round r xe2 x88 x92 1 recall choose potential leaders secret cryptographic sortition mechanism adversary know honest potential leaders adversary enviable position choosing payset p ay xe2 x80 xb2 wants official payset round r xe2 x88 x92 1 ensure high probability malicious users leader round r freely select p ay r long long high probability events occur guarantee adversary acts follows let p ay xe2 x80 xb2 payset adversary prefers round r xe2 x88 x92 1 computes h p ay xe2 x80 xb2 checks malicious player z sigz r 1 h p ay xe2 x80 xb2 particularly small small high probability z leader round r case instructs w choose candidate block 26 x0calternatives based traditional block quantities easily exploitable adversary ensure malicious leaders frequent instead specifically inductively define brand new quantity qr able prove non manipulatable adversary qr h sig xe2 x84 x93r qr xe2 x88 x921 r b r block qr h qr xe2",
+    "metadata": {
+      "chunk_id": "6de6999b98dd109599db515218df3fbf",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [
+          "exploit"
+        ],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 23.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 77] ensure malicious leaders frequent instead specifically inductively define brand new quantity qr able prove non manipulatable adversary qr h sig xe2 x84 x93r qr xe2 x88 x921 r b r block qr h qr xe2 x88 x921 r intuition construction qr works follows assume moment qr xe2 x88 x921 truly randomly independently selected qr xe2 x84 x93r honest answer roughly speaking yes h sig xe2 x84 x93r xc2 xb7 r 0 1 256 xe2 x88 x92 xe2 x86 x92 0 1 256 random function xe2 x84 x93r malicious qr longer univocally defined qr xe2 x88 x921 xe2 x84 x93r separate values qr continues qr h sig xe2 x84 x93r qr xe2 x88 x921 r h qr xe2 x88 x921 r let argue second choice somewhat arbitrary second choice absolutely mandatory reason malicious xe2 x84 x93r cause totally different candidate blocks received honest verifiers second step 12 case easy ensure block ultimately agreed ba protocol round r default contain xe2 x80 x99s digital signature qr xe2 x88 x921 system continue needs leader round r leader automatically",
+    "metadata": {
+      "chunk_id": "6b5b6fcc7ddfb600fc6c553b4736a2cc",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 78] second step 12 case easy ensure block ultimately agreed ba protocol round r default contain xe2 x80 x99s digital signature qr xe2 x88 x921 system continue needs leader round r leader automatically openly selected adversary trivially corrupt selected previous qr xe2 x88 x921 process xe2 x84 x93r leader round r 1 specifically propose use secret cryptographic sortition mechanism applied new q quantity h qr xe2 x88 x921 r having quantity output h guarantees output random including r second input h uses h 3 inputs xe2 x80 x9cguarantees xe2 x80 x9d qr independently selected specific choice alternative qr matter matter xe2 x84 x93r choice qr double chances malicious user leader options qr numerous adversary controls malicious xe2 x84 x93r instance let x y z malicious potential leaders round r x01 x01 x01 h xcf x83xr 1 h xcf x83yr 1 h xcf x83zr 1 x10 x11 x10 x11 h xcf x83zr 1 particulary small small good chance h xcf x83zr 1 smaller hashed credential honest potential leader asking x hide",
+    "metadata": {
+      "chunk_id": "db8ec921ef61a9400c2d8a225897ddf9",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 79] r x01 x01 x01 h xcf x83xr 1 h xcf x83yr 1 h xcf x83zr 1 x10 x11 x10 x11 h xcf x83zr 1 particulary small small good chance h xcf x83zr 1 smaller hashed credential honest potential leader asking x hide credential adversary good chance having y x01the leader round r xe2 x88 x92 1 implies option qr sigy qr xe2 x88 x921 similarly adversary ask x y withholding credentials x01 z leader round r xe2 x88 x92 1 gaining option qr sigz qr xe2 x88 x921 course options non zero chance fail adversary predict hash digital signatures honest potential users bir xe2 x88 x921 r xe2 x88 x92 1 p ay xe2 x80 xb2 h b r xe2 x88 x922 malicious users x y generating new payment xe2 x84 x98 xe2 x80 xb2 malicious user z fixed user z h sigz p ay xe2 x80 xb2 xe2 x88 xaa xe2 x84 x98 particularly small experiment stop quickly adversary asks w propose candidate block bir xe2 x88 x921 r xe2 x88 x92 1 p ay xe2 x80 xb2 xe2 x88 xaa xe2 x84 x98 h b r xe2 x88 x922 12 instance simple extreme xe2 x80 x9cwhen time second step",
+    "metadata": {
+      "chunk_id": "ab365bad8b072e950e51b8d50bc50278",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 80] adversary asks w propose candidate block bir xe2 x88 x921 r xe2 x88 x92 1 p ay xe2 x80 xb2 xe2 x88 xaa xe2 x84 x98 h b r xe2 x88 x922 12 instance simple extreme xe2 x80 x9cwhen time second step expire xe2 x80 x9d xe2 x84 x93r directly email different candidate block bi user way step 2 verifiers received totally different blocks 27 x0ca careful markov chain like analysis shows matter options adversary chooses round r xe2 x88 x92 1 long inject new users system decrease probability honest user leader round r 40 h reason demand potential leaders round r users existing round r xe2 x88 x92 k way ensure round r xe2 x88 x92 k adversary alter probability honest user leader round r fact matter users add system rounds r xe2 x88 x92 k r ineligible potential leaders fortiori leader round r look parameter k ultimately security parameter shall section 7 kind xe2 x80 x9cconvenience parameter xe2 x80 x9d ephemeral keys execution protocol generate fork negligible probability adversary generate fork rth",
+    "metadata": {
+      "chunk_id": "1e5aacb52e787228a1f6f643f09ced71",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 84] member sv r 1 majority honest members sv r s s 1 xe2 x80 xa2 h xe2 x88 x88 0 1 constant greater 2 3 h honesty ratio system fraction honest users honest money depending assumption p k r h xe2 x80 xa2 h cryptographic hash function modelled random oracle xe2 x80 xa2 xe2 x8a xa5 special string length output h xe2 x80 xa2 f xe2 x88 x88 0 1 parameter specifying allowed error probability probability xe2 x89 xa4 f considered xe2 x80 x9cnegligible xe2 x80 x9d probability xe2 x89 xa5 1 xe2 x88 x92 f considered xe2 x80 x9coverwhelming xe2 x80 x9d xe2 x80 xa2 ph xe2 x88 x88 0 1 probability leader round r xe2 x84 x93r honest ideally ph h existence adversary value ph determined analysis xe2 x80 xa2 k xe2 x88 x88 z look parameter round r xe2 x88 x92 k verifiers round r chosen xe2 x80 x94namely sv r xe2 x8a x86 p k r xe2 x88 x92k 15 xe2 x80 xa2 p1 xe2 x88 x88 0 1 step round r user round r xe2 x88 x92 k chosen sv r 1 1 probability p1 p knr xe2 x88 x92k xe2 x80 xa2 p xe2 x88 x88 0 1 step s 1 round r",
+    "metadata": {
+      "chunk_id": "a43d3ac17d149aab4effa0154b8cc8a5",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 86] ends execution step s round r xe2 x80 xa2 xce x9b xce xbb essentially upper bounds respectively time needed execute step 1 time needed step algorand protocol parameter xce x9b upper bounds time propagate single 1mb block notation xce x9b xce xbb xcf x81 1m b recalling notation set xcf x81 1 simplicity blocks chosen 1mb long xce x9b xce xbb1 1 1m b 15 strictly speaking xe2 x80 x9cr xe2 x88 x92 k xe2 x80 x9d xe2 x80 x9cmax 0 r xe2 x88 x92 k xe2 x80 x9d 29 x0cparameter xce xbb upperbounds time propagate small message verifier step s 1 bitcoin elliptic curve signatures 32b keys verifier message 200b long notation xce xbb xce xbbn xcf x81 200b assume xce x9b o xce xbb notions xe2 x80 xa2 verifier selection round r step s 1 sv r s xe2 x88 x88 p k r xe2 x88 x92k h sigi r s qr xe2 x88 x921 xe2 x89 xa4 p user xe2 x88 x88 p k r xe2 x88 x92k privately computes signature long term key decides xe2 x88 x88 sv r s xe2 x88 x88 sv r s sigi r s qr xe2 x88 x921 xe2 x80 x99s r s credential compactly",
+    "metadata": {
+      "chunk_id": "e89d158c765935797c2628e00816b88e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 87] x89 xa4 p user xe2 x88 x88 p k r xe2 x88 x92k privately computes signature long term key decides xe2 x88 x88 sv r s xe2 x88 x88 sv r s sigi r s qr xe2 x88 x921 xe2 x80 x99s r s credential compactly denoted xcf x83ir s step round r sv r 1 xcf x83ir 1 similarly defined p replaced p1 verifiers sv r 1 potential leaders xe2 x80 xa2 leader selection user xe2 x88 x88 sv r 1 leader round r denoted xe2 x84 x93r h xcf x83ir 1 xe2 x89 xa4 h xcf x83jr 1 potential leaders j xe2 x88 x88 sv r 1 hashes players xe2 x80 x99 credentials compared unlikely event ties protocol breaks ties lexicographically according long term public keys potential leaders definition hash value player xe2 x84 x93r xe2 x80 x99s credential smallest users p k r xe2 x88 x92k note potential leader privately decide leader seeing potential leaders xe2 x80 x99 credentials hash values uniform random sv r 1 non xe2 x84 x93r exists honest probability h parameter n1 large ensure sv r 1 non overwhelming probability xe2 x80 xa2 block",
+    "metadata": {
+      "chunk_id": "107d873f1e141734351aef38955bd806",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 88] leaders xe2 x80 x99 credentials hash values uniform random sv r 1 non xe2 x84 x93r exists honest probability h parameter n1 large ensure sv r 1 non overwhelming probability xe2 x80 xa2 block structure non block form b r r p ay r sig xe2 x84 x93r qr xe2 x88 x921 h b r xe2 x88 x921 block form b xc7 xabr r xe2 x88 x85 qr xe2 x88 x921 h b r xe2 x88 x921 note non block contain payset p ay r payment occurs round leader malicious non block implies identity r xe2 x88 x921 timely revealed protocol guarantees xe2 x84 x93r credential xcf x83 xe2 x84 x93r 1 r sig xe2 x84 x93r q leader honest block non overwhelming probability xe2 x80 xa2 seed qr b r non qr h sig xe2 x84 x93r qr xe2 x88 x921 r qr h qr xe2 x88 x921 r parameters xe2 x80 xa2 relationships parameters xe2 x80 x94 verifiers potential leaders round r selected users p k r xe2 x88 x92k k chosen adversary predict qr xe2 x88 x921 round r xe2 x88 x92 k xe2 x88 x92 1 probability better f able introduce malicious users round r xe2 x88 x92 k",
+    "metadata": {
+      "chunk_id": "5a46bfe6da7c58aff8b18797c6d3bcd6",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 94] x80 xb2 106 note m 3 maximum number steps round assuming round takes minute stash ephemeral keys produced years time ephemeral secret keys long produce elliptic curve based system 32b keys secret key computed microseconds m 3 180 180m secret keys computed hour current round getting close r xe2 x80 xb2 106 handle million rounds generates new p m k xe2 x80 xb2 sm k xe2 x80 xb2 pair informs stash ephemeral keys xe2 x80 x94for example xe2 x80 x94 having sigi p m k xe2 x80 xb2 r xe2 x80 xb2 106 1 r xe2 x80 xb2 2 xc2 xb7 106 1 enter new block separate xe2 x80 x9ctransaction xe2 x80 x9d additional information payment informs use p m k xe2 x80 xb2 verify xe2 x80 x99s ephemeral signatures million rounds note following basic approach ways implementing ephemeral keys identity based signatures certainly possible instance merkle trees 16 16 method generates public secret key pair pkir s skir s round step pair r s xe2 x80 x94say xe2 x80 x94 32 x0cother ways implementing ephemeral keys certainly",
+    "metadata": {
+      "chunk_id": "7c522a08dc31fb097842c010fff6e236",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 95] possible instance merkle trees 16 16 method generates public secret key pair pkir s skir s round step pair r s xe2 x80 x94say xe2 x80 x94 32 x0cother ways implementing ephemeral keys certainly possible xe2 x80 x94e g merkle trees 5 3 matching steps algorand xe2 x80 xb21 ba xe2 x8b x86 said round algorand xe2 x80 xb21 m 3 steps step 1 step potential leader computes propagates candidate block bir credential xcf x83ir 1 recall credential explicitly identifies xcf x83ir 1 sigi r 1 qr xe2 x88 x921 potential verifier propagates message proper digital signature h bir dealing payment credential signature relative ephemeral public key pkir 1 propagates sigpkr 1 h bir given conventions propagating bir sigpkr 1 h bir propagated sigpkr 1 h bir analysis need explicit access sigpkr 1 h bir steps 2 step verifier sets xe2 x84 x93ri potential leader hashed credential smallest bir block proposed xe2 x84 x93ri sake efficiency wish agree h b r directly b r propagates message propagated step ba xe2 x8b",
+    "metadata": {
+      "chunk_id": "c99e4a6c038c2135ae4dd67bb50a9766",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 98] 33 x0caccordingly instructions verifier xe2 x88 x88 sv r s addition instructions corresponding step s xe2 x88 x92 3 bba xe2 x8b x86 include checking execution bba xe2 x8b x86 halted prior step s xe2 x80 xb2 bba xe2 x8b x86 halt coin fixed 0 step coin fixed 1 step instructions distinguish ending condition 0 s xe2 x80 xb2 xe2 x88 x92 2 xe2 x89 xa1 0 mod 3 b ending condition 1 s xe2 x80 xb2 xe2 x88 x92 2 xe2 x89 xa1 1 mod 3 fact case block b r non additional instructions necessary ensure properly reconstructs b r proper certificate cert r case b block b r instructed set b r b xce xb5r r xe2 x88 x85 h qr xe2 x88 x921 r h b r xe2 x88 x921 compute cert r execution step s evidence block b r generated sends message sent step s xe2 x88 x92 3 bba xe2 x8b x86 step m 3 step m 3 xe2 x88 x88 sv r m 3 sees block b r generated prior step s xe2 x80 xb2 proceeds explained sending message sent step m bba xe2 x8b x86 instructed based information possession compute b r corresponding certificate cert r",
+    "metadata": {
+      "chunk_id": "be1d6c1f0a7be6611d2bfb8627a92e7c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 100] x88 x921 xe2 x80 xa2 user computes qr xe2 x88 x921 component b r xe2 x88 x921 checks xe2 x88 x88 sv r 1 xe2 x80 xa2 xe2 x88 x88 sv r 1 stops execution step 1 right away xe2 x80 xa2 xe2 x88 x88 sv r 1 potential leader collects round r payments propagated far computes maximal payset p ayir computes xe2 x80 x9ccandidate block xe2 x80 x9d bir r p ayir sigi qr xe2 x88 x921 h b r xe2 x88 x921 finally computes r 1 r 1 r r message mr 1 bi esigi h bi xcf x83i destroys ephemeral secret key ski propagates mr 1 34 x0cremark practice shorten global execution step 1 important r 1 messages selectively propagated user system r 1 message receives successfully verifies 17 player propagates usual r 1 messages player receives successfully verifies propagates hash value credential contains smallest hash values credentials contained r 1 messages received successfully verified far furthermore suggested georgios vlachos useful potential leader propagates credential xcf x83ir 1 separately small messages",
+    "metadata": {
+      "chunk_id": "ec6aedfdecd873e122225c9c220022d2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 117] h 80% e t r 1 xe2 x88 x92 t r xe2 x89 xa4 12 7 xce xbb xce x9b xe2 x80 xa2 xce xbb vs xce x9b note size messages sent verifiers step algorand xe2 x80 xb2 dominated length digital signature keys remain fixed number users enormous note step s 1 expected number n verifiers number users 100k 100m 100m n solely depends h f sum barring sudden need increase secret key length value xce xbb remain matter large number users foreseeable future contrast transaction rate number transactions grows number users process new transactions timely fashion size block grow number users causing xce x9b grow long run xce xbb xce x9b accordingly proper larger coefficient xce xbb actually coefficient 1 xce x9b proof theorem 5 1 prove properties 1 xe2 x80 x933 induction assuming hold round r xe2 x88 x92 1 loss generality automatically hold xe2 x80 x9cround 1 xe2 x80 x9d r 0 prove round r 18 e t r 1 xe2 x88 x92 t r xe2 x89 xa4 6e lr 10 xce xbb xce x9b 6 xc2 xb7 2 ph 10 xce xbb xce x9b p12h 10 xce xbb xce x9b 43",
+    "metadata": {
+      "chunk_id": "3b52b0420078cde5d4bbc03614bc5404",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 125] lemma lemma 5 2 completeness lemma restated assuming properties 1 xe2 x80 x933 hold round r xe2 x88 x92 1 leader xe2 x84 x93r honest overwhelming probability xe2 x80 xa2 honest users agree block b r generated xe2 x84 x93r contains maximal r payset received xe2 x84 x93r time xce xb1r 1 xe2 x84 x93r xe2 x88 x88 xe2 x80 xa2 t r 1 xe2 x89 xa4 t r 8 xce xbb xce x9b honest users know b r time interval r 1 proof inductive hypothesis lemma 5 5 step s verifier xe2 x88 x88 hsv r s r xce xb1r s xe2 x88 x88 analyze protocol step step step 1 definition honest verifier xe2 x88 x88 hsv r 1 propagates desired message mr 1 r 1 r 1 r 1 r 1 r r r r r xe2 x88 x921 r xe2 x88 x921 time xce xb2i xce xb1i mi bi esigi h bi xcf x83i bi r p ayi sigi q h b p ayir maximal payset payments seen time xce xb1r 1 step 2 arbitrarily fix honest verifier xe2 x88 x88 hsv r 2 lemma 5 5 player r 1 including waiting time xce xb2ir 2 xce xb1r 2 t2 received messages sent verifiers hsv r 1 m xe2 x84 x93r definition xe2 x84 x93r",
+    "metadata": {
+      "chunk_id": "b4dd387615a3c67a0a8c9609ffd92076",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 126] fix honest verifier xe2 x88 x88 hsv r 2 lemma 5 5 player r 1 including waiting time xce xb2ir 2 xce xb1r 2 t2 received messages sent verifiers hsv r 1 m xe2 x84 x93r definition xe2 x84 x93r exist player p k r xe2 x88 x92k credential xe2 x80 x99s hash r 1 r value smaller h xcf x83 xe2 x84 x93r 1 r course adversary corrupt xe2 x84 x93 seeing h xcf x83 xe2 x84 x93r small time player xe2 x84 x93r destroyed ephemeral key message mr 1 xe2 x84 x93r r 2 r propagated verifier sets leader player xe2 x84 x93 accordingly time xce xb2i r 2 xe2 x80 xb2 xe2 x80 xb2 r verifier propagates mr 2 esigi vi xcf x83i vi h b xe2 x84 x93r r 0 difference xce xb2ir 2 t2 range similar things said future steps emphasize step 3 arbitrarily fix honest verifier xe2 x88 x88 hsv r 3 lemma 5 5 player r 2 waiting time xce xb2ir 3 xce xb1r 3 t3 received messages sent verifiers hsv relationships parameters overwhelming probability hsv r 2 2 m sv r 2 honest verifier sign contradicting messages adversary forge signature",
+    "metadata": {
+      "chunk_id": "97e6fcb2655f06f9adb221e54f0c3f7a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 133] x80 xb2 2 3 valid messages mr 3 j received value v 6 v xe2 x80 xb2 accordingly sets gi 2 seen 2 3 majority v set vi v xe2 x80 xb2 desired consider arbitrary verifier xe2 x88 x88 hsv r 4 gi 2 similar analysis property d lemma 5 5 player xcc x82 seen 2 3 majority v xe2 x80 xb2 12 hsv r 3 honest r 3 verifiers signed v xe2 x80 xb2 received messages honest r 3 verifiers 1 r 3 messages time xce xb2ir 4 xce xb1r 4 t4 particular received 2 hsv xe2 x80 xb2 r 3 r 3 v hsv 2 m sv seen 1 3 majority v xe2 x80 xb2 accordingly player sets gi 1 property 1 holds player necessarily set vi v xe2 x80 xb2 assume exists different value v xe2 x80 xb2 xe2 x80 xb2 6 xe2 x8a xa5 player seen 1 3 majority v xe2 x80 xb2 xe2 x80 xb2 messages malicious verifiers honest verifier j xe2 x88 x88 hsv r 3 hsv r 3 2 m sv r 3 received messages hsv r 3 set malicious verifiers received valid r 3 message counts 1 3 valid messages received 48 x0cby definition player j seen 2 3 majority v xe2 x80 xb2 xe2 x80 xb2 valid r 2",
+    "metadata": {
+      "chunk_id": "cba44ebabd540459eb249e925e0d233c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 138] xb2 5 xe2 x89 xa4 s xe2 x80 xb2 xe2 x89 xa4 s xe2 x88 x97 s xe2 x80 xb2 xe2 x88 x92 2 xe2 x89 xa1 0 mod 3 xe2 x80 xb2 xe2 x88 x921 e b xe2 x88 x97 able collect generate th valid messages mr s esigj 1 esigj vj j xe2 x80 xb2 xcf x83jr s xe2 x88 x921 s xe2 x80 xb2 6 xe2 x89 xa4 s xe2 x80 xb2 xe2 x89 xa4 s xe2 x88 x97 s xe2 x80 xb2 xe2 x88 x92 2 xe2 x89 xa1 1 mod 3 honest r s xe2 x80 xb2 xe2 x88 x92 1 messages received honest r s xe2 x80 xb2 verifiers waiting step s xe2 x80 xb2 adversary receives later honest users loss generality s xe2 x80 xb2 s xe2 x88 x97 player xe2 x88 x97 malicious note require value v e hash valid block clear analysis v h b xe2 x84 x93r sub event analyze case 2 following event e value s xe2 x88 x97 essentially distributed accordingly lr event e happens step m 3 overwhelming probability given relationships parameters begin step 5 xe2 x89 xa4 s s xe2 x88 x97 honest verifier xe2 x88 x88 hsv r s waited time ts set vi majority vote valid r s xe2 x88 x921 messages",
+    "metadata": {
+      "chunk_id": "7aed793e94f309d9d0beec48b1004d21",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 139] probability given relationships parameters begin step 5 xe2 x89 xa4 s s xe2 x88 x97 honest verifier xe2 x88 x88 hsv r s waited time ts set vi majority vote valid r s xe2 x88 x921 messages received player received honest r s xe2 x88 x921 messages following lemma 5 5 honest verifiers hsv r 4 signed h b xe2 x84 x93r following case 2 gc hsv r s xe2 x88 x921 2 m sv r s xe2 x88 x921 s induction player set vi h b xe2 x84 x93r xe2 x88 x97 holds honest verifier xe2 x88 x88 hsv r s stop propagating consider step s xe2 x88 x97 distinguish subcases xe2 x88 x97 case 2 1 event e happens exists honest verifier xe2 x80 xb2 xe2 x88 x88 hsv r s stop propagating case s xe2 x88 x97 xe2 x88 x92 2 xe2 x89 xa1 0 mod 3 step s xe2 x88 x97 coin fixed 0 step definition player xe2 x80 xb2 received th valid r s xe2 x88 x97 xe2 x88 x92 1 messages form xe2 x88 x97 xe2 x88 x97 esigj 0 esigj v xcf x83jr s xe2 x88 x921 verifiers hsv r s xe2 x88 x921 signed h b xe2 x84 x93r xe2 x88 x97 m sv r s xe2 x88 x921 th v h b",
+    "metadata": {
+      "chunk_id": "dded2cb492d559b7f592f50af350d35e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 143] 4 m sv r s xe2 x88 x921 2n comes relationships parameters accordingly 2 3 majority 1 sets bi 0 step s xe2 x88 x97 coin fixed 0 step seen vi h b xe2 x84 x93r propagates esigi 0 esigi h b xe2 x84 x93r xcf x83ir s wanted step s xe2 x88 x97 1 xe2 x88 x97 player xe2 x80 xb2 helped propagating messages cert r xe2 x88 x97 time xce xb1r s ts xe2 x88 x97 honest verifiers hsv r s 1 received xe2 x80 xb2 th valid r s xe2 x88 x97 xe2 x88 x92 1 messages bit 0 value h b xe2 x84 x93r xe2 x88 x97 waiting furthermore verifiers hsv r s 1 stop receiving r s xe2 x88 x97 xe2 x88 x921 messages exist th valid r s xe2 x80 xb2 xe2 x88 x92 1 messages bit 1 s xe2 x80 xb2 xe2 x88 x92 2 xe2 x89 xa1 1 mod 3 6 xe2 x89 xa4 s xe2 x80 xb2 xe2 x89 xa4 s xe2 x88 x97 1 definition step s xe2 x88 x97 particular step xe2 x88 x97 s xe2 x88 x97 1 coin fixed 1 step honest verifier hsv r s propagated xe2 x88 x97 message 1 m sv r s th xe2 x88 x97 honest verifiers hsv r s 1 stop propagating set b r xe2 x88 x97 20 b xe2 x84 x93r",
+    "metadata": {
+      "chunk_id": "5c6c003199d2c91c6e2e0e09c03e78fb",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 147] cert r time xce xb1r s ts xe2 x88 x97 honest verifiers xe2 x80 xb2 xe2 x88 x97 r s 1 hsv stop propagating set b r b xc7 xabr similarly honest users know b r b xc7 xabr time interval r 1 xe2 x88 x97 t r 1 xe2 x89 xa4 xce xb1r s ts xe2 x88 x97 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 xe2 x80 xb2 xe2 x88 x97 case 2 2 event e happens exist honest verifier xe2 x80 xb2 xe2 x88 x88 hsv r s stop propagating case note player xe2 x88 x97 valid certir xe2 x88 x97 consisting th desired r s xe2 x88 x97 xe2 x88 x92 1 messages adversary able collect generate malicious verifiers help propagating messages conclude honest xe2 x88 x97 users receive time xce xbb fact m sv r s xe2 x88 x921 messages malicious r s xe2 x88 x97 xe2 x88 x92 1 verifiers propagate messages send malicious verifiers step s xe2 x88 x97 similar case 2 1 s xe2 x88 x97 xe2 x88 x92 2 xe2 x89 xa1 0 mod 3 step s xe2 x88 x97 coin fixed 0 step r s xe2 x88 x97 xe2 x88 x92 1 messages certir xe2 x88 x97 bit 0 v h b xe2 x84 x93r honest r s xe2",
+    "metadata": {
+      "chunk_id": "6e14899ec409ad9d654900648a1edace",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 148] similar case 2 1 s xe2 x88 x97 xe2 x88 x92 2 xe2 x89 xa1 0 mod 3 step s xe2 x88 x97 coin fixed 0 step r s xe2 x88 x97 xe2 x88 x92 1 messages certir xe2 x88 x97 bit 0 v h b xe2 x84 x93r honest r s xe2 x88 x97 xe2 x88 x921 verifiers sign v adversary generate th valid r s xe2 x88 x97 xe2 x88 x921 messages different v xe2 x80 xb2 honest r s xe2 x88 x97 verifiers waited time ts xe2 x88 x97 2 3 majority xe2 x88 x97 xe2 x88 x97 bit 1 hsv r s xe2 x88 x921 4 m sv r s xe2 x88 x921 2n honest verifier xe2 x88 x97 xe2 x88 x97 xe2 x88 x88 hsv r s sets bi 0 vi h b xe2 x84 x93r majority vote propagates mr s r s xe2 x88 x97 r s xe2 x88 x97 r xe2 x88 x97 esigi 0 esigi h b xe2 x84 x93 xcf x83i time xce xb1i ts consider honest verifiers step s xe2 x88 x97 1 coin fixed 1 step adversary actually sends messages certir xe2 x88 x97 causes stop similar case 2 1 honest users know b r b xe2 x84 x93r time interval r 1 t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 1 honest verifiers step s xe2 x88 x97 1 received r",
+    "metadata": {
+      "chunk_id": "be8b48e56bbceefb27e408dc962afd80",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 149] certir xe2 x88 x97 causes stop similar case 2 1 honest users know b r b xe2 x84 x93r time interval r 1 t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 1 honest verifiers step s xe2 x88 x97 1 received r s xe2 x88 x97 messages 0 xe2 x88 x97 h b xe2 x84 x93r hsv r s waiting time ts xe2 x88 x97 1 leads 2 3 majority xe2 x88 x97 xe2 x88 x97 xe2 x88 x97 hsv r s 2 m sv r s verifiers hsv r s 1 propagate messages xe2 x88 x97 0 h b xe2 x84 x93r accordingly note verifiers hsv r s 1 stop b r b xe2 x84 x93r step s xe2 x88 x97 1 coin fixed 0 step consider honest verifiers step s xe2 x88 x97 2 coin genuinely flipped step adversary sends messages certir xe2 x88 x97 causes stop honest users know b r b xe2 x84 x93r time interval r 1 t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 2 52 x0cotherwise honest verifiers step s xe2 x88 x97 2 received r s xe2 x88 x97 1 messages xe2 x88 x97 0 h b xe2 x84 x93r hsv r s 1 waiting time ts xe2 x88 x97 2 leads 2 3 majority propagate messages 0 h b xe2 x84 x93r accordingly",
+    "metadata": {
+      "chunk_id": "8d046fa45596f174ead040457055e421",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 150] step s xe2 x88 x97 2 received r s xe2 x88 x97 1 messages xe2 x88 x97 0 h b xe2 x84 x93r hsv r s 1 waiting time ts xe2 x88 x97 2 leads 2 3 majority propagate messages 0 h b xe2 x84 x93r accordingly xe2 x80 x9cflip coin xe2 x80 x9d case note stop propagating step s xe2 x88 x97 2 coin fixed 0 step finally honest verifiers step s xe2 x88 x97 3 coin fixed 0 step xe2 x88 x97 received th valid messages 0 h b xe2 x84 x93r hsv s 2 wait time ts xe2 x88 x97 3 adversary sends messages xe2 x88 x97 certir xe2 x88 x97 verifiers hsv r s 3 stop b r b xe2 x84 x93r propagating depending adversary acts cert r consisting r s xe2 x88 x97 xe2 x88 x92 1 messages certir xe2 x88 x97 cert r consisting r s xe2 x88 x97 2 messages case honest users know b r b xe2 x84 x93r time interval r 1 t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 3 xe2 x88 x97 case 2 2 b event e b happens exist honest verifier xe2 x80 xb2 xe2 x88 x88 hsv r s stop propagating analysis case similar case 2 1 b case 2 2 details omitted particular",
+    "metadata": {
+      "chunk_id": "e872afb470704106596bc31904d7542e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 151] ts xe2 x88 x97 3 xe2 x88 x97 case 2 2 b event e b happens exist honest verifier xe2 x80 xb2 xe2 x88 x88 hsv r s stop propagating analysis case similar case 2 1 b case 2 2 details omitted particular certir xe2 x88 x97 consists th desired r s xe2 x88 x97 xe2 x88 x92 1 messages bit 1 adversary able collect generate s xe2 x88 x97 xe2 x88 x92 2 xe2 x89 xa1 1 mod 3 step s xe2 x88 x97 coin fixed 1 step honest r s xe2 x88 x97 verifier seen 2 3 majority 0 xe2 x88 x97 esigi 1 esigi vi verifier xe2 x88 x88 hsv r s sets bi 1 propagates mr s r s xe2 x88 x97 r s xe2 x88 x97 xe2 x88 x97 xcf x83i time xce xb1i ts similar case 2 2 3 steps e protocol reaches step s xe2 x88 x97 3 coin fixed 1 step honest users know b r b xc7 xabr time interval r 1 t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 2 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 3 depending time honest verifier able stop propagating xe2 x88 x97 combining sub cases honest users know b r time interval r 1 t r 1",
+    "metadata": {
+      "chunk_id": "95f73f6e4964243773381ccd831168ef",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 152] r xce xbb ts xe2 x88 x97 2 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 3 depending time honest verifier able stop propagating xe2 x88 x97 combining sub cases honest users know b r time interval r 1 t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 cases 2 1 2 1 b t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 3 cases 2 2 2 2 b remains upper bound s xe2 x88 x97 t r 1 case 2 considering times coin genuinely flipped steps actually executed protocol honest verifiers actually flipped coin particular arbitrarily fix coin genuinely flipped step s xe2 x80 xb2 e 7 xe2 x89 xa4 s xe2 x80 xb2 xe2 x89 xa4 m 2 xe2 x80 xb2 s xe2 x80 xb2 xe2 x88 x92 2 xe2 x89 xa1 2 mod 3 let xe2 x84 x93 xe2 x80 xb2 arg minj xe2 x88 x88sv r s xe2 x80 xb2 xe2 x88 x921 h xcf x83jr s xe2 x88 x921 let assume s xe2 x80 xb2 s xe2 x88 x97 honest verifier actually flips coin step s xe2 x80 xb2 according previous discussions xe2 x80 xb2 definition sv r s xe2 x88 x921 hash value credential xe2 x84 x93 xe2 x80 xb2 smallest users p k r xe2",
+    "metadata": {
+      "chunk_id": "e7c78ffe47cf22652814b94f7535e502",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 153] honest verifier actually flips coin step s xe2 x80 xb2 according previous discussions xe2 x80 xb2 definition sv r s xe2 x88 x921 hash value credential xe2 x84 x93 xe2 x80 xb2 smallest users p k r xe2 x88 x92k hash function random oracle ideally player xe2 x84 x93 xe2 x80 xb2 honest probability h later adversary tries best predict output random oracle tilt probability player xe2 x84 x93 xe2 x80 xb2 honest probability 53 x0cat ph h2 1 h xe2 x88 x92 h2 consider case happens xe2 x80 xb2 xe2 x84 x93 xe2 x80 xb2 xe2 x88 x88 hsv r s xe2 x88 x921 xe2 x80 xb2 xe2 x80 xb2 note honest verifier xe2 x88 x88 hsv r s received messages hsv r s xe2 x88 x921 xe2 x80 xb2 time xce xb1r s ts xe2 x80 xb2 player needs flip coin e seen 2 3 majority xe2 x80 xb2 xe2 x88 x921 bit b xe2 x88 x88 0 1 sets bi lsb h xcf x83 xe2 x84 x93r s exists honest xe2 x80 xb2 xe2 x80 xb2 xe2 x80 xb2 r s seen 2 3 majority bit b xe2 x88 x88 0 1 property verifier xe2 x88 x88 hsv xe2 x80 xb2 d lemma 5 5 honest verifier hsv r s seen",
+    "metadata": {
+      "chunk_id": "a9617e32033c7679ad8c48350c303dca",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 155] majority vote honest verifiers hsv xe2 x80 xb2 r 1 r h b xe2 x84 x93 agreement b reached step s t xe2 x89 xa4 t r xce xbb ts xe2 x80 xb2 1 xe2 x89 xa4 t r xce xbb ts xe2 x80 xb2 2 depending b 0 b 1 following analysis cases 2 1 2 1 b particular coin genuinely flipped step executed verifiers steps check verifiers wait stop propagating accordingly step s xe2 x88 x97 number times coin genuinelyflipped steps executed distributed according random variable lr letting step s xe2 x80 xb2 coin genuinely flipped step according lr construction protocol s xe2 x80 xb2 4 3lr adversary step s xe2 x88 x97 happen wants delay t r 1 possible assume adversary knows realization lr advance s xe2 x88 x97 s xe2 x80 xb2 useless honest verifiers reached agreement step s xe2 x80 xb2 sure case s xe2 x88 x97 s xe2 x80 xb2 1 s xe2 x80 xb2 2 depending b 0 b 1 actually cases 2 1 2 1 b resulting t r 1 exactly case precisely t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 xe2 x89 xa4 t r xce xbb ts xe2 x80 xb2 2 s xe2 x88",
+    "metadata": {
+      "chunk_id": "b75b636dc32571e231b723b509cca7e2",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 156] xb2 1 s xe2 x80 xb2 2 depending b 0 b 1 actually cases 2 1 2 1 b resulting t r 1 exactly case precisely t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 xe2 x89 xa4 t r xce xbb ts xe2 x80 xb2 2 s xe2 x88 x97 s xe2 x80 xb2 xe2 x88 x92 3 xe2 x80 x94that s xe2 x88 x97 second coin genuinely flipped step xe2 x80 x94 analysis cases 2 2 2 2 b t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 3 t r xce xbb ts xe2 x80 xb2 adversary actually making agreement b r happen faster s xe2 x88 x97 s xe2 x80 xb2 xe2 x88 x92 2 s xe2 x80 xb2 xe2 x88 x92 1 xe2 x80 x94that coin fixed 0 step coin fixed 1 step immediately step s xe2 x80 xb2 xe2 x80 x94 analysis sub cases honest verifiers step s xe2 x80 xb2 flip coins anymore stopped propagating seen 2 3 majority bit b t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x88 x97 3 xe2 x89 xa4 t r xce xbb ts xe2 x80 xb2 2 54 x0cin sum matter s xe2 x88 x97 t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x80 xb2 2 t r xce xbb t3lr 6 t r xce xbb 2 3lr 6 xe2 x88 x92 3 xce xbb xce x9b t r 6lr 10 xce",
+    "metadata": {
+      "chunk_id": "e50fb74c574135120e12ca48675485f7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 157] xa4 t r xce xbb ts xe2 x80 xb2 2 54 x0cin sum matter s xe2 x88 x97 t r 1 xe2 x89 xa4 t r xce xbb ts xe2 x80 xb2 2 t r xce xbb t3lr 6 t r xce xbb 2 3lr 6 xe2 x88 x92 3 xce xbb xce x9b t r 6lr 10 xce xbb xce x9b wanted worst case s xe2 x88 x97 s xe2 x80 xb2 xe2 x88 x92 1 case 2 2 b happens combining cases 1 2 binary ba protocol lemma 5 3 holds 5 9 x04 security seed qr probability honest leader remains prove lemma 5 4 recall verifiers round r taken p k r xe2 x88 x92k chosen according quantity qr xe2 x88 x921 reason introducing look parameter k sure round r xe2 x88 x92 k adversary able add new malicious users p k r xe2 x88 x92k predict quantity qr xe2 x88 x921 negligible probability note hash function random oracle qr xe2 x88 x921 inputs selecting verifiers round r matter malicious users added p k r xe2 x88 x92k adversary xe2 x80 x99s point view selected verifier step round r required probability p p1 step 1 precisely following lemma lemma 5 6 k o log1 2 f round r overwhelming probability",
+    "metadata": {
+      "chunk_id": "79c0d7a9d8eb553320f2a00ae3f1891c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 158] p k r xe2 x88 x92k adversary xe2 x80 x99s point view selected verifier step round r required probability p p1 step 1 precisely following lemma lemma 5 6 k o log1 2 f round r overwhelming probability adversary query qr xe2 x88 x921 random oracle round r xe2 x88 x92 k proof proceed induction assume round xce xb3 r adversary query q xce xb3 xe2 x88 x921 random oracle round xce xb3 xe2 x88 x92 k 21 consider following mental game played adversary round r xe2 x88 x92 k trying predict qr xe2 x88 x921 step 1 round xce xb3 r xe2 x88 x92 k r xe2 x88 x92 1 given specific q xce xb3 xe2 x88 x921 queried random oracle ordering players xe2 x88 x88 p k xce xb3 xe2 x88 x92k according hash values h sigi xce xb3 1 q xce xb3 xe2 x88 x921 increasingly obtain random permutation p k xce xb3 xe2 x88 x92k definition leader xe2 x84 x93 xce xb3 user permutation honest probability h p k xce xb3 xe2 x88 x92k large integer x xe2 x89 xa5 1 probability x users permutation malicious x 1 st honest 1 xe2 x88 x92 h x h",
+    "metadata": {
+      "chunk_id": "aeb9e032f9168ade5a863dec383a022f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 159] leader xe2 x84 x93 xce xb3 user permutation honest probability h p k xce xb3 xe2 x88 x92k large integer x xe2 x89 xa5 1 probability x users permutation malicious x 1 st honest 1 xe2 x88 x92 h x h xe2 x84 x93 xce xb3 honest q xce xb3 h sig xe2 x84 x93 xce xb3 q xce xb3 xe2 x88 x921 xce xb3 adversary forge signature xe2 x84 x93 xce xb3 q xce xb3 distributed uniformly random adversary xe2 x80 x99s point view exponentially small probability 22 queried h round r xe2 x88 x92 k q xce xb3 1 q xce xb3 2 qr xe2 x88 x921 respectively output h q xce xb3 q xce xb3 1 qr xe2 x88 x922 inputs look random adversary adversary queried qr xe2 x88 x921 h round r xe2 x88 x92 k accordingly case adversary predict qr xe2 x88 x921 good probability round r xe2 x88 x92k leaders xe2 x84 x93r xe2 x88 x92k xe2 x84 x93r xe2 x88 x921 malicious consider round xce xb3 xe2 x88 x88 r xe2 x88 x92k r xe2 x88 x921 random permutation p k xce xb3 xe2 x88 x92k induced corresponding hash values x xe2 x89 xa5 2 x xe2 x88 x92 1",
+    "metadata": {
+      "chunk_id": "39cd537816a4e1a38fcca006a33e6e80",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 160] xe2 x88 x921 malicious consider round xce xb3 xe2 x88 x88 r xe2 x88 x92k r xe2 x88 x921 random permutation p k xce xb3 xe2 x88 x92k induced corresponding hash values x xe2 x89 xa5 2 x xe2 x88 x92 1 users permutation malicious x th honest adversary x possible choices q xce xb3 form h sigi q xce xb3 xe2 x88 x921 xce xb3 21 k small integer loss generality assume k rounds protocol run safe environment inductive hypothesis holds rounds 22 exponential length output h note probability way smaller f 55 x0cthe x xe2 x88 x92 1 malicious users making player actually leader round xce xb3 h q xce xb3 xe2 x88 x921 xce xb3 forcing b xce xb3 b xc7 xab xce xb3 leader round xce xb3 honest user permutation qr xe2 x88 x921 unpredictable adversary x options q xce xb3 adversary pursue help adversary answer question mental game actually powerful actually follows reality adversary compute hash honest user xe2 x80 x99s signature decide q xce xb3 number x q xce xb3 malicious users beginning random permutation",
+    "metadata": {
+      "chunk_id": "97b30c64c5a755894a1d83ebef82a960",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 161] mental game actually powerful actually follows reality adversary compute hash honest user xe2 x80 x99s signature decide q xce xb3 number x q xce xb3 malicious users beginning random permutation round xce xb3 1 induced q xce xb3 mental game numbers x q xce xb3 free second reality having x users permutation malicious necessarily mean leader hash values signatures p1 ignored constraint mental game giving adversary advantages easy mental game optimal option adversary denoted q xcc x82 xce xb3 produces longest sequence malicious users beginning random permutation round xce xb3 1 given specific q xce xb3 protocol depend q xce xb3 xe2 x88 x921 anymore adversary solely focus new permutation round xce xb3 1 distribution number malicious users beginning accordingly round xce xb3 mentioned q xcc x82 xce xb3 gives largest number options q xce xb3 1 maximizes probability consecutive leaders malicious mental game adversary following markov chain round r xe2 x88 x92 k round r xe2 x88 x92 1 state",
+    "metadata": {
+      "chunk_id": "15a46890474137b231cc8e3ff9a2d990",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 168] options qr resulting probability h2 considering cases probability honest leader round r 1 h xc2 xb7 h 1 xe2 x88 x92 h h xc2 xb7 h2 h2 1 h xe2 x88 x92 h2 desired note probability considers randomness protocol round r xe2 x88 x92 k round r randomness round 0 round r taken consideration qr xe2 x88 x921 predictable adversary probability honest leader round r 1 h2 1 h xe2 x88 x92 h2 replacing r 1 r shifts round leader xe2 x84 x93r honest probability h2 1 h xe2 x88 x92 h2 desired similarly coin genuinely flipped step s xe2 x80 x9cleader xe2 x80 x9d step xe2 x80 x94that verifier sv r s credential smallest hash value honest probability h2 1 h xe2 x88 x92 h2 ph h2 1 h xe2 x88 x92 h2 lr lemma 5 4 holds x04 algorand xe2 x80 xb22 6 section construct version algorand xe2 x80 xb2 working following assumption honest majority users assumption 2 3 users p k r honest section 8 replace assumption desired honest majority money assumption 6 1 additional notations parameters algorand xe2 x80 xb22 notations",
+    "metadata": {
+      "chunk_id": "b4b4ea2169fa47de9121ed664d7be88a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 172] r steps new blocks generated solutions exist instance use ephemeral key round r pkir xc2 xb5 follows generates stash key pairs round r xe2 x80 x94e g 1 generating master key pair p m k sm k 2 pair generate 106 ephemeral keys r xc2 xb5 1 r xc2 xb5 106 sk sk corresponding steps xc2 xb5 1 xc2 xb5 106 round r 3 skir xc2 xb5 digitally sign p m k r xc2 xb5 message xe2 x88 x88 sv r xc2 xb5 relative pkir xc2 xb5 4 erasing sm k skir xc2 xb5 verifier step xc2 xb5 s s xe2 x88 x88 1 106 digitally signs r xc2 xb5 s r xc2 xb5 s r xc2 xb5 s course verify signature message mr xc2 xb5 s relative new key pk need certain public key corresponds xe2 x80 x99s new public master key p m k addition signature transmits digital signature p m k relative pkir xc2 xb5 course approach repeated times necessary round r continue steps ephemeral secret key authenticate new master public key stash ephemeral keys round r 59 x0c6 3 actual protocol algorand xe2 x80 xb22 recall step s round r verifier xe2 x88 x88 sv r s",
+    "metadata": {
+      "chunk_id": "1b52712b533d86f354be089ae5e7c23a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 174] sv r 1 step 1 xe2 x80 xa2 xe2 x88 x88 sv r 1 potential leader following seen b 0 b r xe2 x88 x921 b j b xc7 xabj easily derived hash value cert j assumed xe2 x80 x9cseen xe2 x80 x9d collects round r payments propagated far computes maximal payset p ayir b hasn xe2 x80 x99t seen b 0 b r xe2 x88 x921 sets p ayir xe2 x88 x85 c computes xe2 x80 x9ccandidate block xe2 x80 x9d bir r p ayir sigi qr xe2 x88 x921 h b r xe2 x88 x921 r 1 r r c finally computes message mr 1 bi esigi h bi xcf x83i destroys ephemeral r 1 r 1 secret key ski propagates messages mi sigi qr xe2 x88 x921 xcf x83ir 1 separately simultaneously leader sigi qr xe2 x88 x921 allows compute qr h sigi qr xe2 x88 x921 r 60 x0cselective propagation shorten global execution step 1 round important r 1 messages selectively propagated user j system xe2 x80 xa2 r 1 message receives successfully verifies contains block credential signature qr xe2 x88 x921 player j propagates usual xe2 x80 xa2 r 1 messages player j receives successfully",
+    "metadata": {
+      "chunk_id": "e45f67f4ce5c56019ce7a7030d348972",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 178] component vi xe2 x80 xb2 hash block considers block b 62 x0cstep 3 second step gc instructions user xe2 x88 x88 p k r xe2 x88 x92k user starts step 3 round r soon cert r xe2 x88 x921 xe2 x80 xa2 user waits maximum time t3 t2 2 xce xbb 3 xce xbb xce x9b waiting acts follows 1 exists value v received th valid messages mr 2 j r 2 form esigj v xcf x83j contradiction stops waiting sets v xe2 x80 xb2 v 2 time t3 runs sets v xe2 x80 xb2 xe2 x8a xa5 3 value v xe2 x80 xb2 set computes qr xe2 x88 x921 cert r xe2 x88 x921 checks xe2 x88 x88 sv r 3 esigi v xe2 x80 xb2 xcf x83ir 3 destroys 4 xe2 x88 x88 sv r 3 computes message mr 3 ephemeral secret key skir 3 propagates mr 3 stops propagating received valid messages containing esigj v different esigj v xcc x82 respectively player j ending conditions defined later honest player wants messages given form messages contradicting counted considered valid 63 x0cstep 4 output gc step bba xe2 x8b x86 instructions user xe2 x88 x88 p k r xe2 x88 x92k user",
+    "metadata": {
+      "chunk_id": "6d249ac47fde49814d0d6450f46ae551",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 183] bi set computes qr xe2 x88 x921 cert r xe2 x88 x921 checks xe2 x88 x88 sv r s r s xe2 x80 x93 xe2 x88 x88 sv r s computes message mr s esigi bi esigi vi xcf x83i vi value computed step 4 destroys ephemeral secret key skir s propagates mr s stops propagating maximum total time starts step 1 round r ts ts xe2 x88 x921 2 xce xbb 2s xe2 x88 x92 3 xce xbb xce x9b b message player j counted player received message j signing 1 similar things ending condition 1 shown analysis ensure honest users know cert r time xce xbb c user knows h b r round r finishes needs wait actually block b r propagated additional time helps propagating messages generic user initiate propagation r s verifier particular helped propagating messages cert r protocol note set bi 0 binary ba protocol bi needed case similar things future instructions d case matter vj xe2 x80 x99s 65 x0cstep s 6 xe2 x89 xa4 s xe2 x89 xa4 m 2 s xe2 x88 x92 2 xe2 x89 xa1 1 mod 3 coin fixed 1 step bba xe2 x8b x86 instructions user xe2 x88 x88 p",
+    "metadata": {
+      "chunk_id": "b9c3431c7f9ba6681c6c241a54d7842c",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 190] roughly 10 000 minutes assume round takes roughly e g average 5 minutes week roughly 2 000 rounds assume point time user wishes plan time know going verifier coming week protocol chooses verifiers round r users round r xe2 x88 x92 k xe2 x88 x92 2 000 selections based qr xe2 x88 x922 001 round r player knows values qr xe2 x88 x922 000 qr xe2 x88 x921 actually blockchain m 1 2 000 verifier step s round r m x01 x01 h sigi r m s qr m xe2 x88 x922 001 xe2 x89 xa4 p check going called x01 act verifier 2 000 rounds compute xcf x83im s sigi r m s qr m xe2 x88 x922 001 m 1 2 000 step s check h xcf x83im s xe2 x89 xa4 p computing digital signature takes millisecond entire operation 1 minute computation selected verifier rounds line xe2 x80 x9chonest conscience xe2 x80 x9d continuously participated essentially taken 0 steps 2 000 rounds instead selected verifier rounds readies e g obtaining information necessary act honest verifier proper round acting lazy honest potential verifier misses",
+    "metadata": {
+      "chunk_id": "91c0fddcac07fe758908429d1f7f3a71",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 191] essentially taken 0 steps 2 000 rounds instead selected verifier rounds readies e g obtaining information necessary act honest verifier proper round acting lazy honest potential verifier misses participating propagation messages message propagation typically robust payers payees recently propagated payments expected online watch happens payments participate message propagation honest 8 protocol algorand xe2 x80 xb2 honest majority money finally replace honest majority users assumption meaningful honest majority money assumption basic idea proof stake flavor xe2 x80 x9cto select user xe2 x88 x88 p k r xe2 x88 x92k belong sv r s weight e decision power proportional money owned xe2 x80 x9d24 hmm assumption choose owned round r xe2 x88 x92 k start round r assuming mind continual participation opt choice remove continual participation opted choice better said money owned round r xe2 x88 x92 k xe2 x88 x92 2 000 ways implement idea simplest way key hold r 1 unit money select random n users p",
+    "metadata": {
+      "chunk_id": "ee2ac2b886bf9748e1d148ec1d790939",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 194] xe2 x80 x99s credential r s r s xcf x83i v sigi v r s qr xe2 x88 x921 corresponding condition h xcf x83i v xe2 x89 xa4 1 true copy k 1 step s round r checks h sigi k 1 r s qr xe2 x88 x921 69 x01 x01 r xe2 x89 xa4 ai n xe2 x88 x92k ar x0cif copy k 1 belongs sv r s prove propagates credential x01 r 1 xcf x83i k 1 sigi k 1 r s qr xe2 x88 x921 r example previous example let n 1k ai 3 7m ar 1b 4 copies 1 4 3 copies belong sv r s automatically 4th conceptually algorand xe2 x80 xb2 independently rolls biased coin probability heads 0 7 copy 4 selected coin toss heads course biased coin flip implemented hashing signing comparing xe2 x80 x94as paper xe2 x80 x94 enable prove result business usual having explained verifiers selected credentials computed step round r execution round similar explained 9 handling forks having reduced probability forks 10 xe2 x88 x9212 10 xe2 x88 x9218 practically unnecessary handle remote chance occur algorand employ fork resolution procedures proof work possible",
+    "metadata": {
+      "chunk_id": "b7090da4107eb8ab1f14642652b69cfd",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 195] 9 handling forks having reduced probability forks 10 xe2 x88 x9212 10 xe2 x88 x9218 practically unnecessary handle remote chance occur algorand employ fork resolution procedures proof work possible way instructing users resolve forks follows xe2 x80 xa2 follow longest chain user sees multiple chains xe2 x80 xa2 longest chains follow non block end blocks end consider second blocks xe2 x80 xa2 longest chains non blocks end chains length r follow leader block r smallest credential ties follow block r smallest hash value ties follow block r ordered lexicographically 10 handling network partitions said assume propagation times messages users network upperbounded xce xbb xce x9b strong assumption today xe2 x80 x99s internet fast robust actual values parameters reasonable let point algorand xe2 x80 xb22 continues work internet occasionally got partitioned parts case internet partitioned parts similar 10 1 physical partitions partition caused physical reasons example huge earthquake end",
+    "metadata": {
+      "chunk_id": "48ca19b001296d5b4f752cf4a2c2157e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 196] xe2 x80 xb22 continues work internet occasionally got partitioned parts case internet partitioned parts similar 10 1 physical partitions partition caused physical reasons example huge earthquake end completely breaking connection europe america case malicious users partitioned communication parts 70 x0cthere adversaries 1 2 adversary tries break protocol assume partition happens middle round r user selected verifier based p k r xe2 x88 x92k probability let hsvir s m svir s respectively set honest malicious verifiers step s xe2 x88 x88 1 2 hsv1r s m sv1r s hsv2r s m sv2r s hsv r s m sv r s note hsv r s m sv r s hsv r s 2 m sv r s 2th overwhelming probability hsvir s m svir s xe2 x89 xa5 th non negligible probability e g 1% r s r s probability hsv3 xe2 x88 x92i m sv3 xe2 x88 x92i xe2 x89 xa5 th low e g 10 xe2 x88 x9216 f 10 xe2 x88 x9218 case treat smaller going offline verifiers generate th signatures certify block let consider larger 1 loss generality hsv r s th negligible probability",
+    "metadata": {
+      "chunk_id": "103efa85028c4f64b7625c7a03e2e20f",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 197] th low e g 10 xe2 x88 x9216 f 10 xe2 x88 x9218 case treat smaller going offline verifiers generate th signatures certify block let consider larger 1 loss generality hsv r s th negligible probability step s network partitioned hsv1r s th non negligible probability case adversary non negligible probability force binary ba protocol fork round r nonempty block b r block b xc7 xabr having th valid signatures 25 example coin fixed 0 step s verifiers hsv1r s signed bit 0 h b r propagated messages verifiers m sv1r s signed 0 h b r withheld messages hsv1r s m sv1r s xe2 x89 xa5 th system signatures certify b r malicious verifiers withheld signatures users enter step s 1 coin fixed to1 step hsv1r s th partition verifiers hsv1r s 1 th signatures bit 0 signed bit 1 verifiers m sv1r s 1 hsv1r s 1 m sv1r s 1 xe2 x89 xa5 th system signatures certify b xc7 xabr adversary creates fork releasing signatures m sv1r s 0 h b r accordingly qr xe2 x80 x99s defined corresponding blocks round r fork continue",
+    "metadata": {
+      "chunk_id": "78304d38c454ccdd74f167af24842ee7",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 198] s 1 xe2 x89 xa5 th system signatures certify b xc7 xabr adversary creates fork releasing signatures m sv1r s 0 h b r accordingly qr xe2 x80 x99s defined corresponding blocks round r fork continue branches grow round r 1 additional instructions algorand xe2 x80 xb22 seeing non block b r block b xc7 xabr follow non qr defined instructing users non block protocol large honest users p k r 1 xe2 x88 x92k realize fork beginning round r 1 block followers grow assume adversary manages partition honest users honest users b r b xc7 xabr b xc7 xabr adversary tell verifier following b r verifier following b xc7 xabr honest users randomly partitioned verifier respect b r respect b xc7 xabr step s 1 probability p malicious users chances verifier b r b xc7 xabr probability p independently r 1 s let hsv1 b set honest verifiers step s round r 1 following b r notations r r 1 s r 1 s r 1 s hsv1 b m sv1 b similarly defined chernoff bound easy r m sv1 b r r xc7 xab xc7 xab 25 having fork non blocks",
+    "metadata": {
+      "chunk_id": "b011aa93975f710ec1a2d46ea4dee381",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 199] hsv1 b set honest verifiers step s round r 1 following b r notations r r 1 s r 1 s r 1 s hsv1 b m sv1 b similarly defined chernoff bound easy r m sv1 b r r xc7 xab xc7 xab 25 having fork non blocks possible partitions negligible probability 71 x0cto overwhelming probability r 1 s r 1 s r 1 s r 1 s hsv1 b r hsv1 b r m sv1 b r m sv1 b r 2th xc7 xab xc7 xab accordingly branches th proper signatures certifying block round r 1 step s selection probabilities steps s s xe2 x80 xb2 selections independent overwhelming probability xe2 x80 xb2 xe2 x80 xb2 r 1 s r 1 s r 1 s r 1 s 2th m sv1 b hsv1 b r r m sv1 b r hsv1 b r xc7 xab xc7 xab steps s s xe2 x80 xb2 f 10 xe2 x88 x9218 union bound long adversary partition honest users long time 104 steps 55 hours xce xbb 10 seconds26 high probability 1 xe2 x88 x92 10 xe2 x88 x9210 branch th proper signatures certify block round r 1 finally physical partition created parts roughly size probability hsvir s m svir s xe2 x89 xa5 th small following similar",
+    "metadata": {
+      "chunk_id": "93913d2d5935776facebf2d39306434a",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [
+          "fine"
+        ],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 12.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 201] partitions lingering ambiguity fork short lived fact lasts single round parts partition users generate new block realize partition network b rely blocks xe2 x80 x9cvanish xe2 x80 x9d acknowledgements like acknowledge sergey gorbunov coauthor cited democoin system sincere thanks maurice herlihy enlightening discussions pointing pipelining improve algorand xe2 x80 x99s throughput performance greatly improving 26 note user finishes step s waiting 2 xce xbb time seen th signatures message signatures step 2 xce xbb time 72 x0cexposition earlier version paper thanks sergio rajsbaum comments earlier version paper thanks vinod vaikuntanathan deep discussions insights thanks yossi gilad rotem hamo georgios vlachos nickolai zeldovich starting test ideas helpful comments discussions silvio micali like personally thank ron rivest innumerable discussions guidance cryptographic research 3 decades coauthoring cited micropayment system inspired verifier selection mechanisms algorand hope bring",
+    "metadata": {
+      "chunk_id": "462e1e204c65e99436ce00720259aef8",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 202] like personally thank ron rivest innumerable discussions guidance cryptographic research 3 decades coauthoring cited micropayment system inspired verifier selection mechanisms algorand hope bring technology level travel companionship great fun grateful references 1 bitcoin computation waste http gizmodo com worlds powerful computer network 50 2013 2 bitcoinwiki proof stake http www blockchaintechnologies com blockchain applications 5 june 2016 3 coindesk com bitcoin peer peer electronic cash system http www coindesk com ibm reveals proof concept blockchain powered internet things june 2016 4 ethereum ethereum https github com ethereum 12 june 2016 5 howstuffworks com actual money world https money howstuffworks com money world htm 5 june 2016 6 en wikipedia org wiki sortition 7 m ben advantage free choice completely asynchronous agreement protocols proc 2nd annual symposium principles distributed computing acm new york 1983 pp 27 30 8 m castro b liskov practical byzantine fault",
+    "metadata": {
+      "chunk_id": "46cc6bd1767808ba88f0698f726a08c1",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 203] advantage free choice completely asynchronous agreement protocols proc 2nd annual symposium principles distributed computing acm new york 1983 pp 27 30 8 m castro b liskov practical byzantine fault tolerance proceedings symposium operating systems design implementation new orleans louisiana usa 1999 pp 173 xe2 x80 x93186 9 d l chaum random sample elections https www scribd com mobile document 236881043 random sa 10 b chor c dwork randomization byzantine agreement randomness computation s micali ed jai press greenwich ct 1989 pp 433 498 11 c decker r wattenhofer information propagation bitcoin network 13 th ieee conference peer peer computing 2013 12 d dolev byzantine generals strike j algorithms 3 1982 pp 14 30 13 d dolev h r strong authenticated algorithms byzantine agreement siam journal computing 12 4 656 666 73 x0c 14 c dwork m naor pricing processing combatting junk mail advances cryptology crypto xe2 x80 x9992 lecture notes computer science 740 springer 139 xe2 x80 x93147 15 p",
+    "metadata": {
+      "chunk_id": "894c7fd37f03c08750516de2d020396e",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 204] computing 12 4 656 666 73 x0c 14 c dwork m naor pricing processing combatting junk mail advances cryptology crypto xe2 x80 x9992 lecture notes computer science 740 springer 139 xe2 x80 x93147 15 p feldman s micali optimal probabilistic algorithm synchronous byzantine agreement preliminary version stoc 88 siam j computing 1997 16 m fischer consensus problem unreliable distributed systems brief survey proc international conference foundations computation 1983 17 s goldwasser s micali r rivest digital signature scheme secure adaptive chosen message attack siam journal computing 17 2 april 1988 pp 281 308 18 s gorbunov s micali democoin publicly verifiable jointly serviced cryptocurrency https eprint iacr org 2015 521 30 2015 19 j katz c y koo expected constant round protocols byzantine agreement https www cs umd edu jkatz papers ba pdf 20 kiayias russel b david r oliynycov ouroburos provably secure proof stake protocol cryptology eprint archive report 2016 889 2016 http eprint iacr org",
+    "metadata": {
+      "chunk_id": "c43ff5caf8ea7ce4b7d298f5de339706",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 205] https www cs umd edu jkatz papers ba pdf 20 kiayias russel b david r oliynycov ouroburos provably secure proof stake protocol cryptology eprint archive report 2016 889 2016 http eprint iacr org 2016 889 21 s king s nadal ppcoin peer peer crypto currency proof stake 2012 22 d lazar y gilad personal communication 23 n lynch distributed algorithms morgan kaufmann publishers 1996 24 s micali algorand efficient public ledger https arxiv org abs 1607 01341 25 s micali fast furious byzantine agreement innovation theoretical computer science 2017 berkeley january 2017 single page abstract 26 s micali byzantine agreement trivial https people csail mit edu silvio selectedscientifi 27 s micali m rabin s vadhan verifiable random functions 40th foundations computer science focs new york oct 1999 28 s micali r l rivest micropayments revisited lecture notes computer science vol 2271 pp 149 163 springer verlag 2002 29 s nakamoto bitcoin peer peer http www bitcoin org bitcoin pdf 2009 electronic cash",
+    "metadata": {
+      "chunk_id": "55f22fd57a997f8ea978cf2cecc1c057",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  },
+  {
+    "text": "[Section 206] micali r l rivest micropayments revisited lecture notes computer science vol 2271 pp 149 163 springer verlag 2002 29 s nakamoto bitcoin peer peer http www bitcoin org bitcoin pdf 2009 electronic cash system 30 r pass e shi sleepy model consensus cryptology eprint archive feb 2017 report 2017 918 31 m pease r shostak l lamport reaching agreement presence faults j assoc comput mach 27 1980 pp 228 234 32 m rabin randomized byzantine generals 24th foundations computer science focs ieee computer society press los alamitos 1983 pp 403 409 74 x0c 33 r turpin b coan extending binary byzantine agreement multivalued byzantine agreement inform process lett 18 1984 pp 73 76 75 x0c",
+    "metadata": {
+      "chunk_id": "674751c5bf51c1b2aed62c1e19f3e165",
+      "entities": {
+        "email": [],
+        "crypto_address": []
+      },
+      "risk_features": {
+        "regulatory": [],
+        "technical": [],
+        "financial": [],
+        "operational": []
+      },
+      "risk_score": 0.0,
+      "source": "Algorand.txt"
+    }
+  }
+]
