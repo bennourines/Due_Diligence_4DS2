@@ -5,6 +5,13 @@ __pycache__/
 
 # C extensions
 *.so
+#Files
+/given_data
+resumeclaude.py
+chunk_metadata.pkl
+faiss_index
+/vector_store/
+
 
 # Distribution / packaging
 .Python
