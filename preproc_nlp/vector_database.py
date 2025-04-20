@@ -1,11 +1,12 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
-from langchain.document_loaders import TextLoader, DirectoryLoader
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain.chains import ConversationalRetrievalChain
-from langchain.llms import HuggingFaceHub
 from langchain.memory import ConversationBufferMemory
 from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.chat_models import ChatOpenAI
+import requests
 import os
 from typing import List, Dict, Optional
 import logging
@@ -24,33 +25,42 @@ logger = logging.getLogger(__name__)
 class RAGSystem:
     def __init__(
         self,
-        model_name: str = "sentence-transformers/all-mpnet-base-v2",
-        llm_model: str = "google/flan-t5-base",
+        embedding_model_name: str = "text-embedding-3-small",
+        llm_model: str = "meta-llama/llama-4-maverick:free",
         chunk_size: int = 1000,
         chunk_overlap: int = 200,
-        index_path: str = "./vectorstore"
+        index_path: str = "./vector_store",
+        temperature: float = 0.7,
+        max_tokens: int = 512
     ):
         """
         Initialize the RAG system with LangChain components.
         
         Args:
-            model_name: HuggingFace model for embeddings
+            embedding_model: HuggingFace model for embeddings
             llm_model: HuggingFace model for text generation
             chunk_size: Size of text chunks
             chunk_overlap: Overlap between chunks
             index_path: Path to store the vector database
         """
         # Initialize embeddings model
-        self.embeddings = HuggingFaceEmbeddings(
-            model_name=model_name,
-            model_kwargs={'device': 'cpu'}
+        self.embeddings = OpenAIEmbeddings(
+            model=embedding_model_name,
+            api_base="https://api.openai.com/v1"  # Using OpenAI's API directly
+        )
+        # Initialize language model with OpenRouter base URL
+        self.llm = ChatOpenAI(
+            model=llm_model,
+            temperature=temperature,
+            max_tokens=max_tokens,
+            openai_api_base="https://openrouter.ai/api/v1",
+            openai_api_key=os.getenv("OPENROUTER_API_KEY"),
+            headers={
+                "HTTP-Referer": "https://github.com/langchain-ai/langchain",
+                "X-Title": "LangChain RAG System"
+            }
         )
         
-        # Initialize language model
-        self.llm = HuggingFaceHub(
-            repo_id=llm_model,
-            model_kwargs={'temperature': 0.7, 'max_length': 512}
-        )
         
         # Initialize text splitter
         self.text_splitter = RecursiveCharacterTextSplitter(

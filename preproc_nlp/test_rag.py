@@ -1,18 +1,25 @@
 from vector_database import RAGSystem
 import os
 
+# Set OpenRouter API key
+os.environ["OPENROUTER_API_KEY"] = "sk-or-v1-xxxxx"  # Replace with actual key
+
 def main():
     # Initialize the RAG system
     rag = RAGSystem(
-        embedding_model="sentence-transformers/all-mpnet-base-v2",
-        llm_model="google/flan-t5-base",
+        embedding_model_name="text-embedding-3-small",
+        llm_model="meta-llama/llama-4-maverick:free",
         chunk_size=500,  # Smaller chunks for more precise retrieval
         chunk_overlap=50,
-        index_path="./test_vectorstore"
+        index_path="./test_vectorstore",
+        temperature=0.7,
+        max_tokens=512
     )
 
     # Process the specific document
-    input_dir = "./cleaned_data"
+    input_dir = "./nlp_cleaned_data"
+    if not os.path.exists(input_dir):
+        raise FileNotFoundError(f"Directory not found: {input_dir}")
     print(f"\nProcessing documents from {input_dir}...")
     rag.process_documents(input_dir)
     
