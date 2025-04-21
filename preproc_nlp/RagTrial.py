@@ -125,25 +125,9 @@ def generate_answer_with_mistral(question: str, context: str, api_key: str, mode
         "Content-Type": "application/json"
     }
     prompt = (
-        #"You are a helpful expert in cryptocurrency and blockchain technology. "
-        #"Use the following context to answer the question. If you cannot find "
-        #"the answer in the context, say so. Do not make up information.\n\n"
-
-        "You are a highly knowledgeable expert in cryptocurrency, blockchain technology, "
-        "and decentralized finance (DeFi), with extensive experience "
-        "in both technical and practical aspects of the field. "
-        "Your expertise includes understanding of consensus mechanisms, smart contracts, "
-        "tokenomics, mining/staking processes, cryptocurrency exchanges, and regulatory "
-        "frameworks across different jurisdictions. You will analyze the provided context thoroughly "
-        "and respond to questions with precise, factual information supported by the given context. "
-        "If the information cannot be found in the context, you will clearly state this limitation rather than making assumptions or providing speculative answers."
-        " When answering, use clear, technical language while maintaining accessibility for both beginners and advanced users. "
-        "Break down complex concepts when necessary, and provide relevant examples from the context to support your explanations."
-
-        "Use the following context to answer the question. If you cannot find the answer in the context, "
-        "explicitly state 'I cannot find this information in the provided context' and do not make up or"
-        " infer information that isn't directly supported by the context."
-
+        "You are a helpful expert in cryptocurrency and blockchain technology. "
+        "Use the following context to answer the question. If you cannot find "
+        "the answer in the context, say so. Do not make up information.\n\n"
         f"Context: {context}\n\n"
         f"Question: {question}\n\n"
         "Answer: "
@@ -153,8 +137,8 @@ def generate_answer_with_mistral(question: str, context: str, api_key: str, mode
         "messages": [
             {"role": "user", "content": prompt}
         ],
-        "max_tokens": 5000,
-        "temperature": 0.6
+        "max_tokens": 500,
+        "temperature": 0.7
     }
     response = requests.post(url, headers=headers, json=data)
     if response.status_code == 200:
@@ -224,10 +208,10 @@ if __name__ == "__main__":
     # If the simple test works, try the more complex question
     print("\nTesting with the original question...\n")
     #test_rag_system("generate a set of 5 questions that you will extract from the sources in the RAG system")
-    test_rag_system("How safe and reliable are online and virtual payment and wallet platforms for cryptocurrency transactions?")
+    #test_rag_system("How safe and reliable are online and virtual payment and wallet platforms for cryptocurrency transactions?")
 
     #test_rag_system("What are the main impacts of cryptocurrency on macroeconomic stability?")
-    #test_rag_system("How does cryptocurrency affect inflation and deflation?")
+    test_rag_system("How does cryptocurrency affect inflation and deflation?")
     #test_rag_system("What are the different regulatory approaches for cryptocurrency?")
     #test_rag_system("How does cryptocurrency influence exchange rates?")
     #test_rag_system("What is the role of cryptocurrency in global finance?")
