@@ -18,8 +18,10 @@ class HybridSearchEngine:
         logger.info("Initializing HybridSearchEngine")
         # Initialize HuggingFace embeddings (sentence-transformers)
         logger.debug("Setting up HuggingFace embeddings")
+        model_name = os.getenv("EMBEDDING_MODEL_NAME", 'multi-qa-mpnet-base-dot-v1')
+
         self.embeddings = HuggingFaceEmbeddings(
-            model_name="all-MiniLM-L6-v2",
+            model_name=model_name,
             model_kwargs={'device': 'cpu'},
             encode_kwargs={'normalize_embeddings': True}
         )

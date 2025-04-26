@@ -1,0 +1,47 @@
+# DeployTrial2/requirements.txt
+# Core FastAPI and ASGI server
+fastapi>=0.110.0,<0.111.0
+uvicorn[standard]>=0.29.0,<0.30.0 # Includes httptools, websockets, watchfiles
+
+# Configuration and Environment
+pydantic[email]>=2.0.0,<3.0.0
+pydantic-settings>=2.0.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+
+# Database (MongoDB Async)
+motor>=3.0.0,<4.0.0
+pymongo>=4.0.0,<5.0.0 # Motor dependency, specify for clarity
+
+# Authentication & Security
+passlib[bcrypt]>=1.7.4,<1.8.0
+python-jose[cryptography]>=3.3.0,<3.4.0 # Alternative JWT library often used with FastAPI docs
+# pyjwt>=2.8.0,<3.0.0 # If using PyJWT directly
+
+# LangChain Core and Integrations
+langchain>=0.1.0,<0.2.0
+langchain-community>=0.0.30,<0.1.0 # For loaders, embeddings, vector stores
+langchain-openai>=0.1.0,<0.2.0 # For ChatOpenAI wrapper (used for OpenRouter)
+
+# Embeddings
+sentence-transformers>=2.2.0,<3.0.0 # HuggingFace embeddings backend
+# torch>=2.0.0,<3.0.0 # Required by sentence-transformers (install appropriate version for CPU/GPU)
+# torchvision # Often needed with torch
+# torchaudio # Often needed with torch
+
+# Vector Store
+# Document Processing
+# Note: Using unstructured version compatible with current Python
+unstructured>=0.11.0,<0.12.0 # For general file loading
+pypdf>=4.0.0,<5.0.0 # PDF loader dependency
+python-docx>=1.0.0,<2.0.0 # Docx loader dependency (check exact name)
+docx2txt>=0.8,<0.9 # Alternative/dependency for docx loading
+
+# Utilities
+numpy>=1.20.0,<2.0.0 # Required by FAISS and embeddings
+
+# Removed optional dependencies for now to simplify setup
+
+# Optional: For development and testing
+# pytest>=7.0.0,<8.0.0
+# pytest-asyncio>=0.20.0,<0.21.0
+# httpx>=0.27.0,<0.28.0 # For testing async API calls

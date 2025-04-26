@@ -5,12 +5,15 @@ __pycache__/
 
 # C extensions
 *.so
+*.zip
 #Files
 /given_data
 resumeclaude.py
 chunk_metadata.pkl
 faiss_index
 /vector_store/
+/faiss_index_download
+
 
 
 # Distribution / packaging

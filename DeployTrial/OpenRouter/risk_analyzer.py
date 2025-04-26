@@ -66,7 +66,7 @@ class RiskAnalyzer:
                 contexts = search_engine.hybrid_search(question, project_id)
                 
                 # Generate answer
-                answer = rag_pipeline.generate_response(question, contexts)
+                answer = rag_pipeline.generate_response(question)
                 
                 # Calculate risk score (0-100, higher is better)
                 # This is a simplified scoring, you'd implement more sophisticated logic

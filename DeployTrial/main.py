@@ -159,18 +159,19 @@ async def query_documents(
         logger.info(f"Received query request from user {query.user_id} for project {query.project_id}")
         logger.debug(f"Query text: {query.query}")
         
-        # Get relevant contexts using hybrid search
-        logger.debug("Performing hybrid search...")
-        contexts = search_engine.hybrid_search(
-            query.query,
-            project_id=query.project_id,
-            k=5
-        )
-        logger.debug(f"Found {len(contexts)} relevant contexts")
+        # Get relevant contexts using hybrid search (This part might become redundant if only using FAISS in RAG)
+        # logger.debug("Performing hybrid search...")
+        # contexts = search_engine.hybrid_search(
+        #     query.query,
+        #     project_id=query.project_id,
+        #     k=5
+        # )
+        # logger.debug(f"Found {len(contexts)} relevant contexts")
+        
         
         # Generate response using RAG pipeline
         logger.debug("Generating response using RAG pipeline...")
-        response = rag_pipeline.generate_response(query.query, contexts)
+        response = rag_pipeline.generate_response(query.query)
         logger.info("Response generated successfully")
         
         # Store conversation in MongoDB

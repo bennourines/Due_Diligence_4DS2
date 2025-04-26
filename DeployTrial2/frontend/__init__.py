@@ -1,0 +1,1 @@
+# Make frontend a package

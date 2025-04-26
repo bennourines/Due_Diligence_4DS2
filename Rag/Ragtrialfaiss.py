@@ -21,9 +21,9 @@ warnings.filterwarnings('ignore', module='tensorflow')
 MODEL_NAME = "multi-qa-mpnet-base-dot-v1"
 OPENROUTER_API_KEY = "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"
 MISTRAL_MODEL = "meta-llama/llama-4-maverick:free"
-FAISS_INDEX_PATH = "./vector_store/faiss_index"
-METADATA_PATH = "./vector_store/chunk_metadata.pkl"
-DATA_DIR = "./preproc_nlp/nlp_cleaned_data"  # Directory with text files to index
+FAISS_INDEX_PATH = "../vector_store/faiss_index"
+METADATA_PATH = "../vector_store/chunk_metadata.pkl"
+DATA_DIR = "../preproc_nlp/nlp_cleaned_data"  # Directory with text files to index
 
 # Load SentenceTransformer model for generating embeddings
 def load_embedding_model(model_name: str):
