@@ -5,6 +5,7 @@ uses all-mpnet-base-v2 for embeddings and cross-encoder/ms-marco-MiniLM-L-6-v2 f
 different from prev rags that use qa
 """
 
+import logging
 import os
 import numpy as np
 import warnings
@@ -16,6 +17,9 @@ import time
 import functools
 import hashlib
 from typing import List, Dict, Any, Tuple, Generator, Optional, Union
+import traceback  # Import traceback for exception handling
+import torch # Add torch import for device handling
+from transformers import AutoModelForCausalLM, AutoTokenizer # Add transformers imports
 from concurrent.futures import ProcessPoolExecutor
 from dataclasses import dataclass
 from cachetools import TTLCache, cached
@@ -49,9 +53,9 @@ load_dotenv(override=True)
 
 # Configuration from environment variables with defaults
 MODEL_NAME = os.getenv("RAG_MODEL_NAME", "sentence-transformers/all-mpnet-base-v2")
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
-LLM_MODEL = os.getenv("LLM_MODEL", "meta-llama/llama-4-maverick:free")
-#LLM_MODEL = "deepseek/deepseek-r1:free"
+# OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY") # No longer needed
+HF_MODEL_NAME = os.getenv("HF_MODEL_NAME", "meta-llama/Llama-3.2-1B") # HF model name
+DEVICE = os.getenv("DEVICE", "cpu") # Device for HF model
 FAISS_INDEX_PATH = os.getenv("FAISS_INDEX_PATH", "../faiss_index_download/index.faiss")
 METADATA_PATH = os.getenv("METADATA_PATH", "../faiss_index_download/merged_metadata.json")
 DATA_DIR = os.getenv("DATA_DIR", "../DATA_COMPLETE/cleaned_texts")
@@ -81,25 +85,26 @@ class RAGSystem:
     """
     Enhanced Retrieval-Augmented Generation System
     Integrates vector search, keyword search, and reranking for improved retrieval accuracy.
+    Uses a locally loaded Hugging Face model for generation.
     """
-    
+
     def __init__(
-        self, 
-        model_name: str = MODEL_NAME,
+        self,
+        model_name: str = MODEL_NAME, # Embedding model
         index_path: str = FAISS_INDEX_PATH,
         metadata_path: str = METADATA_PATH,
-        api_key: str = OPENROUTER_API_KEY,
-        llm_model: str = LLM_MODEL,
+        hf_model_name: str = HF_MODEL_NAME, # HF model for generation
+        device: str = DEVICE, # Device for HF model
         use_cache: bool = USE_CACHE
     ):
         # Initialize parameters
         self.model_name = model_name
         self.index_path = index_path
         self.metadata_path = metadata_path
-        self.api_key = api_key
-        self.llm_model = llm_model
+        self.hf_model_name = hf_model_name
+        self.device = device
         self.use_cache = use_cache
-        
+
         # Initialize resources
         self.embedding_model = None
         self.cross_encoder = None
@@ -107,10 +112,40 @@ class RAGSystem:
         self.metadata = None
         self.tfidf_vectorizer = None
         self.tfidf_matrix = None
-        
+        self.llm_tokenizer = None # For local LLM
+        self.llm_model = None # For local LLM
+
         # Load resources
         self._load_resources()
-    
+        self._load_llm() # Load the local LLM
+
+    def _load_llm(self):
+        """Load the local Hugging Face LLM and tokenizer."""
+        print(f"Loading Hugging Face tokenizer: {self.hf_model_name}")
+        try:
+            # Check for Hugging Face Hub token for gated models
+            hf_token = os.getenv("HUGGINGFACE_HUB_TOKEN")
+            self.llm_tokenizer = AutoTokenizer.from_pretrained(self.hf_model_name, token=hf_token)
+            print(f"Loading Hugging Face model: {self.hf_model_name} onto {self.device}")
+            # Ensure model is loaded onto the correct device and potentially adjust dtype for CPU
+            model_kwargs = {"token": hf_token}
+            if self.device == "cpu":
+                 # Force float32 on CPU if needed, adjust based on model requirements/performance
+                 model_kwargs["torch_dtype"] = torch.float32
+
+            self.llm_model = AutoModelForCausalLM.from_pretrained(
+                self.hf_model_name,
+                **model_kwargs
+            ).to(self.device)
+
+            self.llm_model.eval() # Set model to evaluation mode
+            print("Hugging Face model and tokenizer loaded successfully.")
+        except Exception as e:
+            print(f"Error loading Hugging Face model/tokenizer: {str(e)}")
+            print("Ensure you are logged in via `huggingface-cli login` if the model requires authentication.")
+            self.llm_tokenizer = None
+            self.llm_model = None
+
     def _load_resources(self):
         """Load embedding model, cross-encoder, and FAISS index"""
         print(f"Loading resources...")
@@ -207,27 +242,57 @@ class RAGSystem:
     
     def semantic_search(self, question: str, top_k: int = 5) -> List[Dict]:
         """Perform semantic search using FAISS"""
+        logging.debug(f"Starting semantic search for question: '{question[:50]}...' with top_k={top_k}")
         try:
             # Generate query embedding
             query_embedding = self.embedding_model.encode([question], show_progress_bar=False)
-            
+            embedding_shape = query_embedding.shape
+            logging.debug(f"Query encoded. Embedding shape: {embedding_shape}")
+
+           
+            # Ensure embedding is float32 numpy array
+            query_vector = np.array(query_embedding).astype('float32')
+            logging.debug(f"Query vector prepared for FAISS search. Shape: {query_vector.shape}, Dtype: {query_vector.dtype}")
+
             # Search the index
-            distances, indices = self.index.search(np.array(query_embedding).astype('float32'), top_k)
-            
-            # Get the relevant chunks
+            logging.debug("Searching FAISS index...")
+            distances, indices = self.index.search(query_vector, top_k)
+            logging.debug(f"FAISS search completed. Found {len(indices[0])} potential indices.")
+            logging.debug(f"Distances: {distances[0]}")
+            logging.debug(f"Indices: {indices[0]}")
+
+           # Get the relevant chunks
             results = []
+            logging.debug("Processing search results...")
             for i, idx in enumerate(indices[0]):
+                # FAISS can return -1 for indices if fewer than top_k results are found
+                if idx == -1:
+                    logging.debug(f"Skipping index -1 at position {i}.")
+                    continue
                 if idx < len(self.metadata):
+                    logging.debug(f"Processing result {i}: index={idx}, distance={distances[0][i]}")
                     # Get the full item {"text": ..., "metadata": ...}
                     item = self.metadata[idx].copy()
                     # Add distance score (convert to similarity score)
-                    item["score"] = float(1.0 / (1.0 + distances[0][i]))  # Convert distance to similarity
+                    # Handle potential division by zero if distance is -1 (though FAISS usually uses non-negative distances)
+                    distance = distances[0][i]
+                    similarity_score = float(1.0 / (1.0 + max(0, distance))) if distance >= 0 else 0.0
+                    item["score"] = similarity_score
                     item["retrieval_method"] = "semantic"
                     results.append(item) # Append the whole item
+                    logging.debug(f"  Added item from index {idx} with score {similarity_score:.4f}")
+                else:
+                    logging.warning(f"Index {idx} out of bounds for metadata length {len(self.metadata)}.")
 
+            logging.info(f"Semantic search completed. Returning {len(results)} results.")
             return results
+        except AttributeError as ae:
+             # Catch specific error if index is None (failed loading)
+             logging.error(f"AttributeError in semantic search: {ae}. Is the FAISS index loaded correctly?")
+             return []
         except Exception as e:
-            print(f"Error in semantic search: {str(e)}")
+            # Use logging.exception to include traceback automatically
+            logging.exception(f"Error during semantic search: {e}")
             return []
     
     def keyword_search(self, question: str, top_k: int = 5) -> List[Dict]:
@@ -340,92 +405,20 @@ class RAGSystem:
     
     @cached(cache=memory_cache)
     def expand_query(self, query: str) -> List[str]:
-        """Generate multiple search queries from the original query"""
-        if not self.api_key:
-            return [query]
-            
-        url = "https://openrouter.ai/api/v1/chat/completions"
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
-        prompt = (
-            "You are a search query expansion tool. Given an original query, generate 2-3 alternative "
-            "queries that could help retrieve more relevant information. Provide only the queries, "
-            "separated by newlines, without any additional explanations.\n\n"
-            f"Original query: {query}\n\n"
-            "Alternative queries:"
-        )
-        data = {
-            "model": self.llm_model,
-            "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": 100,
-            "temperature": 0.1
-        }
-        
-        try:
-            response = requests.post(url, headers=headers, json=data)
-            if response.status_code == 200:
-                expanded_queries = response.json()["choices"][0]["message"]["content"].split("\n")
-                # Remove any numbering or bullet points
-                expanded_queries = [q.strip().lstrip("123456789.-*• ") for q in expanded_queries if q.strip()]
-                return [query] + expanded_queries  # Include original query
-            else:
-                print(f"Error expanding query: {response.text}")
-                return [query]
-        except Exception as e:
-            print(f"Exception in query expansion: {str(e)}")
-            return [query]
-    
+        """Generate multiple search queries from the original query (Currently disabled - returns original query)"""
+        print("Query expansion via LLM is disabled. Returning original query.")
+        return [query] # Return only the original query as OpenRouter is removed
+
     def compress_context(self, question: str, context: str) -> str:
-        """Compress the context to the most relevant parts"""
-        if not self.api_key or len(context) < 2000:  # Only compress if context is large
-            return context
-            
-        url = "https://openrouter.ai/api/v1/chat/completions"
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
-        prompt = (
-            "Your task is to extract only the most relevant information from the following context that helps "
-            f"answer this question: \"{question}\"\n\n"
-            f"Context:\n{context}\n\n"
-            "Extract only the relevant facts and information needed to answer the question. "
-            "Maintain critical details but remove redundant or irrelevant content."
-        )
-        data = {
-            "model": self.llm_model,
-            "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": 1000,
-            "temperature": 0.3
-        }
-        
-        try:
-            response = requests.post(url, headers=headers, json=data)
-            if response.status_code == 200:
-                compressed = response.json()["choices"][0]["message"]["content"]
-                # Only use compressed context if it's not too short
-                if len(compressed) > len(context) * 0.2:
-                    print(f"Compressed context from {len(context)} to {len(compressed)} characters")
-                    return compressed
-        except Exception as e:
-            print(f"Exception in context compression: {str(e)}")
-        
-        # Fall back to original context if compression fails
-        print("Using original uncompressed context")
-        return context
-    
-    def generate_answer(self, question: str, context: str, streaming: bool = False) -> Union[str, Generator[str, None, None]]:
-        """Generate answer using LLM"""
-        if not self.api_key:
-            return "API key required for answer generation"
-            
-        url = "https://openrouter.ai/api/v1/chat/completions"
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
+        """Compress the context to the most relevant parts (Currently disabled - returns original context)"""
+        print("Context compression via LLM is disabled. Returning original context.")
+        return context # Return original context as OpenRouter is removed
+
+    def generate_answer(self, question: str, context: str) -> str: # Removed streaming parameter and return type Union
+        """Generate answer using the locally loaded LLM"""
+        if not self.llm_model or not self.llm_tokenizer:
+            return "Local LLM not loaded. Cannot generate answer."
+
         prompt = (
             "You are a highly knowledgeable expert in cryptocurrency, blockchain technology, "
             "and decentralized finance (DeFi), with extensive experience "
@@ -437,67 +430,58 @@ class RAGSystem:
             "If the information cannot be found in the context, you will clearly state this limitation rather than making assumptions or providing speculative answers."
             " When answering, use clear, technical language while maintaining accessibility for both beginners and advanced users. "
             "Break down complex concepts when necessary, and provide relevant examples from the context to support your explanations."
-
+            "\n\n"
             "Use the following context to answer the question. If you cannot find the answer in the context, "
             "explicitly state 'I cannot find this information in the provided context' and do not make up"
             "information that isn't directly supported by the context."
-
+            "\n\n"
             f"Context: {context}\n\n"
             f"Question: {question}\n\n"
             "Answer: "
         )
-        data = {
-            "model": self.llm_model,
-            "messages": [
-                {"role": "user", "content": prompt}
-            ],
-            "max_tokens": 5000,
-            "temperature": 0.6
-        }
-        
-        if streaming:
-            data["stream"] = True
-            return self._stream_response(url, headers, data)
-        else:
-            return self._generate_full_response(url, headers, data)
-    
-    def _generate_full_response(self, url: str, headers: Dict, data: Dict) -> str:
-        """Generate full response from LLM"""
+
+        # Call the local generation method directly
+        return self._generate_full_response_local(prompt)
+
+    def _generate_full_response_local(self, prompt: str) -> str:
+        """Generate full response using the local Hugging Face LLM"""
         try:
-            response = requests.post(url, headers=headers, json=data)
-            if response.status_code == 200:
-                return response.json()["choices"][0]["message"]["content"]
-            else:
-                error_msg = f"Error calling LLM: {response.text}"
-                print(error_msg)
-                return error_msg
+            # Prepare inputs for the model
+            # Ensure max_length is appropriate for the model context window
+            inputs = self.llm_tokenizer(prompt, return_tensors="pt", truncation=True, max_length=4096).to(self.device)
+
+            # Generate output tokens
+            # Adjust generation parameters as needed (e.g., max_new_tokens, temperature)
+            with torch.no_grad(): # Disable gradient calculation for inference
+                output_sequences = self.llm_model.generate(
+                    input_ids=inputs['input_ids'],
+                    attention_mask=inputs['attention_mask'],
+                    max_new_tokens=500,  # Limit the number of new tokens generated
+                    temperature=0.3,
+                    do_sample=True, # Use sampling
+                    top_p=0.9, # Use nucleus sampling
+                    pad_token_id=self.llm_tokenizer.eos_token_id # Set pad token ID
+                )
+
+            # Decode the generated tokens, skipping special tokens and the prompt
+            # Ensure decoding handles the prompt correctly
+            prompt_length = inputs['input_ids'].shape[1]
+            generated_ids = output_sequences[0, prompt_length:]
+            generated_text = self.llm_tokenizer.decode(generated_ids, skip_special_tokens=True)
+
+
+            return generated_text.strip()
+
         except Exception as e:
-            error_msg = f"Exception in answer generation: {str(e)}"
+            error_msg = f"Exception in local answer generation: {str(e)}"
             print(error_msg)
+            # Print traceback for more details if needed
+            import traceback
+            traceback.print_exc()
             return error_msg
-    
-    def _stream_response(self, url: str, headers: Dict, data: Dict) -> Generator[str, None, None]:
-        """Stream response from LLM"""
-        try:
-            response = requests.post(url, headers=headers, json=data, stream=True)
-            
-            if response.status_code == 200:
-                for line in response.iter_lines():
-                    if line:
-                        line_text = line.decode('utf-8')
-                        if line_text.startswith('data: ') and not line_text.startswith('data: [DONE]'):
-                            try:
-                                chunk_data = json.loads(line_text[6:])
-                                content = chunk_data.get('choices', [{}])[0].get('delta', {}).get('content', '')
-                                if content:
-                                    yield content
-                            except json.JSONDecodeError:
-                                continue
-            else:
-                yield f"Error: {response.text}"
-        except Exception as e:
-            yield f"Exception in streaming: {str(e)}"
-    
+
+    # Note: _generate_full_response and _stream_response (OpenRouter versions) are removed by this diff.
+
     def parallel_retrieve_and_rerank(self, questions: List[str], top_k: int = 5) -> List[List[Dict]]:
         """Process multiple questions in parallel"""
         with ProcessPoolExecutor(max_workers=min(os.cpu_count(), len(questions))) as executor:
@@ -519,13 +503,12 @@ class RAGSystem:
     
     def query(self, 
               question: str, 
-              top_k: int = 3, 
+              top_k: int = 5, 
               use_hybrid: bool = True, 
               use_query_expansion: bool = True,
               use_reranking: bool = True,
-              use_context_compression: bool = True,
-              streaming: bool = False
-             ) -> Tuple[Union[str, Generator[str, None, None]], EvaluationResult]:
+              use_context_compression: bool = True
+             ) -> Tuple[str, EvaluationResult]: # Removed streaming from signature and Union from return type
         """
         Full RAG pipeline with evaluation metrics
         
@@ -606,19 +589,16 @@ class RAGSystem:
         
         # Generate answer and measure latency
         generation_start = time.time()
-        answer = self.generate_answer(question, context, streaming)
+        answer = self.generate_answer(question, context)
+        generation_end = time.time() # Always measure latency now
         
-        # If not streaming, we can measure generation latency
-        if not streaming:
-            generation_end = time.time()
-            eval_result.generation_latency = generation_end - generation_start
-            eval_result.total_latency = eval_result.retrieval_latency + eval_result.generation_latency
-            eval_result.answer = answer
-        else:
-            # For streaming we can't measure until complete
-            eval_result.total_latency = eval_result.retrieval_latency
-        
-        return answer, eval_result
+        # Update latency calculation (no longer conditional on streaming)
+        eval_result.generation_latency = generation_end - generation_start
+        eval_result.total_latency = eval_result.retrieval_latency + eval_result.generation_latency
+        eval_result.answer = answer
+
+        return answer, eval_result # Return type is now just Tuple[str, EvaluationResult]
+
     
     def evaluate_answer(self, question: str, answer: str, reference_answer: str = None) -> Dict:
         """Evaluate answer quality using NLP metrics"""
@@ -703,7 +683,7 @@ def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
         for i, res in enumerate(semantic_results):
             # Access 'source' from nested metadata, 'text' from top level
             source_name = res.get('metadata', {}).get('source', 'N/A')
-            text_preview = res.get('text', '')[:100]
+            text_preview = res.get('text', '')[:150]
             print(f"{i+1}. Score: {res['score']:.4f}, Source: {source_name}") # Use Source
             print(f"   {text_preview}...\n")
     else:
@@ -763,7 +743,6 @@ def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
         use_query_expansion=True, # Set flags as desired for testing
         use_reranking=True,
         use_context_compression=False,
-        streaming=False
     )
 
     
@@ -786,7 +765,7 @@ def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
     # Test 6: Full RAG pipeline (Streaming)
     print("\n----- Test 6: Full RAG Pipeline (Streaming) -----")
     print(f"Question: {test_questions[1]}") # Use a different question
-    print("\nGenerating answer (streaming)...")
+    print("\nGenerating answer...")
     stream_answer_gen, stream_eval_result = rag.query(
         test_questions[1],
         top_k=5,
@@ -794,10 +773,9 @@ def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
         use_query_expansion=False, # Try different flags
         use_reranking=True,
         use_context_compression=False,
-        streaming=True
     )
 
-    print("Streaming Answer Chunks:")
+    print("non Streaming Answer Chunks:")
     full_streamed_answer = ""
     try:
         for chunk in stream_answer_gen:
@@ -835,7 +813,7 @@ def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
          print(f"  {key}: {value}")
 
     # Test evaluation with an uncertain answer
-    uncertain_answer_test, _ = rag.query(test_questions[4], top_k=1, streaming=False)
+    uncertain_answer_test, _ = rag.query(test_questions[4], top_k=1)
     print(f"\nEvaluating potentially uncertain answer for: {test_questions[4]}")
     print(f"Generated Answer: {uncertain_answer_test}")
     uncertain_eval = rag.evaluate_answer(test_questions[4], uncertain_answer_test)

@@ -5,7 +5,7 @@ from RagAndMetrics import RAGSystem
 
 # Define the search space for hyperparameters
 search_space = {
-    "top_k": [3,10,15],
+    "top_k": [3,5],
     "use_hybrid": [True, False],
     "use_query_expansion": [True, False],
     "use_reranking": [True, False],
