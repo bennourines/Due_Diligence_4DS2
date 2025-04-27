@@ -28,10 +28,7 @@ from nltk.translate import meteor_score
 from rouge import Rouge
 import re
 from dotenv import load_dotenv
-from ragas import evaluate as ragas_evaluate
-from ragas.metrics import (
-    context_precision, context_recall, response_relevancy, faithfulness
-)
+
 
 # Download NLTK data (first time only)
 try:
@@ -53,7 +50,7 @@ load_dotenv(override=True)
 # Configuration from environment variables with defaults
 MODEL_NAME = os.getenv("RAG_MODEL_NAME", "sentence-transformers/multi-qa-mpnet-base-dot-v1")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
-LLM_MODEL = os.getenv("LLM_MODEL", "meta-llama/llama-4-maverick:free")
+LLM_MODEL = "google/gemini-2.5-pro-exp-03-25"
 FAISS_INDEX_PATH = os.getenv("FAISS_INDEX_PATH", "../faiss_index_download/index.faiss")
 METADATA_PATH = os.getenv("METADATA_PATH", "../faiss_index_download/merged_metadata.json")
 DATA_DIR = os.getenv("DATA_DIR", "../DATA_COMPLETE/cleaned_texts")
@@ -677,7 +674,6 @@ class RAGSystem:
         return results
 
 
-# ... (keep all existing code from the RAGSystem class and imports) ...
 
 def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
     """Test various functionalities of the RAG system"""
@@ -767,6 +763,8 @@ def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
         streaming=False
     )
 
+    
+
     print(f"\nGenerated Answer:\n{answer}")
     print(f"\nEvaluation Result (Non-Streaming):")
     print(f"  Retrieval Latency: {eval_result.retrieval_latency:.4f}s")
@@ -778,6 +776,9 @@ def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
         source_name = eval_result.retrieved_chunks[0].get('metadata', {}).get('source', 'N/A')
         print(f"    Top Chunk Score: {eval_result.retrieved_chunks[0]['score']:.4f}")
         print(f"    Top Chunk Source: {source_name}") # Use Source
+
+    
+
 
     # Test 6: Full RAG pipeline (Streaming)
     print("\n----- Test 6: Full RAG Pipeline (Streaming) -----")
@@ -856,6 +857,8 @@ def test_rag_system(rag: RAGSystem): # Pass the initialized RAG instance
              print(f"    Top chunk score: {p_res[0]['score']:.4f}, Source: {source_name}") # Use Source
         else:
             print("    No chunks found.")
+
+    
 
     print("\n===== RAG System Testing Complete =====\n")
 

@@ -1,0 +1,674 @@
+[
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 2.183892250061035,
+    "avg_retrieval_latency": 1.411715030670166,
+    "avg_generation_latency": 0.7721772193908691
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.1171529293060303,
+    "avg_retrieval_latency": 0.5058053334554037,
+    "avg_generation_latency": 0.6113475958506266
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.594487190246582,
+    "avg_retrieval_latency": 0.14311766624450684,
+    "avg_generation_latency": 0.4513695240020752
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.6130099296569824,
+    "avg_retrieval_latency": 0.14986729621887207,
+    "avg_generation_latency": 0.46314263343811035
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.920884370803833,
+    "avg_retrieval_latency": 0.521183172861735,
+    "avg_generation_latency": 0.39970119794209796
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.8899580637613932,
+    "avg_retrieval_latency": 0.508725643157959,
+    "avg_generation_latency": 0.38123242060343426
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.5955660343170166,
+    "avg_retrieval_latency": 0.144317626953125,
+    "avg_generation_latency": 0.4512484073638916
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.5009933312733968,
+    "avg_retrieval_latency": 0.14317735036214194,
+    "avg_generation_latency": 0.3578159809112549
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.0759936968485515,
+    "avg_retrieval_latency": 0.6972005367279053,
+    "avg_generation_latency": 0.3787931601206462
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.1288012663523357,
+    "avg_retrieval_latency": 0.7401169935862223,
+    "avg_generation_latency": 0.3886842727661133
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.7436470190684,
+    "avg_retrieval_latency": 0.07774559656778972,
+    "avg_generation_latency": 0.6659014225006104
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.7949778238932291,
+    "avg_retrieval_latency": 0.07878994941711426,
+    "avg_generation_latency": 0.7161878744761149
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.0309055646260579,
+    "avg_retrieval_latency": 0.6583863894144694,
+    "avg_generation_latency": 0.37251917521158856
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.0336209932963054,
+    "avg_retrieval_latency": 0.6506516138712565,
+    "avg_generation_latency": 0.38296937942504883
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.4500420093536377,
+    "avg_retrieval_latency": 0.08069547017415364,
+    "avg_generation_latency": 0.36934653917948407
+  },
+  {
+    "config": {
+      "top_k": 10,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.5448158582051595,
+    "avg_retrieval_latency": 0.0779876708984375,
+    "avg_generation_latency": 0.466828187306722
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.3050762017567952,
+    "avg_retrieval_latency": 0.690652052561442,
+    "avg_generation_latency": 0.6144241491953532
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.2078550656636555,
+    "avg_retrieval_latency": 0.6902226607004801,
+    "avg_generation_latency": 0.5176324049631754
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.7066455682118734,
+    "avg_retrieval_latency": 0.15940634409586588,
+    "avg_generation_latency": 0.5472392241160074
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.527409553527832,
+    "avg_retrieval_latency": 0.15214292208353677,
+    "avg_generation_latency": 0.37526663144429523
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.040380557378133,
+    "avg_retrieval_latency": 0.6744688351949056,
+    "avg_generation_latency": 0.36591172218322754
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.174627463022868,
+    "avg_retrieval_latency": 0.7093939781188965,
+    "avg_generation_latency": 0.4652334849039714
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.5070804754892985,
+    "avg_retrieval_latency": 0.1264955202738444,
+    "avg_generation_latency": 0.3805849552154541
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.4796926975250244,
+    "avg_retrieval_latency": 0.1272585391998291,
+    "avg_generation_latency": 0.3524341583251953
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.3935402234395344,
+    "avg_retrieval_latency": 1.0324125289916992,
+    "avg_generation_latency": 0.36112769444783527
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.6937917868296306,
+    "avg_retrieval_latency": 1.2487274805704753,
+    "avg_generation_latency": 0.4450643062591553
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.46137277285257977,
+    "avg_retrieval_latency": 0.09510389963785808,
+    "avg_generation_latency": 0.3662688732147217
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.4353023370107015,
+    "avg_retrieval_latency": 0.07903607686360677,
+    "avg_generation_latency": 0.3562662601470947
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.4086677233378093,
+    "avg_retrieval_latency": 1.0434722900390625,
+    "avg_generation_latency": 0.36519543329874676
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.9504745801289876,
+    "avg_retrieval_latency": 1.5095128218332927,
+    "avg_generation_latency": 0.440961758295695
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.4716779390970866,
+    "avg_retrieval_latency": 0.08656271298726399,
+    "avg_generation_latency": 0.3851152261098226
+  },
+  {
+    "config": {
+      "top_k": 15,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.4971662362416585,
+    "avg_retrieval_latency": 0.07990288734436035,
+    "avg_generation_latency": 0.41726334889729816
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.3235444227854412,
+    "avg_retrieval_latency": 0.9512200355529785,
+    "avg_generation_latency": 0.3723243872324626
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.7774170239766438,
+    "avg_retrieval_latency": 1.252913475036621,
+    "avg_generation_latency": 0.5245035489400228
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.5234383742014567,
+    "avg_retrieval_latency": 0.15307013193766275,
+    "avg_generation_latency": 0.37036824226379395
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": true,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.5088410377502441,
+    "avg_retrieval_latency": 0.13474011421203613,
+    "avg_generation_latency": 0.374100923538208
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.3200201193491619,
+    "avg_retrieval_latency": 0.9238150119781494,
+    "avg_generation_latency": 0.3962051073710124
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.7685547669728596,
+    "avg_retrieval_latency": 1.3341199556986492,
+    "avg_generation_latency": 0.43443481127421063
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.5394080479939779,
+    "avg_retrieval_latency": 0.1520843505859375,
+    "avg_generation_latency": 0.38732369740804035
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": true,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.9545928637186686,
+    "avg_retrieval_latency": 0.13143555323282877,
+    "avg_generation_latency": 0.8231573104858398
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.9942786693572998,
+    "avg_retrieval_latency": 1.4854442278544109,
+    "avg_generation_latency": 0.508834441502889
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 2.8455751736958823,
+    "avg_retrieval_latency": 2.3107725779215493,
+    "avg_generation_latency": 0.5348025957743326
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.6411302089691162,
+    "avg_retrieval_latency": 0.0954759915669759,
+    "avg_generation_latency": 0.5456542174021403
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": false,
+      "use_query_expansion": true,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 0.4953931967417399,
+    "avg_retrieval_latency": 0.07261355717976888,
+    "avg_generation_latency": 0.422779639561971
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.9403306643168132,
+    "avg_retrieval_latency": 1.455542008082072,
+    "avg_generation_latency": 0.4847886562347412
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": true,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 2.8919034798940024,
+    "avg_retrieval_latency": 1.9829738140106201,
+    "avg_generation_latency": 0.9089296658833822
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": true
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.088381052017212,
+    "avg_retrieval_latency": 0.09777426719665527,
+    "avg_generation_latency": 0.9906067848205566
+  },
+  {
+    "config": {
+      "top_k": 20,
+      "use_hybrid": false,
+      "use_query_expansion": false,
+      "use_reranking": false,
+      "use_context_compression": false
+    },
+    "avg_bleu": 1.8587848029853424e-233,
+    "avg_rouge": 0.024691357018747185,
+    "avg_latency": 1.6041688124338787,
+    "avg_retrieval_latency": 0.08261386553446452,
+    "avg_generation_latency": 1.521554946899414
+  }
+]
