@@ -54,13 +54,7 @@ async def add_process_time_header(request: Request, call_next):
     return actual_response
 
 # --- API Routers ---
-API_V1_PREFIX = "/api/v1" # Define the common prefix
-
-app.include_router(auth.router, prefix=f"{API_V1_PREFIX}/auth", tags=["Authentication"])
-app.include_router(projects.router, prefix=f"{API_V1_PREFIX}/projects", tags=["Projects"])
-app.include_router(documents.router, prefix=f"{API_V1_PREFIX}/documents", tags=["Documents"])
-app.include_router(chat.router, prefix=f"{API_V1_PREFIX}/chat", tags=["Chat"])
-logger.info("API routers included.")
+# ... (existing router includes)
 
 # --- Root Endpoint ---
 # ... (existing root endpoint)
