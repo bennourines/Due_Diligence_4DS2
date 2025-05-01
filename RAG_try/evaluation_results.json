@@ -1,0 +1,247 @@
+{
+  "custom_metrics": {
+    "average": {
+      "context_relevancy": 0.20520496709098565,
+      "context_completeness": 0.497245244192009,
+      "context_precision": 0.47726236436594877,
+      "response_relevancy": 0.2629067628531417,
+      "factual_correctness": 0.8580228359763368,
+      "semantic_similarity": 0.8580228359763368,
+      "bleu_score": 0.0,
+      "rouge1": 0.8726366171706588,
+      "rouge2": 0.7584287220889065,
+      "rougeL": 0.841447547990281
+    },
+    "per_question": [
+      {
+        "question": "What are the key components of AML/CTF sanctions program that should be covered in a virtual asset service provider's minimum standards?",
+        "metrics": {
+          "context_relevancy": 0.05183773949373599,
+          "context_completeness": 0.3507649813293229,
+          "context_precision": 0.303095350882692,
+          "response_relevancy": 0.050824773622498584,
+          "factual_correctness": 0.718341481670999,
+          "semantic_similarity": 0.718341481670999,
+          "bleu_score": 0.0,
+          "rouge1": 0.7518796992481203,
+          "rouge2": 0.5343511450381679,
+          "rougeL": 0.7067669172932332
+        }
+      },
+      {
+        "question": "What are the main risk assessment areas that should be covered in a virtual asset service provider's enterprise-wide risk assessment (EWRA)?",
+        "metrics": {
+          "context_relevancy": 0.0781122951357015,
+          "context_completeness": 0.33253120253463897,
+          "context_precision": 0.18109356355977416,
+          "response_relevancy": 0.1710281537652888,
+          "factual_correctness": 0.40692879600479115,
+          "semantic_similarity": 0.40692879600479115,
+          "bleu_score": 0.0,
+          "rouge1": 0.5405405405405405,
+          "rouge2": 0.18348623853211007,
+          "rougeL": 0.46846846846846846
+        }
+      },
+      {
+        "question": "What are the key technical due diligence aspects that should be evaluated for a blockchain project?",
+        "metrics": {
+          "context_relevancy": 0.14448052977308934,
+          "context_completeness": 0.3805524815952294,
+          "context_precision": 0.3363502694143641,
+          "response_relevancy": 0.2667920251711495,
+          "factual_correctness": 0.575016967507098,
+          "semantic_similarity": 0.575016967507098,
+          "bleu_score": 0.0,
+          "rouge1": 0.5688073394495412,
+          "rouge2": 0.18691588785046728,
+          "rougeL": 0.45871559633027525
+        }
+      },
+      {
+        "question": "What are the essential components of customer due diligence (CDD) that virtual asset service providers must implement?",
+        "metrics": {
+          "context_relevancy": 0.03130687649802411,
+          "context_completeness": 0.314526082255711,
+          "context_precision": 0.2971778170660063,
+          "response_relevancy": 0.0886457434884051,
+          "factual_correctness": 0.6928802393640366,
+          "semantic_similarity": 0.6928802393640366,
+          "bleu_score": 0.0,
+          "rouge1": 0.7090909090909091,
+          "rouge2": 0.31481481481481477,
+          "rougeL": 0.5454545454545455
+        }
+      },
+      {
+        "question": "What are the key risk factors and red flags that should be monitored in digital asset projects?",
+        "metrics": {
+          "context_relevancy": 0.0652897681334224,
+          "context_completeness": 0.2022699824211888,
+          "context_precision": 0.16318453182235165,
+          "response_relevancy": 0.13797407925045407,
+          "factual_correctness": 0.4771750550981261,
+          "semantic_similarity": 0.4771750550981261,
+          "bleu_score": 0.0,
+          "rouge1": 0.5192307692307693,
+          "rouge2": 0.1568627450980392,
+          "rougeL": 0.4423076923076923
+        }
+      },
+      {
+        "question": "What are the key privacy features of Zcash and how does it differ from Bitcoin?",
+        "metrics": {
+          "context_relevancy": 0.17820903642973324,
+          "context_completeness": 0.5313751691331317,
+          "context_precision": 0.5313751691331317,
+          "response_relevancy": 0.2613738332499807,
+          "factual_correctness": 1.0000000000000002,
+          "semantic_similarity": 1.0000000000000002,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "How does Monero's ring signature system work and what potential vulnerability exists?",
+        "metrics": {
+          "context_relevancy": 0.23962269347289517,
+          "context_completeness": 0.6874495263442129,
+          "context_precision": 0.6874495263442129,
+          "response_relevancy": 0.2904207658660215,
+          "factual_correctness": 1.0,
+          "semantic_similarity": 1.0,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "What are the current regulatory approaches to digital assets according to the WEF?",
+        "metrics": {
+          "context_relevancy": 0.21515511524185416,
+          "context_completeness": 0.5796351729559434,
+          "context_precision": 0.5796351729559434,
+          "response_relevancy": 0.24008372913388157,
+          "factual_correctness": 0.9999999999999993,
+          "semantic_similarity": 0.9999999999999993,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "Explain the concept of zero-knowledge proofs in cryptocurrency privacy features.",
+        "metrics": {
+          "context_relevancy": 0.10948401345588143,
+          "context_completeness": 0.3978029910640677,
+          "context_precision": 0.3978029910640677,
+          "response_relevancy": 0.16829981199112098,
+          "factual_correctness": 1.0000000000000002,
+          "semantic_similarity": 1.0000000000000002,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "What are the main challenges in implementing privacy features in blockchain systems?",
+        "metrics": {
+          "context_relevancy": 0.43156393958374406,
+          "context_completeness": 0.6099468234802536,
+          "context_precision": 0.6099468234802536,
+          "response_relevancy": 0.4315639395837441,
+          "factual_correctness": 1.0000000000000002,
+          "semantic_similarity": 1.0000000000000002,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "How do different jurisdictions approach cryptocurrency regulation?",
+        "metrics": {
+          "context_relevancy": 0.16027230525603708,
+          "context_completeness": 0.588363590049296,
+          "context_precision": 0.588363590049296,
+          "response_relevancy": 0.15160828079744884,
+          "factual_correctness": 0.9999999999999999,
+          "semantic_similarity": 0.9999999999999999,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "What are the key differences between privacy coins and traditional cryptocurrencies?",
+        "metrics": {
+          "context_relevancy": 0.22116413986451552,
+          "context_completeness": 0.6782686240260122,
+          "context_precision": 0.6782686240260122,
+          "response_relevancy": 0.3325697872939254,
+          "factual_correctness": 1.0000000000000002,
+          "semantic_similarity": 1.0000000000000002,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "How do regulatory requirements impact cryptocurrency privacy features?",
+        "metrics": {
+          "context_relevancy": 0.4887841665859353,
+          "context_completeness": 0.6548077157427618,
+          "context_precision": 0.6548077157427618,
+          "response_relevancy": 0.5292265797654299,
+          "factual_correctness": 1.0000000000000002,
+          "semantic_similarity": 1.0000000000000002,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "What are the main security considerations in implementing privacy-focused cryptocurrencies?",
+        "metrics": {
+          "context_relevancy": 0.3589135618307574,
+          "context_completeness": 0.632790458367995,
+          "context_precision": 0.632790458367995,
+          "response_relevancy": 0.5259764369701403,
+          "factual_correctness": 1.0000000000000002,
+          "semantic_similarity": 1.0000000000000002,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      },
+      {
+        "question": "What role do decentralized systems play in maintaining transaction privacy?",
+        "metrics": {
+          "context_relevancy": 0.3038783256094582,
+          "context_completeness": 0.5175938615803697,
+          "context_precision": 0.5175938615803697,
+          "response_relevancy": 0.29721350284763537,
+          "factual_correctness": 0.9999999999999993,
+          "semantic_similarity": 0.9999999999999993,
+          "bleu_score": 0.0,
+          "rouge1": 1.0,
+          "rouge2": 1.0,
+          "rougeL": 1.0
+        }
+      }
+    ]
+  },
+  "additional_metrics": {
+    "correctness": 0.9999999999999993,
+    "context_relevance": 0.3038783256094582
+  }
+}

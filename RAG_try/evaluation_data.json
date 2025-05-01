@@ -1,0 +1,126 @@
+[
+    {
+        "question": "What are the key components of AML/CTF sanctions program that should be covered in a virtual asset service provider's minimum standards?",
+        "answer": "The key components include: appointed officer with sufficient experience and expertise, adverse information screening, beneficial ownership verification, cash reporting, customer due diligence (CDD), enhanced due diligence (EDD), independent testing, market manipulation/abuse monitoring, outsourcing controls, periodic review processes, comprehensive policies and procedures, PEP screening, record keeping, risk assessment, sanctions compliance, suspicious activity reporting, training and education, transaction monitoring, travel rule compliance, and wallet address screening/monitoring using blockchain analytics.",
+        "contexts": [
+            "entity programe set minimum aml ctf sanction standard regarding folowing component: apointed oficer suficient experience expertise, adverse information screning, beneficial ownership, cash reporting, cd, ed, independent testing, market manipulation abuse monitoring, outsourcing, periodic review, policy procedure, pep screning, record keping, risk asesment, sanction, suspicious activity reporting, training education, transaction monitoring, travel rule, unhosted walets, walet adres screning monitoring blockchain analytics"
+        ],
+        "ground_truth": "A virtual asset service provider's AML/CTF sanctions program should include: appointed compliance officer with sufficient expertise, adverse information screening, beneficial ownership verification, cash reporting, CDD/EDD procedures, independent testing, market abuse monitoring, outsourcing controls, periodic reviews, comprehensive policies, PEP screening, record keeping, risk assessment, sanctions compliance, suspicious activity reporting, staff training, transaction monitoring, travel rule compliance, and blockchain analytics for wallet screening."
+    },
+    {
+        "question": "What are the main risk assessment areas that should be covered in a virtual asset service provider's enterprise-wide risk assessment (EWRA)?",
+        "answer": "The main risk assessment areas should cover both inherent risk components and control effectiveness. For inherent risk, this includes: clients, products, transactions (including unhosted/hosted wallets and fiat ramps), channels (ways services are provided), and geography (jurisdictional exposure). For control effectiveness, it should cover: transaction monitoring, customer due diligence, PEP identification, transaction screening, name screening for adverse media, training and education, governance, management information, token listing/delisting policy, and third-party outsourcing oversight.",
+        "contexts": [
+            "entity aml ctf ewra cover inherent risk component detailed: client, product, transaction includes unhosted hosted walets fiat ramp, chanel mean way service provided e g face face electronicaly, geography mean jurisdiction entity exposure via client physical presence service provided",
+            "entity aml ctf ewra cover control efectivenes component detailed: transaction monitoring, customer due diligence, pep identification, transaction screning, name screning adverse medium negative news, training education, governance, management information, token listing delisting policy, third party outsourcing"
+        ],
+        "ground_truth": "A comprehensive EWRA should assess inherent risks (clients, products, transactions including wallet types, service channels, geographical exposure) and control effectiveness (transaction monitoring, CDD, PEP screening, transaction screening, adverse media screening, training, governance, reporting, token policies, third-party oversight)."
+    },
+    {
+        "question": "What are the key technical due diligence aspects that should be evaluated for a blockchain project?",
+        "answer": "Key technical due diligence aspects include: blockchain infrastructure and consensus mechanism used, code security and smart contract audits by third parties, security measures to prevent hacks and breaches, bug bounty programs for vulnerability reporting, scalability and performance metrics (current throughput/TPS), handling of scalability issues during high usage periods, upgrade plans and improvements to the technical stack, interoperability with other blockchains, and the project's approach to key management and wallet security.",
+        "contexts": [
+            "technical due diligence blockchain infrastructure blockchain technology protocol used chosen blockchain platform decentralized permisioned consensus mechanism employed e g prof work prof stake etc code security smart contract platform code ben audited third party security firm security measure place prevent hack breach bug bounty program encourage reporting vulnerability scalability performance curent throughput transaction per second platform handle scalability isues period high usage plan upgrade improvement technical stack"
+        ],
+        "ground_truth": "Technical due diligence should evaluate: blockchain infrastructure, consensus mechanisms, smart contract security audits, security measures against hacks, vulnerability reporting programs, scalability metrics and solutions, performance during peak usage, technical upgrade plans, and security of key management systems."
+    },
+    {
+        "question": "What are the essential components of customer due diligence (CDD) that virtual asset service providers must implement?",
+        "answer": "Essential CDD components include: identity verification of customers, gathering and retaining customer identification information, expected activity profiles, nature of business/employment, ownership structure, product usage patterns, purpose of relationship, source of funds, source of wealth, identification of ultimate beneficial owners, verification of authorized signatories, key controllers, and relevant parties. For non-face-to-face relationships, enhanced verification measures like biometric solutions, liveness testing, and geolocation detection should be implemented.",
+        "contexts": [
+            "folowing entity gather retain conducting cd: customer identification, expected activity, nature busines employment, ownership structure, product usage, purpose nature relationship, source fund, source wealth",
+            "entity verify identity customer verification identity refers requirement evidence information provided behalf user cd required",
+            "majority non face face entity use folowing enhance verification: biometric solution identity document, biometric solution natural person, livenes testing natural person, geoip detection location natural person, duplicate acount detection"
+        ],
+        "ground_truth": "Essential CDD components include customer identity verification, gathering identification information, activity profiles, business nature, ownership structure, product usage, relationship purpose, funds/wealth source verification, beneficial ownership identification, and enhanced verification measures for non-face-to-face relationships including biometrics and geolocation."
+    },
+    {
+        "question": "What are the key risk factors and red flags that should be monitored in digital asset projects?",
+        "answer": "Key risk factors and red flags include: signs of pump and dump schemes, market manipulation, unrealistic promises or guaranteed returns, conflicts of interest among team members and advisors, involvement in previous scams or hacks, controversies, signs of plagiarism in whitepaper or code, lack of transparency in project finances and operations, inadequate treasury management, unclear token utility, high concentration of tokens among few holders, and lack of clear exit strategy or liquidity provisions.",
+        "contexts": [
+            "risk red flag sign pump dump scheme market manipulation project make unrealistic promise guarantes return conflict interest among team member advisor project ben involved scam hack controversy sign plagiarism whitepaper code branding transparent project finance operation",
+            "token concentration large number token held smal group walets safeguard place prevent market manipulation large holder reputation risk"
+        ],
+        "ground_truth": "Critical risk factors include market manipulation signs, unrealistic promises, team conflicts of interest, history of scams/hacks, plagiarism, lack of financial transparency, poor treasury management, token concentration issues, and inadequate liquidity provisions."
+    },
+    {
+        "question": "What are the key privacy features of Zcash and how does it differ from Bitcoin?",
+        "answer": "Zcash implements the Zerocash protocol to provide stronger privacy features than Bitcoin by offering decentralized anonymous payments. While Bitcoin transactions are pseudonymous and recorded in a public ledger where transaction information can be deduced, Zcash focuses on unlinking transaction origins and providing true transaction privacy.",
+        "contexts": [
+            "Zcash implements the Zerocash protocol which extends Bitcoin to provide strong privacy guarantees. Unlike Bitcoin's pseudonymous transactions that are recorded in a public ledger, Zcash offers decentralized anonymous payments. The protocol was developed by researchers including Eli Ben-Sasson, Alessandro Chiesa, and others, focusing on unlinking transaction origins."
+        ],
+        "ground_truth": "Zcash implements the Zerocash protocol to provide stronger privacy features than Bitcoin by offering decentralized anonymous payments. While Bitcoin transactions are pseudonymous and recorded in a public ledger where transaction information can be deduced, Zcash focuses on unlinking transaction origins and providing true transaction privacy."
+    },
+    {
+        "question": "How does Monero's ring signature system work and what potential vulnerability exists?",
+        "answer": "Monero's ring signature system uses one-time key pairs and ring signatures for transaction anonymity as part of the CryptoNote 2.0 protocol. A potential vulnerability exists where compromising the untraceability of key pairs could lead to a chain reaction of traceability, potentially affecting the system's privacy guarantees.",
+        "contexts": [
+            "Monero uses a ring signature-based anonymity system as part of the CryptoNote 2.0 protocol. The system's untraceability relies on one-time key pairs and ring signatures. However, there's a potential vulnerability where chain reaction traceability could occur if the untraceability of key pairs becomes compromised."
+        ],
+        "ground_truth": "Monero's ring signature system uses one-time key pairs and ring signatures for transaction anonymity as part of the CryptoNote 2.0 protocol. A potential vulnerability exists where compromising the untraceability of key pairs could lead to a chain reaction of traceability, potentially affecting the system's privacy guarantees."
+    },
+    {
+        "question": "What are the current regulatory approaches to digital assets according to the WEF?",
+        "answer": "According to the WEF's 2024 report, digital asset regulation involves diverse jurisdictional approaches and is developed through a collaborative process involving various stakeholders. The report provides insights into different regulatory frameworks and their interpretations across jurisdictions.",
+        "contexts": [
+            "The World Economic Forum's 2024 report on digital assets regulation provides insights into jurisdictional approaches. The report examines various regulatory frameworks and interpretations across different jurisdictions, highlighting the collaborative process between stakeholders in developing regulatory guidelines."
+        ],
+        "ground_truth": "According to the WEF's 2024 report, digital asset regulation involves diverse jurisdictional approaches and is developed through a collaborative process involving various stakeholders. The report provides insights into different regulatory frameworks and their interpretations across jurisdictions."
+    },
+    {
+        "question": "Explain the concept of zero-knowledge proofs in cryptocurrency privacy features.",
+        "answer": "Zero-knowledge proofs are cryptographic techniques that enable private transactions in cryptocurrencies by allowing users to prove transaction validity without revealing the actual transaction details. This technology is fundamental to privacy-focused cryptocurrencies, allowing them to maintain transaction privacy while ensuring system integrity.",
+        "contexts": [
+            "Zero-knowledge proofs are cryptographic methods that allow one party to prove to another that a statement is true without revealing any information beyond the validity of the statement itself. In cryptocurrencies like Zcash, they enable private transactions by proving that a transaction is valid without disclosing the actual transaction details."
+        ],
+        "ground_truth": "Zero-knowledge proofs are cryptographic techniques that enable private transactions in cryptocurrencies by allowing users to prove transaction validity without revealing the actual transaction details. This technology is fundamental to privacy-focused cryptocurrencies, allowing them to maintain transaction privacy while ensuring system integrity."
+    },
+    {
+        "question": "What are the main challenges in implementing privacy features in blockchain systems?",
+        "answer": "The main challenges in implementing blockchain privacy features include finding the right balance between transparency and privacy, maintaining system scalability while using complex cryptographic protocols, ensuring regulatory compliance, and optimizing the trade-off between privacy features and transaction verification efficiency.",
+        "contexts": [
+            "Privacy implementation in blockchain systems faces several challenges including balancing transparency with privacy, maintaining scalability while implementing complex cryptographic protocols, and ensuring regulatory compliance. Systems must also consider the trade-offs between privacy features and transaction verification efficiency."
+        ],
+        "ground_truth": "The main challenges in implementing blockchain privacy features include finding the right balance between transparency and privacy, maintaining system scalability while using complex cryptographic protocols, ensuring regulatory compliance, and optimizing the trade-off between privacy features and transaction verification efficiency."
+    },
+    {
+        "question": "How do different jurisdictions approach cryptocurrency regulation?",
+        "answer": "Cryptocurrency regulation varies by jurisdiction, with different approaches focusing on various aspects such as consumer protection, anti-money laundering measures, innovation promotion, and technological development. Regulatory frameworks typically include specific requirements for licensing, trading restrictions, and reporting obligations.",
+        "contexts": [
+            "Jurisdictional approaches to cryptocurrency regulation vary significantly. Some jurisdictions focus on consumer protection and anti-money laundering measures, while others emphasize innovation and technological development. Regulatory frameworks can include licensing requirements, trading restrictions, and reporting obligations."
+        ],
+        "ground_truth": "Cryptocurrency regulation varies by jurisdiction, with different approaches focusing on various aspects such as consumer protection, anti-money laundering measures, innovation promotion, and technological development. Regulatory frameworks typically include specific requirements for licensing, trading restrictions, and reporting obligations."
+    },
+    {
+        "question": "What are the key differences between privacy coins and traditional cryptocurrencies?",
+        "answer": "Privacy coins differ from traditional cryptocurrencies by implementing advanced cryptographic techniques like ring signatures, zero-knowledge proofs, and stealth addresses for enhanced transaction privacy. While traditional cryptocurrencies like Bitcoin offer pseudonymity with public transaction records, privacy coins focus on concealing transaction details and participant identities.",
+        "contexts": [
+            "Privacy coins like Monero and Zcash implement additional cryptographic techniques such as ring signatures, zero-knowledge proofs, and stealth addresses to enhance transaction privacy. Traditional cryptocurrencies like Bitcoin offer pseudonymity but maintain public transaction records on their blockchain."
+        ],
+        "ground_truth": "Privacy coins differ from traditional cryptocurrencies by implementing advanced cryptographic techniques like ring signatures, zero-knowledge proofs, and stealth addresses for enhanced transaction privacy. While traditional cryptocurrencies like Bitcoin offer pseudonymity with public transaction records, privacy coins focus on concealing transaction details and participant identities."
+    },
+    {
+        "question": "How do regulatory requirements impact cryptocurrency privacy features?",
+        "answer": "Regulatory requirements impact cryptocurrency privacy features by necessitating a balance between privacy and compliance obligations. AML and KYC regulations may require certain transaction information to remain traceable, which can limit the extent of privacy features that can be implemented while maintaining regulatory compliance.",
+        "contexts": [
+            "Regulatory requirements can significantly impact cryptocurrency privacy features, often requiring a balance between privacy and compliance. Anti-money laundering (AML) and know-your-customer (KYC) regulations may require certain transaction information to be traceable, potentially limiting the extent of privacy features."
+        ],
+        "ground_truth": "Regulatory requirements impact cryptocurrency privacy features by necessitating a balance between privacy and compliance obligations. AML and KYC regulations may require certain transaction information to remain traceable, which can limit the extent of privacy features that can be implemented while maintaining regulatory compliance."
+    },
+    {
+        "question": "What are the main security considerations in implementing privacy-focused cryptocurrencies?",
+        "answer": "The main security considerations in implementing privacy-focused cryptocurrencies include preventing transaction linking, maintaining sufficient anonymity set sizes, implementing double-spend prevention while preserving privacy, and ensuring the security of cryptographic protocols. These implementations must also account for potential vulnerabilities in privacy mechanisms.",
+        "contexts": [
+            "Security considerations in privacy-focused cryptocurrencies include protecting against transaction linking, maintaining anonymity set size, preventing double-spending while preserving privacy, and ensuring cryptographic protocol security. Implementation must also consider potential vulnerabilities in privacy mechanisms."
+        ],
+        "ground_truth": "The main security considerations in implementing privacy-focused cryptocurrencies include preventing transaction linking, maintaining sufficient anonymity set sizes, implementing double-spend prevention while preserving privacy, and ensuring the security of cryptographic protocols. These implementations must also account for potential vulnerabilities in privacy mechanisms."
+    },
+    {
+        "question": "What role do decentralized systems play in maintaining transaction privacy?",
+        "answer": "Decentralized systems enhance transaction privacy by removing central authorities that could potentially collect or compromise user data. The distribution of transaction verification across multiple nodes makes tracking or censoring transactions more difficult while maintaining the integrity of the system.",
+        "contexts": [
+            "Decentralized systems contribute to transaction privacy by eliminating central authorities that could collect or compromise user data. They distribute transaction verification across a network of nodes, making it harder to track or censor transactions while maintaining system integrity."
+        ],
+        "ground_truth": "Decentralized systems enhance transaction privacy by removing central authorities that could potentially collect or compromise user data. The distribution of transaction verification across multiple nodes makes tracking or censoring transactions more difficult while maintaining the integrity of the system."
+    }
+] 

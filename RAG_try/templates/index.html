@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chat Interface</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .header h1 {
+            color: #2c3e50;
+            margin: 0;
+        }
+        .upload-section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            text-align: center;
+            display: none; /* Hidden by default */
+        }
+        .upload-section.active {
+            display: block; /* Show when active */
+        }
+        .upload-section input[type="file"] {
+            display: none;
+        }
+        .upload-section label {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .upload-section label:hover {
+            background: #0056b3;
+        }
+        .chat-container {
+            height: 400px;
+            overflow-y: auto;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .message {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .user-message {
+            background: #e3f2fd;
+            margin-left: 20%;
+            margin-right: 5px;
+        }
+        .bot-message {
+            background: #f5f5f5;
+            margin-right: 20%;
+            margin-left: 5px;
+        }
+        .input-section {
+            display: flex;
+            gap: 10px;
+        }
+        .input-section input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .input-section button {
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .input-section button:hover {
+            background: #218838;
+        }
+        #status {
+            margin-top: 10px;
+            text-align: center;
+            color: #666;
+        }
+        .toggle-upload {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .toggle-upload button {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .toggle-upload button:hover {
+            background: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>RAG Chat Interface</h1>
+        </div>
+        
+        <div class="toggle-upload">
+            <button onclick="toggleUploadSection()">Toggle Document Upload</button>
+        </div>
+        
+        <div class="upload-section" id="upload-section">
+            <label for="file-upload">Choose PDF File</label>
+            <input type="file" id="file-upload" accept=".pdf">
+            <button onclick="uploadFile()">Upload</button>
+            <div id="upload-status"></div>
+        </div>
+
+        <div class="chat-container" id="chat-container">
+            <!-- Messages will be added here -->
+        </div>
+
+        <div class="input-section">
+            <input type="text" id="question" placeholder="Ask a question...">
+            <button onclick="askQuestion()">Ask</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleUploadSection() {
+            const uploadSection = document.getElementById('upload-section');
+            uploadSection.classList.toggle('active');
+        }
+
+        function uploadFile() {
+            const fileInput = document.getElementById('file-upload');
+            const file = fileInput.files[0];
+            const uploadStatus = document.getElementById('upload-status');
+            
+            if (!file) {
+                uploadStatus.textContent = 'Please select a file first.';
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            uploadStatus.textContent = 'Uploading...';
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                uploadStatus.textContent = data.message || data.error;
+                if (data.message) {
+                    addMessage('Document uploaded successfully. You can now ask questions about it.', false);
+                }
+            })
+            .catch(error => {
+                uploadStatus.textContent = 'Error uploading file: ' + error;
+            });
+        }
+
+        function addMessage(text, isUser) {
+            const chatContainer = document.getElementById('chat-container');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+            messageDiv.textContent = text;
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function askQuestion() {
+            const questionInput = document.getElementById('question');
+            const question = questionInput.value.trim();
+            
+            if (!question) return;
+
+            addMessage(question, true);
+            questionInput.value = '';
+
+            fetch('/ask', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ question: question })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    addMessage('Error: ' + data.error, false);
+                } else {
+                    addMessage(data.answer, false);
+                }
+            })
+            .catch(error => {
+                addMessage('Error: ' + error, false);
+            });
+        }
+
+        // Allow pressing Enter to send question
+        document.getElementById('question').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                askQuestion();
+            }
+        });
+    </script>
+</body>
+</html> 

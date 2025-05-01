@@ -1,0 +1,44 @@
+
+    <html>
+    <head>
+        <title>RAG System Evaluation Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .metric-summary { margin-bottom: 20px; }
+            .visualization { margin-bottom: 40px; }
+            img { max-width: 100%; border: 1px solid #ddd; }
+        </style>
+    </head>
+    <body>
+        <h1>RAG System Evaluation Report</h1>
+        
+        <div class="metric-summary">
+            <h2>Metric Scores</h2>
+            <table border="1" cellpadding="5">
+                <tr><th>Metric</th><th>Score</th></tr>
+                <tr><td>context_relevancy</td><td>0.2052</td></tr><tr><td>context_completeness</td><td>0.4972</td></tr><tr><td>context_precision</td><td>0.4773</td></tr><tr><td>response_relevancy</td><td>0.2629</td></tr><tr><td>factual_correctness</td><td>0.8580</td></tr><tr><td>semantic_similarity</td><td>0.8580</td></tr><tr><td>bleu_score</td><td>0.0000</td></tr><tr><td>rouge1</td><td>0.8726</td></tr><tr><td>rouge2</td><td>0.7584</td></tr><tr><td>rougeL</td><td>0.8414</td></tr>
+            </table>
+        </div>
+
+        <div class="visualization">
+            <h2>Average Metrics Bar Plot</h2>
+            <img src="average_metrics.png" alt="Average Metrics">
+        </div>
+
+        <div class="visualization">
+            <h2>Metrics Heatmap</h2>
+            <img src="metrics_heatmap.png" alt="Metrics Heatmap">
+        </div>
+
+        <div class="visualization">
+            <h2>Per-Question Metrics</h2>
+            <img src="per_question_metrics.png" alt="Per-Question Metrics">
+        </div>
+
+        <div class="visualization">
+            <h2>Metrics Radar Plot</h2>
+            <img src="metrics_radar.png" alt="Metrics Radar Plot">
+        </div>
+    </body>
+    </html>
+    
