@@ -1,0 +1,5446 @@
+The experience 
+ layer of the 
+ decentralized 
+ Internet 
+ 
+ WHITE PAPER 
+ 
+ DRAFT
+ CARDSTACK 
+ 
+ 
+ 
+ 
+ 20171127 V94
+ DISCLAIMER 
+ 
+ Nothing herein constitutes an offer to sell or the solicitation of an offer to buy any tokens nor shall there be any offer 
+ solicitation or sale of Cardstack Tokens (CARD) in any jurisdiction in which such offer solicitation or sale would be unlawful 
+ You should carefully read and fully understand this white paper and any updates Every potential token contributor will be 
+ required to undergo an onboarding process that includes identity verification and certain other documentation which you 
+ should read carefully and understand fully because you will be legally bound Please make sure to consult with appropriate 
+ advisors and others 
+ 
+ This white paper describes our current vision for the Cardstack platform While we intend to attempt to realize this vision 
+ please recognize that it is dependent on quite a number of factors and subject to quite a number of risks It is entirely 
+ possible that the Cardstack platform will never be implemented or adopted or that only a portion of our vision will be 
+ realized We do not guarantee represent or warrant any of the statements in this white paper because they are based on 
+ our current beliefs expectations and assumptions about which there can be no assurance due to various anticipated and 
+ unanticipated events that may occur 
+ 
+ Please know that we plan to work hard in seeking to achieve the vision laid out in this white paper but that you cannot rely 
+ on any of it coming true Blockchain cryptocurrencies and other aspects of our technology and markets are in their infancy 
+ and will be subject to many challenges competition and a changing environment We will try to update our community as 
+ things grow and change but undertake no obligation to do so 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ EXECUTIVE SUMMARY 
+ 
+ 1 OVERVIEW 
+ 2 CONCEPTS 
+ 3 ARCHITECTURE 
+ 4 ECONOMICS 
+ 5 ORGANIZATION 
+ 6 FUNDRAISER 
+ 7 RESOURCES 
+ 
+ Cardstack is the experience layer of the decentralized 
+ Internet We believe that orchestrating cohesive user 
+ experiences across the blockchain and the cloud is 
+ essential to bringing decentralization to the mass market 
+ 
+ FOR MAKERS FAIR DISTRIBUTION OF REWARDS 
+ 
+ We propose a new economic model for funding and sustaining the software 
+ that runs the world This model distributes rewards fairly among the 
+ creators of the software and the open source communities supporting 
+ them In this decentralized software market a buyer of applications enters 
+ into a direct deal via smart contracts which coordinate a diverse network of 
+ software development teams cloud hosting providers and app coin backed 
+ protocols The buyer offers to cover all the material costs of running the 
+ app as long as the cost is directly linked to the usage The buyer will also pay 
+ a royalty that is split between those who developed the software as a reward 
+ for initially creating and continuously supporting all the components making 
+ up that particular application In this arrangement the application software 
+ can be considered economically sustainable since every buyer covers his or 
+ her costs and the software does not deplete the limited resources (like 
+ venture capital or token sale proceeds) The software developers are 
+ rewarded through a reward pool based on properly designed incentives 
+ that lead to improvements of the software over time 
+ 
+ FOR USERS COHESIVE USER EXPERIENCES 
+ 
+ Our model is based on blockchain technology which presents us with a rare 
+ opportunity We can break down the silos of apps defining the tech world 
+ today in order to produce a Cohesive User Experience (CUE) which 
+ establishes a flexible design paradigm that can orchestrate all the moving 
+ parts in the users digital life With the fluidity of token backed applications 
+ we can move beyond the one icon per app business arrangement of the 
+ current mobile and cloud world Yet for blockchain backed applications to 
+ gain mass market adoption we need to bridge the gap between the power 
+ of blockchains and the convenience of the cloud Cardstacks application 
+ framework and token mechanisms combine the new possibilities provided by 
+ smart contracts while leveraging the incredible global scale and cost 
+ efficiency of cloud computing to deliver this user experience Our 
+ technology puts the power of decentralization into real world use and 
+ demonstrates how a crypto driven economy backed by current blockchain 
+ protocols can enrich the world in an equitable manner Blockchain needs a 
+ full stack application framework to reach mainstream users Cardstack 
+ 
+ Our mission is to build an economically sustainable 
+ software ecosystem that fights back against the 
+ rampant lock in mechanisms of centralized platforms 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ 1 2 PROBLEM APPLICATION SILOS (1/3) 
+ OVERVIEW 
+ 
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ The App Store era turns software features into standalone 
+ native apps which usually do not communicate with each 
+ other and require users to choose between multiple 
+ overlapping features to form their workflows 
+ 
+ MOBILE SILOS ONE APP PER SCREEN 
+ 
+ Today there is an app for everything More than 
+ USD 70 billion have been paid out to developers of 
+ iOS apps in the last decade When the iPhone was 
+ first introduced there were 15 apps iPhone Mail 
+ Web iPod Calendar Camera Maps Photos 
+ Stocks Clock Notes Calculator Weather Text 
+ and Settings It allowed people to manage their 
+ lives on the go facilitating communication and 
+ even giving directions while their music collection 
+ served as the soundtrack to their new iLife 
+ 
+ But alls not well in todays app world Outside the 
+ category of games and entertainment most users 
+ refuse to pay for apps which is why nearly all of 
+ todays apps are free Additionally the sequence 
+ of steps needed to use a native app search 
+ download find the icon launch skip tour register 
+ 
+ has severely hampered the adoption of new 
+ apps The result is that most iPhone users settle on 
+ a small number of apps (< 5) for daily habitual use 
+ Many of these apps are supported by advertising 
+ For a majority of development teams working 
+ outside of FAMGA (Facebook Apple Microsoft 
+ Google Amazon) the original business model for 
+ apps users pay money to buy app is 
+ effectively dead 
+ Chat Transportation Photo & Media Wallet Personal Finance 
+ 
+ OPENOPENOPENOPENOPEN
+ last seen 5 minutes ago 
+ Lucinda Lane Chats 
+ 100%9#41 AM 
+ Sketch 
+ 9 41 AM 100% 
+ 
+ 
+ 16#45 
+ Aenean eu leo quam Pellentesque 
+ ornare sem lacinia quam venenatis 
+ vestibulum Morbi leo risus porta ac 
+ consectetur ac vestibulum at eros 
+ Praesent commodo cursus magna vel 
+ scelerisque nisl consectetur et 
+ Vivamus sagittis lacus vel augue 
+ laoreet rutrum faucibus dolor auctor 
+ Aenean lacinia bibendum nulla sed 
+ consectetur 
+ 17#10 Thanks 
+ 11#00 
+ Vestibulum id ligula porta felis 
+ euismod semper Vivamus sagittis 
+ lacus vel augue laoreet 
+ August 7 
+ August 5 
+ Notes to driver NowWhere to go Paskal 23 
+ You are here Jl Pajajaran no 42 
+ TransCar 
+ 5 min BOOK 
+ PersonalCashPromo 
+ Rp 23 000 
+ ETA 20 Min 
+ PHOTOVIDEO PANO SQUARE TIME 
+ Sketch 
+ 9 41 AM 100% 
+ 
+ 
+ 100%9 23 PMAT&T 
+ Overview
+ Transport 
+ 
+ 
+ Home 
+ 
+ Your Wallets 
+ BitcoinMoneroMoneroEthereum
+ 
+ Cash Flow 
+ 
+ $3 403 Earned 
+ 
+ $1 068
+ 
+ $2 335 Spent 
+ 
+ Bill Reminders 
+ 
+ Total 
+ 
+ You have 2 reminders 
+ 
+ 13 13532 BTC 
+ 
+ 
+ 14 710 USD 
+ 
+ 
+ 
+ Advice 
+ 
+ 13 890 EUR 
+ 
+ 
+ Youre a light driver 
+ 
+ Send Recive 
+ Spending July 
+ 
+ Transations 
+ 
+ 
+ Uncategorized 
+ 
+ Business Services 
+ Food & Dining 
+ 
+ All Recived Sent 
+ 
+ 1FyMtiZkos6NGaroZH4v 
+ 
+ + 0 1211234 BTC
+ 
+ 23 03 2017 
+ 
+ 
+ 1HB5XMLmzFVj8ALj6mf 
+ 
+ + 2 3245234 BTC
+ 
+ 21 03 2017 
+ All Trends 
+ 
+ 1LYm7jrZeZaEo7rye2SN 
+ 
+ 0 1211234 BTC
+ 
+ 23 03 2017 
+ 
+ 
+ Updates SettingsOverview 
+ Network 
+ 12kJetSurf ChallangeMartha Fuller
+ 1 234Walking worksCraig ContrerasCompetitions 
+ MTS11 41OPEN
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ PROBLEM APPLICATION SILOS (2/3) 
+ 
+ 1 OVERVIEW 
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ As software moves to the cloud users need to manage 
+ multiple subscriptions to cloud based software as aservice 
+ (SaaS) products and choose the right plan to 
+ optimize cost across all the needed features 
+ 
+ CLOUD SILOS ONE SUBSCRIPTION PER APP 
+ 
+ The monthly subscription model has taken over as 
+ the revenue from subscriptions aligns well with the 
+ ongoing cost of developing and maintaining the 
+ software Most small businesses need 5 10 apps to 
+ operate large businesses need many more 
+ 
+ Each app requires a separate credit card admin 
+ login and password which causes problems 
+ Cards expire logins must be reset when the 
+ employee who signed up leaves the company or 
+ customer support has to be called Not to mention 
+ how costly these apps are And there is always the 
+ risk of the team behind an app suddenly being 
+ acquired by a bigger player or shutting down 
+ because the funding has run out Then you have 
+ 60 days to download all the data you and your 
+ team painstakingly entered into the app as one 
+ giant zip file 
+ 
+ Many of these apps have duplicative feature sets 
+ just to remain competitive and be able to retain 
+ customers This is a natural result of 
+ uncoordinated yet competitive markets For end 
+ users this is expensive and painful 
+ 
+ 
+ Collaboration E commerce Messaging Content Publishing Accounting 
+ 
+ $8 $29 $48 $500 
+ PER USER/MONTH PER STORE/MONTH PER USER/YEAR PER SITE/MONTH 
+ $999 
+ 
+ UP TO 20 USERS 
+ 
+ 
+ alice 
+ slackbot 
+ DIRECT MESSAGES 
+ # sarah_gmail_com 
+ # general 
+ # developers 
+ # sales 
+ # marketing 
+ # random 
+ CHANNELS 
+ You Team 
+ ACME Corp 0 New Howdy Chris
+ 
+ 
+ 
+ 
+ 
+ 
+ Upgrade Settings Contacts Report a bug Joh B
+ 
+ Search a message
+ 
+ #sarah_gmail_com 
+ 
+ Screen Options 
+ 
+ Help 
+ 
+ Dashboard 
+ 
+ 
+ Medium Daily Digest Your daily dose of inspiration Aug 1 
+ Gene Aguilar Trip to Indonesia Aug 4 
+ Evernote Your password has been changed Aug 1 
+ Protonmail ch We are opening up ProtonMail to everybody Aug 1 
+ Facebook Discover news from your page Aug 1 
+ Rosie Santos Comments on your wireframes Aug 1 
+ Micheal Carpenter Avail for lunch Aug 4 
+ Christopher Hawkins Rocket League invitation 
+ Friends 
+ Friends 
+ Notification 
+ Pro 
+ Aug 4 
+ Jim Kelley Astronomy Binoculars A Great Alternative Aug 1 
+ Sally Curry Helen Keller A Teller And A Seller Aug 4 
+ Friends 
+ Notification 
+ Notification 
+ Pro 
+ More 1
+ 
+ Add New Post 
+ 
+ May 10th 2017 
+ 
+ HOME 
+ BRANDS 
+ DESIGNERS 
+ CONTACTS 
+ 
+ 
+ AccountsDashboard Card TrCustomers Reports Customer Support 
+ Search 
+ Posts 
+ All Posts 
+ Add New 
+ Categories 
+ Tags 
+ 
+ Word count 0 
+ Path p 
+ Add 
+ Choose from the most used keywords 
+ Separate keywords with commas 
+ Tags 
+ Categories 
+ All Topics 
+ Uncategorized 
+ + Add New Category 
+ Most Used 
+ immediately 
+ Draft EditStatus 
+ EditPublish 
+ Publish 
+ Save Draft 
+ Move to Trash 
+ Preview 
+ 
+ 
+ Public EditVisibility 
+ Publish 
+ COMPOSE 
+ 
+ Enter page title here 
+ 
+ lauren 7 26PM 
+ 
+ 
+ Account name Type 
+ 
+ 
+ Account number CCY Balance Last Transfer Trustworthiness
+ 
+ @jen Hey have there been login issues this evening CART 
+ 
+ 
+ Jason Sanders499$SKIN JACKET
+ Alexander99$SUN GLASS
+ Joshua180$CASUAL SUIT
+ Jacob Jimenez79$SPORT JACKET
+ Gerald Larson99$SPORT SET
+ Matthew Schmidt270$SUIT
+ POPULARShowing 50 of 178 Results
+ 
+ Add Media 
+ 
+ Visual Text 
+ 
+ Messages
+ 
+ Jason Sanders 
+ 
+ 499$
+ 
+ jen 7 26 PM SKIN ACKETS 
+ 
+ HUA HAI IMP AND EXP TRADE CO USD Business 327732128333 USD 88338 93 10 Dec 2017
+ 
+ J 
+ 
+ 
+ Inbox 
+ 
+ joined #sarah_gmail_com 
+ 
+ Matthew Schmidt 
+ 
+ 2 
+ 
+ Media 
+ 
+ Starred 
+ 
+ 270$ 
+ 
+ 
+ David Washington EUR Private 312036709700 EUR 39090 47 10 Oct 2017
+ 
+ SUIT 
+ 
+ @lauren yep we had some issues with our latest release 
+ 
+ Pages 
+ 
+ 
+ 
+ Drafts 
+ 
+ Jacob Jimenez 
+ 
+ Its all fixed now we just sent out account reset emails to our affected customers % 
+ 79$ 
+ 
+ 
+ Comments 
+ 
+ SPORT JACKET 
+ 
+ Victoria Padilla EUR Private 328254631524 EUR 21194 49 26 Oct 2017
+ 
+ 
+ 
+ 
+ Sent 
+ 
+ lauren 7 28 PM 
+ 
+ 
+ 
+ Appearance 
+ 
+ CHECK OUT 
+ 
+ Rachel Foster USD Private 220480352306 USD 42925 39 02 Dec 2017
+ 
+ @jen awesome thanks for clearing that up 
+ 
+ 
+ Plugins
+ 
+ 
+ 
+ 
+ /fbl respond hey Sarah Thanks so much for waiting I checked with engineering 
+ 
+ Users 
+ 
+ 
+ 
+ 
+ Isabel Wilkins PLN Private 004213396244 PLN 45129 07 02 Sep 2017
+ 
+ Labels
+ 
+ they said that there was a login bug They fixed it and recently sent out reset emails BRANDS 
+ 
+ 
+ Tools 
+ 
+ 1 
+ 9 
+ 
+ 
+ 
+ Friends
+ 
+ Did you receive one Dont forget to check the spam folder $ 
+ NIKE 
+ 
+ Settings 
+ 
+ Eula Glover EUR Private 061061929124 EUR 42557 39 12 Dec 2017
+ 
+ 
+ 
+ PUMA 
+ 
+ Pro 
+ 
+ AMERICAN EAGLE 
+ 
+ CHANEL 
+ 
+ Collapse menu 
+ 
+ SlackBot BOT 
+ 7 29 PM 
+ 
+ Teresa May GBP Private 449487540309 GBP 36228 32 27 Apr 2017
+ 
+ Notifications 
+ 
+ ADIDAS 
+ 
+ Hmm let me check my inbox again 
+ 
+ HELLO KITTY 
+ lauren 7 30PM GAP 
+ 
+ 
+ Luella Kennedy CHF Private 615596453641 CHF 66967 8 05 Aug 2017 
+ 
+ SIZES
+ 
+ /fbl respond great 
+ 
+ 
+ Leo Ruiz USD Private 811550438357 USD 86654 77 30 Oct 2017
+ 
+ XS L 
+ 
+ S XL 
+ M XXL 
+ 
+ Featured Image 
+ 
+ Lena Greene USD Private 710493038071 USD 55290 8 03 Apr 2017 
+ 
+ Set featured image 
+ 
+ COLORS 
+ 
+ 
+ BLACK 
+ 
+ PINK 
+ ORANGE 
+ 
+ accounts selected 
+ 
+ Deactivate Set trustworthiness status 
+ 
+ 
+ Add to report
+ PURPLE 
+ 
+ YELOW 
+ 
+ BLUE 
+ RED WHITE 
+ GREEN 
+ 
+ BROWN 
+ 
+ PRICE 
+ 
+ 
+ 0$ 
+ 
+ 
+ 1000$ 
+ 
+ 
+ lauren 
+ online 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ PROBLEM APPLICATION SILOS (3/3) 
+ 
+ OVERVIEW 
+ 
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ The emergence of blockchain and decentralized apps 
+ (dApps) exasperated the situation by requiring users to 
+ acquire and manage the supply of utility tokens for each 
+ of the functions making up their software stack 
+ 
+ EMERGING BLOCKCHAIN SILOS ONE TOKEN PER APP 
+ 
+ Most of the first generation user interfaces for 
+ dApps are built as standalone web applications 
+ that interact with a blockchain via browser plugins 
+ a system tray or a menu bar program The 
+ user opens one app at a time in a series of 
+ familiar browser tabs most likely 
+ 
+ Each dApp works independently looks distinctive 
+ and moves assets on its preferred blockchain 
+ decisively We get a glimpse of the power of 
+ decentralized permissionless innovation 
+ 
+ We also see the perils of fragmentation where the 
+ simple ideal of dApps all powered by Ethereum 
+ 
+ turns into a complex web of different app coins 
+ on different smart contract platforms with 
+ different approaches to user interfaces and 
+ different levels of peer to peer requirements 
+ Even for a savvy web app user this is certainly 
+ more challenging than managing 15 different SaaS 
+ subscriptions This is more like setting ones own 
+ Linux desktop to host everything from ones 
+ own blog to ones email account chat server key 
+ management server and so on This complexity 
+ s1s2s3s4s5SlideJurisdiction 
+ (BA T) 
+ $0 18 
+ (ANT) 
+ $2 45 
+ Attention Storage 
+ (SIA) 
+ $0 0065 
+ (CV C) 
+ $0 47 
+ Identity Prediction 
+ (GNO) 
+ $160 10 
+ (ZRX) 
+ $0 32 
+ Trading 
+ will increase with the growing ambition of the 
+ blockchain community 
+ 
+ GNT) 
+ $0 27 
+ Compute 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ IDEA FROM SILOS TO LAYERS 
+ 
+ OVERVIEW 
+ 
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ The reorientation of the vertical silos to horizontal layers 
+ allows native apps cloud apps and blockchain dApps to 
+ form a future software stack combining the best qualities 
+ of each of the software eras approaches 
+ 
+ THE PARTS KEEP GETTING BETTER 
+ 
+ The problems of silos are actually a consequence 
+ of the bounty of technological progress funded 
+ by the growth in the global Internet enabled 
+ marketplace 
+ 
+ In the users pocket every new generation of 
+ mobile phones provides a new baseline of 
+ capabilities that begs to be incorporated into the 
+ users workflow The competitive landscape of 
+ mobile operating systems means that last years 
+ striking innovations become this years 
+ commodity features 
+ 
+ On the cloud all SaaS vendors want to add 
+ features in order to attract a new segment of 
+ customers or simply keep current customers from 
+ migrating to a competing suite that is starting to 
+ encroach on their feature set 
+ 
+ While the blockchain based dApps vendors are all 
+ new to the game most of them not having 
+ shipped any working code yet the land grab for 
+ mindshare and potential use cases is already in full 
+ force With each white paper and smart contract 
+ design published we see the potential for 
+ blockchain dApps to compete or to augment the 
+ powerful tools that are available on the market as 
+ native apps or cloud subscriptions 
+ 
+ s3s5BLOCKCHAIN / DAPPS 
+ Collaboration E commerce Messaging Content Accounting CRM Enterprise Systems 
+ CLOUD / SAAS APPS 
+ Chat Transportation Photo & Media Wallet Finance Social Network Search 
+ USER DEVICE / NATIVE APPS 
+ Jurisdiction Storage Attention Identity Prediction Trading Compute 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ IDEA HUMANS AS ORCHESTRATORS 
+ 
+ OVERVIEW 
+ 
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ Savvy users are already learning to work with multiple 
+ apps across their devices cloud and blockchain to fulfill 
+ their needs Human ingenuity will continue to close any 
+ gaps left between the technologies 
+ 
+ PEOPLE WILL MAKE IT WORK 
+ 
+ Early adopters of blockchain technologies know 
+ how difficult it is to make a basic transaction to 
+ send bitcoins or ether to someone let alone 
+ transact with smart contracts and handle app 
+ tokens Yet the ever growing volume of daily 
+ transactions in the cryptocurrency space shows 
+ that people are finding their way around wallets 
+ like Coinbase or TREZOR exchanges like Kraken 
+ social networks like Reddit and centralized 
+ messaging systems like Slack to participate in this 
+ exciting new world 
+ 
+ The largely manual workflows pioneered by these 
+ early adopters (see dotted lines on the diagrams 
+ on the right) criss cross the boundaries between 
+ their devices various cloud hosted apps and the 
+ many blockchains For them the theoretical 
+ debates about the merits of purely decentralized 
+ systems give way to practical concerns of getting 
+ the deal or the trade done These trails left by the 
+ pioneering users should deliver inspiration and 
+ guidelines for designers and developers of the 
+ next generation of user experiences They should 
+ serve to make these steps easier and quicker or if 
+ possible eliminate them altogether through a 
+ streamlined process 
+ 
+ s1s3s5BLOCKCHAIN 
+ DEVICE 
+ CLOUD 
+ Chat Transportation Photo & Media Wallet Finance Social Network Search 
+ Collaboration E commerce Messaging Content Accounting CRM Enterprise Systems 
+ Jurisdiction Attention Storage Identity Prediction Compute Trading 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ SOLUTION THE EXPERIENCE LAYER 
+ 
+ OVERVIEW 
+ 
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ Cardstack is building a new experience layer that helps 
+ users orchestrate their interactions across the (d)Apps 
+ they use ushering in the age of mass market adoption of 
+ decentralized technologies in an open ecosystem 
+ 
+ BUILD IT OPEN KEEP IT OPEN 
+ 
+ The World Wide Web was architected by Sir Tim 
+ Berners Lee as a decentralized network of 
+ individually operated web servers It was built with 
+ open source tools and brought forth the era of 
+ home pages under construction But building it 
+ open in 1989 was not enough to keep the Web 
+ from falling back into an uncomfortably 
+ centralized architecture in 2017 To search the 
+ Web we still rely on the relentless crawlers from 
+ Google To stay informed we submit to the 
+ algorithms of Facebook trying to find things that 
+ may trigger our interests The crypto community 
+ is not immune to these recentralization vectors 
+ hosted closed sourced wallets like Coinbase have 
+ captured a big portion of recent crypto converts 
+ 
+ The nascent movement towards blockchainenabled 
+ decentralization is a great opportunity 
+ Builders can learn from the past and lay a more 
+ resilient technical social and economic 
+ foundation ensuring that a powerful beautiful 
+ and convenient layer of great user experience is 
+ kept open as forkable open source software 
+ coordinated via open governance of 
+ decentralized protocols and available for open 
+ participation from all around the globe 
+ 
+ s1s3s5BLOCKCHAIN 
+ CLOUD DEVICE 
+ The experience layer of the decentralized Internet 
+ CARDSTACK
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CENTERING THE INTERNET AROUND THE USER 
+ 
+ 1OVERVIEW
+ The new approach to orchestration must put the users at 
+ 
+ CONCEPTS 
+ 
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ the center and let them act as their own hub so that 
+ interactions with applications and services flow through 
+ a software stack controlled by the users 
+ 
+ BLOCKCHAIN SERVICES 
+ CLOUD SERVICES 
+ LOCAL SERVICES 
+ DECENTRALIZED USER EXPERIENCES 
+ 
+ Decentralization can be thought of more 
+ concretely as the recentralization of 
+ workflows around a user The user can 
+ initiate orchestrate and make decisions 
+ about transactions that are coordinated 
+ locally (i e over the counter) via cloudbased 
+ market makers or through the 
+ logic and consensus mechanisms of 
+ various blockchains Parity with 
+ traditional single function apps is not 
+ enough The vision of multiple apps and 
+ dApps working in harmony demands a 
+ generational leap in user experience in 
+ terms of composeability and 
+ interoperability 
+ 
+ As the use cases expand beyond crypto 
+ trading and finance this general pattern 
+ of user orchestration can be used to 
+ redecentralize the data locked behind 
+ cloud based subscriptions through 
+ integration hooks With the right 
+ architecture and design system a usercentric 
+ decentralized UX can exhibit the 
+ fluidity of a consumer social network 
+ while facilitating structured transactions 
+ like a line of business system 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ 2 2 TURNING SERVICES INTO TANGIBLE CARDS 
+ 1OVERVIEW
+ The necessary orchestration can be made intuitive by 
+ 
+ CONCEPTS 
+ 
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ turning each state of an application into a card which is 
+ a visual embodiment of the key information suggesting 
+ the next course of action via chaining of related cards 
+ 
+ BLOCKCHAIN SERVICES 
+ CLOUD SERVICES 
+ LOCAL SERVICES 
+ PRIVATE 
+ MESSAGE 
+ PAYMENT 
+ METHOD 
+ VIP LIST 
+ PURCHASE 
+ ORDER 
+ ARBITRATION 
+ SERVICE 
+ SALES REPORT 
+ THE RISE OF CARD BASED UI 
+ 
+ To enable this breakthrough we need to 
+ break the problem space of complex user 
+ interfaces and workflows into 
+ manageable pieces Each piece is bitesized 
+ encapsulated and happens to look 
+ like a physical card which can be 
+ embedded chained auto filled 
+ attached triggered expanded 
+ versioned cloned rescinded and 
+ approved as part of a cohesive user 
+ experience it floats effortlessly on top of 
+ multiple cloud environments and 
+ blockchains 
+ 
+ At the same time we also need to zoom 
+ out and establish a new set of rules 
+ working out how these cards can stand 
+ on their own be embedded in other 
+ apps and act as hosts for other cards 
+ when called upon to do so We can then 
+ use the rewarding power of the 
+ blockchain streamlined through a cardbased 
+ ecosystem to make features that 
+ were previously offered in proprietary 
+ and expensive silos pervasively available 
+ to millions of people around the world as 
+ bona fide open source software 
+ 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ BRIDGING BLOCKCHAIN AND CLOUD SERVICES 
+ 
+ 1OVERVIEW
+ These cards become the primary unit of interaction 
+ 
+ CONCEPTS 
+ 
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ between the users and many variants of competing 
+ services which run locally in the cloud or on a 
+ blockchain and fulfill the different aspects of users needs 
+ 
+ (UN)CHAIN THE LEGACY DATA 
+ 
+ PRIVATE 
+ MESSAGE 
+ VIP LIST SALES REPORT PAYMENT 
+ METHOD 
+ ARBITRATION 
+ SERVICE 
+ PURCHASE 
+ ORDER 
+ Chat Wallet Enterprise Systems IdentityCollaboration JurisdictionAccountingTrading 
+ We need to break up the antiquated 
+ concept of the almighty app into 
+ smaller building blocks which are in turn 
+ chained back together through the user s 
+ choices or the systems recommendations 
+ Once you turn data into cards 
+ you own them forever 
+ 
+ Still no person is an island With the right 
+ syndication hooks some based on 
+ blockchain technologies data in the 
+ users personal cloud can be replicated 
+ and redacted as necessary to contribute 
+ to a collective view in another users or 
+ organizations cloud After all blockchain 
+ is really a coordination mechanism 
+ between a group of participating peers 
+ Everybody is free to do what they will 
+ with the blockchain delivered data 
+ Whether you choose to participate 
+ directly via a computer you control 
+ instantiate a personal cloud that runs 
+ 24/7 solely on your behalf or let a thirdparty 
+ website do it for you in a multitenant 
+ way that is entirely up to you 
+ 
+ s1s3s5BLOCKCHAIN 
+ SERVICES 
+ LOCAL 
+ SERVICES 
+ CLOUD 
+ SERVICES 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ ENABLING PROGRESSIVE DECENTRALIZATION 
+ 
+ 1OVERVIEW
+ Behind the facade of cards the process of decentralizing 
+ 
+ CONCEPTS 
+ 
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ the software ecosystem can be done piecemeal allowing 
+ for drop in replacement of common cloud services 
+ when blockchains are ready to act as substitutes 
+ 
+ WHAT USERS NEED TO KNOW 
+ 
+ PRIVATE 
+ MESSAGE 
+ VIP LIST SALES REPORT PAYMENT 
+ METHOD 
+ ARBITRATION 
+ SERVICE 
+ PURCHASE 
+ ORDER 
+ Chat Wallet JurisdictionIdentityCollaboration Enterprise Systems AccountingTrading 
+ Keep the same user experience 
+ Users need to understand how to 
+ interpret the encapsulated information 
+ presented to them via these cards they 
+ need to choose the appropriate action to 
+ take in order to complete the transaction 
+ persuade another person or grow into a 
+ greater authority What they dont need 
+ to know is what happens behind these 
+ cards whether the transaction is 
+ transmitted through a cloud based 
+ service or a blockchain protocol whether 
+ the counterparty is another human or an 
+ autonomous agent represented by a 
+ smart contract or whether the proof of 
+ identity and thus authority is provided by 
+ a blockchain ID or an on device face ID 
+ 
+ s1s3s5BLOCKCHAIN 
+ SERVICES 
+ LOCAL 
+ SERVICES 
+ CLOUD 
+ SERVICES 
+ Start with SaaS Apps 
+ Support emerging dApps 
+ Harness power of native APIs 
+ The quest to move the majority of valuebearing 
+ interactions on the Internet from 
+ centralized but extractive counterparties 
+ to decentralized but accumulating 
+ networks of mutual benefits will take 
+ time As dApps mature to compete for 
+ users interactions all they need to do is 
+ plug into the system behind a card based 
+ facade and show the user a better way 
+ with minimal friction 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ DIFFERENT LEVELS OF DECENTRALIZATION 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ ARCHITECTURE 
+ 
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ Mass market adoption of blockchains can be accelerated 
+ if we reach the users via the familiar platforms such as 
+ mobile devices or the open Web and invite them to 
+ participate as peers with greater sovereignty 
+ 
+ SAME CODE ACROSS ON RAMPS 
+ 
+ The software tools developers use to 
+ build peer to peer apps are different 
+ from the ones used for hosted web 
+ apps While there are web apps that 
+ speak with blockchains (e g cloud 
+ wallets like Coinbase) and peer topeer 
+ apps that connect to the cloud 
+ 
+ 
+ (e g secure chat apps that depend on 
+ cloud based identity graphs) apps 
+ that are flexible enough to run in both 
+ topologies are rare 
+ To reach new users the open Web is a 
+ great place to start as it bypasses the 
+ friction of an app install through an 
+ app store or a direct download and 
+ allows users to begin interacting and 
+ gaining value immediately With this 
+ user adoption pathway in mind 
+ Cardstacks software and protocols 
+ are architected to enable developers 
+ to deploy their card based 
+ experiences to the Web and reach 
+ users where they are today In 
+ 
+ More Control 
+ 
+ 
+ More Convenient 
+ 
+ addition developers learn to package 
+ that same code as a peer to peer app 
+ for users who are ready to take full 
+ ownership of their digital life 
+ 
+ PEER TO PEER OPEN WEB MOBILE1 2 3 
+ Crucial for 
+ mass market 
+ adoption 
+ s5BLOCKCHAIN 
+ LOCAL CARDSTACK APP+HUB 
+ DAPP(S) 
+ s3CLOUD 
+ DAPP(S) 
+ NATIVE APP 
+ CARDSTACK HUB 
+ DAPP(S) 
+ WEB APP 
+ CARDSTACK HUB 
+ CARDSTACKCohesive User Experience (CUE) 
+ https //www 
+ Same code 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ s3
+ s3USER EXPERIENCES 
+ DATA SOURCES 
+ BLOCKCHAIN CLOUD LOCAL 
+ MOBILEPEER TO PEER OPEN WEB 
+ HUBCARDSTACK 
+ COMMAND QUERY 
+ Cardstack Hub is architected based on the software design pattern popularized by Martin Fowler called 
+ Command Query Responsibility Segregation or CQRS The architecture model differs from the CRUD model 
+ (Create Read Update Delete) common in database driven applications as it allows the integration of 
+ multiple simultaneous truths backed by a blockchain and a SaaS app into a single coherent query model 
+ s3
+ s3USER EXPERIENCES 
+ DATA SOURCES 
+ BLOCKCHAIN CLOUD LOCAL 
+ MOBILEPEER TO PEER OPEN WEB 
+ HUBCARDSTACK 
+ COMMAND QUERY 
+ Cardstack Hub is architected based on the software design pattern popularized by Martin Fowler called 
+ Command Query Responsibility Segregation or CQRS The architecture model differs from the CRUD model 
+ (Create Read Update Delete) common in database driven applications as it allows the integration of 
+ multiple simultaneous truths backed by a blockchain and a SaaS app into a single coherent query model 
+ 3 2 THE ROTATION POINT FOR EACH USER 
+ 1OVERVIEW
+ 2CONCEPTS
+ Acting as the orchestrator of the users workflow 
+ 
+ ARCHITECTURE 
+ 
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ Cardstack Hub relays the users commands to the right 
+ data systems and constantly listens for changes while 
+ building a consistent queryable view of reality 
+ 
+ YOU OWN YOUR OWN HUB 
+ 
+ There are services on the Web like IFTTT 
+ that will help you wire up the different 
+ services of your digital life based on rules 
+ and conditions you set In the crypto space 
+ there are exchanges that will process limit 
+ orders automatically when you are asleep 
+ Looking ahead dApps promise to reallocate 
+ your digital tokens continuously to minimize 
+ risk and maximize portfolio value The 
+ question is Are you in command of these 
+ agents and do you know what they are 
+ doing on your behalf at all times 
+ 
+ Inside the Cardstack architecture especially 
+ in peer to peer mode all users remain in 
+ complete control of their data orchestration 
+ layer called Cardstack Hub which sits 
+ between the user experiences they use and 
+ the data sources that persist and process the 
+ interactions Even in a hosted model where 
+ the plug ins run inside the Hub in a multitenant 
+ configuration the users are 
+ represented as themselves through welldefined 
+ boundaries of their commands and 
+ queries of their aggregated data collections 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ s3
+ s3s3s3
+ PLUG INS 
+ COMPONENTS 
+ COMMAND QUERY AUTH 
+ WRITERS 
+ MIDDLEWARE INDEXERS 
+ JSON APIS SEARCHERS 
+ MESSENGERS 
+ Git Hyperledger Elasticsearch Ethereum GitHub NodeJSPostgres Docker Druoin 
+ Conversation DiscoveryNarrative Workflow Membership SearcHUB 
+ All the plug ins listed above are available at github com/cardstack as of Sept 2017 We intend to support new 
+ s3
+ s3s3s3
+ PLUG INS 
+ COMPONENTS 
+ COMMAND QUERY AUTH 
+ WRITERS 
+ MIDDLEWARE INDEXERS 
+ JSON APIS SEARCHERS 
+ MESSENGERS 
+ Git Hyperledger Elasticsearch Ethereum GitHub NodeJSPostgres Docker Druoin 
+ Conversation DiscoveryNarrative Workflow Membership SearcHUB 
+ All the plug ins listed above are available at github com/cardstack as of Sept 2017 We intend to support new 
+ CARDSTACK HUB ARCHITECTURE 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ We have shipped a full stack that works with Git as the 
+ 
+ ARCHITECTURE 
+ 
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ core As decentralized apps mature the well typed plugin 
+ architecture of Cardstack Hub allows dApps and their 
+ underlying blockchains to complete the vision 
+ 
+ blockchains and their dApps as plug ins to the Cardstack Hub as their projects mature Once a new plug in is 
+ written software designers and developers familiar with the Cardstack framework can easily write user facing 
+ components and cards without knowing the low level details of each dApps protocol 
+ 
+ DATA AND CODE LIVE TOGETHER 
+ 
+ Cardstack is a pluggable event sourcing 
+ search first open sourced application 
+ framework for building distributed as well as 
+ decentralized application networks At the 
+ core of Cardstack is the idea that data 
+ content and code in modern applications 
+ evolve and change in lockstep When a 
+ social network introduces a new feature call 
+ it InstaStories the data schema content 
+ authoring tool mobile app templates 
+ recommendation algorithms and API 
+ endpoints all have to be updated to reflect 
+ this capability On the code front Git the 
+ distributed version control system created 
+ by Linus Torvalds in 2005 for developing the 
+ Linux kernel provides the foundation for 
+ rapid parallel branching to test new ideas 
+ and merge them again when the time is 
+ right We believe The Git Way deserved to 
+ be extended beyond code and become the 
+ standard way to manage the tracking and 
+ propagation of data and content When 
+ combined with the consensus making 
+ power of blockchains a Git based workflow 
+ realized through Cardstack Hub represents 
+ a return to local control without sacrificing 
+ value creation through network effects 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ COMMON OPERATING ENVIRONMENT 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ Blockchain and cloud based apps that are integrated with 
+ 
+ ARCHITECTURE 
+ 
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ Cardstack Hub immediately get the benefit of common 
+ components to handle prioritized queues searchable 
+ libraries and field level configurations 
+ 
+ BUILDING WORKFLOWS ACROSS APPS 
+ 
+ With a unified orchestration layer provided by 
+ Cardstack Hub (d)Apps that are built on this 
+ common foundation can work seamlessly to 
+ serve the users 
+ 
+ Networks are formed solely based on group 
+ affiliation and market participation not 
+ because everyone uses the same application 
+ 
+ e g Slack 
+ Queues aggregate and coordinate the flow of 
+ data and actions of multiple (d)Apps within the 
+ network without needing to log in to multiple 
+ dashboards to check up on them 
+ 
+ Environments define the boundaries of what is 
+ a public forum a private workspace and an 
+ invite only channel Within that chosen 
+ context all (d)Apps inherit the visibility and 
+ privacy controls so there is no need for 
+ repetitive permission tweaks 
+ 
+ Configurations across dApps and the data and 
+ content they manage can now be made 
+ consistent since the Hub is schema aware and 
+ can offer reusable controls for fields 
+ 
+ Libraries provide a user centric searchable 
+ view of the collection of cards sitting inside 
+ each (d)App It serves as the ubiquitous 
+ camera roll of the Cardstack experience 
+ 
+ NETWORKS 
+ QUEUES ENVIRONMENTS 
+ LIBRARIES 
+ CONFIGURATIONS 
+ SALES REPORT
+ PRIVATE 
+ MESSAGE
+ PURCHASE 
+ ORDERARBITRATION 
+ SERVICE 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ OPEN SOURCE CARD CATALOG 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ As the features of the card ecosystem fill out common 
+ 
+ ARCHITECTURE 
+ 
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ data elements and associated actions can be unified as 
+ open source standard creating a catalog of pre built 
+ cards that are easy to use and reuse 
+ 
+ DESIGNING AROUND THE FOUR EDGES 
+ 
+ There are enough open source repositories 
+ on GitHub to provoke ones imagination 
+ regarding the possibility of a composeable 
+ software ecosystem Yet if you want to quickly 
+ assemble even a simple web app youll find 
+ there arent many ready made features you 
+ can fork and include in your app without a 
+ significant amount of custom coding 
+ 
+ Looking at the success in the SaaS world a 
+ dominant example being Salesforce com 
+ we realize that the key is a consistent 
+ application structure so that new features and 
+ third party extensions can be added to an 
+ existing installation by an end user with little to 
+ no code 
+ 
+ We created our design system code named 
+ Four Edges based on a similar theory If we 
+ extract the common functionalities from web 
+ apps and provide them as part of the overall 
+ Cardstack operating environment new apps 
+ built as a collection of cards can be created 
+ received saved modified published remixed 
+ and reused by end users all within the user 
+ interface paradigm they have internalized 
+ Developers and designers can focus their 
+ efforts within the edges of the card to make it 
+ the best card of its kind in this open catalog 
+ 
+ NETWORKS
+ CARDQUEUESSERVICE 
+ ARBITRATION 
+ MESSAGE 
+ PRIVATE 
+ ORDER 
+ PURCHASE 
+ IDENTITY 
+ VERIFIED 
+ LIBRARIES 
+ SALES REPORT FRAUD ALERT 
+ ENVIRONMENTS 
+ METHOD 
+ PAYMENT MEMBERSHIP 
+ AGREEMENT 
+ VIP LIST 
+ OWNERSHIP 
+ TITLE 
+ CHANGE 
+ CONFIGURATIONS 
+ REQUEST 
+ FILE FOLDERPREDICTION 
+ SETTLEMENT 
+ RECEIPT 
+ REQUEST FOR 
+ QUOTE 
+ RECEIVE CARD MODIFY CARD 
+ SAVE CARD PUBLISH CARD 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ LIBRARIES 
+ ENVIRONMENTSQUEUES 
+ NETWORKS 
+ CONFIGURATIONS 
+ VERIFY IDENTITY TO AMEND 
+ OWNERSHIP TITLE 
+ TRUE MOBILITY OF INFORMATION 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ ARCHITECTURE 
+ 
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ Cards from different origins can be delivered via the 
+ same notification queue They can be chained together 
+ to form workflows that tap into the power of mobile 
+ devices and move at the whim of the sovereign user 
+ 
+ A SYSTEM OF CARDS IN MOTION 
+ 
+ The unique advantage of cards as a user 
+ interface paradigm is that they fit nicely into 
+ the four edges of the modern smartphone 
+ much better even than the best responsive 
+ web sites Beyond the factor of their bite sized 
+ form cards are embodied as physical objects 
+ They can move into or out of view with the flick 
+ of a finger be chained or tacked together with 
+ a related card and move in tandem or get 
+ picked up and dragged into another area of the 
+ environment as naturally as youd expect 
+ 
+ To make this illusion of a physical card feel real 
+ tactile and manipulatable the Cardstack team 
+ 
+ Dynamically chains
+ 
+ has invested and will continue to invest in the 
+ 
+ cards together 
+ 
+ creation of compelling motion design patterns 
+ and the improvement of performance 
+ animation primitives ensuring the fluid 
+ movement of cards within this design system 
+ of edges in motion We are working with the 
+ thought leaders in front end engineering to 
+ create a run time compilation pipeline that 
+ allows cards written for the web platform to 
+ generate true native rendering and animation 
+ behaviors dynamically without ever needing to 
+ deal with native SDKs and app store 
+ submissions Our motto You write it good 
+ We run it smooth 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ The value of the card ecosystem will increase 
+ 
+ ARCHITECTURE 
+ 
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ exponentially when the pre built cards and containers of 
+ the catalog are combined by end users to organize 
+ decentralized networks without writing any new code 
+ 
+ OWNERSHIP 
+ OPEN SOURCE CARD CATALOG 
+ REUSABLE CONTAINER COMPONENTS FOR (D)APPS 
+ 
+ The Cardstack team has already released a narrative container that matches features of a web content 
+ management system as well as a discovery container that can form the basis of a personalized 
+ recommendation system We are currently working on the conversation and workflow containers to 
+ facilitate distributed workflows between parties of varying levels of trust in a hybrid on/off chain network 
+ 
+ Workflow Conversation DiscoveryNarrative 
+ CHALLENGING THE INCUMBENT 
+ PLATFORMS 
+ 
+ Most successful platforms in the cloud era 
+ initially did one thing well and then expanded 
+ to copy competitors features when those use 
+ cases gained traction with users Facebook is 
+ the most famous example of a hypercompetitive 
+ fast following copier 
+ 
+ In an open ecosystem like the one Cardstack 
+ is building every new network can reuse the 
+ tools in the shared card and container 
+ catalog so that the duplication of effort is 
+ reduced at the macro level and the time to 
+ market is improved at the micro level 
+ 
+ Considering the entrenched network effects 
+ of the digital superpowers in their dominant 
+ position the only way to unseat them is to 
+ fight back with even greater network effects 
+ The decentralized challengers sharing of 
+ code and design will be a defining advantage 
+ in this important fight 
+ 
+ Curated Emergent 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ TOWARDS COHESIVE USER EXPERIENCES (CUE) 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ In summary with the foundation of Cardstack as the 
+ 
+ ARCHITECTURE 
+ 
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ base the decentralization movement will finally have the 
+ tools to deliver the promise of blockchains to people 
+ around the world via on ramps of their choice 
+ 
+ CARDSTACK THE EXPERIENCE LAYER OF THE DECENTRALIZED INTERNET 
+ 
+ The Internet is due for a swing back in the 
+ direction of decentralization The 
+ ingredients are there 
+ 
+ The technology behind the open Web 
+ JavaScript and the browser runtime in 
+ particular has closed the gap and 
+ blurred the boundaries with native apps 
+ The growing collection of open source 
+ software and libraries means that most 
+ of the features and functionalities 
+ offered by big cloud players can be 
+ easily replicated and improved upon 
+ with a few days of coding 
+ The design community has caught up 
+ with and surpassed the design patterns 
+ and user experience approaches of the 
+ popular apps from Silicon Valley 
+ Cardstack the application framework 
+ and the team behind it is ready to 
+ organize this community in order to build 
+ an alternative app market with Open Web 
+ technologies guided by the open source 
+ ethos and enabled by a one in ageneration 
+ breakthrough of blockchains 
+ 
+ Decentralized Centralized 
+ Blockchains 
+ User Controlled Hardware Cloud Infrastructure 
+ Local 
+ App 
+ Local 
+ App dApp dApp dApp dApp Web 
+ App 
+ Web 
+ App 
+ Permissionless Permissioned 
+ Narrative Discovery Conversation Workflow 
+ COHESIVE USER EXPERIENCE (CUE) 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ TRADE OFFS BETWEEN INTERNET BUSINESS MODELS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ In the current software economy the drive for openness 
+ often requires people to give up their fair share of 
+ rewards while tools promising to return power to users 
+ keep losing out to centralized growth hacked platforms 
+ 
+ THE CORNERS OF THE NETWORK ECONOMY 
+ 
+ OPENNESS 
+ 
+ GITHUB FACEBOOK ETC 
+ 
+ While the Internet seems like one continuous 
+ space most users actually live within corners 
+ which are defined by the business model and 
+ incentive structure of the underlying platforms 
+ 
+ In the corner of ad supported networks like 
+ Facebook users are drawn into an algorithmic 
+ network of seemingly open sharing fueled by 
+ viral growth and ad dollars wanting to be part of 
+ that market In the opposite corner sits the tech 
+ 
+ USER 
+ 
+ 
+ osscryptoOPEN 
+ SOURCE 
+ COMMUNITY 
+ CRYPTO 
+ TOKEN 
+ ECONOMY 
+ BITCOIN / ETHER APPLE APP STORE 
+ (If you play by their rules) 
+ (If you are a developer) (If you dont mind not getting paid) 
+ ADVERTISING 
+ SUPPORTED 
+ PLATFORMS
+ PROPRIETARY 
+ CLOUD 
+ SERVICES
+ MARKET
+ 
+ industry patriarch Apple promising and 
+ 
+ POWER 
+ 
+ GROWTH
+ 
+ delivering a perfectly synchronized experience 
+ which gives customers who are willing to pay a 
+ premium great power and developers who play 
+ by Apples rules a fair chance to earn money 
+ 
+ 
+ Out of view of the masses lie the other two 
+ corners brimming with new energy If you are a 
+ developer you can fork and modify any piece of 
+ open source software on GitHub to create your 
+ own digital reality not limited by arbitrary rules 
+ and policies set by others But youll probably be 
+ quite lonely in your personal realm Yet if youve 
+ 
+ (If you know how to trade crypto) 
+ 
+ paid attention to the ascendancy of Bitcoin and 
+ 
+ FAIR REWARD 
+ 
+ Ether youve seen a certain strain of forkable 
+ code cryptocurrencies transcend into a 
+ faster growing global phenomenon than even 
+ Silicon Valleys largest unicorns 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ 4 2 CONNECTING OPEN SOURCE AND CRYPTO ECOSYSTEMS 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ The success of early cryptocurrencies shows that a 
+ network of economic participants when given the right 
+ incentives can fuel improvements of open source 
+ software and protocols and spawn supporting ecosystems 
+ 
+ BUILDING UP SPEED WITH THE FLYWHEEL 
+ 
+ The evolution of the software ecosystem behind Bitcoin 
+ and Ethereum shows that open sourced software 
+ development can be fueled by a growing token backed 
+ economy where any person or organization is free to 
+ join and participate As the overall network value grows 
+ 
+ which is often measured by metrics like 
+ CoinMarketCap there is an ever growing incentive for 
+ new developers to build upon this codebase or 
+ architecture and then deploy the new innovation as a 
+ piece connected to the existing network instead of 
+ starting a new network from scratch in a lonely corner 
+ Each if you cant beat them join them decision made 
+ by an independent participant adds momentum to the 
+ flywheel a term coined by Jim Collins in the book 
+ Good to Great Decentralized organizations rely on a 
+ gradual build up of speed when it comes to the flywheel 
+ effect aiming to gain sustainable momentum to 
+ compete with incumbents and challengers alike 
+ Looking beyond the specialized software for 
+ cryptocurrency mining and trading is there a way for 
+ this flywheel effect at the fulcrum of open source and To connect open source software with the crypto token economy we have to solve two problems 
+ crypto to extend to other application areas so that that have thus far prevented mainstream adoption of either For open source we need to 
+ decentralized software architecture and protocols can acknowledge that the current philanthropic orientation whether through corporate sponsorships 
+ start competing directly with the services offered by ador 
+ Patreon supporters severely devalues the code upon which a firm builds its business For 
+ supported platforms and proprietary cloud services crypto we need to start obsessing about the humans behind the addresses their needs their 
+ Deep network effects are the only way to fight journeys and their experiences as much as about the consensus algorithms In this section we 
+ entrenched networks Open source and crypto have delve into our proposal on how to fund open source while creating wealth for all who make the 
+ these effects flywheel turn 
+ 
+ OPENNESS 
+ CARDSTACK
+ FAIR REWARD 
+ MARKET 
+ GROWTH 
+ USER 
+ POWER 
+ OPEN 
+ SOURCE 
+ COMMUNITY 
+ CRYPTO 
+ TOKEN 
+ ECONOMY 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ FUNDING SOFTWARE AND SERVICES WITH TOKENS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ Users spend tokens in their wallet to get access to an app 
+ A smart contract acting as the billing agent for the app 
+ 
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ allocates a portion of these tokens to the creators of the 
+ open sourced code or the provided services 
+ 
+ CARDSTACK WALLET USER SOFTWARE 
+ SERVICES 
+ APP CONTRACT 
+ Smart Contract 
+ Allocate 
+ Generate 
+ Crypto Tokens Open Source Code 
+ For a more in depth explanation of how software and services can be billed for and 
+ settled via a set of blockchain based smart contracts we invite you to read Chapter 
+ 
+ 4 Sustainable Software of the Cardstack Vision Paper It is published on the 
+ Cardstack website at https //cardstack com/vision/chapter 4 
+ STARTING WITH REVENUE 
+ 
+ When every user is a paying customer the 
+ relationship between the user and the team 
+ behind the app changes for the better With 
+ the introduction of a wallet containing 
+ various crypto tokens the users can now 
+ pay for software and services directly 
+ through their wallet And they know that the 
+ teams behind the scenes will like to keep 
+ this revenue flowing by providing new 
+ features upgrades attentive support etc 
+ 
+ Cardstacks open source framework and 
+ token mechanism help development teams 
+ tap into this new source of revenue they 
+ generate the smart contracts needed for a 
+ new app using simple configuration files 
+ checked in to the apps GitHub repository 
+ These smart contracts can be deployed to a 
+ public blockchain starting with the 
+ Ethereum network and upgraded with 
+ new logic or updated terms to reflect the 
+ latest pricing tiers or bundles 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ ALLOCATION OF FUNDS ACROSS MULTIPLE (D)APPS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ Going beyond a single app token driven application 
+ contracts allow multiple (d)Apps to pool resources and 
+ 
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ let mutual customers mix and match features to fit their 
+ needs while the reward function does its work 
+ 
+ What Users See 
+ USERS PAY FOR WHAT THEY USE 
+ 
+ Inside the cohesive user experience 
+ provided by the Cardstack framework users 
+ have access to all the cards they need to 
+ complete their workflows without having to 
+ make separate billing arrangements for each 
+ app in the catalog Behind the scenes app 
+ contracts generated by the Cardstack 
+ framework connect with a network wide 
+ reward pool The pool analyzes the usage 
+ data which is collected by each of the 
+ participating apps to determine a fair 
+ allocation of tokens as compensation for the 
+ teams offering the software and services 
+ the makers and miners 
+ 
+ SERVICES 
+ SOFTWARE 
+ OTHER DAPPS 
+ CARDSTACK 
+ WALLET 
+ USER 
+ APP CONTRACT 
+ APP CONTRACT 
+ Compensate 
+ APP CONTRACT REWARD POOL ALLOCATION 
+ Use 
+ Funds 
+ Mix & Match 
+ Behind the Scenes 
+ Competing Apps 
+ Since any distribution of tokens on a public 
+ blockchain incurs transactional fees (known 
+ as gas in the Ethereum network) the 
+ reward pool is designed to accumulate 
+ tokens for a defined period of time and then 
+ disperse them to the makers and miners in 
+ an aggregated manner For dApps requiring 
+ their own native tokens to function the 
+ reward pool can initiate an external 
+ exchange acting on the users behalf to 
+ acquire and deposit the needed tokens to 
+ fund the transactional activities In essence 
+ it is simply a piece of software providing a 
+ custodial token exchange service 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ HIGH LEVEL TOKEN LIFECYCLE 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ In a nutshell end users dedicate a portion of their tokens 
+ to form a retainer agreement with an app which permits 
+ 
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ them to use that app and any of its dependent services 
+ When the app is used and the service redeemed the 
+ makers and miners are compensated with tokens 
+ 
+ HOW IT WORKS 
+ 
+ End users and contributors can register their 
+ interest in acquiring Cardstack Tokens (CARD) by 
+ depositing ether from their wallet during the 
+ Token Generating Event (TGE) or afterwards 
+ through peer to peer transactions 
+ 
+ As needed CARD can be converted into Software 
+ & Services Coupons (SSC) which are in turn sent 
+ to an app contract to establish the retainer 
+ agreement Converted CARD are locked in a 
+ reward pool until the next reward allocation 
+ cycle which is triggered by a block based timer 
+ 
+ When a user starts using the app(s) usage data 
+ on and off chain are collected and periodically 
+ reported to the app contract as proof that this 
+ particular user has redeemed a portion of the 
+ balance of the retainer 
+ 
+ The history of redemption events combined with 
+ other aggregated data sets and statistical 
+ analyses helps the network wide reward pool 
+ smart contract determine a fair attribution and 
+ allocation of rewards to makers and miners in the 
+ Cardstack ecosystem These cover material costs 
+ as well as fees and royalties owed to the teams 
+ who helped deliver the cohesive user experience 
+ 
+ REWARD POOL SERVICES SOFTWARE & 
+ APP CONTRACT WALLET 
+ Register Retain 
+ Redeem Reward USAGE 
+ Cardstack 
+ Token (CARD) 
+ Software & Services 
+ Coupon (SSC) 
+ END USER / 
+ 
+ 
+ CONTRIBUTOR 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CARDSTACK TOKENS AND SMART CONTRACTS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ The initial implementation of the Cardstack token 
+ mechanism is written in Solidity and is currently on the 
+ 
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ Ethereum testnet We will open source all 20+ smart 
+ contracts via GitHub and look forward to the 
+ communitys feedback 
+ 
+ EVM 
+ APPLICATION SMART CONTRACTS CREATED BY 
+ THE CARDSTACK GENESIS FRAMEWORK 
+ CARD 
+ UTILITY / WORK / REWARD TOKEN ISSUED AS 
+ ERC20 COMPATIBLE TOKEN (SYMBOL CARD) 
+ Cardstack Token Peer Tradable 
+ Code Generated Ethereum Virtual Machine 
+ Convertible for Use 
+ Upgradable 
+ Non Transferable 
+ Price Stable 
+ SSC Software & Services Coupon 
+ 
+ SERVICE CREDIT PEGGED TO AND PURCHASABLE VIA 
+ 
+ UNITED STATES DOLLARS (USD) 1 USD 100 SSC 
+ 
+ Smart contracts in the Cardstack 
+ ecosystem are upgradable through a 
+ registry abstraction which redirects 
+ transactions to the latest version 
+ 
+ Cardstack Tokens is called CARD in 
+ this white paper In prior technical 
+ documentations it is sometimes 
+ abbreviated as CST 
+ 
+ The structural separation of retain 
+ and redeem contracts means that SSC 
+ can run on different blockchains or on 
+ a side chain as scalability needs arise 
+ 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ DETAILED TOKEN MECHANISMS FOR CARD AND SSC 
+ 
+ For a more detailed 
+ description of the 
+ thinking behind this 
+ token design please 
+ review the Cardstack 
+ Token Mechanism 
+ Paper 
+ 
+ With Cardstack Tokens users purchase credits to use 
+ software in the ecosystem while makers and miners are 
+ rewarded proportionally based on usage data etc 
+ 
+ Register 
+ 
+ 
+ CST Ledger (ERC 20) 
+ Purchase Usage Credit Directly 
+ CARD to SSC Contract 
+ Direct SSC Purchase Custodian Contract 
+ 
+ Fiat Currencies 
+ 
+ Cost Royalty App& Reward Ratios Team 
+ 
+ Exchanges 
+ 
+ Retain 
+ Add Credit for User 
+ An Application Contract 
+ Application Contract Generator 
+ Contributor 
+ Addresses 
+ 
+ 
+ Proof of 
+ Burn 
+ 
+ CARDSTACK TOKENS (CARD) SOFTWARE & SERVICES COUPONS (SSC) 
+ 
+ CARD are the tradable tokens based on the ERC20 standard of the Ethereum SSC are non transferable entries in each of the application contracts They act 
+ network When CARD are converted into SSC they are locked in a reward like store credit that can be redeemed by a user within a specific period of 
+ pool and distributed to makers and miners based on a multi variable model time (e g 1 year) As usage is metered SSC are deducted and burned 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ BALANCING FACTS AND OPINIONS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ The network wide reward function consults the output 
+ of the proportional attribution and allocation model 
+ 
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ which takes many factors both on and off chain into 
+ account to determine a fair distribution of rewards 
+ 
+ Public 
+ Declarations 
+ Private 
+ Dedications 
+ Beneficiary 
+ Mappings 
+ Metered 
+ Usage Data 
+ Dependency 
+ Graphs 
+ Redemption 
+ History 
+ Stake Based 
+ Adjustments 
+ Ranking & 
+ Filtering 
+ FACTS 
+ OPINIONS 
+ Weighted 
+ Distribution 
+ Attribution & 
+ Allocation Model 
+ The Cardstack team recognizes the critical role this 
+ attribution and allocation model plays in aligning the 
+ incentives of open source contributors service 
+ providers and long term token holders Therefore we 
+ have prepared and published our initial mathematical 
+ model in the Cardstack Reward Paper We invite the 
+ community to review this model and give us feedback 
+ THE MATHEMATICS BEHIND THE MODEL 
+ An up to date version of the paper can be accessed via 
+ Cardstacks website at https //cardstack com/reward 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ REWARDING MAKERS AND MINERS IN THE ECOSYSTEM 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ The reward function works like a wealth trickle Once a 
+ graph of makers and miners input is built in an analytic 
+ 
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ node the model iterates through network branches until 
+ each path has been weighted locally and globally 
+ 
+ Attribution & 
+ Allocation Model 
+ Unclaimed 
+ Credits 
+ Diversity 
+ Awards 
+ Material 
+ Costs 
+ Centralized or Decentralized 
+ Cloud Expense 
+ Blockchain Network Fees or 
+ dApps Token Requirements 
+ Team 
+ Royalties 
+ Primary Support 
+ Application Teams 
+ Common Services / 
+ Features Teams 
+ Open Source 
+ Libraries 
+ Original Ideas 
+ & UX Designs 
+ 1 Contrarian Approaches 
+ 2 Underrepresented Contributors 
+ 3 Alternative Implementations 
+ Reward 
+ Function 
+ + Inflation 
+ The attribution and allocation model is iterative and 
+ has an algorithmic similarity to Google PageRank 
+ Those operations are done via an off chain process 
+ as part of a scheme we call Proof of Analytics (See 
+ section 6 5) The outputs of these off chain oracles 
+ are sampled by the reward contract The dispersion 
+ of tokens is completed through a one pass 
+ procedure within the smart contract 
+ SPREADING WEALTH WHILE SAVING GAS 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ SUMMARY BLUEPRINT FOR SUSTAINABLE SOFTWARE 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4 ECONOMICS 
+ 
+ 5ORGANIZATION
+ 6FUNDRAISER
+ 7RESOURCES
+ Cardstack is creating a sustainable software ecosystem 
+ where a network of smart contracts coordinates the 
+ revenue coming in from paying customers and the 
+ rewards going out to makers and miners who have 
+ contributed to the software and services 
+ 
+ USERS / PAYING APPLICATION REWARD MAKERS AND 
+ CUSTOMERS CONTRACTS FUNCTION MINERS 
+ 
+ 
+ dApps 
+ Protocols 
+ Packaged 
+ Products 
+ Analytic 
+ Miners 
+ Cloud 
+ 
+ Providers 
+ Support 
+ Vendors 
+ 
+ App 
+ Teams 
+ 
+ Open Source 
+ Libraries 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ ABOUT THE CARDSTACK PROJECT 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ It all started with the idea of composeability which was 
+ synthesized from the fields of design technology and 
+ social sciences We have since translated it into an opensourced 
+ platform where the next million makers can 
+ work together to reshape our digital future 
+ 
+ STATEMENT FROM CHRIS TSE FOUNDING DIRECTOR 
+ 
+ I founded the Cardstack project in 2014 when I first noticed the increased 
+ level of lock in imposed on users by the large apps and dominant networks 
+ that people rely on in everyday life In my prior roles leading research & 
+ development and digital product teams inside a Fortune 500 media company 
+ in New York it became obvious to me that the power center had shifted to 
+ Silicon Valley Our millions in R&D budgets cant compete with their billions 
+ The cards are stacked The fight has to be taken out into the open I vowed to 
+ use the power of open source software and collaboration tools guided by 
+ the ethos of the open Web to organize the creation of a decentralized 
+ alternative to the centralized clouds that are looming over our heads 
+ 
+ As a technologist by trade a designer in practice and an entrepreneur at 
+ heart I knew that I had to recruit experts and makers from many subject 
+ areas to work together in order to design and build something this 
+ ambitious and contrarian So I put a team together and got to work I 
+ bootstrapped the development of open source with revenue generating 
+ projects These projects aligned with our overall goals and allowed us to 
+ iterate on the design technical and economic ideas that shaped the 
+ constitution of this new open decentralized and composeable stack 
+ 
+ Time passed and Cardstack grew along with our partners clients investors 
+ and the open source communities that we supported and that supported us 
+ We were fortunate to be introduced to the blockchain pioneers which gave 
+ us the chance to get on chain early and sharpen our understanding of what 
+ blockchains do well I am proud of how our team made this work getting real 
+ users to use our tools daily and give us feedback while we sketched our 
+ project and determined how the whole stack should come together 
+ 
+ CARD BASED 
+ ASSEMBLY 
+ COMPOSEABLE 
+ TECH STACK 
+ Make no mistake Decentralization of the software ecosystem means 
+ revisiting many of the basic assumptions about the way in which the software 
+ that runs the world is architected designed developed secured distributed 
+ deployed orchestrated bundled unbundled priced analyzed monetized 
+ financed adopted supported upgraded decommissioned and preserved 
+ Any substantial change to one of the aforementioned factors could shake up 
+ the market and lead to a rise or fall of fortunes and power dynamics 
+ 
+ Cardstacks approach for layering a composeable user experience and data 
+ orchestration hub on top of both the centralized and the decentralized 
+ infrastructures allows this shift to happen progressively but assuredly You 
+ can build an ambitious networked ecosystem with our card based assembly 
+ and composeable tech stack today When the underpinning of the 
+ decentralized Internet is ready for prime time just flip the switch inside 
+ Cardstack and your network will be fully updated for the world of tomorrow 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ 5 2 PROJECT HISTORY & KEY MILESTONES 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ The core architecture and components of Cardstack 
+ have been under continuous development for 3+ years 
+ 
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ They have been deployed in production in both 
+ enterprise and open network environments 
+ 
+ 2014 2015 2016 2017 2018 
+ Contextual 
+ Messaging 
+ OpenDeploymentEnterpriseDeployment 
+ Workflow 
+ System 
+ Content 
+ Management 
+ Searchable 
+ Catalog 
+ Announcement of 
+ Public Mission 
+ PRODUCT 
+ CATEGORIES 
+ END USER 
+ ENVIRONMENTS 
+ Live in 
+ Production 
+ Released as 
+ Open Source 
+ ARCHITECTURE 
+ COMPONENTS 
+ NodeJS 
+ Integrations 
+ Elasticsearch 
+ Index 
+ HyperledgerSawtooth 
+ Ethereum 
+ VM 
+ Cardstack 
+ Patterns 
+ Git for 
+ Data Persistence 
+ Cardstack 
+ Token (CARD) 
+ CONCEPTUAL 
+ BREAKTHROUGHS 
+ Any Docker 
+ Container 
+ FRAMEWORK EXTRACTED FROM 
+ REAL WORLD USE 
+ 
+ After we announced the public mission 
+ of Cardstack to build an open 
+ ecosystem with a card based 
+ architecture and design system we 
+ knew that a vision as expansive as ours 
+ would need continuous validation 
+ against real world use cases to stay on 
+ track This is why we narrowed our 
+ focus to a subset of the problem which 
+ led to the creation of a contentcentric 
+ search first and plug in based 
+ application framework that looks and 
+ feels like a next generation CMS 
+ (content management system) but is 
+ actually a whole lot more 
+ 
+ This core orchestration architecture 
+ was then extracted and refactored in 
+ late 2016 to add support for a Git style 
+ branching and merging of a mix of 
+ data content and code This 
+ distributed versioning approach allows 
+ the framework to quickly plug in to 
+ various blockchains private or public 
+ as a means to synchronize state across 
+ a set of participating peers 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ USE CASES IN DEVELOPMENT 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ Leveraging our open source framework the Cardstack 
+ team collaborates with ambitious projects to deliver the 
+ 
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ promise of decentralized ecosystems to communities 
+ around the world in media art publishing and more 
+ 
+ CARDSPACE 
+ DECENTRALIZED CONTENT AUTHORING & WORKFLOWS 
+ 
+ We need a better way to disseminate knowledge and insights than following the algorithmic whims 
+ of Facebook and Google Independent journalism and publishing upstarts need networked content 
+ management tools that give them room to experiment with new syndication monetization and 
+ 
+ card space amplification topologies Cardstack is building the engine for a multi publisher content network that 
+ can become the blockchain ages WordPress Associated Press membership card press all in one 
+ 
+ mediadotblockchain
+ DECENTRALIZED MUSIC METADATA REGISTRY 
+ 
+ The music industry is growing again thanks to streaming services like Spotify and Apple Music Yet 
+ musicians especially songwriters and composers are getting less money through their royalty 
+ checks than ever before The problem in the music industry which also occurs in other industries 
+ like TV film and publishing is that nobody knows who actually owns what Cardstack is working 
+ with Dot Blockchain Media Inc to create a decentralized network which tracks and versions song 
+ 
+ dotblockchainmedia com metadata on a blockchain built on Intels Hyperledger Sawtooth while connecting to the enterprise 
+ systems that run the music business via plug ins through the Cardstack Hub architecture 
+ 
+ 
+ DECENTRALIZED DIGITAL ART TRADING SYSTEM 
+ 
+ Monegraph Inc a New York based art/tech startup pioneered the use of the Bitcoin blockchain to 
+ register and track provenance of digital art Cardstack is working to port the current Bitcoin based 
+ OP_RETURN scheme to an Ethereum based smart contract approach so that exclusive or limitedmonegraph 
+ com 
+ 
+ edition artwork in the existing Monegraph catalog can be bought sold or traded as ERC20 on the 
+ next generation of decentralizing trading protocols Artists Get ready to tokenize your work 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CARDSTACK FOUNDATION 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ The Cardstack Foundation exists to conceptualize and 
+ realize the software driven ecosystem that offers users a 
+ cohesive user experience while rewarding makers and 
+ miners through a fair allocation of value created 
+ 
+ FOUNDATION CHARTER 
+ 
+ 
+ 1 Act as steward for the continual development and improvement of the 
+ Cardstack software architecture and protocols 
+ CARDSTACK 
+ 
+ 
+ 
+ 2 Encourage the publishing of open source code data formats and 
+ documentation within the Cardstack ecosystem 
+ Foundation 
+ 
+ 
+ 3 Facilitate a well functioning market that encourages adoption and usage 
+ of the Cardstack software architecture and protocols 
+ 4 Develop and refine economic and statistical models which guarantee a 
+ fair allocation of rewards to the participants of the Cardstack ecosystem 
+ ABOUT THE CARDSTACK FOUNDATION 5 Educate the world on the value of the Cardstack approach through 
+ advocacy training events and all other means of communication 
+ The Cardstack Foundation is a non profit foundation based in the Canton of 
+ 
+ 6 Fund pioneering research initiatives that can unlock the potential of the 
+ Zug Switzerland Its goal is to promote and develop the Cardstack software 
+ 
+ ecosystem 
+ 
+ architecture protocols and applications The Foundation can support and 
+ finance research and development activities that promote the Cardstack 7 Support the Foundations continuous operation through direct or 
+ software architecture and protocols It will be responsible for the planned indirect contributions from users 
+ fundraiser and ensure that the funds raised are budgeted and allocated to 
+ 
+ 8 Design and implement cryptography based trust models that reward 
+ fulfill its founding charter 
+ 
+ good faith actors and resist attacks from bad actors 
+ The Foundation is overseen by the Foundation Council consisting of three 
+ 
+ 9 Foster an inclusive welcoming community of contributors who believe in 
+ members at the time of publication Chris Tse who acts as the president 
+ 
+ tolerance respect inclusion and hard work 
+ 
+ Justin Thong and Guido Schmitz Krummacher The Foundation Council is 
+ 
+ 10 Delegate the responsibilities to carry out the functions of the Foundation 
+ expected to expand as the ecosystem grows to ensure that the composition 
+ through the selection of competent agents around the world 
+ 
+ of the council reflects the diverse perspectives of the community 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CARDSTACK SYNDICATE 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ Since 2014 the Cardstack Syndicate has shepherded the 
+ growth of the ecosystem It will work with the 
+ Foundation to expand the core development framework 
+ as well as the end user experiences 
+ 
+ 
+ CARDSTACK 
+ 
+ 
+ Syndicate 
+ 
+ 
+ 
+ ABOUT THE CARDSTACK SYNDICATE 
+ 
+ The Cardstack Syndicate is a New York based product design studio that was 
+ founded in 2014 by Chris Tse to build the underlying framework and align 
+ with real world use cases so as to realize the Cardstack vision in an 
+ incremental manner Through the Syndicate the Cardstack ecosystem has 
+ coordinated over USD 3 million worth of research and development efforts 
+ which have resulted in the open source codebase as well as partner projects 
+ that have gone live into production 
+ 
+ After the fundraiser the Cardstack Syndicate will engage the community to 
+ find areas of shared interest in order to continue expanding the 
+ development design and product management expertise across the 
+ spectrum of use cases Our goal is to develop a feature rich out of the box 
+ experience for Cardstack so that developers from both the cloud and the 
+ blockchain world will gain leverage and greatly accelerate the timeline of 
+ their projects if they choose to build on the Cardstack ecosystem 
+ 
+ FUNCTIONS OF THE SYNDICATE 
+ 
+ The members of the Cardstack Syndicate serve as leaders of the open source 
+ software stack design systems and product architecture 
+ 
+ Software Development The Syndicate coordinates the open source 
+ development work via GitHub It will work with both paid and volunteering 
+ open source contributors to increase the breadth and depth of the 
+ Cardstack software architecture and protocols in a collaborative manner 
+ 
+ Crypto Economic Design The Syndicate will research and propose 
+ enhancements to the token mechanisms and the reward allocation model 
+ based on empirical analysis as well as sound economic principles Research 
+ will be published with academic rigor and be available for peer review 
+ 
+ Interaction Pattern Library The user experience team of the Syndicate will 
+ create refine and catalog a reusable library of interaction and orchestration 
+ patterns for building cohesive user experiences that span the blockchain and 
+ cloud infrastructures The patterns will be available as open source code to 
+ ensure ease of integration for developers and designers who have 
+ experience with traditional web development 
+ 
+ Training and Events The Syndicate will work with local organizers to plan 
+ training workshops and educational conferences It will promote the 
+ Cardstack vision and tools to teams around the world 
+ 
+ Media Creation and Advocacy The Syndicate will continue to produce a 
+ wealth of materials ranging from videos to articles documentation 
+ marketing collateral etc The goal is to help people understand the offerings 
+ in the Cardstack ecosystem and encourage participation from makers and 
+ miners end users and customers 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CARDSTACK CONTRIBUTORS (1/3) 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ CHRIS TSE ED FAULKNER HASSAN ABDEL RAHMAN 
+ Founder & Head of Product Cardstack Project Lead Developer Cardstack Project Sr Blockchain Developer Cardstack Project & 
+ Co Founder Monegraph & Dot Blockchain Core Team Member Ember Monegraph 
+ Media Creator of Liquid Fire Previously McGraw Hill Education Sun 
+ Previously Head of R&D McGraw Hill E Labs Previously MIT Media Lab Akamai Microsystems 
+ Sr Dir of Innovation BusinessWeek MSc in Computer Science MIT BSc in Mathematics and Computer Science 
+ BSc in Computer Science Columbia University Colorado School of Mines 
+ 
+ 
+ JUSTIN THONG 
+ 
+ Data Scientist Cardstack Project 
+ Author of the paper titled Proportional 
+ Attribution and Allocation Model 
+ MMath in Mathematics (First Class Honors) 
+ University of St Andrews 
+ KEN ROSSI 
+ 
+ Lead UX Cardstack Project 
+ Previously Creative Director USTA/US Open 
+ BA John Jay College City University of New 
+ York 
+ CHRIS GARDELLA 
+ 
+ Lead Designer Cardstack Project Monegraph & 
+ Dot Blockchain Music 
+ Previously Huge R/GA Area 17 Apple 
+ BA in Graphic Design University of Michigan 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CARDSTACK CONTRIBUTORS (2/3) 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ WILFRED CHAN 
+ 
+ Managing Editor Cardstack Project 
+ Formerly Social Editor Gizmodo Media Group 
+ Writer / Producer CNN 
+ B A in Political Science Columbia University 
+ Freelance Writer / Editor 
+ WILL BAGBY 
+ 
+ Sr Developer Cardstack Project & Monegraph 
+ Previously Bloomberg L P 
+ BSc in Computer Science City University of New 
+ York 
+ ISLA BELL MURRAY 
+ 
+ Interaction Designer & Producer Cardstack 
+ Project 
+ Previously Bustle The Bold Italic Findery 
+ BSc in Psychology University of Edinburgh 
+ VENKAT DINAVAHI 
+ 
+ Contributing Developer Cardstack Project 
+ Previously Coderly WhoWentOut 
+ MSc in Management Science & Engineering 
+ Stanford University BSc in Computer 
+ Engineering University of Maryland 
+ ALEX SPELLER 
+ 
+ Contributing Developer Cardstack Project 
+ Previously Nature Publishing Group 
+ BSc in Artificial Intelligence & Computer 
+ Science University of Birmingham 
+ MAXIMILLIAN KIRCHOFF 
+ 
+ Interaction Designer & Producer Cardstack 
+ Project 
+ Previously Lifion ADP Google The Bold Italic 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CARDSTACK CONTRIBUTORS (3/3) 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ BALINT ERDI 
+ 
+ Contributing Developer Cardstack Project 
+ Author of Rock and Roll with Ember 
+ MSc in Information Technology Budapest 
+ University of Technology and Economics 
+ JACQUELINE THONG 
+ 
+ Head of Operations Cardstack Project 
+ Previously Vestadia International Advisoray 
+ BA in Sustainable Development & Economics 
+ Columbia University 
+ KATRIN NUSSHOLD 
+ 
+ Editor Cardstack Project 
+ Previously Pluto Vermgensverwaltung GmbH 
+ MA in English University College London BA in 
+ English & Comparative Literature Columbia 
+ University 
+ STEVE BOBROV ANNE WRIGHT AARON SIKES 
+ Sr QA Engineer Cardstack Project Event Producer Cardstack Live Sr Developer Cardstack Project 
+ Previously BusinessWeek Bear Stearns Previously Women in the World Media / Tina Previously Dockyard MOTU Hubspot 
+ Citigroup Brown Live Media NBA Entertainment HedgeServ 
+ BA in Computer Science & Psychology Stony BA in Ancient History Middlebury College 
+ Brook University 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ ORGANIZING THE MAKERS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ A growing ecosystem needs input provided by makers 
+ from many disciplines to work in synchrony Early 
+ 
+ ORGANIZATION 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ cooperation coordinated by Cardstack organizers will 
+ make way for healthy competition down the line 
+ 
+ Crowd Jump start the Cardstack 
+ Funding 
+ Proceeds 
+ BOOTSTRAP PHASE 
+ AFTER THE TOKEN SALE 
+ Work in partnership with 
+ Cardstack organizations 
+ 1 
+ to multiple vendors globally 
+ SUSTAINING PHASE 
+ AFTER THE TOKENS START CIRCULATING 
+ 2 
+ Customer 
+ Spend &
+ Usage 
+ Direct Economic Participation 
+ via Reward Pool 
+ CONTRIBUTORS DEVELOPERS DESIGNERS EDITORS SUPPORT TEAMS 
+ OPEN SOURCE WEB & APP UI/UX DEV & WRITERS &PRODUCT & MEDIA 
+ PROFESSIONALS 
+ OSS Support Orgs Consultancies Agencies SaaS Providers Publishers Marketing Firms 
+ Open Source Libs Custom Solutions Reusable Card Sets Hosted Services Stories & Guides Collateral Materials 
+ ecosystem by subcontracting 
+ Makers will receive an ongoing 
+ reward based on how strongly theirproduct drove user adoption 
+ GETTING A RUNNING START 
+ 
+ Since our team works at the interesting 
+ intersection of the blockchain and the 
+ cloud we have met many talented 
+ makers who are intrigued by the 
+ promise of decentralization but do not 
+ know where to start their journey They 
+ are developers designers product 
+ managers writers storytellers 
+ videographers data scientists and 
+ digital strategists For many of them 
+ there is no clear path from their 
+ current positions within the firms that 
+ employ them to the blockchain We 
+ see this as a great opportunity for 
+ Cardstack to become the on ramp to 
+ the blockchain world for these makers 
+ We want them to join the Cardstack 
+ movement and offer their expertise 
+ energy idealism and practical 
+ knowledge to move the project 
+ forward We will recruit hire 
+ subcontract partner educate 
+ promote and collaborate in any way 
+ we can to channel the work of these 
+ makers into the base of the ecosystem 
+ that in turn rewards them through a 
+ virtuous cycle 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ REGULATORY COMPLIANCE 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ At Cardstack we have worked closely with top legal and 
+ tax advisors in the blockchain space in order to design 
+ 
+ ORGANIZATION 
+ 
+ our token mechanisms and structure our fundraiser in 
+ compliance with regulations in Switzerland and the 
+ United States 
+ 
+ 6FUNDRAISER
+ 7RESOURCES
+ MME LEGAL | TAX | COMPLIANCE 
+ 
+ MME is the advisor for the Switzerland based Cardstack Foundation and is 
+ helping the Foundation to structure and conduct the Token Generating 
+ Event (TGE) for the Cardstack ecosystem MME will continue to advise the 
+ Foundation on legal tax and compliance matters going forward 
+ 
+ MCDERMOTT WILL & EMERY 
+ 
+ McDermott Will & Emery is the legal counsel for the US based Cardstack 
+ Syndicate Inc They will advise the organization during and after the Token 
+ Generating Event in regards to its operations business arrangements and 
+ regulatory compliance 
+ 
+ 
+ BITCOIN SUISSE AG 
+ 
+ Bitcoin Suisse is the pre allocation partner for Cardstack Foundation and will 
+ conduct the Know Your Customer (KYC) and Anti Money Laundering (AML) 
+ due diligence for early contributors ahead of the crowd fundraiser 
+ 
+ DEBEVOISE & PLIMPTON LLP 
+ 
+ Debevoise & Plimpton has analyzed the Cardstack Token Mechanism for 
+ compliance with US regulations around Securities Law FinCEN regulations 
+ and other applicable laws 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ FUNDRAISING SCHEDULE 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6 FUNDRAISER 
+ 
+ 7RESOURCES
+ The information in this 
+ section is subject to 
+ change Please visit 
+ cardstack com to 
+ access the most up todate 
+ version 
+ 
+ The Switzerland based Cardstack Foundation will initiate 
+ a fundraiser followed by a series of airdropped awards 
+ so as to distribute tokens to interested participants of 
+ 
+ the Cardstack ecosystem 
+ 
+ A EARLY CONTRIBUTORS B PRE ALLOCATION 
+ TOKEN DISTRIBUTION 
+ 
+ The Foundation will distribute 40% of the total of Cardstack Tokens (CARD) 
+ that will be generated at the Token Generating Event (TGE) to the public 
+ These tokens will be distributed through a series of batches to ensure a fair 
+ allocation to our community of contributors while maintaining compliance 
+ to applicable laws and regulations 
+ 
+ Early Contributors (Batch A) The first batch of tokens will be distributed to 
+ teams and individuals who have been active in the Cardstack community and 
+ have plans to continue to support and grow the ecosystem This process is 
+ conducted manually and is subjected to KYC/AML (Know Your Customer / 
+ Anti Money Laundering) rules during on boarding processes Contributors 
+ in this batch will be offered a bonus of 20% 
+ 
+ Pre Allocation (Batch B) The second batch of tokens is available on a firstcome 
+ first serve basis to members of the Cardstack community who wish to 
+ obtain an allocation of up to $50 000 USD equivalent of CARD and receive a 
+ 10% bonus Interested parties will need to complete an on boarding process 
+ operated by our pre allocation partner Bitcoin Suisse prior to the start of 
+ the pre allocation period Approved participants will be able to contribute 
+ Ether or another cryptocurrency or fiat currency supported by the Bitcoin 
+ Suisse platform For further details please visit www bitcoinsuisse ch 
+ 
+ C CROWD FUNDRAISER D AIRDROP AWARDS 
+ COMMUNITY BUILDING 
+ 
+ To encourage the adoption of Cardstack software architecture and 
+ protocols the Foundation aims to distribute the remaining tokens to the 
+ broadest network of participants possible 
+ 
+ Crowd Fundraiser (Batch C) The next batch of the tokens will be distributed 
+ directly through an open registration process on cardstack com where 
+ contributors who fulfill the KYC/AML requirements can contribute from a 
+ whitelisted Ethereum address up to an individual cap For the first 6 hours of 
+ the crowd fundraiser period the cap will be set at a relatively low number 
+ ensuring that all approved contributors will have enough tokens to redeem 
+ Cardstack based software and services 
+ 
+ To show our appreciation for those community members who have joined 
+ our community in its early days contributors with validated email addresses 
+ showing early participation will be granted a higher cap during these first 6 
+ hours See Section 6 3 for more details 
+ 
+ After these first 6 hours all contribution caps will be raised 
+ 
+ Airdrop Awards (Batch D) Following the TGE the Foundation will announce 
+ and conduct a series of airdrops that will further distribute tokens to 
+ potential interested and active participants of the Cardstack ecosystem 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ 6 2 TOKEN ALLOCATION 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ The majority of Cardstack Tokens will be distributed to 
+ end users makers and miners of the ecosystem A 
+ portion of the tokens will be reserved for the Foundation 
+ 
+ 6 FUNDRAISER 
+ 
+ 7RESOURCES
+ and the Syndicate which will vest on a linear schedule 
+ 
+ 10% 
+ 
+ 40% 
+ 
+ 
+ ECOSYSTEM 
+ 
+ 7%
+ 
+ INITIATIVES 
+ 
+ A 
+ 
+ E 
+ ADVISORS 
+ & AGENCIES 
+ 
+ B 
+ 
+ AVAILABLE 
+ 
+ 
+ CARDSTACK 15% 
+ 
+ FOR PUBLIC 
+ 
+ SYNDICATE & 4 yr vesting after Year 1 
+ TEAM RESERVE 
+ 
+ C 
+ 
+ 
+ D 
+ CARDSTACK 
+ FOUNDATION 
+ RESERVE 
+ 
+ AIRDROPS 
+ 
+ 8% 20% 
+ 
+ 2% per drop 5 yr vesting after Year 1 
+ 
+ TOKEN GENERATING EVENT (6 BILLION TOKENS) 
+ 
+ The Cardstack Foundation will be generating 6 000 000 000 CARD during 
+ the Token Generation Event 60% of the generated tokens will be distributed 
+ in Year 1 through early contributor agreements (Batch A) pre allocation 
+ (Batch B) crowd fundraiser (Batch C) airdrops (Batch D) Year 1 ecosystem 
+ initiatives ( of Batch E) and advisors/partners allocations Allocated tokens 
+ will be available for peer to peer usage at the conclusion of the crowd 
+ fundraiser which will begin no more than 60 days from the conclusion of the 
+ pre allocation period The airdrop awards will occur throughout the first year 
+ with each airdrop event limited to 2% of the generated tokens There will be a 
+ public announcement at least 30 days before each distribution event 
+ allowing interested participants to prepare their prerequisites for the awards 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ TGE 
+ CONTRIBUTORS 
+ CARDSTACK 
+ FOUNDATION 
+ RESERVE 
+ CARDSTACK 
+ SYNDICATE 
+ TEAM ADVISORS 
+ & AGENCIES 
+ AIRDROPS 
+ YR 1 
+ YR 2 
+ YR 4 
+ YR 3 
+ YR 5
+ YR 6MAKERS 
+ & 
+ MINERS 
+ REWARDS 
+ 7
+ 8
+ 910
+ New tokens minted for 
+ makers and miners are 
+ combined with staked 
+ tokens from paying 
+ customers in each reward 
+ pool and then allocated 
+ according to the same 
+ decentralized algorithmic 
+ payment and governance 
+ model detailed in the 
+ Cardstack Reward Paper 
+ 
+ ULTIMATE TOKEN DISTRIBUTION IN 2028 (10 BILLION TOKENS) 
+ 
+ The maximum number of Cardstack Token ever in circulation is 
+ 10 000 000 000 CARD To encourage participation of software makers and 
+ analytic miners early in the Projects adoption cycle especially before a 
+ meaningful number of paying customers arrive the Cardstack Token smart 
+ contract will mint and allocate 4 000 000 000 additional tokens over 10 
+ years whereafter the smart contract will automatically stake newly minted 
+ tokens in reward pools and then allocate them to makers and miners that are 
+ actively offering software and services During the first year 1 000 000 000 
+ tokens will be distributed incrementally over the course of the year In 
+ subsequent years the amount of distribution will be diminished with 
+ cumulative distribution at the end of each year capped by this formula 
+ 6 000 000 000 * (y/(y+5)) 
+ 
+ 
+ 
+ CROWD FUNDRAISER 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ We want to invite all who are interested in being part of 
+ the Cardstack ecosystem to register to participate in the 
+ crowd fundraiser Approved contributors can contribute 
+ 
+ 6 FUNDRAISER 
+ 
+ 7RESOURCES
+ ether up to a statistically derived contribution limit 
+ 
+ REGISTRATION PROCESS 
+ 
+ While the pre allocation is done through a process conducted manually the 
+ registration for the main crowd fundraiser is conducted directly on 
+ cardstack com Please check our website and our Telegram group 
+ periodically to learn when the registration process begins 
+ 
+ In order to comply with KYC/AML regulations in the various jurisdictions we 
+ ask each potential contributor to create a unique user login and provide 
+ some basic level of identification information which will be analyzed and 
+ scored through a risk management system operated by Bitcoin Suisse AG 
+ and/or IdentityMind Global under vendor contracts with the Cardstack 
+ Foundation with strict confidentiality provisions 
+ 
+ Potential contributors will also need to provide an Ethereum address under 
+ their direct control so that the Cardstack Token ledger and the smart 
+ contract can whitelist those addresses during the contribution period 
+ 
+ The Ethereum address for sending funds to the Cardstack Token ledger is 
+ viewable only after a secure user login on cardstack com once the crowd 
+ fundraising period has started Along with the Ethereum address all 
+ registered and approved users will see the contributor specific data field for 
+ linking the user login with the contributors Ethereum address as well as 
+ instructions on how to use an approved ether wallet to send funds 
+ 
+ Do not send funds to any Ethereum address you find elsewhere that claims 
+ to be from Cardstack Not in any Telegram channel or DMs not via email 
+ text message or social posts on Facebook Twitter or Reddit basically not 
+ through any other apps or websites You need to come to cardstack com to 
+ contribute funds We will not actively reach out to you 
+ 
+ INDIVIDUAL CONTRIBUTION LIMITS 
+ 
+ Before the contribution period All potential contributors must register on 
+ cardstack com to take part in our KYC/AML compliance process at least 72 
+ hours prior to the start of the crowd fundraising period No contributor will 
+ be able to join and participate after the registration is closed We will publicly 
+ post the exact Target Proceed Amount in Ether and the Individual 
+ Contribution Limit once the registration is closed These two factors will be 
+ determined based on a statistical analysis of the registration data crossreferenced 
+ with patterns in similar token generation events 
+ 
+ Start of the contribution period When the crowd fundraising period 
+ officially begins registered and approved contributors will have the 
+ opportunity to send funds to the Cardstack Token ledger The amount must 
+ be within the Per Address Contribution Limit which is implemented as a 
+ smart contract enforced quota on all whitelisted Ethereum addresses 
+ Transactions that are above either the contribution limit or the gas limit will 
+ be rejected by the smart contract or the Ethereum network respectively 
+ 
+ Individual contribution caps will start out low during the crowd fundraising 
+ period to ensure broad participation Contributors who have been a part of 
+ community early on may be given a higher contribution cap during this initial 
+ period Caps will be raised for all contributors as the fundraiser progresses 
+ 
+ End of the contribution period The fundraiser ends when the amount of 
+ ether contributed reaches the Target Proceed Amount in Ether or when 30 
+ days have elapsed whichever is earlier At this point funds will no longer be 
+ accepted Cardstack Tokens will be allocated and they will be unlocked 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CRYPTO ECONOMICS DESIGN 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ The Cardstack project implements a payment and 
+ governance mechanism that facilitates the usage of the 
+ software and services via a hybrid token acting as a utility 
+ 
+ 6 FUNDRAISER 
+ 
+ 7RESOURCES
+ token a work token and a reward token 
+ 
+ TOKEN FUNCTIONALITIES 
+ 
+ For end users the project token is a utility token that allows them to mix 
+ and match multiple dApps and cloud apps When users spend a project 
+ token the smart contract forms a retainer agreement between the users and 
+ their chosen apps before the token is staked in a reward pool 
+ 
+ Software developers and service providers whom we collectively call 
+ makers can offer their dApps or cloud apps to users as part of the projects 
+ ecosystem they register their apps by paying a fee thus using the project 
+ token as a work token The fees to be paid by makers are determined by the 
+ smart contract so as to balance the goals of inviting new entrants and 
+ maintaining quality Maker fees once paid are locked in a toll pool and taken 
+ out of active circulation 
+ 
+ Tokens staked in the reward pool by users are periodically distributed to 
+ makers as reward tokens according to a decentralized algorithmic payment 
+ and governance model that rests in the hands of the community This model 
+ is driven by anonymized usage data which is aggregated and tracked by an 
+ on and off chain protocol called Tally Analytic miners help calculate the 
+ reward function that determines who gets paid out what while sifting out 
+ spam therefore making the system fair and resilient The miners results 
+ compete in a sortition scheme we call Proof of Analytics ensuring that the 
+ reward algorithms are never under a single partys control 
+ 
+ Analytic miners can register to participate in the Proof of Analytics scheme 
+ in order to determine how the reward pool is split by paying a fee for every 
+ life cycle of the reward pool These fees are paid as work tokens and locked 
+ in a toll pool as well If a miner is selected to report the final payment splits 
+ that miner receives a portion of the tokens in the reward pool as mining 
+ reward for doing the useful work of number crunching and enforcing the 
+ communitys payment and governance model 
+ 
+ The percentage of tokens in the reward pool to be paid to miners is determined 
+ by the same decentralized algorithms that aim to minimize on chain 
+ transactional fees in aggregate for end users and makers yet ensuring protocol 
+ security by giving a critical mass of analytic miners incentives to compete 
+ 
+ To increase their chance of being selected analytic miners can stake additional 
+ project tokens in a long term stake pool called the voting pool The odds of 
+ being selected through the sortition scheme are proportional to the size of a 
+ miners long term stake Miners who have tokens locked in this long term pool 
+ can however have their stake slashed by the smart contract if the results of 
+ their analytics are deemed to be fraudulent or out of consensus with the 
+ community 
+ 
+ Users and makers can also stake project tokens in the voting pool to influence 
+ the allocation parameters smart contract upgrades analytic algorithm 
+ changes etc For the purpose of allowing project token holders to influence the 
+ governance of the ecosystem a variant of quadratic coin lock voting which 
+ was proposed by Vitalik Buterin is implemented in the smart contract This way 
+ voters who want to wield power through voting must live with their decisions 
+ for longer and align their interests with the long term value of the ecosystem 
+ Staked tokens in the voting pool can be retrieved after the lock up period has 
+ elapsed 
+ 
+ Early on in the project ecosystems growth newly minted tokens are 
+ automatically staked by the smart contract in order to bootstrap the reward 
+ pools with a meaningful number of project tokens so as to attract makers and 
+ miners to participate As more end users arrive the new revenue these paying 
+ customers bring in becomes a major portion of these reward pools allowing 
+ the ecosystem to transition into a sustainable marketplace 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ MINING FUNCTION PROOF OF ANALYTICS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ The reward function in the Cardstack token mechanism 
+ relies on the statistical properties of the underlying 
+ analytical model to randomly select query and reward 
+ 
+ 6 FUNDRAISER 
+ 
+ 7RESOURCES
+ multiple analytic miners through a sortition scheme 
+ 
+ SORTITION BASED ORACLE SELECTION IN THE CARDSTACK REWARD FUNCTION ROLE OF DATA SCIENCE IN 
+ BLOCKCHAIN PROTOCOLS 
+ 
+ 1 Register with a reward 3 Shuffle the order of 4 Query each analytic miner in 5 Dedicate a portion of Most deep data analyses of 
+ pool contract as an registered analytic the shuffled order as an oracle the reward pool and/or blockchain networks have been 
+ analytic miner miners to be contacted until the results converge inflation to the analytic performed as off chain processes 
+ 
+ using the previous Discard outliers Stop and skip miners who helped to visualized as real time charts 
+ blocks hash as a the rest when the confidence fairly distribute rewards 
+ 
+ 2 Extract data and run embedded as screenshots in 
+ randomization seed interval is acceptable to the participants of 
+ 
+ the proportional attribu academic papers or presented as 
+ 
+ machine learning algorithms to 
+ 
+ Accepted Skipped Accepted Skipped Outlier Accepted Accepted 
+ 
+ decide on the next block 
+ 
+ tion and allocation model 
+ as part of Cardstack Hub 
+ Miners can cover the cost 
+ to run the model via SSC 
+ SORTITION ORDER (e g ) 
+ #3 #6 #1 #5 #7 #4 #2 
+ the ecosystem 
+ COMPUTE RATIOS 
+ FOR REWARD POOL 
+ criminal evidence in court cases The 
+ day to day functioning of Blockchain 
+ networks themselves however has 
+ not needed to tap into the power of 
+ data analytics statistical models or 
+ #1 #2 #3 #4 #5 #6 #7 
+ GitHub 
+ Statistics 
+ Cardstack 
+ Terms 
+ Ethereum 
+ Contracts 
+ Metered 
+ Usage 
+ Package 
+ Graphs 
+ Proof of 
+ Burn 
+ As blockchain backed value networks 
+ expand to encompass more real 
+ world activities the use of data 
+ science to synthesize and make 
+ decisions affecting on chain value 
+ creation or transfer will become an 
+ increasingly important area of study 
+ and experimentation We hope to 
+ collaborate with those interested in 
+ this emerging area of blockchain 
+ innovation 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CARDSTACK TOKEN (CARD) LEDGER 
+ Holder 1 Holder 2 Holder 3 Holder 4 Holder 5 Holder 6 Holder 7 
+ Staked tokens can be with 
+ drawn after a period of time 
+ Stake tokens to 
+ gain influence 
+ CARDSTACK TOKEN (CARD) LEDGER 
+ Holder 1 Holder 2 Holder 3 Holder 4 Holder 5 Holder 6 Holder 7 
+ Staked tokens can be with 
+ drawn after a period of time 
+ Stake tokens to 
+ gain influence 
+ VOTING POOL FOR LONG TERM HOLDERS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ The governance of the ongoing operations as well as the 
+ periodic upgrade cycle of the reward function and other 
+ smart contracts in the Cardstack ecosystem will be 
+ 
+ 6 FUNDRAISER 
+ 
+ 7RESOURCES
+ gradually delegated to participants of the voting pool 
+ 
+ TOKENS NOT IN ACTIVE USE CAN BE STAKED IN THE VOTING POOL 
+ 
+ BALLOT PROPOSITIONS 
+ 
+ What should be the next factor to be included in 
+ 
+ the proportional attribution and allocation model 
+ 
+ Proportional Influence Factor (Quadratic coin lock voting) 
+ 
+ VOTING POOL 
+ 
+ 
+ Early Design Social Media Resource Usage 
+ Should we raise the limit of the 
+ Completed ballots may trigger 
+ automatic upgrades of smart 
+ contracts in the ecosystem Proposals Trends Efficiency 
+ 
+ allow proprietary software to 
+ s a mandatory contribution 
+ 1x 1x 1 6x 2 3x 1 6x 1x 
+ 
+ Holder 1 Holder 2 Holder 3 Holder 5 Holder 6 Holder 7 
+ 
+ Note Participation in the voting pool does not grant any voting power over any Cardstack legal entities nor do 
+ the tokens staked in the voting pool generate any interest payments or special inflationary rewards 
+ 
+ PROPORTIONAL INFLUENCE 
+ BASED ON STAKE TIME 
+ 
+ The Foundation will periodically offer 
+ ballot propositions which the 
+ participants of the voting pool can 
+ vote on to guide the evolution of the 
+ Cardstack ecosystem Some of these 
+ ballots are non binding and serve as 
+ forum for stakeholder feedback But 
+ some will trigger the automatic 
+ upgrade of smart contracts or change 
+ the key parameters governing the 
+ reward functions and other on chain 
+ code upon approval by the voters 
+ 
+ Participants need to stake a portion of 
+ their tokens by adding them to the 
+ voting pool to gain influence over 
+ ballot outcomes Staked tokens are 
+ locked for a period of time during 
+ which they cannot be converted to 
+ SSC circulated through the reward 
+ cycle or traded The longer the 
+ tokens are locked voluntarily the 
+ more influence the long term holder 
+ gains However voting power is 
+ progressive This means that every 
+ incremental token from larger holders 
+ has less voting power giving smaller 
+ stakeholders more say in aggregate 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ PROJECT ROADMAP 
+ 
+ Cardstack aims to be one of the 
+ Already Built & Delivered In Development Planning Stages GET MORE OUT OF THE BOX 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ Ambitious projects are shipped one module at a time 
+ Cardstack has been focused on delivering breakthrough 
+ ideas by building up the architecture and features 
+ 
+ 6 FUNDRAISER 
+ 
+ 7RESOURCES
+ incrementally We expect this to continue and accelerate 
+ 
+ feature richest platforms for 
+ 
+ Continuous Looking forward we will work to 
+ Sawtooth 
+ 
+ 2017 2018 2019Contextual 
+ Messaging 
+ Ethereum 
+ VMHyperledger 
+ Cardstack 
+ Token (CARD) 
+ Docker 
+ Containers 
+ Proof of 
+ Analytics 
+ Workflow 
+ System 
+ Content Search & 
+ Cloud 
+ Orchestration Node 
+ MembershipAffiliations 
+ App Shellmunications 
+ Containerized 
+ Components 
+ Git as 
+ Cardstack 
+ for Users 
+ Peer to Peer Native Matrix Com 
+ Cardstack 
+ for Developers 
+ Automated 
+ ML Agents 
+ Card 
+ Catalog 
+ Global 
+ Billing 
+ Stakeholder 
+ GovernanceCardstack 
+ for Networks 
+ In Hub / At Edge 
+ Machine Learning 
+ Released as Available to Networks Ready 
+ 
+ decentralized application 
+ 
+ Open Source Early Adopters for Business 
+ 
+ development with our support for 
+ smart contract code generation 
+ schema driven data management 
+ distributed versioning as well as 
+ 
+ TARGET 
+ 
+ messaging and workflow facilitation 
+ Our plug in architecture makes it 
+ possible to build complex use cases 
+ that leverage multiple blockchains 
+ 
+ FEATURES 
+ 
+ and consensus models like blending a 
+ public ledger for tradable tokens with 
+ 
+ Management Discovery 
+ 
+ a private ledger for scalable 
+ transaction processing within one 
+ cohesive user facing environment 
+ 
+ ARCHITECTURE 
+ 
+ Synchronization 
+ 
+ make it easier to design develop and 
+ deploy Cardstack experiences to any 
+ channel where end users are active 
+ 
+ BREAKTHROUGHS 
+ 
+ We plan to introduce user controlled 
+ machine learning plug ins to 
+ 
+ Truth 
+ 
+ Cardstack Hub which will help users 
+ automate common workflow 
+ decisions so as to increase the 
+ velocity of interactions on business 
+ networks that are built on Cardstack 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ USE OF PROCEEDS 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ We have divided the work of building growing and 
+ governing the Cardstack ecosystem into 6 parallel tracks 
+ Each track can be staffed with domain experts who can 
+ 
+ 6 FUNDRAISER 
+ 
+ 7RESOURCES
+ engage their communities and spread the mission 
+ 
+ MULTI ORGANIZATION APPROACH ROLES & RESPONSIBILITIES 
+ 
+ Cardstack Foundation is responsible 
+ for allocating the proceeds from the 
+ 
+ BUILD THE PLATFORM 
+ 
+ ASSEMBLE THE CARDS 
+ 
+ fundraiser in a way that is compliant 
+ 
+ Solution Architects 
+ Developers 
+ Open Source Software 
+ Digital Strategists with applicable legal and tax 
+ Product Designers 
+ User Experience / 
+ regulations 
+ 
+ Interactive Designers 
+ 
+ Blockchain Architects 
+ DevOps Engineers 
+ 40%
+ 5%15%
+ 10%
+ 10%
+ 20%
+ Syndicate 
+ Studio 
+ Web Developers Cardstack Syndicate serves as the 
+ primary research and development 
+ agency to continue to build the core 
+ platform and integrate other apps and 
+ services as plug ins 
+ ABIDE BY THE MISSION 
+ 
+ FACILITATE BUSINESS 
+ 
+ Smart Contract Writers 
+ General Administration 
+ Cardstack Institute is a subproject of 
+ 
+ Payment Sys Engineers 
+ Accountants & Auditors 
+ the Foundation tasked to analyze 
+ 
+ Vendor Management 
+ Professionals 
+ Legal & Tax Compliance 
+ Professionals how the ecosystem is functioning and 
+ 
+ Financial Analysts 
+ Standard Bodies & 
+ Foundation 
+ 
+ 
+ Financial 
+ to propose improvements for the 
+ 
+ Consortium 
+ 
+ reward function and other models 
+ 
+ Representatives 
+ 
+ Cardstack Studio helps clients and 
+ partners adopt and deploy Cardstack 
+ 
+ PROMOTE FAIRNESS 
+ 
+ ADVOCATE & EDUCATE 
+ 
+ solutions and is primarily funded 
+ 
+ Academic Researchers 
+ Event & Conference 
+ through consulting revenues 
+ 
+ (Math Social Science 
+ 
+ Producers 
+ Computer Science) 
+ 
+ Trainers / Educators 
+ Cardstack Financial works to make it 
+ 
+ Data Scientists Technical Writers 
+ easy to purchase Cardstack software 
+ 
+ Crypto Economists Video Makers 
+ Institute 
+ Live 
+ 
+ 
+ Podcast Producers and services with fiat 
+ Cardstack Live is a subproject of the 
+ Syndicate and produces events rich 
+ media and education materials 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ VISION PAPER & TECHNICAL PAPER 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ To help you gain a deeper understanding of the 
+ Cardstack project our team has prepared two additional 
+ papers one to provide business context and one to 
+ 
+ RESOURCES 
+ 
+ illustrate the mathematics behind the reward function 
+ 
+ CARDSTACK VISION PAPER CARDSTACK REWARD MODEL 
+ 
+ This long form position paper walks you through our perspectives regarding This research paper titled Proportional Attribution and Allocation Model in a 
+ the current conditions in the software cloud computing and blockchain Dependency Network with Intervention at the Sub tree Level provides an 
+ markets It shows why a decentralized token driven approach will finally in depth explanation of the way in which the value created in this ecosystem 
+ unlock the business value of open source software and make way for the can be distributed fairly using mathematical tools at the intersection of data 
+ creation of a sustainable software ecosystem that will succeed the venture science and crypto economics 
+ capital driven business models 
+ 
+ 
+ dierent 
+ trees 
+ receive 
+ dierent 
+ rewards 
+ Furthermore 
+ wealth 
+ distribution 
+ in 
+ reputation based 
+ systems 
+ such 
+ as 
+ 
+ 
+ Cardstack 
+ Reward 
+ Model 
+ Proportional 
+ Attribution 
+ and 
+ PageRank 
+ is 
+ very 
+ unequal 
+ by 
+ nature 
+ Reward 
+ alloca
+ 
+ 
+ tions 
+ based 
+ on 
+ some 
+ value 
+ judgment 
+ of 
+ importance 
+ Allocation 
+ Model 
+ in 
+ a 
+ Dependency 
+ Network 
+ with 
+ Intervention 
+ systemically 
+ lead 
+ to 
+ particular 
+ reward 
+ collectors 
+ receiving 
+ disproportionate 
+ amounts 
+ of 
+ rewards 
+ this 
+ deviates 
+ from 
+ 
+ 
+ in 
+ the 
+ Local 
+ Scope 
+ (PAAM) 
+ 
+ 
+ our 
+ intuitive 
+ judgment 
+ of 
+ equality 
+ Therefore 
+ we 
+ propose 
+ a 
+ two step 
+ reward 
+ system 
+ that 
+ maintains 
+ the 
+ propor 
+ Justin 
+ Thong 
+ and 
+ Chris 
+ Tse 
+ tionality 
+ of 
+ wealth 
+ based 
+ on 
+ importance 
+ and 
+ adjusts 
+ inequalities 
+ through 
+ a 
+ global 
+ reward 
+ This 
+ resembles 
+ the 
+ common 
+ nature 
+ of 
+ a 
+ mixed 
+ economy 
+ where 
+ people 
+ are 
+ rewarded 
+ in 
+ a 
+ competitive 
+ environment 
+ based 
+ on 
+ their 
+ that 
+ enables 
+ the 
+ proportional 
+ distribution 
+ of 
+ rewards 
+ importance 
+ to 
+ a 
+ sub economy 
+ while 
+ government 
+ inter 
+ 
+ Abstract 
+ This 
+ paper 
+ discusses 
+ a 
+ broad 
+ framework 
+ dierent 
+ perspectives 
+ 
+ 
+ Fair 
+ division 
+ approaches 
+ these 
+ questions 
+ through 
+ 
+ 
+ to 
+ nodes 
+ within 
+ a 
+ network 
+ (global 
+ scope) 
+ which 
+ is 
+ ventions 
+ are 
+ used 
+ to 
+ aid 
+ people 
+ who 
+ lack 
+ opportunities 
+ 
+ 
+ game theoretic 
+ methods 
+ A 
+ familiar 
+ example 
+ of 
+ fair 
+ di
+ 
+ 
+ novelly 
+ defined 
+ as 
+ a 
+ union 
+ of 
+ trees 
+ (local 
+ scope) 
+ In 
+ contrast 
+ to 
+ the 
+ usual 
+ flat 
+ giveaway 
+ to 
+ nodes 
+ we 
+ 
+ 
+ vision 
+ is 
+ cake cutting 
+ Fair 
+ division 
+ stems 
+ from 
+ the 
+ idea 
+ distribute 
+ wealth 
+ through 
+ trees 
+ of 
+ the 
+ network 
+ by 
+ of 
+ the 
+ Subjective 
+ Theory 
+ of 
+ Value 
+ according 
+ to 
+ which 
+ II 
+ Problem 
+ Statement 
+ 
+ 
+ Fig 
+ 1 
+ Local 
+ scope(a 
+ tree) 
+ with 
+ random 
+ node 
+ IDs 
+ Node 
+ 2 
+ is 
+ the 
+ root 
+ node 
+ The 
+ weights 
+ placed 
+ on 
+ the 
+ edges 
+ are 
+ the 
+ branch 
+ 
+ 
+ starting 
+ at 
+ particular 
+ nodes 
+ and 
+ propagating 
+ the 
+ the 
+ value 
+ of 
+ a 
+ particular 
+ resource 
+ or 
+ set 
+ of 
+ resources 
+ 
+ 
+ attributions 
+ 
+ see 
+ section 
+ II D 
+ 
+ 
+ rewards 
+ down 
+ to 
+ the 
+ other 
+ nodes 
+ In 
+ this 
+ process 
+ is 
+ subjective 
+ depending 
+ on 
+ the 
+ players 
+ [6] 
+ Since 
+ each 
+ In 
+ this 
+ section 
+ we 
+ formalise 
+ the 
+ problem 
+ Since 
+ the 
+ which 
+ we 
+ call 
+ the 
+ wealth 
+ trickle 
+ the 
+ amount 
+ of 
+ wealth 
+ 
+ 
+ player 
+ places 
+ a 
+ dierent 
+ value 
+ on 
+ the 
+ resource 
+ an 
+ optimal 
+ reward 
+ is 
+ distributed 
+ in 
+ two 
+ dierent 
+ ways 
+ we 
+ define 
+ 
+ 
+ distributed 
+ to 
+ the 
+ nodes 
+ globally 
+ is 
+ proportional 
+ to 
+ the 
+ importance 
+ of 
+ each 
+ node 
+ within 
+ the 
+ global 
+ net
+ 
+ 
+ equilibrium 
+ can 
+ be 
+ attained 
+ 
+ fulfilling 
+ various 
+ definitions 
+ actions 
+ for 
+ particular 
+ rewards 
+ in 
+ two 
+ dierent 
+ scopes 
+ a 
+ B 
+ Network 
+ (Global 
+ Scope) 
+ of 
+ fairness 
+ e g 
+ being 
+ proportionally 
+ fair 
+ envy free 
+ or 
+ local 
+ scope 
+ and 
+ a 
+ global 
+ scope 
+ A 
+ scope 
+ is 
+ simply 
+ a 
+ space 
+ 
+ 
+ work 
+ We 
+ establish 
+ evaluation 
+ metrics 
+ to 
+ formalise 
+ A 
+ network 
+ 
+ is 
+ a 
+ union 
+ of 
+ graph 
+ trees 
+ and 
+ refers 
+ to 
+ this 
+ notion 
+ of 
+ the 
+ definition 
+ of 
+ proportionality 
+ 
+ the 
+ pareto optimal 
+ where 
+ action 
+ occurs 
+ The 
+ conventions 
+ we 
+ will 
+ use 
+ for 
+ the 
+ 
+ 
+ the 
+ global 
+ scope 
+ of 
+ our 
+ space 
+ Although 
+ the 
+ operation 
+ 
+ 
+ fairness 
+ metric 
+ Through 
+ the 
+ observation 
+ of 
+ networks 
+ A 
+ sub body 
+ of 
+ literature 
+ that 
+ is 
+ more 
+ current 
+ is 
+ the 
+ rest 
+ of 
+ the 
+ paper 
+ distinguish 
+ between 
+ the 
+ actions 
+ of 
+ each 
+ that 
+ naturally 
+ possess 
+ the 
+ scale free 
+ property 
+ we 
+ 
+ 
+ of 
+ union 
+ is 
+ well 
+ defined 
+ for 
+ edges 
+ and 
+ vertices 
+ it 
+ is 
+ study 
+ of 
+ importance 
+ in 
+ large 
+ networks 
+ Search 
+ engines 
+ scope 
+ 
+ 
+ not 
+ for 
+ the 
+ node 
+ attributes 
+ The 
+ node 
+ attributes 
+ are 
+ the 
+ unequal 
+ distribution 
+ of 
+ wealth 
+ using 
+ a 
+ global 
+ excluded 
+ because 
+ there 
+ is 
+ no 
+ purpose 
+ in 
+ preserving 
+ the 
+ 
+ 
+ introduce 
+ a 
+ transformation 
+ meant 
+ to 
+ counter balance 
+ 
+ 
+ have 
+ attempted 
+ to 
+ organise 
+ a 
+ large 
+ graph 
+ of 
+ web 
+ pages 
+ 
+ 
+ reward 
+ We 
+ briefly 
+ consider 
+ two 
+ methods 
+ of 
+ combating 
+ by 
+ ranking 
+ them 
+ using 
+ content 
+ and 
+ link based 
+ analysis 
+ A 
+ Graph 
+ Tree 
+ (Local 
+ Scope) 
+ information 
+ at 
+ the 
+ global 
+ scope 
+ The 
+ network 
+ becomes 
+ 
+ 
+ the 
+ adversarial 
+ gaming 
+ of 
+ parties 
+ within 
+ the 
+ network 
+ Term 
+ Frequency 
+ Inverse 
+ Document 
+ Frequency(tf idf) 
+ and 
+ 
+ 
+ by 
+ involving 
+ the 
+ participants 
+ of 
+ the 
+ network 
+ in 
+ the 
+ the 
+ vector 
+ space 
+ model 
+ are 
+ used 
+ to 
+ encode 
+ a 
+ vector 
+ space 
+ 
+ 
+ a 
+ simple 
+ directed 
+ and 
+ unweighted 
+ graph 
+ We 
+ make 
+ the 
+ 
+ 
+ The 
+ local 
+ scope 
+ is 
+ a 
+ directed 
+ tree 
+ graph 
+ G 
+ structure 
+ 
+ 
+ assumption 
+ that 
+ no 
+ two 
+ nodes 
+ can 
+ have 
+ edges 
+ pointing 
+ 
+ 
+ government 
+ process 
+ of 
+ distributing 
+ wealth 
+ Finally 
+ We 
+ use 
+ the 
+ word 
+ local 
+ to 
+ emphasize 
+ the 
+ context 
+ meaning 
+ 
+ 
+ based 
+ on 
+ the 
+ textual 
+ content 
+ of 
+ documents 
+ [5] 
+ Because 
+ real 
+ vector 
+ spaces 
+ have 
+ natural 
+ notions 
+ of 
+ distances 
+ 
+ 
+ we 
+ introduce 
+ an 
+ application 
+ of 
+ the 
+ framework 
+ in 
+ the 
+ to 
+ each 
+ other 
+ thereby 
+ avoiding 
+ the 
+ formation 
+ of 
+ circular 
+ 
+ 
+ that 
+ the 
+ tree 
+ is 
+ a 
+ small 
+ part 
+ of 
+ a 
+ larger 
+ network 
+ The 
+ 
+ 
+ blockchain 
+ space 
+ by 
+ describing 
+ an 
+ o chain 
+ consensus 
+ dependencies 
+ protocol 
+ Proof of Analytics 
+ This 
+ paper 
+ is 
+ intended 
+ documents 
+ can 
+ be 
+ ranked 
+ according 
+ to 
+ their 
+ distances 
+ to 
+ provide 
+ a 
+ plausible 
+ solution 
+ for 
+ a 
+ problem 
+ that 
+ is 
+ from 
+ each 
+ other 
+ or 
+ their 
+ distances 
+ from 
+ a 
+ search 
+ query 
+ is 
+ dependent 
+ on 
+ another 
+ node 
+ similar 
+ to 
+ package 
+ n 
+ 
+ 
+ dependencies 
+ in 
+ software 
+ The 
+ equation 
+ below 
+ expresses 
+ Gi 
+ 
+ 
+ graph 
+ has 
+ directed 
+ edges 
+ which 
+ indicate 
+ that 
+ a 
+ node 
+ 
+ 
+ part 
+ of 
+ ongoing 
+ research 
+ Link based 
+ analyses 
+ in 
+ networks 
+ are 
+ explicitly 
+ used 
+ to 
+ 
+ = 
+ t 
+ (2) 
+ determine 
+ how 
+ important 
+ or 
+ central 
+ a 
+ node 
+ is 
+ within 
+ 
+ 
+ the 
+ i th 
+ tree 
+ in 
+ terms 
+ of 
+ its 
+ set 
+ of 
+ nodes 
+ and 
+ edges 
+ i=1 
+ 
+ 
+ I 
+ INTRODUCTION 
+ a 
+ network 
+ Google 
+ PageRank 
+ [8] 
+ is 
+ one 
+ of 
+ the 
+ most 
+ robust 
+ 
+ 
+ 
+ =(V() E()) 
+ (3) 
+ 
+ 
+ The 
+ utility 
+ of 
+ software 
+ packages 
+ is 
+ ubiquitous 
+ in 
+ our 
+ centrality 
+ measures 
+ that 
+ signal 
+ the 
+ importance 
+ of 
+ the 
+ Gi 
+ =(V(Gi) E(Gi)) 
+ (1) 
+ modern 
+ world 
+ as 
+ evidenced 
+ by 
+ applications 
+ for 
+ numerical 
+ web 
+ page 
+ based 
+ on 
+ the 
+ number 
+ of 
+ web 
+ pages 
+ that 
+ link 
+ 
+ 
+ C 
+ Reward 
+ computing 
+ server 
+ management 
+ and 
+ web 
+ development 
+ It 
+ to 
+ it 
+ and 
+ the 
+ importance 
+ of 
+ those 
+ web 
+ pages 
+ 
+ 
+ In 
+ a 
+ local 
+ scope 
+ the 
+ root 
+ node 
+ becomes 
+ the 
+ source 
+ of 
+ 
+ 
+ Our 
+ model 
+ distributes 
+ rewards 
+ Here 
+ we 
+ define 
+ the 
+ 
+ 
+ is 
+ an 
+ undeniable 
+ fact 
+ that 
+ the 
+ software 
+ being 
+ built 
+ these 
+ The 
+ fields 
+ of 
+ telecommunication 
+ and 
+ wireless 
+ networks 
+ 
+ 
+ incoming 
+ wealth 
+ where 
+ the 
+ reward 
+ arrives 
+ before 
+ it 
+ is 
+ 
+ 
+ type 
+ of 
+ reward 
+ actions 
+ that 
+ take 
+ place 
+ Note 
+ The 
+ words 
+ 
+ 
+ days 
+ is 
+ becoming 
+ more 
+ and 
+ more 
+ integrated 
+ A 
+ particular 
+ use 
+ fairness 
+ metrics 
+ for 
+ the 
+ scheduling 
+ algorithms 
+ for 
+ 
+ 
+ distributed 
+ to 
+ the 
+ dependencies 
+ Each 
+ node 
+ carries 
+ a 
+ set 
+ 
+ 
+ wealth 
+ and 
+ reward 
+ are 
+ used 
+ interchangeably 
+ There 
+ 
+ 
+ web 
+ application 
+ can 
+ have 
+ hundreds 
+ of 
+ core 
+ dependencies 
+ packet 
+ flows 
+ within 
+ the 
+ network 
+ as 
+ a 
+ means 
+ of 
+ prevent
+ 
+ 
+ of 
+ attributes 
+ which 
+ are 
+ 
+ 
+ are 
+ two 
+ types 
+ of 
+ rewards 
+ and 
+ their 
+ dierence 
+ lies 
+ in 
+ the 
+ 
+ 
+ without 
+ which 
+ the 
+ application 
+ would 
+ not 
+ exist 
+ This 
+ ing 
+ congestion 
+ of 
+ data 
+ flow 
+ For 
+ example 
+ proportional 
+ 
+ 
+ 1) 
+ The 
+ proportion 
+ that 
+ determines 
+ the 
+ reward 
+ to 
+ be 
+ scope 
+ culture 
+ of 
+ reusing 
+ software 
+ is 
+ especially 
+ widespread 
+ in 
+ fairness 
+ in 
+ queueing 
+ algorithms 
+ means 
+ that 
+ the 
+ rate 
+ a 
+ 
+ 
+ received 
+ by 
+ the 
+ node 
+ itself 
+ 
+ We 
+ can 
+ possibly 
+ make 
+ 1) 
+ Local 
+ Reward 
+ The 
+ reward 
+ given 
+ to 
+ a 
+ node 
+ in 
+ 
+ 
+ open source 
+ communities 
+ such 
+ as 
+ Github 
+ where 
+ soft particular 
+ channel 
+ receives 
+ is 
+ proportional 
+ to 
+ the 
+ cost 
+ ware 
+ code 
+ is 
+ easily 
+ accessed 
+ and 
+ shared 
+ Our 
+ objective 
+ in 
+ of 
+ delivering 
+ a 
+ packet 
+ therefore 
+ cheaper 
+ packets 
+ are 
+ 
+ 
+ 
+ a 
+ function 
+ of 
+ the 
+ node 
+ located 
+ in 
+ a 
+ tree 
+ For 
+ the 
+ local 
+ scope 
+ as 
+ a 
+ result 
+ of 
+ incoming 
+ wealth 
+ to 
+ simplicity 
+ this 
+ parameter 
+ is 
+ fixed 
+ for 
+ all 
+ nodes 
+ in 
+ the 
+ root 
+ node 
+ Because 
+ rewards 
+ are 
+ passed 
+ down 
+ 
+ 
+ building 
+ this 
+ framework 
+ is 
+ to 
+ ensure 
+ that 
+ if 
+ a 
+ particular 
+ transferred 
+ first 
+ This 
+ is 
+ also 
+ known 
+ as 
+ Weighted 
+ Fair 
+ software 
+ receives 
+ a 
+ reward 
+ this 
+ reward 
+ is 
+ passed 
+ on 
+ to 
+ Queueing 
+ In 
+ economics 
+ many 
+ indexes 
+ or 
+ measures 
+ of 
+ the 
+ 
+ 
+ the 
+ local 
+ scope 
+ (and 
+ the 
+ global 
+ scope) 
+ each 
+ branch 
+ of 
+ a 
+ tree 
+ more 
+ than 
+ one 
+ node 
+ in 
+ the 
+ 
+ 
+ 2) 
+ The 
+ proportion 
+ that 
+ determines 
+ the 
+ reward 
+ to 
+ be 
+ local 
+ scope 
+ receives 
+ one 
+ And 
+ the 
+ reward 
+ received 
+ its 
+ dependencies 
+ the 
+ dependencies 
+ of 
+ its 
+ dependencies 
+ inequality 
+ of 
+ wealth 
+ distribution 
+ have 
+ been 
+ developed 
+ 
+ 
+ passed 
+ on 
+ to 
+ and 
+ received 
+ by 
+ the 
+ first level 
+ depen by 
+ a 
+ particular 
+ node 
+ is 
+ determined 
+ by 
+ the 
+ node 
+ 
+ 
+ and 
+ so 
+ forth 
+ The 
+ idea 
+ is 
+ to 
+ reward 
+ software 
+ that 
+ has 
+ such 
+ as 
+ the 
+ Gini 
+ Coecient the 
+ Theil 
+ Index 
+ and 
+ the 
+ 
+ 
+ dencies 
+ p 
+ also 
+ known 
+ as 
+ a 
+ branch 
+ attribution 
+ For 
+ attributes 
+ of 
+ its 
+ parent 
+ 
+ see 
+ section 
+ II E 
+ 
+ 
+ contributed 
+ to 
+ the 
+ success 
+ of 
+ revenue generating 
+ software 
+ Diversity 
+ Index 
+ Each 
+ of 
+ these 
+ indexes 
+ is 
+ based 
+ on 
+ some 
+ 
+ 
+ now 
+ we 
+ assume 
+ that 
+ this 
+ is 
+ the 
+ final 
+ branch 
+ attri 2) 
+ Global 
+ Reward 
+ The 
+ reward 
+ given 
+ to 
+ every 
+ node 
+ 
+ 
+ and 
+ that 
+ would 
+ not 
+ be 
+ rewarded 
+ otherwise 
+ statistical 
+ justification 
+ that 
+ represents 
+ the 
+ assumption 
+ 
+ 
+ bution 
+ In 
+ the 
+ context 
+ of 
+ filtering 
+ these 
+ proportions 
+ in 
+ the 
+ network 
+ as 
+ a 
+ flat 
+ giveaway 
+ The 
+ global 
+ reward 
+ 
+ 
+ What 
+ we 
+ need 
+ to 
+ ask 
+ ourselves 
+ now 
+ is 
+ this 
+ How 
+ of 
+ an 
+ equal 
+ distribution 
+ of 
+ wealth 
+ without 
+ concern 
+ for 
+ can 
+ we 
+ propagate 
+ these 
+ rewards 
+ proportionally 
+ allocat identifying 
+ players 
+ with 
+ a 
+ particular 
+ share 
+ 
+ 
+ may 
+ be 
+ referred 
+ to 
+ dierently 
+ 
+ section 
+ V B 
+ acts 
+ as 
+ a 
+ wealth adjusting 
+ policy 
+ which 
+ resolves 
+ ing 
+ them 
+ to 
+ software 
+ dependencies 
+ based 
+ on 
+ their 
+ level 
+ Although 
+ much 
+ literature 
+ appears 
+ to 
+ be 
+ hoping 
+ that 
+ It 
+ is 
+ possible 
+ for 
+ a 
+ node 
+ to 
+ be 
+ a 
+ member 
+ of 
+ more 
+ than 
+ 
+ 
+ severe 
+ imbalances 
+ in 
+ the 
+ distribution 
+ of 
+ wealth 
+ 
+ 
+ of 
+ contribution 
+ and 
+ Under 
+ which 
+ circumstances 
+ are 
+ a 
+ solution 
+ to 
+ the 
+ problem 
+ has 
+ already 
+ been 
+ devised 
+ the 
+ two 
+ dierent 
+ trees 
+ therefore 
+ it 
+ is 
+ essential 
+ to 
+ know 
+ which 
+ This 
+ is 
+ also 
+ known 
+ as 
+ the 
+ diversity 
+ reward 
+ 
+ 
+ these 
+ distributions 
+ fair 
+ These 
+ two 
+ open ended 
+ ques problem 
+ persists 
+ in 
+ its 
+ unique 
+ nature 
+ 
+ the 
+ duality 
+ of 
+ a 
+ local 
+ scope 
+ is 
+ being 
+ referred 
+ to 
+ because 
+ a 
+ node 
+ may 
+ have 
+ The 
+ rewards 
+ are 
+ given 
+ in 
+ sequence 
+ 
+ beginning 
+ with 
+ all 
+ 
+ 
+ tions 
+ have 
+ been 
+ considered 
+ by 
+ academic 
+ literature 
+ from 
+ network 
+ and 
+ many 
+ trees 
+ within 
+ the 
+ network 
+ whereby 
+ more 
+ than 
+ two 
+ dierent 
+ sets 
+ of 
+ node 
+ attributes 
+ the 
+ local 
+ rewards 
+ followed 
+ by 
+ the 
+ global 
+ reward 
+ Both 
+ 
+ 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ 7 2 TALKS & PRESENTATIONS 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ Members of the Cardstack team have given a series of 
+ talks on the Cardstack software architecture design 
+ systems and project mission See for yourself how our 
+ 
+ RESOURCES 
+ 
+ views and our software have evolved since 2014 
+ 
+ CARDSTACK TALKS & PRESENTATIONS 
+ 
+ You can view our videos and slide shows under the Media tab at 
+ cardstack com Here are some of the highlights 
+ 
+ Cardstack Overview Chris Tse the founding director of the Cardstack 
+ Project walks you through a series of animations that build up to the 
+ information graphics included in this white paper He shows how the 
+ concepts across technical design market and crypto economics are 
+ connected to maximize the ongoing value creation in this new software 
+ ecosystem 
+ Cardstack Principles This talk is co presented by Chris Tse and Ed 
+ Faulkner (Lead Developer of Cardstack) It presents the 10 core principles 
+ of the Cardstack architecture and explains why we need to uphold and 
+ embrace those principles which are derived from the open Web 
+ architecture and open source ethos in order to create a successful 
+ blockchain backed world that is an improvement on the centralized cloud 
+ regimes This talk is technical in nature and recommended for those who 
+ want to get a deeper understanding of the stack of Cardstack 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ OPEN SOURCE CODE 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ RESOURCES 
+ 
+ Developers contribute to open source to do good 
+ With Cardstack we hope that open source contributors 
+ can do well economically too Lets get started 
+ 
+ OPEN SOURCE CODE 
+ 
+ Cardstack Hub Our core open source repository contains the key 
+ components of Cardstack Hub as well as plug ins to various components 
+ that connect the Cardstack driven experience to different data sources 
+ running on the cloud or as blockchains 
+ Cardstack UX Add ons The front end components of the cohesive user 
+ experience are available for developers to use fork or enhance While the 
+ Cardstack Hub infrastructure can be used stand alone with our UX 
+ components we believe that successful market adoption of this 
+ infrastructure will offer both a powerful (d)App integration and a 
+ consistent polished on ramp for users 
+ Cardstack Token This repository contains all the Solidity source code of 
+ the Ethereum smart contract that governs the Cardstack ecosystem We 
+ will release this codebase to the open source community after it has been 
+ reviewed by multiple external security auditors to ensure that the 
+ propagation of robust code incorporates the security best practices We 
+ hope to collaborate with other blockchain developers so we can improve 
+ on the features efficiency and security of Cardstack smart contracts 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ HOW TO PARTICIPATE 
+ 
+ 1OVERVIEW
+ 2CONCEPTS
+ 3ARCHITECTURE
+ 4ECONOMICS
+ 5ORGANIZATION
+ 6FUNDRAISER
+ Cardstack needs your help to become the decentralized 
+ counterbalance to the centralized superpowers of the 
+ digital age We hope you will be our fuel and catalyst to 
+ 
+ RESOURCES 
+ 
+ bring about the decentralized Internet we all desire 
+ 
+ BECOME A PART OF OUR MOVEMENT 
+ 
+ To learn more about our project you can visit us on the channels listed below We will continue to publish materials 
+ over time If you have feedback feel free to reach out to us on the most appropriate channel 
+ 
+ 
+ https //cardstack com github com/cardstack 
+ 
+ Type our home page URL directly to avoid phishing attacks Star the project to be invited to participate in the reward pool 
+ 
+ telegram me/cardstack 
+ 
+ medium com/cardstack 
+ 
+ Join our community group and get updates on Telegram 
+ 
+ Give us claps on our articles to help spread the message 
+ 
+ @cardstack youtube com/cardstackproject 
+ 
+ Follow us on Twitter which we use as our announcement channel Subscribe to our YouTube channel for interviews and talks 
+ 
+ facebook com/cardstackproject contact@cardstack com 
+ 
+ Follow us on Facebook Email us for anything else including press and partnership inquiries 
+ 
+ 
+ The experience layer of the decentralized Internet 
+ 
+ 
+ 
+ CARDSTACK 
+ 
+ 
+ UPDATED 2018 01 31
+ 2018 CARDSTACK FOUNDATION 
+ 
+ VERSION 104
+ 
+ 

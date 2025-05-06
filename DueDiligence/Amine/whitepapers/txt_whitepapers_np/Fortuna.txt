@@ -1,0 +1,837 @@
+“We shape our tools and afterwards our tools shape us ” ——Herbet Marshall Mcluhan
+ WWW FOTA TOP
+ Contents
+ Summary
+ Summary 11
+ 1 Fortuna
+ 1 Fortuna 22
+ 1 1 Current State of OTC Derivatives Market
+ 1 1 Current State of OTC Derivatives Market 22
+ 1 2 Solutions for Three Core Problems
+ 1 2 Solutions for Three Core Problems 55
+ 1 2 1 Build a Trust Network
+ 1 2 1 Build a Trust Network 55
+ 1 2 2 Improve Operational Efficiency
+ 1 2 2 Improve Operational Efficiency 77
+ 1 2 3 Increase the Liquidity
+ 1 2 3 Increase the Liquidity 99
+ 1 3 Three Dimensional Innovations
+ 1 3 Three Dimensional Innovations 1010
+ 1 3 1 Smaller Granularity Level
+ 1 3 1 Smaller Granularity Level 1010
+ 1 3 2 New Underlying Assets
+ 1 3 2 New Underlying Assets 1111
+ 1 3 3 Higher Availability of Hedging
+ 1 3 3 Higher Availability of Hedging 1212
+ 1 4 Blockchain for Supervision
+ 1 4 Blockchain for Supervision 1212
+ 1 5 Economic Model of Fortuna
+ 1 5 Economic Model of Fortuna 1313
+ 2 Technology
+ 2 Technology 1515
+ 2 1 Fortuna Architecture
+ 2 1 Fortuna Architecture 1515
+ 2 1 1 Bottom Layer
+ 2 1 1 Bottom Layer 1515
+ 2 1 2 Core Component Layer
+ 2 1 2 Core Component Layer 1616
+ 2 
+ 2 1 3 Platform Service Layer1 3 Platform Service Layer 1717
+ 2 1 4 Application Layer
+ 2 1 4 Application Layer 1919
+ 2 2 Fortuna Ecosystem
+ 2 2 Fortuna Ecosystem 1919
+ 2 3 Structured Smart Contract
+ 2 3 Structured Smart Contract 2020
+ 2 4 Role Definition
+ 2 4 Role Definition 2121
+ 2 5 Decentralized Quoting Scheme
+ 2 5 Decentralized Quoting Scheme 2323
+ 2 5 1 The Overall Scheme
+ 2 5 1 The Overall Scheme 2323
+ 2 5 2 SVD
+ 2 5 2 SVD Based Consensus AlgorithmBased Consensus Algorithm 2525
+ 2 5 3
+ 2 5 3 QC Equity Governance and RedistributionQC Equity Governance and Redistribution 2727
+ 2 5 4
+ 2 5 4 Continuous Quoting and Close Out AlertContinuous Quoting and Close Out Alert 3030
+ 2 6
+ 2 6 Contract Life CycleContract Life Cycle 3131
+ 2 6 1
+ 2 6 1 Life Cycle of PrCLife Cycle of PrC 3131
+ 2 6 2
+ 2 6 2 Life Cycle of PuCLife Cycle of PuC 3333
+ 2 7
+ 2 7 DPOSA Consensus AlgorithmDPOSA Consensus Algorithm 3535
+ 2 8
+ 2 8 FOTA Value Locking ServiceFOTA Value Locking Service 3737
+ 2 9
+ 2 9 Compliance FilterCompliance Filter 3939
+ 3 Project
+ 3 Project 4040
+ 3 1 Core Member
+ 3 1 Core Member 4040
+ 3 2 Strategic Partners
+ 3 2 Strategic Partners 4242
+ 3 3 Roadmap
+ 3 3 Roadmap 4343
+ 3 4 FOTA Allocation Plan
+ 3 4 FOTA Allocation Plan 4343
+ Reference
+ Reference 4444
+ “We shape our tools and afterwards our tools shape us ” ——Herbet Marshall Mcluhan
+ 1
+ Summary
+ Summary
+ A Peer
+ A Peer toto Peer Electronic Cash SystemPeer Electronic Cash System11 published by Satoshi Nakmoto in 2008published by Satoshi Nakmoto in 2008 hashas brought a brought a whole whole new new mode of mode of thinking about decentralizationthinking about decentralization With With the the new mode new mode of thinkingof thinking Fortuna Fortuna the first blockchain platform for the first blockchain platform for the the global OTC derivglobal OTC derivatives atives marketmarket solvessolves severalseveral ccore problems and introducesore problems and introduces some some new new features as followfeatures as followss 
+ 1 Build
+ 1 Build a trust networka trust network Fortuna can Fortuna can solvesolve the trthe trust problem ust problem of of the the OTC OTC derderivatives market with ivatives market with consensus consensus algorithm DPOSA structured smart contract algorithm DPOSA structured smart contract decendecentralized quote schemetralized quote scheme digitalized digitalized supervisionsupervision and other techniques of blockchainand other techniques of blockchain 
+ 2 Improve the
+ 2 Improve the operational efficiency operational efficiency As a spAs a specialized blockchain platform for ecialized blockchain platform for derivativesderivatives Fortuna can Fortuna can iimpmproverove thethe operational efficiency ofoperational efficiency of each step each step of transactions of transactions including including contract creation contract creation price quoting contract signatureprice quoting contract signature trading and clearing trading and clearing 
+ 3 Increase the liquidity
+ 3 Increase the liquidity AAs the only medium of exchange accepted by Fortunas the only medium of exchange accepted by Fortuna FOTAFOTA can can enable the platform to enable the platform to embraceembrace the global liquidity the global liquidity pool pool regardless of the regardless of the physical and multiphysical and multi currency barriers currency barriers 
+ 4 M
+ 4 Motivaotivate te userusers to trades to trade Fortuna supportFortuna supports two modes of tradings two modes of trading PrC and PuC PrC and PuC Under Under PrC mPrC modeode uusers cansers can launch a peer to peer launch a peer to peer transacttransaction without any cost of agencion without any cost of agencyy Under Under PuC mPuC mode users can create ode users can create new typenew typess of derivativeof derivatives s and be the market makers and be the market makers while benefiting from the trading volume of the new while benefiting from the trading volume of the new derivativesderivatives created created 
+ 5 
+ 5 Enrich the Enrich the derivatives derivatives market market Users of FortunaUsers of Fortuna cancan crecreate all kinds of ate all kinds of derivatives with derivatives with different underlying assetdifferent underlying assetss deal structuredeal structuress duration durationss margin ratio margin ratioss and other elements of transactionand other elements of transactionss To some extent To some extent Fortuna canFortuna can be be aa worldwide worldwide incubator for innovative derivativeincubator for innovative derivative toolstools 
+ 6 Algorithmic
+ 6 Algorithmic rregulationegulation and selfand self discipline discipline With With algorithmic regulation and algorithmic regulation and selfself disciplinediscipline Fortuna supports Fortuna supports transparent rtransparent real time and full dose eal time and full dose dadata supervision ta supervision SSmart conmart contract digitalized tract digitalized supervision arbitration driven by consupervision arbitration driven by consensus algorithm and sensus algorithm and other new technical features can other new technical features can inspireinspire a new mode a new mode of regulationof regulation and selfand self disciplinediscipline 
+ As
+ As Herbert Marshall McluhanHerbert Marshall Mcluhan saidsaid ““wwe shape our tools and e shape our tools and afterwards our tools afterwards our tools shape us ” shape us ” Fortuna Fortuna will inspirewill inspire a a new new mode of thinking for mode of thinking for the global OTC the global OTC derivatives derivatives market and make market and make the tools of hedging the tools of hedging more available and more available and more more popularpopular 
+ 2
+ 1 
+ 1 FortunaFortuna
+ 1 1
+ 1 1 CCurrent State of OTC Derivatives Murrent State of OTC Derivatives Marketarket
+ 2010 is called
+ 2010 is called the fthe first year oirst year of hedging inf hedging in China becauseChina because securities margin trading securities margin trading and stock index futures and stock index futures were issued were issued in this year in this year which concluded the age of onewhich concluded the age of one sided sided stock market instock market in China As stock index futures securities margin trading China As stock index futures securities margin trading TreasuryTreasury bond bond futuresfutures commodity optioncommodity optionss and other and other derivatives issued many derivatives issued many companies companies begabegan n the the transition from traditional private equity companiestransition from traditional private equity companies to hedge fundto hedge funds adopting all kinds s adopting all kinds ofof investment strategies including long/shortinvestment strategies including long/short macro macro event driven event driven CTA r CTA relative value elative value and otheand otherrss On th On the other hand the e other hand the volume of Chinese futures market reavolume of Chinese futures market reached 4 billion ched 4 billion and and the balancethe balance of securities margin finof securities margin financing reached 900 billion RMBancing reached 900 billion RMB A All the signs ll the signs show that show that the derivatives market of the derivatives market of China has entered a rapid developmChina has entered a rapid development periodent period Moreover Moreover aas the data provided by FIAs the data provided by FIA22 shows shows Asia has become the biggest market in 2016 Asia has become the biggest market in 2016 
+ This chapter will analyze the current state of the derivatives market and introduce
+ This chapter will analyze the current state of the derivatives market and introduce thethe solutionsolutionss for thfor three core problems of the OTC derivatives market Moreover tree core problems of the OTC derivatives market Moreover threehree dimensional valuedimensional value added innovations of Fortuna will be introduced and added innovations of Fortuna will be introduced and the meaning the meaning of blockof blockchain technology for selfchain technology for self discipline and regulation will be analyzed Finally discipline and regulation will be analyzed Finally the business model the business model and the economy design and the economy design of Fortunaof Fortuna will be detailed in this chapterwill be detailed in this chapter 
+ 3
+ In spite of the high speed of development the Chinese derivatives market still have
+ In spite of the high speed of development the Chinese derivatives market still have many problems compared with the markets in America and Europe many problems compared with the markets in America and Europe 
+ 1 Exchange Market lack of derivatives varieties
+ 1 Exchange Market lack of derivatives varieties
+ As the data provided by China Futures Association
+ As the data provided by China Futures Association33 shows there are only four shows there are only four futures exchangefutures exchangess and onlyand only 48 kinds of derivatives48 kinds of derivatives in ein exchangexchange market in market in the first half the first half year of year of 2017 2017 The lack of derivatives The lack of derivatives varietievarieties restrict the possibilities ofs restrict the possibilities of more more participation participation directly and too many demands on directly and too many demands on derivatives are not satisfied derivatives are not satisfied 
+ Exchange
+ Number of Derivatives
+ Name of Derivatives
+ Shanghai
+ Futures Exchange
+ 14
+ Copper Aluminum Zinc Lead Nickel，Tin，Gold，Silver，Steel Rebar，Steel Wire Rod Hot rolled Coils Fuel Oil，Bitumen，Natural Rubber
+ Zhengzhou
+ Commodity Exchange
+ 17
+ Cotton No 1 Japonica Rice Late Rice Rapeseed Oil Wheat PM Wheat WH Early Rice Rapeseed Meal Rapeseed Flat Glass Methanol Ferrosilicon Silicon Manganese PTA Thermal Coal SR Call SR Put
+ Dalian
+ Commodity Exchange
+ 17
+ Corn Corn Starch No 1 Soybean Egg No 2 Soybean Soybean Meal Soybean Oil RBD Palm Olein Fiberboard Blockboard Soybean Meal Options LLDPE PVC PP Coking Coal Coke Iron Ore
+ China Financial Futures Exchange
+ 5
+ CSI 300 Index Futures CSI 500 Index Futures SSE50 Index Futures 5 year Treasury Bond Futures 10 year Treasury Bond Futures
+ Furthermore the unbalanced
+ Furthermore the unbalanced development development of exchange market of exchange market is is obvious For obvious For example example in in the the first half year of 2017 first half year of 2017 5 kinds of derivatives (5 kinds of derivatives (StealSteal Rebar Rebar Bitumen Bitumen Zinc Natural Rubber and Hot Rolled CoilsZinc Natural Rubber and Hot Rolled Coils)) occupied 81% of total volumoccupied 81% of total volume of Shanghai e of Shanghai Futures Exchange and Futures Exchange and the other 9 kinds of derivatives occupied only 19% the other 9 kinds of derivatives occupied only 19% Unbalanced Unbalanced development odevelopment of f exchangeexchange marketmarket implies that under the surface of rapimplies that under the surface of rapid development id development the the Chinese Chinese exchangeexchange derivatives derivatives mmarket is still not maturearket is still not mature 
+ 2 OTC
+ 2 OTC Market Market credit risk and efficiency problemcredit risk and efficiency problem
+ In 2013 China Futures Association issued
+ In 2013 China Futures Association issued Guide Guide for Risk Managemefor Risk Management Service nt Service Carried by SubsidiariesCarried by Subsidiaries Set up by the Futures CompanySet up by the Futures Company44 Since then many futures Since then many futures company in China began to set up subsidiaries to company in China began to set up subsidiaries to provide OTC provide OTC derivativesderivatives service to service to
+ 4
+ satisfy the requirement
+ satisfy the requirementss of risk management and price managemenof risk management and price management in many areas As t in many areas As OTC derivatives market OTC derivatives market in China is in China is developdevelopinging rapidly the credit risk rapidly the credit risk and trust and trust problem problem becomebecome the key issue of the OTC market On the other hand the key issue of the OTC market On the other hand although many institutions although many institutions are trying to build an interare trying to build an inter institution OTC derivatives markinstitution OTC derivatives market the lack of et the lack of authoritative authoritative third third party institution party institution makemakess the interthe inter institution market loose and inefficient institution market loose and inefficient 
+ 3 
+ 3 Whole MarketWhole Market unconnected with the overseas marketunconnected with the overseas market and and insufficient insufficient ininssttituitutional investorstional investors
+ As
+ As FIA 2016 Volume SurveyFIA 2016 Volume Survey22 shows the derivativesshows the derivatives exchangeexchangess of China performed of China performed wellwell based on the volumebased on the volume dimensiondimension 
+ However the derivatives market in China are not connected with the international
+ However the derivatives market in China are not connected with the international market very well for many reasons such as the foreign exchange control policy market very well for many reasons such as the foreign exchange control policy Moreover the lack of Moreover the lack of professional institutional investors is another big problem Since professional institutional investors is another big problem Since the first hedge fund was built in 1949 the market size of hedge fund has jumped from the first hedge fund was built in 1949 the market size of hedge fund has jumped from 39 8 billion dollars to 3 trillion dollars America market occupies 70% Euro market 39 8 billion dollars to 3 trillion dollars America market occupies 70% Euro market occupies 20% and Coccupies 20% and Chinese market only occupies 0 5%hinese market only occupies 0 5% The small market share shows The small market share shows the immature current state and the big room for growththe immature current state and the big room for growth in Chinain China 
+ 5
+ 1 2
+ 1 2 SolutionSolutionss for Three Core Problemsfor Three Core Problems
+ There are four
+ There are four essential essential symbols of asymbols of a mamature financial market including ture financial market including a large pool a large pool of of underlying financial assets abundant derivatunderlying financial assets abundant derivatives global liquidity participation and ives global liquidity participation and efficient regulationefficient regulation Accompanying with the Accompanying with the improvingimproving market maturity the derivatives market maturity the derivatives and risk management service will be in great demand However there are and risk management service will be in great demand However there are still still threethree core core problems problems need to be solvedneed to be solved 
+ 1 How to build a trust network for OTC derivatives market 
+ 1 How to build a trust network for OTC derivatives market 
+ 2 How to improve the operational efficiency of OTC derivatives market 
+ 2 How to improve the operational efficiency of OTC derivatives market 
+ 3 How to increase the liquidity of OTC derivatives market 
+ 3 How to increase the liquidity of OTC derivatives market 
+ 1 2
+ 1 2 1 1 Build a Trust NetworkBuild a Trust Network
+ The trust problem and credit risk not only r
+ The trust problem and credit risk not only restrict the participationestrict the participation but also limit but also limit the pool of liquidity The difficulties to build trust withthe pool of liquidity The difficulties to build trust withinin OTC derivatives market lead OTC derivatives market lead to three structural features of the OTC to three structural features of the OTC derivatives derivatives marketmarket as follows as follows 
+ 1 The ma
+ 1 The majority of jority of participants are big intuitionparticipants are big intuitionss with good credit recordwith good credit recordss The The parparticipation of small enterprisesticipation of small enterprises and individuals are rare and individuals are rare 
+ 2 The
+ 2 The nominal nominal amount of single OTC derivative contract is very big in general and amount of single OTC derivative contract is very big in general and the duration of the contract is very lonthe duration of the contract is very long in general g in general 
+ 3 The variety of OTC derivatives are not developed very well 
+ 3 The variety of OTC derivatives are not developed very well 
+ The third problem seems to be strange because one of the advantages of OTC
+ The third problem seems to be strange because one of the advantages of OTC derivatives market is the feature of supporting personalized contract However the derivatives market is the feature of supporting personalized contract However the credit risk and thecredit risk and the trust problem result in the prudenttrust problem result in the prudent participation of investors especially participation of investors especially when the traders fall under different jurisdiction Therefore the participants are not when the traders fall under different jurisdiction Therefore the participants are not willing to take extra risk with personalized derivative contracts which may have willing to take extra risk with personalized derivative contracts which may have complex deal complex deal structure and new underlying assetstructure and new underlying asset class As the data provided by BISclass As the data provided by BIS55 shows the notional principal reached 48 3 trillion dollarsshows the notional principal reached 48 3 trillion dollars in 2016 Tin 2016 The market share of he market share of currency derivatives (currency derivatives (interest rate and FX derivativesinterest rate and FX derivatives)) are more than 90% are more than 90% 
+ 6
+ The reasons of th
+ The reasons of the trust problem e trust problem withwithin OTC derivatives markein OTC derivatives market are as follows t are as follows 
+ 1 
+ 1 The participants The participants of the OTC derivatives market comeof the OTC derivatives market come from different areas such from different areas such as finance agriculture manufacturing etc as finance agriculture manufacturing etc 
+ 2 The regulation and self
+ 2 The regulation and self disciplinediscipline mechanism is not mature and cmechanism is not mature and complete omplete 
+ 3 Traditional offline signature of contract
+ 3 Traditional offline signature of contract will easily lead to disputation will easily lead to disputation 
+ 4 L
+ 4 Lack of default management ack of default management mechanism mechanism without delay and human intervention without delay and human intervention 
+ The reasons described above
+ The reasons described above turn out to be the trust problem of the OTC derivatives turn out to be the trust problem of the OTC derivatives market which cannot be solved easily in traditional ways market which cannot be solved easily in traditional ways FFortuna introducesortuna introduces a a whole whole new way to solve new way to solve this problemthis problem based on blockchain technology as follows based on blockchain technology as follows 
+ 1 Consensus Algorithm 
+ 1 Consensus Algorithm Fortuna introducesFortuna introduces an optimized version of an optimized version of consensus consensus algorithm based on DPOS algorithm based on DPOS which is called DPOSA to which is called DPOSA to safeguard safeguard the data’s integrity and the data’s integrity and guarantee that it canguarantee that it cannot be tampered with not be tampered with As long as the maliciousAs long as the malicious entities or entities or nodes are nodes are no more tno more than one third of the total numberhan one third of the total number th there will be no fork and moral hazard ere will be no fork and moral hazard 
+ 2 Smart Contract 
+ 2 Smart Contract Fortuna replaces the traditionaFortuna replaces the traditional offline contract signaturel offline contract signature mode mode with programmable and automatic executable smart contract with programmable and automatic executable smart contract based based on the blockchain to on the blockchain to elimieliminate the credit risk of nate the credit risk of derivativesderivatives trading trading activitiesactivities 
+ 3 Digitalized
+ 3 Digitalized Supervision Supervision Fortuna introduces a Fortuna introduces a new new kind of cryptokind of crypto tokentoken FOTAFOTA to unify the exchange media on the plato unify the exchange media on the platform All the participants fromtform All the participants from different areas different areas and jurisdiction will trade derivatives using and jurisdiction will trade derivatives using FOTAFOTA The The FOTAFOTA in margin account will in margin account will
+ 7
+ be supervised for 7*24
+ be supervised for 7*24 hour and no human being canhour and no human being can intervene The intervene The digitalized digitalized supervision mode based on cryptosupervision mode based on crypto token token are much more efficient and transparent are much more efficient and transparent comcompared with the traditional pared with the traditional supervision supervision mode mode carried by commercial bankcarried by commercial bankss 
+ 4 Decentralized Quote Scheme 
+ 4 Decentralized Quote Scheme Fortuna createFortuna createss a decentralized scheme for price a decentralized scheme for price quotingquoting while introducing a mechanismwhile introducing a mechanism similar to corporate equity governancsimilar to corporate equity governance to e to motivate motivate the the quoterquoters s toto fulfill their dutifulfill their duties and eliminate the possibilities of price es and eliminate the possibilities of price manipulatmanipulation ion 
+ 5 Arbitration C
+ 5 Arbitration Carriearried by Whole Nd by Whole Network etwork If aIf a trading node disagreetrading node disagreess with the with the execution result of execution result of derivative derivative contracts it can apply for the arbitration carried by contracts it can apply for the arbitration carried by the the whole network which can safeguard the equity of Fortuna whole network which can safeguard the equity of Fortuna 
+ 6 
+ 6 Lifelong Lifelong Credit Record Credit Record Every node on Fortuna will have a lifelong credit Every node on Fortuna will have a lifelong credit record record based based on blockchainon blockchain which can ensurewhich can ensure the transparency integrity and safetythe transparency integrity and safety of of the credit recordsthe credit records 
+ 7 
+ 7 SelfSelf disciplined by Adisciplined by Algorithm lgorithm Fortuna is an ecological decentralized platform Fortuna is an ecological decentralized platform whiwhich consists of ch consists of five functional roles including five functional roles including CoT makerCoT maker Trader Quoter Marker Trader Quoter Marker Maker and DelegateMaker and Delegate All the definition m All the definition motivation and otivation and restriction restriction setting setting of the five of the five roles of Fortuna are based on algorithm instead of the rules on paper which can ensure roles of Fortuna are based on algorithm instead of the rules on paper which can ensure tthe execution and the efficiency of selfhe execution and the efficiency of self disciplinediscipline of the whole networkof the whole network 
+ In conclusion Fortuna will build a trust network for OTC derivatives market with
+ In conclusion Fortuna will build a trust network for OTC derivatives market with consensus algorithm sconsensus algorithm smart contract digitalized mart contract digitalized supervision decentralized quote supervision decentralized quote scheme whole netscheme whole network arbitratwork arbitration lifelong credit record ion lifelong credit record algorithmic selfalgorithmic self disciplinediscipline and other technical featuresand other technical features 
+ 1 2
+ 1 2 2 2 Improve Operational EfficiencyImprove Operational Efficiency
+ Other than the credit risk and trust problem the low operational efficiency of the
+ Other than the credit risk and trust problem the low operational efficiency of the OTC derivatives market is another OTC derivatives market is another core problem For example the process of OTC core problem For example the process of OTC option transactionoption transaction has 7has 7 steps at least and requiresteps at least and requiress manual operationmanual operationss in many steps in many steps which turnwhich turnss out to be an inefficient process out to be an inefficient process 
+ 8
+ Therefore 
+ Therefore one of one of the core problemthe core problemss of OTC derivatives market is the of OTC derivatives market is the operational operational efficiency efficiency problem problem FFortuna introducesortuna introduces a a blockchainblockchain based based solution for this problesolution for this problemm 
+ 1 Contract Creation and Signature 
+ 1 Contract Creation and Signature Fortuna introduceFortuna introducess structured smart contract structured smart contract which is optimized to meet the demand of operational efficiency There are thrwhich is optimized to meet the demand of operational efficiency There are three layers ee layers of the smart contract main contract contract template and contract of the smart contract main contract contract template and contract Lower layer of Lower layer of contract contract will inherit all the clauses of the contract in higher layer and each layer will set will inherit all the clauses of the contract in higher layer and each layer will set up their own class of clauses Structured smart contract will improup their own class of clauses Structured smart contract will improve the efficiency of ve the efficiency of the contract creation and signature step the contract creation and signature step 
+ 2 Quote Broadcast on Blockchain 
+ 2 Quote Broadcast on Blockchain Fortuna replaceFortuna replacess the traditional the traditional way of way of price price quoting which requires contact with every quoting which requires contact with every potential counterparty potential counterparty one by one thone by one thrrough ough telephone or emailtelephone or email with with brobroadcast on blockchain which can help to reduce the cost of adcast on blockchain which can help to reduce the cost of communication and the response time Moreover the credit record of the trading node communication and the response time Moreover the credit record of the trading node will be attached to the broadcast will be attached to the broadcast information information which can improve the efficiency of which can improve the efficiency of transaction further transaction further 
+ 3 A
+ 3 Automatutomatic Settlementic Settlement with Smart Contract with Smart Contract Fortuna utilizeFortuna utilizess the technical the technical features of smart contract to imfeatures of smart contract to improve the efficiency of transaction settlementprove the efficiency of transaction settlement step step ReplacReplacing manual settlementing manual settlement with programmable and automatic executable smart with programmable and automatic executable smart contract will shortcontract will shorten the en the time and reduce the potentime and reduce the potential errorstial errors 
+ 4 Data Supervision on Blockchain 
+ 4 Data Supervision on Blockchain Fortuna utilizeFortuna utilizess the technical features of the technical features of
+ 9
+ blockchain
+ blockchain and decentralized network to improve the quality and efficiency of data and decentralized network to improve the quality and efficiency of data supervision For example with Fortuna there is no need for supervision For example with Fortuna there is no need for the the regregulator to send audit ulator to send audit requirements torequirements to each institution while worryingeach institution while worrying about the quality timeliness anabout the quality timeliness andd veracity of veracity of data sent by institutions data sent by institutions 
+ In conclusion Fortuna will improve the efficiency and quality of the work such as
+ In conclusion Fortuna will improve the efficiency and quality of the work such as contract creation and signature contract creation and signature price quoting transaction settlementprice quoting transaction settlement and data and data supervision based on the technical features of blockchain and the supervision based on the technical features of blockchain and the optimization of smart optimization of smart contractcontract technologytechnology 
+ 1 2
+ 1 2 3 3 Increase the LiquidityIncrease the Liquidity
+ The t
+ The third core problem of OTC derivatives market is the liquidity problem hird core problem of OTC derivatives market is the liquidity problem due to due to three factors as follows three factors as follows 
+ 1 The foreign exchange control policy restricted the connection between
+ 1 The foreign exchange control policy restricted the connection between Chinese Chinese market and international market market and international market 
+ 2 The personalized contract is hard for secondary trading in nature 
+ 2 The personalized contract is hard for secondary trading in nature 
+ 3 The lack of trust limited the number of participants which restrict the liquidity
+ 3 The lack of trust limited the number of participants which restrict the liquidity of the whole OTC derivatives market of the whole OTC derivatives market 
+ Fortuna
+ Fortuna introduces a sointroduces a solution for this problem based on blockchain technology lution for this problem based on blockchain technology 
+ 1 Unify the Exchange Media with Crypto
+ 1 Unify the Exchange Media with Crypto tokentoken FOTAFOTA Fortuna introduces a Fortuna introduces a new new kind of crypto which is called kind of crypto which is called FOTAFOTA to unify the exchange media on the platform to unify the exchange media on the platform All the participants around the wAll the participants around the world shouorld should trade derivatives usingld trade derivatives using FOTAFOTA on Fortunaon Fortuna regardless of the regardless of the physicalphysical and multiand multi currencycurrency barriers barriers 
+ 2 Support PrC and PuC
+ 2 Support PrC and PuC Trading Mode Trading Mode Fortuna not only introduceFortuna not only introducess a structured a structured smart contract with tsmart contract with three layers but also supportshree layers but also supports two kinds of trading mode PrC and two kinds of trading mode PrC and PuC PuC PrC Mode will enable PrC Mode will enable every trading nodeevery trading node of Fortuna to launch a peerof Fortuna to launch a peer toto peer peer derivative transaction without any derivative transaction without any cost of agencycost of agency PuC Mode ofPuC Mode offer opportunities for fer opportunities for every nodeevery node of Fortuna to be a market maker and create aof Fortuna to be a market maker and create a new market for a new market for a new type of new type of derivative derivative which can bring profit for the creator related to the trading volume of the new which can bring profit for the creator related to the trading volume of the new derivative derivative contract contract PuC is similar to the standardized contracts traded in exchanges PuC is similar to the standardized contracts traded in exchanges whichwhich have better liquidity The biggesthave better liquidity The biggest differendifference between PuC and the exchangece between PuC and the exchange 
+ 10
+ traded
+ traded ccontract is that the ontract is that the exchangeexchange traded contracttraded contract is designed and issued by exchange is designed and issued by exchange but on Fortuna every node could design and issue any kinds of derivative contract on but on Fortuna every node could design and issue any kinds of derivative contract on their demand their demand 
+ 1 3
+ 1 3 Three Dimensional Three Dimensional InnovationInnovationss
+ Other than providing solutions for the three core problems of OTC d
+ Other than providing solutions for the three core problems of OTC derivatives erivatives market Fortuna market Fortuna can can also also make a difference through three dimensional innovationmake a difference through three dimensional innovations for s for OTC derivatives market as follows OTC derivatives market as follows 
+ 1 
+ 1 Support more preciSupport more precise and specific derivativesse and specific derivatives on on a a smalsmaller granularity level ler granularity level 
+ 2 Support new class of underlying assets 
+ 2 Support new class of underlying assets 
+ 3 
+ 3 Support more participants to utilizeSupport more participants to utilize hedging as a scientific risk management tool hedging as a scientific risk management tool 
+ 1
+ 1 3 1 3 1 Smaller Granularity Smaller Granularity LevelLevel
+ The majority of the
+ The majority of the derivatives are derivatives are designed for the majority of the designed for the majority of the participantsparticipants However many investors need some derivatives onHowever many investors need some derivatives on smaller granularity level to manage smaller granularity level to manage their risk more precise and more specificallytheir risk more precise and more specifically For example S&P 500 index futures are For example S&P 500 index futures are good for majority of the investors but there are still a lot of demandgood for majority of the investors but there are still a lot of demand on makingon making S&P S&P 500 a smaller index 500 a smaller index so so that that investors can take more targeted hedging strategyinvestors can take more targeted hedging strategy to manage to manage the risk of their portfoliosthe risk of their portfolios 
+ Furthermore the factors that can affect the price of underlying assets are abundant
+ Furthermore the factors that can affect the price of underlying assets are abundant and investors may have more precise and investors may have more precise prediction and analysis on these single factor rather prediction and analysis on these single factor rather than the price of the underlying assetthan the price of the underlying asset For example a company occupied For example a company occupied in international in international tradtrade between China and America Te between China and America The CEO of the company predicthe CEO of the company predicteded that Trump that Trump would be the presidentwould be the president of U S of U S and hand he believee believed that the result couldd that the result could affect the foreign affect the foreign exchange rateexchange ratess and the international trades However the only way he couldand the international trades However the only way he could manage the manage the risk in trisk in the finical market is to trade foreign exchangehe finical market is to trade foreign exchange derivativederivativess to hedge the riskto hedge the risk but but there are some problems withere are some problems with this way th this way 
+ First of all t
+ First of all the reaction chain is too long Take the international trade company as he reaction chain is too long Take the international trade company as an example the result of the presidential election an example the result of the presidential election can can determine whether Trump has the determine whether Trump has the right to name a new chairman of Fright to name a new chairman of Fed The new chairman of Fed caned The new chairman of Fed can affeaffect the monetary ct the monetary
+ 11
+ policy which can impact
+ policy which can impact the foreign exchange ratethe foreign exchange rate furtherfurther The reacti The reaction chain is too long on chain is too long which leawhich leaddss to a lower precision of hedging to a lower precision of hedging 
+ Second other than the presidential election there are too many factors affecting
+ Second other than the presidential election there are too many factors affecting the foreign exchange the foreign exchange which means even if the CEO predictwhich means even if the CEO predictss the election result correctly the election result correctly he may not benefit from the he may not benefit from the derivatives derivatives tradingtrading in the financial marketin the financial market 
+ Third 
+ Third the presidential election will not only affect the foreign exchange but also the presidential election will not only affect the foreign exchange but also the the tariff policy and other potariff policy and other policies that will affect the international tradelicies that will affect the international tradess between China between China and Aand America The CEO can trade the foreign exchangemerica The CEO can trade the foreign exchange derivativederivatives s to hedge the risk for to hedge the risk for the assets accumulated in history However there is no vethe assets accumulated in history However there is no vehicles in traditional hicles in traditional market for market for him to hedge the risk of the whole business him to hedge the risk of the whole business of international trades of international trades in the future in the future 
+ As for the three problems described above Fortuna support
+ As for the three problems described above Fortuna supportss new typenew typess of of derivativederivatives s on on a a smaller granularity level which can enable investors or hedgers to tradesmaller granularity level which can enable investors or hedgers to trade derivatives on single factor derivatives on single factor such as the monetary policy tariff policy presidential such as the monetary policy tariff policy presidential election etc New type of derivatives on election etc New type of derivatives on a a smaller granularity level will be a new way smaller granularity level will be a new way for investors to for investors to hedge the risk more precisely hedge the risk more precisely 
+ 1 
+ 1 3 23 2 New Underlying AssetsNew Underlying Assets
+ The m
+ The majority of traditional underlying assets of derivajority of traditional underlying assets of derivatives are commodity and atives are commodity and financial securitiesfinancial securities However as all kinds of areas permeated with internet and However as all kinds of areas permeated with internet and technique there are many new classtechnique there are many new classeses of assets coming into being and the derivatives of assets coming into being and the derivatives for the risk mafor the risk management will nagement will definitely definitely be developed afterwards be developed afterwards 
+ For example thousands of crypto
+ For example thousands of crypto tokenstokens around the world based on blockchain around the world based on blockchain technology has been popular for several years There is a technology has been popular for several years There is a great demand ongreat demand on the the derivatives for the cryptoderivatives for the crypto tokenstokens Actually the CME has just Actually the CME has just announced that it will announced that it will publishpublish the BTC futuresthe BTC futures officiallyofficially 
+ For example 
+ For example micromicro amount amount consumer finance through the internet is developing consumer finance through the internet is developing rapidlrapidly in the last few years around the worldy in the last few years around the world The derivatives for the credit assets The derivatives for the credit assets accaccumulated by those iumulated by those internet consumer finance companiesnternet consumer finance companies are necessary and important are necessary and important 
+ As the new technology developed there will
+ As the new technology developed there will be be more and more scenarios and cases more and more scenarios and cases just like the examples above The derivatives and risk management will be on great just like the examples above The derivatives and risk management will be on great
+ 12
+ demand i
+ demand in those areasn those areas afterwards And afterwards And Fortuna Fortuna will will enable every node throughout the enable every node throughout the blockchain to create new typeblockchain to create new typess of derivativeof derivatives s with new typewith new typess of underlying assetof underlying assets s which which will make the OTC derivativwill make the OTC derivatives market a whole new market ines market a whole new market in the future the future 
+ 1 
+ 1 3 33 3 Higher Higher AvailabiAvailability of Hedginglity of Hedging
+ Traditional
+ Traditional derivatives markets are notderivatives markets are not friendly to friendly to many investors for two reasons many investors for two reasons as follows as follows 
+ F
+ First of all hirst of all high threshold of financial knowledge igh threshold of financial knowledge The majThe majority of investors are ority of investors are not not familiar with the derivatives market because of the familiar with the derivatives market because of the complex deal structurecomplex deal structures and s and professional terms However the demand for risk management shows everywhere for professional terms However the demand for risk management shows everywhere for every investevery investor even if they don’t realize andor even if they don’t realize and being blocked by the high threshold of being blocked by the high threshold of financial knowledgfinancial knowledge e 
+ Second 
+ Second hhigh requirement of initial igh requirement of initial depodepositsit Take the stock index futures of China Take the stock index futures of China as an example the initial account deposit requirement is 500as an example the initial account deposit requirement is 500 000 RMB 000 RMB which turnwhich turns out s out to be a to be a high requirement for the majority of investors in China high requirement for the majority of investors in China Although a high Although a high requirement of initial deposit is an effectiverequirement of initial deposit is an effective way to protect the investors by blocking way to protect the investors by blocking them out there will be another way to protect the investors while enabling them to utilize them out there will be another way to protect the investors while enabling them to utilize the derivatives to hedge their risk the derivatives to hedge their risk 
+ As for the higher threshold of financial knowledge and initial deposit Fortuna
+ As for the higher threshold of financial knowledge and initial deposit Fortuna supposupports more friendly vehicles for risk management through lowering the requirement rts more friendly vehicles for risk management through lowering the requirement of initial deposit simplifying the deal structure standardizing contract clauses of initial deposit simplifying the deal structure standardizing contract clauses introducing new asset class and otheintroducing new asset class and other effective means Fortuna canr effective means Fortuna can make more and more make more and more investinvestors know and get used to hedging for risk management ors know and get used to hedging for risk management 
+ 1 4
+ 1 4 BlockBlockchain for Supervisionchain for Supervision
+ A sophisticated
+ A sophisticated regulation system and selfregulation system and self discipline mechanism is a necessary discipline mechanism is a necessary condition for mature financial market As a new technology blockchaincondition for mature financial market As a new technology blockchain could procould provide vide a wholea whole new way for supervision new way for supervision 
+ 1 Build a self
+ 1 Build a self disciplined community based on blockchain disciplined community based on blockchain Fortuna createFortuna creates an s an ecosystem ecosystem with five functional roles including CoT Makerwith five functional roles including CoT Maker TraderTrader Quoter Quoter Market Market
+ 13
+ Maker and Delegate T
+ Maker and Delegate The ecosystem he ecosystem is balanced is balanced through role definition through role definition interaction and interaction and motivation design which is based on motivation design which is based on FOTAFOTA as a tool for punishment and reas a tool for punishment and reward ward Furthermore the whole selfFurthermore the whole self disciplined mechanism is disciplined mechanism is programmable and automatic programmable and automatic executable executable based on algorithmbased on algorithm 
+ 2 
+ 2 Data supervision Data supervision Fortuna supports Fortuna supports transparent real time and full dose trading transparent real time and full dose trading data supervisiondata supervision based on blockchain Moreover there is no need for regulation based on blockchain Moreover there is no need for regulation department to send audit and data requirement to each institution and worrying about department to send audit and data requirement to each institution and worrying about the the quality timeliness and accuracy of the dquality timeliness and accuracy of the data provided by differentata provided by different institutions institutions Fortuna can Fortuna can create a new apcreate a new approach to improve the quality andproach to improve the quality and efficiency of data efficiency of data supervision of OTC derivatives market supervision of OTC derivatives market 
+ 3
+ 3 Inspiration for regulation Inspiration for regulation The new features of structured smart contract The new features of structured smart contract digitalized tradindigitalized trading fund supervision arbitration driven by consensus algorithm and other g fund supervision arbitration driven by consensus algorithm and other core featurcore features of Fortuna could bring a lot of inspirations for the current regulation es of Fortuna could bring a lot of inspirations for the current regulation scheme scheme of OTC derivatives market of OTC derivatives market 
+ 4 
+ 4 Lifelong credit record Lifelong credit record Based on blockchainBased on blockchain technologytechnology Fortuna will record Fortuna will record every node’s behavior information including every node’s behavior information including price price quoting quoting contract contract execution default execution default arbitration etc The credit record will be arbitration etc The credit record will be safeguarded lifelong and safeguarded lifelong and transparent to the transparent to the whole blocwhole blockchainkchain 
+ Fortuna will
+ Fortuna will utilize and optimize the cutilize and optimize the core technical features of blockchain to offer ore technical features of blockchain to offer tools and inspirations for the regulation and selftools and inspirations for the regulation and self discipline mechanism for OTC discipline mechanism for OTC derivatives market derivatives market 
+ 1 5
+ 1 5 EconomicEconomic Model of FortunaModel of Fortuna
+ First
+ First and foremost and foremost as an open source project based on blockchain as an open source project based on blockchain Fortuna Fortuna is is owned by every nodeowned by every nodess of the chainof the chain Moreover Fortuna will not charge any nodes for Moreover Fortuna will not charge any nodes for any kinds of fee and aany kinds of fee and all the potential fee ll the potential fee will bwill be charged by e charged by nodes offering different nodes offering different kinds of services Fortuna will introduce a utilitykinds of services Fortuna will introduce a utility based crypto token FOTA which wibased crypto token FOTA which will ll be used as the exchange media for the derivatives trading The total amount of FOTA be used as the exchange media for the derivatives trading The total amount of FOTA will be 1 billion will be 1 billion 
+ For example 
+ For example there is a Contract Template created by a CoT maker and the CoT set there is a Contract Template created by a CoT maker and the CoT set
+ 14
+ its transaction fee standard All the transaction fee from the concre
+ its transaction fee standard All the transaction fee from the concreate contracts ate contracts produced by this CoT will be distributed to three type of serving nodes produced by this CoT will be distributed to three type of serving nodes NodeNode TypeType DDescriptionescription CoT MakerCoT Maker
+ CoT maker could benefit from the commission of the contract
+ CoT maker could benefit from the commission of the contract created and traded under the CoTcreated and traded under the CoT（（Contract TemplateContract Template）） QuoterQuoter
+ Quoter on Fortuna will get
+ Quoter on Fortuna will get FOTAFOTA based on their shares of quoter based on their shares of quoter corporation providing price quoting service for trading activities corporation providing price quoting service for trading activities DelegateDelegate
+ 101 delegates elected by whole
+ 101 delegates elected by whole networknetwork each round based on each round based on DPOSA DPOSA consensus consensus algalgorithm will get a certain percentileorithm will get a certain percentile of of the the commission fromcommission from the contract stored in the the contract stored in the blocks which is produced blocks which is produced by delegatesby delegates 
+ M
+ Moreover oreover there are many kinds of roles on Fortuna could make profit through the there are many kinds of roles on Fortuna could make profit through the decentralized platform and this alldecentralized platform and this all win mechanism design would be beneficial forwin mechanism design would be beneficial for thethe sustainable development of Fortunasustainable development of Fortuna RolesRoles SSourceourcess of Profitof Profit DelegateDelegate
+ Fortuna will newly issue 1%
+ Fortuna will newly issue 1% of whole FOTAof whole FOTA as a reward as a reward for all for all the delegates producing the delegates producing blockblockss to store data to store data Market MakerMarket Maker
+ Under the PuC trading mode every node could be a market
+ Under the PuC trading mode every node could be a market maker to earn the bidmaker to earn the bid ask spread in ask spread in FOTAFOTA FVLSFVLS
+ FVLS nodes
+ FVLS nodes will provide will provide FOTAFOTA value locking servicvalue locking service for the e for the trading nodes to ensuretrading nodes to ensure that the that the FOTAFOTA value compared with other value compared with other cryptocrypto tokenstokens or currencies will be the same during the contract or currencies will be the same during the contract period FVLS will be a good tool period FVLS will be a good tool for risk management and FVLS for risk management and FVLS nodes nodes will charge for it will charge for it 
+ 15
+ 2 
+ 2 TeTechnologychnology
+ 2 1
+ 2 1 FortunaFortuna ArchitectureArchitecture
+ The architecture of Fortuna is as follows
+ The architecture of Fortuna is as follows 
+ 2 
+ 2 11 1 1 BBottom Layerottom Layer
+ T
+ There arehere are many advantages of building an application based on existing blockchain many advantages of building an application based on existing blockchain 
+ Fortuna Blockchain
+ Main Contract
+ Virtual Machine
+ DPOSA Consensus Algorithm
+ P2P network transmission
+ Storage
+ Core Components
+ Contract Structure
+ Role Definition
+ Quote Scheme
+ Services on the Platform
+ CoT Creation
+ PrC Trade
+ PuC Trade
+ Market Maker
+ Quote Corporation
+ FVLS
+ Price Alert
+ Applications for Hedge
+ Wallet for PC
+ Wallet for Web
+ Wallet for Mobile
+ This chapter will introduce the
+ This chapter will introduce the architecture of Fortuna and the details of four architecture of Fortuna and the details of four layers including bottom layers including bottom layer core component layer platform service component layer core component layer platform service component layer and application layer Moreover the structured smart contract multilayer and application layer Moreover the structured smart contract multi roles roles definition decentralized quote scheme and the life cycle of PrCdefinition decentralized quote scheme and the life cycle of PrC//PuC contracts are PuC contracts are detailed DPOSA is discussed as an detailed DPOSA is discussed as an optimized version of DPOS consensus algorithm optimized version of DPOS consensus algorithm The meaning of FVLS is analyzed and the compliance filtering scheme is given in The meaning of FVLS is analyzed and the compliance filtering scheme is given in the last part the last part 
+ 16
+ such as lowering the technical threshold improving developing efficiency 
+ such as lowering the technical threshold improving developing efficiency automatic automatic iteration etc However iteration etc However Fortuna still choose to build a complete blockchain from scratch Fortuna still choose to build a complete blockchain from scratch becausebecause an optimized an optimized and independent blockchain willand independent blockchain will be more appropriate for the be more appropriate for the global OTC derivatives market which needs eight coglobal OTC derivatives market which needs eight core features at least as follows re features at least as follows Feature BitCoin Ethereum Fabric Qtum Application Ecosystem
+ 
+ 
+ 
+  Virtual Machine
+ 
+ 
+  Crypto Token
+ 
+ 
+  Quote Scheme
+ 
+ TPS
+ 
+  Scalable
+ 
+ Smart Contract Upgrade
+ Search
+ 2 
+ 2 11 2 2 Core Component LayerCore Component Layer
+ The core component layer of Fortuna consists of structured smart contract role
+ The core component layer of Fortuna consists of structured smart contract role ddefinition and efinition and decentralizeddecentralized quote quote schemescheme 
+ 1 
+ 1 Structured Smart ContractStructured Smart Contract
+ In order to meet
+ In order to meet the special requirementthe special requirementss of OTC derivativof OTC derivatives market Fortuna es market Fortuna introducesintroduces structured smart contract with three layers including main contract layer structured smart contract with three layers including main contract layer CoT CoT ((contract templatecontract template)) layer and contract layer The structulayer and contract layer The structured smart contract design can red smart contract design can improve the operational efficiency for contract creation matching signature and improve the operational efficiency for contract creation matching signature and clearing by reducing the repetitive work Moreover there are two kinds of contractclearing by reducing the repetitive work Moreover there are two kinds of contract at at the contract layerthe contract layer PrC PrC (Private Contract) (Private Contract) and PuCand PuC (Publi(Public Contract)c Contract) PrC PrC trading trading mmode ode will enable every user of Fortuna to launch a peerwill enable every user of Fortuna to launch a peer toto peer derivative peer derivative contract contract transaction transaction
+ 17
+ without any transaction cost
+ without any transaction cost PuC PuC trading trading mmode offerode offerss opportunities for every user of opportunities for every user of Fortuna to be a market maker and create a new market for a Fortuna to be a market maker and create a new market for a new type of derivative new type of derivative which can bring profit for the creator related to the trwhich can bring profit for the creator related to the trading volume of the new derivativeading volume of the new derivative 
+ 2 Role Definition and Interaction Design
+ 2 Role Definition and Interaction Design
+ F
+ Fortunaortuna buildbuildss a healthy ecosystem through the role definitiona healthy ecosystem through the role definition and interaction and interaction design There are five functdesign There are five functional roles of Fortuna which areional roles of Fortuna which are CoT maker Trader Quoter CoT maker Trader Quoter Market Maker and Delegate Market Maker and Delegate Based on the motivation design with Based on the motivation design with FOTAFOTA and the and the cooperation mechaniscooperation mechanism m design design of the five roles the decentralized system for OTC of the five roles the decentralized system for OTC derivative marderivative market can develop in a healthy and sustainable wayket can develop in a healthy and sustainable way 
+ 3 Decentralized Quote Scheme
+ 3 Decentralized Quote Scheme
+ As a decentralized network for OTC derivatives market based on blockchain
+ As a decentralized network for OTC derivatives market based on blockchain technology Fortuna ntechnology Fortuna needs to support price quoting service eeds to support price quoting service which which can provide the price can provide the price of underlying assets for of underlying assets for settlement and clearing of derivatives contracts All the nodes settlement and clearing of derivatives contracts All the nodes on Fortuna can be a quoter node afteron Fortuna can be a quoter node after the QNS (Quote Name Servicethe QNS (Quote Name Service)) verificationverification Every Every quoter needs tquoter needs to be a member of a QCo be a member of a QC (Quote Corporation) in order to provide the price (Quote Corporation) in order to provide the price quoting service of some kinds of underlying assets Every quoter has equities of a QC quoting service of some kinds of underlying assets Every quoter has equities of a QC and will benefit from the profit of QC based on the equities owned Moreover an equity and will benefit from the profit of QC based on the equities owned Moreover an equity redistriburedistribution mechanism is introduced for motivating all the quoter nodes to fulfilltion mechanism is introduced for motivating all the quoter nodes to fulfill their their duties and prohibiting the exit scamduties and prohibiting the exit scam88 risk risk 
+ 2 
+ 2 11 3 3 Platform Service LayerPlatform Service Layer
+ 1 CoT Creation
+ 1 CoT Creation
+ All the nodes
+ All the nodes on Fortuna canon Fortuna can create its own CoTcreate its own CoT ((contract templatecontract template)) and the CoT and the CoT needs to confirmneeds to confirm the underlying asset dethe underlying asset deal structure al structure and other elements of transaction and other elements of transaction A CoT creator needs to deposit some A CoT creator needs to deposit some FOTAFOTA to guarantee that it will not do something to guarantee that it will not do something that is harmful for other nodes and the whole platform such as creatithat is harmful for other nodes and the whole platform such as creating a lot of useless ng a lot of useless CoT A CoT creator will benefit from the CoT A CoT creator will benefit from the commission related to the trading volume of commission related to the trading volume of the contracts under the CoT the contracts under the CoT 
+ 2 PrC Trading
+ 2 PrC Trading
+ Fortuna introduce
+ Fortuna introducess a PrCa PrC (Private Contract) trading mode which will (Private Contract) trading mode which will enable every enable every
+ 18
+ user of Fortuna to
+ user of Fortuna to launch a peerlaunch a peer toto peer derivative transaction witpeer derivative transaction withhoutout anyany costcost of of agency agency A PrC should define the settlement time delivery price margin ratio price of A PrC should define the settlement time delivery price margin ratio price of derivative short or long position and other elements of transaction derivative short or long position and other elements of transaction 
+ 3 PuC Trading
+ 3 PuC Trading
+ Fortuna introduce
+ Fortuna introduces a PuC (Public Contract) trading mode which can s a PuC (Public Contract) trading mode which can offer offer opportunities for every user of Fortuna to be a market maker and create a new market opportunities for every user of Fortuna to be a market maker and create a new market for a new type of derivative contract which can bring profit for the creator related to the for a new type of derivative contract which can bring profit for the creator related to the trading volume of the netrading volume of the new contract w contract A PuC should define the settlement time delivery A PuC should define the settlement time delivery price margin ratio price of derivative market maker and other elements of transaction price margin ratio price of derivative market maker and other elements of transaction 
+ 4 Market Making
+ 4 Market Making
+ A PuC will choose a node to be the market maker for itself and the market maker
+ A PuC will choose a node to be the market maker for itself and the market maker can eacan earn the bidrn the bid ask spread from the market makingask spread from the market making activitiesactivities On the other hand a On the other hand a market maker needs to deposit some market maker needs to deposit some FOTAFOTA to guarantee that it can provide liquidity for to guarantee that it can provide liquidity for the market the market 
+ 5 
+ 5 Price QuotingPrice Quoting
+ A lot of Quote Corporations will provide price quoting service of underlying assets
+ A lot of Quote Corporations will provide price quoting service of underlying assets for the for the settlement of settlement of derivatives transaction in OTC market and will charge for service derivatives transaction in OTC market and will charge for service All the quoters of a quoAll the quoters of a quoterter corporation will benefit from the whole profit of the corporation will benefit from the whole profit of the ccorporation based on the equities owned by quoters orporation based on the equities owned by quoters 
+ 6 FVLS
+ 6 FVLS
+ As a decentralized platform for hedging 
+ As a decentralized platform for hedging the most important meaning of Fortuna is the most important meaning of Fortuna is help investors to managehelp investors to manage thethe risk ofrisk of theirtheir portfolio portfolio FOTAFOTA as the only exchange medium as the only exchange medium of Fortuna can help Fortuna to embrace the international liquidity regardless of physical of Fortuna can help Fortuna to embrace the international liquidity regardless of physical and multiand multi currency barriers However the fluctuation of the value of currency barriers However the fluctuation of the value of FOTAFOTA will post a will post a negative influence on the efficiency of risk mannegative influence on the efficiency of risk management which will damage the meaning agement which will damage the meaning of hedging Therefore Fortuna introduces a kind of service which is called FVLS (of hedging Therefore Fortuna introduces a kind of service which is called FVLS (FOTAFOTA value lockvalue locking service) FVLS caning service) FVLS can help users to trade derivathelp users to trade derivatives wives without the influence ithout the influence of the fluctuation of of the fluctuation of FOTAFOTA value value and Fortunaand Fortuna will charge for FLVS at a reasonable level will charge for FLVS at a reasonable level 
+ 19
+ 2 
+ 2 11 4 4 Application LayerApplication Layer
+ In order to provide great user ex
+ In order to provide great user experience Fortuna will publishperience Fortuna will publish different versions different versions of of wallet and platform for PC web and mobile pwallet and platform for PC web and mobile phones to satisfy users’ requirements about hones to satisfy users’ requirements about security effsecurity efficiency and availability In addition a light application allows users only iciency and availability In addition a light application allows users only need to download the head of the block instead of the whole block while supporting need to download the head of the block instead of the whole block while supporting secure block asecure block access for user to create a CoTccess for user to create a CoT//PrCPrC//PuC and trade the derivatives on PuC and trade the derivatives on Fortuna Fortuna 
+ 2 2
+ 2 2 FortunaFortuna EcosystemEcosystem
+ The whole ecosys
+ The whole ecosystem of Fortuna is as followstem of Fortuna is as follows 
+ The whole ecos
+ The whole ecosystem of Fortuna is built ystem of Fortuna is built on Fortuna blockcon Fortuna blockchain and three core hain and three core components including components including structured smart contract decentralized quote scheme role structured smart contract decentralized quote scheme role definition and interaction design definition and interaction design 
+ A CoT Maker can
+ A CoT Maker can create all kinds of contract templatecreate all kinds of contract templatess under the unified main under the unified main contract The CoT created will define the underlying asset the deal structure andcontract The CoT created will define the underlying asset the deal structure and the the chosen Quote Corporation chosen Quote Corporation A Contract Trader can create a A Contract Trader can create a PrCPrC andand search for the search for the counterparty to trade Alternatively a Contract Trader can counterparty to trade Alternatively a Contract Trader can create a Pcreate a PuC under a CoT to uC under a CoT to launch launch long or short trading long or short trading activities activities with other nodes with other nodes A Quoter of a Quote CorpoA Quoter of a Quote Corporation ration
+ 20
+ can provide price quoting service for one kind of underlying asset and the quoted price
+ can provide price quoting service for one kind of underlying asset and the quoted price would be the basis for settlement of transactions would be the basis for settlement of transactions A Market MakerA Market Maker will provide liquidity will provide liquidity for the PuC and the delegates elected by DPOSA consensus algorithm will produce for the PuC and the delegates elected by DPOSA consensus algorithm will produce blocks for storing dblocks for storing data Fortuna will develop in a healthy and sustainable wayata Fortuna will develop in a healthy and sustainable way through through the cooperation of all the roles and the motivation design basthe cooperation of all the roles and the motivation design based ed on on FOTAFOTA as the as the punishment or repunishment or reward ward 
+ 2 
+ 2 3 3 Structured Smart ContractStructured Smart Contract
+ The structured smart co
+ The structured smart contract of Fortuna is as followsntract of Fortuna is as follows 
+ 1 
+ 1 Fortuna Main ContractFortuna Main Contract
+ The Fortuna Main Contract is the only main contract accepted by Fortuna and the
+ The Fortuna Main Contract is the only main contract accepted by Fortuna and the clauses are similar to the main contract of clauses are similar to the main contract of NAFMIINAFMII SAC and other SAC and other selfself regulatory regulatory organization for OTC derivatives Every trader on Fortuna will sign the mainorganization for OTC derivatives Every trader on Fortuna will sign the main contract contract before tbefore they start hey start trading activities and will come to an agreement about the constitution trading activities and will come to an agreement about the constitution of contracts efficacy level of contracts duty of payment and delivery definition of of contracts efficacy level of contracts duty of payment and delivery definition of default default management definition of termination interest compensation expensedefault default management definition of termination interest compensation expense arbitration and other nonarbitration and other non transactional elements transactional elements 
+ 2 
+ 2 Contract TemplateContract Template
+ A Contract Tem
+ A Contract Template is called CoT and all the plate is called CoT and all the users of Fortunusers of Fortuna cana can create their own create their own CoT with different underlying assets (commodities currencies bonds stocks credit CoT with different underlying assets (commodities currencies bonds stocks credit assets cryptoassets crypto tokenstokens event eventss etc ) deal structures (forwards swaptions American etc ) deal structures (forwards swaptions American Options European Options LMSROptions European Options LMSR99 etc ) restrictive clauses and other core elements etc ) restrictive clauses and other core elements of transactions Every CoT canof transactions Every CoT can produce a lot of contracts produce a lot of contracts 
+ Fortuna Main Contract
+ Contract Template 1
+ PrC1
+ PrC2
+ PuC3
+ PuC4
+ CoT 2
+ PrC1
+ PuC2
+ PrC3
+ CoT 3
+ PuC1
+ PuC2
+ Prc3
+ 
+ 
+ 21
+ 3 
+ 3 PrCPrC
+ A Private Contract is called PrC
+ A Private Contract is called PrC and a PrC is a kind of derivative contract which is and a PrC is a kind of derivative contract which is appropriate for peer to peer trading mode PrC will inherit all the clauseappropriate for peer to peer trading mode PrC will inherit all the clauses ofs of the the correspondcorrespondinging CoT and will define the settlement time delivery price margin ratio CoT and will define the settlement time delivery price margin ratio contract price short/long directioncontract price short/long direction and other elements of transaction PrC has and other elements of transaction PrC has disadvantages of liquidity and matching efficiency but it has the advantages of peer to disadvantages of liquidity and matching efficiency but it has the advantages of peer to peer trading and lower cost of agencies peer trading and lower cost of agencies 
+ 4 
+ 4 PuCPuC
+ A Public Contract is called PuC and a PuC is a kind of derivative contract
+ A Public Contract is called PuC and a PuC is a kind of derivative contract which is which is appropriate for N to N trading mode requiring the participation of market makers The appropriate for N to N trading mode requiring the participation of market makers The creator of the correspondcreator of the correspondinging CoT is the market maker in default unless the creator CoT is the market maker in default unless the creator choose another node to bechoose another node to be the market maker for the PuC underthe market maker for the PuC under the CoT PuC willthe CoT PuC will inherit inherit all the clauses of the correspondall the clauses of the correspondinging CoT and will define the settlement time delivery CoT and will define the settlement time delivery price margin ratio contract priceprice margin ratio contract price and other elements of transactions PuC is very similar and other elements of transactions PuC is very similar to the contracts traded in the derivatives exchange However the biggest difference to the contracts traded in the derivatives exchange However the biggest difference between them is that the standardized contracts traded in exchange is designed and between them is that the standardized contracts traded in exchange is designed and published by exchangpublished by exchanges and no ues and no users cansers can make make changes On the contrary PuC arechanges On the contrary PuC are designed and created by users of Fortunadesigned and created by users of Fortuna Another big difference is that the commission Another big difference is that the commission of the standardized contracts traded in exchange of the standardized contracts traded in exchange is all for is all for the exchanges while the exchanges while the the commission of PuC will commission of PuC will all all belong tobelong to the CoT Creators Therefore although the PuC the CoT Creators Therefore although the PuC has the feature of great liquidity with market making the PuC is a nhas the feature of great liquidity with market making the PuC is a new type of derivative ew type of derivative contractcontract compared with the contracts traded at exchanges compared with the contracts traded at exchanges 
+ 2 
+ 2 4 4 Role DefinitionRole Definition
+ Five kinds of
+ Five kinds of roles of Fortuna are as foroles of Fortuna are as follows llows 
+ 1 CoT Maker
+ 1 CoT Maker
+  All the users couAll the users could create their own CoT while defining the ld create their own CoT while defining the deal structure and deal structure and underlying asseunderlying assets ts at liberty at liberty 
+  A CoT Maker nA CoT Maker needs to assign a quote corporation to provide the price quoting eeds to assign a quote corporation to provide the price quoting service of the chservice of the chosen underlying assetosen underlying asset 
+ 22
+  A CoT Maker will benefit from the trading volume of the contracts under A CoT Maker will benefit from the trading volume of the contracts under the the CoTCoT Th This kind of mechanism will motivateis kind of mechanism will motivate CoT Maker nodes to create reasonable and CoT Maker nodes to create reasonable and popular CoT to gain more profits popular CoT to gain more profits 
+  A CoT Maker needs to deposit a certain amount of A CoT Maker needs to deposit a certain amount of FOTAFOTA to guaranto guarantee that it tee that it will not damage the ecosystem of Fortuna such as crewill not damage the ecosystem of Fortuna such as creating a lot of uselessating a lot of useless CoTCoT 
+ 2 
+ 2 CContract ontract TraderTrader
+  All the users with All the users with FOTAFOTA cancan trade alltrade all kinds of derivatives kinds of derivatives on Fortuna to on Fortuna to manage the risk of portfolio manage the risk of portfolio 
+  All the userAll the users can s can choose a CoT and createchoose a CoT and create a corresponding PrC or PuC to a corresponding PrC or PuC to define all kinds of elements of transaction define all kinds of elements of transaction 
+  All the users canAll the users can trade with other users at a trust network based on blockchain trade with other users at a trust network based on blockchain technology technology 
+  All the contract traders should deposit a certain amount of All the contract traders should deposit a certain amount of FOTAFOTA according to according to the marginthe margin ratio required by contracts ratio required by contracts 
+ 3 
+ 3 Price Price QuoterQuoter
+  All the users canAll the users can apply to be a Quoter apply to be a Quoter 
+  A node canA node can be a quoter only if it be a quoter only if it can can pass the QNSpass the QNS verificationverification (Quote Name (Quote Name Service verify the efficiency of the interface provided by the quoter node for price Service verify the efficiency of the interface provided by the quoter node for price quoting) quoting) 
+  A quoter node must attend at least one Quote Corporation to start A quoter node must attend at least one Quote Corporation to start providingproviding price price quoting services and quoting services and pay a certain amount of pay a certain amount of FOTAFOTA for the equities of Quote for the equities of Quote Corporation Corporation 
+  AlAll the contracts will invoke a l the contracts will invoke a price quoting service price quoting service provided provided by a Quote by a Quote CCorporation and a Quote Corporation orporation and a Quote Corporation will produce a Quote Matrix to will produce a Quote Matrix to calculate the final calculate the final result through the SVD consensus algorithm result through the SVD consensus algorithm 
+  A Quoter will gain its proportion of profits of the corresponding Quote A Quoter will gain its proportion of profits of the corresponding Quote CorporatCorporation based on the equities ownedion based on the equities owned 
+  The equities The equities of a Quote Corporation will redistribute based on the behaviors of a Quote Corporation will redistribute based on the behaviors of the quoters of this Quote Corporation of the quoters of this Quote Corporation 
+ 23
+  A Quoter can sell its equities back to the corresponding Quote Corporation for A Quoter can sell its equities back to the corresponding Quote Corporation for FOTAFOTA when the quoter quit when the quoter quit 
+ 4 
+ 4 Market MakerMarket Maker
+  Provides market making serviProvides market making service for a PuC and needs to deposit a certain ce for a PuC and needs to deposit a certain amount of amount of FOTAFOTA as a margin as a margin 
+  Market Maker makes profits through the bidMarket Maker makes profits through the bid ask spread of market making ask spread of market making 
+  The creator of the corresponding CoT will be market maker in default The creator of the corresponding CoT will be market maker in default 
+ 5 
+ 5 DeleDelegategate
+  A dA delegate can produce blocks as well as keep trading records For each block elegate can produce blocks as well as keep trading records For each block produced the delegate will be rewarded with produced the delegate will be rewarded with a a certain amount of certain amount of FOTAFOTA 
+  There are a total of 101 delegates in the whole network which are electThere are a total of 101 delegates in the whole network which are elected ed based on the DPOSA algorithm based on the DPOSA algorithm 
+  UntilUntil the contracts and quotes are written into the block a delethe contracts and quotes are written into the block a delegate cannot view gate cannot view their contents their contents 
+ 2 
+ 2 5 5 Decentralized Quoting SchemeDecentralized Quoting Scheme
+ The Quoting mechanism
+ The Quoting mechanism a mechanism providing the current market price of a mechanism providing the current market price of underlying assets underlying assets needs to minimize risks from malicious entities and provide adequate needs to minimize risks from malicious entities and provide adequate incentives for quoters to post highincentives for quoters to post high quality quotes at the same time Fortuna is equipped quality quotes at the same time Fortuna is equipped with an SVDwith an SVD based decentralized quoting mechanism that can prevent market based decentralized quoting mechanism that can prevent market manipulation from a smamanipulation from a small number of malicious entities in an effective way In the ll number of malicious entities in an effective way In the meantime it introduces “Quote Corporation” which uses an incentive scheme that is meantime it introduces “Quote Corporation” which uses an incentive scheme that is analogous to corporate governance and equity redistribution motivating quoters to analogous to corporate governance and equity redistribution motivating quoters to provide highprovide high quality quotes cquality quotes continuously The detail mechanism is described below ontinuously The detail mechanism is described below 
+ 2 
+ 2 5 1 5 1 The Overall SchemeThe Overall Scheme
+ The overall scheme of Fortuna’s decentralized quoting mechanism is as follows 
+ The overall scheme of Fortuna’s decentralized quoting mechanism is as follows 
+ 24
+ 1 Joining a Quote Corporation
+ 1 Joining a Quote Corporation
+ Every node in the network can become a quoter once certified by
+ Every node in the network can become a quoter once certified by QNS (Quote QNS (Quote Name Service) A quoter needs to join one or more Quote Corporation (QC) before it Name Service) A quoter needs to join one or more Quote Corporation (QC) before it can post any quotes A quoter can query the FQCT catalogue to find and join QCs that can post any quotes A quoter can query the FQCT catalogue to find and join QCs that match the category of quoting services it provides If no such QC exists a match the category of quoting services it provides If no such QC exists a QC of the QC of the new category will be automatically created new category will be automatically created 
+ 2 Quote Corporation provide quoting services
+ 2 Quote Corporation provide quoting services
+ In a certain cycle when multiple smart contracts that using the same QC’s quoting
+ In a certain cycle when multiple smart contracts that using the same QC’s quoting
+ 25
+ service matures the quoters in this QC will provide independent quotes 
+ service matures the quoters in this QC will provide independent quotes The QC will The QC will compile a quote matrix using all the quotes provided for each underlying asset by all the compile a quote matrix using all the quotes provided for each underlying asset by all the quoters and obtain a consensus price using the SVD consensus algorithm This quoters and obtain a consensus price using the SVD consensus algorithm This consensus price will be used for contract fulfillment consensus price will be used for contract fulfillment The details of the SVDThe details of the SVD consensus consensus algorithm will be described in later sections algorithm will be described in later sections 
+ 3 Dynamic redistribution of Quote Corporation equity
+ 3 Dynamic redistribution of Quote Corporation equity
+ After each cycle the consensus algorithm will determine the consensus quote as
+ After each cycle the consensus algorithm will determine the consensus quote as well as every quoter’s impact weigwell as every quoter’s impact weight in this cycle which is useht in this cycle which is used as d as an indicator of the an indicator of the quality of its quotes Then the QC will set aside a certain amount of equity as to quality of its quotes Then the QC will set aside a certain amount of equity as to redistribute among all quoters according to their impact weights motivating them to redistribute among all quoters according to their impact weights motivating them to provide highprovide high quality quotes actively This equity redistributioquality quotes actively This equity redistribution mechanism will be n mechanism will be detailed in later sections detailed in later sections 
+ 2 
+ 2 5 2 SV5 2 SVDD Based Consensus ABased Consensus Algorithmlgorithm
+ In each cycle for a quote corporation that has n quoters and m underlying assets a
+ In each cycle for a quote corporation that has n quoters and m underlying assets a n by m quote matrix will be constructed by collecting all the quotes posted by every n by m quote matrix will be constructed by collecting all the quotes posted by every quoter for every underlying asset The ququoter for every underlying asset The quote matrix is illustrated below ote matrix is illustrated below 
+ 26
+ QC：：a Quote Corporationa Quote Corporation
+ 𝑄𝑥：：the quotes provided by the xthe quotes provided by the x th quoterth quoter
+ 𝐸𝑦：：the quotes received by the ythe quotes received by the y th th underlyingunderlying assetasset
+ 𝑆𝑥𝑄𝐶：：the equity share possessed by the xthe equity share possessed by the x th quoterth quoter
+ 𝐶𝑜𝑇𝑘：：the kthe k th contract templateth contract template
+ In the quote matrix above each row corresponds to the quotes provided by a quoter
+ In the quote matrix above each row corresponds to the quotes provided by a quoter to the m underlying assets and each column corresponds to the quotes received by the n to the m underlying assets and each column corresponds to the quotes received by the n quotersquoters for for anan underlying assetunderlying asset An SVD algorithm An SVD algorithm is applied is applied on on the quote matrix the quote matrix 𝑄n×𝑚 to determine the consensus quotes and the impact wto determine the consensus quotes and the impact weight of each quoter as follows eight of each quoter as follows 
+ Assume that there are k
+ Assume that there are k eigenvalueseigenvalues of of 𝑄n×𝑚，， 𝜆k representsrepresents the kthe k th eigenvalues th eigenvalues 𝑥𝑘 represents the krepresents the k th th columncolumn of of 𝑄n×𝑚 𝑄n×𝑚𝑥1= 𝜆1𝑥1 𝑄n×𝑚𝑥2= 𝜆2𝑥2 𝑄n×𝑚𝑥3= 𝜆3𝑥3 … 𝑄n×𝑚𝑥𝑘= 𝜆𝑘𝑥𝑘
+ Then we can have
+ Then we can have 𝑈=[𝑥1 𝑥2 𝑥3 … 𝑥𝑘] 𝛬=𝜆1…0⋮⋱⋮0…𝜆𝑘 𝑄𝑛×𝑚∙𝑈= 𝑈∙𝛬
+ Then
+ Then we can calculate the eigen decomposition of we can calculate the eigen decomposition of 𝑄n×𝑚 𝑄n×𝑚=𝑈∙𝛬∙𝑈−1=𝑈∙𝛬∙𝑈𝑇
+ Assume there is
+ Assume there is a a group of orthogonal basisgroup of orthogonal basis {𝑣1 𝑣2 𝑣3…𝑣𝑛} 𝑄n×𝑚𝑣𝑖∙𝑄n×𝑚𝑣𝑗=(𝑄n×𝑚𝑣𝑖)𝑇∙𝑄n×𝑚𝑣𝑗= 𝑣𝑖𝑇𝑄n×𝑚𝑇∙𝑄n×𝑚𝑣𝑗=0
+ 27
+ W
+ Which hich means means 𝑣𝑖𝑇∙𝑣𝑗=𝑣𝑖∙𝑣𝑗=0
+ T
+ Thenhen 𝑢𝑖=𝑣𝑖|𝐴𝑣𝑖|
+ So w
+ So we can havee can have
+ 𝑄n×𝑚[𝑣1 𝑣2 𝑣3… 𝑣𝑘|𝑣𝑘+1…𝑣𝑛] = = [𝑢1 𝑢2 𝑢… 𝑢𝑘|𝑢…𝑢𝑛]
+ Finally
+ Finally 𝑄𝑛×𝑚=𝑈𝛴𝑉𝑡
+ As
+ As 𝑆𝑉𝐷(𝑄𝑛×𝑚)=𝑈𝑚×𝑚×𝛴𝑚×𝑛×𝑉𝑛×𝑛∗
+ We can have
+ We can have
+ 𝑑𝑚×1=𝑈 1 we take the firstwe take the first row of row of 𝑈
+ Centralize
+ Centralize 𝑄𝑛×𝑚 which means which means calculate the mean value of each column of calculate the mean value of each column of 𝑄𝑛×𝑚 𝜇𝑛×𝑚=𝐽𝑛×1∙𝑚𝑒𝑎𝑛1×𝑚(𝑄𝑛×𝑚) 𝑉𝑛×𝑚𝑛𝑜𝑟𝑚=𝑄𝑛×𝑚 − 𝜇𝑛×𝑚 𝑐𝑛×1=𝑉𝑛×𝑚𝑛𝑜𝑟𝑚×𝑑𝑚×1
+ After
+ After normalization normalization each item of each item of 𝑐𝑛×1 is positive and is positive and the weighed sum equals 1 the weighed sum equals 1 𝑁𝜒= |𝜒|Σ|𝜒|
+ Finally we can get
+ Finally we can get 𝑁𝜒 which is the weight of the current result of which is the weight of the current result of 𝑄𝜒 
+ Based on this we can get the consensus quotes of
+ Based on this we can get the consensus quotes of a Quote Matrix a Quote Matrix 𝑄n×𝑚 for the for the settlement of transactions settlement of transactions 
+ 2 
+ 2 5 3 5 3 QC Equity Governance and RQC Equity Governance and Redistributionedistribution
+ QC equity can be bought by a quoter upon joining a QC Correspondingly it can
+ QC equity can be bought by a quoter upon joining a QC Correspondingly it can also be sold upon exitialso be sold upon exiting a QC However in order to ensure its integrity of an incentive ng a QC However in order to ensure its integrity of an incentive for providing highfor providing high quality quotes no QC equity is allowed to be traded between quoters quality quotes no QC equity is allowed to be traded between quoters The only channel for it to flow between quoters is through the dynamic redistribution The only channel for it to flow between quoters is through the dynamic redistribution
+ 28
+ after each cyc
+ after each cycle which is based on the quality and frequency of the quotes provided by le which is based on the quality and frequency of the quotes provided by each quoter each quoter –– a quoter with better performance will be rewarded with more equity a quoter with better performance will be rewarded with more equity Below are the detailed rules for the redistribution Below are the detailed rules for the redistribution 𝑸𝒖𝒐𝒕𝒆 𝑪𝒐𝒓𝒑𝒐𝒓𝒂𝒕𝒊𝒐𝒏 𝑼𝒑𝒅𝒂𝒕𝒆𝒅 𝑺𝒕𝒂𝒕𝒖𝒔 𝒇𝒐𝒓 𝑬𝑿 𝑁𝑄𝐶′=𝑁𝑄𝐶+1 𝐶𝑄𝐶′=𝐶𝑄𝐶+𝑀 𝑆𝑋𝑄𝐶=1𝑁𝑄𝐶′ 𝑆1𝑄𝐶′=𝑆1𝑄𝐶×(100%−𝑆𝑋𝑄𝐶) 𝑆2𝑄𝐶′=𝑆2𝑄𝐶×(100%−𝑆𝑋𝑄𝐶) …… 𝑆𝑛𝑄𝐶′=𝑆𝑛𝑄𝐶×(100%−𝑆𝑛𝑄𝐶) 𝑸𝒖𝒐𝒕𝒆 𝑪𝒐𝒓𝒑𝒐𝒓𝒂𝒕𝒊𝒐𝒏 𝑼𝒑𝒅𝒂𝒕𝒆𝒅 𝑺𝒕𝒂𝒕𝒖𝒔 𝒇𝒐𝒓 𝐶𝑍 𝑁𝑄𝐶′=𝑁𝑄𝐶 𝐶𝑄𝐶′=𝐶𝑄𝐶 𝑆1𝑄𝐶′=𝑆1𝑄𝐶×(100%−𝛷)+𝑊1𝑍×𝛷 𝑆2𝑄𝐶′=𝑆2𝑄𝐶×(100%−𝛷)+𝑊2𝑍×𝛷 …… 𝑆𝑛𝑄𝐶′=𝑆𝑛𝑄𝐶×(100%−𝛷)+𝑊𝑛𝑍×𝛷 𝑸𝒖𝒐𝒕𝒆 𝑪𝒐𝒓𝒑𝒐𝒓𝒂𝒕𝒊𝒐𝒏 𝑼𝒑𝒅𝒂𝒕𝒆𝒅 𝑺𝒕𝒂𝒕𝒖𝒔 𝒇𝒐𝒓 𝑶𝒀 𝑁𝑄𝐶′=𝑁𝑄𝐶−1 𝐶𝑄𝐶′=𝐶𝑄𝐶×(100%−𝑆𝑌𝑄𝐶) 𝑆𝑌𝑄𝐶′=0 𝑆1𝑄𝐶′=𝑆1𝑄𝐶÷(100%−𝑆𝑌𝑄𝐶) 𝑆2𝑄𝐶′=𝑆2𝑄𝐶÷(100%−𝑆𝑌𝑄𝐶) …… 𝑆𝑛𝑄𝐶′=𝑆𝑛𝑄𝐶÷(100%−𝑆𝑛𝑄𝐶)
+ 𝑄𝐶：：a quote a quote corporationcorporation
+ 29
+ 𝐸𝑋：：quoter X joins the QCquoter X joins the QC
+ 𝑂𝑌：：quoter Y exits the QCquoter Y exits the QC
+ 𝐶𝑍：：the Zthe Z th cycle of the consensus algorithm th cycle of the consensus algorithm
+ 𝑀：：the amount the amount FOTAFOTA that needs to be paid to join the QCthat needs to be paid to join the QC
+ 𝑁𝑄𝐶：：the number of quoters in the QC before the updatethe number of quoters in the QC before the update
+ 𝑁𝑄𝐶′：：the number of quotersthe number of quoters in the QC after the updatein the QC after the update
+ 𝐶𝑄𝐶：：the total amount of funds in the QC before the updatethe total amount of funds in the QC before the update
+ 𝐶𝑄𝐶′：：the total amount of funds in the QC after the updatethe total amount of funds in the QC after the update
+ 𝑆𝑋𝑄𝐶：：the fraction of equity shares possessed by quoter X before the updatethe fraction of equity shares possessed by quoter X before the update
+ 𝑆𝑋𝑄𝐶‘‘：：the fraction of ethe fraction of equity shares possessed by quoter X after the updatequity shares possessed by quoter X after the update
+ 𝛷：：the fraction of equity shares used for redistribution after each cyclethe fraction of equity shares used for redistribution after each cycle
+ 𝑊𝑋𝑍：：the impact weight othe impact weight of quoter X after the Zf quoter X after the Z th cycleth cycle
+ Below is a case example to help illustrate the rules described above 
+ Below is a case example to help illustrate the rules described above 
+ Suppose
+ Suppose 𝑀=1000𝐹𝑂𝑇 andand 𝛷=20%
+ 1 Quoter A paid 1000
+ 1 Quoter A paid 1000 FOTAFOTA to set up a new QC for a certain category of to set up a new QC for a certain category of underlying assets And it owns 100% of the QC’s equity shares underlying assets And it owns 100% of the QC’s equity shares 
+ 2 Quoter B paid 1000
+ 2 Quoter B paid 1000 FOTAFOTA to join the QC Quoters A and B now each owns 50% to join the QC Quoters A and B now each owns 50% of total eqof total equity shares uity shares 
+ 3 Quoter C paid 1000
+ 3 Quoter C paid 1000 FOTAFOTA to join and quoters A B and C each owns one third to join and quoters A B and C each owns one third of the total shares of the total shares 
+ 4 Quoter D also paid 1000
+ 4 Quoter D also paid 1000 FOTAFOTA to join Now A B C and D each owns 25% of to join Now A B C and D each owns 25% of the total shares the total shares 
+ 5 Suppose at the end of cycle quoters A B C an
+ 5 Suppose at the end of cycle quoters A B C and D ended up with impact weights d D ended up with impact weights of 40% 30% 20% and 10% respectively After the redistribution their equity share of 40% 30% 20% and 10% respectively After the redistribution their equity share percentages became 25%×percentages became 25%×((11 20%20%))+20%×40%=28% 25%×+20%×40%=28% 25%×((11 20%20%))+20%×30%=26% +20%×30%=26% 25%×25%×((11 20%20%))+20%×20%=24% and 25%×+20%×20%=24% and 25%×((11 20%20%))+20%×10%=22% +20%×10%=22% 
+ 30
+ 6 Quoter A exits the QC Upon the exit all of its equity shares would be bought
+ 6 Quoter A exits the QC Upon the exit all of its equity shares would be bought back by the QC Because the QC had a total fund of 4000 back by the QC Because the QC had a total fund of 4000 FOTAFOTA (paid by A B C and (paid by A B C and D upon their entry) the shareD upon their entry) the shares of A would be sold for 4000s of A would be sold for 4000××28% = 1120 28% = 1120 FOTAFOTA These These shares woshares would be released to quoters B C and D proportionally In the end the fraction uld be released to quoters B C and D proportionally In the end the fraction of equity shares owned by B C and D would be 36% 33% and 31% of equity shares owned by B C and D would be 36% 33% and 31% 
+ 2 
+ 2 5 4 5 4 Continuous Quoting and Close Out AContinuous Quoting and Close Out Alertlert
+ There are two types of quotes that a quoter can provide in terms of
+ There are two types of quotes that a quoter can provide in terms of the contract the contract trading structure discrete and continuous Under certain trading structure the trading trading structure discrete and continuous Under certain trading structure the trading contract requires continuous quoting service in order to monitor the deposit accounts of contract requires continuous quoting service in order to monitor the deposit accounts of both parties in real time and issue alert when they need close ouboth parties in real time and issue alert when they need close out Therefore Fortuna t Therefore Fortuna will rigorously scrutinize quoters who provide continuous quoting services to make sure will rigorously scrutinize quoters who provide continuous quoting services to make sure they can provide robust and continuous services continuously See the details in the they can provide robust and continuous services continuously See the details in the figure below figure below 
+ A quoter who provides continuous quoting/clos
+ A quoter who provides continuous quoting/close out/alert services needs to closely e out/alert services needs to closely monitor if there is any active contract that requires alert/close out Let us call such a monitor if there is any active contract that requires alert/close out Let us call such a quoter QX Below is how QX functions quoter QX Below is how QX functions 
+ 31
+ 1 
+ 1 QX provides various types of continuous realQX provides various types of continuous real time services including time services including registration notiregistration notification realfication real time inquiry close out check etc time inquiry close out check etc 
+ 2 
+ 2 QX will check if the current block contains deals that need to be alerted for close QX will check if the current block contains deals that need to be alerted for close out and write them into the local contract list out and write them into the local contract list 
+ 3 
+ 3 QX node will inquire thirdQX node will inquire third party prices in realparty prices in real time and compare wtime and compare with the alerted ith the alerted close out prices in the local contracts If the alert/close out condition applies the close out prices in the local contracts If the alert/close out condition applies the alert/close out will be executed immediately alert/close out will be executed immediately 
+ 4 
+ 4 The deposit requirement can dramatically increase the cost of malicious The deposit requirement can dramatically increase the cost of malicious activities and potentially minimactivities and potentially minimize them ize them 
+ 2 
+ 2 6 6 Contract Life CContract Life Cycleycle
+ Depending on their types contracts have different life cycles This section will
+ Depending on their types contracts have different life cycles This section will descdescribe the life cycles of PrC and PuC ribe the life cycles of PrC and PuC in detail in detail 
+ 2 
+ 2 6 1 6 1 Life CLife Cycle of PrCycle of PrC
+ PrC is useful for 1 to 1 or 1 to N customized contracts its life
+ PrC is useful for 1 to 1 or 1 to N customized contracts its life cycle is shown in the cycle is shown in the picture below picture below 
+ 1 CoT Created
+ 1 CoT Created A contract template is created by the CoT maker specifying the A contract template is created by the CoT maker specifying the anchored underlying assets deal structure and quote corporation The template is anchored underlying assets deal structure and quote corporation The template is submitted and will be written into a block Until submitted and will be written into a block Until then the template is be invisible then the template is be invisible 
+ Phase Ⅷ：PrC Mature
+ Phase Ⅶ：Clearing
+ Phase Ⅵ：Audit
+ Phase Ⅴ：Quote
+ Phase Ⅳ：PrC Signed
+ Phase Ⅲ：Broadcast
+ Phase Ⅱ：PrC Created
+ Phase Ⅰ：CoT Created
+ 32
+ 2 PrC Created
+ 2 PrC Created Based on the template a trader wilBased on the template a trader will create a concrete PrCl create a concrete PrC which which defines various key elements of the deal such as the delivery time deal price unit defines various key elements of the deal such as the delivery time deal price unit deposit percentage contract price trading dirdeposit percentage contract price trading directioection etc The contract is n etc The contract is submitted and submitted and written into a block written into a block Until then the contract is Until then the contract is invisible which is similar to creating a invisible which is similar to creating a PrC contract template Please see thPrC contract template Please see the figure below for illustration e figure below for illustration 
+ 3 Broadcast
+ 3 Broadcast Inquiry and quoting are done by broadcastInquiry and quoting are done by broadcasting over the whole ing over the whole network Parties who are interested in the contract will respond to the broadcast Inquiry network Parties who are interested in the contract will respond to the broadcast Inquiry will be broadcasted if the trading direction is specified as “buywill be broadcasted if the trading direction is specified as “buy in” and quoting will be in” and quoting will be broadcasted if the trading direction is specified as “sebroadcasted if the trading direction is specified as “sellll out” out” 
+ 4 PrC Signed
+ 4 PrC Signed A party responds to the broadcast and signs the contract with its A party responds to the broadcast and signs the contract with its creator Then both parties pay a certain amount of contract fee as well as deposits which creator Then both parties pay a certain amount of contract fee as well as deposits which enacts the contract effectively enacts the contract effectively 
+ 5 Quote
+ 5 Quote Upon the delivery date specifieUpon the delivery date specified in the PrC contract the contract will d in the PrC contract the contract will utilize the quote corporation specified in its template and inquires the price for the utilize the quote corporation specified in its template and inquires the price for the corresponding underlying assets The quote corporation will determine a consensus corresponding underlying assets The quote corporation will determine a consensus result based on the SVD algorithm and provide result based on the SVD algorithm and provide it for the contract fulfillment it for the contract fulfillment 
+ 33
+ 6 Audit
+ 6 Audit Both parties of the deal needs to confirm and agree on the contract Both parties of the deal needs to confirm and agree on the contract fulfillment conditions If either party refuses the conditions it can request for an audit fulfillment conditions If either party refuses the conditions it can request for an audit by all the nodes in the network In this case priceby all the nodes in the network In this case price inquiry will be done by all the nodes inquiry will be done by all the nodes instead of the QC Note that the party who requested the audit will pay a certain amount instead of the QC Note that the party who requested the audit will pay a certain amount of audit fee However if the audit is successful the audit fee will be covered by the QC of audit fee However if the audit is successful the audit fee will be covered by the QC 
+ 7 Clearing
+ 7 Clearing After both parties conAfter both parties confirmed the contract fulfillment conditions they firmed the contract fulfillment conditions they will clear the deal by paying off their balances The deposits will be refunded to them will clear the deal by paying off their balances The deposits will be refunded to them after that after that 
+ 8 PrC Mature
+ 8 PrC Mature Upon the clearing the contract finishes its life cycle In the Upon the clearing the contract finishes its life cycle In the meantime Fortuna will keepmeantime Fortuna will keep a record of the behaviors of all relevant entities of this a record of the behaviors of all relevant entities of this contract which can be used to construct a credit database contract which can be used to construct a credit database 
+ 2 
+ 2 6 2 6 2 Life CLife Cycle of PuCycle of PuC
+ P
+ PuC contracts are useful for uC contracts are useful for N to N risk hedging deals and require market makers N to N risk hedging deals and require market makers in the deal Their life cycles in the deal Their life cycles are very similar to those of PrC contracts with some are very similar to those of PrC contracts with some differedifferences in the 3rd and 4th phases nces in the 3rd and 4th phases The 3rd and 4th phases of a PrC are broadcasting The 3rd and 4th phases of a PrC are broadcasting of inquiry/quoting and contract signing which are suitable for direct signing the 1 to 1 of inquiry/quoting and contract signing which are suitable for direct signing the 1 to 1 or 1 to N customized contor 1 to N customized contracts However the 3rd and 4th phases of a PuC provide initial racts However the 3rd and 4th phases of a PuC provide initial liquidity of market makers and open the floor for whole network trading which is liquidity of market makers and open the floor for whole network trading which is essentially an N to N market maker trading mode essentially an N to N market maker trading mode 
+ Phase Ⅷ：PuC Mature
+ Phase Ⅶ：Clearing
+ Phase Ⅵ：Audit
+ Phase Ⅴ：Quote
+ Phase Ⅳ：Trading
+ Phase Ⅲ：Market Making
+ Phase Ⅱ：PuC Created
+ Phase Ⅰ：CoT Created
+ 34
+ 1 CoT Created
+ 1 CoT Created A contract template is created by the CoT A contract template is created by the CoT maker specifying the maker specifying the anchored underlying assets deal structure and quote corporation The template is anchored underlying assets deal structure and quote corporation The template is submitted and will be written into a block Until then the template will be invisible submitted and will be written into a block Until then the template will be invisible 
+ 2 PuC Created
+ 2 PuC Created Based on the template a trader wilBased on the template a trader will create a col create a concrete PuCncrete PuC which which defines various key elements of the deal such as the delivery time deal price unit defines various key elements of the deal such as the delivery time deal price unit deposit percentage contract price trading direction etc This contract will also specify deposit percentage contract price trading direction etc This contract will also specify its market maker (it will be the creator of the contract by its market maker (it will be the creator of the contract by default)default) The contract is The contract is submitted and written into a block Until then the contract is invisiblesubmitted and written into a block Until then the contract is invisible 
+ 3 Market Making
+ 3 Market Making The market makerThe market maker designated by the PuC designated by the PuC pays the liquidity pays the liquidity deposit and provide market making service for the deadeposit and provide market making service for the deals specified in the PuCls specified in the PuC Th The e market maker needs to refill the deposit account once its balance is too low Themarket maker needs to refill the deposit account once its balance is too low The market market maker can earn profit through the askmaker can earn profit through the ask bid spread of market making activitiesbid spread of market making activities 
+ 4 Trading
+ 4 Trading Any user with Any user with FOTAFOTA on the platform can participate in the tradion the platform can participate in the trading ng specifiedspecified by the PuCby the PuC To participate a user needs to pay certain amount of deposit and To participate a user needs to pay certain amount of deposit and transaction fee The main difference between the life cycles of PuC and PrC contracts transaction fee The main difference between the life cycles of PuC and PrC contracts lies in the marlies in the market making and trading phases ket making and trading phases The former follows the market maker The former follows the market maker trading mtrading mode in which all users can participate in the tradingode in which all users can participate in the trading with market makerswith market makers the the latter uses whole network broadcasting for quoting and inquiry Once two parties are latter uses whole network broadcasting for quoting and inquiry Once two parties are matched during the broadcasting a 1matched during the broadcasting a 1 toto 1 customized contract will be signed between 1 customized contract will be signed between them Tthem This difference is illustrated in the figure below his difference is illustrated in the figure below 
+ 35
+ 5 Quote 
+ 5 Quote Upon the delivery date specifiedUpon the delivery date specified in the Puin the PuC contract the contract will C contract the contract will utilize the quote corporation specified in its template and inquires the price for the utilize the quote corporation specified in its template and inquires the price for the corresponding underlying assets Tcorresponding underlying assets The quote corporation will determine a consensus he quote corporation will determine a consensus result based on the SVD algorithm and provide it for the contract fulfillment result based on the SVD algorithm and provide it for the contract fulfillment 
+ 6 Audit
+ 6 Audit Both parties of the deal needs to confirm and agree on the contract Both parties of the deal needs to confirm and agree on the contract fulfillment conditions If either party refuses thefulfillment conditions If either party refuses the conditions it can request for an audit conditions it can request for an audit by all the nodes in the network In this case price inquiry will be done by all the nodes by all the nodes in the network In this case price inquiry will be done by all the nodes instead of the QC Note that the party who requested the audit will pay a certain amount instead of the QC Note that the party who requested the audit will pay a certain amount of audit fee However if the audiof audit fee However if the audit is successful the audit fee will be covered by the QC t is successful the audit fee will be covered by the QC 
+ 7 Clearing
+ 7 Clearing After both parties confirmed the contract fulfillment conditions they After both parties confirmed the contract fulfillment conditions they will clear the deal by paying off their balances The deposits will be refunded to them will clear the deal by paying off their balances The deposits will be refunded to them after that after that 
+ 8 PuC Mature
+ 8 PuC Mature Upon the clearing the contract finishes its life cycle In the Upon the clearing the contract finishes its life cycle In the meantime Fortuna will keep a record of the behaviors of all relevant entities of this meantime Fortuna will keep a record of the behaviors of all relevant entities of this contract which can be used to construct a credit database contract which can be used to construct a credit database 
+ 2 
+ 2 7 7 DPOSA Consensus AlgorithmDPOSA Consensus Algorithm
+ To ensure the
+ To ensure the security and orderliness of the whole block chain a block can only security and orderliness of the whole block chain a block can only be generated upon certain consensus The consensus algorithm is one of the key be generated upon certain consensus The consensus algorithm is one of the key elements of a block chain In terms of the choice elements of a block chain In terms of the choice of of the consensus algorithms block the consensus algorithms block chains face the same chchains face the same challenge ofallenge of all distributed systems all distributed systems the the CAPCAP1100 principle i e only principle i e only two of the three following properties can be achieved at the same time Consistency two of the three following properties can be achieved at the same time Consistency Availability and PartitionAvailability and Partition Tolerance Tolerance 
+ Correspondingly all block chains can only excel two of the fol
+ Correspondingly all block chains can only excel two of the following three aspects lowing three aspects energy efficiency decentralization and security The commonlyenergy efficiency decentralization and security The commonly used consensus used consensus algorithms are algorithms are POW POS DPOS andPOW POS DPOS and PBFT TPBFT Their performances in terms of these three heir performances in terms of these three aspects are shown below aspects are shown below 
+ 36
+  PPOWOW Proof of Work generate a new block Proof of Work generate a new block through massive hash through massive hash computations which result in an appropriate random number This is most secure computations which result in an appropriate random number This is most secure mechanism But it also comes with the highest energy cost mechanism But it also comes with the highest energy cost 
+  POSPOS Proof of Stake reduces the difficulty for block generation according to Proof of Stake reduces the difficulty for block generation according to the amount and timethe amount and time of tokens possessed which also greatly reduces the energy cost of of tokens possessed which also greatly reduces the energy cost of POW However its security is sacrificed and is susceptible to bifurcation POW However its security is sacrificed and is susceptible to bifurcation 
+  DPOSDPOS Delegate Proof of Stake A certain number of dDelegate Proof of Stake A certain number of delegates are elected by elegates are elected by voting voting These delegates will generatThese delegates will generate blocks in a certain sequence which greatly e blocks in a certain sequence which greatly reduced the number of verification nodes that are needed In this mechanism deal reduced the number of verification nodes that are needed In this mechanism deal verification is greatly accelerated with no sacrifice of security However the system verification is greatly accelerated with no sacrifice of security However the system becomes more centralized becomes more centralized 
+  PBFTPBFT PracticalPractical Byzantine Fault Tolerance No token is required in this Byzantine Fault Tolerance No token is required in this mechanismechanism making it suitable for alliancem making it suitable for alliance chains chains 
+ After weighing all the pros and cons Fortuna decides to use an improved hybrid
+ After weighing all the pros and cons Fortuna decides to use an improved hybrid DPOS algorithm for consensus determination establishing a secure and efficiency DPOS algorithm for consensus determination establishing a secure and efficiency consensus mechanism Besides increased centralization DPOS has another obvious consensus mechanism Besides increased centralization DPOS has another obvious problem the voproblem the voting rights are controlled by ting rights are controlled by users with users with more more FOTAFOTA which marginalized which marginalized the roles of other users with less the roles of other users with less FOTAFOTA To overcome this issue Fortuna introduced an To overcome this issue Fortuna introduced an
+ 37
+ active index to reflect how active a user is on the platform This purpose of this active
+ active index to reflect how active a user is on the platform This purpose of this active index index is to 1) encourage the active participation of users 2) balance their financial is to 1) encourage the active participation of users 2) balance their financial contribution and activeness contribution The active index is calculated as followscontribution and activeness contribution The active index is calculated as follows 𝑈𝐿 =𝑇𝐿+𝐴𝐿 𝑇𝐿=𝑁𝐶𝑜𝑇+𝑁𝑃𝑟𝐶+𝑁𝑃𝑢𝐶+𝑁𝑀𝑀 𝐴𝐿=𝑁𝑆𝐴−𝑁𝐹𝐴
+ 𝑈𝐿：：user activeuser activenessness；；
+ 𝑇𝐿：：trading activenesstrading activeness；；
+ 𝐴𝐿：：arbitrage arbitrage activenessactiveness；；
+ 𝑁𝐶𝑜𝑇：：number of CoT creatednumber of CoT created，，the CoT has to be used for at least one dealthe CoT has to be used for at least one deal；；
+ 𝑁𝑃𝑟𝐶：：number of deals cleared under PrC contractsnumber of deals cleared under PrC contracts；；
+ 𝑁𝑃𝑢𝐶：：number of deals cleared under PuC contractsnumber of deals cleared under PuC contracts；；
+ 𝑁𝑀𝑀：：numbernumber of times serving as a market makerof times serving as a market maker；；
+ 𝑁𝑆𝐴：：number of times that the consensus result agrees with the arbitrage resultnumber of times that the consensus result agrees with the arbitrage result；；
+ 𝑁𝐹𝐴：：number of times that the consensus result differs from the arbitrage result number of times that the consensus result differs from the arbitrage result 
+ The 101 delegates elected according to the DPOSA in
+ The 101 delegates elected according to the DPOSA in each round will reach an each round will reach an agreement on the block generation sequence (2 / 3 of the nodes need to reach agreement) agreement on the block generation sequence (2 / 3 of the nodes need to reach agreement) before the blocks are generated Unless more than 1 /3 of the delegates collaborate to before the blocks are generated Unless more than 1 /3 of the delegates collaborate to sabotage the system no bifurcation will occur sabotage the system no bifurcation will occur 
+ 2 
+ 2 8 8 FOTFOTAA Value Locking ServiceValue Locking Service
+ As a distributed risk hedging block chain platform the purpose of Fortuna is to
+ As a distributed risk hedging block chain platform the purpose of Fortuna is to achieve rational risk management through decentralization However as the only achieve rational risk management through decentralization However as the only medium used on the Fortunmedium used on the Fortuna platform a platform FOTAFOTA is actively tradedis actively traded on the secondon the secondary market ary market as a digital assetas a digital asset It will cause devastating damage to the risk hedging trades if its value It will cause devastating damage to the risk hedging trades if its value is unstable Therefore is unstable Therefore FortunaFortuna introduces the introduces the FOTAFOTA Value Locking Service (FVLS) to Value Locking Service (FVLS) to
+ 38
+ make sure risk hedging trades can be completed under t
+ make sure risk hedging trades can be completed under the stable he stable FOTAFOTA value We use value We use the ethe exchange rate between xchange rate between FOTAFOTA and RMBand RMB as an example to illustrate FVLS Suppose as an example to illustrate FVLS Suppose user A and B signed a simple risk hedging contract each of them pays 100 user A and B signed a simple risk hedging contract each of them pays 100 FOTAFOTA as as deposit A will earn 100 deposit A will earn 100 FOTAFOTA if its expectation is right it wiif its expectation is right it will lose 100 ll lose 100 FOTAFOTA otherwise otherwise The trading modes with The trading modes with and without FVLS are as follows and without FVLS are as follows 
+ 1 Hedging
+ 1 Hedging without FVLSwithout FVLS
+ In this case upon the maturity of the contract if A’s judgement is correct it will
+ In this case upon the maturity of the contract if A’s judgement is correct it will earn 100 earn 100 FOTAFOTA A receives 200 A receives 200 FOTAFOTA (profit and deposit) But because (profit and deposit) But because FOTAFOTA devalued devalued 50% against RMB the 200 50% against RMB the 200 FOTAFOTA still worth the same as the still worth the same as the 100 100 FOTAFOTA that was paid that was paid before the deal Effectively user A did not profit nor lose before the deal Effectively user A did not profit nor lose 
+ 2 Hedging
+ 2 Hedging with FVLSwith FVLS
+ In this case the exchange rate between
+ In this case the exchange rate between FOTFOTAA and RMB will be locked by Fortuna and RMB will be locked by Fortuna until the delivery until the delivery date date of the contract In the above scenario when A receives the 200 of the contract In the above scenario when A receives the 200
+ 39
+ FOTA
+ FOTA Fortuna will offer 200 extra Fortuna will offer 200 extra FOTAFOTA to user A in order to offset the to user A in order to offset the lossloss due to due to change of exchange rate between change of exchange rate between FOTAFOTA and RMB Tand RMB The FLVS makes suhe FLVS makes sure users can re users can hedgehedge without being affected bwithout being affected by the fluctuation of y the fluctuation of FOTAFOTA value value 
+ When providing FVLS
+ When providing FVLS Fortuna will execute trades at the opposite position in the Fortuna will execute trades at the opposite position in the secondary market to achieve dynamic rissecondary market to achieve dynamic risk hedgingk hedging and control the overall risk in the and control the overall risk in the platform A certain amount of fee needs to be paid by the user for this service platform A certain amount of fee needs to be paid by the user for this service 
+ 2 9
+ 2 9 Compliance FCompliance Filterilter
+ For the purpose of compliance and sustainable development Fortuna will set up a
+ For the purpose of compliance and sustainable development Fortuna will set up a compliance filter Its detaicompliance filter Its details are ls are as below as below 
+ 1 Types of filter rules
+ 1 Types of filter rules the categories the categories of compliance filters includes of compliance filters includes ID type (filter ID type (filter based on the ID of a certain contract template) asset type (filter by the type of underlying based on the ID of a certain contract template) asset type (filter by the type of underlying assets) deal attribute type (filter by a certain attribute of tassets) deal attribute type (filter by a certain attribute of the deal for example the lower he deal for example the lower limit of the deposit fraction) entity type (filter by the entities in the deals i e blocking limit of the deposit fraction) entity type (filter by the entities in the deals i e blocking any deal with a certain entity)any deal with a certain entity)
+ 2
+ 2 Enactment/Invalidation of Enactment/Invalidation of filter rulesfilter rules a compliance filter rule needs the a compliance filter rule needs the agreement by the wagreement by the whole network to enact Certain rules may be invalided under certain hole network to enact Certain rules may be invalided under certain circumstances such as setting up error reopening circumstances such as setting up error reopening 
+ Upon the enactment of the compliance filter rules 
+ Upon the enactment of the compliance filter rules 
+ 1)
+ 1) The rules will be added into the blocks Before a new template is created the The rules will be added into the blocks Before a new template is created the plaplatform will query these rules If any rule is matched the contract template cannot be tform will query these rules If any rule is matched the contract template cannot be created created 
+ 2)
+ 2) After each iteration of the compliance filter rules the platform will scan all After each iteration of the compliance filter rules the platform will scan all existing contract templates Any template that are not compliant will be remoexisting contract templates Any template that are not compliant will be removed ved 
+ We think that a comprehensive compliance filter system is the foundation for the
+ We think that a comprehensive compliance filter system is the foundation for the sustainable development of Fortuna Therefore as our business grows we will update sustainable development of Fortuna Therefore as our business grows we will update this system in a timely manner keeping the platform thrive on a healthy lawful and this system in a timely manner keeping the platform thrive on a healthy lawful and compliant track compliant track 
+ 40
+ 3
+ 3 ProjectProject
+ 3
+ 3 1 1 CCore Memberore Member
+ Core Member
+ Core Member BrianBrian CaiCai
+ Brian
+ Brian ggraduated raduated from from YaleYale University majored in Computer Science University majored in Computer Science He hasHe has workedworked at New York London Hong Kong and Shanghai at New York London Hong Kong and Shanghai occupied in investment occupied in investment banking banking corporate finance and corporate finance and private bankingprivate banking Before launching Fortuna he was Before launching Fortuna he was managing over 50 billion USD as themanaging over 50 billion USD as the director of private banking department of Zhejiang director of private banking department of Zhejiang Provincial Provincial Branch of BocommBranch of Bocomm which is a national bank in China which is a national bank in China BrianBrian taketakess charge of charge of the strategy design and ithe strategy design and implementmplementation of Fortunaation of Fortuna 
+ Core member 
+ Core member Z T Z T LuanLuan
+ Z T 
+ Z T received his M S in Computer Science from Yale University and M S in received his M S in Computer Science from Yale University and M S in Mathematical Finance from University of Chicago Based in Chicago he has served as Mathematical Finance from University of Chicago Based in Chicago he has served as a quantitative analyst in large financial institutes and a day trader in a proprietary trading a quantitative analyst in large financial institutes and a day trader in a proprietary trading firm firm He has worked for OCC the only clearing house for all U S equity options and He has worked for OCC the only clearing house for all U S equity options and other derivatives other derivatives Z T Z T takestakes charge of the charge of the functional optimization of Fortunafunctional optimization of Fortuna 
+ Core member Andy Yang
+ Core member Andy Yang
+ 41
+ Andy
+ Andy hahas worked at Tencent s worked at Tencent aand Baidu He nd Baidu He entered quantentered quantitative investment itative investment industry inindustry in 2012 responsible for the development of high2012 responsible for the development of high frequency trading system and frequency trading system and the the design of quantitative products in a welldesign of quantitative products in a well known hedge fund company in Shanghai known hedge fund company in Shanghai He has He has managed a team of 200 traders Andymanaged a team of 200 traders Andy takes chatakes charge of rge of the trading system designthe trading system design of Fortunaof Fortuna 
+ Core Member
+ Core Member JasonJason TaoTao
+ Jason
+ Jason has worked at Microsoft Researchhas worked at Microsoft Research AsiaAsia Alibaba Cloud Taobao and other Alibaba Cloud Taobao and other famous enterprise He was responsible for developing the Yun Operating System during famous enterprise He was responsible for developing the Yun Operating System during the working period of Alibaba Cloud and responsible for the working period of Alibaba Cloud and responsible for developing IVR technology developing IVR technology and CRM platform during the wand CRM platform during the working period of Taobao Jason orking period of Taobao Jason has entered blockchain has entered blockchain industry since 2014 and has a lot of experience of developing blockchain with a deep industry since 2014 and has a lot of experience of developing blockchain with a deep understanding of the whole technical system of blockchain understanding of the whole technical system of blockchain JasJasonon takestakes charge of the charge of the whole architecture desiwhole architecture design and implementation of Fortunagn and implementation of Fortuna 
+ Core Member
+ Core Member：：TonyTony ZhangZhang
+ Tony
+ Tony gained his gained his Master Master degree from degree from ZhejiangZhejiang University University He hasHe has worked at worked at Huawei Huawei Nokia Alibaba Cloud Alipay and Taobao Nokia Alibaba Cloud Alipay and Taobao He was responsible forHe was responsible for the network security the network security including the hardware firewall and UTM durinincluding the hardware firewall and UTM during the working period of Huawei and g the working period of Huawei and was was responsible for 3G and IPoA network transmission during the working period of Nokia responsible for 3G and IPoA network transmission during the working period of Nokia He has been occupied in the development of Yun Operating System aHe has been occupied in the development of Yun Operating System at Alibaba Cloud t Alibaba Cloud and took charge of the implementation of fingerprint payment of Alipay With a lot of and took charge of the implementation of fingerprint payment of Alipay With a lot of experience on network securityexperience on network security Tony Tony takestakes charge of the security mechanism design charge of the security mechanism design and implementation of Fortuna and implementation of Fortuna 
+ Core Member Ellen
+ Core Member Ellen LiuLiu
+ Ellen
+ Ellen received her B A from the School of Journalism and Communication received her B A from the School of Journalism and Communication Tsinghua University She held a Master’s degree from Yale University and was awarded Tsinghua University She held a Master’s degree from Yale University and was awarded the Swire Scholarship by St Antony’s College the University of Oxford She was a the Swire Scholarship by St Antony’s College the University of Oxford She was a research associate atresearch associate at the Paul Tsai China Center of Yale Law School and worked for the the Paul Tsai China Center of Yale Law School and worked for the BrookingsBrookings TsinghTsinghua Center for Public Policy Ellenua Center for Public Policy Ellen takes charge of the public relations takes charge of the public relations and business development at Fortuna and business development at Fortuna 
+ 42
+ Core Member
+ Core Member Sophie Sophie ShiShi
+ Sophie
+ Sophie received her M A in Statistics from Columbia University Prior to joining received her M A in Statistics from Columbia University Prior to joining Fortuna Fortuna sshe has worked for Banff Centre in Canada in 2012 Nomura in Hong Kong in he has worked for Banff Centre in Canada in 2012 Nomura in Hong Kong in 2014 and Marshall & Stevens and McKinsey in New York from 20152014 and Marshall & Stevens and McKinsey in New York from 2015 2016 2016 SophieSophie takes charge of the takes charge of the operationoperation of Fortunaof Fortuna 
+ Core Member
+ Core Member Cong L Cong Leeee
+ Cong gained his Ph D from Yale University
+ Cong gained his Ph D from Yale University majored in majored in Computational Biology Computational Biology and Bioinformatics He has been awarded Yale World Scholarship and Yale Graduate and Bioinformatics He has been awarded Yale World Scholarship and Yale Graduate Student Travel Award Student Travel Award HeHe is is the reviewer of Annals of Statistics the reviewer of Annals of Statistics a member of Ameria member of American can Statistical Association Statistical Association a member of international biometric society a member of international biometric society With a profound With a profound algorithm and statistics basis Cong takes charge of the core algorithm design of Fortuna algorithm and statistics basis Cong takes charge of the core algorithm design of Fortuna 
+ 3
+ 3 2 2 StraStrategic Partnetegic Partnersrs
+ 43
+ 3
+ 3 3 3 RoadmapRoadmap
+ 3
+ 3 4 4 FOTA Allocation PlFOTA Allocation Planan
+ 44
+ Reference
+ Reference
+ [1] Satoshi Nakamoto Bitcoin A Peer to Peer Electronic Cash System 
+ [2] http //marketvoicemag org/sites/default/files/MARCH_2017_VOLUME_SURVEY pdfhttp //marketvoicemag org/sites/default/files/MARCH_2017_VOLUME_SURVEY pdf
+ [3] http //www cfachina org/yjycb/hysj/ydjy/201707/t20170703_2258449 htmlhttp //www cfachina org/yjycb/hysj/ydjy/201707/t20170703_2258449 html
+ [4] http //www cfachina org/CXFW/zgsyw/ywgzzgs/201501/t20150126_1760786 htmlhttp //www cfachina org/CXFW/zgsyw/ywgzzgs/201501/t20150126_1760786 html
+ [5] http //www bis org/publ/otc_hy1705 pdfhttp //www bis org/publ/otc_hy1705 pdf
+ [6]https //static1 squarespace com/static/55db7b87e4b0dca22fba2438/t/58ece6bd579fb356c857e2a4/1491920595529/Yale_Endowment_16 pdf
+ [7] https //www cs cmu edu/~venkatg/teaching/CStheory infoage/book chapter 4 pdf
+ [8] http //motherboard vice com/read/darknet slang watch exit scam 
+ [9] Logarithmic Market Scoring Rules for Modular Combinational Informaiton Aggregation http //mason gmu edu/~rhanson/mktscore pdf
+ [10] A Simple introduction to CAP theorem http //ksat me/a plain english introduction to cap theorem/
+ [11] http //www investopedia com/terms/h/hedge asp
+ [12] Wikipedia PoS https //en wikipedia org/wiki/Proof of stake 
+ [13] Wikipedia PoW https //en wikipedia org/wiki/Proof of work_system 
+ [14] Vitalik Buterin Ethereum White Paper A Next Generation Smart Contract and Decentralized Application Platform 

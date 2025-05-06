@@ -1,0 +1,1881 @@
+WHITE PAPER
+ Authors 
+ Dr Lionel Wolberger 
+ Allon Mason 
+ Dr Srdjan Capkun
+ 2018 10 25
+ Version 2 2
+ 1 Overview 3
+ 1 1 Preface 4
+ 1 2 Overview 4
+ 1 3 Problem in a Nutshell 5
+ 1 4 System at a glance 6
+ 1 5 Free and Open Source 9
+ 2 Why Platin 10
+ 2 1 Digital Assets Lack Something 11
+ 2 2 Digital Assets Made Real With Location 13
+ 2 3 Sample Use Cases 14
+ 2 4 Development Team 16
+ 2 5 Economics 16
+ 2 6 The Decentralized Location Market 16
+ 2 6 1 Foam space 17
+ 2 6 2 XYO 17
+ 2 6 3 Fysical 18
+ 2 6 4 Principal Platin Differentiators 19
+ 2 6 5 Summary 19
+ 3 Platin Token Sale / ICO Economics 20
+ 3 1 Disclaimer 21
+ 3 2 Token Sale Details 22
+ 3 3 Reasons for the Platin Token Sale 22
+ 3 4 Token Distribution 23
+ 3 5 PTN vs PTNX Tokens What’s the Difference 23
+ 3 6 The Utility of the PTN/PTNX Tokens 23
+ 3 7 Use of Funds 25
+ 3 8 Future Token Issuance 26
+ 3 9 KYC/AML Compliance 26
+ 3 10 Token Emission Schedule for PoL Miners 26
+ 4 Location Credentials 27
+ 4 1 Location Before Platin 28
+ 4 2 W3C Credentials and Platin 28
+ 4 2 1 Data Minimization 29
+ 4 2 2 Selective Disclosure 29
+ 4 2 3 Progressive Trust 30
+ 4 3 Public Maps and Privacy 30
+ 4 4 Calling the Platin Protocol 31
+ 5 Decentralized Ledger 33
+ 5 1 Blockchain 34
+ 5 1 1 Geography for Smart Contracts 35
+ 5 1 2 EVM Compatible Software 35
+ 5 1 3 Semantics and Security 36
+ 5 2 Platin Pocket™ UI/UX 36
+ 5 2 1 Platin Pocket™ 38
+ 5 2 2 Function 38
+ 5 3 Platin Plexus™ 40
+ 6 The Platin Verifier 41
+ 6 1 Scalability 42
+ 6 2 PALs Platin ALgorithms 43
+ 6 3 Zero Knowledge Within Platin 43
+ 6 4 Trusted Private Computing 44
+ 6 5 Anchoring 45
+ 7 Incentivizations 46
+ 7 1 Incentive Prices 47
+ 7 2 Signal Harvesting (Mining) 48
+ 7 3 Gas Price Tables 48
+ 7 4 Blockchain Costs 50
+ 7 5 Token Economics 50
+ 8 Secure Verification of Location Claims 51
+ 8 1 The Three Pillars 52
+ 8 1 1 Sensor Fusion 52
+ 8 1 2 Behavior Over Time 52
+ 8 1 3 Peer to Peer Witnessing 53
+ 8 1 4 Potential Attack Vectors 53
+ 8 2 Trusted Anchors 54
+ 8 3 Secure Proximity Verification 54
+ 9 Conclusion 55
+ 9 3 Statement of Facts 56
+ 9 2 Platin Roadmap 56
+ 10 The Team 58
+ 10 1 Core Team 59
+ 11 References 68
+ 12 Change Log 73
+ This paper is for information purposes only Platin does not guarantee the accuracy of or the
+ conclusions reached in this white paper and this white paper is provided “as is” Platin does not make
+ and expressly disclaims all representations and warranties express implied statutory or otherwise 
+ whatsoever including but not limited to (i) warranties of merchantability fitness for a particular
+ purpose suitability usage title or non infringement (ii) that the contents of this white paper are free
+ from error and (iii) that such contents will not infringe third party rights Platin and its affiliates shall
+ have no liability for damages of any kind arising out of the use reference to or
+ reliance on this white paper or any of the content contained herein even
+ if advised of the possibility of such damages In no event will Platin
+ or its affiliates be liable to any person or entity for any damages 
+ losses liabilities costs or expenses of any kind whether direct
+ or indirect consequential compensatory incidental actual 
+ exemplary punitive or special for the use of reference
+ to or reliance on this white paper or any of the content
+ contained herein including without limitation any loss
+ of business revenues profits data use goodwill or
+ other intangible losses 
+ This white paper in full or part must not be taken
+ to or transmitted to any place where its distribution
+ or dissemination is prohibited This white paper is not
+ endorsed by any government authority except as otherwise
+ specified 
+ 01
+ Overview
+ 4
+ Preface
+ This white paper is intended for people who would like a detailed introduction to how Platin works It outlines the
+ business and technical considerations we tackled in our approach to creating Platin the solutions we chose and
+ the reasoning behind our decisions There are the main topics covered 
+ • Why we made Platin the problems we solve
+ • Location credentials what they are and how they are privacy preserving
+ • Blockchain How Platin’s blockchain works
+ • Overall architecture Platin›s blockchain enables speed extensibility flexibility and moveable security
+ while maintaining transparency and accountability
+ • Incentivizations how Platin›s token economics and game theory powered incentives work together
+ • Secure location the three pillars of location security in Platin
+ • Associating claims with digital assets using Platin to power your business
+ If after you read this white paper you want more details regarding the business of Platin a Token Economics
+ Paper is also available on platin io And for those technical readers wishing more details on Platin’s engineering a
+ Yellow Paper will be made available along with links to Platin’s Github repo 
+ 1 1
+ 1 2 Overview
+ Platin is a lightweight secure verifiable decentralized and blockchain agnostic Proof of Location (PoL) protocol
+ that finally makes cryptocurrency so real that you can see feel and touch it To achieve that Platin decentralizes
+ the location services marketplace with secure location capabilities and proof verification for any digital asset such
+ as cryptocurrencies and secure documents fueled by Platin›s own PTN coin Platin makes available to businesses
+ worldwide its secure decentralized and incentivized peer to peer location protocol 
+ Platin’s architecture uses decentralized peer to peer protocol for location centered operations Platin provides
+ GIS extensions to well known blockchains including Ethereum/Solidity EOS and others These extensions can
+ be used by developers to request and define secure location proofs on the blockchain The Platin Plexus™ is
+ scalable and robust providing pluggable and modular security that evolves over time as needs arise Platin’s
+ Proof of Location protocol has the potential to transform every industry from retail to ride sharing and from
+ supply chains to the disintermediation of large scale international humanitarian relief efforts 
+ The Internet and the World Wide Web was not invented just for GAFA (Google Apple Facebook and Amazon) or
+ MNOs (mobile network operators) to track and sell our location data Platin’s 
+ 5
+ Location information enables digital systems to connect with the real world Navigating via GPS is just the
+ beginning enabling local services emergency interventions the tracking of business assets enterprise location
+ intelligence and geospatial analysis that accelerates business models and more 
+ Yet such systems must cope with fake and missing location identifiers caused by users on VPNs web proxies 
+ TOR networks GPS spoofing apps shared account credentials ad blockers and dozens of other tools 
+ This paper discusses the problem and solution and shows how location credentials can be handled in a better
+ way while decentralizing location value from GAFA back to the private individual 
+ First let’s review the current state of the centralized location ecosystem 
+ Silos govern the current location information market Insecurity characterizes the existing location information
+ market it is prone to spoofing and abuse Often a smartphone’s owner has an incentive to falsify its
+ location A decentralized securely incentivized and privacy preserving platform would protect
+ against such attacks 
+ Indeed poorly consented location information subverts people’s
+ basic rights to privacy Today’s adblockalypse—tracker
+ blockers installed by millions of people—is one signal that
+ people are unhappy with constant surveillance by GAFA 
+ MNO and CDM A decentralized securely incentivized
+ and privacy preserving location credentials platform
+ could provide credentials only when needed 
+ This usage would be fair to people’s desire for
+ privacy and would conform with GDPR PSD2
+ and other on coming regulations that are
+ responding to privacy rights complaints 
+ Tim Berners Lee invented the
+ World Wide Web to open up such
+ siloes and connect all information 
+ regardless of network Recently Sir
+ Tim has spoken repeatedly against
+ the centralization of web services In
+ this spirit the W3C is standardizing
+ digital credentials such as location 
+ Its Verifiable Claims Working Group
+ formed in April 2017 is dedicated
+ to making “expressing exchanging 
+ and verifying claims easier and more
+ secure on the Web ” Platin’s team
+ Problem in a Nutshell 1 3
+ 6
+ 1 4 System at a Glance
+ The Platin system is a collection of inter cooperating subsystems that enable privacy preserving
+ location credentials on a scale and security assurance level never before possible End users can
+ enjoy Platin powered apps that make digital assets become real such as a crypto coin or
+ other digital asset appearing as really present on top of a desk at a street corner 
+ Developers working with the Platin protocol find that Platin has a short
+ learning curve By using Solidity GEO and other Ethereum oriented
+ methods programmers can stack extend and re use Platin PALs
+ (Platin Algorithms) to enable use cases bound to location behavior
+ that were unimaginable before Platin such as offering a
+ discount to rental car drivers if they visit certain local tourist
+ sites For businesses Platin is a way to earn revenue 
+ monetize existing infrastructure and track activities 
+ In this “system at a glance” section we fly over Platin’s full
+ stack Like an airplane flying over a city we will see all the
+ main sites and attractions to understand how they work
+ together 
+ For end users Platin is a mobile app that allows its users
+ works with Sir Tim and other W3C members in this Working Group to codify the creation storage presentation 
+ verification and user control of location credentials 
+ A decentralized securely incentivized and privacy preserving location credentials service is being rolled out
+ today by Platin It is only possible today—not last decade or even last year—due to our increasingly mature
+ communication infrastructures ever more powerful smartphones with rich mobile sensor detection DLT
+ (distributed ledger technology) game theory based incentivization via tokens maturity of crypto currency
+ exchanges and advancements in privacy preserving zero knowledge proofs These affect the handling of location
+ credentials past present and future The past is the realm of DLT cryptography ensuring immutability accuracy
+ and auditability of claims The present is the realm of assurance and reliability of claims made possible by
+ advances in smartphone sensors secure proximity RF artificial intelligence and opportunistic networking And
+ the future of the platform is ensured by game theory incentives for distributed systems 
+ The maturity of these relatively new technologies along with ongoing growth of location based services in
+ urban outdoor environments shopping malls museums and other indoor settings the mass adoption of social
+ networking gaming along with emergency services tourism services intelligent transport services assistive
+ services and more means the time has come 
+ The time for Platin is here 
+ 7
+ Figure 1 Platin Scenario where collecting the coin requires scanning verification of nearby celltowers 
+ wifi routers and Bluetooth devices 
+ to see feel and exchange cryptocurrencies as for example in the diagram below An individual running the Platin
+ Pocket™ sees a Platin coin on the street via augmented reality she waves the phone and in a movement like
+ capturing a Pokémon Go™ Monster attempts to touch the coin to take possession of it The end user now owns
+ the coin and it appears in her wallet for her personal use 
+ This scenario is supported on the Platin protocol by configuring the proper Platin Policy and transferring PTN to
+ it This policy is composed of PALs plug and play algorithms that are simple to configure and deploy 
+ 8
+ Figure 3 Relevant Non Platin Services that Integrate with Platin
+ Figure 2 Proof of Location policies are composed of PALs modular algorithms that can be
+ selected and added as needed 
+ The Platin Protocol is standards compliant to integrate efficiently into the current world of geospatial activity and
+ location based services The relevant services are summarized below 
+ 9
+ Figure 4 Platin Pocket™ Mobile Application Internal View
+ The Platin Pocket™ is the mobile application that provides wallet capabilities location anomaly detection and
+ serves as the user interface for Platin mining Its high level architecture is a typical smartphone application using
+ the typical hardware and sensors found in any smartphone 
+ 1 5 Free and Open Source
+ Platin is an infrastructure protocol providing incentivized decentralized secure positioning
+ for the web3 economy As such Platin follows the tradition of FOSS that has long been an essential part of the
+ location and geospatial landscape Anyone can use the system and its utility services inspect the code that
+ enables its functioning and fork it if desired We work this way because it is the right way to deploy such a global
+ protocol In addition some enterprise value propositions can be built on the platform in the same way that Red
+ Hat monetizes FOSS Linux providing SLA and QoS guarantees in return for remuneration 
+ An example of Platin’s FOSS approach is its contributions to the W3C’s Verified Credentials standard a
+ technology intended for broad adoption on the World Wide Web that supports immutable reliable yet privacy
+ preserving declarations in a distributed way This standard is codified by groups of the World Wide Web
+ consortium and Platin’s representatives devote their time to completing this standard which will be interoperable
+ and open to all users 
+ Check out our code in git and get involved 
+ Our high level flyover is concluded Let’s take a closer look at the platform that is Platin 
+ 10
+ Why
+ Platin 
+ This section reveals why we made Platin and includes sample use cases of
+ how Platin can help your business 
+ 02
+ 11
+ 2 1 Digital Assets Lack Something
+ The computer age introduced digital artifacts to our everyday lives 
+ These artifacts lack something making it difficult for the average
+ person to deal with digital assets—no matter how much moral
+ excellence a digital asset may have it still feels less than real 
+ Take money as an example A seemingly random string of letters
+ and numbers represented by a QR code (see below) is difficult
+ for most people to understand and use as money People literally
+ cannot “grasp it” and so mentally cannot either I can print a
+ copy of it and so can you—then who has it How do I protect it 
+ It is these confusions that cause digital assets like Bitcoin to fail
+ the “grandmother” test meaning that my grandmother cannot
+ understand it and so does not use it 
+ Physical assets on the other hand are easy to grasp The money
+ pictured below can be held in my hand put on a table and
+ manipulated as surely as any other physical object It is unique there
+ is only one and it cannot be copied It passes the grandmother test 
+ Figure 5 A QR code representing
+ money a Bitcoin address “16rCmCmbuWDhPjWTrpQGaU3EPdZF7MTdUk ” worth nearly $1 Billion
+ USD at the time of this writing 
+ vices that Integrate with Platin
+ Figure 6 Photograph of a paper Federal Reserve Note representing one hundred U S Dollars serial
+ number LG04727792 
+ Pikachu a creature from the “Pokémon Go” game shows us how we may bridge this gap between virtual
+ and real Pikachu though a virtual artifact is more “graspable” than the QR code above The game by Niantic
+ harnessed the power of ordinary smartphones with their screens audio and sensor capabilities to make
+ Pikachu real enough to see him and capture him passing the grandmother test 
+ 12
+ Figure 7 Screenshot of Pikachu standing on a sidewalk Pikachu seemed so real that 750 million
+ people downloaded the app and at the time of this writing 65 million were still looking for Pokémon
+ monsters 
+ Location and AR are the critical smartphone capabilities that makes Pikachu feel real However its location data
+ is not secure and as a result the game is plagued by spoofers people who sit in their homes but simulate their
+ presence on a street falsify their location and capture Pokémon monsters fraudulently 
+ Similar location fraud plagues other location based services such as Uber drivers who use location spoofing to
+ artificially inflate ride fares In fact the potential for spoofing and false claims goes up as you move from games to
+ taxi fares to money itself in the form of cryptocurrency 
+ 13
+ 2 2 Digital Assets Made Real With Location
+ The computer age introduced digital artifacts to our everyday lives These artifacts lack something making it
+ difficult for the average person to deal with digital assets—no matter how much moral excellence a digital asset
+ may have it still feels less than real 
+ Take money as an example A seemingly random string of letters and numbers represented by a QR code (see
+ below) is difficult for most people to understand and use as money People literally cannot “grasp it” and so 
+ mentally cannot either I can print a copy of it and so can you—then who has it How do I protect it It is these
+ confusions that cause digital assets like Bitcoin to fail the “grandmother” test meaning that my grandmother
+ cannot understand it and so does not use it 
+ Physical assets on the other hand are easy to grasp The money pictured below can be held in my hand put on
+ a table and manipulated as surely as any other physical object It is unique there is only one and it cannot be
+ copied It passes the grandmother test 
+ 14
+ 2 3 Simple Use Cases
+ The ability to locate something or someone is a basic human need as is found at the heart almost every form of
+ economic activity A few examples 
+ • Lawrence leaves cash on his dining room table for the cleaners The cleaning crew enter the apartment clean it and collect the payment for their services There is another payment at the end of the day
+ as well Lawrence is assured that the crew was present at my location both those times 
+ • Olivia proves to her bank that she is present at her home and office The clerk uses this proof to
+ grant Olivia a loan The bank is assured of meeting their KYC and AML requirements surrounding identification as it relates to physical location 
+ • Coffee Roasters Chain drops their branded CAF coins at the doors of all their cafés to attract
+ customers The Coffee Roasters Chain present in all major cities issues a CAF “branded coin” on Platin’s
+ blockchain taking advantage of its low cost high throughput and native location capabilities to promote
+ Coffee Roasters Coffee by dropping their tokens at the doors of every branch a few times a day The
+ people who turn up collect the money and spend it in the stores or use them to purchase discounted
+ coffee beans Coffee Roasters has drawn more people to their locations has successfully promoted foot
+ traffic and has ensured uptake and trading of their CAF token 
+ • Antonio prevents speculators from manipulating his national currency Anthony is the Treasurer
+ of a South American Nation Trade within his economic zone is regulated with geo fencing The ledger
+ handling currency exchanges recognizes where the transaction was made and trades made with outside communities are disincentivized or blocked altogether Antonio protects his currency’s value from
+ speculators who are not physically vested and involved in our community 
+ • Thomas subsidizes his automobile fleet Thomas manages a fleet of automobiles on behalf of his
+ corporation He adds to the drivers’ software a location protocol witnessing layer As the cars are used 
+ the software contributes location witnessing validations to the system and earn cryptocurrency just by
+ driving subsidizing the cost of the fleet 
+ • Evelyn records her fitness record Evelyn’s insurance company gives Evelyn a discount if she makes
+ her fitness routines visible to them Using Zero Knowledge cryptography an immutable record of Evelyn’s fitness is stored in her personal data store The insurance company can gain assurance that Evelyn
+ is meeting her weekly movement goals without Evelyn revealing unnecessary details about her exact
+ location 
+ • Daniel helps diffuse urban traffic Daniel’s fleet of self driving cars are routed via different parts of
+ the city where strategically placed PTN coins can be collected by his cars While the new routes add
+ 10 15 minutes the drive Daniel’s cars are compensated in PTN (or branded municipal tokens) for having
+ accepted modified routes that reduce traffic congestion 
+ • Humanitarian Aid Platin is setting up a humanitarian task force to focus on airdropping crypto assets
+ on needy communities and communities affected by natural disaster and catastrophic events such as
+ war economic collapse earthquakes famine and other 
+ • Characteristics Airdropping crypto assets to populations affected by catastrophic events Real time aid 
+ 15
+ distributed directly to affected populations Help citizens and avoid inefficient aspects of government 
+ NGOs and endless red tape Ensure fair & even distribution No waste unclaimed coins revert back to
+ donors No hoarding enforces throttling rate limiting & per wallet limitations 
+ • The Puerto Rico disaster like most enabled many bad actors to siphon off humanitarian aid and funds
+ before they can reach the needy In fact today philanthropy overall is reduced because people suspect
+ even large organizations such as the Red Cross of not delivering all the value to the target community 
+ Platin enables direct delivery to the people on the ground disintermediating middlemen 
+ • The law of unintended consequences means it will take time and experience to perfect disaster recovery coin drops Platin intends to facilitate the community development of a set of best practices for
+ instance people may be spread out at the time of a storm but then may cluster together at aid centers
+ afterward It does no good to leave most of the aid out in disaster areas that could incentivize people to
+ return to unsafe areas (gas leaks waterborne diseases etc ) before repairs/remediation and end to any
+ immediate danger 
+ Note Platin has signed letters of intent with international aid organizations to explore humanitarian air drops under their auspices 
+ What all of these cases have in common is the use of a low friction high assurance location credentials to
+ advance a value proposition And all use PTN or a branded token on top of the Platin Protocol for locationbased incentivization 
+ 16
+ 2 4 Development Team
+ The Platin team is truly global The founders are based in Israel Platin software developers are based Platin’s Tel
+ Aviv and Kiev offices which include a team of full time Platin employees experts in blockchain (Ethereum EOS) 
+ mobile (Android iOS) full stack programming designers and 3D modelers Solidity developers and more Platin’s
+ Japan team leads partner relations and business development 
+ 2 5 Economics
+ Users of the Platin protocol pay for its use using the Platin coin (PTN) In this way Platin behaves like Ethereum 
+ the leading open source public blockchain based distributed computing platform co founded by Vitalik Buterin 
+ PTN like “Gas” in Ethereum measures how much “work” an action or set of actions takes to perform for
+ example to collect a sensor fusion location report may cost some fractions of a PTN An operation on the Platin
+ platform costs a certain number of PTN with operations that require more computational resources costing
+ more PTN than operations that require fewer computational resources 
+ Note PTN is a utility token enabling incentivized proof of location
+ operations PTN holders have a right to access and drive usage of
+ the platform by running in EVM compatible code (i e smart contracts) paying usage fees The tokens may be used for payments
+ and transactions relating to location claims PTN is not an investment vehicle 
+ 2 6 The Decentralized Location Market
+ Platin is a leading player in the Decentralized Location services space We are proud to share this space with
+ some other companies engaged in similar services 
+ 17
+ 2 6 1 Foam space
+ Foam space ‘s go to market consists of deploying radio beacons that stakeholders pay to operate which then
+ participate in a proof of stake consensus system that interacts with a map of the world Foam operates on
+ Ethereum smart contracts They propose Crypto Spatial Coordinate (CSC) Ethereum smart contract addresses
+ with corresponding addresses positioned in physical space that are verifiable both on and off chain CSCs are
+ verifiable both on and off chain They are related to token curated registries which people can stake 
+ Table 1 below highlights some differences between Foam and Platin 
+ Item Foam Platin Comments
+ Blockchain orientation Ethereum enthusiasts born as a
+ blockchain company Uses mainly
+ Ethereum 
+ Cryptocurrency enthusiasts born
+ as a blockchain company Uses
+ Ethereum EOS or the Platin
+ Plexus™
+ Ethereum experiencing scalability
+ issues costly Gas Plexus has
+ very high TPS and its protocol is
+ fully location aware 
+ Security Anchor Low power wide area radio
+ networks e g LoRA Two way
+ secure time synchronization
+ Sensor fusion behavior over time
+ and peer to peer witnessing 
+ Platin’s team has decades of
+ experience in cryptography and
+ security
+ Sensor dependency Low power wide area radio
+ networks e g LoRA single point
+ of failure
+ None (uses all available sensor
+ modalities)
+ Platin can use Foam’s RF beacons
+ as one of many other sensors
+ and signals LORAs do not handle
+ many nodes with simultaneous
+ positioning and has no medium
+ access control/coordination 
+ Rollout (go to market first
+ deployments)
+ Radius around deployed
+ beacons curating points of
+ interest
+ Airdrop geographics Platin has no need of
+ new hardware or custom
+ infrastructure which can be slow
+ and costly to deploy 
+ Privacy / standards Not announced yet W3Cstandards protocols ZK
+ proof operators
+ Platin uses privacy preserving ZK
+ W3C compliant protocols deeply
+ embedded within the Platin
+ Protocol
+ While Foam and Platin can engage in “co opetition” to develop the market for trustless location claims Platin
+ envisions Foam tapping into the Platin Protocol and APIs to for their own location based needs 
+ 2 6 2 XYO
+ XYO network is the reverse ICO of a hardware oriented company formerly called XY Find It that sold small
+ Bluetooth tracking tiles for finding lost items like handbags and keyrings Their first Kickstarter campaign in
+ February 2014 raised over $200K They have since sold many of these keychain beacons Pivoting to blockchain 
+ they proposed an architecture and hired some blockchain experienced developers to build and promote the
+ new approach XYO’s communication strategy is strongly hyped with emails and content consist of phrases like
+ Table 1 Foam vs Platin
+ 18
+ Item XYO Platin Comments
+ Blockchain orientation A hardware consumer device
+ company that pivoted into
+ blockchain
+ Blockchain and security company
+ first
+ XYO is a reverse ICO 
+ Satellites Plan to launch satellites Uses existing satellites with
+ enhanced security
+ Platin’s team has decades of
+ experience in cryptography and
+ security
+ Communicatio Hyped Technical Satellite systems are extremely
+ costly difficult to launch and
+ secure 
+ Hardware based Insecure Bluetooth beacons 
+ launching a satellite
+ Hardware independent Bluetooth BLE devices are not
+ secure can be replayed spoofed 
+ “Mission Status Critical Mission Impact (on a scale of 1 10) 1 000 ” They recently began speaking of launching a
+ satellite network to replace GPS 
+ While XYO and Platin can engage in “co opetition” to develop the market for trustless location claims Platin can
+ use XYO’s insecure Bluetooth beacons and satellites for its own location proofs 
+ 2 6 3 Fysical
+ Fysical is predominately a data analytics company It is the reverse ICO of a data aggregation company originally
+ called “Beacons In Space ” Beacons In Space aggregated locations of retail Bluetooth beacons They then
+ expanded to purchasing data and recently pivoted to the blockchain and rebranded themselves as “Fysical ”
+ Fysical plans to enable a distributed marketplace of data with more transparency into data provenance They
+ claim that people will be paid for the use of their mobility data while also protecting anonymity 
+ Item Fysical Platin Comments
+ Blockchain orientation A data aggregation company that
+ pivoted into blockchain
+ Blockchain and security company
+ first
+ Fysical is a reverse ICO 
+ Security Statements provided by data
+ provider
+ Security enabled by Platin
+ Bulk Bulk imports of location data
+ from third parties
+ Location data from Platin users
+ as well as third parties
+ Table 2 XYO vs Platin
+ Table 2 XYO vs Platin
+ 19
+ 2 6 4 Principal Platin Differentiators
+ Security High value assets can be leveraged on Platin due to security being baked in from day one by experienced 
+ proven team full time cryptographers who are part of early core team hires 
+ Interoperability Very flexible leveraging of existing infrastructure due to being hardware agnostic 
+ Coverage Can be used anywhere on earth rather than limited to areas of prior deployment 
+ Early Mover Great market timing one of the first Proof of Location solutions out of the gate 
+ Platin Team Committed tireless co founders core team blockchain evangelists security specialists with proven
+ business traction proven ability to recruit manage and deliver while providing business value to
+ stakeholders 
+ Experience Platin’s CEO and CTO have decades of experience with secure cryptographic systems tech innovation and
+ delivery of large scale systems Platin’s advisory team includes security experts at world class universities
+ such as the Technion and ETH Zurich 
+ Standards Other tokens depend on the creation of new standards and new technologies (e g time synchronizations) 
+ Platin uses proven deployed and standardized ISO and W3C accepted standards such as Simple Feature
+ Geometry and others
+ Visualization Other projects focus on visualizing a map of staked claims Platin focuses on visualizing the location of
+ digital assets such as cryptocurrency branded coins and others depending on the underlying business
+ case 
+ Security Competitors focus on their own hardware and less on the security of their software components On the
+ converse Platin is a security and privacy focused entity in all regards 
+ ZK Platin has already released its first location Zero Knowledge proof and will soon have ZK Snarks and Starks
+ implementations as well as new innovative proofs No other PoL player has made any announcements on
+ the subject of privacy preserving zero knowledge proofs or location blinding 
+ Tokens Other project tokens staked to places and hardware beacons leading to slow growth (one location at a
+ time) Platin tokens earned by Sensor based Mining (faster global uptake) and Staking secure beacons
+ (can be software based faster deployment)
+ 2 6 5 Summary
+ Together the above listed companies work with Platin in “coopetition” to make the location space more mature
+ and enable a mutual benefit proposition for service providers and consumers of location based services 
+ 20
+ Platin Token Sale /
+ ICO Economics
+ This section describes various aspects of the Platin Token Sale 
+ 03
+ Platin TGE 
+ October 28 2018
+ 12 00 GMT
+ 21
+ 3 1 Disclaimer
+ This document contains forward looking statements subject to risks and uncertainties that could cause actual
+ results to differ materially Final obligations will be determined by the actual signed SAFT agreement and in any
+ contradiction between this document and the SAFT the latter shall prevail 
+ Platin has taken all reasonable care to ensure that the facts stated in this document are true and accurate in all
+ material respects and that there are no other facts the omission of which would make misleading any statement
+ in the document whether of facts or opinion 
+ Platin has the right to modify cancel or suspend the offering Platin tokens are not to intended to be redeemed 
+ purchased or otherwise transacted for profit Platin tokens are not to be considered a currency investment or
+ other financial product Platin tokens are not guaranteed or secured by any person asset entity organization 
+ scheme venture or project including the Issuer in any way The token issuer is under no obligation to issue
+ replacement tokens in the event that any token or private key is lost stolen malfunctioning destroyed or
+ otherwise inaccessible for any reason 
+ Platin tokens are not a medium of exchange but provide utility within the Platin PoL protocol Platin tokens are
+ not intended to be a regulated financial product of any kind Purchasers and holders of the Token will not receive
+ any profit income return or other benefit purely by virtue of holding the Platin Tokens 
+ This document does not constitute an offer or solicitation of securities or any other regulated product nor a
+ promotion invitation or solicitation for investment purposes The terms of the purchase are not intended
+ to be a financial service offering document or a prospectus The Platin token involves and relates to the
+ development and use of technologies that may not come to fruition or achieve the objectives specified in
+ this document The Platin tokens do not represent equity shares units royalties or
+ rights to capital profit returns or income in Platin or any other company or
+ intellectual property associated with Platin or any other public or private
+ enterprise corporation foundation or other entity in any jurisdiction 
+ The Platin tokens are not intended to represent a security or similar
+ legal interest 
+ The project as envisaged in this document is under development
+ and is being constantly updated including but not limited to
+ amounts technical features and key governance issues Platin may
+ not necessarily develop the Tokens Accordingly if and when the
+ project is completed it may differ significantly from the project set
+ out in this document No representation or warranty is given
+ as to the achievement or reasonableness of any plans 
+ future projections or prospects and nothing in this
+ document is or should be relied upon as a promise or
+ representation as to the future ]
+ 22
+ Additionally the following terms apply 
+ (i) the document in full or part must not be taken or transmitted to any place where distribution or
+ dissemination of the document is prohibited or restricted (with specific selling restrictions where relevant) 
+ (ii) persons into whose possession the document may come are required to inform themselves about and
+ observe any relevant legal or regulatory restrictions and seek all necessary professional advice and
+ (iii) neither this document nor the Platin tokens are endorsed by any government authority 
+ 3 2 Reasons for the Platin Token Sale
+ • Incentivization of the ecosystem early adoption fuels development
+ • Early purchasers enjoy a significant price advantage in exchange for funding early development
+ • Early stakes more valuable
+ • Early location proofs earn more
+ 3 3 Token Sale Details
+ HARD CAP
+ $18 Million
+ TOTAL SUPPLY
+ 1 Billion PTNX
+ SOFT CAP
+ $3 Million
+ ALLOCATED FOR SALE
+ 300 Million PTNX
+ TGE
+ October 28 2018
+ 23
+ 3 4 Token Distribution
+ The Platin Token will be distributed to seven major participating groups in the Platin Network This allocation is
+ written into the TGE smart contract itself Each of the following allocations below is an integral component of the
+ Platin ecosystem 
+ 3 5 PTN vs PTNX Tokens What’s the Difference 
+ PTNX is an ERC20 token issued for signal harvesting that is equivalent to 1 PTN the native token of the Platin
+ Plexus blockchain used on the Plexus and for other location proof activities At the time of the Plexus go live 
+ holders of PTNX tokens will be given 1 PTN for each 1 PTNX held The PTNX utility tokens will co exist with PTN
+ utility tokens 
+ Any tokens that remain unsold after the the completion of the public sale will be burned reducing the overall
+ supply of outstanding PTNX tokens 
+ Unsold tokens 
+ Platin SAFT (private sale only) Instrument for public sale is TBD 
+ Instruments 
+ 24
+ 3 6 The Utility of the PTN/PTNX Tokens
+ The PTN/PTNX utility tokens enable secure and verifiable location proofs to be requested via Platin’s Proof of
+ Location (PoL) protocol on the blockchain or to enable the coupling of and representation of geographical
+ information within secure digital assets These tokens are also the mechanism underlying incentivization for
+ participating nodes to witness verify and attest to location claims Proof of Location exists primarily as a result of
+ the PTN/PTNX (PTN/X) tokens 
+ The application of incentives to Platin’s Proof of Location protocol is one of the insights that founded Platin 
+ and is based on game theory models that are working in other cryptocurrencies They both encourage actors
+ to nurture Platin’s strong safe peer to peer operation and discourage bad actors by punishing those who act
+ maliciously 
+ Platin’s fungible utility token the PTN/X with its smallest unit pli is the primary continuously operating incentive
+ unit on Platin’s blockchain PTN/X is fungible meaning it can be exchanged for other currencies empowering it
+ to incentivize and mold the behavior of platform participants Varying amounts are rewarded to nodes that run
+ Platin Policies (with their associated PALs) of varying complexity A simple policy pays minimal fees An elaborate
+ policy such as one requiring AI powered location history analysis or zero knowledge credentials rewards higher
+ fees Baking these fees into Platin’s consensus and incentive structures ensures that the Platin ledger does not
+ become bogged down with low value high bandwidth work or malicious attempts to create artificial bottlenecks 
+ Nodes can earn PTN/X by participating in attestation and secure location witnessing Secure beacons whether
+ standalone or integrated into IoT devices can continuously earn PTN/X over time The rate of earning correlates
+ with the number of Platin policies that request a validation from that beacon Therefore beacons in more
+ populous areas have the potential to perform witnessing more frequently and as a result earn more PTN/X 
+ Platin received a legal opinion stating that the Platin token is incontrovertibly a utility token The legal opinion is
+ comprehensive and includes a number of tests used by various jurisdictions 
+ 25
+ 3 7 Use of Funds
+ Following is a breakdown of Platin’s planned expenditures for each success scenario in Platin’s fundraising
+ activities 
+ Current $3m + $8m + $13m + $18m hard cap
+ Engineering Continue development
+ with our current team
+ on the PLatin Oracle/
+ Verifier
+ Expand core dev team 
+ Accelerate work on the
+ Platin Plexus/ETH fork 
+ Consider a secondary
+ issuance in conjunction
+ with the release of the
+ Plexus
+ Hire additional talent
+ including team leaders
+ in blockchain mobile
+ and crypto
+ Expand hiring of talented
+ teams of engineers and
+ designers to build PoL
+ consumer dapps
+ “Aqui hire“ established
+ dev teams through
+ strategic acquisition of
+ tech companies 
+ Research Continue our use of
+ PhD candidates to work
+ on formal verification 
+ Continue Technion
+ & other academic
+ research projects
+ Keep our current
+ approach but expand to
+ UC Berkeley strategically
+ engage the distributed
+ PoL Deepen ETH Zurich 
+ HKUST ties
+ Contract a team
+ of academics to
+ research and refine
+ the Platin consensus
+ algorithm followed
+ by implementation of
+ zero knowledge proof
+ operators within Platin
+ Offer competitive salaries
+ to attract experts on
+ formal verification to
+ work exclusively on
+ the protocol Set up a
+ working group at ETH
+ Zurich
+ Sponsor a leading
+ computer science
+ department with
+ endowed professorships
+ and extensive grants to
+ graduate students in the
+ field of distributed PoL
+ Communication and
+ Marketing
+ Continue working with
+ our distributed team on
+ a need basis
+ Expand both distributed
+ and in house marketing
+ teams Hire a dedicated
+ community manager to
+ deepen SM interactions
+ and community education
+ & engagement
+ Hire CMO and expand
+ marketing and PR teams
+ Hire senior marketing
+ team leaders serving
+ APAC and EMEA
+ Hire VP marketing staff
+ each for American APAC
+ and EMEA
+ Dev Conferences 
+ Hackathons
+ Host one annual
+ developer conference or
+ hackathon
+ Host one developer
+ conference in
+ Silicon Valley and
+ one hackathon in
+ Switherland
+ Conduct three annual
+ developer conferences
+ (EU US Asia) with one
+ focusing on Platin Play 
+ distributed PoL for AR &
+ location based gaming
+ Host quaterly developer
+ conferences hackathons
+ and lead monthly
+ meetups in US EU Asia
+ on PoL protocol dev 
+ dapps airdrops and
+ more
+ Business Development Core team continues
+ ad hoc meetings and
+ biz dev efforts only
+ with most strategic/
+ prioritized
+ Hire a strong VP Business
+ Development to assistin
+ interfacingstrategic
+ partners vendors and
+ service providers
+ Expand the business
+ development team
+ with one senior and
+ one junior business
+ development
+ responsible for APAC
+ and EMEA
+ Hire dedicated business
+ development VPs each
+ in American EMEA and
+ APAC
+ Expand the business
+ development team with
+ additional senior senior
+ staff in American APAC
+ and EMEA
+ Humanitarian Airdrop
+ Task Force
+ Establish humanitarian
+ airdrop task force at
+ Platin HQ for global
+ location evaluations and
+ to establish last mile
+ relationships
+ Expand task force
+ in cooperation with
+ humanitarian aid
+ organizations
+ Expand special
+ distributed task force
+ across American APAC
+ and EMEA Expand
+ commitments from
+ a larger number of
+ humanitarian and
+ organizations
+ Urban Airdrop Task
+ Force
+ Establish urban airdrop
+ task force at Platin
+ HQ for global location
+ evaluations and to
+ establish last mile
+ relationships
+ Expand task force 
+ secure commitments
+ from leading retailers
+ Expand special
+ distributed task force
+ across American APAC
+ and EMEA Expand
+ commitments from
+ a larger number of
+ consumer and retail
+ businesses
+ 26
+ 3 8 Future Token Issuance
+ Platin will not issue any future tokens The 1 billion PTNX tokens created during the token generation event will
+ be the only PTNX/PTN tokens to ever exist 
+ 3 9 KYC/AML Compliance
+ All participants in Platin’s token sales (both the private pre ICO sales and the public ICO) will undergo strict KYC/
+ AML verifications at platin io/kyc Platin has partnered with Onfido the world leader in KYC/AML processing to
+ verify investors whitelist ETH addresses and provide end to end coverage of the regulatory requirements and
+ verification aspects for backers of the Platin token sale The KYC/AML verifications include but are not limited to
+ passport authentication address verification source of funds verifications verifications against sanctions list 
+ politically exposed persons (PEP) and more 
+ 3 10 Token Emission Schedule for PoL Miners
+ Unlike Bitcoin Ethereum and other blockchains where the incentive for mining a block is
+ based on proof of work (PoW) incentives for Proof of Location (PoL) mining in Platin
+ are based on location witnessing on smartphones secure beacons IoT and other
+ dedicated devices As more nodes participate in PoL mining and mining “difficulty”
+ increases the reward for each node decreases 
+ 58% R&D
+ 15% Marketing
+ 10% Business Development
+ 10% Management
+ 2% General & Administrative
+ 2% Accounting & Legal
+ 3% Misc
+ 27
+ Location
+ Credentials
+ 04
+ 28
+ 4 1 Location Before Platin
+ A typical location credential the kind done by most people’s mobile phones several times a day to one’s
+ cellphone mobile network operator Google search and other service providers looks like this 
+ This type of location statements are the least privacy preserving and the most troubling to many people 
+ particularly Sir Tim Berners Lee the inventor of the World Wide Web and director of the consortium (W3C) that
+ oversees its continued development 
+ device d is at location (x y) at time t
+ 4 2 W3C Credentials and Platin
+ In honor of the web’s 25th birthday its inventor Sir Tim advocated at the United Nations and other public forums 
+ “We have built an amazing web but we still have a lot to do so that the web remains truly for everyone… How
+ do we secure the web to protect our personal information ” As a direct result of his concerns the W3C is
+ standardizing digital credentials Its Verifiable Claims Working Group formed in April 2017 is dedicated
+ to making “expressing exchanging and verifying claims easier and more secure on the Web ” Platin’s
+ co founder Dr Wolberger works with Sir Tim and others in this Working Group to codify the
+ creation storage presentation verification and user control of location credentials 
+ Platin treats location as one such verifiable credential being a set of claims created by
+ an issuer about a subject—a person group or thing—in a decentralized privacy
+ preserving way that is supportive of self sovereign identity and can be integrated
+ into the typical web browser 
+ Platin’s Proof of Location protocol is compatible with the latest standards 
+ Platin’s continuing work with the W3C ensures Secure Proof of Location
+ credentials will be available in people’s everyday digital life via their ordinary
+ web browsers and phone apps 
+ Platin applies three strategies for enhancing privacy while Proof of
+ Location credentials are shared data minimization selective disclosure
+ and progressive trust 
+ 29
+ Data minimization is a policy of minimum data collection and/or access for maximum value Services using
+ people location data shall limit the amount of shared data strictly to the minimum necessary in order to
+ successfully accomplish a task or goal 
+ Since data minimization is largely a policy decision the fact that Platin relies on a shared ledger greatly enhances
+ its ability to promote data minimization and invoke it via community enforcement and transparency Platin also
+ supports minimization through organizational processes documentation and sample code 
+ 4 2 1 Data Minimization
+ Selective disclosure is the ability of a Platin Pocket™ user to granularly decide what information to share Selective
+ disclosure is a means by which data minimization can be achieved Data formats and cryptographic operations
+ are harnessed throughout the system to format the location claims inspect those claims and store them safely 
+ Platin location statements are constructed so as to ensure privacy as well as interoperability They extend the
+ technology behind TLS—the “green padlock” you see on your browser when you connect securely and privately
+ with a company—with certain Zero Knowledge cryptographic routines 
+ 4 2 2 Selective Disclosure
+ • In the Platin Pocket Public/Private key pairs are computed with some other mathematical calculations required to curate the essential ingredients of the operations we are about to perform A related
+ “Proof of Correctness” is created the computational algorithm that will be used to validate the location
+ information A location claim is formatted comprised of the public key and the proof of correctness A
+ cryptographic accumulator is constructed in order to enable zero knowledge queries further on It is a
+ one way membership function embedding the location data as part of a membership
+ set The operation can then answer a query as to whether a potential candidate is a
+ member of a set without revealing the individual members of the set 
+ • In the Public Log a Platin Algorithm (PAL) is executed and the relevant
+ public keys are aggregated for use in validating the signatures The
+ PAL also commits to some given value while keeping it temporarily hidden making the calculation binding The PAL can then
+ verify the proof of correctness and record the result on the
+ Public Log 
+ • The Ethereum ledger records the successful conclusion of
+ the Public Log 
+ By following this process Platin and other services in the Location
+ Credentials community can leverage location information for more
+ and more value while still preserving privacy 
+ 30
+ Progressive trust is the ability of an individual to gradually increase the amount of relevant location data revealed
+ as trust is built or value generated As trust grows an individual may choose to share more and more location
+ data conversely if trust is eroded a person can shut down access to their location information 
+ Trust scores enable progressive trust in the Platin platform Handled in ways similar to location credentials trust
+ scores are a specialized credential that represents the trust relationship between parties between a given Platin
+ Pocket and the Platin Plexus a Pocket to a specific Secure Beacon a Beacon in relation to another Beacon etc 
+ Machine evaluation of trust scores enables the platform to support both increasing trust where two entities may
+ increase the amount of shared information between them or decreasing trust where for some reason trust has
+ been lost and a party is deprecated in its ability to vouch for certain proofs 
+ 4 2 3 Progressive Trust
+ 4 3 Public Maps and Privacy
+ Location information is gathered and stored by many commercial and governmental services under a wide
+ variety of databases terms licenses and trust chains Other services such as search engines generate their own
+ databases that mirror internet content with enriching contextual information added Mapping services work
+ alongside to fulfill the critical function of visualizing correlations between data sets Often these geographic or
+ geospatial information (GI) are locked into silos and are difficult to access Some charge fees while others are
+ monetized by the mining and sharing of people’s personal data Still others are operated by oppressive regimes
+ or are used by attackers to cause harm 
+ Platin is aware that its information will be discovered and accessed by these services so Platin implements
+ ongoing procedures to ensure that abuses do not creep in and users are protected while enabling transparency 
+ This section details some of those procedures and methods 
+ Note Platin is guided by its work with the W3C Working Group and
+ was founded by longtime advocates for individual privacy rights and
+ data sovereignty We work closely with the relevant thought leaders
+ on the process of sharing location credentials and information with
+ proper consent and preservation of dignity 
+ Platin is a stackable protocol that operates within the GI ecosystem and so interacts with these GI services The
+ Platin smart contracts are written with this ecosystem in mind Its PALs can use and contribute to open data
+ tracking of Wi Fi access points cell towers Bluetooth beacons and other publicly known sources that contribute
+ to sensor fusion such as wigle net opencellid org and wikibeacon org 
+ 31
+ Location services such as Platin must deal with the implications of affecting actual human movement Since
+ Platin’s use cases such as coin drops and “Pokemon Go” style competitions have this impact Platin builds in
+ safety features to mitigate the possibility of accidents These include rate limiting the ability to limit the rate at
+ which a set of policies can be fulfilled density limits limiting the amount of Platin digital assets within a particular
+ area density place information to assist developers in knowing what types of human activity occur in that place
+ (e g is it a private field an urban area or the middle of a lake) monitoring of the platform for hazards and so on 
+ In the end Platin implements ongoing oversight and transparency to ensure that location harms do not creep in
+ and instead best practices continue to spread in the GI space 
+ Figure 8 Heat map of cell towers in the Tokyo area From unwiredlabs OpenCellID site image by
+ Google Maps ZENRIN 
+ 4 4 Calling the Platin Protocol
+ To request and consume secure location credentials in your application call the Platin API The API is broken out
+ into easy to understand API calls that simplify working with Platin’s secure location credentials 
+ 32
+ Some features of the API include 
+ • Query for location information on a variety of categories for up to date information about a given location such as coin drops on that location and their status (completed in progress) secure beacons in the
+ area attesting witnesses in the area 
+ • Setting and querying information relevant to the location claim such as location radius and time of availability 
+ • Integration of place identifiers to enable cross communication with other geo spatial APIs 
+ • Queries for various Platin Policy properties such as the cost of the call security assurance level and
+ PALs included 
+ Protocol API calls function as any other activity on the Platin Platform and have to be paid for in PTN to complete
+ properly 
+ 33
+ Decentralized
+ Ledger
+ In this section we dive a bit deeper into Platin’s blockchain technology 
+ 05
+ 34
+ 5 1 Blockchain
+ Platin harnesses the power of blockchain to enable its operations The following are the primary aspects that
+ characterize Platin’s blockchain 
+ The Platin™ system began development using Ethereum smart contracts and an Oracle architecture Since then 
+ Platin™ fine tuned this architecture to be a general purpose location engine that interfaces with other blockchain
+ software 
+ Platin’s first release uses the Ethereum blockchain and we are extending the solidity language to SolidityGEO™ to
+ optimize the handling of location and geographic information Ethereum remains our primary blockchain since its
+ critical components—the Ethereum Virtual Machine solidity programming language and active community—are
+ ideal for Platin’s core feature set 
+ Platin also operates on the EOS EOS is a newer blockchain that has the potential to work
+ more quickly than Ethereum at greater scale and with lower (or no) user fees Platin
+ will optimize geospatial operations on EOS as well 
+ In the end Platin will develop and roll out a custom blockchain technology
+ best suited to its operation This blockchain will complete the best
+ optimized software stack dedicated to location operations top to
+ bottom We call this the blockchain the Plexus™ its seeds have
+ already been planted 
+ • Is robust able to scale
+ • Developer friendly
+ • Has conversion and trading tools
+ • Has a good consensus model
+ • Is Immutable
+ • Is reliable has a testnet and proven track record 
+ • Has high participation rates and a vibrant supportive community 
+ 35
+ As mentioned above Ethereum offers a programming language suited to Platin’s Proof of Location tasks The
+ following is an example of a Platin location Policy written in solidity which in turn creates the EVM compatible
+ bytecode necessary to execute the contract 
+ Developers can view Platin’s solidity code on Github See https //github com/platinprotocol
+ 5 1 2 EVM Compatible Software
+ While some of Platin’s code is available for inspection on Github 
+ most of Platin’s private repos will be publicized in the near future 
+ Platin’s mission requires geographically secure positioning enabled by blockchain technology To enable this 
+ Platin contributes to the blockchain community extensions and simplifications of geography for smart contracts 
+ SolidityGEO™ extends Ethereum’s Solidity language to create a highly flexible powerful and extensible contracts
+ for binding location based behavior to any digital asset GEOS™ builds on EOS’s C++ implementation to enhance
+ EOS contracts 
+ 5 1 1 Geography for Smart Contracts
+ These extensions integrate concepts from existing Geographic Information Systems and ISO standards in order
+ to specify a common handling storage and access model for location data on the blockchain The extensions
+ are based on “ESRI Shapefile Technical Description” (http //www opengeospatial org/standards/sfa) and (http //
+ portal opengeospatial org/files/ artifact_id=25355) We also use Simple Features as defined in ISO standard
+ 19125 
+ Platin’s SolidityGEO™ and GEOS™ help simplify and define performance of geo fencing zero knowledge air drops 
+ location based three factor authentication requesting secure location verifications geolocating assets with strict
+ Platin Escrow capabilities any of the use cases supported by Platin™ and more Both are to be released under a
+ free and open source (FOSS) license 
+ 36
+ 5 2 Platin Pocket™
+ The Platin Pocket™ app runs on smartphones and provides a simple user interface and experience (UI/UX)
+ to mediate interaction As with all aspects of Platin the app is built and deployed with security and privacy by
+ design 
+ Users operate or own nodes but it is technically the nodes that earn the money Nodes earn PTN coin in
+ providing witnessing and attestations to location claims There are several types of nodes Pocket (mobile) full
+ node and secure trusted beacon node 
+ • Transaction ordering dependence The system validates dependence and warns developers of
+ possible poor dependencies 
+ • Timestamp inconsistencies The system uses secure time and makes clear to the developer
+ how latencies in processing could be windows for attack
+ • Call stack depth In general we work to reduce cyclomatic complexity being the number of
+ linearly independent paths through a program s source code 
+ • Examine the unhappy cases and exception handling as for example using send or transfer instead of the pull payments pattern 
+ • Include dynamic parts in the code so these cannot be swapped out in future versions 
+ The Platin ecosystem thrives on community participation in writing PALs (Platin Algorithms) which in turn run on
+ secure encrypted computational engines To ensure the health of this environment Platin’s software semantics
+ have security and privacy by design and enforce opinionated best practices 
+ Platin builds in the lessons to date regarding static analysis of location oriented software as well as broader
+ pitfalls in logic and purpose In addition to the basics of missing input validation reentrancy avoidance integer
+ value limits and loop length limits Platin’s semantics prevent security vulnerabilities and bad practices by
+ protecting developers regarding 
+ 5 1 3 Semantics and Security
+ 37
+ 38
+ 5 2 2 Function
+ The Platin Pocket™ enables a device’s owner to securely install the application connect with the Platin distributed
+ system and benefit from Platin in the way that they choose 
+ The application mediates on its owner’s behalf all the critical processes such as hosting and executing PALs in
+ order to earn PTN currency 
+ Note Platin Pocket™ resource consumption is similar to that of a
+ typical navigation application such as Waze™ or Google Maps™ 
+ The app’s high level architecture is that of a typical smartphone application using the typical hardware and
+ sensors found in any smartphone 
+ The Platin Yellow Paper describes the operation of the application in greater depth 
+ The Platin Pocket™ app provides the user interface to the Platin wallet direct sending and receiving of PTN
+ tokens geographic airdrop capabilities for PTN tokens with basic policy definitions and more The Platin Pocket™
+ also serves as the mining interface for PTN coins showing how many witnesses and verifications a node passively
+ attested to and the node’s cumulative earnings of mining rewards The Platin Pocket™ is a powerful privacy
+ preserving app that enables Platin’s three pillars of secure location Sensor Fusion Behavior Over Time and Peer
+ to Peer Witnessing 
+ Following are pre release shots of the Platin Pocket™ application for iOS 
+ 5 2 1 Platin Pocket™ UI/UX
+ The mock ups above showing PTN coins being collected PTN coins
+ are the utility tokens fueling location proofs for any digital asset or
+ crypto currency 
+ 39
+ Figure 9 Platin Pocket™ Application Internal High Level View
+ 40
+ 5 3 Platin Plexus™
+ Platin’s blockchain is called the Platin Plexus™ The Plexus will be built on state of the art blockchain
+ technologies 
+ Platin is extending classic Solidity to create Solidity GEO to smooth the handling and coding of geospatial
+ semantics and zero knowledge functionalities all while remaining compatible with the W3C Distributed Identifiers
+ and Verifiable Credentials standards 
+ 41
+ The Platin
+ Verifier
+ The Platin Verifier is an open software service that anyone can run to conduct location proofs 
+ The bulk of Platin’s location processing is done on the Platin Verifier introduced because a
+ secure location protocol requires scale computations low latency and privacy that cannot be
+ met by any blockchain today 
+ 06
+ 42
+ The Platin Verifier operates in the following way 
+ • Coordinate validation of location proofs and manage cryptocurrency transfers between parties involved
+ into location proof generation This activity consists of hosting policies PALs and any associated witnessing or signal harvesting 
+ • Communicate with the appropriate ledger (Ethereum EOS etc ) for token transfer via payment channels
+ • Host Platin Policies along with PALs and their code Claimants are provided with PAL descriptions from
+ an instance of the Platin Verifier 
+ The Verifier hosts the following critical operations 
+ • Support signal harvesting operations receive and store harvested signal data and/or their proofs in a
+ distributed storage Pay token rewards to miners 
+ • Coordinate PoL validation Assure that coordinates obtained by a device are correct with sufficient
+ probability by executing the server side portion of the PAL code and producing a validation result This
+ feature relies on the distributed storage 
+ • Assess and conclude the secure proof of location for ledgers that cannot host smart contract EVM code
+ e g Bitcoin IOTA etc Verify the location proof and push the concluded transaction into a blockchain in
+ order to release funds to the address of the claimer 
+ The Platin Verifier is an open software service that anyone can run to conduct location proofs 
+ 6 1 Scalability
+ The Verifier allocates a unique address and associated state machine for each Platin Process This machine then
+ functions as a channel much as payment channels and side channels function on other blockchains The channel
+ is bookended by a pair of significant transactions The first is the initiation transaction which serves as an anchor
+ for the entire activity and inaugurates the machine The final one is a settlement transaction which publishes the
+ channel’s outputs and closes it out 
+ To understand a channel let’s examine the trivial case of the uninspected location claim “I am at location X Y ”
+ The unverified claim has no witnesses no security validations or any security at all The channel is initiated with
+ its anchor configuration key material and algorithms The uninspected claim is received The settlement process
+ then formats the claim for privacy preserving publication publishes it and destroys the channel 
+ Channels are the heart of the Platin ecosystem and we expect them to do much much more The power of the
+ Verifier and its open architecture really shines when you add the Platin Algorithms or PALs 
+ 43
+ 6 2 PALs Platin ALgorithms
+ A platform is only as useful as the applications that run on it like the apps that run on your smartphone PALs are
+ algorithms lightweight software components that run in both the Verifier and on a mobile phone They can do
+ anything from requesting a location (e g 10 Main Street New York NY) to requesting audio witness signals from
+ nearby nodes The PAL store makes available all PALs with information about their provenance and popularity 
+ and PALs can be combined in a channel in endless ways 
+ Some examples of PALs include 
+ PALs enable speed extensibility flexibility and moveable security They are implemented in a transparent way 
+ with secure signatures to prevent tampering 
+ • Checking hashes 
+ • Collecting secure beacon messages from near the client
+ • AI inspection of behavior over time
+ • Collecting audio near supersonic signals
+ • Multisig and time controls 
+ 6 3 Zero Knowledge Within Platin
+ Platin’s Platform features zero knowledge (ZK) implementations to preserve privacy such as ZK SNARKS ZKSTARKS and CL Signatures 
+ ZK is needed because obfuscation is not enough Obfuscation refers to the use of seemingly random mixtures
+ of letters and numbers on DLTs (distributed ledger technologies) like the addresses used in Ethereum Security
+ specialists know that analysis of IP addresses transaction history patterns including time
+ zone service providers and so on can link those seemingly anonymous strings of letters and
+ numbers back to real people More robust methods are needed 
+ Location data differs from currency
+ balances Currency balances need to be
+ forever traceable all the way back to the
+ genesis block by all users Location claims
+ need be accessible until they are validated 
+ consumed and later (optionally) audited 
+ These are sharply restricted time and visibility
+ requirements as compared with currency balances 
+ Furthermore currency balances are their transaction
+ history while location claims are independent 
+ 44
+ attributes and not linked in that way In the case of a coin placed at a location the coin is associated with location
+ information much as a restaurant rating is associated with the restaurant the location is an attribute 
+ Note The Platin Platform offers Zero Knowledge Proof Operators
+ (ZKPO) in a wide range of privacy and security assurance levels 
+ from in the clear GPS declarations all the way up to completely
+ blinded ZK and CL Signatures compatible with W3C credentials 
+ Platin renders location attributes as credentials that are effectively tamper proof whose authenticity can be
+ verified in an automated fashion ZK can be applied when the credentials are shared and inspected with the PAL
+ assisting in privacy enhancement provided that it can understand and work with the data in question For users
+ who select ZK in W3C formats Platin standardizes the location data in such a way as to ensure confidentiality—
+ the hidden part of the location claim cannot be understood by anyone for whom it is unintended—as well as to
+ ensure integrity—the claim and its verifying elements can be validated as authentic and the revealed part of the
+ location information cannot be altered without such alteration being detected 
+ The Platin Yellow Paper shows the detailed implementation of each type of Zero Knowledge Platin Algorithm
+ (ZK PAL) Each ZK PAL enables the mathematical calculations required to curate the essential ingredients of
+ the operations required the proofs that are performed to validate the PAL the credential itself formatted in a
+ privacy preserving manner and the computational primitives compatible with the Verifier’s trusted execution
+ stack 
+ This ensures that each device involved in the Platin protocol is indeed in the hands of its rightful owner and
+ making honest claims without revealing anything about the owner their history location or other sensitive data 
+ 6 4 Trusted Private Computing
+ The Verifier assures privacy preserving computation and decentralized (aka trustless) operation by running its
+ state machines in confidential enclaves It achieves this goal by being security by design and privacy by design
+ from the processor up to the application layer The Verifier offers transparent data encryption key management
+ and secure compute features ensuring that each channel is working only with its creators and users—the verifier
+ sysadmins only see the existence and bare facts about the channel and cannot access the channel’s exact
+ activity even if under subpoena This is achieved by creating a secure application layer encrypted connection
+ from the PAL participants directly to the protected channel in the Verifier The authorization for trusted
+ connectivity is managed using the same cryptographic keys anchoring the Platin wallets and Ethereum smart 
+ 45
+ contracts Connectivity between nodes is protected by TLS 
+ The Verifier performs like an internal confidential application from a performance and connectivity aspect Its
+ secure computing model allows the strict partitioning and role based access that is a standard feature of secure
+ data centers 
+ 6 5 Anchoring
+ Some Platin™ information is stored off chain such as complex geometries or behavior over time logs To make
+ sure that this data is immutable and that its integrity is protected Platin will with store a signed address on
+ the blockchain or commit a hash of the data to the blockchain Output from Platin processes is anchored to
+ the blockchain by the most suitable method either as a merkleized chain as hash commitments broadcast
+ periodically to the root blockchain (i e Ethereum) or Plasma compatible blockchain computations 
+ 46
+ Incentivizations
+ The application of incentives to Platin’s Proof of Location protocol on the blockchain is one
+ of the insights that founded Platin and is based on game theory models that are working in
+ other cryptocurrencies They both encourage actors to nurture Platin’s strong safe peer topeer operation and discourage bad actors by punishing those who act maliciously 
+ 07
+ 47
+ Platin’s fungible utility token the PTN with its smallest unit pli is the primary continuously operating incentive
+ unit on Platin’s blockchain PTN is fungible meaning it can be exchanged for other currencies empowering it
+ to incentivize and mold the behavior of platform participants Varying amounts are rewarded to nodes that run
+ Platin Policies (with their associated PALs) of varying complexity A simple policy pays minimal fees An elaborate
+ policy such as one requiring AI powered location history analysis or zero knowledge credentials rewards higher
+ fees Baking these fees into Platin’s consensus and incentive structures ensures that the Platin ledger does not
+ become bogged down with low value high bandwidth work or malicious attempts to create artificial bottlenecks 
+ Platin allows arbitrarily complex location validations to be processed so it is important to measure the work done
+ directly instead of just choosing a fee based on the length of the policy being processed 
+ Nodes can earn PTN or pli by participating in attestation and secure location witnessing Secure beacons 
+ whether standalone or integrated into IoT devices can continuously earn PTN over time The rate of earning
+ correlates with the number of Platin policies that request a validation from that beacon so beacons in busier 
+ more populated areas have the potential to perform witnessing more frequently and as a result earn more PTN 
+ Secure beacon PALs can share analytics enabling participating businesses to project revenue as for example
+ “How much can a vehicle in my fleet earn as it drives around a metropolitan neighborhood running a secure
+ beacon ” These models will be shared as they mature 
+ PTN pricing can also enforce disincentives For example creating overly aggressive policies that hoard location
+ proofs will be made to cost more PTN 
+ Preventing large swings in token price and maintaining the cost effectiveness of everyday transactions is achieved
+ by protections similar to Ethereum’s price adjustments around Gas These transparent robust and adjustable
+ mechanisms rest on the three main approaches to token stability 
+ • Static price fallbacks a fallback price since static pricing changes relatively slowly
+ • Price indexing An index based on a gross moving average
+ • Real time demand pricing market forces dictating how much people are willing to pay and how much
+ nodes are requesting
+ 7 1 Incentive Prices
+ Just as the Wei and the Satoshi are the smallest units of an Ether and a Bitcoin respectively pli is the smallest
+ indivisible unit of a PTN The Platin pli is also an acronym describing the function of the pli within the Platin
+ incentive mechanism the Performance Linked Incentive 
+ Note PTN is a utility token enabling incentivized Proof of Location operations PTN holders have a right to access
+ and drive usage of located digital assets on the platform by paying transaction fees in PTN The tokens may be
+ used for payments and transactions relating to location claims PTN is not an investment vehicle 
+ 48
+ To better understand the structure of the PTN a single PTN token is divisible into one billionth or ten decimal
+ places as follows 
+ Platin’s incentive model is based on nodes running the Platin Pocket™ providing witnessing to surrounding
+ location claims within proximity Depending on the complexity of the transaction and policy each transaction on
+ the Platin blockchain may include a different gas price which is paid to miners and participating witnesses 
+ 0 0000000001 PTN = 1 pli
+ 1 PTN = 1 000 000 000 pli
+ 7 2 Signal Harvesting (Mining)
+ The enormous field of digital signals that surrounds us everywhere enables Platin users to engage in Proof
+ of Location mining Radio waves cell tower signals WiFi Bluetooth and other signals in a node’s vicinity are
+ harvested into Merkle trees Like harvesting wheat growing in a pasture Platin nodes collect signal meta data and
+ measurements and receive a reward in PTNX utility tokens (the ERC 20 variant of the PTN utility token which is
+ dedicated to compensating participating nodes in signal harvesting and location data mining) 
+ Signal harvesting is truly democratized cryptocurrency mining representing a low cost low friction way to quickly
+ become involved with PoL mining as the data collected by harvesting enables the Platin Plexus to perform secure
+ location verifications for future PoL requests 
+ 7 3 Gas Price Tables
+ Pricing structures in Platin are dynamic in order to accommodate changing market conditions and maintain
+ proper gas levels At any given moment a clear list of prices will be available for transactions 
+ The following tables provides sample lists of gas prices to securely query a location claim 
+ 49
+ Modality/Credential Gas Price Unit
+ GPS 10 000 pli
+ Wi Fi 30 000 pli
+ Cell Tower (GSM/LTE) 40 000 pli
+ IP 50 000 pli
+ Bluetooth 80 000 pli
+ Radio 100 000 pli
+ Barometer 120 000 pli
+ Temperature 150 000 pli
+ Magnetic Field 180 000 pli
+ Accelerometer * 240 000 pli
+ * A smartphone’s accelerometer is used to cross check GPS data to assist in anomaly detection for
+ prevention of location spoofing Splicing the two makes a location spoof attempt easily detectible 
+ Table 4 Platin Prices for Sensor Fusion Sample
+ Platin supports analysis of past location history done in a privacy preserving fashion on the device 
+ Due to the opportunistic nature of peer to peer witnessing and the costly incentivization of participating nodes 
+ Policies containing requests of peer witnessing pay much higher gas prices than Policies only requesting sensing
+ modalities DB queries and Behavior Over Time 
+ Window Duration Gas Price Unit
+ 1 day 100 000 pli
+ 5 days 500 000 pli
+ 10 days 1 000 000 pli
+ 30 days 3 000 000 pli
+ n days n*100 000 pli
+ Table 5 Platin Prices for Behavior Over Time analytics Sample
+ AI powered analytics done on the device can also include other local information 
+ Database Gas Price Unit
+ Call History 1 000 000 pli
+ Address book 2 000 000 pli
+ Calendar 5 000 000 pli
+ Table 6 Gas Prices Local Database
+ A node agreeing to witness other nodes is compensated at a higher level 
+ 50
+ Database Gas Price Unit
+ 1 witnesses 30 000 000 pli
+ 2 witnesses 60 000 000 pli
+ 3 witnesses 90 000 000 pli
+ n witnesses 3n*10 000 000 pli
+ Table 7 Platin Prices for Secure Witnessing Sample
+ Platin may specify gas prices also by type of peer witnessing performed (NFC audio camera Bluetooth QR 
+ environmental sensors etc ) Each one will require a different effort and incentivization rates will be adjusted
+ accordingly 
+ Database Gas Price Unit
+ Bluetooth 5 000 000 pli
+ NFC 5 000 000 pli
+ QR 5 000 000 pli
+ Audio 5 000 000 pli
+ Camera 5 000 000 pli
+ Table 8 Platin Prices for pecific Sensor Witnesses Sample
+ 7 4 Blockchain Costs
+ Since Verifier operations ultimately are recorded to a blockchain ledger such as Ethereum Mainnet an ability
+ to pay the proper amount of gas must be supported by the system The system maintains a Platin Blockchain
+ Transfer ratio that is updated and maintained by a securely signed internal pricing mechanism 
+ 7 5 Token Economics
+ Platin’s Token Economics paper will be published soon This paper will provide a detailed analysis of the Platin
+ token economics structure and expected behavior Please register on https //platin io to be notified once the
+ Token Economics paper is released to the public 
+ 51
+ Secure
+ Verification of
+ Location Claims
+ One of the key mechanisms that underpins the security of Platin is secure verification of
+ location claims Platin supports a wide range of localization techniques and takes a pragmatic
+ approach to location verification it therefore provides a good tradeoff between user effort 
+ service availability and security 
+ Platin relies on sensor fusion on mobile device user’s behavior over time and peer to peer
+ observations In addition Platin leverages trusted anchors to increase the confidence in
+ asserted location claims 
+ One of the core strengths of Platin is diversity of sensing modalities and witnesses 
+ and their smart aggregation that will make it challenging and costly for adversaries to
+ successfully claim fake locations In addition Platin rewards honest behavior therefore
+ disincentivizing cheating Platin does not rely on a single technology but on a range of sensing 
+ communication and positioning technologies 
+ 08
+ 52
+ 8 1 The Three Pillars
+ The three pillars of security in Platin are as follows 
+ 8 1 1 Sensor Fusion
+ Platin makes use of on device location relevant sensors such as GNSS (e g GPS Galileo) Bluetooth 
+ accelerometers WiFi and cellular network observations Both Android and iOS allow for these sensors to be
+ combined in different ways and provide sufficient precision Platin combines different sensors’ values in a robust
+ manner to counter simple spoofing attacks It will further where available use trusted computing technologies
+ such as ARM TrustZone [TZ] and Intel SGX [SGX] to protect location reporting from on device manipulations (e g 
+ [NDSS14]) A dedicated user can still jailbreak the platform and spoof the measurements [REF] as well as spoof
+ the GNSS BT WiFi and cellular signals that the platform receives [REF][REF] Such spoofing although feasible 
+ comes at a cost for the user The user needs to relay cellular signals generate GNSS signals and emulate BSSIDs
+ and WiFi access point MAC addresses as well as make all these signals mutually consistent Such an effort would
+ be justifiable only if the reward is high 
+ In order to thwart these spoofing attacks Platin will analyze consistency among sensed values user behavior
+ over time and use peer to peer witnessing 
+ 8 1 2 Behavior Over Time
+ Platin will track mobile device locations over short time windows and user behavior over longer periods of time 
+ Short time observations will allow Platin to implement anomaly detection techniques and evaluate the validity
+ of location claims Platin will also peer into users overall behavior over time including their location and prior
+ coin claims and use these to build up users’ reputation scores All this will be done securely and in highly privacy
+ preserving manner that protect users’ identities These scores will increase when users behave honestly and
+ decrease when suspicious activity is identified To incentivize honest behavior high scores will be rewarded 
+ XAIN Technologies XAIN technology in partnership with Platin brings the strengths of modern machine
+ learning algorithms particularly reinforcement learning to Platin’s secure Proof of
+ Location 
+ XAIN enables Platin’s PALs to send advanced machine learning based algorithms to the
+ node and return an assurance that the history of behavior is within expected ranges 
+ Artificial
+ Intelligence
+ New and existing developments in artificial intelligence enable to secure both sensor
+ fusion and behavior over time With the availability of large quantities of data one can
+ train AI models that capture and classify fine nuances in high dimensional data thereby
+ allowing sophisticated pattern validation in an efficient yet secure manner Techniques
+ like federated learning can help to ensure privacy and gain expertise from the data 
+ without actually sharing the data The partnership with XAIN enables Platin to delve into
+ established AI expertise and technology to create custom and optimized solutions 
+ 53
+ Anomaly Detection To enable secure Proof of Location one needs to be able to distinguish between regular
+ or expected behavior on the one hand and irregular or unexpected behavior on the
+ other One important technique to realize a system that can make such distinctions
+ is machine learning based anomaly detection Its overall goal is to find a model that
+ represents the “normal” state of a particular subject i e regular location behavior over
+ time With the support of sensor fusion such patterns become increasingly difficult to
+ forge since even slight deviations from correlated behavior of different sensors can be
+ detected 
+ 8 1 3 Peer to Peer Witnessing
+ Users will be able to act as witnesses for each others’ locations through the use of short range communication
+ techniques such as Bluetooth WiFi ultrasound and camera Platin envisions that most of this interaction
+ happens without any user involvement Platin relies primarily on Bluetooth beaconing mechanisms but will
+ integrate any new types of proximity detection technologies that become available Some witnessing will be
+ more interactive and involve user interaction (e g the use of QR codes) Users’ efforts in verifying other’s location
+ claims will be rewarded 
+ 8 1 4 Potential Attack Vectors
+ The Platin system is built with security baked in from the start To understand how the Three Pillars cooperate to
+ protect the system let’s examine two possible attacks 
+ Attack Scenario #1 A Fortune 500 retail chain has issued its own cryptocurrency and is offering free money
+ at a new store opening in a major city The coins are worth about $10 so hackers are motivated to spoof their
+ location to collect the coins They pay a local citizen to record the signals at the site and share them over the
+ internet They set their phones to fake locations label a local Wi Fi APN to the name of the APN on site install the
+ Platin Pocket™ and attempt to claim the coin 
+ Prevention The Verifier detects that the sensor fusion and behavior over time are fraudulent The claim is
+ denied 
+ Attack Scenario #2 A national cryptocurrency establishes a tax free zone using Platin Proof of Location to
+ determine if a person is physically in the zone when a transaction takes place This includes digital transactions 
+ such as ordering goods from online retailers Total tax savings over a year may add up to thousands of dollars 
+ attracting attackers They raise a botnet of virtual Android mobile phone instances They “train” these virtual
+ devices on fake GPS and mobility data from the region then install the Platin Pocket 
+ Prevention Real witnesses in the region and other nearby nodes regularly cannot be detected by the botnet
+ virtual devices failing witnessing proofs Furthermore behavior over time is often inaccurate The claims are
+ denied 
+ 54
+ 8 2 Trusted Anchors
+ Trusted anchors are dedicated devices and high trust users that provide witnessing and beaconing and
+ witnessing services for Platin They record beacons from users and provide beacons and challenges to the users 
+ These challenges will come in a form of location and time unique beacons and interactive challenge response
+ protocols over the wireless and ultrasonic channels as well as in the form of a visual challenges where the user
+ will be asked to scan QR codes or take photos to prove its presence in a particular location Platin anchors will
+ also be integrated within different IoT devices like Amazon Echo [ECHO] Apple Homepod [POD] and leverage
+ different sonic and wireless secure proximity verification technologies such as [SEC] and [3DB] 
+ 8 3 Secure Proximity Verification
+ Future radio technologies such as WiFi 802 11mc/az [MC][AZ] and Ultra Wide Band 802 15 4f/a [15A][15F] all
+ allow peer to peer distance measurements This means that soon all devices will be able to seamlessly measure
+ their mutual distances and establish proximity therefore naturally supporting witnessing In addition some new
+ 802 15 4f compatible radios also offer full spoofing protection preventing proximity manipulations by users
+ [3DB] This means that in the future secure proximity verification could become fully integrated within all main
+ mobile platforms therefore enhancing the imperviousness of Platin to location manipulation attacks 
+ [NDSS14] Claudio Marforio Nikolaos Karapanos Claudio Soriente Kari Kostiainen and Srdjan Capkun 
+ Smartphones as Practical and Secure Location Verification Tokens for Payments In Proceedings of the Network
+ and Distributed System Security Symposium (NDSS) 2014 [PDF (PDF 865 KB)]
+ [SEC] Nikolaos Karapanos Claudio Marforio Claudio Soriente and Srdjan Capkun Sound Proof Usable TwoFactor Authentication Based on Ambient Sound 24th USENIX Security Symposium 2015 [PDF (PDF 1 7 MB)]
+ [TZ] https //www arm com/products/security on arm/trustzone
+ [SGX] https //software intel com/en us/sgx
+ [ECHO] https //en wikipedia org/wiki/Amazon_Echo
+ [POD] https //www apple com/homepod/
+ [AZ] http //www ieee802 org/11/Reports/tgaz_update htm
+ [MC] http //ieeexplore ieee org/document/7553423/
+ [15A] http //ieeexplore ieee org/document/5394030/
+ [15F] http //www ieee802 org/15/pub/TG4f html
+ [3DB] https //www 3db access com
+ [GPSSPOOF] https //www theverge com/circuitbreaker/2016/7/28/12311290/pokemon go cheat gps signalspoofing
+ [GPSAPP] https //www phonearena com/news/Heres how to easily fake your GPS location on Android_id62775
+ 55
+ Conclusion
+ What we do with our location information is deeply shaped by the format of the location
+ information Your location is known to the people around you but they only see your
+ physical presence and may not know your name Your phone’s location is known to your
+ mobile telephone network operator but you cannot share this say with your insurer even
+ if you wished to When your friend wants to know where you are you have a whole set of
+ expectations that differ when your bank your insurer your search engine your browser your
+ delivery service your doctor your lawyer your mother want to know where you are Your
+ cellphone provider knows where you are your package delivery service knows where you are 
+ your cleaning lady knows where you are your mother knows where you are and on and on 
+ Each bring about in you a different set of desires as to whether you wish to share your location
+ or not 
+ Platin enables a new way of sharing location information You decide who to share it with and
+ how Privacy preserving easy to use PALs lock up your information with cryptography so that
+ your information only does what you wish it to do And you can earn money for participating
+ in the system Such a privacy preserving location protocol is a game changer Yesterday 
+ location claims were made separately insecurely without one claim being able to be used with
+ another 
+ 09
+ 56
+ 9 1 Statement of Facts
+ • Platin is a utility token 
+ • Platin’s pre ICO was private 
+ • Platin’s TGE and public ICO are scheduled for 28 Oct 2018
+ 9 2 Platin Roadmap
+ Location Credentials and Proof of Location unleashes efficiencies of scale and new economics and
+ value based on sharing resources better more effectively and with more granular control This is the
+ dawn of the location marketplace It is powered by Platin Start using Platin get involved 
+ May 2017 Platin founded by Allon Mason and Dr Lionel Wolberger two Cornell University graduates
+ Oct 2017 Platin leads Technion project in network security lab signal harvesting and Ethereum Solidity
+ smart contract development 
+ Jan 2018 Platin selected by Tokyo Metropolitan Government for two month blockchain accelerator
+ along with IOTA Factum and other leading blockchains in residence Jan Mar 2018
+ Feb 2018 Platin publishes its whitepaper and token economics
+ Mar 2018 Lead Technion project in algorithmic location fraud detection 
+ May 2018 Platin secures $1 5 million in private funding
+ Jun 2018 Platin partners with Tel Aviv based SignulariTeam VC
+ Jul 2018 Platin unveils SolidityGEO at TechCrunch Zug in Switzerland
+ Aug 2018 Platin Labs founded
+ Sep 2018 Platin’s TGE and ICO smart contracts in audit
+ 57
+ Oct 2018 TGE Smart contracts release to mainnet
+ Oct 28 2018 October 28th Platin TGE and public sale launch at 12 00 GMT
+ Nov 2018 Platin PTNX token listed on exchanges
+ Dec 2018 Platin Pocket Beta (Private)
+ Jan 2019 Platin SolidityGEO (beta) launch
+ Feb 2019 Zero Knowledge (beta) claims launch
+ Mar 2019 First commercial geo airdrops
+ Apr 2019 Platin Pocket Beta (Public)
+ May 2019 Platin Merkle Tree
+ May 2019 Platin support for EOS Mainnet
+ May 2019 Platin support for Ethereum Mainnet
+ Jun 2019 Platin SolidityGEO GA launch
+ Jul 2019 First humanitarian geo airdrops
+ Jan 2020 Platin Plexus Testnet
+ Jan 2020 Platin ZK in Solidity GEO
+ Jan 2020 Tokyo Airdrops Beta (prep for Olympics)
+ May 2020 Platin Plexus Mainnet
+ Jun 2020 Launch and listing of Plexus native PTN token
+ Jul 2020 Summer Olympics Airdrops
+ 58
+ The Team
+ 10
+ 59
+ 10 1 Core Team
+ Allon Mason is an entrepreneur an early Bitcoin supporter and blockchain
+ evangelist bringing to Platin many years of experience in online marketplaces 
+ product management product design & development cross functional team
+ management and business development Previously Allon cofounded and acted
+ as CEO for successful endeavors including online hiring platforms XPlace com
+ and VREX 
+ Allon conceived developed implemented and lead his prior projects and companies which included online marketplaces SAAS and web services real time
+ collaboration web accessibility utilities and online payment and escrow systems 
+ Prior to founding Platin Allon served as CEO of XPlace one of the world’s leading
+ online project marketplaces and VREX a marketplace for augmented reality(AR) 
+ virtual reality(VR) and mixed reality(MR) talent 
+ Allon Mason
+ https //www linkedin com/in/allon/
+ Allon has been involved in the Israeli tech industry for more than a decade mentoring young entrepreneurs and educating others on blockchain
+ utilities cryptocurrency technologies and his vision around the democratization of mining 
+ Dr Lionel Wolberger has been a cryptocurrency and blockchain evangelist since
+ he served as Chairman of the Blockchain XRI Names Registry on behalf of the
+ Oasis Standards Body Already a cryptographic expert having worked with Prof 
+ Adi Shamir for many years deploying cryptographically secured multi million
+ dollar systems for Fortune 100 companies such as Cisco Cox MTV News America Marketing QVC Get Voo and many leading enterprises in India China and
+ Europe Lionel became an early advocate for decentralized web services 
+ Lionel has experience deploying systems used by tens of millions of people on
+ almost every continent (Cox Cable News America Marketing European Cable 
+ DirecTV) Lionel currently serves on the W3C committees for Verifiable Claims
+ and Distributed Identifiers 
+ Dr Lionel Wolberger PhD Co Founder CTO
+ https //www linkedin com/in/lwolberg/
+ A Privacy by Design ambassador and a Cisco Security Ninja Lionel is a career technologist with a remarkably wide ranging and unique experience
+ set including mathematics technology enterprise leadership as well as a PhD in anthropological and ethnographic approaches 
+ 60
+ Prof Dr Srdjan Capkun (Srđan Čapkun) is a Full Professor in the Department of Computer
+ Science ETH Zurich and Director of the Zurich Information Security and Privacy Center (ZISC) 
+ He was directly involved in founding two startups in the location security space proximity detection for secure login (https //futurae com) and secure proximity radio (https //www 3db access com) 
+ Dr Capkun has 15+ years of research and industry consulting experience and his work on
+ location security and wireless venues has been recognized worldwide with seminal publicaProf Dr Srdjan Capkun Platin Advisor on Secure
+ Location
+ https //www linkedin com/in/srdjan capkun 8919991/
+ tions in leading journals 
+ He was born in Split Croatia and received his Dipl Ing degree in Electrical Engineering / Computer Science from the University of Split in 1998 
+ and his Ph D degree in Communication Systems from EPFL in 2004 
+ Prior to joining ETH Zurich in 2006 he was a postdoctoral researcher in the Networked & Embedded Systems Laboratory (NESL) University of California Los Angeles and an Assistant Professor in the Informatics and Mathematical Modeling Department Technical University of Denmark (DTU) 
+ Mykhailo (Mike) is an experienced blockchain architect and Java team lead with a demonstrated history of delivering large scale solutions He is a strong engineering professional and is
+ skilled in Solidity Scrum PostgreSQL SQL Oracle and Agile Methodologies 
+ Most recently Mike was the CTO at Betexlab com where he created architecture drafted
+ smart contracts and backend and also managed PoC development and product development 
+ In addition he took on the role of CTO at Vareger where he concentrated on R&D projects 
+ PDP plans for developers and managed customer consultations on blockchain solutions Mike
+ has also acted as a Technical Advisor for Propy com where he architected a smart contract
+ based registry and transaction tool and for Cronica io where he assisted with blockchain solution consulting designed product descriptions and created solution architecture 
+ Mykhailo Tiutin Chief Blockchain Architect
+ https //www linkedin com/in/mykhailo tiutin/
+ Alex’s ability to tackle challenging technical projects and his keen interest in developing
+ modern solutions led him to join the Platin team At Platin Alex is responsible for designing
+ solution architectures DevOps and infrastructure management project and product management and working on the backend for Platin’s mobile apps Plexus blockchain Ethereum
+ interfaces and more 
+ Due to his extensive software development experience and full stack engineering capabilities 
+ Alex is dedicated to being involved of all aspects of software development and is focused on
+ discovering unique and insightful ways to optimize projects within Platin 
+ Oleksandr Zalizniak Platin Lead Engineer
+ https //www linkedin com/in/ozalizniak/
+ Previously Alex worked on projects where he was responsible for development authoring requirements producing technical documentation 
+ project planning managing dev teams as well as coding and handling quality assurance for mission critical components A number of these
+ projects were for banking services clients with high security standards 
+ In addition to this work Alex took on the role of Backend Senior Java Developer on several e commerce projects large scale projects allowing Alex
+ to gain a great deal of hands on technical experience in building highly available and scalable solutions 
+ 61
+ Vadym leads Platin’s work on private verification for location claims 
+ Vadym was working in industry and academia with past projects including zero knowledge interactive proof systems non interactive proofs identification protocols electronic commerce
+ systems general software development Originally trained as a theoretical physisist and a
+ mathematician Vadym’s major results are polynomial representation for graphs extension of
+ Schnorr protocol with verification of polynomials of higher degree in challenge and recently
+ applicability of zkSNARK for polynomial representation 
+ Vadym Fedyukovitch Platin Chief Cryptographer
+ https //www linkedin com/in/ozalizniak/
+ In 2017 and 2018 Vadym worked as a Software Engineering Consultant for Samsung Research SRK on the implementation of an identification
+ protocol working with libraries implementing bilinear pairing on elliptic curves and conducting research on the applicability of SNARKs for company projects Prior to that Vadym was also a consultant for GlobalLogic Kiev working on an Android project with Texas Instruments as well as a
+ Software engineer with IntroPro a DirecTV R&D center supporting TV receivers a Linux based MIPS system 
+ For more than a decade Alexa has been helping to guide teams using clear communications
+ and proactive project management In addition to her work with Platin Alexa is the International PR Representative for Startup City Fukuoka where she helps startups to realize success
+ within Japan and abroad This includes sharing advice with aspiring entrepreneurs making
+ helpful introductions within the community and producing content that inspires potential
+ founders to start up in Fukuoka 
+ Before coming to Japan Alexa worked at the Software Engineering Institute as the writer and
+ Alexa Fukuoka Senior Relationship Manager
+ https //www linkedin com/in/alexahuth/
+ editor for the C suite Other projects included facilitating an internal reorganization assisting the Organizational Effectiveness Group and creating
+ a project showcase for external and internal stakeholders 
+ She has earned both a bachelor’s and master’s degree in Professional Writing from Carnegie Mellon University 
+ Anatolii has 15+ years’ experience in software development and related fields 
+ He started as a freelancer and contractor performing complex solutions for the retail market 
+ accounting warehouse and POS software and devices underlying network and system setup
+ including assembly repair and hardware programming 
+ Anatolii then became a full stack web developer focusing on the DevOps and DBA layers 
+ including PostgreSQL and network and system administration 
+ He later focused on development with social responsibility including software and databases
+ Anatolii Kucheruk Lead Blockchain & Solidity
+ Developer
+ https //www linkedin com/in/anatolii kucheruk 00441339/
+ for social workers and researchers working to prevent alcoholism drugs addiction HIV/AIDS HEP and TUB epidemics In parallel Anatolii focused
+ on a number of Universities infrastructure projects databases and data warehousing solutions 
+ For the last couple years Anatolii has focused on R&D for blockchain and Platin’s™ Proof of Location blockchain – the Plexus™ 
+ 62
+ Anastasiia is a skilled Android developer with extensive experience in working on Android
+ apps for startups and larger companies She has worked with and managed distributed
+ teams while focusing on implementing the latest Android development methodologies and
+ best practices 
+ Anastasiia Babicheva Lead Android Developer
+ https //www linkedin com/in/anastasiia babicheva 91245686/
+ Bogdan is an iOS/mobile engineer with experience that spans dozens of projects for international and multi national organizations and large enterprises A an expert in Objective C and
+ Swift as well as core Apple frameworks Bogdan has a passion for delivering high quality apps 
+ Bogdan Ivanov Senior iOS Engineer
+ https //www linkedin com/in/bogdanivanov/
+ Certified Java and seasoned mobile developer leading various projects mostly within startups 
+ Passionate about mobile client architecture AR and machine learning 
+ Ivan Fytsyk Android Developer
+ https //www linkedin com/in/ivan phytsyk 52410377/
+ I work on SolidityGEO Platin’s™ Solidity extension SolidityGEO allows for the smooth handling
+ and coding of both geospatial semantics and zero knowledge functionalities In this role I use
+ my experience in the Solidity language as well as in blockchain development Java Spring and
+ SQL to develop projects for Platin™ and our partners In addition to my work on SolidityGEO 
+ I am also focusing on writing smart contracts and scalable applications for the Platin Plexus
+ blockchain 
+ Mykhailo Savchuk SolidityGEO Developer
+ https //www linkedin com/in/mykhailo savchuk 4b3a3ba8/ 
+ 63
+ Yaroslav has over 8 years of hands on work experience in UI/UX design rapid prototyping and
+ front end development for rich Internet applications and mobile devices Yaroslav practices
+ user centered design principles basing design decisions on user needs and business goals
+ Yaroslav Semelyak UI/UX Expert
+ https //www linkedin com/in/yaroslav semeliak/
+ Alona brings over 7 years of web development experience to her position as Platin’s front end
+ developer She has a strong academic background rooted in mathematics and focuses on
+ building highly complex full stack solutions including building maintaining and updating all of
+ Platin’s web services 
+ In prior projects Alona has worked extensively with database architectures including (but not
+ limited to) SQL NoSQL and MongoDB In addition she has worked extensively with JavaScript
+ libraries such as React js AngularJS and Vue js as well as Node js (Express & Sails) and old PHP
+ frameworks such as CI (CodeIgniter) and Symfony 
+ Alona Verekshaka Senior Front End Developer
+ https //www linkedin com/in/alona vereshaka 86529a154/
+ José is a graphic designer at Platin with more than five years of experience specializing in lettering 3D modeling and corporate branding <br /><br /> José uses both traditional and more
+ innovative tools and techniques to develop creative solutions with a distinctive look and feel <br
+ /><br />At Platin José focuses on creating compelling visualizations and renders of airdropped
+ digital assets scenes and cryptocurrencies while maintaining Platin’s brand guidelines 
+ José Sanches 3D Concept Artist
+ https //www linkedin com/in/jose sanchez 07982616b/
+ Kenneth Lefkowitz heads business development for Platin and has over twenty years of
+ experience leading a wide range of businesses He sits on the board of trustees of technical
+ standards but still likes to take apart a car’s V8 engine His passion is leading teams of people 
+ nurturing diverse but unified company culture and most of all keeping promises to customers 
+ Kenneth is based in New York City but is also regularly in Israel Europe and Silicon Valley 
+ Kenneth Lefkowitz Business Development
+ https //www linkedin com/in/kennethlefkowitz/ 
+ 64
+ Tushar currently leads the immersive reality development work at Platin making cryptocurrencies and other digital assets real interactive and visually engaging for everyone 
+ Over the years Tushar has gained expertise in enterprise architecture data centers big data
+ and artificial intelligence for various organizations but Tushar’s real passion lies in immersive
+ tech and has been a proud immersive reality enthusiast since the early days of AR/VR 
+ Tushar has more than 15 years of experience working at various Fortune 100 companies such
+ as Oracle Dell EMC PepsiCo as well as various governmental groups around the world 
+ Tushar is a certified and practicing PMP and author of the book Pro Oracle Fusion Applications
+ Tushar Thakker Immersive Reality Dev Lead
+ https //www linkedin com/in/tusharthakker/
+ (https //www amazon com/Pro Oracle Fusion Applications Administration/dp/1484209842/)
+ Leonid is a full stack engineer with extensive experience in a variety of technologies focusing
+ on both servers side development and web apps Leonid has held managerial positions in the
+ tech retail and postal industries Leonid has a BSc in economics and studied for his masters in
+ applied mathematics and computer science 
+ Leonid Muzyka Full Stack Engineer
+ https //www linkedin com/in/leomuzyka/
+ As an Account Manager for Platin Yulia ensures that the development team is always in sync 
+ Her experience is rooted in creating and refining business processes while fostering positive
+ customer relationships Tapping into these skills Yulia helps to align teams with Platin’s overarching goals and assists in identifying growth opportunities Within Platin Yulia helps to create
+ an atmosphere of positive collaboration and focused on product success 
+ Yulia Vidomenko Account Manager
+ https //www linkedin com/in/yuliavidomenko/
+ Dimitris received his Diploma and his M Sc in Computer Engineering and Communications
+ from the Department of Electrical and Computer Engineering of University of Thessaly Volos 
+ Greece 
+ He is currently a PhD student at the Department of Computer Science and Engineering of The
+ Hong Kong University of Science and Technology and a member of HKUST DT System and
+ Media Lab 
+ During the summer of 2014 he was a visiting PhD student at Ecole polytechnique federale de
+ Lausanne (EPFL) His main research interests are in the areas of mobile computing device–to–
+ device ecosystems and cryptocurrencies 
+ Dimitris Chatzopoulos Advisor Device to Device
+ Ecosystems
+ https //www linkedin com/in/dimhatzo/ 
+ 65
+ Hananya Goodman Head Librarian Sami Shamoon College of Engineering Ashdod Israel has 
+ for nearly twenty years provided comprehensive in depth engineering research information
+ to faculty and students including software electrical and industrial engineering He holds a
+ Master’s degree from Simmons in Library and Information Science 
+ He has been affiliated in various capacities with Harvard Yale Boston University Hebrew
+ University and Cisco He has published academic articles and books and holds a BSc from the
+ University of Wisconsin and MA from Brandeis He is proud to have volunteered several years
+ at the Albert Einstein Archives at the Hebrew University of Jerusalem 
+ Hananya Goodman Researcher
+ https //www linkedin com/in/hananya goodman b243196b/
+ Iuliia (pronounced ‘yu li ah’) is an HR and recruiting expert at Platin specializing in tech Iuliia
+ focuses on technical recruiting team building career development and HR Policies 
+ Iuliia Osypova Recruiting and HR
+ https //www linkedin com/in/iuliiaosypova/
+ At Platin Eran leverages his experience in the fields of corporate finance business & strategic
+ planning valuations and regulatory support to assist in Platin’s planning and policy creation 
+ Eran is the founder of Benefit Business Solutions Ltd a Gibraltar based fintech consultancy
+ firm Prior to founding the consultancy he served as a Director at Deloitte for 15 years leading
+ the Financial Advisory Services practice at the Gibraltar offices 
+ In the past Eran has led several Initial Public Offerings for companies on the London AIM and
+ Main Stock Exchanges and he has been involved in numerous M&A transactions This background makes him a well informed representative of Platin’s stakeholders 
+ Eran Shay Platin Non Executive Director
+ https //www linkedin com/in/eran shay 27826512/
+ In addition to his role at Platin Eran also serves as the President of the Gibraltar Israel Chamber of Commerce and holds a Master’s in Banking &
+ Finance from Middlesex University London 
+ Marc X Ellul has 25 years’ experience as a Gibraltar lawyer He is the Managing Partner of Ellul
+ & Co (www ellul gi) and heads the firm’s fintech team He is Chairman of the Gibraltar Finance
+ Centre Council Representatives of all of Gibraltar’s financial services industry associations are
+ members of this Council whose objects are to promote the economic interests of Gibraltar by
+ developing the finance center 
+ The Council meets regularly with the Minister for Commerce Government officials and the FSC
+ and has an important role in shaping finance canter policy and legislation He was also ChairMarc X Ellul Legal Counsel
+ https //www linkedin com/in/marc ellul ba734a28/ 
+ 66
+ man of the Company Law Reform Committee which updated the Companies Act in 2014 and he formed a part of team which drew up the AML
+ guidance notes for Gibraltar lawyers 
+ He now mainly practices as a corporate funds tax and fintech lawyer He is actively involved in blockchain work in Gibraltar advising on the set up
+ of regulated cryptocurrency exchanges token sale (ICOs) and on the establishment of digital asset investment funds 
+ Itzik Ashkenazi Chief Engineer Networking Lab at Technion Israel Institute of Technology
+ Chief Engineer Laboratory of Computer Communication and Networking (LCCN) Technion 
+ Israel Institute of Technology
+ Dates Employed Nov 2015 – Present Employment Duration 2 yrs 3 mos Location Haifa
+ Manage the LCCN lab (http //lccn cs technion ac il/) that is part of the Computer Science Faculty
+ in the Technion In the lab I manage Research projects Projects with leading networking companies in the Industry as well as participate and contribute to Open Source projects 
+ Itzik Ashkenazi Advisor Networking
+ https //www linkedin com/in/itzik ashkenazi 4856886/
+ The projects are in the following areas 
+ Research of IP Networks
+ Research of Routing protocols such as BGP OSPF using advanced networking simulations tools
+ Investigation and implementation of advanced algorithms that improve networking performance
+ Research future networking technologies such as SDN NFV OpenStack IoT
+ POCs and Prototype projects with the Industry and Standardization organizations like MEF
+ Robert Scoble technical evangelist and author helps companies get going for the next transformation coming in the 2020’s when self driving cars AI cryptocurrencies digital assistants and
+ AR will deeply change the world 
+ Robert Scoble authored the book “The Fourth Transformation How Augmented Reality &
+ Artificial Intelligence Will Change Everything” tracing the technological evolution into the worlds
+ of Virtual Reality Augmented Reality and Mixed Reality that will become pervasive in less than
+ ten years 
+ Robert Scoble Advisor
+ https //www linkedin com/in/scobleizer/
+ Robert writes about the technology that allows us to go from merely observing something to truly sensorially experiencing it even a digital asset
+ such as a Bitcoin Some things need to be seen to be believed and this is now happening with cryptocurrencies What already exists will blow
+ your mind and make you rethink the world around you 
+ Avishai is the acting CEO of Alignment Group the largest collective of Blockchain and crypto
+ technologies worldwide focusing on covering all aspects of ICOs and TGEs 
+ Prior to heading the Alignment Group Avishai lead Earnst & Young’s High Tech group for eight
+ years where he serviced hundreds of businesses from start ups to multinational corporations 
+ As a Management Consultant at E&Y Avishai focused on growth/profitability corporate structures strategic planning corporate level fundraising & development services aiding numerous IPO’s on exchanges such as NASDAQ the Tel Aviv Stock Exchange and various European
+ indices and more 
+ Avishai Ziv Advisor Alignment CEO
+ https //www linkedin com/in/avishai ziv 8240092a/
+ 67
+ 10+ years of R&D and consulting Leader of wide variety of full cycle projects from planning
+ stages to delivery that involved working with contractors and high performance on tight schedules 
+ Out of the box and creative problems solver with abilities to quickly perceive advanced and
+ complex topics and use innovative technologies 
+ Gadi Rotenberg Security Advisor
+ https //www linkedin com/in/gadirotenberg/
+ Mike Winston CFA is the founder and Managing Principal of Sutton View an employee owned
+ hedge fund sponsor and advisor Sutton View was founded in 2012 and focuses on event driven and intrinsic value investing The firm has advised one or more of the largest academic
+ endowments in the world Mr Winston was an early investor in cryptocurrency and remains
+ active in financial applications of blockchain technology 
+ Prior to Sutton View Mr Winston worked as a portfolio manager at Millennium Partners LP
+ where for five years he and a colleague managed a $1bn merger arbitrage and event driven
+ capital allocation Mr Winston received an MBA in Finance and Real Estate from Columbia BusiMike Winston Advisor
+ https //www linkedin com/in/mikewinstoncfa/
+ ness School in 2005 and a BA in Economics from Cornell University in 1999 At Columbia he completed the school–s program in Value Investing 
+ While at Cornell he studied for a year at the London School of Economics and twice won the Eastern US division for policy debate He began his
+ career in 1999 with Credit Suisse First Boston Mr Winston is a CFA Charter Holder and a member of the Economic Club of New York 
+ 68
+ References
+ 11
+ 69
+ 1 Alanwar Amr et al “PrOLoc resilient localization with private observers using partial homomorphic
+ encryption demo abstract ” Proceedings of the 16th ACM/IEEE International Conference on Information
+ Processing in Sensor Networks ACM 2017 
+ 2 Alanwar Amr et al “PrOLoc resilient localization with private observers using partial homomorphic
+ encryption ” Information Processing in Sensor Networks (IPSN) 2017 16th ACM/IEEE International
+ Conference on IEEE 2017 
+ 3 Arunkumar Saritha Mudhakar Srivatsa and Muttukrishnan Rajarajan “Location Security Where to
+ Enforce ” Military Communications Conference (MILCOM) 2014 IEEE IEEE 2014 
+ 4 Arunkumar Saritha et al “Global attestation of location in mobile devices ” Military Communications
+ Conference MILCOM 2015 2015 IEEE IEEE 2015 
+ 5 Arunkumar Saritha et al “Location attestation and access control for mobile devices using GeoXACML ”
+ Journal of Network and Computer Applications 80 (2017) 181 188 
+ 6 Brambilla Giacomo Peer to Peer Location Based Services based on Blockchain and Web Technologies Diss 
+ Università degli Studi di Parma Dipartimento di Ingegneria dell’Informazione 2017 
+ 7 Capkun Srdjan “Secure Positioning and its Applications” www nano tera ch/pdf/soetc/capkun pdf Accessed
+ 13 Feb 2018 
+ 8 Capkun Srdjan “Secure positioning From GPS to IoT (by Srdjan Capkun) ” Online video clip YouTube 
+ 9 u’smile Mobile Security Research 28 Mar 2017 Web 14 Feb 2018 
+ 10 Capkun Srdjan “Srdjan Capkun on diverse security cyber risk prevention ” Online video clip YouTube Swiss
+ Re 3 Feb 2016 Web 14 Feb 2018 
+ 11 Capkun Srdjan “Prof Srdjan Capkun about Information Security ” Online video clip YouTube ETHInformatik 
+ 10 Mar 2016 Web 14 Feb 2018 
+ 12 Capkun Srdjan “Srdjan Capkun Securing Cars and IoT ” Online video clip YouTube TTI/Vanguard 19 Oct
+ 2016 Web 14 Feb 2018 
+ 13 Capkun Srdjan “SCS3 Srdjan Capkun Cracking Keyless Car Systems ” Online video clip YouTube 
+ swisscyberstorm 31 May 2011 Web 14 Feb 2018 
+ 14 Capkun Srdjan Levente Buttyán and J P Hubaux “Self organized public key management for mobile ad hoc
+ networks ” IEEE Transactions on mobile computing 2 1 (2003) 52 64 
+ 15 Chatzopoulos Dimitris et al “LocalCoin An ad hoc payment scheme for areas with high connectivity poster ”
+ Proceedings of the 17th ACM International Symposium on Mobile Ad Hoc Networking and Computing ACM 
+ 2016 
+ 16 Decker Christian and Roger Wattenhofer “Information propagation in the bitcoin network ” Peer to Peer
+ Computing (P2P) 2013 IEEE Thirteenth International Conference on IEEE 2013 
+ 70
+ 17 Decker Christian and Roger Wattenhofer “A fast and scalable payment network with bitcoin duplex
+ micropayment channels ” Symposium on Self Stabilizing Systems Springer Cham 2015 
+ 18 Esposito Christian and Chang Choi “Signaling game based strategy for secure positioning in wireless sensor
+ networks ” Pervasive and Mobile Computing 40 (2017) 611 627 
+ 19 Fomichev Mikhail et al “Survey and Systematization of Secure Device Pairing ” IEEE Communications Surveys
+ & Tutorials (2017) http //ieeexplore ieee org/abstract/document/8023969/
+ 20 Gervais Arthur et al “On the security and performance of proof of work blockchains ” Proceedings of the
+ 2016 ACM SIGSAC Conference on Computer and Communications Security ACM 2016 
+ 21 Gervais Arthur et al “Quantifying location privacy leakage from transaction prices ” European Symposium on
+ Research in Computer Security Springer Cham 2016 
+ 22 Gervais Arthur et al “Tampering with the delivery of blocks and transactions in bitcoin ” Proceedings of the
+ 22nd ACM SIGSAC Conference on Computer and Communications Security ACM 2015 
+ 23 Gervais Arthur et al “On the privacy provisions of bloom filters in lightweight bitcoin clients ” Proceedings of
+ the 30th Annual Computer Security Applications Conference ACM 2014 
+ 24 Gervais Arthur et al “Quantifying web search privacy ” Proceedings of the 2014 ACM SIGSAC Conference on
+ Computer and Communications Security ACM 2014 
+ 25 Gervais Arthur et al “Is Bitcoin a decentralized currency ” IEEE security & privacy 12 3 (2014) 54 60 
+ 26 Gong Neil Zhenqiang et al “PIANO Proximity based User Authentication on Voice Powered Internet ofThings Devices ” Distributed Computing Systems (ICDCS) 2017 IEEE 37th International Conference on IEEE 
+ 2017 
+ 27 Goodman L M “Tezos A self amending crypto ledger position paper ” (2014) www tezos com/static/papers/
+ position_paper pdf Accessed 13 Feb 2018 
+ 28 Goodman L M “Tezos — a self amending crypto ledger White paper ” www tezos com/static/papers/white_
+ paper pdf Accessed 13 Feb 2018 
+ 29 Karame Ghassan O et al “Misbehavior in bitcoin A study of double spending and accountability ” ACM
+ Transactions on Information and System Security (TISSEC) 18 1 (2015) 2 
+ 30 Khalife Joe Sonya Ragothaman and Zaher M Kassas “Pose estimation with lidar odometry and cellular
+ pseudoranges ” Intelligent Vehicles Symposium (IV) 2017 IEEE IEEE 2017 http //ieeexplore ieee org/
+ abstract/document/7995956/
+ 31 Khalife Joe and Zak M Kassas “Navigation with Cellular CDMA Signals–Part II Performance Analysis and
+ Experimental Results ” IEEE Transactions on Signal Processing (2018) http //ieeexplore ieee org/abstract/
+ document/8272318/
+ 32 Khalife Joe Kimia Shamaei and Zaher M Kassas “A software defined receiver architecture for cellular 
+ 71
+ CDMA based navigation ” Position Location and Navigation Symposium (PLANS) 2016 IEEE/ION IEEE 2016 
+ http //ieeexplore ieee org/abstract/document/7479777/
+ 33 Li Zhijie et al “On the Integration of Event Based and Transaction Based Architectures for Supply Chains ”
+ Distributed Computing Systems Workshops (ICDCSW) 2017 IEEE 37th International Conference on IEEE 
+ 2017 
+ 34 Lin Zi Denis Foo Kune and Nicholas Hopper “Efficient private proximity testing with gsm location sketches ”
+ International Conference on Financial Cryptography and Data Security Springer Berlin Heidelberg 2012 
+ 35 Luo Wanying and Urs Hengartner “Veriplace a privacy aware location proof architecture ” Proceedings of
+ the 18th SIGSPATIAL International Conference on Advances in Geographic Information Systems ACM 2010 
+ 36 Morales J Joe Khalife and Z Kassas “Collaborative autonomous vehicles with signals of opportunity aided
+ inertial navigation systems ” Proceedings of ION International Technical Meeting Conference 2017 https //
+ pdfs semanticscholar org/d6bf/67d591e73412ef19a84844afa9b95415bdbe pdf
+ 37 Morales J and Z Kassas “Optimal receiver placement for collaborative mapping of signals
+ of opportunity ” Proceedings of ION GNSS Conference 2015 https //pdfs semanticscholar 
+ org/35b1/8de0999c7e4934774e87394902884ecd96af pdf
+ 38 Narayanan Arvind et al “Location Privacy via Private Proximity Testing ” NDSS Vol 11 2011 
+ 39 Olafsdóttir Hildur Aanjhan Ranganathan and Srdjan Capkun “On the Security of Carrier Phase based
+ Ranging ” International Conference on Cryptographic Hardware and Embedded Systems Springer Cham 
+ 2017 https //link springer com/chapter/10 1007/978 3 319 66787 4_24
+ 40 Ordano Esteban et al “Decentraland A blockchain based virtual world ” www decentraland org/whitepaper 
+ pdf Accessed 13 Feb 2018 
+ 41 Otte Pim Martijn de Vos and Johan Pouwelse “TrustChain A Sybil resistant scalable blockchain ” Future
+ Generation Computer Systems (2017) 
+ 42 Raab Christopher W John W Glatfelter and Kelly C Hill “ON BOARD BACKUP AND ANTI SPOOFING GPS
+ SYSTEM ” U S Patent Application No 15/177 134 http //www freepatentsonline com/20170357009 pdf
+ 43 Ranganathan Aanjhan and Srdjan Capkun “Are We Really Close Verifying Proximity in Wireless Systems ”
+ IEEE Security & Privacy (2017) http //ieeexplore ieee org/abstract/document/7950848/
+ 44 Rasmussen Kasper Bonne and Srdjan Capkun “Realization of RF Distance Bounding ” USENIX Security
+ Symposium 2010 
+ 45 Retscher Guenther and Allison Kealy “Navigation Based on Sensors in Smartphones ” Positioning and
+ Navigation in Complex Environments IGI Global 2018 368 396 https //www igi global com/chapter/
+ navigation based on sensors in smartphones/195720
+ 46 Ritzdorf Hubert et al “TLS N Non repudiation over TLS Enabling Ubiquitous Content Signing for 
+ 72
+ Disintermediation ” IACR ePrint report 578 (2017) 
+ 47 Shamaei Kimia Joe Khalife and Zaher M Kassas “Ranging precision analysis of LTE signals ” Signal
+ Processing Conference (EUSIPCO) 2017 25th European IEEE 2017 http //ieeexplore ieee org/abstract/
+ document/8081705/
+ 48 Shamaei Kimia Joe Khalife and Zaher M Kassas “Exploiting LTE signals for navigation Theory to
+ implementation ” IEEE Transactions on Wireless Communications (2018) http //ieeexplore ieee org/abstract/
+ document/8255823/
+ 49 Shokri Reza et al “Quantifying location privacy ” Security and privacy 2011 IEEE symposium on IEEE 2011 
+ 50 Singh Mridula Patrick Leu and Srdjan Capkun “UWB with Pulse Reordering Securing Ranging against Relay
+ and Physical Layer Attacks ” https //eprint iacr org/2017/1240 pdf
+ 51 Snader Robin and Nikita Borisov “EigenSpeed secure peer to peer bandwidth evaluation ” IPTPS 2009 
+ 52 Sompolinsky Yonatan and Aviv Zohar “Accelerating bitcoin’s transaction processing ” Fast Money Grows on
+ Trees Not Chains (2013) 
+ 53 “Tezos The self amending cryptographic ledger ” www tezos com/static/papers/Tezos_Overview pdf 
+ Accessed 13 Feb 2018 
+ 54 Vukolić Marko “The quest for scalable blockchain fabric Proof of work vs BFT replication ” International
+ Workshop on Open Problems in Network Security Springer Cham 2015 
+ 55 Wu Haoyan A Distributed Blockchain Ledger for Supply Chain Diss Purdue University 2017 
+ 56 Yang Chun Thao Nguyen and Erik Blasch “Mobile positioning via fusion of mixed signals of opportunity ”
+ IEEE Aerospace and Electronic Systems Magazine 29 4 (2014) 34 46 http //ieeexplore ieee org/abstract/
+ document/6819122/
+ 57 Yassin Ali et al “Recent advances in indoor localization A survey on theoretical approaches and
+ applications ” IEEE Communications Surveys & Tutorials 19 2 (2016) 1327 1346 http //ieeexplore ieee org/
+ document/7762095/
+ 58 Zhao Ju min et al “Time Efficient Cloning Attacks Identification in Large Scale RFID Systems ” Security and
+ Communication Networks 2017 (2017) https //www hindawi com/journals/scn/2017/8356983/abs/
+ 73
+ Change Log
+ 12
+ 74
+ Version Major Changes Signed
+ 1 04 • Clarify how Platin works with blockchain either Ethereum Eos
+ or a forked and new blockchain dedicated to Platin’s use how
+ this does not conform with the Ethereum Oracle architecture
+ pattern originally described 
+ • Update competitor section
+ LW
+ 1 05 • Added updated team section AF
+ 2 01 • Team section new format
+ • Token sale economics
+ • Updated PoL diagrams
+ • Added Platin Roadmap
+ • Updated Platin Pocket UI
+ AKM
+ 2 1 • New open source policy section
+ • Additional details on Platin’s SolidityGEO™
+ LW
+ 2 2 • Updated team photos 

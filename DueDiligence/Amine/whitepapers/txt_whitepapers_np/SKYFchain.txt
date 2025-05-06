@@ -1,0 +1,2814 @@
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The New Operating Platform 
+ 
+ for Cargo Robotics Industry 
+ 
+ 
+ 
+ 
+ 
+ WHITE PAPER 
+ 
+ 
+ 
+ v 21 11 2018 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The SKYFchain Operating Platform will provide a disruptive solution for switching global logistics 
+ industries to unmanned systems As an independent blockchain based Operating Platform open to all 
+ industry participants it will contain critical information for each stage of lifecycle of a cargo robot The 
+ operations and access to clients of SKYF drone will be used to develop and test the SKYFchain We 
+ aim to set the standards for the new industry in robotic delivery in areas such as financing 
+ manufacturing operations maintenance insurance and authorization of drones and robots in the air 
+ on the ground and at the sea 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ TABLE OF CONTENTS 
+ 
+ 
+ EXECUTIVE SUMMARY 5 
+ 1 SKYFchain OP business model 7 
+ 2 Project roadmap 12 
+ 3 The Market 13 
+ 3 1 The market for air borne cargo robots (drones) 13 
+ 3 2 Unmanned trucks ships and cars 15 
+ 3 3 Drone related VC deals 21 
+ 4 Problems in the drone market and unmanned logistics 23 
+ 4 1 Lack of transparency 23 
+ 4 2 Technical problems of air borne unmanned logistics short flight range of existing drones 25 
+ 5 SKYFchain Operating Platform technical details and economics 28 
+ 5 1 Blockchain concept for the SKYFchain OP 28 
+ 5 2 Proposed data structure of SKYFchain OP 31 
+ 5 3 SKYFT token the internal token of SKYFchain 33 
+ 5 4 The economics of the SKYFchain OP 34 
+ 5 5 SKYFchain key figures (projections) 35 
+ 5 6 Projected Super Node holders income 36 
+ 6 Use of funds 39 
+ 7 Team and advisors 40 
+ Annex 1 Details on existing drone intelligence platforms 43 
+ Annex 2 Prospective clients of SKYFchain 45 
+ Annex 3 Blueprint of the SKYF drone 48 
+ Annex 4 Details on drone market segments and SKYF drone applications 49 
+ 
+ DISCLAIMER 
+ 
+ INFORMATION PURPOSES ONLY 
+ 
+ This White Paper is for information purposes only The purpose of this White Paper is to present the 
+ SKYFchain Operating Platform and SKYFT token (the Project) and to provide relevant and reasonable 
+ information to potential token holders in order for them to determine whether to undertake a thorough 
+ analysis of the Project with the intent of acquiring SKYFT tokens The information set forth below may 
+ not be exhaustive and does not imply any elements of a contractual relationship 
+ 
+ Nothing in this White Paper shall be deemed to constitute a prospectus of any sort of a solicitation for 
+ investment nor does it in any way pertain to an offering or a solicitation of an offer to buy any securities 
+ in any jurisdiction This White Paper is not composed in accordance with and is not subject to laws or 
+ regulations of any jurisdiction which are designed to protect investors Persons accessing the 
+ information contained herein are strongly encouraged to obtain appropriate professional advice before 
+ making any investment or financial decision 
+ 
+ The information presented herein has been obtained from various sources we believe to be reliable 
+ however we do not expressly or by implication guarantee its reliability accuracy or completeness All 
+ potential investors must take appropriate measures to verify all of the information set forth herein 
+ 
+ CERTAIN RISK FACTORS RELATED TO USE OF TOKENS 
+ 
+ The SKYFT token is not a digital currency security commodity or any other kind of financial instrument 
+ and has not been registered under the Securities Act the securities laws of any state of the United 
+ States or the securities laws of any other country including the securities laws of any jurisdiction in 
+ which a potential token holder is a resident 
+ 
+ 
+ 
+ FORWARD LOOKING STATEMENTS 
+ 
+ Certain statements estimates and financial information contained within this White Paper constitute 
+ forward looking or pro forma statements and information Such statements or information involve 
+ known and unknown risks and uncertainties which may cause actual events or results to differ materially 
+ from the estimates or the results implied or expressed in such forward looking statements 
+ 
+ We do not provide any assurances that the assumptions underlying such forward looking statements 
+ are free from errors nor do we accept any responsibility for the future accuracy of the opinions 
+ expressed herein or the actual occurrence of the forecasted developments 
+ 
+ Investors should not place undue reliance on these forward looking statements We undertake no 
+ obligation to update any forward looking statements to conform to actual results or changes in our 
+ expectations unless required by applicable law 
+ 
+ Past performance is not necessarily indicative of future results No statement in the White Paper is 
+ intended as a profit forecast and no statement in the White Paper should be interpreted to mean that 
+ the earnings of an investor for the current or future years would be as may be implied in this White 
+ Paper 
+ 
+ All investments carry risk and all investment decisions of an individual remain the responsibility of that 
+ individual There is no guarantee that systems indicators or signals will result in profits or that they will 
+ 
+ 
+ not result in losses All investors are advised to fully understand all risks associated with any kind of 
+ investing they choose to do 
+ 
+ IMPORTANT NOTE COMPANIES DISCUSSED IN THIS WHITE PAPER ARE NOT RESPONSIBLE 
+ FOR ANY DIRECT OR CONSEQUENTIAL LOSSES OR DAMAGES THAT MAY ARISE DIRECTLY 
+ OR INDIRECTLY FROM (I) RELIANCE ON ANY INFORMATION CONTAINED IN THE WHITE 
+ PAPER AND ALL ASSOCIATED MATERIALS INCLUDING THIS DOCUMENT (II) ANY OMISSION 
+ OR INACURACCY ERRORS THAT MAY BE PRESENT IN THE INFORMATION RELAYED OR (III) 
+ ANY ACTION RESULTING FROM SUCH INFORMATION 
+ 
+ 
+ 
+ LANGUAGE 
+ 
+ This English language White Paper is the primary official source of information about the SKYFchain 
+ OP and SKYFT token The information contained herein may from time to time be translated into other 
+ languages or used in the course of written or verbal communications with existing and prospective 
+ customers partners etc In the course of such translation or communication some of the information 
+ contained herein may be lost corrupted or misrepresented The accuracy of such alternative 
+ communications cannot be guaranteed In the event of any conflicts or inconsistencies between such 
+ translations and communications and this official English language White Paper the provisions of this 
+ English language original document shall prevail 
+ 
+ USE OF WHITE PAPER 
+ 
+ This White paper or any part thereof as well as any copies must not be taken or transmitted to any 
+ country where distribution or dissemination of this White paper is prohibited or restricted 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ EXECUTIVE SUMMARY 
+ 
+ Unmanned cargo robots in the air on the ground and at the sea can dramatically reduce cost of logistics 
+ worldwide and increase efficiency for industrial users and end customers 
+ 
+ While PwC have estimated addressable market size for airborne drones alone to be $127 bn 1 the 
+ current industry limitations including lack of stable credit costly insurance and near prohibitive 
+ regulations in some countries do not allow it to realize its full potential Currently this industry exists in 
+ form of feasibility studies carried out by large corporations or startups 
+ 
+ 1 https //www pwc pl/en/publikacje/2016/clarity from above html 
+ 
+ Universal operating platform for the cargo robots does not exist 
+ 
+ SKYFchain Operating Platform (hereinafter SKYFchain OP) is the first B2R (business to robots) 
+ blockchain based operating platform applicable globally in all sectors of a developing cargo robotics 
+ industry It will be initially developed and tested by using the first industrial cargo airborne robot SKYF 
+ drone which will also give SKYFchain instant access to its client base for development of unmanned 
+ business processes Later all other unmanned cargo systems in the air on the ground and at the sea 
+ will be connected to SKYFchain 
+ 
+ The first feedback from our customers in oil and gas industry confirms that if they switch from helicopters 
+ to cargo drones they can supply their on shore rigs with 5 to 10 times less cost 
+ 
+ SKYFchain as a blockchain with built in smart contracts will provide trusted source of data and 
+ reasonable control over unmanned assets for clients logistics operators insurance and leasing 
+ companies banks and authorities worldwide 
+ 
+ It will unveil new profitable business opportunities for all industry participants transportation system 
+ with lower risk for the society and increased overall affordability of goods and services due to 
+ substantial cost cutting in the global supply chain 
+ 
+ 430 424 614 392 SKYFT tokens have been generated to facilitate all internal transactions in 
+ SKYFchain 
+ 
+ We expect that value of SKYFT may increase over time because of two main drivers 
+ 
+ 1 More and more companies clients financial institutions will be connected to SKYFchain which 
+ will drive the growth of transactions in SKYFchain and demand on SKYFT 
+ 2 For every SKYFchain transaction whether its getting loan to buy unmanned vehicle client 
+ payment or something else SKYFchain will charge some commission leading to purchasing 
+ SKYFT on crypto exchanges 
+ 
+ 
+ 
+ We understand that your backing of SKYFchain may be associated with risk and we have taken several 
+ measures to mitigate those risks 
+ 
+ SKYFchain legal entity Skyfdrones Services OU is registered in Estonia which has one of 
+ most favorable regulations in the world for blockchain related companies 
+ 
+ Hundreds of SKYF drones will use SKYFchain as an operating platform SKYFchain developers 
+ will have direct access to all SKYF drone clients to test and polish SKYFchain system before 
+ inviting other producers of drones to use the system 
+ SKYFchain is a spin off of SKYF drone development project which in addition to granting 
+ SKYFchain access to clients shall use 20% of revenues from sales of SKYF drones to purchase 
+ the SKYFT tokens from the market We estimate that this may amount to $50M during the next 
+ 3 5 years And the SKYF drone is designed with full range of IP protection measures including 
+ patens and know how This shall protect SKYFchain uniqueness for the time of its initial 
+ development 
+ SKYFchain has very experienced and trusted team of engineers and business leaders with 
+ proven results they have attracted $5M of VC money into the SKYF drone project 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 SKYFchain OP business model 
+ 
+ Logistics business processes today are designed with a human being in mind either as a customer or 
+ a controller etc Autopilots for cargo robots AI and the developing field of IOT hints that one day robots 
+ may work without being directly controlled by an individual 
+ 
+ This would bring enormous savings since currently around 50% of costs in logistics is in labor 
+ 
+ The field in cargo robotics will require investments and investments need insurance risk management 
+ and control Thus unmanned cargo robots may become an asset which would require new types of 
+ regulations and business processes We are planning to develop them in the SKYFchain Operating 
+ Platform 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 
+ The main purpose of the SKYFchain OP is to integrate information for all market participants and 
+ organize the execution of smart contracts for transactions Transactions may vary in value and 
+ frequency The platform will collect commissions from each transaction All transactions will be paid in 
+ USD or other fiat currency but executed in system using the SKYFT tokens 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ image2 png 
+ 
+ 
+ SKYFT token will be the internal currency of the platform Only 430 424 614 392 tokens have been 
+ issued in form of Ethereum ERC20 tokens This is fixed amount for all system 
+ 
+ We are going to test the platform using SKYF drones then we shall educate drone producers and 
+ integrate other drones into the system When sea borne and ground borne cargo robots come into the 
+ market we shall integrate them as well by organizing workshops with respective associations of 
+ producers 
+ 
+ As the number of cargo robots connected to system grows so does the number of transactions More 
+ tokens will be needed to execute the smart contracts and the SKYFT exchange rate may increase We 
+ expect that the clients would usually pay us in fiat and crypto currencies and purchase our tokens from 
+ the crypto exchanges in case of need This would create liquidity needed for the platform operations 
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 65
+ 
+ 
+ 102
+ 
+ 
+ 205
+ 
+ 
+ 3
+ 
+ 
+ 30
+ 
+ 
+ 300
+ 
+ 
+ 450
+ 
+ 
+ 600
+ 
+ 
+ 0
+ 
+ 
+ 100
+ 
+ 
+ 200
+ 
+ 
+ 300
+ 
+ 
+ 400
+ 
+ 
+ 500
+ 
+ 
+ 600
+ 
+ 
+ 700
+ 
+ 
+ 0
+ 
+ 
+ 50
+ 
+ 
+ 100
+ 
+ 
+ 150
+ 
+ 
+ 200
+ 
+ 
+ 250
+ 
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 3
+ 
+ 
+ 4
+ 
+ 
+ 5
+ 
+ 
+ SKYFchain revenue projections
+ 
+ 
+ SKYFchain comissions Mln USD (left scale)
+ 
+ 
+ Sales of SKYF drones Mln USD (right scale)
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 
+ 
+ SKYFchain OP will be created using three unique resources 
+ 
+ 1 The exclusivity of servicing operations of SKYF drone the worlds first heavy and industrial grade 
+ cargo drone It is a fundamentally new drone vehicle with a hybrid gasoline fueled engine that 
+ outperforms existing drone solutions It is capable of vertical take off and landing and has an ultra high 
+ useful load of up to 400 kg/880lb and an exceptional flying range of up to 350km/220 miles The SKYF 
+ drone suits multiple market segments including logistics agriculture and firefighting to name a few It 
+ already has clients which would allow SKYFchain to develop new business processes of unmanned 
+ logistics Those clients will also bring in transactions to execute on SKYFchain SKYF drone IP and 
+ know how fully protected 
+ 
+ 
+ 
+ From the start of SKYFchain 
+ 
+ the SKYF drone autopilot will require authorization in the SKYFchain to lift off 
+ 
+ 
+ 
+ 2 20% of the revenue from sales of the first 1000 SKYF drones will be reserved by a license 
+ agreement with the SKYF drone producers to purchase back SKYFT tokens from the market 
+ We expect this to take place during the first three to five years after launch of SKYFchain (this revenue 
+ is equivalent to $50 60mln) Tokens bought under this condition will be put into a Community 
+ Development Fund and used to reward partners and developers of the SKYFchain 
+ 
+ 3 Mission planning verification and operations support of SKYF drones (and later other drones) will be 
+ run through SKYFchain a unique private blockchain 
+ 
+ SKYFchain super node holders will receive 50% of transaction fees 
+ SKYF drones will be marketed together with a franchise of a drone logistics operator and a 
+ license for the third party drone producers of drones and spare parts By 2021 more than 1100 
+ SKYF drones projected to be operating worldwide and other drone manufacturers and owners 
+ will also be able to join the SKYFchain Operating Platform therefore increasing the number of 
+ transactions in the system 
+ 
+ 
+ 
+ 
+ The upside for a token buyer is our plan to open the SKYFchain OP after the testing period for all 
+ other developers and manufacturers of air borne sea borne and ground borne cargo robots The SKYF 
+ drone will become just one of the many participants of the platform 
+ 
+ 
+ 
+ 
+ 
+ Well open the SKYFchain to other drone manufacturers after the testing period 
+ 
+ 
+ 
+ 
+ 
+ SKYFchain OP will invite experts from the logistics industry from all over the world to become part of 
+ the development community The Community Development Fund (CDF) will hold 10% of tokens issued 
+ to reward them 
+ 
+ 
+ SKYFchain OP project team includes leading aviation industry experts blockchain specialists and 
+ international business professionals 
+ 
+ The SKYF drone initial testing market will be the developing countries agricultural and logistics sectors 
+ a multi billion dollar market on its own From year 2021 onwards itll start expansion to the US and 
+ European markets 
+ 
+ Test flights of the SKYF drone are already under way and have been successful Please take a look at 
+ a flight test video on our website http //skyfchain io/ 
+ 
+ 
+ 
+ 
+ Several big clients have signed up for test flights or pilot implementations of SKYF drones in their 
+ business operations Our most prominent partners are 
+ 
+ Syngenta AG (annual revenue $12 8bn) a global Swiss agribusiness that produces 
+ agrochemicals and seeds 
+ Avgust Crop Protection (annual revenue $263 3mln) the largest crop protection chemicals 
+ producer and service provider in CIS 
+ Pony Express (annual revenue $86 7mln) the number one multi modal logistics operator and 
+ delivery company in the CIS territories 
+ 
+ 
+ The second step in developing sales of SKYF drone will be to create a franchise model in AsiaPac in 
+ associate with a local partner Hence we are not looking at the US market as a priority because of its 
+ intense regulations Nonetheless we have noted that the demand in other markets is huge for the next 
+ 5 10 years 
+ 
+ 
+ 
+ Increasing sales of SKYF drones will benefit the SKYFchain 
+ 
+ The demand for SKYFT tokens is expected to multiply with each new connected drone an autonomous 
+ truck or ship Increasing global reach of SKYFchain will lead to an exponential increase in the number 
+ of cargo robots and other stakeholders in the system 
+ 
+ SKYFchain OP key metrics (projections) 
+ 
+ Years 
+ 
+ 2018 
+ 
+ 2019 
+ 
+ 2020 
+ 
+ 2021 
+ 
+ 2022 
+ 
+ Number of SKYF 
+ drones in operation 
+ 
+ 10 
+ 
+ 110 
+ 
+ 1 110 
+ 
+ 2 610 
+ 
+ 4 610 
+ 
+ Total number of cargo 
+ robots using 
+ SKYFchain 
+ 
+ 10 
+ 
+ 110 
+ 
+ 3 330 
+ 
+ 7 830 
+ 
+ 59 930 
+ 
+ SKYFchain market 
+ share 
+ 
+ 0 003% 
+ 
+ 0 03% 
+ 
+ 0 26% 
+ 
+ 0 37% 
+ 
+ 0 47% 
+ 
+ Average number of 
+ transactions 
+ (operational*) 
+ 
+ 36 500 
+ 
+ 438 000 
+ 
+ 12 556 000 
+ 
+ 40 734 000 
+ 
+ 247 324 000 
+ 
+ Average number of 
+ transactions 
+ (financial**) 
+ 
+ 5 
+ 
+ 55 
+ 
+ 1 665 
+ 
+ 3 915 
+ 
+ 29 965 
+ 
+ Total number of 
+ transactions 
+ 
+ 36 505 
+ 
+ 438 055 
+ 
+ 12 557 665 
+ 
+ 40 737 915 
+ 
+ 247 353 965 
+ 
+ SKYFchain comissions 
+ Mln USD 
+ 
+ 0 6 
+ 
+ 6 2 
+ 
+ 65 
+ 
+ 102 
+ 
+ 205 
+ 
+ 
+ 
+ * Operational transactions are drone data I/O and expected to cost ~0 1 USD each 
+ 
+ ** Financial transactions are related to leasing and insurance and expected to cost ~1000 USD each 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 2 Project roadmap 
+ 
+ 2014 2017 
+ 
+ securing $5 mln of VC funding 
+ design and manufacturing of SKYF cargo drones 
+ successful aerodynamic tests 
+ fully autonomous flights Q4 2017 
+ 
+ 
+ 2018 
+ 
+ SKYFchain project spin off from the SKYF project 
+ research into the most suitable technology and development of a private block chain network 
+ Development of logic and data of the SKYFchain OP in tight cooperation with all cargo robotics 
+ market stakeholders (hardware producers operators/clients authorities banks/leasing 
+ companies) 
+ creation of the international legal structure 
+ sale of the first assembled SKYF drones and expansion of the partner network in the regions 
+ without strict regulations on drone flights (CIS Asia and Africa) 
+ 
+ 
+ 2019 
+ 
+ dissemination of the private block chain network nodes among market participants 
+ launch of the with a franchise of a drone logistics operator and a license for third party drone 
+ producers 
+ 
+ 
+ 
+ 
+ 2020 
+ 
+ rapid growth in SKYF drone sales as a consequence of expansion of the franchise of a drone 
+ logistics operator and growth of number of licensed drone producers around the world 
+ start of educational campaign and workshops for producers of other types of drones 
+ 
+ 
+ 
+ 
+ 2021 2022 
+ 
+ inclusion of third party airborne drones into the SKYFchain 
+ lobbying for new regulations in developed markets through industry associations and round 
+ tables 
+ 
+ 
+ 
+ 
+ 2023 2025 
+ 
+ inclusion of ground and sea borne cargo robots into the system 
+ 
+ 
+ 
+ 3 The Market 
+ 
+ 3 1 The market for air borne cargo robots (drones) 
+ 
+ $127bn thats how much PWC estimated the total addressable value of drone powered solutions to 
+ be in all applicable industries Exponential investments growth into the sector has already began 
+ 
+ $100bn is the service market size for SKYF drone in agriculture logistics and infrastructure (see 
+ Annex 4 for details) During the first three years it is expected that SKYFchain would service clients of 
+ SKYF drones in these industries 
+ 
+ 
+ 
+ The value in $bn of drone powered solutions in addressable industries globally 
+ 
+ 
+ 
+ Source PwC Clarity from above1 
+ 
+ 1 https //www pwc pl/en/publikacje/2016/clarity from above html 
+ 
+ 
+ 
+ Despite high demand none of the commercially available drone solutions fully satisfy the market needs 
+ 
+ 
+ 
+ 
+ 
+ Market expansion of SKYF drones would allow for development and testing of the SKYFchain platform 
+ before inviting other industry participants 
+ 
+ 
+ 
+ SKYF launch geography 
+ 
+ SKYF expansion geography 
+ 
+ 
+ 
+ 
+ (dark grey areas on the map) 
+ 
+ (medium grey areas on the map) 
+ 
+ Russia 
+ Kazakhstan 
+ Canada 
+ South America 
+ Northern Europe 
+ 
+ 
+ Australia 
+ New Zealand 
+ USA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 
+ 
+ 
+ SKYF have received Letters of Intent from several potential clients to use SKYF drones 
+ 
+ SKYF received letters of intent from several big oil & gas companies (NGK Slavneft PAO SIBUR 
+ Holding) and agricultural industry (Syngenta AG Avgust Crop Protection Rusagro Group Prodimex) 
+ willing to use the SKYF drone services 
+ 
+ 
+ 
+ See Annex 2 for details about the first prospective clients 
+ 
+ 
+ 
+ 
+ 3 2 Unmanned trucks ships and cars 
+ 
+ After the launch of air borne drones SKYFchain will invite other cargo robots unmanned trucks 
+ unmanned ships and later unmanned passenger vehicles 
+ 
+ 
+ 
+ We are planning to invite air borne drones from 2020 onwards and sea borne and ground borne robots 
+ starting from 2022 onwards 
+ 
+ 
+ 
+ According to Abhimanyu Raheja an analyst at BIS Research the overall number of automated 
+ vehicles is expected to reach more than 110 million by the end of 2026 1 
+ 
+ 1 http //www prnewswire co uk/news releases/global adas and autonomous driving components market to reach 6106 
+ billion by 2026 reports bis research 650745173 html 
+ 
+ 2 http //www genre com/knowledge/blog/autonomous cars from drivers seat to riding shotgun en html 
+ 
+ 
+ 
+ Exane BNP Paribas is giving lower but also promising projections of 40 millions automated vehicles of 
+ all types in 2026 2 
+ 
+ 
+ 
+ http //www energyfuse org/wp content/uploads/2016/03/bnpautonomy png
+ Source Exane BNP Parbas estimates 
+ 
+ 
+ 
+ 
+ 
+ 
+ Benefits of the unmanned trucks 
+ 
+ 
+ 
+ Proponents of automated trucks are talking about several useful features They say that such trucks 
+ will be more efficient because they would not waste fuel by accelerating and braking as frequently as 
+ trucks driven manually by a human driver Similarly developers have plans to use truck platooning to 
+ save on fuel Other benefits may include increased safety and less stress for drivers during long haul 
+ monotonous drives 
+ 
+ 
+ 
+ 
+ 
+ http //www freightlinerinspiration com/assets/images/video/platooning jpg
+ Source Freightliner Inspiration Truck1 
+ 
+ 1 https //www overdriveonline com/nacfe truck platooning viable boosts fuel economy/ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Passenger car drivers are ready to test automated cars 
+ 
+ 
+ 
+ According to the press release of a Consumer Technology Association (CTA) most drivers (93 
+ percent) use existing driver assist features such as adaptive cruise control parking assist and collision 
+ avoidance They then appreciate the usefulness of these driving technology innovations 1 
+ 
+ 1 https //www cta tech/News/Press Releases/2016/October/Revved Up and Ready Most Consumers are Excited A aspx 
+ 
+ 
+ 
+ Clearly drivers are getting more and more excited about everything that driver less cars will offer us 
+ 90 percent fewer U S traffic accidents 40 percent lower insurance costs the end of drunk driving 
+ accidents and new found freedom for seniors and people with disabilities said Gary Shapiro president 
+ and CEO of CTA The broad adoption of self driving vehicles will save tens of thousands of lives each 
+ year in the U S alone and deliver a level of independence and mobility that seniors and people with 
+ disabilities couldnt otherwise dream of enjoying 
+ 
+ 
+ 
+ 
+ 
+ https //www cta tech/cta/media/BlogImages/Driverless Car Infographics_TestDrive Web_1 jpg
+ Source Consumer Technology Association (CTA) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Rolls Royce expects a remotely operated local vessel being in operation by 20201 
+ 
+ 1 http //www rolls royce com/~/media/Files/R/Rolls Royce/documents/customers/marine/ship intel/rr ship intel aawa 8pg pdf 
+ 
+ 
+ 
+ Autonomous shipping is being proactively explored by the maritime industry Discussions within the 
+ industry have identified both direct cost reducing benefits and other indirect benefits Direct benefits are 
+ often listed at the vessel level 
+ 
+ Better use of space in ship design 
+ Better use of the crew and their skills 
+ Better use of fuel 
+ 
+ 
+ Indirect benefits occur at company and network levels along the shipping sector Remote and 
+ autonomous shipping allows for improved optimization of operations and processes For example 
+ optimizing processes or operations based on real time data enables economies of scale at fleet and 
+ company levels as well as reduces the likelihood of human errors contributing to both safety and 
+ service quality In the shipping sector autonomous shipping will recast the roles and reorganize the 
+ division of work 
+ 
+ 
+ 
+ The operation of remote and autonomous ships will need to be at least as safe as existing vessels if 
+ they are to secure regulatory approval the support of ship owners operators sea farers and wider 
+ public acceptance 
+ 
+ 
+ 
+ 
+ 
+ Source Rolls Royce Marine 
+ 
+ 
+ 
+ 
+ The region in which an autonomous vessel should operate and whether it should be remote controlled 
+ or autonomous will have a significant impact on the rules applied to it We plan to operate along the 
+ same logic at SKYFchain during mission planning approval and verification 
+ 
+ 
+ 
+ 
+ 
+ Source Rolls Royce Marine1 
+ 
+ 1 http //www rolls royce com/~/media/Files/R/Rolls Royce/documents/customers/marine/ship intel/rr ship intel aawa 8pg pdf 
+ 
+ 
+ 
+ Embedding smart ship equipment into an existing vessel is the first step on the Rolls Royce roadmap 
+ to a fully autonomous and intelligent ship The company envisages a remotely operated local vessel 
+ being in operation by 2020 By 2025 the company hopes to have a remotely operated autonomous 
+ vessel on international waters 
+ 
+ 
+ 
+ Five years later the company hopes that autonomous ocean going vessels will be a common sight on 
+ the ocean As time goes on such ships will be made even more intelligent and capable of autonomous 
+ operations 
+ 
+ 
+ 
+ 
+ 
+ 
+ AAWA (Advanced Autonomous Waterborne Applications) partners may all be invited to test and join 
+ SKYFchain in the next 3 to 5 years 
+ 
+ 
+ 
+ 
+ 
+ Source Rolls Royce Marine1 
+ 
+ 1 http //www rolls royce com/~/media/Files/R/Rolls Royce/documents/customers/marine/ship intel/rr ship intel aawa 8pg pdf 
+ 
+ 
+ 
+ 
+ 3 3 Drone related VC deals 
+ 
+ According to the CBInsights report The State of Drone Technology1 VC funds have recognized an 
+ opportunity in UC the total disclosed VC capital raised for unmanned systems (drones) in the year 
+ 2016 increased by 123% to over $1 3bn 
+ 
+ 1 https //s3 amazonaws com/postachio files/596e5227 47d3 4770 b7d8 2754051d6a19/03f6377a 029b 4950 a6bc 
+ 7d35b809e6c1/e8b6e0fa c2aa 4f96 9edb 73cb071b0351_orig pdf 
+ 
+ Drone investment activity Q112 Q215 
+ 
+ 
+ 
+ Source CBInsights The State of Drone Technology 
+ 
+ Drones quarterly global financing Q112 Q316 
+ 
+ 
+ 
+ C \Users\Gleb Che\Downloads\Drones Quarterly png
+ Source CBInsights The State of Drone Technology 
+ 
+ 
+ The broad adoption of drones has become a mainstream in this decade Q12016 investments include 
+ Airware ($30mln) Skydio ($25mln) and Delair Tech ($14 5mln) DJI was one of the first drone 
+ companies with confirmed a Mcap of $10bn The investors spectrum is diverse and includes leading 
+ global business companies 
+ 
+ 
+ 
+ The most active investors in drone VC from 2012 2017 
+ 
+ 
+ 
+ C \Users\Gleb Che\Downloads\Most Active Investors 7 6 17 png
+ Source CB Insights 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4 Problems in the drone market and unmanned logistics 
+ 
+ 4 1 Lack of transparency 
+ 
+ Universal operating systems for the drone market still do not exist There is no system where customers 
+ can check the technical condition of drones and their safety itineraries This is one of the reasons why 
+ public authorities limit drone flight range 
+ 
+ 
+ 
+ This problem is not only present in the aviation industry All the cargo robotics markets do not have 
+ reliable certified operational platforms 
+ 
+ 
+ 
+ The organizational problems of the unmanned drone industry include costly insurance and near 
+ prohibitive regulations in some countries 
+ 
+ 
+ 
+ The insurance problem stems from the fact that there are many stakeholders in the process of the drone 
+ operations the drone manufacturer the drone operator company the drone pilot the drone service 
+ company the customer etc Additionally it is not always clear who is liable in different cases of a 
+ disaster If we can store all the relevant data on a block chain and provide it to an insurance company 
+ they can then assess the risks quicker based on facts Hence the insurance policy cost could decrease 
+ and the insurance payment would be provided quicker because the liable party will be known 
+ 
+ 
+ 
+ The table below represents how the regulatory framework looks today in 15 countries on five 
+ continents Many countries have yet to develop regulations to guarantee a business friendly legal 
+ environment The solutions of SKYFchain OP may provide the standard for the development of future 
+ regulations 
+ 
+ 
+ 
+ 
+ Regulations by country 
+ 
+ 
+ 
+ Source PwC Clarity from above report 20151 
+ 
+ 1 https //www pwc pl/en/publikacje/2016/clarity from above html 
+ 
+ 
+ 
+ Flights by drones called drone operations are governed by manned and unmanned aviation laws that 
+ determine the ground rules for operating drones in airspace Most countries regulations distinguish 
+ between recreational and commercial flights however a fully developed regulatory framework takes 
+ into account the drones weight flight area time of day and altitude Mostly the areas where flying 
+ drones is prohibited are very similar worldwide Permission is always required to fly near and over 
+ airports military infrastructure key public infrastructure (e g government offices) densely populated 
+ areas or other restricted areas Some countries require drone registration prior to use 
+ 
+ 
+ 
+ Generally recreational flights performed by the smallest drones do not need permission from aviation 
+ authorities or a license However in the US for example recreational drones weighing more than 250 
+ grams but less than 25 kilograms have to be registered before their first flight 
+ 
+ 
+ 
+ Commercial flights in most countries have to be performed by certified pilots There are more specific 
+ restrictions regarding their use especially in populated areas In majority countries drone operators 
+ have to obtain licenses as well as special permission to perform commercial flights They may also be 
+ 
+ 
+ required to appoint a pilot a commander responsible for flight safety and an observer especially during 
+ BVLOS (Beyond visual line of sight) flights 
+ 
+ 
+ 
+ Solution is the SKYFchain OP 
+ 
+ SKYFchain OP is a transparent and trusted operating platform that offers financing and gives insurance 
+ companies direct control over their assets which has sparked the growth of this industry 
+ 
+ 4 2 Technical problems of air borne unmanned logistics short flight range of 
+ existing drones 
+ 
+ Have you ever wondered why there are dozens of toy drones in the market yet the airports still have 
+ large manned helicopters Unfortunately the multi copters size scalability problem does not have a 
+ solution yet at the moment The higher the take off mass the larger the propeller has to be which in 
+ turn increases the momentum This is how the aircraft rapidly reaches the controlable threshold 
+ 
+ 
+ 
+ Good rotor dynamics require an electric engine However the increase in scale of the drone comes 
+ with a second problem accumulator batteries become ineffective The internal combustion engine can 
+ solve this issue However its implementation in drones remains problematic because of its high weight 
+ On the other hand the hybrid engines cost is usually too high 
+ 
+ 
+ 
+ Solution SKYF drone with a gasoline engine 
+ 
+ The SKYF drone new aerodynamic design solves the problem of multi copter scalability The SKYF 
+ drone is the world s first unmanned air cargo platform (unmanned aerial carrier the drone) with vertical 
+ take off and landing (VTOL) based on patented aerodynamics which allow for the development of 
+ unmanned aerial vehicles with different modifications that can carry out a wide variety of challenging 
+ tasks 
+ 
+ 
+ 
+ The SKYF drone is easy to operate and less expensive when compared to other existing solutions and 
+ it allows for scaling in order to increase payload and flight range as well as to configure other 
+ characteristics 
+ 
+ 
+ 
+ Moreover we provide licensed operational documentation software and key electronic components 
+ 
+ We believe that the emergence of universal high performance VTOL drones can lead to unpredictable 
+ expansion in application areas especially in the market segment of 100 150 kg payload 
+ 
+ 
+ 
+ See Annex 3 for the blueprints of the SKYF drone 
+ 
+ 
+ 
+ 
+ The real photo of a SKYF drone 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ Model SKYF P2 1 
+ 
+ The SKYF Unmanned Aerial Carrier was designed and built at ARDN Technology Limited (UK) whose 
+ R&D HQ is now located in Kazan Russia Areas of the systems applications include crop spraying 
+ and long distance delivery of goods The SKYF device is a vertical take off and landing device drone 
+ with two 2 8 m main rotors that synchronously rotate towards each other The main rotors which 
+ generate lift to ensure the drone is air borne are driven by a gasoline engine The engine transmits 
+ torque through the gearbox and the belt drive to the main rotors 
+ 
+ 
+ 
+ The vehicles housing has a truss structure assembled from a square aluminum profile through riveting 
+ The vehicle s horizontal movement is achieved through tilting using eight controlling electric motors on 
+ different modes located on the spark shafts on four outrigger rods The yaw rotation of the SKYF is 
+ achieved by turning the control plates under the main rotors in opposite directions An electric generator 
+ connected to a gasoline engine and buffer batteries are mounted on a vehicle to ensure the operation 
+ of the electrical equipment 
+ 
+ 
+ 
+ The movement of the vehicle including take off mission and landing do not require human 
+ participation The movement occurs according to a trajectory and altitude predetermined by a flight 
+ mission with the use of satellite navigation systems and an on board system to determine the altitude 
+ above the ground The auto pilot control system has algorithms that ensure the vehicles safe operation 
+ and action in case of malfunction or in various abnormal situations 
+ 
+ 
+ 
+ A parachute system is installed on the vehicle for flights above 40 meters (for SKYF transport versions) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SKYF drone technical characteristics 
+ 
+ The SKYF drones maximum useful load is 400 kg The drone flight range can reach up to 350 km 
+ while the flight time is 8 hours (with 50 kg of cargo onboard) 
+ 
+ 
+ 
+ SKYF drone mobility 
+ 
+ The SKYF drone transportation container can hold two vehicles A container allows for customization 
+ for various purposes and SKYF drone modifications 
+ 
+ 
+ 
+ C \Users\Admin\Box Sync\Companies\ARDN\ARDN S&M\ \ \ \SKYF_07 jpg
+ Source SKYFchain OP 
+ 
+ 
+ 
+ SKYF drone modifications 
+ 
+ SKYF CARGO 
+ 
+ The average payload is 150 kg with a maximum flight range of 350 km This SKYF drone version is the 
+ best solution for oil & gas logistics and for delivery in hard to reach areas These services are in great 
+ demand in Russia Africa Canada Asia Australia South America CIS countries and the mountainous 
+ regions in Europe SKYF drones can deliver goods (food spare parts measuring equipment 
+ emergency supply) from the logistics centers to designated residential areas 
+ 
+ SKYF MARINE 
+ 
+ This modification has reinforced construction by adding corrosion protection This SKYF drone can work 
+ during emergencies in most regions of the world due to its increased reliability It will be able to deliver 
+ food rescue equipment and medicine to natural disaster locations as well as evacuate the injured and 
+ distressed at sea Furthermore this vehicle could serve in marine logistics centers and intensive 
+ shipping regions to deliver medium sized cargo (spare parts mail etc ) to ships at sea or on the move 
+ which will significantly reduce their service time and fuel consumption 
+ 
+ 
+ 5 SKYFchain Operating Platform technical details and economics 
+ 
+ 5 1 Blockchain concept for the SKYFchain OP 
+ 
+ SKYFchain architecture is based on two building blocks 
+ 
+ 1 SKYFchain blockchain itself private permissioned blockchain customized for the most effective 
+ usage in the industry 
+ 2 Ethereum ERC 20 SKYFT tokens based perimeter of public blockchain for processing and 
+ settling SKYFT tokens transactions and communicating them back and forth with SKYFchain 
+ 
+ 
+ Private (permissioned) blockchain is required to simplify the development and support and give an 
+ opportunity to choose solution most appropriate for each particular task Moreover we want to be 
+ independent of the performance of public networks (e g scalability issues with Ethereum) and not wait 
+ for transactions to be committed in public network At the moment we are considering three different 
+ approaches for the SKYFchain creating our own Ethereum fork SKYF specific custom platform built 
+ on top of either Exonum libraries or instance of R3 Corda blockchain 
+ 
+ All tokens issued at public Ethereum network at the ICO stage are 
+ ERC 20 compatible and can be bought and sold on stock exchange 
+ So we keep them in the public Ethereum network At the same time 
+ these same tokens are going to be utilized as a cryptonomic fuel for 
+ the permissioned SKYFchain so it is essential to synchronize 
+ balances between public Ethereum network and the SKYFchain 
+ 
+ SKYFT tokens synchronization 
+ 
+ SKYFT tokens are the currency for all operations in the SKYFchain All contracts are processed in 
+ SKYFT tokens Although tokens are issued at public Ethereum network they are also fully used at 
+ SKYFchain There are several options for synchronization Using public Ethereum network transactions 
+ is the obvious way but it locks SKYFchain performance due to different speed of transactions Moreover 
+ additional public Ethereum network operations costs can ruin main advantages Creating additional 
+ internal tokens as an alternative approach is going to dramatically increase complexity of the system 
+ because it depends on resource consuming synchronization process between internal and external 
+ balances 
+ 
+ The problem of storage and token balances reconciliation between 
+ SKYFchain and public Ethereum networks is solved by using payment 
+ channels and keeping balances in Ethereum public network There 
+ are already several implementations of payment channels And with 
+ Plasma project evolution sharding parallel transaction execution and 
+ most of all the scalability problem are going to be addressed 
+ 
+ 
+ Payment channels are part of a special middleware over blockchain database They form a payment 
+ network and allow two or more parties to make funds transfers from one to another In our case we 
+ create payment channel from public Ethereum network to the SKYFchain 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ Payment channels work in the following way First a connection between the SKYFchain and public 
+ Ethereum network is established by execution of a special transaction in public Ethereum network This 
+ transaction reserves certain amount of SKYFT tokens for this connection payment channel When 
+ SKYFT tokens are required for any operation at SKYFchain then they are used from the payment 
+ channel funds 
+ 
+ Operations on payment channels are extremely fast since there is no need waiting for a commit of 
+ transaction on blockchain A receipt signed by two parties is used for confirmation and payment 
+ validation At any time either party can close the payment channel and spread reserved tokens based 
+ on received receipts 
+ 
+ So we get an architecture where the SKYFchain is separated from public Ethereum network and all 
+ transactions could be processed at their own speed without any additional delays And at the same 
+ time there is only one source of truth about balances public Ethereum network 
+ 
+ SKYFchain architecture 
+ 
+ Building private (permissioned) blockchain is required in order to fully 
+ support all industry operations at reasonable fee and speed Selection 
+ of an appropriate consensus protocol is one of the key points for this 
+ The most popular (and proven to be more or less effective) are Proof 
+ of Work (POW) like in Ethereum public network Proof of Authority 
+ (POA) like in system of authorized nodes in the Ripple network Proof 
+ of Stake (POS) like in Decred public network and different variations 
+ We will start with Proof of Authority consensus 
+ 
+ In the beginning of our private blockchain there will be an administrator which will set the rules 
+ (governance) which may be written in the form of legal contract Such administrator will invite other 
+ participants In case of rules violation their node may be suspended and certificates annulled 
+ 
+ 
+ 
+ 
+ It is essential to clearly state private network governance policy So 
+ we are planning to offer governance roles in our blockchain to 
+ professional industry participants Leasing and Insurance companies 
+ Logistics Providers and their clients State Authorities and market 
+ analysts manufacturers and service providers Thus in the beginning 
+ the network will be centralized but as new participants join the system 
+ it will become more and more decentralized 
+ 
+ We plan to extend the blockchain to 300 nodes during first three years of operations While reserving 
+ 20 30 nodes as to ensure stability of the system Other nodes would belong to ICO investors and to 
+ other market participants Thus our platform will be ~90% decentralized till the third year and even 
+ more so after the third year 
+ 
+ Although the SKYFchain will be based on the universal platform we are going to use it for a particular 
+ industry So blockchain transactions would be optimized for operations of different roles This will 
+ simplify admission of new participants and their initial adaptation 
+ 
+ In blockchain database each block holds batches of valid transactions that are encoded into a Merkle 
+ tree Each block has a hash to the previous one so no one could alter the chain in any way later Merkle 
+ tree is a tree of hashes and it is optimized for size and speed to check if a particular data was included 
+ in a set of objects 
+ 
+ SKYFchain is a permissioned blockchain because only members 
+ have access to it Transactions log in SKYFchain is public and 
+ accessible for all participants It is required for validation of the 
+ blockchain On the other hand any participant can decide to hide 
+ commercially sensitive data and post only hash of that data in 
+ transaction while still maintaining its accuracy and completeness 
+ Merkle tree structure allows seamless integration of such transactions 
+ into blockchain This is a so called anchoring Later such partner 
+ (network participant) could provide data and confirm validity with hash in blockchain Anchoring also 
+ allows to optimize the size of stored data 
+ 
+ Anchoring and local decentralized transactions could be used to provide confidentiality when it is 
+ required for a certain contract In case of disagreement administrator and legal parties can be brought 
+ in to validate contract and operations check governance and make a ruling 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 
+ 
+ 5 2 Proposed data structure of SKYFchain OP 
+ 
+ SKYFchain gets together all the participants of unmanned vehicle market Each participant will store 
+ and request data from SKYFchain 
+ 
+ Developers and Producers 
+ 
+ Can get financing insurance and customers through SKYFchain 
+ Store data on SKYFchain 
+ device ID data 
+ digital specification of each device 
+ flight tests and tests of acceptance reports 
+ certificates and documentation for each country/authority 
+ 
+ 
+ 
+ 
+ Licensees 
+ 
+ Can get customers from SKYFchain and unique drone blueprints from developers and 
+ producers 
+ Store data on SKYFchain 
+ licenses for assembly 
+ licenses for software 
+ licenses for operations 
+ device ID data 
+ digital specification of each device 
+ flight tests and tests of acceptance reports 
+ 
+ 
+ 
+ 
+ Technical services 
+ 
+ Can provide services to participants of SKYFchain 
+ Store data on SKYFchain 
+ devices technical maintenance data 
+ devices incidents data 
+ repair and units replacement reports 
+ software versions and software update data 
+ 
+ 
+ 
+ 
+ Operators and End users 
+ 
+ Conclude and execute smart contracts to use unmanned drones 
+ Store data on SKYFchain 
+ development and approval of missions / itineraries 
+ development and approval of logistic smart contracts 
+ missions / smart contracts reports 
+ charter contracts (temporarily) 
+ orders data 
+ payments data 
+ incident reports 
+ ratings (for devices for operators for end users) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Authorities 
+ 
+ Authorize and control the available itineraries for drones on their territory 
+ Store data on SKYFchain 
+ device certification 
+ safety control 
+ missions approval 
+ mission reports control 
+ fast routes blocking if required 
+ no flight areas regulation 
+ 
+ 
+ 
+ 
+ Analysts 
+ 
+ Analyze performance of different drone models and of market participants provide scoring and 
+ recommendations 
+ Store data on SKYFchain 
+ robo assets analysis 
+ ratings / scoring for fintech 
+ recommendations for market players 
+ 
+ 
+ 
+ 
+ Financial markets 
+ 
+ Provide financing to international market participants on SKYFchain network based on scoring 
+ from analysts and using remote block function in case of disruption of payment for a drone or 
+ related service 
+ Store data on SKYFchain 
+ asset information for each device 
+ records of transactions and encumbrances 
+ device booking for a financial deal 
+ blocking of a specific device (or a group) in case of convenience (for authorized users) 
+ 
+ 
+ 
+ 
+ All these transactions will be supported by SKYFchain OP and will technically be executed using smart 
+ contracts and SKYFT tokens 
+ 
+ 
+ 
+ 
+ 5 3 SKYFT token the internal token of SKYFchain 
+ 
+ SKYFchain OP is using the SKYFT a utility token 
+ 
+ SKYFT properties include 
+ 
+ Internal token of the SKYFchain OP required for any transaction 
+ Fixed amount of 430 424 614 392tokens 
+ 
+ The blockchain super node holders harvests 50% of transaction fees 
+ 25% of transaction fees goes to all token holders 
+ 25% of transaction fees goes to the Community Development Fund to sustain constant 
+ system development and expansion 
+ 
+ 
+ 
+ 5 4 The economics of the SKYFchain OP 
+ 
+ Users may pay in fiat or crypto currency accepted by the system Thus inside the system the 
+ transactions must be paid in SKYFT tokens which may be bought automatically and invisibly for the 
+ user to execute transactions 
+ 
+ We expect SKYFchain to have two main types of transactions 
+ 
+ Operational transactions of around 0 1 USD per transaction (e g one data fixation by a drone 
+ done several times per day) 
+ Fintech transactions This would be of a much bigger value up as a fraction of cost of one 
+ drone financed through the system (SKYF price ca 250 000 USD) but more rare 
+ 
+ 
+ Economics of the SKYFchain OP 
+ 
+ 
+ STARTSKYFchain user orders a 
+ product or service on the 
+ platformSKYFT ExchangeUser wallet 
+ (SKYFT account)
+ User buys SKYFT with 
+ fiat or crypto to pay 
+ for product or service 
+ at SKYFchain 
+ Operating PlatformSmart Contract (SC)Substract 1 5% 
+ as a transaction 
+ commissionsService Provider 
+ WalletSend SKYFT to pay for 
+ the products or 
+ services actually 
+ delivered to the user(Commissions for 
+ SC execution)
+ All token holders 
+ walletsStakeholders can sell 
+ SKYFT for fiat or crypto 
+ currency at exchangeSKYFT tokens 
+ are sent to the 
+ Smart ContractCommunity 
+ Development Fund 
+ (CDF)
+ The blockchain super 
+ nodes (servers)
+ Unspent tokens 
+ return to the 
+ user50% of transaction 
+ commissions25% of transaction 
+ commissions25% of transaction 
+ commissionsSuper nodes also get 
+ additional income from 
+ the Network Development 
+ Fund during first 3 years 
+ of blockchain operationsToken holders may 
+ harvest commissions 
+ based on their stake of 
+ tokensCDF holds liquidity for the 
+ SKYFchain Operating 
+ Platform operations and 
+ development
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 5 5 SKYFchain key figures (projections) 
+ 
+ Years 
+ 
+ 2018 
+ 
+ 2019 
+ 
+ 2020 
+ 
+ 2021 
+ 
+ 2022 
+ 
+ Number of SKYF 
+ robots in operation 
+ 
+ 10 
+ 
+ 110 
+ 
+ 1 110 
+ 
+ 2 610 
+ 
+ 4 610 
+ 
+ Number of other 
+ airborne robots in 
+ SKYFchain 
+ 
+ 
+ 
+ 
+ 
+ 2 220 
+ 
+ 5 220 
+ 
+ 9 220 
+ 
+ Number of ground 
+ and seaborne robots 
+ in SKYFchain 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 46 100 
+ 
+ Total number of 
+ robots using 
+ SKYFchain 
+ 
+ 10 
+ 
+ 110 
+ 
+ 3 330 
+ 
+ 7 830 
+ 
+ 59 930 
+ 
+ Expected number of 
+ transactions Mln 
+ 
+ 0 037 
+ 
+ 0 438 
+ 
+ 12 6 
+ 
+ 40 7 
+ 
+ 247 4 
+ 
+ SKYFchain comissions 
+ Mln USD 
+ 
+ 0 6 
+ 
+ 6 2 
+ 
+ 65 
+ 
+ 102 
+ 
+ 205 
+ 
+ Sales of SKYF drones 
+ Mln USD 
+ 
+ 3 
+ 
+ 30 
+ 
+ 300 
+ 
+ 450 
+ 
+ 600 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 65
+ 
+ 
+ 102
+ 
+ 
+ 205
+ 
+ 
+ 3
+ 
+ 
+ 30
+ 
+ 
+ 300
+ 
+ 
+ 450
+ 
+ 
+ 600
+ 
+ 
+ 0
+ 
+ 
+ 100
+ 
+ 
+ 200
+ 
+ 
+ 300
+ 
+ 
+ 400
+ 
+ 
+ 500
+ 
+ 
+ 600
+ 
+ 
+ 700
+ 
+ 
+ 0
+ 
+ 
+ 50
+ 
+ 
+ 100
+ 
+ 
+ 150
+ 
+ 
+ 200
+ 
+ 
+ 250
+ 
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 3
+ 
+ 
+ 4
+ 
+ 
+ 5
+ 
+ 
+ SKYFchain revenue and total value of comissions 
+ 
+ 
+ SKYFchain comissions Mln USD (left scale)
+ 
+ 
+ Sales of SKYF drones Mln USD (right scale)
+ 
+ 
+ Source SKYFchain OP 
+ 
+ Commissions will be split among SKYFchain participants as described below 
+ 
+ The blockchain super node holders would harvest 50% of transaction fees (by Proof of 
+ Authority concept) 
+ 25% of transaction fees would go to all token holders (by Proof of Stake concept) 
+ 25% of transaction fees would go to the Community Development Fund to sustain 
+ constant system expansion 
+ 
+ 
+ 
+ 5 6 Projected Super Node holders income 
+ 
+ 
+ 
+ 10
+ 
+ 
+ 20
+ 
+ 
+ 40
+ 
+ 
+ 80
+ 
+ 
+ 160
+ 
+ 
+ 0
+ 
+ 
+ 20
+ 
+ 
+ 40
+ 
+ 
+ 60
+ 
+ 
+ 80
+ 
+ 
+ 100
+ 
+ 
+ 120
+ 
+ 
+ 140
+ 
+ 
+ 160
+ 
+ 
+ 0
+ 
+ 
+ 50 000
+ 
+ 
+ 100 000
+ 
+ 
+ 150 000
+ 
+ 
+ 200 000
+ 
+ 
+ 250 000
+ 
+ 
+ 300 000
+ 
+ 
+ 350 000
+ 
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 3
+ 
+ 
+ 4
+ 
+ 
+ 5
+ 
+ 
+ SKYFchain Projected income of one Super Node USD/a
+ 
+ 
+ Income of a Super Node from NDF USD/a (left scale)
+ 
+ 
+ Income of a Super Node from Tx USD/a (left scale)
+ 
+ 
+ Number of Super Nodes (right scale)
+ 
+ 
+ Source SKYFchain OP 
+ 
+ Super Nodes holders will have an income 
+ 
+ from transaction commissions (approximately 1 5% of transactions volume) 
+ during the first three years of blockchain operation from the Network Development Fund which 
+ would contain 64 563 692 of SKYFT tokens 
+ 
+ 
+ 
+ 
+ Number of super nodes is limited to 300 during first 3 years of operations 
+ 
+ Contact us if you want to own a super node in SKYFchain 
+ 
+ Hardware server costs are expected to be around 5 000 USD during the first year and 1 000 USD 
+ yearly spend from the second year on The node server would require a stable internet connection and 
+ ongoing technical support 
+ 
+ Year 
+ 
+ 2018 
+ 
+ 2019 
+ 
+ 2020 
+ 
+ 2021 
+ 
+ 2022 
+ 
+ Projected number of Super 
+ Nodes 
+ 
+ 10 
+ 
+ 20 
+ 
+ 40 
+ 
+ 80 
+ 
+ 160 
+ 
+ Income of a Super Node from 
+ Tx USD/a 
+ 
+ 683 
+ 
+ 3 845 
+ 
+ 57 320 
+ 
+ 74 396 
+ 
+ 264 570 
+ 
+ Income of a Super Node from 
+ NDF USD/a 
+ 
+ 3 963 
+ 
+ 13 334 
+ 
+ 29 148 
+ 
+ 0 
+ 
+ 0 
+ 
+ Total income of a Node USD/a 
+ 
+ 4 645 
+ 
+ 17 179 
+ 
+ 86 468 
+ 
+ 74 396 
+ 
+ 264 570 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ # 
+ 
+ SKYFT tokens allocation 
+ 
+ % 
+ 
+ Total tokens 
+ issued 
+ 
+ SKYFT 
+ 
+ 1 
+ 
+ Crowd distribution 
+ 
+ 45 5% 
+ 
+ 195 843 201 
+ 
+ 2 
+ 
+ Network Development Fund (NDF) 
+ to support super nodes during the 
+ first three years of blockchain 
+ operations (50% of NDF will be 
+ spent in the first year 35% during the 
+ 2nd year and 15% during the 3rd year) 
+ 
+ 15% 
+ 
+ 64 563 692 
+ 
+ 3 
+ 
+ Community Development Fund 
+ (CDF) to stimulate the growth of the 
+ partners network and developers 
+ community 
+ 
+ 10% 
+ 
+ 43 042 461 
+ 
+ 4 
+ 
+ Reserve (frozen for 1 year) 
+ 
+ 9 5% 
+ 
+ 40 890 338 
+ 
+ 5 
+ 
+ Team (vested for 1 year) 
+ 
+ 20% 
+ 
+ 86 084 922 
+ 
+ 
+ 
+ Total 
+ 
+ 100% 
+ 
+ 430 424 614 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 6 Use of funds 
+ 
+ The project funds will be used for 
+ 
+ 45% Research & Development including full time salaries contractors research 
+ 
+ 25% Marketing & Platform Development to build a robust marketing campaign in several 
+ languages user acquisition etc 
+ 
+ 24% Operations Business and Corporate Development to grow business via strategic 
+ partnerships integration with various stakeholders and acquiring or partnering with other 
+ relevant projects 
+ 
+ 6% Legal & Administrative Legal IP protection accounting and other third party services 
+ needed to run our organization 
+ 
+ 
+ 
+ 45%
+ 
+ 
+ 25%
+ 
+ 
+ 24%
+ 
+ 
+ 6%
+ 
+ 
+ SKYFchain ICO use of funds
+ 
+ 
+ Research & Development
+ 
+ 
+ Marketing & Platform
+ Development
+ 
+ 
+ Operations Business &
+ Corporate Development
+ 
+ 
+ Legal & Administrative
+ 
+ 
+ Source SKYFchain OP 
+ 
+ Since we managed to collect only around $6 mln the development of the project will be delayed 
+ but the goals will remain Furthermore we shall focus on developing an MVP of the blockchain to 
+ present it to the market participants to attract additional funding Meanwhile the 20% of the revenues 
+ from sale of SKYF drones would sustain the price of SKYFT token 
+ 
+ 
+ 
+ 
+ 7 Team and advisors 
+ 
+ Our Team today has more than 30 engineers and developers 
+ 
+ 
+ 
+ THE MAIN TEAM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Alexander Timofeev CEO 
+ 
+ Moscow Institute of Physics and Technology Latvian State University in Physics 
+ 
+ Founder and CEO Microbor Nanotech 
+ 
+ Founder and CEO InvestKinoProject 
+ 
+ Founder and Managing Partner FPI Founder and managing partner of the FPI 
+ innovation fund He has extensive experience in attracting investment both in 
+ Russia and globally including for a number of international high tech projects 
+ 
+ 
+ 
+ 
+ 
+ Valery Krivenko IR 
+ 
+ Managing Partner Bright Capital Head for High Tech Investments ONEXIM Group 
+ McKinsey & Company Roland Berger Strategy Consultants London Business 
+ School University of California Los Angeles MGIMO University 
+ 
+ 
+ 
+ 
+ 
+ Nickolay Kovshov Lead IT Developer 
+ 
+ Lead developer and head of R&D groups in a number of software start ups 
+ involved in big data analytics Holds PhD in computer science from MIPT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ https //siliconvalley center/wp content/uploads/2017/09/Christian 200x200 jpg 
+ 
+ 
+ 
+ 
+ 
+ 
+ Ilya Rodin GR 
+ 
+ Partner at FPI innovation fund He is a graduate of the Skolkovo Moscow School of 
+ Management He has extensive experience in structuring technology projects 
+ attracting investments and bringing young companies to the international market 
+ 
+ 
+ 
+ Christian Lorentzen BDO in USA 
+ 
+ View Dynamic Glass Sales Executive 
+ 
+ Capital Markets Cushman & Wakefield 
+ 
+ Strategic Consultant CB Richard Ellis 
+ 
+ Sales & Marketing Manager Alinga Consulting Group 
+ 
+ 
+ 
+ Maxim Khabur CMO 
+ 
+ Marketing Director FPI Partners 
+ 
+ Managing Director Young & Rubican Group Managing Director Added Value 
+ Senior Marketing Manager TNK BP 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ C \Users\Admin\YandexDisk\ \2018 02 13_21 29 50 png
+ Marat Sabirov Autopilot design 
+ 
+ Tupolev KNITU KAI 
+ 
+ Director of Design Bureau for production preparation with Kazan Aviation Enterprise 
+ 
+ 
+ 
+ C \Users\Admin\YandexDisk\ \2018 02 13_21 27 42 png
+ Dmitry Arsentyev Drone development 
+ 
+ Since early childhood Dmitry was fascinated with aviation and dreamed of 
+ conquering the sky He managed to put together a high profile team of colleagues 
+ who for the sake of the project left the Kazan aviation Bureau 
+ 
+ 
+ 
+ C \Users\Admin\YandexDisk\ \2018 02 13_21 33 24 png
+ Olga Budnik PR 
+ 
+ Olga has more than ten years of experience in PR and communications Focused 
+ on media relations for tech companies universities and research institutions 
+ 
+ 
+ 
+ 
+ 
+ C \Users\Admin\YandexDisk\ \2018 02 13_21 35 11 png
+ Nail Zinnurov Drone design 
+ 
+ Tupolev KNITU KAI 
+ 
+ Chief Engineer for CAD systems at the Design Bureau named after Tupolev 
+ Designs Aviation Equipment for Civil and Military Purposes 
+ 
+ 
+ 
+ 
+ 
+ C \Users\Admin\YandexDisk\ \2018 02 13_21 37 46 png
+ Sergey Shilin Software engineer 
+ 
+ Education Tupolev KGTU KAI 
+ 
+ Software developer for PC ( NET C#) and microcontrollers (C++) 
+ 
+ 
+ 
+ 
+ 
+ C \Users\Admin\YandexDisk\ \2018 02 13_21 39 17 png
+ Alexander Malikov Software engineer 
+ 
+ Education The Pskov State Polytechnic Institute 
+ 
+ Designed and developed control system for fully autonomous unmanned aircraft 
+ Proficient in C++ and Java 
+ 
+ 
+ 
+ 
+ 
+ Daniel Maximkin CTO 
+ 
+ E Marketing expert with a demonstrated history of working in the marketing and 
+ advertising industry Skilled in data analyisis A/B Testing Google Analytics CRO 
+ Management and Google Tag Manager Strong information technology professional 
+ with a Specialist focused in Public Relations Advertising and Applied Communication 
+ from State University of Management (SUM) 
+ 
+ 
+ 
+ 
+ 
+ 
+ ADVISORS 
+ 
+ 
+ 
+ Michael Terpin CEO Transform Group 
+ 
+ Transform Group the world leader in blockchain and ICO PR and advisory services 
+ (50 ICOs and counting) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Related image
+ Igor Karavaev serial blockchain projects investor and advisor 
+ 
+ Ex executive Director at the Skolkovo Foundation the leading Russian business 
+ incubator of start ups director of strategy and business development of the largest 
+ international corporations ICObench Expert 
+ 
+ 
+ 
+ Alexander Ivanov Expert in global business development 
+ 
+ Business Director at General Electric Dupont Caterpillar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Annex 1 Details on existing drone intelligence platforms 
+ 
+ AirMap The platform that powers drone flights with APIs and SDKs 
+ 
+ AirMaps integrated airspace services empower responsible and intelligent decision making for 
+ commercial operations worldwide 
+ 
+ AirMap is an approved U A S Service Supplier of L A A N C in the U S controlled airspace for 
+ 
+ Automated authorization for pre approved flight plans 
+ Manual authorization for flights outside pre approved zones 
+ 45 ATC facilities 
+ 
+ 
+ AirMap real time weather for active or planned drone flights for optimal aircraft performance in dynamic 
+ airspace conditions They include 
+ 
+ Wind speed 
+ Low altitude visibility 
+ Temperature 
+ 
+ 
+ AirMap alerts operators of nearby air traffic that could create a potential hazard for a drones flight path 
+ Pilots get traffic alerts for 
+ 
+ Commercial aircraft 
+ General aviation aircraft 
+ Helicopters 
+ 
+ 
+ 
+ 
+ AirMap provides mission Critical APIs for Every Phase of a Flight 
+ 
+ Maps Provides a TileJSON spec map for use with MapBox GL 
+ Advisory API Provides airspace information including advisories and regulatory requirements 
+ Airspace API Interacts with obstacles and rules in the airspace 
+ Flight Planning API Creates flight plans and receives flight briefings to ensure compliance 
+ Pilot API Manages the pilot profile preferences and identity verification 
+ Aircraft API Gives information on the drones manufacturers their models and metadata 
+ Flight API Creates and queries flights verifies requirements and gives digital notice 
+ Telemetry API Broadcasts position and health information to an endpoint for live feedback 
+ Traffic Alerts API Alerts operators of nearby manned traffic in low altitude airspace 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Flock Pay as you fly drone insurance 
+ 
+ 
+ 
+ Flock collects real time location based data like weather nearby buildings ground hazards NOTAMS 
+ and more to identify the important risks before the flight and to help get the safest flight path possible 
+ All of Flocks policies are EC785/2004 compliant and are underwritten by Allianz the worlds leading 
+ aviation insurer With Flocks smartphone app clients pay for drone insurance only when they need it 
+ and receive a customized policy for their flights 
+ 
+ 
+ 
+ Botlink drone mapping software that captures data analyzes it and reacts quickly 
+ 
+ 
+ 
+ Botlink provides flight planning and aerial mapping services Botlink mobile app allows for capturing of 
+ high definition images from the flying drone automatically in order to create detailed surface maps App 
+ users can add location specific comments discover valuable metrics and take precise measurements 
+ 
+ 
+ 
+ 
+ 
+ 
+ Annex 2 Prospective clients of SKYFchain 
+ 
+ Clients of the SKYF drone will provide key data for the SKYFchain to develop unmanned business 
+ processes 
+ 
+ 
+ 
+ SKYF drone clients in the agricultural sector 
+ 
+ 
+ 
+ Syngenta AG (annual revenue $12 8bn) is a global Swiss agri business that produces agrochemicals 
+ and seeds As a biotechnology company it conducts genomic research It was formed in 2000 when 
+ Novartis Agribusiness and Zeneca Agrochemicals merged As of 2014 Syngenta was the worlds 
+ largest crop chemical producer and the strongest in Europe As of 2009 it ranked third in seeds and 
+ biotechnology sales Sales in 2015 were approximately $13 4bln over half of in the sales from emerging 
+ markets International regulators have approved the firm s acquisition by ChemChina a Chinese state 
+ owned enterprise 
+ 
+ 
+ 
+ Status First round of negotiations have been completed the company is interested in promoting 
+ SKYFchain OP Syngenta is working towards testing SKYF drones the test flights are planned for 
+ spring 2018 
+ 
+ 
+ 
+ 
+ 
+ Avgust Crop Protection (annual revenue $263 3mln) is the largest chemicals supplier among all 
+ agricultural companies and farmers in Russia Currently it is in almost 30 countries via local distributors 
+ and has its own operations in Russia Ukraine Belarus Kazakhstan China and Brazil The company 
+ AVGUST has its own production capacities and provides a full range of services from the selection of 
+ chemicals to chemical cultivation services (for major customers in certain geographies) 
+ 
+ 
+ 
+ The company is ready to provide its promotion space for PR activities pertinent to the SKYFchain OP 
+ which will enable pilot implementation in most of the advanced farms including those operating in the 
+ international markets 
+ 
+ 
+ 
+ Status AVGUST Crop Protection has signed the Letter of Intent to use SKYF drones for spraying up to 
+ 500 thousand hectares of their lands 
+ 
+ 
+ 
+ 
+ 
+ 
+ Rusagro Group (annual revenue $1 4bn) is the largest vertically integrated agricultural industry in 
+ Russia At the moment it occupies the leading positions in sugar pork crop oil and fats production 
+ The land bank of the Group consists of more than 600 thousand ha In 2015 the investment bank 
+ named Rusagro Group became one of the most profitable and fastest growing consumer segment 
+ companies in CIS The company is listed on the London Stock Exchange and on the Moscow Stock 
+ Exchange 
+ 
+ 
+ 
+ 
+ 
+ C \Users\Gleb Che\Downloads\prdimex hor png
+ Prodimex Group (annual revenue $1 06bn) is the largest sugar manufacturer in the Russian 
+ Federation The Group has more than 15 000 employees Prodimex owns one of the largest land banks 
+ in the country amounting to over 600 000 ha located in eight major agricultural regions Voronezh 
+ Belgorod Kursk Tambov Penza Krasnodar and Stavropol regions as well as the Republic of 
+ Bashkortostan As a result agricultural units of the company cultivate over 3 5 million tons of sugar beet 
+ and over 500 000 tons of grain 
+ 
+ 
+ 
+ 
+ SKYF drone prospective clients in the logistics sector 
+ 
+ 
+ 
+ 
+ 
+ NGK Slavneft (annual revenue $221 7mln) is an oil drilling company that requires new transportation 
+ solutions to cater to their wells 
+ 
+ 
+ 
+ Status Ten SKYF drones have been accredited according to the terms of the initial contract The 
+ company is preparing for test flights 
+ 
+ 
+ 
+ PAO SIBUR Holding (annual revenue $6 9bn) is an integrated gas processing and petrochemicals 
+ company The company is processing petroleum gas in Western Siberia with a capacity of 25 4 billion 
+ cubic meters per year Drones are necessary for remote production sites supply 
+ 
+ 
+ 
+ Technical specifications and statement of work is still in progress 
+ 
+ 
+ 
+ 
+ 
+ https //news factor ru/img/news/news/news_25091 jpg
+ Russian Post (annual revenue $2 8bn) is Russias largest post operator with over 40 thousand offices 
+ around the country 
+ 
+ 
+ 
+ Negotiations are in progress 
+ 
+ 
+ 
+ 
+ 
+ logo png
+ Pony Express (annual revenue $86 7mln) is the largest integrated logistics company in CIS serving 
+ over 15 thousand settlements 
+ 
+ 
+ 
+ Negotiations have successfully been completed Test flights are planned for the spring of 2018 
+ 
+ 
+ 
+ 
+ Annex 3 Blueprint of the SKYF drone 
+ 
+ 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 
+ 
+ 
+ 
+ Annex 4 Details on drone market segments and SKYF drone applications 
+ 
+ Infrastructure segment $45bn 
+ 
+ In report Clarity from above PwC estimates the addressable market of drone powered solutions in 
+ infrastructure at $45 2bn Drones are able to provide the data required at each phase of the construction 
+ process During the pre construction phase drones can significantly improve the speed and quality of 
+ the design process by providing better field data Data collected by drones can also be used to create 
+ Digital Terrain Models (DTMs) which ensure better contract valuation During the construction phase 
+ drones are perfect for quick surveys of sites and for the precise gathering of data for progress reports 
+ In the last phase of the construction process drones can be used to assess environmental impacts of 
+ the final work and for reporting purposes 
+ 
+ Drones can be used in infrastructure companies for stock taking and inventory management 
+ Performing inventory assessments with drones allows companies to cut costs and accelerate the entire 
+ process while providing more detailed information about the assets It also increases workplace safety 
+ as rotary wing drones can fly into places that are difficult to reach without risking human lives 
+ 
+ We can expect to see drones not only diagnosing problems in crumbling infrastructure such as cracks 
+ on tarmac roads bridges and building facades but also repairing them In the future 3D printing 
+ technology will be combined with drone technologies to maintain and repair infrastructure 
+ 
+ Monitoring and repair are not the only drone applications being developed within the infrastructure 
+ industry Start ups are testing drone technology in performing hazardous tasks at certain heights such 
+ as painting and window cleaning Ultimately they will be able to perform most of the jobs at certain 
+ heights replacing humans and reducing the risk of death and injury as well as increasing efficiency 
+ 
+ 
+ 
+ 
+ 3D renders for potential SKYF drone use cases 
+ 
+ 
+ 
+ C \Users\Admin\Box Sync\Companies\ARDN\ARDN S&M\ \ \ SKYF\ 2 jpg 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sources SKYFchain OP 
+ 
+ 
+ 3D renders for potential SKYF drone use cases 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sources SKYFchain OP 
+ 
+ 
+ Agriculture segment $32bn 
+ 
+ Agricultural production has drastically increased in recent years and studies predict that aggregate 
+ agricultural consumption will increase by 69% from 2010 to 2050 This increase will be mostly stimulated 
+ by population growth from 7 billion to 9 billion by 2050 PwC estimates that the addressable market of 
+ drone powered solutions in the agricultural industry at $32 4bn 
+ 
+ 
+ 
+ Today drone technology offers a large variety of crop monitoring possibilities at lower costs when 
+ compared to traditional satellite imagery Furthermore drones can be integrated in every stage of the 
+ crop lifecycle from soil analysis to seed planting to choosing the right moment for harvesting 
+ 
+ 
+ 
+ Drones are able to produce precise 3D maps for early soil analysis which can be used to plan for seed 
+ planting patterns Various start ups have been able to create drone planting systems that not only 
+ achieve an uptake rate of 75% but also decrease planting costs by 85% Additionally once the crop is 
+ growing they allow for the calculation of the vegetation index which showcases the heat signature and 
+ allows for crop planting 
+ 
+ 
+ 
+ Once the later stage of a crop life cycle is reached the farmers main objective turns to keeping the 
+ plants alive and healthy which requires constant field monitoring Drone monitoring possibilities are 
+ constantly being enhanced providing the opportunity to reduce risk in the industry Crop spraying is 
+ another area where drone can be applied in the agricultural Drones can scan the ground while 
+ maintaining the right distance from the crops and spraying the correct amount of liquid modulating 
+ spraying in real time for even coverage 
+ 
+ 
+ 
+ SKYF drones can conduct high resolution imagery for crop disease detection and spraying of 
+ pesticides and desiccants for soya corn sunflower sugar beet rice etc We also have a high demand 
+ to deploy SKYF drones in orchards and vineyards so as to protect against frost and cherry drying 
+ 
+ 
+ 
+ SKYF drones can provide aerial application of chemicals pesticides and fertilizers for pest control 
+ Moreover our vehicles are suitable for fast planting of seedlings in biodegradable capsules for the 
+ restoration of large forest areas after deforestation fires etc Finally SKYF drones equipped with 
+ meteorological radars can be used in precipitation management during summer and winter 
+ (accumulation of snow in fields decrease of snow in cities) and fire prevention and extinguishing 
+ 
+ 
+ 
+ 
+ 
+ 
+ Russian agricultural market breakdown 
+ 
+ $1 1bn Russian pesticide market size 
+ 35 8mln ha the area of land treated with crop protection agents 
+ $330 5mln $545 8mln annual costs of spraying for crop protection 
+ $280mln $460mln market size for SKYF drones 
+ 
+ 
+ 
+ 
+ Average cost of aerial chemical spraying services 
+ 
+ Russia $4 $5 per hectare 
+ USA and Europe $30$40 per hectare 
+ 
+ 
+ For reference In the US up to 20% of pesticides are sprayed through aerial vehicles 
+ 
+ 
+ 
+ Farmers and their contractors use various means to deploy crop protection chemicals 
+ 
+ 15% 
+ 
+ 65% 
+ 
+ 20% 
+ 
+ Feasible only by means of 
+ ground based means due 
+ to high application rates 
+ For instance fungicides 
+ for grain crops 
+ 
+ 
+ Ground based equipment 
+ normally used 
+ Air vehicles are more 
+ effective due to higher 
+ capacity However the 
+ existing air vehicles do 
+ not meet the 
+ requirements of precision 
+ and low costs 
+ For instance herbicides 
+ pesticides certain 
+ fungicides 
+ 
+ 
+ Even the currently 
+ existing low efficiency 
+ aviation equipment is 
+ more effective than the 
+ ground based instruments 
+ For instance the 
+ application of pesticides 
+ desiccants 
+ 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ High performance aerial dusting means can be applied in 75% of cases They not only increase the air 
+ spraying accuracy but also allow farmers to work at night as well as to reduce the cost of aviation 
+ spraying 
+ 
+ 
+ 
+ 
+ 
+ 
+ SKYF drone solution has fundamental advantages in target service areas in the agricultural market 
+ 
+ Key advantages of application of SKYF drones in the agricultural market 
+ 
+ Safety unmanned means no human error and no pilot on board 
+ Productivity 24/7 operation (pilots cant fly at night) 
+ Price they are cheaper than helicopters 
+ Precision GPS/GLONASS state of the art flight control programming allows for hovering low 
+ speed movement and route precision down to 4 inches 
+ Effectiveness precise amount of dusting liquid or irrigation which keep the soil and 
+ underground waters intact 
+ 
+ 
+ 
+ 
+ Transport segment $13bn 
+ 
+ Drones are certain to become an integral part of the transport industry very soon offering a method of 
+ delivery of both services and transport The industry will turn to drones because of speed accessibility 
+ and low operating costs which are much better when compared to other forms of transport that require 
+ human labour The addressable market for drone powered solutions in the transport industry is $13bn 
+ according to PwC estimates 
+ 
+ 
+ 
+ Within e commerce time of delivery is paramount when choosing a carrier Drones enable fast delivery 
+ to a specific predefined point without much human action required Established corporations garage 
+ based start ups and all kinds of companies in between are looking into optimal ways of using drones 
+ for transport In the goods delivery sector another concept is gaining popularity delivery of spare parts 
+ Maersk which operates a large fleet of tankers currently uses barges to deliver spare parts to its 
+ workers As this process is expensive the company has been looking into other options and has also 
+ conducted drone delivery tests The positive results revealed that Maersk will be able to save $3k to 
+ $9k per ship annually when using drone technology 
+ 
+ 
+ 
+ Another application for drones is in medical logistics Delivering medical supplies to remote rural areas 
+ is the most likely application of drones in the transport sector because the need is high and the risk is 
+ low Another potential medical application of drones is as flying defibrillators A drone can be summoned 
+ by a patient with heart attack symptoms the device can fly to the location of the patient travelling at 
+ speeds of 100 km/h locate and identify him or her and then perform automatic defibrillation 
+ 
+ 
+ 
+ One of the most promising uses of drones in transport may be in food delivery Providing products such 
+ as frozen food ready to eat dishes or even daily groceries from large chains may be the next big thing 
+ in the food and restaurant industries At first drones will be used to deliver such products to remote 
+ difficult to access places that depend on external food supplies such as oil rigs research stations and 
+ 
+ 
+ isolated islands Once proper regulations have been established drones may perform the same tasks 
+ in residential areas decreasing delivery times and increasing the efficiency of the entire transport chain 
+ 
+ 
+ 
+ The Oil & Gas companies alone spend hundreds of millions of dollars per year on helicopter 
+ logistics 
+ 
+ 
+ 
+ Helicopter logistics expenses in Oil & Gas companies 
+ 
+ Company 
+ 
+ Helicopter logistics expenses 
+ 
+ ($ mln/year) 
+ 
+ 
+ 
+ Image result for rosneft logo
+ 350 
+ 
+ 
+ 
+ Statoil
+ 284 
+ 
+ 
+ 
+ Petrobras
+ 235 
+ 
+ 
+ 
+ royal dutch shell logo
+ 210 
+ 
+ 
+ 
+ 
+ 79 
+ 
+ 
+ 
+ Source SKYFchain OP 
+ 
+ 
+ 
+ Global helicopter logistics market breakdown 
+ 
+ $8 2bln commercial helicopter market size globally in 2017 (data by ReportBuyer) 
+ the global helicopter market is expected to grow at a CAGR of 3 5% between 2018 and 2023 
+ 
+ 
+ Key advantages of SKYF drone applications in the transportation market 
+ 
+ SKYF drone will save on up to 50% in delivery costs for 500 offshore rigs suppliers worldwide 
+ The average delivery payload is around 50 kg 
+ SKYF drones are faster cheaper and are less risky when compared to deliveries by ship or 
+ helicopter 
+ 
+ 
+ 
+ SKYF drone saves up to 50% of the total annual budget for helicopter logistics (depending on a 
+ particular cargo mix) 
+ The average price of helicopter services per hour is $1 1 5 thousand The price of a SKYF 
+ drone per one hour of flying is approximately $150 
+ 
+ 
+ 
+ 
+ Mining $4bn 
+ 
+ The mining industry has untapped potential in drone usage The commercial applications of drones in 
+ the mining industry are not so obvious at first glance however they can replace humans in dangerous 
+ and monotonous jobs Moreover they are more cost effective and versatile when compared to 
+ helicopters they are also faster easier to navigate and cause less pollution when compared to other 
+ mining vehicles In open cast mining PwC identifies four main areas of drone applications planning 
+ extraction support environmental protection and reporting To assess the addressable market of drone 
+ powered solutions in this industry PwC looked at particular cost categories and estimated the value at 
+ $4 3bn 
+ 
+ 
+ 
+ Open cast mines usually cover several square kilometres on varying surface levels which translates 
+ into long routes for land vehicles and crew Drones can be used to quickly map the area optimize 
+ hauling routes and provide control information Drone applications during mining exploration range from 
+ providing data that enables resource calculation through mapping a mining area to management 
+ Drones can be equipped with special features to supply spare parts or take soil samples for deposit 
+ analysis Drones are able to detect soil erosion track changes in vegetation and search for defects in 
+ mining infrastructure that may endanger the environment more easily and definitely faster than people 
+ on foot or manned aircraft can Drones can also be used to monitor the production process in open pit 
+ mines and for early detection of deviations and threats By creating a digital model of an open pit mine 
+ and the current state of work progress and detecting changes in the structure of the mine (landslides 
+ damages to infrastructure) mine owners can increase safety and decrease costs of controlling 
+ processes 
+ 
+ 
+ 
+ Security segment $10bn 
+ 
+ Areas need to be monitored constantly for security purposes Drones can quickly cover large and 
+ difficult to reach areas reducing staff numbers and costs They also do not require much space for their 
+ operators As drones are controlled from small pilot stations operators can gather in one place as with 
+ traditional video monitoring PwC estimates the addressable market of drone powered solutions in 
+ security industry at $10 5bn 
+ 
+ 
+ 
+ Drones have a competitive edge over stationary cameras as intruders cannot easily step out of sight 
+ and they can cover areas that are normally out of reach Drones have expanded their function beyond 
+ 
+ 
+ basic monitoring and can also ensure the safety of key sites or infrastructure such as ports and airports 
+ In addition to monitoring and rapid reaction drones can provide detailed pictures and documentation of 
+ premises enabling effective data analysis identification of risks and security planning 
+ 
+ 
+ 
+ In the future we envision that the data gathered by drones will be instantly processed in the cloud 
+ providing complete scene recognition and supplementing human supervision Thanks to machine 
+ learning software motion sensing and biometrics based behavior analysis as well as facial recognition 
+ drones will not only recognize unauthorized entry into a site but also identify precisely who the intruder 
+ is 
+ 
+ 
+ 
+ 
+ 

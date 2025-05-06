@@ -1,0 +1,973 @@
+
+ Brief
+ Our vision 
+ “Bring 200 000 Developers and 1 Billion HTML5 Devices to The Blockchain World ”
+ As a cross platform solution HTML5 technology has been globally recognized It
+ covers the Internet mobile games video advertising and other industries with the
+ global market size of hundreds of billions dollars 
+ After blockchain game CryptoKitties became popular Ethereum s smart contract
+ applications added a new member HTML5 games 
+ This project cooperating with Egret Technology a globally well known HTML5
+ technology service provider set up Egretia Blockchain Lab combining blockchain
+ with HTML5 technology to create the world’s first HTML5 blockchain engine and
+ platform aiming for applying blockchain to vertical industries Bringing Egret
+ Technology s existing 200 000 developers and 1 billion mobile terminal devices into
+ the blockchain world this project has practical and far reaching significance 
+ Table of Contents
+ Background
+ 1 1 Introduction to HTML5 10
+ 1 2 Blockchain Industry Background 12
+ Our Vision
+ 2 1 World s First HTML5 Blockchain Engine and Platform 14
+ 2 2 Building a Decentralised HTML5 User Ecosystem 15
+ 2 3 Creating an Ecosystem With True Token Circulation 16
+ HTML5 Blockchain Engine and Platform
+ 3 1 Key Products and Services 20
+ 3 2 Features of the Egretia Network 22
+ 3 3 Egretia Core Product Architecture 27
+ 3 4 Egretia DApp Case 36
+ Team and Partners
+ 4 1 About Egret Blockchain Lab 39
+ 4 2 About Egret Technology 39
+ 4 3 Core Members 42
+ 4 4 Advisors 43
+ Roadmap and Milestone
+ IMPORTANT NOTICE AND DISCLAIMER
+ PLEASE READ THE ENTIRETY OF THIS “NOTICE” SECTION CAREFULLY NOTHING IN
+ THIS WHITEPAPER CONSTITUTES LEGAL FINANCIAL BUSINESS OR TAX ADVICE
+ AND YOU SHOULD CONSULT YOUR OWN LEGAL FINANCIAL TAX OR OTHER
+ PROFESSIONAL ADVISOR(S) BEFORE ENGAGING IN ANY ACTIVITY IN
+ CONNECTION HEREWITH NEITHER EGRETIA FOUNDATION LIMITED (THE
+ FOUNDATION) ANY OF THE PROJECT TEAM MEMBERS (THE EGRETIA TEAM) WHO
+ HAVE WORKED ON THE EGRETIA NETWORK (AS DEFINED HEREIN) OR PROJECT
+ TO DEVELOP THE EGRETIA NETWORK IN ANY WAY WHATSOEVER ANY
+ DISTRIBUTOR/VENDOR OF EGRETEN (THE DISTRIBUTOR) NOR ANY SERVICE
+ PROVIDER SHALL BE LIABLE FOR ANY KIND OF DIRECT OR INDIRECT DAMAGE OR
+ LOSS WHATSOEVER WHICH YOU MAY SUFFER IN CONNECTION WITH ACCESSING
+ THIS WHITEPAPER THE WEBSITE AT HTTP //EGRETIA IO/ (THE WEBSITE) OR ANY
+ OTHER WEBSITES OR MATERIALS PUBLISHED BY THE FOUNDATION 
+ All contributions will be applied towards the advancing promoting the research 
+ design and development of and advocacy for the world s first HTML5 blockchain
+ engine and platform combining blockchain technology with proven tools 
+ communities and content of partners The Foundation the Distributor and their
+ various affiliates would develop manage and operate the Egretia Network 
+ This Whitepaper is intended for general informational purposes only and does not
+ constitute a prospectus an offer document an offer of securities a solicitation for
+ investment or any offer to sell any product item or asset (whether digital or
+ otherwise) The information herein below may not be exhaustive and does not imply
+ any elements of a contractual relationship There is no assurance as to the accuracy
+ or completeness of such information and no representation warranty or undertaking
+ is or purported to be provided as to the accuracy or completeness of such
+ information 
+ Where this Whitepaper includes information that has been obtained from third party
+ sources the Foundation and/or the Egretia team have not independently verified the
+ accuracy or completion of such information Further you acknowledge that
+ circumstances may change and that this Whitepaper may become outdated as a
+ result and the Foundation is under no obligation to update or correct this document
+ in connection therewith 
+ This Whitepaper does not constitute any offer by the Foundation the Distributor or
+ the Egretia team to sell any Egreten (as defined herein) nor shall it or any part of it
+ nor the fact of its presentation form the basis of or be relied upon in connection
+ with any contract or investment decision Nothing contained in this Whitepaper is or
+ may be relied upon as a promise representation or undertaking as to the future
+ performance of the Egretia Network The agreement between the Distributor and
+ you in relation to any sale and purchase of Egreten is to be governed by only the
+ separate terms and conditions of such agreement 
+ By accessing this Whitepaper or any part thereof you represent and warrant to the
+ Foundation its affiliates and the Egretia team as follows 
+ (a) in any decision to purchase any Egreten you have not relied on any statement
+ set out in this Whitepaper 
+ (b) you will and shall at your own expense ensure compliance with all laws 
+ regulatory requirements and restrictions applicable to you (as the case may be) 
+ (c) you acknowledge understand and agree that Egreten may have no value there
+ is no guarantee or representation of value or liquidity for Egreten and Egreten is
+ not for speculative investment 
+ (d) none of the Foundation its affiliates and/or the Egretia team members shall be
+ responsible for or liable for the value of Egreten the transferability and/or
+ liquidity of Egreten and/or the availability of any market for Egreten through third
+ parties or otherwise and
+ (e) you acknowledge understand and agree that you are not eligible to purchase
+ any Egreten if you are a citizen national resident (tax or otherwise) domiciliary
+ and/or green card holder of a geographic area or country (i) where it is likely that
+ the sale of Egreten would be construed as the sale of a security (howsoever
+ named) or investment product and/or (ii) in which access to or participation in
+ the Egreten token sale or the Egretia Network is prohibited by applicable law 
+ decree regulation treaty or administrative act and/or (including without
+ limitation the United States of America Canada New Zealand People s Republic
+ of China and the Republic of Korea) 
+ The Foundation the Distributor and the Egretia team do not and do not purport to
+ make and hereby disclaims all representations warranties or undertaking to any
+ entity or person (including without limitation warranties as to the accuracy 
+ completeness timeliness or reliability of the contents of this Whitepaper or any other
+ materials published by the Foundation) To the maximum extent permitted by law 
+ the Foundation the Distributor their related entities and service providers shall not
+ be liable for any indirect special incidental consequential or other losses of any
+ kind in tort contract or otherwise (including without limitation any liability arising
+ from default or negligence on the part of any of them or any loss of revenue 
+ income or profits and loss of use or data) arising from the use of this Whitepaper or
+ any other materials published or its contents (including without limitation any errors
+ or omissions) or otherwise arising in connection with the same Prospective
+ purchasers of Egreten should carefully consider and evaluate all risks and
+ uncertainties (including financial and legal risks and uncertainties) associated with
+ the Egreten token sale the Foundation the Distributor and the Egretia team 
+ The information set out in this Whitepaper is for community discussion only and is
+ not legally binding No person is bound to enter into any contract or binding legal
+ commitment in relation to the acquisition of Egreten and no virtual currency or
+ other form of payment is to be accepted on the basis of this Whitepaper The
+ agreement for sale and purchase of Egreten and/or continued holding of Egreten
+ shall be governed by a separate set of Terms and Conditions or Token Purchase
+ Agreement (as the case may be) setting out the terms of such purchase and/or
+ continued holding of Egreten (the Terms and Conditions) which shall be separately
+ provided to you or made available on the Website In the event of any
+ inconsistencies between the Terms and Conditions and this Whitepaper the Terms
+ and Conditions shall prevail 
+ No regulatory authority has examined or approved of any of the information set out
+ in this Whitepaper No such action has been or will be taken under the laws 
+ regulatory requirements or rules of any jurisdiction The publication distribution or
+ dissemination of this Whitepaper does not imply that the applicable laws regulatory
+ requirements or rules have been complied with 
+ This is only a conceptual whitepaper describing the future development goals for the
+ Egretia Network to be developed This Whitepaper may be amended or replaced
+ from time to time There are no obligations to update this Whitepaper or to provide
+ recipients with access to any information beyond what is provided in this
+ Whitepaper 
+ All statements contained in this Whitepaper statements made in press releases or in
+ any place accessible by the public and oral statements that may be made by the
+ Foundation the Distributor and/or the Egretia team may constitute forward looking
+ statements (including statements regarding intent belief or current expectations
+ with respect to market conditions business strategy and plans financial condition 
+ specific provisions and risk management practices) You are cautioned not to place
+ undue reliance on these forward looking statements given that these statements
+ involve known and unknown risks uncertainties and other factors that may cause
+ the actual future results to be materially different from that described by such
+ forward looking statements and no independent third party has reviewed the
+ reasonableness of any such statements or assumptions These forward looking
+ statements are applicable only as of the date of this Whitepaper and the Foundation
+ and the Egretia team expressly disclaims any responsibility (whether express or
+ implied) to release any revisions to these forward looking statements to reflect
+ events after such date 
+ The use of any company and/or platform names or trademarks herein (save for
+ those which relate to the Foundation or its affiliates) does not imply any affiliation
+ with or endorsement by any third party References in this Whitepaper to specific
+ companies and platforms are for illustrative purposes only 
+ This Whitepaper may be translated into a language other than English and in the
+ event of conflict or ambiguity between the English language version and translated
+ versions of this Whitepaper the English language version shall prevail You
+ acknowledge that you have read and understood the English language version of
+ this Whitepaper 
+ No part of this Whitepaper is to be copied reproduced distributed or disseminated
+ in any way without the prior written consent of the Foundation 
+ 9
+ Chapter 1
+ Background
+ 1 1 Introduction to HTML5
+ 1 2 Blockchain Industry Background
+ Background
+ 1 1 Introduction to HTML5
+ In recent years after many hardware upgrades and rapid development of Internet
+ technology some bottlenecks (such as performance traffic and compatibility) that
+ previously limited the operation of HTML5 games have now been eliminated Due to
+ the cross platform nature of HTML5 this technology is widely used in games 
+ marketing video media etc Using the power of mobile social networking HTML5
+ content has been widely disseminated in mobile apps and created entirely new
+ business models 
+ From their perspective and due to the rapid pace of their lives and work users
+ would like to make use of fragmented time at each leisure opportunity and
+ enjoy relaxation and entertainment In terms of app operators a new model is
+ expected to enhance user stickiness gaining more traffic 
+ Click and play viral transmission user stickiness these characteristics of an
+ HTML5 game make it a perfect fit for the current market demands 
+ Currently users of HTML5 games already account for 47% of all mobile game
+ users In terms of the business model in game payment instead of advertising 
+ has become the main source of revenue accounting for 68% Combined HTML5
+ games already have an independent commercial profitability In 2017 the market
+ size of HTML5 games in China exceeded 10 billion Yuan and showed a growing
+ trend After more than four years of evolution and development HTML5 games
+ 10
+ have witnessed huge improvements related to business models user numbers 
+ and market size 
+ The domestic revenue of high quality HTML5 games has reached 200 million
+ Yuan 
+ HTML5 technology has been globally recognised as a cross platform and crossterminal
+ solution It covers the Internet mobile game video advertising and
+ other industries with a global market opportunity of 100 billion dollars 
+ 􀀷􀁕􀁈􀁑􀁇􀀃
+ Due to the advantages of HTML5 technology an increasing number of wellknown
+ enterprises have adopted this technology 
+ • Google launched PWA advocating Android Instant Apps based on HTML5
+ technology 
+ • Baidu promoted light weight apps based on HTML5 technology 
+ • Facebook released Instant Games based on HTML5 technology in Messenger
+ with more than 1 billion daily active users and opened its advertising and
+ payment service for Instant Games at the end of 2017 
+ • In January 2018 Tencent WeChat released a series of mini games some of
+ those games gaining over 100 million daily active users 
+ Overall HTML5 has become one of the global Internet technology trends 
+ 􀀳􀁄􀁌􀁑􀀃􀀳􀁒􀁌􀁑􀁗􀁖􀀃
+ Despite the rapid development of HTML5 industry there still remain many pain
+ points 
+ • Lack of a global unified and secure payment platform 
+ • Lack of solutions to securely store virtual assets of users 
+ • Lack of mechanisms to ensure “fairness” in games 
+ 11
+ • Lack of solutions to rapidly respond to distributed back end communications 
+ • Lack of mechanisms to effectively protect the intellectual property of HTML5
+ products 
+ • Need for effective mechanisms to motivate good teams to develop high quality
+ games and apps 
+ • Need for diversified approaches to monetise internet traffic 
+ 1 2 Blockchain Industry Background
+ In recent years blockchain technology has gradually been understood and applied to
+ related projects advantages and disadvantages of the blockchain itself have become
+ increasingly obvious 
+ Advantages 
+ • Distributed ledger mechanism safe transparent and tamper resistant 
+ • Turing complete smart contracts fair and square 
+ • Decentralised data storage combined with smart contracts responsive and
+ reliable 
+ • Token system unified payment and settlement 
+ Disadvantages 
+ • Poor development testing and upgrade process 
+ • Poor development tools and a small development community 
+ • User inconveniences costs of learning are high 
+ • Security issues of accounts and wallets 
+ The Egretia team has joined hands with Egret Technology to create Egretia
+ Blockchain Lab By combining blockchain technology with proven HTML5 workflows 
+ developers will be able to rapidly develop blockchain applications and truly apply
+ blockchain to the vertical industries 
+ 12
+ 13
+ Chapter 2
+ Our Mission
+ 2 1 World’s First HTML5 Engine and Platform
+ 2 2 Building a Decentralized HTML5 User Ecosystem
+ 2 3 Creating an Ecosystem With True Token Circulation
+ Our Vision
+ “Bring 200 000 Developers and 1 Billion HTML5 Devices to The Blockchain World ”
+ 2 1 World s First HTML5 Blockchain Engine and Platform
+ In partnership with Egret Technology the global leader in the HTML5 industry the
+ Egretia team is committed to building the world s first HTML5 blockchain engine and
+ platform combining blockchain technology with proven tools communities and
+ content of partners aiming to bring 200 000 developers and 1 billion mobile devices
+ into the blockchain world 
+ User Ecosystem 
+ • The content powered by Egret Engine has reached hundreds of millions of users 
+ For every user a unique cryptographic passport with digital encryption will be
+ created 
+ • Users will be provided with a low threshold high security digital wallet serving as
+ a safe payment platform for all HTML5 blockchain applications 
+ • A digital virtual currency token that potentially circulates in HTML5 projects all
+ over the world will be created (Egreten) 
+ • An effective sustainable ecosystem will be built for users 
+ Technical Aspects 
+ • Modularising blockchain functions integrating them into the Egret Engine and its
+ front end development tools will contribute to directly reach more than 200 000
+ developers Integrating Egreten into hundreds of thousands of games and
+ applications will help to directly reach more than 1 billion users worldwide 
+ • Integrating blockchain technology into the backend service logic using node
+ servers around the world will provide HTML5 products with fast communication
+ solutions and trusted smart contract server logic 
+ 14
+ • A complete development suite documentation and development community will
+ be built to provide a most complete and convenient developer ecosystem 
+ Operational Aspects 
+ • Through the existing Egret game platform with 40 million monthly active
+ users the Egretia Network already has a professional global team of game and
+ app distributors They are operating the content and there are plays to
+ integrate the Egreten token payment system thus promoting actual utility and
+ circulation of Egreten 
+ • Together with strategic partners such as Facebook and Google the Egretia
+ Network has a well established advertising platform to promote Egreten based
+ games and products 
+ 2 2 Building a Decentralised HTML5 User Ecosystem
+ Powered by the Egret Engine HTML5 content has over 75% marketing
+ penetration in the HTML5 industry covering more than 1 billion mobile devices
+ and users 
+ The blockchain of the Egretia Network will be combined with Egret HTML5
+ workflows Using a token mechanism every player will have a unique ID in
+ games powered by the Egret Engine This will build a solid foundation for a
+ stable user ecosystem 
+ • Every user worldwide has a unique token passport in any game or application
+ which is developed based on the blockchain of the Egretia Network 
+ • The anonymity and encryption mechanism of the token passport effectively
+ ensures the privacy of users 
+ • Using unique anonymous secure tags the identity of a user is not limited to
+ one application or one game By using a unique virtual identity every user
+ can enjoy a life in the virtual world based on the Egretia Network 
+ 15
+ • Due to the transparency and irreversibility of blockchain as well as the unique
+ passport of each user available throughout the content system built by the
+ Egretia Network users can be accurately identified and rated for their
+ trustworthiness Users can also safely communicate with other users around
+ the world using the Egretia Network making friends exchanging virtual
+ assets etc 
+ 2 3 Creating an Ecosystem With True Token Circulation
+ Based on the user ecosystem of the Egretia Network there is the aim of forging a
+ new virtual currency token that can be used in all content powered by the Egret
+ Engine Egreten 
+ • The ecosystem will provide well established tools + SDKs for the blockchain
+ community and developers to design and build applications and products 
+ • Users can use Egreten as the currency to buy in game items pay for content 
+ etc 
+ • Users can use Egreten to take part in lotteries discounts and other promotions
+ on the Egretia Network across the world 
+ • Through the Egretia Network users can participate in crowdfunding of games
+ which they support through the usage of Egreten and potentially receive
+ Egreten incentives 
+ • Developers and content publishers can use Egreten to advertise their products
+ and services on the advertising platform of the Egretia Network 
+ 16
+ • Distributors of content and users from the media industry can obtain Egreten
+ through content distribution advertising etc 
+ • An Egreten digital wallet is created based on the unique token passports of
+ users in order to ensure safe storage of the virtual assets goods 
+ crowdfunding rewards platform incentives etc of each user 
+ Throughout the ecosystem it is envisaged that more than 200 000 developers
+ worldwide would be able to use the Egretia Blockchain SDK to rapidly develop
+ HTML5 blockchain games and applications This will increase the reach of Egreten to
+ over a billion users the token will be circulating in all areas of HTML5 content 
+ virtual goods platforms advertising platforms and communities 
+ 􀒁 represents the flow of tokens 􀒂
+ 17
+ In particular you understand and accept that Egreten 
+ (a) is non refundable and cannot be exchanged for cash (or its equivalent value in
+ any other virtual currency) or any payment obligation by the Foundation or any
+ affiliate 
+ (b) does not represent or confer on the token holder any right of any form with
+ respect to the Foundation (or any of its affiliates) or its revenues or assets 
+ including without limitation any right to receive future dividends revenue 
+ shares ownership right or stake share or security any voting distribution 
+ redemption liquidation proprietary (including all forms of intellectual property) 
+ or other financial or legal rights or equivalent rights or intellectual property
+ rights or any other form of participation in or relating to the Egretia Network the
+ Foundation the Distributor and/or their service providers 
+ (c) is not intended to represent any rights under a contract for differences or under
+ any other contract the purpose or pretended purpose of which is to secure a
+ profit or avoid a loss 
+ (d) is not intended to be a representation of money (including electronic money) 
+ security commodity bond debt instrument or any other kind of financial
+ instrument or investment 
+ (e) is not a loan to the Foundation or any of its affiliates is not intended to represent
+ a debt owed by the Foundation or any of its affiliates and there is no expectation
+ of profit and
+ (f) does not provide the token holder with any ownership or other interest in the
+ Foundation or any of its affiliates 
+ Egreten shall be issued and sold by the Distributor which shall be an affiliate of the
+ Foundation The contributions in the token sale will be held by the Distributor (or its
+ affiliate) after the token sale and contributors will have no economic or legal right
+ over or beneficial interest in these contributions or the assets of that entity after the
+ token sale To the extent a secondary market or exchange for trading Egreten does
+ develop it would be run and operated wholly independently of the Foundation the
+ Distributor the sale of Egreten and the Egretia Network Neither the Foundation nor
+ the Distributor will create such secondary markets nor will either entity act as an
+ exchange for Egreten 
+ 18
+ 19
+ 􀀤􀁉􀁂􀁑􀁕􀁆􀁓􀀁􀀔
+ 􀀩􀀵􀀮􀀭􀀖􀀁􀀣􀁍􀁐􀁄􀁌􀁄􀁉􀁂􀁊􀁏􀀁􀀦􀁏􀁈􀁊􀁏􀁆􀀁􀀇􀀁􀀱􀁍􀁂􀁕􀁇􀁐􀁓􀁎􀀁
+ 􀀔􀀏􀀒􀀁􀀁􀀬􀁆􀁚􀀁􀀱􀁓􀁐􀁅􀁖􀁄􀁕􀁔􀀁􀁂􀁏􀁅􀀁􀀴􀁆􀁓􀁗􀁊􀁄􀁆􀁔􀀁
+ 􀀔􀀏􀀓􀀁􀀁􀀦􀁈􀁓􀁆􀁕􀁊􀁂􀀁􀀧􀁆􀁂􀁕􀁖􀁓􀁆􀁔􀀁
+ 􀀔􀀏􀀔􀀁􀀁􀀦􀁈􀁓􀁆􀁕􀁊􀁂􀀁􀀤􀁐􀁓􀁆􀀁􀀱􀁓􀁐􀁅􀁖􀁄􀁕􀀁􀀢􀁓􀁄􀁉􀁊􀁕􀁆􀁄􀁕􀁖􀁓􀁆􀀁
+ 􀀔􀀏􀀕􀀁􀀁􀀦􀁈􀁓􀁆􀁕􀁊􀁂􀀁􀀥􀀢􀁑􀁑􀀁􀀤􀁂􀁔􀁆
+ HTML5 Blockchain Engine and Platform
+ 3 1 Key Products and Services
+ The World s First HTML5 Blockchain Game Development Workflow
+ Egret Technology the strategic partner of the Egretia team have spent four
+ years focusing on HTML5 workflow development The workflow includes 14
+ products such as the engine itself an IDE visual editor animation tools crossplatform
+ packaging tools etc All tools are cross platform and support both
+ Windows and Mac 
+ For more information please visit the Egret Technology website https //
+ www egret com/products/
+ Existing development workflows allow developers and designers to 
+ • Efficiently edit and debug code 
+ • Visually adjust UI interface 
+ • Easily create cross platform animations and interactive media content 
+ • Publish HTML5 content as iOS or Android apps via the packaging tool 
+ 20
+ Egret Project
+ The existing development suite will be used to tightly integrate the blockchain
+ interface layer such that all HTML5 games can easily support the blockchain 
+ Through the proven development workflows developers can quickly create HTML5
+ games and applications that provide blockchain features such as unified digital wallet
+ passports smart contracts and transactions 
+ The World s Largest HTML5 Blockchain Platform Egretia
+ The platform of the Egretia Network includes a development workflow based on
+ blockchain technology four core products and an incubator providing
+ comprehensive blockchain solutions and services for players content providers 
+ channels and advertisers allowing for creation of an inter connected ecosystem 
+ Not only can developers create blockchain applications quickly with the development
+ suite of the Egretia Network but they will also receive complete services through the
+ platform such as game distribution advertising trading storage and
+ communication service 
+ Egretia Blockchain Platform Architecture
+ Blockchain Game Dev Workflow The world s first complete HTML5 blockchain
+ engine and development kit will give developers the power to quickly and efficiently
+ develop blockchain games and applications 
+ 21
+ Distributed Communications and Storage Platform The platform will
+ leverage the node model of blockchain providing decentralised data communications
+ and storage solutions 
+ Game Distribution Platform This platform is the official DApp of the Egretia
+ Network Players can obtain Egreten through the app play HTML5 games on this
+ platform make payments via Egreten Through the Proof of Game (POG)
+ mechanism players can obtain Egreten incentives through playing or sharing games
+ with friends Users of the Egretia Network and/or holders of Egreten which did not
+ actively participate will not receive any Egreten incentives 
+ Virtual Goods Trading Platform Using Egreten all players in the games of the
+ Egretia Network can trade their virtual goods on this platform 
+ Egretia Ad Platforms A precision advertising system based on blockchain KYC
+ principles smart contracts and platform digital tokens 
+ Egretia Incubator The incubator on the Egretia Network supports game
+ development teams and individuals creating a bridge between players and
+ developers 
+ 3 2 Features of the Egretia Network
+ 􀀶􀁈􀁏􀁉􀀐􀁇􀁈􀁙􀁈􀁏􀁒􀁓􀁈􀁇􀀃􀀳􀁘􀁅􀁏􀁌􀁆􀀃􀀦􀁋􀁄􀁌􀁑􀀃
+ The Egretia Network will include a self developed efficient public chain based on the
+ DPoS (Delegated Proof of Stake) consensus mechanism aimed at optimising HTML5
+ game performance Through the blockchain interface layer in combination with the
+ Egret engine tools developers can quickly create blockchain based DApps 
+ 􀀦􀁒􀁑􀁖􀁈􀁑􀁖􀁘􀁖􀀃􀀰􀁈􀁆􀁋􀁄􀁑􀁌􀁖􀁐􀁖􀀃
+ 22
+ The public chain of the Egretia Network will be using a DPoS (Delegated Proof of
+ Stake) as consensus mechanism 
+ The DPoS mechanism is similar to a board vote where holders of coins cast a
+ certain number of nodes using the mechanism for verification and bookkeeping 
+ DPoS can significantly reduce the number of participating nodes for verification
+ and bookkeeping it is designed to be able to achieve consensus verification in a
+ second For the avoidance of doubt token holders which have delegated block
+ verification and bookkeeping to the nodes would not receive incentives based on
+ their token holdings only and without further contributing resources to the
+ network only participating nodes which have contributed computing resources for
+ block verification and bookkeeping would be entitled to receive token incentives 
+ The stability of DPoS mechanism has been verified in BTS EOS and other projects 
+ 􀀫􀁌􀁊􀁋􀀐􀁓􀁈􀁕􀁉􀁒􀁕􀁐􀁄􀁑􀁆􀁈􀀃􀀃
+ The public chain of the Egretia Network is a public chain with high concurrent
+ processing power where performance is optimised for the needs of the game
+ industry It is designed to have a fast TPS (Transaction Per Second) rate 
+ Nonetheless in blockchain technology an impossible triangle exists meaning that
+ scalability decentralisation and security cannot be achieved at the same time 
+ Using a DPoS mechanism to greatly increase scalability more than 2 000
+ transactions per second could be supported in the initial test chain In the future the
+ TPS will be increased according to business needs 
+ 􀀵􀁈􀁄􀁏􀀐􀁗􀁌􀁐􀁈􀀃􀀳􀁄􀁕􀁄􀁐􀁈􀁗􀁈􀁕􀀃􀀤􀁇􀁍􀁘􀁖􀁗􀁐􀁈􀁑􀁗􀀃
+ The Egretia Network can modify system parameters without bifurcation Instead the
+ Egretia Network will be able to change blocktime blocksize transaction fee etc via
+ voting 
+ The Egretia Network can modify the system parameters without bifurcation Instead 
+ the Egretia Network will be able to realise a dynamic adjustment of parameters such
+ as blocksize output speed and handling fee through voting method based on
+ consensus 
+ 23
+ For example A current blocktime of 3 seconds can be dynamically adjusted to 1
+ second or a current blocksize of 2M can be dynamically adjusted to create larger
+ blocks such as 8M 
+ For the avoidance of doubt ultimately community members are not connected with
+ the Foundation (or its affiliates) in any manner and the assets and funds of the
+ Foundation (or its affiliates) remain under the control of the relevant Board of
+ Directors who shall exercise independent judgement and apply them to achieve the
+ Foundation s objects The right to vote does not entitle Egreten holders to vote on
+ the operation and management of the Foundation (or its affiliates) or their assets 
+ and does not constitute any equity interest in the Foundation (or its affiliates) 
+ 􀀦􀁒􀁑􀁙􀁈􀁑􀁌􀁈􀁑􀁗􀀃􀁄􀁑􀁇􀀃􀀨􀆋􀁆􀁌􀁈􀁑􀁗􀀃􀀧􀁈􀁙􀁈􀁏􀁒􀁓􀁐􀁈􀁑􀁗􀀃􀀶􀁘􀁌􀁗􀁈􀀃
+ The proven tools of Egret lays a solid foundation for the blockchain project of the
+ Egretia Network making blockchain application development simple convenient and
+ efficient 
+ Support Mainstream Languages and Frameworks
+ The development suite integrates the support for JavaScript TypeScript HTML CSS 
+ Node js through the extensions it can easily support more languages and
+ frameworks such as C # Go C++ AngularJS React and so on 
+ Smart Coding Assistance
+ Smart Coding Assistance will provide major languages with intelligent code
+ completion real time error feedback reference search jump to definitions and
+ other functions to help developers more quickly program 
+ Built in Complete Game Development Workflow
+ Integration of visual game development environment covering the entire
+ development process (developing debugging publishing packaging) in addition 
+ resource management particle editing animation editing cloud publishing and other
+ 24
+ extensions are available thus making the experience of developing games friendlier
+ and smoother 
+ The interfaces of Egret Wing IDE and DragonBones animation tool
+ 􀀨􀁊􀁕􀁈􀁗􀁌􀁄􀀃􀀶􀀧􀀮􀀃
+ The Egretia blockchain SDK will be provided with engine and tools which will allow
+ all HTML5 games to easily access the blockchain Developers can quickly create
+ HTML5 games and applications that provide blockchain capabilities such as digital
+ wallet smart contracts etc 
+ • Accessing the blockchain through a few lines of code 
+ • Storing the key information of users on the blockchain with KYC (Know Your
+ Customer) certification 
+ • Providing data storage data communication and authentication services 
+ • Easy access to digital wallet and create smart contract 
+ • Using digital token SDK for virtual goods trading in games 
+ 􀀧􀁌􀁊􀁌􀁗􀁄􀁏􀀃􀀹􀁌􀁕􀁗􀁘􀁄􀁏􀀃􀀦􀁘􀁕􀁕􀁈􀁑􀁆􀁜􀀃􀀷􀁒􀁎􀁈􀁑􀀝􀀃􀀨􀁊􀁕􀁈􀁗􀁈􀁑􀀃
+ The global gaming market size in 2017 is over 100 billion dollars but there isn t a
+ way to connect different games each game is connected to its own independent
+ economy 
+ 25
+ The native digital cryptographically secured utility token of the Egretia Network
+ (Egreten) is a major component of the ecosystem on the Egretia Network and is
+ designed to be used solely as the primary token on the network Egreten will initially
+ be issued by the Distributor as ERC 20 standard compliant digital tokens on the
+ Ethereum blockchain and these will be migrated to tokens on the Egretia blockchain
+ when the same is eventually launched 
+ Egreten is a non refundable functional utility token which will be used as the unit of
+ exchange between participants on the Egretia Network The goal of introducing
+ Egreten is to provide a convenient and secure mode of payment and settlement
+ between participants who interact within the ecosystem on the Egretia Network 
+ Developers can easily combine Egreten with their own games and players can safely
+ and efficiently conduct virtual goods trading 
+ Egreten does not in any way represent any shareholding participation right title or
+ interest in the Foundation its affiliates or any other company enterprise or
+ undertaking nor will Egreten entitle token holders to any promise of fees dividends 
+ revenue profits or investment returns and are not intended to constitute securities
+ in Singapore or any relevant jurisdiction Egreten may only be utilised on the Egretia
+ Network and ownership of Egreten carries no rights express or implied other than
+ the right to use Egreten as a means to enable usage of and interaction with the
+ Egretia Network 
+ 􀀺􀁄􀁏􀁏􀁈􀁗􀀃
+ Both game developers and gamers will be able to manage Egreten through their
+ wallets Users will be provided with a low threshold high security digital wallet 
+ making the Egretia Network a safe payment platform for all HTML5 blockchain
+ applications Currently PC mobile and browser versions of the wallet are being
+ developed 
+ 􀀶􀁆􀁄􀁏􀁄􀁅􀁌􀁏􀁌􀁗􀁜􀀏􀀃􀀶􀁘􀁓􀁓􀁒􀁕􀁗􀁌􀁑􀁊􀀃􀀰􀁄􀁌􀁑􀁖􀁗􀁕􀁈􀁄􀁐􀀃􀀳􀁘􀁅􀁏􀁌􀁆􀀃􀀦􀁋􀁄􀁌􀁑􀁖􀀃
+ From a long term view the blockchain framework will not only support the native
+ chain of the Egretia Network but will also be extended to support Ethereum EOS
+ and other public chains so that all HTML5 developers can efficiently create
+ blockchain based games and applications 
+ 26
+ 􀀲􀁓􀁈􀁑􀀃􀀶􀁒􀁘􀁕􀁆􀁈􀀃
+ All Egretia related code will be completely open source on Github 
+ 3 3 Egretia Core Product Architecture
+ 􀀫􀀷􀀰􀀯􀀘􀀃􀀥􀁏􀁒􀁆􀁎􀁆􀁋􀁄􀁌􀁑􀀃􀀨􀁑􀁊􀁌􀁑􀁈􀀃
+ The content powered by Egret Engine accounts for 75% of the HTML5 market in
+ China with more than 200 000 developers worldwide 
+ The Egret Engine will provide the Egretia BaaS SDK which will allow easy access to
+ blockchain for all Egret games Through the Egretia BaaS SDK developers can
+ create blockchain games or migrate existing Egret games to blockchain games in an
+ easy way 
+ 27
+ HTML5 Blockchain Engine Architecture
+ As shown above in the diagram the bottom part represents the Egret Engine Using
+ the Egret IDE tool “Wing” developers can quickly develop HTML5 games As long as
+ developers add the Egretia BaaS SDK while creating a new project blockchainrelated
+ APIs will be easily accessible 
+ The Egretia BaaS SDK and the included APIs are as follows 
+ Egretia Game API
+ With blockchain popularity rapidly increasing many developers are eager to
+ “blockchain ise” their games However as a matter of fact blockchain technology is
+ fairly complicated At the same time not all developers have sufficient time to fully
+ leverage the underlying technology The Egretia Game API is a solution through
+ which developers can obtain easy access to blockchain 
+ Through the Egretia Game API HTML5 games can be “blockchain ised” with just a
+ few lines of code As you can see from the image above by adding the Egretia BaaS
+ SDK into games and then calling the API interface in accordance with official
+ 28
+ documentation tutorials developers will be able to combine HTML5 games with
+ blockchain technology 
+ KYC Certification
+ With the help of KYC (Know Your Customer) information user information is
+ encrypted and stored on the blockchain Due to the anonymity and traceability of
+ blockchain it is safe and reliable to store user information on the Egretia Network 
+ Using the KYC blockchain ID users will only have to sign up once for all games built
+ by HTML5 Blockchain Engine 
+ Egretia Data API
+ The game industry has been criticised because of opaque data some developers
+ control the falling probability of virtual goods in order to increase their revenue 
+ Although the entire industry has put a lot of effort into solving the problem for
+ example a group of developers has made public the falling probability of virtual
+ goods game players still feel sceptical about game developers 
+ Through the Egretia Data API developers can store the core data logic of games
+ and applications in the Egretia Network thus realising data storage account
+ disclosure and process verification this is making the data open fair and
+ transparent 
+ For example game developers write the core data logic game transaction
+ information and game equipment values onto the blockchain so that players can
+ view the game numerical information at any time This helps solving the mutual trust
+ problem between game developers and players 
+ Egreten API
+ As the API for the virtual currency ecosystem on the Egretia Network virtual ingame
+ items can be placed on the trading platform 
+ 􀀨􀁊􀁕􀁈􀁗􀁌􀁄􀀃􀀵􀁘􀁑􀁗􀁌􀁐􀁈􀀃
+ 29
+ Egret Runtime is an accelerator component developed by Egret team to enhance the
+ HTML5 game performance and can be embedded as a seamless extension into a
+ browser or other applications on mobile devices By using Egret Runtime game
+ developers can ignore the differences between diverse operating systems browsers 
+ and terminals so that HTML5 games can run more efficiently with amazing
+ performance In addition runtime also has access to mobile device hardware 
+ improving the gaming experience By the end of 2017 Egret Runtime has been
+ installed 1 billion times 
+ Egretia Runtime Architecture
+ The Egretia Runtime is a completely upgraded version of the Egret Runtime Not
+ only does it fully support the functions of the original runtime it also integrates the
+ Egretia blockchain modules to make for more secure core functions at the lower
+ layer of the application The Egretia BaaS Module which allows developers to easily
+ call the blockchain interface of the Egretia Network also fully supports the DPoS
+ mechanism realising ledger and data exchange on the basis layer of the Runtime 
+ 􀀨􀁊􀁕􀁈􀁗􀁌􀁄􀀃􀀪􀁄􀁐􀁈􀀃􀀪􀁏􀁒􀁅􀁄􀁏􀀃􀀧􀁌􀁖􀁗􀁕􀁌􀁅􀁘􀁗􀁌􀁒􀁑􀀃􀀳􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃
+ The Open Platform of the strategic partner of the Egretia team Egret Technology is
+ the largest HTML5 gaming platform in the world It has more than 2 000 distribution
+ 30
+ channels and more than 65 000 HTML5 games with 40 million monthly active users 
+ Leveraging the new business mode revolution brought by blockchain technology the
+ Egret Open Platform will be fully upgraded to a decentralised HTML5 gaming
+ distribution platform supporting HTML5 developers and reaching HTML5 players
+ worldwide 
+ Egretia Game Platform Architecture
+ Egretia Game Platform
+ As shown above with the Egret Engine and the Egretia BaaS SDK game developers
+ have easy access to blockchain Players can obtain a unique ID through KYC and
+ use it when playing all the games on the platform of the Egretia Network 
+ Since the Egretia Network adopts DPoS and PoG to implement distributed ledger and
+ data exchange mechanisms the longer the players will stay in games the greater
+ the PoG values will be Depending on the duration of the game and the level of
+ experience players can obtain various amounts of Egreten which will enable them
+ to buy virtual goods in the game 
+ Game developers may obtain Egreten by operating games 
+ Egretia Game Distribution Mechanism
+ 31
+ The game platform on the Egretia Network is a decentralised HTML5 game
+ distribution platform Developers can independently launch HTML5 games and offer
+ tasks encouraging players to spread games After completing the promotion tasks 
+ players will obtain some Egreten as an incentive This way developers will be able to
+ attract many players and those players are able to obtain virtual currency thus
+ forming a healthy ecosystem 
+ 􀀷􀁋􀁈􀀃􀀹􀁌􀁕􀁗􀁘􀁄􀁏􀀃􀀪􀁒􀁒􀁇􀁖􀀃􀀷􀁕􀁄􀁇􀁌􀁑􀁊􀀃􀀳􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃
+ Players have always faced the problem how to ensure the value of virtual goods and
+ the security of personal information in virtual goods transactions The Egretia virtual
+ goods trading platform can help to solve this problem 
+ Trading Platform Architecture
+ As pictured above players can sell virtual goods of a certain game on the trading
+ platform After selecting the game a game server the virtual goods category and
+ specific items virtual goods can be sold in exchange for Egreten 
+ On the other hand players can spend Egreten buying virtual goods on the trading
+ platform 
+ HTML5 games connect the in game virtual goods to the trading platform via the
+ Egretia BaaS SDK Traditional virtual goods and account trading model are lacking
+ 32
+ mutual trust at its foundation Based on the smart contract mechanism of
+ blockchain both buyers and sellers can conduct transactions without concerns and
+ will not need any guarantee from a third party 
+ Based on the traceability feature of blockchain traders can view historical
+ transaction records of virtual goods at any time Besides the anonymity of
+ blockchain can well protect the privacy of buyers and sellers 
+ 􀀧􀁈􀁆􀁈􀁑􀁗􀁕􀁄􀁏􀁌􀁖􀁈􀁇􀀃􀀤􀁇􀁙􀁈􀁕􀁗􀁌􀁖􀁌􀁑􀁊􀀃􀀳􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃
+ An advertising platform based on the Egretia Network will be created Based on KYC
+ principles the Egretia Network is capable of capturing user profiles accurately so
+ that ads that users are interested in can be delivered On the other hand the tokenbased
+ advertising platform will be helpful to Egreten circulation 
+ Blockchain Advertising Platform
+ As shown above decentralised blockchain based advertising is a good solution for
+ the shortcomings of traditional advertising 
+ • Advertisers can serve ads using the Egreten virtual currency on the Egretia
+ Network 
+ • Developers integrate ads with content through the tools and SDK on the Egretia
+ Network which will allow them to obtain Egreten 
+ 33
+ • Developers can also spend Egreten paid by users upon delivering ads in order to
+ attract more users 
+ • Based on KYC principles the advertising platform can protect the privacy of users
+ while getting user data effectively pushing content that users are really interested
+ in greatly reducing the costs for advertisement 
+ • Players can obtain Egreten by forwarding ads 
+ As the first HTML5 blockchain platform the Egreten team is also actively
+ communicating with overseas partners such as Facebook in order to jointly embrace
+ the future of blockchain together 
+ 􀀧􀁌􀁖􀁗􀁕􀁌􀁅􀁘􀁗􀁈􀁇􀀃􀀦􀁒􀁐􀁐􀁘􀁑􀁌􀁆􀁄􀁗􀁌􀁒􀁑􀀃􀀉􀀃􀀶􀁗􀁒􀁕􀁄􀁊􀁈􀀃􀀦􀁏􀁒􀁘􀁇􀀃􀀳􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃
+ The HTML5 Distributed Communication and Storage Service is powered by
+ blockchain technology to provide the
+ decentralised server side distributed
+ communication and storage 
+ The Egretia Network will cooperate
+ with more third party public chains
+ as well as technology service
+ providers offering developers more
+ comprehensive distributed communications & storage services 
+ The more developers and content the more widely distributed server nodes The
+ faster storage of data and files being read the quicker the client and server side
+ communications 
+ By calling the SDK provided developers can simply access communication services
+ on the Egretia Network realising online multiplayer data & file storage back end
+ 34
+ game logic customisation Usability low latency high availability expansibility 
+ customisability are its characteristics 
+ In addition to helping developers create a game from its concept it is easy to
+ migrate a single player game into a cross regional cross server low latency online
+ game based on the technology of the Egretia Network thus greatly reducing the
+ cost of game development 
+ Multi nodes low latency
+ Decentralised worldwide server nodes and the original server frame
+ synchronisation technology will make for a quicker and more stable transmission of
+ game data In the meantime to meet the needs of large multi player online games 
+ full advantage will be taken of the rich experience the Egretia team has with building
+ platforms and adopting a deep coupling approach Information that does not affect
+ fairness will be managed in a traditional manner and core data will be processed
+ through smart blockchain based contracts Seamless coordination ensures fairness
+ and a smooth gaming experience 
+ Quick Match
+ Based on distributed back end communications a flexible matching mechanism will
+ be meeting the majority of the matching requirements under different customisable
+ rules This will help in enriching the gameplay helping more players build
+ connections and truly achieving the state of global players using the same server 
+ Quick Access
+ Modularising the game lobby room and interactive processes the needs of
+ developers will be taken into consideration combining front end engine and tools for
+ developers to quickly access and develop games 
+ The Server Side Logic of Smart Contract Management
+ 35
+ Aside from basic networking capabilities game developers will also be provided with
+ a server side framework based on smart contracts the Egretia Backend Logic
+ Framework Developers will be able to extend server networking capabilities to
+ implement the customised server side game logic Because the server side logic is
+ based on the blockchain of the Egretia Network and managed through smart
+ contracts the game logic is open and fair which can effectively prevent plug ins 
+ 3 4 Egretia DApp Case
+ 􀀧􀁈􀁆􀁈􀁑􀁗􀁕􀁄􀁏􀁌􀁝􀁈􀁇􀀃􀀫􀀷􀀰􀀯􀀘􀀃􀀪􀁄􀁐􀁈􀀃􀀧􀁌􀁖􀁗􀁕􀁌􀁅􀁘􀁗􀁌􀁒􀁑􀀃􀀳􀁏􀁄􀁗􀁉􀁒􀁕􀁐􀀃
+ The decentralised game distribution platform is currently under development all the
+ games are developed based on the blockchain of the Egretia Network accessing the
+ KYC authentication system the digital tokens the data storage module and other
+ functions of the Egretia Network 
+ On this game platform players can not only play all HTML5 games but also obtain
+ digital virtual currency tokens through playing games while at the same time
+ gaining token incentives through completing the tasks in games The assets of all
+ players are securely stored in an Egretia wallet 
+ Because each user on the game platform has a unique passport accurate user
+ profiles can be obtained based on historical data thus matching players according to
+ 36
+ their interests Thus the platform of the Egretia Network is not only a game
+ platform but also a social platform 
+ 􀀳􀁕􀁒􀁉􀁈􀁖􀁖􀁌􀁒􀁑􀁄􀁏􀀃􀀲􀁓􀁈􀁕􀁄􀁗􀁌􀁒􀁑􀀃􀀷􀁈􀁄􀁐􀀃􀁄􀁑􀁇􀀃􀀬􀁑􀁆􀁘􀁅􀁄􀁗􀁒􀁕􀀃
+ The professional gaming operations team of the Egretia Network with its
+ outstanding global promotion capabilities in mobile games and applications will
+ focus on global promotion of premium games and applications based on the
+ blockchain of the Egretia Network Cooperative agreements have been made with a
+ number of content providers worldwide to develop quality games and apps based on
+ the Egretia Network At the same time the native incubator will support outstanding
+ content or technical teams jointly growing with them together 
+ 37
+ 38
+ 􀀤􀁉􀁂􀁑􀁕􀁆􀁓􀀁􀀕
+ 􀀵􀁆􀁂􀁎􀀁􀁂􀁏􀁅􀀁􀀱􀁂􀁓􀁕􀁏􀁆􀁓􀁔􀀁
+ 􀀕􀀏􀀒􀀁􀀁􀀢􀁃􀁐􀁖􀁕􀀁􀀦􀁈􀁓􀁆􀁕􀁊􀁂􀀁􀀣􀁍􀁐􀁄􀁌􀀤􀁉􀁂􀁊􀁏􀀁􀀭􀁂􀁃􀀁
+ 􀀕􀀏􀀓􀀁􀀁􀀢􀁃􀁐􀁖􀁕􀀁􀀦􀁈􀁓􀁆􀁕􀀁􀀵􀁆􀁄􀁉􀁏􀁐􀁍􀁐􀁈􀁚
+ 􀀕􀀏􀀔􀀁􀀁􀀭􀁂􀁃􀀁􀀤􀁐􀁓􀁆􀀁􀀮􀁆􀁎􀁃􀁆􀁓􀁔􀀁
+ 􀀕􀀏􀀕􀀁􀀁􀀢􀁅􀁗􀁊􀁔􀁐􀁓􀁔
+ Team and Partners
+ 4 1 About Egret Blockchain Lab
+ The strategic partner of the Egretia team in China Egret
+ Technology is the world s leading provider of HTML5 industry
+ solutions and the development partner of the Distributor As
+ a technology driven company Egret Technology has always
+ embraced cutting edge technology with an open mind and is
+ committed to improving the industry 
+ Egretia Blockchain Lab with core members from Qualcomm Adobe NVIDIA is
+ devoted to combining blockchain technology with the leading HTML5 engine and tool
+ technologies of Egret aiming for applying blockchain technology towards its vertical
+ industry Through the existing global developer ecosystem promoting the
+ popularisation of blockchain applications covering over 1 billion users it has
+ practical and far reaching significance to pushing forward the development of the
+ industry 
+ 4 2 About Egret Technology
+ • Founded in 2014 has R&D centers in Beijing and Shanghai 
+ • W3C member contribute to Web Standard Development 
+ • Core tech team comes from Adobe Asia R&D center having over 15 years
+ professional technologies experience 
+ • The largest HTML5 development platform and over 75% marketing penetration
+ rate in China 
+ • More than 200 000 developers worldwide with HTML5 content powered by its
+ workflow covering 1 billion mobile devices 
+ • Investors GuoJin Capital Shunwei XiaoMi and SIG for round A financing Matrix 
+ Shenzhen Capital for round B financing 
+ 39
+ • Expanding to the global market exploring the monetisation and business model of
+ cloud service and big data 
+ • In partnership with world renowned companies
+ Egret Technology independently developed 14 products such as the Egret Engine 
+ Egret Runtime DragonBones and Egret Wing creating the first complete HTML5
+ development workflow in the world For more information please visit the website of
+ Egret Technology http //www egret com
+ CCTV reported DragonBones the skeletal
+ animation software of Egret Technology has
+ become the international animation standard 
+ Related report􀒓
+ http //www techweb com cn/onlinegamerim/
+ 2017 03 22/2503768 shtml
+ There are more than 10 000 tutorials of Dragon
+ Bones on Youtube all of which are selfsubmitted
+ and shared by the global developers 
+ proving Dragon Bones immense popularity 
+ Using the Egret engine and Egret tools 
+ 40
+ developers have created products that are representing milestones in the history of
+ HTML5 
+ • Catch the Crazy Cat the first popular HTML5 game on Wechat gaining
+ more than 100 million users within 3 days 
+ • Yugong Yishan the first HTML5 paid game with total users of more
+ than 50 million 
+ • Legendary world the first game with 10 million Yuan monthly revenue
+ in HTML5 history
+ • Juezhan Shacheng the first game with over 30 million Yuan monthly
+ revenue in HTML5 history 
+ • Legend is coming the first game with over 100 million Yuan monthly
+ revenue in HTML5 history 
+ Another reason why the team chose Egret
+ Technology is its good developer ecosystem 
+ Every year Egret Technology holds a HTML5
+ developer conference with thousands of people
+ attending proving developer loyalty and
+ enthusiasm It is believed that based on the
+ huge developer community of Egret the HTML5
+ blockchain technology of the Egretia Network
+ will be quickly deployed in a variety of games
+ and applications and gain popularity 
+ After Tencent Wechat launched its mini game Egret
+ Technology announced that its tools would start
+ supporting the development of mini games In just a
+ week 2921 mini game projects were created through
+ Egret tools 
+ 41
+ 4 3 Core Members
+ In addition to the above members the Egretia Blockchain Lab also has experts from
+ other industries around the world We would also like to welcome more like minded
+ friends to join the blockchain laboratory promoting the development of the industry 
+ 42
+ Dirk Meyer
+ Sr Program Manager Digital Media BU PMO at Adobe with more than 20
+ years of experience in global project management Made impactful
+ contributions to Adobe s strategic business plan and innovative programs 
+ He is a blockchain technology advocate and investor 
+ Ross Przybylski
+ A passionate game industry veteran With more than 15 years of
+ experience in software development and 10 years of experience in game
+ development focusing on developing great games 
+ Yin Ma
+ Compiler and toolchain expert entrepreneur Qualcomm senior staff
+ engineer his own business focused on software and solutions consulting 
+ He has accumulated nearly two decades of experience in a variety of
+ operating system platform compiler development Worked in Microsoft 
+ Absoft etc Created fastest Fortran compilers for Intel/AMD while working
+ in Absoft as director of compiler development 
+ Peter Huang
+ Serial entrepreneur used to be technical manager of Adobe Flash
+ Platform has 18 years of development and management experience in
+ internet application and game project 
+ Edwin Chen
+ Founder & CEO of Egret Technology serial entrepreneur used to be
+ Discuz core member founder of Ismole 
+ 4 4 Advisors
+ 43
+ Lucas Lu
+ Lucas received his PhD degree in Particle Physics from SMU in 2005 
+ He worked at CERN when he participated in theoretical and
+ experimental research of Higgs Partical Dr Lucas Lu was previously
+ a co founder and CTO of Light In the Box a company which went
+ public on the NYSE and prior to that Lucas was the first GM of
+ Alibaba’s Taobao Mobile platform and was the GM of another Alibaba
+ business unit Lucas founded 5miles in 2014 
+ Hongfei Tian
+ Hongfei received his Master s degree from MIT Now a founding
+ partner of iVision responsible for Internet finance and enterprise
+ software investment Previously worked at SIG Oracle as a software
+ security engineer World Bank IFC etc Has autonomously developed
+ Bitcoin payment gateways Bitcoin mobile wallet Yard wallet and
+ copyrights authentication systems 
+ Yao Yong
+ The pioneer of Chinese game engine the founder of Wing Hang
+ Technology leading the company to develop H3D engine itself The
+ products such as QQ Dancer and Dancing Time made by the
+ company using the H3D engine are widely known These games have
+ a large number of players one of them reached 6 million concurrent
+ online users 
+ Frank Lee
+ Founder of several start up companies and Angel Investor 
+ Successfully developed the first Litecoin ASIC miner in the world Two
+ companies are included in MI eco system Invested and co founded
+ companies in various areas including Game VR AR IOT etc 
+ Graduated from Tsinghua University with degree in Electrical
+ Engineering 
+ 44
+ 􀀤􀁉􀁂􀁑􀁕􀁆􀁓􀀁􀀖
+ 􀀳􀁐􀁂􀁅􀁎􀁂􀁑􀀁􀁂􀁏􀁅􀀁􀀮􀁊􀁍􀁆􀁔􀁕􀁐􀁏􀁆􀀁
+ Roadmap and Milestone
+ The professional engine tools and blockchain technology team of the Egretia
+ Network will ensure milestones will be delivered on time 
+ 45
+ Risks
+ You acknowledge and agree that there are numerous risks associated with
+ purchasing Egreten holding Egreten and using Egreten for participation in the
+ Egretia Network In the worst scenario this could lead to the loss of all or part of the
+ Egreten which had been purchased 
+ 1 Uncertain Regulations and Enforcement Actions
+ The regulatory status of Egreten and distributed ledger technology is unclear or
+ unsettled in many jurisdictions The regulation of virtual currencies has become a
+ primary target of regulation in all major countries in the world It is impossible to
+ predict how when or whether regulatory agencies may apply existing regulations or
+ create new regulations with respect to such technology and its applications 
+ including Egreten and/or the Egretia Network Regulatory actions could negatively
+ impact Egreten and/or the Egretia Network in various ways The Foundation (or its
+ affiliates) may cease operations in a jurisdiction in the event that regulatory actions 
+ or changes to law or regulation make it illegal to operate in such jurisdiction or
+ commercially undesirable to obtain the necessary regulatory approval(s) to operate
+ in such jurisdiction After consulting with a wide range of legal advisors and
+ continuous analysis of the development and legal structure of virtual currencies the
+ Foundation will apply a cautious approach towards the sale of Egreten Therefore 
+ for the token sale the Foundation may constantly adjust the sale strategy in order to
+ avoid relevant legal risks as much as possible For the token sale the Foundation is
+ working with Tzedek Law LLC a boutique corporate law firm in Singapore with a
+ good reputation in the blockchain space 
+ 2 Inadequate disclosure of information
+ As at the date hereof the Egretia Network is still under development and its design
+ concepts consensus mechanisms algorithms codes and other technical details and
+ parameters may be constantly and frequently updated and changed Although this
+ white paper contains the most current information relating to the Egretia Network it
+ is not absolutely complete and may still be adjusted and updated by the Egretia
+ team from time to time The Egretia team has no ability and obligation to keep
+ holders of Egreten informed of every detail (including development progress and
+ 46
+ expected milestones) regarding the project to develop the Egretia Network hence
+ insufficient information disclosure is inevitable and reasonable 
+ 3 Competitors
+ Various types of decentralised applications are emerging at a rapid rate and the
+ industry is increasingly competitive It is possible that alternative networks could be
+ established that utilise the same or similar code and protocol underlying Egreten
+ and/or the Egretia Network and attempt to re create similar facilities The Egretia
+ Network may be required to compete with these alternative networks which could
+ negatively impact Egreten and/or the Egretia Network 
+ 4 Loss of Talent
+ The development of the Egretia Network depends on the continued co operation of
+ the existing technical team and expert consultants who are highly knowledgeable
+ and experienced in their respective sectors The loss of any member may adversely
+ affect the Egretia Network or its future development Further stability and cohesion
+ within the team is critical to the overall development of the Egretia Network There
+ is the possibility that conflict within the team and/or departure of core personnel
+ may occur resulting in negative influence on the project in the future 
+ 5 Failure to develop
+ There is the risk that the development of the Egretia Network will not be executed or
+ implemented as planned for a variety of reasons including without limitation the
+ event of a decline in the prices of any digital asset virtual currency or Egreten 
+ unforeseen technical difficulties and shortage of development funds for activities 
+ 6 Security weaknesses
+ Hackers or other malicious groups or organisations may attempt to interfere with
+ Egreten and/or the Egretia Network in a variety of ways including but not limited
+ to malware attacks denial of service attacks consensus based attacks Sybil
+ attacks smurfing and spoofing Furthermore there is a risk that a third party or a
+ member of the Foundation or its affiliates may intentionally or unintentionally
+ 47
+ introduce weaknesses into the core infrastructure of Egreten and/or the Egretia
+ Network which could negatively affect Egreten and/or the Egretia Network 
+ Further the future of cryptography and security innovations are highly unpredictable
+ and advances in cryptography or technical advances (including without limitation
+ development of quantum computing) could present unknown risks to Egreten and/
+ or the Egretia Network by rendering ineffective the cryptographic consensus
+ mechanism that underpins that blockchain protocol 
+ 7 Other risks
+ In addition the potential risks briefly mentioned above are not exhaustive and there
+ are other risks (as more particularly set out in the Terms and Conditions) associated
+ with your purchase holding and use of Egreten including those that the Foundation
+ cannot anticipate Such risks may further materialise as unanticipated variations or
+ combinations of the aforementioned risks You should conduct full due diligence on
+ the Foundation its affiliates and the Egretia team as well as understand the overall
+ framework mission and vision for the Egretia Network prior to purchasing Egreten 
+ 48 

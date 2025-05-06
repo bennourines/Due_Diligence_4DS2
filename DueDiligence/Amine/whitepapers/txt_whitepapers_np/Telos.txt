@@ -1,0 +1,1606 @@
+Telos Whitepaper 
+ 
+ A sustainably decentralized EOSIO network 
+ 
+ by Douglas Horn 
+ 
+ TELOS THE ULTIMATE PURPOSE OF A THING (FROM GREEK S) 
+ 
+ The telos of an acorn is to become an oak tree 
+ 
+ Aristotle 
+ DRAFT 1 2 AUGUST 15 2018 
+ 
+ 
+ Contents 
+ 
+ CONTENTS 
+ 
+ THE TELOS PROJECT 
+ 
+ THE TELOS FORK Revd D 1 1 4 
+ A FRESH START WITH TELOS Revd D 1 2 7 
+ 
+ THE TELOS ADVANTAGE 8 
+ 
+ FOR DEVELOPERS 8 
+ 
+ PROPRIETARY DAPPS ALLOWED 8 
+ LOWER COST DAPP DEPLOYMENT 9 
+ FEWER NETWORK PAUSES 9
+ 
+ Revd D 1 2 
+ 
+ ENHANCED SECURITY 9 
+ PUBLIC TESTNET OPERATED BY BLOCK PRODUCERS 9 
+ TELOS/EOS MAINNET COMPATIBILITY Revd D 1 2 9 
+ 
+ FOR TOKEN HOLDERS 9 
+ 
+ MEANINGFUL VOTING FOR ALL 9 
+ HIGHER EQUITY PER TOKEN 10 
+ DEVELOPER FOCUS BUILDS VALUE 10 
+ LOWER INFLATION 10 
+ PRE ACTIVATION RESOLUTION OF STOLEN TOKENS 10 
+ 
+ FOR BLOCK PRODUCERS 10 
+ 
+ EQUITABLE PAYOUT MODEL 10 
+ EQUITABLE VOTING / INVERSE VOTE WEIGHTING 10 
+ SMART CONTRACT ENFORCED BLOCK PRODUCER REQUIREMENTS 11 
+ REGULAR DOWNTIME FOR NODE MAINTENANCE 12 
+ 
+ Revd D 1 1 
+ 
+ TELOS TOKEN DISTRIBUTION 13 
+ 
+ COMPARATIVE DISTRIBUTION Revd D 1 2 15 
+ EOS PROBLEMS TELOS SOLUTIONS 17 
+ EOS PROBLEMS AND HOW TELOS WILL SOLVE THEM 17 
+ 
+ 1 
+ 
+ 
+ PROBLEM USER VOTES DONT MATTER WHALES RUN THE NETWORK 17 
+ PROBLEM DAPP DEVELOPERS ARE DISINCENTIVIZED FROM USING NETWORK 17 
+ PROBLEM NETWORK PAUSE RISK Revd D 1 2 18 
+ PROBLEM STANDBY BPS ARE NOT BEING PROPERLY PAID AND REGULARLY TESTED 18 
+ PROBLEM EOS RAM PROSPECTING DRIVES UP THE COST OF DEPLOYING DAPPS 19 
+ PROBLEM THE EOS CONSTITUTION IS UNRATIFIED 19 
+ PROBLEM ADJUDICATION BODY NOT PREPARED AT LAUNCH 20 
+ PROBLEM EOS HAS HIGH INFLATION 20 
+ Revd D 1 2 18 
+ PROBLEM STANDBY BPS ARE NOT BEING PROPERLY PAID AND REGULARLY TESTED 18 
+ PROBLEM EOS RAM PROSPECTING DRIVES UP THE COST OF DEPLOYING DAPPS 19 
+ PROBLEM THE EOS CONSTITUTION IS UNRATIFIED 19 
+ PROBLEM ADJUDICATION BODY NOT PREPARED AT LAUNCH 20 
+ PROBLEM EOS HAS HIGH INFLATION 20 
+ 
+ Revd D 1 2 
+ 
+ PROBLEM EOS ACCOUNTS CAN BE FORFEIT AFTER 3 YEARS 20 
+ 
+ Revd D 1 2 
+ 
+ THE TELOS FOUNDATION 22 
+ 
+ LAUNCHING A COMPLETE NETWORK 
+ 
+ VOTING WALLETS Revd D 1 2 24 
+ CONSTITUTION 24 
+ REFERENDUM PROCESS 24 
+ WORKER PROPOSALS SUBMISSION AND VOTING PROCESS 24 
+ ARBITRATION PROCESS 24 
+ ARBITRATION BODY 24 
+ BLOCK PRODUCER ENFORCEMENT 25 
+ CENTRAL INFORMATION HUB 25 
+ 
+ TELOS BLOCK PRODUCER MINIMUM REQUIREMENTS 26 
+ 
+ BLOCK PRODUCER PAY 28 
+ 
+ Revd D 1 2 
+ 
+ PROJECTED TELOS BLOCK PRODUCER PAY AND USD VALUE 29 
+ ARBITRATION IN THE TELOS NETWORK 30 
+ 
+ TELOS ARBITRATION PROCESS 30 
+ TELOS STOLEN FUND REPATRIATION PROCESS 32 
+ 
+ TELOS STOLEN FUND REPATRIATION PROCESS 32 
+ 
+ REGISTERED ADDRESSES THAT HAVE NOT BEEN STOLEN 32 
+ REGISTERED ADDRESSES THAT HAVE BEEN STOLEN 32 
+ UNCLAIMED EOS TOKENS FROM TOKEN SALE 32 
+ EOS TOKENS ON EXCHANGES AT EOS MAINNET LAUNCH Revd D 1 2 33 
+ 
+ 2 
+ 
+ 
+ TELOS RAM SPECULATION PREVENTION 34 
+ LIMIT INITIAL RAM ALLOCATION 
+ TIE RAM INCREASES TO NETWORK UTILIZATION 
+ ENCOURAGE TELOS FOUNDATION TO HELP STABILIZE PRICE SWINGS 
+ TELOS EXCHANGE PETITION PROCESS 
+ Revd D 1 2 
+ Revd D 1 2 
+ 34 
+ 34 
+ 35 
+ 36 
+ EXCHANGE TLOS TOKEN CREATION PETITION PROCESS 
+ IS TELOS A SECURITY Revd D 1 2 
+ 36 
+ 38 
+ TELOS FAQ Revd D 1 2 40 
+ Revd D 1 2 
+ 
+ 3 
+ 
+ 
+ The Telos Project 
+ 
+ A sustainably decentralized EOSIO network 
+ 
+ The Eos system offers an amazing promise of a new economy Unfortunately high centralization 
+ undermines this promise Just 1 6% of Eos holders own 90% of the tokens The token ownership 
+ governance and block producer selection are all compromised by the existence of massive whale 
+ addresses that can push Eos in any direction they want without regard to the majority of token holders 
+ developers or even the overall health of the network 
+ 
+ Telos is an alternative network based on the same EOSIO code that aims to solve the key problems of Eos 
+ The Telos network offers 
+ 
+ 1 Economic decentralization No whale addresses 
+ 2 Equitable pay structure for block producers and standbys 
+ 3 DApp developer friendly with proprietary DApps and lower cost deployment 
+ 4 Additional token holder protection and pre activation resolution of stolen tokens 
+ The EOS dream will not come true until it fixes 
+ its centralization problems 
+ 
+ Juan M Villaverde Weiss Ratings 
+ The Telos Blockchain 
+ 
+ Telos forks EOSIO code into a new blockchain and updates the following elements 
+ 
+ 
+ Remove the extreme economic power of a small number of whales by capping the value of 
+ every address in the genesis snapshot at 40 000 Telos (TLOS) tokens 
+ o 
+ Eliminates whales control of block producer selection and token holder voting 
+ o 
+ Exchanges will be given a process for petitioning to have TLOS tokens created for their 
+ EOS owners at the time of the snapshot provided that they agree to list TLOS and 
+ distribute tokens capped at 40 000 per account holder 
+ 4 
+ 
+ 
+ 
+ Revise block producer (BP) and standby pay model to better secure the network 
+ o 
+ A fixed 21 block producers plus 30 standbys based on voting 
+ o 
+ Equalize pay among block producers and standbys All BPs will be paid the same amount 
+ and all standbys will be paid 50% the BP rate 
+ o 
+ Standbys will rotate into block production for a short time on a regular basis (every 3 7 
+ days) to earn their pay and prove that they are ready to produce 
+ o 
+ Active BPs that fail to produce 180 blocks in a row will be temporarily replaced by a 
+ standby BP (after 30 minutes vs 3 hours under Eos rules) 
+ o 
+ Active BPs and standby BPs are penalized for missed blocks 
+ o 
+ This model will reduce incidence of network pauses due to 6 or more BPs becoming 
+ inactive 
+ o 
+ Active BPs and standby BPs will have a clear minimum requirement in terms of 
+ information disclosure practices and hardware/connectivity any that do not meet 
+ minimum will be prevented from serving regardless of voting 
+ o 
+ Statistics on BP/Stand by performance will be published to empower voters towards 
+ electing more reliable BPs 
+ 5 
+ 
+ 
+ 
+ Telos code review/testing 
+ o 
+ The block producers or a body elected by them will review code for security and value 
+ o 
+ New code releases will be live tested on a private testnet maintained by all block 
+ producers and standbys prior to mainnet deployment 
+ o 
+ Block producers and standbys will coordinate updates based on private testnet results 
+ 
+ Telos DApp developers may designate original code portions of their DApps to be proprietary or 
+ Revd D 1 2 
+ 
+ open source (All Eos DApps must be open source which will limit participation by many potential 
+ developers ) 
+ 
+ 
+ Telos will reduce annual inflation to 2 5% compared to 5% 
+ Revd D 1 2 
+ Once activated Telos addresses will not be destroyed after 3 years of non use This feature of Eos 
+ is unfair and unnecessary and will not be implemented in Telos However genesis Telos accounts 
+ created by the Eos genesis snapshot must be used at least once by their owners within one year 
+ to opt in to the system or they will be removed 
+ 
+ Telos will be launched by a consortium of Eos block producer candidates who took part in the Eos 
+ Mainnet Launch Group (EMLG) This group is well versed in the mechanics of launching and running the 
+ mainnet since it has done so before 
+ 
+ We will distribute an entirely new token TLOS to those listed on the Eos genesis snapshot with a few 
+ modifications 
+ 
+ 
+ All genesis addresses will be capped at 40 000 TLOS 
+ 
+ All addresses that can prove they were stolen prior to launch will be repatriated to their true 
+ owners 
+ Revd D 1 2 
+ New tokens will be generated to create the Telos Founders Rewards Pool (TFRP) to compensate 
+ the founders and the Telos Community Rewards Pool (TCRP) to compensate community 
+ members promoting Telos and to fund the Telos Foundation a promotional organization for 
+ funding work important to the Telos network outside the worker proposals system 
+ 
+ 
+ Exchanges can petition to have their accounts re created by the ABPs or BPs by agreeing to list 
+ TLOS for exchange and to distribute TLOS tokens to their EOS token holders as of the snapshot 
+ capped at 40 000 per account holder 
+ 6 
+ 
+ 
+ Exchanges can be expected to list TLOS due to pressure from their customers who want to receive the 
+ tokensproviding a method for exchange 
+ 
+ The Telos network is likely to be more stable because block producers will be selected by voting from a 
+ broad community based on capability rather than a small number of whales based on affiliation Also 
+ block producers who fail to produce blocks will be rotated out within 30 minutes (180 missed blocks) as 
+ opposed to 3 hours Additionally standby block producers will be enabled and required to produce blocks 
+ every 3 7 days in order to prove they are constantly ready This semi regular schedule provides needed 
+ downtime for block producers to maintain and update their servers lowering the cost of operation It 
+ also includes more standby block producers in governance as their votes will factor into block producer 
+ voting This approach means proven standby capability and greater network resiliency which will likely 
+ result in fewer network pauses 
+ 
+ Developers are likely to prefer the Telos system because they may designate some DApps as proprietary 
+ and therefore worth their development investment The Telos network will work to lower deployment 
+ costs by keeping RAM availability commensurate with network need to reduce RAM hoarding by early 
+ participants This should keep the cost of deploying DApps lower than on Eos In all other ways the Telos 
+ network will work to remain compatible with the Eos mainnet software so that DApps can be run 
+ interchangeably on either network 
+ 
+ Revd D 1 2 Token holders can be expected to be more engaged because their votes matter more compared to Eos 
+ where only the whale votes really count Analysts such as Weiss Ratings are likely to give higher 
+ valuations to Telos than Eos since they have already warned about centralization as a severe problem 
+ with the Eos system and suggested limited voting of large accounts and incorporating more block 
+ producers both of which Telos accomplishes The TLOS token supply is expected to be between onefifth 
+ and one third that of EOS (200 330 million tokens) depending on exchange participation Given all of 
+ these advantages TLOS may come to have a greater value than EOS 
+ 
+ A Fresh Start with Telos 
+ 
+ The Eos mainnet launch has revealed numerous important shortcomings of the system We are fortunate 
+ to have learned from these Many of these problems will be solved in time Telos has the benefit of a 
+ clean slate to deal with these problems head on and solve the most pressing problems immediately on 
+ launch The Telos network offers a fresh start to run the EOSIO software on a network that focuses on 
+ providing clear and immediate value to DApp developers and token holders Ultimately Telos may 
+ provide a testbed of innovative solutions that the EOS mainnet may adopt For now Telos aims to be a 
+ cost effective highly reliable network that users can join for free and developers can afford to deploy 
+ their DApps on 
+ 
+ 7 
+ 
+ 
+ The Telos Advantage 
+ 
+ Telos is a new network based on Eos It offers many advantages over the Eos Mainnet 
+ 
+ For Developers 
+ 
+ 
+ Proprietary DApps allowed 
+ 
+ Lower cost DApp deployment 
+ 
+ Fewer network pauses 
+ 
+ Enhanced Security 
+ 
+ Public testnet operated by BPs 
+ 
+ Telos/Eos mainnet compatibility 
+ For Token Holders 
+ 
+ 
+ Meaningful voting for all 
+ 
+ Higher equity per token 
+ 
+ Developer focus builds value 
+ 
+ Lower inflation 
+ 
+ Pre activation resolution of stolen tokens 
+ For Block Producers 
+ 
+ 
+ Equitable payout model 
+ 
+ Equitable voting / Inverse Vote Weighting 
+ 
+ Smart contract enforced block producer requirements 
+ Revd D 1 2 
+ Scheduled windows for node maintenance 
+ FOR DEVELOPERS 
+ 
+ The Telos network exists to provide a reliable affordable well managed network for developers to 
+ release DApps Telos offers the following advantages over the Eos mainnet 
+ 
+ Proprietary DApps Allowed 
+ 
+ All DApp code running on the Eos mainnet must be open source (Eos Constitution Article VII) Telos will 
+ not force developers to open source their code 
+ 
+ 8 
+ 
+ 
+ Revd D 1 2 D 1 2 
+ 
+ Revd D 1 2 
+ 
+ Revd D 1 2 
+ 
+ Lower Cost DApp Deployment 
+ 
+ The Telos network will manage RAM requirements in a way that scales with actual usage This will limit 
+ early RAM hoarding and keep the cost of deploying DApps more affordable 
+ 
+ Fewer Network Pauses 
+ 
+ The Telos network uses a block producer system that swaps all standbys into block production every 3 7 
+ days to prove that all are capable of producing blocks whenever called on This system also allows any 
+ block producer that is not operational to be temporarily swapped out after missing just 30 minutes (180 
+ consecutive blocks) as opposed to 3 hours on the Eos mainnet This reduces the risk of mandatory 
+ network pauses due to any 6 block producers becoming inactive at any given time 
+ 
+ Enhanced Security 
+ 
+ Telos expands on the security of the Eos network by adding enforced minimum technical and information 
+ disclosure requirements for Telos block producers 
+ 
+ All Telos block producers and standbys are required to have a node on the BP private testnet where new 
+ patches can be tested before implementation on the mainnet* This increases network security by 
+ revealing new bugs prior to implementation and allows for better update coordination among block 
+ producers to reduce the incidents of dead chains 
+ 
+ (* except emergency security patches for known exploits ) 
+ 
+ Public Testnet Operated by Block Producers 
+ 
+ All Telos block producers and standbys are required to contribute a node to a full and open testnet 
+ identical to the Telos mainnet This aids in app development and testing 
+ 
+ Telos/Eos Mainnet Compatibility 
+ 
+ The Telos network runs the same EOSIO software as the Eos mainnet so DApps written for Eos can run 
+ on Telos The primary code changes on the Telos network relate to how BPs are paid elected and 
+ temporarily removed from service due to noncompliance All other differences result from genesis 
+ snapshot modifications constitutional changes and organizational principles 
+ 
+ FOR TOKEN HOLDERS 
+ 
+ Telos tokens (TLOS) have advantages over EOS tokens 
+ 
+ Meaningful Voting For All 
+ 
+ The Telos genesis token ownership caps all genesis accounts at 40 000 TLOS tokens Telos Foundationowned 
+ addresses cannot vote As a result Telos token ownership is one of the most proportionate of any 
+ cryptocurrency network Telos members have a much more equal say in the governance of the network 
+ than Eos members 
+ 
+ 9 
+ 
+ 
+ Higher Equity Per Token 
+ 
+ Each EOS token represents 1/1 000 000 000 of the total value of the Eos network Because Telos has 
+ fewer tokens each TLOS token represents approximately 1/330 000 000* of the value of the Telos 
+ network That is more than 3X the network ownership percentage for the same number of tokens 
+ 
+ (* Depending on the total number of Exchanges that activate TLOS token distribution for their EOS token owners ) 
+ 
+ Developer Focus Builds Value 
+ 
+ The value of any Eos based network will ultimately reflect the networks usefulness to developers in 
+ deploying DApps Telos offers additional value to developers through features like lower DApp 
+ deployment costs and the ability to deploy proprietary code These features may make the Telos network 
+ more attractive and more valuable to developers over time 
+ 
+ Lower Inflation 
+ 
+ Eos inflation is set at 5% per year Telos will aim for inflation of 2 5% per year TLOS token inflation will be 
+ as much as 50% lower than that of EOS 
+ 
+ Pre activation Resolution of Stolen Tokens 
+ 
+ The Telos Foundation and ABPs will provide a smart contract to allow any EOS holders who had tokens 
+ stolen to prove their ownership prior to Telos mainnet launch This will return the tokens to their rightful 
+ owners and prevent additional members from unwittingly purchasing tokens that may later be frozen due 
+ to theft 
+ 
+ FOR BLOCK PRODUCERS 
+ 
+ Block producers validate transactions provide network security and perform crucial governance roles on 
+ the blockchain In order to attract the best possible block producers to the Telos network we have 
+ enacted the following improvements 
+ 
+ Equitable Payout Model 
+ 
+ The Telos block producer system is comprised of 21 block producers and 30 standbys organized by rank 
+ based on user votes Every block producer will be paid the same daily share of the Telos 1% inflation 
+ Every standby block producer (up to 30) will receive one half the amount that the top 21 block producers 
+ receive Every standby block producer will rotate into active block production every 3 7 days to earn 
+ their keep and prove that they are constantly available to fulfill their responsibilities Block producers will 
+ be penalized for any missed blocks and statistics will be provided to Telos voters 
+ 
+ Equitable Voting / Inverse Vote Weighting 
+ 
+ In the Eos voting system whales can elect any block producer they choose Voters who want to support 
+ only their own affiliated block producers can increase the value of their votes by not voting for anyone 
+ 
+ 10 
+ 
+ 
+ elsewhich hurts the voting system Telos does not have whales and therefore block producers need 
+ only convince the broad collective of TLOS token holders of their strong candidacy 
+ 
+ Additionally Telos block producer voting is inverse weighted meaning that if you only vote for 1 or 2 
+ block producers your votes have less weight than if you vote for 30 This encourages the majority of Telos 
+ members to become more educated about block producer candidates and discourages those who seek to 
+ vote only for themselves and their affiliates 
+ 
+ 
+ 
+ 
+ sin1
+ 
+ 
+ 
+ 2 
+ 
+ = 
+ 
+ 
+ 
+ Smart Contract Enforced Block Producer Requirements 
+ 
+ Telos maintains minimum standards for block producers to be eligible candidates These standards are 
+ based on security server capacity information disclosure and participation in the public and private 
+ testnet These standards will be enforced by smart contract from the time of mainnet activation and any 
+ block producer candidate that is not in compliance will not be capable of serving regardless of votes All 
+ other block producer candidates will automatically rise up the block producer ranks to fill in until the 
+ minimum requirements are met 
+ 
+ 11 
+ 
+ 
+ Regular Downtime for Node Maintenance 
+ 
+ Standby block producers will prove their reliability by rotating into block production for several hours 
+ every 3 7 days on a semi regular schedule This will give primary block producers frequent opportunities 
+ to take down nodes for maintenance and upgrades This significantly reduces the cost of operation This 
+ system also ensures all standbys are constantly ready to fulfill their duties 
+ 
+ 12 
+ 
+ 
+ Telos Token Distribution 
+ 
+ Calculations & analysis by Ava Masucci 
+ 
+ The distribution of tokens in the Eos system is one of the most concentrated of all major 
+ cryptocurrencies Telos distribution on the other hand is one of the least concentrated of all 
+ cryptocurrencies 
+ 
+ 
+ 90% of EOS tokens are controlled by just 1 6% of addresses 
+ A More Even Distribution 
+ 
+ Initially capping the TLOS token amount of all Telos addresses at 40 000 radically alters the token 
+ distribution from EOS in the following ways 
+ 
+ 
+ Removes 86 5 % of token supply or 865 000 000 tokens 
+ 
+ Reduces the holding of just 0 67% addresses or 1 098 individual addresses registered at time of 
+ snapshot 
+ 
+ The circulating supply is reduced from ~996 691 000 EOS to 178 473 249 TLOS tokens 
+ 13 
+ 
+ 
+ 
+ Assuming another 78 6% (Fibonacci level) of 178 439 249 will be added back into the money 
+ supply due to tokens created for petitioning exchanges the supply will rise to approximately 
+ 318 753 222 
+ Revd D 1 2 o 
+ An additional 13 000 000 tokens will be created for the Telos Founders Reward Pool 
+ Telos Community Rewards Pool and Telos Foundation creating a total money supply of 
+ approximately 331 753 222 TLOS tokens about one third of the Eos money supply 
+ 
+ Each TLOS token will represent ~3X the network equity of an EOS token 
+ 
+ 14 
+ 
+ 
+ Comparative Distribution 
+ 
+ Capping the number of tokens at 40 000 per address alters less than 0 67% of registered addresses 
+ Capping the number of tokens at a larger amount does not significantly alter the number of addresses 
+ affected 
+ 
+ 
+ 15 
+ 
+ 
+ Capping the token amount at 40 000 alters approximately 86% of the EOS token supply Setting the 
+ token cap to a higher number would grant a smaller number of token holders more power 
+ 
+ 
+ 16 
+ 
+ 
+ Eos Problems Telos Solutions 
+ 
+ Revd D 1 2 Eos Problems and How Telos Will Solve Them 
+ 
+ We have been closely involved throughout the Eos mainnet launch process as voting and contribution 
+ members of the Eos Mainnet Launch Group (EMLG) This has been an awesome experience and 
+ experiment in decentralized decision making but it is marred by problems caused by Eos centralization 
+ and requirements of the Eos sale and process By eliminating the extreme centralization inherent to Eos 
+ Telos will solve many of these problems Telos has more latitude to improve the tokenomics because it is 
+ not related to Block one and did not raise any money through an ICO or presale As a result the Telos 
+ network may issue new TLOS tokens in any way it determines is best for the network 
+ 
+ Problem User votes dont matter Whales run the network 
+ 
+ Because of the huge economic disparity within the Eos network and because only 21 block producers are 
+ designated to run the network and receive the large reward for doing so whale token holders control the 
+ Eos system They can simply vote in up to 30 affiliated block producers who will follow their demands 
+ Independent block producers can be removed by giant EOS token holders at any time 
+ 
+ The Eos network has already seen that some block producers affiliated with whales are failing to produce 
+ blocks missing necessary technical planning sessions and failing to provide important information 
+ disclosures to voters There is a danger that these whales may simply suck a large share of the 5% annual 
+ inflation out of the Eos network while providing minimal service because their voting power makes them 
+ practically unopposable 
+ 
+ The Telos solution 
+ 
+ There are no whales in Telos Token holders will have a meaningful vote 
+ 
+ Problem DApp developers are disincentivized from using network 
+ 
+ The Eos Constitution specifies that all DApps and contracts on the Eos network must be open source 
+ While this is appropriate for many contracts it will limit the development of commercial DApps on the 
+ network Developers must invest heavily in each new product they create they rely on protection of their 
+ inventions to recoup these investments If commercial DApps must be open source developers will 
+ instead choose blockchains where their works can be protected Additionally the Eos mainnet is 
+ experiencing speculation on RAM reservations which will drive up the cost of deploying DApps on the 
+ network 
+ 
+ The Telos solution 
+ 
+ The Telos network will allow some applications to be designated as proprietary Those who have received 
+ 
+ 17 
+ 
+ 
+ funds from the network (block producers adjudicators code contributors etc ) within the last 6 months 
+ must designate any DApps as open source In order to discourage speculation and lower the cost of 
+ deploying DApps the Telos network will release RAM in concert with its actual DApp usage 
+ 
+ Problem Network pause risk 
+ 
+ The Eos network requires 2/3+1 consensus to operate Without this number of block producers 
+ running the network must be paused until 2/3+1 BPs are active In practical terms this means that if just 
+ 6 of the 21 active Eos BPs fail to produce blocks then the network goes down Standby BPs do not 
+ automatically replace missing BPs In fact BPs that have been voted in cant be removed for nonperformance 
+ for at least 3 hours Exacerbating this problem is the fact that Eos standby block producers 
+ are not regularly tested for their ability to step in and produce blocks Further there are no enforced 
+ minimum requirements for an Eos block producer The only requirement is to receive votes The danger is 
+ that if block producers go down they cannot be replaced for three hours and the standbys who replace 
+ them may not be ready to fill in 
+ 
+ The Telos solution 
+ 
+ Revd D 1 2 The Telos network regularly cycles in standby block producers to produce blocks (at least once every 3 7 
+ days for each standby) This cycling system will also temporarily replace any active block producer who 
+ has not produced blocks in 30 minutes This system has three distinct advantages for network resiliency 
+ nonproductive block producers will be more rapidly replaced meaning it is far less likely 6 will be down at 
+ any given time forcing a network pause standbys will regularly prove their readiness block producers 
+ will receive semi scheduled downtime to maintain and update their equipment Further Telos uses a 
+ smart contract and oracles to enforce block producer eligibility ensuring that every BP meets minimum 
+ technical requirements 
+ 
+ Problem Standby BPs are not being properly paid and regularly tested 
+ 
+ Eos standby block producers are paid far less than the top 21 block producers and are rarely called upon 
+ to prove their capacity Maintaining a top notch node infrastructure is costly and without the need to 
+ prove their ability standby block producers are likely to skimp on expensive improvements and 
+ maintenanceparticularly because there are no enforced minimum requirements to meet There is no 
+ ongoing mechanism for testing the readiness of standby block producers and primary block producers 
+ have no opportunities for scheduled downtime which increases the challenges of maintaining the 
+ network There is no way to be certain that the Eos mainnet will function properly in times of crisis 
+ 
+ The Telos solution 
+ 
+ Telos has a pool of up to 30 standby block producers selected and paid by voting rank Standby block 
+ producers are paid half the rate of the top 21 block producers To earn this pay each standby will cycle 
+ into block production for a several hours every 3 7 days on a regular schedule to ensure that all paid 
+ standbys are able to step in to produce whenever needed This scheduled rotation means that primary 
+ 
+ 18 
+ 
+ 
+ block producers have predictable maintenance windows to maintain their nodes which lowers 
+ operational cost and increases reliability Block producers and standbys that fail to produce blocks will be 
+ penalized This system makes it difficult for groups to game the payment rewards system and actively 
+ discourages vote buying Telos has minimum requirements (both technical and informational) enforced 
+ by smart contract that every block producer must meet regardless of voting 
+ 
+ Problem Eos RAM prospecting drives up the cost of deploying DApps 
+ 
+ The Eos network launched with much more available RAM than the system required Prospectors have 
+ taken to reserving this RAM early likely without the intention to use it but only to speculate on the rising 
+ price of RAM in the future This speculation has led to a rapid increase in the price of RAM When the 
+ DApps arrive that need this RAM it is likely to be priced very high which makes deploying applications on 
+ Eos unnecessarily expensive 
+ 
+ The Telos solution 
+ 
+ Revd D 1 2 Telos will launch with just 4GB of RAM This will enable initial DApps and airdrops that people may wish to 
+ launch on the network but will not leave incentive for RAM speculation because RAM that prospectors 
+ reserve can easily be supplanted by new RAM entering the system As a result people are more likely to 
+ simply reserve the RAM that their expected DApps will require Block producers will monitor DApp RAM 
+ usage and will add new RAM capacity when actual usage necessitates it Additionally the Telos 
+ Foundation will issue periodic guidance about what it believes is a reasonable RAM price and it may 
+ purchase RAM below that price and sell RAM above that price to limit the value of speculation Further 
+ any time the current price of RAM is more than 10% above the published guidance price the Telos 
+ Foundation will sell RAM to developers at the published guidance price 
+ 
+ Problem The Eos Constitution is unratified 
+ 
+ The Eos Interim Constitution is self defined as incomplete and requires revision and ratification before 
+ Eos can move forward with many of its legal and governance responsibilities This is an expression of the 
+ founders personal values and Block ones need to keep the blockchain at arms length so as not to be 
+ deemed to have created a security Due to the voting imbalances in EOS token distribution the ratified 
+ constitution will likely support the needs of the whales over the needs of common users 
+ 
+ The Telos solution 
+ 
+ Revd D 1 2 The Telos constitution is known as the Telos Network Operating Agreement (https //github com/TelosFoundation/
+ tips/blob/master/TelosOperatingAgreement md) will be valid and enforceable as written as 
+ of network launch There is no need to wait for a revised or ratified version Every Telos user will agree to 
+ this via Ricardian contract the first time they choose to use their Telos account Telos users certainly have 
+ the right to amend the constitution whenever they deem this necessary Paragraph 32 (Amending) 
+ empowers TLOS token holders to ratify or amend the constitution using the ratifyamend contract that 
+ will be available upon network launch and when this happens it is more likely to express the desires and 
+ 
+ 19 
+ 
+ 
+ aims of common Telos users However the network will not be deemed unratified if this does not happen 
+ immediately 
+ 
+ Problem Adjudication body not prepared at launch 
+ 
+ Eos relies on an adjudication body to resolve all disputes However that body has not yet been fully 
+ formed or prepared There are no funds provided to facilitate this Therefore problems such as 
+ repatriating stolen funds is a difficult one for block producers to solve 
+ 
+ The Telos solution 
+ 
+ Telos will initially resolve many judicial challenges prior to its mainnet launch The Telos Arbitration 
+ Organization (TAO) will be ready to begin immediately The TAO will accept the Telos Network Operating 
+ Agreement as complete and not requiring further ratification The TAO will also have a clear and limited 
+ mandate as to which cases it can address The Telos Foundation will initially fund the TAO so that it can 
+ resolve disputes immediately and remain free of conflict when adjudicating cases that involve block 
+ producers Ongoing TAO funding will be paid from arbitration fees 
+ 
+ Problem Eos has high inflation 
+ 
+ Eos inflation is 5% per year This is too much and debases the currency At 5% inflation the money supply 
+ doubles in just 14 years Major world economies are currently aiming for 2% annual inflation Eos inflation 
+ is distributed 1% to block producers and with the remainder divided based on block producer votes for 
+ worker proposals Because whales can control voting they have the ability to drive much of this inflation 
+ to their affiliates 
+ 
+ The Telos solution 
+ 
+ Telos will keep inflation lower aiming for 2 5% per year 1% will still go to 51 block producers and 
+ standbys (though divided more equally among them) The remainder will go to support adjudicators 
+ development and other functions Because some DApps can be proprietary on Telos the network will 
+ not need to pay as many grants to software developers 
+ 
+ Problem Eos accounts can be forfeit after 3 years 
+ 
+ Under the Eos Constitution any account that has not performed a transaction in 3 years is forfeit and its 
+ EOS tokens will be redistributed Many long term savers will be caught by this and unfairly lose their 
+ tokens There is no method to appeal or recover tokens once lost This is designed to protect system 
+ resources and keep people engaged with the network but it is far too draconian and seeks to solve a 
+ problem that has not been shown to actually exist 
+ 
+ 20 
+ 
+ 
+ The Telos solution 
+ 
+ Revd D 1 2 Telos will not have any token forfeiture in its initial Telos Network Operating Agreement If TLOS holders 
+ choose to amend the constitution to include one it will be their choice not something imposed upon 
+ them Telos members whose accounts are created by the genesis will be required to access their 
+ accounts at least once within the first year after activation of the Telos mainnet to signify their opting in 
+ to the network and its operating agreement Genesis accounts that do not use the network within one 
+ year will be deleted 
+ 
+ 21 
+ 
+ 
+ The Telos Foundation 
+ 
+ The Telos Foundation exists as a promotional and funding body to advance the network and provide 
+ support to network functions that are not funded in other ways The aim of the Telos Foundation is to 
+ provide grants to groups promoting necessary network functions that cannot or are not supported by 
+ worker proposals Early in the life of the network worker proposals may be difficult to fund because the 
+ process is nascent and because there is little value in the early worker proposal fund while many projects 
+ need resources Additionally some groups may need funds that do not come from block producers For 
+ example the Telos Arbitration Organization may have a conflict of interest accepting initial funding from 
+ block producers despite the fact that this initial funding is crucially important By having the Telos 
+ Foundation fund these processes this conflict is averted 
+ 
+ The Telos Foundation also aims to add a tool to fight RAM speculation and runaway RAM prices currently 
+ seen on Eos The Telos Foundation will publish periodic price guidance on its view of reasonable RAM 
+ pricing When the RAM price is below the guidance price it may use funds to buy RAM to raise the price 
+ and when the RAM price is above the guidance price it may sell previously purchased RAM to help lower 
+ the price This will help to stabilize the price of RAM away from wide swings that encourage speculation 
+ The Telos Foundation will also provide RAM grants to small independent developers in need of RAM to 
+ deploy DApps on the network with a preference for open source DApps This will help ensure that new 
+ innovators are not priced out of entering the system 
+ 
+ The intent of the Telos Foundation is to become a perpetual grant funding organization with different 
+ voters than the block producers The Telos Foundation will accomplish this through presenting worker 
+ proposals to the voters to reimburse grants that have been distributed In this way the community can 
+ decide whether to perpetuate the Telos Foundation or wind it down 
+ 
+ The Telos Foundation is a decentralized autonomous organization that votes via smart contracts using the 
+ Telos Foundation Voting Token (TFVT) a token of no value that confers voting rights to its holders In 
+ this way the Telos Foundation can vote to decide disbursement of funds and election of its own public 
+ representatives Voting tokens will be distributed throughout the Telos community during launch to 
+ encourage a wide range of voices in voting drawn from a community of developers block producers 
+ writers and other prominent community members Each will receive 1 to 3 TFVTs New tokens will be 
+ administered quarterly to members who are making a contribution to the Telos community Voting is 
+ performed by smart contract with a simple majority by number of tokens voted carrying 
+ 
+ Revd D 1 2 The Telos Foundation voters are drawn from active contributors to the Telos communityas selected by 
+ the existing Telos Foundation voters The initial group of Telos Foundation voters will be draw from 
+ contributors to the Telos Network creation and launch All Telos Foundation Voter Token holders will be 
+ 
+ 22 
+ 
+ 
+ publicly announced and their voting token addresses will be associated with their identities so that each 
+ voters voting record will also be publicly recorded on the blockchain 
+ 
+ The Telos Foundation has no role in network governance It does not vote its tokens or issue positions on 
+ voting matters or BP selection Its sole functions are to provide funding to beneficial Telos projects that 
+ might otherwise go unfunded and to help stabilize the price of RAM on the network 
+ 
+ Areas where the Telos Foundation may grant tokens include 
+ 
+ 
+ Compensation for those who contributed to the Telos launch success 
+ 
+ Compensation for developers of valuable tools used on the Telos network 
+ 
+ Initiating funding for the Telos Arbitration Organization 
+ 
+ Reimbursing select exchanges for the cost of listing TLOS where necessary 
+ 
+ Funding new tool creation 
+ 
+ Funding advertising and marketing for the platform 
+ 
+ Providing RAM grants to developers priced out of deploying by speculators 
+ 
+ Any other function that promotes or secures the Telos network 
+ Many of these cases may also be funded through worker proposals The Telos Foundation will fund 
+ proposals that its voting members feel are not adequately funded through voting proposals 
+ 
+ A foundation funded with tokens and entrusted with promoting the network is a common enough entity 
+ in cryptocurrency Many blockchain projects establish ongoing funding for their projects version of the 
+ Telos Foundation Telos has decided to leave these decisions in the hands of the block producers at any 
+ given time to best support the decentralized nature of the Telos network 
+ 
+ 
+ 23 
+ 
+ 
+ Launching a Complete Network 
+ 
+ Telos benefits from the lessons of the EOS mainnet launch Some decisions made in that launch have 
+ proven to be problematic Telos will improve on the launch by including all the tools necessary for the 
+ network to be a success 
+ 
+ Voting Wallets 
+ 
+ Revd D 1 2 At Telos network launch there will be approved voting wallets for users Telos is working with wallet and 
+ tool developers including Scatter Greymass SimplEOS and Telos Lynx* to ensure that their wallets will 
+ work seamlessly on the Telos blockchain 
+ 
+ Revd D 1 2 Governance 
+ 
+ Telos will have a full force Telos Network Operating Agreement (like the EOS constitution) and all 
+ supporting governance documents upon launch addressing all areas of governance 
+ 
+ Referendum Process 
+ 
+ In addition to a full force Constitution Telos will have a constitutional referendum process upon launch in 
+ the form of a referendum voting contract The referendum process will be clearly described and any Telos 
+ token holder may call the contract and propose a referendum vote 
+ 
+ Worker Proposals Submission and Voting Process 
+ 
+ Worker proposals are an important part of running the network Upon Telos mainnet activation there 
+ will be a well documented smart contract based submission and voting process for worker proposals 
+ 
+ Arbitration Process 
+ 
+ The Telos white paper includes an overview of the arbitration process which is driven by a multi party 
+ smart contract 
+ 
+ Arbitration Body 
+ 
+ The Telos Arbitration Organization (TAO) will be active by the time the Telos mainnet activates The Telos 
+ ABPs and others are actively seeking out qualified and interested personnel to lead the organization To 
+ eliminate conflict of interest the TAO will be initially funded by a grant from the Telos Foundation and 
+ thereafter funded by arbitration fees and/or worker proposals 
+ 
+ 24 
+ 
+ 
+ Block Producer Enforcement 
+ 
+ Because elected block producers have the potential for enormous power in DPoS blockchains its crucial 
+ that block producers swiftly police each other for infractions that left unchecked could threaten network 
+ security Decentralizing the Telos voter base is an important step but without vigilance from elected block 
+ producers centralization could emerge 
+ 
+ Telos will revise the Ricardian contract included in the regproducer smart contract that a member must 
+ execute in order to register as a block producer candidate The existing contract asks block producer 
+ candidates to agree to certain provisions but makes no suggestion about what should be done if these 
+ are violated As a result there has so far been no enforcement for infractions 
+ 
+ The revised Telos regproducer contract will clearly state proscribed actions along with penalties for 
+ violationsuch as treating transactions preferentially and will call on all other block producers to 
+ enforce To facilitate this there will be a smart contract that any block producer may execute 
+ documenting alleged violations on chain and requiring all other block producers to vote to whether or 
+ not to enforce the required penalty If a 2/3+1 majority votes to enforce then the smart contract will 
+ carry out the enforcement immediately No additional action will be required 
+ 
+ Central Information Hub 
+ 
+ Telos will host a variety of best in class blockchain tools at the TelosFoundation io web site giving Telos 
+ members and other interested parties a convenient hub for information The website will be apolitical 
+ and show no favor to any block producer candidate over any other 
+ 
+ (* Scatter and Greymass do not endorse the Telos project They are working with Telos to ensure compatibility for 
+ users of their products ) 
+ 
+ 25 
+ 
+ 
+ Telos Block Producer 
+ Minimum Requirements 
+ 
+ All Telos block producers must meet a set of minimum requirements in order to serve regardless of the 
+ number of votes they may receive These requirements are both informational and technical Compliance 
+ will be enforced by smart contract or some similar process to minimize subjectivity 
+ 
+ Each block producer candidate will provide at a minimum 
+ 
+ Information 
+ 
+ 
+ A telosbp json file containing information regarding company formation ownership website 
+ social media connections key administrative contact key technical contact 
+ 
+ Server connection information for at least 300 peers 
+ Technical 
+ 
+ 
+ Two mainnet nodes (one designated as block producer) Dedicated servers running no other 
+ processes Intel Xeon processors with 8 cores 128GB DDR3 ECC RAM DDOS protection 100Mbps 
+ internet connection with latency of under 500ms to testing node 
+ 
+ Two testnet nodes (public developer testnet and private BP testnet for new software) Intel i7 
+ processors 16GB DDR3 ECC RAM DDOS protection 100Mbps internet connection 
+ Each block producers compliance with the minimum requirements will be monitored by smart contracts 
+ and disinterested groups to ensure compliance If the smart contract detects that a block producer is not 
+ in compliance it will 
+ 
+ 
+ Issue a notice of noncompliance to the block producer 
+ 
+ After 24 hours prevent the block producer from serving 
+ o 
+ All block producer votes will remain intact 
+ o 
+ As soon as the smart contract detects that the block producer is compliant again for 1 
+ hour it will become eligible to serve and will return to the rank dictated by the votes it 
+ has received 
+ 26 
+ 
+ 
+ 
+ If a block producer has remained out of compliance with the minimum requirements for more 
+ than 15 days it will be unregistered as a block producer and will need to run regproducer again 
+ 
+ Compliance with some elements that cannot be verified by smart contract will be ensured 
+ through drafting of the Ricardian contract included in the regproducer contract that each block 
+ producer candidate must call 
+ o 
+ This contract will clearly list actions that block producer candidates are prohibited from 
+ taking clearly linked to penalties that all other block producers must implement swiftly or 
+ be deemed in violation as well 
+ o 
+ Strongly linking infractions and commensurate outcomes within the regproducer contract 
+ will allow swift and decisive action by other block producers which is currently lacking in 
+ EOS mainnet governance 
+ It is the intent of the Telos ABPs that these minimums serve to keep block producers responsive These 
+ minimum requirements are intended to be revised from time to time by a 2/3+1 vote of block producers 
+ However it is important to note that the Telos network is decentralized with no owners managers or 
+ fiduciaries and no system of governance outside the votes of block producers elected by the token 
+ holders Future block producers are encouraged but by no means required to abide by any intent stated 
+ by the ABPs 
+ 
+ 27 
+ 
+ 
+ Block Producer Pay 
+ 
+ Block producers are a crucial component of any EOSIO network There are 21 block producers validating 
+ the network at any time There are also a number of standbys with the goal of being able to step in at any 
+ time to maintain network security should other block producers be knocked off the network 
+ 
+ Pay is very unequal between the top block producer and the bottom standby block producer On July 3 
+ 2018 the top block producer bitfinexeos1 earned 1 017 EOS (USD $8 960) while the lowest paid standby 
+ block producer sheleaders21 earned just 118 EOS (USD $1 040) a ratio of almost 9 1 
+ 
+ For the standby block producers to truly be able to step in at any time they need to be able to afford to 
+ keep up with the very expensive technical requirements of enterprise level servers data centers DDOS 
+ protection and a staff to keep it all running It is not easy to slide into this role at a moments notice 
+ 
+ At a pay ratio of 9 1 standby block producers will have a very hard time keeping up with the technical and 
+ staffing standards of the leaders And because there is really no existing process in Eos for verifying the 
+ readiness of standby BPs the ideal moneymaking strategy for an Eos standby block producer below #25 
+ or so would be to run incapable nodes with the producer plugin and spend their entire budget on social 
+ media to get votes This is not what the network needs standbys to do but this is how they are 
+ incentivized by the pay structure 
+ 
+ The Telos pay structure addresses this by keeping pay at 2 1 between full time elected block producers 
+ and standbys This allows standby block producers to remain capable of keeping up with the elected block 
+ producers The system also calls on them to step into block producing once every 3 7 days for 6 hours 
+ The final mechanism is open to discussion but one possible structure is as follows 
+ 
+ Every elected block producer rotates out for 12 hours once per week 
+ Every standby block producer rotates in for 6 hours once per 5 days 
+ 
+ This reduces the cost of running servers for block producers because they can schedule weekly 
+ maintenance and updates and it forces standbys to be ready to truly protect the network All block 
+ producers and standbys will be penalized for blocks not produced 
+ 
+ 28 
+ 
+ 
+ The following table envisions block producer and standby block producer pay at the outset of the 
+ network 
+ Revd D 1 2 Projected Telos Block Producer Pay and USD Value 
+ USD TLOS Price $2 50 $5 00 $10 00 $15 00 $20 00 
+ TLOS Money Supply 
+ Daily Inflation 
+ Total Daily Pay 
+ 331 753 222 
+ 0 0027% 
+ 9 089 13 
+ TLOS 
+ TLOS 
+ $829 383 055 
+ $22 722 82 
+ $1 658 766 110 
+ $45 446 
+ $3 317 532 220 
+ $90 891 
+ $4 976 298 330 
+ $136 337 
+ $6 635 064 440 
+ $181 783 
+ 
+ BP Daily Pay 
+ (@ 21 BPs) 252 48 TLOS $631 $1 262 $2 525 $3 787 $5 050 
+ SBP Daily Pay 
+ (@ 30 SBPs) 126 24 TLOS $316 $631 $1 262 $1 894 $2 525 
+ 
+ Monthly Inflation 0 0833% 
+ Total Monthly Pay 276 317 26 TLOS $690 793 15 $1 381 586 29 $2 763 172 59 $4 144 758 88 $5 526 345 17 
+ 
+ BP Monthly Pay 
+ (@ 21 BPs) 7 675 48 TLOS $19 189 $38 377 $76 755 $115 132 $153 510 
+ SBP Monthly Pay (@ 
+ 30 SBPs) 3 837 74 TLOS $9 594 $19 189 $38 377 $57 566 $76 755 
+ 
+ Annual Inflation 1% 
+ Total Annual Pay 3 317 532 TLOS $8 293 831 $16 587 661 $33 175 322 $49 762 983 $66 350 644 
+ 
+ BP Annual Pay 
+ (@ 21 BPs) 92 153 67 TLOS $230 384 $460 768 $921 537 $1 382 305 $1 843 073 
+ SBP Annual Pay 
+ (@ 30 SBPs) 46 076 84 TLOS $115 192 $230 384 $460 768 $691 153 $921 537 
+ 
+ (USD values are for reference only ) 
+ 
+ 29 
+ 
+ 
+ Arbitration in the Telos Network 
+ 
+ The Telos ABPs intend to clarify their intention for the role and process of arbitration within the Telos 
+ network It is their intention to create a functional Telos Arbitration Organization (TAO) prior to Telos 
+ mainnet activation 
+ 
+ In Telos the primary role of arbitration is to resolve non deterministic elements of smart contracts with 
+ arbitrators acting as human oracles to settle disputes Secondarily arbitrators will work with the parties 
+ to find an outcome when the actual actions of a smart contract are at odds with the intent and means 
+ documented in the Ricardian contract or when breach of contract is alleged Arbitration is never meant to 
+ be used to resolve matters of stolen accounts through instructing block producers to freeze or modify 
+ accounts This function is deemed to generally be moot since thieves can move tokens faster than 
+ accounts can be frozen and because EOSIO has robust security features that work to prevent theft 
+ Owners bear responsibility for securing their own addresses 
+ 
+ This is the intent of the Telos ABPs However it is important to note that the Telos network is 
+ decentralized with no owners managers or fiduciaries and no system of governance outside the votes of 
+ block producers elected by the token holders Future block producers are encouraged but by no means 
+ required to abide by any intent stated by the ABPs 
+ 
+ Telos Arbitration Process 
+ 
+ 1 The TAO follows a set of core rules for Telos arbitration Other rule systems (e g American 
+ Arbitration Association) may be layered on top of these if both parties agree 
+ 2 The intent for TAO arbitrators is to act as a human oracle (data/information/decision source) 
+ for non deterministic contract Ideally an arbitrator is appointed at the outset of a smart contract 
+ execution 
+ 3 A case is submitted for arbitration via Dispute Arbitration Smart Contract (DASC) that includes 
+ information about the nature of the dispute whether it is a new dispute or an appeal and the 
+ arbitration fee 
+ a If a case has wiped out a members account they may request no fee arbitration TAO 
+ members may elect to waive fees or use grants from Worker Proposals or the Telos 
+ Foundation to cover these 
+ 4 The arbitrator will request statements and information from both parties 
+ a The parties submit their statements and information to the arbitrator and each other 
+ b The parties may submit rebuttals to another partys statements and additional evidence 
+ to address opposition statements or evidence 
+ c The arbitrator may ask any questions he or she deems necessary to determine an 
+ outcome 
+ 30 
+ 
+ 
+ d The arbitrator renders a judgement based solely upon the evidence presented as it 
+ relates to the Telos Constitution and Rules and the terms of the smart contract in 
+ question Where they differ the intent documented by the Ricardian contract will be 
+ given more significance than the source code This decision is transmitted to either the 
+ smart contract as an oracle data point or to the block producers as an arbitrator order 
+ via the cases DASC 
+ 5 The arbitrator actions shall be executed directly (where allowed by prior agreement) or else 
+ submitted to block producers for execution Such submission will be in the form of a transaction 
+ ordered to be executed on the blockchain along with arbitrators private key approval 
+ 6 The block producers must execute the orders of the DASC within 12 hours 
+ 
+ The intent for TAO arbitrators is NOT to attempt to refund funds lost through theft Telos and 
+ EOSIO software have high level security protections This is the best defense against theft 
+ Thieves will move too quickly to defeat with arbitration The process only risks further contagion 
+ to innocent parties who may acquire the stolen tokens 
+ o 
+ All funds stolen before the Telos launch begins that can provide cryptographic proof of 
+ ownership will be repatriated to original owners via assignment of new owner provided 
+ keys 
+ 31 
+ 
+ 
+ Telos Stolen Fund Repatriation Process 
+ 
+ In some cases during the Eos ICO and registration process some addresses were incorrectly registered 
+ left unregistered or falsely registered in scams The Telos ABPs intend to correct this situation to the 
+ extent possible before the network launch and provide TLOS tokens to those who should rightfully have 
+ them 
+ 
+ To accomplish this the ABPs will seek to credit those who can prove using cryptographic keys that they 
+ are the true owners of lost or stolen tokens This includes EOS tokens that were not originally registered 
+ prior to the snapshot The following process is for repatriating funds to their rightful owners in advance of 
+ the Telos network launch 
+ 
+ Telos Stolen Fund Repatriation Process 
+ 
+ Registered addresses that have not been stolen 
+ 
+ 1 No action required Your TLOS tokens will be on the network 
+ Registered addresses that have been stolen 
+ 
+ 1 Address owner files claim providing 
+ a Stolen address 
+ b Cryptographic signature from Ethereum wallet as proof 
+ c A new EOSIO public key as half of a key pair that will control the account 
+ 2 Address will be posted for contestation for 10 days (with no identifying information) 
+ a Any other user will have the opportunity to provide cryptographic evidence proving 
+ ownership 
+ 3 Uncontested addresses providing cryptographic proof of rightful ownership will have old public 
+ key replaced with provided new public key in the Telos genesis file 
+ Unclaimed EOS tokens from token sale 
+ 
+ 1 Unregistered token owner files a claim providing 
+ a Eos ICO purchase transaction hash 
+ b Cryptographic signature from purchasing Ethereum wallet as proof 
+ c A new EOSIO public key as half of a key pair that will control the account 
+ 32 
+ 
+ 
+ 2 Addresses providing cryptographic proof of rightful ownership will have address and new public 
+ key inserted into the Telos genesis file 
+ EOS tokens on exchanges at Eos mainnet launch 
+ 
+ 1 Telos ABPs have provided an exchange TLOS token creation petition process for exchanges to 
+ work with the ABPs to create tokens for their customers who held EOS at the time of the 
+ snapshot 
+ a Exchanges must complete the process in order to receive new tokens to distribute to 
+ their customers 
+ 2 The Telos ABPs and block producers take no responsibility and will take no action for tokens held 
+ on exchanges 
+ The Telos ABPs intend to repatriate tokens that can be cryptographically proven to have been 
+ unregistered or stolen at the Ethereum registration or Eos voting stages under the rationale that this 
+ correction is possible and verifiable before the Telos network launches We recognize that some losses 
+ were due to the ethereum registration process and the lack of approved consumer grade voting wallets 
+ at Eos mainnet launch 
+ 
+ Revd D 1 2 The Telos network will adopt base layer arbitration to protect token holders from theft Not all forms of 
+ theft may be recoverable but arbitrators will have the ability to call for block producers to freeze accused 
+ accounts for a limited amount of time upon presentation of evidence of theft Telos block producers will 
+ have authority for specific actions to demand restitution in accordance with a duly processed arbitration 
+ contract The arbitration contract and Telos Arbitration Organization will be active from the time of the 
+ network launch 
+ 
+ 33 
+ 
+ 
+ Telos RAM Speculation Prevention 
+ 
+ RAM speculation is a danger that has already emerged in Eos Some speculation will always occur in 
+ healthy markets with scarce resources however when speculation is out of control then it ties up 
+ valuable scarce resource and limits network availability To maximize network utility and keep the Telos 
+ network a cost effective place to deploy DApps Telos will implement the following tactics meant to 
+ discourage rampant speculation 
+ 
+ 
+ Limit initial RAM allocation 
+ 
+ Tie RAM increases to network utilization 
+ 
+ Encourage Telos Foundation to help stabilize price swings 
+ Limit Initial RAM Allocation 
+ 
+ The Eos launch allocated 64GB of RAM on mainnet launch This number is far far more than any DApp on 
+ the network requires To speculators this is an enormous land grab opportunity of a scarce resource at a 
+ very cheap price Eventually this RAM will be valuable This RAM grab will lead to high speculation and a 
+ boom bust cycle that works against network stability and makes deploying DApps a challenge to budget 
+ This is a strike against the Eos network for serious developers and may serve to keep small innovators 
+ priced out of Eos altogether 
+ 
+ To encourage developers and avoid price swings the Telos network will launch with 4GB of RAM While 
+ this sounds low it will be more than enough to support any real DApps or airdrops on the system The 
+ low number serves as an incentive not to speculate on Telos RAM because new RAM can be released 
+ reducing elevated values of existing speculation 
+ 
+ Tie RAM Increases to Network Utilization 
+ 
+ Revd D 1 2 The Eos mainnet is debating how and when to change the RAM supply Increasing available RAM will 
+ temporarily lower the price but will ultimately worsen speculation because there will be less potential 
+ RAM to release in the future 
+ 
+ The Telos network will tie new RAM releases to utilization figures The initial proposed value is that when 
+ >50% of the network RAM is consistently in use over a set period of time new RAM will be released This 
+ will tie new RAM to network growth The block producers will ultimately determine the network RAM 
+ supply via the setram action 
+ 
+ 34 
+ 
+ 
+ Encourage Telos Foundation to Help Stabilize Price Swings 
+ 
+ Revd D 1 2 The Telos Foundation is a non governing body with independent governance Its goal is to promote 
+ network growth through grants It has an endowment for these grants which can also serve as a method 
+ to help discourage RAM speculation 
+ 
+ The Telos Foundation will publish regular guidance on the price of Telos RAM that it sees as reasonable in 
+ the professional opinion of experts hired by the Foundation to set the Telos published guidance price for 
+ RAM When the price is lower than this guidance price the Telos Foundation may buy RAM When the 
+ price is higher it may sell This is intended to help stabilize the price This approach naturally has its limits 
+ but it is expected to aid in discouraging price gouging Further the Telos Foundation may elect to sell or 
+ lease RAM to developers at its published guidance price (regardless of current price) to encourage some 
+ developers to build on the system When publishing its guidance price the Telos Foundation will include 
+ published advice to the Telos block producers about when to release more RAM into the system This 
+ decision will remain with the block producers however Any professionals hired by the Telos Foundation 
+ to set RAM pricing will be prohibited from trading Telos RAM on their own accounts 
+ 
+ To ensure that small innovators are not priced out of the network the Telos Foundation will also issue 
+ some grants in the form of RAM to such developers In such cases it will favor open source DApps 
+ 
+ 35 
+ 
+ 
+ Telos Exchange Petition Process 
+ 
+ The Telos Appointed Block Producers (ABPs) create the following process to allow exchanges that listed 
+ EOS at the time of the snapshot to petition to have their Telos addresses funded through the creation of 
+ new TLOS tokens sufficient to provide TLOS tokens to EOS owners at the time of the snapshot (1 1 up to 
+ 40 000 TLOS per customer) The Telos ABPs agree to create tokens for every exchange that completes the 
+ process 
+ 
+ The intent of the Telos project is to provide TLOS to all EOS token owners at the time of the Eos snapshot 
+ (up to 40 000 per address or exchange customer) The Telos ABPs encourage future Telos block producers 
+ to honor this intent and to create tokens necessary for every exchange that follows the petition process 
+ However it is important to note that the Telos network is decentralized with no owners managers or 
+ fiduciaries and no system of governance outside the votes of block producers elected by the token 
+ holders Future block producers are encouraged but by no means required to abide by any intent stated 
+ by the ABPs Therefore the ABPs launching the Telos network will only have the full control to process 
+ exchange petitions during the period between launch and activation Upon activation the decision of 
+ whether or not to create new tokens for any petitioning exchange will be up to a vote of 15 of the 21 
+ elected block producers at the time 
+ 
+ The Telos ABPs have established an exchange outreach working group to contact all Eos exchanges and 
+ help guide them through the process during the launch period It is important to stress that only during 
+ the Telos launch period is the creation of TLOS tokens for petitioning exchanged guaranteed by the ABPs 
+ 
+ Exchange TLOS Token Creation Petition Process 
+ 
+ 1 The exchange and the Telos Exchange Outreach Working Group (TEOWG) initiate 
+ communications and each designate a representative for this case Investment funds online 
+ wallets and similar institutions holding EOS tokens for multiple owners may also petition under 
+ this process 
+ 2 The exchange signs a letter of intent to list TLOS tokens and provide them to their EOS token 
+ holders as of the time of the Eos snapshot with a cap of 40 000 TLOS tokens per account This 
+ letter documents terms of new token printing including that the exchange will agree not to act as 
+ a block producer and not to vote tokens for which they are not the beneficial owners (i e never 
+ to vote from their exchange holding addresses ) The exchange and/or Telos network may issue 
+ publicity about this development 
+ 36 
+ 
+ 
+ 3 The exchange provides identification of all exchange owned addresses on snapshot along with 
+ cryptographic proof of ownership and a statement that there are no other addresses under their 
+ control 
+ 4 TEOWG provides current copy of current Telos node and client software and any additional 
+ support necessary to deploy 
+ 5 Exchange provides anonymized list of account amounts at time of Eos snapshot as CSV file or 
+ similar 
+ 6 TEOWG examines the exchange provided accounts list and caps holdings of all accounts at 40 000 
+ TLOS tokens 
+ 7 The exchange and TEOWG agree on the total value of tokens to be created and the addresses 
+ (from the identified exchange owned addresses) to which they will be sent 
+ 8 The exchange publicly announces its upcoming listing of TLOS tokens and distribution to EOS 
+ owners with a launch date (This may have occurred earlier but must occur by this point ) 
+ 9 TEOWG provides exchanges petition along with documentation to Telos ABPs for review The 
+ Telos ABPs will coordinate scheduling of TLOS token creation with the exchanges release 
+ schedule 
+ 10 The Telos ABPs vote to create tokens The Ricardian contract of this transaction requires that the 
+ exchange must accept terms of not voting from these addresses and not operating a block 
+ producer candidate and distributing all TLOS tokens to their customers as represented in the 
+ agreement 
+ 11 The exchange enables trading of TLOS 
+ 37 
+ 
+ 
+ Is Telos a Security 
+ 
+ Ultimately it will be up to the agency that enforces securities law in each country to determine whether 
+ or not Teloss TLOS tokens are considered a securityand therefore subject to regulation However the 
+ US Securities Exchange Commission has been known to set precedent in this area and recent statements 
+ by the SEC shine a very encouraging light on the question 
+ 
+ On May 7 2018 William Hinman SEC director of corporate finance spoke at the Yahoo Finance All 
+ Markets Summit and sought to clarify under what conditions a coin or token would be considered a 
+ security Two core concepts emerged from his speech First a security is largely determined by the nature 
+ of its offering to the publichow it was sold what representations were made etc Hinmans second key 
+ point was that a coin or token that was initially sold in a way that would have been viewed as a security 
+ could eventually be sold in a way where it was not considered a security based on decentralization and 
+ the lack of centralized entity controlling it Hinman concluded 
+ 
+ Based on my understanding of the present state of ether the Ethereum network 
+ and its decentralized structure current offers and sales of ether are not securities 
+ transactions 
+ 
+ Based on both of these points we the Telos ABPs endeavor to launch this useful network relying on 
+ Director Hinmans statements that just as Ethereum is not a security due to its decentralized nature TLOS 
+ would also not be considered a security since it is even more decentralized than Ethereum Further Telos 
+ never offered any tokens for sale or accepted any money whatsoever from investors 
+ 
+ We believe that based on the determination of Mr Hinman and the US SEC the TLOS token should not 
+ be viewed as a security for two important reasons 
+ 
+ First TLOS has never been offered in any type of ICO TLOS is an entirely new token that will be created 
+ upon the Telos mainnet launch The Telos network is recreating a modified ownership snapshot of the 
+ Eos token sale as a way to reward those who paid to have the open source EOSIO software created by 
+ Block one To be clear all of the monies contributed to this ICO went to Block one none to the Telos 
+ network The EOSIO software is open source and free to copy The Telos ABPs have decided to reward the 
+ backers of Eos by granting tokens matching their Eos purchases up to a capped amount per address but 
+ there is no affiliation with Eos or Block one Telos did not sell anything so it is difficult to conclude that it 
+ ever offered a security 
+ 
+ Second even if it should ever be concluded that TLOS tokens would have been a security despite never 
+ having been sold or offered for sale the point is rendered moot by the entirely decentralized nature of 
+ the Telos network Telos has no owners managers or fiduciaries The network is administered by 
+ 
+ 38 
+ 
+ 
+ independent network of validating node operators called block producers who are continuously elected 
+ 
+ Revd D 1 2 
+ 
+ through the smart contract voting of TLOS token holders The TLOS token ownership is notably one of the 
+ most evenly distributed and decentralized of all cryptocurrencies There is no evidence that any single 
+ entity will control even 0 5% of the Telos network 
+ 
+ The Telos network will be initially launched by appointed block producers (ABPs) who will initiate the 
+ network launch and will be granted TLOS tokens for their efforts An entity referred to as the Telos 
+ Foundation will receive TLOS tokens as a way to provide funding grants for necessary network functions 
+ At the time these TLOS token will be granted to these entities and the TLOS token holders at large the 
+ tokens will have no par value because they derive their value from either the exchange price (at a time 
+ when they are not listed for trade on any exchange in the world) or by the network value (at a time when 
+ the network has neither been launched nor can conduct transactions) 
+ 
+ Before the Telos network becomes live and open to transactions the 6 ABPs will all relinquish their 
+ privileges and step aside for the 21 block producers elected from voting of at least 15% of all TLOS token 
+ holders TLOS tokens will only attain value if the token holder elected block producers in conjunction with 
+ the efforts of the members themselves create a working valuable network 
+ 
+ Our understanding as ABPs is that based on the comments of Mr Hinman published on the SEC web 
+ site that TLOS tokens are not securities and our issuance of these no value tokens of ownership in a 
+ thoroughly decentralized network is not an offer of securities 
+ 
+ The ABPs are not attorneys and this should not be construed as legal advice Frankly this is largely 
+ unsettled law However Director Hinmans statements are clear and have been published on the SEC web 
+ site signaling that they are officially sanctioned Based on this definition it seems difficult to deem TLOS a 
+ security under the US SEC definition 
+ 
+ NOTE THIS IS NOT LEGAL OR SECURITIES ADVICE IT IS OUR INTERPRETATION OF PUBLISHED 
+ STATEMENTS BY THE UNITED STATES SECURITIES EXCHANGE COMMISSION AS THEY MIGHT APPLY 
+ TO TLOS TOKENS SEEK COUNSEL FROM YOUR OWN PROFESSIONAL ADVISORS BASED ON YOUR NEEDS 
+ AND JURISDICTION 
+ 
+ 39 
+ 
+ 
+ Telos FAQ 
+ 
+ Q What is Telos 
+ A Telos is a new blockchain network based on EOSIO software 
+ Q What is the difference between Eos and Telos 
+ A Eos and Telos are both networks running the EOSIO software Any smart contract that runs on one 
+ system should run equally well on the other Telos has modified the Eos genesis snapshot and some rules 
+ to make the network more responsible to the majority of token holders to be more attractive to DApp 
+ developers and to generally run more responsively and sustainably 
+ Q What is TLOS 
+ A TLOS is the name of the token that reflects ownership in the Telos network A TLOS token is like an EOS 
+ token except that there will be around 3X fewer TLOS tokens than EOS 
+ Q If I bought EOS tokens will I get TLOS 
+ A Yes if you bought EOS and registered them then your TLOS tokens will be available for voting at 
+ mainnet launch and for transfer or stake as soon as the mainnet activates reaches 15% consensus up to 
+ 40 000 TLOS per address If your tokens are on an exchange the exchange must agree to list TLOS and 
+ distribute tokens to owners for you to receive them 
+ Q Are you taking away peoples EOS tokens 
+ Revd D 1 2 A No EOS holders will have the exact same number of EOS tokens on the Eos network as they ever had 
+ That is what they purchased from Block one Telos is a new project based on the Eos network The Eos 
+ source code is open source and freely available to fork We have decided to give an equal number of TLOS 
+ tokens to every EOS token holder on the genesis snapshot but capping values at 40 000 TLOS per genesis 
+ address This means that there will be no whales created from the Telos genesis although the total token 
+ ownership of any account is unlimited once the network launches 
+ 
+ 40 
+ 
+ 
+ Q Is Telos an airdrop 
+ A Telos is a completely new network using the same EOSIO operating software as Eos mainnet with a few 
+ small modifications It is not an airdrop However the distribution of TLOS tokens is similar to an airdrop 
+ in that anyone who owned Eos tokens will receive new TLOS tokens at their addresses based on our 
+ genesis token distribution algorithm 
+ Q What exactly is the Telos genesis token distribution algorithm 
+ Revd D 1 2 A Simply it is that all Telos genesis addresses will receive the same number of tokens as their 
+ corresponding Eos addresses held in the genesis snapshotup to a maximum of 40 000 tokens Except 
+ for a few special cases Addresses proven to have been stolen phished or misregistered thereby 
+ depriving their rightful owners of them will be restored to new addresses controlled by their rightful 
+ owners and new genesis tokens will be created to compensate the Telos Launch Group contributors and 
+ community members promoting the network and to establish the Telos Foundation 
+ 
+ Q If you cap all accounts how can EOS holders get TLOS from exchanges 
+ A The TLOS block producers have the ability to create new tokens by a vote of 2/3+1 The 6 ABPs agree 
+ to create new tokens for distribution for any exchange that can show EOS holdings on the snapshot and 
+ that agrees to list TLOS not to vote the exchange account and to request and distribute only enough 
+ coins so that all EOS holders at the time of the snapshot receive their coins capped at 40 000 per account 
+ The ABPs will have a process in place for exchanges to petition them to create TLOS tokens and promise 
+ to honor all valid petitions (It will require a vote of 5 of the 6 block producers to accomplish this ) Once 
+ the Telos network activates and the elected block producers validate the network it will take a vote of 15 
+ of the 21 block producers to create new tokens for exchanges 
+ Q Why cap genesis addresses at 40 000 TLOS 
+ A The largest 1 050 Eos addresses control about 90% of EOS tokens and therefore completely control 
+ block producer selection their voting and ultimately the entire network This makes the system 
+ dangerously centralized By capping genesis addresses at 40 000 TLOSapproximately the 90th percentile 
+ of ownershipthe Telos network will be one of the most evenly distributed major blockchains in 
+ existence 162 930 addresses will have exactly as many TLOS as they did EOS The total TLOS token supply 
+ will be lowered to approximately 200 400 000 000 TLOS tokens depending on how many exchanges 
+ petition to recreate their wallets 
+ 41 
+ 
+ 
+ Q Can Telos addresses ever have more than 40 000 TLOS 
+ A Yes The 40 000 TLOS cap only applies at the network genesis Addresses may hold any amount of TLOS 
+ thereafter 
+ Q Will you still require 15% of TLOS token holders to vote to launch the mainnet 
+ A Yes However with addresses capped and Telos Foundation addresses permanently excluded from 
+ voting the number of total votes needed to launch will decrease This will represent a much broader 
+ cross section of individual TLOS token holders 
+ Q What is the difference between the Telos mainnet launch and activation 
+ A Telos mainnet launch is the process of the beginning to run the Telos network to allow votes to be cast 
+ for block producers and for network validation Activation is the point when TLOS holders can begin 
+ transferring or otherwise controlling their tokens beyond just voting Activation will commence 24 hours 
+ after 15% of TLOS token holders eligible to vote have voted for block producers and mainnet activation 
+ and at least 40 block producer candidates meet the minimum block producer requirements 
+ Q If exchange addresses cannot vote will my TLOS tokens be able to vote if they are currently on an 
+ exchange 
+ A Once tokens are off the exchange and on your own Telos address you can vote them Individual 
+ owners cannot vote their tokens held on exchanges Preventing voting from exchange accounts keeps 
+ exchanges from voting with customer tokens which is against the Telos rules 
+ Q Will this hurt the Eos network 
+ A The Eos network will succeed or fail based on its own merits We hope it succeeds as we are all deeply 
+ invested in this project However the Eos mainnet release has revealed problems with the system that 
+ will be difficult to resolve on the Eos blockchain Whales have shown that they generally just vote for 
+ their own block producer partners and even game the rewards system to harm other block producers 
+ this may also be expected once worker proposals emerge The Eos network is under the control of a few 
+ whale accounts We offer a fresh approach where all token holders voices matter Telos also hopes to 
+ provide a testbed for new ideas that may eventually be adopted by the Eos mainnet In this way we hope 
+ to strengthen Eos 
+ 42 
+ 
+ 
+ Q If these changes will fix the network why doesnt Eos make them 
+ A Block one sold EOS tokens in their tokensale They accepted money for tokens and made certain 
+ representations They cant easily change the results of their saleespecially by reducing the tokens of 
+ their largest contributors which is really the key change that fixes the system Telos is a completely new 
+ system that never took money from nor made promises to anyone We intend to build a network using 
+ the open source Eos software (that we all helped pay for) to create an entirely new network that better 
+ represents the true purpose of Eos 
+ Q Can I buy and sell TLOS tokens What are they worth 
+ A TLOS tokens will not gain value until the Telos mainnet launches and they are able to be traded In 
+ practical terms TLOS will gain real value when exchanges accept them to trade against other 
+ cryptocurrencies We expect that this will happen because exchange customers will demand that they be 
+ given access to their tokens The technical requirements for listing TLOS will be identical to EOS so we 
+ expect little resistance on that point Once tokens are freely trading on exchanges they will find their 
+ value based on supply and demand The TLOS token supply will be between one fifth and one third that 
+ of EOS and the Telos network should be as good as or better than Eos Telos will also not have any 
+ whale addresses which often are responsible for price manipulations in other coins 
+ Q Are you selling TLOS tokens 
+ Revd D 1 2 A We are not selling any TLOS tokens We will use the Eos Snapshot with the following changes 1) 
+ Capping all addresses at 40 000 2) Creating a process for exchange addresses to petition the BPs to 
+ create TLOS tokens for their EOS snapshot owners by listing and distributing TLOS tokens (up to 40 000 
+ per account holder) 3) Providing new public keys to EOS token holders who can prove that their tokens 
+ were stolen or misregistered 4) Adding 6M new tokens to form a Telos Founders Reward Pool 1M new 
+ tokens to form a Telos Community Rewards Pool and 6M TLOS tokens to the Telos Foundation Ltd to 
+ support network needs that cannot otherwise be funded These tokens currently have no value and will 
+ only gain value if the Launch Group and Telos Foundation can create a valuable network The Telos 
+ Foundation pledges to never vote its tokens 
+ 
+ Q Who are you and why are you launching Telos 
+ A We are a group of Eos block producer candidates who have contributed to the system run testnets 
+ and taken part in the Eos Mainnet Launch Group that voted to unanimously launch the mainnet We 
+ 43 
+ 
+ 
+ believe in the promise of Eos but we have come to be concerned that the current system is deeply 
+ flawed due to the overwhelming power of Eos token holders with enormous holdings We hope that Eos 
+ can overcome this problem but in the meantime we want to launch a new more decentralized network 
+ using the Eos technology 
+ 
+ Q Can Eos block producers also be Telos block producers 
+ A Absolutely We hope they will since they know how to run EOSIO nodes well Anyone who meets the 
+ minimum requirements for a Telos block producer may submit themselves for voting 
+ Q Can developers make their code proprietary 
+ A Yes If the developer has not accepted payment as a block producer code reviewer or worker proposal 
+ recipient in the past six months they can designate the original code in a DApp as proprietary Any 
+ underlying open source code that the DApp is built upon will remain open source of course By contrast 
+ all smart contracts running on the Eos network must be open source according to the Eos Constitution 
+ Q What if Telos users dont want to use proprietary software on the blockchain 
+ A Each smart contract will designate if portions of its code are proprietary Telos members will be able to 
+ choose whether or not they wish to work with proprietary smart contracts or only open source contracts 
+ Q When will the Telos mainnet launch 
+ Revd D 1 2 A The Telos Launch Group will hold a series of go/no go votes about launching the Telos mainnet 
+ starting on September 28 2018 To vote go each Contributor will need to agree that a series of 
+ promised elements (e g arbitration governance ratification plus all technical requirements) have been 
+ delivered sufficient to launch a complete and successful network Once a majority go vote is reached 
+ the network will be launched by the ABPs until it receives both 15% of all outstanding Telos votes (Telos 
+ Foundation addresses) and at least 40 Telos block producer candidates who meet the minimum 
+ requirements At this point the ABPs will resign any special powers and 24 hours later the Telos mainnet 
+ will activate for transactions In other words we will wait for a groundswell of support from both the 
+ original Eos token holders and a group of highly qualified technical block producer candidates We believe 
+ that this will indicate a true mandate for the Telos network 
+ 
+ 44 
+ 
+ 
+ Q How are Telos block producers paid 
+ Telos will have 21 active block producers and up to 30 standby block producers sharing the 1% TLOS 
+ inflation Each block producer will be paid the same flat rate and each standby will be one half of that 
+ rate All will receive pay deductions for missed blocks 
+ 
+ Q Will the team launching Telos take a fee for its service 
+ Revd D 1 1 A Launching the Telos network is an expensive and time consuming venture The people launching Telos 
+ include block producers developers social media marketers arbitrators and others working together in 
+ a largely decentralized way Members of the Telos Launch Group will be compensated in the TLOS genesis 
+ file A Telos Founders Reward Pool (TFRP) will be created in the Telos genesis file containing 6M TLOS 
+ (about 1 8% of the expected money supply) This fund will be distributed among members of the Telos 
+ Launch Group an open membership group established to create and launch the Telos network based 
+ on tasks performed by members The exact method of TFRP distribution is yet to be determined but will 
+ be formalized prior to network launch 
+ 
+ Q You say that Telos wont have any whales but arent the TFRP recipients and Telos Foundation going 
+ to become whales 
+ Revd D 1 1 A The Telos Foundation will never vote its tokens TFRP funds will be broadly distributed among 
+ contributors in a manner to be determined soon Distributions over a certain amount will unlock evenly 
+ over a 3 year period similar to how Block ones tokens vest No TFRP recipient will be able to vote itself 
+ into the block producer ranks without the help of many TLOS token holders 
+ 
+ Q Why are TLG members being compensated 
+ Revd D 1 1 A Members of the Telos Launch Group are taking a central role in creating and launching the Telos 
+ network They are bearing the costs and contributing the effort to bring the network to life To 
+ compensate their work and defray cost they incur they are being granted new genesis tokens on the 
+ Telos blockchain distributed from the Telos Founders Reserve Pool These tokens are of zero value at the 
+ genesis and will only gain value if the TLG Telos Foundation and other participants can launch a valuable 
+ network This approach is in line with bounty programs common in cryptocurrency launches The total 
+ amount of compensation for the many founders/bounty recipients is ~1 8% of the expected Telos token 
+ supply which is a low number for cryptocurrency projects where large amounts of work are required and 
+ no funding has been sought 
+ 
+ 45 
+ 
+ 
+ Q What is the Telos Foundation 
+ Revd D 1 2 A The Telos Foundation is a promotional arm of the Telos Network Prior to the Telos mainnet launch 
+ the Telos foundation will organize technical informational and marketing efforts to advance the Telos 
+ network The Telos Foundation will manage the Telos genesis file subject to validation of the ABPs 
+ Immediately upon the mainnet launch the Telos Foundation will cede its authority to the ABPs to be 
+ governed by the Telos Constitution and voting rules 
+ 
+ After mainnet launch the Telos Foundation will function as an independent promotion and funding body 
+ for the Telos network Its function will be to pay for projects that are not selected for worker proposals or 
+ that cannot yet be funded due to inadequate funds (Particularly early in the life of the network ) The 
+ Telos Foundation may apply for worker proposal funds to reimburse funds dispersed as the goal is to 
+ create an ongoing fund that is not depleted It will also seek to stabilize RAM prices by regularly 
+ publishing a guidance price and buying below that price selling above it and offering RAM for sale or 
+ lease to bona fide developers seeking to develop on the network 
+ 
+ The Telos Foundation is a decentralized organization that votes on its own issues via smart contract It 
+ does not serve or seek any official governance position and will remain neutral on block producer 
+ candidates and proposals Addresses owned by the Telos Foundation will never vote 
+ 
+ 46 
+ 
+ 
+ 
