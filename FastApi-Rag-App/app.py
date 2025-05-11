@@ -117,6 +117,17 @@ class SearchResponse(BaseModel):
     results: List[dict] = []
     message: str = ""
 
+class GenerateQuestionsRequest(BaseModel):
+    file_id: str  # The document ID to generate questions from
+
+class Question(BaseModel):
+    question: str
+
+class GenerateQuestionsResponse(BaseModel):
+    status: str
+    questions: List[Question] = []
+    message: str = ""
+
 
 @app.on_event("startup")
 def load_cleaned_store():
@@ -618,3 +629,133 @@ def qa_performance_metrics(req: QAPerformanceRequest):
     except Exception as e:
         logger.error(f"Error in QA performance endpoint: {str(e)}")
         return {"error": f"Error in performance testing: {str(e)}"}
+
+@app.post("/generate-questions", response_model=GenerateQuestionsResponse)
+def generate_questions(req: GenerateQuestionsRequest):
+    """
+    Generate 5 questions from the specified document.
+    """
+    logger.info(f"Received request to generate questions for document: {req.file_id}")
+    
+    try:
+        # Create a search filter for the specific document
+        search_filter = None
+        if req.file_id != "all" and req.file_id != "":
+            search_filter = models.Filter(
+                must=[
+                    models.FieldCondition(
+                        key="metadata.doc_id",
+                        match=models.MatchValue(value=req.file_id)
+                    )
+                ]
+            )
+        
+        # Get relevant document chunks from the vector store
+        retriever = vectordb.as_retriever(
+            search_type="similarity",
+            search_kwargs={
+                "k": 10,  # Retrieve more chunks to get comprehensive content
+                "filter": search_filter
+            }
+        )
+        
+        # Get document chunks
+        query_result = retriever.get_relevant_documents("What is this document about?")
+        
+        if not query_result:
+            return GenerateQuestionsResponse(
+                status="error",
+                message=f"No content found for document ID: {req.file_id}"
+            )
+        
+        # Combine document content for context
+        document_content = "\n\n".join([doc.page_content for doc in query_result])
+        
+        # Truncate content if it's too large
+        if len(document_content) > 12000:
+            document_content = document_content[:12000] + "..."
+            logger.info(f"Document content truncated to 12000 characters")
+        
+        # Initialize Ollama LLM
+        try:
+            llm = Ollama(model="llama3", temperature=0.7)  # Higher temperature for creative questions
+            logger.info("Initialized Ollama LLM for question generation")
+        except Exception as e:
+            logger.error(f"Error initializing Ollama: {str(e)}")
+            return GenerateQuestionsResponse(
+                status="error",
+                message="Error: Could not initialize language model. Please check if Ollama is running."
+            )
+        
+        # Create prompt for generating questions
+        prompt = f"""
+        Based on the following document content, generate 5 diverse and specific questions that would test someone's understanding of the material.
+        
+        The questions should:
+        1. Be answerable from the provided content
+        2. Cover different aspects of the document
+        3. Include both factual and analytical questions
+        4. Be clear and specific
+        5. Vary in difficulty level
+        
+        Document content:
+        {document_content}
+        
+        Return ONLY the 5 questions, each on a new line starting with 'Question: '.
+        """
+        
+        # Generate questions
+        logger.info("Generating questions from document content...")
+        result = llm.invoke(prompt)
+        
+        # Process the result to extract questions
+        questions = []
+        
+        # Parse questions from the response
+        for line in result.split('\n'):
+            line = line.strip()
+            if line.startswith('Question:') or line.startswith('Q:') or line.startswith(f'1.') or line.startswith(f'- '):
+                # Clean up the question format
+                question_text = line
+                for prefix in ['Question:', 'Q:', '1.', '2.', '3.', '4.', '5.', '- ']:
+                    if question_text.startswith(prefix):
+                        question_text = question_text[len(prefix):].strip()
+                        break
+                
+                questions.append(Question(question=question_text))
+        
+        # Handle case where parsing might not have worked
+        if not questions:
+            # Try another parsing approach - just split by numbers
+            import re
+            q_matches = re.findall(r'(?:\d+[\)\.]\s*|\bQuestion\s*\d*[\:\.]\s*)(.*?)(?=\d+[\)\.]\s*|\bQuestion\s*\d*[\:\.]\s*|$)', result, re.DOTALL)
+            if q_matches:
+                questions = [Question(question=q.strip()) for q in q_matches if q.strip()]
+        
+        # If we still don't have enough questions, just get the first 5 sentences
+        if len(questions) < 5:
+            # Get first 5 sentences that end with question marks
+            import re
+            q_sentences = re.findall(r'[^.!?]*\?', result)
+            for q in q_sentences:
+                if len(questions) >= 5:
+                    break
+                if q.strip() and len(q.strip()) > 10:  # Minimum question length
+                    questions.append(Question(question=q.strip()))
+        
+        # Limit to 5 questions
+        questions = questions[:5]
+        
+        # Return the questions
+        logger.info(f"Generated {len(questions)} questions")
+        return GenerateQuestionsResponse(
+            status="ok",
+            questions=questions
+        )
+        
+    except Exception as e:
+        logger.error(f"Error generating questions: {str(e)}")
+        return GenerateQuestionsResponse(
+            status="error",
+            message=f"Error generating questions: {str(e)}"
+        )
