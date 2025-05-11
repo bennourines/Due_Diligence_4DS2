@@ -32,7 +32,6 @@ from dash.dependencies import Input, Output, State
 from keras.models import load_model # type: ignore
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
-from fib import calculate_fibonacci_levels, get_fibonacci_colors, calculate_support_resistance
 
 
 app = dash.Dash()
@@ -198,200 +197,137 @@ def MA(df, period=30, column="Close", ma_type="SMA"):
         raise ValueError("Invalid ma_type. Use 'SMA', 'EMA', 'WMA', or 'VWMA'.")
 
 def buy_n_sell(data, crypto_symbol='BTC', period1=20, period2=50, period3=200, MA_type='SMA', show_bollinger=False):
-    df = data.copy()
+    try:
+        df = data.copy()
+        df['line1'] = MA(df, period=period1, column="Close", ma_type=MA_type)
+        df['line2'] = MA(df, period=period2, column="Close", ma_type=MA_type)
+        df['line3'] = MA(df, period=period3, column="Close", ma_type=MA_type)
 
-    df['line1'] = MA(df, period=period1, column="Close", ma_type=MA_type)
-    df['line2'] = MA(df, period=period2, column="Close", ma_type=MA_type)
-    df['line3'] = MA(df, period=period3, column="Close", ma_type=MA_type)
+        # Condition 1
+        df['Signal'] = np.where(df["line1"] > df["line2"], 1, 0)
+        df['Position'] = df['Signal'].diff()
+        df['Buy'] = np.where(df['Position'] == 1, df["Close"], np.nan)
+        df['Sell'] = np.where(df['Position'] == -1, df["Close"], np.nan)
 
-    # Add Bollinger Bands if requested
-    if show_bollinger:
-        upper_band, middle_band, lower_band = Bollinger_Bands(df)
-        df['upper_band'] = upper_band
-        df['middle_band'] = middle_band
-        df['lower_band'] = lower_band
+        # Condition 2
+        df['Golden_Signal'] = np.where(df["line2"] > df["line3"], 1, 0)
+        df['Golden_Position'] = df['Golden_Signal'].diff()
+        df['Golden_Buy'] = np.where(df['Golden_Position'] == 1, df["Close"], np.nan)
+        df['Death_Sell'] = np.where(df['Golden_Position'] == -1, df["Close"], np.nan)
 
-    # Condition 1
-    df['Signal'] = np.where(df["line1"] > df["line2"], 1, 0)
-    df['Position'] = df['Signal'].diff()
-
-    df['Buy'] = np.where(df['Position'] == 1, df["Close"], np.nan)
-    df['Sell'] = np.where(df['Position'] == -1, df["Close"], np.nan)
-
-    # Condition 2
-    df['Golden_Signal'] = np.where(df["line2"] > df["line3"], 1, 0)
-    df['Golden_Position'] = df['Golden_Signal'].diff()
-
-    df['Golden_Buy'] = np.where(df['Golden_Position'] == 1, df["Close"], np.nan)
-    df['Death_Sell'] = np.where(df['Golden_Position'] == -1, df["Close"], np.nan)
-
-    # Create candlestick chart and buy/sell signals
-    fig = go.Figure()
-
-    # TradingView dark theme colors
-    tv_colors = {
-        'background': '#131722',
-        'grid': '#2A2E39',
-        'text': '#D9D9D9',
-        'candle_up': '#26A69A',
-        'candle_down': '#EF5350',
-        'wick_up': '#26A69A',
-        'wick_down': '#EF5350',
-        'ma_short': '#2196F3',
-        'ma_medium': '#FF9800',
-        'ma_long': '#4CAF50',
-        'buy': '#00E676',
-        'sell': '#FF5252',
-        'golden_buy': '#FFD700',
-        'death_sell': '#8B0000',
-        'volume_up': 'rgba(38, 166, 154, 0.3)',
-        'volume_down': 'rgba(239, 83, 80, 0.3)',
-        'bollinger_upper': 'rgba(255, 152, 0, 0.3)',
-        'bollinger_lower': 'rgba(255, 152, 0, 0.3)',
-        'support': '#00FF00',  # Green for support
-        'resistance': '#FF0000'  # Red for resistance
-    }
-
-    # Add candlestick chart
-    fig.add_trace(go.Candlestick(
-        x=df.index,
-        open=df['Open'],
-        high=df['High'],
-        low=df['Low'],
-        close=df['Close'],
-        name='Price',
-        increasing_line_color=tv_colors['candle_up'],
-        decreasing_line_color=tv_colors['candle_down'],
-        increasing_fillcolor=tv_colors['candle_up'],
-        decreasing_fillcolor=tv_colors['candle_down']
-    ))
-
-    # Add moving averages
-    fig.add_trace(go.Scatter(
-        x=df.index,
-        y=df['line1'],
-        mode='lines',
-        line=dict(color=tv_colors['ma_short'], width=1),
-        name=f'{MA_type} {period1}'
-    ))
-
-    fig.add_trace(go.Scatter(
-        x=df.index,
-        y=df['line2'],
-        mode='lines',
-        line=dict(color=tv_colors['ma_medium'], width=1),
-        name=f'{MA_type} {period2}'
-    ))
-
-    fig.add_trace(go.Scatter(
-        x=df.index,
-        y=df['line3'],
-        mode='lines',
-        line=dict(color=tv_colors['ma_long'], width=1),
-        name=f'{MA_type} {period3}'
-    ))
-
-    # Add buy/sell signals
-    fig.add_trace(go.Scatter(
-        x=df.index,
-        y=df['Buy'],
-        mode='markers',
-        marker=dict(
-            symbol='triangle-up',
-            size=10,
-            color=tv_colors['buy']
-        ),
-        name='Buy Signal'
-    ))
-
-    fig.add_trace(go.Scatter(
-        x=df.index,
-        y=df['Sell'],
-        mode='markers',
-        marker=dict(
-            symbol='triangle-down',
-            size=10,
-            color=tv_colors['sell']
-        ),
-        name='Sell Signal'
-    ))
-
-    # Add golden cross/death cross signals
-    fig.add_trace(go.Scatter(
-        x=df.index,
-        y=df['Golden_Buy'],
-        mode='markers',
-        marker=dict(
-            symbol='star',
-            size=12,
-            color=tv_colors['golden_buy']
-        ),
-        name='Golden Cross'
-    ))
-
-    fig.add_trace(go.Scatter(
-        x=df.index,
-        y=df['Death_Sell'],
-        mode='markers',
-        marker=dict(
-            symbol='star',
-            size=12,
-            color=tv_colors['death_sell']
-        ),
-        name='Death Cross'
-    ))
-
-    # Add Bollinger Bands if requested
-    if show_bollinger:
+        # Create candlestick chart and buy/sell signals
+        fig = go.Figure()
+        tv_colors = {
+            'background': '#131722',
+            'grid': '#2A2E39',
+            'text': '#D9D9D9',
+            'candle_up': '#26A69A',
+            'candle_down': '#EF5350',
+            'wick_up': '#26A69A',
+            'wick_down': '#EF5350',
+            'ma_short': '#2196F3',
+            'ma_medium': '#FF9800',
+            'ma_long': '#4CAF50',
+            'buy': '#00E676',
+            'sell': '#FF5252',
+            'golden_buy': '#FFD700',
+            'death_sell': '#8B0000',
+            'volume_up': 'rgba(38, 166, 154, 0.3)',
+            'volume_down': 'rgba(239, 83, 80, 0.3)',
+            'support': '#00FF00',
+            'resistance': '#FF0000'
+        }
+        fig.add_trace(go.Candlestick(
+            x=df.index,
+            open=df['Open'],
+            high=df['High'],
+            low=df['Low'],
+            close=df['Close'],
+            name='Price',
+            increasing_line_color=tv_colors['candle_up'],
+            decreasing_line_color=tv_colors['candle_down'],
+            increasing_fillcolor=tv_colors['candle_up'],
+            decreasing_fillcolor=tv_colors['candle_down']
+        ))
         fig.add_trace(go.Scatter(
             x=df.index,
-            y=df['upper_band'],
+            y=df['line1'],
             mode='lines',
-            line=dict(color=tv_colors['bollinger_upper'], width=1),
-            name='Upper Band'
+            line=dict(color=tv_colors['ma_short'], width=1),
+            name=f'{MA_type} {period1}'
         ))
-
         fig.add_trace(go.Scatter(
             x=df.index,
-            y=df['middle_band'],
+            y=df['line2'],
             mode='lines',
-            line=dict(color='rgba(255, 152, 0, 0.5)', width=1),
-            name='Middle Band'
+            line=dict(color=tv_colors['ma_medium'], width=1),
+            name=f'{MA_type} {period2}'
         ))
-
         fig.add_trace(go.Scatter(
             x=df.index,
-            y=df['lower_band'],
+            y=df['line3'],
             mode='lines',
-            line=dict(color=tv_colors['bollinger_lower'], width=1),
-            name='Lower Band'
+            line=dict(color=tv_colors['ma_long'], width=1),
+            name=f'{MA_type} {period3}'
         ))
-
-    # Update layout
-    fig.update_layout(
-        title=f'{crypto_symbol} Price Chart',
-        xaxis_title='Date',
-        yaxis_title='Price',
-        template='plotly_dark',
-        xaxis_rangeslider_visible=False,
-        height=800,
-        showlegend=True,
-        legend=dict(
-            yanchor="top",
-            y=0.99,
-            xanchor="left",
-            x=0.01
-        ),
-        # Enable drawing tools
-        dragmode='drawopenpath',
-        modebar_add=[
-            'drawline',
-            'drawopenpath',
-            'eraseshape'
-        ]
-    )
-
-    return fig
+        fig.add_trace(go.Scatter(
+            x=df.index,
+            y=df['Buy'],
+            mode='markers',
+            marker=dict(symbol='triangle-up', size=10, color=tv_colors['buy']),
+            name='Buy Signal'
+        ))
+        fig.add_trace(go.Scatter(
+            x=df.index,
+            y=df['Sell'],
+            mode='markers',
+            marker=dict(symbol='triangle-down', size=10, color=tv_colors['sell']),
+            name='Sell Signal'
+        ))
+        fig.add_trace(go.Scatter(
+            x=df.index,
+            y=df['Golden_Buy'],
+            mode='markers',
+            marker=dict(symbol='star', size=12, color=tv_colors['golden_buy']),
+            name='Golden Cross'
+        ))
+        fig.add_trace(go.Scatter(
+            x=df.index,
+            y=df['Death_Sell'],
+            mode='markers',
+            marker=dict(symbol='star', size=12, color=tv_colors['death_sell']),
+            name='Death Cross'
+        ))
+        fig.update_layout(
+            title=f'{crypto_symbol} Price Chart',
+            xaxis_title='Date',
+            yaxis_title='Price',
+            template='plotly_dark',
+            xaxis_rangeslider_visible=False,
+            showlegend=True,
+            legend=dict(
+                yanchor="top",
+                y=0.99,
+                xanchor="left",
+                x=0.01
+            ),
+            dragmode='zoom',
+            modebar_remove=['drawline', 'drawopenpath', 'eraseshape', 'lasso2d', 'select2d'],
+            xaxis=dict(
+                rangeslider=dict(visible=False),
+                type='date',
+                autorange=True,
+                fixedrange=False
+            ),
+            yaxis=dict(
+                autorange=True,
+                fixedrange=False
+            )
+        )
+        return fig
+    except Exception as e:
+        print(f"Error calculating buy/sell signals: {str(e)}")
+        return go.Figure()
 
 def RSI(df, period=14, column="Close"):
     """Calculate Relative Strength Index"""
@@ -567,16 +503,6 @@ def ATR(df, period=14):
     
     return atr
 
-def Bollinger_Bands(df, period=20, std_dev=2):
-    """Calculate Bollinger Bands"""
-    sma = df['Close'].rolling(window=period).mean()
-    std = df['Close'].rolling(window=period).std()
-    
-    upper_band = sma + (std * std_dev)
-    lower_band = sma - (std * std_dev)
-    
-    return upper_band, sma, lower_band
-
 def create_atr_chart(df, period=14):
     """Create ATR chart"""
     atr = ATR(df, period)
@@ -742,28 +668,6 @@ app.layout = html.Div([
                     "boxShadow": "0 2px 4px rgba(0,0,0,0.05)",
                     "border": "1px solid #E9ECEF"
                 }),
-                
-                # Bollinger Bands toggle
-                html.Div([
-                    html.Label("Show Bollinger Bands", 
-                             style={"color": "#131722", "marginBottom": "0.5rem"}),
-                    dcc.Checklist(
-                        id='bollinger-toggle',
-                        options=[{'label': 'Show Bollinger Bands', 'value': 'show'}],
-                        value=[],
-                        style={
-                            "backgroundColor": "#FFFFFF",
-                            "color": "#131722"
-                        }
-                    )
-                ], style={
-                    "backgroundColor": "#F8F9FA",
-                    "padding": "1.5rem",
-                    "borderRadius": "8px",
-                    "marginBottom": "2rem",
-                    "boxShadow": "0 2px 4px rgba(0,0,0,0.05)",
-                    "border": "1px solid #E9ECEF"
-                })
             ], style={"width": "100%", "maxWidth": "1200px", "margin": "0 auto"}),
             
             # Charts section
@@ -773,11 +677,10 @@ app.layout = html.Div([
                     dcc.Graph(
                         id='trading-signals-chart',
                         style={
-                            "height": "60vh",
                             "width": "100%",
-                            "maxWidth": "100%",
-                            "maxHeight": "900px",
-                            "overflow": "hidden"
+                            "height": "70vh",
+                            "minHeight": "600px",
+                            "margin": "0 auto"
                         },
                         config={
                             'responsive': True,
@@ -788,7 +691,7 @@ app.layout = html.Div([
                     )
                 ], style={
                     "width": "100%",
-                    "maxWidth": "1200px",
+                    "maxWidth": "1600px",
                     "marginBottom": "2rem",
                     "backgroundColor": "#FFFFFF",
                     "borderRadius": "8px",
@@ -950,15 +853,13 @@ app.index_string = '''
      Input('ma-type-dropdown', 'value'),
      Input('period1-dropdown', 'value'),
      Input('period2-dropdown', 'value'),
-     Input('period3-dropdown', 'value'),
-     Input('bollinger-toggle', 'value')]
+     Input('period3-dropdown', 'value')]
 )
-def update_main_chart(crypto_symbol, ma_type, period1, period2, period3, bollinger_toggle):
+def update_main_chart(crypto_symbol, ma_type, period1, period2, period3):
     df = load_crypto_data(crypto_symbol)
     if df is None:
         return go.Figure()
-    show_bollinger = 'show' in bollinger_toggle
-    main_chart = buy_n_sell(df, crypto_symbol, period1, period2, period3, ma_type, show_bollinger)
+    main_chart = buy_n_sell(df, crypto_symbol, period1, period2, period3, ma_type)
     return main_chart
 
 @app.callback(
