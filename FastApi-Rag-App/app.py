@@ -4,7 +4,8 @@ import logging
 import uuid
 import time  
 from typing import List
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, UploadFile , APIRouter , HTTPException
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import shutil
 from langchain.document_loaders import PyPDFLoader, TextLoader
@@ -19,14 +20,11 @@ from qdrant_client.http import models
 from qdrant_client.models import Distance, VectorParams
 from dotenv import load_dotenv
 import requests
+from enhanced_qa import CryptoQASystem
+from due_diligence_report import DueDiligenceReportGenerator, GenerateReportRequest, ReportResponse
 
 # Load environment variables from .env file
 load_dotenv()
-
-# Get Serper API key from environment variables
-SERPER_API_KEY = os.getenv("SERPER_API_KEY")
-if not SERPER_API_KEY:
-    logger.warning("SERPER_API_KEY not found in environment variables")
 
 # Configure logging
 logging.basicConfig(
@@ -35,6 +33,12 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S"
 )
 logger = logging.getLogger(__name__)
+
+# Get Serper API key from environment variables
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")
+if not SERPER_API_KEY:
+    logger.warning("SERPER_API_KEY not found in environment variables")
+
 
 # Initialize embeddings
 logger.info("Initializing embeddings...")
@@ -262,73 +266,30 @@ async def ingest(file: UploadFile = File(...)):
         # Ensure file is closed
         await file.close()
 
+
 @app.post("/qa")
 def qa(req: QARequest):
     """
-    Retrieve and answer questions using all embedded knowledge.
+    Retrieve and answer questions about cryptocurrency using enhanced QA with reasoning capabilities.
     """
-    logger.info(f"Received QA request: id={req.id}, question='{req.question}'")
+    logger.info(f"Received crypto QA request: id={req.id}, question='{req.question}'")
     try:
-        # Create a retriever with optional filtering
-        search_filter = None
-        if req.id != "all" and req.id != "":  # If specific document is requested
-            search_filter = models.Filter(
-                must=[
-                    models.FieldCondition(
-                        key="metadata.doc_id",
-                        match=models.MatchValue(value=req.id)
-                    )
-                ]
-            )
-            
-        retriever = vectordb.as_retriever(
-            search_type="similarity",
-            search_kwargs={
-                "k": 4,
-                "filter": search_filter
-            }
-        )
-        logger.info(f"Retriever initialized with filter for doc_id: {req.id if req.id != 'all' and req.id != '' else 'No filter'}")
-        
-        # Initialize LLM with error handling
-        try:
-            llm = Ollama(model="llama3", temperature=0.1)
-            logger.info("Initialized Ollama LLM with llama3 model.")
-        except Exception as e:
-            logger.error(f"Error initializing Ollama: {str(e)}")
-            return {"answer": "Error: Could not initialize language model. Please check if Ollama is running."}
-        
-        # Create and run the chain
-        chain = RetrievalQA.from_chain_type(
-            llm=llm,
-            chain_type="stuff",
-            retriever=retriever,
-            return_source_documents=True
+        # Create enhanced crypto QA system
+        qa_system = CryptoQASystem(
+            vectordb=vectordb,
+            base_model="llama3",
+            reasoning_model="phi4-mini"
         )
         
-        logger.info("Running retrieval QA chain...")
-        result = chain({"query": req.question})
-        answer = result["result"]
+        # Get enhanced answer
+        result = qa_system.answer_question(
+            question=req.question,
+            doc_id=req.id
+        )
         
-        # Extract sources for transparency
-        sources = []
-        for doc in result.get("source_documents", []):
-            source_info = {
-                "source": doc.metadata.get("source", "Unknown"),
-                "doc_id": doc.metadata.get("doc_id", "Unknown"),
-                "page": doc.metadata.get("page", 0),
-                "file_type": doc.metadata.get("file_type", "Unknown")
-            }
-            sources.append(source_info)
-        
-        logger.info(f"Answer generated with {len(sources)} source documents.")
-        logger.info(f"Answer: {answer}")
-        return {
-            "answer": answer,
-            "sources": sources
-        }
+        return result
     except Exception as e:
-        logger.error(f"Error in QA endpoint: {str(e)}")
+        logger.error(f"Error in crypto QA endpoint: {str(e)}")
         return {"answer": f"Error: {str(e)}"}
 
 @app.get("/status")
@@ -759,3 +720,64 @@ def generate_questions(req: GenerateQuestionsRequest):
             status="error",
             message=f"Error generating questions: {str(e)}"
         )
+    
+    
+report_router = APIRouter()
+
+@report_router.post("/generate-report", response_model=ReportResponse)
+async def generate_report(request: GenerateReportRequest):
+    """
+    Generate a PPTX due diligence report for a cryptocurrency.
+    """
+    logger.info(f"Received report generation request for {request.crypto_id}")
+    
+    try:
+        # Create QA system
+        qa_system = CryptoQASystem(
+            vectordb=vectordb,
+            base_model="llama3",
+            reasoning_model="phi4-mini"
+        )
+        
+        # Create report generator
+        report_generator = DueDiligenceReportGenerator(qa_system)
+        
+        # Generate report
+        output_file = report_generator.generate_report(request)
+        
+        # Return the file path
+        return ReportResponse(
+            status="success",
+            message=f"Report for {request.crypto_id} generated successfully",
+            file_path=output_file
+        )
+        
+    except Exception as e:
+        logger.error(f"Error generating report: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error generating report: {str(e)}"
+        )
+
+@report_router.get("/download-report/{filename}")
+async def download_report(filename: str):
+    """
+    Download a generated report.
+    """
+    file_path = f"reports/{filename}"
+    
+    if not os.path.exists(file_path):
+        raise HTTPException(
+            status_code=404,
+            detail=f"Report {filename} not found"
+        )
+    
+    return FileResponse(
+        path=file_path,
+        filename=filename,
+        media_type="application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    )
+
+app.include_router(report_router, tags=["reports"])
+
+
