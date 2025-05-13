@@ -1,25 +1,4 @@
-#                       _oo0oo_
-#                      o8888888o
-#                      88" . "88
-#                      (| -_- |)
-#                      0\  =  /0
-#                    ___/`---'\___
-#                  .' \\|     |// '.
-#                 / \\|||  :  |||// \
-#                / _||||| -:- |||||- \
-#               |   | \\\  -  /// |   |
-#               | \_|  ''\---/''  |_/ |
-#               \  .-\__  '-'  ___/-. /
-#             ___'. .'  /--.--\  `. .'___
-#          ."" '<  `.___\_<|>_/___.' >' "".
-#         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
-#         \  \ `_.   \_ __\ /__ _/   .-` /  /
-#     =====`-.____`.___ \_____/___.-`___.-'=====
-#                       `=---='
-#
-#     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#            Phật phù hộ, không bao giờ BUG
-#     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 from datetime import timedelta
@@ -288,15 +267,15 @@ def buy_n_sell(data, crypto_symbol='BTC', period1=20, period2=50, period3=200, M
             x=df.index,
             y=df['Golden_Buy'],
             mode='markers',
-            marker=dict(symbol='star', size=12, color=tv_colors['golden_buy']),
-            name='Golden Cross'
+            marker=dict(symbol='star', size=12, color=tv_colors['death_sell']),
+            name='Death sell'
         ))
         fig.add_trace(go.Scatter(
             x=df.index,
             y=df['Death_Sell'],
             mode='markers',
-            marker=dict(symbol='star', size=12, color=tv_colors['death_sell']),
-            name='Death Cross'
+            marker=dict(symbol='star', size=12, color=tv_colors['golden_buy']),
+            name='Golden buy'
         ))
         fig.update_layout(
             title=f'{crypto_symbol} Price Chart',
