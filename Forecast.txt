@@ -1,0 +1,694 @@
+import os
+import glob
+import sys
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.dml.color import RGBColor
+from pptx.enum.text import MSO_VERTICAL_ANCHOR, PP_ALIGN
+from prophet import Prophet
+
+# Additional imports for handling file permission issues
+from datetime import datetime
+import time
+import random
+
+# Make psutil optional
+try:
+    import psutil
+except ImportError:
+    # Simply continue without psutil - we'll handle this gracefully
+    pass
+
+class CryptoForecastGenerator:
+    """
+    A class to generate cryptocurrency price forecasts and create PowerPoint presentations.
+    """
+    
+    def __init__(self):
+        """Initialize the crypto forecast generator."""
+        # Constants
+        self.FUTURE_DAYS = 100
+        self.PLOT_DPI = 300
+        self.SLIDE_WIDTH = 13.333  # inches
+        self.SLIDE_HEIGHT = 7.5    # inches
+        
+        # Ensure necessary directories exist
+        os.makedirs("plots", exist_ok=True)
+        os.makedirs("pptx", exist_ok=True)
+        
+        # Paths
+        self.search_dir = "Time Series Crypto"
+        self.background_img = 'Picture1.png'
+        self.forecast_plot = os.path.join('plots', 'forecast_plot.png')
+        self.indicators_plot = os.path.join('plots', 'indicators.png')
+        
+        # PowerPoint settings
+        self.title_width = 11      # inches
+        self.image_width = 7       # inches for charts (changed from 10 to 7)
+        self.table_width = 9       # inches for tables
+        
+        # Table colors (matching the background theme)
+        self.header_color = RGBColor(68, 114, 196)     # Medium blue (#4472C4)
+        self.row_color1 = RGBColor(217, 226, 243)      # Light blue (#D9E2F3)
+        self.row_color2 = RGBColor(242, 242, 242)      # Very light blue/white (#F2F2F2)
+        self.header_text_color = RGBColor(255, 255, 255)  # White
+        self.row_text_color = RGBColor(0, 0, 0)        # Black
+        
+        # Initialize other attributes
+        self.df = None
+        self.forecast = None
+        self.coin_name = None
+        self.matched_file = None
+        
+    def get_centered_position(self, object_width):
+        """Calculate centered position for an object."""
+        return (self.SLIDE_WIDTH - object_width) / 2
+        
+    def find_crypto_file(self, keyword):
+        """Find a cryptocurrency CSV file based on a keyword."""
+        if not os.path.exists(self.search_dir):
+            os.makedirs(self.search_dir, exist_ok=True)
+            print(f"⚠️ Directory '{self.search_dir}' created. Please place your CSV files there.")
+            raise FileNotFoundError(f"No CSV files found in {self.search_dir}")
+            
+        csv_files = glob.glob(os.path.join(self.search_dir, "*.csv"))
+        if not csv_files:
+            raise FileNotFoundError(f"No CSV files found in {self.search_dir}")
+            
+        matched_file = None
+        for f in csv_files:
+            if keyword.lower() in f.lower():
+                matched_file = f
+                break
+                
+        if not matched_file:
+            raise FileNotFoundError(f"No file found for keyword '{keyword}' in {self.search_dir}")
+            
+        self.matched_file = matched_file
+        self.coin_name = os.path.basename(matched_file).replace(" Historical Data.csv", "")
+        print(f"✅ Using file: {matched_file}")
+        return matched_file
+        
+    def load_and_preprocess_data(self):
+        """Load and preprocess cryptocurrency data."""
+        try:
+            df = pd.read_csv(self.matched_file)
+            
+            # Clean column names
+            df.columns = [col.strip() for col in df.columns]
+            
+            # Parse date
+            df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+            df = df.dropna(subset=['Date']).sort_values('Date')
+            
+            # Remove $ and commas then convert to numeric
+            numeric_cols = ['Open', 'High', 'Low', 'Close', 'Volume']
+            # Add Market Cap if it exists
+            if 'Market Cap' in df.columns:
+                numeric_cols.append('Market Cap')
+                
+            for col in numeric_cols:
+                if col in df.columns:
+                    df[col] = df[col].replace({'\$': '', ',': ''}, regex=True)
+                    df[col] = pd.to_numeric(df[col], errors='coerce')
+            
+            # Rename Close to Price to match old naming if needed
+            if 'Close' in df.columns and 'Price' not in df.columns:
+                df.rename(columns={'Close': 'Price'}, inplace=True)
+            
+            # Extract Coin Name from the first row if available
+            if 'Coin Name' in df.columns:
+                self.coin_name = df['Coin Name'].iloc[0]
+            
+            # Keep only necessary columns
+            required_cols = ['Date', 'Price', 'Open', 'High', 'Low']
+            # Add Volume if it exists
+            if 'Volume' in df.columns:
+                required_cols.append('Volume')
+                
+            # Check if all required columns are present
+            missing_cols = [col for col in required_cols if col not in df.columns]
+            if missing_cols:
+                raise ValueError(f"Missing required columns: {', '.join(missing_cols)}")
+                
+            df = df[required_cols].dropna(subset=['Price'])
+            
+            # Add Volume if missing (with zeros)
+            if 'Volume' not in df.columns:
+                df['Volume'] = 0
+                
+            self.df = df
+            return df
+            
+        except Exception as e:
+            print(f"⚠️ Error loading data: {str(e)}")
+            raise
+            
+    def compute_rsi(self, series, period=14):
+        """Compute Relative Strength Index for a price series."""
+        delta = series.diff()
+        gain = delta.where(delta > 0, 0)
+        loss = -delta.where(delta < 0, 0)
+        avg_gain = gain.rolling(window=period).mean()
+        avg_loss = loss.rolling(window=period).mean()
+        rs = avg_gain / (avg_loss + 1e-6)  # Adding small epsilon to avoid division by zero
+        return 100 - (100 / (1 + rs))
+        
+    def generate_features(self):
+        """Generate technical features from price data."""
+        df = self.df
+        
+        # Price-based features
+        df['Return'] = df['Price'].pct_change()
+        df['LogReturn'] = np.log(df['Price'] / df['Price'].shift(1))
+        df['MA_7'] = df['Price'].rolling(7).mean()
+        df['MA_30'] = df['Price'].rolling(30).mean()
+        df['STD_7'] = df['Price'].rolling(7).std()
+        
+        # Momentum and volatility
+        df['Momentum_10'] = df['Price'] - df['Price'].shift(10)
+        df['Volatility_7d'] = df['Return'].rolling(7).std()
+        
+        # Candlestick features
+        df['Price_Range'] = df['High'] - df['Low']
+        df['Candle_Body'] = abs(df['Price'] - df['Open'])
+        df['Upper_Shadow'] = df['High'] - df[['Price', 'Open']].max(axis=1)
+        df['Lower_Shadow'] = df[['Price', 'Open']].min(axis=1) - df['Low']
+        
+        # Volume-based features
+        df['Volume_Change'] = df['Volume'].pct_change()
+        df['Volatility_to_Volume'] = df['Volatility_7d'] / (df['Volume'] + 1e-6)
+        
+        # Technical indicators
+        df['RSI_14'] = self.compute_rsi(df['Price'], 14)
+        
+        # Lag features
+        df['Lag_1'] = df['Price'].shift(1)
+        df['Lag_7'] = df['Price'].shift(7)
+        
+        # Ratio features
+        df['Price_to_MA7'] = df['Price'] / (df['MA_7'] + 1e-6)
+        df['Momentum_to_Volatility'] = df['Momentum_10'] / (df['Volatility_7d'] + 1e-6)
+        
+        self.df = df
+        return df
+        
+    def create_forecast(self):
+        """Create price forecast using Prophet model."""
+        try:
+            # Prepare data for Prophet
+            df_prophet = self.df[['Date', 'Price']].dropna().rename(columns={'Date': 'ds', 'Price': 'y'})
+            
+            # Create and fit model
+            print("Training forecasting model...")
+            model = Prophet(daily_seasonality=True)
+            model.fit(df_prophet)
+            
+            # Generate future dates and predict
+            future = model.make_future_dataframe(periods=self.FUTURE_DAYS)
+            forecast = model.predict(future)
+            
+            self.forecast = forecast
+            
+            # Save forecast plot
+            print("Generating forecast plot...")
+            fig1 = model.plot(forecast)
+            plt.title('Forecast Price with Confidence Interval')
+            plt.grid(True, alpha=0.3)
+            plt.tight_layout()
+            plt.savefig(self.forecast_plot, bbox_inches='tight', dpi=self.PLOT_DPI)
+            plt.close()
+            
+            return forecast
+            
+        except Exception as e:
+            print(f"⚠️ Error creating forecast: {str(e)}")
+            raise
+            
+    def create_indicator_plots(self):
+        """Create technical indicator plots."""
+        try:
+            print("Generating technical indicators plot...")
+            # Create a 2x2 subplot of key indicators
+            fig2, axs = plt.subplots(2, 2, figsize=(12, 8))
+            
+            # Plot each indicator
+            axs[0, 0].plot(self.df['Date'], self.df['Price'], color='#1f77b4')
+            axs[0, 0].set_title("Price")
+            axs[0, 0].grid(True, alpha=0.3)
+            
+            axs[0, 1].plot(self.df['Date'], self.df['Volatility_7d'], color='#ff7f0e')
+            axs[0, 1].set_title("Volatility (7d)")
+            axs[0, 1].grid(True, alpha=0.3)
+            
+            axs[1, 0].plot(self.df['Date'], self.df['RSI_14'], color='#2ca02c')
+            axs[1, 0].set_title("RSI 14")
+            axs[1, 0].axhline(y=70, color='r', linestyle='--', alpha=0.5)  # Overbought line
+            axs[1, 0].axhline(y=30, color='g', linestyle='--', alpha=0.5)  # Oversold line
+            axs[1, 0].grid(True, alpha=0.3)
+            
+            axs[1, 1].plot(self.df['Date'], self.df['Momentum_10'], color='#d62728')
+            axs[1, 1].set_title("Momentum 10")
+            axs[1, 1].grid(True, alpha=0.3)
+            
+            plt.tight_layout()
+            plt.savefig(self.indicators_plot, bbox_inches='tight', dpi=self.PLOT_DPI)
+            plt.close()
+            
+        except Exception as e:
+            print(f"⚠️ Error creating indicator plots: {str(e)}")
+            raise
+            
+    def analyze_risk(self):
+        """Analyze risk factors from the data and forecast."""
+        try:
+            # Volatility analysis
+            recent_volatility = self.df['Volatility_7d'].iloc[-30:].mean()
+            if recent_volatility > 0.05:
+                volatility_comment = "⚠️ High volatility detected in the past month."
+            else:
+                volatility_comment = "✅ Volatility is within a moderate range."
+            
+            # RSI analysis
+            latest_rsi = self.df['RSI_14'].iloc[-1]
+            if latest_rsi > 70:
+                rsi_comment = "⚠️ RSI indicates potential overbought conditions."
+            elif latest_rsi < 30:
+                rsi_comment = "⚠️ RSI indicates potential oversold conditions."
+            else:
+                rsi_comment = "✅ RSI is in a neutral state."
+            
+            # Forecast uncertainty analysis
+            forecast_range = self.forecast[['yhat_upper', 'yhat_lower']].tail(self.FUTURE_DAYS)
+            avg_uncertainty = (forecast_range['yhat_upper'] - forecast_range['yhat_lower']).mean()
+            if avg_uncertainty > self.df['Price'].mean() * 0.2:
+                forecast_comment = "⚠️ Forecast has wide uncertainty bands."
+            else:
+                forecast_comment = "✅ Forecast shows reasonable confidence intervals."
+            
+            return {
+                'volatility': volatility_comment,
+                'rsi': rsi_comment,
+                'forecast': forecast_comment
+            }
+            
+        except Exception as e:
+            print(f"⚠️ Error in risk analysis: {str(e)}")
+            return {
+                'volatility': "⚠️ Could not analyze volatility.",
+                'rsi': "⚠️ Could not analyze RSI.",
+                'forecast': "⚠️ Could not analyze forecast uncertainty."
+            }
+    
+    def set_slide_background(self, slide, img_path):
+        """Set background image for a PowerPoint slide."""
+        if os.path.exists(img_path):
+            left = top = Inches(0)
+            slide.shapes.add_picture(img_path, left, top, width=Inches(self.SLIDE_WIDTH), height=Inches(self.SLIDE_HEIGHT))
+        else:
+            print(f"⚠️ Background image not found: {img_path}")
+    
+    def create_presentation(self, risk_analysis):
+        """Create a PowerPoint presentation with the forecast results."""
+        try:
+            print("Creating PowerPoint presentation...")
+            ppt = Presentation()
+            ppt.slide_width = Inches(self.SLIDE_WIDTH)
+            ppt.slide_height = Inches(self.SLIDE_HEIGHT)
+            
+            # Calculate positions
+            title_left = Inches(self.get_centered_position(self.title_width))
+            image_left = Inches(self.get_centered_position(self.image_width))
+            table_left = Inches(self.get_centered_position(self.table_width))
+            
+            # Slide 1: Title Slide
+            title_slide = ppt.slides.add_slide(ppt.slide_layouts[6])  # blank layout
+            if os.path.exists(self.background_img):
+                self.set_slide_background(title_slide, self.background_img)
+                
+            # Add title
+            box = title_slide.shapes.add_textbox(title_left, Inches(0.7), Inches(self.title_width), Inches(1.5))
+            tf = box.text_frame
+            title = tf.add_paragraph()
+            title.text = f"Crypto Forecast Report: {self.coin_name}"
+            title.font.size = Pt(40)
+            title.font.bold = True
+            title.font.color.rgb = RGBColor(255, 255, 255)
+            try:
+                title.alignment = PP_ALIGN.CENTER
+            except:
+                title.alignment = 2  # Center alignment fallback
+                
+            # Add subtitle
+            sub_box = title_slide.shapes.add_textbox(title_left, Inches(2), Inches(self.title_width), Inches(1))
+            sf = sub_box.text_frame
+            subtitle = sf.add_paragraph()
+            subtitle.text = f"Forecast Horizon: {self.FUTURE_DAYS} Days"
+            subtitle.font.size = Pt(28)
+            subtitle.font.color.rgb = RGBColor(200, 200, 200)
+            try:
+                subtitle.alignment = PP_ALIGN.CENTER
+            except:
+                subtitle.alignment = 2  # Center alignment fallback
+            
+            # Slide 2: Risk Assessment
+            risk_slide = ppt.slides.add_slide(ppt.slide_layouts[6])
+            if os.path.exists(self.background_img):
+                self.set_slide_background(risk_slide, self.background_img)
+                
+            # Add title
+            box = risk_slide.shapes.add_textbox(title_left, Inches(0.7), Inches(self.title_width), Inches(1.5))
+            tf = box.text_frame
+            title = tf.add_paragraph()
+            title.text = "📋 Risk Assessment Summary"
+            title.font.size = Pt(36)
+            title.font.bold = True
+            title.font.color.rgb = RGBColor(255, 255, 255)
+            try:
+                title.alignment = PP_ALIGN.CENTER
+            except:
+                title.alignment = 2  # Center alignment fallback
+                
+            # Add bullet points
+            content_box = risk_slide.shapes.add_textbox(title_left, Inches(2.5), Inches(self.title_width), Inches(3))
+            content_frame = content_box.text_frame
+            content_frame.word_wrap = True
+            
+            for point in [risk_analysis['volatility'], risk_analysis['rsi'], risk_analysis['forecast']]:
+                para = content_frame.add_paragraph()
+                para.text = "• " + point
+                para.font.size = Pt(24)
+                para.font.color.rgb = RGBColor(230, 230, 230)
+                para.space_after = Pt(20)
+            
+            # Slide 3: Forecast Plot
+            forecast_slide = ppt.slides.add_slide(ppt.slide_layouts[6])
+            if os.path.exists(self.background_img):
+                self.set_slide_background(forecast_slide, self.background_img)
+                
+            # Add title
+            box = forecast_slide.shapes.add_textbox(title_left, Inches(0.7), Inches(self.title_width), Inches(1.5))
+            tf = box.text_frame
+            title = tf.add_paragraph()
+            title.text = "Price Forecast with Confidence Intervals"
+            title.font.size = Pt(36)
+            title.font.bold = True
+            title.font.color.rgb = RGBColor(255, 255, 255)
+            try:
+                title.alignment = PP_ALIGN.CENTER
+            except:
+                title.alignment = 2  # Center alignment fallback
+                
+            # Add plot - CENTERED
+            if os.path.exists(self.forecast_plot):
+                forecast_slide.shapes.add_picture(
+                    self.forecast_plot, 
+                    image_left, 
+                    Inches(2.3), 
+                    width=Inches(self.image_width)
+                )
+            else:
+                print(f"⚠️ Forecast plot not found: {self.forecast_plot}")
+            
+            # Slide 4: Key Indicators
+            indicators_slide = ppt.slides.add_slide(ppt.slide_layouts[6])
+            if os.path.exists(self.background_img):
+                self.set_slide_background(indicators_slide, self.background_img)
+                
+            # Add title
+            box = indicators_slide.shapes.add_textbox(title_left, Inches(0.7), Inches(self.title_width), Inches(1.5))
+            tf = box.text_frame
+            title = tf.add_paragraph()
+            title.text = "Key Technical Indicators"
+            title.font.size = Pt(36)
+            title.font.bold = True
+            title.font.color.rgb = RGBColor(255, 255, 255)
+            try:
+                title.alignment = PP_ALIGN.CENTER
+            except:
+                title.alignment = 2  # Center alignment fallback
+                
+            # Add plot - CENTERED
+            if os.path.exists(self.indicators_plot):
+                indicators_slide.shapes.add_picture(
+                    self.indicators_plot, 
+                    image_left, 
+                    Inches(2.3), 
+                    width=Inches(self.image_width)
+                )
+            else:
+                print(f"⚠️ Indicators plot not found: {self.indicators_plot}")
+            
+            # Slide 5: Forecast Table
+            forecast_table_slide = ppt.slides.add_slide(ppt.slide_layouts[6])
+            if os.path.exists(self.background_img):
+                self.set_slide_background(forecast_table_slide, self.background_img)
+                
+            # Add title
+            box = forecast_table_slide.shapes.add_textbox(title_left, Inches(0.7), Inches(self.title_width), Inches(1.5))
+            tf = box.text_frame
+            title = tf.add_paragraph()
+            title.text = "Detailed Forecast Table"
+            title.font.size = Pt(36)
+            title.font.bold = True
+            title.font.color.rgb = RGBColor(255, 255, 255)
+            try:
+                title.alignment = PP_ALIGN.CENTER
+            except:
+                title.alignment = 2  # Center alignment fallback
+            
+            # Get last 10 days of forecast
+            last_forecast = self.forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail(10)
+            
+            # Add a proper PowerPoint table
+            table_rows = 1 + len(last_forecast)  # Header + data rows
+            table_cols = 4  # Date, Forecast, Low, High
+            
+            try:
+                table = forecast_table_slide.shapes.add_table(
+                    table_rows, 
+                    table_cols,
+                    table_left, 
+                    Inches(2.3),
+                    Inches(self.table_width), 
+                    Inches(4.4)  # Height based on rows
+                ).table
+                
+                # Set column widths (equal widths) - Convert to integer
+                col_width = int(Inches(self.table_width / table_cols))
+                for col in range(table_cols):
+                    table.columns[col].width = col_width
+                
+                # Set header row
+                table.cell(0, 0).text = "Date"
+                table.cell(0, 1).text = "Forecast"
+                table.cell(0, 2).text = "Low"
+                table.cell(0, 3).text = "High"
+                
+                # Format header row - Blue background with white text
+                for col in range(table_cols):
+                    cell = table.cell(0, col)
+                    # Set background color (blue)
+                    cell.fill.solid()
+                    cell.fill.fore_color.rgb = self.header_color
+                    
+                    # Format text
+                    paragraph = cell.text_frame.paragraphs[0]
+                    paragraph.font.size = Pt(20)
+                    paragraph.font.bold = True
+                    paragraph.font.color.rgb = self.header_text_color
+                    try:
+                        paragraph.alignment = PP_ALIGN.CENTER
+                    except:
+                        paragraph.alignment = 2  # CENTER value
+                
+                # Fill in the data rows with alternating colors
+                for i, (_, row) in enumerate(last_forecast.iterrows(), start=1):
+                    # Set text
+                    table.cell(i, 0).text = str(row['ds'].date())
+                    table.cell(i, 1).text = f"{row['yhat']:.2f}"
+                    table.cell(i, 2).text = f"{row['yhat_lower']:.2f}"
+                    table.cell(i, 3).text = f"{row['yhat_upper']:.2f}"
+                    
+                    # Set row background color (alternating)
+                    row_color = self.row_color1 if i % 2 == 1 else self.row_color2
+                    
+                    # Format data cells
+                    for col in range(table_cols):
+                        cell = table.cell(i, col)
+                        
+                        # Set background color for cell
+                        cell.fill.solid()
+                        cell.fill.fore_color.rgb = row_color
+                        
+                        # Format text
+                        paragraph = cell.text_frame.paragraphs[0]
+                        paragraph.font.size = Pt(18)
+                        paragraph.font.color.rgb = self.row_text_color
+                        try:
+                            paragraph.alignment = PP_ALIGN.CENTER
+                        except:
+                            paragraph.alignment = 2  # CENTER value
+            
+            except Exception as e:
+                print(f"⚠️ Error creating table: {str(e)}")
+                # Fallback to text box if table fails
+                table_box = forecast_table_slide.shapes.add_textbox(
+                    table_left, 
+                    Inches(2.3), 
+                    Inches(self.table_width), 
+                    Inches(4)
+                )
+                tf = table_box.text_frame
+                tf.word_wrap = True
+                
+                # Add header
+                header = tf.add_paragraph()
+                header.text = "Date          Forecast       Low        High"
+                header.font.size = Pt(20)
+                header.font.bold = True
+                header.font.color.rgb = RGBColor(255, 255, 255)
+                header.space_after = Pt(12)
+                try:
+                    header.alignment = PP_ALIGN.CENTER
+                except:
+                    header.alignment = 2  # CENTER value
+                
+                # Add data rows
+                for _, row in last_forecast.iterrows():
+                    data_row = tf.add_paragraph()
+                    data_row.text = f"{row['ds'].date()}   {row['yhat']:.2f}   {row['yhat_lower']:.2f}   {row['yhat_upper']:.2f}"
+                    data_row.font.size = Pt(18)
+                    data_row.font.color.rgb = RGBColor(230, 230, 230)
+                    data_row.space_after = Pt(6)
+                    try:
+                        data_row.alignment = PP_ALIGN.CENTER
+                    except:
+                        data_row.alignment = 2  # CENTER value
+            
+            # Save the presentation with error handling for file access issues
+            output_pptx = os.path.join('pptx', f'{self.coin_name}_forecast_report.pptx')
+            
+            try:
+                ppt.save(output_pptx)
+                print(f"\n✅ Analysis complete! Presentation saved as: {output_pptx}")
+                return output_pptx
+            except PermissionError:
+                # Try to create a new filename with timestamp if file is in use
+                from datetime import datetime
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                alt_output_pptx = os.path.join('pptx', f'{self.coin_name}_forecast_report_{timestamp}.pptx')
+                
+                try:
+                    ppt.save(alt_output_pptx)
+                    print(f"\n✅ Analysis complete! Original file was in use.")
+                    print(f"✅ Presentation saved with alternate name: {alt_output_pptx}")
+                    return alt_output_pptx
+                except Exception as e:
+                    print(f"\n⚠️ Could not save presentation: The file may be open in PowerPoint.")
+                    print(f"⚠️ Please close any open presentations and try again, or specify a different output location.")
+                    return None
+            
+        except Exception as e:
+            print(f"⚠️ Error creating presentation: {str(e)}")
+            raise
+    
+    def run(self, coin_keyword):
+        """Run the full forecasting and presentation creation workflow."""
+        try:
+            print("\n🔍 Searching for cryptocurrency data...")
+            self.find_crypto_file(coin_keyword)
+            
+            print("📊 Loading and preprocessing data...")
+            self.load_and_preprocess_data()
+            
+            print("🔧 Generating technical features...")
+            self.generate_features()
+            
+            print("🔮 Creating price forecast...")
+            self.create_forecast()
+            
+            print("📈 Creating technical indicator plots...")
+            self.create_indicator_plots()
+            
+            print("⚖️ Analyzing risk factors...")
+            risk_analysis = self.analyze_risk()
+            
+            print("📑 Creating presentation...")
+            output_file = self.create_presentation(risk_analysis)
+            
+            return output_file
+            
+        except Exception as e:
+            print(f"\n❌ Error: {str(e)}")
+            return None
+
+
+def main():
+    """Main function to run the crypto forecast generator."""
+    # Print welcome message
+    print("\n" + "="*50)
+    print("🚀 Cryptocurrency Forecast Report Generator 🚀")
+    print("="*50)
+    
+    # Get user input
+    coin_keyword = input("\nEnter coin keyword (e.g., 'Binance', 'AVAX', 'CoinW'): ").strip()
+    
+    # Run the forecast generator
+    generator = CryptoForecastGenerator()
+    try:
+        # Check if any PowerPoint presentations are currently open
+        powerpoint_warning_shown = False
+        if 'psutil' in sys.modules:
+            try:
+                import psutil
+                powerpoint_running = False
+                for proc in psutil.process_iter(['name']):
+                    if proc.info['name'] and 'powerpnt' in proc.info['name'].lower():
+                        powerpoint_running = True
+                        print("\n⚠️ PowerPoint appears to be running.")
+                        print("⚠️ If you're editing the same presentation file, please save and close it first.")
+                        user_choice = input("Do you want to continue anyway? (y/n): ").strip().lower()
+                        powerpoint_warning_shown = True
+                        if user_choice != 'y':
+                            print("Operation cancelled by user.")
+                            return
+                        break
+            except Exception:
+                # If psutil fails for any reason, continue without the check
+                pass
+        
+        # Show a simple warning if we couldn't check for PowerPoint
+        if not powerpoint_warning_shown:
+            print("\nℹ️ Note: If PowerPoint is open, please ensure you're not editing the output file.")
+                
+        output_file = generator.run(coin_keyword)
+        if output_file:
+            print("\n🎉 Process completed successfully!")
+            # Inform the user if they need to retry with a different filename
+            if not os.path.exists(output_file):
+                print("\n⚠️ Note: The presentation couldn't be saved to the default location.")
+                print("⚠️ To fix this issue, try:")
+                print("   1. Close any open PowerPoint presentations")
+                print("   2. Check if you have write permissions to the 'pptx' folder")
+                print("   3. Run the script again")
+    except Exception as e:
+        print(f"\n Process failed: {str(e)}")
+        if "Permission denied" in str(e):
+            print("\n⚠️ It appears the output file is open in another application (like PowerPoint).")
+            print("⚠️ Please close any open presentations and try again.")
+        else:
+            print("\nPlease check your input data and try again.")
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n\n⚠️ Process interrupted by user. Exiting...")
+    except Exception as e:
+        print(f"\n\n❌ Unexpected error: {str(e)}")
+        print("Please check your environment and try again.")
