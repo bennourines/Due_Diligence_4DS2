@@ -6,6 +6,8 @@ import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/Delete';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { useRouter } from 'next/navigation';
+import HomeIcon from '@mui/icons-material/Home';
 
 interface Chat {
   _id: string;
@@ -34,6 +36,14 @@ export default function ChatHistory({
   const [chats, setChats] = useState<Chat[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  const router = useRouter();
+  
+  // Add this handler function
+  const handleHomeClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    router.push('/home');
+  };
   
   // Remove the local state for showChatHistory - we'll use the prop instead
   // const [showChatHistory, setShowChatHistory] = useState(true);
@@ -136,59 +146,78 @@ return (
       flexDirection: 'column',
     }}
   >
-    <Box 
-    sx={{ 
-      display: 'flex', 
-      justifyContent: 'space-between', 
-      alignItems: 'center',
-      mb: 2,
-      borderBottom: '1px solid var(--primary-color)',
-      pb: 1,
-    }}>
-      <Typography
-        variant="h6"
-        sx={{
-          fontFamily: 'var(--font-primary)',
-          color: 'var(--text-primary)',
-          borderRadius: 'var(--border-radius)',
-        }}
-      >
-        Chat History
-      </Typography>
-      
-      {/* Actions container with both buttons */}
-      <Box sx={{ display: 'flex', gap: 1 }}>
-        {/* Toggle button to hide chat history - Use handleHideClick */}
-        <IconButton
-          onClick={handleHideClick}
-          sx={{
-            minWidth: 'auto',
-            p: '4px',
-            color: 'var(--primary-light)',
-            '&:hover': {
-              bgcolor: 'rgba(79, 70, 229, 0.1)',
-            },
-          }}
-        >
-          <ChevronLeftIcon fontSize="small" />
-        </IconButton>
-        
-        {/* Create new chat button */}
-        <IconButton
-          onClick={onCreateNewChat}
-          sx={{
-            minWidth: 'auto',
-            p: '4px',
-            color: 'var(--primary-light)',
-            '&:hover': {
-              bgcolor: 'rgba(79, 70, 229, 0.1)',
-            },
-          }}
-        >
-          <AddIcon fontSize="small" />
-        </IconButton>
-      </Box>
-    </Box>
+<Box 
+  sx={{ 
+    display: 'flex', 
+    justifyContent: 'space-between', 
+    alignItems: 'center',
+    mb: 2,
+    borderBottom: '1px solid var(--primary-color)',
+    pb: 1,
+    bgcolor: 'rgba(15, 23, 42, 0.8)', // Added darker background color
+    borderRadius: 'var(--border-radius)',
+    p: 1, // Added padding for better appearance
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' // Added subtle shadow for depth
+  }}>
+  <Typography
+    variant="h6"
+    sx={{
+      fontFamily: 'var(--font-primary)',
+      color: 'var(--text-primary)',
+      borderRadius: 'var(--border-radius)',
+      pl: 1 // Added left padding for better text alignment
+    }}
+  >
+    Chat History
+  </Typography>
+  
+  {/* Actions container with both buttons */}
+  <Box sx={{ display: 'flex', gap: 1 }}>
+    {/* Toggle button to hide chat history - Use handleHideClick */}
+    <IconButton
+      onClick={handleHideClick}
+      sx={{
+        minWidth: 'auto',
+        p: '4px',
+        color: 'var(--primary-light)',
+        '&:hover': {
+          bgcolor: 'rgba(79, 70, 229, 0.1)',
+        },
+      }}
+    >
+      <ChevronLeftIcon fontSize="small" />
+    </IconButton>
+    
+    {/* Create new chat button */}
+    <IconButton
+      onClick={onCreateNewChat}
+      sx={{
+        minWidth: 'auto',
+        p: '4px',
+        color: 'var(--primary-light)',
+        '&:hover': {
+          bgcolor: 'rgba(79, 70, 229, 0.1)',
+        },
+      }}
+    >
+      <AddIcon fontSize="small" />
+    </IconButton>
+
+    <IconButton
+      onClick={handleHomeClick}
+      sx={{
+        minWidth: 'auto',
+        p: '4px',
+        color: 'var(--primary-light)',
+        '&:hover': {
+          bgcolor: 'rgba(79, 70, 229, 0.1)',
+        },
+      }}
+    >
+      <HomeIcon fontSize="small" />
+    </IconButton>
+  </Box>
+</Box>
     
     {loading ? (
       <Box sx={{ display: 'flex', justifyContent: 'center', my: 4 }}>
@@ -222,7 +251,7 @@ return (
       chats.map((chat) => (
         <Paper
           variant="outlined"
-          className="pulse-element"
+  
           key={chat._id}
           elevation={1}
           onClick={() => onSelectChat?.(chat._id)}
@@ -230,8 +259,8 @@ return (
             mb: 2,
             p: 2,
             bgcolor: activeChat === chat._id 
-              ? 'rgba(79, 70, 229, 0.1)' 
-              : 'rgba(15, 23, 42, 0.3)',
+              ? 'rgba(255, 255, 255, 0.2)' 
+              : 'rgba(4, 4, 4, 0.3)',
             color: 'var(--text-primary)',
             border: '1px solid var(--primary-color)',
             cursor: 'pointer',
@@ -239,8 +268,8 @@ return (
             transition: 'var(--transition-smooth)',
             '&:hover': {
               bgcolor: activeChat === chat._id 
-                ? 'rgba(79, 70, 229, 0.2)' 
-                : 'rgba(79, 70, 229, 0.1)',
+                ? 'rgba(255, 255, 255, 0.3)' 
+                : 'rgba(0, 0, 0, 0.1)',
               boxShadow: 'var(--shadow-glow)',
             },
             position: 'relative',

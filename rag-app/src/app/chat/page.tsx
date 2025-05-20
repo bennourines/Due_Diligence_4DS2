@@ -12,6 +12,7 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 // Import the AdvancedAnimatedText component instead of TextFormatter
 import CombinedAnimatedTextFormatter from '../components/CombinedAnimatedTextFormatter';
 import DocumentSelector from '../components/DocumentSelector';
+import Head from '../components/Head';
 
 interface Message {
   _id?: string;
@@ -42,6 +43,7 @@ export default function Home() {
   const [skipAnimations, setSkipAnimations] = useState(false); // Flag to skip animations
   const [activeDocumentId, setActiveDocumentId] = useState<string | null>(null);
   const [showChatHistory, setShowChatHistory] = useState(false);
+  const [animatedMessageIds, setAnimatedMessageIds] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     const user = localStorage.getItem('user');
@@ -89,10 +91,17 @@ export default function Home() {
   }, [messages]);
 
   // Function to handle animation completion
-  const handleAnimationComplete = (index: number) => {
+  const handleAnimationComplete = (index: number ,  messageId?: string) => {
     if (index === messages.length - 1) {
       scrollToBottom();
     }
+    if (messageId) {
+    setAnimatedMessageIds(prev => {
+      const updated = new Set(prev);
+      updated.add(messageId);
+      return updated;
+    });
+  }
   };
 
   const createNewChat = async (userId: string) => {
@@ -132,26 +141,26 @@ export default function Home() {
     }
   };
 
-  const loadMessages = async (chatId: string) => {
-    try {
-      setIsLoading(true);
-      const response = await fetch(`/api/chat?chatId=${chatId}`);
-      
-      if (!response.ok) {
-        throw new Error(`Failed to load messages: ${response.status}`);
-      }
-      
-      const data = await response.json();
-      setMessages(data.messages || []);
-      // Reset animation skip flag when loading new messages
-      setSkipAnimations(false);
-    } catch (error) {
-      console.error('Error loading messages:', error);
-      setError('Failed to load messages. Please try again.');
-    } finally {
-      setIsLoading(false);
+const loadMessages = async (chatId: string) => {
+  try {
+    setIsLoading(true);
+    const response = await fetch(`/api/chat?chatId=${chatId}`);
+    
+    if (!response.ok) {
+      throw new Error(`Failed to load messages: ${response.status}`);
     }
-  };
+    
+    const data = await response.json();
+    setMessages(data.messages || []);
+    // Don't reset animatedMessageIds here!
+    // setSkipAnimations(false); - You can keep this line
+  } catch (error) {
+    console.error('Error loading messages:', error);
+    setError('Failed to load messages. Please try again.');
+  } finally {
+    setIsLoading(false);
+  }
+};
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -330,13 +339,16 @@ const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     
     // Create a detailed system message about the file upload results
     let resultMessage: Message;
-    
-    if (data.status === 'ok') {
-      resultMessage = {
-        role: 'assistant',
-        content: `${files.length} file${files.length > 1 ? 's have' : ' has'} been successfully uploaded and processed. A total of ${data.chunks_added} chunks were added to the vector store. How can I help you?`,
-      } as Message;
-    } else if (data.status === 'partial') {
+
+if (data.status === 'ok') {
+  // IMPROVED: Format success message to ensure proper parsing
+  // Make sure there's a clear separator between filename list and the rest of the message
+  resultMessage = {
+    role: 'assistant',
+    content: `${files.length} file${files.length > 1 ? 's have' : ' has'} been successfully uploaded and processed: ${fileNames}.`,
+    isNew: true
+  } as Message;
+      } else if (data.status === 'partial') {
       const successFiles = data.processed_files.map((f: any) => f.filename).join(", ");
       const errorFiles = data.errors.join("\n");
       resultMessage = {
@@ -453,6 +465,14 @@ const handleGenerateQuestions = async (fileId: string) => {
     
     setIsLoading(true);
     
+    // Log the fileId being used
+    console.log("Generating questions for document ID:", fileId);
+    
+    // IMPORTANT: The backend expects document IDs without spaces
+    // If fileId isn't already properly formatted, ensure it matches backend format
+    // This matches how docId is created in the ingest function: doc.metadata["doc_id"] = os.path.splitext(file.filename)[0]
+    // No additional transformation needed here - the DocumentSelector component handles this
+    
     // Call the backend API
     const response = await fetch('http://localhost:8001/generate-questions', {
       method: 'POST',
@@ -465,21 +485,34 @@ const handleGenerateQuestions = async (fileId: string) => {
     });
     
     if (!response.ok) {
-      throw new Error(`Failed to generate questions: ${response.status}`);
+      const errorText = await response.text();
+      console.error("Error response:", errorText);
+      throw new Error(`Failed to generate questions: ${response.status} - ${errorText}`);
     }
     
     const data = await response.json();
+    console.log("Question generation response:", data);
     
     if (data.status === 'error') {
       throw new Error(data.message);
     }
     
     // Format the questions
-    let questionsText = "Here are some questions I've generated about this document:\n\n";
-    data.questions.forEach((q: { question: string }, index: number) => {
-      questionsText += `${index + 1}. ${q.question}\n`;
-    });
-    questionsText += "\nYou can click on any question to get an answer.";
+    let questionsText = fileId === 'all' 
+      ? "Here are some questions I've generated about your documents:\n\n"
+      : `Here are some questions I've generated about this document:\n\n`;
+      
+    // Handle case where no questions were returned
+    if (!data.questions || data.questions.length === 0) {
+      questionsText = "I couldn't generate any specific questions for this document. Please try selecting a different document or using 'All Documents'.";
+    } else {
+      // Format the questions with numbering
+      data.questions.forEach((q: { question: string }, index: number) => {
+        questionsText += `${index + 1}. ${q.question}\n`;
+      });
+      
+      questionsText += "\nYou can click on any question to get an answer.";
+    }
     
     // Create the assistant message
     const assistantMessage = {
@@ -507,7 +540,7 @@ const handleGenerateQuestions = async (fileId: string) => {
     }
   } catch (error) {
     console.error('Error generating questions:', error);
-    setError('Failed to generate questions. Please try again.');
+    setError(`Failed to generate questions: ${error instanceof Error ? error.message : String(error)}`);
   } finally {
     setIsLoading(false);
   }
@@ -608,9 +641,14 @@ const handleGenerateQuestions = async (fileId: string) => {
   };
 
 return (
+<Box sx={{ display: 'flex', height: '100vh', position: 'relative', flexDirection: 'column' }}>
+    
   <Box sx={{ display: 'flex', height: '100vh', position: 'relative' }}>
+    
+    
     {/* Neural network background */}
     <Box className="grid-background" />
+   
     
     {/* Ambient glow effects */}
     <Box 
@@ -670,6 +708,8 @@ return (
         <LogoutIcon />
       </IconButton>
     </Box>
+
+
     
 {/* Chat History Component with Toggle */}
 <Box
@@ -677,7 +717,7 @@ return (
     display: 'flex',
     position: 'relative',
     zIndex: 10,
-    transition: 'var(--transition-smooth)',
+    transition: 'var(--primary-glow)',
     width: showChatHistory ? 'auto' : '0px',
     overflow: 'hidden',
   }}
@@ -729,20 +769,11 @@ return (
         p: 2, 
         display: 'flex', 
         flexDirection: 'column',
-        transition: 'var(--transition-smooth)',
+        transition: 'var(--primary-glow)',
       }}
     >
       {/* Agent Status Indicator */}
-      <Box 
-        className="agent-status"
-        sx={{ 
-          alignSelf: 'flex-end', 
-          mb: 2,
-          fontFamily: 'var(--font-primary)'
-        }}
-      >
-        AI Agent Active
-      </Box>
+
       
       {/* Main Chat Area */}
       <Paper 
@@ -889,28 +920,29 @@ return (
                         fontSize: '0.7rem'
                       }}
                     >
-                      Agent Response
+                      LST AGENT
                     </Typography>
                   </Box>
                 )}
                 
-                <CombinedAnimatedTextFormatter 
-                  text={message.content}
-                  className="whitespace-pre-line"
-                  role={message.role}
-                  isNewMessage={message.isNew}
-                  onComplete={() => handleAnimationComplete(index)}
-                  sx={{ 
-                    mb: message.sources && message.sources.length > 0 ? 2 : 0,
-                    color: 'var(--text-primary)',
-                    fontFamily: 'var(--font-primary)',
-                    letterSpacing: '0.5px'
-                  }}
-                />
+              <CombinedAnimatedTextFormatter 
+                text={message.content}
+                className="whitespace-pre-line"
+                role={message.role}
+                isNewMessage={message.isNew && message._id ? !animatedMessageIds.has(message._id) : false}
+                onComplete={() => handleAnimationComplete(index, message._id)}
+                sx={{ 
+                  mb: message.sources && message.sources.length > 0 ? 2 : 0,
+                  color: 'var(--text-primary)',
+                  fontFamily: 'var(--font-primary)',
+                  letterSpacing: '0.5px'
+                }}
+              />
                 
                 {/* Generate Questions button with Agentic AI styling */}
+                
                 {message.role === 'assistant' && 
-                  message.content.includes('has been successfully uploaded and processed') && (
+                  (message.content.includes('has been successfully uploaded and processed') || 
                   message.content.includes('have been successfully uploaded and processed')) && (
                   <DocumentSelector 
                     message={message}
@@ -1241,5 +1273,6 @@ return (
         {error}
       </Alert>
     </Snackbar>
+  </Box>
   </Box>
 )};

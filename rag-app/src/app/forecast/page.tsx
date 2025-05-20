@@ -349,7 +349,7 @@ export default function ForecastReportPage() {
         {/* Loading and Status */}
         {isLoading && (
           <Paper 
-            className="container pulse-element" 
+            className="container" 
             elevation={0}
             sx={{ 
               p: 4, 
