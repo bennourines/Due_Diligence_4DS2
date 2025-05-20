@@ -1,3 +1,6 @@
+
+// Fixed version of CombinedAnimatedTextFormatter.tsx
+
 'use client';
 
 import React, { useState, useEffect, useRef, ReactNode } from 'react';
@@ -11,7 +14,7 @@ interface CombinedAnimatedTextFormatterProps {
   role?: 'user' | 'assistant';
   onComplete?: () => void;
   enableMarkdown?: boolean;
-  isNewMessage?: boolean; // New prop to determine if this is a new message
+  isNewMessage?: boolean; // Whether to animate this message
 }
 
 const CombinedAnimatedTextFormatter: React.FC<CombinedAnimatedTextFormatterProps> = ({
@@ -21,21 +24,26 @@ const CombinedAnimatedTextFormatter: React.FC<CombinedAnimatedTextFormatterProps
   role = 'assistant',
   onComplete,
   enableMarkdown = true,
-  isNewMessage = false // Default to false (no animation for existing messages)
+  isNewMessage = false
 }) => {
   // Fixed delay constant
-  const delay = 25; // ms
+  const delay = 15; // ms
 
-  const [displayedText, setDisplayedText] = useState('');
-  const [isComplete, setIsComplete] = useState(!isNewMessage); // Initialize as complete if not a new message
+  // Initialize state based on whether we should animate
+  const [displayedText, setDisplayedText] = useState(isNewMessage ? '' : text);
+  const [isComplete, setIsComplete] = useState(!isNewMessage);
   const [htmlContent, setHtmlContent] = useState<ReactNode[]>([]);
+  const [skipAnimations, setSkipAnimations] = useState(false);
+  
+  // Use refs to avoid re-renders
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [skipAnimations, setSkipAnimations] = useState(false);
-  const [initialRender, setInitialRender] = useState(true);
+  const animationStartedRef = useRef(false);
+  const initialRenderRef = useRef(true);
 
-  // TextFormatter logic: Format the text with bold text, code blocks and clickable links
+  // Text formatter logic (keep your existing implementation)
   const formatText = (text: string): ReactNode[] => {
+    // Your existing formatText implementation
     if (!text) return [];
 
     // Create a version with markdown-processed HTML for the final rendering
@@ -57,6 +65,7 @@ const CombinedAnimatedTextFormatter: React.FC<CombinedAnimatedTextFormatterProps
       }
     );
 
+    // Your existing code for formatting text
     // Split the text by sections that need special formatting
     // First, handle text between ** markers for bold
     const boldRegex = /\*\*(.*?)\*\*/g;
@@ -161,7 +170,7 @@ const CombinedAnimatedTextFormatter: React.FC<CombinedAnimatedTextFormatterProps
               borderRadius: '4px',
               overflowX: 'auto',
               width: '100%',
-             fontFamily: 'var(--font-primary)',
+              fontFamily: 'var(--font-primary)',
             }}
           >
             <Box component="code">{part.content}</Box>
@@ -217,27 +226,20 @@ const CombinedAnimatedTextFormatter: React.FC<CombinedAnimatedTextFormatterProps
   useEffect(() => {
     if (isComplete) {
       try {
-        // Use TextFormatter logic to format the text
-        const formattedNodes = formatText(text); // Use the full text, not displayedText
+        // Format the complete text once animation is done
+        const formattedNodes = formatText(text);
         setHtmlContent(formattedNodes);
         
-        // Apply additional markdown formatting if enabled
+        // Additional markdown formatting if enabled
         if (enableMarkdown) {
-          // Configure marked options
           marked.setOptions({
             breaks: true,
             gfm: true,
           });
           
-          // Async markdown parsing for complex elements
           const parseMarkdown = async () => {
             try {
-              // For complex markdown elements that TextFormatter doesn't handle
-              const parsedHtml = await marked.parse(text); // Use the full text
-              
-              // We keep the TextFormatter processing for compatibility,
-              // but could use the marked output for a more complete markdown rendering
-              // if desired in the future
+              await marked.parse(text);
             } catch (error) {
               console.error('Error parsing markdown:', error);
             }
@@ -247,95 +249,98 @@ const CombinedAnimatedTextFormatter: React.FC<CombinedAnimatedTextFormatterProps
         }
       } catch (error) {
         console.error('Error in formatting text:', error);
-        setHtmlContent([text]); // Fall back to full text
+        setHtmlContent([text]);
       }
     }
   }, [text, isComplete, enableMarkdown, role]);
 
-  // Set initial state based on whether this is a new message
+  // Initialize on first render
   useEffect(() => {
-    if (initialRender) {
-      setInitialRender(false);
+    // Handle initial render
+    if (initialRenderRef.current) {
+      initialRenderRef.current = false;
       
-      if (!isNewMessage) {
-        // For existing messages, immediately show the full text without animation
+      // For non-animated messages, show full text immediately
+      if (!isNewMessage || role === 'user') {
         setDisplayedText(text);
         setIsComplete(true);
         onComplete?.();
       }
     }
-  }, [initialRender, isNewMessage, text, onComplete]);
+  }, [isNewMessage, role, text, onComplete]);
 
-  // Animation effect - only runs for new messages
+  // Animation effect - completely rewritten to be simpler and more reliable
   useEffect(() => {
-    // Skip animation for existing messages or user messages
+    // Only run animation for new assistant messages
     if (!isNewMessage || role === 'user') {
-      setDisplayedText(text);
-      setIsComplete(true);
-      onComplete?.();
       return;
     }
     
-    // Reset state for new messages
-    if (isNewMessage && initialRender === false) {
-      setDisplayedText('');
-      setIsComplete(false);
-      setHtmlContent([]);
-      setSkipAnimations(false);
+    // Only start animation once
+    if (animationStartedRef.current) {
+      return;
+    }
+    
+    // Mark that we've started animation
+    animationStartedRef.current = true;
+    
+    console.log("Animation starting for:", text.substring(0, 20) + "..."); // Debug
+    
+    // Reset state for new animation
+    setDisplayedText('');
+    setIsComplete(false);
+    
+    let index = 0;
+    
+    // Clear any existing timeout
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    
+    // Animation function
+    const animateText = () => {
+      if (skipAnimations) {
+        // Skip animation if requested
+        setDisplayedText(text);
+        setIsComplete(true);
+        onComplete?.();
+        return;
+      }
       
-      let index = 0;
-      
-      // Clear any existing timeout
+      if (index <= text.length) {
+        const currentText = text.substring(0, index);
+        setDisplayedText(currentText);
+        
+        // Adjust speed based on character
+        let nextDelay = delay;
+        if (text[index] === '`' || text[index] === '\n') {
+          nextDelay = delay / 2; // Speed up for code formatting
+        } else if ('.!?:'.includes(text[index] || '')) {
+          nextDelay = delay * 3; // Slow down for punctuation
+        }
+        
+        index++;
+        timeoutRef.current = setTimeout(animateText, nextDelay);
+      } else {
+        // Animation complete
+        setIsComplete(true);
+        onComplete?.();
+      }
+    };
+    
+    // Start animation with a small initial delay
+    timeoutRef.current = setTimeout(animateText, 100);
+    
+    // Cleanup
+    return () => {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
       }
-      
-      // Handle special content like code blocks more naturally
-      const animateText = () => {
-        if (skipAnimations) {
-          // Skip rest of animation if user requested
-          setDisplayedText(text);
-          setIsComplete(true);
-          onComplete?.();
-          return;
-        }
-        
-        if (index <= text.length) {
-          const currentText = text.substring(0, index);
-          setDisplayedText(currentText);
-          
-          // Determine next delay based on character type
-          let nextDelay = delay;
-          
-          // Speed up for code blocks and slow down for important punctuation
-          if (text[index] === '`' || text[index] === '\n') {
-            nextDelay = delay / 2; // Speed up for code formatting
-          } else if ('.!?:'.includes(text[index] || '')) {
-            nextDelay = delay * 3; // Slow down for end of sentences
-          }
-          
-          index++;
-          timeoutRef.current = setTimeout(animateText, nextDelay);
-        } else {
-          setIsComplete(true);
-          onComplete?.();
-        }
-      };
-      
-      // Start animation
-      timeoutRef.current = setTimeout(animateText, delay);
-      
-      return () => {
-        if (timeoutRef.current) {
-          clearTimeout(timeoutRef.current);
-        }
-      };
-    }
-  }, [text, delay, role, onComplete, skipAnimations, isNewMessage, initialRender]);
+    };
+  }, [isNewMessage, role, text, delay, onComplete, skipAnimations]);
 
-  // Simple version for in-progress text
+  // Render in-progress text during animation
   const renderInProgressText = () => {
-    // Simple text rendering with line breaks preserved
     return displayedText.split('\n').map((line, i) => (
       <React.Fragment key={i}>
         {line}
@@ -344,6 +349,7 @@ const CombinedAnimatedTextFormatter: React.FC<CombinedAnimatedTextFormatterProps
     ));
   };
 
+  // Render component
   return (
     <Typography
       component="div"
@@ -391,8 +397,8 @@ const CombinedAnimatedTextFormatter: React.FC<CombinedAnimatedTextFormatterProps
         renderInProgressText()
       )}
       
-      {/* Blinking cursor at the end while typing - only for new messages being animated */}
-      {!isComplete && isNewMessage && role === 'assistant' && (
+      {/* Blinking cursor at the end while typing */}
+      {!isComplete && role === 'assistant' && (
         <Box 
           component="span" 
           sx={{ 

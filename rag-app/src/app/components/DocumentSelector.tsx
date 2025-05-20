@@ -1,4 +1,4 @@
-// Component to manage uploaded document selection and generate questions
+// Fixed DocumentSelector with proper filename extraction
 import { useState, useEffect } from 'react';
 import { Box, Button, FormControl, Select, MenuItem, InputLabel, Typography, SelectChangeEvent } from '@mui/material';
 
@@ -23,163 +23,221 @@ interface DocumentSelectorProps {
   isLoading: boolean;
 }
 
+// Interface to store both display name and ID
+interface DocumentInfo {
+  displayName: string;
+  id: string;
+}
+
 const DocumentSelector = ({ message, onGenerateQuestions, isLoading }: DocumentSelectorProps) => {
-  const [selectedFile, setSelectedFile] = useState<string>('');
-  const [uploadedFiles, setUploadedFiles] = useState<string[]>([]);
+  const [selectedFile, setSelectedFile] = useState<string>('all');
+  const [documents, setDocuments] = useState<DocumentInfo[]>([]);
 
   useEffect(() => {
-    // Extract file names from the message content
+    // Extract filenames from the success message
     const content = message.content;
-    if (content.includes('have been successfully uploaded')) {
-      // Multiple files case
-      const fileListMatch = content.match(/files: (.*?) have been/);
-      if (fileListMatch && fileListMatch[1]) {
-        const fileNames = fileListMatch[1].split(', ').map((name: string) => name.trim());
-        setUploadedFiles(fileNames);
-        if (fileNames.length > 0) {
-          setSelectedFile(fileNames[0]);
-        }
-      }
-    } else if (content.includes('has been successfully uploaded')) {
-      // Single file case
-      const fileMatch = content.match(/File (.*?) has been/);
-      if (fileMatch && fileMatch[1]) {
-        const fileName = fileMatch[1].trim();
-        setUploadedFiles([fileName]);
-        setSelectedFile(fileName);
+    console.log("Processing message content:", content);
+    
+    // FIXED REGEX: Look for PDF filenames more precisely
+    const pdfRegex = /\b([a-zA-Z0-9\s_-]+\.pdf)\b/gi;
+    const matches = content.match(pdfRegex);
+    
+    const extractedDocs: DocumentInfo[] = [];
+    
+    if (matches && matches.length > 0) {
+      console.log("Extracted PDF filenames:", matches);
+      
+      // Process each filename
+      matches.forEach(filename => {
+        // Clean the filename - remove any trailing punctuation
+        const cleanFilename = filename.replace(/[.,;:]$/, '');
+        
+        // For document ID, remove extension and replace spaces with underscores
+        const docId = cleanFilename.split('.')[0].replace(/\s+/g, '_');
+        
+        extractedDocs.push({
+          displayName: cleanFilename,
+          id: docId
+        });
+      });
+    } else {
+      // Fallback: Try to extract using a different approach
+      // Look for a specific pattern like "uploaded and processed: file1.pdf, file2.pdf"
+      const uploadPattern = /processed:?\s*([^.]+\.pdf(?:,\s*[^.]+\.pdf)*)/i;
+      const uploadMatch = content.match(uploadPattern);
+      
+      if (uploadMatch && uploadMatch[1]) {
+        // Split the file list by commas
+        const fileList = uploadMatch[1].split(',');
+        fileList.forEach(file => {
+          const cleanFile = file.trim();
+          // Make sure it looks like a PDF
+          if (cleanFile.toLowerCase().endsWith('.pdf')) {
+            const docId = cleanFile.split('.')[0].replace(/\s+/g, '_');
+            extractedDocs.push({
+              displayName: cleanFile,
+              id: docId
+            });
+          }
+        });
       }
     }
+    
+    // If we still found nothing, try one more approach
+    if (extractedDocs.length === 0) {
+      // Split the content into words and look for .pdf
+      const words = content.split(/\s+/);
+      for (let i = 0; i < words.length; i++) {
+        if (words[i].toLowerCase().endsWith('.pdf')) {
+          // Clean up any punctuation
+          const cleanFile = words[i].replace(/[.,;:]$/, '');
+          const docId = cleanFile.split('.')[0].replace(/\s+/g, '_');
+          extractedDocs.push({
+            displayName: cleanFile,
+            id: docId
+          });
+        }
+      }
+    }
+    
+    // Ultimate fallback - if we still can't find the files
+    if (extractedDocs.length === 0) {
+      // Try to get file count from the message
+      const fileCountMatch = content.match(/(\d+)\s*files?\s*ha(?:ve|s)/i);
+      if (fileCountMatch && fileCountMatch[1]) {
+        const count = parseInt(fileCountMatch[1], 10);
+        for (let i = 1; i <= count; i++) {
+          extractedDocs.push({
+            displayName: `Document ${i}`,
+            id: `document_${i}`
+          });
+        }
+      } else {
+        // Last resort fallback
+        extractedDocs.push({
+          displayName: 'Document',
+          id: 'document'
+        });
+      }
+    }
+    
+    console.log("Final document list:", extractedDocs);
+    setDocuments(extractedDocs);
+    // Default to all documents
+    setSelectedFile('all');
+    
   }, [message]);
 
-  // Fix the event type for Select's onChange handler
   const handleFileChange = (event: SelectChangeEvent<string>) => {
-    setSelectedFile(event.target.value as string);
+    setSelectedFile(event.target.value);
   };
 
   const handleGenerateClick = () => {
-    const fileId = selectedFile.split('.')[0]; // Remove file extension to get the ID
-    onGenerateQuestions(fileId);
+    if (selectedFile === 'all') {
+      onGenerateQuestions('all');
+    } else {
+      // Find the document ID for the selected display name
+      const selectedDoc = documents.find(doc => doc.displayName === selectedFile);
+      const docId = selectedDoc ? selectedDoc.id : selectedFile.split('.')[0].replace(/\s+/g, '_');
+      
+      console.log(`Generating questions for: ${selectedFile} (ID: ${docId})`);
+      onGenerateQuestions(docId);
+    }
   };
 
   return (
     <Box sx={{ mt: 2 }}>
-      {uploadedFiles.length > 1 ? (
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-          <Typography
-            variant="caption"
-            sx={{
-              color: 'var(--text-accent)',
-              fontFamily: 'var(--font-primary)',
-              letterSpacing: '0.5px'
-            }}
-          >
-            Select a document to generate questions:
-          </Typography>
-          
-          <FormControl 
-            variant="outlined" 
-            size="small"
-            sx={{
-              minWidth: 200,
-              '& .MuiOutlinedInput-root': {
-                color: 'var(--text-primary)',
-                borderColor: 'rgba(79, 70, 229, 0.3)',
-                backgroundColor: 'rgba(15, 23, 42, 0.3)',
-                '&:hover .MuiOutlinedInput-notchedOutline': {
-                  borderColor: 'var(--primary-color)',
-                },
-                '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                  borderColor: 'var(--primary-color)',
-                }
-              },
-              '& .MuiInputLabel-root': {
-                color: 'var(--text-secondary)',
-              }
-            }}
-          >
-            <InputLabel id="document-select-label">Document</InputLabel>
-            <Select
-              labelId="document-select-label"
-              value={selectedFile}
-              onChange={handleFileChange}
-              label="Document"
-            >
-              {uploadedFiles.map((file, index) => (
-                <MenuItem key={index} value={file}>{file}</MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-          
-          <Button
-            variant="outlined"
-            size="small"
-            onClick={handleGenerateClick}
-            disabled={isLoading || !selectedFile}
-            className="pulse-element"
-            sx={{
-              borderColor: 'var(--primary-color)',
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+        <Typography
+          variant="subtitle2"
+          sx={{
+            color: 'var(--text-accent)',
+            fontFamily: 'var(--font-primary)',
+            letterSpacing: '0.5px',
+            fontWeight: 'bold'
+          }}
+        >
+          Generate Questions From Your Documents
+        </Typography>
+        
+        {/* Document selector dropdown */}
+        <FormControl 
+          variant="outlined" 
+          size="small"
+          sx={{
+            minWidth: 300,
+            '& .MuiOutlinedInput-root': {
               color: 'var(--text-primary)',
-              borderRadius: 'var(--border-radius)',
-              fontFamily: 'var(--font-primary)',
-              letterSpacing: '1px',
-              textTransform: 'uppercase',
-              fontWeight: 500,
-              position: 'relative',
-              overflow: 'hidden',
-              padding: '8px 16px',
-              transition: 'var(--transition-smooth)',
-              backdropFilter: 'blur(4px)',
-              alignSelf: 'flex-start',
-              '&:hover': {
-                borderColor: 'transparent',
-                backgroundColor: 'rgba(79, 70, 229, 0.1)',
-                boxShadow: 'var(--shadow-glow)'
+              borderColor: 'rgba(79, 70, 229, 0.3)',
+              backgroundColor: 'rgba(15, 23, 42, 0.3)',
+              '&:hover .MuiOutlinedInput-notchedOutline': {
+                borderColor: 'var(--primary-color)',
               },
-              '&.Mui-disabled': {
-                borderColor: 'rgba(79, 70, 229, 0.3)',
-                color: 'rgba(79, 70, 229, 0.3)',
+              '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                borderColor: 'var(--primary-color)',
               }
-            }}
+            },
+            '& .MuiInputLabel-root': {
+              color: 'var(--text-secondary)',
+            }
+          }}
+        >
+          <InputLabel id="document-select-label">Document</InputLabel>
+          <Select
+            labelId="document-select-label"
+            value={selectedFile}
+            onChange={handleFileChange}
+            label="Document"
           >
-            Generate Questions
-          </Button>
-        </Box>
-      ) : (
-        <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-          <Button
-            variant="outlined"
-            size="small"
-            onClick={handleGenerateClick}
-            disabled={isLoading}
-            className="pulse-element"
-            sx={{
-              borderColor: 'var(--primary-color)',
-              color: 'var(--text-primary)',
-              borderRadius: 'var(--border-radius)',
-              fontFamily: 'var(--font-primary)',
-              letterSpacing: '1px',
-              textTransform: 'uppercase',
-              fontWeight: 500,
-              position: 'relative',
-              overflow: 'hidden',
-              padding: '8px 16px',
-              transition: 'var(--transition-smooth)',
-              backdropFilter: 'blur(4px)',
-              '&:hover': {
-                borderColor: 'transparent',
-                backgroundColor: 'rgba(79, 70, 229, 0.1)',
-                boxShadow: 'var(--shadow-glow)'
-              },
-              '&.Mui-disabled': {
-                borderColor: 'rgba(79, 70, 229, 0.3)',
-                color: 'rgba(79, 70, 229, 0.3)',
-              }
-            }}
-          >
-            Generate Questions
-          </Button>
-        </Box>
-      )}
+            <MenuItem value="all">All Documents</MenuItem>
+            {documents.map((doc, index) => (
+              <MenuItem key={index} value={doc.displayName}>{doc.displayName}</MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+        
+        {/* Display document ID for debugging (can be removed in production) */}
+        <Typography variant="caption" sx={{ color: 'rgba(255, 255, 255, 0.5)' }}>
+          {selectedFile !== 'all' ? 
+            `Document ID: ${documents.find(doc => doc.displayName === selectedFile)?.id || 'unknown'}` : 
+            'Document ID: all'}
+        </Typography>
+        
+        {/* Generate button */}
+        <Button
+          variant="outlined"
+          size="small"
+          onClick={handleGenerateClick}
+          disabled={isLoading}
+          className="pulse-element"
+          sx={{
+            borderColor: 'var(--primary-color)',
+            color: 'var(--text-primary)',
+            borderRadius: 'var(--border-radius)',
+            fontFamily: 'var(--font-primary)',
+            letterSpacing: '1px',
+            textTransform: 'uppercase',
+            fontWeight: 500,
+            position: 'relative',
+            overflow: 'hidden',
+            padding: '8px 16px',
+            transition: 'var(--transition-smooth)',
+            backdropFilter: 'blur(4px)',
+            alignSelf: 'flex-start',
+            '&:hover': {
+              borderColor: 'transparent',
+              backgroundColor: 'rgba(79, 70, 229, 0.1)',
+              boxShadow: 'var(--shadow-glow)'
+            },
+            '&.Mui-disabled': {
+              borderColor: 'rgba(79, 70, 229, 0.3)',
+              color: 'rgba(79, 70, 229, 0.3)',
+            }
+          }}
+        >
+          Generate Questions
+        </Button>
+      </Box>
     </Box>
   );
 };
