@@ -2,6 +2,8 @@
 
 **Due_Diligence_4DS2** is an intelligent platform that automates and enhances the due diligence process for digital assets and crypto investment funds. Developed as a capstone project by 4DS2 students at [ESPRIT University](https://esprit.tn), it leverages advanced NLP, data engineering, and machine learning to deliver a trustworthy, automated due diligence pipeline.
 
+[![Watch the Technical Demo](https://img.icons8.com/clouds/2x/video-playlist.png)](https://drive.google.com/file/d/1D5GI3hBaL3rQXcfnjsXt4R3KMuIhq8pZ/view)
+
 ---
 
 ## 🚀 Project Overview
