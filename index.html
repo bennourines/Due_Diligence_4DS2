@@ -8,41 +8,94 @@
     <style>
         body {
             padding-top: 50px;
+            background-color: #f8f9fa;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-        h1 {
+        h1, h2, h3 {
             color: #007bff;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        .thumbnail {
+            display: block;
+            max-width: 300px;
+            margin: 20px auto;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Due Diligence Automation for Digital Assets</h1>
-        <p><strong>Crypto Fund Due Diligence Automation</strong> streamlines the due diligence process for digital assets using AI-powered question generation, data pipelines, and automated PPTX reports. Developed at **ESPRIT University**, it leverages GPT models, data scraping, and financial analysis to assist stakeholders in making informed decisions.</p>
+        <h1 class="text-center">📊 Due Diligence Automation for Digital Assets</h1>
+        <p class="lead text-center"><strong>AI-Powered Crypto Fund Due Diligence</strong></p>
 
-        <h3>Features</h3>
+        <div class="text-center">
+            <a href="https://drive.google.com/file/d/1D5GI3hBaL3rQXcfnjsXt4R3KMuIhq8pZ/view" target="_blank">
+                <img class="thumbnail" src="https://img.icons8.com/clouds/2x/video-playlist.png" alt="Technical Demo">
+            </a>
+            <p><a href="https://drive.google.com/file/d/1D5GI3hBaL3rQXcfnjsXt4R3KMuIhq8pZ/view" target="_blank">🎥 Watch the Technical Demo</a></p>
+        </div>
+
+        <h3>🚀 Project Overview</h3>
+        <p>This intelligent platform automates and enhances the due diligence process for digital assets and crypto investment funds. Developed by 4DS2 students at <a href="https://esprit.tn" target="_blank">ESPRIT University</a>, it uses GPT-based models, data pipelines, and AI for trustworthy and scalable assessments.</p>
+
+        <blockquote class="blockquote">
+            <p class="mb-0">From entity extraction and risk profiling to automated reports — Due_Diligence_4DS2 provides an end-to-end AI-driven solution.</p>
+        </blockquote>
+
+        <h3>🔧 Core Features</h3>
         <ul>
-            <li>Automated data collection via APIs and web scraping.</li>
-            <li>AI-powered question generation using GPT models.</li>
-            <li>Professional PowerPoint report generation.</li>
+            <li>📡 Automated data ingestion via APIs, PDFs, GitHub, Reddit, etc.</li>
+            <li>🧠 Custom NLP with risk profiling using spaCy, regex, and blacklist filtering.</li>
+            <li>🔎 Hybrid semantic + keyword search with Qdrant & TF-IDF.</li>
+            <li>🤖 AI question generation using Retrieval-Augmented Generation (RAG).</li>
+            <li>📊 Automated PowerPoint report generation using <code>python-pptx</code>.</li>
         </ul>
 
-        <h3>Technologies</h3>
+        <h3>🛠️ Tech Stack</h3>
         <ul>
-            <li>Programming Languages: Python, PostgreSQL</li>
-            <li>Data Pipelines: Apache Airflow</li>
-            <li>AI Models: GPT-3.5/4</li>
-            <li>Libraries: Python-pptx, Pandas, NumPy</li>
-            <li>Web Scraping: BeautifulSoup, Selenium</li>
+            <li><strong>Languages:</strong> Python, JavaScript (React)</li>
+            <li><strong>ML & NLP:</strong> LLaMA 3.2, spaCy, MPNet, Cross-Encoder</li>
+            <li><strong>Data Pipelines:</strong> Apache Airflow, LangChain</li>
+            <li><strong>Retrieval:</strong> Qdrant, TF-IDF, Knowledge Graph</li>
+            <li><strong>Reporting:</strong> python-pptx, Seaborn</li>
         </ul>
 
-        <h3>Hosted At</h3>
-        <p>GitHub Pages</p>
+        <h3>📈 Evaluation Metrics</h3>
+        <p>Evaluation uses <a href="https://github.com/explodinggradients/ragas" target="_blank">RAGAS</a> to measure:</p>
+        <ul>
+            <li>Context precision, recall, and relevance</li>
+            <li>Answer factuality and completeness</li>
+            <li>BLEU, ROUGE, BERTScore, Exact Match</li>
+        </ul>
 
-        <h3>Acknowledgments</h3>
-        <p>This project was developed under the guidance of Esprit Faculty.</p>
+        <h3>🌐 Deployment & Access</h3>
+        <ul>
+            <li>🚀 FastAPI backend</li>
+            <li>🔍 Local LLaMA inference</li>
+            <li>📄 SQLite for document management</li>
+        </ul>
+
+        <h3>📚 References</h3>
+        <ul>
+            <li><a href="https://openrouter.ai/meta-llama/llama-4-maverick" target="_blank">Meta LLaMA 3.2</a></li>
+            <li><a href="https://qdrant.tech" target="_blank">Qdrant</a></li>
+            <li><a href="https://docs.langchain.com" target="_blank">LangChain</a></li>
+            <li><a href="https://spacy.io" target="_blank">spaCy</a></li>
+        </ul>
+
+        <h3>🙏 Acknowledgments</h3>
+        <p>This project was developed under the guidance of the <strong>Faculty of ESPRIT University</strong> by students of 4DS2.</p>
+
+        <h3>💬 Contact</h3>
+        <p>📧 <a href="mailto:info@esprit.tn">info@esprit.tn</a></p>
+        <p>🌐 <a href="https://bennourines.github.io/Due_Diligence_4DS2" target="_blank">Project Website</a></p>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
